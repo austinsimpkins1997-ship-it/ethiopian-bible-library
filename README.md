@@ -1,10 +1,10 @@
 # Ethiopian Bible Library site
 
-Static, mobile-first catalogue site. It uses only HTML, CSS, JavaScript, and the adjacent `archive.json`; no user account or external service is required to browse. Fonts use system fallbacks, and the site makes no third-party font requests. The related texts section includes the Ugaritic Baal Cycle, 11Q11, Pistis Sophia, the Testament of Solomon, and Psalms of Solomon, clearly separated from the canon list.
+Static, mobile-first archive. It uses only local HTML, CSS, JavaScript, and archive data embedded in `index.html`. Browsing makes no network requests: no API, external data feed, analytics, account, CDN, or third-party font. Source links are provided for readers who choose to open them and require internet access. The related texts section keeps the Ugaritic Baal Cycle, 11Q11, Pistis Sophia, the Testament of Solomon, and Psalms of Solomon distinct from the canon catalogue.
 
 ## Run locally
 
-Open a terminal in this directory and run a local static server, for example:
+Open `index.html` directly in a browser. The archive data is embedded, so the catalogue also works from a `file://` address without a local server. For optional local development, run:
 
 ```powershell
 python -m http.server 8000
@@ -20,5 +20,9 @@ For a ready-to-upload archive and browser upload steps, see `UPLOAD_TO_GITHUB.md
 
 ## Important content boundary
 
-The site currently displays a preliminary catalogue and source register, not scripture text. Catalogue records are not equivalent to verified texts. Do not add text until its edition, translation, chapter sequence, completeness, provenance, and rights have been checked. Current canon counts and groupings vary; the 88 displayed records are a searchable display scheme based on a provisional 81-unit list.
+The site stores its catalogue locally and cites itself only as the record custodian; self-citation is not independent evidence. It displays 89 searchable research rows, not 89 canonical books. The Ethiopian Orthodox Tewahedo Church’s English canon page states 81 books (46 Old Testament, 35 New Testament) and groups some titles. The row-to-canon mappings, Ethiopic witnesses, editions, translations, chapter boundaries, text availability, completeness, and reuse rights remain unverified unless a record explicitly says otherwise. Evidence links are leads and context, not a certification of each row. The archive makes no claim to omniscience; if knowledge is understood as a gift from God, the editorial response here is humility: name witnesses, distinguish evidence from interpretation, and keep unresolved claims open to correction. Build readers only after verifying text and boundaries; clear reuse rights before publication and add narration only after text, boundaries, and audio rights are verified.
+
+## Updating the archive
+
+`archive.json` is the editable source of truth. After changing it, run `python build_standalone.py` to validate catalogue IDs and source references and embed the updated data into `index.html`. The generated site works offline. No data is fetched from external sites; outbound source links open only when a reader chooses them.
 
