@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123b31">
+  <meta name="description" content="Explore a carefully documented catalogue of Ethiopian Orthodox Tewahedo scripture and related source materials. Always free, with uncertainty made visible.">
+  <title>Ethiopian Bible Library — Explore the Word. Without limits.</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Ethiopian Bible Library home">
+      <span class="brand-mark" aria-hidden="true">✳</span>
+      <span>Ethiopian Bible Library</span>
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav-link active" href="#library" data-view="library">Library</a>
+      <a class="nav-link" href="#sources" data-view="sources">Sources &amp; method</a>
+      <a class="nav-link" href="#studies" data-view="studies">Study connections</a>
+      <a class="nav-link" href="#related" data-view="related">Related texts</a>
+      <a class="nav-link nav-about" href="#about" data-view="about">About</a>
+    </nav>
+    <span class="free-pill"><span aria-hidden="true">●</span> Always free</span>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-text">
+        <p class="eyebrow"><span class="eyebrow-line"></span> A growing, carefully documented library</p>
+        <h1 id="hero-title">Explore the Word.<br><em>Without limits.</em></h1>
+        <p class="hero-copy">Read and explore the Ethiopian biblical tradition through a growing, carefully documented library. Access is always free. We identify what is verified, what remains incomplete, and where further research is needed.</p>
+        <a class="button button-gold" href="#library">Explore the library <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="sun-disc"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-cross">✳</div>
+        <div class="hero-caption"><span>ጥንታዊ ጽሑፎች</span><small>ANCIENT TEXTS · OPEN ACCESS</small></div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Library principles">
+      <div><span class="trust-icon">◎</span><span><strong>Free to explore</strong><small>No paywalls or accounts</small></span></div>
+      <div><span class="trust-icon">⌕</span><span><strong>Sources named</strong><small>Know where each record comes from</small></span></div>
+      <div><span class="trust-icon">◇</span><span><strong>Gaps made visible</strong><small>No invented or padded scripture</small></span></div>
+    </section>
+
+    <section class="section library-section" id="library" aria-labelledby="library-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE COLLECTION</p><h2 id="library-title">A tradition with depth</h2><p class="section-copy">Browse the working catalogue. Records describe titles and research status; they do not imply that a verified chapter text is available.</p></div>
+        <div class="count-card"><strong id="book-count">—</strong><span>catalogue records</span></div>
+      </div>
+
+      <div class="catalogue-note" role="note"><span class="note-icon">i</span><p><strong>About the count:</strong> This archive uses 88 searchable display records based on a provisional 81-unit enumeration. Grouping and counts vary across sources and traditions. <a href="#sources" data-view="sources">Read how we handle the count</a>.</p></div>
+
+      <div class="controls">
+        <label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">Search titles and notes</span><input id="search" type="search" placeholder="Search titles, names, or notes…" autocomplete="off"></label>
+        <div class="filter-row" role="group" aria-label="Filter catalogue">
+          <button class="filter active" data-filter="All" aria-pressed="true">All <span id="all-count"></span></button>
+          <button class="filter" data-filter="Old Testament" aria-pressed="false">Old Testament</button>
+          <button class="filter" data-filter="New Testament" aria-pressed="false">New Testament</button>
+        </div>
+      </div>
+
+      <div class="results-meta"><span id="results-label" aria-live="polite">Loading catalogue…</span><button class="text-button" id="reset-filters" hidden>Clear filters</button></div>
+      <div class="catalogue-layout">
+        <div id="book-grid" class="book-grid" aria-live="polite"></div>
+        <aside id="detail-panel" class="detail-panel" aria-label="Selected catalogue record" aria-live="polite">
+          <div class="detail-empty"><span class="detail-star">✳</span><h3>Choose a title</h3><p>Open a catalogue record to see its alternate names, source, and current research status.</p></div>
+        </aside>
+      </div>
+      <div id="empty-state" class="empty-state" hidden><span>⌕</span><h3>No matching titles</h3><p>Try a different search or clear the filters.</p></div>
+    </section>
+
+    <section class="quote-band" aria-label="Editorial principle">
+      <span class="quote-mark">“</span>
+      <blockquote>Access without deception.<br><em>Openness without exclusion.</em></blockquote>
+      <span class="quote-rule"></span>
+      <p>We do not generate missing scripture. When a text or translation cannot be verified, we say so.</p>
+    </section>
+
+    <section class="section sources-section" id="sources" aria-labelledby="sources-title">
+      <div class="section-heading source-heading">
+        <div><p class="eyebrow">EVIDENCE &amp; TRANSPARENCY</p><h2 id="sources-title">Every source has a story</h2><p class="section-copy">A source lead is not the same as a verified text. We record what we inspected and what remains unknown.</p></div>
+        <div class="count-card"><strong id="source-count">—</strong><span>source records</span></div>
+      </div>
+      <div class="source-callout"><span aria-hidden="true">✳</span><div><strong>Research before reproduction</strong><p>Text identity, edition, chapter structure, completeness, and reuse rights must be checked before a chapter can be displayed or narrated.</p></div></div>
+      <div id="source-list" class="source-list"></div>
+    </section>
+
+    <section class="section related-section" id="related" aria-labelledby="related-title">
+      <div class="section-heading"><div><p class="eyebrow">COMPARATIVE READING</p><h2 id="related-title">Related ancient texts</h2><p class="section-copy">These sources can illuminate the ancient world around scripture. They are kept distinct from the canon catalogue.</p></div></div>
+      <div class="related-note"><span aria-hidden="true">◇</span><p><strong>Separate collections, separate histories.</strong> A manuscript's age, discovery location, or thematic connection does not make it part of a biblical canon.</p></div>
+      <div id="related-list" class="related-list"></div>
+    </section>
+
+    <section class="section studies-section" id="studies" aria-labelledby="studies-title">
+      <div class="section-heading"><div><p class="eyebrow">INPUT → OUTPUT · TEXTUAL COMPARISONS</p><h2 id="studies-title">Study connections</h2><p class="section-copy">Start with a passage or story; follow the shared imagery, then check what the sources actually say.</p></div></div>
+      <div class="study-grid">
+        <article class="study-card">
+          <span class="related-category">INPUT · DANIEL 7</span><h3>Four beasts → Revelation’s sea beast</h3>
+          <p><strong>Output:</strong> Daniel’s vision describes four beasts rising from the sea; the fourth has ten horns. Revelation 13 presents a sea beast that combines leopard, bear, and lion features and has seven heads and ten horns. Revelation deliberately reworks Daniel’s beast imagery into a composite figure.</p>
+          <p class="related-boundary">The shared imagery is clear; the passages have different literary settings and interpretations. This comparison does not make them the same vision.</p>
+          <div class="related-links"><a href="https://bible.usccb.org/bible/daniel/7" target="_blank" rel="noopener noreferrer">Daniel 7 ↗</a><a href="https://bible.usccb.org/bible/revelation/13" target="_blank" rel="noopener noreferrer">Revelation 13 ↗</a></div>
+        </article>
+        <article class="study-card">
+          <span class="related-category">INPUT · UGARITIC BAAL CYCLE (KTU 1.5–1.6)</span><h3>Mot, Anat, and Baal’s return</h3>
+          <p><strong>Output:</strong> In the fragmentary cycle, Mot’s enormous mouth and appetite embody death and the underworld. Baal submits and descends; his absence is followed by mourning and parched land. Anat attacks Mot, cutting, winnowing, burning, grinding, and scattering him like harvested grain. El then dreams that Baal lives, and Shapash is sent to find him.</p>
+          <p>After a seven-year interval in the surviving narrative, Mot challenges Baal again. Their struggle ends with both collapsing; Shapash warns Mot that El can strip him of his authority. Mot yields, and Baal’s kingship is restored.</p>
+          <p class="related-boundary">The tablets are damaged, and translations differ. The story does not explicitly teach that gods cannot die; “seasonal death and return” is a scholarly interpretation, not a simple statement in the text. The user-supplied anthology scan is identified in the source register, but its copyrighted translation is not reproduced here.</p>
+          <div class="related-links"><a href="https://collections.louvre.fr/ark:/53355/cl010141446" target="_blank" rel="noopener noreferrer">Louvre Baal Cycle tablet ↗</a><a href="https://archeologie.culture.gouv.fr/ougarit/fr/le-cycle-de-baal" target="_blank" rel="noopener noreferrer">Ugarit / Baal Cycle overview ↗</a><a href="https://www.marquette.edu/maqom/baalyamm.pdf" target="_blank" rel="noopener noreferrer">Marquette Ugaritic texts resource ↗</a></div>
+        </article>
+        <article class="study-card">
+          <span class="related-category">INPUT · 2 KINGS 1:2 → MARK 3:22</span><h3>Baal-zebub → Beelzebul (aka Beelzebub)</h3>
+          <p><strong>Output:</strong> “Baal” began as a West Semitic title meaning “lord/master,” and was used as a divine name or title. In 2 Kings 1, the god of Ekron is called <em>Baal-zebub</em>, conventionally “Baal of flies.” The USCCB’s note calls this a derisive alteration of <em>Baal-zebul</em>, “Prince Baal.” The exact history and sense of <em>zebul</em> are debated.</p>
+          <p>In Mark 3, Matthew 12, and Luke 11, opponents accuse Jesus of driving out demons by <em>Beelzebul</em>, “the prince of demons.” “Beelzebub” is a familiar later/translation variant. The fun textual twist: a rival god’s exalted-sounding title is recast as “lord of flies,” then appears in the Gospels as the demon boss blamed for an exorcism. Jesus answers with the “divided kingdom” argument and points out the contradiction of calling a liberation demonic while their own exorcists do similar work.</p>
+          <p class="related-boundary">This is a traceable name-and-polemic connection through 2 Kings and Jewish/Christian usage. It does not prove that the Gospel episode retells the Ugaritic Baal Cycle or that every later meaning came from a single deliberate insult; scholarship discusses multiple proposed etymologies.</p>
+          <div class="related-links"><a href="https://bible.usccb.org/bible/2kings/1" target="_blank" rel="noopener noreferrer">2 Kings 1 + name note ↗</a><a href="https://bible.usccb.org/bible/mark/3" target="_blank" rel="noopener noreferrer">Mark 3 ↗</a><a href="https://bible.usccb.org/bible/matthew/12" target="_blank" rel="noopener noreferrer">Matthew 12 ↗</a><a href="https://bible.usccb.org/bible/luke/11" target="_blank" rel="noopener noreferrer">Luke 11 ↗</a><a href="https://www.mdpi.com/2077-1444/14/8/1070" target="_blank" rel="noopener noreferrer">Name-history discussion ↗</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <p class="eyebrow">OUR PROMISE</p><h2 id="about-title">A library built with care</h2>
+      <div class="about-grid">
+        <p class="about-lead">Every reader deserves access without a price on it. That access must never depend on pretending to have verified what we have not.</p>
+        <div class="principles">
+          <div><span>01</span><p><strong>Preserve the distinctions.</strong> Similar titles from different canons and editions are not interchangeable.</p></div>
+          <div><span>02</span><p><strong>Name what is missing.</strong> A catalogue entry does not mean the complete text is available.</p></div>
+          <div><span>03</span><p><strong>Respect the source.</strong> We identify the edition and check rights before reproducing or narrating a text.</p></div>
+        </div>
+      </div>
+      <p class="disclaimer">This is a research catalogue, not an official publication of the Ethiopian Orthodox Tewahedo Church. The current catalogue is preliminary and has not received specialist or clergy review.</p>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">✳</span><span>Ethiopian Bible Library</span></a><p>Free to explore. Careful by design.</p><a href="#sources" data-view="sources">Sources &amp; method</a><small>Catalogue status reflects the research archive supplied with this site. Updated October 2026.</small></footer>
+</body>
+</html>
