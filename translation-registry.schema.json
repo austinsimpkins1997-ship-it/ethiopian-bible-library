@@ -1,0 +1,397 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/translation-registry.schema.json",
+  "title": "Ethiopian Bible Library language and translation registry",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "title",
+    "coverage_statement",
+    "basis_languages",
+    "languages",
+    "translation_leads",
+    "corpus_leads"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "coverage_statement": {
+      "type": "string",
+      "minLength": 1
+    },
+    "basis_languages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "language_tag",
+          "language_name",
+          "role"
+        ],
+        "properties": {
+          "language_tag": {
+            "type": "string",
+            "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$"
+          },
+          "language_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/language"
+      }
+    },
+    "translation_leads": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/translationLead"
+      }
+    },
+    "corpus_leads": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/corpusLead"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "translationLead": {
+      "type": "object",
+      "required": [
+        "canon_id",
+        "language_tag",
+        "translator",
+        "edition",
+        "translation_path",
+        "source_ids",
+        "text_bundled",
+        "rights_status",
+        "review_status",
+        "notes"
+      ],
+      "properties": {
+        "canon_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "language_tag": {
+          "type": "string",
+          "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$"
+        },
+        "translator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "edition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "translation_path": {
+          "oneOf": [
+            {"type": "null"},
+            {
+              "type": "array",
+              "minItems": 2,
+              "items": {"type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$"}
+            }
+          ],
+          "description": "Ordered BCP 47 tags from source through any relay language to output; null means the path is not established."
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "text_bundled": {
+          "const": false
+        },
+        "rights_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "language": {
+      "type": "object",
+      "required": [
+        "language_tag",
+        "language_name",
+        "script_code",
+        "direction",
+        "records"
+      ],
+      "properties": {
+        "language_tag": {
+          "type": "string",
+          "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$"
+        },
+        "language_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "script_code": {
+          "type": "string",
+          "pattern": "^[A-Z][a-z]{3}$",
+          "description": "Legacy single-script field; use Zzzz when this language record has no single default script. See script_codes and script_profile_note."
+        },
+        "script_codes": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^[A-Z][a-z]{3}$"},
+          "uniqueItems": true,
+          "description": "All writing systems supported by evidence for this language profile; do not infer that a list is exhaustive."
+        },
+        "script_profile_note": {
+          "type": "string",
+          "description": "Evidence scope, variation, uncertainty, or dates for the language-level script profile."
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true
+        },
+        "direction": {
+          "enum": [
+            "ltr",
+            "rtl",
+            "unknown"
+          ],
+          "description": "HTML-compatible base bidirectional text direction. Use auto when direction is unknown in the rendered text; vertical orientation belongs in writing_mode."
+        },
+        "writing_mode": {
+          "enum": [
+            "horizontal-tb",
+            "vertical-rl",
+            "vertical-lr",
+            "unknown"
+          ],
+          "description": "Optional evidenced writing orientation. Leave absent or unknown when the language/witness writing mode is not established; do not infer vertical orientation from a script name."
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/layer"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "layer": {
+      "type": "object",
+      "required": [
+        "canon_id",
+        "reader_id",
+        "layer_role",
+        "status",
+        "basis_language_tag",
+        "basis_description",
+        "rights_status",
+        "source_ids"
+      ],
+      "properties": {
+        "canon_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reader_id": {
+          "type": ["string", "null"],
+          "minLength": 1,
+          "description": "Required for bundled records; null is allowed for a source-backed metadata-only candidate."
+        },
+        "translation_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "layer_role": {
+          "enum": [
+            "source_text_transcription",
+            "source_text_edition",
+            "translation",
+            "historical_companion_translation",
+            "transliteration",
+            "paraphrase",
+            "draft_translation"
+          ]
+        },
+        "status": {
+          "enum": [
+            "candidate",
+            "transcribed",
+            "source_checked",
+            "translated_draft",
+            "translation_reviewed",
+            "bundled"
+          ]
+        },
+        "translator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "basis_language_tag": {
+          "type": "string",
+          "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$"
+        },
+        "basis_description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "translation_path": {
+          "type": "array",
+          "minItems": 2,
+          "items": {"type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$"},
+          "description": "Ordered BCP 47 tags from source through any relay language to output."
+        },
+        "rights_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "corpusLead": {
+      "type": "object",
+      "required": [
+        "corpus_id",
+        "title",
+        "language_tag",
+        "language_name",
+        "script_code",
+        "publisher",
+        "publication_year",
+        "scope_description",
+        "basis_language_tag",
+        "basis_description",
+        "translation_path",
+        "contributors",
+        "text_bundled",
+        "rights_status",
+        "review_status",
+        "source_ids",
+        "notes"
+      ],
+      "properties": {
+        "corpus_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "language_tag": {
+          "type": "string",
+          "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$"
+        },
+        "language_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "script_code": {
+          "type": "string",
+          "pattern": "^[A-Z][a-z]{3}$",
+          "description": "Script of this specific witness when known; use Zzzz when the edition's script has not been verified."
+        },
+        "script_status": {
+          "enum": ["identified", "unidentified", "provisional"]
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publication_year": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope_description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "basis_language_tag": {
+          "type": "string",
+          "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$"
+        },
+        "basis_description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "translation_path": {
+          "oneOf": [
+            {"type": "null"},
+            {
+              "type": "array",
+              "minItems": 2,
+              "items": {"type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$"}
+            }
+          ],
+          "description": "Ordered BCP 47 tags from source through any relay language to output; null means the path is not established."
+        },
+        "contributors": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text_bundled": {
+          "const": false
+        },
+        "rights_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

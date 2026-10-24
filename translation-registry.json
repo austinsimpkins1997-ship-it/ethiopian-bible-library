@@ -1,0 +1,566 @@
+{
+  "schema_version": 1,
+  "title": "Language and translation registry",
+  "coverage_statement": "This prototype records bundled Geʽez source transcriptions/editions for Genesis, Exodus, Leviticus, Numbers, Deuteronomy, Joshua, Judges, Ruth, Psalms, Jubilees, and 1 Enoch, plus a historical Greek-to-English Genesis companion. It also records scoped Eritrean language/script profiles, including a Dahalik profile for which this archive has not identified a scripture witness, and unbundled Bible corpus leads. Tigrinya, Tigre, Kunama, Blin, and Saho leads are not bundled and do not establish Eritrean Orthodox canon coverage. Script profiles reflect dated cited sources and may vary by region and witness. Eleven of the EOTC English list’s 81 entries have bundled reader text; this is not global language or canon coverage.",
+  "basis_languages": [
+    {
+      "language_tag": "grc",
+      "language_name": "Ancient Greek",
+      "role": "translation source language only; no Greek scripture text is bundled"
+    }
+  ],
+  "languages": [
+    {
+      "language_tag": "gez",
+      "language_name": "Geʽez (Classical Ethiopic)",
+      "script_code": "Ethi",
+      "direction": "ltr",
+      "records": [
+        {
+          "canon_id": "eotc-ot-01",
+          "reader_id": "genesis-geez-dillmann-hacohen",
+          "layer_role": "source_text_transcription",
+          "status": "bundled",
+          "basis_language_tag": "gez",
+          "basis_description": "Historical Geʽez edition transcription; see edition, OCR, and collation limits in the reader record.",
+          "rights_status": "noncommercial_with_required_notice",
+          "source_ids": [
+            "SRC-034",
+            "SRC-035",
+            "SRC-036"
+          ]
+        },
+        {
+          "canon_id": "eotc-ot-02",
+          "reader_id": "exodus-geez-dillmann-hacohen",
+          "layer_role": "source_text_transcription",
+          "status": "bundled",
+          "basis_language_tag": "gez",
+          "basis_description": "Historical Dillmann Geʽez edition transcription; no fresh collation or English translation is claimed.",
+          "rights_status": "noncommercial_with_required_notice",
+          "source_ids": [
+            "SRC-034",
+            "SRC-035",
+            "SRC-036",
+            "SRC-058",
+            "SRC-059",
+            "SRC-061"
+          ]
+        },
+        {
+          "canon_id": "eotc-ot-03",
+          "reader_id": "leviticus-geez-dillmann-hacohen",
+          "layer_role": "source_text_transcription",
+          "status": "bundled",
+          "basis_language_tag": "gez",
+          "basis_description": "Historical Dillmann Geʽez edition transcription; no fresh collation or English translation is claimed.",
+          "rights_status": "noncommercial_with_required_notice",
+          "source_ids": [
+            "SRC-034",
+            "SRC-035",
+            "SRC-036",
+            "SRC-064"
+          ]
+        },
+        {
+          "canon_id": "eotc-ot-04",
+          "reader_id": "numbers-geez-dillmann-hacohen",
+          "layer_role": "source_text_transcription",
+          "status": "bundled",
+          "basis_language_tag": "gez",
+          "basis_description": "Historical Dillmann Geʽez edition transcription; no fresh collation or English translation is claimed.",
+          "rights_status": "noncommercial_with_required_notice",
+          "source_ids": [
+            "SRC-034",
+            "SRC-035",
+            "SRC-036",
+            "SRC-064"
+          ]
+        },
+        {
+          "canon_id": "eotc-ot-05",
+          "reader_id": "deuteronomy-geez-dillmann-hacohen",
+          "layer_role": "source_text_transcription",
+          "status": "bundled",
+          "basis_language_tag": "gez",
+          "basis_description": "Historical Dillmann Geʽez edition transcription; no fresh collation or English translation is claimed.",
+          "rights_status": "noncommercial_with_required_notice",
+          "source_ids": [
+            "SRC-034",
+            "SRC-035",
+            "SRC-036",
+            "SRC-064"
+          ]
+        },
+        {
+          "canon_id": "eotc-ot-06",
+          "reader_id": "joshua-geez-dillmann-hacohen",
+          "layer_role": "source_text_transcription",
+          "status": "bundled",
+          "basis_language_tag": "gez",
+          "basis_description": "Historical Dillmann Geʽez edition transcription; no fresh collation or English translation is claimed.",
+          "rights_status": "noncommercial_with_required_notice",
+          "source_ids": [
+            "SRC-034",
+            "SRC-035",
+            "SRC-036",
+            "SRC-064"
+          ]
+        },
+        {
+          "canon_id": "eotc-ot-07",
+          "reader_id": "judges-geez-dillmann-hacohen",
+          "layer_role": "source_text_transcription",
+          "status": "bundled",
+          "basis_language_tag": "gez",
+          "basis_description": "Historical Dillmann Geʽez edition transcription; no fresh collation or English translation is claimed.",
+          "rights_status": "noncommercial_with_required_notice",
+          "source_ids": [
+            "SRC-034",
+            "SRC-035",
+            "SRC-036",
+            "SRC-064"
+          ]
+        },
+        {
+          "canon_id": "eotc-ot-08",
+          "reader_id": "ruth-geez-dillmann-hacohen",
+          "layer_role": "source_text_transcription",
+          "status": "bundled",
+          "basis_language_tag": "gez",
+          "basis_description": "Historical Dillmann Geʽez edition transcription; no fresh collation or English translation is claimed.",
+          "rights_status": "noncommercial_with_required_notice",
+          "source_ids": [
+            "SRC-034",
+            "SRC-035",
+            "SRC-036",
+            "SRC-064"
+          ]
+        },
+        {
+          "canon_id": "eotc-ot-13",
+          "reader_id": "jubilees-geez-hacohen",
+          "layer_role": "source_text_transcription",
+          "status": "bundled",
+          "basis_language_tag": "gez",
+          "basis_description": "Ran HaCohen Geʽez transcription from a pinned scholarly TEI record; see edition selection and source line-marker limitations in the reader record.",
+          "rights_status": "CC-BY-SA-4.0",
+          "source_ids": [
+            "SRC-040",
+            "SRC-041"
+          ]
+        },
+        {
+          "canon_id": "eotc-ot-14",
+          "reader_id": "enoch-geez-eotc",
+          "layer_role": "source_text_edition",
+          "status": "bundled",
+          "basis_language_tag": "gez",
+          "basis_description": "Pinned Beta maṣāḥǝft TEI block EOTCed, identified by its source as text of the EOTC printed Bible; exact physical print exemplar/date unspecified. Local extract preserves 108 chapters and 1,058 labeled lines.",
+          "rights_status": "CC-BY-SA-4.0 for the EOTCed block; the separately restricted edition 1 is excluded.",
+          "source_ids": [
+            "SRC-040",
+            "SRC-065",
+            "SRC-066"
+          ]
+        },
+        {
+          "canon_id": "eotc-ot-23",
+          "reader_id": "psalms-geez-ludolf-hacohen",
+          "layer_role": "source_text_transcription",
+          "status": "bundled",
+          "basis_language_tag": "gez",
+          "basis_description": "TAU-hosted retyped Geʽez transcription of Ludolf's 1701 Psalter, presented in 151 Rahlfs-numbered pages. Source markers are preserved including irregularities; no independent collation.",
+          "rights_status": "noncommercial_with_required_notice",
+          "source_ids": [
+            "SRC-029",
+            "SRC-036",
+            "SRC-058",
+            "SRC-059",
+            "SRC-067",
+            "SRC-068",
+            "SRC-069"
+          ]
+        }
+      ],
+      "script_codes": [
+        "Ethi"
+      ],
+      "script_profile_note": "Geʽez is represented in Ethiopic script (Ethi). This is also used for other languages; script identity does not imply language identity.",
+      "source_ids": [
+        "SRC-034",
+        "SRC-035",
+        "SRC-061",
+        "SRC-064",
+        "SRC-065",
+        "SRC-066",
+        "SRC-067",
+        "SRC-068",
+        "SRC-069"
+      ]
+    },
+    {
+      "language_tag": "en",
+      "language_name": "English",
+      "script_code": "Latn",
+      "direction": "ltr",
+      "records": [
+        {
+          "canon_id": "eotc-ot-01",
+          "reader_id": "genesis-geez-dillmann-hacohen",
+          "translation_id": "genesis-english-brenton-lxx-1851",
+          "layer_role": "historical_companion_translation",
+          "status": "bundled",
+          "translator": "Sir Lancelot Charles Lee Brenton",
+          "basis_language_tag": "grc",
+          "basis_description": "Brenton's 1851 English translation is based on the Greek Septuagint; it is not a direct translation from this reader's Geʽez transcription.",
+          "rights_status": "public_domain_per_cited_source",
+          "source_ids": [
+            "SRC-037",
+            "SRC-038"
+          ],
+          "translation_path": [
+            "grc",
+            "en"
+          ]
+        }
+      ],
+      "script_codes": [
+        "Latn"
+      ],
+      "script_profile_note": "Latin script (Latn) for the bundled English witness.",
+      "source_ids": [
+        "SRC-037"
+      ]
+    },
+    {
+      "language_tag": "tir",
+      "language_name": "Tigrinya (ትግርኛ)",
+      "script_code": "Ethi",
+      "direction": "ltr",
+      "records": [],
+      "script_codes": [
+        "Ethi"
+      ],
+      "script_profile_note": "Tigrinya is reported with Ethiopic script in the cited Eritrea literacy sources. The profile describes writing-system context, not a claim that every Tigrinya witness uses the same orthography.",
+      "source_ids": [
+        "SRC-053",
+        "SRC-055"
+      ]
+    },
+    {
+      "language_tag": "aa",
+      "language_name": "Afar",
+      "script_code": "Latn",
+      "script_codes": [
+        "Latn"
+      ],
+      "script_profile_note": "The 2006 Eritrea literacy study reports Latin-script orthography for Afar; this dated country profile does not establish a particular scripture witness.",
+      "source_ids": [
+        "SRC-055"
+      ],
+      "direction": "ltr",
+      "records": []
+    },
+    {
+      "language_tag": "ar",
+      "language_name": "Arabic (Eritrea)",
+      "script_code": "Arab",
+      "script_codes": [
+        "Arab"
+      ],
+      "script_profile_note": "Arabic is one of the writing systems documented in Eritrea; this language profile is country-context metadata, not a scripture corpus claim.",
+      "source_ids": [
+        "SRC-055"
+      ],
+      "direction": "rtl",
+      "records": []
+    },
+    {
+      "language_tag": "bej",
+      "language_name": "Bedawiyet (Beja)",
+      "script_code": "Latn",
+      "script_codes": [
+        "Latn"
+      ],
+      "script_profile_note": "The 2006 Eritrea literacy study reports Latin-script orthography for Bedawiyet; names and orthographies vary across sources and regions.",
+      "source_ids": [
+        "SRC-055"
+      ],
+      "direction": "ltr",
+      "records": []
+    },
+    {
+      "language_tag": "byn",
+      "language_name": "Blin (Bilen)",
+      "script_code": "Zzzz",
+      "script_codes": [
+        "Ethi",
+        "Latn"
+      ],
+      "script_profile_note": "Sources document historical Ethiopic use and later/current Latin-based orthography. This is a multi-script profile; the specific 2018 New Testament witness script has not been checked.",
+      "source_ids": [
+        "SRC-054",
+        "SRC-055"
+      ],
+      "direction": "ltr",
+      "records": []
+    },
+    {
+      "language_tag": "kun",
+      "language_name": "Kunama",
+      "script_code": "Latn",
+      "script_codes": [
+        "Latn"
+      ],
+      "script_profile_note": "The 2012 Bible metadata and Eritrea literacy research identify a Latin-script Kunama witness/orthography; do not infer the script of every historical manuscript.",
+      "source_ids": [
+        "SRC-055",
+        "SRC-057"
+      ],
+      "direction": "ltr",
+      "records": []
+    },
+    {
+      "language_tag": "dlk",
+      "language_name": "Dahalik",
+      "script_code": "Zzzz",
+      "script_codes": [
+        "Zzzz"
+      ],
+      "script_profile_note": "The cited linguistic sources identify Dahalik but do not establish a default writing system for scripture. This archive has not identified a verified scripture witness or translation in Dahalik; this is not evidence that none exists.",
+      "source_ids": [
+        "SRC-070",
+        "SRC-071"
+      ],
+      "direction": "unknown",
+      "records": []
+    },
+    {
+      "language_tag": "nrb",
+      "language_name": "Nara",
+      "script_code": "Latn",
+      "script_codes": [
+        "Latn"
+      ],
+      "script_profile_note": "The 2006 Eritrea literacy study reports Latin-script orthography for Nara; this country profile does not identify a scripture witness.",
+      "source_ids": [
+        "SRC-055"
+      ],
+      "direction": "ltr",
+      "records": []
+    },
+    {
+      "language_tag": "ssy",
+      "language_name": "Saho",
+      "script_code": "Zzzz",
+      "script_codes": [
+        "Latn",
+        "Ethi"
+      ],
+      "script_profile_note": "Saho Archive distinguishes Eritrean Latin and Ethiopian Irob Fidel orthographies and notes a historical personal transcription system. Specific scripture witnesses below need script-level inspection.",
+      "source_ids": [
+        "SRC-055",
+        "SRC-056"
+      ],
+      "direction": "ltr",
+      "records": []
+    },
+    {
+      "language_tag": "tig",
+      "language_name": "Tigre (Tǝgre)",
+      "script_code": "Ethi",
+      "script_codes": [
+        "Ethi"
+      ],
+      "script_profile_note": "The 2006 Eritrea literacy study reports Ethiopic-script use for Tigre. The profile does not establish the script of each historical edition or rule out other practices.",
+      "source_ids": [
+        "SRC-054",
+        "SRC-055"
+      ],
+      "direction": "ltr",
+      "records": []
+    }
+  ],
+  "translation_leads": [
+    {
+      "canon_id": "eotc-ot-13",
+      "language_tag": "en",
+      "translator": "R. H. Charles",
+      "edition": "The Book of Jubilees, or The Little Genesis (A. and C. Black, 1902)",
+      "source_ids": [
+        "SRC-042",
+        "SRC-043",
+        "SRC-044"
+      ],
+      "text_bundled": false,
+      "rights_status": "Public-domain-marked scan; territorial exceptions require review",
+      "review_status": "Bibliographically and OCR-provenance identified; local OCR inspected; chapter/verse boundaries, OCR accuracy, collation, and territorial reuse remain uncleared",
+      "notes": "Google Books and Internet Archive describe the translation as made from Ethiopic; the IA item records the 1902 edition, 384 pages, and Tesseract OCR. A local OCR capture is preserved outside the public site with SHA-256 491e1726cdca207a4bc3a8b6877faed30cb43ba247246354567d43dfd84e35c5. Spot inspection finds commentary and page headers mixed into the body. It is not reader text and must not be represented as verified scripture. Commons marks the scan public domain in some jurisdictions but notes country exceptions; no global reuse conclusion is made.",
+      "translation_path": [
+        "gez",
+        "en"
+      ]
+    }
+  ],
+  "corpus_leads": [
+    {
+      "corpus_id": "eritrea-tigrinya-deuterocanonical-2000",
+      "title": "መጽሓፍ ቅዱስ ክልኣይ ቀኖና ብሉይ ኪዳን ዝኃዘ — revised Tigrinya Bible with Deuterocanonical Books",
+      "language_tag": "tir",
+      "language_name": "Tigrinya (ትግርኛ)",
+      "script_code": "Ethi",
+      "publisher": "Bible Society of Eritrea",
+      "publication_year": "2000",
+      "scope_description": "Bibliographic lead for a multi-book Tigrinya edition described as containing deuterocanonical books and involving the Eritrean Orthodox Tewahdo and Catholic churches in translation of that section. Exact contents, mapping to Eritrean Orthodox canon entries, and completeness are not verified; do not label this the full 81-book corpus.",
+      "basis_language_tag": "und",
+      "basis_description": "Unknown in the catalogued bibliographic record; do not infer a Geʽez, Greek, Hebrew, or relay-language basis.",
+      "contributors": "Historical article identifies Eritrean Orthodox and Catholic contributors; full edition-level translator/editor credit requires inspection of the book itself.",
+      "text_bundled": false,
+      "rights_status": "Reuse rights for the 2000 edition not established; no open license identified; not bundled.",
+      "review_status": "Bibliographic record and scholarly historical account identified; title page, full table of contents, translation basis, textual completeness, attribution, and permissions remain to be checked.",
+      "source_ids": [
+        "SRC-046",
+        "SRC-047"
+      ],
+      "notes": "Four Corners metadata calls this a Tigrinya Bible with deuterocanonical books and records ISBN 978-9966-40-984-3. Andemariam distinguishes a 1998 revised 66-book Bible from a 2000 improved edition with 16 deuterocanonical books. The exact book-by-book contents must be checked against a physical copy before aligning it to the Eritrean 81-entry list.",
+      "translation_path": null,
+      "script_status": "identified"
+    },
+    {
+      "corpus_id": "eritrea-tigrinya-volunteer-digital-text-2013",
+      "title": "Tigrinya Bible PDF (2013 digital transcription lead)",
+      "language_tag": "tir",
+      "language_name": "Tigrinya (ትግርኛ)",
+      "script_code": "Ethi",
+      "publisher": "Content attributed to the Bible Society of Eritrea; PDF by Geʽez Experience",
+      "publication_year": "2013",
+      "scope_description": "Digital witness labelled Old and New Testament. It is not established as the same edition as the 2000 deuterocanonical volume and is not treated as an 81-book Eritrean Orthodox text.",
+      "basis_language_tag": "und",
+      "basis_description": "Unknown; the PDF notice does not establish its translation base or exact print edition.",
+      "contributors": "Geʽez Experience says volunteers retyped and reviewed the digital text; named contributors are not supplied in the notice.",
+      "text_bundled": false,
+      "rights_status": "Site permits personal use only and directs other uses to the Bible Society; PDF-format rights are separately attributed to Geʽez Experience. No redistribution permission.",
+      "review_status": "Digital source lead only; the PDF notice warns of possible spelling errors or missing verses; source edition and complete text not independently verified.",
+      "source_ids": [
+        "SRC-049",
+        "SRC-050"
+      ],
+      "notes": "Keep this distinct from the catalogued 2000 deuterocanonical edition. A digital Bible may be convenient for reading but its stated transcription limits, canon scope, and licensing do not satisfy this archive’s reader admission requirements.",
+      "translation_path": null,
+      "script_status": "identified"
+    },
+    {
+      "corpus_id": "eritrea-tigre-whole-bible-historical",
+      "title": "Tǝgre complete Bible (historical production lead; date varies by account)",
+      "language_tag": "tig",
+      "language_name": "Tigre (Tǝgre)",
+      "script_code": "Zzzz",
+      "script_status": "unidentified",
+      "publisher": "Not identified in the cited historical record",
+      "publication_year": "1988 in one account; 1995/96 is also reported",
+      "scope_description": "Historical survey reports a complete Tigre Bible produced in 1988 and notes a separate account placing its reappearance in 1995/96. This identifies a translation-history lead, not a currently inspected edition or a mapping to the Eritrean Orthodox canon.",
+      "basis_language_tag": "und",
+      "basis_description": "The translation base and relay languages for this edition have not been established from the cited sources.",
+      "translation_path": null,
+      "contributors": "The historical account names Musa Aron and Rǝgbu Yosief among workers on the final production; full translator, editor, and reviewer credit requires the edition and project records.",
+      "text_bundled": false,
+      "rights_status": "No edition-level reuse permission identified; not bundled.",
+      "review_status": "Historical production is documented, but edition identity, printed witness, exact year, contents, orthography, translation basis, and permissions remain unverified.",
+      "source_ids": [
+        "SRC-054"
+      ],
+      "notes": "Do not collapse the conflicting 1988 and 1995/96 dates. The 2006 literacy study describes Ethiopic as the script used for Tigre, but this particular edition’s script is not verified."
+    },
+    {
+      "corpus_id": "eritrea-kunama-complete-bible-2012",
+      "title": "Kitaba Keddusa: kotafa kitabette (2012 Kunama Bible catalog record)",
+      "language_tag": "kun",
+      "language_name": "Kunama",
+      "script_code": "Latn",
+      "script_status": "identified",
+      "publisher": "Bible Society of Eritrea (as recorded by Digital Bible Society)",
+      "publication_year": "2012",
+      "scope_description": "Digital Bible Society metadata describes a complete Kunama Bible with deuterocanon, prepared by an interconfessional committee in Eritrea. The term “with deuterocanon” is preserved as catalog metadata and is not mapped to another church canon.",
+      "basis_language_tag": "und",
+      "basis_description": "The translation base and any relay languages are not identified in the catalog record.",
+      "translation_path": null,
+      "contributors": "An interconfessional committee is reported; named contributors and individual roles are not listed in the inspected catalog metadata.",
+      "text_bundled": false,
+      "rights_status": "No open reuse license identified; not bundled.",
+      "review_status": "Catalog metadata only; no printed or digital witness was collated, and contents, translation path, contributor credits, and permissions need edition-level review.",
+      "source_ids": [
+        "SRC-054",
+        "SRC-057"
+      ],
+      "notes": "Digital Bible Society metadata labels the language Kunama (kun), country Eritrea, script Latin (Latn), and publication year 2012. Those claims have not been independently checked against the edition."
+    },
+    {
+      "corpus_id": "eritrea-blin-new-testament-2018",
+      "title": "Blin New Testament (completion reported in 2018)",
+      "language_tag": "byn",
+      "language_name": "Blin (Bilen)",
+      "script_code": "Zzzz",
+      "script_status": "unidentified",
+      "publisher": "Not identified in the cited historical survey",
+      "publication_year": "2018 completion reported",
+      "scope_description": "A 2020 historical survey reports that a Blin New Testament translation was completed in 2018 and that Old Testament work was then in progress. Whether the New Testament was published, and the present state of the Old Testament project, remain unverified.",
+      "basis_language_tag": "und",
+      "basis_description": "The translation base and any relay languages are not identified in the cited survey.",
+      "translation_path": null,
+      "contributors": "Edition-level translator and reviewer names were not supplied in the source excerpt reviewed for this lead.",
+      "text_bundled": false,
+      "rights_status": "Reuse terms and rights holder not identified; not bundled.",
+      "review_status": "Secondary historical lead; publication, exact edition, book/chapter coverage, script, translation path, named contributors, and permissions need confirmation.",
+      "source_ids": [
+        "SRC-054",
+        "SRC-055"
+      ],
+      "notes": "The cited literacy study records both historical Ethiopic and Latin orthographies for Blin/Bilen. This corpus lead’s script is deliberately marked Zzzz until its witness is inspected."
+    },
+    {
+      "corpus_id": "eritrea-saho-john-1964",
+      "title": "Injil Yohannes (Saho Gospel of John, 1964)",
+      "language_tag": "ssy",
+      "language_name": "Saho",
+      "script_code": "Zzzz",
+      "script_status": "unidentified",
+      "publisher": "Word Home Bible League; printed by Park Press (as reported by Saho Archive)",
+      "publication_year": "1964",
+      "scope_description": "Saho Archive reports a Gospel of John translation published in 1964, with 7,000 copies printed and sent to Eritrea. It is a single-book translation witness and does not represent the complete Bible or any church canon.",
+      "basis_language_tag": "und",
+      "basis_description": "The translation source language or relay path is not established by the cited page.",
+      "translation_path": null,
+      "contributors": "Francis E. Mahaffy is associated with the material; the archive notes a personal transcription system and names local Saho translators for his broader project, but individual credit for this Gospel needs verification from the edition.",
+      "text_bundled": false,
+      "rights_status": "No reuse license identified; not bundled.",
+      "review_status": "Bibliographic lead only; the printed copy, exact orthography, dialect, boundaries, textual completeness, translation basis, contributor roles, and permissions need examination.",
+      "source_ids": [
+        "SRC-056"
+      ],
+      "notes": "Saho Archive distinguishes Eritrean Latin and Ethiopian Irob Fidel orthographies; it describes Mahaffy’s personal transcription method. Do not assume the 1964 print uses today’s official orthography without inspecting it."
+    },
+    {
+      "corpus_id": "eritrea-saho-four-gospels",
+      "title": "Injiil (Matthew, Mark, Luke, and John) in Eritrean Saho",
+      "language_tag": "ssy",
+      "language_name": "Saho",
+      "script_code": "Zzzz",
+      "script_status": "unidentified",
+      "publisher": "Wycliffe Ethiopia (as reported by Saho Archive)",
+      "publication_year": "Not stated on the cited page",
+      "scope_description": "Saho Archive describes a Wycliffe Ethiopia publication containing the four Gospel accounts in Eritrean Saho. Exact edition date, text boundaries, dialect, and relationship to other Saho editions have not been established.",
+      "basis_language_tag": "und",
+      "basis_description": "The translation base and any relay languages are not identified on the cited page.",
+      "translation_path": null,
+      "contributors": "Not named on the inspected page.",
+      "text_bundled": false,
+      "rights_status": "No open reuse license identified; not bundled.",
+      "review_status": "Source lead only; edition metadata, script, contents, translation basis, named contributors, and permissions need verification.",
+      "source_ids": [
+        "SRC-056"
+      ],
+      "notes": "Saho Archive links the edition onward to Scripture Earth. The Saho language profile is multi-script; this witness’s script is left unknown until its PDF or printed copy is inspected."
+    }
+  ]
+}

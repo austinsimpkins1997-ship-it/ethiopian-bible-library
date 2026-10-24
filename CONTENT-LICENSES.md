@@ -1,0 +1,28 @@
+# Text, translation, and metadata rights
+
+The repository's `LICENSE` applies to its software code. Project-curated metadata in the files listed by `DATA-LICENSE.md` is separately licensed under CC BY 4.0, only to the extent contributors hold rights they can license. Neither license grants blanket permission to reuse scripture transcriptions, translations, manuscript images, or other third-party content. Each text keeps the rights and attribution stated by its own source record.
+
+## Currently bundled reader content
+
+| Content | Language | Edition and basis | Reuse statement |
+| --- | --- | --- | --- |
+| Genesis–Ruth source-text transcriptions | Geʽez (`gez`) | August Dillmann's 1853–1855 Ethiopic Octateuch, digitized and transcribed by Ran HaCohen | Noncommercial copying/distribution only with the copyright and permission notices included. Commercial reuse is not granted. Each local source package and reader carries the notice. No English translation is included for Exodus–Ruth. |
+| CrossWire Geʽez source module (`readers/source/crosswire/Geez.zip`) | Geʽez (`gez`) | CrossWire SWORD module Geez 1.0.1, based on its July 2010 edition; described by CrossWire as Dillmann's Octateuch plus Hiob Ludolf's Psalter, digitized by Ran HaCohen | The module's source notice grants noncommercial copying/distribution only when © Ran HaCohen and the permission notice accompany every copy. Commercial reuse is not granted. This binary is archived source material, not decoded web-reader text. |
+| Genesis English companion | English (`en`) | Lancelot Charles Lee Brenton's 1851 English translation of the Greek Septuagint (`grc`) | Public domain per the cited eBible.org notice. This is not a direct English translation of the bundled Geʽez witness. |
+| Jubilees source-text transcription | Geʽez (`gez`) | Ran HaCohen transcription, edition `Ran` in the pinned Beta maṣāḥǝft TEI record | CC BY-SA 4.0 per the selected edition's explicit notice; attribute the transcriber and source, share adaptations alike, and indicate changes. |
+| Psalms / Ethiopic Psalter source-text transcription | Geʽez (`gez`) | Hiob Ludolf's 1701 Ethiopic Psalter, digitized and retyped by Ran HaCohen; local 151-page capture follows TAU's Rahlfs-numbered page sequence | Noncommercial copying/distribution only, with copyright and permission notices accompanying every copy. Other uses require contacting the copyright owner; commercial reuse is not granted. The captured HTML and generated reader retain the notice in `readers/source/psalms-tau-2015/SOURCE-NOTICE.txt`. The source warns transcription errors may remain; no independent collation was performed. |
+| 1 Enoch EOTCed block | Geʽez (`gez`) | Beta maṣāḥǝft TEI block labeled “Text of the EOTC printed Bible” (`xml:id=EOTCed`); exact print exemplar/date unspecified | CC BY-SA 4.0 per the pinned TEI file notice and Source Text edition record. Attribute Beta maṣāḥǝft, identify the EOTCed-only extraction, share adaptations alike, and indicate changes. The distinct edition 1 noncommercial/no-sale text is excluded. |
+
+## Required for every new text or translation
+
+Record the exact source/edition, original and target language tags, translator/transcriber, translation basis (including relay languages), chapter/verse boundaries, completeness checks, source citations, license text/URL, required attribution, and any restrictions. If rights are unclear or conflicting, do not bundle the text until resolved. “Free to read” and “openly licensed for reuse” are different permissions.
+
+Language identifiers use BCP 47 tags where available. Script and text direction are metadata; they must not be inferred from a modern language label alone. Community-specific names, transliteration, and orthography should be retained alongside normalized identifiers.
+
+## Withheld source edition
+
+The original pinned Beta maṣāḥǝft Jubilees TEI snapshot contains both the Ran HaCohen transcription and a distinct edition labelled as the standard printed EOTC Bible. The explicit CC BY-SA 4.0 statement names HaCohen's transcription. The EOTC edition's separate reuse status is unresolved, so the public build includes a Ran-only extract and withholds that other text. See `readers/source/jubilees/SOURCE-BOUNDARY.md`. The full source snapshot is retained outside the deployed site for audit (SHA-256 `d8c6eaa3857c35d8e467a6c150178fc02395fc569527bedfc7687c43cc68d87f`).
+
+## 1 Enoch source boundary and review limits
+
+The pinned Beta maṣāḥǝft TEI record distinguishes edition 1 (Dillmann/Library of Ethiopic Texts, explicitly restricted to noncommercial use and not for sale) from the EOTCed edition, labeled “Text of the EOTC printed Bible.” The reader contains only EOTCed; edition 1 is excluded. The full 713,504-byte upstream TEI snapshot is retained locally outside the Pages site at `../source-captures/betamasaheft-enoch-2026/LIT1340EnochE-original.xml`. The site repository contains a rights-scoped EOTCed-only extract and preserves its SHA-256 in the reader and layer metadata. Structural checks confirm 108 ordered chapters and 1,058 nonempty labeled lines; chapter 21 starts at source marker 2. Source Text independently reports 1,058 verses, a count corroboration only. No printed-page/manuscript collation or line-by-line comparison was performed, and the exact printed exemplar/date is unknown. The file and Source Text record state CC BY-SA 4.0 for this selected edition scope; attribute Beta maṣāḥǝft, indicate the EOTCed-only extraction and changes, and share adaptations alike. See `readers/source/enoch/SOURCE-BOUNDARY.md` and sources SRC-040, SRC-065, and SRC-066.
