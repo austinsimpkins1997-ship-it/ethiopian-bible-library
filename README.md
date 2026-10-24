@@ -10,7 +10,7 @@ Open `index.html` directly in a browser. The archive data is embedded, so the ca
 python -m http.server 8000
 ```
 
-Then open `http://localhost:8000`. A local server is needed because the browser fetches `archive.json`.
+Then open `http://localhost:8000`. The server is optional; the archive is embedded in `index.html`, so it also works directly from a `file://` address.
 
 ## GitHub Pages
 
@@ -21,6 +21,10 @@ For a ready-to-upload archive and browser upload steps, see `UPLOAD_TO_GITHUB.md
 ## Important content boundary
 
 The site stores its catalogue locally and cites itself only as the record custodian; self-citation is not independent evidence. It displays 89 searchable research rows, not 89 canonical books. The Ethiopian Orthodox Tewahedo Church’s English canon page states 81 books (46 Old Testament, 35 New Testament) and groups some titles. The row-to-canon mappings, Ethiopic witnesses, editions, translations, chapter boundaries, text availability, completeness, and reuse rights remain unverified unless a record explicitly says otherwise. Evidence links are leads and context, not a certification of each row. The archive makes no claim to omniscience; if knowledge is understood as a gift from God, the editorial response here is humility: name witnesses, distinguish evidence from interpretation, and keep unresolved claims open to correction. Build readers only after verifying text and boundaries; clear reuse rights before publication and add narration only after text, boundaries, and audio rights are verified.
+
+### Source safety
+
+An overview-PDF link was withdrawn after browser protection flagged its hosting URL as a phishing risk. The PDF was not opened, so this is not a claim that its contents are malicious. The Church’s own published canon list remains cited as the primary source for its stated 81-book count.
 
 ## Updating the archive
 
