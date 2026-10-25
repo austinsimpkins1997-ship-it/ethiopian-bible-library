@@ -10,11 +10,13 @@
     "basis_languages",
     "languages",
     "translation_leads",
-    "corpus_leads"
+    "corpus_leads",
+    "edition_leads",
+    "research_corpora"
   ],
   "properties": {
     "schema_version": {
-      "const": 1
+      "const": 2
     },
     "title": {
       "type": "string",
@@ -31,7 +33,8 @@
         "required": [
           "language_tag",
           "language_name",
-          "role"
+          "role",
+          "source_ids"
         ],
         "properties": {
           "language_tag": {
@@ -45,6 +48,16 @@
           "role": {
             "type": "string",
             "minLength": 1
+          },
+          "source_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true,
+            "description": "Evidence for the language subtag and the stated basis-language role."
           }
         },
         "additionalProperties": false
@@ -67,6 +80,18 @@
       "items": {
         "$ref": "#/$defs/corpusLead"
       }
+    },
+    "edition_leads": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/editionLead"
+      }
+    },
+    "research_corpora": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/researchCorpus"
+      }
     }
   },
   "additionalProperties": false,
@@ -82,6 +107,7 @@
         "source_ids",
         "text_bundled",
         "rights_status",
+        "rights_classification",
         "review_status",
         "notes"
       ],
@@ -104,11 +130,16 @@
         },
         "translation_path": {
           "oneOf": [
-            {"type": "null"},
+            {
+              "type": "null"
+            },
             {
               "type": "array",
               "minItems": 2,
-              "items": {"type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$"}
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$"
+              }
             }
           ],
           "description": "Ordered BCP 47 tags from source through any relay language to output; null means the path is not established."
@@ -136,6 +167,17 @@
         "notes": {
           "type": "string",
           "minLength": 1
+        },
+        "rights_classification": {
+          "enum": [
+            "public_domain_claimed",
+            "open_license",
+            "permission_limited",
+            "all_rights_reserved",
+            "unknown",
+            "mixed"
+          ],
+          "description": "Controlled rights category; detailed jurisdiction, attribution, and restrictions remain in rights_status."
         }
       },
       "additionalProperties": false
@@ -146,7 +188,9 @@
         "language_tag",
         "language_name",
         "script_code",
+        "source_ids",
         "direction",
+        "availability_survey",
         "records"
       ],
       "properties": {
@@ -165,7 +209,10 @@
         },
         "script_codes": {
           "type": "array",
-          "items": {"type": "string", "pattern": "^[A-Z][a-z]{3}$"},
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][a-z]{3}$"
+          },
           "uniqueItems": true,
           "description": "All writing systems supported by evidence for this language profile; do not infer that a list is exhaustive."
         },
@@ -175,8 +222,13 @@
         },
         "source_ids": {
           "type": "array",
-          "items": {"type": "string", "minLength": 1},
-          "uniqueItems": true
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true,
+          "description": "Evidence for the language identity, language-tag value, and script profile."
         },
         "direction": {
           "enum": [
@@ -200,6 +252,65 @@
           "items": {
             "$ref": "#/$defs/layer"
           }
+        },
+        "availability_survey": {
+          "type": "object",
+          "required": ["status"],
+          "properties": {
+            "status": { "enum": ["not_surveyed", "in_progress", "completed"] },
+            "scope": { "type": "string", "minLength": 1 },
+            "searched_at": { "type": "string", "format": "date" },
+            "result": { "enum": ["records_found", "none_found"] },
+            "result_count": { "type": "integer", "minimum": 0 },
+            "source_ids": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+            "notes": { "type": "string" }
+          },
+          "allOf": [
+            {
+              "if": { "properties": { "status": { "const": "not_surveyed" } }, "required": ["status"] },
+              "then": {
+                "not": {
+                  "anyOf": [
+                    { "required": ["scope"] },
+                    { "required": ["searched_at"] },
+                    { "required": ["result"] },
+                    { "required": ["result_count"] },
+                    { "properties": { "source_ids": { "minItems": 1 } }, "required": ["source_ids"] }
+                  ]
+                }
+              }
+            },
+            {
+              "if": { "properties": { "status": { "const": "in_progress" } }, "required": ["status"] },
+              "then": {
+                "not": {
+                  "anyOf": [
+                    { "required": ["searched_at"] },
+                    { "required": ["result"] },
+                    { "required": ["result_count"] }
+                  ]
+                }
+              }
+            },
+            {
+              "if": { "properties": { "status": { "enum": ["in_progress", "completed"] } }, "required": ["status"] },
+              "then": { "required": ["scope", "source_ids"], "properties": { "source_ids": { "minItems": 1 } } }
+            },
+            {
+              "if": { "properties": { "status": { "const": "completed" } }, "required": ["status"] },
+              "then": { "required": ["searched_at", "result", "result_count"] }
+            },
+            {
+              "if": { "properties": { "result": { "const": "none_found" } }, "required": ["result"] },
+              "then": { "properties": { "result_count": { "const": 0 } } }
+            },
+            {
+              "if": { "properties": { "result": { "const": "records_found" } }, "required": ["result"] },
+              "then": { "properties": { "result_count": { "minimum": 1 } } }
+            }
+          ],
+          "additionalProperties": false,
+          "description": "External availability survey state. A zero/none-found result requires a bounded completed survey and cited sources; archive record absence alone is not a survey."
         }
       },
       "additionalProperties": false
@@ -214,6 +325,7 @@
         "basis_language_tag",
         "basis_description",
         "rights_status",
+        "rights_classification",
         "source_ids"
       ],
       "properties": {
@@ -222,7 +334,10 @@
           "minLength": 1
         },
         "reader_id": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "minLength": 1,
           "description": "Required for bundled records; null is allowed for a source-backed metadata-only candidate."
         },
@@ -266,7 +381,10 @@
         "translation_path": {
           "type": "array",
           "minItems": 2,
-          "items": {"type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$"},
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$"
+          },
           "description": "Ordered BCP 47 tags from source through any relay language to output."
         },
         "rights_status": {
@@ -281,6 +399,17 @@
             "minLength": 1
           },
           "uniqueItems": true
+        },
+        "rights_classification": {
+          "enum": [
+            "public_domain_claimed",
+            "open_license",
+            "permission_limited",
+            "all_rights_reserved",
+            "unknown",
+            "mixed"
+          ],
+          "description": "Controlled rights category; detailed jurisdiction, attribution, and restrictions remain in rights_status."
         }
       },
       "additionalProperties": false
@@ -302,6 +431,7 @@
         "contributors",
         "text_bundled",
         "rights_status",
+        "rights_classification",
         "review_status",
         "source_ids",
         "notes"
@@ -329,7 +459,11 @@
           "description": "Script of this specific witness when known; use Zzzz when the edition's script has not been verified."
         },
         "script_status": {
-          "enum": ["identified", "unidentified", "provisional"]
+          "enum": [
+            "identified",
+            "unidentified",
+            "provisional"
+          ]
         },
         "publisher": {
           "type": "string",
@@ -353,11 +487,16 @@
         },
         "translation_path": {
           "oneOf": [
-            {"type": "null"},
+            {
+              "type": "null"
+            },
             {
               "type": "array",
               "minItems": 2,
-              "items": {"type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$"}
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$"
+              }
             }
           ],
           "description": "Ordered BCP 47 tags from source through any relay language to output; null means the path is not established."
@@ -389,8 +528,119 @@
         "notes": {
           "type": "string",
           "minLength": 1
+        },
+        "rights_classification": {
+          "enum": [
+            "public_domain_claimed",
+            "open_license",
+            "permission_limited",
+            "all_rights_reserved",
+            "unknown",
+            "mixed"
+          ],
+          "description": "Controlled rights category; detailed jurisdiction, attribution, and restrictions remain in rights_status."
         }
       },
+      "additionalProperties": false
+    },
+    "editionLead": {
+      "type": "object",
+      "required": [
+        "edition_id",
+        "candidate_canon_id",
+        "mapping_state",
+        "title",
+        "witness_type",
+        "language_tag",
+        "language_name",
+        "script_code",
+        "edition_statement",
+        "scope_description",
+        "source_ids",
+        "text_bundled",
+        "rights_status",
+        "rights_classification",
+        "review_status"
+      ],
+      "properties": {
+        "edition_id": { "type": "string", "minLength": 1 },
+        "candidate_canon_id": { "type": "string", "minLength": 1, "description": "Provisional link to a Church-list entry; this is not reader coverage." },
+        "mapping_state": { "enum": ["asserted_by_source", "reviewed_match", "related_work", "uncertain", "not_mapped"] },
+        "title": { "type": "string", "minLength": 1 },
+        "witness_type": { "enum": ["manuscript", "printed_edition", "critical_edition", "digital_edition", "transcription", "composite", "unknown"] },
+        "language_tag": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" },
+        "language_name": { "type": "string", "minLength": 1 },
+        "language_tags": { "type": "array", "items": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" }, "minItems": 2, "uniqueItems": true, "description": "Explicit component language tags for a multilingual witness whose primary tag is IANA mul." },
+        "script_code": { "type": "string", "pattern": "^[A-Z][a-z]{3}$" },
+        "edition_statement": { "type": "string", "minLength": 1 },
+        "scope_description": { "type": "string", "minLength": 1 },
+        "source_ids": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1, "uniqueItems": true },
+        "text_bundled": { "const": false },
+        "rights_status": { "type": "string", "minLength": 1 },
+        "rights_classification": { "enum": ["public_domain_claimed", "open_license", "permission_limited", "all_rights_reserved", "unknown", "mixed"] },
+        "license_id": { "type": "string", "minLength": 1 },
+        "license_url": { "type": "string", "format": "uri", "minLength": 1 },
+        "review_status": { "type": "string", "minLength": 1 }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "rights_classification": { "const": "open_license" } }, "required": ["rights_classification"] },
+          "then": { "required": ["license_id", "license_url"] }
+        },
+        {
+          "if": { "properties": { "language_tag": { "const": "mul" } }, "required": ["language_tag"] },
+          "then": { "required": ["language_tags"], "properties": { "language_name": { "const": "Multiple languages" } } }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "researchCorpus": {
+      "type": "object",
+      "required": [
+        "corpus_id", "title", "reader_id", "unit_count", "reader_status",
+        "canon_mapping_state", "candidate_canon_id", "canon_mapping_note",
+        "language_description", "script_description", "unit_summary",
+        "rights_classification", "rights_status", "review_status", "source_ids"
+      ],
+      "properties": {
+        "corpus_id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "reader_id": { "type": "string", "minLength": 1 },
+        "unit_count": { "type": "integer", "minimum": 0 },
+        "reader_status": { "enum": ["bundled_research_reader"] },
+        "canon_mapping_state": { "enum": ["uncertain", "not_mapped"] },
+        "candidate_canon_id": { "type": ["string", "null"], "minLength": 1, "description": "Optional provisional title-level candidate. Null is required when no canon crosswalk is assigned; research readers remain outside canon-linked coverage." },
+        "canon_mapping_note": { "type": "string", "minLength": 1 },
+        "language_description": { "type": "string", "minLength": 1 },
+        "script_description": { "type": "string", "minLength": 1 },
+        "unit_summary": { "type": "string", "minLength": 1 },
+        "rights_classification": {
+          "enum": ["public_domain_claimed", "open_license", "permission_limited", "all_rights_reserved", "unknown", "mixed"]
+        },
+        "rights_status": { "type": "string", "minLength": 1 },
+        "license_id": { "type": "string", "minLength": 1 },
+        "license_url": { "type": "string", "format": "uri", "minLength": 1 },
+        "review_status": { "type": "string", "minLength": 1 },
+        "source_ids": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1, "uniqueItems": true },
+        "text_origin": { "enum": ["source_transcription", "published_translation"] },
+        "language_tag": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" },
+        "script_code": { "type": "string", "pattern": "^[A-Z][a-z]{3}$" },
+        "basis_language_tag": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" },
+        "translation_path": { "type": "array", "minItems": 2, "items": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" } },
+        "translation_id": { "type": "string", "minLength": 1 },
+        "translator": { "type": "string", "minLength": 1 },
+        "edition_statement": { "type": "string", "minLength": 1 }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "rights_classification": { "const": "open_license" } }, "required": ["rights_classification"] },
+          "then": { "required": ["license_id", "license_url"] }
+        },
+        {
+          "if": { "properties": { "text_origin": { "const": "published_translation" } }, "required": ["text_origin"] },
+          "then": { "required": ["language_tag", "script_code", "basis_language_tag", "translation_path", "translation_id", "translator", "edition_statement"] }
+        }
+      ],
       "additionalProperties": false
     }
   }

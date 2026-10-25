@@ -1,0 +1,3352 @@
+{
+  "manifest_version": 1,
+  "hash_algorithm": "SHA-256",
+  "scope": "Every regular package file except this manifest, Git metadata, Python bytecode, and __pycache__ directories.",
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/source-or-translation-proposal.md",
+      "size_bytes": 4482,
+      "sha256": "8f7bda8e3fda8ed7b97767411ab294a1903556594cc964be8dc6797406272793"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size_bytes": 2380,
+      "sha256": "503d4bcf672f094ef28cd97526c3d22edb337e10f92751787d2ce9b84eb1f8c0"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 24,
+      "sha256": "de8646f7eed6d30995451fe38bb4587db4bdb0873ad037c34ad0b92fbb4ecbb0"
+    },
+    {
+      "path": ".nojekyll",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "app.js",
+      "size_bytes": 52467,
+      "sha256": "028178cc970b801df5d4326a0a8eae270a0fac9c52a7e1bd84d9a02b143155a0"
+    },
+    {
+      "path": "archive.json",
+      "size_bytes": 12474972,
+      "sha256": "8387d80c906c20d52f55152b21029e067a3ed947c65f5b01ea14ca3b3f67667b"
+    },
+    {
+      "path": "archive_manifest.py",
+      "size_bytes": 3713,
+      "sha256": "28609aa9c6a8078e49b378cfc31c183d5c3e27a490071207877b3101b9d08589"
+    },
+    {
+      "path": "assets/apple-touch-icon.png",
+      "size_bytes": 870,
+      "sha256": "0448e9a55fabaf5964b7819aa641d5e6381e86f61c238ac3539b2dd2c6943e02"
+    },
+    {
+      "path": "assets/icon-192.png",
+      "size_bytes": 908,
+      "sha256": "53eedd760d3e509821b8abe2ee23791f43fa6d4a941213cf44499e1ecc9b073e"
+    },
+    {
+      "path": "assets/icon-512.png",
+      "size_bytes": 2388,
+      "sha256": "ef8162b6bbe789939e19b5bf35cae0a8927df3ba640e33c376bf39d49c655929"
+    },
+    {
+      "path": "audit_crosswire_module.py",
+      "size_bytes": 8617,
+      "sha256": "629c2908daed975c034371e52d05672c9a7eea0d070aa96e2917486107d1e094"
+    },
+    {
+      "path": "audit_mark_tei.py",
+      "size_bytes": 5135,
+      "sha256": "a4d16b6951ff7c724ae088984cd77cb2a9681f17406c4e6f2c6353aec04759eb"
+    },
+    {
+      "path": "availability_survey.py",
+      "size_bytes": 2917,
+      "sha256": "225d2f579233a6919cefb6a4a8cf67f6bc4a85646b2307fbe32794f4b977a49a"
+    },
+    {
+      "path": "build_brenton_exodus.py",
+      "size_bytes": 15588,
+      "sha256": "b2d570abc7a4617939755fa88320ff642a60852bf6143cde3584765e21e11227"
+    },
+    {
+      "path": "build_brenton_job.py",
+      "size_bytes": 16724,
+      "sha256": "53b5ab3c71012abe47a8df4768b5ea1e8c8c4467213a124df760975039f13b91"
+    },
+    {
+      "path": "build_brenton_octateuch.py",
+      "size_bytes": 34684,
+      "sha256": "448d70c0af2c18d1bbd79e73577af00669ad5e81f9ab220b8ef81e3e9f673327"
+    },
+    {
+      "path": "build_brenton_research_readers.py",
+      "size_bytes": 12246,
+      "sha256": "0036cc2588d792108edb5f25127a72c4363a59f58fdb47d9bc56ce0225620867"
+    },
+    {
+      "path": "build_brenton_ruth.py",
+      "size_bytes": 11351,
+      "sha256": "7ea3eaa49a24ca5f5014e70159cd57ec6062b5dca40dad7b63799efa098bc454"
+    },
+    {
+      "path": "build_brenton_sirach.py",
+      "size_bytes": 16845,
+      "sha256": "4dc8d66bb53dc159edf863769fbd1eac327dd3ce6edb905dd7d86ddcf8e4e87b"
+    },
+    {
+      "path": "build_brenton_tobit.py",
+      "size_bytes": 13060,
+      "sha256": "c76836e0d3db0f4cad8c82d6384a727b56784179956231efd8ce2c7d7fc26dbd"
+    },
+    {
+      "path": "build_canon_registry.py",
+      "size_bytes": 14474,
+      "sha256": "a1421812954f3e8a2841b3673fb009e3eeca618fcf426808d9116621c3a93365"
+    },
+    {
+      "path": "build_enoch_geez.py",
+      "size_bytes": 6445,
+      "sha256": "f70cc3385318bd399dccb824e264261122b0cb03fedeff770966878c2f1f067e"
+    },
+    {
+      "path": "build_eritrea_canon_evidence.py",
+      "size_bytes": 4903,
+      "sha256": "077308a709a4597b35960f3ba71345a7dfa37f189c891efa2785f091de7e8b0e"
+    },
+    {
+      "path": "build_exodus_geez.py",
+      "size_bytes": 12600,
+      "sha256": "b14b670b57db64b2fe3660dfffed741abd508101334df109fb2995d7bff5b31b"
+    },
+    {
+      "path": "build_genesis_english.py",
+      "size_bytes": 5237,
+      "sha256": "566631b31f7a8bf91c6fec0b800c21b28cd116077bc73ea0da5a5508c4bdd460"
+    },
+    {
+      "path": "build_genesis_geez.py",
+      "size_bytes": 8164,
+      "sha256": "27933d2395df33ceeeeef6e0ca59144a9cc451627a64dea7af1c3469524152f2"
+    },
+    {
+      "path": "build_jubilees_geez.py",
+      "size_bytes": 5571,
+      "sha256": "2f84a0efe46e9836da18ae5d0d6877051b24785edcfd2f1b23a5c439302f5c73"
+    },
+    {
+      "path": "build_mark_research_reader.py",
+      "size_bytes": 21809,
+      "sha256": "7da4bf00bf87a895f2b1315a78b0279af0cac847c8fe8f7ce8338efba21a9f6c"
+    },
+    {
+      "path": "build_octateuch_inventory.py",
+      "size_bytes": 20733,
+      "sha256": "8b9fbc518c1f44e6bb702491e2c912f5d659824c9c50ab63fe8b72eeecc54bd3"
+    },
+    {
+      "path": "build_octateuch_readers.py",
+      "size_bytes": 22618,
+      "sha256": "d6f4bd56c4734115afd6adcd722a94c5607997767642bc5a1e6f5787b601a305"
+    },
+    {
+      "path": "build_psalms_geez.py",
+      "size_bytes": 8087,
+      "sha256": "618b9aefb2f3ba475958612ec6f83198937c1d65999c754e306e5146e1d8dce5"
+    },
+    {
+      "path": "build_standalone.py",
+      "size_bytes": 75649,
+      "sha256": "ef1b4e0f55cea69feb38e3e6f8fa33582ad95e1350be72c49bcc728d6a8652b1"
+    },
+    {
+      "path": "canon-registry.json",
+      "size_bytes": 43029,
+      "sha256": "c03ee8a74c76315c76eeae3ed3fe7bb0e961a5331153d235a0be9b0facfdb0b4"
+    },
+    {
+      "path": "CONTENT-LICENSES.md",
+      "size_bytes": 10780,
+      "sha256": "9aad8f6b70dd9c019e96c7a456b82c928a65089c58bbf0584a841f19708c393f"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size_bytes": 8057,
+      "sha256": "321ce86939ab6f404c49b43a399889f242274301a74471beca645d3624b4e2e5"
+    },
+    {
+      "path": "coverage_summary.py",
+      "size_bytes": 5134,
+      "sha256": "0da9dda41178bd681b2a0b4b77f3fce909299be676b3b3065db91cbfe5e5f481"
+    },
+    {
+      "path": "DATA-LICENSE.md",
+      "size_bytes": 1020,
+      "sha256": "f4a079264ebc9d72ff861c274b9004333936d77d08235394f47a1118a5e0e57e"
+    },
+    {
+      "path": "examples/deuteronomy-brenton-translation-layer.json",
+      "size_bytes": 7681,
+      "sha256": "6630a8b0fc0b01ab9afad966a1bede6b33fc3e3d32b8df80fed981591c0e8913"
+    },
+    {
+      "path": "examples/deuteronomy-geez-layer.json",
+      "size_bytes": 5572,
+      "sha256": "c45f706f7274b5ca6e07df96275280b064668fcc13b38b51c55ea58f8a89d304"
+    },
+    {
+      "path": "examples/enoch-geez-eotc-layer.json",
+      "size_bytes": 6799,
+      "sha256": "8c5a64eeff662d3812b682687040253b31a4a8c8a0a5d374be23e0938c1cb68e"
+    },
+    {
+      "path": "examples/exodus-brenton-translation-layer.json",
+      "size_bytes": 7872,
+      "sha256": "45b8a155a90c12e39bfa396febc4b15e7b63a7eec75e60eeca466d3773f4b838"
+    },
+    {
+      "path": "examples/exodus-geez-layer.json",
+      "size_bytes": 5533,
+      "sha256": "ab7db2ca2083dd3f84b33d675714b16715d21de805e752316e35da17fb68db61"
+    },
+    {
+      "path": "examples/genesis-brenton-translation-layer.json",
+      "size_bytes": 4877,
+      "sha256": "34ccd0e5e980b6609e242c90c1e9f48d4791a901a7cf923ff36696fe756bd3bf"
+    },
+    {
+      "path": "examples/genesis-geez-layer.json",
+      "size_bytes": 5449,
+      "sha256": "9743700534a0a04728a0c14f566e6bbb6ed38ee0eda48e00c026597431e8a43c"
+    },
+    {
+      "path": "examples/job-brenton-translation-layer.json",
+      "size_bytes": 8019,
+      "sha256": "f3c65c7bee4b9278f513ba575c4a89dfaa2c55b5764170982f0d81e52d6c9741"
+    },
+    {
+      "path": "examples/joshua-brenton-translation-layer.json",
+      "size_bytes": 7637,
+      "sha256": "9cc1928faceccd89b65822684e7121c9b78997f824f0c95a8bf38e8d1854df93"
+    },
+    {
+      "path": "examples/joshua-geez-layer.json",
+      "size_bytes": 5542,
+      "sha256": "933714411526416b1574112a499a8c21ae4ea16de43da221542be16ba77b54dd"
+    },
+    {
+      "path": "examples/jubilees-geez-layer.json",
+      "size_bytes": 5926,
+      "sha256": "a89a8cd370a021f3c8ed851addd38fde3154c7efacf96840cbd6aba5146bd8b9"
+    },
+    {
+      "path": "examples/judges-brenton-translation-layer.json",
+      "size_bytes": 7666,
+      "sha256": "d71a82bc9467bcf09d25fc6ed4fd6a922fd3f9c365f22a8ef1416f9420a52143"
+    },
+    {
+      "path": "examples/judges-geez-layer.json",
+      "size_bytes": 5542,
+      "sha256": "1b3f35d2588fe49856058070b25a2bb9d05b95fbf90dbfa5634ae4c0380458ed"
+    },
+    {
+      "path": "examples/leviticus-brenton-translation-layer.json",
+      "size_bytes": 7654,
+      "sha256": "d7b2cf0c0f1b87d87c239bd1a16bb1244f55f991c0647e92a5ac9317fe1235e7"
+    },
+    {
+      "path": "examples/leviticus-geez-layer.json",
+      "size_bytes": 5560,
+      "sha256": "d5eb4e2c5b8a5f7e44ba4aa4b72daebe47bef91a4d63a5ed16707ff5c8d53413"
+    },
+    {
+      "path": "examples/mark-research-tei-layer.json",
+      "size_bytes": 8248,
+      "sha256": "7ca27358ea6da07ac3927fee25ff62817c0794fc12612721c944a7305fce2e54"
+    },
+    {
+      "path": "examples/numbers-brenton-translation-layer.json",
+      "size_bytes": 7685,
+      "sha256": "cd2b09a4bb4b5c83c0d7d4043bf9490e4d10724dc65d793d8bd61f6fbca71bbb"
+    },
+    {
+      "path": "examples/numbers-geez-layer.json",
+      "size_bytes": 5550,
+      "sha256": "8bc06e3293aba3d39a8edcfa54953f39ab4177d5afa4df102b4033799dfdb350"
+    },
+    {
+      "path": "examples/portable-text-layers.json",
+      "size_bytes": 175505,
+      "sha256": "1f47c1f3fd2b78e4efd49d451b6feee77aeedef372cb236d8417a6f754126acd"
+    },
+    {
+      "path": "examples/psalms-brenton-translation-layer.json",
+      "size_bytes": 7692,
+      "sha256": "c32268188d5dcb35e2cae822fc19dbaace21dd837c9a43a70eee2cc71faafa6f"
+    },
+    {
+      "path": "examples/psalms-geez-layer.json",
+      "size_bytes": 7069,
+      "sha256": "b7a4e0ab7fda5923ccfd7d7616ae1c114ee3f4ea89f19703611f38ef051c6ddd"
+    },
+    {
+      "path": "examples/ruth-brenton-translation-layer.json",
+      "size_bytes": 6505,
+      "sha256": "5445b6164149916d7bdd60859aa00e55c51b7cd4c1066777842abd9857cfddd6"
+    },
+    {
+      "path": "examples/ruth-geez-layer.json",
+      "size_bytes": 5526,
+      "sha256": "6caf3915fb1a3e5a7c6c3005fc87ef9362734ef7ffb71cbb8ed161c36f0f2b51"
+    },
+    {
+      "path": "examples/sirach-brenton-translation-layer.json",
+      "size_bytes": 8385,
+      "sha256": "4310be4741e505723c98ba99666b0d31fcf78b9e7caf5a1cadf733efc3b2c579"
+    },
+    {
+      "path": "examples/tobit-brenton-translation-layer.json",
+      "size_bytes": 6650,
+      "sha256": "e948e8dbf9ffcf8e683cc37324298f0e2d75368c99c7e0d2de072b61bd9c6c80"
+    },
+    {
+      "path": "GLOBAL-ARCHIVE-PLAN.md",
+      "size_bytes": 33359,
+      "sha256": "c691d6a88f78108c701eece12562349b5141ec92a24d748866a5bf2b9d0cadb0"
+    },
+    {
+      "path": "index.html",
+      "size_bytes": 8949034,
+      "sha256": "b8a7f432524c3e0dd39c89c6c16c34cb1b452d42a0fa07fcd7e0d1593ff80d7c"
+    },
+    {
+      "path": "integrate_psalms.py",
+      "size_bytes": 13671,
+      "sha256": "2d124e4e4fe821aad63b8cd30b9b827deb1de3c16cf5574a8094c0934700e996"
+    },
+    {
+      "path": "language-script-code-audit.json",
+      "size_bytes": 939,
+      "sha256": "73250fbaf1c92eed1ee614111ac52a50fd2e53b5935e09be105801a384532a00"
+    },
+    {
+      "path": "layer_metadata.py",
+      "size_bytes": 1041,
+      "sha256": "7b1e032355cb02977edb40c47579c64d096cd11c08ef48a0f151921248aeca64"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 1093,
+      "sha256": "0f096acc29d6c79fb526b3263055cf6fa7179e435bc8588600e477389986e7bb"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "size_bytes": 604,
+      "sha256": "151e4a7243d447b5dc1f562a896913689b8b02a6a97924e845a18dadf180f519"
+    },
+    {
+      "path": "package_pointer.py",
+      "size_bytes": 1431,
+      "sha256": "99c2005cc4ea4949791fee2adfc9c5468469732e6d8465e81f2b9155d9c6130d"
+    },
+    {
+      "path": "reader-alignment.js",
+      "size_bytes": 2024,
+      "sha256": "f588239137806fd239ca555a9d471d834250b5333d24d2b39bf70296bea7b08a"
+    },
+    {
+      "path": "reader-package.js",
+      "size_bytes": 6073,
+      "sha256": "05067de243457af46de734df77e0e591952b9aa9b80e7ed8188a90da7b2d0eed"
+    },
+    {
+      "path": "reader_validation.py",
+      "size_bytes": 1157,
+      "sha256": "2f59ffae9e9e68b985629431c45f6d0210409a403b0b0baedfe161c2a47e3218"
+    },
+    {
+      "path": "readers/brenton-lxx-amo-research.json",
+      "size_bytes": 40514,
+      "sha256": "55ca82aa241f9214793756399fc6474175477466b062de2ee774beaa7f8a6c87"
+    },
+    {
+      "path": "readers/brenton-lxx-bar-research.json",
+      "size_bytes": 35134,
+      "sha256": "1e8a8d33a3052540c6bf9ae337be137cfd89101dc4ebfd14355062c9c339e8ca"
+    },
+    {
+      "path": "readers/brenton-lxx-bel-research.json",
+      "size_bytes": 13217,
+      "sha256": "00afa30d28a1387b4e25a0327c9d9dc457af83d9ce7c3fd66a17f6e7f92f4cd2"
+    },
+    {
+      "path": "readers/brenton-lxx-dag-research.json",
+      "size_bytes": 111306,
+      "sha256": "330ac956aa4baf24045eea63ac421640947bb994b3b3d4553d748bec834228ed"
+    },
+    {
+      "path": "readers/brenton-lxx-ecc-research.json",
+      "size_bytes": 55173,
+      "sha256": "abf3b4ae7aed743ea4cfe777cddf620d4a02cb74560204a9cb187b6ffc525335"
+    },
+    {
+      "path": "readers/brenton-lxx-esg-research.json",
+      "size_bytes": 67747,
+      "sha256": "dd26e83c6d97dc70c16782e0318b4822b9ea176b96f4ef5b1a947951fd490a6f"
+    },
+    {
+      "path": "readers/brenton-lxx-ezk-research.json",
+      "size_bytes": 331821,
+      "sha256": "e6dcb41a1edb706a1ca588b8fcb9a69fdbd3b285611926910d559709423f0a4d"
+    },
+    {
+      "path": "readers/brenton-lxx-ezr-research.json",
+      "size_bytes": 162704,
+      "sha256": "9fef5e84d9fc0b2df2151967775f9645edba2a8d3b6311bd9f22d33ee8115741"
+    },
+    {
+      "path": "readers/brenton-lxx-first-ch-research.json",
+      "size_bytes": 194928,
+      "sha256": "efe80197f7a01ca5877ff693e2d219c221c638dfe4667efdbe8de652ffc8738b"
+    },
+    {
+      "path": "readers/brenton-lxx-first-es-research.json",
+      "size_bytes": 109582,
+      "sha256": "2bb6be0948416b7c3e7e6ecb5b44e9f37e4bfb56e076ea4b22bcc45f7f96629c"
+    },
+    {
+      "path": "readers/brenton-lxx-first-ki-research.json",
+      "size_bytes": 270361,
+      "sha256": "84f4dd44e658e099608a36d2c8678c5bba3854ecdbe42d807384cb1fabfee907"
+    },
+    {
+      "path": "readers/brenton-lxx-first-ma-research.json",
+      "size_bytes": 219363,
+      "sha256": "c085f250e3516d172a19bd9b51fedfce355476ad085c69b59c289a30db731efb"
+    },
+    {
+      "path": "readers/brenton-lxx-first-sa-research.json",
+      "size_bytes": 256513,
+      "sha256": "4c8fa9c939413de59b2a543811a6dbf9748f7a89e9f560f0782cfbe2494afb45"
+    },
+    {
+      "path": "readers/brenton-lxx-fourth-ma-research.json",
+      "size_bytes": 107778,
+      "sha256": "aae58593b1dcd90479a245c8902fdeca2709f000c8a657fce3d8bb11c5dc62e8"
+    },
+    {
+      "path": "readers/brenton-lxx-hab-research.json",
+      "size_bytes": 17014,
+      "sha256": "c581b4787ad89b651e35ccddcf57f8725fff1808cdaa2d3a8b02123d7d390307"
+    },
+    {
+      "path": "readers/brenton-lxx-hag-research.json",
+      "size_bytes": 15264,
+      "sha256": "687f4233b84a7ce1674c18aba5ac51027dd98c931c9f44fde2b2a5ef2cc19a8b"
+    },
+    {
+      "path": "readers/brenton-lxx-hos-research.json",
+      "size_bytes": 51205,
+      "sha256": "41ce68aaa2de733747044b2c42472b74a5fff1b8c83cf2a00c539a8b270eb7f2"
+    },
+    {
+      "path": "readers/brenton-lxx-jdt-research.json",
+      "size_bytes": 96924,
+      "sha256": "8f3fe919e6a2003eb85399f49162c0cebcf55f9d15d9f132bc6541f216897eff"
+    },
+    {
+      "path": "readers/brenton-lxx-jer-research.json",
+      "size_bytes": 328000,
+      "sha256": "cbf70919e81d1a321f8318e6752115ec2a1a12336a684973e9481af16ebb0a73"
+    },
+    {
+      "path": "readers/brenton-lxx-jol-research.json",
+      "size_bytes": 26446,
+      "sha256": "c45a46d7d78591f008fc2ff1ef01dd3ab56077417a121aa3e7ac38896c147c66"
+    },
+    {
+      "path": "readers/brenton-lxx-jon-research.json",
+      "size_bytes": 17363,
+      "sha256": "e4294e53362066a687da8488c274577f75c872d25bd321151cb495182e4e614a"
+    },
+    {
+      "path": "readers/brenton-lxx-lam-research.json",
+      "size_bytes": 40731,
+      "sha256": "1484d97be1c3f11bbb614dc1b305564459fb840dfab0b4f4b8e0ba0575a13ba1"
+    },
+    {
+      "path": "readers/brenton-lxx-lje-research.json",
+      "size_bytes": 19273,
+      "sha256": "ed49149682b4a809c1ac46792c86df6081d859d11d6549c2f97653dc764dd4e0"
+    },
+    {
+      "path": "readers/brenton-lxx-mal-research.json",
+      "size_bytes": 22645,
+      "sha256": "a37b51643ac48e8468a4d10d3ba8ff1b15f14e88564739f363b9bd98d0cd907b"
+    },
+    {
+      "path": "readers/brenton-lxx-man-research.json",
+      "size_bytes": 6866,
+      "sha256": "0839ca59142c3205b4fdb973300220742122fb782135d2125f455c2e0271c470"
+    },
+    {
+      "path": "readers/brenton-lxx-mic-research.json",
+      "size_bytes": 31360,
+      "sha256": "a70aec1638a045f4821b52e3c223fc83e48ffa2be7c1bedb6f1efd521e55d874"
+    },
+    {
+      "path": "readers/brenton-lxx-nam-research.json",
+      "size_bytes": 15580,
+      "sha256": "c4d39bbc58f17fb0b7db5ea825b1f5823c853ed724a423225073362a3a537895"
+    },
+    {
+      "path": "readers/brenton-lxx-oba-research.json",
+      "size_bytes": 9724,
+      "sha256": "7c63f6255e07f006b6b104c4daa16093473ae9653dcb8059e77ff97fb71f9b14"
+    },
+    {
+      "path": "readers/brenton-lxx-pro-research.json",
+      "size_bytes": 195843,
+      "sha256": "ff358574d11a5bbca9beb038577548831f1d654825e5eb39150a424c2047dc5c"
+    },
+    {
+      "path": "readers/brenton-lxx-second-ch-research.json",
+      "size_bytes": 223538,
+      "sha256": "656a2734b1b2671f609afae851c85bc593323d84975a9221f8985c0875974b56"
+    },
+    {
+      "path": "readers/brenton-lxx-second-ma-research.json",
+      "size_bytes": 150144,
+      "sha256": "d192f4437b0d48c0e93595639d95f0c51bea43ec3eeac76118b963d156260fbe"
+    },
+    {
+      "path": "readers/brenton-lxx-second-sa-research.json",
+      "size_bytes": 206905,
+      "sha256": "66184328d16a74a3c541e3daff56638e542389f64c431622b511afc1a1793bc7"
+    },
+    {
+      "path": "readers/brenton-lxx-sng-research.json",
+      "size_bytes": 29545,
+      "sha256": "ce3a2a9d414062c88e0b7fe2bce79b46243180931f90e7d5953b2b0944705f76"
+    },
+    {
+      "path": "readers/brenton-lxx-sus-research.json",
+      "size_bytes": 17262,
+      "sha256": "43eaa8cfec00d3ac263a8608a9ce6a283e539aa85d75dc4c2274d67d2a31e157"
+    },
+    {
+      "path": "readers/brenton-lxx-third-ma-research.json",
+      "size_bytes": 64877,
+      "sha256": "d0761aa2fea1449285caff1fcb6100ea122f4fc9a9a66f51f361bbb78ed5125a"
+    },
+    {
+      "path": "readers/brenton-lxx-wis-research.json",
+      "size_bytes": 102099,
+      "sha256": "8ffa7ab0b8448f0ee69306c7daf377cc71b2efae634389b4d798dedff72acc85"
+    },
+    {
+      "path": "readers/brenton-lxx-zec-research.json",
+      "size_bytes": 68696,
+      "sha256": "4df049ce9f1c52f67314fd12c8b8798272fa1424af4221b1a20dfe04f94f79b4"
+    },
+    {
+      "path": "readers/brenton-lxx-zep-research.json",
+      "size_bytes": 17589,
+      "sha256": "02371d4f7e89307cebf59002353299cb5aeb06f84a0881d1698f9c44d12024b3"
+    },
+    {
+      "path": "readers/deuteronomy-geez.json",
+      "size_bytes": 628111,
+      "sha256": "aa33fb666ca1035028bead61aae69a21f1ecc49b9843bfb0e9f6112789f0c6aa"
+    },
+    {
+      "path": "readers/enoch-geez-eotc.json",
+      "size_bytes": 408398,
+      "sha256": "019c9ff518c9f4ff11b80fa432d9f3bc3f2f8da84043e501861594ec54d13eed"
+    },
+    {
+      "path": "readers/exodus-geez.json",
+      "size_bytes": 677066,
+      "sha256": "7479abf6d081a93daed35b6f825fc952211facbf417e26c1157c3d34110795ca"
+    },
+    {
+      "path": "readers/genesis-brenton.json",
+      "size_bytes": 348884,
+      "sha256": "369fc6e10fb2dbef681a56e713b1ed0d2ccc9bf550d49fe9768ecd75af5980a0"
+    },
+    {
+      "path": "readers/genesis-geez.json",
+      "size_bytes": 861113,
+      "sha256": "5648d6dcf49fc5f880fa314f6105f28faaa8306dc7b806505adebd1581fa0b4c"
+    },
+    {
+      "path": "readers/job-brenton-lxx-1851.json",
+      "size_bytes": 201657,
+      "sha256": "d9e0764472f8114acbd7b06ed153dfe4d09d0121992bd40bb934fdc2a5e8bd0e"
+    },
+    {
+      "path": "readers/joshua-geez.json",
+      "size_bytes": 440233,
+      "sha256": "1378180f30b4177b4424e41ffe78708b9b58b29790db735e269429ab5b88ed5d"
+    },
+    {
+      "path": "readers/jubilees-geez-hacohen.json",
+      "size_bytes": 445313,
+      "sha256": "a178db0736e891dcc5e9796c3ae12372176e95e0da9dac53f4df824a94fd24d7"
+    },
+    {
+      "path": "readers/judges-geez.json",
+      "size_bytes": 437116,
+      "sha256": "519cb7a846b065a4a990c65443e1edf3e4673119242b4e5ee866433913b62036"
+    },
+    {
+      "path": "readers/leviticus-geez.json",
+      "size_bytes": 512447,
+      "sha256": "898e6f657ed181e8bfd3f67ed13015e595c445a26b3f6088111cfdf64c90e572"
+    },
+    {
+      "path": "readers/mark-research-tei.json",
+      "size_bytes": 328991,
+      "sha256": "2f557fb3d2f68b21389002eb661a23106fcafce09395a19d7fa95fdfa8ef327b"
+    },
+    {
+      "path": "readers/numbers-geez.json",
+      "size_bytes": 758351,
+      "sha256": "b8d243d0cd7a5e04c317c6750ada7ff83828220343d87ee4f1080a0ad7163e1d"
+    },
+    {
+      "path": "readers/psalms-geez-ludolf.json",
+      "size_bytes": 1162937,
+      "sha256": "bfa1e4e216d91fb9dabb1be53dfb8db9ade63da4d96d6b9fb5dca4710312c133"
+    },
+    {
+      "path": "readers/ruth-geez.json",
+      "size_bytes": 56600,
+      "sha256": "7c122c2dd1b30410fe57b8fc29180125fd633c5ca4a0a361664256839e072c8f"
+    },
+    {
+      "path": "readers/sirach-brenton-lxx-1851.json",
+      "size_bytes": 269844,
+      "sha256": "f8e7a01f769b4bbe94b28aff4c2adb42dcc4b4d29ce6d7ca5ec22dd1e367d3bd"
+    },
+    {
+      "path": "readers/source/brenton-exodus/capture-manifest.json",
+      "size_bytes": 9828,
+      "sha256": "b86046a52d084304437b6806e0b8779a2059d446916f4d04b61d07b6db9e88e1"
+    },
+    {
+      "path": "readers/source/brenton-exodus/CAPTURE-NOTICE.txt",
+      "size_bytes": 840,
+      "sha256": "e8c8b32a4565e5a1d8c062c1319b63cea5331f31cfac67b9e4f7e80428c92b39"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_01.txt",
+      "size_bytes": 3057,
+      "sha256": "f6cf4d7cf630f30c47651b168fdbee8896c24b66235fcdab082908909ca30ade"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_02.txt",
+      "size_bytes": 4120,
+      "sha256": "747a4c47071115c3cba1b065e034472f246bbb373ed5ec8040c185572bb45cff"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_03.txt",
+      "size_bytes": 4567,
+      "sha256": "a35ed365fbee47272e227de1cb39542fb53bf93c4955621f3fcc5d12f8063b94"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_04.txt",
+      "size_bytes": 5319,
+      "sha256": "16a254e06c1c3188aac68fda0b9caff27153ed1d567cbb50549541eb820272bc"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_05.txt",
+      "size_bytes": 4034,
+      "sha256": "248af9c93764bca1f7f84373c186094ddad7a1884df861a580cb45261ac80139"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_06.txt",
+      "size_bytes": 4730,
+      "sha256": "a600f96678844fe8f26cafcae9b718f8eab541c7b55ca589a6a638cb5c2ddcd5"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_07.txt",
+      "size_bytes": 5042,
+      "sha256": "0ac40bd480f8061ab69ca0b2be118be6fa84721b13f4b993fad8bbbf0995bc43"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_08.txt",
+      "size_bytes": 4954,
+      "sha256": "6aa475b679e68280d7115d7c8d383a4804250362b4b8f31e686bd71bbbbdd693"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_09.txt",
+      "size_bytes": 6119,
+      "sha256": "f2475dcb75b3a8bf54ad0974814e895f29b28f2bd965964bb7e7bae538097913"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_10.txt",
+      "size_bytes": 5507,
+      "sha256": "df8bb9e62bf19f593405da79a35e40e6305f5faa22f5ccc853165ad290720d91"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_11.txt",
+      "size_bytes": 2199,
+      "sha256": "c75d48bdf34bcf901569b130d0a93335bc188e41da60ef39444725482d353f9c"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_12.txt",
+      "size_bytes": 9037,
+      "sha256": "ade252b10e202b52a778cdbe340e1eb9030620594df60cab702a8d8d998e8522"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_13.txt",
+      "size_bytes": 4205,
+      "sha256": "a291a18010aa0763566a0975cde179eae13788226adb9b37267165233894deef"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_14.txt",
+      "size_bytes": 6000,
+      "sha256": "b97dea81e1e889f53ca1355651677cbb4f3a407412370270e153b53ccac07bba"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_15.txt",
+      "size_bytes": 4338,
+      "sha256": "0123929d230cb815f43c4dedc9df5014fc1eabf8a4efaf9b31d394c03e8a9171"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_16.txt",
+      "size_bytes": 6164,
+      "sha256": "5a14d9d6665f7adf077339f456cfcfb237973033a6397fb208d6e2e286944a69"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_17.txt",
+      "size_bytes": 3098,
+      "sha256": "857d72a02d46f7e890755b67619de66d6f1e2b712e098b8c1019ee6c0ec4bd3c"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_18.txt",
+      "size_bytes": 4998,
+      "sha256": "829f27d55cf10af7208d3fcc45673243efd6dda6f4f2787fa3cb0c3b38375c10"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_19.txt",
+      "size_bytes": 4447,
+      "sha256": "1171092b15561577077015ba9dfc8562efb9fe7be03ca5a54efbbb9799556e94"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_20.txt",
+      "size_bytes": 3945,
+      "sha256": "e9bfcfc7473bd8ea548c95caf359b5a0b6508923eaae9cd765dbcb56a1cc1cce"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_21.txt",
+      "size_bytes": 5623,
+      "sha256": "9a5a839a41e07c91f88ac6a8971ebb023ce0d4a2b2729ea71772358c31694547"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_22.txt",
+      "size_bytes": 5007,
+      "sha256": "f45e5d568857a636674ee1b050deb75f0aae8001f8fe443c4120b5c68683178f"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_23.txt",
+      "size_bytes": 5569,
+      "sha256": "32781cc988c0ddaac2616f3c26226c33a75f4dec79dc88fac5db94ccf8667fb9"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_24.txt",
+      "size_bytes": 3297,
+      "sha256": "026f1cbdff83020441508a40af38c861b3b7faafac5a891a30e762549c89cf17"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_25.txt",
+      "size_bytes": 5513,
+      "sha256": "f400a85275b7d79f3c782dabaeb937bef709e7bfda2b0c43b89c0fb533a4146e"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_26.txt",
+      "size_bytes": 5814,
+      "sha256": "ed17b27fc86d374ab29bdda7224f1cc517c10db6f459016b64f598b0564cc873"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_27.txt",
+      "size_bytes": 3801,
+      "sha256": "aeea239c7bdd025be088d55760ece3a4306cd91a4af296e4f0eb873cbed24f79"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_28.txt",
+      "size_bytes": 6842,
+      "sha256": "86892a838680778fe89c79f28b993f14413e8d02c884b2c514a2ed72d8b695de"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_29.txt",
+      "size_bytes": 6858,
+      "sha256": "e1528dc414dc5e8e4668fda47c854c87f434ec8363297eef606cf5f30c7cff75"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_30.txt",
+      "size_bytes": 6350,
+      "sha256": "f0c38965e532c80e8e6796133c8e164608eac04aab3257c674de35316caf1660"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_31.txt",
+      "size_bytes": 2861,
+      "sha256": "e6afd8272499bd39af0e77ab2ea09e5416249fc39d1a629f25f1ec9b7ab0b1b3"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_32.txt",
+      "size_bytes": 6501,
+      "sha256": "f9793ae5ad98ff9a2913ff2e0d5b57cd90daeef6727f1bea4982e0a9adeae224"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_33.txt",
+      "size_bytes": 4256,
+      "sha256": "73d9d553db689a876bdb58443b0883543bbfddff12252e29953e06c1a298ad0a"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_34.txt",
+      "size_bytes": 6736,
+      "sha256": "25ba7f3ccf3ab286c68cdbe7b6c2ae59d2cafdba3a089296ebdc85cecca76c94"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_35.txt",
+      "size_bytes": 4891,
+      "sha256": "1899e8c7261b894aabb195b5a7a209e2a94cdbedbe9d4ef55461af9f924eccb9"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_36.txt",
+      "size_bytes": 6140,
+      "sha256": "5163a5e67c530f7afb91b65312ad9dc47910f29ccc906f75012fe8a6b085c55a"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_37.txt",
+      "size_bytes": 3259,
+      "sha256": "78bb5030a54780567ea1159624f01841159f0d1bf613c5f158814badb0deb830"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_38.txt",
+      "size_bytes": 4385,
+      "sha256": "70436cb6199b7f83e0de55980ae046be595139ce1f99a9b7cc993595457c25fb"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_39.txt",
+      "size_bytes": 3723,
+      "sha256": "0ac7ccf4fb397ca9da8966ac2ddc064abe22cb04489f9f6e29750ee27b3a6c76"
+    },
+    {
+      "path": "readers/source/brenton-exodus/Exodus_40.txt",
+      "size_bytes": 4528,
+      "sha256": "e12e961b05e095b9bf5a54b6a509df19d1887f8d27cf4939b79e2687d0426b8e"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_01.txt",
+      "size_bytes": 6113,
+      "sha256": "8d8f09c6c57bf848f758c531a1b4bd9a607514599c9d4b200cedac1b2bc79da7"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_02.txt",
+      "size_bytes": 4946,
+      "sha256": "0959f0b494ff0d6ec871dcd58069944e6c4e6ba1f745ba9f858de88ecca07714"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_03.txt",
+      "size_bytes": 4926,
+      "sha256": "dece573d3e5d831952af7b39b45550fd312804e3f379e517181d3dce469204e8"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_04.txt",
+      "size_bytes": 4517,
+      "sha256": "f161aa1b0d33a83705ee913ca129cef4033c53438bc929cbc01f91930cb222bf"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_05.txt",
+      "size_bytes": 3915,
+      "sha256": "e083d17cab8cad0eea2333d5f435fa8fc2fa1c6c6a97050eccb5925d4012b1f9"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_06.txt",
+      "size_bytes": 4219,
+      "sha256": "eb1c1b01d40f81c82fcc389879dba0f63da908a96359b4dacf84393b141ad2c2"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_07.txt",
+      "size_bytes": 3734,
+      "sha256": "9448428640de62c2f7162fce55cb1b1135a70ae33b0aba8fc41725d306a46539"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_08.txt",
+      "size_bytes": 3859,
+      "sha256": "d185648bf7d6f0720b1df16d86ed47af39049d64bca01de0289585936a640bfc"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_09.txt",
+      "size_bytes": 4194,
+      "sha256": "93a601a053461a996454388ab429387431d8d8c5905f41bd6eb81c684e8bf6d0"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_10.txt",
+      "size_bytes": 3599,
+      "sha256": "2091737c44977141e40ad01894605e5d07f202d39b501ebb4a8f26ba19c063a3"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_11.txt",
+      "size_bytes": 4861,
+      "sha256": "083010dc29e0660f509b23dfd8514ead11d2ef0d20ca8df7f0dbbe1a35e0ef85"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_12.txt",
+      "size_bytes": 3489,
+      "sha256": "5687856549c92c5692153213d552e45b90384117be04555d6ebdef43ca392c23"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_13.txt",
+      "size_bytes": 3261,
+      "sha256": "8d725cced53c968cccb1ef84e4b224bba0a7ddada600f956d9d00a4001fbca08"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_14.txt",
+      "size_bytes": 4195,
+      "sha256": "75f3cd043d6f43fce3d31dfc61953620af9ab81c98bedb816abd9f9d3a75e95a"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_15.txt",
+      "size_bytes": 3383,
+      "sha256": "e456c6f8996c6370afc288c721e331edc18e1747b8943d1f7c2df527b36c6901"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_16.txt",
+      "size_bytes": 2735,
+      "sha256": "3b0bd42ecffbec43dc82312cb46bc16220a11c970cd8aea2fa167eb9ae28e931"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_17.txt",
+      "size_bytes": 4361,
+      "sha256": "bd91997a9a8487eae9575abb6fce2a98d6c225d4984c0ff836196a2a2f64dd5d"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_18.txt",
+      "size_bytes": 5425,
+      "sha256": "ed6780398297839da8dfdecaaafc2b18f78d6615f430b908e1cf5bed85bdadc6"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_19.txt",
+      "size_bytes": 6667,
+      "sha256": "99ec8b020e0279484a62b0a3ec9aff85138ab2b59c2ac3629bf0cc53bdacf79d"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_20.txt",
+      "size_bytes": 3365,
+      "sha256": "37e8f3e961982da7c4047cb1fee45fab402c2ec664fd9d1cc91df3349ead054a"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_21.txt",
+      "size_bytes": 5109,
+      "sha256": "078ea63a3110d7c4e9e670514a859aeeb538a50dd27a0d9e4c8779398d8b28c4"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_22.txt",
+      "size_bytes": 4301,
+      "sha256": "d1198a31639540c5742ce9ff9bfbd3f38b078de2ab5d510eefbb0ed9fdc40504"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_23.txt",
+      "size_bytes": 3340,
+      "sha256": "78353db68faca237cf49d4fc2899678519a9d7d1a789ed654cce063ee06f8b95"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_24.txt",
+      "size_bytes": 10916,
+      "sha256": "3175f4d5a6544a009ae3077e3dc36b4c5ba7e9b08dddd8eb37ed1957165be389"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_25.txt",
+      "size_bytes": 4618,
+      "sha256": "1fde53af2054f802828ff423766d4e905ca1df43a48c1b0d24d665b0a1af32a2"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_26.txt",
+      "size_bytes": 5652,
+      "sha256": "25ca7809f41582757b74a80f6d4d12114c76d81bf671afbc637349e4a9e7d60c"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_27.txt",
+      "size_bytes": 6900,
+      "sha256": "c6afa8bfc0fd7a051bb15f4efbfc01804189ad7d4bf2d9c2e03d0544dba1c15f"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_28.txt",
+      "size_bytes": 3942,
+      "sha256": "4c6fc30acf52715acde7082feebc1b5010319dd50019f46510c8100224e4dba4"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_29.txt",
+      "size_bytes": 5393,
+      "sha256": "ae441358a293891e366c6fbc6385b20e9be5fa6ee3157a12862e16f211eec264"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_30.txt",
+      "size_bytes": 7014,
+      "sha256": "32ab35c107ec8b496d0cecc96e697b6c6d66b37157bde1b211be457c44f93f70"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_31.txt",
+      "size_bytes": 8487,
+      "sha256": "1b156ee87006391c33aa742037a85d6f260e4274f02a9a606d0007f3f33c550e"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_32.txt",
+      "size_bytes": 5218,
+      "sha256": "7d09261aaa631a92be207ff80d87871f0376ccf251ef0b767dd1e9733739a293"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_33.txt",
+      "size_bytes": 3534,
+      "sha256": "055c91f7b62404ef19e7d07b7fb88b3a2d8b1ca617c9e911aa497c11b8258c42"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_34.txt",
+      "size_bytes": 5442,
+      "sha256": "968c979000223e2300b5082cb5d93698b6fa344b7603f3a4e66f167d7cede6e4"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_35.txt",
+      "size_bytes": 4568,
+      "sha256": "560cc3cfbfbf083d8c716cd780d191406b394362ff04428944c1c608ffcb3eb4"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_36.txt",
+      "size_bytes": 5321,
+      "sha256": "49eb0dc0b3f1318a38b6f5b10c3e9a5b598ce25c6cced211f265d6024425c1e9"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_37.txt",
+      "size_bytes": 5703,
+      "sha256": "93afbfd6c1c05fcaccf0687ba1130d7dfeb256f4cce5ac10196aa4d88064623e"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_38.txt",
+      "size_bytes": 4935,
+      "sha256": "616c14fe1cd7336d9a79bfb2f96b27188618af3dfc27af1ec2ac62990b5228f0"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_39.txt",
+      "size_bytes": 4452,
+      "sha256": "150e4ca655f75ce42e8459a75f899c8610cedc051e8111a08e312318564ebdd9"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_40.txt",
+      "size_bytes": 3783,
+      "sha256": "92d6968b6496f9428e117ca329f8654fd0f39bdd74014153aca1b0bd8ad5f74f"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_41.txt",
+      "size_bytes": 8644,
+      "sha256": "c539d28ca5de4d32831016cd4f856d8cd13bb522d313af043882721191abbeb6"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_42.txt",
+      "size_bytes": 5764,
+      "sha256": "4a17433daad92b74f4ad77de400807c4775cd59e811bb3a94204a37082e2acf3"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_43.txt",
+      "size_bytes": 6029,
+      "sha256": "298b685ca98096e4a9a481475b0e03282028c02848bef44d56ad46dbfdda8ad8"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_44.txt",
+      "size_bytes": 5411,
+      "sha256": "7b8fd12fb0b0141848b4b40e6264a8cff6ed5dd169232ea814da4308bb093f46"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_45.txt",
+      "size_bytes": 4504,
+      "sha256": "b481ba2990e20a1a3124d97b2d4ff95d12ddcb4f74b6bf1ab70973dba5241b47"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_46.txt",
+      "size_bytes": 5201,
+      "sha256": "7c1f9dae81c7528d97ef1f44dc91a2a8cad94c91ecb73058882fcab6ead62896"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_47.txt",
+      "size_bytes": 6000,
+      "sha256": "eae0d1d5230e05796c7fea62100a2c20ec22d1420d6bcb2b01e93a826d3ddb01"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_48.txt",
+      "size_bytes": 4050,
+      "sha256": "24ed49a319150f2bc0edb0bc1a530c02c7e48fdfe0c0a5e2fc6d4456562cd047"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_49.txt",
+      "size_bytes": 5116,
+      "sha256": "3f13e9992082f325f6f149cf9f4a754b164d6fc840a90f52bc1a9a93de0da5ac"
+    },
+    {
+      "path": "readers/source/brenton-genesis/Genesis_50.txt",
+      "size_bytes": 4321,
+      "sha256": "620172b423dfd6e587cf460af18702c3992bbcb2f315892d979c8985b63c50d0"
+    },
+    {
+      "path": "readers/source/brenton-ruth/capture-manifest.json",
+      "size_bytes": 1953,
+      "sha256": "348abe0c7df9a481ce558840ea1d99489b2dd90e96bbfba7b476a524ac14b2c7"
+    },
+    {
+      "path": "readers/source/brenton-ruth/Ruth_01.txt",
+      "size_bytes": 3672,
+      "sha256": "3fc76c7efc88e0c2eeeb2c06ca367b3c0a1eb00980d68e44ab4488bf5419e45b"
+    },
+    {
+      "path": "readers/source/brenton-ruth/Ruth_02.txt",
+      "size_bytes": 4411,
+      "sha256": "4e601218d728899983cb076886a617e952e3acb84b05bd5110782712b26f87c1"
+    },
+    {
+      "path": "readers/source/brenton-ruth/Ruth_03.txt",
+      "size_bytes": 3087,
+      "sha256": "ee8298d26e54124926d49e99dcc0a00a58f0a1b0b22b0b55df6538d6dbb90b79"
+    },
+    {
+      "path": "readers/source/brenton-ruth/Ruth_04.txt",
+      "size_bytes": 3666,
+      "sha256": "da26671408ff280c253766983162cdad10945f85e674d6cabc3786fff7d00fd8"
+    },
+    {
+      "path": "readers/source/brenton-septuagint/capture-manifest.json",
+      "size_bytes": 8664,
+      "sha256": "22d2b4ba3d95c0c9cfc3efa63836b820969684dca3676fef38d128c8d2ecb7ed"
+    },
+    {
+      "path": "readers/source/brenton-septuagint/eng-Brenton_usfm.zip",
+      "size_bytes": 1442696,
+      "sha256": "ce098084f168f8bb67081ab48061588f7074d4f68d88dec2ab3edbcc10607a7a"
+    },
+    {
+      "path": "readers/source/crosswire/Geez.zip",
+      "size_bytes": 487422,
+      "sha256": "b79ead2cc0f306f076da44586791835c765c8fd64e7161b912397002578e916d"
+    },
+    {
+      "path": "readers/source/crosswire/module-structure-audit.json",
+      "size_bytes": 11872,
+      "sha256": "59da3115706ecd8c6390d284843ca47a91f700a9cc7c32e8356cedaaee754512"
+    },
+    {
+      "path": "readers/source/enoch/LIT1340EnochE-EOTCed.xml",
+      "size_bytes": 361127,
+      "sha256": "24158d4b631141f13c9f68f771b0a225993c5a0ece422d29d0c86c5bda71be40"
+    },
+    {
+      "path": "readers/source/enoch/SOURCE-BOUNDARY.md",
+      "size_bytes": 2588,
+      "sha256": "ef37aff603ade97d378c967183a746093e93ca71b8f9d41b194d22740dd31dcf"
+    },
+    {
+      "path": "readers/source/exodus/capture.json",
+      "size_bytes": 776658,
+      "sha256": "955dd88ee0053b1a3cc4863a16a0e359b474d055f3d648a51059456a974cc3a5"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_01.html",
+      "size_bytes": 13241,
+      "sha256": "c00793b43fc0849c6aa5c382a1b82d815653858d74a3123c6bf308b1e73fe518"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_02.html",
+      "size_bytes": 17228,
+      "sha256": "8806b41c329430522007e208f67d0682aaf9e87cdea415e061c8e1a5d6981f67"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_03.html",
+      "size_bytes": 17811,
+      "sha256": "64a17bb2d648731b7ecebed020d7a71030345a5e0133361a8b39a9a3d259c546"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_04.html",
+      "size_bytes": 21358,
+      "sha256": "c94bc1dc6c93bcdba8540a9e2e35dca92171a5e48246dea159811921e390aca7"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_05.html",
+      "size_bytes": 15447,
+      "sha256": "3d9779a2b5f69f715eb65d1233d11794f135ef538c14d8ce1edcd7669782c463"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_06.html",
+      "size_bytes": 18682,
+      "sha256": "b85da1f37145517116261932327ae52687b557667c0bccd1f9e7ddd90aa31b8a"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_07.html",
+      "size_bytes": 18800,
+      "sha256": "16e2dc068bdc97df60c10dc15d8608ecb7f55e9e46b255c86f0be82665a65aa4"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_08.html",
+      "size_bytes": 19704,
+      "sha256": "a1e75f90018201d3f75f67210d47bc31bbe43bfb32cc6a33ba6f54aaaf45f74a"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_09.html",
+      "size_bytes": 23196,
+      "sha256": "288ab272aae89c82e845a9247972fc3f1924ed40606312a96e601b8b6044e21a"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_10.html",
+      "size_bytes": 21864,
+      "sha256": "0b568c9c07781e6e4d9c74c4971e3cfa3e8b40ce591bc1485661cfacc6f06853"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_11.html",
+      "size_bytes": 8693,
+      "sha256": "7748adbb6fabc1c98de1903db8d365dca2247dabcb9b94f61f98144ffdf4232c"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_12.html",
+      "size_bytes": 33391,
+      "sha256": "4f1d9aef6387b0416a02742b257f427c9f987521dd8aacb6c0b9bf6fbf1f211a"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_13.html",
+      "size_bytes": 15936,
+      "sha256": "05775bea770063073bb901d89f6a29b82b257b28f10c86ec3f58964d304f6b57"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_14.html",
+      "size_bytes": 22675,
+      "sha256": "9ea920969702fcacb68ae5e87933dc57a89e62ca0e6ea3a0f1b0306afe7ac70d"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_15.html",
+      "size_bytes": 17407,
+      "sha256": "49ddead4e71f79799ba8eb8f113d640475bced4dba92698937128c78dac1ec25"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_16.html",
+      "size_bytes": 24008,
+      "sha256": "c879d6748b5e3e2e86c1acf3eb70c903206f967fe7d5bbc42ce609f0d515ed5b"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_17.html",
+      "size_bytes": 11768,
+      "sha256": "e685865d6b619501e2afbefb576c6a3c4a9c19e7f8031277543b6ad7fab0d634"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_18.html",
+      "size_bytes": 17425,
+      "sha256": "baf6d9a6189a3bc603c2daaafa14f2264bf705c86ee2c5e6d0a15b6be972405f"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_19.html",
+      "size_bytes": 17107,
+      "sha256": "2b83d536510b5d4fd4136829799817ab034b183c0ca18d179ea54a9da9b18adb"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_20.html",
+      "size_bytes": 15452,
+      "sha256": "8a9a59a7fe9286d8593e38493213ed4a5bf402f610ae1558119dad953fd85ecd"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_21.html",
+      "size_bytes": 20586,
+      "sha256": "5d14e01475da01f304926d4045964e1528e681c8fc2f010fd476e2a8d4e1f6a4"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_22.html",
+      "size_bytes": 16889,
+      "sha256": "b08a830da7cee051db5e8d0f9c27d5cc073ef91d43d7099ce85f536bceb647de"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_23.html",
+      "size_bytes": 19693,
+      "sha256": "593b05e5516b25c6cb04356cdf21f98d87b53570982aecb3a3e640b03a38d2ad"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_24.html",
+      "size_bytes": 12183,
+      "sha256": "64e7e4d02308be58e4f34af488350ac8eb3aed1ef1435497afaf0b9303aa0326"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_25.html",
+      "size_bytes": 22797,
+      "sha256": "5a8349ace43e81dc17eeb8f592c640718940b94b9ba189b4c7ac21541e5cf438"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_26.html",
+      "size_bytes": 23075,
+      "sha256": "fb3d04e1f7d1d91c21d1d81f8b4775e1068d1e5ba1dda022feff0dae26631856"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_27.html",
+      "size_bytes": 14394,
+      "sha256": "892cff2092654b84e946d589838a5661f6c3e1c1b602c1b2966d5eb35b020b20"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_28.html",
+      "size_bytes": 26394,
+      "sha256": "9140cd897aa9362bedaefc7309e73787df8726e906425ec8692fffad03ada230"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_29.html",
+      "size_bytes": 30379,
+      "sha256": "575ef899d07872cd93cd9604a2159775f5107709f6c35782cae8d2b051f729e9"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_30.html",
+      "size_bytes": 22803,
+      "sha256": "b110c938e75d9ad669d0e415398f8aa79b95e2b183f556bcf390d238e8e49dc0"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_31.html",
+      "size_bytes": 11539,
+      "sha256": "baf1648b30519eb0c7bc96ca6db4590f30ac501b558bbd1f2263cde6b997db3b"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_32.html",
+      "size_bytes": 24254,
+      "sha256": "c24715aa482b93c9c71eebb0c1b6301e1fa9dac3579404c8f63888c26cb7061c"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_33.html",
+      "size_bytes": 17000,
+      "sha256": "32634cac5ef53e7a0276c3274b59ddf9eedf164a4e023bc0e4763ed16a750e95"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_34.html",
+      "size_bytes": 25227,
+      "sha256": "1e1c58f250517f5844ca33b3c73c24163abfa10d8da7e5a7b2dd640dde2db7b4"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_35.html",
+      "size_bytes": 18885,
+      "sha256": "74f58555bd6e450e8d0c360337a59d0101ee9911cdcaff64fb098a008f61003f"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_36.html",
+      "size_bytes": 25638,
+      "sha256": "dcf97cda2f94f6c91c65f1d218f7652f2bc0a11ca2a96fbaa72cf4f62e2f8680"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_37.html",
+      "size_bytes": 12903,
+      "sha256": "5c8e3e4333e1226e60642b855107c803381588db2712b8f2e21b2d8ab5b51528"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_38.html",
+      "size_bytes": 16833,
+      "sha256": "caeebe41204f2e5b0993f84fc9fba99bead2da19780c93c81e53294e1948c216"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_39.html",
+      "size_bytes": 14109,
+      "sha256": "ae7f1a637367ab46ab9935d38d9e68141871b6ce65a2ca89a0adb0846921eb23"
+    },
+    {
+      "path": "readers/source/exodus/Exodus_40.html",
+      "size_bytes": 17647,
+      "sha256": "7baa616e7fd62007aa3ad55c4cc270cedac8d17de3cbf7f6e2e310e6933805f1"
+    },
+    {
+      "path": "readers/source/exodus/index.html",
+      "size_bytes": 2771,
+      "sha256": "cbb9c8ce66ce0022cd987c15c4b178979b6c7b43c8332af05338285c9a15de82"
+    },
+    {
+      "path": "readers/source/exodus/SOURCE-NOTICE.txt",
+      "size_bytes": 599,
+      "sha256": "daea36a4cbb09336cb84e63d0a33d0ec09c5aba860dad240b3441c358047c0a3"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_01.html",
+      "size_bytes": 22285,
+      "sha256": "07e93dd427a0f697557c9b0b19ec1d9f7852ab92c44a42e360a74e24eb60d5ff"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_02.html",
+      "size_bytes": 16199,
+      "sha256": "3cb822fa3efe0543194c8cdeb47b4c406b6ec19f6dda0ea7264a46b4f45e5bcd"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_03.html",
+      "size_bytes": 17175,
+      "sha256": "e56a7995153deb1636107ef5eeb77d893139f20fd7572d91a5927ec6ffc2a8d2"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_04.html",
+      "size_bytes": 18540,
+      "sha256": "9914fe9e700c546a5eb2d1f40b16d67d81e0c3c9266950c5bf87cd78f8304190"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_05.html",
+      "size_bytes": 15043,
+      "sha256": "42b0bf87c985d283fc45963a4bd922e1a3df0b72b6901c62cda3a8db5f1cf48f"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_06.html",
+      "size_bytes": 14687,
+      "sha256": "2de35310553d2fb154f4b716c5ccf1b83db2e730dbfe871178ae940fdb4bd6b9"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_07.html",
+      "size_bytes": 14677,
+      "sha256": "3f3d22f5cff0f7c095e9836edfd27487d7b71bf42a1b7dcc2adfe9bd769a59b4"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_08.html",
+      "size_bytes": 14572,
+      "sha256": "5268f3c8ec8d7c28c43c47b4001e1d474ea65bd7dd4ab5c5a352f678153743ab"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_09.html",
+      "size_bytes": 17448,
+      "sha256": "3835b639bd5e0bf5191224b312ed08016690b1d43956527724fc427a56b9365c"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_10.html",
+      "size_bytes": 16721,
+      "sha256": "3e6caa1872e2710a7c3c239827b1c246ce5f5ba4f8e5535b7867b07ca9defb80"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_11.html",
+      "size_bytes": 18537,
+      "sha256": "1f8733c0aef3226719fb852c3c54ac7bb6b62e9ba474d9d5be68bf81620cd237"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_12.html",
+      "size_bytes": 13315,
+      "sha256": "751bf3f81826d9fe6e9270791fdc3a04adb455dfcc1df828569578b0ec5ae1c0"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_13.html",
+      "size_bytes": 11692,
+      "sha256": "f0e555a37e9980fe8dbdc191f731bc02eddade027d3716923874f5ec62d10efa"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_14.html",
+      "size_bytes": 17275,
+      "sha256": "c7b386f5acd4c6d89fa709fe3740cff25ec9f44d0694f911288e63ddf2cf6de9"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_15.html",
+      "size_bytes": 13170,
+      "sha256": "1e0a6595a2719f86028e19f8a6edda91bdeda3bb1c9ade3e1df292ba0cf85871"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_16.html",
+      "size_bytes": 11905,
+      "sha256": "95addcf9f343cb502a40eee1ff827d77da879d4229d2ec1f6ebf8f0bd5ec93e0"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_17.html",
+      "size_bytes": 16787,
+      "sha256": "ec60f30f2f40bb7274ce34089d3d543078854992831af2fcbe2441388217c51b"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_18.html",
+      "size_bytes": 20905,
+      "sha256": "28fc72779b80dea642fbc7701ab38de0d6daceccc39a119e753c2003ce2faf4f"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_19.html",
+      "size_bytes": 26096,
+      "sha256": "0e6431faff6330c6ce306259474dc77b22f6b13fbf2a4160ae826f7cb1caeaa6"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_20.html",
+      "size_bytes": 12961,
+      "sha256": "b9f7860f042949d8a50a57222b3fde7d6c9402a1738f5873d3bdec75f087788f"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_21.html",
+      "size_bytes": 20696,
+      "sha256": "cf1ad7868cdb15096465fbb468b5aa35710e1120003eb70db9dca8b74de43bb5"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_22.html",
+      "size_bytes": 15325,
+      "sha256": "bf292dee81b307ae5cb2af864374c3958417921acda812a27c7e92b46b897691"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_23.html",
+      "size_bytes": 11811,
+      "sha256": "089a8dc98b618a266f2755c52e1e91d0ae1cf277bd6287a124918228d321d4f0"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_24.html",
+      "size_bytes": 41593,
+      "sha256": "a169a8d63f8b41b2235b2efc1f9f7abc890a01d67ee4f77648c3cbbe146ed616"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_25.html",
+      "size_bytes": 20177,
+      "sha256": "1c4fb19db66b833be0621c7f55047e8f230572e15678c8c70c89c42159570386"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_26.html",
+      "size_bytes": 22344,
+      "sha256": "381be8beeb672188bc89e51952c571498437535d088e047ad488d79ab9e1ad26"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_27.html",
+      "size_bytes": 27289,
+      "sha256": "fbec7e26ba2857f4daec272c438d0235cbc8d28213ccaa5b8457bbac9fa7dcf7"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_28.html",
+      "size_bytes": 15315,
+      "sha256": "d1af6ab466506868eaf02c53ee83c58f0e44ea36a9c94e58c148d55b5b7418d5"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_29.html",
+      "size_bytes": 21867,
+      "sha256": "5cc4e8eaf8bac9c2d229b951c51bdde5c2c606fce584c8f4b9b2da20beccb337"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_30.html",
+      "size_bytes": 25865,
+      "sha256": "0521e237b5ceb195b03e02dede7a577c575dbff2a33de36b71c72ec7c21ced93"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_31.html",
+      "size_bytes": 33019,
+      "sha256": "1408938c99b2c9e282776a049d1573acde0ed5ae69e7a781549c3e1cc1c89236"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_32.html",
+      "size_bytes": 21479,
+      "sha256": "22e8c7553317136dd1da081b320545cf3646a64829f947879b528462e77f057e"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_33.html",
+      "size_bytes": 14164,
+      "sha256": "5ddb6535611743464a2b9978e27796af18a2c6600e9ea8d4f6d61fffb797abdc"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_34.html",
+      "size_bytes": 19968,
+      "sha256": "df1cfad1688bef23424c7c31941b929d376a522a427712b7bb5fdc05c9c842b9"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_35.html",
+      "size_bytes": 18470,
+      "sha256": "63920a307de871df0482e44e9cb27f75a508f8d6881ca91b000575016b6638d5"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_36.html",
+      "size_bytes": 24571,
+      "sha256": "20617e485b4cf8da412397f4ed75ba6fdd0335697c2eed0eeea06a7967a129e9"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_37.html",
+      "size_bytes": 22825,
+      "sha256": "9d6ec9aeee062dcb203f4e607f6e310f0d8e4115fc1d0ddc5cad59543f9f5f36"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_38.html",
+      "size_bytes": 19445,
+      "sha256": "39e67f711beea7888edcd760640d48786fb7f1838f1f872887d4bc1521326a53"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_39.html",
+      "size_bytes": 15656,
+      "sha256": "885fe548f7f15b6744b354818aca50ef99ae748281493e2c160c828ae0523222"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_40.html",
+      "size_bytes": 13974,
+      "sha256": "46f0fa7a11f8168aa4a7dbb1aae4405144a8ed51be8a5aee9ab5245a4ed9d4d7"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_41.html",
+      "size_bytes": 34485,
+      "sha256": "549b5139bcb1f958c9950ad436e937aa6eaf3608013edaee45ae79d9d43360eb"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_42.html",
+      "size_bytes": 23753,
+      "sha256": "5068cf0a0e74f60f640afd6202cf865eabc88b426cd299c100e71c3d72f040cd"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_43.html",
+      "size_bytes": 23651,
+      "sha256": "3803aa76399e5929b3bcbc767f824b4144eb73c13ac2e9b1a407e5bdc703645c"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_44.html",
+      "size_bytes": 21767,
+      "sha256": "06733f0b79c37d75bea033830cc3d7fed501a6a89b52b91d5535098f28f8bc7b"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_45.html",
+      "size_bytes": 18078,
+      "sha256": "fa99ded058fd4964db8ece6ced2d4c39b19a8f62c69d8a79a03aed0444679a2f"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_46.html",
+      "size_bytes": 20868,
+      "sha256": "e86abbe9d100ea325932b28c17649f52763ba8f4df41712baef2a84148af316f"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_47.html",
+      "size_bytes": 23690,
+      "sha256": "f8674c0a0d071772645b79ded81f52cbff81b8f05db1e3ffae4322a0ee4d63bc"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_48.html",
+      "size_bytes": 16270,
+      "sha256": "b6db6cb18a70b17c453eab6d55d144748f32fe48b874cd29adfac2c73ffdb57c"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_49.html",
+      "size_bytes": 19567,
+      "sha256": "85a081ad6313a904dbf2209bdf68f8ef8ce96463be2b05b4dc2f534cae3a6a0e"
+    },
+    {
+      "path": "readers/source/genesis/Genesis_50.html",
+      "size_bytes": 18010,
+      "sha256": "4fceb384a5d23db0b9aa5b9e8f0d6d84506ff12f0940af8d9d8752ca9b949557"
+    },
+    {
+      "path": "readers/source/jubilees/LIT1697Jubilees-Ran.xml",
+      "size_bytes": 365747,
+      "sha256": "95df4eadacbdec938e1a5196c1a9f86c5168b59755129d454a417f51eaa9fa9e"
+    },
+    {
+      "path": "readers/source/jubilees/SOURCE-BOUNDARY.md",
+      "size_bytes": 1328,
+      "sha256": "8a85bcf22a51980ded377425af83e99c49707d4ed7ef935e99eb49db6bc2cbbd"
+    },
+    {
+      "path": "readers/source/jubilees-english/SOURCE-AUDIT.md",
+      "size_bytes": 1988,
+      "sha256": "b86162a74827e7a4c48e8cd68208e4d41aa9fe2a55ccb64d32e076c7d3cb9883"
+    },
+    {
+      "path": "readers/source/mark/LIT2711Mark-original.xml",
+      "size_bytes": 345126,
+      "sha256": "1c3682594d26bcedc425431913575a446d0cd508c78457abffae74bf7c2bfced"
+    },
+    {
+      "path": "readers/source/mark/SOURCE-AUDIT.md",
+      "size_bytes": 3434,
+      "sha256": "cf38ef9b4531fc48a19d8775f2361acb203a5b90b722caae3e74caa8cdd47e7b"
+    },
+    {
+      "path": "readers/source/mark/structure-audit.json",
+      "size_bytes": 17796,
+      "sha256": "389b448b599c9b64421d751017a1f6ea4a0a8a62b4989023f512e99aa71dc875"
+    },
+    {
+      "path": "readers/source/octateuch-additional/capture.json",
+      "size_bytes": 3205647,
+      "sha256": "3d98cf3b52eb1bdc4c1a0ff9cf9da74049778e7eec079bc5081f5d6630219bca"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_01.html",
+      "size_bytes": 32504,
+      "sha256": "c41f4efa137ae00d1e1e3c7646abea3622211c335c972407159c0c9781f06015"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_02.html",
+      "size_bytes": 27074,
+      "sha256": "80d07129111390895990ff2c20a086918e3a6367a159e9982ae348f3011d1364"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_03.html",
+      "size_bytes": 21671,
+      "sha256": "7e0a0d923b114c86aa19730f25fa54172f35d87b8e7c01dc35206a2a7cda7442"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_04.html",
+      "size_bytes": 36679,
+      "sha256": "03cb1642d119a123d5bc13dbc4fdcb65babbf74a4f05c48c4306a0456a26c8d2"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_05.html",
+      "size_bytes": 22335,
+      "sha256": "2b6fb542835f802039899d67eef677d69ab151ef5ec39784f92bd64dd4954b96"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_06.html",
+      "size_bytes": 18358,
+      "sha256": "80f47faa1ac9760e3f40fdc8218c145f3e032714b21faad37c551eb5212ed007"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_07.html",
+      "size_bytes": 21320,
+      "sha256": "6d1973a33096f5e7fe15e1678eb3ab0523ff75654496d68f7c4758bb28364ca9"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_08.html",
+      "size_bytes": 15385,
+      "sha256": "24738851f47d6037d7233e335ea2920285fce2df4a13fa8b411e19f82d815a84"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_09.html",
+      "size_bytes": 24963,
+      "sha256": "bffc8320ce8c5194eea5fe2cc7218426bb1239beb3c94ba1b6570b0d61a7c22e"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_10.html",
+      "size_bytes": 16195,
+      "sha256": "f7d492f1aa10a69a302cdb6f97cf80d372706aa3f3daa30cf99ba8f0ce2e8e1a"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_11.html",
+      "size_bytes": 23879,
+      "sha256": "ca521fe364d842d2aed30243f11cea9ca7ca658e0f27241bda815048fae9e83d"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_12.html",
+      "size_bytes": 24393,
+      "sha256": "28db3dd1a97c33de8eb43349ff3466e68ab90af9c68a9e450d44c29b49cccb8a"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_13.html",
+      "size_bytes": 15083,
+      "sha256": "c69729ad0fb1fc4a47e16c276f35b612408b37f4b47a750e21d9f3ec7a4577d0"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_14.html",
+      "size_bytes": 17288,
+      "sha256": "2a97b7a2d4a4bbfd786a628f79bc1af0bb64f9846dd359ef9ce45d0eff9d281b"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_15.html",
+      "size_bytes": 17070,
+      "sha256": "d62be1311f4146a8593849c487f4264830ee18f1bd2ad342fb6e10ba99660fda"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_16.html",
+      "size_bytes": 16947,
+      "sha256": "46d971e35365a06874979e2cfd9b9a4e17797f6b672261c9fc7a7ce076a1ef55"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_17.html",
+      "size_bytes": 15771,
+      "sha256": "f4c5008443a3d7b14808e1ea625e3134aeec0b5fb7d197de64c90f62ef23b375"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_18.html",
+      "size_bytes": 15143,
+      "sha256": "52be15df19bb3abad283a1b31f47fbc3b03d649d803165633b8a87e707c635ee"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_19.html",
+      "size_bytes": 16066,
+      "sha256": "62ac04a4e7bda3e00a4f4e47a2106f2162fc14da45bb1ae595ac7ef700bd8e6e"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_20.html",
+      "size_bytes": 15244,
+      "sha256": "43610d32729cd35a969b4bf694a0c86de80e869a707a238b3dc46670355fea8f"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_21.html",
+      "size_bytes": 16308,
+      "sha256": "784c1eba25bbe014bb143a81fd433b640817ee0c333fe49a831c8617910f5695"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_22.html",
+      "size_bytes": 20972,
+      "sha256": "943e57b2a6fd459ee7be2395cab23a4c8a20ea26ac265dea76694ce1c648fd36"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_23.html",
+      "size_bytes": 16920,
+      "sha256": "0e0da085a9010eaf23271055844d137be8c279ddad8caa6b1c97c82d80c0e3ee"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_24.html",
+      "size_bytes": 16962,
+      "sha256": "9d72054b709c37eb398a4de8681d9945c74e185537261767d1bdbc08071c7609"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_25.html",
+      "size_bytes": 13417,
+      "sha256": "ef4f27f19b3f5d8d66ae709a0a5fe95bded2159bb3e2527746883bd30c97f0cc"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_26.html",
+      "size_bytes": 15260,
+      "sha256": "f4dedd7cf236eca3e96c552a3da57f39725cf2ae0a616a1a6e2758db11430a12"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_27.html",
+      "size_bytes": 16796,
+      "sha256": "449b85450b9d86325371b44f7c6b4516db59d5fe56632792df7d1aeac1418c0b"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_28.html",
+      "size_bytes": 47341,
+      "sha256": "33652cc56e4a399479378af1527718e7e30f7c276e199a4f973c3612b0dd800f"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_29.html",
+      "size_bytes": 20543,
+      "sha256": "92812fe481a146763cc5eccdacaa9da2eb5c73ca898cef55ebb984ceef214d81"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_30.html",
+      "size_bytes": 16628,
+      "sha256": "de72363fd75e1cf61a6f8d471b608871bc40573b0cb5883fecd0703fba893c40"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_31.html",
+      "size_bytes": 24192,
+      "sha256": "24d8bd6e4121431034f0fa398027a421739c0e7599b844b74b067c96aa66c212"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_32.html",
+      "size_bytes": 32574,
+      "sha256": "f8797809646f6abef2fb37ca1f398775f189a136e859ec83bd4a1789f6d89cfa"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_33.html",
+      "size_bytes": 19000,
+      "sha256": "979314d80d87d817d98b0a9808062a17eb24060c76ff97393d7b1eefe7b6a30e"
+    },
+    {
+      "path": "readers/source/octateuch-additional/deuteronomy/Deuteronomium_34.html",
+      "size_bytes": 9278,
+      "sha256": "02629ba36b71b2022fe9b7146aec8f45d9d898eb0fb3bfead38b1ebfccecfe3e"
+    },
+    {
+      "path": "readers/source/octateuch-additional/index.html",
+      "size_bytes": 7452,
+      "sha256": "ad00db00097a66c37480f2b3d4ea26d5d39c001f43e8a59af437637500fc1aef"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_01.html",
+      "size_bytes": 15711,
+      "sha256": "a0804e680c50303106823dc17d748538e41b500d73e3ef76f0f48f9bd6f254fb"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_02.html",
+      "size_bytes": 19421,
+      "sha256": "30d61475e793d73a9e8a00e3c87d46d0c871c3b0eb01710963be895228dc6c94"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_03.html",
+      "size_bytes": 15025,
+      "sha256": "3499c8c50b7edb254bd26da77994365324acaf9af8733d92e85e5424547646dc"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_04.html",
+      "size_bytes": 18763,
+      "sha256": "9aeef3e70f4114ae0adcd1f026f4add4d4017f64783293be199910db0a7ec224"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_05.html",
+      "size_bytes": 14870,
+      "sha256": "7832aabbfa792e71d0df9b2acad4010db0747bd07a8e6235c5f8408cca6e049c"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_06.html",
+      "size_bytes": 24455,
+      "sha256": "727035f4c89d1e614c0a6767d2cf6fe3c314fc3e462e0bac2b78f68a848006d6"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_07.html",
+      "size_bytes": 22688,
+      "sha256": "842e194a36d56bf9a9a814247eb48d5d9433274cfe35c4fd2e7205438b05e401"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_08.html",
+      "size_bytes": 31222,
+      "sha256": "c6fbbc9d18dfa2ab9a672de26cdf3451818626098e77e320d1cdbc677c731af2"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_09.html",
+      "size_bytes": 19404,
+      "sha256": "763369a1e115c7acea91431b4e0e8a42ddf400f4b34e613b164eb2c50352c1ab"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_10.html",
+      "size_bytes": 35580,
+      "sha256": "12ebe589bd3e638e72a1b09ddcf57f13f7f2f972fef03a6f6c4d1320f1bb520b"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_11.html",
+      "size_bytes": 18624,
+      "sha256": "78bf51597faa750414e0dff1eff6f08823932820f1ea01404bcbe11d3964a7ca"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_12.html",
+      "size_bytes": 13027,
+      "sha256": "fe839513181bde217d3b4ebeb5ad53f260dbad0d7b029d4d16dff0ab0b1f165b"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_13.html",
+      "size_bytes": 23228,
+      "sha256": "22d5072322550cc1714988fe9b75f1b353f2606a457a33d196790d753a6264e2"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_14.html",
+      "size_bytes": 12329,
+      "sha256": "18c4ff753a6e569b5d44b0cb0e2e8e0b53fdc249078e885369c593021d040a4d"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_15.html",
+      "size_bytes": 32410,
+      "sha256": "629b19ada5a9bfa44e3608fe196ba31e75309055b7b09e54bdc75154ca931d3b"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_16.html",
+      "size_bytes": 8287,
+      "sha256": "d7ca78ead769dbd58e66876d82966187459fd5a6b019765283317d92b5473945"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_17.html",
+      "size_bytes": 14471,
+      "sha256": "e8bab46d09fec40d45890a56cb9bcbd252cfcba6b2f80ae945411ec63f1eb72d"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_18.html",
+      "size_bytes": 19417,
+      "sha256": "ae724bb52c6ddf137459b32311b0f124dbc1fbdaf983f430963d473f6852642e"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_19.html",
+      "size_bytes": 26711,
+      "sha256": "4d54b2367d5e23da5681be0a71ef7f55b9d2b13bf78d7bfea30598ef35d2ebed"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_20.html",
+      "size_bytes": 8559,
+      "sha256": "13f78e8f2a5315c15de88a73d97a351463d8c20b2b7734b88831e0b1179a843b"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_21.html",
+      "size_bytes": 29236,
+      "sha256": "1c181b021c12c56551a30e4444a5303091c60970286ca0aff7d5a2e3fe1cbd39"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_22.html",
+      "size_bytes": 32726,
+      "sha256": "d16ac00e4f18638fbb6fd29cde43f49ff690a1288adbbb5efff1d3dea9cece41"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_23.html",
+      "size_bytes": 14520,
+      "sha256": "852f1bd96a8f40cf0bb0074646bb5f0c91352fbe5af0600615f97edf8669db25"
+    },
+    {
+      "path": "readers/source/octateuch-additional/joshua/Josua_24.html",
+      "size_bytes": 30439,
+      "sha256": "79c9b51639e3df3bf1afec1a6d344dccd31c1339cf736fb9f26be54f360de187"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_01.html",
+      "size_bytes": 26946,
+      "sha256": "cd6c08e24721bd0681065583c42372b58cf8c05126d38661ac71a36273872fef"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_02.html",
+      "size_bytes": 18751,
+      "sha256": "9aa18ad209e27ad367ca7dea663eda8655a39e2ee1f4058300b894703ba6d545"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_03.html",
+      "size_bytes": 22445,
+      "sha256": "956c5cad9ca0440ce5c59e581947aa674fa58e4af1b52e78689b462c6d63d0a2"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_04.html",
+      "size_bytes": 19672,
+      "sha256": "80ccda27cad8d98cc86dd273bf7b48d8b021560b32b3c6baafcb2b16c7b72db3"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_05.html",
+      "size_bytes": 21107,
+      "sha256": "ce04f12b3506887fe0dc1f367dc7b535bb599de4491dfb06ea6319e59d8e8f48"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_06.html",
+      "size_bytes": 30576,
+      "sha256": "e2ec83e3351e9d37e76c7600b00b7fdb09c01198078eca7356df776818fa980f"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_07.html",
+      "size_bytes": 22897,
+      "sha256": "7841bbbfb41e3ae80ec9de8ccbd84f8e14ec88b4dee40092c52fb8c0e31dea87"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_08.html",
+      "size_bytes": 25342,
+      "sha256": "5ca52e61f374c8c47bcc92b13e6b9a86a2fd8d9f61be8e5dd928c7c7923ab289"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_09.html",
+      "size_bytes": 38747,
+      "sha256": "5c234fc504033ad37248dede27621e697fbbadefb56329204986665dc2e6d535"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_10.html",
+      "size_bytes": 12610,
+      "sha256": "a64a9fe9e10a4c99b641f8c9e07fc70cd73fc32a6ed7012ce5e1812b701fe619"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_11.html",
+      "size_bytes": 30244,
+      "sha256": "c95836e99b74e18e578e25f148c34a20eace9fd134b4cea700953f81dcf6ce68"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_12.html",
+      "size_bytes": 10793,
+      "sha256": "336746e5b6f8069db03b97c62eef82548959681d1ad81b4782a29f038238d04e"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_13.html",
+      "size_bytes": 18121,
+      "sha256": "44508bfb047f6f2635620da3e373a7a9831b908b5308da227f470a47ab15074e"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_14.html",
+      "size_bytes": 16235,
+      "sha256": "e579f9673e949c07faa4f8348342ecaef5896bc05672cea430499c58f39832a8"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_15.html",
+      "size_bytes": 16678,
+      "sha256": "4ba22096740ffc9677f0a53c6c51641155f2a458ecbb40249db660d74c99e1ee"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_16.html",
+      "size_bytes": 25724,
+      "sha256": "f0998bd7a74a4dca4858aa60b60a75f9c7f2f550fcce6e910d0c95cdbc4c70b1"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_17.html",
+      "size_bytes": 10084,
+      "sha256": "a5c66e7fcadf52b0e4fcefb9a1fe87559c5e0caedcabdf02551b67584694d3b5"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_18.html",
+      "size_bytes": 25784,
+      "sha256": "c809793fa7fad1928052110eec7dbbeb06a4eb2acbd9cfa363ae2299f27f9bde"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_19.html",
+      "size_bytes": 24771,
+      "sha256": "e06f7b3193c24b1330e8eeb0a14486ba6ed633a5e65814768e49bc31ef6efc19"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_20.html",
+      "size_bytes": 34346,
+      "sha256": "805864b538de5dda900fe19e0731e2377106b66869ea9bbf10faa0d1396596af"
+    },
+    {
+      "path": "readers/source/octateuch-additional/judges/Judices_21.html",
+      "size_bytes": 18531,
+      "sha256": "a22cd06074992a1950d8447bf1c740156ec1cac9692a9b5c667a46eb6d70d0a5"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_01.html",
+      "size_bytes": 13608,
+      "sha256": "9d582af11cc27aa9a969fad433e5acade66073d8cccad28a1e88a26b5e0d9ff7"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_02.html",
+      "size_bytes": 11480,
+      "sha256": "808e4df8b48ffd64cd66a40e38b2dfe80a5e64b90835571eccdd48a5d9b063bc"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_03.html",
+      "size_bytes": 11995,
+      "sha256": "6c9e55ea44a94092916bf95a61c0877f06499f9c63e15c3eeed9f90385e7ef78"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_04.html",
+      "size_bytes": 25881,
+      "sha256": "4499c5afad46a44b73ac638b877f70f1f2922df851c246fd16fd86b710a51b17"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_05.html",
+      "size_bytes": 20270,
+      "sha256": "bed5ae3ce08d58e5a71b38e74f4f6f8d44b84ca80c2b948276343ba4e0c8ffe5"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_06.html",
+      "size_bytes": 16255,
+      "sha256": "a91d8110223f287f95f6151f7e3aaf0b09601b7dbf4d35e57a40575d5d460061"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_07.html",
+      "size_bytes": 23397,
+      "sha256": "25f9667465e844a9d1c33639221a25579f8c9984633feb89b051df53ca24be83"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_08.html",
+      "size_bytes": 24901,
+      "sha256": "d48a03abedd3ba575fc912f56b080fc3e2b4eb90b5290cc1cda25fd390b2dac0"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_09.html",
+      "size_bytes": 15581,
+      "sha256": "acec734354b38b6f2192c3eb1c8c19dbeab59b38ba9c6739f8d26ed20c009aeb"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_10.html",
+      "size_bytes": 16239,
+      "sha256": "30292a3b2c8289c32fdc54ba8d08fceb1c968c5b3947dc7d80fe034dfe4ce1d9"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_11.html",
+      "size_bytes": 28378,
+      "sha256": "b53fce8cf510fd854fcac1a45bdb6fe4de578b20e4d7566bf966ee2391fd9559"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_12.html",
+      "size_bytes": 7007,
+      "sha256": "2ce7914d9b3f42403bc5cf7398c3f05774567add87a0ae50653d182976f8c5f1"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_13.html",
+      "size_bytes": 44444,
+      "sha256": "e17e9ae789950282355027ae34970773f45a8b73618953bb86808a5865454689"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_14.html",
+      "size_bytes": 38911,
+      "sha256": "8acf49727f2293637d01f32cec21c6ca4e5f9ad5c68b544f0359a654b8f8ad29"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_15.html",
+      "size_bytes": 23027,
+      "sha256": "38e8e267784f6ac805c4d2fc9807c627f978394049394415151e41d19d835faa"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_16.html",
+      "size_bytes": 26667,
+      "sha256": "8df2c2ba0a09b4be6dff7211fa92c727bb59a49f2d6b82531c91171013753e62"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_17.html",
+      "size_bytes": 13393,
+      "sha256": "0f184af92e9909daff0f8debdf1f8c0095fdf61326da28a50acbcccd805f7fdb"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_18.html",
+      "size_bytes": 17444,
+      "sha256": "a40d2238122de187417dc0e6572f810bccb36862646f6a8771defb8ad74082aa"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_19.html",
+      "size_bytes": 22331,
+      "sha256": "35b9a2b9ee067f65b47e9c45f6f2467de725b99657db0fa1ab09d989854d15c2"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_20.html",
+      "size_bytes": 19236,
+      "sha256": "c85a9a96a373ffaa44b1b454831f44ba6bf40df353661523b1b1da616e8ad5d9"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_21.html",
+      "size_bytes": 15718,
+      "sha256": "75926885777c47e4134873969ca8ebc9585a39a85d4794039d25afe92c279e2b"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_22.html",
+      "size_bytes": 22710,
+      "sha256": "30008118ca642643227b67b2cd2b97e78408e67e4978a3a14414f787506dfff7"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_23.html",
+      "size_bytes": 30439,
+      "sha256": "aeb22ea5471d551ac2537eab4dd9a30b87428d9c080befc30f472485706f80c2"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_24.html",
+      "size_bytes": 14674,
+      "sha256": "ba49050475f8e0bcf600f042db4c355038912fae552734fc3ab8b972440a29c2"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_25.html",
+      "size_bytes": 35731,
+      "sha256": "53471861fb728daed669d165f9adc34c5403031e05b1c68f0f29597088981131"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_26.html",
+      "size_bytes": 28972,
+      "sha256": "7c7852b78592abd6ce4d173677364c6938af6b4185766ee3bea1d34388787fb3"
+    },
+    {
+      "path": "readers/source/octateuch-additional/leviticus/Leviticus_27.html",
+      "size_bytes": 22147,
+      "sha256": "312451a5854e57fef381f44bd9961960d90a4979db7c6314cabe391213de3f67"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_01.html",
+      "size_bytes": 33305,
+      "sha256": "c0ba25b8fe2b1cd6175f08b2479964d185d607b6156072bafe4cfd222d2c089a"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_02.html",
+      "size_bytes": 18171,
+      "sha256": "b2b04a4280352264ccae8820ddf8f1e24e60ea6b7851e3536380229f252c7db4"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_03.html",
+      "size_bytes": 30788,
+      "sha256": "23dcead85825cda4e4d1aa4910ad8147f158bfbd973872b27fcbc509e090c370"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_04.html",
+      "size_bytes": 33075,
+      "sha256": "08d1cbbd35f2e02c6a664f8067ba14ba846388b9c8a88a95ccde62e6d53b4750"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_05.html",
+      "size_bytes": 21692,
+      "sha256": "5b27affdecf31b05a9e7d35b5ac3d66a19dec0681b14f5964af47cb8e4df8608"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_06.html",
+      "size_bytes": 18510,
+      "sha256": "6c1bac81cce1629729b8460a6307ed21744cf44f6485c6402c7012cc8c99eaa8"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_07.html",
+      "size_bytes": 51413,
+      "sha256": "36c50ba021303b8095df4826bf69a504d42d2811c13186606410e108538437fb"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_08.html",
+      "size_bytes": 18664,
+      "sha256": "87167f8c671e099f7033aa1baedbe13b3c6523e04037cecc4cbb05865d33ed9b"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_09.html",
+      "size_bytes": 15879,
+      "sha256": "ce6798bfb3e4ae3004a109938562f2f5d3e6571134f92735879dbc8783b7d3d5"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_10.html",
+      "size_bytes": 21649,
+      "sha256": "c38159faaeaf0df947c0522ac7a5bc94d2444b6456d6c47720381bcbbcaed278"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_11.html",
+      "size_bytes": 25612,
+      "sha256": "8c795314f68fa121742b355cfb274832d91329eccbae6cb1a67289133034acef"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_12.html",
+      "size_bytes": 10600,
+      "sha256": "59bd6fd4155ad0874b532e81f037dce6b3b41c22b4926fbb0e27b20265427397"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_13.html",
+      "size_bytes": 21444,
+      "sha256": "0e12e5e93d681598a68bc50ff5f76e4946302eca7f2cf2c36ba7f568e0cc2ee6"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_14.html",
+      "size_bytes": 31161,
+      "sha256": "9d0346f1e2f0c13add67027b9b16a63a2494cdebb2a9ea792f0ac68a86c19870"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_15.html",
+      "size_bytes": 27665,
+      "sha256": "8db21deb0e452b45aecde4bd18815ea1859a9e4cea299dc90a6fa730d9b4fa06"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_16.html",
+      "size_bytes": 23413,
+      "sha256": "f9a614f2478c08fbd4cee0b76445f6910652eb0fa5b8ac447f96dfe7b2d6aa81"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_17.html",
+      "size_bytes": 19146,
+      "sha256": "baed74bfdb2eaa0bf077836c7dd2144d6c64a82df1312e7b454cd174dcb3ec52"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_18.html",
+      "size_bytes": 24807,
+      "sha256": "da48412acce34fffcd91d0d8de2be04a61f32e6384d6f981e74ff74a48491c13"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_19.html",
+      "size_bytes": 17196,
+      "sha256": "ad1d864ec5fe56ca6580d819c0feb590581c38c5cc160051ab40239fddd2640d"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_20.html",
+      "size_bytes": 20446,
+      "sha256": "eed8accdb5488ba1cc4d7469c1fb15be5ce8449a82f94a17f24b2a58d5ecc78f"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_21.html",
+      "size_bytes": 24596,
+      "sha256": "555b9b8250ca15d73e49962372116f6a0f66089189ed83cb8d721cc571ea7310"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_22.html",
+      "size_bytes": 29059,
+      "sha256": "578cf06148362c5d7f2f86f437f777e357d4a2b47121c60b927b4bdd9b6b123a"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_23.html",
+      "size_bytes": 19432,
+      "sha256": "0f04a593cfc2b475080db4646d1c684edbcbe3af8b58f084ac3411547e9f25b6"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_24.html",
+      "size_bytes": 16729,
+      "sha256": "346cf7da9a5a81dc8c4b499eb3e97d0070b2f8164c77f470b53e27ad9270fd42"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_25.html",
+      "size_bytes": 12354,
+      "sha256": "e700561006c0cb7614b3525ed06e1bf02375e1c8392b021c7ecf4251823d1b92"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_26.html",
+      "size_bytes": 32861,
+      "sha256": "b98893aef029a8fe635d4f6de66f6f5eb5b9951dba18fe2ca38d00924b94678c"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_27.html",
+      "size_bytes": 15235,
+      "sha256": "c99112ba67ca75b88efad83380945e74d02f5c38a6718c8b0058e2df6ccc4d74"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_28.html",
+      "size_bytes": 19546,
+      "sha256": "299353026ddb4eb2967e2ce1aa569a561babf10f9f011682d63947c09b9c9e48"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_29.html",
+      "size_bytes": 25384,
+      "sha256": "ad05a49aa93761480d7c9505562ed2d2950476e519bc1d8c16e092723da81a5e"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_30.html",
+      "size_bytes": 12879,
+      "sha256": "df16740c5b2963bc7d972459f603f61dfe0823d8a716d748ae2690f084f33a9e"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_31.html",
+      "size_bytes": 31026,
+      "sha256": "deeaf13469c39296046d071a38add403ad9b516f8c68f71290f28ef324cabf96"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_32.html",
+      "size_bytes": 26567,
+      "sha256": "07898cb5aaa6c349a33d6a3f546bbff15df0961001c56a029d0814bf83f2ac88"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_33.html",
+      "size_bytes": 28381,
+      "sha256": "01f75e304d8c67183e74a7cbec26a575c190fe923bd1f4f48faf5384e4f70972"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_34.html",
+      "size_bytes": 16704,
+      "sha256": "54580643a597475e6f2f5ab601ceb94a63fd42ee9954a243a386f45b2c5a7377"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_35.html",
+      "size_bytes": 22246,
+      "sha256": "4cb216df2095130927a75773f775adea8c93c79c782d39a061a459f5aa087bf8"
+    },
+    {
+      "path": "readers/source/octateuch-additional/numbers/Numeri_36.html",
+      "size_bytes": 11353,
+      "sha256": "94401bd3ea24d935221622fe9c74b9d3ff5aa3c89ad23ff2ddf3e416b55b2353"
+    },
+    {
+      "path": "readers/source/octateuch-additional/ruth/Ruth_01.html",
+      "size_bytes": 16306,
+      "sha256": "6bd104e62ae2dae4c807028f2412255f86b7343be929bd357c34c5045c92885e"
+    },
+    {
+      "path": "readers/source/octateuch-additional/ruth/Ruth_02.html",
+      "size_bytes": 17784,
+      "sha256": "1a4a1119de5cd37ecf46db4af5402c4520a98d1fcea07d9e1333591e5ccb0011"
+    },
+    {
+      "path": "readers/source/octateuch-additional/ruth/Ruth_03.html",
+      "size_bytes": 12269,
+      "sha256": "ea59a8fec098a7e20a0b93a114914cad009c7458b52352d6366bc0bc7044f4e9"
+    },
+    {
+      "path": "readers/source/octateuch-additional/ruth/Ruth_04.html",
+      "size_bytes": 19969,
+      "sha256": "b02f5c1ce2cea7ed480a7930d8ecfea9e61a2ba4843444e4bab883315456acfa"
+    },
+    {
+      "path": "readers/source/octateuch-additional/SOURCE-NOTICE.txt",
+      "size_bytes": 521,
+      "sha256": "44d7e43e448585c9cd3d3dd634c684f62e165fea4abe9176cd046cf6d57704de"
+    },
+    {
+      "path": "readers/source/Octateuch-Index.html",
+      "size_bytes": 111980,
+      "sha256": "127bd4b6255c5384dd118f55597919949c148ac32b48049936bedf0fcff88205"
+    },
+    {
+      "path": "readers/source/Octateuch-Information.html",
+      "size_bytes": 11477,
+      "sha256": "1dcb706900f16421df39ed6d0efb7fb188de29f5ca8163f1b7229ce54694d596"
+    },
+    {
+      "path": "readers/source/Octateuch-scope.json",
+      "size_bytes": 10139,
+      "sha256": "c8c20a225313bec3c4eb95b47c58af817bb0fd5944e0a9653d0ecfe7c52db3be"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-001.html",
+      "size_bytes": 6640,
+      "sha256": "39636ccad74b204d814569eee7f95ef30e86631a49c1fefb22a27ffd16400ca9"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-002.html",
+      "size_bytes": 8792,
+      "sha256": "4a53c6fd413c0275e11e1545bc6ac5f1305d7a00a5c4966233055560d86c83c1"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-003.html",
+      "size_bytes": 5971,
+      "sha256": "3e6c8ac985199709d40b081f3318cec34f16b30c91b04eb5e41e5200f47295dd"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-004.html",
+      "size_bytes": 6460,
+      "sha256": "326123414e5cfcdca85999cc2a034020e86bdf0f1772580f810e3e448468629d"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-005.html",
+      "size_bytes": 9121,
+      "sha256": "d7b8c23afa52965d1af85454eb7903f402d264c50cdefa289531f76492de0505"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-006.html",
+      "size_bytes": 7351,
+      "sha256": "a3083943021db23193f3bc7aaca045300fd4fd3cce54e893044c7870e53195d4"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-007.html",
+      "size_bytes": 12006,
+      "sha256": "28db7178df3e6074d0c76b4a314383c7550aaeca1d490668ad750c826b325568"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-008.html",
+      "size_bytes": 6602,
+      "sha256": "6285102295c4a6ddaa1a58d751ecb54b87c2ce740a3ed4477bac82b98011b717"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-009.html",
+      "size_bytes": 24178,
+      "sha256": "03970933d8ee8e299205cde1182ab12adf3c5e092a2c05fab980e1d5a446b28b"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-010.html",
+      "size_bytes": 6341,
+      "sha256": "9a33f388df0ad87cb9bf02a3404b10e3758dcebc0e9200fa44388099ceae0845"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-011.html",
+      "size_bytes": 6947,
+      "sha256": "4a3523381eafca619e048c016dffcf0a4a2e94c9ba8e92e07d05c40ae0388fdc"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-012.html",
+      "size_bytes": 5271,
+      "sha256": "4fa2ab55018f6d66689c5e4ad59f1800adb54be4889587004cb5a34ef08fe480"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-013.html",
+      "size_bytes": 8533,
+      "sha256": "8b760a897a23c12a41e426921c33fb35a1e5b119db512334842d4733c924d787"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-014.html",
+      "size_bytes": 4813,
+      "sha256": "c299b20b52f2de863a43eae2efe24216f728075fccc05b88b139a6a02c97e8f5"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-015.html",
+      "size_bytes": 8003,
+      "sha256": "1352d7b235e98392006e94cdb17946a6d2e84c08e1678e795f00f3f136e134dc"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-016.html",
+      "size_bytes": 10684,
+      "sha256": "1f4a60d1c607941b3b704a3e7cd486e5e30de69bf88532bb51b9d60d88daeccd"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-017.html",
+      "size_bytes": 30335,
+      "sha256": "1233fe391011c4955a5ffd5ebb6954a22935b050936d364c3db54c79efbe8b51"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-018.html",
+      "size_bytes": 10002,
+      "sha256": "7ae8d5edb14bdc1b9db15c4580a2552173063b9159310eeb037be8afb75a0729"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-019.html",
+      "size_bytes": 6818,
+      "sha256": "4d69da556d24d06e27c31a9c384c16e20e4e64b0f3da98f15c6cafdcd5db5eae"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-020.html",
+      "size_bytes": 8334,
+      "sha256": "dc6f62425a681290514bb02d295b1b8cd7608db114fb9f02b497b6910654954e"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-021.html",
+      "size_bytes": 19485,
+      "sha256": "f9d8bf5d0f43305d2677441788668782258b13a07ada6261830b73f896d305a8"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-022.html",
+      "size_bytes": 5314,
+      "sha256": "e55f86b41e3da3036e30aba1949abb49e317ba9a134e8a076a42a224cd2a28cb"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-023.html",
+      "size_bytes": 7973,
+      "sha256": "75847eb38d0a3f620c269a7ddbf34b61ae06c2bce77e2fd851c04728b3e14f3b"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-024.html",
+      "size_bytes": 13162,
+      "sha256": "54c0e57dc481aefb848ca2fc95fb33af7b0d4f8584ae6c56adf00b09273c393a"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-025.html",
+      "size_bytes": 7596,
+      "sha256": "9ae69f028a681ed0d90ce9373b368b4a5812132113101d348a87842fbb3f427b"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-026.html",
+      "size_bytes": 11522,
+      "sha256": "c3226dff64389a9d155026dc917b8e3ecde748e1d268350ca43ccb8742c901ef"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-027.html",
+      "size_bytes": 7784,
+      "sha256": "561fee416c3c66149b025007b232cc5ac7c84a78cfde27386aa878f9ce5da805"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-028.html",
+      "size_bytes": 8314,
+      "sha256": "76c3faf1f4880bd728aca20f0bc506a62c55c672567992860211f0d65de0ff96"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-029.html",
+      "size_bytes": 7778,
+      "sha256": "baf57445491c90683464aa8b881588e272c0d9f2ecfd17bff1fbf85ab503db15"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-030.html",
+      "size_bytes": 17551,
+      "sha256": "515b0de0575649fffd40a5e4ccd9ec0a8208c665cde45c0e0202865d6fd890fc"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-031.html",
+      "size_bytes": 8683,
+      "sha256": "f95a26e722cc3ed510655dc1a0fabd32b7dcd5d0fba69d1749167756be65c65e"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-032.html",
+      "size_bytes": 13245,
+      "sha256": "96903f5da6445ff18b3b192e3b1c767055cb79ec3cede2b0356dc80271ef8f16"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-033.html",
+      "size_bytes": 13410,
+      "sha256": "318c68ecaa7c1f7026b2f7da6c2b91b8b064fa3a53ef6733b15682f0c33c4d66"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-034.html",
+      "size_bytes": 18342,
+      "sha256": "e92bd2a66d6363b1a437db8da82e751aab138592a0328e90431c38c755d25efe"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-035.html",
+      "size_bytes": 8419,
+      "sha256": "b62eea55ac50fb7ee0d958551b93194cceb06e8d2b6d6b11ebe44ac56dc19e83"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-036.html",
+      "size_bytes": 23673,
+      "sha256": "495c092391b217b664d9e7950e1c46658f4ac6199b9be80175003501bf5e20cc"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-037.html",
+      "size_bytes": 13292,
+      "sha256": "ebd12d67bd187eaeb856479cc1824e1923d274dd4a3710a55c286c69c59ae951"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-038.html",
+      "size_bytes": 10487,
+      "sha256": "a310065b30f5aaaf1e6057797fb8f15e5bdba41a05268d664d939983cf42f51b"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-039.html",
+      "size_bytes": 13745,
+      "sha256": "275d160a3193b23d684ebf26682c91a92c3e7f91dbde6aea491754bb0afbb562"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-040.html",
+      "size_bytes": 8829,
+      "sha256": "5719d836c8bc468c1223aabf53e23321059232599baa7299d4dd607bbf03b604"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-041.html",
+      "size_bytes": 9889,
+      "sha256": "2ad11c0900d544ca517c5809f879a171b77d78f3bcc68f8d86c9fabc13a47221"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-042.html",
+      "size_bytes": 5458,
+      "sha256": "ee62ce1378e3a5e25f77dae551e1beaf5fa50a0258ed6cd4f732779ed2e3e264"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-043.html",
+      "size_bytes": 15642,
+      "sha256": "83069b45a876f7e76028e659f68154898789175244539894f306e155d8dbe23a"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-044.html",
+      "size_bytes": 12647,
+      "sha256": "79e23c00b8cdd83ab6da96d8132331113384b94b1f2e8ddb96063df9e90c179b"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-045.html",
+      "size_bytes": 8088,
+      "sha256": "c9bfe5cc60b0455d14c924b214dc38e21ff2784b66e6c7872aed398c7af77f2d"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-046.html",
+      "size_bytes": 6149,
+      "sha256": "bd1ac4f29ed8fcc6a6adb8d073e06933055f412ca4ae7cd357a7c1d5e94b2c6b"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-047.html",
+      "size_bytes": 9124,
+      "sha256": "deb669f98f07d2e86f40c9aa1e1456fde076596a4c34c0495f028958699be8cc"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-048.html",
+      "size_bytes": 12441,
+      "sha256": "3fce658bb96787584052a8e7a450b1523e7ca0fd378c788430e368a1e0de4877"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-049.html",
+      "size_bytes": 14108,
+      "sha256": "d775efa5bec761ae2266be30ca14a6e1b98987b5ade6042b45eec6a9851db21f"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-050.html",
+      "size_bytes": 12284,
+      "sha256": "0f9f0b4f3402610ccc0a73848349074779fed5f72883ab62509acc64ebc9168e"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-051.html",
+      "size_bytes": 7468,
+      "sha256": "d20d08e4d782c0741aca4c932d298a5063d9a63e042aedd89bb69e4a48d512cf"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-052.html",
+      "size_bytes": 6345,
+      "sha256": "8464f05b9a1191553667b1da334a764f26eb0ec6b115e8cea0cfd9283cb52bb9"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-053.html",
+      "size_bytes": 5870,
+      "sha256": "6ebfaa37f61e44bb66f07846fe98a166d11d353725dd10c2fe16bacded5fd017"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-054.html",
+      "size_bytes": 14000,
+      "sha256": "d894664b58bc972caf72cc983bf983e704f71b90226e98bbab0b1479e02eed46"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-055.html",
+      "size_bytes": 9397,
+      "sha256": "e21cc1df9fd981890f8282df2993ee41340e49ef0c1b2c4f3c97ffc747aaf204"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-056.html",
+      "size_bytes": 9075,
+      "sha256": "6e201551471d1142e207f570b8b3b3f37732e494db0a29c3ed30fa49d3cc39fc"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-057.html",
+      "size_bytes": 7881,
+      "sha256": "502a6b2ddeaf92569350cb9a563137f19273559ebefde67ad05f876785bc204b"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-058.html",
+      "size_bytes": 12124,
+      "sha256": "6eba3cd293f5fdf26e1d589ddba9d22d70094503409076e72c08091f0c0bb8a8"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-059.html",
+      "size_bytes": 9222,
+      "sha256": "f4f765f4c5089d394b45526e86ea6daa83db297b77889841271637c173d9fcff"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-060.html",
+      "size_bytes": 5823,
+      "sha256": "8e064646a51886bd73017d9055cd5eccd7f774d838e582ed3df4ce07db8bdd61"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-061.html",
+      "size_bytes": 9398,
+      "sha256": "afcf435742ba85ceaf8f77548226b6a9456bb531a0e86b44e5f9e9241dd3911a"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-062.html",
+      "size_bytes": 8073,
+      "sha256": "50d566490caf230d0240d598eb03b6365b7cae83cee6bc7d1c51f1c31d0bbb00"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-063.html",
+      "size_bytes": 7287,
+      "sha256": "64882e0977c2e054b1764dbc0b582a21af3b5eef12c24ab5df6560d448eccb62"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-064.html",
+      "size_bytes": 9687,
+      "sha256": "3ba83bb4ae646f2267f1626d9f05575e8a5f5cc5c5c873872e73524e5bfdb5a1"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-065.html",
+      "size_bytes": 12272,
+      "sha256": "c34c06dd253d869c46a59961442692e2c79f5c07f66813399f95c3a79d03777a"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-066.html",
+      "size_bytes": 5423,
+      "sha256": "7b3eb141c82c2690983286934164186ba11a1a331bbcc0c2cae59af548f6913d"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-067.html",
+      "size_bytes": 24351,
+      "sha256": "16dff9ffa367e326283ad3b74b56f253ad0baf35836ecdce3ab8ce80e50ad328"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-068.html",
+      "size_bytes": 21497,
+      "sha256": "e28faef207192ea9f60636545559db77921fba2e46566a2b6b9cfae6d48dc5a9"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-069.html",
+      "size_bytes": 5282,
+      "sha256": "f96819b7e94050838ebdc57d2835954cebef6d9419bdedf57f60bed14b1d16b1"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-070.html",
+      "size_bytes": 16036,
+      "sha256": "7ade4a0461a80b30c74984d52433dec8cd658025b8df4e979d7917ed64c0463b"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-071.html",
+      "size_bytes": 13047,
+      "sha256": "063b8aebdda52241c420c32eae070b65ff8df7f2e25202fca6b8d532ffa7132b"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-072.html",
+      "size_bytes": 15857,
+      "sha256": "8f4b8aeaf1fdf76c553a25fd9a6578bd91994127c3aadd8627ee4816263aa334"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-073.html",
+      "size_bytes": 14649,
+      "sha256": "c432acc4f8f72192433ec5373fcd024ec835ff9fcf8c5724919a1d0f2d7814e2"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-074.html",
+      "size_bytes": 7455,
+      "sha256": "3c08ccd8016f0b7e112fbc20d4518d9377cddb51f41f16b0f7e5fb705687220e"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-075.html",
+      "size_bytes": 8140,
+      "sha256": "c19fde63086b05a44e0916730b9a71b2cf1489110726007722558aa1b7fc3701"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-076.html",
+      "size_bytes": 12021,
+      "sha256": "4e59a744f5f88f473dc611125265ea95cab851c9879934dea15fec237e08254c"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-077.html",
+      "size_bytes": 40014,
+      "sha256": "5be62a70f0a4a51f471a31009082dd55686096da1ec864dbb9a49c16cf572aa0"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-078.html",
+      "size_bytes": 9674,
+      "sha256": "f22215d50a60ed23c04fef99e73ea9c9d11f40194aa8c1660951ed0bc66fa820"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-079.html",
+      "size_bytes": 12002,
+      "sha256": "d7ae906c2f4573fe4b8eb048451c97aef5cc5f9c43256d9a768df0b825f8e773"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-080.html",
+      "size_bytes": 10473,
+      "sha256": "58d378495ede9c169fabc0d2823f87f1c38f8c74f20b7bac8db1b85b57fa66d2"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-081.html",
+      "size_bytes": 5689,
+      "sha256": "0d534a483092ced368fb5ff868658e6bfa6995a6ba1cb807067137454c06d178"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-082.html",
+      "size_bytes": 10401,
+      "sha256": "08697911f2e185cf5c756d143ce546358161ed0ee29a17d5da9b3c3b24999bf5"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-083.html",
+      "size_bytes": 9205,
+      "sha256": "e84315218246cf209f64d910d46324ad3d8622a521e0c5aa011cd8c713b6f629"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-084.html",
+      "size_bytes": 8502,
+      "sha256": "bf3bd3a31aa240cf8d8d647f7895a9d232b621671f21d8ae6259e436e93a1b3e"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-085.html",
+      "size_bytes": 11130,
+      "sha256": "b2cfd22b5dbed1970c0b9004b08361ffeb0e6f7e489aaab4422a9bf172c677dc"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-086.html",
+      "size_bytes": 5065,
+      "sha256": "9c9a2dafab882320e6bdf1ce7fe775149c31a4d542e224478a2a000d62205690"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-087.html",
+      "size_bytes": 12052,
+      "sha256": "23d9bde6df3d2360c5b72f9ac34fc575bed3e9edb024bae851192b32424c7c5f"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-088.html",
+      "size_bytes": 27981,
+      "sha256": "6f21eb4bda55d73dc98a7cfdfbfb21272f268de3eb50871f219f92d99903cbaa"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-089.html",
+      "size_bytes": 11574,
+      "sha256": "bdb95af4e1d2086b517c342fe5e269ced23baeea711aadee2cda182f1313a84d"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-090.html",
+      "size_bytes": 9824,
+      "sha256": "5ceb7ea8ef211b7c43296aa5c40864b8c83faf709e1a2c9fed9defcc6029628d"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-091.html",
+      "size_bytes": 9177,
+      "sha256": "b19042ea012b5314f752b10fb3f6edb46716b1be3ea314fef84d48aa8cb79f0e"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-092.html",
+      "size_bytes": 5127,
+      "sha256": "90f40fd6a961418e572d723f3fc150b578edec2d1d05837c2d7a571e17794d4a"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-093.html",
+      "size_bytes": 13072,
+      "sha256": "61b3116f3e73059f16ed5f6b147f126a377c7c49cfb16b002cd1d10b6b4b8bb9"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-094.html",
+      "size_bytes": 8071,
+      "sha256": "1a843b29250322f5ea77270cf7641138e563b1bc5cab89beff90a3ab09c7eb12"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-095.html",
+      "size_bytes": 9710,
+      "sha256": "4ff763c066be617d690baf26ed1ea6fc44aeb08230d1bac40b61fb339501ee92"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-096.html",
+      "size_bytes": 8600,
+      "sha256": "bf926e1f8ec4af4bda93fe25a8d7a6843e2cdf1c83a35fe7af2f138d0f5287e1"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-097.html",
+      "size_bytes": 6873,
+      "sha256": "8c185348654ba99655baf301778c35e4d050f705f4c75172e271ade941593428"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-098.html",
+      "size_bytes": 7539,
+      "sha256": "48859238356f20d3675866fb82704037bc82ec60296cfd5cf61bee178ef055cd"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-099.html",
+      "size_bytes": 4551,
+      "sha256": "f63794636499fff183812f562c37dd107c37b1eae2c80fafd0868653e50adf85"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-100.html",
+      "size_bytes": 6311,
+      "sha256": "83c42d41e992f098d9e53dace60caccfd0dbe34494439080928c0ff93bc73f49"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-101.html",
+      "size_bytes": 16484,
+      "sha256": "26da795f7f88688abe941d5d1c730f427c6468c67265bbbd27999fb590bef56e"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-102.html",
+      "size_bytes": 13335,
+      "sha256": "34a2e664b38f2417c258985ccc661bb166b6ff01c48e8c671f2ff4fa92835219"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-103.html",
+      "size_bytes": 20711,
+      "sha256": "a40366098bf844a847cd31db411ed119d70bf4c38738277fc15c8c7767f67fed"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-104.html",
+      "size_bytes": 21941,
+      "sha256": "0ba04a8af718a1b210e63e47d252d4ce6fe7c1bf035736c52096a34b2d57e274"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-105.html",
+      "size_bytes": 25338,
+      "sha256": "172fa8aa1330130e6a86db4e03e6390e5929b5cae68bdaa475f62e8ed79ee6bf"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-106.html",
+      "size_bytes": 22585,
+      "sha256": "1bfbab8129ae7ea29d55f75980799cba5a4beced03bb5f579643abbd54944d1e"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-107.html",
+      "size_bytes": 8789,
+      "sha256": "f8d91f06ce6b36073f11fc52c3e9e4eff1b93bbb75955938fb8f1974e07159b5"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-108.html",
+      "size_bytes": 17375,
+      "sha256": "4fe36129274612ce0d340a9c071b685bd3518e53f21b01dffd77d4bc59809b6b"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-109.html",
+      "size_bytes": 5757,
+      "sha256": "21e4ef2dda33f68e50b5739ed0c88936c226259a0ad1d3c544d292255ea0e15b"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-110.html",
+      "size_bytes": 6976,
+      "sha256": "794a610fcc68b8f8e7480d80046e2cd73c3fef249d7ec1da3a7393d3a35e3275"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-111.html",
+      "size_bytes": 7099,
+      "sha256": "ce62774147852e07496e13156b47b12f07cde4bf34e1fb8b5e554554af48d702"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-112.html",
+      "size_bytes": 5843,
+      "sha256": "fea5072f28c00f49c294e14731c7b072f750b05e5fe96329afc147cfced81616"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-113.html",
+      "size_bytes": 15046,
+      "sha256": "dafcf00d6d8268d367a2ff4d6d06fb60d110f58e9c61a5fce0405ab08b4e5263"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-114.html",
+      "size_bytes": 5809,
+      "sha256": "1570f1080ca6c11ec103b8c1eebba50fbe77a08b4c4cc04517b927511cc2d0f7"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-115.html",
+      "size_bytes": 5837,
+      "sha256": "90f241bf6a4329cefa106b598875fb8059d052e02e9ce41dd0f97d9a8d3e28c9"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-116.html",
+      "size_bytes": 2624,
+      "sha256": "51ba500515f063778082376a8e692f66e169d463de789e4630fd36e515175cd7"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-117.html",
+      "size_bytes": 16391,
+      "sha256": "9eaa236674953c1343aa85dbb6fe09e99a9dc6081ea3a445e47519440fbfbb15"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-118.html",
+      "size_bytes": 78429,
+      "sha256": "8cd97449e2d05f5714e3d3dcf6f9a2322b57bd54803a8f7c18f98abd6a4416f8"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-119.html",
+      "size_bytes": 4644,
+      "sha256": "0e2ba34a02cf95ab6ae1655a29a46711894a50ca35abcfe59f4b6041a6c09152"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-120.html",
+      "size_bytes": 5356,
+      "sha256": "586b1eb94177fa4bebd276cbf92d89d1f85aa3c3bee900175b3a22aef822435f"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-121.html",
+      "size_bytes": 5893,
+      "sha256": "d1902b6e25dcd9eae3b7acfaf7a8890982603d74518c874289adf37671527989"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-122.html",
+      "size_bytes": 4144,
+      "sha256": "3dadd093b38a8917d1d21c12f7407f739cb1c30034227fccbd94f669e98a4652"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-123.html",
+      "size_bytes": 5408,
+      "sha256": "bef0576e532e82bc409bc097830a470d918ac0722f20a98cb081e0b651e8afb8"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-124.html",
+      "size_bytes": 4616,
+      "sha256": "1e2884ded34475022875774e39cad06102ceaf945b788cadac39cc604e95d544"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-125.html",
+      "size_bytes": 4824,
+      "sha256": "18893d418d60b053950c15d95d96bc1f90bf50c2ec41bb4b05461513fec4230b"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-126.html",
+      "size_bytes": 5096,
+      "sha256": "aa14e5fbc00290c50f11fb14b51c93de6d4a1a323e0e966d27de8b6c8a74ef87"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-127.html",
+      "size_bytes": 4812,
+      "sha256": "442ba54593c3cf41b825677588ec2cff63311fce370e109d5f3fe4587336e075"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-128.html",
+      "size_bytes": 5330,
+      "sha256": "082ecc9bf3d410481c52d03ffe91eab081696f2255a543018698b4dd4e35e14d"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-129.html",
+      "size_bytes": 5283,
+      "sha256": "a43cb5b324b1d12f671dd541392f81a36e84d1c79d2860869d56c1cbd7897326"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-130.html",
+      "size_bytes": 3800,
+      "sha256": "a5547088c99cf21fefa72a28e40b6a65c7a16e8d351181230d972f12180d3a17"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-131.html",
+      "size_bytes": 11054,
+      "sha256": "c52eebb19255e157e4aa2eee348edb90d221df88534c1acb381b837baf4ada10"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-132.html",
+      "size_bytes": 3625,
+      "sha256": "1efadfc7b476053c63c1adb93bd73a1e4fba4a5f9fa53b5aadfd3b31ce5390c4"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-133.html",
+      "size_bytes": 3622,
+      "sha256": "3fe65886a830e2319aadced8f3d115f8ae94eb0539577663988ebd5dcdc6b61d"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-134.html",
+      "size_bytes": 13337,
+      "sha256": "fc3538d52734e1afc4b17608b000e8f59fc6b8837a690cf87d3ccca6b9b01e6d"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-135.html",
+      "size_bytes": 13978,
+      "sha256": "0f84306e4dedbf641552aff3d7d32453466a8eb6bc0c4dc11a2f72aa23c7a0e3"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-136.html",
+      "size_bytes": 6090,
+      "sha256": "a9e1982a0d452e8e21323850b043163ed72a76c68f472047444b54d6371fcf78"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-137.html",
+      "size_bytes": 6902,
+      "sha256": "d97af11ac6c689675041924039d6988c61e8e93ff56c04a555c0b9a8f9e99bd8"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-138.html",
+      "size_bytes": 14176,
+      "sha256": "eafb495d19a33526a6fff0efffe5a2407cc4a83d24c76be683ab0a85518d2290"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-139.html",
+      "size_bytes": 9041,
+      "sha256": "a8f94865ee0201b57856e2c0ae3dce5a12e123d3962118c368ccfb419fbc234f"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-140.html",
+      "size_bytes": 7741,
+      "sha256": "18fe94a94f8b80ec8989bf451fab52752b1b71a36cd989f7d9b96326543c109e"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-141.html",
+      "size_bytes": 6502,
+      "sha256": "2d6d0da50cca48d2f663c7b2533fbac7999b2d50554bd39edc99317d55f0ff87"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-142.html",
+      "size_bytes": 9794,
+      "sha256": "4a3b871979d5dd650f2675557bb41be50851ed6f055b0ed6f81bbc815b2dcb3d"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-143.html",
+      "size_bytes": 11331,
+      "sha256": "c3bc1bd989ed3dac697321057144b370acdd5aff12cb13af419728b172039faa"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-144.html",
+      "size_bytes": 13233,
+      "sha256": "a7c5879bd0a3b956fb61acd5dd9d1f056f76e3edeffec33bc7fabafef89867c6"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-145.html",
+      "size_bytes": 7497,
+      "sha256": "d73ca8301afa754f2d3e93a47a394303cabf8df1bcca546ff16a07ce0c2fdc8a"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-146.html",
+      "size_bytes": 7632,
+      "sha256": "9467a340229b52635914c2ee55d3146bdf51fb6f7131401b51f676845fc2ec2d"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-147.html",
+      "size_bytes": 5710,
+      "sha256": "395541191cf3becfb4b4a72d004feef57ef09a87140ed0b3ae80914742be8094"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-148.html",
+      "size_bytes": 9075,
+      "sha256": "d973b449ac6263359cdbc92feeab31f2633bafdb2e98dbfa2966440dfb0b5924"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-149.html",
+      "size_bytes": 6301,
+      "sha256": "e81436f58eeb7a7ad43ead4e8e40f197dfb0bb7442ccf698be1e53a7450cc737"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-150.html",
+      "size_bytes": 4205,
+      "sha256": "4e240bcc8a49d82fc07a51acf22bad18cb913ce4b1b34bad3127f7ffb7ef35a0"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/PsalmNrR-151.html",
+      "size_bytes": 6631,
+      "sha256": "4e973b5838e9275b9a7d34fd912f080f185f86830408b02008059bdfdaf1e2dd"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/SOURCE-CAPTURE.json",
+      "size_bytes": 32882,
+      "sha256": "47454a1948e8a4a1cfaca845a3023fb229ecfd6188c37b3c817cba9c4fe63477"
+    },
+    {
+      "path": "readers/source/psalms-tau-2015/SOURCE-NOTICE.txt",
+      "size_bytes": 1460,
+      "sha256": "13bcc6593e72b22d0b2a39e4983b7c0f82d457eb6eb79a7c467e6bdba7641d84"
+    },
+    {
+      "path": "readers/tobit-brenton-lxx-1851.json",
+      "size_bytes": 63203,
+      "sha256": "f6061fe86078d0ae40e2f84a5cadb7f2bb04037170ff8ca26ddf65b7c084ce9f"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 38229,
+      "sha256": "5f1b355ddcfe0376c1867621e93c09e28c18862771e9c512788a3a480ddefe3b"
+    },
+    {
+      "path": "research/eotc-english-canon-source-transcription.json",
+      "size_bytes": 6368,
+      "sha256": "e2f7c00b79805b1802540de4ab0fcf08ff7c5e1db633aa2944469bde963daf5d"
+    },
+    {
+      "path": "research/eritrea-canon-source-transcription.json",
+      "size_bytes": 4096,
+      "sha256": "66ec2bbcf4695776fb8be7569de991b066a405b30b8d493b96d3069715dfbd23"
+    },
+    {
+      "path": "research/eritrea.html",
+      "size_bytes": 11411,
+      "sha256": "ffa48c4bc787164b3c4747ef0ca671e1721782f110f04060c4c08e77adb67630"
+    },
+    {
+      "path": "research/gamo-menu.html",
+      "size_bytes": 6477,
+      "sha256": "ef680d5f1882f0c7663ea528d4b370be65562c37b33135c1f57859c09faeb27e"
+    },
+    {
+      "path": "research/gamo-menu.json",
+      "size_bytes": 5347,
+      "sha256": "2162c2fbeee2e454af24379f06d66466ec0776ff35160960500727d4b421ecc3"
+    },
+    {
+      "path": "review_metadata.py",
+      "size_bytes": 1408,
+      "sha256": "d26d4d70eec42949c94f6651f6fbcca72ee278a0660556b8878e8eeb32e5e1a2"
+    },
+    {
+      "path": "rights_metadata.py",
+      "size_bytes": 713,
+      "sha256": "0ae309d1d7bea40eb39014a40789a3f722a2dbb84da9b49ad10d481ea529e3b2"
+    },
+    {
+      "path": "schemas/reader-package.schema.json",
+      "size_bytes": 3883,
+      "sha256": "07faa4a05dcbeda349dad872b41e7f538c2373bcdd55e0d0aa2ce33cf049ade1"
+    },
+    {
+      "path": "schemas/text-layer.schema.json",
+      "size_bytes": 14744,
+      "sha256": "1cb3f80b09edd87ab5cfddb087a496a7dbcae13f5b27194b2fcb049f13f0ed65"
+    },
+    {
+      "path": "styles.css",
+      "size_bytes": 32101,
+      "sha256": "8ac66d62b90cb7bbb941b1cecb208870010dadf7b6f6e14e1f0daaca754ce9b9"
+    },
+    {
+      "path": "sw.js",
+      "size_bytes": 2343,
+      "sha256": "5541e01af9793b4e70d2f279c7d9b9316958dc98550a2beed90c85fd63c37448"
+    },
+    {
+      "path": "tests/test_availability_survey.py",
+      "size_bytes": 5674,
+      "sha256": "024e341e36d0118abca9ca8fa9c8b8eec19f03bf8291e06d0ff2f68c4bb9939e"
+    },
+    {
+      "path": "tests/test_brenton_job.py",
+      "size_bytes": 2696,
+      "sha256": "6e18c81cb9e84ec0a60b04f39afc7e0802c34576bb34274d9e537795d4d2c603"
+    },
+    {
+      "path": "tests/test_brenton_psalms.py",
+      "size_bytes": 2274,
+      "sha256": "dad64cdee17e8617e49c57ad56bbb00a3e9d168ff0abe5bbbbbf2796d514c19f"
+    },
+    {
+      "path": "tests/test_brenton_research_readers.py",
+      "size_bytes": 3995,
+      "sha256": "3b0e549c2e0204264b2c51093451be57bbd1826166622822269f07eaba476cb4"
+    },
+    {
+      "path": "tests/test_brenton_sirach.py",
+      "size_bytes": 4111,
+      "sha256": "0c67e7165f4c08029da6c348e22a600b24b2af83d8592d97523dc00c0189c953"
+    },
+    {
+      "path": "tests/test_brenton_tobit.py",
+      "size_bytes": 2329,
+      "sha256": "a042609f45986ecf0e35e12abe72ad5f6b899b4bf58a394b7a72c13fd85a8420"
+    },
+    {
+      "path": "tests/test_canon_candidate_coverage.py",
+      "size_bytes": 1772,
+      "sha256": "94e2aa37a08ed440afa456b887e7dee860bc34da15c87f97406c00bb4179cc0e"
+    },
+    {
+      "path": "tests/test_contribution_template.py",
+      "size_bytes": 1130,
+      "sha256": "94c858e354e9e0856dc24a3dab00ba638b1b027b1ca1ebcbb7e7b78bab17310c"
+    },
+    {
+      "path": "tests/test_coverage_states.py",
+      "size_bytes": 2485,
+      "sha256": "26b6175543dcddad95ad6a4f24e8de0a1094f0db40aff07945246c21c14703c4"
+    },
+    {
+      "path": "tests/test_integrity_principles.py",
+      "size_bytes": 30878,
+      "sha256": "ca2d1a424ea3115c408a81aacaeaa0c7d68636af812f1a610c56e3d0498fae85"
+    },
+    {
+      "path": "tests/test_language_coverage.py",
+      "size_bytes": 18733,
+      "sha256": "2271b082352a4ffba32dd58e4b19dd03efcade5cc98bfede96b1aa3f0e8b354b"
+    },
+    {
+      "path": "tests/test_octateuch_capture_match.py",
+      "size_bytes": 2328,
+      "sha256": "32baac9b94709f72ea797879b272c086f7fd259087a5b32adf0b1d1c32f9d8b8"
+    },
+    {
+      "path": "tests/test_offline_bundle.py",
+      "size_bytes": 9821,
+      "sha256": "273cfbc1704b52d0d1dd716704a3db32f8efc7b1d131a4cf312029ab452039e7"
+    },
+    {
+      "path": "tests/test_package_pointer.py",
+      "size_bytes": 1371,
+      "sha256": "441f115ee95db211b3b4dffb94c9f1afa1ba82de84b571d238a3b9e744200695"
+    },
+    {
+      "path": "tests/test_reader_alignment.py",
+      "size_bytes": 2147,
+      "sha256": "f67ebc19511f0aaa281b75ef77625bc814c93c77738b3aea99e02799f24498db"
+    },
+    {
+      "path": "tests/test_reader_inventory.py",
+      "size_bytes": 2604,
+      "sha256": "ecc01824d39b8f0cc2c7442fcea4ab490f6e12bf3c22961ac183d1b0b1ea4e84"
+    },
+    {
+      "path": "tests/test_reader_package.js",
+      "size_bytes": 4057,
+      "sha256": "de5cffda6c359dbbebc6f251796e71c6d8be9d66a673cb74e27f6241a7a07ada"
+    },
+    {
+      "path": "tests/test_review_metadata.py",
+      "size_bytes": 2817,
+      "sha256": "501f0b482af5860e9ad5ed578f6c932cd5809a68ded7660ef236bf6fd05afaee"
+    },
+    {
+      "path": "tests/test_rights_classifications.py",
+      "size_bytes": 2975,
+      "sha256": "9f62477c3d83134dabfacb22b4080b10fd3bb39b5f2a4fb6ec1352f46acd293c"
+    },
+    {
+      "path": "translation-registry.json",
+      "size_bytes": 273475,
+      "sha256": "d8db4148d531961658a194f75878442efe1e14842e4fda233cd5a7c7381aff5e"
+    },
+    {
+      "path": "translation-registry.schema.json",
+      "size_bytes": 22302,
+      "sha256": "96f316ff59548b153dd538c76258b6d57b3a948bad027e098c0974e42d3a03c2"
+    },
+    {
+      "path": "UPLOAD_TO_GITHUB.md",
+      "size_bytes": 1841,
+      "sha256": "dfc8fd4bc12d202ff0a4e0cd662d807b5ab721d36edfed96b258c7d44bd7739a"
+    },
+    {
+      "path": "verify_archive_manifest.py",
+      "size_bytes": 453,
+      "sha256": "f639e8eeb04232ea4bf2877cc7e8c911e9d08d2b9be31607d6df34f40d04fd13"
+    }
+  ]
+}
