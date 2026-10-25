@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/schemas/reader-package.schema.json",
+  "title": "Ethiopian Bible Library selected reader package",
+  "type": "object",
+  "required": [
+    "$schema",
+    "format",
+    "schema_version",
+    "export_scope",
+    "base_reader",
+    "text_layers",
+    "language_layer_records",
+    "language_profiles",
+    "basis_language_records",
+    "research_corpus_record",
+    "canon_mapping",
+    "canon_entry",
+    "source_ids",
+    "source_records",
+    "unresolved_source_ids",
+    "integrity_note"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/schemas/reader-package.schema.json"
+    },
+    "format": {
+      "const": "Ethiopian Bible Library selected reader package"
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "export_scope": {
+      "enum": ["single_text_layer", "parallel_witnesses"]
+    },
+    "base_reader": {
+      "type": "object",
+      "required": ["reader_id", "title"],
+      "properties": {
+        "reader_id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": true
+    },
+    "text_layers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["layer_role", "language_tag", "record_id", "record"],
+        "properties": {
+          "layer_role": { "type": "string", "minLength": 1 },
+          "language_tag": { "type": "string", "minLength": 1 },
+          "record_id": { "type": ["string", "null"] },
+          "record": { "type": "object" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "language_layer_records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["language_tag", "record"],
+        "properties": {
+          "language_tag": { "type": "string", "minLength": 1 },
+          "record": { "type": "object" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "language_profiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["language_tag", "language_name"],
+        "properties": {
+          "language_tag": { "type": "string", "minLength": 1 },
+          "language_name": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": true
+      }
+    },
+    "basis_language_records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["language_tag", "language_name", "role"],
+        "properties": {
+          "language_tag": { "type": "string", "minLength": 1 },
+          "language_name": { "type": "string", "minLength": 1 },
+          "role": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": true
+      }
+    },
+    "research_corpus_record": { "type": ["object", "null"] },
+    "canon_mapping": { "type": ["object", "null"] },
+    "canon_entry": { "type": ["object", "null"] },
+    "source_ids": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "source_records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source_id", "source_name", "url"],
+        "properties": {
+          "source_id": { "type": "string", "minLength": 1 },
+          "source_name": { "type": "string", "minLength": 1 },
+          "url": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": true
+      }
+    },
+    "unresolved_source_ids": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "integrity_note": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}
+
