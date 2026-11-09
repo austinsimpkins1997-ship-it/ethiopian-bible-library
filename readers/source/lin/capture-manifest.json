@@ -1,0 +1,26 @@
+{
+  "source_name": "eBible.org Open Lingala Contemporary Bible USFM archive",
+  "source_url": "https://ebible.org/Scriptures/lin_usfm.zip",
+  "edition_record_url": "https://ebible.org/find/details.php?id=lin",
+  "copyright_notice_url": "https://ebible.org/lin/copyright.htm",
+  "retrieved_at": "2026-10-26",
+  "local_files": {
+    "source_package": "readers/source/lin/lin_usfm.zip",
+    "edition_record": "readers/source/lin/details.html",
+    "copyright_notice": "readers/source/lin/copyright.html"
+  },
+  "source_package_sha256": "a6dba51def1a0835e31be435821abebcc54d17bcb3ca2ce6df73c4aa7fd613b5",
+  "source_package_bytes": 1440703,
+  "scope_note": "The edition record identifies the text license as CC BY-SA 4.0, with attribution, change indication, ShareAlike, and derivative trademark-removal requirements. Pictures have separate terms. This capture does not establish print completeness, translation accuracy, or canon equivalence.",
+  "verified_manifest_path": "research/lin-usfm-source-manifest.json",
+  "fidelity_audit_path": "research/lin-verse-fidelity-audit.json",
+  "signature_verification": {
+    "valid": true,
+    "signer_fingerprint": "54D714D76956DA6673DC1EEA5F62009D93505F26",
+    "fingerprint_reference": "https://mljohnson.org/gpg.htm",
+    "signing_key_algorithm": "DSA-1024 (legacy)",
+    "signature_hash_algorithm": "SHA-1 (legacy)",
+    "identity_limit": "The signature verifies using the included key, and its fingerprint matches the key maintainer's published listing. This does not independently establish identity, custody, or signing authority; legacy DSA-1024/SHA-1 limits apply."
+  },
+  "content_scope": "66 signed USFM members; CRC, signature, signed hashes, book identities, chapters, verse labels, table rows, and scoped text fidelity were checked. No completeness, translation accuracy, community, or canon-equivalence claim."
+}

@@ -1,0 +1,248 @@
+{
+  "reader_id": "lin-2020-phm-research",
+  "research_corpus_id": "linbibo-2020-phm",
+  "canon_id": null,
+  "title": "Philemon — Open Lingala Contemporary Bible",
+  "display_name": "Philemon · Lingala · 2020",
+  "text_origin": "published_translation",
+  "translation_id": "linbibo-2020",
+  "language": "Lingála (publisher edition label)",
+  "language_tag": "ln",
+  "language_assignment_status": "The publisher identifies the language as Lingala and uses source code lin; the archive maps that witness to BCP 47 ln. IANA confirms ln as Lingala. Community review of this edition's language variety is not asserted.",
+  "script_code": "Latn",
+  "translator": "No individual translator named in the inspected edition record; Biblica, Inc. is identified as publisher and contributor.",
+  "contributor": "Biblica, Inc.",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The inspected edition record does not state its source language or relay path.",
+  "edition": "Salela na bonsomi Mokanda na Bomoi / Open Lingala Contemporary Bible; publisher code LINBIB / lin; copyright © 2002, 2020 Biblica, Inc.",
+  "edition_scope": "One of 66 conventional USFM modules in the retained publisher package. The English book name is a navigation aid. No Ethiopian or Eritrean Orthodox canon crosswalk is assigned.",
+  "rights_classification": "open_license",
+  "license_id": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "copyright_notice": "Copyright © 2002, 2020 Biblica, Inc. Original work: Salela na bonsomi Mokanda na Bomoi / Open Lingala Contemporary Bible, eBible.org code LINBIB / lin. The inspected source identifies Biblica, Inc. as publisher and contributor; it does not name an individual translator. This reader is a derivative format conversion from USFM to JSON; source-format controls are structured or omitted, whitespace is normalized, and image assets are excluded. The derivative omits the registered Biblica mark, identifies the changes, attributes the original to Biblica, Inc., links https://www.biblica.com and https://open.bible, and is distributed under CC BY-SA 4.0. No endorsement is implied.",
+  "commercial_use": "CC BY-SA 4.0 permits redistribution, including commercially, and adaptation with attribution, change indication, and ShareAlike. The derivative removes the registered mark, includes Biblica attribution and source links, and is distributed under the same license. Image assets are excluded; no endorsement is implied.",
+  "unit_label": "Publisher USFM chapter/verse labels observed",
+  "unit_count": 25,
+  "verse_marker_count": 25,
+  "chapter_count": 1,
+  "section_label": "Chapter",
+  "chapter_structure_note": "The parser found 1 consecutive chapter divisions and 25 distinct source chapter/verse labels. Publisher book headings, source table rows/cells, section headings, paragraph structure, and notes are retained as structured fields; this does not prove print completeness.",
+  "chapter_structure_status": "source_package_parsed_with_limits",
+  "source_numbered_unit_count": 25,
+  "source_unnumbered_unit_count": 3,
+  "source_pages": "readers/source/lin/lin_usfm.zip::63-PHMlin.usfm",
+  "source_package_sha256": "a6dba51def1a0835e31be435821abebcc54d17bcb3ca2ce6df73c4aa7fd613b5",
+  "source_snapshot_sha256": "11807a8e6c28fabc6d7b9f23a48d29b9ea7be39962a97a83a1ec84273b26d5f5",
+  "source_ids": [
+    "SRC-393",
+    "SRC-394",
+    "SRC-395",
+    "SRC-077",
+    "SRC-078"
+  ],
+  "rights_status": "Copyright © 2002, 2020 Biblica, Inc. Original work: Salela na bonsomi Mokanda na Bomoi / Open Lingala Contemporary Bible, eBible.org code LINBIB / lin. The inspected source identifies Biblica, Inc. as publisher and contributor; it does not name an individual translator. This reader is a derivative format conversion from USFM to JSON; source-format controls are structured or omitted, whitespace is normalized, and image assets are excluded. The derivative omits the registered Biblica mark, identifies the changes, attributes the original to Biblica, Inc., links https://www.biblica.com and https://open.bible, and is distributed under CC BY-SA 4.0. No endorsement is implied.",
+  "verification_status": "The 70-member ZIP passed CRC; GnuPG verified its clear-signed SHA-256 list and all 66 USFM member hashes. The signer fingerprint 54D714D76956DA6673DC1EEA5F62009D93505F26 matches the key maintainer's published listing, subject to identity/custody and legacy DSA-1024/SHA-1 limitations. All 25 source verse lines and 0 source table rows match their structured reader text exactly after stripping USFM controls and normalizing whitespace. This is an automated format-conversion comparison, not human proofreading, completeness review, or translation validation.",
+  "transcription_note": "This is a format conversion of the publisher's USFM into reader JSON, not a new translation. USFM markers are structured or removed, whitespace is normalized, and punctuation/word sequence in checked verse lines and table cells is retained. Changes are identified for CC BY-SA 4.0. The registered trademark mark is removed from this derivative as required by the source notice. Original USFM is retained verbatim.",
+  "editorial_signs_note": "Book identity and headings, source table cells, verse labels, section headings, paragraph/poetry/list structure, front matter, and notes are represented in structured fields. The reader exposes source tables in a responsive, horizontally scrollable semantic table. Original USFM remains available for markup inspection; images are excluded under their separate terms.",
+  "front_matter": [],
+  "source_book_metadata": [
+    {
+      "marker": "h",
+      "text": "Filemo"
+    },
+    {
+      "marker": "toc1",
+      "text": "Mokanda epai ya Filemo"
+    },
+    {
+      "marker": "toc2",
+      "text": "Filemo"
+    },
+    {
+      "marker": "toc3",
+      "text": "Fim"
+    },
+    {
+      "marker": "mt2",
+      "text": "Mokanda epai ya"
+    },
+    {
+      "marker": "mt1",
+      "text": "Filemo"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Ngai Polo, mokangami na boloko mpo na Yesu-Klisto, mpe Timote, ndeko na biso ;",
+          "source_markers_before": [
+            "m"
+          ],
+          "continuations": [
+            {
+              "source_marker": "mi",
+              "text": "Epai ya Filemo, molingami na biso mpe moninga ya mosala ;"
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "text": "epai ya Apia, ndeko na biso ya mwasi ;",
+          "source_markers_before": [
+            "b",
+            "mi"
+          ],
+          "continuations": [
+            {
+              "source_marker": "mi",
+              "text": "epai ya Arshipe, moninga na biso ya etumba ;"
+            },
+            {
+              "source_marker": "mi",
+              "text": "mpe epai ya Lingomba oyo esanganaka na ndako ya Filemo :"
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "text": "Tika ete ngolu mpe kimia epesamela bino kowuta na Nzambe, Tata na biso, mpe na Nkolo Yesu-Klisto !",
+          "source_markers_before": [
+            "b",
+            "m"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "Tango nyonso nasambelaka, natangaka kombo na yo mpe nazongisaka matondi epai ya Nzambe na ngai,",
+          "source_markers_before": [
+            "b",
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Matondi mpe libondeli"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "pamba te nazali koyoka sango ya bolingo na yo mpo na basantu nyonso, mpe ya kondima na yo kati na Nkolo Yesu."
+        },
+        {
+          "number": "6",
+          "text": "Nabondelaka ete kondima oyo ezali kosangisa biso emonisama na misala, mpo ete ososola malamu bolamu nyonso oyo tozali na yango kati na Klisto."
+        },
+        {
+          "number": "7",
+          "text": "Ndeko na ngai, bolingo na yo mpo na basantu ezali penza kopesa ngai esengo mingi mpe kolendisa ngai, pamba te okitisaki bango mitema."
+        },
+        {
+          "number": "8",
+          "text": "Yango wana, atako, kati na Klisto, nazali na makoki ya kotinda yo kosala likambo songolo to pakala,",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Polo asengi mpo na Onezime"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "kasi nasepeli kosenga na yo na kombo ya bolingo, ngai Polo, mobange mpe sik’oyo mokangami na boloko mpo na Yesu-Klisto ;"
+        },
+        {
+          "number": "10",
+          "text": "nasepeli kosenga na yo na tina na Onezime oyo azali mwana na ngai kati na Klisto, pamba te nakomaki tata na ye ya molimo awa, kati na boloko."
+        },
+        {
+          "number": "11",
+          "text": "Na kala, azalaki na tina ata moko te na miso na yo, kasi sik’oyo akomi na tina mingi na miso na yo mpe na miso na ngai."
+        },
+        {
+          "number": "12",
+          "text": "Nazali kozongisa ye epai na yo, pamba te azali penza motema na ngai.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Nalingaki ete atikala elongo na ngai awa, na boloko epai wapi nazali mpo na Sango Malamu, mpo ete asalisa ngai na esika na yo."
+        },
+        {
+          "number": "14",
+          "text": "Nzokande nakokaki te kosala yango, pamba te nazwaki ndingisa na yo te, mpo ete bolamu oyo okosala ezala oyo ewuti na motema na yo moko, kasi na kotindika te."
+        },
+        {
+          "number": "15",
+          "text": "Tango mosusu, mwa tango moke oyo bozalaki ya kokabwana na Onezime ezalaki mpo ete ozwa ye mpo na libela,"
+        },
+        {
+          "number": "16",
+          "text": "lokola mowumbu lisusu te kasi koleka kutu ata mowumbu, lokola ndeko ya bolingo. Azali na litomba mingi mpo na ngai, kasi azali mpe na litomba mingi lisusu koleka mpo na yo, lokola moto mpe lokola ndeko kati na Nkolo."
+        },
+        {
+          "number": "17",
+          "text": "Soki ya solo ozwaka ngai lokola ndeko na yo kati na kondima, yamba ye lokola nde oyambi ngai.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Soki asalaki yo mabe to mpe azali na niongo na yo, tanga yango na moto na ngai."
+        },
+        {
+          "number": "19",
+          "text": "Ezali loboko na ngai moko Polo nde ezali kokoma makambo oyo : ngai moko nakofuta yo niongo yango. Nazali mpe na posa te ya kokanisela yo ete yo mpe ozali na niongo na ngai : niongo yango ezali nde bomoi na yo."
+        },
+        {
+          "number": "20",
+          "text": "Ndeko na ngai, mpo na bolingo ya Nkolo, salela ngai bolamu wana ; kitisa ngai motema lokola ndeko na yo kati na Klisto."
+        },
+        {
+          "number": "21",
+          "text": "Nakomeli yo na elikya ete okosala makambo oyo nasengi yo, mpe nayebi ete okosala kutu koleka."
+        },
+        {
+          "number": "22",
+          "text": "Nasengi na yo lisusu ete obongisela ngai esika ya kolala, pamba te nazali na elikya ete Nzambe akozongisa ngai epai na bino lokola eyano na mabondeli na bino."
+        },
+        {
+          "number": "23",
+          "text": "Epafrasi, moninga na ngai ya boloko kati na Yesu-Klisto, atindeli yo mbote.",
+          "source_markers_before": [
+            "b",
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Bambote ya suka"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "Ndenge moko mpe Malako, Arisitarke, Demasi mpe Luka, baninga na ngai ya mosala, bango mpe batindeli yo mbote.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "Tika ete ngolu ya Yesu-Klisto, Nkolo na biso, ezala elongo na molimo na yo !",
+          "source_markers_before": [
+            "b",
+            "p"
+          ]
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Mbote"
+      ]
+    }
+  ]
+}

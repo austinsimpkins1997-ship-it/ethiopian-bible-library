@@ -2,6 +2,8 @@
 import json
 import hashlib
 from pathlib import Path
+from archive_manifest import write_text_atomically
+from coverage_summary import build_coverage_statement
 
 root = Path(__file__).resolve().parent
 archive_path = root / "archive.json"
@@ -21,14 +23,25 @@ if not any(s["source_id"] == source["source_id"] for s in archive["sources"]):
     archive["sources"].append(source)
 
 book = next(x for x in archive["catalogue"] if x["catalogue_id"] == "eotc-027")
-book.update({
-    "chapter_count": "151 source pages in the Rahlfs-numbered TAU online sequence; not a claim about manuscript or canon boundaries",
-    "chapter_order_status": "Local structural audit confirms all 151 ordered page titles and nonempty numbered units. Source numbering anomalies are retained; no independent collation.",
-    "text_availability_status": "Geʽez reader bundled locally: TAU transcription of Ludolf's Ethiopic Psalter, with source page links and per-page SHA-256 digests. No English or Latin text is bundled.",
-    "completeness_status": "The 151-page online sequence is locally captured. Independent completeness against Ludolf's print edition, manuscripts, and Church-list mapping is not established.",
-    "reviewer_notes": "The source reader preserves 151 TAU Rahlfs-numbered pages and 2,537 source-numbered units. Duplicate, skipped, and nonnumeric markers found in the source were retained rather than normalized. TAU warns that new transcription typos may remain. The local audit verifies page sequence and extracted structure only; it does not collate wording against the 1701 print or manuscripts. TAU's noncommercial permission notice accompanies the local copy. The Church-list crosswalk remains title-level navigation, not independent canonical/textual proof.",
-})
-book["evidence_source_ids"] = list(dict.fromkeys(book["evidence_source_ids"] + ["SRC-069"]))
+english_companion = reader.get("parallel_translation")
+if english_companion:
+    book.update({
+        "chapter_count": "151 ordered chapters in the archived Brenton USFM witness; the accompanying Geʽez source is a 151-page TAU sequence",
+        "chapter_order_status": "The archived Brenton source has 151 ordered chapter markers and the Geʽez reader preserves 151 ordered TAU page titles. Their numbering systems and contents are separate witnesses; exact textual alignment is unverified.",
+        "text_availability_status": "Geʽez TAU transcription of Ludolf's Ethiopic Psalter plus Brenton's historical English translation of the Greek Septuagint; English is not translated from the bundled Geʽez witness.",
+        "completeness_status": f"The locally archived digital witnesses contain 151 source sections each. Brenton has {english_companion['unit_count']} English verse labels and {english_companion.get('continuation_segment_count', 0)} preserved unnumbered continuation segments; the Geʽez capture has 2,537 numbered or marked units. This is a source-inventory count, not proof of completeness against print editions, manuscripts, or a Church edition.",
+        "reviewer_notes": "The English companion preserves USFM paragraph starts, descriptive-title markers, footnotes, cross-references, and visible brackets for translator-supplied words. English and Geʽez are independent witnesses; the unique-label display is navigational only. Chapter numbering, wording accuracy, edition completeness, and exact Church-list crosswalk remain unverified.",
+    })
+    book["evidence_source_ids"] = list(dict.fromkeys(book["evidence_source_ids"] + ["SRC-069", "SRC-142"]))
+else:
+    book.update({
+        "chapter_count": "151 source pages in the Rahlfs-numbered TAU online sequence; not a claim about manuscript or canon boundaries",
+        "chapter_order_status": "Local structural audit confirms all 151 ordered page titles and nonempty numbered units. Source numbering anomalies are retained; no independent collation.",
+        "text_availability_status": "Geʽez reader bundled locally: TAU transcription of Ludolf's Ethiopic Psalter, with source page links and per-page SHA-256 digests. No English or Latin text is bundled.",
+        "completeness_status": "The 151-page online sequence is locally captured. Independent completeness against Ludolf's print edition, manuscripts, and Church-list mapping is not established.",
+        "reviewer_notes": "The source reader preserves 151 TAU Rahlfs-numbered pages and 2,537 source-numbered units. Duplicate, skipped, and nonnumeric markers found in the source were retained rather than normalized. TAU warns that new transcription typos may remain. The local audit verifies page sequence and extracted structure only; it does not collate wording against the 1701 print or manuscripts. TAU's noncommercial permission notice accompanies the local copy. The Church-list crosswalk remains title-level navigation, not independent canonical/textual proof.",
+    })
+    book["evidence_source_ids"] = list(dict.fromkeys(book["evidence_source_ids"] + ["SRC-069"]))
 
 for reg in (translation,):
     geez = next(item for item in reg["languages"] if item["language_tag"] == "gez")
@@ -39,13 +52,14 @@ for reg in (translation,):
         "basis_language_tag": "gez",
         "basis_description": "TAU-hosted retyped Geʽez transcription of Ludolf's 1701 Psalter, presented in 151 Rahlfs-numbered pages. Source markers are preserved including irregularities; no independent collation.",
         "rights_status": "noncommercial_with_required_notice",
+        "rights_classification": "permission_limited",
         "source_ids": reader["source_ids"],
     })
     reg["corpus_leads"] = [lead for lead in reg.get("corpus_leads", []) if lead.get("corpus_id") != "ethiopic-psalter-ludolf-1701"]
-    reg["coverage_statement"] = "This prototype records bundled Geʽez source transcriptions/editions for Genesis, Exodus, Leviticus, Numbers, Deuteronomy, Joshua, Judges, Ruth, Psalms, Jubilees, and 1 Enoch, plus a historical Greek-to-English Genesis companion. It also records scoped Eritrean language/script profiles and unbundled Bible corpus leads. Tigrinya, Tigre, Kunama, Blin, and Saho leads are not bundled and do not establish Eritrean Orthodox canon coverage. Script profiles reflect dated cited sources and may vary by region and witness. Eleven of the EOTC English list’s 81 entries have bundled reader text; this is not global language or canon coverage."
+    reg["coverage_statement"] = build_coverage_statement(reg, archive.get("canon_registry"))
 geez["source_ids"] = list(dict.fromkeys(geez["source_ids"] + ["SRC-067", "SRC-068", "SRC-069"]))
 archive["translation_registry"] = translation
-archive_path.write_text(json.dumps(archive, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+write_text_atomically(archive_path, json.dumps(archive, ensure_ascii=False, indent=2) + "\n")
 translation_path.write_text(json.dumps(translation, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 capture_dir = root / "readers" / "source" / "psalms-tau-2015"
 capture = {
@@ -69,7 +83,7 @@ reader_hash = hashlib.sha256(reader_path.read_bytes()).hexdigest()
 layer_id = "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/psalms-geez-ludolf-hacohen"
 layer_sources = reader["source_ids"]
 layer = {
-    "schema_version": 1,
+    "schema_version": 2,
     "record_id": layer_id,
     "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/ethiopic-psalter",
     "labels": [{"value": "Psalms — Geʽez Ludolf/HaCohen transcription", "language_tag": "en", "label_type": "preferred"}],
@@ -88,14 +102,14 @@ layer = {
         "editorial_policy": "Uses the TAU Rahlfs-numbered page sequence. Source page text and numbering anomalies are preserved. No independent collation.",
         "source_ids": ["SRC-036", "SRC-058", "SRC-059", "SRC-067", "SRC-068", "SRC-069"]
     },
-    "layer_type": "source_text_transcription", "language_tag": "gez", "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+    "layer_type": "source_text_transcription", "text_origin": "source_transcription", "language_tag": "gez", "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
     "script_code": "Ethi", "basis_path": ["gez"], "agents": [
         {"role": "editor", "name": "Hiob Ludolf", "authority_or_affiliation": "1701 edition", "source_ids": ["SRC-067", "SRC-068"]},
         {"role": "digitizer", "name": "Ran HaCohen", "authority_or_affiliation": "Tel Aviv University source site", "source_ids": ["SRC-036", "SRC-058", "SRC-059", "SRC-068"]}
     ],
     "content_package": {"uri": "../readers/psalms-geez-ludolf.json", "media_type": "application/json", "sha256": reader_hash, "format_version": "1"},
     "coverage": {
-        "extent_state": "complete_for_declared_edition", "extent_basis": "source_inventory", "unit_count": reader["verse_marker_count"],
+        "extent_state": "complete_for_declared_edition", "extent_basis": "source_inventory", "unit_count": reader["unit_count"],
         "structure_description": "151 ordered TAU Rahlfs-numbered pages with 2,537 extracted nonempty numbered units; headings retained where separable.",
         "missing_or_lacunose_ranges": [],
         "supplements_and_editorial_signs": "Source label gaps, duplicates, and nonnumeric markers are retained as found; 10 pages contain non-consecutive, duplicate, or nonnumeric labels. No attempt was made to restore text or labels.",
@@ -109,15 +123,15 @@ layer = {
         "evidence_source_ids": ["SRC-036", "SRC-068", "SRC-069"]
     },
     "review_dimensions": [
-        {"dimension": "identity", "state": "checked_with_limits", "scope": "TAU source index and notes identify the Ludolf 1701 Ethiopic Psalter and HaCohen transcription.", "reviewer": "Archive build validation", "reviewed_at": "2026-10-24", "evidence_source_ids": ["SRC-067", "SRC-068"]},
-        {"dimension": "chapter_or_section_sequence", "state": "checked_with_limits", "scope": "151 ordered page titles and nonempty numbered units in local capture.", "reviewer": "Archive build validation", "reviewed_at": "2026-10-24", "evidence_source_ids": ["SRC-069"]},
-        {"dimension": "unit_boundaries", "state": "checked_with_limits", "scope": "HTML marker-span structure was extracted; verse wording was not independently compared to print.", "reviewer": "Archive build validation", "reviewed_at": "2026-10-24", "evidence_source_ids": ["SRC-069"]},
-        {"dimension": "transcription_accuracy", "state": "unknown", "scope": "No independent collation against the 1701 print or manuscript witnesses.", "reviewer": None, "reviewed_at": None, "evidence_source_ids": ["SRC-068"]},
-        {"dimension": "completeness", "state": "checked_with_limits", "scope": "The full 151-page local sequence was captured; completeness against print or manuscript witnesses is unknown.", "reviewer": "Archive build validation", "reviewed_at": "2026-10-24", "evidence_source_ids": ["SRC-069"]},
-        {"dimension": "rights", "state": "checked_with_limits", "scope": "Source notice and required noncommercial attribution are included with each archive copy.", "reviewer": "Archive build validation", "reviewed_at": "2026-10-24", "evidence_source_ids": ["SRC-036", "SRC-068", "SRC-069"]}
+        {"dimension": "identity", "state": "checked_with_limits", "scope": "TAU source index and notes identify the Ludolf 1701 Ethiopic Psalter and HaCohen transcription.", "reviewer": None, "review_method": "source_inspection", "review_process": "Archive metadata review", "reviewed_at": "2026-10-24", "evidence_source_ids": ["SRC-067", "SRC-068"]},
+        {"dimension": "chapter_or_section_sequence", "state": "checked_with_limits", "scope": "151 ordered page titles and nonempty numbered units in local capture.", "reviewer": None, "review_method": "automated_validation", "review_process": "Archive build validation", "reviewed_at": "2026-10-24", "evidence_source_ids": ["SRC-069"]},
+        {"dimension": "unit_boundaries", "state": "checked_with_limits", "scope": "HTML marker-span structure was extracted; verse wording was not independently compared to print.", "reviewer": None, "review_method": "automated_validation", "review_process": "Archive build validation", "reviewed_at": "2026-10-24", "evidence_source_ids": ["SRC-069"]},
+        {"dimension": "transcription_accuracy", "state": "unknown", "scope": "No independent collation against the 1701 print or manuscript witnesses.", "reviewer": None, "review_method": "unknown", "review_process": None, "reviewed_at": None, "evidence_source_ids": ["SRC-068"]},
+        {"dimension": "completeness", "state": "checked_with_limits", "scope": "The full 151-page local sequence was captured; completeness against print or manuscript witnesses is unknown.", "reviewer": None, "review_method": "automated_validation", "review_process": "Archive build validation", "reviewed_at": "2026-10-24", "evidence_source_ids": ["SRC-069"]},
+        {"dimension": "rights", "state": "checked_with_limits", "scope": "Source notice and required noncommercial attribution are included with each archive copy.", "reviewer": None, "review_method": "source_inspection", "review_process": "Digitizer notice and archive-copy review", "reviewed_at": "2026-10-24", "evidence_source_ids": ["SRC-036", "SRC-068", "SRC-069"]}
     ],
     "publication_state": "bundled", "community_access_note": None,
     "additional_notes": "Geʽez source transcription, not an English translation. Source warnings about possible new typos remain applicable."
 }
 (root / "examples" / "psalms-geez-layer.json").write_text(json.dumps(layer, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-print("Integrated Psalter metadata, source capture, and Geʽez language record.")
+print("Integrated Psalter metadata, source capture, and Ge'ez language record.")

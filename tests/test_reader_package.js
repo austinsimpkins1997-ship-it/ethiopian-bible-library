@@ -14,6 +14,10 @@ assert.ok(geez.language_profiles.some(item => item.language_tag === 'gez'));
 assert.ok(geez.source_records.length > 0);
 assert.deepEqual(geez.unresolved_source_ids, []);
 assert.ok(geez.language_layer_records.every(item => item.language_tag === 'gez'));
+assert.equal(geez.canon_mapping.state, 'registry_link');
+assert.equal(geez.canon_mapping.canon_id, 'eotc-ot-01');
+assert.match(geez.canon_mapping.note, /not independent verification/);
+assert.equal(geez.canon_entry.canon_id, geez.canon_mapping.canon_id);
 
 const english = createReaderPackage(archive, genesisId, 'en');
 assert.equal(english.text_layers.length, 1);
@@ -33,14 +37,20 @@ const job = createReaderPackage(archive, jobReader.reader_id, 'en');
 assert.equal(job.text_layers.length, 1);
 assert.equal(job.text_layers[0].record_id, jobReader.translation_id);
 assert.equal(job.research_corpus_record.reader_id, jobReader.reader_id);
-assert.equal(job.canon_mapping.state, 'uncertain');
+assert.equal(job.canon_mapping.state, 'reviewed_match');
 assert.equal(job.canon_entry, null);
 
-for (const readerId of ['brenton-lxx-first-ki-research', 'brenton-lxx-pro-research', 'brenton-lxx-lam-research']) {
+const brentonMappings = [
+  ['brenton-lxx-first-ki-research', 'uncertain', 'eotc-ot-10'],
+  ['brenton-lxx-pro-research', 'uncertain', 'eotc-ot-24'],
+  ['brenton-lxx-lam-research', 'not_mapped', null],
+];
+for (const [readerId, mappingState, candidateCanonId] of brentonMappings) {
   const reader = archive.readers.find(item => item.reader_id === readerId);
   assert.ok(reader, `missing standalone research reader ${readerId}`);
   const output = createReaderPackage(archive, readerId, 'en');
-  assert.equal(output.research_corpus_record.canon_mapping_state, 'not_mapped');
+  assert.equal(output.research_corpus_record.canon_mapping_state, mappingState);
+  assert.equal(output.research_corpus_record.candidate_canon_id, candidateCanonId);
   assert.equal(output.canon_entry, null);
   assert.ok(output.text_layers[0].record.chapters.length > 0);
 }

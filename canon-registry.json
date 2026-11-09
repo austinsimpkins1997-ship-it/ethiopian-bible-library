@@ -1,9 +1,15 @@
 {
   "source_id": "SRC-029",
   "basis": "The Ethiopian Orthodox Tewahedo Church’s own English canon page lists 46 Old Testament and 35 New Testament entries and explicitly states a total of 81. Grouped names are kept as that source presents them; they are not silently split into separate canonical units.",
-  "mapping_caution": "Links to this archive’s 89 research rows support navigation only. They do not independently establish a title’s canonical mapping, text identity, completeness, or translation.",
+  "mapping_caution": "Links to this archive’s 90 research rows support navigation only. They do not independently establish a title’s canonical mapping, text identity, completeness, or translation.",
+  "context_source_ids": [
+    "SRC-072",
+    "SRC-073",
+    "SRC-101"
+  ],
+  "scholarly_context": "The 81-count and wording above describe the Church's cited English page, not a claim that all historical or scholarly lists have identical contents or counting rules. Bruk Ayele Asale's 2016 peer-reviewed article says the composition of the traditional 81 remains obscure; his 2015 University of KwaZulu-Natal thesis discusses multiple lists and competing broader/narrower classifications, including unresolved manuscript connections among Proverbs and Tegsas and names for the broader New Testament books. G.A. Mikre-Sellassie's 1993 article compares historical list traditions that group Proverbs, Maccabees, Sirach, and other works differently. These are attributed scholarly analyses, not Church rulings or proof of this page's edition-level crosswalks. The archive does not infer alternate mappings or generate missing canon entries from them.",
   "book_count": 81,
-  "reader_count": 11,
+  "reader_count": 19,
   "books": [
     {
       "canon_id": "eotc-ot-01",
@@ -15,11 +21,15 @@
         "eotc-001"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-035",
+        "SRC-384"
       ],
-      "reader_status": "Bundled: Geʽez + English companion",
+      "mapping_state": "reviewed_match",
+      "reader_status": "Bundled: Geʽez + English Brenton companion",
       "reader_id": "genesis-geez-dillmann-hacohen",
-      "mapping_note": ""
+      "mapping_note": "Reviewed title/work-level crosswalk: the Church's numbered canon list names Genesis, and TAU's Ethiopic Bible index independently lists Genesis in Ethiopic and English under its Octateuch. This matches the named biblical work only; it does not establish that Dillmann's 1853–1855 edition is the current Church text, or verify the transcription's wording, textual completeness, or manuscript/edition identity. Standard USFM title-candidate research readers are catalogued for Genesis."
     },
     {
       "canon_id": "eotc-ot-02",
@@ -31,11 +41,15 @@
         "eotc-002"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-035",
+        "SRC-384"
       ],
-      "reader_status": "Bundled: Geʽez source transcription",
+      "mapping_state": "reviewed_match",
+      "reader_status": "Bundled: Geʽez source transcription + English Brenton research companion (wording unreviewed)",
       "reader_id": "exodus-geez-dillmann-hacohen",
-      "mapping_note": ""
+      "mapping_note": "Reviewed title/work-level crosswalk: the Church's numbered canon list names Exodus, and TAU's Ethiopic Bible index independently lists the Geʽez Exodus item under its Octateuch. This matches the named biblical work only; it does not establish that Dillmann's 1853–1855 edition is the current Church text, or verify the transcription's wording, textual completeness, or manuscript/edition identity. Standard USFM title-candidate research readers are catalogued for Exodus."
     },
     {
       "canon_id": "eotc-ot-03",
@@ -47,11 +61,15 @@
         "eotc-003"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-035",
+        "SRC-384"
       ],
+      "mapping_state": "reviewed_match",
       "reader_status": "Bundled: Geʽez source transcription",
       "reader_id": "leviticus-geez-dillmann-hacohen",
-      "mapping_note": ""
+      "mapping_note": "Reviewed title/work-level crosswalk: the Church's numbered canon list names Leviticus, and TAU's Ethiopic Bible index independently lists the Geʽez Leviticus item under its Octateuch. This matches the named biblical work only; it does not establish that Dillmann's 1853–1855 edition is the current Church text, or verify the transcription's wording, textual completeness, or manuscript/edition identity. Standard USFM title-candidate research readers are catalogued for Leviticus."
     },
     {
       "canon_id": "eotc-ot-04",
@@ -63,11 +81,15 @@
         "eotc-004"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-035",
+        "SRC-384"
       ],
+      "mapping_state": "reviewed_match",
       "reader_status": "Bundled: Geʽez source transcription",
       "reader_id": "numbers-geez-dillmann-hacohen",
-      "mapping_note": ""
+      "mapping_note": "Reviewed title/work-level crosswalk: the Church's numbered canon list names Numbers, and TAU's Ethiopic Bible index independently lists the Geʽez Numeri item under its Octateuch. This matches the named biblical work only; it does not establish that Dillmann's 1853–1855 edition is the current Church text, or verify the transcription's wording, textual completeness, or manuscript/edition identity. Standard USFM title-candidate research readers are catalogued for Numbers."
     },
     {
       "canon_id": "eotc-ot-05",
@@ -79,11 +101,15 @@
         "eotc-005"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-035",
+        "SRC-384"
       ],
+      "mapping_state": "reviewed_match",
       "reader_status": "Bundled: Geʽez source transcription",
       "reader_id": "deuteronomy-geez-dillmann-hacohen",
-      "mapping_note": ""
+      "mapping_note": "Reviewed title/work-level crosswalk: the Church's numbered canon list names Deuteronomy, and TAU's Ethiopic Bible index independently lists the Geʽez Deuteronomium item under its Octateuch. This matches the named biblical work only; it does not establish that Dillmann's 1853–1855 edition is the current Church text, or verify the transcription's wording, textual completeness, or manuscript/edition identity. Standard USFM title-candidate research readers are catalogued for Deuteronomy."
     },
     {
       "canon_id": "eotc-ot-06",
@@ -95,11 +121,15 @@
         "eotc-006"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-035",
+        "SRC-384"
       ],
+      "mapping_state": "reviewed_match",
       "reader_status": "Bundled: Geʽez source transcription",
       "reader_id": "joshua-geez-dillmann-hacohen",
-      "mapping_note": ""
+      "mapping_note": "Reviewed title/work-level crosswalk: the Church's numbered canon list names Joshua, and TAU's Ethiopic Bible index independently lists the Geʽez Josua item under its Octateuch. This matches the named biblical work only; it does not establish that Dillmann's 1853–1855 edition is the current Church text, or verify the transcription's wording, textual completeness, or manuscript/edition identity. Standard USFM title-candidate research readers are catalogued for Joshua."
     },
     {
       "canon_id": "eotc-ot-07",
@@ -111,11 +141,15 @@
         "eotc-007"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-035",
+        "SRC-384"
       ],
+      "mapping_state": "reviewed_match",
       "reader_status": "Bundled: Geʽez source transcription",
       "reader_id": "judges-geez-dillmann-hacohen",
-      "mapping_note": ""
+      "mapping_note": "Reviewed title/work-level crosswalk: the Church's numbered canon list names Judges, and TAU's Ethiopic Bible index independently lists the Geʽez Judices item under its Octateuch. This matches the named biblical work only; it does not establish that Dillmann's 1853–1855 edition is the current Church text, or verify the transcription's wording, textual completeness, or manuscript/edition identity. Standard USFM title-candidate research readers are catalogued for Judges."
     },
     {
       "canon_id": "eotc-ot-08",
@@ -127,11 +161,15 @@
         "eotc-008"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-035",
+        "SRC-384"
       ],
+      "mapping_state": "reviewed_match",
       "reader_status": "Bundled: Geʽez source transcription",
       "reader_id": "ruth-geez-dillmann-hacohen",
-      "mapping_note": ""
+      "mapping_note": "Reviewed title/work-level crosswalk: the Church's numbered canon list names Ruth, and TAU's Ethiopic Bible index independently lists the Geʽez Ruth item under its Octateuch. This matches the named biblical work only; it does not establish that Dillmann's 1853–1855 edition is the current Church text, or verify the transcription's wording, textual completeness, or manuscript/edition identity. Standard USFM title-candidate research readers are catalogued for Ruth."
     },
     {
       "canon_id": "eotc-ot-09",
@@ -144,11 +182,13 @@
         "eotc-010"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "mapping_state": "asserted_by_source",
+      "reader_status": "Two bundled historical Geʽez research component readers (31 and 24 source chapters); TAU asserts the Samuel mapping, while current EOTC edition identity, completeness, and accuracy remain unverified.",
       "reader_id": null,
-      "mapping_note": "This is a grouped title in the Church list; separate catalogue rows are discovery aids, not proof of exact textual boundaries."
+      "mapping_note": "The Church list groups ‘I and II Samuel’ at entry 9. TAU explicitly identifies Ethiopic Reigns I–II as Samuel I–II. Two separate locally bundled historical Geʽez research readers preserve the 31- and 24-chapter components. This source-supported title/work link does not establish identity with a current EOTC edition or verify print completeness or transcription accuracy. Standard USFM title-candidate research readers are catalogued for I and II Samuel."
     },
     {
       "canon_id": "eotc-ot-10",
@@ -161,11 +201,13 @@
         "eotc-012"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "mapping_state": "asserted_by_source",
+      "reader_status": "Two bundled historical Geʽez research component readers (23 and 25 observed source chapters); TAU asserts the Kings mapping, while current EOTC edition identity, completeness, and accuracy remain unverified.",
       "reader_id": null,
-      "mapping_note": "This is a grouped title in the Church list; separate catalogue rows are discovery aids, not proof of exact textual boundaries."
+      "mapping_note": "The Church list groups ‘I and II Kings’ at entry 10. TAU explicitly identifies Ethiopic Reigns III–IV as Kings I–II. Two separate locally bundled historical Geʽez research readers preserve 23 and 25 observed source chapters, respectively. This source-supported title/work link does not establish identity with a current EOTC edition or verify print completeness or transcription accuracy. Standard USFM title-candidate research readers are catalogued for I and II Kings."
     },
     {
       "canon_id": "eotc-ot-11",
@@ -177,11 +219,12 @@
         "eotc-013"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church's cited English list names ‘I Chronicles’ at Old Testament entry 11; this record preserves that printed label. No reader is bundled here, external availability has not been assessed, and no exact edition/work crosswalk is asserted. Standard USFM title-candidate research readers are catalogued for I Chronicles."
     },
     {
       "canon_id": "eotc-ot-12",
@@ -193,11 +236,12 @@
         "eotc-014"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church's cited English list names ‘II Chronicles’ at Old Testament entry 12; this record preserves that printed label. No reader is bundled here, external availability has not been assessed, and no exact edition/work crosswalk is asserted. Standard USFM title-candidate research readers are catalogued for II Chronicles."
     },
     {
       "canon_id": "eotc-ot-13",
@@ -209,11 +253,15 @@
         "eotc-015"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-041",
+        "SRC-296",
+        "SRC-297"
       ],
-      "reader_status": "Bundled: Geʽez source transcription",
-      "reader_id": "jubilees-geez-hacohen",
-      "mapping_note": ""
+      "mapping_state": "reviewed_match",
+      "reader_status": "Not bundled: source text withheld pending rights clarification.",
+      "reader_id": null,
+      "mapping_note": "Reviewed work/title crosswalk: the Church's numbered list names ‘Jublee’ and its accompanying prose refers to the book of Jubilee; the pinned Beta maṣāḥǝft work record is titled Book of Jubilees. The selected Ran transcription is a work-level match only; it is not the separate EOTC-printed edition in the parent TEI record, which remains withheld pending rights review. Textual accuracy and completeness are not established. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-ot-14",
@@ -226,13 +274,15 @@
       ],
       "source_ids": [
         "SRC-029",
-        "SRC-040",
         "SRC-065",
-        "SRC-066"
+        "SRC-066",
+        "SRC-296",
+        "SRC-297"
       ],
-      "reader_status": "Bundled: Geʽez EOTC printed-edition transcription",
-      "reader_id": "enoch-geez-eotc",
-      "mapping_note": "The Church list names Enoch, and the pinned Beta maṣāḥǝft block EOTCed is labeled as text of the EOTC printed Bible. The exact printed exemplar and date are unspecified. The reader preserves the TEI block's 108 chapters and 1,058 labeled lines; chapter 21 starts at source marker 2. This verifies the stored block's structure, not manuscript or printed-page accuracy."
+      "mapping_state": "reviewed_match",
+      "reader_status": "Not bundled: source text withheld pending rights clarification.",
+      "reader_id": null,
+      "mapping_note": "Reviewed work/title crosswalk: the Church's numbered list names Enoch; the pinned Beta maṣāḥǝft work record is 1 Enoch and its selected EOTCed division is labeled ‘Text of the EOTC printed Bible.’ This matches the named work only; the physical print exemplar and date, transcription accuracy, and completeness remain unverified. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-ot-15",
@@ -245,11 +295,18 @@
         "eotc-018"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-097",
+        "SRC-100",
+        "SRC-361",
+        "SRC-362",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "mapping_state": "reviewed_match",
+      "reader_status": "Historical Geʽez Ezra–Nehemiah edition and its I–XXIII print numbering documented; no local reader text bundled, and print completeness is unverified.",
       "reader_id": null,
-      "mapping_note": "This is a grouped title in the Church list; separate catalogue rows are discovery aids, not proof of exact textual boundaries."
+      "mapping_note": "Reviewed work/title match: the Church list groups ‘Ezra and Nehemia’; TAU identifies Pereira's Ethiopic Ezrâ III as the canonical book containing Ezra and Nehemiah. The 1919 print edition numbers Ezra I–X and Nehemiah XI–XXIII; TAU exposes 23 menu links consistent with this numbering, but they were not individually collated. Manuscript chapter divisions vary. This is not proof of completeness or a match to a current EOTC edition. No text or images are bundled. Standard USFM title-candidate research readers are catalogued for Ezra and Nehemia."
     },
     {
       "canon_id": "eotc-ot-16",
@@ -258,14 +315,21 @@
       "display_name": "Ezra (2nd) and Ezra Sutuel",
       "source_label": "Ezra (2nd) and Ezra Sutuel",
       "catalogue_ids": [
+        "eotc-090",
         "eotc-019"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-097",
+        "SRC-098",
+        "SRC-100",
+        "SRC-200",
+        "SRC-347",
+        "SRC-421"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church page presents ‘Ezra (2nd)’ and ‘Ezra Sutuel’ as one numbered entry. A provisional title-family crosswalk is supported by the Church page's separate statement that the Ethiopic Bible includes third and fourth Esdras, together with TAU's identification of Ethiopic Ezra II with Septuagint Esdras alpha / Vulgate tertius Esdrae and Ezra I (Apocalypse of Esdras) with Vulgate quartus Esdrae. This suggests, but does not prove, that ‘Ezra (2nd)’ corresponds to the third-Esdras work and ‘Ezra Sutuel’ to the fourth-Esdras apocalypse. The British Library codex title names both labels, but its internal boundaries, completeness, exact edition identity, and textual contents are unverified; no reader coverage is claimed. The British Library EAP title lists Ezra Sutu'el, Book of Second Ezra, and an excerpt from the Prayer of the Covenant for one codex; this catalogue title does not establish separate internal boundaries or a complete witness to either Church-list component. The exact work mappings for the Church-list sublabels to the manuscript remain unresolved."
     },
     {
       "canon_id": "eotc-ot-17",
@@ -277,11 +341,17 @@
         "eotc-020"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-134",
+        "SRC-217",
+        "SRC-218",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Tobit. The Beta maṣāḥǝft TEI edition explicitly declares gez and says it is text of the EOTC printed Bible, supporting a title-level link. The Church-list crosswalk, exact printed exemplar, transcription accuracy, and completeness against print remain unverified. Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard USFM title-candidate research readers are catalogued for Tobit."
     },
     {
       "canon_id": "eotc-ot-18",
@@ -293,11 +363,17 @@
         "eotc-021"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-229",
+        "SRC-230",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Judith. The pinned Beta maṣāḥǝft TEI identifies a Book of Judith and a Geʽez edition labeled ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The exact printed exemplar, current EOTC edition identity, transcription accuracy, and completeness remain unverified. Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard USFM title-candidate research readers are catalogued for Judith."
     },
     {
       "canon_id": "eotc-ot-19",
@@ -309,11 +385,17 @@
         "eotc-022"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-227",
+        "SRC-228",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Esther. The pinned Beta maṣāḥǝft TEI identifies a Book of Esther and a Geʽez edition labeled ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The exact printed exemplar, current EOTC edition identity, transcription accuracy, and completeness remain unverified. Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard USFM title-candidate research readers are catalogued for Esther."
     },
     {
       "canon_id": "eotc-ot-20",
@@ -325,11 +407,13 @@
         "eotc-023"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-101",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed",
       "reader_id": null,
-      "mapping_note": "The Church list's ‘I Maccabees’/‘II and III Maccabees’ labels are preserved. Their mapping to the separately catalogued Meqabyan texts needs tradition-specific review."
+      "mapping_note": "The Church list's ‘I Maccabees’/‘II and III Maccabees’ labels are preserved. Mikre-Sellassie (1993) documents different Maccabean groupings in broader and narrower list traditions; those labels do not prove a one-to-one mapping to the catalogue's Meqabyan texts, whose identities remain unresolved. Standard USFM title-candidate research readers are catalogued for I Maccabees."
     },
     {
       "canon_id": "eotc-ot-21",
@@ -342,11 +426,13 @@
         "eotc-025"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-101",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed",
       "reader_id": null,
-      "mapping_note": "The Church list's ‘I Maccabees’/‘II and III Maccabees’ labels are preserved. Their mapping to the separately catalogued Meqabyan texts needs tradition-specific review."
+      "mapping_note": "The Church list's ‘I Maccabees’/‘II and III Maccabees’ labels are preserved. Mikre-Sellassie (1993) documents different Maccabean groupings in broader and narrower list traditions; those labels do not prove a one-to-one mapping to the catalogue's Meqabyan texts, whose identities remain unresolved. Standard USFM title-candidate research readers are catalogued for II and III Maccabees."
     },
     {
       "canon_id": "eotc-ot-22",
@@ -358,11 +444,16 @@
         "eotc-026"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-109",
+        "SRC-110",
+        "SRC-111",
+        "SRC-283",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed No canon-linked reader. 9 separately scoped Job title-candidate research readers across 8 language tags; these are discovery links, not verified Ethiopian or Eritrean Orthodox editions or canon-linked readers.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Job. Separate Geʽez leads exist for Pereira’s historical critical edition and Beta maṣāḥǝft LIT1688Job; neither establishes an exact EOTC print match or complete reader here. Beta maṣāḥǝft’s text-page CC BY-SA 4.0 file notice conflicts with its CC BY-NC-SA 4.0 site notice, so no wording is copied. English Brenton Septuagint Job is a separate historical companion translated from Greek; it is not Geʽez and its alignment with any Church edition is unverified. Standard USFM title-candidate research readers are catalogued for Job."
     },
     {
       "canon_id": "eotc-ot-23",
@@ -375,16 +466,14 @@
       ],
       "source_ids": [
         "SRC-029",
-        "SRC-036",
-        "SRC-058",
-        "SRC-059",
         "SRC-067",
         "SRC-068",
-        "SRC-069"
+        "SRC-384"
       ],
-      "reader_status": "Bundled: Geʽez Ludolf Psalter transcription",
+      "mapping_state": "reviewed_match",
+      "reader_status": "Bundled: Geʽez source transcription + Brenton English Septuagint companion (Greek basis; independent witness, alignment unverified)",
       "reader_id": "psalms-geez-ludolf-hacohen",
-      "mapping_note": "The Church list names Psalms; this reader contains the TAU-hosted Geʽez transcription of Ludolf's Psalter in 151 Rahlfs-numbered pages. The reader preserves source label anomalies and has not been independently collated. This supports navigation, not an exact canon crosswalk or completeness claim."
+      "mapping_note": "Reviewed work/title crosswalk: the Church's numbered list names Psalms; TAU's Ethiopic Bible index lists Psalmus under Psalterium Davidis and its accompanying notes identify the Ethiopic Psalter digitization. This supports the Psalms/Psalter work link only. Rahlfs numbering, extent, and alignment with any current EOTC printed edition are separate and unverified. Standard USFM title-candidate research readers are catalogued for Psalms."
     },
     {
       "canon_id": "eotc-ot-24",
@@ -396,11 +485,13 @@
         "eotc-029"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-101",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "Mikre-Sellassie (1993) describes Messale (Proverbs 1–24) and Tegsas (Proverbs 25–31) as separate titles in a historical canon account. The Church page lists Proverbs and Tegsats (Reproof); their exact boundaries and relationship to a specific edition remain unverified. Standard USFM title-candidate research readers are catalogued for Proverbs."
     },
     {
       "canon_id": "eotc-ot-25",
@@ -412,11 +503,16 @@
         "eotc-030"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-101",
+        "SRC-108",
+        "SRC-205",
+        "SRC-281",
+        "SRC-385"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church's numbered English list separately names Proverbs (24) and Tegsats (Reproof) (25). Mikre-Sellassie (1993, printed p. 120 n. 51) reports a historical Fetha Negest commentary grouping Messale as Proverbs 1–24 and Tegsas as 25–31; Encyclopaedia Aethiopica reports 25–29; British Library Add MS 16186 catalogs Tagśāṣa Salomon at ff.22r–26rb as corresponding to Proverbs 25–29. The manuscript record is a witness-level discovery lead, not proof of the full Church-list entry's boundaries or exact edition. No reader is bundled."
     },
     {
       "canon_id": "eotc-ot-26",
@@ -428,11 +524,12 @@
         "eotc-031"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-380"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church page uses the plural phrase ‘books of wisdom.’ Wisdom of Solomon is a research candidate row only; its identity as the exact listed work is not established. The British Library catalog for Ge'ez/Ethiopic codex Add MS 16189 names ‘Metsihafe Tibeb (the books of wisdom)’ at folios 20v–29v. This matching title and folio range identify a manuscript discovery lead, not a verified match to the complete Church-list work or its recension, and not proof that the work is identical to Wisdom of Solomon or another biblical wisdom work."
     },
     {
       "canon_id": "eotc-ot-27",
@@ -444,27 +541,40 @@
         "eotc-032"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-279",
+        "SRC-294",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Ecclesiastes. The pinned Beta maṣāḥǝft TEI contains a Geʽez division labeled ‘Text of the EOTC printed Bible,’ supporting a source-asserted title link only. A scoped extract contains 12 ordered chapters, 226 source lines, and 222 linked references; chapter 12 markers 13–17 link to targets 10–14, preserved separately. The exact print exemplar, accuracy, completeness, and underlying print rights remain unverified; the separate noncommercial Mercer division is excluded. Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard USFM title-candidate research readers are catalogued for Ecclesiastes."
     },
     {
       "canon_id": "eotc-ot-28",
       "section": "Old Testament",
       "section_number": 28,
       "display_name": "Song of Songs",
-      "source_label": "Song of Songs",
+      "source_label": "The Song of Songs",
       "catalogue_ids": [
         "eotc-028"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-176",
+        "SRC-292",
+        "SRC-293",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church-list title is Song of Songs. Beta maṣāḥǝft LIT2362Songof contains a Geʽez EOTCed division labeled ‘Text of the EOTC printed Bible’; its 2025 revision history says EOTC Bible text was added. This supports a source-asserted title link. The work page also gives a generic modern-Vulgata digitization statement; exact print exemplar and the relationship between these statements remain unresolved. The 131 source lines are extracted, with duplicated chapter 8 marker 14 preserved. Accuracy and completeness are not independently verified. Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard USFM title-candidate research readers are catalogued for Song of Songs."
     },
     {
       "canon_id": "eotc-ot-29",
@@ -476,11 +586,12 @@
         "eotc-033"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church's cited English list names ‘Isaiah’ at Old Testament entry 29; this record preserves that printed label. No reader is bundled here, external availability has not been assessed, and no exact edition/work crosswalk is asserted. Standard USFM title-candidate research readers are catalogued for Isaiah."
     },
     {
       "canon_id": "eotc-ot-30",
@@ -496,11 +607,12 @@
         "eotc-038"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed",
       "reader_id": null,
-      "mapping_note": "This is a grouped title in the Church list; separate catalogue rows are discovery aids, not proof of exact textual boundaries."
+      "mapping_note": "This is a grouped title in the Church list; separate catalogue rows are discovery aids, not proof of exact textual boundaries. Standard USFM title-candidate research readers are catalogued for Jeremiah."
     },
     {
       "canon_id": "eotc-ot-31",
@@ -512,11 +624,12 @@
         "eotc-039"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church's cited English list names ‘Ezekiel’ at Old Testament entry 31; this record preserves that printed label. No reader is bundled here, external availability has not been assessed, and no exact edition/work crosswalk is asserted. Standard USFM title-candidate research readers are catalogued for Ezekiel."
     },
     {
       "canon_id": "eotc-ot-32",
@@ -528,11 +641,16 @@
         "eotc-040"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-282",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "mapping_state": "reviewed_match",
+      "reader_status": "Not bundled: source text withheld pending rights clarification.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "Reviewed work/title crosswalk: the Church's numbered list names Daniel and the pinned Beta maṣāḥǝft TEI identifies the Geʽez work as Daniel, with an edition division labeled ‘Text of the EOTC printed Bible.’ This matches the named work only; exact print exemplar, internal component boundaries, completeness, and transcription accuracy remain unverified.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard USFM title-candidate research readers are catalogued for Daniel."
     },
     {
       "canon_id": "eotc-ot-33",
@@ -544,11 +662,18 @@
         "eotc-041"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-233",
+        "SRC-234",
+        "SRC-296",
+        "SRC-297",
+        "SRC-380",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Hosea. The pinned Beta maṣāḥǝft TEI identifies a Geʽez Book of Hosea and labels its edition ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. Exact print exemplar, current EOTC edition identity, accuracy, and completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard USFM title-candidate research readers are catalogued for Hosea."
     },
     {
       "canon_id": "eotc-ot-34",
@@ -560,11 +685,17 @@
         "eotc-042"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-151",
+        "SRC-193",
+        "SRC-380",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
-      "reader_id": null,
-      "mapping_note": ""
+      "mapping_state": "reviewed_match",
+      "reader_status": "Bundled: Geʽez source transcription",
+      "reader_id": "amos-geez-pereira-ghebre-tau",
+      "mapping_note": "Reviewed work/title crosswalk: the Church's numbered list and TAU's Ethiopic index both use Amos, and the TAU book page identifies the Ethiopic Book of Amos. This matches the work title only; Pereira's historical witness is not identified as the current EOTC printed edition and transcription accuracy/completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Amos."
     },
     {
       "canon_id": "eotc-ot-35",
@@ -576,11 +707,18 @@
         "eotc-043"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-235",
+        "SRC-236",
+        "SRC-296",
+        "SRC-297",
+        "SRC-380",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Micah. The pinned Beta maṣāḥǝft TEI identifies a Geʽez Book of Micah and labels its edition ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. Exact print exemplar, current EOTC edition identity, accuracy, and completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard USFM title-candidate research readers are catalogued for Micah."
     },
     {
       "canon_id": "eotc-ot-36",
@@ -592,11 +730,17 @@
         "eotc-044"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-149",
+        "SRC-192",
+        "SRC-380",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
-      "reader_id": null,
-      "mapping_note": ""
+      "mapping_state": "reviewed_match",
+      "reader_status": "Bundled: Geʽez source transcription",
+      "reader_id": "joel-geez-dillmann-hacohen-tau",
+      "mapping_note": "Reviewed work/title crosswalk: the Church's numbered list names Joel; TAU's index gives the Latinized form Ioel, and its book page identifies the Ethiopic Book of Joel. This is a title/work match only; Dillmann's historical witness, label anomalies, accuracy, and completeness are not thereby certified as the current Church text. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Joel."
     },
     {
       "canon_id": "eotc-ot-37",
@@ -608,11 +752,17 @@
         "eotc-045"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-153",
+        "SRC-186",
+        "SRC-380",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
-      "reader_id": null,
-      "mapping_note": ""
+      "mapping_state": "reviewed_match",
+      "reader_status": "Bundled: Geʽez source transcription",
+      "reader_id": "obadiah-geez-bachmann-theot",
+      "mapping_note": "Reviewed work/title crosswalk: the Church's numbered list names Obadiah; TAU's index uses the Latin form Abdias, and the linked book-specific page identifies the Ethiopic Book of Obadiah. This matches the named biblical work only; Bachmann's 1892 critical edition transcription is not identified as a current EOTC printed edition and its text has not been freshly collated. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Obadiah."
     },
     {
       "canon_id": "eotc-ot-38",
@@ -624,11 +774,17 @@
         "eotc-046"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-156",
+        "SRC-187",
+        "SRC-380",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
-      "reader_id": null,
-      "mapping_note": ""
+      "mapping_state": "reviewed_match",
+      "reader_status": "Bundled: Geʽez source transcription",
+      "reader_id": "jonah-geez-lofgren-ghebre-tau",
+      "mapping_note": "Reviewed work/title crosswalk: the Church's numbered list names Jonah; TAU's index gives the Latinized form Ionas and its book-specific page identifies the Ethiopic Book of Jonah. This is a title/work match only; the historical critical-edition transcription is not identified as the current Church print text and its accuracy/completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Jonah."
     },
     {
       "canon_id": "eotc-ot-39",
@@ -640,11 +796,17 @@
         "eotc-047"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-155",
+        "SRC-188",
+        "SRC-380",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
-      "reader_id": null,
-      "mapping_note": ""
+      "mapping_state": "reviewed_match",
+      "reader_status": "Bundled: Geʽez source transcription",
+      "reader_id": "nahum-geez-lofgren-ghebre-tau",
+      "mapping_note": "Reviewed work/title crosswalk: the Church's numbered list and TAU's index both name Nahum, and TAU's book page identifies an Ethiopic Nahum transcription. This title/work match does not identify the historical critical-edition transcription with a current EOTC printed edition or verify its accuracy/completeness. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Nahum."
     },
     {
       "canon_id": "eotc-ot-40",
@@ -656,11 +818,17 @@
         "eotc-048"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-157",
+        "SRC-189",
+        "SRC-380",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
-      "reader_id": null,
-      "mapping_note": ""
+      "mapping_state": "reviewed_match",
+      "reader_status": "Bundled: Geʽez source transcription",
+      "reader_id": "habakkuk-geez-lofgren-ghebre-tau",
+      "mapping_note": "Reviewed work/title crosswalk: the Church's numbered list names Habakkuk; TAU's index uses the Latinized form Habacuc and its book page identifies the Ethiopic Book of Habakkuk. This matches the work title only; the historical witness, current edition identity, numbering equivalence, transcription accuracy, and completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Habakkuk."
     },
     {
       "canon_id": "eotc-ot-41",
@@ -672,11 +840,18 @@
         "eotc-049"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-157",
+        "SRC-158",
+        "SRC-190",
+        "SRC-380",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
-      "reader_id": null,
-      "mapping_note": ""
+      "mapping_state": "reviewed_match",
+      "reader_status": "Bundled: Geʽez source transcription",
+      "reader_id": "zephaniah-geez-lofgren-hacohen-tau",
+      "mapping_note": "Reviewed work/title crosswalk: the Church's numbered list names Zephaniah; TAU's index uses the Latinized form Sophonias and its book page identifies the Ethiopic Book of Zephaniah. This matches the work title only; the historical witness is not identified as the current EOTC printed edition and accuracy/completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Zephaniah."
     },
     {
       "canon_id": "eotc-ot-42",
@@ -688,11 +863,18 @@
         "eotc-050"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-157",
+        "SRC-160",
+        "SRC-191",
+        "SRC-380",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
-      "reader_id": null,
-      "mapping_note": ""
+      "mapping_state": "reviewed_match",
+      "reader_status": "Bundled: Geʽez source transcription",
+      "reader_id": "haggai-geez-lofgren-ghebre-tau",
+      "mapping_note": "Reviewed work/title crosswalk: the Church's numbered list names Haggai; TAU's index uses the Latinized form Aggaeus and its book page identifies the Ethiopic Book of Haggai. This matches the work title only; the historical witness is not identified as the current EOTC printed edition and accuracy/completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Haggai."
     },
     {
       "canon_id": "eotc-ot-43",
@@ -704,11 +886,18 @@
         "eotc-051"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-237",
+        "SRC-238",
+        "SRC-296",
+        "SRC-297",
+        "SRC-380",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Zechariah. The pinned Beta maṣāḥǝft TEI identifies a Geʽez Book of Zechariah and labels its edition ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. This is distinct from the separately named Zephaniah. Exact print exemplar, current EOTC edition identity, accuracy, and completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297.  Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard USFM title-candidate research readers are catalogued for Zechariah."
     },
     {
       "canon_id": "eotc-ot-44",
@@ -720,11 +909,17 @@
         "eotc-052"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-161",
+        "SRC-195",
+        "SRC-380",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
-      "reader_id": null,
-      "mapping_note": ""
+      "mapping_state": "reviewed_match",
+      "reader_status": "Bundled: Geʽez source transcription",
+      "reader_id": "malachi-geez-lofgren-ghebre-tau",
+      "mapping_note": "Reviewed work/title crosswalk: the Church's numbered list names Malachi; TAU's index uses the Latinized form Malachias and its book-specific page identifies the Ethiopic Book of Malachi. This is a title/work match only; the historical witness, current edition identity, transcription accuracy, and completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Malachi."
     },
     {
       "canon_id": "eotc-ot-45",
@@ -736,27 +931,41 @@
         "eotc-053"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-034",
+        "SRC-098",
+        "SRC-101",
+        "SRC-318",
+        "SRC-348",
+        "SRC-384"
       ],
-      "reader_status": "No text bundled",
-      "reader_id": null,
-      "mapping_note": ""
+      "mapping_state": "reviewed_match",
+      "reader_status": "Bundled: Geʽez source transcription",
+      "reader_id": "sirach-geez-dillmann-hacohen-tau",
+      "mapping_note": "Reviewed work/title crosswalk: the Church list calls entry 45 ‘Book of Joshua the Son of Sirac.’ Cambridge’s scholarly excerpt explicitly identifies ‘Jesus (Joshua), Son of Sirach’ as also known as Wisdom of Sirach and Ecclesiasticus; TAU identifies its Geʽez digital witness as Ecclesiasticus / Wisdom of the Son of Sirach. This establishes a bounded title/work-family match only. It does not establish recension, the exact current EOTC printed edition, Dillmann 1894’s canonical authority, completeness, or transcription accuracy. Standard USFM title-candidate research readers are catalogued for Book of Joshua the Son of Sirac."
     },
     {
       "canon_id": "eotc-ot-46",
       "section": "Old Testament",
       "section_number": 46,
       "display_name": "Book of Josephas the Son of Bengorion",
-      "source_label": "Book of Josephas the Son of Bengorion",
+      "source_label": "The Book of Josephas the Son of Bengorion",
       "catalogue_ids": [
         "eotc-054"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-343",
+        "SRC-344",
+        "SRC-386",
+        "SRC-422",
+        "SRC-430",
+        "SRC-431",
+        "SRC-432"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled; related Geʽez catalogue records located; Church-list identity and reusable text unverified",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "A 2017 Ethiopian Orthodox Bible Project report identifies its acquired printed Zëna Ayhud/Josippon volume as the greater-canon work; a separate publisher describes an English reconstruction on a site bearing a © 2026 notice, explicitly not a direct Geʽez translation. These are attributed claims, not independently verified editions or text collations. Beta maṣāḥǝft and British Library witnesses remain distinct. No text is bundled."
     },
     {
       "canon_id": "eotc-nt-01",
@@ -768,11 +977,18 @@
         "eotc-055"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-219",
+        "SRC-220",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 14 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Matthew. The pinned Beta maṣāḥǝft TEI identifies a Geʽez Gospel of Matthew and its edition note says ‘Text of the EOTC printed Bible,’ supporting a provisional title-level link. The exact print exemplar, current EOTC edition identity, completeness, and transcription accuracy remain unverified; numbering anomalies are preserved as found. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module MAT has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-02",
@@ -784,11 +1000,18 @@
         "eotc-056"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-083",
+        "SRC-092",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "mapping_state": "reviewed_match",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 14 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "Reviewed work/title crosswalk: the Church's numbered list names Mark; the pinned Beta maṣāḥǝft work record is Gospel of Mark, with a Geʽez division labeled ‘Text of the EOTC printed Bible.’ This supports the named-work match only. Exact print exemplar, completeness, edition identity, and transcription accuracy remain unverified. Standard module MRK has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-03",
@@ -800,11 +1023,18 @@
         "eotc-057"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-221",
+        "SRC-222",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 14 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Luke. The pinned Beta maṣāḥǝft TEI identifies a Geʽez Gospel of Luke and its edition note says ‘Text of the EOTC printed Bible,’ supporting a provisional title-level link. The exact print exemplar, current EOTC edition identity, completeness, and transcription accuracy remain unverified; an empty line and source-order anomaly in chapter 21 are preserved as found. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module LUK has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-04",
@@ -816,11 +1046,18 @@
         "eotc-058"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-223",
+        "SRC-224",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 14 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names John. The pinned Beta maṣāḥǝft TEI identifies a Geʽez Gospel of John and its edition note says ‘Text of the EOTC printed Bible,’ supporting a provisional title-level link. The exact print exemplar, current EOTC edition identity, completeness, and transcription accuracy remain unverified. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module JHN has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-05",
@@ -832,11 +1069,18 @@
         "eotc-059"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-225",
+        "SRC-226",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 14 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names The Acts. The pinned Beta maṣāḥǝft TEI work LIT1019Actsof contains a Geʽez Acts division explicitly labeled ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The TEI file also contains a separate manuscript-derived introduction, retained in the source but excluded from the 28-chapter Acts reader. The exact print exemplar, current EOTC edition identity, completeness, and transcription accuracy remain unverified; repeated and omitted chapter labels are preserved. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module ACT has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-06",
@@ -848,11 +1092,17 @@
         "eotc-060"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-274",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 14 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Romans. The pinned Beta maṣāḥǝft TEI title is Epistle to the Romans, and its Epistle note says the text is taken from the printed EOTC Bible. This supports a provisional title-level link. The source calls its 16 manuscript-based text divisions preliminary and does not account for recensions; exact print exemplar, recension, current EOTC edition identity, completeness, and accuracy remain unverified. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module ROM has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-07",
@@ -864,11 +1114,18 @@
         "eotc-061"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-249",
+        "SRC-250",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 13 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names I Corinthians. The pinned Beta maṣāḥǝft TEI identifies First Epistle to the Corinthians and labels the Geʽez text ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The exact print exemplar, current edition identity, accuracy, and completeness remain unverified. Its 39 unnumbered lines are retained without labels. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module 1CO has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-08",
@@ -880,11 +1137,18 @@
         "eotc-062"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-251",
+        "SRC-252",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 13 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names II Corinthians. The pinned Beta maṣāḥǝft TEI identifies Second Epistle to the Corinthians and labels the Geʽez text ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The exact print exemplar, current edition identity, accuracy, and completeness remain unverified. Its 23 unnumbered lines are retained without labels. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module 2CO has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-09",
@@ -896,11 +1160,18 @@
         "eotc-063"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-253",
+        "SRC-254",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 14 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Galatians. The pinned Beta maṣāḥǝft TEI identifies the Epistle to the Galatians and labels the Geʽez text ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The exact print exemplar, current edition identity, accuracy, and completeness remain unverified. Its 16 unnumbered lines are retained without labels. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module GAL has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-10",
@@ -912,11 +1183,18 @@
         "eotc-064"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-255",
+        "SRC-256",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 14 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Ephesians. The pinned Beta maṣāḥǝft TEI identifies the Epistle to the Ephesians and labels the Geʽez text ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The exact print exemplar, current edition identity, accuracy, and completeness remain unverified. Its 20 unnumbered lines are retained without labels. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module EPH has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-11",
@@ -928,11 +1206,18 @@
         "eotc-065"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-257",
+        "SRC-258",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 14 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Philippians. The pinned Beta maṣāḥǝft TEI identifies the Epistle to the Philippians and labels the Geʽez text ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The exact print exemplar, current edition identity, accuracy, and completeness remain unverified. Its 13 unnumbered lines are retained without labels. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module PHP has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-12",
@@ -944,11 +1229,18 @@
         "eotc-066"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-259",
+        "SRC-260",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 14 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Colossians. The pinned Beta maṣāḥǝft TEI identifies the Epistle to the Colossians and labels the Geʽez text ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The exact print exemplar, current edition identity, accuracy, and completeness remain unverified. Its 16 unnumbered lines are retained without labels. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module COL has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-13",
@@ -960,11 +1252,18 @@
         "eotc-067"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-261",
+        "SRC-262",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 13 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names I Thessalonians. The pinned Beta maṣāḥǝft TEI identifies the First Epistle to the Thessalonians and labels the Geʽez text ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The exact print exemplar, current edition identity, accuracy, and completeness remain unverified. Its 12 unnumbered lines are retained without labels. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module 1TH has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-14",
@@ -976,11 +1275,18 @@
         "eotc-068"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-263",
+        "SRC-264",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 13 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names II Thessalonians. The pinned Beta maṣāḥǝft TEI identifies the Second Epistle to the Thessalonians and labels the Geʽez text ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The exact print exemplar, current edition identity, accuracy, and completeness remain unverified. Its 11 unnumbered lines are retained without labels. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module 2TH has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-15",
@@ -992,11 +1298,18 @@
         "eotc-069"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-265",
+        "SRC-266",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 13 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names I Timothy. The pinned Beta maṣāḥǝft TEI identifies the First Epistle to Timothy and labels the Geʽez text ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The exact print exemplar, current edition identity, accuracy, and completeness remain unverified. Its 20 unnumbered lines are retained without labels. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module 1TI has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-16",
@@ -1008,11 +1321,18 @@
         "eotc-070"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-267",
+        "SRC-268",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 13 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names II Timothy. The pinned Beta maṣāḥǝft TEI identifies the Second Epistle to Timothy and labels the Geʽez text ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The exact print exemplar, current edition identity, accuracy, and completeness remain unverified. Its 15 unnumbered lines are retained without labels. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module 2TI has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-17",
@@ -1024,11 +1344,18 @@
         "eotc-071"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-269",
+        "SRC-270",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 14 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Titus. The pinned Beta maṣāḥǝft TEI identifies the Epistle to Titus and labels the Geʽez text ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The exact print exemplar, current edition identity, accuracy, and completeness remain unverified. Its 6 unnumbered lines are retained without labels. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module TIT has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-18",
@@ -1040,11 +1367,13 @@
         "eotc-072"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No canon-linked reader. Fourteen separately scoped Philemon research readers are bundled across 13 language tags, including Baiso in Ethiopic and Latin scripts and an English WEBBE module. Their work/title links are candidate or reviewed title matches only; none is asserted to be an EOTC or Eritrean edition, and none counts as canon-linked reader coverage. Bundled research views: 14 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church's cited English list names Philemon at New Testament entry 18. Thirteen bundled research readers carry a Philemon title or the standard USFM module code PHM and are indexed as work/title candidates; Gamo is marked as a reviewed title match, while other edition links remain provisional. This does not establish EOTC or Eritrean affiliation, exact edition identity, translation ancestry, completeness, or accuracy. The providers' conventional Bible module sets are not treated as Church-canon equivalences. Standard module PHM has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents."
     },
     {
       "canon_id": "eotc-nt-19",
@@ -1056,11 +1385,18 @@
         "eotc-073"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-241",
+        "SRC-242",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 14 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Hebrews. The pinned Beta maṣāḥǝft TEI identifies an Epistle to the Hebrews and a Geʽez text division labeled ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The exact print exemplar, current EOTC edition identity, transcription accuracy, and completeness remain unverified. The 26 unnumbered TEI lines are retained without supplying labels. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module HEB has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-20",
@@ -1069,14 +1405,21 @@
       "display_name": "I Peter",
       "source_label": "I Peter",
       "catalogue_ids": [
-        "eotc-074"
+        "eotc-075"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-243",
+        "SRC-244",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 13 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names I Peter. The pinned Beta maṣāḥǝft TEI identifies the First Epistle of Peter and labels the Geʽez text ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The exact print exemplar, current edition identity, accuracy, and completeness remain unverified. Its 16 unnumbered lines are retained without labels. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module 1PE has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-21",
@@ -1085,14 +1428,21 @@
       "display_name": "II Peter",
       "source_label": "II Peter",
       "catalogue_ids": [
-        "eotc-075"
+        "eotc-076"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-245",
+        "SRC-246",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 13 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names II Peter. The pinned Beta maṣāḥǝft TEI identifies the Second Epistle of Peter and labels the Geʽez text ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The exact print exemplar, current edition identity, accuracy, and completeness remain unverified. Its 9 unnumbered lines are retained without labels. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module 2PE has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-22",
@@ -1101,14 +1451,21 @@
       "display_name": "I John",
       "source_label": "I John",
       "catalogue_ids": [
-        "eotc-076"
+        "eotc-077"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-247",
+        "SRC-248",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 13 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names I John. The pinned Beta maṣāḥǝft TEI identifies the First Epistle of John and labels the Geʽez text ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The exact print exemplar, current edition identity, accuracy, and completeness remain unverified. Its 16 unnumbered lines are retained without labels. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module 1JN has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-23",
@@ -1117,14 +1474,16 @@
       "display_name": "II John",
       "source_label": "II John",
       "catalogue_ids": [
-        "eotc-077"
+        "eotc-078"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed Bundled research views: 13 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church's cited English list names ‘II John’ at New Testament entry 23; this record preserves that printed label. No reader is bundled here, external availability has not been assessed, and no exact edition/work crosswalk is asserted. Standard module 2JN has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents."
     },
     {
       "canon_id": "eotc-nt-24",
@@ -1133,14 +1492,16 @@
       "display_name": "III John",
       "source_label": "III John",
       "catalogue_ids": [
-        "eotc-078"
+        "eotc-079"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed Bundled research views: 13 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church's cited English list names ‘III John’ at New Testament entry 24; this record preserves that printed label. No reader is bundled here, external availability has not been assessed, and no exact edition/work crosswalk is asserted. Standard module 3JN has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents."
     },
     {
       "canon_id": "eotc-nt-25",
@@ -1149,14 +1510,21 @@
       "display_name": "James",
       "source_label": "James",
       "catalogue_ids": [
-        "eotc-079"
+        "eotc-074"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-239",
+        "SRC-240",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 14 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names James. The pinned Beta maṣāḥǝft TEI identifies the Epistle of James and a Geʽez edition labeled ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. The exact print exemplar, current EOTC edition identity, transcription accuracy, and completeness remain unverified. The 18 unnumbered TEI lines are retained without supplying labels. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module JAS has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-26",
@@ -1168,11 +1536,13 @@
         "eotc-080"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed Bundled research views: 14 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church's cited English list names ‘Jude’ at New Testament entry 26; this record preserves that printed label. No reader is bundled here, external availability has not been assessed, and no exact edition/work crosswalk is asserted. Standard module JUD has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents."
     },
     {
       "canon_id": "eotc-nt-27",
@@ -1184,11 +1554,18 @@
         "eotc-081"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-176",
+        "SRC-231",
+        "SRC-232",
+        "SRC-296",
+        "SRC-297",
+        "SRC-384",
+        "SRC-396"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Not bundled: source text withheld pending rights clarification. Bundled research views: 14 separately scoped research readers across 13 language tags; these are standard-module work/title candidates, not verified Ethiopian or Eritrean Orthodox editions and not canon-linked coverage.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Revelation. The pinned Beta maṣāḥǝft TEI contains a 22-chapter Geʽez text division labeled ‘Text of the EOTC printed Bible’; this supports a provisional title-level link only. Its exact printed exemplar, identity with a current EOTC edition, accuracy, and physical-edition completeness remain unverified. Chapter 2 repeats source label 26; all source labels are preserved. Source text is withheld pending rights clarification; see SRC-296–SRC-297. Standard module REV has source-backed research readers. Their title-level candidate links are separate from identification of the Church-list edition, its textual ancestry, or its complete contents. Source text is withheld pending rights clarification; see SRC-296–SRC-297."
     },
     {
       "canon_id": "eotc-nt-28",
@@ -1200,11 +1577,15 @@
         "eotc-082"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-073",
+        "SRC-210",
+        "SRC-211",
+        "SRC-289"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Sirate Tsion; Cowley/Lexham report Ser’atä Seyon as a 30-canon title and suggest it may relate to Canons after the Ascension. Beta maṣāḥǝft records a Geʽez 29-canon witness of Canons after the Ascension (CAe 2673) in BL Oriental 794. Lexham explicitly says the relation is unclear; the 29/30 count and title discrepancy are unresolved. Candidate lead only, not a verified crosswalk or complete text."
     },
     {
       "canon_id": "eotc-nt-29",
@@ -1216,11 +1597,18 @@
         "eotc-083"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-073",
+        "SRC-210",
+        "SRC-211",
+        "SRC-213",
+        "SRC-368",
+        "SRC-441"
       ],
-      "reader_status": "No text bundled",
+      "mapping_state": "uncertain",
+      "reader_status": "No reader bundled. Cowley and Mikre-Sellassie link Te'ezaz to Horner 1904, and TAU labels its page images Te'ezaz; exact reconciliation with the Church-list gloss, manuscript boundaries, completeness, and rights remains unresolved.",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Tizaz (Book of Herald). Cowley reports Te'ezaz as a Sinodos section of 71 or 72 canons and says it was printed in Horner 1904; Mikre-Sellassie reports 71 and cites Horner. TAU identifies its images as the Te'ezaz section following Horner. These sources support a strong provisional title/edition association, but the differing gloss/spelling, manuscript variation, and 71/72 count are not reconciled against a Church text witness. Horner's associated English translation is a separate unbundled witness, not a verified complete reader. No text or images are bundled; completeness, accuracy, and reuse rights are unverified."
     },
     {
       "canon_id": "eotc-nt-30",
@@ -1232,11 +1620,18 @@
         "eotc-084"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-073",
+        "SRC-101",
+        "SRC-210",
+        "SRC-211",
+        "SRC-214",
+        "SRC-284",
+        "SRC-433"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "Historical Ge’ez/Latin and English facsimiles plus a raw English text-layer extraction are bundled; partial proofread material covers Canons I–LVII except Canon XX, with Canon XX visibly incomplete; no complete reader is bundled",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "A local visual audit inventories Schodde's 57 printed headings I–LVII and their page locations. A separate partial transcript of the opening formula and Canons I–LVII is checked against the scan, with Canon XX explicitly incomplete; the article introduction and footnotes remain unreviewed. Mikre-Sellassie (1993) reports Gessew as a 56-canon Sinodos division and cites Fell 1871 for its printed text; Cowley (1974) reports 56/57 and says Schodde translated the Ethiopic form using Fell. Schodde’s article itself uses headings through LVII. Together these sources support an attributed historical edition-family link to the Church-list Gitsew title, not identity with a current local edition. Source scans are available offline, but a raw PDF text-layer extraction is available separately for research. Structured transcription, text collation, and manuscript completeness remain unverified."
     },
     {
       "canon_id": "eotc-nt-31",
@@ -1248,11 +1643,15 @@
         "eotc-085"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-073",
+        "SRC-210",
+        "SRC-211",
+        "SRC-285"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Abtilis. Beta maṣāḥǝft catalogs Apostolic canons Abṭelisāt (81), CAe 2677; one manuscript record labels an 81-canon first recension while another witness records an 80-canon second recension. The same catalogue distinguishes the separately recorded Apostolic canons (56), CAe 2670. This is a title/work-family discovery lead, not an exact Church-list crosswalk or a single stable text. No text is bundled; completeness and reuse rights are unverified."
     },
     {
       "canon_id": "eotc-nt-32",
@@ -1264,11 +1663,16 @@
         "eotc-086"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-073",
+        "SRC-211",
+        "SRC-286",
+        "SRC-287",
+        "SRC-288"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names I Book of Dominos; the Ethiopian Orthodox Bible Project glosses it as Book of the Covenant I and describes its edition of First Dominos. Beta maṣāḥǝft catalogs the Geʽez Testamentum Domini (CAe 2461), a plausible work-family candidate. The exact Church-list-to-work and edition crosswalk remains uncertain; no text is bundled."
     },
     {
       "canon_id": "eotc-nt-33",
@@ -1280,11 +1684,16 @@
         "eotc-087"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-073",
+        "SRC-211",
+        "SRC-286",
+        "SRC-287",
+        "SRC-288"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No reader bundled here; external availability not assessed",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names II Book of Dominos; the Ethiopian Orthodox Bible Project glosses it as Book of the Covenant II and describes its edition of Second Dominos. Beta maṣāḥǝft catalogs the separate composite Geʽez Testamentum Domini in Galilea (CAe 2462), a plausible work-family candidate. The exact Church-list-to-work and edition crosswalk remains uncertain; no text is bundled."
     },
     {
       "canon_id": "eotc-nt-34",
@@ -1296,11 +1705,18 @@
         "eotc-088"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-073",
+        "SRC-207",
+        "SRC-381",
+        "SRC-382",
+        "SRC-383",
+        "SRC-424"
       ],
-      "reader_status": "No text bundled",
+      "mapping_state": "uncertain",
+      "reader_status": "No canon-linked reader bundled. Bausi reports complementary French/Italian translations of the Ethiopic Maṣḥafa Qalemǝnṭos, with partial coverage (French books I–II and part of III plus excerpts elsewhere; Italian books III–VII); those texts are bibliographic reports, not files audited here (SRC-207). A 2024 English print-edition lead titled The Book of Clement from the Ethiopian Bible is identified, and the publisher describes a separate forthcoming revised reader edition as partial. The French, Italian, 2024 English, and announced revised editions are not merged. Their exact identity with the Church-list entry, edition text, source witness, boundaries, completeness, translation method, and accuracy have not been reviewed. A pinned Beta maṣāḥǝft CAe 1957 TEI work record contains title metadata and short Geʽez incipits, not a complete reader text; its Church-list crosswalk is related-work evidence only and reuse terms remain mixed (SRC-424).",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "Bausi (2024) identifies the Ethiopic Maṣḥafa Qalemǝnṭos (Book of Clement; CAe 1957) and distinguishes it from the Ethiopic Apocalypse of Peter and from a separate count of three Epistles of Clement. The name overlap makes it a plausible candidate for this English Church-list label, but the Church page gives no Geʽez title and Bausi does not establish this exact list crosswalk. No reader is bundled. A 2024 English print listing titled The Book of Clement from the Ethiopian Bible is a discovery lead (SRC-381). Its bibliographic title and a secondary project’s description as an Ethiopic English version do not independently establish that it translates Bausi’s Maṣḥafa Qalemǝnṭos (CAe 1957) or the exact work intended by this Church-list label. No text is bundled. Fifth Estate separately describes a forthcoming revised reader edition with partial scope (SRC-383); this publisher statement concerns that announced revision and must not be transferred to the distinct 2024 print edition. Publication of the revised edition is unconfirmed. Beta maṣāḥǝft's pinned CAe 1957 TEI record labels Maṣḥafa Qalemǝnṭos / Book of Clement and contains short Geʽez incipits, but no complete reader text. This supports a related-work discovery lead only; it does not establish the exact Church-list crosswalk. Reuse terms conflict across the file and project-level notices (SRC-424, SRC-296, SRC-297)."
     },
     {
       "canon_id": "eotc-nt-35",
@@ -1312,11 +1728,23 @@
         "eotc-089"
       ],
       "source_ids": [
-        "SRC-029"
+        "SRC-029",
+        "SRC-073",
+        "SRC-086",
+        "SRC-100",
+        "SRC-345",
+        "SRC-346",
+        "SRC-358",
+        "SRC-359",
+        "SRC-360",
+        "SRC-376",
+        "SRC-377",
+        "SRC-423",
+        "SRC-429"
       ],
-      "reader_status": "No text bundled",
+      "reader_status": "No verified reader bundled; raw OCR from Platt 1834 and Harden 1920 is stored for research, but text accuracy, boundaries, and exact Church-list identity remain unverified",
       "reader_id": null,
-      "mapping_note": ""
+      "mapping_note": "The Church list names Didascalia and Asale discusses it among broader-list additions. Platt 1834 and Harden 1920 are title-level candidate editions; their boundaries and relationship to the listed work have not been established. Gebru (2012, p. 29) describes a 43-chapter Ethiopic work with material beyond the Syriac Didascalia and reports Platt's English as partial (first 23 chapters); the report's textual-history interpretation and chapter numbering have not been checked against the witnesses. No verified reader text is bundled."
     }
   ]
 }

@@ -1,0 +1,16 @@
+# Geʽez morphology resources: provenance, scope, and reuse limits
+
+Reviewed 2026-10-26 for the Genesis 1 first-/third-person lens work.
+
+## Findings
+
+| Resource | What its record establishes | What it does not establish | Rights / archive decision |
+|---|---|---|---|
+| Elleni Aschalew Zeleke, *A Finite-State Morphological Analyzer for Geʽez Verbs* (UNISA dissertation, Jan. 2023; [repository record](https://ir.unisa.ac.za/handle/10500/30754), [PDF](https://ir.unisa.ac.za/bitstream/handle/10500/30754/dissertation_zeleke_ea.pdf?isAllowed=y&sequence=1)) — [SRC-356](../index.html#source-src-356) | The abstract reports an analyzer evaluated against manually annotated verbs from Matthew, Luke, Mark, John, and a prayer book; author-reported accuracy is 97.29% and precision is 80.24%. The dissertation describes subject markers as prefixes, suffixes, or circumfixes depending on tense/mood. | It does not report Genesis as part of its evaluation corpus. The reported metrics are not independently reproduced here. The dissertation record does not establish the exact analyzer source code as reusable or licensed for redistribution. | UNISA states repository items are all rights reserved unless otherwise indicated and may be used for private research and study. No text, code, model, or annotation was imported. The thesis is a method lead, not an open tool grant.
+| MoVoC, *Morpheme-annotated datasets for Geʽez-script languages* — [repository](https://github.com/hailaykidu/MoVoC), [data README](https://github.com/hailaykidu/MoVoC/blob/main/data/README.md), [LICENSE](https://github.com/hailaykidu/MoVoC/blob/main/LICENSE) — [SRC-357](../index.html#source-src-357) | The data README lists 193 manually segmented Geʽez word records, 173 with multiple morphemes. It says the Geʽez and Tigre sets are reserved for evaluation; the documented annotation fields are morpheme slots such as prefix, root, and suffix. | The segmentation records do not themselves provide complete person, number, mood, speaker, or clause analyses. The data README has no separate license statement for the annotations. | The repository's MIT license covers “Software”; it is not treated here as a license for the separate annotation dataset or the underlying language text. No annotation data was copied or redistributed.
+
+## Consequence for the Genesis count
+
+Geʽez Genesis 1 can be counted lexically for the exact stored form `እግዚአብሔር`; that count is recorded in the [Genesis 1 lens note](genesis-1-divine-person-lens.md). A first-person count cannot be produced by searching for independent pronouns alone: finite verbs carry person marking, and the form of that marking depends on tense/mood. The discovered analyzer's stated evaluation corpus excludes Genesis, while the 193-entry MoVoC segmentation set is evaluation-only and has no separately stated data license. Therefore the archive does not infer person labels from either tool or publish a Geʽez first-person total yet.
+
+The next evidence needed is a reusable, Genesis-covering morphological analysis and an independently reviewed method for assigning speaker spans in this edition. Until then, the Geʽez person count remains **unassessed**, not zero. The English companion's three first-person tokens remain an English-only result.

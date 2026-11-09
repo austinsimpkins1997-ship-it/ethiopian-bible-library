@@ -96,7 +96,21 @@
       }
     },
     "research_corpus_record": { "type": ["object", "null"] },
-    "canon_mapping": { "type": ["object", "null"] },
+    "canon_mapping": {
+      "type": ["object", "null"],
+      "required": ["state", "note"],
+      "properties": {
+        "canon_id": { "type": "string", "minLength": 1 },
+        "candidate_canon_id": { "type": ["string", "null"] },
+        "state": { "enum": ["registry_link", "asserted_by_source", "uncertain", "related_work", "not_mapped", "unknown"] },
+        "note": { "type": "string", "minLength": 1 }
+      },
+      "allOf": [
+        { "if": { "properties": { "state": { "const": "registry_link" } }, "required": ["state"] }, "then": { "required": ["canon_id"] } },
+        { "if": { "properties": { "state": { "enum": ["asserted_by_source", "uncertain", "related_work", "not_mapped", "unknown"] } }, "required": ["state"] }, "then": { "required": ["candidate_canon_id"] } }
+      ],
+      "additionalProperties": false
+    },
     "canon_entry": { "type": ["object", "null"] },
     "source_ids": {
       "type": "array",
@@ -128,4 +142,3 @@
   },
   "additionalProperties": false
 }
-

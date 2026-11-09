@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/schemas/archive-graph.schema.json",
+  "title": "Portable normalized scripture archive graph",
+  "description": "Draft normalized interchange graph. Schema validation checks shape only; referential, historical, textual, rights, and translation claims require separate evidence review.",
+  "type": "object",
+  "required": ["schema_version", "package_id", "scope_state", "scope_note", "traditions", "canons", "works", "witnesses", "layers", "structures", "alignments", "citations", "rights", "review_events"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "package_id": { "$ref": "#/$defs/id" },
+    "scope_state": { "enum": ["illustrative_subset", "bounded_collection", "complete_for_declared_scope", "unknown"] },
+    "scope_note": { "type": "string", "minLength": 1 },
+    "traditions": { "type": "array", "items": { "$ref": "#/$defs/tradition" } },
+    "canons": { "type": "array", "items": { "$ref": "#/$defs/canon" } },
+    "works": { "type": "array", "items": { "$ref": "#/$defs/work" } },
+    "witnesses": { "type": "array", "items": { "$ref": "#/$defs/witness" } },
+    "layers": { "type": "array", "items": { "$ref": "#/$defs/layer" } },
+    "structures": { "type": "array", "items": { "$ref": "#/$defs/structure" } },
+    "alignments": { "type": "array", "items": { "$ref": "#/$defs/alignment" } },
+    "citations": { "type": "array", "items": { "$ref": "#/$defs/citation" } },
+    "rights": { "type": "array", "items": { "$ref": "#/$defs/rights" } },
+    "review_events": { "type": "array", "items": { "$ref": "#/$defs/reviewEvent" } }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "id": { "type": "string", "format": "uri", "pattern": "^https://[^/]+/.+/id/[^#?]+$", "minLength": 1 },
+    "sourceIds": { "type": "array", "items": { "type": "string", "pattern": "^SRC-[0-9]{3}$" }, "minItems": 1, "uniqueItems": true },
+    "title": { "type": "object", "required": ["value", "language_tag"], "properties": { "value": { "type": "string", "minLength": 1 }, "language_tag": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" }, "title_type": { "enum": ["preferred", "alternate", "original_form", "transliterated", "community_name"] } }, "additionalProperties": false },
+    "tradition": {
+      "type": "object", "required": ["id", "labels", "source_ids"],
+      "properties": { "id": { "$ref": "#/$defs/id" }, "labels": { "type": "array", "items": { "$ref": "#/$defs/title" }, "minItems": 1 }, "source_ids": { "$ref": "#/$defs/sourceIds" }, "notes": { "type": "string" } },
+      "additionalProperties": false
+    },
+    "mappingAssertion": {
+      "type": "object", "required": ["work_id", "state", "evidence_source_ids", "notes"],
+      "properties": { "work_id": { "$ref": "#/$defs/id" }, "state": { "enum": ["asserted_by_source", "reviewed_match", "related_work", "uncertain", "not_mapped"] }, "evidence_source_ids": { "$ref": "#/$defs/sourceIds" }, "notes": { "type": "string", "minLength": 1 } },
+      "additionalProperties": false
+    },
+    "canonEntry": {
+      "type": "object", "required": ["id", "ordinal", "source_label", "work_assertions", "evidence_source_ids"],
+      "properties": { "id": { "$ref": "#/$defs/id" }, "ordinal": { "type": "integer", "minimum": 1 }, "source_label": { "type": "string", "minLength": 1 }, "group_label": { "type": ["string", "null"] }, "work_assertions": { "type": "array", "items": { "$ref": "#/$defs/mappingAssertion" } }, "evidence_source_ids": { "$ref": "#/$defs/sourceIds" } },
+      "additionalProperties": false
+    },
+    "canon": {
+      "type": "object", "required": ["id", "tradition_id", "title", "entries_scope", "entries", "source_ids"],
+      "properties": { "id": { "$ref": "#/$defs/id" }, "tradition_id": { "$ref": "#/$defs/id" }, "title": { "$ref": "#/$defs/title" }, "entries_scope": { "enum": ["full_list", "partial_sample", "unknown"] }, "entries": { "type": "array", "items": { "$ref": "#/$defs/canonEntry" } }, "source_ids": { "$ref": "#/$defs/sourceIds" }, "scope_note": { "type": "string", "minLength": 1 } },
+      "additionalProperties": false
+    },
+    "work": {
+      "type": "object", "required": ["id", "titles", "work_type", "source_ids"],
+      "properties": { "id": { "$ref": "#/$defs/id" }, "titles": { "type": "array", "items": { "$ref": "#/$defs/title" }, "minItems": 1 }, "work_type": { "enum": ["scriptural_work", "literary_work", "liturgical_work", "commentary", "unknown"] }, "source_ids": { "$ref": "#/$defs/sourceIds" }, "related_work_ids": { "type": "array", "items": { "$ref": "#/$defs/id" }, "uniqueItems": true }, "notes": { "type": "string" } },
+      "additionalProperties": false
+    },
+    "witness": {
+      "type": "object", "required": ["id", "work_id", "witness_type", "title", "source_ids"],
+      "properties": { "id": { "$ref": "#/$defs/id" }, "work_id": { "$ref": "#/$defs/id" }, "witness_type": { "enum": ["manuscript", "printed_edition", "digital_edition", "transcription", "composite", "unknown"] }, "title": { "type": "string", "minLength": 1 }, "date_statement": { "type": ["string", "null"] }, "repository_or_publisher": { "type": ["string", "null"] }, "identifier": { "type": ["string", "null"] }, "editorial_policy": { "type": ["string", "null"] }, "source_ids": { "$ref": "#/$defs/sourceIds" } },
+      "additionalProperties": false
+    },
+    "contentPackage": {
+      "type": "object", "required": ["uri", "media_type", "sha256"],
+      "properties": { "uri": { "type": "string", "minLength": 1 }, "media_type": { "type": "string", "pattern": "^[A-Za-z0-9!#$&^_.+-]+/[A-Za-z0-9!#$&^_.+-]+$" }, "sha256": { "type": "string", "pattern": "^[a-fA-F0-9]{64}$" }, "json_pointer": { "type": "string" } },
+      "additionalProperties": false
+    },
+    "layer": {
+      "type": "object", "required": ["id", "witness_id", "layer_type", "text_origin", "language_tag", "script_code", "basis_path", "content_package", "rights_id", "structure_id", "review_event_ids", "source_ids", "community_access"],
+      "properties": { "id": { "$ref": "#/$defs/id" }, "witness_id": { "$ref": "#/$defs/id" }, "layer_type": { "enum": ["diplomatic_transcription", "source_text_transcription", "normalized_text", "transliteration", "translation", "paraphrase", "commentary", "other"] }, "text_origin": { "enum": ["source_transcription", "published_translation", "machine_generated_draft", "human_composition", "unknown"] }, "language_tag": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" }, "language_name_as_recorded": { "type": ["string", "null"] }, "script_code": { "type": "string", "pattern": "^[A-Z][a-z]{3}$" }, "basis_path": { "type": ["array", "null"], "items": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" } }, "content_package": { "$ref": "#/$defs/contentPackage" }, "rights_id": { "$ref": "#/$defs/id" }, "structure_id": { "$ref": "#/$defs/id" }, "review_event_ids": { "type": "array", "items": { "$ref": "#/$defs/id" }, "uniqueItems": true }, "source_ids": { "$ref": "#/$defs/sourceIds" }, "agents": { "type": "array", "items": { "type": "object", "required": ["role", "name", "source_ids"], "properties": { "role": { "enum": ["author", "translator", "editor", "transcriber", "digitizer", "reviewer", "publisher", "community_steward", "software"] }, "name": { "type": "string", "minLength": 1 }, "source_ids": { "$ref": "#/$defs/sourceIds" } }, "additionalProperties": false } }, "community_access": { "type": "object", "required": ["state", "statement", "evidence_source_ids"], "properties": { "state": { "enum": ["not_assessed", "review_pending", "open_access_confirmed", "conditions_documented", "restricted"] }, "statement": { "type": "string", "minLength": 1 }, "evidence_source_ids": { "type": "array", "items": { "type": "string", "pattern": "^SRC-[0-9]{3}$" }, "uniqueItems": true } }, "additionalProperties": false }, "publication_state": { "enum": ["metadata_only", "bundled", "withdrawn"] }, "notes": { "type": "string" } },
+      "additionalProperties": false
+    },
+    "structure": {
+      "type": "object", "required": ["id", "layer_id", "unit_label", "unit_count", "extent_state", "extent_basis", "numbering_policy", "source_ids"],
+      "properties": { "id": { "$ref": "#/$defs/id" }, "layer_id": { "$ref": "#/$defs/id" }, "unit_label": { "type": "string", "minLength": 1 }, "unit_count": { "type": ["integer", "null"], "minimum": 0 }, "extent_state": { "enum": ["complete_for_declared_edition", "partial", "unknown"] }, "extent_basis": { "enum": ["edition_contents_statement", "source_inventory", "independent_collation", "unknown"] }, "observed_chapter_count": { "type": ["integer", "null"], "minimum": 0 }, "missing_or_lacunose_ranges": { "type": "array", "items": { "type": "string" } }, "numbering_policy": { "type": "string", "minLength": 1 }, "source_ids": { "$ref": "#/$defs/sourceIds" } },
+      "additionalProperties": false
+    },
+    "alignmentAssertion": {
+      "type": "object", "required": ["source_labels", "target_labels", "state", "evidence_source_ids", "notes"],
+      "properties": { "source_labels": { "type": "array", "items": { "type": "string" }, "minItems": 1 }, "target_labels": { "type": "array", "items": { "type": "string" }, "minItems": 1 }, "state": { "enum": ["reviewed_equivalent", "approximate", "disputed", "navigation_only", "unknown"] }, "evidence_source_ids": { "$ref": "#/$defs/sourceIds" }, "notes": { "type": "string", "minLength": 1 } },
+      "additionalProperties": false
+    },
+    "alignment": {
+      "type": "object", "required": ["id", "source_layer_id", "target_layer_id", "method", "assertions", "source_ids"],
+      "properties": { "id": { "$ref": "#/$defs/id" }, "source_layer_id": { "$ref": "#/$defs/id" }, "target_layer_id": { "$ref": "#/$defs/id" }, "method": { "enum": ["human_review", "scholarly_edition", "source_defined", "label_match_only", "automated_candidate", "unknown"] }, "assertions": { "type": "array", "items": { "$ref": "#/$defs/alignmentAssertion" } }, "source_ids": { "$ref": "#/$defs/sourceIds" }, "notes": { "type": "string" } },
+      "additionalProperties": false
+    },
+    "citation": {
+      "type": "object", "required": ["id", "source_id", "supports_claim", "checked_at"],
+      "properties": { "id": { "$ref": "#/$defs/id" }, "source_id": { "type": "string", "pattern": "^SRC-[0-9]{3}$" }, "supports_claim": { "type": "string", "minLength": 1 }, "locator": { "type": ["string", "null"] }, "checked_at": { "type": ["string", "null"], "format": "date" } },
+      "additionalProperties": false
+    },
+    "rights": {
+      "type": "object", "required": ["id", "layer_id", "status", "statement", "attribution_required", "evidence_source_ids"],
+      "properties": { "id": { "$ref": "#/$defs/id" }, "layer_id": { "$ref": "#/$defs/id" }, "status": { "enum": ["public_domain_claimed", "open_license", "permission_limited", "all_rights_reserved", "unknown", "mixed"] }, "statement": { "type": "string", "minLength": 1 }, "rights_holder": { "type": ["string", "null"] }, "license_id": { "type": ["string", "null"] }, "attribution_required": { "type": "boolean" }, "territory_or_term_limits": { "type": ["string", "null"] }, "distribution_decision": { "enum": ["include_text", "metadata_only", "exclude", "pending"] }, "evidence_source_ids": { "$ref": "#/$defs/sourceIds" } },
+      "additionalProperties": false
+    },
+    "reviewEvent": {
+      "type": "object", "required": ["id", "layer_id", "dimension", "state", "scope", "method", "reviewer", "reviewed_at", "evidence_source_ids"],
+      "properties": { "id": { "$ref": "#/$defs/id" }, "layer_id": { "$ref": "#/$defs/id" }, "dimension": { "enum": ["identity", "transcription_accuracy", "translation_accuracy", "chapter_or_section_sequence", "unit_boundaries", "completeness", "alignment", "rights", "language_identification", "community_review", "other"] }, "state": { "enum": ["not_checked", "in_progress", "checked_with_limits", "reviewed", "disputed", "unknown"] }, "scope": { "type": "string", "minLength": 1 }, "method": { "enum": ["automated_validation", "source_inspection", "human_review", "scholarly_review", "community_review", "combined_source_and_automated_validation", "unknown"] }, "reviewer": { "type": ["string", "null"] }, "reviewed_at": { "type": ["string", "null"], "format": "date" }, "process": { "type": ["string", "null"] }, "evidence_source_ids": { "type": "array", "items": { "type": "string", "pattern": "^SRC-[0-9]{3}$" }, "uniqueItems": true }, "notes": { "type": "string" } },
+      "additionalProperties": false
+    }
+  }
+}

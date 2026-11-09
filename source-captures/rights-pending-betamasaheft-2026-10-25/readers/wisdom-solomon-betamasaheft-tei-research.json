@@ -1,0 +1,2986 @@
+{
+  "reader_id": "wisdom-solomon-betamasaheft-tei-research",
+  "research_corpus_id": "betamasaheft-wisdom-solomon-ed2-research",
+  "reader_scope": "research_witness_unmapped",
+  "title": "Wisdom of Solomon — Beta maṣāḥǝft LIT2516Wisdom TEI edition 2 (Geʽez research text)",
+  "display_name": "Wisdom of Solomon (Geʽez TEI ed2; research witness)",
+  "text_origin": "source_transcription",
+  "language": "Geʽez (Classical Ethiopic)",
+  "language_tag": "gez",
+  "language_assignment_status": "explicit_on_edition2_div; root_default_en_retained_as_context",
+  "script_code": "Ethi",
+  "edition": "Beta maṣāḥǝft LIT2516Wisdom, edition ed2; source snapshot pinned to 7c13d460bef940950b9405320acc34b9d23a2d92",
+  "edition_scope": "The TEI identifies the work as Wisdom of Solomon and edition ed2 as text of the EOTC printed Bible, digitized from modern Vulgata printed editions. The physical print exemplar and date are not identified. The enclosing ed2 div explicitly declares xml:lang=gez; the TEI root's xml:lang=en is preserved as a document default and is not applied over the more local edition declaration. The separate Dillmann-derived ed1 is excluded. The source's EOTC label does not establish an exact current edition or its identity with the Church list's grouped ‘Metsihafe Tibeb (books of wisdom)’ entry.",
+  "rights_classification": "open_license",
+  "copyright_notice": "The TEI file states CC BY-SA 4.0 and separately gives edition 1 noncommercial terms. This reader extracts only edition 2; it is an adaptation that flattens inline TEI markup, normalizes whitespace, and converts the chapter/line structure to JSON. Attribute Beta maṣāḥǝft and cite LIT2516Wisdom ed2, indicate these changes, link the license, and distribute this adaptation under CC BY-SA 4.0. The source file and its license do not relicense unrelated website content. The exact legal scope for the underlying printed exemplar has not been independently determined.",
+  "commercial_use": "The selected ed2 text is included under the TEI file's CC BY-SA 4.0 notice, with attribution, change notice, and share-alike conditions. The distinct ed1 noncommercial text is excluded. This statement is limited to this source-derived research reader, not the whole site or any unidentified print exemplar.",
+  "license_id": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "chapter_count": 19,
+  "unit_count": 463,
+  "unit_label": "TEI line",
+  "section_label": "Chapter",
+  "chapter_structure_note": "The pinned ed2 contains 19 ordered divisions labeled 1–19 and 463 nonempty <l> elements. Each chapter's source line labels run sequentially from 1 through that chapter's final label. The reader retains each source label and an independent navigation order; these are TEI line elements, not a claim about verse numbering or printed-edition completeness.",
+  "transcription_note": "Text is extracted only from the pinned TEI ed2, in source chapter and line order. Inline markup is flattened and whitespace normalized for display; the ed2-only TEI extract remains alongside the reader so retained markup and witness references can be inspected. The full upstream file is not bundled because it also contains ed1 text with separate noncommercial/no-sale terms. This is not an independent collation against print or manuscripts.",
+  "editorial_signs_note": "The source's edition-level note says ‘Text of the EOTC printed Bible’; this is the record's identification, not independent confirmation of a specific edition. The TEI lists witnesses BLadd16186#ms_i4, BLadd16189#ms_i4, and BNFet8#ms_i4. The reader does not identify these as the physical exemplar of ed2. TEI edition note(s): Text of the EOTC printed Bible",
+  "verification_status": "Research-only Geʽez text extracted from the pinned LIT2516Wisdom TEI ed2. Automated checks confirm the source checksum, explicit ed2 xml:lang=gez scope, 19 sequential chapter divisions, and all 463 nonempty line elements with sequential source labels; every extracted line matches one source element in order. These checks establish structural extraction from this TEI snapshot only. Completeness against the stated printed edition, transcription accuracy, exact print exemplar, relationship to the grouped EOTC catalogue entry, and manuscript collation remain unknown. Not a canon-linked reader and not counted as an EOTC canon reader or toward EOTC book coverage.",
+  "source_ids": [
+    "SRC-177"
+  ],
+  "source_pages": "readers/source/wisdom-of-solomon-LIT2516Wisdom-ed2-only.xml (rights-scoped TEI extract; ed1 excluded)",
+  "source_snapshot_commit": "7c13d460bef940950b9405320acc34b9d23a2d92",
+  "source_snapshot_url": "https://raw.githubusercontent.com/BetaMasaheft/Works/7c13d460bef940950b9405320acc34b9d23a2d92/2001-3000/LIT2516Wisdom.xml",
+  "source_snapshot_sha256": "c2e15da4893ba597bbf6afee3fb5ddbeac44c02a317a0b4384b4c2624cea5747",
+  "source_extract_sha256": "1fb77c264b07f5113b84a207eea4e1a2aedc9bf55bfeb3ee9631f44369019b93",
+  "chapters": [
+    {
+      "chapter": 1,
+      "source_chapter_label": "1",
+      "heading": [
+        "Chapter 1"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "አፍቅርዋ፡ ለጥበብ፡ አመኳንንተ፡ ምድር፡ ወሐልዩ፡ ኃይለ፡ እግዚአብሔር፡ በአእምሮ፡ ሠናይ፡ ወበስፉሕ፡ ልብ፡ ኅሥዎ።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "እስመ፡ ውእቱ፡ ይረትከብ፡ በኀበ፡ እለ፡ ኢያሜክርዎ፡ ወያስተርኢ፡ በኀበ፡ እለ፡ ኢይክሕድዎ።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "እስመ፡ ጠዋይ፡ ሕሊና፡ ያርኅቅ፡ እምእግዚአብሔር፡ ኃይል፡ ፍትንት፡ ትዘልፎሙ፡ ለዓብዳን።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "እስመ፡ ውእተ፡ ምይንት፡ ነፍስ፡ ኢትበውእ፡ ጥበብ፡ ወኢተኃድር፡ ውስተ፡ ሥጋ፡ ዘቅኑይ፡ ለኃጢአት።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "እስመ፡ መንፈሰ፡ ተግሣፅ፡ ቅዱስ፡ ያጐይይ፡ ትምህርተ፡ ዘእኩይ፡ ወይትነሣእ፡ በመዊዕ፡ እምሕሊናሆሙ፡ ለዐብዳን፡ ወይዘልፍ፡ እኩየ፡ ሶበ፡ ይመጽእ።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "እስመ፡ መፍቀሬ፡ ሰብእ፡ መንፈሰ፡ ጥበብ፡ ወኢያነጽሕ፡ ዐራፌ፡ እምከናፍሪሁ፡ እስመ፡ እግዚአብሔር፡ ስምዕ፡ ላዕለ፡ ኵልያቲሁ፡ ወሐዋፂ፡ ህልው፡ ይሔውጽ፡ ልቦ፡ ወልሳኖ፡ ሰማዒ።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "እስመ፡ መንፈስ፡ እግዚአብሔር፡ መልአ፡ ዓለመ፡ ወዘይእኅዝ፡ ኵሎ፡ ዓለም፡ ያገምር፡ አእምሮ፡ ቃሎሙ።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "ወበእንተዝ፡ ዝንቱ፡ ኢይትኀባእ፡ እምኔሁ፡ ወኢምንትኒ፡ እምዘ፡ ይትነገር፡ ቃለ፡ ዓመፃ።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "እስመ፡ ኢይትዓደዎ፡ ኵነኔሁ፡ በከሢተ፡ ግብሩ፡ እስመ፡ ለረሲዓን፡ የሐትቶሙ፡ በምክረ፡ ሐሊናሆሙ፡ ድምፀ፡ ንባቦሙ፡ ይበጽሕ፡ ኀበ፡ እግዚአብሔር፡ ለዝልፈተ፡ አበሳሆሙ።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "እስመ፡ አኮ፡ እንበይነ፡ ቅንአት፡ ዘይሰምዕ፡ ኵሎ፡ ግብረ፡ ወድምፀ፡ ነጐርጓር፡ ኢትኀባእ፡ እምኔሁ።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "ተዓቀቡኬ፡ እምነጐርጓር፡ ዘኢይበቊዕ፡ ወእምኀሜት፡ ባልሑ፡ ልሳነክሙ፡ እስመ፡ ነገር፡ ዘበጽሚት፡ በከ፡ ኢይመጽእ፡ ወአፍ፡ ዘይጤቅል፡ ወይሔሱ፡ ይቀትል፡ ነፍሰ።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "ባልሑ፡ ልሳነክሙ፡ ወኢትቅንኡ፡ ለመዊት፡ በስሕተተ፡ ሕይወትክሙ፡ ወኢትንሥኡ፡ ሥራዌ፡ በግብረ፡ እደዊክሙ።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "እስመ፡ እግዚአብሔር፡ ኢገብረ፡ ሞተ፡ ወኢያስተዔድሞ፡ ሐጒሎሙ፡ ለሕያዋን፡ እስመ፡ ፈጠረ፡ ፍጥረተ፡ ይኩን፡ ህልወ፡ ወልደተ፡ ዓለም፡ ለድኂን።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "ወአልቦ፡ እምውስቴቶሙ፡ ኅምዘ፡ ሥራይ፡ ዘአማስኖ፡ ወለሲኦልኒ፡ አልቦቱ፡ መንግሥት፡ በዲበ፡ ምድር፡ እስመ፡ ጽድቅ፡ ኢመዋቲት፡ ይእቲ።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "ወረሲዓንሰ፡ በእደዊሆሙ፡ ወበቃሎሙ፡ ጸውዕዎ፡ ወዓርከ፡ አምሰልዎ፡ ወተመስዉ፡ ቦቱ።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "ወኪዳነ፡ ተካየዱ፡ ምስሌሁ፡ እስመ፡ ይደልዎሙ፡ መክፈልተ፡ ዚአሁ፡ ከዊን።"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "source_chapter_label": "2",
+      "heading": [
+        "Chapter 2"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "ይቤሉ፡ በርእሶሙ፡ ኢሐሊዮሙ፡ ርትዐ፡ እስመ፡ ኅዳጥ፡ ውእቱ፡ ንብረትነ፡ ወማኅዘን።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "ወአልቦ፡ ፈውስ፡ ለሞተ፡ ብእሲ፡ ወአልቦ፡ ዘተአምረ፡ ዘገብአ፡ እምሲኦል፡ እስመ፡ በከ፡ ለሊነ፡ ተፈጠርነ፡ ወእምድኅረዝ፡ ንከውን፡ ከመ፡ ዘኢተፈጠርነ።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "እስመ፡ ከመ፡ ጢስ፡ እስትንፋስ፡ ዘውስተ፡ አንፍነ፡ ወከመ፡ ቃለ፡ ቀለምጺጽ፡ በሑሰተ፡ ልብነ።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "ወእምከመ፡ ጠፍአ፡ ሐመደ፡ ይከውን፡ ሥጋነ፡ ወመንፈስነሂ፡ ይትከዓው፡ ከመ፡ ሳሕወ፡ ደመና፡ ወስምነሂ፡ ይትረሳዕ፡ በመዋዕል፡ ወአልቦ፡ መኑሂ፡ ዘይዜክር፡ ምግባራቲነ።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "ወየኀልፍ፡ ንብረትነ፡ ከመ፡ አሠረ፡ ኅልፈተ፡ ደመና፡ ወከመ፡ ጊሜ፡ ዘይትፈረዘዝ፡ ወከመ፡ አስሐትያ፡ ቀጢን፡ እንተ፡ ተሰደ፡ በእግረ፡ አሜር፡ እምላህቡ፡ እንተ፡ ፈለሰ።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "እስመ፡ ንብረትነ፡ ከመ፡ ጽላሎት፡ ኃላፊ፡ ወአልቦ፡ ክልአት፡ ለሞትነ፡ እስመ፡ ውእቱ፡ ዕቁብ፡ ነገር፡ ወኢይመይጦ፡ መኑሂ።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "ንዑኬ፡ ንትፈጋዕ፡ በዘሀሎ፡ ሠናያት፡ ወንግበር፡ ሐዋዘ፡ ውስተ፡ ፍጥረትነ፡ በአስተሐምሞ፡ እንዘ፡ ሀሎነ፡ በመዋዕለ፡ ውርዛዌነ።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "ወይነ፡ ብዙኀ፡ ወዕፍረተ፡ ምዑዝ፡ ንትመላእ፡ ወኢይኅል፡ ፈኔ፡ ጽጌ፡ ደመና።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "ወንትቀጸል፡ ጽጌ፡ ረዳ፡ ሠርዕነ፡ ዘእንበለ፡ ይጸመሂ፡ ወይኩን፡ መኑሂ፡ ዘኢይሳተፍ፡ እምጽጌ፡ ትዕቢትነ።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "ወአልቦ፡ እምውስቴትነ፡ ዘኢይደልዎ፡ እምእንቲአነ፡ ፍስሓ፡ በኵለሄ፡ ኢንኅድግ፡ ወናንብር፡ ነገረ፡ ዕበድ፡ እስመ፡ ውእቱ፡ መክፈልትነ፡ ወዝንቱ፡ ርስትነ።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "ንትዐገል፡ ነዳየ፡ ጻድቀ፡ ወኢንምሐክ፡ ዕቤረ፡ ወኢንኅፈር፡ እምሲባተ፡ ልሂቅ፡ ዘብዙኀ፡ መዋዕል፡ ወዓመታት።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "ወኃይልነ፡ ይኩነነ፡ ሕገ፡ ጽድቅ፡ እስመ፡ ሕሊና፡ ጽቡስ፡ ምኑነ፡ ይትበሀል።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "ንዑ፡ ንቅትሎ፡ ለጻድቅ፡ እስመ፡ ዕፁብ፡ ወክቡድ፡ ውእቱ፡ ለነ፡ ወይትቃወሞን፡ ለምግባራቲነ፡ ወይዘነጒጐነ፡ በኃጢአ፡ ሕግ።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "ወይሰብክ፡ ለነ፡ አበሳ፡ ትምህርትነ፡ ወይብል፡ አእምሮ፡ እግዚአብሔር፡ ብየ፡ ወወልደ፡ እግዚአብሔር፡ ይሬሲ፡ ርእሶ፡ ወኮነነ፡ መዝለፌ፡ ሕሊናነ።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "ክቡድ፡ ውእቱ፡ ብነ፡ በራእዩኒ፡ እስመ፡ ኢይትማሰል፡ ምስለ፡ ባዕድ፡ ንብረቱ፡ ወፍሉጥ፡ ፍኖቱ።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "ወምኑናነ፡ ኮነ፡ በኀቤሁ፡ ወይርኅቅ፡ እምፍናዊነ፡ ከመ፡ ዘእምርኩስ፡ ይርኅቅ፡ ወያስተበዕዕ፡ ደኀሪቶሙ፡ ለጻድቃን፡ ወይትሜካሕ፡ ከመ፡ እግዚአብሔር፡ አቡሁ።"
+        },
+        {
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "text": "ንርአይ፡ ለእመ፡ ነገሩ፡ ኮነ፡ ህልወ፡ ወናመክር፡ ዘይከውን፡ እምርእየቱ።"
+        },
+        {
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "text": "ወእመሰ፡ ጻድቅ፡ ወልዱ፡ ለእግዚአብሔር፡ ያድኅኖ፡ ወይባልሖ፡ እምእደ፡ እለ፡ ይትቃወምዎ።"
+        },
+        {
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "text": "በጽእለት፡ ወበሕማም፡ ንሕትቶ፡ ከመ፡ ናእምር፡ የዋሀቶ፡ ወናመክር፡ ትዕግሥቶ።"
+        },
+        {
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "text": "ወእኩይ፡ ወበሞት፡ ኅሡር፡ ንኰንኖ፡ እመ፡ ይከውኖ፡ ረድኤተ፡ በከመ፡ ቃሉ።"
+        },
+        {
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "text": "ወዘንተ፡ ንባበ፡ ሐለዩ፡ ወቦቱ፡ ስሕቱ፡ እስመ፡ አንቈረቶሙ፡ እከዮሙ።"
+        },
+        {
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "text": "ወኢያእመሩ፡ ኅቡአቲሁ፡ ለእግዚአብሔር፡ ወኢተሰፈዉ፡ ዐስበ፡ ጻድቅ።"
+        },
+        {
+          "unit_order": 23,
+          "source_marker": "23",
+          "source_element_id": null,
+          "text": "ወኢፈለጡ፡ ዕበየ፡ ክብረ፡ ነፍሳት፡ ንጹሐት፡ እለ፡ አልቦን፡ ነውር፡ እስመ፡ እግዚአብሔር፡ ፈጠሮ፡ ለሰብእ፡ እንበለ፡ ሙስና፡ ወገብሮ፡ በአርአያ፡ ዚአሁ።"
+        },
+        {
+          "unit_order": 24,
+          "source_marker": "24",
+          "source_element_id": null,
+          "text": "ወበቅንአተ፡ ዲያብሎስ፡ ሞት፡ መጽአ፡ ወቦአ፡ ውስተ፡ ዓለም።"
+        },
+        {
+          "unit_order": 25,
+          "source_marker": "25",
+          "source_element_id": null,
+          "text": "ወያሜክር፡ ሰብአ፡ እለ፡ እሙንቱ፡ እመክፈልተ፡ ዝንቱ።"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "source_chapter_label": "3",
+      "heading": [
+        "Chapter 3"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "ነፍሶሙ፡ ለጻድቃን፡ ውስተ፡ እደ፡ እግዚአብሔር፡ ወኢለክፎሙ፡ ሥቃይ።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "ወአዕይንተ፡ ዐብዳንሰ፡ መሰሉ፡ ከመ፡ እሙንቱ፡ ዘሞቱ፡ ወተኈለቈት፡ ዐአቶሙ፡ ከመ፡ እከይ፡ ቦሙ።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "ወኅልፈቶሙሰ፡ ተመሰለ፡ ቅጥቃጤ፡ ወእሙንቱሰ፡ በሰላም፡ ሀለዉ።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "ወእመሂ፡ ተኰነኑ፡ በቅድመ፡ ሰብእ፡ ተስፋሆሙሰ፡ በኀበ፡ እግዚአብሔር፡ ሕይወት፡ ፍጽምት፡ እንተ፡ አልባቲ፡ ሞት።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "ወኅዳጠ፡ ተኰኒኖሙ፡ ዓቢይ፡ ይዴለዉ፡ እስመ፡ እግዚአብሔር፡ አምከሮሙ፡ ወረከቦሙ፡ ድልዋነ፡ ሎቱ።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "ከመ፡ ወርቅ፡ ዘይትፈተን፡ በምንሀብ፡ አመከሮሙ፡ ወከመ፡ ጽንሐሐ፡ ዕጣን፡ ዘይትዌከፍ፡ ውኩፈ፡ ተወክፎሙ።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "ወበመዋዕለ፡ ሕዋፄሆሙ፡ ይበርሁ፡ ከመ፡ ፀሐይ፡ ወይረውዑ፡ ከመ፡ ሩፀተ፡ ቀለምጺጽ፡ በውስተ፡ ብርዕ።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "ወይኴንኑ፡ አሕዛበ፡ ወይእኅቡ፡ ሕዝበ፡ ወይነግሥ፡ ሎሙ፡ እግዚአብሔር፡ ለዓለም።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "እለ፡ ይትዌከሉ፡ ቦቱ፡ የአምሩ፡ ርትዐ፡ ወመሃይምናኒሁ፡ ይሄልዉ፡ ሎቱ፡ በፍቅር፡ እስመ፡ ጸጋ፡ ወክብር፡ ለኅሩያኒሁ፡ ወሕዋፄ፡ ክሡት፡ ለጻድቃኒሁ።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "ወረሲዓንሰ፡ በከመ፡ ሐለዩ፡ ይረክቡ፡ ኵነኔ፡ ወእለ፡ አስተትዋ፡ ለጽድቅ፡ እምእግዚአብሔር፡ ርኅቁ።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "ጥበበ፡ ወተግሣፀ፡ ዘይሜንኑ፡ ሕርቱማን፡ ወከንቱ፡ ተስፋሆሙ፡ ወሕማሞሙ፡ ወፃማሆሙ፡ ዘእንበለ፡ በቊዔት፡ ወከንቱ፡ ምግባራቲሆሙ።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "ወአንስቲያሆሙ፡ ዓብዳት፡ እማንቱ፡ ወጸዋጋን፡ ውሉዶሙ፡ ወርጉም፡ ትውልዶሙ።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "እስመ፡ ብእሲት፡ መካን፡ እንተ፡ አልባቲ፡ ነውር፡ ብፅዕት፡ ወንጽሕት፡ ይእቲ፡ እንተ፡ ኢተአምር፡ ምስካበ፡ ዘአበሳ፡ እንታክቲ፡ ትረክብ፡ ፍሬ፡ በሕዋፄ፡ ነፍሳት።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "ወሕፀው፡ ዘኢገብረ፡ በእዴሁ፡ አበሳ፡ ወዘኢሐለየ፡ ላዕለ፡ እግዚአብሔር፡ እኩየ፡ እስመ፡ ይትወሀቦ፡ ጸጋ፡ ሃይማኖት፡ ኅሪት፡ ወመክፈልት፡ በቤተ፡ እግዚአብሔር፡ ዘይትፈተው።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "እስመ፡ ለኄር፡ ፍሬ፡ ፃማሁ፡ ክብር፡ ወሥን፡ ወአልቦ፡ ድቀት፡ ለሥርወ፡ አእምሮቱ።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "ወውሉደ፡ ዘማውያንሰ፡ ንቱጋነ፡ ይከውኑ፡ ወዘርእ፡ ዘይወጽእ፡ እምስካበ፡ ተዓዳዌ፡ ሕግ፡ ይማስን።"
+        },
+        {
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "text": "ወእመሂ፡ ኖኀ፡ መንበርቶሙ፡ ውስተ፡ ምድር፡ ምንተኒ፡ ይትኌለቊ፡ ወርስዖሙ፡ በደኀሪቶሙ፡ ይከውን፡ ኅሡረ።"
+        },
+        {
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "text": "ወእመኒ፡ ፍቱነ፡ ሞቱ፡ አልቦሙ፡ ተስፋ፡ ወኢኑዛዜ፡ አመ፡ ዕለተ፡ ሐተታ።"
+        },
+        {
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "text": "እስመ፡ ለትውልድ፡ አማፂት፡ እኩይ፡ ደኃሪታ።"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "source_chapter_label": "4",
+      "heading": [
+        "Chapter 4"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "ግብር፡ ትሩፍ፡ ኢወሊድ፡ ምስለ፡ ኂሩት፡ እስመ፡ ዝክራ፡ ኢመዊት፡ ውእቱ፡ እስመ፡ እምርት፡ ይእቲ፡ በኀበ፡ እግዚአብሔር።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "ወበኀበ፡ ሰብእኒ፡ ያከብርዋ፡ እንዘ፡ ሀለወት፡ ወኅሊፋኒ፡ ይፈትውጥ፡ ወያፈቅርዋ፡ ወበዝንቱ፡ ዓለም፡ አክሊለ፡ ተቀጺላ፡ ታንሶሱ፡ ዘኢይጸመሂ፡ ገድለ፡ መዊዕ።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "ብዝኀ፡ ትውልደ፡ ረሲዐን፡ ኢይበቊዕ፡ ወለከንቱ፡ ተክል፡ ኢይትአመር፡ ላቲ፡ ሥርዋ፡ ወኢትግበር፡ ጽኑዐ፡ መንበረ።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "ወእመኒ፡ ጊዜ፡ ሠርዐ፡ ውስተ፡ አዕፁቂሃ፡ ቈጽል፡ ጽኑዕ፡ እንዘ፡ ኢይልህቅ፡ ያንቀለቅሎ፡ ነፋስ፡ ወበኃይለ፡ ነፋስ፡ ይትመላኅ።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "ወይሰበሩ፡ አዕፁቂሃ፡ እንዘ፡ ኢኮኑ፡ ፍጹማነ፡ ወፍሬሆሙኒ፡ ቆዕ፡ ከንቱ፡ ዘኢይደሉ፡ ለበሊዕ፡ እስመ፡ ኢኮነ፡ ጊዜሁ፡ ወለምንትኒ፡ ኢይበቊዕ።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "እስመ፡ ውሉድ፡ እለ፡ ይትወለዱ፡ እምእኩያን፡ ሰማዕት፡ እሙንቱ፡ ለእከየ፡ አዝማዲሆሙ፡ በሐተታሆሙ።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "ጻድቅሰ፡ አመ፡ በጽሐ፡ ጊዜሁ፡ ለመዊት፡ ይሄሉ፡ በዕረፍት።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "ክብረ፡ ርእስ፡ አኮ፡ በብዝኀ፡ መዋዕል፡ ወአኮ፡ በኊልቈ፡ ዓመታት።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "ሲባትሰ፡ አእምሮቱ፡ ለብእሲ፡ ውእቱ፡ ወአክሊለ፡ ለርእስ፡ ግእዝ፡ ዘእንበለ፡ ነውር።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "መሥመሬ፡ እግዚአብሔር፡ ዘኮነ፡ ይትፈቀር፡ ወእንዘ፡ የሐዩ፡ ማእከለ፡ ኃጥአን፡ ይፈልስ፡ ወይትመሰጥ፡ እምቅድመ፡ ትሚጥ፡ እኪት፡ አእምሮቶ፡ አው፡ እመ፡ አኮ፡ ኅብል፡ ኢታስፍጥ፡ ነፍሶ።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "እስመ፡ ቅንአተ፡ እከይ፡ ያጸልም፡ ሠናያተ፡ ወንዝህላለ፡ ፍትወት፡ ያፈልስ፡ ልበ፡ የዋሀን።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "ወለእመኒ፡ ሞተ፡ በኅዳጥ፡ መዋዕል፡ ፈጸመ፡ ዓመታተ፡ ነዋኀ፡ እስመ፡ ሀለወት፡ ነፍሱ፡ ሥምርተ፡ በኀበ፡ እግዚአብሔር።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "ወበእንዝ፡ ጐጒዐ፡ ወሖረ፡ እማእከለ፡ ጹግ፡ ወነኪራንሰ፡ ርእዮሙ፡ ዘንተ፡ ኢለበውዎ፡ ወኢያስተጋብኡ፡ ውስተ፡ ሕሊናሆሙ፡ ፍካሬሁ፡ ለዝ።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "እስመ፡ ፍትሑ፡ ለእግዚአብሔር፡ ውእቱ፡ ለጻድቃኒሁ፡ ወሕዋፄሁ፡ በሣህል፡ ይከውን፡ ላዕለ፡ ኅሩያኒሁ።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "ወብእሲሰ፡ ጻድቅ፡ መዊቶ፡ ይኴንን፡ ረሲዓነ፡ እንዘ፡ ሀለዉ፡ ሕያዋኒሆሙ፡ ወወሬዛሂ፡ ሶበ፡ ሞተ፡ ፍጡነ፡ ይኴንን፡ ረሲዓነ፡ ዓመታተ፡ ርስዕ፡ ዘዓመፃ።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "እስመ፡ ይሬእዩ፡ ሙተተ፡ ጻድቅ፡ ጠቢብ፡ ወኢይሌብዉ፡ ወኢየአምሩ፡ ምንተ፡ መከረ፡ በእንቲአሁ፡ ወለምንት፡ አስተጋብኦ፡ እግዚአብሔር፡ ኀቤሁ፡ ወይሬእይዎ፡ ወይትቃጸቡ፡ ቦቱ።"
+        },
+        {
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "text": "ወኪያሆሙሳ፡ ይስሕቆሙ፡ እግዚአብሔር፡ ወይከውኑ፡ እምድኅረዝ፡ ለድቀት፡ ኅሡር፡ ወለጽእለተ፡ ሙታን፡ ዘለዓለም።"
+        },
+        {
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "text": "እስመ፡ ይመትሮሙ፡ ወያነቅዖሙ፡ ወይትፈከቡ፡ ውዱቃነ፡ በገጾሙ፡ እንዘ፡ አልቦሙ፡ ቃል።"
+        },
+        {
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "text": "ወየሀውኮሙ፡ እምሥርዎሙ፡ ወለዝሉፉ፡ ይከውኑ፡ ከመ፡ ምድር፡ ብድውት፡ ወይከውኑ፡ ጽዑራነ፡ ወዝክሮሙ፡ ይትኀጐል።"
+        },
+        {
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "text": "ወይቀርቡ፡ ለቅስተ፡ ኃጢአቶሙ፡ ፍሩሃነ፡ ወይዛለፎሙ፡ ገሃደ፡ በአንፃሪሆሙ፡ ኃጢአቶሙ።"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "source_chapter_label": "5",
+      "heading": [
+        "Chapter 5"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "አሜሃ፡ ይቀውም፡ ጻድቅ፡ በብዙኅ፡ ግህደት፡ አንፃረ፡ እለ፡ አመንደብዎ፡ ወክሕዱ፡ ፃማሁ፡ ወመነኑ፡ ነገሮ።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "ወሶበ፡ ርእይዎ፡ ይትሀወኩ፡ በግርማ፡ ወበፍርሃት፡ እኩይ፡ ወይዴመሙ፡ በእንተ፡ መንክር፡ ዳኅናሁ።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "ወይብሉ፡ በበይናቲሆሙ፡ እንዘ፡ ይኔስሑ፡ ወበጽዑር፡ ከንፈሰ፡ ይቴክዙ፡ ወይጸርሑ።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "ወይብሉ፡ ዝኑ፡ ዘኮነ፡ በኀቤነ፡ እምዐብዳን፡ ቀዲሙ፡ ሰሐቀ፡ ወነገረ፡ ዝንጓጔ፡ ወረሰይነ፡ ግእዞ፡ ዕበደ፡ ወሙተቶሂ፡ ምኑነ።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "እፎ፡ ኮነ፡ ወልደ፡ እግዚአብሔር፡ ወለቅዱሳን፡ ኮነት፡ ርስቱ።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "ስሕትነኬ፡ እምፍኖተ፡ ርትዕ፡ ወብርሃኑ፡ ለጻድቅ፡ ኢያስተርአየ፡ ለነ፡ ወፀሐይኒ፡ ኢሠረቀ፡ ለነ።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "ወአበሳ፡ ወኀጒለ፡ መላእነ፡ በፍናዊነ፡ ወነገድበ፡ ገዳነ፡ በድው፡ ወፍኖተ፡ እግዚአብሔር፡ ኢያእመርነ።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "ምንተ፡ በቊዓነ፡ ትዕቢት፡ ወምንተ፡ አምጽአ፡ ለነ፡ ብዕል፡ ምስለ፡ ትዕቢት።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "ኃላፊ፡ ውእቱ፡ ዝንቱ፡ ኵሉ፡ ከመ፡ ጽላሎት፡ ወከመ፡ ኅልፈተ፡ ዜና፡ ዘይረውፅ።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "ወከመ፡ ሐመር፡ ዘየኀልፍ፡ ወይመሥጦ፡ ማይ፡ በማዕበሉ፡ እንተ፡ ምኅላፈ፡ አሠሩ፡ አልቦ፡ ዘይትፈከብ፡ ወፍኖተ፡ ገጸ፡ ሩጸቱ፡ በውስተ፡ ማዕበል፡ ኢይትአመር።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "ወከመ፡ ዕፍ፡ ዘይሠርር፡ በውስተ፡ ነፋስ፡ አልቦ፡ ዘይትረከብ፡ አሠረ፡ ፍኖቱ፡ እስመ፡ ሶበ፡ ኀለፈ፡ ተዳድቆተ፡ ሥረቱ፡ ወይሬሲ፡ ነፋሰ፡ ቀሊለ፡ ዝቡጠ፡ ወይሰጥቆ፡ በጽንዐ፡ ፍጥነቱ፡ ይነግድ፡ ወይረውፅ፡ በአሁሶ፡ ክነፊሁ፡ ወእምዝ፡ ኢይትረከብ፡ ትእምርተ፡ ኅልፈቱ፡ በውስቴቱ።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "አው፡ ከመ፡ ሐፅ፡ ዘተውህበ፡ ለሠሪር፡ እስመ፡ ነፋስ፡ ተሠጥቀ፡ ቦቱ፡ ወበጊዜሃ፡ ተጋብአ፡ ከመ፡ ቀዳሚ፡ ወኅልፈቱ፡ ውስቴቱ፡ ኢይትአመር።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "ከማሁ፡ ንሕነኒ፡ ሶበ፡ ተወለድነ፡ ኀለቅነ፡ ወኢይደልወነ፡ ከመ፡ ንርአይ፡ ትእምርተ፡ ሠናይ፡ ዳዕሙ፡ ኀለቅነ፡ በእከይነ።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "እስመ፡ ተስፋሆሙ፡ ለረሲዐን፡ ከመ፡ ዐበል፡ ዘይግሕፎ፡ ነፋስ፡ ወከመ፡ አስሐትያ፡ ቀጢን፡ ዘእምነፋስ፡ ተሰደ፡ ከመ፡ ጢስ፡ ዘእምነፋስ፡ ይትመሰው፡ ወከመ፡ ዝክረ፡ ኅዳሪ፡ ዘአሐተ፡ ዕለተ፡ ኀደረ፡ ወኃለፈ።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "ወጻድቃንሰ፡ ርቱዐን፡ ለዓለም፡ የሐይዉ፡ ወጽኑሕ፡ ዓስቦሙ፡ በኀበ፡ እግዚአብሔር፡ ወትካዞሙ፡ ኀበ፡ ልዑል፡ ይሄሉ።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "ወበእንተዝ፡ ይነሥኡ፡ መንግሥተ፡ ክብር፡ ወቀጸላ፡ ሥነ፡ እምእደ፡ እግዚአብሔር፡ እስመ፡ በየማኑ፡ ይከድኖሙ፡ ወበመዝራዕቱ፡ ይረድኦሙ።"
+        },
+        {
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "text": "ወይነሥእ፡ ንዋየ፡ ሐቅለ፡ ቅንአቱ፡ ፍጹመ፡ ወይሬስያ፡ ለፍጥረቱ፡ ንዋየ፡ ሐቅል፡ ለተበቅሎ፡ አፅራሪሁ።"
+        },
+        {
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "text": "ወይለብስ፡ ድርዐ፡ ጽድቅ፡ ወይትቄጸል፡ ጌራ፡ ኵነኔ፡ ዘኢያድልዎ።"
+        },
+        {
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "text": "ወይነሥእ፡ ወልታ፡ ጽድቅ፡ ዘኢይትመዋዕ።"
+        },
+        {
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "text": "ወያበልኅ፡ መዓቶ፡ ሰይፈ፡ መታሬ፡ ወዓለምኒ፡ ይፃባዕ፡ ወይትቃተል፡ ምስሌሁ።"
+        },
+        {
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "text": "ወዲበ፡ መስሕታን፡ የሐውር፡ ርቱዐ፡ ሞጸፈ፡ መዓተ፡ መባርቅቲሁ፡ ከመ፡ ይርከቦሙ፡ ፍጡነ፡ ጻድቃንሰ፡ ከመ፡ ዘሠናይ፡ ምዕዋደ፡ ቀስተ፡ ደማና፡ በአጽምኦ፡ ይቀንዑ።"
+        },
+        {
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "text": "ወእምኰኵሐ፡ መዓተ፡ ሞጸፉ፡ ፍጡነ፡ ያወርድ፡ አብራደ፡ ወይትቈጣዕ፡ ላዕሌሆሙ፡ ማየ፡ ባሕር፡ አፍላግኒ፡ ያንቀለቅሉ፡ ወየዓግትዎሙ፡ ፍጡነ።"
+        },
+        {
+          "unit_order": 23,
+          "source_marker": "23",
+          "source_element_id": null,
+          "text": "ወይትቃወሞሙ፡ መንፈሰ፡ ኃይል፡ ወከመ፡ ነፋስ፡ ይሥዕዮሙ፡ ወይዘርዎሙ፡ እስመ፡ አበሳ፡ ታማስን፡ ኵሎ፡ ምድረ፡ ወገቢረ፡ እከይ፡ ይገፈትዕ፡ መናብርተ፡ ኃያላን።"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "source_chapter_label": "6",
+      "heading": [
+        "Chapter 6"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "ስምዑኬ፡ ነገሥት፡ ወለብዉ፡ ወአእምሩ፡ መኳንንተ፡ አጽናፈ፡ ምድር።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "ወአጽምኡ፡ እለ፡ ትእኅዙ፡ ምድረ፡ ብዙኀ፡ ወእለ፡ ትትዔበዩ፡ በብዝኀ፡ አሕዛብ።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "እስመ፡ እግዚአብሔር፡ ወሀበክሙ፡ እዘዘ፡ ወጽንዕክሙ፡ እምኀበ፡ ልዑል፡ ወውእቱ፡ ዘየሐትት፡ ምግባሪክሙ፡ ወይፈትን፡ ምክረክሙ።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "እስመ፡ እንዘ፡ ላእካነ፡ ጽድቁ፡ አንትሙ፡ እፎኑመ፡ ኢትኴንኑ፡ ፍትሕ፡ ርቱዐ፡ ወኢዓቀብክሙ፡ ሕጎ፡ ወኢሖረክሙ፡ በፍናወ፡ እግዚአብሔር።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "ወያነሥእ፡ ላዕሌክሙ፡ ድንጋፄ፡ ፍጡነ፡ ዘይትቃወመክሙ፡ እስመ፡ ኵነኔ፡ ምቱር፡ ለመኳንንት፡ ይከውን።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "ወለነዳይሰ፡ ያነሐስዮ፡ ሎቱ፡ እምፍኖተ፡ ምሕረት፡ ወለጽኑዐንሰ፡ ጽኑዐ፡ ሐተታ፡ የሐትትዎሙ።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "እስመ፡ ኢያደሉ፡ እግዚአብሔር፡ ለገጸ፡ ኵሉ፡ ወኢየኃፍር፡ ክብረ፡ ዕበይ፡ እስመ፡ ዓቢየ፡ ወንኡሰ፡ ገብረ፡ ወከማሁ፡ ይሔሊ፡ በእንተ፡ ኵሉ፡ ዘይቀኒ፡ ወዘይትቀነይ፡ ወይሠርዖሙ።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "ወለአዚዛንሰ፡ ኅዩለ፡ ሐተታ፡ ይበጽሖሙ።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "ለክሙኬ፡ ነገርየ፡ ኢ፡ መኳንንት፡ እኩያን፡ ወገፋዕያነ፡ ከመ፡ ታእምሩ፡ ጥበበ፡ ወተግሣፀ፡ ወኢትደቁ።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "እስመ፡ እለ፡ የአምሩ፡ ትእዛዘ፡ ጽድቅ፡ ወየዓቅቡ፡ በጽድቅ፡ ይጸድቁ፡ ወእለ፡ ተምህርዋ፡ ይረክቡ፡ ምሕረተ።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "ፍትዉኬ፡ እንከ፡ ነገርየ፡ አፍቅርዋ፡ ወተገሠፁ፡ ከመ፡ ትርከቡ፡ ሣህለ፡ ወምሕረተ።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "ብርህት፡ ይእቲ፡ ጥቀ፡ ጥበብ፡ ወኢይጸመሂ፡ ሥና፡ ወእለ፡ ያፈቅርዋ፡ ይሬእይዋ፡ ፍጡነ፡ ወእለ፡ የኃሥሥዋ፡ ይረክብዋ።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "ወትበጽሕ፡ ለእለ፡ ይፈትውዋ፡ ወትትኤመሮሙ፡ ቅድመ።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "ወዘይገይሥ፡ ኀቤሃ፡ ኢይፃሙ፡ እስመ፡ ውእቱ፡ ይረክባ፡ ወትረ፡ እንዘ፡ ትጸንሖ፡ ውሰተ፡ ኆኅቱ።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "እስመ፡ ሐሊዮ፡ ኪያሃ፡ ፍጻሜ፡ አእምሮ፡ ወዘተግሀ፡ በእንቲአሃ፡ ፍጡነ፡ ዘእንበለ፡ ትካዝ፡ ይከውን።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "እስመ፡ ለእለ፡ ይደልውዋ፡ ይእቲ፡ ትመጽእ፡ እንዘ፡ ተኃሥሦሙ፡ ወበውስተ፡ ፍኖትኒ፡ ታስተርእዮሙ፡ ሥእልታ፡ ግብተ፡ አዳመ፡ በኵሉ፡ ሕሊና፡ ትትራከቦሙ።"
+        },
+        {
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "text": "እስመ፡ ቀዳሚ፡ ተግሣፅ፡ ህልው፡ ውእቱ፡ ፍትወታ፡ ወአስተሐምሞ፡ በተግሣፅ፡ አፍቅሮታ፡ ውእቱ።"
+        },
+        {
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "text": "ወአፍቅሮታሂ፡ ዓቂበ፡ ሕገ፡ ዚአሃ፡ ወጠይቆ፡ ኢሙስና፡ ውእቱ።"
+        },
+        {
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "text": "ወኢሙስናሂ፡ ትሬሲ፡ ሰብአ፡ ቅሩበ፡ ኀበ፡ እግዚአብሔር።"
+        },
+        {
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "text": "ፍትወታኬ፡ ለጥበብ፡ ታዓርግ፡ ኀበ፡ መንግሥት።"
+        },
+        {
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "text": "እመሰኬ፡ ትፈትዉ፡ መኳንንተ፡ አሕዛብ፡ መናብርተ፡ ወሢመተ፡ መወንግሥተ፡ አክብርዋ፡ ለጥበብ፡ ከመ፡ ለዓለም፡ ትንግሡ።"
+        },
+        {
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "text": "ወምንት፡ ይእቲ፡ ጥበብ፡ ወእፎ፡ ኮነት፡ አነ፡ አየድዐክሙ፡ ወኢየሃብእ፡ እምኔክሙ፡ ምሥጢራቲሃ፡ ክቡተ።"
+        },
+        {
+          "unit_order": 23,
+          "source_marker": "23",
+          "source_element_id": null,
+          "text": "ወባሕቱ፡ አኃሥሥ፡ እምጥንት፡ ክዋኔሃ፡ ወእሬሲ፡ ክሡተ፡ አእምሮታ፡ ወኢይትዓደው፡ ጽድቀ፡ ወኢየሐውር፡ በቅንአተ፡ ሕመሜ።"
+        },
+        {
+          "unit_order": 24,
+          "source_marker": "24",
+          "source_element_id": null,
+          "text": "እስመ፡ ዘከመዝሰ፡ ኢይሳተፋ፡ ለጥበብ፡ እስመ፡ ብዝኅ፡ ጠበብት፡ መድኃኒተ፡ ዓለም፡ ውእቱ።"
+        },
+        {
+          "unit_order": 25,
+          "source_marker": "25",
+          "source_element_id": null,
+          "text": "ወንጉሥ፡ ልብው፡ ቃውም፡ ለሕዝብ፡ ተገሠፁኬ፡ በቃልየ፡ ወትረብኁ።"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "source_chapter_label": "7",
+      "heading": [
+        "Chapter 7"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "እስመ፡ አነሂኬ፡ መዋቲ፡ ሰብእ፡ ዕሩይ፡ አምሳለ፡ ኵሉ፡ ወወልደ፡ ምድራዊ፡ ዘተልሕኰ፡ ቅድመ፡ ወውስተ፡ ከርሠ፡ እምየ፡ ተገለፍኩ፡ ሥጋ።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "ወነበርኩ፡ ርጉአ፡ በደም፡ ዓሠርተ፡ አውራኅ፡ እምዘርአ፡ ብእሲ፡ ወፍትወተ፡ ንዋም፡ በሩካቤ።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "ወአነሂ፡ ነሣእኩ፡ ነፍሰ፡ ሶበ፡ ተወለድኩ፡ ከመ፡ ኵሉ፡ ሰብእ፡ ወወረድኩ፡ ውስተ፡ ምድር፡ መምሰሊተ፡ ሕማምየ፡ ወቀዳሚተ፡ ቃል፡ አውጻእኩ፡ ብካየ።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "ወአጽርቅት፡ ልህቁ፡ ወበትካዝ፡ እስመ፡ አልቦ፡ እምነገሥት፡ ዘካልአ፡ ኮነ፡ ጥንተ፡ ልደቱ።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "ወአሐቲ፡ ይእቲ፡ ምጽአቱ፡ ለኵሉ፡ ውስተ፡ ዓለም፡ ወጸአተ፡ ኵሉ፡ በዕሩይ።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "ወበእንተዝ፡ ጸለይኩ፡ ወአእምሮ፡ ተውህበኒ፡ ሊተ፡ አስተብቋዕኩ፡ ወመጽአኒ፡ መንፈሰ፡ ጥበብ።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "ወአክበርክዋ፡ እምኵናነ፡ መንግሥት፡ ወመናብርት፡ ወለብዕልኒ፡ ከመ፡ ወኢምንት፡ ረሰይክዋ፡ በመድሎታ።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "ወኢያስተማሰልክዋ፡ በእብነ፡ ባሕርይ፡ ዘሤጥ፡ አልቦቱ፡ እስመ፡ ኵሉ፡ ወርቅ፡ በቅድመ፡ ገጻ፡ ከመ፡ ኆፃ፡ ኅዳጥ፡ ወከመ፡ ዕቡር፡ ይመስል፡ ብሩር፡ በቅድሜሃ።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "ወእምነ፡ ሕይወት፡ ወእምሥነ፡ ላህያ፡ አፍቀርክዋ፡ ፈድፋደ፡ ወአብደርክዋ፡ ህየንተ፡ ብርሃን፡ ትኩነኒ፡ እስመ፡ ፀዳለ፡ ብርሃን፡ ዘእምውስቴታ፡ ይወፅእ፡ ኢይትጋባእ፡ ወኢይነውም።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "ወመጽአኒ፡ ኵሉ፡ ሠናያት፡ ምስሌሃ፡ ኅቡረ፡ ወዘአልቦ፡ ኊልቊ፡ ብዕል፡ ውስተ፡ እዴሃ።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "ወተፈሣሕኩ፡ በኵሉ፡ እስመ፡ መኰንንቶሙ፡ ይእቲ፡ ጥበብ፡ ወኢያእመርኩ፡ ከመ፡ ገባሪቱ፡ ይእቲ፡ ለዝ፡ ኵሉ።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "ወሶበ፡ አእመርኩ፡ ዘንተ፡ ዘእንበለ፡ እከይ፡ ወዘእንበለ፡ ቅንአት፡ እሁበ፡ ኪያሃ፡ ወብዕላ፡ ኢየኃብእ።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "ወኢየኃልቅ፡ መዝገበ፡ ይእቲ፡ ለሰብእ፡ ወእለ፡ አጥረይዋ፡ ኀበ፡ እግዚአብሔር፡ በጽሑ፡ ወተዓረኩ፡ በእንተ፡ ምግባረ፡ ተግሣፅ፡ እንተ፡ ትከሥት፡ ሀብተ።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "ወሊተኒ፡ ወሀበኒ፡ እግዚአብሔር፡ እንግር፡ ዘይትፈተው፡ ወአሐሊ፡ ሕሊና፡ ዘይደሉ፡ ለዘይትወሀቦ፡ እስመ፡ ውእቱ፡ መርሕ፡ ውስተ፡ ጥበብ፡ ወመርትዐ፡ ጠበብት።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "እስመ፡ ውስተ፡ እዴሁ፡ ንሕነ፡ ኵልነ፡ ወነገርነኒ፡ ኵሉ፡ ጠይቆ፡ ወአእምሮ፡ ምግባራት።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "እስመ፡ ውእቱ፡ ወሀበኒ፡ ቃለ፡ አእምሮ፡ ህልወ፡ ዘእንበለ፡ ሐስዎ፡ ከመ፡ አእምር፡ ሥርዓተ፡ ቁመተ፡ ዓለም፡ ወምግባረ፡ ፀሐይ፡ ወወርኅ፡ ወከዋክብት።"
+        },
+        {
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "text": "ጥንተ፡ ወተፍጸመ፡ ወማእከለ፡ መዋዕል፡ ወሙያጤ፡ መዋዕል፡ ወተፋልሶ፡ ጊዜያት።"
+        },
+        {
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "text": "ወዑደተ፡ ዓመታት፡ ወንብረተ፡ ከዋክብት።"
+        },
+        {
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "text": "ወጠባይዐ፡ እንስሳ፡ ወነፍሳተ፡ አራዊት፡ ወኃይለ፡ ነፋሳት፡ ወሕሊና፡ ሰብእ፡ ወፈሊጠ፡ ዕፅው፡ ወኃይለ፡ ምግባርሰ፡ አሥራው።"
+        },
+        {
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "text": "አእመርኩ፡ ኵሎ፡ ዘኅቡእ፡ ወዘከሡት፡ እስመ፡ ኬንያሁ፡ ለኵሉ፡ ግበር፡ መሀረኒ፡ ጥበበ።"
+        },
+        {
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "text": "እስመ፡ ቦቱ፡ ውእቱ፡ መንፈሰ፡ አእምሮ፡ ቅዱስ፡ ብሑተ፡ ልደት፡ እንዘ፡ አሐዱ፡ ክፍሉ፡ ውስተ፡ ብዙኅ፡ ክፍል።"
+        },
+        {
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "text": "ወጢን፡ ዘፍጡን፡ ነሶሳው፡ ወሠናይ፡ ቃሉ፡ ወጠቢብ፡ ዘአልቦቱ፡ ርስሐት፡ ዘኢይፃሙ፡ ህልው፡ አንተ፡ አልቦቱ፡ ጽንፍ፡ መፍቀሬ፡ ኂሩት፡ በሊኅ፡ ዘአልቦ፡ ዘይከልኦ፡ ዘያሤኒ።"
+        },
+        {
+          "unit_order": 23,
+          "source_marker": "23",
+          "source_element_id": null,
+          "text": "መፍቀሬ፡ ሰብእ፡ ስንዓሃ፡ ለጥበብ፡ ማእምር፡ ዘበአማን፡ ዕጉሥ፡ ዘእንበለ፡ ታካዘ፡ ከሃሌ፡ ኵሉ፡ ወሐዋፄ፡ ኵሉ፡ ዘይበውእ፡ ውስተ፡ መናፍስት፡ ንጹሐት፡ ለባውያተ፡ ወቀጢናት።"
+        },
+        {
+          "unit_order": 24,
+          "source_marker": "24",
+          "source_element_id": null,
+          "text": "እስመ፡ ሑሳታ፡ ለጥበብ፡ ይፈጥን፡ እምኵሉ፡ ሑሰት፡ ትሰፍሕ፡ ወታንሶሱ፡ ውስተ፡ ኵሉ፡ ወተሐውር፡ እንተ፡ ዲበ፡ ኵሉ፡ በእንተ፡ ጽርየተ፡ ንጽሓ።"
+        },
+        {
+          "unit_order": 25,
+          "source_marker": "25",
+          "source_element_id": null,
+          "text": "እስመ፡ ላህበ፡ ኃይለ፡ እግዚአብሔር፡ ይእቲ፡ ወስብሐተ፡ አኃዜ፡ ኵሉ፡ ዘዕዉቅ፡ አርአያሁ፡ ስቡሕ፡ ወንጹሕ፡ በእንተዝ፡ ምንትኒ፡ አልቦ፡ ርኵስ፡ ዘይዳደቅ።"
+        },
+        {
+          "unit_order": 26,
+          "source_marker": "26",
+          "source_element_id": null,
+          "text": "እስመ፡ ዋካ፡ ብርሃን፡ ይእቲ፡ ዘቀዳማዊ፡ ወመጽሔተ፡ ግብረ፡ እግዚአብሔር፡ ይእቲ፡ እንተ፡ ኢትዴምን።"
+        },
+        {
+          "unit_order": 27,
+          "source_marker": "27",
+          "source_element_id": null,
+          "text": "ወአርአያ፡ ኂሩቱ፡ እንዘ፡ አሐቲ፡ ይእቲ፡ ኵሎ፡ ትክል፡ ወእንዘ፡ በርስዕ፡ ሀለወት፡ ኵሎ፡ ትሔድስ፡ ወትትፋለስ፡ ውስተ፡ ነፍሳተ፡ ጻድቃን፡ እምትውልድ፡ ውስተ፡ ትውልድ።"
+        },
+        {
+          "unit_order": 28,
+          "source_marker": "28",
+          "source_element_id": null,
+          "text": "ወትሬስዮሙ፡ አዕርክተ፡ እግዚአብሔር፡ ወነቢያቲሁ፡ እስመ፡ አልቦ፡ ዘያፈቅር፡ እግዚአብሔር፡ ዘእንበለ፡ ምስለ፡ ጥበብ፡ ዘየኃድር።"
+        },
+        {
+          "unit_order": 29,
+          "source_marker": "29",
+          "source_element_id": null,
+          "text": "እስመ፡ ትልሂ፡ ይእቲ፡ በሥነ፡ ፀሐይ፡ ወትፈደፍድ፡ እምነ፡ ኵሉ፡ ኅብረ፡ ከዋክብት።"
+        },
+        {
+          "unit_order": 30,
+          "source_marker": "30",
+          "source_element_id": null,
+          "text": "ወሶበ፡ ተደለወት፡ ምስለ፡ ብርሃን፡ ትትረከብ፡ እምቅድሜሁ፡ እስመ፡ ለብርሃን፡ ደዌልጦ፡ ሌሊት፡ ወለጥበብሰ፡ ኢይትኄየላ፡ ምንትኒ፡ እኩይ።"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "source_chapter_label": "8",
+      "heading": [
+        "Chapter 8"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "ትሰፍሕ፡ እምጽንፍ፡ እስከ፡ ጽንፍ፡ ጥዕይታ፡ ወትሠርዕ፡ ኵሎ፡ በኂሩታ፡ ለዛቲ፡ አፍቀርክዋ፡ ወኃሠሥክዋ፡ እምውርዙትየ።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "ወፈቀድኩ፡ እንሥኣ፡ ሊተ፡ መርዓተ፡ ወመፍቀሬ፡ ኮንኩ፡ ለሥና፡ እስመ፡ ኂሩታ፡ ትዝምደ፡ ያቀርብ፡ ኀበ፡ እግዚአብሔር።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "ወመኰንነ፡ ኵሉ፡ አፍቀራ፡ እስመ፡ መንክርት፡ ይእቲ፡ ለአእምሮ፡ ምሥጢራተ፡ እግዚአብሔር፡ ወትትሌዓል፡ ዕበየ፡ እምኵሉ፡ ግብሩ።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "ወኀበ፡ ሀለወት፡ ብዕል፡ ይእቲ፡ እምኵሉ፡ ትትበደር፡ ለእለ፡ አጥረይዋ፡ ውስተ፡ ዓልም።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "ምንትኑ፡ ይብላዕ፡ ለጥበብ፡ ገባሪተ፡ ኵሉ፡ ወእመኒ፡ ባቲ፡ አእምሮ፡ ተገብረ።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "መኑ፡ እምእለ፡ ሀለዉ፡ ዘይፈደፍድ፡ እምኔሃ፡ ኬንያ፡ ወእመኒቦ፡ ዘአፍቀረ፡ ጽድቀ።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "እስመ፡ ፃማሃ፡ ውእቱ፡ ሠናይ፡ ትሜህር፡ ንጽሐ፡ ወጥበበ፡ ወጽድቀ፡ ወጽንዐ፡ ወትሩፋተ፡ ወሠናያተ።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "ወአልቦ፡ ውስተ፡ ዓለም፡ ዘይበቊዕ፡ ወዘይሤኒ፡ እምኔሃ፡ ወኢምንትኒ፡ ሕይወቱ፡ ለብእሲ።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "ወእመኒቦ፡ ዘአፍቀረ፡ ብዙኀ፡ አእምሮ፡ ወሠናያተ፡ ወለእመ፡ አእመረ፡ ዘቀዲሙ፡ ወዘይመጽእሂ።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "ወዘየአምር፡ አውሥኦተ፡ ነገር፡ ወፈክሮ፡ ቅጽበተ፡ ወያቀድም፡ አእምሮ፡ ተአምራት፡ ወመንክራት፡ ወኅልፈተ፡ ጊዜያት፡ ወዓመታት።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "ወአነሂ፡ ፈቀድኩ፡ ከመ፡ እንሥኣ፡ ተሀሉ፡ ምስሌየ፡ አእሚርየ፡ ከመ፡ ይእቲ፡ ትከውነኒ፡ መምክርተ፡ ለሠናይ፡ ወመገሥዕተ፡ ዘታኀድግ፡ ኀዘነ፡ ወትካዘ።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "በእንቲኣሃ፡ ረከብኩ፡ አነ፡ ወሬዛ፡ አኰቴተ፡ በኀበ፡ ብዙኃን፡ ወክብረ፡ በኀበ፡ ሊቃውንት።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "ወኮንኩ፡ በሊኀ፡ ልሳን፡ ወሕሊና፡ ለኰንኖ፡ ወተነከርኩ፡ በአዕይንተ፡ ገጸ፡ ኃያላን።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "እንዘ፡ አረምም፡ ይጸንሑኒ፡ ወይትዔገሡኒ፡ ወእንዘ፡ እነብብ፡ ያጸምኡኒ፡ ወእመኒ፡ አብዛኅኩ፡ ተናግሮ፡ እዴሆሙ፡ ያነብሩ፡ ዲበ፡ አፉሆሙ።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "በእንቲኣሃ፡ ረከብኩ፡ ኢመዋቲ፡ ወዝክረ፡ ዘለዓለም፡ ኀደጉ፡ ለእለ፡ እምድኅሬየ።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "ወእሠርዕ፡ ሕዝበ፡ ወይትኴነኑ፡ ሊተ፡ አሕዛብ።"
+        },
+        {
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "text": "ወይፈርሁኒ፡ ሰሚዖሙ፡ መኳንንተ፡ ምድር፡ መደንግፃን፡ በማኅበር፡ አስተርኢ፡ ኄረ፡ ወበፀብዕ፡ ፅኑዐ።"
+        },
+        {
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "text": "ወሶበ፡ ቦእኩ፡ ውስተ፡ ቤትየ፡ አዐርፍ፡ ባቲ፡ እስመ፡ ሀልዎ፡ ምስሌሃ፡ አልቦ፡ ውስቴታ፡ ምረት፡ ወኢፃማ፡ ወኃዘን፡ ኢይቀርብ፡ ኀቤሃ፡ ዘእንበለ፡ ፍሥሓ፡ ወኃሤት።"
+        },
+        {
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "text": "ዘንተ፡ እንዘ፡ እሔሊ፡ በርእስየ፡ ነበርኩ፡ ወእጽሕቅ፡ ባቲ፡ በልብየ፡ ወአእሚርየ፡ ከመ፡ ኢክል፡ ነጺሐ፡ እስመ፡ ከመ፡ ኢመዊት፡ ውእቱ፡ ትዝምዳ፡ ለጥበብ።"
+        },
+        {
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "text": "ወውስተ፡ ፍቅራ፡ ፍሥሓ፡ ወኃሤት፡ ሠናይ፡ ወውስተ፡ ግብረ፡ አደዊሃ፡ ብዕል፡ ዘኢየኀልቅ፡ ወውስተ፡ ነገራ፡ ትምህርተ፡ አእምሮ፡ ወውስተ፡ ተሳትፎታ፡ ንባበ፡ ምክር።"
+        },
+        {
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "text": "ዖድኩ፡ ኵላ፡ ምድረ፡ እንዘ፡ አኃሥሣ፡ ከመ፡ እንሥኣ፡ ሊተ፡ በርእስየ፡ ትኩነኒ፡ ሊተ፡ መርዓተ።"
+        },
+        {
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "text": "ወልድ፡ ማእምር፡ አነ፡ ወነፍስየ፡ ኄርተ፡ ኮነት፡ ሊተ፡ እስመ፡ አነ፡ ኄር፡ ቦእኩ፡ ውስተ፡ ሥጋሃ፡ ንጹሕ።"
+        },
+        {
+          "unit_order": 23,
+          "source_marker": "23",
+          "source_element_id": null,
+          "text": "ወሶበ፡ አእመርኩ፡ ከመ፡ ኢይክል፡ ነጺሐ፡ እመ፡ እግዚአብሔር፡ ኢወሀበኒያ፡ ሊተ።"
+        },
+        {
+          "unit_order": 24,
+          "source_marker": "24",
+          "source_element_id": null,
+          "text": "ወዝኒ፡ ምክር፡ ኮነ፡ እመጥበብ፡ ከመ፡ አእምር፡ ለመኑ፡ ይእቲ፡ ጸጋ፡ ሰከይኩ፡ ኀበ፡ እግዚአብሔር፡ ወሰአልክዎ።"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "source_chapter_label": "9",
+      "heading": [
+        "Chapter 9"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "ወእቤ፡ እምኵሉ፡ ልብየ፡ አምላከ፡ አቡየ፡ ወእግዚኣ፡ ለምሕረት፡ ዘገበርከ፡ ኵሎ፡ ዓለመ፡ በቃልከ።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "ወበጥበብከ፡ ረሰይከ፡ ሰብአ፡ ከመ፡ ይኰንን፡ ዘእምኀቤከ፡ ተገብረ፡ ፍጥረተ።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "ወያንሶሱ፡ ውስተ፡ ምድር፡ ወይሥራዕ፡ ዓለመ፡ በኂሩትከ፡ ወበጽድቅከ፡ ወበርትዐ፡ መንፈሰ፡ ኵነኔ፡ ይኴንን።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "ሀበኒ፡ እንተ፡ እምኀበ፡ መናብርቲከ፡ ትነብር፡ ጥበበ።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "ወኢትመንነኒ፡ እማእከለ፡ አግብርቲከ፡ እስመ፡ አነ፡ ገብርከ፡ ወልደ፡ አመትከ፡ ብእሲ፡ ድውየ፡ ኃይል፡ ወሕፁፀ፡ መዋዕል፡ ወትሑት፡ ለአእምሮ፡ ሕገ፡ ፍትሕ።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "ወለእመኒቦ፡ ዘኮነ፡ ፍጹመ፡ እምውሉደ፡ ሰብእ፡ እምከመ፡ ርኅቅት፡ እምኔሁ፡ ጥበብ፡ እንተ፡ እምኀቤከ፡ እስመ፡ ውእቱ፡ ከመ፡ ወኢምንትኒ፡ እምኮነ።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "አንተ፡ ኃረይከኒ፡ ንጉሠ፡ ለሕዝብከ፡ ወመኰንነ፡ ለውሉድከ፡ ወለአዋልዲከ።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "ወትቤ፡ ይትሐነጽ፡ ቤተ፡ በደብረ፡ መቅደስከ፡ ወውስተ፡ ሀገረ፡ ምዕራፍከ፡ ምሥዋዕ፡ አምሳለ፡ ቅድሳተ፡ ስብሐቲከ፡ እንተ፡ አስተዳሎከ፡ እምፍጥረት።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "ወምስሌከ፡ ጥበብ፡ እንተ፡ ተአምር፡ ግብረከ፡ ወሀለወት፡ አመ፡ ትገብር፡ ዓለመ፡ ወይእቲ፡ ትጤይቅ፡ ምንት፡ ውእቱ፡ ዘያሠምረከ፡ ቅድመ፡ አዕይንቲከ፡ ወምንት፡ ውእቱ፡ ዘርቱዕ፡ በትእዛዛቲከ።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "ፈንዋ፡ እምቅዱሳት፡ ሰማያት፡ ከመ፡ ትትነሣእ፡ ወትምጻእ፡ ኀቤየ፡ ፈንዋ፡ እመንበረ፡ ስብሐቲከ፡ ወአእምር፡ ምንት፡ ውእቱ፡ ዘያሠምረከ፡ ከመ፡ ተሃሉ፡ ምስሌየ፡ ወትፃሙ።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "እስመ፡ ይእቲ፡ ተአምር፡ ኵሎ፡ ግብረከ፡ ዘአንተ፡ ትጤይቅ፡ ወይእቲ፡ ትምርሐኒ፡ በኵሉ፡ ምግባራትየ፡ ንጹሐ፡ ወትዕቀበኒ፡ በክብራ፡ ወይኩን፡ ምግባራትየ፡ ሥሙረ።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "ወእኰንን፡ ሕዝበከ፡ በጽድቅ፡ ወእኩን፡ ድልወ፡ ለመናብርተ፡ አበውየ።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "መኑ፡ ውእቱ፡ ሰብእ፡ ዘየአምር፡ ምክረ፡ እግዚአብሔር፡ ወመኑ፡ ዘይሔሊ፡ ወየአምር፡ ምንተ፡ ይፈቅድ፡ እግዚአብሔር፡ እስመ፡ ሕሊናሆሙ፡ ለመዋትያን፡ ፈራህ፡ ወመብእስ፡ ሕሊናሆሙ።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "እስመ፡ ሥጋ፡ ዘይማስን፡ ይከድና፡ ለነፍስ፡ ወይከብዳ፡ ወማኅደር፡ ምድራዊ፡ ይከድን፡ ልበ።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "በብዙኅ፡ ፃሕቅ፡ ወትካዝ፡ ወበዕፁብ፡ ለእመ፡ አየነ፡ ንረክብ፡ ምግባረ፡ ዘውስተ፡ ምድር፡ ወንረክብ፡ በፃማ፡ ግብረ፡ እንተ፡ ንገሥሣ፡ በእደዊነ፡ ወዘውስተ፡ ሰማይሰ፡ መኑ፡ ፈተነ፡ ወምክረከመኑ፡ አእመረ።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "ወሶበ፡ አኮ፡ አንተ፡ እመ፡ ኢወሀብከ፡ ጥበበ፡ ወፈኖከ፡ ኀቤሁ፡ እምአርያም፡ ቅዱሰ፡ መንፈሰከ።"
+        },
+        {
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "text": "ወበእንተዝ፡ ረትዓት፡ ፍኖቶሙ፡ ለእለ፡ ውስተ፡ ምድር፡ ወዘያሠምረከ፡ አእመሩ፡ ሰብእ፡ በጥበብ፡ ወድኅኑ፡ ባቲ።"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "source_chapter_label": "10",
+      "heading": [
+        "Chapter 10"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "ዛቲ፡ ዓቀበት፡ አበ፡ ዓለም፡ ዘተልሕኰ፡ ቅድመ፡ ባሕቲቱ፡ ተገቢሮ፡ ተማኅፀነቶ፡ ወአድኃነቶ፡ እምአበሳ፡ ርእሱ።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "ወወሀበቶ፡ ኃይለ፡ ከመ፡ ይኰንን፡ ወየአኀዝ፡ ኵሎ።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "ወሶበ፡ ርኅቀ፡ እምኔሃ፡ ዓማፂ፡ ወገፋዒ፡ በመዓት፡ ተኀጒለ፡ ምስለ፡ ነፍሳተ፡ ቀታልያነ፡ አኃው።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "ወከማሁ፡ ካዕበ፡ ሶበ፡ ተአይኅ፡ ምድር፡ አድኀነቶ፡ ጥበብ፡ ወኃደፈቶ፡ ለጻድቅ፡ በንዋየ፡ ዕፅ፡ ምኑን።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "ዛቲ፡ ሶበ፡ ተክዕዉ፡ አሕዛብ፡ ውስተ፡ ኅብረ፡ እከይ፡ ወጹግ፡ አመረቶ፡ ለጻድቅ፡ ወዓቀበቶ፡ ለእግዚአብሔር፡ ዘእንበለ፡ አበሳ፡ ወነውር፡ ወዓቀበት፡ ወልደ፡ ጽኑዐ፡ በምሕረት።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "ዛቲ፡ ባልሐት፡ ወልደ፡ ጻድቀ፡ እምእለ፡ ይትኃጐሉ፡ ረሲዓን፡ ወአድኃነቶ፡ በጐይይ፡ ሶበ፡ ወረደት፡ እሳት፡ ዲበ፡ ኃምስቱ፡ አህጉር።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "እስከ፡ ይእዜ፡ ሀለወት፡ ስምዐ፡ እስከ፡ ዮም፡ እንዘ፡ ትጠይስ፡ ብድውታ፡ ወአትክልቲሃኒ፡ እመ፡ በጊዜሃ፡ ይፈርዩ፡ ዘኢኮኑ፡ ፍጹማነ።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "ወነፍስ፡ እንተ፡ ኢአምነት፡ ዝክረ፡ ቆመት፡ ሐውልተ፡ ፄው፡ ዘያስተርኢ።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "እስመ፡ እልክቱ፡ እለ፡ ተዐደዉ፡ ትእዛዘ፡ አኮ፡ ከመ፡ ዘኃሥሩ፡ በአእምሮ፡ ርደተ፡ መዓት፡ እንተ፡ በጽሐቶሙ፡ አላ፡ ኀደጉ፡ ውስተ፡ ዓለም፡ ለዕበዶሙ፡ ዝክረ፡ ከመ፡ ኢይትከሃሎሙ፡ ኅብአተ፡ አበሳ፡ እንተ፡ አበሱ።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "ጥበብሰ፡ ባልሐት፡ እለ፡ ይትለአክዋ፡ እምፃማ፡ ወሕማም።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "ዛቲ፡ መርሐት፡ ውስተ፡ ፍኖተ፡ ርትዕ፡ ጻድቀ፡ ዘጐየ፡ እምዓተ፡ እኁሁ፡ ወአርአየቶ፡ መንግሥተ፡ እግዚአብሔር፡ ወወሀበቶ፡ አእምሮ፡ ቅዱሳን፡ ወአርኀበት፡ ሎቱ፡ ብዕሎ፡ እምፃማሁ።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "ወእምእለ፡ የኃይድዎ፡ ወይትኄየልዎ፡ ቆመት፡ ሎቱ።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "ወረድአቶ፡ ወዓቀበቶ፡ ወተማኅፀነቶ፡ እምአዕራሪሁ፡ ወአድኀነቶ፡ እምእለ፡ ዐገትዎ፡ ወሠርዓቶ፡ አመ፡ ጸገወቶ፡ ገድለ፡ ጽኑዐ፡ ከመ፡ ያእምር፡ እስመ፡ ተቀንዮ፡ ለእግዚአብሔር፡ በሠናይ፡ ይጸንዕ፡ እምኵሉ።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "ዛቲ፡ ኢኀደገት፡ ጽድቀ፡ ተሣይጦ፡ ወወረደት፡ ምስሌሁ፡ ውስተ፡ ግብፅ፡ ወአድኀነቶ፡ እምኀጢአት።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "ወውስተ፡ ሙቃሔሑ፡ ኢኃደገቶ፡ እስከ፡ ሶበ፡ አምጽአት፡ ሎቱ፡ ሢመተ፡ መንግሥት፡ ወምልክና፡ ላዕለ፡ እለ፡ ተኃየልዎ።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "ወከሠተት፡ ሐሰቶሙ፡ ለእለ፡ አንወርዎ፡ ወመነንዎ፡ ወወሀበቶ፡ ክብረ፡ ዘለዓለም።"
+        },
+        {
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "text": "ዛቲ፡ ባልሐት፡ ሕዝበ፡ ጻድቀ፡ ወዘርአ፡ ዘአልቦ፡ ነውር፡ ወኂስ፡ እምአሕዛብ፡ እለ፡ ያመነድቡ፡ በዊአ፡ ውስተ፡ ነፍሰ፡ ገብረ፡ እግዚአብሔር።"
+        },
+        {
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "text": "ወተቃወመት፡ ነገሥተ፡ ብዙኃነ፡ በተአምራት፡ ወበመንክራት፡ ወወሀበቶሙ፡ ዐስበ፡ ፃማሆሙ።"
+        },
+        {
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "text": "ወመርሐቶሙ፡ መንክረ፡ ወኮነቶሙ፡ በመዓልት፡ ጽላሎተ፡ ወበሌሊት፡ ህየንተ፡ ሥርቀተ፡ ከዋክብት፡ ጸዳለ።"
+        },
+        {
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "text": "ወአዕደወቶሙ፡ ባሕረ፡ መፍርሀ፡ ወአኀለፈቶሙ፡ እምተ፡ ማእከለ፡ ማይ፡ ብዙኅ።"
+        },
+        {
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "text": "ወፀሮሙሰ፡ አስጠመት፡ ወአዕረገቶሙ፡ እማዕምቀ፡ ቀላይ።"
+        },
+        {
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "text": "ወበእንተዝ፡ ጻድቃን፡ ማህረኩ፡ ረሲዐነ፡ ወአእኰቱ፡ እግዚኦ፡ ስመከ፡ ቅዱሰ።"
+        },
+        {
+          "unit_order": 23,
+          "source_marker": "23",
+          "source_element_id": null,
+          "text": "ወእዴከ፡ መስተቃትልተ፡ ወመዋዒተ፡ ሰብሑ፡ ኅቡረ፡ እስመ፡ ጥበብ፡ ከሠተት፡ አፈ፡ በሀማን፡ ወረሰየት፡ ልሳነ፡ ሕፃናት፡ ርቱዐ፡ ነባቤ።"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "source_chapter_label": "11",
+      "heading": [
+        "Chapter 11"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "እስመ፡ ውእቱ፡ ሠርዐ፡ ምግባሮ፡ በእደ፡ ነቢዩ፡ ቅዱስ፡ ወአንሶሰዉ፡ ወነገዱ፡ ብሔረ፡ በድው፡ ዘኢኀደሮ፡ መኑሂ፡ ወተከሉ፡ ወታክለ፡ ደባትሪሆሙ፡ ውስተ፡ መካን፡ እንተ፡ ኢተከይደት።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "ወታወምዎሞሙ፡ ለመስተቃትላን፡ ወተበቀሉ፡ አፅራረ።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "ጸምኡ፡ ወጸውዑከ፡ ወተውህበ፡ ሎሙ፡ ማይ፡ እምኰኵሕ፡ እዝኅ።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "ወፈውሰ፡ ለጽኦሙ፡ እምእብን፡ ጽኑዕ፡ እስመ፡ በዝንቱ፡ ግበር፡ ተኰነኑ፡ ወተቀትሉ፡ አፅራሪሆሙ።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "ወበዝንቱ፡ አሠነይከ፡ ሎሙ፡ ሶበ፡ ተመንደቡ፡ ወዓፀቦሙ።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "ወህየንተ፡ ነቅዐ፡ ፈለግ፡ ዘኢይትነግ፡ ዘሐመግዎ፡ እልክቱ፡ በደ፡ ቅቱላን፡ ወሀብኮሙ፡ ማየ፡ ብዙኀ፡ ዘእንቃዕከ፡ ፍጡነ፡ ዘእንበለ፡ አሰፍዎ፡ ለዘለፋ፡ ብእሲት፡ ቀታሊተ፡ ሕፃናት።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "ወከማሁ፡ ኮነንከ፡ ተቃዋምያነ፡ አመ፡ አመከሩከ፡ ሶበ፡ ጸምኡ።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "ወእሙንቱሰ፡ በምሕረት፡ ተገሠፁ፡ ወአእመሩ፡ እፎ፡ ከመ፡ ተኰነኑ፡ በመዓት።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "እስመ፡ ለእሉሰ፡ ከመ፡ አብ፡ መገዕሥ፡ አምከርከ።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "ወለእልክቱሰ፡ ከመ፡ ንጉሥ፡ ዘእንበለ፡ ምሕረት፡ ዴገንከ፡ ወፈተንከ፡ ወበዝንቱ፡ አምሳል፡ ቀሠፍኮሙ።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "ወአተከዝኮሙ፡ እንዘ፡ ኢሀለዉ፡ ወእንዘ፡ ሀለዉ፡ እስመ፡ አኀዞሙ፡ ኀዘን፡ ምክዕቢት፡ ወገዓረ፡ ተዝካር፡ ዘእኩይ፡ አእምሮ፡ ዘኀለፈ።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "አመ፡ ሰምዑ፡ ከመ፡ አሠነይ፡ ሎሙ፡ በምንዳቤሆሙ፡ ወእሙንቱሂ፡ ረሰይዎ፡ ተድላ፡ ዘእምእግዚአብሔር።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "ወዓዲ፡ ለዘሂ፡ ገደፉ፡ ቀዲሙ፡ ውስተ፡ ሕሰም፡ ቀብዕዎ፡ ወጐዩ፡ እምኔሁ፡ በሥላቅ።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "ወአንከሩ፡ እምፍጻሜ፡ ፀአተ፡ ትእዛዝ፡ አኮ፡ እሙንቱ፡ ዘጸምኡ፡ በከመ፡ ጸምኡ፡ ጻድቃን።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "ወህየንተ፡ እከየ፡ ሕሊናሆሙ፡ እንተ፡ አልባቲ፡ አእምሮ፡ እስመ፡ ሶበ፡ ስሕቱ፡ ባቲ፡ አምለኩ፡ እንስሳ፡ ዘኢይነብብ፡ ሀብተ፡ ምኑነ፡ ወከንቶ።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "ፈኖከ፡ ላዕሌሆሙ፡ ለተበቅሎ፡ ብዙኀ፡ እንስሳ፡ ዘኢይነብብ፡ ከመ፡ ያእምሩ፡ እስመ፡ በግብር፡ ዘይኤብስ፡ ሰብእ፡ ቦቱ፡ ይትኴነን።"
+        },
+        {
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "text": "እስመ፡ ኢይሰአኖ፡ ለእዴከ፡ እንተ፡ ኵሎ፡ ይክል፡ ወየማንከ፡ እንተ፡ ፈጠረት፡ ዓለመ፡ እምነ፡ ከንቱ፡ ዘአልቦቱ፡ ገጽ፡ ከመ፡ ትፈኑ፡ ላዕሌሆሙ፡ ብዙኃነ፡ ድባተ፡ ወመዓትማነ፡ አናብስተ።"
+        },
+        {
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "text": "ወእመ፡ አኮ፡ አራዊተ፡ ምሉአነ፡ መዓት፡ ግብተ፡ ዘተፈጥሩ፡ እለ፡ ኢይትአመሩ፡ ዘያነፍሱ፡ እሳተ፡ ዘይነፍሕ፡ ወያልህብ፡ ወእመአኮ፡ እለ፡ ፄና፡ ጢስ፡ ፍጉገ፡ ይሥዕዩ፡ ወአመ፡ አኮ፡ እምውስተ፡ ዓይኖሙ፡ ጸዋግ፡ ቀለምጺጸ፡ እለ፡ ይበርቁ።"
+        },
+        {
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "text": "አኮ፡ ባሕቲቱ፡ እከዮሙ፡ ወኵነኔሆሙ፡ ዘይክል፡ ከመ፡ ይሕርዖሙ፡ አላ፡ ራእዮሙሂ፡ እምገረሞሙ፡ ወእምቀተሎሙ።"
+        },
+        {
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "text": "ወዘእንበለ፡ ዝኒ፡ በአሐቲ፡ ትእምርት፡ እምደለዎሙ፡ ከመ፡ ይደቁ፡ እንዘ፡ ትሰድዶሙ፡ በቃልከ፡ ወትሥዕዮሙ፡ በመንፈሰ፡ ኃይልከ።"
+        },
+        {
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "text": "ወባሕቱ፡ ኵሎ፡ በዓቅም፡ ወበኊልቊ፡ ወበመዳልው፡ ሠራዕከ፡ እስመ፡ ዕበየ፡ ክሂሎትከ፡ ህልው፡ ኀቤከ፡ ዘልፈ።"
+        },
+        {
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "text": "ወለኃይለ፡ እዘዘ፡ መዝራዕትከ፡ መኑ፡ ይትቃወማ፡ እስመ፡ ከመ፡ ለጽሊጸ፡ ልሳነ፡ መዳልው፡ ኵሉ፡ ዓለም፡ በቅድሜከ፡ ወከመ፡ ነጥበ፡ ጠል፡ በቅድሜከ፡ እንተ፡ ነግህ፡ ወረደት፡ ዲበ፡ ምድር።"
+        },
+        {
+          "unit_order": 23,
+          "source_marker": "23",
+          "source_element_id": null,
+          "text": "ትምህር፡ ኵሎ፡ እስመ፡ ከሃሊ፡ አንተ፡ ላዕለ፡ ኵሉ፡ ወኢትትኄየይ፡ ኃጣውአ፡ ሰብእ፡ እንዘ፡ ትጸንሕ፡ ለንስሓ።"
+        },
+        {
+          "unit_order": 24,
+          "source_marker": "24",
+          "source_element_id": null,
+          "text": "ታፈቅር፡ ኵሎ፡ እለ፡ ሀለዉ፡ ወአልቦ፡ ዘትሜንን፡ ምንተኒ፡ እምዘገበርከ፡ እስመ፡ አልቦ፡ ዘገበርከ፡ እንዘ፡ ትጸልእ፡ ወሶበሰ፡ ጸላእከ፡ ምንተኒ፡ እምኢገበርከ፡ ወእፎመ፡ እምጸንዐ፡ በቅድሜከ።"
+        },
+        {
+          "unit_order": 25,
+          "source_marker": "25",
+          "source_element_id": null,
+          "text": "ወእመ፡ ለሊከ፡ ኢፈቀድከ፡ እፎመ፡ እምተዓቅበ፡ ዘኢጸዋዓከ፡ አንተ።"
+        },
+        {
+          "unit_order": 26,
+          "source_marker": "26",
+          "source_element_id": null,
+          "text": "ትምሀክ፡ ወትሣሃል፡ ላዕለ፡ ኵሉ፡ ፍጥረት።"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "source_chapter_label": "12",
+      "heading": [
+        "Chapter 12"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "ኦ፡ እግዚኦ፡ መፍቀሬ፡ ሰብእ፡ እስመ፡ እንቲአከ፡ ይእቲ፡ ጥበብ፡ እስመ፡ ዘኢይጠፍእ፡ መንፈስከ፡ ኄር፡ ሀሎ፡ ውስተ፡ ኵሉ።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "በእንተ፡ ዝንቱ፡ ትዘልፍ፡ ለእለ፡ ወድቁ፡ በዘሕቅ፡ ዘከመ፡ ይደሉ፡ ለንባብ፡ ወአበሳ፡ እንተ፡ አበሱ፡ እንዘ፡ ታዜክሮሙ፡ ወትጌሥፆሙ፡ ከመ፡ ሶበ፡ ይጤይቁ፡ ርኂቆሙ፡ እምእከዮሙ፡ ይእመኑ፡ ብከ፡ እግዚኦ።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "እስመ፡ ለቀደምት፡ እለ፡ የኀድሩ፡ ዲበ፡ ምድርከ፡ ቅድስት፡ ጸላእከ፡ በእንተ፡ ምግባራቲሆሙ፡ ግብረ፡ ሥራይ፡ ጽሉእ፡ ወበዓላቲሆሙኒ፡ ዘርኁቅ፡ እምጽድቅ።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "ወቅትለተ፡ ውሉዶሙ፡ ዘእንበለ፡ ምሕረት፡ ወአስተበውሖቶሙሰ፡ በሊዐ፡ ንዋየ፡ ውሥጠ፡ ከርሦሙ፡ ለሰብእ፡ ወሥጋሆሙ፡ ወደሞሙ።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "እስመ፡ ተአተተ፡ እማእከሎሙ፡ አእምሮ፡ ምሥጢራተ፡ መለኮትከ፡ ወለነፍስ፡ እንተ፡ አልባቲ፡ ረድኤት፡ እምኀበ፡ መኑሂ፡ ይቀትሉ፡ ነፍሳቲሆሙ፡ ፈቀድከ፡ ታኅጒሎሙ፡ በእደ፡ አበዊነ፡ ከመ፡ ይንሥኡ፡ ደቂቀ፡ እግዚአብሔር፡ ምኅደረ፡ ዘይደሉ፡ ሎሙ፡ እንተ፡ እምኀቤከ፡ ክብርት፡ እምኵሉ፡ ምድር።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "ወባሕቱ፡ ኪያሆሙኒ፡ መሐርከ፡ ዘከመ፡ ትምሕር፡ ሰብአ፡ ወሶበ፡ ፈኖከ፡ መራደ፡ ትንንያ፡ ይቅድሙ፡ ተዓይኒከ፡ ኪያሆሙ፡ በበሕቅ፡ ይሥርዉ።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "ወእመ፡ አኮ፡ እምኢተስእነከ፡ ከመ፡ ታግብኦሙ፡ ለረዓሲን፡ ውስተ፡ እዴሆሙ፡ ለጻድቃን፡ በበዖታሆሙ፡ ይፄውውዎሙ።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "ወእመ፡ አኮ፡ ትመጥዎሙ፡ ለአራዊት፡ ጸዋጋን፡ ወእመ፡ አኮ፡ በእሉኒ፡ በአሐዱ፡ ቃል፡ አዚዘከ፡ ታጥፍኦሙ።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "ፈታሕከ፡ ይኩን፡ ዝንቱ፡ በበሕቅ፡ እንዘ፡ ትሁብ፡ ኪያሆሙ፡ መካን፡ ለንስሐ፡ አኮ፡ ኢያእሚረከ፡ ከመ፡ እኩይ፡ ሀልዎቶሙ፡ ወእከዮሙ፡ ጥቀ፡ ፈድፋደ።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "ወከመ፡ ኢይትመየጥ፡ ሕሊናሆሙ፡ ለዓለም፡ እስመ፡ እሙንቱ፡ ዘርእ፡ ርጉም፡ እምትካት፡ ወአኮ፡ ኀፊረከ፡ መነሂ፡ ለአበሳ፡ ዘአበሱ፡ ትሁቦሙ፡ ዕድሜ።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "ወመኑ፡ ውእቱ፡ ዘይብለከ፡ ምንተ፡ ገበርከ፡ ወመኑ፡ ውእቱ፡ ዘይትቃሞ፡ ለኵነኔከ፡ ወመኑ፡ ውእቱ፡ ዘያስተዋድከ፡ ወይትኃሠሠከ፡ በእንተ፡ አሕዛብ፡ ዘተኀጒሉ፡ ዘአንተ፡ ገበርከ።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "ወመኑ፡ ውእቱ፡ መኰንን፡ ዘይበጽሕ፡ ኀቤከ፡ ለተዋቅሦ፡ በእንተ፡ ሰብእ፡ ዓማዕያን፡ እስመ፡ አልቦ፡ ባዕድ፡ አምላክ፡ ዘእንበሌከ፡ ዘይሔሊ፡ በእንተ፡ ኵሉ፡ ከመ፡ ታርኢ፡ ከመ፡ አኮ፡ ግፍዐ፡ ዘኰነንከ።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "ኢ፡ ንጉሥ፡ ወኢ፡ መኰንን፡ ወኢ፡ መስፍን፡ ኢይክል፡ ተናጽሮ፡ ምስሌከ፡ እንዘ፡ ይሔምየከ፡ በእንተ፡ እለ፡ ኰነንኮሙ።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "እስመ፡ ጻድቅ፡ አንተ፡ ዘበጽድቅ፡ ትሠርዕ፡ ኵሎ፡ ረሰይከ፡ ግብረ፡ ነኪረ፡ እምነ፡ ኃይልከ፡ ዘኢኮነ፡ መፍትወ፡ ለኰንኖ፡ ከመ፡ ትኰንን።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "እስመ፡ ኃይልከ፡ ቀዳሚሃ፡ ለጽድቅ፡ እስመ፡ ቅንየትከ፡ ወምልክናከ፡ ኵሎ፡ ይሬስየከ፡ ትሣሃል፡ ላዕለ፡ ኵሉ።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "እስመ፡ ከሠትከ፡ ኃይለከ፡ ለዘኢየአምን፡ ፍጻሜ፡ ክሂሎትከ፡ ወለእለ፡ ኢየአምኑ፡ ትዘልፍ፡ ተሀብሎቶሙ።"
+        },
+        {
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "text": "ወእንዘ፡ አንተ፡ መኰንን፡ ኃያል፡ ዘበየዋሃት፡ ትኴንን፡ ወምስለ፡ ብዙኅ፡ ምሕረት፡ ታሄልወነ፡ ወማእዜ፡ እመ፡ ፈቀድከ፡ እስመ፡ ክሂል፡ ሀሎ፡ ኀቤከ።"
+        },
+        {
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "text": "ወመሐርከ፡ ሕዝበከ፡ በዘከመዝ፡ ምግባር፡ ከመ፡ መፍትው፡ ይኩን፡ ጻድቅ፡ ወርኅሩኅ፡ ወመፍቀሬ፡ ሰብእ።"
+        },
+        {
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "text": "ወሠናየ፡ ተስፋ፡ ረሰይከ፡ ለወልድከ፡ ወተናገርኮሙ፡ ለውሉድከ፡ እስመ፡ አንተ፡ ትሁብ፡ ለአባሲ፡ ንስሐ።"
+        },
+        {
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "text": "ወሀበኒ፡ ሀለዉ፡ ፀረ፡ ደቂቅከ፡ እልክቱ፡ እለ፡ ድልዋን፡ ለመዊት፡ ምስለ፡ መጠነዝ፡ ትዕግሥት፡ ኰነንከ፡ ወወሀብኮሙ፡ መዋዕለ፡ ወፍኖተ፡ ከመ፡ ይድኀኑ፡ ባቲ፡ እምእኩይ።"
+        },
+        {
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "text": "ወሚመጠነ፡ በጥንቃቄ፡ ትኴንን፡ ውሉደከ፡ እለ፡ ወሀብኮሙ፡ መሐላ፡ ወኪዳነ፡ ተስፋ፡ ወእንዘ፡ ትጌሥፅ፡ ኪዳነ።"
+        },
+        {
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "text": "ወጸረነሂ፡ በብዙኅ፡ ኵነኔ፡ ምእልፊተ፡ ትቀሥፍ፡ ከመ፡ ሶበ፡ ትኴንኖሙ፡ ኂሩተከ፡ ንዘከር፡ ወንትመሰሎ።"
+        },
+        {
+          "unit_order": 23,
+          "source_marker": "23",
+          "source_element_id": null,
+          "text": "ወሶበሂ፡ ንትኴነን፡ ንሴፎ፡ ሣህለከ፡ ወበዝየሰ፡ ኰነንከ፡ ዓማፅያነ፡ እለ፡ በዕደው፡ ሐይዉ፡ ሕይወተ፡ ወነበሩ፡ በኃጢአት።"
+        },
+        {
+          "unit_order": 24,
+          "source_marker": "24",
+          "source_element_id": null,
+          "text": "ወኰነንኮሙ፡ በዘዚአሆሙ፡ ርኵሰ፡ እስመ፡ ተኀጒሉ፡ በነዋኅ፡ ፎኖተ፡ ስሕተት፡ አማልክተ፡ እንዘ፡ ይበሉ፡ ኅሡራነ፡ እንስሳ፡ ዘበኀበ፡ አንፃሪሆሙ።"
+        },
+        {
+          "unit_order": 25,
+          "source_marker": "25",
+          "source_element_id": null,
+          "text": "ወሐሰዉ፡ ከመ፡ ከቂቅ፡ እለ፡ አልቦሙ፡ አእምሮ፡ በእንተዝ፡ ከመ፡ ሕፃናት፡ እለ፡ አልቦሙ፡ ንባበ፡ ፈኖከ፡ ላዕሌሆሙ፡ ኵነኔ፡ ዘከመ፡ ተውኔቶሙ።"
+        },
+        {
+          "unit_order": 26,
+          "source_marker": "26",
+          "source_element_id": null,
+          "text": "ወሶበ፡ ተገሠፁ፡ ተግሣፀ፡ መዓት፡ ይጥዓሙኬ፡ ኅብስተ፡ ኵነኔሁ፡ ለእግዚአብሄር፡ ጻድቅ፡ እስመ፡ እሙንቱ፡ አንጐርጐሩ፡ በዘረከቦሙ፡ ሕማም፡ ወተአንተሉ።"
+        },
+        {
+          "unit_order": 27,
+          "source_marker": "27",
+          "source_element_id": null,
+          "text": "ወበእልክቱ፡ እለ፡ ሐላይዎሙ፡ አማልክተ፡ ሶበ፡ ተኰነኑቦሙ፡ የአምርዎ፡ ለዘክሕድዎ፡ ቀድሙ፡ ወየአምርዎ፡ ከመ፡ ውእቱ፡ አምላክ፡ ዘበጽድቅ፡ ወበእንተዝ፡ በጽሖሙ፡ ፍጻሜሁ፡ ለበቀል።"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "source_chapter_label": "13",
+      "heading": [
+        "Chapter 13"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "እስመ፡ ኵሉ፡ ሰብእ፡ እለ፡ ሕፀተ፡ አእምሮ፡ እግዚአብሔር፡ ህልው፡ ውስቴቶሙ፡ በአማን፡ ከንቱ፡ እሙንቱ፡ ወበዘያስተርእዩ፡ ሠናያት፡ ስእኑ፡ ያእምሩ፡ ዘህልው፡ ወእንዘሂ፡ ይሬእዩ፡ ምግባራቲሁ፡ ኢያእመርዎ፡ ለኬንያ።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "ወባሕቱ፡ ሐለዩ፡ እሳተ፡ ወነፋሰ፡ ዘፍጡነ፡ አው፡ ዑደተ፡ ከዋክብት፡ አው፡ ማየ፡ ኅዩለ፡ አው፡ ብርሃናተ፡ ሰማይ፡ እለ፡ ይትለአኩ፡ ለሥርዓተ፡ ዓለም፡ አማልክተ፡ አምሰሉ።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "ወለእመ፡ ለእሉ፡ ምግባራት፡ ረሰይዎሙ፡ አማልክተ፡ ሶበ፡ ተፈሥሑ፡ በአድሞ፡ ሥነ፡ ላህዮሙ፡ ያእምሩ፡ እፎ፡ ፈድፋደ፡ እግዚኦሙ፡ ለእሉ፡ ይኄይስ፡ እስመ፡ ወላዴ፡ ሥነ፡ ገብረ፡ ዘንተ፡ ፍጥረተ።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "ወሶበሰ፡ እምኃይሎሙ፡ ወምግባሮሙ፡ ተደሙ፡ ይለብዉኬ፡ እፎ፡ ፈድፋደ፡ ዘገብሮሙ፡ ኅዩል፡ ውእቱ።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "ቦዑ፡ ዕበየ፡ ሥነ፡ ዘፍጥረት፡ ርእዮሙ፡ ፍቱራን፡ ቦቱ፡ አስተማሰልዎ፡ ለገባሬ፡ ክዋኔሁ።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "ወባሕቱ፡ ምስለ፡ ዝኒ፡ ዓዲ፡ ኂስ፡ ንስቲት፡ ላዕሌሆሙ፡ እስመ፡ እሙንቱሂ፡ እንጋ፡ ሶበ፡ ስሕቱ፡ እንዘ፡ የኃሥሥዎ፡ ለአምላክ፡ ወይፈቅዱ፡ ይርከብዎ፡ ተመይጦ፡ ውስተ፡ ምግባሩ፡ አምኃሠሥዎ።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "ወአእከሉ፡ በርእይ፡ እስመ፡ እለ፡ ያስተርእዩ፡ ሠናያን፡ ዓዲ፡ እስመ፡ ምክንያቶሙ፡ ስፉሕ።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "እስመ፡ በዝንቱ፡ ገጽ፡ ዘመጠነዝ፡ ክህሉ፡ ይነጽሩ፡ እስከ፡ ደለዎሙ፡ ጠይቆተ፡ ዓለም፡ ወእመሰ፡ ኢክህሉ፡ ይርደብዎ፡ ለእግዚአ፡ እሉ፡ ፍጡራን።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "ኅሡራንኬ፡ እሙንቱ፡ ወበውስተ፡ ምግባርኒ፡ ምውት፡ ተስፋሆሙ፡ እለ፡ ጸውዑ፡ ግብረ፡ እደ፡ ሰብእ፡ አማልክተ፡ ዘእምወርቅ፡ ወዘእምብሩር፡ ገብርዎሙ፡ በተኬንዎ፡ ምግባር።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "ወአምሳለ፡ እንስሳ፡ አው፡ እብነ፡ ዘኢይበቊዕ፡ ግብረ፡ እድ፡ ዘትካት።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "ወእመኒቦ፡ ጸራቢ፡ ዘይጸርብ፡ ዕጸ፡ ዘያስተርኢ፡ ወዘኢይትሐወስ፡ እስመ፡ ወሠረ፡ ዕፀ፡ ዘሠናይ፡ ሠረፀ፡ ወጸረበ፡ በሥነ፡ ኪኑኵሎ፡ ቅርፍቶ።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "ወተኬነዎ፡ ሠና፡ ወገብሮ፡ ዘይበቊዕ፡ ንዋየ፡ ለመልእክተ፡ ሕይወት፡ ወፈጸመ፡ ፀሪበ፡ ገግብሩ፡ ዘአስተዋፅኦ፡ ለመልእክተ፡ ሲሲት፡ ወጸግበ።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "ወዓዲ፡ ግማደ፡ ዘተርፈ፡ እምዕፅ፡ ዘኢይበቊዕ፡ በምንትኒ፡ ዕፅ፡ ጽኑዕ፡ ወጠዋይ፡ ዘአፅጹቂሁ፡ ኵለሄ፡ ነሢኦ፡ ወጸሪቦ፡ በአስተሐምሞ፡ ግብሩ፡ ወእምዝ፡ ገለፎ፡ በመዋዕለ፡ ጽርዓቱ፡ ወመሰሎ፡ በአምሳለ፡ ሰብእ።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "አው፡ አስተማሰሎ፡ በእንስሳ፡ ከንቱ፡ ወቀብዖ፡ በኅጒሬ፡ ወሤረዮ፡ ወአቅየሐይሖ፡ በአጽፋር፡ ወመልአ፡ ጥላቄ፡ ዘቦቱ።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "ወገብረ፡ ቤተ፡ ዘውቅሮ፡ ዘሎቱ፡ ይደሉ፡ ወአንበሮ፡ ውስተ፡ መካን፡ ዘአውቀረ፡ ሎቱ፡ ወውስተ፡ አረፍት፡ አጥበቆ፡ ወአጽንዖ፡ በሐፂን።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "ወአስተሐመመ፡ ቦቱ፡ ከመ፡ ኢይደቅ፡ አእሚሮ፡ ከመ፡ ኢይክል፡ ርእሶ፡ ረዲአ፡ እስመ፡ ምስል፡ ውእቱ፡ ወይፈቅድ፡ ዘይረድኦ።"
+        },
+        {
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "text": "ወያስተበቊዕ፡ ኀቤሁ፡ በእንተ፡ ጥሪቱ፡ ወብእሲቱ፡ ወውሉዱ፡ ወኢየኀፍር፡ እንዘ፡ ይትናገር፡ ምስለ፡ ዘአልቦቱ፡ ነፍስ።"
+        },
+        {
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "text": "ወየኀሥሥ፡ በእንተ፡ ፈውስ፡ ኀበ፡ ድውይ፡ ወበእንተ፡ ሕይወትኒ፡ ምውተ፡ ይስእል፡ ወያስተበቊዕ፡ ኀበ፡ ዘአልቦቱ፡ አእምሮ፡ በእንተ፡ ንብረት፡ ወይትመሀለል።"
+        },
+        {
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "text": "ወበእንተ፡ ሐዊረ፡ ፍኖት፡ ይስእል፡ ኀበ፡ ዘኢይክል፡ ይትሐወስ፡ ወኢየሐውር፡ አሐተ፡ ምሥጋረ፡ ወበእንተ፡ ብዕል፡ ወምግባር፡ ወረኪብ፡ ወለአርትዖ፡ እግረ፡ እድ፡ ኀበ፡ ዘኢይገብራ፡ እደዊሁ፡ ምንተኒ፡ ይስእል፡ ወየኃሥሥ፡ እምኔሁ፡ ይጸግዎ፡ ኃይለ፡ ወአፍጥኖ፡ ምግባር።"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "source_chapter_label": "14",
+      "heading": [
+        "Chapter 14"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "ወካዕበ፡ ሶበ፡ ይፌኑ፡ ሰብአ፡ ይዕርግ፡ ሀመረ፡ ውስተ፡ ባሕር፡ እንዘ፡ ይፈቅድ፡ ይንግድ፡ ውስተ፡ ፀዋጋት፡ ሞገዳት፡ ይስእል፡ ወይጸርህ፡ ኀበ፡ ዕፅ፡ ዘየኃሥር፡ ወይደክም፡ እምሐመር፡ እንተ፡ ትፀውሮ።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "እስመ፡ ለዝኩ፡ ጣዖት፡ በፍትወተ፡ ረባኅ፡ ተኬንዎ፡ ወኬንያ፡ በጥበብ፡ ገብሮ።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "ወእንቲአከሰ፡ ኃዳፍ፡ ኦ፡ አብ፡ ትሠርዕ፡ ኵሎ፡ እስመ፡ ወሀብከ፡ ውስተ፡ ባሕር፡ ፍኖተ፡ ወውስተ፡ ሞገድ፡ አሠረ፡ ጽኑዐ፡ ታርኢ፡ ከመ፡ ትክል፡ ኵሎ፡ አድኅኖ፡ በጽድቅ።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "ወበአዕርጎሂ፡ ውስተ፡ ሐመር፡ ወዘእንበለ፡ ኪንሂ፡ ዓዲ፡ አሕለፍከ፡ እስመ፡ ትፈቅድ፡ ከመ፡ ኢይኩን፡ ጽሩዐ፡ ምግባሪሃ፡ ለጥበብከ።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "በእንተ፡ ዝንቱ፡ ይትአመኑ፡ ሰብእ፡ ነፍሶሙ፡ ውስተ፡ ዕፅ፡ ምኑን፡ ወኅሡር፡ ወይትዓደዉ፡ ማእከለ፡ መዋግድ፡ በሐመር፡ ንኡስ፡ ወበአርማስ፡ ወይድኅኑ።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "ወቀዲሙኒ፡ እመ፡ ተኀጒሉ፡ ዕቡያን፡ ረዓይት፡ ውስተ፡ ዕፅ፡ ተስፋ፡ ዓለም፡ ተፀዊሮ፡ ወተፀዊኖ፡ ድኅነ፡ ወኀደገ፡ ለዓለም፡ ዘርአ፡ ትውልድ፡ ተኀዲፎ፡ በእደ፡ ዚአከ።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "እስመ፡ ተባረክ፡ ዕፅ፡ በዘቦቱ፡ ይትገበር፡ ጽድቅ።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "ወዘበዕበድሰ፡ ተገብረ፡ ርጉም፡ ውእቱ፡ ወዘገብሮኒ፡ እስመ፡ ውእቱ፡ ግብር፡ በላዪ፡ ውእቱ፡ ወዘይማስን፡ አምላከ፡ ተሰምየ።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "እስመ፡ ዕሩየ፡ ተጸልኡ፡ በኀበ፡ እግዚአብሔር፡ ረሲዕኒ፡ ወርስዓት።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "እስመ፡ ግብር፡ ዘተገብረ፡ ምስለ፡ ገባሪሁ፡ ይትኴነን።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "ወበእንተዝ፡ ሐተታ፡ ይከውን፡ በኀበ፡ ጣዖቶሙ፡ ለአሕዛብ።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "እስመ፡ ተገብረ፡ ፍጥረት፡ ለአኅጒሎ፡ ወማዕቅፈ፡ ለነፍሳተ፡ ሰብእ፡ ወመሥገርተ፡ ለአእጋረ፡ ሰብእ፡ ዓብዳን፡ እስመ፡ ቀዳሚሃ፡ ለዝሙት፡ ሐል፡ ውስተ፡ ፈጣሪሁ፡ ለጣዖት።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "ወረኪቦቱ፡ ሙስናሃ፡ ለሕይወት፡ እስመ፡ ኢሀሎ፡ እምፍጥረት፡ ወኢይሄሉ፡ ለዓለም።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "ወበምክንያተ፡ ሰብእ፡ ከንቱ፡ ቦአ፡ ውስተ፡ ዓለም፡ ከመዝ፡ በእንተ፡ ዘያፈጥን፡ ፍጻሜ፡ ኅልፈተ፡ ምስጠቶሙ።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "ወእምዝ፡ ሐለዩ፡ በጊረ፡ ጣዖት፡ እስመ፡ አብ፡ ይፄዓር፡ ወይላሁ፡ ላዕለ፡ ዘአሐዱ፡ ሎቱ፡ እስመ፡ እንዘ፡ ቆዑ፡ ተመሥጠ፡ ሕፃኑ፡ ፍጡነ።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "አምሳለ፡ ዘገብሩ፡ ሎቱ፡ ቀዲሙ፡ ለዘሞተ፡ ሰብእ፡ ይእዜሰ፡ ከመ፡ አምላክ፡ አክበርዎ፡ ወወሀብዎ፡ ቅኑያን፡ ለኃጢአት፡ በዓላተ፡ በጉሃን፡ ወመሥዋዕተ፡ ምሥጢር።"
+        },
+        {
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "text": "ወእምዝ፡ በርኅቀተ፡ መዋዕል፡ ተእኅዘ፡ ልማደ፡ እብሰት፡ ወርስዐት፡ ወከመ፡ ዘሕግ፡ ዓቀብዎ፡ ወበትእዛዘ፡ መኳንንት፡ እኩያን፡ አምለክዎሙ፡ ለግልፎዋት፡ ወለእለ፡ ይትከሀሎሙ፡ ለሰብእ፡ ያክብርዎሙ፡ በቅድመ፡ ገጾሙ።"
+        },
+        {
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "text": "እስመ፡ ርኁቀ፡ ሀለዉ፡ ወመሰሉ፡ ገጾሙ፡ ዘርኁቅ፡ መልክዑ፡ ወገብሩ፡ ለንጉሥ፡ ዘክቡር፡ በኀቤሆሙ፡ አምሳለ፡ ክሡተ፡ ለዘኢሀሎ፡ ከመ፡ ዘሀሎ።"
+        },
+        {
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "text": "ያስተበቊዕ፡ በጻሕቅ፡ ወለእለሂ፡ ኢአምሩ፡ ስሕተቶሙ፡ ፀንዑ፡ በአምልኮቶሙ፡ ወሜጡ፡ ክብረ፡ ኬንያ፡ ውስተ፡ ኪነ፡ እደ፡ ሰብእ።"
+        },
+        {
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "text": "ወቦ፡ ካዕበ፡ ዘይፈቅደ፡ ያድሉ፡ ወያሥምሮ፡ ለነጋሢ፡ አኃዚ፡ ተጠናቀቀ፡ ለገቢረ፡ አምሳሉ፡ በዘይሤኒ፡ ወበዘይኄይስ።"
+        },
+        {
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "text": "ወበውእቱ፡ ተስሕበ፡ ሰብእ፡ ብዙኅ፡ በእንተ፡ ፍሥሐሆሙ፡ በሥነ፡ ላህየ፡ ምግባር፡ ወለብእሲ፡ ዘሀሎ፡ እምቅድመ፡ መዋዕል፡ በንስቲት፡ ክብር፡ ይእዜሰ፡ ከመ፡ አምላክ፡ ረሰይዎ።"
+        },
+        {
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "text": "ወዝንቱ፡ ኮነ፡ መሥገርተ፡ ዓለም፡ እስመ፡ ሰብእ፡ ተቀንየ፡ ሎቱ፡ በምንዳቤ፡ አው፡ በአገብሮ።"
+        },
+        {
+          "unit_order": 23,
+          "source_marker": "23",
+          "source_element_id": null,
+          "text": "ወረሰዩ፡ ስሞ፡ ለአምላክ፡ ዘአልቦቱ፡ ሱታፌ፡ ለዕፅ፡ ወለእብን፡ ዘይረብኅዎሙ።"
+        },
+        {
+          "unit_order": 24,
+          "source_marker": "24",
+          "source_element_id": null,
+          "text": "ዓዲ፡ ኢእከሎሙ፡ ስሕተቶሙ፡ እምኢያእምሮ፡ እግዚአብሔር፡ አላ፡ እንዘሂ፡ ሀለዉ፡ ውስተ፡ ፀብዕ፡ ዓቢይ፡ ዘመጠነዝ፡ ሕያዋን፡ በፅበዶሙሰ፡ ለዘመጠነዝ፡ እኩይ፡ ረሰይዎ፡ ወሰመይዎ፡ ሰላመ።"
+        },
+        {
+          "unit_order": 25,
+          "source_marker": "25",
+          "source_element_id": null,
+          "text": "እስመ፡ እለ፡ ሀለዉ፡ ይቀትሉ፡ ደቂቆሙ፡ ወይገብሩ፡ ኅቡእ፡ ምሥጢረ፡ አው፡ የሐልዩ፡ ወጺኦሙ፡ እንዘ፡ ያንጎግዉ፡ በካልእ፡ ሥርዓት፡ ኢ፡ ፍናዊሆሙ።"
+        },
+        {
+          "unit_order": 26,
+          "source_marker": "26",
+          "source_element_id": null,
+          "text": "ወኢ፡ ሰብሳቦሙ፡ ዓቀቡ፡ እንከ፡ ዳዕሙ፡ ካልእ፡ ይቀትሎ፡ ለካልኡ፡ ወእመ፡ አኮ፡ ይየውሆ፡ ወያስተሴፍዎ፡ በዘያደውዮ።"
+        },
+        {
+          "unit_order": 27,
+          "source_marker": "27",
+          "source_element_id": null,
+          "text": "ወኵሉ፡ ምግባራቲሆሙ፡ ድሙር፡ ውስተ፡ ደም፡ ወቀትል፡ ወስርቅ፡ ወሕብል፡ ወሙስና፡ ወሕፀተ፡ አኰቴት፡ ወኢ፡ አሚን፡ ወመሐላ።"
+        },
+        {
+          "unit_order": 28,
+          "source_marker": "28",
+          "source_element_id": null,
+          "text": "ወሀዊከ፡ ሠናይ፡ ወኢተዘክሮ፡ ዕሤት፡ ግማኔ፡ ነፍስ፡ ወሙያጤ፡ ልደት፡ ንስተተ፡ ሥርዓተ፡ ሰብሳብ፡ ዝሙት፡ ወርኵስ።"
+        },
+        {
+          "unit_order": 29,
+          "source_marker": "29",
+          "source_element_id": null,
+          "text": "እስመ፡ አምልኮ፡ ጣዖት፡ እለ፡ አልቦሙ፡ ስም፡ ውእቱ፡ ጥንተ፡ ኵሉ፡ እከይ፡ ወምክንያተ፡ ፍጻሜሁ፡ እስመ፡ እለ፡ ያመልክዎሙ፡ ለእለ፡ ተፈሥሑ፡ ወየዓብዱ፡ ወይቀትሉ፡ ውሉዶሙ።"
+        },
+        {
+          "unit_order": 30,
+          "source_marker": "30",
+          "source_element_id": null,
+          "text": "ወእመ፡ አኮ፡ ይትኔበዩ፡ ወይሔስዉ፡ ሐሰተ፡ ወእመ፡ አኮ፡ የሐይዉ፡ ኅርቱመ፡ ወእመ፡ አኮ፡ ይምሕሉ፡ ፍጡነ።"
+        },
+        {
+          "unit_order": 31,
+          "source_marker": "31",
+          "source_element_id": null,
+          "text": "እስመ፡ እለ፡ እንበለ፡ ነፍስ፡ ይትአመኑ፡ ጣዖተ፡ ሕስወ፡ ወበሀመ፡ እለ፡ አልቦሙ፡ ንባብ፡ ወአእምሮ፡ አምሳለ፡ ፈጣሪ፡ ዘየአምር፡ ኵሎ፡ እስመ፡ አመ፡ መሐሉ፡ ይትኰነኑ፡ ኢይሴፈዉ።"
+        },
+        {
+          "unit_order": 32,
+          "source_marker": "32",
+          "source_element_id": null,
+          "text": "ኅቡረ፡ ይረክቦሙ፡ ኵነኔ፡ ዘበጽድቅ፡ እስመ፡ ሐለዩ፡ እኩየ፡ በእግዚአብሔር፡ አመ፡ ነጸሩ፡ ጣዖተ፡ ወግፍዐ፡ መሐሉ፡ ቦቱ፡ በሕብል፡ አስተአኪዮሙ፡ ጽድቀ፡ ፈጣሪ።"
+        },
+        {
+          "unit_order": 33,
+          "source_marker": "33",
+          "source_element_id": null,
+          "text": "እስመ፡ አኮ፡ በእንተ፡ ኃይልከ፡ ዘመሐሉ፡ ቦቱ፡ ዳዕሙ፡ ለአኅልፎ፡ ኵነኔ፡ አበሳሆሙ፡ ትምጻእኬ፡ እንከ፡ ኵነኔ፡ ዲበ፡ ዕልወቶሙ፡ ለገፋዕያን፡ ዘልፈ።"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "source_chapter_label": "15",
+      "heading": [
+        "Chapter 15"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "ወአንተሰ፡ አምላክነ፡ ኄር፡ ወየዋህ፡ ወፅጉሥ።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "ወበምሕረትከ፡ ትሠርዕ፡ ኵሎ፡ እስመ፡ እመ፡ አበስነ፡ ዚአከ፡ ንሕነ፡ እንዘ፡ ነአምር፡ ጽንዓከ፡ ወለእመ፡ ኢንኤብስ፡ ባሕቱ፡ እስመ፡ ነአምር፡ ኵሎ፡ ከመ፡ እሊአከ፡ ንሕነ።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "እስመ፡ አእምሮትከ፡ ፍጽምት፡ ጽድቅ፡ ይእቲ፡ ወአእምሮተ፡ ጽንዕከ፡ ሥርወ፡ ኢ፡ መዊት።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "እስመ፡ ኢያስሕተነ፡ ሕሊና፡ አኩይ፡ ከነ፡ ሰብእ፡ ወኢፃማ፡ ሠርጒ፡ ዘኢይፈሪ፡ በቊዔተ፡ አው፡ ግብረ፡ እድ፡ ዘበተሤርዮ፡ ይትዌለጥ፡ ኅብሮሙ፡ ዘራእዮሙ፡ ይስሕቦ፡ ለዓብድ፡ ውስተ፡ ፍትወቶሙ፡ ይምጻእ፡ ያፍቅር፡ ባሕቱ፡ አምሳለ፡ ምውት፡ ዘእንበለ፡ ነፍስ፡ ወኢነሶሳው።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "ፈታውያነ፡ እከይ፡ እሙንቱ፡ ይደልዎሙ፡ ዘከመዝ፡ ተስፋ፡ ለእለ፡ ይገብርዎሙኒ፡ ወለእለ፡ ያፈቅርዎሙኒ፡ ወለእለ፡ ያመልክዎሙኒ።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "እስመ፡ ለባሐዊኒ፡ አመ፡ ሎሰ፡ ዕቡረ፡ ልምሉመ፡ ይገብር፡ ዘዘዚአሁ፡ ዘይደሉ፡ ለመልእክተ፡ ኵሉ፡ ለለ፡ አሐዱ፡ አሐዱ፡ እምኔነ።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "ወባሕቱ፡ እምውእቱ፡ ዕቡር፡ ንዋያተ፡ ይገብር፡ ለመልእክተ፡ ምግባራት፡ ንጹሐት፡ ወለካልአትሂ፡ ምግባራት፡ ከማሆሙ፡ አምሳለ፡ እልክቱ፡ ይገብር።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "ወተግባሮሙሰ፡ ለእሉ፡ ኵሎሙ፡ ለዘዘዚአሁ፡ መፍቅድ፡ ወፈታሒ፡ መኰንን፡ ገባሬ፡ ዕቡር፡ ውእቱ።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "ወዘይፃሙሂ፡ ለእከይ፡ ይልሕኵ፡ እምውስተ፡ ውእቱ፡ ዕቡር፡ ከንቶ፡ አምላከ።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "ወዝንቱ፡ እምቅድመ፡ ንስቲት፡ መዋዕል፡ ተገብረ፡ እምድር፡ ወእምድኅረ፡ ንስቲት፡ መዋዕል፡ ሀለዎ፡ ይግባእ፡ ውስተ፡ እንተ፡ ወፅአ፡ እምኔሃ።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "ወይትኃሠሥዎ፡ በእንተ፡ ኵነኔ፡ ነፍሱ፡ ወባሕቱ፡ ፃሕቅሰ፡ ዘኀቤሁ፡ አኮ፡ ኢያእሚሮ፡ እስመ፡ ሀለዎ፡ ይፃሙ፡ ወይድክም።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "ወኢሀልዎተ፡ ንብረቱ፡ ንስቲት፡ አላ፡ ከመ፡ ይትቃሐዎሙ፡ ለነሀብተ፡ ብሩር፡ ወወርቅ፡ ወይትማሰሎሙ፡ ለገባርያነ፡ ብርት፡ ወገቢሮ፡ ኅሡረ፡ ይጼግዎ፡ ክብረ።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "ሐመድ፡ ልቡ፡ ወእመሬት፡ የኀሥር፡ ተስፋሁ፡ ወእምዕቡር፡ ይትሜነን፡ ፈድፋደ፡ ንብረቱ።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "እስመ፡ ኢየአምር፡ ለዘገብሮ፡ ወአስተንፈሰ፡ ቦቱ፡ ነፍሰ፡ እንተ፡ ታሠልጥ፡ ወነፍሐ፡ ውስቴቱ፡ መንፈሰ፡ ሕይወት፡ ሠናይተ።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "ወባሕቱ፡ እስመ፡ እሙንቱሂ፡ ሐለዩ፡ ሕይወተነ፡ ተውኔተ፡ ወሥላቀ፡ ወንብረተነ፡ ትምምርተ፡ ለረባኅ፡ እስመ፡ ውእቱ፡ ይቤ፡ የዓፅበኒ፡ እስመ፡ ኃጣእኩ፡ ወእምዝ፡ ይረብኅ፡ ወያጠሪ፡ እከየ።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "ወናሁ፡ ተዓውቀ፡ ከመ፡ ዝንቱ፡ ይኤብስ፡ ፈድፋደ፡ እምኵሉ፡ እስመ፡ ገብረ፡ ጣዖተ፡ ዘግልፎ፡ እምዘ፡ ያስተርኢ፡ ውስተ፡ ምድር፡ ዘይማስን፡ ወይጠፍእ፡ ፍጡነ።"
+        },
+        {
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "text": "ወኵሎሙ፡ ዐብዳን፡ ወኅርቱማን፡ አሙንቱ፡ ወኵሎሙ፡ ሙታን፡ እምሕዝብ፡ ፂዉዋን፡ ወእሱራን፡ ቦቱ፡ ያፈደፍዱ፡ ዕበደ፡ አምነፍሰ፡ ሕፃናት።"
+        },
+        {
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "text": "እስመ፡ እሙንቱ፡ ሐለዩ፡ ወረሰዩ፡ ጣዖተ፡ አሕዛብ፡ አማልክተ፡ እለ፡ ኢይትከሀሎሙ፡ ተገብሮ፡ በኣዕይንቲሆሙ፡ ውስተ፡ ርእይ፡ ወኢአንፎሙ፡ ለአፄንዎ፡ ነፋስ፡ ወኢዕዝኖሙ፡ ለሰሚዕ፡ ወኢ፡ አፃብዐ፡ እደዊሆሙ፡ ለገሢሥ፡ ወኢ፡ አእጋሪሆሙ፡ ጽሩዓት፡ እምነሶሳው።"
+        },
+        {
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "text": "እስመ፡ ብእሲ፡ ገብሮሙ፡ ወመንፈስ፡ ዘተከፍለ፡ ለሐኮሙ፡ እስመ፡ ኢይትከሀሎ፡ ለሰብእ፡ ይግበር፡ አምላከ፡ አምሳሊሁ።"
+        },
+        {
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "text": "እስመ፡ እንዘ፡ መዋቲ፡ ውእቱ፡ ምውተ፡ ይገብር፡ በእደ፡ ኃጢአት፡ እስመ፡ ውእቱ፡ ይኄይስ፡ እምአማልክቲሁ፡ እስመ፡ ውእቱ፡ ሕያው፡ ወእልክቱሰ፡ ኢየሐይዉ፡ ግሙራ።"
+        },
+        {
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "text": "ወለእንስሳኒ፡ ረሰይዎሙ፡ አማልክተ፡ ያምልክዎሙ፡ በዕበድ፡ ወለእሉሰ፡ ሶበ፡ ደለዎሙ፡ በሕሊና፡ የአክዩ፡ እምካልአን፡ አማልክት።"
+        },
+        {
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "text": "ወዘሂ፡ ፈተወ፡ ፍትወተ፡ ናሁ፡ ሠለጠ፡ በአሐዱ፡ እምኔሆሙ፡ ውስተ፡ ርእየተ፡ እንስሳ፡ ወበአሐዱ፡ ዓለወ፡ እስመ፡ በዝንቱ፡ ጐየ፡ ውዳሴ፡ እግዚአብሔር፡ ወክብሩ።"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "source_chapter_label": "16",
+      "heading": [
+        "Chapter 16"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "ወበእንተዝ፡ ዘበዘይመስሎሙ፡ ለአማልክቲሆሙ፡ ተቀሥፉ፡ በጽድቅ፡ እስመ፡ ይደልዎሙ፡ ወበብዙኀን፡ እለ፡ ይትሐወሱ፡ ሕሱማን፡ ተፅዕሩ።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "ወአሠነይከ፡ ሎሙ፡ ለሕዝብከ፡ አንፃረ፡ ፀሮሙ፡ ወወሀብኮሙ፡ ፍርፍርተ፡ መብልዐ፡ ለፍትወቶሙ፡ ወይጥዓሙ፡ ፍትወተ፡ ዘጣዕሙ፡ ነኪር።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "ወእልክቱሰ፡ አመ፡ ፈተዉ፡ መብልዐ፡ ወባሕቱ፡ በእንተ፡ ግብር፡ ዘተፈነወ፡ ላዕሌሆሙ፡ ይትመየጡ፡ ወዘዘልፈ፡ ልማደ፡ መነኑ።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "ወእሉሰ፡ ሶበ፡ ረከቦሙ፡ ዓፀባ፡ ወኃጥኡ፡ ኅዳጠ፡ መዋዕለ፡ ተደለዉ፡ ለመብልዕ፡ ዘነኪር፡ ጣዕሙ።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "እስመ፡ መፍቅድ፡ ጸውዐ፡ ይብጻሕ፡ ላዕለ፡ እልክቱ፡ ኵነኔ፡ ዘእንበለ፡ ምሂክ፡ እስመ፡ ኅዩላን፡ ወእኩያን፡ እሙንቱ፡ ወከመ፡ ይርአዩ፡ እሉ፡ እፎ፡ ባሕቲቶሙ፡ ተፅዕሩ፡ አፅራሪሆሙ።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "ወለእመ፡ መጽኦሙ፡ መዓተ፡ አራዊት፡ ፀዋጋን፡ ወኀልቁ፡ በንስከተ፡ አራዊተ፡ ምድር፡ እኩያን፡ አኮ፡ ለዝሉፉ፡ ዘፀንዐ፡ መዓትከ፡ ዳዕሙ፡ ተሀውኩ፡ ኅዳጠ፡ መዋዕለ፡ ከመ፡ ይትገሠዑ።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "ወዝንቱ፡ ትእምርት፡ ኮኖሙ፡ መድኃኒተ፡ ያዘክሮሙ፡ ትእዛዛ፡ ሕግከ።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "እስመ፡ ዘተመይጠ፡ እምኔሆሙ፡ አኮ፡ ዘድኅነ፡ በዘርእየ፡ አላ፡ በእንቲአከ፡ ድኅነ፡ ኦ፡ መድኃኔ፡ ኵሉ።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "ወበዝኒ፡ አመከርኮሙ፡ ወአእመንኮሙ፡ ከመ፡ አንተ፡ ውእቱ፡ ዛታድኅን፡ እምኵሉ፡ እኩይ።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "እስመ፡ ለእልክቱ፡ ቀተሎሙ፡ ንስከተ፡ አንበጣ፡ ወጽንጽንያ፡ ወኢተረክበ፡ ፈውስ፡ ለነፍሶሙ፡ እስመ፡ ይደልዎሙ፡ ከመ፡ ትኰንኖሙ፡ በዘከመዝ፡ አምሳል።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "ወለውሉድከሰ፡ ሶበ፡ ተአዘዙ፡ ቦሙ፡ ስነነ፡ አክይስት፡ ዘቦቱ፡ ሕምዝ፡ እስመ፡ ምሕረትከ፡ መጽኦሙ፡ ወፈወሶሙ።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "እስመ፡ ለተዘክሮ፡ ቃልከ፡ ጥዕሙ፡ ዘንተ፡ ወፍጡነ፡ ሐይዉ፡ ከመ፡ ኢይደቁ፡ ውስተ፡ ርስዓት፡ ዕሙቅ፡ ወከመ፡ ኢይደቁ፡ ውስተ፡ ካልእ፡ ምግባር፡ ወሕማም፡ እምዝክረ፡ ሠናያቲከ።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "እስመ፡ አኮ፡ ዕፅ፡ ዘይሰትይዎ፡ ወኢሥራይ፡ ዘይቀብዕዎ፡ ዘፈወሶሙ፡ አላ፡ ቃለ፡ ዚአከ፡ እግዚኦ፡ ዘኵሎ፡ ይፌውስ።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "እስመ፡ ለሞት፡ ወለሕይወት፡ ሥልጣን፡ ብከ፡ ወታወርድ፡ ውስተ፡ አናቅጸ፡ ሲኦል፡ ወታወፅእ።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "ወሰብእሰ፡ ይቀትል፡ በእኩይ፡ ወእምከመ፡ ወፅአ፡ መንፈስ፡ ኢይገብእ፡ ወኢትሠወጥ፡ ነፍስ፡ እንተ፡ ተነሥአት።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "ወእምእደ፡ ዚአከሰ፡ ጐይይ፡ ኢይትከሀል፡ ወኢይደሉ።"
+        },
+        {
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "text": "ወሶበ፡ አእመርከ፡ ከመ፡ ረሲዓን፡ ይክሕዱከ፡ በኃይለ፡ መዝራዕትከ፡ ተቀሥፉ፡ ወኃልቁ።"
+        },
+        {
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "text": "ወተሰዱ፡ በዝናም፡ ነኪር፡ ወበበረድ፡ ወበአስራበ፡ ሰማይ፡ ዘእንበለ፡ ምሕረት፡ ወኢክልአት፡ ወኃልቁ፡ በእሳት።"
+        },
+        {
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "text": "ወዘመንከርሰ፡ ግብር፡ ዘኢይትከሀል፡ ኵሉ፡ ዘይጠፍእ፡ በማይ፡ ፈድፋደ፡ ተገብረ፡ ወተሠልጠ፡ ውስቴቱ፡ እሳት፡ እስመ፡ ዓለም፡ መርድእ፡ ለጻድቃን፡ ውእቱ።"
+        },
+        {
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "text": "እስመ፡ ላህበ፡ ነድ፡ ኮነ፡ ልሙደ፡ ከመ፡ ኢያውዒ፡ እንስሳ፡ ዘተፈነወ፡ ላዕለ፡ ረሲዓን።"
+        },
+        {
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "text": "ወባሕቱ፡ ሶበ፡ ርእዩ፡ ዘንተ፡ እሙንቱ፡ የአምሩ፡ ከመ፡ በኵነኔ፡ እግዚአብሔር፡ ይሰደዱ፡ ወቦሙ፡ ማእከለ፡ ማይ፡ ይነድድ፡ ኃይለ፡ እሳት፡ ፈድፋደ፡ ከመ፡ ያማስን፡ ወያጥፍእ፡ ፍሬያተ፡ ምድር፡ ዓማፂት።"
+        },
+        {
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "text": "ወበህየንቴሁ፡ አብላዕከ፡ ለሕዝብከ፡ መብልዐ፡ መላእክት፡ ወፈነውከ፡ ኅብስተ፡ ድልወ፡ እምሰማይ፡ ዘእንበለ፡ ፃማ፡ ዘይትኄየል፡ ጣዕሙ፡ እምኵሉ፡ ዘይጥዕም፡ ወያኃሥር፡ ኵሎ፡ ጣዕመ።"
+        },
+        {
+          "unit_order": 23,
+          "source_marker": "23",
+          "source_element_id": null,
+          "text": "እስመ፡ አርአያ፡ መልክዕከ፡ ዘላዕሉ፡ ከሠተ፡ ጣዕመ፡ ምዕርዕርናከ፡ ለውሉድከ፡ ወይትፋለስ፡ ጣዕሙ፡ ለዘይነሥእ፡ እምኔሁ፡ ወይትለአከ፡ ለፈጽሞ፡ ፍትዎቶሙ፡ ዘሐለዩ፡ እምነ፡ መባልዕት፡ ወፈቀዱ።"
+        },
+        {
+          "unit_order": 24,
+          "source_marker": "24",
+          "source_element_id": null,
+          "text": "በረድኒ፡ ወአስሐትጸንዑ፡ ወቆሙ፡ ዘምስለ፡ እሳት፡ ወኢተመስዉ፡ ከመ፡ ያእምሩ፡ ከመ፡ ፍሬያተ፡ አዝርእቶሙ፡ ለአፅራር፡ አማሰት፡ ወአጥፍአት፡ እሳት፡ እንዘ፡ ትነድድ፡ ውስተ፡ በረድ፡ ወውስተ፡ ዝናማትኒ፡ እንዘ፡ ትበርቅ።"
+        },
+        {
+          "unit_order": 25,
+          "source_marker": "25",
+          "source_element_id": null,
+          "text": "ወዘንተ፡ ካዕበ፡ ሶበ፡ ተሴሰዩ፡ ጻድቃን፡ ኃይለ፡ ሲሳየ፡ ርእሶሙ፡ ረስዑ፡ እስመ፡ ኵሉ፡ ፍጥረት፡ ለከ፡ ይትለአክ።"
+        },
+        {
+          "unit_order": 26,
+          "source_marker": "26",
+          "source_element_id": null,
+          "text": "ኦ፡ ገባሪ፡ ትሰፍሕ፡ ኵነኔ፡ ዘይትፌኖ፡ ላዕለ፡ ዓማፅያን፡ ወትጼጉ፡ ተድላ፡ ይብጻሕ፡ ኀበ፡ እለ፡ ይትአመኑ፡ ብከ።"
+        },
+        {
+          "unit_order": 27,
+          "source_marker": "27",
+          "source_element_id": null,
+          "text": "ወበእንተዝ፡ አሜሃ፡ ሀብትከ፡ ሀለወት፡ ትትፋለስ፡ ውስተ፡ ኵሉ፡ ግብር፡ ወትትለአከ፡ ውስተ፡ ኵሉ፡ መብልዕ፡ መንገለ፡ መፍቅድ፡ ዘሰአሉ፡ ወፈተዉ።"
+        },
+        {
+          "unit_order": 28,
+          "source_marker": "28",
+          "source_element_id": null,
+          "text": "ከመ፡ ያእምሩ፡ ውሉድከ፡ እለ፡ አፍቀርኮሙ፡ እግዚኦ፡ ከመ፡ አኮ፡ ዘዘዚአሁ፡ ፍሬያተ፡ ዘርእ፡ ዘይሴሴ፡ ሰብእ፡ አላ፡ ቃልከ፡ የዓቅቦሙ፡ ለእለ፡ ይትዌከሉ፡ ብከ።"
+        },
+        {
+          "unit_order": 29,
+          "source_marker": "29",
+          "source_element_id": null,
+          "text": "እስመ፡ ዘኢያማስኖ፡ እሳት፡ በከ፡ በንስቲት፡ ላህበ፡ ፀሐይ፡ መዊቆ፡ ተመስወ፡ ከመ፡ ይትአመር።"
+        },
+        {
+          "unit_order": 30,
+          "source_marker": "30",
+          "source_element_id": null,
+          "text": "እስመ፡ ፀሐይኒ፡ የኃሥሥ፡ ይምጻእ፡ ኀቤነ፡ ከመ፡ ኪያከ፡ ናእኵት፡ ወናስተብቊዕ፡ ኀቤከ፡ መንገለ፡ ሠርቀ፡ ፀሐይ።"
+        },
+        {
+          "unit_order": 31,
+          "source_marker": "31",
+          "source_element_id": null,
+          "text": "እስመ፡ ተስፋሁ፡ ለዘኢየአኵት፡ ይትመሰው፡ ከመ፡ አስሐትያ፡ ክረምት፡ ወይውኅዝ፡ ከመ፡ ማይ፡ ርኩስ፡ ዘኢይበቊዕ።"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "source_chapter_label": "17",
+      "heading": [
+        "Chapter 17"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "እስመ፡ ዓቢይ፡ ኵነኔከ፡ ወዕፁብ፡ ለተናግሮ፡ በእንተዝ፡ ስሕቱ፡ ነፍሳት፡ እለ፡ አልቦሙ፡ ትምህርተ፡ ፈጣሪ።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "እስመ፡ ኃጥአን፡ አመ፡ ነሥኡ፡ ሕዝቦ፡ ቅድሰ፡ ወተኃየሉ፡ ላዕሌሆሙ፡ ወኃያላን፡ ተአስሩ፡ በጽልመተ፡ ሌሊት፡ ነዋኅ፡ አሜሃ፡ ተሞቅሑ፡ መትሕተ፡ ተድባበ፡ ቤት።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "ወተረክቡ፡ ጊጉያን፡ እምሥርዓተ፡ መልእክት፡ ዘለዓለም፡ ሐሊዮሙ፡ ዘአበሱ፡ ቦቱ።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "ውስተ፡ አብያት፡ ዘአልቦ፡ ውስቴቱ፡ ብርሃን፡ ይትኃባእ፡ በምሥዋር፡ ወይትረሳዕ፡ ወተዘርዉ፡ ወተመስዉ፡ እምድንጋፄ፡ እንዘ፡ ይዴመሙ፡ ጥቀ፡ ወተሀውኩ፡ በምትሐት።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "እስመ፡ ዘማዊ፡ ዘአኀዞሙ፡ ኢከሀለ፡ ይዕቀቦሙ፡ ዘእንበለ፡ ድንጋፄ፡ ወድምፀ፡ ቃል፡ ልዑል፡ ያንሶጥጥ፡ ንባቡ፡ ኮነ፡ የሀውኮሙ።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "ወራእየ፡ ምምትሐተ፡ ጸዋግ፡ አጥፍአ፡ ኵሎ፡ ዘገጹ፡ ትኩዝ።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "ወብርሃነ፡ እሳትኒ፡ ኢክሀለ፡ ያብርህ፡ ወኢአሐተ፡ ጊዜ፡ ወኢፀዳለ፡ ከዋክብት፡ ብሩሃን፡ ዘቆሙ፡ ለሥርዓተ፡ እንታክቲ፡ ጽልመተ፡ ሌሊት።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "ወባሕቱ፡ አስተርአየ፡ ሎሙ፡ ግብተ፡ እሳት፡ ባሕቲቱ፡ ዘፍጹም፡ ግርማኑ፡ እምዝንቱ፡ ገጽ፡ ዘያስተርኢ፡ ዘየአኪ፡ እምገጻት፡ እለ፡ ያስተርእዩ፡ አመ፡ ረሰዩ፡ ፃማ፡ ዕበድ፡ ዘግብረ፡ ሥራይ።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "ዘወርቅ፡ ወዘብሩር፡ ትዕቢት፡ ለዝላፉ፡ በእለ፡ ይፄእሉ።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "እስመ፡ እለ፡ አሰፈዉ፡ ከመ፡ ይስድዱ፡ ሁከታ፡ ለነፍስ፡ ድውይት፡ ወድንጋፄሃ፡ አድወዮሙ፡ ለእሉ፡ ፍርሃት፡ ዘሰሐቅ፡ እመሰ፡ ኢያፍርሆሙ፡ ምንትኒ፡ ዘየሀውክ።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "ነሶሳወ፡ ተሐዋስያን፡ ዘይሠርር፡ ወንኡስ፡ እምእለ፡ ይትሐወሱ፡ ሰደዶሙ፡ ወአንፈዖሙ፡ ድንጉፃነ።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "ወኢተክህሎሙ፡ በርእየተ፡ ነፋስ፡ ዘይጐይይ፡ እምነ፡ ኵሉ፡ ገጻተ።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "እስመ፡ ምግባሩ፡ ለእኩይ፡ ዓመፃ፡ እንተ፡ ይከውኑ፡ ቦቱ፡ ስምዐ፡ ወይፈትሑ፡ ላዕሌሁ፡ ወዘልፈ፡ ውእቱ፡ ይትዌከፍ።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "ወይገብር፡ ግብረ፡ ዘዑግ፡ ወጠዋይ፡ እንዘ፡ ይትዓወቆ፡ ወይኔጽር፡ በሕሊና፡ አእምሮ።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "እስመ፡ አኮ፡ ምንትኒ፡ ውእቱ፡ ግርማ፡ ፍርሃት፡ አላ፡ ያስተሴፉ፡ ትሕዝብተ፡ ኵነኔ፡ በሕሊና።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "ወእመሰ፡ ተሰፍዎ፡ ትሕዝብት፡ ዘውስጥ፡ ኅዳጥ፡ ወኅፁፅ፡ ፈድፋደ፡ ትትሔለይ፡ በኢያእምሮ፡ ወዕበድ፡ እንተ፡ ትሁብ፡ ፍኖተ፡ ለኵነኔ።"
+        },
+        {
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "text": "ወለእልክቱኒ፡ ሶበ፡ ከደነቶሙ፡ እንታክቲ፡ ሌሊት፡ እንተ፡ ኢይትከሀል፡ ፀዊሮታ፡ እሙነ፡ እንተ፡ ዓርገት፡ እማዕምቅተ፡ ፃዕረ፡ ሲኦል፡ ዘኢይትከሀል፡ ፀዊሮታ፡ ሀለዉ፡ እንዘ፡ ይነውሙ፡ ኪያሃ፡ ዕለተ።"
+        },
+        {
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "text": "እስመ፡ አደንገፅዎሙ፡ መደንግፃን፡ በዘይሰድድዎሙ፡ በአርእዮ፡ ምትሐት፡ ወበዘያደክም፡ ተስፋሃ፡ ለነፍስ፡ ወግብተ፡ በጽሖሙ፡ ድንጋፄ፡ ወፍርሃት፡ ዘኢተሰፈውዎ፡ ወኢተሐዘብዎ።"
+        },
+        {
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "text": "ወከመዝ፡ ኵሉ፡ ዘሀሎ፡ ህየ፡ መኑሂ፡ ዘኮነ፡ እመኒ፡ ዘወድቀ፡ ወእመኒ፡ ዘይትዓቀብ፡ ውስተ፡ ቤተ፡ ሞቅሕ፡ ተሞቂሖ፡ በሐፂን፡ ወዘእንበለ፡ ሐፂን፡ እመሂ፡ ሐረሳዊ፡ ወእመሂ፡ ኖላዊ።"
+        },
+        {
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "text": "እመኒ፡ ገባኢ፡ ዘይፃሙ፡ ለተገብሮታ፡ ለምድር፡ ነቢሮ፡ ውስተ፡ ገዳም፡ እስመ፡ ተዓገሠ፡ ይእተ፡ ምንዳቤ፡ ዕፅብተ፡ ዘተራከበቶ፡ እንተ፡ አልባቲ፡ ማኅለቅት።"
+        },
+        {
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "text": "እስመ፡ ማኅበሮሙ፡ ተአስረ፡ በአሐቲ፡ ሞቅሕ፡ ሙቃሔ፡ ጽልመት፡ ወአምሳል፡ ዘረከቦሙ፡ ከመዝ፡ መንፈስ፡ ዘይትፋጸይ።"
+        },
+        {
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "text": "አው፡ ቃለ፡ አዕጹቅ፡ ዘሠናይ፡ ድምፁ፡ እምአእዋም፡ ጽፉቃት፡ እለ፡ ይጼልሉ፡ አው፡ እምቃለ፡ አዕዋፍ፡ ዘሠናይ፡ ዜማሆሙ።"
+        },
+        {
+          "unit_order": 23,
+          "source_marker": "23",
+          "source_element_id": null,
+          "text": "አው፡ ድምፀ፡ ምንባሐብሐተ፡ ማይ፡ ዘየሐውር፡ በኃይል፡ አው፡ ድምፀ፡ ፀዋልዕት፡ እለ፡ ያንኰረኵሩ፡ በግርማ።"
+        },
+        {
+          "unit_order": 24,
+          "source_marker": "24",
+          "source_element_id": null,
+          "text": "አው፡ ሩዐተ፡ እንስሳ፡ እለ፡ ያንፈርዕዑ፡ ወኢይትረአይ፡ ሩፀቶሙ፡ አው፡ ቃለ፡ አራዊት፡ እለ፡ ይጥኅሩ፡ በጥራዐ፡ ቃል፡ መፍርህ።"
+        },
+        {
+          "unit_order": 25,
+          "source_marker": "25",
+          "source_element_id": null,
+          "text": "አው፡ ድምፀ፡ ቃል፡ ዘአድባር፡ መፍርሃን፡ እለ፡ ያወሥኡ፡ ወያዓልዉ፡ ድምፀ፡ በበይናቲሆሙ፡ እምድምፀ፡ አዕዋፍ፡ ወአራዊት።"
+        },
+        {
+          "unit_order": 26,
+          "source_marker": "26",
+          "source_element_id": null,
+          "text": "ከመዝ፡ ውእቱ፡ ምንዳቤ፡ ዘመሠጦሙ፡ ወአደንገፆሙ።"
+        },
+        {
+          "unit_order": 27,
+          "source_marker": "27",
+          "source_element_id": null,
+          "text": "እስመ፡ ኵሉ፡ ዓለም፡ ሀሎ፡ ይበርህ፡ በብርሃን፡ ጽዱል፡ ይፈጽም፡ ግብሮ፡ ዘእንበለ፡ ፅርዓት፡ ወኢክልአት።"
+        },
+        {
+          "unit_order": 28,
+          "source_marker": "28",
+          "source_element_id": null,
+          "text": "ወለእልክቱሰ፡ ባሕቲቶሙ፡ ከደኖሙ፡ ክበደ፡ ሌሊት፡ አርአያሁ፡ ለጽልመት፡ ዘሀሎ፡ ይነሥኦሙ፡ ወለሊሆሙ፡ ለርእሶሙ፡ እለ፡ ይከብዱ፡ እምጽልመት።"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "source_chapter_label": "18",
+      "heading": [
+        "Chapter 18"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "ወኀበ፡ ጻድቃንሰ፡ ሀሎ፡ ዓቢይ፡ ብርሃን፡ እስመ፡ እልክቱ፡ ኮኑ፡ ይሰምዑ፡ ቃሎሙ፡ ወራእዮሙሰ፡ ኢይሬእዩ።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "እስመ፡ እሙንቱ፡ ሀለዉ፡ ይዘብጡ፡ ለእለ፡ ይፈትዎሙ፡ ወሀለዉ፡ ይትአኰቱ፡ እንበይነ፡ ዘአሕመምዎሙ፡ ለግፉዓን።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "ወእሉሰ፡ ተፈሥሑ፡ በጸጋ፡ ድኂን፡ ዘተፈነወ፡ ሎሙ፡ ወወሀቦሙ፡ ዕሤተ፡ ዓምደ፡ እሳት፡ ዘያበርህ፡ ይምርሖሙ፡ ፍኖተ፡ መንገድ፡ ዘኢይትአመር።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "ወፀሐየ፡ ዘያዋኪ፡ ውስተ፡ ተእንግዶ፡ ዘይትፈቀር፡ እስመ፡ ለእልክቱ፡ ይደልዎሙ፡ ከመ፡ ይኅጥኡ፡ ብርሃነ።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "ወይትሞቅሑ፡ ውስተ፡ ጽልመት፡ እስመ፡ ዓፀውዎሙ፡ ለውሉድከ፡ ወሞቅሕዎሙ፡ እለ፡ ቦሙ፡ ብርሃነ፡ ሕግ፡ ዘኢይበሊ፡ ዘሀሎ፡ ይትወሀብ፡ ሎሙ፡ ለዓለመ፡ ዓለም።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "ወሶበ፡ ሐለዩ፡ ወመከሩ፡ ይቅትሉ፡ ውሉደ፡ ጻድቃን፡ ወተገዲፎ፡ አሐዱ፡ ሕፃን፡ ድኅነ፡ ለዘለፋሆሙ፡ ወቦቱ፡ አጥፋእከ፡ ዘእንበለ፡ ምሂክ፡ መብዝኅተ፡ ውሉዶሙ፡ ወማኅበሮሙ፡ ኵሎ፡ በማይ፡ ብዙኅ።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "ለእንታክቲ፡ ሌሊት፡ አእመርዋ፡ አበዊነ፡ እምከመ፡ ሶበ፡ አእመሩ፡ መሐላ፡ ዘተካየዶሙ፡ ባቲ፡ በፍቅር፡ ይዘከርዋ።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "ወተወከፍከ፡ ሕዝበከ፡ መድኃኒተ፡ ለጻድቃን፡ ወኀጒለ፡ ለፀር፡ ተቃራንያን።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "እስመ፡ ዘከመ፡ ቀሠፍኮሙ፡ ለእለ፡ ይትቃረኑ፡ ከማሁ፡ ሶበ፡ ጸዋዕከነ፡ አክበርከነ።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "እስመ፡ አግብርቲከ፡ ጻድቃን፡ ሀለዉ፡ ይሠውዑ፡ መሥዋዕተ፡ ተድላ፡ ሠናየ፡ ወወደዩ፡ ውስተ፡ ልቦሙ፡ ሕገ፡ መለኮትከ፡ በተሰናዕዎ።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "ወበዝንቱ፡ አምሳል፡ ተወከፉ፡ ቅዱሳን፡ ሠናያተ፡ ወምንዳቤሂ፡ ለእለ፡ ይደልዎሙ።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "አበዊነሰ፡ ሀለዉ፡ ይሰብኩ፡ ፍሥሓ፡ እንዘ፡ ይሴብሑ፡ ወይትራከብ፡ ቃላቲሆሙ፡ ምስለ፡ ጽራሐ፡ ብካየ፡ ጸላእት፡ እንዘ፡ ኢየኀብር፡ ንባቦሙ።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "ወእማትኒ፡ ያደምፃ፡ ቃለ፡ ሰቆቃው፡ በእንተ፡ ደቂቆን።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "ወኵነኔ፡ ገብር፡ ምስለ፡ እግዚእ፡ በመቅሠፍት፡ ተዓረየ።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "ወለሐምራዊኒ፡ ምስለ፡ ንጉሥ፡ ዕሩየ፡ ረከበቶሙ፡ ዛቲ፡ ሕማም፡ ወኵሎሙ፡ ኅቡረ፡ በአሐዱ፡ አምሳል፡ ሞቱ።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "ወቦሙ፡ አብድንተ፡ ሙታን፡ ዘአልቦሙ፡ ኊልቊ፡ እስመ፡ ሕያዋን፡ ኢከሀሉ፡ ይቅብርዎሙ፡ ለምውታን፡ እስመ፡ በአሐቲ፡ ሰዓት፡ ጠፍአት፡ ወማሰነት፡ ክብርት፡ ልደቶሙ።"
+        },
+        {
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "text": "እስመ፡ በእንተ፡ ሥራይ፡ ኢአምነት፡ ኵሎ፡ መቅሠፍተ፡ ዘረከቦሙ፡ ወበጥፍአተ፡ በኵሮሙ፡ አእመሩ፡ ከመ፡ ሕዝብ፡ ውሉደ፡ እግዚአብሔር፡ እሙንቱ።"
+        },
+        {
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "text": "እስመ፡ ሶበ፡ ከደና፡ ለኵላ፡ ፍጥረት፡ ኅድአት፡ ወአርምሞ፡ እንተ፡ ኵሎ፡ ትመልክ፡ ተበቀላ፡ ለይእቲ፡ ሌሊት፡ ቃልከ፡ መዋዒ፡ ወፀባኢ፡ ወመስተቃትል፡ ዘይክል፡ ኵሎ።"
+        },
+        {
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "text": "እምሰማያት፡ ውስተ፡ ማእከሎሙ፡ ለአፅራር፡ እለ፡ ሎሙ፡ መንግሥት፡ ከመ፡ ይሥርዎሙ፡ እምድር፡ ዘእንበለ፡ አድልዎ፡ ትእዛዝከ፡ ቀኒቶ፡ ሰይፈ፡ በሊሐ፡ ቀዊሞ፡ ማእከሎሙ፡ ወመልአኵሎ፡ ደዌሆሙ፡ ሞተ።"
+        },
+        {
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "text": "ወገሠሦሙ፡ እምሰማይ፡ ወተፅዕኖሙ፡ እምድር፡ ወሆኮሙ፡ አሜሃ፡ በመትሕተ፡ አልሕምት፡ ጸዋጋን፡ ወሰፈነት፡ ላዕሌሆሙ፡ ድንጋፄ፡ እንተ፡ ኢተሐዘብዋ።"
+        },
+        {
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "text": "ወቦ፡ እምኔሆሙ፡ ዘይወድቅ፡ ውስተ፡ ካልእ፡ ገጸመካን፡ እንዘ፡ መንፈቁ፡ ምውት፡ ወእንዘ፡ መንፈቁ፡ ሕያው፡ ወከሠተ፡ ሎሙ፡ ምክንያተ፡ እንተ፡ በእንቲአሃ፡ ይመውቱ።"
+        },
+        {
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "text": "እስመ፡ አሕላም፡ እለ፡ ሆክዎሙ፡ አቅደሙ፡ ነጊሮቶሙ፡ ዘንተ፡ ከመ፡ ኢይትኰነኑ፡ ዘእንበለ፡ አእምሮ፡ እስመ፡ በእንተ፡ ምንት፡ ይረክቦሙ፡ ሞት፡ እኩይ፡ ወይቀትሎሙ።"
+        },
+        {
+          "unit_order": 23,
+          "source_marker": "23",
+          "source_element_id": null,
+          "text": "ወቦ፡ እምነ፡ ጻድቃን፡ ዘረከቦሙ፡ መከራ፡ ሞት፡ ቀዲሙ፡ ወኮነ፡ በገዳም፡ ድቀት፡ ወአውደቀ፡ ብዙኀነ፡ እምኔሆሙ።"
+        },
+        {
+          "unit_order": 24,
+          "source_marker": "24",
+          "source_element_id": null,
+          "text": "ወባሕቱ፡ መዓት፡ ኢጐንደየ፡ ብዙኀ፡ መዋዕለ፡ እስመ፡ ብእሲ፡ ዘአልቦ፡ ነውር፡ አፍጠነ፡ ወተፃብአ፡ ነሢኦ፡ ንዋየ፡ ሐቅል፡ ዘቅኔሁ፡ ኤፉደ፡ ጸሎት፡ ወዕጣን።"
+        },
+        {
+          "unit_order": 25,
+          "source_marker": "25",
+          "source_element_id": null,
+          "text": "ወረከበ፡ ሞገሰ፡ ለአስተርእዮ፡ ወተቃወመ፡ መዓተ፡ ወአሕስአ፡ መቅሠፍተ፡ ወአርአየ፡ በዝንቱ፡ ርእሶ፡ ከመ፡ ላእከ፡ ዚአከ፡ ውእቱ፡ ወሞዐ፡ ማኅበሮሙ፡ ለእለ፡ ያጠፍኡ።"
+        },
+        {
+          "unit_order": 26,
+          "source_marker": "26",
+          "source_element_id": null,
+          "text": "አኮ፡ በኃይለ፡ ሥጋ፡ ወኢ፡ በግብረ፡ ንዋየ፡ ሐቅል፡ አላ፡ አግረረ፡ ዘይቀሥፍ፡ በቃለ፡ ዚአከ፡ በዘአዘከረ፡ ሎቱ፡ መሐላ፡ አበው፡ ወኪዳኖሙ።"
+        },
+        {
+          "unit_order": 27,
+          "source_marker": "27",
+          "source_element_id": null,
+          "text": "እስመ፡ ሶበ፡ ይወድቁ፡ ሙታን፡ በበይናቲሆሙ፡ ዘኢይትኌለቊ፡ ብዝኆሙ፡ ወቀዊሞ፡ ማእከለ፡ ሕያዋን፡ ወሙታን፡ ከተረ፡ መዓተ፡ ወፈለጠ፡ ፍኖተ፡ ለሕያዋን።"
+        },
+        {
+          "unit_order": 28,
+          "source_marker": "28",
+          "source_element_id": null,
+          "text": "እስመ፡ ኵሉ፡ ክህነተ፡ ዓለም፡ ሀሎ፡ ዲበ፡ ጽንፈ፡ ልብሱ፡ ወስብሐተ፡ አበው፡ ዲበ፡ መትከፍቱ፡ እምአእባነ፡ ባሕርይ፡ ግሉፋን፡ ወዕበየ፡ ዚአከ፡ ዲበ፡ አክሊለ፡ ርእሱ።"
+        },
+        {
+          "unit_order": 29,
+          "source_marker": "29",
+          "source_element_id": null,
+          "text": "ወተአተቱ፡ በዝንቱ፡ እለ፡ ያኃጒሉ፡ ወአፍርህዎሙ፡ እሉ፡ ምግባራት፡ እስመ፡ መቅሠፍትኒ፡ ባሕቲቱ፡ እምአከለ።"
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "source_chapter_label": "19",
+      "heading": [
+        "Chapter 19"
+      ],
+      "units": [
+        {
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "text": "ወለረሲዓንሰ፡ ፀንዐ፡ መዓትከ፡ ላዕሌሆሙ፡ እስከ፡ አኅለቀት፡ ለዝሉፉ፡ ዘእንበለ፡ ምሕረት።"
+        },
+        {
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "text": "እስመ፡ አቅደሙ፡ አእምሮ፡ ምግባራቲሆሙ፡ ዘይከውን፡ እስመ፡ እሙንቱ፡ ሜጥዎሙ፡ እምሐዊር፡ ወዓዲ፡ ፈነውዎሙ፡ በብዙኅ፡ ጒጒዓ።"
+        },
+        {
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "text": "ወሶበ፡ ነስሑ፡ ወረዱ፡ በረዊዕ፡ ወዴገንዎሙ፡ እንዘ፡ ይብሉ፡ እስመ፡ መዋግድ፡ ህልው፡ በቅድሜሆሙ።"
+        },
+        {
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "text": "እስመ፡ ዓዲ፡ እንዘ፡ ውስተ፡ ላህ፡ ሀለዉ፡ እንዘ፡ ያስቆቅዉ፡ ወይግዕሩ፡ ዲበ፡ መቃብረ፡ አብድንቲሆሙ፡ ሰሐቦሙ፡ ካልእ፡ ሕሊና፡ ዕበድ፡ ወእለ፡ አስተብቊዑ፡ ኀቤሆሙ፡ ከመ፡ ይሑሩ፡ ወአውፅእዎሙ፡ መረዱ፡ በረዊዕ፡ ይዴግንዎሙ፡ ከመ፡ ሰብእ፡ እለ፡ ተኀጥኡ።"
+        },
+        {
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "text": "ወሰሐበቶሙ፡ ውስተ፡ ዝንቱ፡ ገግብር፡ ፍጻሜ፡ ምንዳቤ፡ እንተ፡ ደለዉ፡ ወአስሐቶሙ፡ ርስዓት፡ ወዘረከቦሙ፡ ኢተዘከሩ፡ ከመ፡ ይፈጽሙ፡ ወይምልኡ፡ ኵነኔ፡ ዘነትገ፡ በኊልቈ፡ ኵነኔያት።"
+        },
+        {
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "text": "ወሕዝብከሰ፡ መንክረ፡ ፍኖተ፡ ኀለፉ፡ ወእልክቱሰ፡ ሞተ፡ ነኪረ፡ ረከቡ።"
+        },
+        {
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "text": "እስመ፡ ኵላ፡ ፍጥረት፡ ተመሰለት፡ መልዕልቶሙ፡ ምስለ፡ አንጋዲሃ፡ እንዘ፡ ዓዲ፡ ትትለአክ፡ ዘተአዘዘት፡ ቦቱ፡ ትእዛዘ፡ ከመ፡ ይትዐቀቡ፡ ቦቱ፡ ደቂቅከ፡ ዘእንበለ፡ እከይ፡ በዳኅና።"
+        },
+        {
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "text": "ወደመና፡ እንተ፡ ኮነት፡ ትጼልል፡ ትዕይንተ፡ ወተርእየት፡ እምነ፡ ዘቀዳሚ፡ ማይ፡ ርግእተ፡ ወሥርጽተ፡ ምድር፡ ይብስት።"
+        },
+        {
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "text": "ወአስተርአየ፡ እምባሕረ፡ ኤርትራ፡ ፍኖት፡ ዘእንበለ፡ ማዕቅፍ።"
+        },
+        {
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "text": "ወእምውስተ፡ ማዕበል፡ ኅል፡ ፂአተ፡ ሐመልማል፡ እንተ፡ ዲቤሃ፡ ኃለፉ፡ ኵሉ፡ ሕዝብከ፡ እንዘ፡ ይትከደኑ፡ እዴከ፡ ክብርተ፡ ወመዝራዕተከ፡ ልዕልተ።"
+        },
+        {
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "text": "አመ፡ ሶበ፡ ርእዩ፡ ምግባረ፡ መንክረ፡ ለይእቲ፡ እዴከ፡ ሰብሕዋ፡ እስመ፡ እሙንቱ፡ ተርእዩ፡ ከመ፡ አፍራስ፡ ወአንፈርዐዑ፡ ከመ፡ አሥዋር፡ እንዘ፡ ይሴብሑ፡ ኪያከ፡ እግዚኦ፡ ዘአድኀንኮሙ፡ እስመ፡ ተዘከሩ፡ በስከየተ፡ ምግባሮሙ።"
+        },
+        {
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "text": "እፎ፡ አውፅአት፡ ምድሮሙ፡ ህየንተ፡ ልደተ፡ እንስሳ፡ አኮተ፡ ወአውጽአት፡ ባሕርኒ፡ ህየንተ፡ ልደተ፡ ዓሣ፡ ዘውስተ፡ ማይ፡ ብዙኀ፡ ቈርነነዓተ።"
+        },
+        {
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "text": "ወእምድኅረዝ፡ አመ፡ ሴሰይኮሙ፡ ርእዩ፡ ልደተ፡ አዕዋፍ፡ ሐዲስ፡ ወሶበ፡ ፈተዉ፡ ፍትወተ፡ ወሰአሉ፡ መብልዐ፡ ፍግዓ፡ ወተድላ፡ ዓርገ፡ እምውስተ፡ ባሕር፡ ለኑዛዜ፡ ፍትወቶሙ፡ ብዙኅ፡ ድርንቅ።"
+        },
+        {
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "text": "ወመጽአት፡ መቅሠፍት፡ ዘኢርኅቅት፡ እመባርቅት፡ ላዕለ፡ ኃጥአን፡ እንተ፡ ትትሜሰል፡ በኃይለ፡ መቅሠፍታተ፡ ተአምር፡ ዘተገብረ፡ ቅድመ።"
+        },
+        {
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "text": "እስመ፡ እሙንቱ፡ በጽድቅ፡ ተኰነኑ፡ ዘከመ፡ ድልወተ፡ እከዮሙ፡ እስመ፡ ፈቀዱ፡ ጸሊአ፡ አናግድ፡ በሕቁ፡ ዘየአኪ፡ ወእሉሰ፡ ተወከፉ፡ እለ፡ ኢየአምርዎሙ፡ አመ፡ በጽሑ።"
+        },
+        {
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "text": "ወእልክቱሰ፡ ቀነይዎሙ፡ ለእለ፡ ተአንገዱ፡ ኀቤሆሙ፡ እንዘ፡ ያሤንዩ፡ ሎሙ፡ ወይበቊዕዎሙ።"
+        },
+        {
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "text": "አኮ፡ በዝንቱ፡ ባሕቲቱ፡ እላ፡ ይኩን፡ ለምግባራቲሆሙ፡ ዋህየ፡ ወሐተታ፡ እስመ፡ ኮኑ፡ ይትዌከፍዎሙ፡ በክበድ፡ ለእለ፡ ተአንገዱ፡ ኀቤሆሙ።"
+        },
+        {
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "text": "ወእሉሰ፡ ሀለዉ፡ ይትዌከፉ፡ በእብስሎ፡ ለእለ፡ ተሳተፉ፡ ዘሎሙ፡ ጻድቃን።"
+        },
+        {
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "text": "ወሶበ፡ አሕመምዎሙ፡ በብዙኅ፡ ፃዕር፡ ተቀሥፉ፡ በኀጢአ፡ ንፃሬ፡ ዘከመ፡ እልክቱ፡ እለ፡ ተጋብኡ፡ ኀበ፡ ኆኅተ፡ ጻድቃን፡ እስመ፡ ግብተ፡ ተወድዩ፡ ውስተ፡ ጽልመት፡ ጽፉቅ።"
+        },
+        {
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "text": "ወኵሉ፡ እምኔሆሙ፡ ሀሎ፡ የኃሥሥ፡ ፍኖተ፡ ምብዋእ፡ ዘኀዋኅወ፡ ቤቱ።"
+        },
+        {
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "text": "እስመ፡ ፈለሱ፡ ቦሙ፡ ወተመይጡ፡ ብርሃናት፡ እምፍጥረተ፡ ዚአሆሙ፡ እስመ፡ ከመ፡ ቃለ፡ መዝሙር፡ ይትዌለጥ፡ በአእምሮ፡ ቃለ፡ ዜማሁ፡ ወይደሉ፡ ዘልፈ፡ ርቱዐ፡ ውስተ፡ ዜማሁ፡ ከመዝ፡ ግብርሂ፡ ዘይሰፍር፡ ፍጹመ፡ በነጽሮ፡ እለ፡ ተገብሩ፡ በበህላዌሆሙ።"
+        },
+        {
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "text": "እስመ፡ ፍጥረተ፡ የብስ፡ ተመይጠ፡ ውስተ፡ ማያት፡ እለሰ፡ ይትሐወሱ፡ ወይፀብቱ፡ ውስተ፡ ማይ፡ ተመይጠ፡ ሑረቶሙ፡ ውስተ፡ ምድር።"
+        },
+        {
+          "unit_order": 23,
+          "source_marker": "23",
+          "source_element_id": null,
+          "text": "ወእሳትኒ፡ ኀየለ፡ ኀይሎ፡ ውስተ፡ ማያት፡ ወማይኒ፡ ኀብአ፡ ፍጥረተ፡ ህላዌሁ።"
+        },
+        {
+          "unit_order": 24,
+          "source_marker": "24",
+          "source_element_id": null,
+          "text": "ወላህበ፡ ነድሂ፡ ዘፍጡነ፡ ይማስኑ፡ እንዘ፡ ይትወላወል፡ ወያንሶሱ፡ ውስቴቶሙ።"
+        },
+        {
+          "unit_order": 25,
+          "source_marker": "25",
+          "source_element_id": null,
+          "text": "ወዘመደ፡ ፍጥረትኒ፡ ዘኢይበሊ፡ ኢመፅዎ፡ ለአስሐትያ፡ ዘፍጡነ፡ ይትመሰው።"
+        },
+        {
+          "unit_order": 26,
+          "source_marker": "26",
+          "source_element_id": null,
+          "text": "እስመ፡ በኵሉ፡ ግብር፡ እግዚኦ፡ አዕበይከ፡ ክብረ፡ ሕዝብከ፡ ወሰባሕከ፡ በኵሉ፡ ዘመጽአ፡ ኀቤነ፡ ኢያሰሰልከ፡ ወኢተአወርከ፡ እምኔነ፡ በኵሉ፡ መካን፡ እንተ፡ ትሄሉ፡ ህየ።"
+        }
+      ]
+    }
+  ]
+}

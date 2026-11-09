@@ -14,6 +14,7 @@ INDEX = ROOT / "readers" / "source" / "Octateuch-Index.html"
 MODULE = ROOT / "readers" / "source" / "crosswire" / "Geez.zip"
 EXODUS_CAPTURE = ROOT / "readers" / "source" / "exodus" / "capture.json"
 ADDITIONAL_CAPTURE = ROOT / "readers" / "source" / "octateuch-additional" / "capture.json"
+MODULE_AUDIT = ROOT / "readers" / "source" / "crosswire" / "module-structure-audit.json"
 OUTPUT = ROOT / "readers" / "source" / "Octateuch-scope.json"
 ARCHIVE = ROOT / "archive.json"
 
@@ -103,10 +104,19 @@ def main() -> None:
     conf = module_metadata()
     menu_hash = sha256(INDEX)
     module_hash = sha256(MODULE)
+    if not MODULE_AUDIT.is_file():
+        raise ValueError("Run audit_crosswire_module.py before building the Octateuch inventory.")
+    module_audit = json.loads(MODULE_AUDIT.read_text(encoding="utf-8"))
+    if module_audit.get("module_sha256") != module_hash:
+        raise ValueError("The CrossWire module structure audit is stale for the local source package.")
+    module_audit_hash = sha256(MODULE_AUDIT)
     if not EXODUS_CAPTURE.is_file():
         raise ValueError("The local Exodus chapter-page capture is required.")
     exodus_capture_hash = sha256(EXODUS_CAPTURE)
     additional_capture_hash = sha256(ADDITIONAL_CAPTURE) if ADDITIONAL_CAPTURE.is_file() else None
+    additional_capture = json.loads(ADDITIONAL_CAPTURE.read_text(encoding="utf-8")) if additional_capture_hash else {}
+    response_audits = additional_capture.get("http_response_captures", [])
+    leviticus18_audit = next((item for item in response_audits if item.get("book") == "Leviticus" and item.get("chapter") == 18), None)
     records = []
     def bundled_reader_path(display_name: str) -> Path | None:
         slug = READER_SLUGS.get(display_name)
@@ -123,8 +133,8 @@ def main() -> None:
             "chapter_count_in_digitizer_menu": len(chapters),
             "menu_chapters": chapters,
             "menu_basis": "Locally archived Octateuch-Index.html; chapter links are menu evidence only, not checked chapter text.",
-            "reader_status": "Bundled source-linked Geʽez reader" if has_reader else "Reader text has not been imported from the SWORD module for this book.",
-            "source_ids": ["SRC-034", "SRC-035", "SRC-036", "SRC-058", "SRC-059", "SRC-060"] + (["SRC-061"] if display_name == "Exodus" and has_reader else (["SRC-064"] if display_name != "Exodus" and has_reader else [])),
+            "reader_status": "Bundled source-linked Geʽez reader" if has_reader else "CrossWire structure audited; no web-reader text package bundled.",
+            "source_ids": ["SRC-034", "SRC-035", "SRC-036", "SRC-058", "SRC-059", "SRC-060", "SRC-079", "SRC-080"] + (["SRC-061"] if display_name == "Exodus" and has_reader else (["SRC-064"] if display_name != "Exodus" and has_reader else [])),
         })
 
     manifest = {
@@ -141,6 +151,9 @@ def main() -> None:
             "source_module_url": "https://crosswire.org/sword/modules/ModInfo.jsp?modName=Geez",
             "module_local_path": "crosswire/Geez.zip",
             "module_sha256": module_hash,
+            "structure_audit_path": "crosswire/module-structure-audit.json",
+            "structure_audit_sha256": module_audit_hash,
+            "structure_audit_scope": "Eleven zText blocks structurally decoded; ten book/chapter sequences match local readers. No verse text exported or collated.",
             "source_type": conf.get("SourceType"),
             "encoding": conf.get("Encoding"),
             "compression": conf.get("CompressType"),
@@ -152,7 +165,7 @@ def main() -> None:
             "commercial_use": "Not granted.",
             "notice_included_in_module_config": True,
         },
-        "boundary": "This file proves the local package and digitizer-menu chapter labels. Only books marked as bundled reader in the records above have separate source-page captures and source-linked readers; other menu counts are not verse-level coverage. This manifest does not decode the SWORD zText data.",
+        "boundary": "The local audit checks ZIP integrity, zText block bounds and decompressed lengths, UTF-8 decoding, and OSIS book/chapter identifiers against local reader chapter counts. It exports no verse text and does not establish verse coverage or wording. The source-page HTML and SWORD package identify the same digitizer/corpus, not independent witnesses. Only books marked as bundled reader have source-linked reader packages.",
         "books": records,
     }
     OUTPUT.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -165,15 +178,29 @@ def main() -> None:
             "SRC-058",
             "CrossWire Bible Society — Geʽez Bible SWORD module (Geez 1.0.1)",
             "https://crosswire.org/sword/modules/ModInfo.jsp?modName=Geez",
-            "CrossWire identifies this as the Geʽez Old Testament comprising Dillmann's Ethiopic Octateuch and Hiob Ludolf's Psalter, digitized by Ran HaCohen. Its module record grants noncommercial copying/distribution only when © Ran HaCohen and the permission notice accompany every copy; it does not grant commercial rights. The module configuration describes version 1.0.1, dated 2012-07-10, based on the July 2010 edition. This package has been archived locally, but its compressed zText has not yet been decoded into the library reader.",
-            "Publisher metadata and noncommercial terms checked; source package preserved locally; not converted to reader text",
+            "CrossWire identifies this as the Geʽez Old Testament comprising Dillmann's Ethiopic Octateuch and Hiob Ludolf's Psalter, digitized by Ran HaCohen. Its module record grants noncommercial copying/distribution only when © Ran HaCohen and the permission notice accompany every copy; it does not grant commercial rights. The module configuration describes version 1.0.1, dated 2012-07-10, based on the July 2010 edition. A local structural audit decompresses its zText blocks and checks OSIS chapter identifiers against the HTML-derived reader counts; it exports no verse text and establishes no verse-level completeness or wording.",
+            "Publisher metadata and noncommercial terms checked; module structure audited locally; no SWORD verse text added to the reader",
         ),
         source_record(
             "SRC-059",
             "Offline source package — CrossWire Geʽez SWORD module",
             "readers/source/crosswire/Geez.zip",
-            f"Local copy of the CrossWire Geez 1.0.1 module package; SHA-256 {module_hash}. The included geez.conf carries the copyright and noncommercial permission notice. The zText package includes the source corpus described by CrossWire, but this archive has not parsed its compressed verses; do not treat the menu inventory as verse-level completeness or an integrated web reader.",
-            "Offline source package archived; notice retained; reader conversion and verse-level verification pending",
+            f"Local copy of the CrossWire Geez 1.0.1 module package; SHA-256 {module_hash}. The included geez.conf carries the copyright and noncommercial permission notice. The local structure report at readers/source/crosswire/module-structure-audit.json (SHA-256 {module_audit_hash}) confirms block lengths, UTF-8 decoding, and chapter identifiers/counts for eight Octateuch books and Psalms 1–151. It exports no verse text and does not establish verse-level completeness, text equality, or manuscript accuracy.",
+            "Offline source package and rights notice preserved; structural blocks audited; no module verse text admitted",
+        ),
+        source_record(
+            "SRC-079",
+            "CrossWire — SWORD zVerse source reference",
+            "https://www.crosswire.org/sword/apiref/zverse_8cpp_source.html",
+            "The official SWORD zVerse implementation is cited only to document the package's index/block structure and block lookup. This archive uses the reference to bound its local structural audit; it does not import or reproduce the SWORD implementation code.",
+            "Official software-format reference; not a scripture witness or validation of text accuracy",
+        ),
+        source_record(
+            "SRC-080",
+            "Local CrossWire Geʽez module structure audit",
+            "readers/source/crosswire/module-structure-audit.json",
+            f"Deterministically generated by audit_crosswire_module.py from the locally archived Geez.zip package (SHA-256 {module_hash}); report SHA-256 {module_audit_hash}. It checks archive CRCs, block bounds and decompressed lengths, UTF-8 decoding, OSIS book/chapter identifiers, and chapter-count agreement with local reader records. No verse text is exported or collated.",
+            "Local reproducible structure audit; confirms chapter metadata only, not verse coverage, wording, translation, or manuscript completeness",
         ),
         source_record(
             "SRC-060",
@@ -191,13 +218,24 @@ def main() -> None:
         ),
     ]
     if additional_capture_hash:
-        managed_sources.append(source_record(
+        additional_source = source_record(
             "SRC-064",
             "University of Tel Aviv — HaCohen Octateuch chapters Leviticus–Ruth (locally archived)",
             "readers/source/octateuch-additional/index.html",
             f"Local capture of 146 chapter pages linked by the archived HaCohen Octateuch index; capture SHA-256 {additional_capture_hash}. The reader builder checks page status/title, source URL, and source-linked verse labels for each parsed chapter. The text remains HaCohen's transcription, not an independent correction, English translation, or manuscript collation. Reuse is subject to the noncommercial permission and notice in SRC-036.",
             "All 146 source pages preserved offline; source-linked verse labels checked; no independent collation",
-        ))
+        )
+        if leviticus18_audit:
+            additional_source["inspection_and_limitations"] += (
+                f" A raw HTTP 200 response for Leviticus 18 is retained at {leviticus18_audit['local_raw_response_path']} "
+                f"({leviticus18_audit['response_bytes']} bytes; SHA-256 {leviticus18_audit['response_sha256']}). "
+                "The declared UTF-8 response contains six standalone 0xA0 bytes; only these are represented as U+00A0 "
+                "NO-BREAK SPACE in the normalized UTF-8 page. The reader recognizes the trailing displayed numeral as verse 1 "
+                "and preserves the Geʽez text that follows. This establishes capture-to-reader correspondence, not the upstream transcription's accuracy."
+            )
+            additional_source["local_copy_url"] = leviticus18_audit["local_raw_response_path"]
+            additional_source["local_metadata_url"] = "readers/source/octateuch-additional/capture.json"
+        managed_sources.append(additional_source)
     for record in managed_sources:
         existing = source_by_id.get(record["source_id"])
         if existing and existing != record:
@@ -213,19 +251,41 @@ def main() -> None:
         book["edition_or_translation"] = "August Dillmann (ed.), Veteris Testamenti Aethiopici Tomus Primus, sive Octateuchus Aethiopicus, Leipzig, 1853–1855; digitized/transcribed by Ran HaCohen; local CrossWire Geʽez module 1.0.1 identifies its source as the July 2010 digitization. Historical edition; not identified as the current official EOTC printed edition."
         reader_path = ROOT / "readers" / f"{READER_SLUGS[display_name]}-geez.json" if display_name in READER_SLUGS else None
         bundled_reader = json.loads(reader_path.read_text(encoding="utf-8")) if reader_path and reader_path.is_file() else None
+        brenton = bundled_reader.get("parallel_translation") if bundled_reader else None
+        brenton = brenton if brenton and brenton.get("translation_id") == "exodus-english-brenton-lxx-1851" else None
         if bundled_reader and bundled_reader.get("chapter_count") != count:
             raise ValueError(f"{display_name}: source reader missing or chapter count differs from local menu.")
         book["chapter_count"] = f"{count} chapters listed in the digitizer's local Octateuch menu"
-        book["chapter_order_status"] = f"Locally archived index and source page capture list chapters 1–{count} in order; source-linked verse markers were checked in the bundled reader. No independent manuscript collation is claimed." if bundled_reader else f"Locally archived HaCohen index lists chapters 1–{count} in sequence. This verifies navigable menu labels only, not chapter text or textual completeness."
-        book["text_availability_status"] = "Bundled: source-linked Geʽez reader; no English translation" if bundled_reader else "Source package archived offline; web reader pending"
-        book["completeness_status"] = (f"{count} source pages and {bundled_reader['verse_marker_count']} linked verse markers are bundled; the digitizer's transcription has not been independently collated, and no English translation is bundled." if bundled_reader else f"The local menu inventory lists chapters 1–{count}. Verse coverage and module text remain unchecked; no web-reader chapter text is bundled.")
-        book["rights_status"] = "© Ran HaCohen. Noncommercial copying/distribution only when the copyright and permission notice accompany every copy; commercial reuse is not granted. See the CrossWire source record and the notice retained in the local module package."
-        book["reviewer_notes"] = ("The edition and corpus scope are supported by the digitizer's local menu and CrossWire's module metadata. The source-linked reader is parsed from locally archived HaCohen chapter HTML, retaining source verse labels and editorial signs; parsing does not independently validate the Geʽez against the print edition or manuscripts. The bundled text is Geʽez only, not an English translation." if bundled_reader else "The edition and corpus scope are supported by the digitizer's local menu and CrossWire's module metadata. The packaged module is an offline source artifact, not yet a reader layer. Its compressed zText has not been decoded, and no verse-level or manuscript collation has been done.")
+        book["chapter_order_status"] = f"Locally archived index and source page capture list chapters 1–{count} in order; source-linked verse markers were checked in the bundled reader. The same-digitizer SWORD package has matching OSIS chapter IDs/counts; this is structural corroboration, not text collation or independent manuscript evidence." if bundled_reader else f"The locally archived HaCohen menu and same-digitizer SWORD package both list chapters 1–{count} in sequence. The SWORD audit checks chapter IDs only, not verse text or textual completeness."
+        book["text_availability_status"] = ("Bundled: Geʽez source transcription + Brenton English research companion (wording unreviewed)" if brenton else "Bundled: source-linked Geʽez reader; no English translation") if bundled_reader else "Source package archived offline; web reader pending"
+        book["completeness_status"] = (
+            f"Geʽez: {count} source pages and {bundled_reader['verse_marker_count']} linked markers are bundled; transcription is not independently collated. English Brenton research layer: {brenton['chapter_count']} captured pages, {brenton['verse_label_count']} extracted labels, and {sum(len(chapter.get('notes', [])) for chapter in brenton['chapters'])} notes. Exact wording, completeness, translation accuracy, and Geʽez alignment are unreviewed."
+            if brenton else
+            (f"{count} source pages and {bundled_reader['verse_marker_count']} linked verse markers are bundled; the same-digitizer SWORD module confirms only the OSIS chapter sequence, not verse-level equality. The digitizer's transcription has not been independently collated, and no English translation is bundled." if bundled_reader else f"The local menu and SWORD structural audit list chapters 1–{count}. Module verse text and verse coverage remain unchecked; no web-reader chapter text is bundled.")
+        )
+        book["rights_status"] = "© Ran HaCohen. Noncommercial copying/distribution only when the copyright and permission notice accompany every copy; commercial reuse is not granted. See the CrossWire source record and the notice retained in the local module package." + (" The separate 1851 Brenton English translation is identified by eBible.org as public domain (SRC-038); that does not establish extraction fidelity." if brenton else "")
+        book["reviewer_notes"] = (
+            "The edition and Geʽez corpus scope are supported by the digitizer's local menu and CrossWire's module metadata. The Geʽez reader is parsed from locally archived HaCohen chapter HTML, retaining source verse labels and editorial signs; parsing does not independently validate it against print or manuscripts. A distinct Brenton English research layer is parsed from 40 browser-visible eBible.org captures; raw HTML and response bytes are absent, and exact wording, completeness, translation accuracy, and alignment with Geʽez remain unreviewed. It is not presented as verified scripture."
+            if brenton else
+            ("The edition and corpus scope are supported by the digitizer's local menu and CrossWire's module metadata. The reader is parsed from locally archived HaCohen chapter HTML, retaining source verse labels and editorial signs. The same-digitizer SWORD module's OSIS chapter IDs/counts structurally agree but do not establish verse-level text equality or completeness. No independent print/manuscript collation was done. The bundled text is Geʽez only, not an English translation." if bundled_reader else "The edition and corpus scope are supported by the digitizer's local menu and CrossWire's module metadata. The offline module was structurally decompressed and its chapter IDs checked, but its verse text was not exported to the reader or compared to the captured pages. No verse-level or manuscript collation was done.")
+        )
         sources_for_book = book.setdefault("evidence_source_ids", [])
-        source_ids = ("SRC-034", "SRC-035", "SRC-036", "SRC-058", "SRC-059", "SRC-060", "SRC-061") if display_name == "Exodus" else (("SRC-034", "SRC-035", "SRC-036", "SRC-058", "SRC-059", "SRC-060", "SRC-064") if bundled_reader else ("SRC-034", "SRC-035", "SRC-036", "SRC-058", "SRC-059", "SRC-060"))
+        source_ids = ("SRC-034", "SRC-035", "SRC-036", "SRC-058", "SRC-059", "SRC-060", "SRC-079", "SRC-080", "SRC-061") if display_name == "Exodus" else (("SRC-034", "SRC-035", "SRC-036", "SRC-058", "SRC-059", "SRC-060", "SRC-079", "SRC-080", "SRC-064") if bundled_reader else ("SRC-034", "SRC-035", "SRC-036", "SRC-058", "SRC-059", "SRC-060", "SRC-079", "SRC-080"))
         for source_id in source_ids:
             if source_id not in sources_for_book:
                 sources_for_book.append(source_id)
+        if brenton:
+            for source_id in ("SRC-038", "SRC-074", "SRC-075", "SRC-076"):
+                if source_id not in sources_for_book:
+                    sources_for_book.append(source_id)
+
+    genesis = next((item for item in archive["catalogue"] if item.get("catalogue_id") == "eotc-001"), None)
+    if not genesis:
+        raise ValueError("Missing catalogue row: eotc-001")
+    genesis_evidence = genesis.setdefault("evidence_source_ids", [])
+    for source_id in ("SRC-079", "SRC-080"):
+        if source_id not in genesis_evidence:
+            genesis_evidence.append(source_id)
 
     ARCHIVE.write_text(json.dumps(archive, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(

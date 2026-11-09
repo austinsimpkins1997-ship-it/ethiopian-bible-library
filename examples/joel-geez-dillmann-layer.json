@@ -1,0 +1,164 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/joel-geez-dillmann-hacohen-tau",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/joel-dillmann-1879-candidate",
+  "labels": [
+    {
+      "value": "Joel — Geʽez source transcription",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-36",
+      "mapping_state": "reviewed_match",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-034",
+        "SRC-149",
+        "SRC-192",
+        "SRC-380",
+        "SRC-384"
+      ],
+      "notes": "Reviewed work/title crosswalk: the Church's numbered list names Joel; TAU's index gives the Latinized form Ioel, and its book page identifies the Ethiopic Book of Joel. This is a title/work match only; Dillmann's historical witness, label anomalies, accuracy, and completeness are not thereby certified as the current Church text. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Joel."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/joel-dillmann-1879-hacohen-2024",
+    "witness_type": "digital_edition",
+    "title": "Dillmann's 1879 Ethiopic Joel; TAU text prepared by Ran HaCohen (June 2024)",
+    "date_statement": "Printed edition 1879, pp. 449–458; TAU text version June 2024",
+    "repository_or_publisher": "Tel Aviv University website",
+    "shelfmark_or_edition_id": "Ethiopic Joel in Merx, Die Prophetie des Joel und ihre Ausleger",
+    "editorial_policy": "TAU identifies Dillmann's critical edition as the basis and HaCohen as preparer. Four chapter pages and source labels are captured; print collation, apparatus and manuscript review are not done.",
+    "source_ids": [
+      "SRC-149",
+      "SRC-192"
+    ]
+  },
+  "layer_type": "source_text_transcription",
+  "text_origin": "source_transcription",
+  "language_tag": "gez",
+  "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+  "script_code": "Ethi",
+  "basis_path": [
+    "gez"
+  ],
+  "agents": [
+    {
+      "role": "editor",
+      "name": "August Dillmann",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-149"
+      ]
+    },
+    {
+      "role": "transcriber",
+      "name": "Ran HaCohen",
+      "authority_or_affiliation": "Tel Aviv University website",
+      "source_ids": [
+        "SRC-149",
+        "SRC-192"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/joel-geez-dillmann-hacohen-tau.json",
+    "media_type": "application/json",
+    "sha256": "225f8446dd9774eff1168bc41cab662b95fb1d8d1ca5c24d4a4527ec55b4b307",
+    "format_version": "1"
+  },
+  "coverage": {
+    "extent_state": "unknown",
+    "extent_basis": "source_inventory",
+    "unit_count": 70,
+    "structure_description": "Four TAU pages/menu entries contain 70 parsed source labels with gaps at 2:16 and 4:2–3. Completeness against the print edition or manuscripts is unknown.",
+    "missing_or_lacunose_ranges": [
+      "2:16",
+      "4:2–3"
+    ],
+    "supplements_and_editorial_signs": "Visible Ethiopic body text retained; whitespace normalized. Source HTML retained. Facsimiles and apparatus excluded.",
+    "numbering_policy": "Preserve captured page numbers and source labels exactly; do not fill gaps or infer cross-witness alignment."
+  },
+  "rights": {
+    "status": "permission_limited",
+    "statement": "© Ran HaCohen. For the digitized Ethiopic texts, permission to use, copy, and distribute for any NONCOMMERCIAL purpose is granted without fee, provided that the copyright notice Ran HaCohen and this permission notice appear in all copies of the text. For other uses, please contact the copyright owner.",
+    "license_id": null,
+    "rights_holder": "Ran HaCohen (TAU site notice)",
+    "attribution_required": true,
+    "territory_or_term_limits": "TAU notice grants noncommercial use only with copyright and permission notices; other uses require contacting rights holder. No open or commercial license is asserted.",
+    "evidence_source_ids": [
+      "SRC-036",
+      "SRC-149",
+      "SRC-192"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "Reviewed work/title crosswalk: the Church's numbered list names Joel; TAU's index gives the Latinized form Ioel, and its book page identifies the Ethiopic Book of Joel. This is a title/work match only; Dillmann's historical witness, label anomalies, accuracy, and completeness are not thereby certified as the current Church text. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Joel. Exact edition identity, textual accuracy, and completeness remain distinct questions.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Comparative inspection of the cited Church-list and source-work records.",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-034",
+        "SRC-149",
+        "SRC-192",
+        "SRC-380",
+        "SRC-384"
+      ],
+      "notes": "Reviewed work/title crosswalk: the Church's numbered list names Joel; TAU's index gives the Latinized form Ioel, and its book page identifies the Ethiopic Book of Joel. This is a title/work match only; Dillmann's historical witness, label anomalies, accuracy, and completeness are not thereby certified as the current Church text. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Joel."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "Four retained pages match capture manifest and reproduce 70 nonempty linked units with matching Joel chapter targets; labels 2:16 and 4:2–3 are absent.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Joel capture parser and archive build",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-192"
+      ],
+      "notes": "Chapter 2 has no captured linked label 16; chapter 4 has no captured linked labels 2–3. The source pages and menu are preserved as observed; no missing text or numbering has been inferred."
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "No collation against Dillmann's print, facsimiles, apparatus, manuscripts, or an EOTC edition.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-149",
+        "SRC-192"
+      ],
+      "notes": "TAU credits HaCohen with preparing the text; this archive has not independently reviewed his transcription."
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "TAU Joel attribution page and site-wide reuse notice retained locally.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Captured and retained the source's attribution and permission terms.",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-036",
+        "SRC-149",
+        "SRC-192"
+      ],
+      "notes": "Noncommercial-only permission with notices; not open content."
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "No English translation from Geʽez is bundled. The optional Brenton English text is a separate Greek-based witness; source-label gaps in the Geʽez transcription remain marked."
+}

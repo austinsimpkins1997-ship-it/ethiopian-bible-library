@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f4ec">
+  <title>Didascalia · Harden 1920 raw OCR research view</title>
+  <style>
+    :root { color-scheme: light; --ink:#173b39; --muted:#52645f; --paper:#f7f4ec; --card:#fffefa; --line:#d9d2c3; --accent:#a14a27; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    header, main, footer { width:min(900px,100%); margin-inline:auto; padding:1rem clamp(1rem,4vw,2rem); }
+    header { padding-top:1.5rem; }
+    a { color:#7d381f; text-underline-offset:.18em; }
+    h1,h2 { font-family:Georgia,"Times New Roman",serif; line-height:1.2; }
+    h1 { font-size:clamp(1.65rem,5vw,2.5rem); margin:.4rem 0; }
+    .eyebrow { color:var(--muted); font-size:.82rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
+    .warning { border:1px solid #c88761; border-left:5px solid var(--accent); border-radius:.35rem; background:#fff4e9; padding:1rem; }
+    .warning p { margin:.45rem 0; }
+    .links { display:flex; flex-wrap:wrap; gap:.5rem 1rem; margin:1rem 0; }
+    .controls { position:sticky; top:0; z-index:2; display:grid; grid-template-columns:auto 1fr auto auto; align-items:end; gap:.55rem; padding:.8rem; border:1px solid var(--line); border-radius:.5rem; background:color-mix(in srgb,var(--card) 94%,transparent); box-shadow:0 2px 12px #173b3912; }
+    label { font-size:.9rem; font-weight:650; }
+    select,button { min-height:44px; border:1px solid #968b78; border-radius:.35rem; background:var(--card); color:var(--ink); font:inherit; padding:.45rem .7rem; }
+    select { min-width:0; width:100%; }
+    button { cursor:pointer; font-weight:650; }
+    button:disabled,select:disabled { cursor:not-allowed; opacity:.55; }
+    :focus-visible { outline:3px solid #237b73; outline-offset:2px; }
+    #status { color:var(--muted); min-height:1.6em; margin:.8rem 0; }
+    .chapter { padding:1rem 0 2.5rem; }
+    .chapter h2 { margin:.2rem 0; }
+    .chapter-meta { color:var(--muted); font-size:.92rem; }
+    .correction { border-left:3px solid #b27a34; padding:.45rem .7rem; margin:.75rem 0; background:#f1eadb; color:#493a23; }
+    .ocr-page { margin:1rem 0; }
+    .page-label { color:var(--muted); font-size:.8rem; font-weight:700; }
+    pre { white-space:pre-wrap; overflow-wrap:anywhere; margin:.25rem 0; font:1rem/1.65 Georgia,"Times New Roman",serif; }
+    footer { border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
+    @media(max-width:540px) { .controls { grid-template-columns:1fr 1fr; } .controls label { grid-column:1/-1; } select { grid-column:1/-1; } button { width:100%; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">Source research view · not a canon-verified reader</div>
+    <h1>The Ethiopic Didascalia</h1>
+    <p>Harden’s 1920 English edition · chapter-indexed raw OCR</p>
+    <div class="warning" role="note" aria-label="Important limits">
+      <strong>Read this as unproofread OCR.</strong>
+      <p>The viewer uses the stored Internet Archive OCR. All 43 chapter headings in this edition were visually checked against the scan; the body text was not proofread, and the scan’s completeness has not been reviewed. Two heading numerals are displayed with the scan-checked readings; their original OCR readings are documented below.</p>
+      <p>This 1920 edition’s exact identity with the Church-list entry “Didascalia” is unresolved. Its source front matter makes a United States-only no-known-restrictions claim; that is not a worldwide rights determination or an open license.</p>
+    </div>
+    <nav class="links" aria-label="Related source material">
+      <a href="../readers/source/didascalia-harden1920/djvu.txt">Open raw OCR text</a>
+      <a href="didascalia-harden1920-chapter-heading-audit.json">View the heading audit</a>
+      <a href="https://archive.org/details/cu31924096083336" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">Harden 1920 scan record ↗</a>
+      <a href="../index.html#sources">Back to archive sources</a>
+    </nav>
+  </header>
+  <main>
+    <div class="controls" aria-label="Chapter navigation">
+      <label for="chapter-select">Edition chapter</label>
+      <select id="chapter-select" disabled aria-describedby="status"><option>Loading audited chapter list…</option></select>
+      <button id="previous" type="button" disabled>Previous</button>
+      <button id="next" type="button" disabled>Next</button>
+    </div>
+    <p id="status" role="status" aria-live="polite">Loading the locally stored OCR and its audit…</p>
+    <section id="chapter-content" aria-labelledby="chapter-title"></section>
+    <noscript>This research view needs JavaScript to load its bundled chapter-indexed OCR data.</noscript>
+  </main>
+  <footer>
+    The view is built from the stored XML OCR and the local chapter-heading audit. It does not silently repair body text, certify translation accuracy, or change book-coverage counts. The text layer loads from this site; opening the external scan record requires internet access.
+  </footer>
+  <script>
+    (() => {
+      const select = document.getElementById('chapter-select');
+      const previous = document.getElementById('previous');
+      const next = document.getElementById('next');
+      const status = document.getElementById('status');
+      const content = document.getElementById('chapter-content');
+      let chapters = [];
+      let selected = 0;
+      const correctionNotes = {
+        10: 'The scan reads X; the OCR reads xX. This heading is shown as X, as confirmed in the audit.',
+        31: 'The scan reads XXXI; the OCR reads XXXII. This heading is shown as XXXI, as confirmed in the audit.'
+      };
+      function element(name, className, text) {
+        const node = document.createElement(name);
+        if (className) node.className = className;
+        if (text !== undefined) node.textContent = text;
+        return node;
+      }
+      function showChapter(index) {
+        selected = Math.max(0, Math.min(chapters.length - 1, index));
+        select.value = String(selected);
+        const chapter = chapters[selected];
+        content.replaceChildren();
+        const section = element('article', 'chapter');
+        const heading = element('h2', '', `Chapter ${chapter.heading}`);
+        heading.id = 'chapter-title';
+        section.append(heading);
+        const pageNumbers = chapter.pages.map(page => page.scan_pdf_page);
+        section.append(element('p', 'chapter-meta', `Harden 1920 edition · scan PDF pages ${pageNumbers[0]}–${pageNumbers[pageNumbers.length - 1]} · ${chapter.pages.reduce((sum, page) => sum + page.lines.length, 0)} OCR lines`));
+        if (chapter.heading_corrected_from_ocr) section.append(element('p', 'correction', correctionNotes[chapter.chapter_number] || chapter.correction_note || 'The displayed chapter numeral follows the scan-checked audit; see the source OCR for its raw heading.'));
+        for (const page of chapter.pages) {
+          const block = element('div', 'ocr-page');
+          block.append(element('div', 'page-label', `Scan PDF page ${page.scan_pdf_page}`));
+          block.append(element('pre', '', page.lines.join('\n')));
+          section.append(block);
+        }
+        content.append(section);
+        previous.disabled = selected === 0;
+        next.disabled = selected === chapters.length - 1;
+        status.textContent = `Chapter ${chapter.heading} of XLIII · raw OCR, not proofread.`;
+      }
+      fetch('didascalia-harden1920-ocr-chapters.json', { credentials: 'same-origin' })
+        .then(response => {
+          if (!response.ok) throw new Error(`Local OCR data could not be loaded (HTTP ${response.status}).`);
+          return response.json();
+        })
+        .then(data => {
+          if (data.record_id !== 'didascalia-harden1920-raw-ocr-view' || data.chapter_count !== 43 || data.chapters?.length !== 43) throw new Error('The stored OCR view does not match its audited 43-heading scope.');
+          chapters = data.chapters;
+          select.replaceChildren(...chapters.map((chapter, index) => {
+            const option = document.createElement('option');
+            option.value = String(index);
+            option.textContent = `Chapter ${chapter.heading}`;
+            return option;
+          }));
+          select.disabled = false;
+          previous.disabled = false;
+          next.disabled = false;
+          select.addEventListener('change', () => showChapter(Number(select.value)));
+          previous.addEventListener('click', () => showChapter(selected - 1));
+          next.addEventListener('click', () => showChapter(selected + 1));
+          showChapter(0);
+        })
+        .catch(error => {
+          status.textContent = `${error.message} Open this page over HTTPS or through START_LOCAL.bat.`;
+          content.replaceChildren(element('p', '', 'The original OCR and heading audit remain available from the links above.'));
+        });
+    })();
+  </script>
+</body>
+</html>

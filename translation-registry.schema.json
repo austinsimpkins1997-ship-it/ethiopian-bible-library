@@ -12,11 +12,12 @@
     "translation_leads",
     "corpus_leads",
     "edition_leads",
-    "research_corpora"
+    "research_corpora",
+    "translation_process_evidence"
   ],
   "properties": {
     "schema_version": {
-      "const": 2
+      "const": 3
     },
     "title": {
       "type": "string",
@@ -92,6 +93,17 @@
       "items": {
         "$ref": "#/$defs/researchCorpus"
       }
+    },
+    "translation_process_evidence": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/translationProcessEvidence"
+      }
+    },
+    "edition_basis_evidence": {
+      "type": "array",
+      "description": "Attributed edition-family basis claims kept separate from verified paths for specific digital witnesses.",
+      "items": { "$ref": "#/$defs/editionBasisEvidence" }
     }
   },
   "additionalProperties": false,
@@ -99,7 +111,11 @@
     "translationLead": {
       "type": "object",
       "required": [
+        "translation_id",
         "canon_id",
+        "title",
+        "mapping_state",
+        "scope_description",
         "language_tag",
         "translator",
         "edition",
@@ -112,9 +128,27 @@
         "notes"
       ],
       "properties": {
+        "translation_id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Stable identifier for this bibliographic translation lead; it does not imply bundled text."
+        },
         "canon_id": {
           "type": "string",
+          "minLength": 1,
+          "description": "Church-list candidate entry for this lead; mapping_state qualifies the strength of that association."
+        },
+        "title": {
+          "type": "string",
           "minLength": 1
+        },
+        "mapping_state": {
+          "enum": ["asserted_by_source", "reviewed_match", "related_work", "uncertain"]
+        },
+        "scope_description": {
+          "type": "string",
+          "minLength": 1,
+          "description": "What this translation lead covers and what remains unverified."
         },
         "language_tag": {
           "type": "string",
@@ -154,7 +188,21 @@
           "uniqueItems": true
         },
         "text_bundled": {
-          "const": false
+          "const": false,
+          "description": "No normalized reader-text layer is bundled for this lead; an exact source file may be stored separately with source_snapshot metadata."
+        },
+        "source_snapshot": {
+          "type": "object",
+          "description": "Optional byte-verified local copy of the cited source rendition. This is not a proofread transcription, normalized reader, or evidence of worldwide reuse rights.",
+          "required": ["path", "sha256", "source_url", "format", "status"],
+          "properties": {
+            "path": { "type": "string", "minLength": 1 },
+            "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+            "source_url": { "type": "string", "format": "uri", "minLength": 1 },
+            "format": { "enum": ["text/plain", "text/html", "application/xml", "application/pdf"] },
+            "status": { "const": "exact-source-rendition; reader structure and text accuracy not independently verified" }
+          },
+          "additionalProperties": false
         },
         "rights_status": {
           "type": "string",
@@ -178,8 +226,16 @@
             "mixed"
           ],
           "description": "Controlled rights category; detailed jurisdiction, attribution, and restrictions remain in rights_status."
-        }
+        },
+        "license_id": { "type": "string", "minLength": 1 },
+        "license_url": { "type": "string", "format": "uri", "minLength": 1 }
       },
+      "allOf": [
+        {
+          "if": { "properties": { "rights_classification": { "const": "open_license" } }, "required": ["rights_classification"] },
+          "then": { "required": ["license_id", "license_url"] }
+        }
+      ],
       "additionalProperties": false
     },
     "language": {
@@ -410,8 +466,29 @@
             "mixed"
           ],
           "description": "Controlled rights category; detailed jurisdiction, attribution, and restrictions remain in rights_status."
-        }
+        },
+        "license_id": { "type": "string", "minLength": 1 },
+        "license_url": { "type": "string", "format": "uri", "minLength": 1 }
       },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "layer_role": {
+                "enum": ["translation", "historical_companion_translation", "draft_translation"]
+              }
+            },
+            "required": ["layer_role"]
+          },
+          "then": {
+            "required": ["translation_id", "translator", "translation_path"]
+          }
+        },
+        {
+          "if": { "properties": { "rights_classification": { "const": "open_license" } }, "required": ["rights_classification"] },
+          "then": { "required": ["license_id", "license_url"] }
+        }
+      ],
       "additionalProperties": false
     },
     "corpusLead": {
@@ -539,8 +616,26 @@
             "mixed"
           ],
           "description": "Controlled rights category; detailed jurisdiction, attribution, and restrictions remain in rights_status."
-        }
+        },
+        "license_id": { "type": "string", "minLength": 1 },
+        "license_url": { "type": "string", "format": "uri", "minLength": 1 },
+        "candidate_canon_id": {
+          "type": ["string", "null"],
+          "minLength": 1,
+          "description": "Church-list work/title link for this research corpus; the accompanying mapping state distinguishes archive-reviewed, source-asserted, provisional, and unmapped cases. Research readers remain distinct from verified tradition-specific editions."
+        },
+        "canon_mapping_state": {
+          "enum": ["asserted_by_source", "reviewed_match", "uncertain", "not_mapped"],
+          "description": "asserted_by_source records a named source's explicit title or identity statement; it does not mean the archive has independently verified the match or counted the research text as canon-linked coverage."
+        },
+        "canon_mapping_note": { "type": "string", "minLength": 1 }
       },
+      "allOf": [
+        {
+          "if": { "properties": { "rights_classification": { "const": "open_license" } }, "required": ["rights_classification"] },
+          "then": { "required": ["license_id", "license_url"] }
+        }
+      ],
       "additionalProperties": false
     },
     "editionLead": {
@@ -564,10 +659,10 @@
       ],
       "properties": {
         "edition_id": { "type": "string", "minLength": 1 },
-        "candidate_canon_id": { "type": "string", "minLength": 1, "description": "Provisional link to a Church-list entry; this is not reader coverage." },
+        "candidate_canon_id": { "type": ["string", "null"], "minLength": 1, "description": "Provisional link to a Church-list entry; null with mapping_state not_mapped means the source is recorded without an assigned Church-list crosswalk." },
         "mapping_state": { "enum": ["asserted_by_source", "reviewed_match", "related_work", "uncertain", "not_mapped"] },
         "title": { "type": "string", "minLength": 1 },
-        "witness_type": { "enum": ["manuscript", "printed_edition", "critical_edition", "digital_edition", "transcription", "composite", "unknown"] },
+        "witness_type": { "enum": ["manuscript", "printed_edition", "critical_edition", "digital_edition", "digital_service", "transcription", "composite", "unknown"] },
         "language_tag": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" },
         "language_name": { "type": "string", "minLength": 1 },
         "language_tags": { "type": "array", "items": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" }, "minItems": 2, "uniqueItems": true, "description": "Explicit component language tags for a multilingual witness whose primary tag is IANA mul." },
@@ -575,7 +670,21 @@
         "edition_statement": { "type": "string", "minLength": 1 },
         "scope_description": { "type": "string", "minLength": 1 },
         "source_ids": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1, "uniqueItems": true },
-        "text_bundled": { "const": false },
+        "text_bundled": { "const": false, "description": "This metadata lead contains no text itself. Use bundled_reader_id to point to a corresponding local reader when one exists." },
+        "bundled_reader_id": { "type": "string", "minLength": 1, "description": "Optional ID of a separate bundled reader for this source-edition lead; this pointer does not establish the canon crosswalk." },
+        "raw_extraction": {
+          "type": "object",
+          "description": "Optional metadata for a bundled machine-derived or otherwise unproofread text extraction that is not a verified reader.",
+          "required": ["path", "sha256", "source_sha256", "method", "status"],
+          "properties": {
+            "path": { "type": "string", "minLength": 1 },
+            "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+            "source_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+            "method": { "type": "string", "minLength": 1 },
+            "status": { "const": "unproofread; not reader text or a verified translation" }
+          },
+          "additionalProperties": false
+        },
         "rights_status": { "type": "string", "minLength": 1 },
         "rights_classification": { "enum": ["public_domain_claimed", "open_license", "permission_limited", "all_rights_reserved", "unknown", "mixed"] },
         "license_id": { "type": "string", "minLength": 1 },
@@ -590,6 +699,18 @@
         {
           "if": { "properties": { "language_tag": { "const": "mul" } }, "required": ["language_tag"] },
           "then": { "required": ["language_tags"], "properties": { "language_name": { "const": "Multiple languages" } } }
+        },
+        {
+          "if": { "properties": { "language_tag": { "const": "und" } }, "required": ["language_tag"] },
+          "then": {
+            "properties": { "language_name": { "const": "Undetermined" }, "script_code": { "const": "Zzzz" } },
+            "not": { "required": ["language_tags"] }
+          }
+        },
+        {
+          "if": { "properties": { "mapping_state": { "const": "not_mapped" } }, "required": ["mapping_state"] },
+          "then": { "properties": { "candidate_canon_id": { "type": "null" } } },
+          "else": { "properties": { "candidate_canon_id": { "type": "string", "minLength": 1 } } }
         }
       ],
       "additionalProperties": false
@@ -599,7 +720,7 @@
       "required": [
         "corpus_id", "title", "reader_id", "unit_count", "reader_status",
         "canon_mapping_state", "candidate_canon_id", "canon_mapping_note",
-        "language_description", "script_description", "unit_summary",
+        "language_description", "script_description", "language_tag", "script_code", "unit_summary",
         "rights_classification", "rights_status", "review_status", "source_ids"
       ],
       "properties": {
@@ -608,8 +729,8 @@
         "reader_id": { "type": "string", "minLength": 1 },
         "unit_count": { "type": "integer", "minimum": 0 },
         "reader_status": { "enum": ["bundled_research_reader"] },
-        "canon_mapping_state": { "enum": ["uncertain", "not_mapped"] },
-        "candidate_canon_id": { "type": ["string", "null"], "minLength": 1, "description": "Optional provisional title-level candidate. Null is required when no canon crosswalk is assigned; research readers remain outside canon-linked coverage." },
+        "canon_mapping_state": { "enum": ["asserted_by_source", "reviewed_match", "uncertain", "not_mapped"], "description": "reviewed_match means the archive reviewed the work/title crosswalk against cited evidence; it does not establish EOTC/Eritrean affiliation, exact edition identity, completeness, accuracy, or translation basis, and it does not make the research reader canon-linked coverage. Research readers remain distinct from verified tradition-specific editions." },
+        "candidate_canon_id": { "type": ["string", "null"], "minLength": 1, "description": "A Church-list work/title mapping for this research reader; null is required when no crosswalk is assigned. A reviewed title match does not make this a verified tradition-specific edition or a canon-linked coverage reader." },
         "canon_mapping_note": { "type": "string", "minLength": 1 },
         "language_description": { "type": "string", "minLength": 1 },
         "script_description": { "type": "string", "minLength": 1 },
@@ -623,12 +744,28 @@
         "review_status": { "type": "string", "minLength": 1 },
         "source_ids": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1, "uniqueItems": true },
         "text_origin": { "enum": ["source_transcription", "published_translation"] },
-        "language_tag": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" },
-        "script_code": { "type": "string", "pattern": "^[A-Z][a-z]{3}$" },
+        "language_tag": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$", "description": "BCP 47 tag for the actual reader text. Match the reader and a registered profile; use und only when the text language is genuinely unidentified. Language and script are independent observations." },
+        "script_code": { "type": "string", "pattern": "^[A-Z][a-z]{3}$", "description": "ISO 15924 script code for the actual reader text. Match the reader; use a script supported by its language profile when known. Use Zzzz only when the script itself is unidentified, even if language is und." },
         "basis_language_tag": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" },
         "translation_path": { "type": "array", "minItems": 2, "items": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" } },
         "translation_id": { "type": "string", "minLength": 1 },
         "translator": { "type": "string", "minLength": 1 },
+        "translation_basis_status": {
+          "enum": ["established", "unknown"],
+          "description": "Whether the cited edition/source evidence identifies the translation basis; established does not verify translator workflow, wording accuracy, or intermediary languages beyond the recorded path."
+        },
+        "translation_basis_note": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Evidence and limits for the claimed or unknown source language/translation path."
+        },
+        "translation_basis_source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true,
+          "description": "Source records that directly support the stated source-language path. Present only when the path is established."
+        },
         "edition_statement": { "type": "string", "minLength": 1 }
       },
       "allOf": [
@@ -637,8 +774,124 @@
           "then": { "required": ["license_id", "license_url"] }
         },
         {
+          "if": { "properties": { "canon_mapping_state": { "const": "not_mapped" } }, "required": ["canon_mapping_state"] },
+          "then": { "properties": { "candidate_canon_id": { "type": "null" } } },
+          "else": { "properties": { "candidate_canon_id": { "type": "string", "minLength": 1 } } }
+        },
+        {
           "if": { "properties": { "text_origin": { "const": "published_translation" } }, "required": ["text_origin"] },
-          "then": { "required": ["language_tag", "script_code", "basis_language_tag", "translation_path", "translation_id", "translator", "edition_statement"] }
+          "then": {
+            "required": ["language_tag", "script_code", "translation_id", "translator", "edition_statement", "translation_basis_status", "translation_basis_note"],
+            "oneOf": [
+              {
+                "properties": { "translation_basis_status": { "const": "unknown" } },
+                "required": ["translation_basis_status", "translation_basis_note"],
+                "not": { "anyOf": [{ "required": ["basis_language_tag"] }, { "required": ["translation_path"] }, { "required": ["translation_basis_source_ids"] }] }
+              },
+              {
+                "required": ["basis_language_tag", "translation_path", "translation_basis_source_ids"],
+                "not": { "properties": { "translation_basis_status": { "const": "unknown" } }, "required": ["translation_basis_status"] }
+              }
+            ]
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "translationProcessEvidence": {
+      "type": "object",
+      "required": [
+        "record_id", "language_tag", "record_type", "claim_summary", "participants",
+        "edition_link_status", "edition_ids", "translation_path_status", "milestones",
+        "source_ids", "limitations"
+      ],
+      "properties": {
+        "record_id": { "type": "string", "minLength": 1 },
+        "language_tag": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" },
+        "record_type": { "enum": ["individual_contribution", "project_history"] },
+        "claim_summary": { "type": "string", "minLength": 1 },
+        "participants": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["agent_type", "name", "claimed_role"],
+            "properties": {
+              "agent_type": { "enum": ["person", "organization", "community_team"] },
+              "name": { "type": "string", "minLength": 1 },
+              "claimed_role": { "type": "string", "minLength": 1 }
+            },
+            "additionalProperties": false
+          }
+        },
+        "edition_link_status": { "enum": ["identified", "not_established"] },
+        "edition_ids": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "translation_path_status": { "enum": ["established", "not_stated", "unknown"] },
+        "translation_path": {
+          "type": "array", "minItems": 2,
+          "items": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" },
+          "description": "Ordered BCP 47 tags from source through any relay language to the registered output language; include only when directly established by evidence."
+        },
+        "milestones": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["event", "date", "date_precision", "source_claim"],
+            "properties": {
+              "event": { "type": "string", "minLength": 1 },
+              "date": { "type": "string", "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$" },
+              "date_precision": { "enum": ["year", "month", "day"] },
+              "source_claim": { "type": "string", "minLength": 1 }
+            },
+            "additionalProperties": false
+          }
+        },
+        "source_ids": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1, "uniqueItems": true },
+        "limitations": { "type": "string", "minLength": 1 }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "edition_link_status": { "const": "identified" } }, "required": ["edition_link_status"] },
+          "then": { "properties": { "edition_ids": { "minItems": 1 } } },
+          "else": { "properties": { "edition_ids": { "maxItems": 0 } } }
+        },
+        {
+          "if": { "properties": { "translation_path_status": { "const": "established" } }, "required": ["translation_path_status"] },
+          "then": { "required": ["translation_path"] },
+          "else": { "not": { "required": ["translation_path"] } }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "editionBasisEvidence": {
+      "type": "object",
+      "required": ["family_id", "family_label", "output_language_tag", "claim_type", "witness_relation", "claims", "source_ids", "limitations"],
+      "properties": {
+        "family_id": { "type": "string", "minLength": 1 },
+        "family_label": { "type": "string", "minLength": 1 },
+        "output_language_tag": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" },
+        "claim_type": { "enum": ["historical_secondary_report", "publisher_statement", "collated_witness"] },
+        "witness_relation": { "enum": ["family_level_not_collated", "specific_witness_collated"] },
+        "claims": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["scope", "source_language_tags", "statement"],
+            "properties": {
+              "scope": { "enum": ["whole_edition", "old_testament", "new_testament", "specific_book"] },
+              "source_language_tags": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" }, "uniqueItems": true },
+              "statement": { "type": "string", "minLength": 1 }
+            },
+            "additionalProperties": false
+          }
+        },
+        "source_ids": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^SRC-[0-9]{3,}$" }, "uniqueItems": true },
+        "limitations": { "type": "string", "minLength": 1 }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "witness_relation": { "const": "specific_witness_collated" } }, "required": ["witness_relation"] },
+          "then": { "properties": { "claim_type": { "const": "collated_witness" } } },
+          "else": { "properties": { "claim_type": { "enum": ["historical_secondary_report", "publisher_statement"] } } }
         }
       ],
       "additionalProperties": false

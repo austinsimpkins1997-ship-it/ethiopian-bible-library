@@ -1,0 +1,2405 @@
+{
+  "source_id": "SRC-391",
+  "source_url": "https://ebible.org/Scriptures/som_usfm.zip",
+  "retrieved_at": "2026-10-26",
+  "archive_sha256": "9ac3b1e08d708cd2e98d4095dc74031839f183bbc149ecf0f9b200b36ff606d1",
+  "archive_byte_length": 1569561,
+  "signature": {
+    "valid": true,
+    "signer_fingerprint": "54D714D76956DA6673DC1EEA5F62009D93505F26",
+    "fingerprint_reference": "https://mljohnson.org/gpg.htm",
+    "signing_key_algorithm": "DSA-1024 (legacy)",
+    "signature_hash_algorithm": "SHA-1 (legacy)",
+    "identity_limit": "The signature verifies using the included key, and its fingerprint matches the key maintainer's published listing. This does not independently establish identity, custody, or signing authority; legacy DSA-1024/SHA-1 limits apply."
+  },
+  "zip_member_count": 70,
+  "usfm_book_count": 66,
+  "verse_text_fidelity_audit": "research/som-verse-fidelity-audit.json",
+  "source_verse_line_count": 31103,
+  "matched_reader_verse_count": 31103,
+  "verse_text_mismatches": 0,
+  "usfm_members": [
+    {
+      "usfm_id": "GEN",
+      "path": "02-GENsom.usfm",
+      "navigation_label": "Genesis",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "BILOWGII"
+        },
+        {
+          "marker": "mt2",
+          "text": "KITAABKII KOWAAD EE"
+        },
+        {
+          "marker": "mt2",
+          "text": "MUUSE EE LA YIDHAAHDO"
+        },
+        {
+          "marker": "mt1",
+          "text": "BILOWGII"
+        }
+      ],
+      "member_sha256": "2237270df824a1fbcc95328762a286f95427c0862bf1115e7a90d412803c7299",
+      "member_bytes": 230455,
+      "chapter_count": 50,
+      "unit_count": 1533,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 7,
+        "c": 50,
+        "h": 1,
+        "id": 1,
+        "m": 3,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 131,
+        "q1": 110,
+        "s1": 69,
+        "s2": 3,
+        "v": 1533
+      }
+    },
+    {
+      "usfm_id": "EXO",
+      "path": "03-EXOsom.usfm",
+      "navigation_label": "Exodus",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "BAXNIINTII"
+        },
+        {
+          "marker": "mt2",
+          "text": "KITAABKII LABAAD EE"
+        },
+        {
+          "marker": "mt2",
+          "text": "MUUSE EE LA YIDHAAHDO"
+        },
+        {
+          "marker": "mt1",
+          "text": "BAXNIINTII"
+        }
+      ],
+      "member_sha256": "fa2886bcf8f28d84230351ca2ea1df687cefca3f21a39b5ccf71f58c6add89a5",
+      "member_bytes": 196303,
+      "chapter_count": 40,
+      "unit_count": 1213,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 6,
+        "c": 40,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 172,
+        "q1": 47,
+        "s1": 91,
+        "v": 1213
+      }
+    },
+    {
+      "usfm_id": "LEV",
+      "path": "04-LEVsom.usfm",
+      "navigation_label": "Leviticus",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "LAAWIYIINTII"
+        },
+        {
+          "marker": "mt2",
+          "text": "KITAABKII SADDEXAAD EE"
+        },
+        {
+          "marker": "mt2",
+          "text": "MUUSE EE LA YIDHAAHDO"
+        },
+        {
+          "marker": "mt1",
+          "text": "LAAWIYIINTII"
+        }
+      ],
+      "member_sha256": "ac67a27de8d6896bf04ccae2fa63e8bbc1f045e8317c98f2b63a6fb3e21edacb",
+      "member_bytes": 147829,
+      "chapter_count": 27,
+      "unit_count": 859,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 4,
+        "c": 27,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 119,
+        "s1": 43,
+        "v": 859
+      }
+    },
+    {
+      "usfm_id": "NUM",
+      "path": "05-NUMsom.usfm",
+      "navigation_label": "Numbers",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "TIRINTII"
+        },
+        {
+          "marker": "mt2",
+          "text": "KITAABKII AFRAAD EE"
+        },
+        {
+          "marker": "mt2",
+          "text": "MUUSE EE LA YIDHAAHDO"
+        },
+        {
+          "marker": "mt1",
+          "text": "TIRINTII"
+        }
+      ],
+      "member_sha256": "7f81d08304dd7d1612373628300379d3498fc583af577a4bd3d9b179539f3bea",
+      "member_bytes": 199886,
+      "chapter_count": 36,
+      "unit_count": 1288,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 1,
+        "c": 36,
+        "h": 1,
+        "id": 1,
+        "m": 8,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 168,
+        "q1": 111,
+        "s1": 69,
+        "v": 1288
+      }
+    },
+    {
+      "usfm_id": "DEU",
+      "path": "06-DEUsom.usfm",
+      "navigation_label": "Deuteronomy",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "SHARCIGA KUNOQOSHADIISA"
+        },
+        {
+          "marker": "mt2",
+          "text": "KITAABKII SHANAAD EE"
+        },
+        {
+          "marker": "mt2",
+          "text": "MUUSE EE LA YIDHAAHDO"
+        },
+        {
+          "marker": "mt1",
+          "text": "SHARCIGA KUNOQOSHADIISA"
+        }
+      ],
+      "member_sha256": "3825f4c5199ac106ddc9b398801c855648add5f29c36dd6afc1fe48055beae4b",
+      "member_bytes": 167937,
+      "chapter_count": 34,
+      "unit_count": 959,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 5,
+        "c": 34,
+        "h": 1,
+        "id": 1,
+        "m": 9,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 168,
+        "q1": 231,
+        "s1": 67,
+        "v": 959
+      }
+    },
+    {
+      "usfm_id": "JOS",
+      "path": "07-JOSsom.usfm",
+      "navigation_label": "Joshua",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "YASHUUCA"
+        },
+        {
+          "marker": "mt1",
+          "text": "YASHUUCA"
+        }
+      ],
+      "member_sha256": "b651448cecb03496adf8a9d1b57d4ef6bcf5811f46daa867199057b436456e61",
+      "member_bytes": 116908,
+      "chapter_count": 24,
+      "unit_count": 658,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 3,
+        "c": 24,
+        "h": 1,
+        "id": 1,
+        "m": 1,
+        "mt1": 1,
+        "p": 98,
+        "q1": 4,
+        "s1": 35,
+        "v": 658
+      }
+    },
+    {
+      "usfm_id": "JDG",
+      "path": "08-JDGsom.usfm",
+      "navigation_label": "Judges",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "XAAKINNADA"
+        },
+        {
+          "marker": "mt1",
+          "text": "XAAKINNADA"
+        }
+      ],
+      "member_sha256": "55d639ff9003e69d5fc874bf958b7a40195edadae4ecedc1120800dae475e289",
+      "member_bytes": 117204,
+      "chapter_count": 21,
+      "unit_count": 618,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 2,
+        "c": 21,
+        "h": 1,
+        "id": 1,
+        "m": 4,
+        "mt1": 1,
+        "p": 82,
+        "q1": 102,
+        "s1": 29,
+        "v": 618
+      }
+    },
+    {
+      "usfm_id": "RUT",
+      "path": "09-RUTsom.usfm",
+      "navigation_label": "Ruth",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "RUUD"
+        },
+        {
+          "marker": "mt1",
+          "text": "RUUD"
+        }
+      ],
+      "member_sha256": "688a38f175ba5141b7430f55e399d18317cd2c39b6a2e80f6c61a360c527352e",
+      "member_bytes": 15655,
+      "chapter_count": 4,
+      "unit_count": 85,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "c": 4,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "p": 6,
+        "s1": 5,
+        "v": 85
+      }
+    },
+    {
+      "usfm_id": "1SA",
+      "path": "10-1SAsom.usfm",
+      "navigation_label": "1 Samuel",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "SAMUU'EEL KOWAAD"
+        },
+        {
+          "marker": "mt2",
+          "text": "KITAABKII KOWAAD EE"
+        },
+        {
+          "marker": "mt1",
+          "text": "SAMUU'EEL"
+        }
+      ],
+      "member_sha256": "fec54a737413d7044e97a0dd8154d3412a3cc01d678cee3d802aca7f81ed15f7",
+      "member_bytes": 156282,
+      "chapter_count": 31,
+      "unit_count": 810,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 4,
+        "c": 31,
+        "h": 1,
+        "id": 1,
+        "m": 2,
+        "mt1": 1,
+        "mt2": 1,
+        "p": 95,
+        "q1": 41,
+        "s1": 44,
+        "v": 810
+      }
+    },
+    {
+      "usfm_id": "2SA",
+      "path": "11-2SAsom.usfm",
+      "navigation_label": "2 Samuel",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "SAMUU'EEL LABAAD"
+        },
+        {
+          "marker": "mt2",
+          "text": "KITAABKII LABAAD EE"
+        },
+        {
+          "marker": "mt1",
+          "text": "SAMUU'EEL"
+        }
+      ],
+      "member_sha256": "3bc5acc4178771e071be77729689a6f171f8214cba0db4a15a547063f51791b8",
+      "member_bytes": 130472,
+      "chapter_count": 24,
+      "unit_count": 695,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 3,
+        "c": 24,
+        "h": 1,
+        "id": 1,
+        "m": 1,
+        "mt1": 1,
+        "mt2": 1,
+        "p": 76,
+        "q1": 163,
+        "s1": 38,
+        "v": 695
+      }
+    },
+    {
+      "usfm_id": "1KI",
+      "path": "12-1KIsom.usfm",
+      "navigation_label": "1 Kings",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "BOQORRADII KOWAAD"
+        },
+        {
+          "marker": "mt2",
+          "text": "KITAABKII KOWAAD EE"
+        },
+        {
+          "marker": "mt1",
+          "text": "BOQORRADII"
+        }
+      ],
+      "member_sha256": "133de57bcff6cb63411d0adbca903a1211f6bf8762a39cb0691a352be50a0d30",
+      "member_bytes": 151623,
+      "chapter_count": 22,
+      "unit_count": 816,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 1,
+        "c": 22,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 1,
+        "p": 68,
+        "s1": 52,
+        "v": 816
+      }
+    },
+    {
+      "usfm_id": "2KI",
+      "path": "13-2KIsom.usfm",
+      "navigation_label": "2 Kings",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "BOQORRADII LABAAD"
+        },
+        {
+          "marker": "mt2",
+          "text": "KITAABKII LABAAD EE"
+        },
+        {
+          "marker": "mt1",
+          "text": "BOQORRADII"
+        }
+      ],
+      "member_sha256": "e4b8e5c25352ae45bc11ea941bc64aa54b90e9dd3d06850e7cb04814333231b3",
+      "member_bytes": 144739,
+      "chapter_count": 25,
+      "unit_count": 719,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 2,
+        "c": 25,
+        "h": 1,
+        "id": 1,
+        "m": 1,
+        "mt1": 1,
+        "mt2": 1,
+        "p": 78,
+        "q1": 33,
+        "s1": 57,
+        "v": 719
+      }
+    },
+    {
+      "usfm_id": "1CH",
+      "path": "14-1CHsom.usfm",
+      "navigation_label": "1 Chronicles",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "TAARIIKHDII KOWAAD"
+        },
+        {
+          "marker": "mt2",
+          "text": "KITAABKII KOWAAD EE"
+        },
+        {
+          "marker": "mt1",
+          "text": "TAARIIKHDII"
+        }
+      ],
+      "member_sha256": "5f24b5625d47a22c3c2900e4905c724cb1864bf31f295f0823a84ccc72708b87",
+      "member_bytes": 144685,
+      "chapter_count": 29,
+      "unit_count": 942,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 2,
+        "c": 29,
+        "h": 1,
+        "id": 1,
+        "m": 1,
+        "mt1": 1,
+        "mt2": 1,
+        "p": 92,
+        "q1": 61,
+        "s1": 56,
+        "s2": 19,
+        "v": 942
+      }
+    },
+    {
+      "usfm_id": "2CH",
+      "path": "15-2CHsom.usfm",
+      "navigation_label": "2 Chronicles",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "TAARIIKHDII LABAAD"
+        },
+        {
+          "marker": "mt2",
+          "text": "KITAABKII LABAAD EE"
+        },
+        {
+          "marker": "mt1",
+          "text": "TAARIIKHDII"
+        }
+      ],
+      "member_sha256": "12f4e51f9553a47d5be21a1b2c90c8299d717e46a59667a3420aeae94516f1a4",
+      "member_bytes": 169053,
+      "chapter_count": 36,
+      "unit_count": 822,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 9,
+        "c": 36,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 1,
+        "p": 83,
+        "s1": 51,
+        "v": 822
+      }
+    },
+    {
+      "usfm_id": "EZR",
+      "path": "16-EZRsom.usfm",
+      "navigation_label": "Ezra",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "CESRAA"
+        },
+        {
+          "marker": "mt1",
+          "text": "CESRAA"
+        }
+      ],
+      "member_sha256": "9aab33cd58688baaa8c80c8cb5e809ea4ac3a159377174fd1c7aaa3eaae8bce5",
+      "member_bytes": 47120,
+      "chapter_count": 10,
+      "unit_count": 280,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 2,
+        "c": 10,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "p": 30,
+        "s1": 17,
+        "v": 280
+      }
+    },
+    {
+      "usfm_id": "NEH",
+      "path": "17-NEHsom.usfm",
+      "navigation_label": "Nehemiah",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "NEXEMYAAH"
+        },
+        {
+          "marker": "mt1",
+          "text": "NEXEMYAAH"
+        }
+      ],
+      "member_sha256": "a68e31f4dd5e69c0c1eb5f8588ed09627f76c1dfac64f14e3e2ade1360ec2555",
+      "member_bytes": 68870,
+      "chapter_count": 13,
+      "unit_count": 406,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 3,
+        "c": 13,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "p": 26,
+        "s1": 16,
+        "v": 406
+      }
+    },
+    {
+      "usfm_id": "EST",
+      "path": "18-ESTsom.usfm",
+      "navigation_label": "Esther",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "ESTEER"
+        },
+        {
+          "marker": "mt1",
+          "text": "ESTEER"
+        }
+      ],
+      "member_sha256": "d7a91b8693c3a9528fcd74db243f99e5405e796ba1ad5cb25ee32fe90e00ec86",
+      "member_bytes": 36231,
+      "chapter_count": 10,
+      "unit_count": 167,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "c": 10,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "p": 31,
+        "s1": 13,
+        "v": 167
+      }
+    },
+    {
+      "usfm_id": "JOB",
+      "path": "19-JOBsom.usfm",
+      "navigation_label": "Job",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "AYUUB"
+        },
+        {
+          "marker": "mt2",
+          "text": "KITAABKII"
+        },
+        {
+          "marker": "mt1",
+          "text": "AYUUB"
+        }
+      ],
+      "member_sha256": "19f801394e754676eca4d935f2804915306a6e5d9ff9343840b323ac908e0f09",
+      "member_bytes": 128030,
+      "chapter_count": 42,
+      "unit_count": 1070,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 20,
+        "c": 42,
+        "h": 1,
+        "id": 1,
+        "m": 1,
+        "mt1": 1,
+        "mt2": 1,
+        "p": 17,
+        "q1": 2093,
+        "s1": 25,
+        "v": 1070
+      }
+    },
+    {
+      "usfm_id": "PSA",
+      "path": "20-PSAsom.usfm",
+      "navigation_label": "Psalms",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "SABUURRADII"
+        },
+        {
+          "marker": "mt1",
+          "text": "SABUURRADII"
+        }
+      ],
+      "member_sha256": "84661b534a8762084337e61e26e8c39eca277f72f43aa0fd4f589d0caf9d8b03",
+      "member_bytes": 308723,
+      "chapter_count": 150,
+      "unit_count": 2461,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 33,
+        "c": 150,
+        "h": 1,
+        "id": 1,
+        "mr": 2,
+        "ms1": 2,
+        "mt1": 1,
+        "q1": 5392,
+        "s1": 26,
+        "s2": 118,
+        "v": 2461
+      }
+    },
+    {
+      "usfm_id": "PRO",
+      "path": "21-PROsom.usfm",
+      "navigation_label": "Proverbs",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "MAAHMAAHYADII"
+        },
+        {
+          "marker": "mt1",
+          "text": "MAAHMAAHYADII"
+        }
+      ],
+      "member_sha256": "f63b494cfa56ea8725ee3b7a67f003d08e914d9701d8122bb8149e7a819ee6ab",
+      "member_bytes": 106221,
+      "chapter_count": 31,
+      "unit_count": 915,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 18,
+        "c": 31,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "q1": 1881,
+        "s1": 9,
+        "s2": 11,
+        "v": 915
+      }
+    },
+    {
+      "usfm_id": "ECC",
+      "path": "22-ECCsom.usfm",
+      "navigation_label": "Ecclesiastes",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "WACDIYAHII"
+        },
+        {
+          "marker": "mt1",
+          "text": "WACDIYAHII"
+        }
+      ],
+      "member_sha256": "c839c2465bc9610ebc756fd2457a95cdc5036ce4e70837a033dfb001b862eecd",
+      "member_bytes": 34381,
+      "chapter_count": 12,
+      "unit_count": 222,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 4,
+        "c": 12,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "p": 41,
+        "s1": 17,
+        "v": 222
+      }
+    },
+    {
+      "usfm_id": "SNG",
+      "path": "23-SNGsom.usfm",
+      "navigation_label": "Song of Songs",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "GABAYGII SULAYMAAN"
+        },
+        {
+          "marker": "mt1",
+          "text": "GABAYGII"
+        },
+        {
+          "marker": "mt1",
+          "text": "SULAYMAAN"
+        }
+      ],
+      "member_sha256": "6a277567b1705f6b1665cbf4e8cd8a5e06fe518fb4ed73b2027e318865d9c41d",
+      "member_bytes": 20002,
+      "chapter_count": 8,
+      "unit_count": 117,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 3,
+        "c": 8,
+        "h": 1,
+        "id": 1,
+        "mt1": 2,
+        "p": 1,
+        "q1": 344,
+        "sp": 35,
+        "v": 117
+      }
+    },
+    {
+      "usfm_id": "ISA",
+      "path": "24-ISAsom.usfm",
+      "navigation_label": "Isaiah",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "ISHACYAAH"
+        },
+        {
+          "marker": "mt2",
+          "text": "KITAABKII"
+        },
+        {
+          "marker": "mt1",
+          "text": "ISHACYAAH"
+        }
+      ],
+      "member_sha256": "c226d09b252c06341481c85431b7b5ae1c1f95b8c12387d0af1be29000d211ca",
+      "member_bytes": 232126,
+      "chapter_count": 66,
+      "unit_count": 1292,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 9,
+        "c": 66,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 1,
+        "p": 215,
+        "q1": 56,
+        "s1": 84,
+        "v": 1292
+      }
+    },
+    {
+      "usfm_id": "JER",
+      "path": "25-JERsom.usfm",
+      "navigation_label": "Jeremiah",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "YEREMYAAH"
+        },
+        {
+          "marker": "mt2",
+          "text": "KITAABKII"
+        },
+        {
+          "marker": "mt1",
+          "text": "YEREMYAAH"
+        }
+      ],
+      "member_sha256": "a8fd7fae2dba7eaf9f7f565a08710886eff60a0653095b6e532be5688cd02724",
+      "member_bytes": 262310,
+      "chapter_count": 52,
+      "unit_count": 1364,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 12,
+        "c": 52,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 1,
+        "p": 179,
+        "s1": 65,
+        "v": 1364
+      }
+    },
+    {
+      "usfm_id": "LAM",
+      "path": "26-LAMsom.usfm",
+      "navigation_label": "Lamentations",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "BAROORASHADII YEREMYAAH"
+        },
+        {
+          "marker": "mt1",
+          "text": "BAROORASHADII"
+        },
+        {
+          "marker": "mt1",
+          "text": "YEREMYAAH"
+        }
+      ],
+      "member_sha256": "188722fbb3599e52ccc19765bf21b8e2a6bf23c9b3a7cf10a486f756d659b4d8",
+      "member_bytes": 22295,
+      "chapter_count": 5,
+      "unit_count": 154,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 4,
+        "c": 5,
+        "h": 1,
+        "id": 1,
+        "mt1": 2,
+        "q1": 294,
+        "v": 154
+      }
+    },
+    {
+      "usfm_id": "EZK",
+      "path": "27-EZKsom.usfm",
+      "navigation_label": "Ezekiel",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "YEXESQEEL"
+        },
+        {
+          "marker": "mt2",
+          "text": "KITAABKII"
+        },
+        {
+          "marker": "mt1",
+          "text": "YEXESQEEL"
+        }
+      ],
+      "member_sha256": "27b8e13c6e7362147b73f5f3efbf93d59668153270905b38831f28a3176bc1a3",
+      "member_bytes": 244661,
+      "chapter_count": 48,
+      "unit_count": 1273,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 5,
+        "c": 48,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 1,
+        "p": 136,
+        "s1": 67,
+        "v": 1273
+      }
+    },
+    {
+      "usfm_id": "DAN",
+      "path": "28-DANsom.usfm",
+      "navigation_label": "Daniel",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "DAANYEEL"
+        },
+        {
+          "marker": "mt1",
+          "text": "DAANYEEL"
+        }
+      ],
+      "member_sha256": "ee06b321e48f30571953bcf2173acbdb1e330559bc76cc707762fc140af33b4f",
+      "member_bytes": 69871,
+      "chapter_count": 12,
+      "unit_count": 357,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 1,
+        "c": 12,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "p": 35,
+        "s1": 19,
+        "v": 357
+      }
+    },
+    {
+      "usfm_id": "HOS",
+      "path": "29-HOSsom.usfm",
+      "navigation_label": "Hosea",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "HOOSHEECA"
+        },
+        {
+          "marker": "mt1",
+          "text": "HOOSHEECA"
+        }
+      ],
+      "member_sha256": "1136f2402acd3ff59c01022c3ddafc05ef0bcc2614e017496d7fd7b161648f29",
+      "member_bytes": 34922,
+      "chapter_count": 14,
+      "unit_count": 197,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 4,
+        "c": 14,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "p": 23,
+        "s1": 12,
+        "v": 197
+      }
+    },
+    {
+      "usfm_id": "JOL",
+      "path": "30-JOLsom.usfm",
+      "navigation_label": "Joel",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "YOO'EEL"
+        },
+        {
+          "marker": "mt1",
+          "text": "YOO'EEL"
+        }
+      ],
+      "member_sha256": "0b5fdf5bd7c18e0b7666a050c3646ecad4640567b07d21f5ec88988f58e4ee98",
+      "member_bytes": 13063,
+      "chapter_count": 3,
+      "unit_count": 73,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "c": 3,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "nb": 1,
+        "p": 10,
+        "s1": 8,
+        "v": 73
+      }
+    },
+    {
+      "usfm_id": "AMO",
+      "path": "31-AMOsom.usfm",
+      "navigation_label": "Amos",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "CAAMOOS"
+        },
+        {
+          "marker": "mt1",
+          "text": "CAAMOOS"
+        }
+      ],
+      "member_sha256": "421162722a7ae63ed6376e164d4669f337644d3392eae8cb37d4bc12578a1f69",
+      "member_bytes": 26929,
+      "chapter_count": 9,
+      "unit_count": 146,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 1,
+        "c": 9,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "p": 24,
+        "s1": 13,
+        "v": 146
+      }
+    },
+    {
+      "usfm_id": "OBA",
+      "path": "32-OBAsom.usfm",
+      "navigation_label": "Obadiah",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "COBADYAAH"
+        },
+        {
+          "marker": "mt1",
+          "text": "COBADYAAH"
+        }
+      ],
+      "member_sha256": "220fb4e4fa45e40d635805017dd308913ac3c18e62d2a883b10050ce351b390a",
+      "member_bytes": 4132,
+      "chapter_count": 1,
+      "unit_count": 21,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "c": 1,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "p": 1,
+        "v": 21
+      }
+    },
+    {
+      "usfm_id": "JON",
+      "path": "33-JONsom.usfm",
+      "navigation_label": "Jonah",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "YOONIS"
+        },
+        {
+          "marker": "mt1",
+          "text": "YOONIS"
+        }
+      ],
+      "member_sha256": "0ddd4987bf44ae4eded82b32a096e8b26221d47e11b900ef618f6ddf15972d6e",
+      "member_bytes": 8658,
+      "chapter_count": 4,
+      "unit_count": 48,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 1,
+        "c": 4,
+        "h": 1,
+        "id": 1,
+        "m": 1,
+        "mt1": 1,
+        "p": 11,
+        "q1": 22,
+        "s1": 4,
+        "v": 48
+      }
+    },
+    {
+      "usfm_id": "MIC",
+      "path": "34-MICsom.usfm",
+      "navigation_label": "Micah",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "MIIKAAH"
+        },
+        {
+          "marker": "mt1",
+          "text": "MIIKAAH"
+        }
+      ],
+      "member_sha256": "4d16a7b90d6da17023bb3ba6875a85e4bc091e83e7573ce89461c70abf6ed397",
+      "member_bytes": 19880,
+      "chapter_count": 7,
+      "unit_count": 105,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "c": 7,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "p": 20,
+        "s1": 15,
+        "v": 105
+      }
+    },
+    {
+      "usfm_id": "NAM",
+      "path": "35-NAMsom.usfm",
+      "navigation_label": "Nahum",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "NAXUUM"
+        },
+        {
+          "marker": "mt1",
+          "text": "NAXUUM"
+        }
+      ],
+      "member_sha256": "24277f18a613129bd47777ef08eafc027f232e212c5c252019bf37e0a8ec062c",
+      "member_bytes": 8506,
+      "chapter_count": 3,
+      "unit_count": 47,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "c": 3,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "p": 7,
+        "s1": 3,
+        "v": 47
+      }
+    },
+    {
+      "usfm_id": "HAB",
+      "path": "36-HABsom.usfm",
+      "navigation_label": "Habakkuk",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "XABAQUUQ"
+        },
+        {
+          "marker": "mt1",
+          "text": "XABAQUUQ"
+        }
+      ],
+      "member_sha256": "cd987856c9836c9e9f89d26d53ab5610ba36c1a302a7652af60b16b18b111d15",
+      "member_bytes": 9908,
+      "chapter_count": 3,
+      "unit_count": 56,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 3,
+        "c": 3,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "p": 11,
+        "q1": 62,
+        "s1": 5,
+        "v": 56
+      }
+    },
+    {
+      "usfm_id": "ZEP",
+      "path": "37-ZEPsom.usfm",
+      "navigation_label": "Zephaniah",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "SEFANYAAH"
+        },
+        {
+          "marker": "mt1",
+          "text": "SEFANYAAH"
+        }
+      ],
+      "member_sha256": "464350e104824a206b40334d6ffcbb6ca18095a0077e2d86cbac28d9468c0798",
+      "member_bytes": 10452,
+      "chapter_count": 3,
+      "unit_count": 53,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 1,
+        "c": 3,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "p": 19,
+        "s1": 8,
+        "v": 53
+      }
+    },
+    {
+      "usfm_id": "HAG",
+      "path": "38-HAGsom.usfm",
+      "navigation_label": "Haggai",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "XAGGAY"
+        },
+        {
+          "marker": "mt1",
+          "text": "XAGGAY"
+        }
+      ],
+      "member_sha256": "5003ff7966aa5c8ddbf5e98d77aca0d7fc0dbf69614386393ac4259ecb8c67d0",
+      "member_bytes": 7208,
+      "chapter_count": 2,
+      "unit_count": 38,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "c": 2,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "p": 5,
+        "s1": 4,
+        "v": 38
+      }
+    },
+    {
+      "usfm_id": "ZEC",
+      "path": "39-ZECsom.usfm",
+      "navigation_label": "Zechariah",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "SEKARYAAH"
+        },
+        {
+          "marker": "mt1",
+          "text": "SEKARYAAH"
+        }
+      ],
+      "member_sha256": "b1bd77b54106fe0ad08e99490a92e7e218b92e0a27cec4c57b8b5e17128f6db0",
+      "member_bytes": 40055,
+      "chapter_count": 14,
+      "unit_count": 211,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 1,
+        "c": 14,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "p": 28,
+        "s1": 22,
+        "s2": 1,
+        "v": 211
+      }
+    },
+    {
+      "usfm_id": "MAL",
+      "path": "40-MALsom.usfm",
+      "navigation_label": "Malachi",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "MALAAKII"
+        },
+        {
+          "marker": "mt1",
+          "text": "MALAAKII"
+        }
+      ],
+      "member_sha256": "242daf55aaf219cf605481370539e8bbab73af5a1c04300a8b2832b8ed7eb193",
+      "member_bytes": 11807,
+      "chapter_count": 4,
+      "unit_count": 55,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 1,
+        "c": 4,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "p": 13,
+        "s1": 7,
+        "v": 55
+      }
+    },
+    {
+      "usfm_id": "MAT",
+      "path": "46-MATsom.usfm",
+      "navigation_label": "Matthew",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "MATAYOS"
+        },
+        {
+          "marker": "mt2",
+          "text": "INJIILKA SIDA"
+        },
+        {
+          "marker": "mt1",
+          "text": "MATAYOS"
+        },
+        {
+          "marker": "mt2",
+          "text": "U QORAY"
+        }
+      ],
+      "member_sha256": "71d8f3a3e1c0d8931bd79434b9671d54092f95e6141f140d41961ee152d10d25",
+      "member_bytes": 148289,
+      "chapter_count": 28,
+      "unit_count": 1071,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 1,
+        "c": 28,
+        "h": 1,
+        "id": 1,
+        "m": 6,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 196,
+        "q1": 62,
+        "r": 115,
+        "s1": 143,
+        "v": 1071
+      }
+    },
+    {
+      "usfm_id": "MRK",
+      "path": "47-MRKsom.usfm",
+      "navigation_label": "Mark",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "MARKOS"
+        },
+        {
+          "marker": "mt2",
+          "text": "INJIILKA SIDA"
+        },
+        {
+          "marker": "mt1",
+          "text": "MARKOS"
+        },
+        {
+          "marker": "mt2",
+          "text": "U QORAY"
+        }
+      ],
+      "member_sha256": "648f223510c1daadf865c22de664e6c479707a2876ace5d6ec512e7b3594b6b1",
+      "member_bytes": 93059,
+      "chapter_count": 16,
+      "unit_count": 678,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 1,
+        "c": 16,
+        "h": 1,
+        "id": 1,
+        "m": 2,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 121,
+        "q1": 16,
+        "r": 88,
+        "s1": 91,
+        "v": 678
+      }
+    },
+    {
+      "usfm_id": "LUK",
+      "path": "48-LUKsom.usfm",
+      "navigation_label": "Luke",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "LUUKOS"
+        },
+        {
+          "marker": "mt2",
+          "text": "INJIILKA SIDA"
+        },
+        {
+          "marker": "mt1",
+          "text": "LUUKOS"
+        },
+        {
+          "marker": "mt2",
+          "text": "U QORAY"
+        }
+      ],
+      "member_sha256": "d079ddbfc33bab6d9928fbfb9b1a7d9fe2a7235f72d92fe0cc34eab723d43e4d",
+      "member_bytes": 155959,
+      "chapter_count": 24,
+      "unit_count": 1151,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "c": 24,
+        "h": 1,
+        "id": 1,
+        "m": 6,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 187,
+        "q1": 69,
+        "r": 97,
+        "s1": 137,
+        "v": 1151
+      }
+    },
+    {
+      "usfm_id": "JHN",
+      "path": "49-JHNsom.usfm",
+      "navigation_label": "John",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "YOOXANAA"
+        },
+        {
+          "marker": "mt2",
+          "text": "INJIILKA SIDA"
+        },
+        {
+          "marker": "mt1",
+          "text": "YOOXANAA"
+        },
+        {
+          "marker": "mt2",
+          "text": "U QORAY"
+        }
+      ],
+      "member_sha256": "3471533d9282f3221afa8cd8b6b29c94600e53faa6720234802c4abe38da0086",
+      "member_bytes": 115818,
+      "chapter_count": 21,
+      "unit_count": 879,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 2,
+        "c": 21,
+        "h": 1,
+        "id": 1,
+        "m": 3,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 135,
+        "q1": 8,
+        "r": 20,
+        "s1": 63,
+        "v": 879
+      }
+    },
+    {
+      "usfm_id": "ACT",
+      "path": "74-ACTsom.usfm",
+      "navigation_label": "Acts",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "FALIMAHA RASUULLADA"
+        },
+        {
+          "marker": "mt1",
+          "text": "FALIMAHA"
+        },
+        {
+          "marker": "mt1",
+          "text": "RASUULLADA"
+        }
+      ],
+      "member_sha256": "dccd5f5f9db380f36a04569895be0042c1ebbc269a1e05b003b56363756c89bb",
+      "member_bytes": 154951,
+      "chapter_count": 28,
+      "unit_count": 1007,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 1,
+        "c": 28,
+        "h": 1,
+        "id": 1,
+        "m": 6,
+        "mt1": 2,
+        "p": 186,
+        "q1": 76,
+        "r": 4,
+        "s1": 88,
+        "v": 1007
+      }
+    },
+    {
+      "usfm_id": "ROM",
+      "path": "51-ROMsom.usfm",
+      "navigation_label": "Romans",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "ROOMA"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII RASUUL"
+        },
+        {
+          "marker": "mt2",
+          "text": "BAWLOS U QORAY DADKII"
+        },
+        {
+          "marker": "mt1",
+          "text": "ROOMA"
+        }
+      ],
+      "member_sha256": "98cec5a934614bc5ef397bdf74ed3053deadbea2ced811a86e54cc71296baad5",
+      "member_bytes": 60345,
+      "chapter_count": 16,
+      "unit_count": 433,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 2,
+        "c": 16,
+        "h": 1,
+        "id": 1,
+        "m": 11,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 65,
+        "q1": 53,
+        "q2": 1,
+        "s1": 43,
+        "v": 433
+      }
+    },
+    {
+      "usfm_id": "1CO",
+      "path": "52-1COsom.usfm",
+      "navigation_label": "1 Corinthians",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "1 KORINTOS"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII KOWAAD"
+        },
+        {
+          "marker": "mt2",
+          "text": "EE RASUUL BAWLOS"
+        },
+        {
+          "marker": "mt2",
+          "text": "U QORAY DADKII"
+        },
+        {
+          "marker": "mt1",
+          "text": "KORINTOS"
+        }
+      ],
+      "member_sha256": "1926724247a5d8c12ff52546402ecd4fd62c0143d67685bcc5feeec6d51609c7",
+      "member_bytes": 58651,
+      "chapter_count": 16,
+      "unit_count": 437,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 1,
+        "c": 16,
+        "h": 1,
+        "id": 1,
+        "m": 2,
+        "mt1": 1,
+        "mt2": 3,
+        "p": 70,
+        "q1": 5,
+        "r": 1,
+        "s1": 32,
+        "v": 437
+      }
+    },
+    {
+      "usfm_id": "2CO",
+      "path": "53-2COsom.usfm",
+      "navigation_label": "2 Corinthians",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "2 KORINTOS"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII LABAAD"
+        },
+        {
+          "marker": "mt2",
+          "text": "EE RASUUL BAWLOS"
+        },
+        {
+          "marker": "mt2",
+          "text": "U QORAY DADKII"
+        },
+        {
+          "marker": "mt1",
+          "text": "KORINTOS"
+        }
+      ],
+      "member_sha256": "c31729a8221336386b3012ae1678efc92fbe61db601678bd5b35a9d772a521b3",
+      "member_bytes": 38427,
+      "chapter_count": 13,
+      "unit_count": 257,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 5,
+        "c": 13,
+        "h": 1,
+        "id": 1,
+        "m": 3,
+        "mt1": 1,
+        "mt2": 3,
+        "p": 44,
+        "q1": 9,
+        "s1": 26,
+        "v": 257
+      }
+    },
+    {
+      "usfm_id": "GAL",
+      "path": "54-GALsom.usfm",
+      "navigation_label": "Galatians",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "GALATIYA"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII RASUUL"
+        },
+        {
+          "marker": "mt2",
+          "text": "BAWLOS U QORAY DADKII"
+        },
+        {
+          "marker": "mt1",
+          "text": "GALATIYA"
+        }
+      ],
+      "member_sha256": "14d817904dfaed9d6bb1f82792ffe578834a0439b648c636b0480dbe3a118d37",
+      "member_bytes": 19619,
+      "chapter_count": 6,
+      "unit_count": 149,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 1,
+        "c": 6,
+        "h": 1,
+        "id": 1,
+        "m": 1,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 27,
+        "q1": 3,
+        "s1": 16,
+        "v": 149
+      }
+    },
+    {
+      "usfm_id": "EPH",
+      "path": "55-EPHsom.usfm",
+      "navigation_label": "Ephesians",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "EFESOS"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII RASUUL"
+        },
+        {
+          "marker": "mt2",
+          "text": "BAWLOS U QORAY DADKII"
+        },
+        {
+          "marker": "mt1",
+          "text": "EFESOS"
+        }
+      ],
+      "member_sha256": "d9b7e0276feabe6708c0282fae2d7939af115d439c904b4b419b7090559c7f5c",
+      "member_bytes": 19865,
+      "chapter_count": 6,
+      "unit_count": 155,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 2,
+        "c": 6,
+        "h": 1,
+        "id": 1,
+        "m": 1,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 19,
+        "q1": 2,
+        "r": 2,
+        "s1": 13,
+        "v": 155
+      }
+    },
+    {
+      "usfm_id": "PHP",
+      "path": "56-PHPsom.usfm",
+      "navigation_label": "Philippians",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "FILIBOY"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII RASUUL"
+        },
+        {
+          "marker": "mt2",
+          "text": "BAWLOS U QORAY DADKII"
+        },
+        {
+          "marker": "mt1",
+          "text": "FILIBOY"
+        }
+      ],
+      "member_sha256": "78a085167261d24b9b9b431a48ea7994ad9b1942cacfb9d2d02c65786cf350a6",
+      "member_bytes": 15203,
+      "chapter_count": 4,
+      "unit_count": 104,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "c": 4,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 20,
+        "s1": 15,
+        "v": 104
+      }
+    },
+    {
+      "usfm_id": "COL",
+      "path": "57-COLsom.usfm",
+      "navigation_label": "Colossians",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "KOLOSAY"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII RASUUL"
+        },
+        {
+          "marker": "mt2",
+          "text": "BAWLOS U QORAY DADKII"
+        },
+        {
+          "marker": "mt1",
+          "text": "KOLOSAY"
+        }
+      ],
+      "member_sha256": "45e386c4e2c0ff23333df75f83a2d30f1fedf8218069e105787f3fb8d09c5922",
+      "member_bytes": 13492,
+      "chapter_count": 4,
+      "unit_count": 95,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 3,
+        "c": 4,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 19,
+        "r": 2,
+        "s1": 9,
+        "v": 95
+      }
+    },
+    {
+      "usfm_id": "1TH",
+      "path": "58-1THsom.usfm",
+      "navigation_label": "1 Thessalonians",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "1 TESALONIIKA"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII KOWAAD"
+        },
+        {
+          "marker": "mt2",
+          "text": "EE RASUUL BAWLOS"
+        },
+        {
+          "marker": "mt2",
+          "text": "U QORAY DADKII"
+        },
+        {
+          "marker": "mt1",
+          "text": "TESALONIIKA"
+        }
+      ],
+      "member_sha256": "c878e943e00874d9e71dd353ce019ddb42908e72f2259453a7681bab3c16936f",
+      "member_bytes": 12515,
+      "chapter_count": 5,
+      "unit_count": 89,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 1,
+        "c": 5,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 3,
+        "p": 16,
+        "s1": 8,
+        "v": 89
+      }
+    },
+    {
+      "usfm_id": "2TH",
+      "path": "59-2THsom.usfm",
+      "navigation_label": "2 Thessalonians",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "2 TESALONIIKA"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII LABAAD"
+        },
+        {
+          "marker": "mt2",
+          "text": "EE RASUUL BAWLOS"
+        },
+        {
+          "marker": "mt2",
+          "text": "U QORAY DADKII"
+        },
+        {
+          "marker": "mt1",
+          "text": "TESALONIIKA"
+        }
+      ],
+      "member_sha256": "3c141fe09a6f9f3b41c914e62c1bafb717aebf308cc9a5ba4202ec6a1bf236bc",
+      "member_bytes": 6652,
+      "chapter_count": 3,
+      "unit_count": 47,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "c": 3,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 3,
+        "p": 9,
+        "s1": 7,
+        "v": 47
+      }
+    },
+    {
+      "usfm_id": "1TI",
+      "path": "60-1TIsom.usfm",
+      "navigation_label": "1 Timothy",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "1 TIMOTEYOS"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII KOWAAD EE"
+        },
+        {
+          "marker": "mt2",
+          "text": "RASUUL BAWLOS U QORAY"
+        },
+        {
+          "marker": "mt1",
+          "text": "TIMOTEYOS"
+        }
+      ],
+      "member_sha256": "c8d17099d4bad99edcccca0fb2c7ca908e535aebd06f261c64617997d592342c",
+      "member_bytes": 16109,
+      "chapter_count": 6,
+      "unit_count": 113,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 1,
+        "c": 6,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 20,
+        "s1": 13,
+        "v": 113
+      }
+    },
+    {
+      "usfm_id": "2TI",
+      "path": "61-2TIsom.usfm",
+      "navigation_label": "2 Timothy",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "2 TIMOTEYOS"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII LABAAD EE"
+        },
+        {
+          "marker": "mt2",
+          "text": "RASUUL BAWLOS U QORAY"
+        },
+        {
+          "marker": "mt1",
+          "text": "TIMOTEYOS"
+        }
+      ],
+      "member_sha256": "e616340d0f3628d154802f91be8bedc3b048dbb35ce27bbf7dbc67cb52c2c0aa",
+      "member_bytes": 11279,
+      "chapter_count": 4,
+      "unit_count": 83,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 2,
+        "c": 4,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 12,
+        "s1": 6,
+        "v": 83
+      }
+    },
+    {
+      "usfm_id": "TIT",
+      "path": "62-TITsom.usfm",
+      "navigation_label": "Titus",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "TIITOS"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII RASUUL"
+        },
+        {
+          "marker": "mt2",
+          "text": "BAWLOS U QORAY"
+        },
+        {
+          "marker": "mt1",
+          "text": "TIITOS"
+        }
+      ],
+      "member_sha256": "95747a31b83ca8bcb266b285e5d1e97613463a9544baf33b167fa20eec87f8aa",
+      "member_bytes": 6702,
+      "chapter_count": 3,
+      "unit_count": 46,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 1,
+        "c": 3,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 9,
+        "s1": 5,
+        "v": 46
+      }
+    },
+    {
+      "usfm_id": "PHM",
+      "path": "63-PHMsom.usfm",
+      "navigation_label": "Philemon",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "FILEMON"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII RASUUL"
+        },
+        {
+          "marker": "mt2",
+          "text": "BAWLOS U QORAY"
+        },
+        {
+          "marker": "mt1",
+          "text": "FILEMON"
+        }
+      ],
+      "member_sha256": "30acdd32b60ae3b4adb0f70a316a561050e96caca211acd7e4fedc06078dc06f",
+      "member_bytes": 2950,
+      "chapter_count": 1,
+      "unit_count": 25,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "c": 1,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 6,
+        "s1": 4,
+        "v": 25
+      }
+    },
+    {
+      "usfm_id": "HEB",
+      "path": "64-HEBsom.usfm",
+      "navigation_label": "Hebrews",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "CIBRAANIYADA"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII"
+        },
+        {
+          "marker": "mt2",
+          "text": "LOO QORAY DADKII"
+        },
+        {
+          "marker": "mt1",
+          "text": "CIBRAANIYADA"
+        }
+      ],
+      "member_sha256": "ec7f7bc1967eece615cff972014b5ec6a970c2de460918df4117355da6f8d308",
+      "member_bytes": 43411,
+      "chapter_count": 13,
+      "unit_count": 303,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 3,
+        "c": 13,
+        "h": 1,
+        "id": 1,
+        "m": 19,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 51,
+        "q1": 89,
+        "s1": 25,
+        "v": 303
+      }
+    },
+    {
+      "usfm_id": "JAS",
+      "path": "65-JASsom.usfm",
+      "navigation_label": "James",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "YACQUUB"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII"
+        },
+        {
+          "marker": "mt1",
+          "text": "YACQUUB"
+        }
+      ],
+      "member_sha256": "bf6ce108039d01c26fa7a0aeb0cceba6faca463c780616ee1e1d740270f12f87",
+      "member_bytes": 14779,
+      "chapter_count": 5,
+      "unit_count": 108,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "c": 5,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 1,
+        "p": 19,
+        "s1": 12,
+        "v": 108
+      }
+    },
+    {
+      "usfm_id": "1PE",
+      "path": "90-1PEsom.usfm",
+      "navigation_label": "1 Peter",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "1 BUTROS"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII"
+        },
+        {
+          "marker": "mt2",
+          "text": "KOWAAD EE RASUUL"
+        },
+        {
+          "marker": "mt1",
+          "text": "BUTROS"
+        }
+      ],
+      "member_sha256": "b3d75ed6a70d543d5c44c2c0c7cd5d4715e3ced52e1f3c400ea100850a5842b2",
+      "member_bytes": 16506,
+      "chapter_count": 5,
+      "unit_count": 105,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "c": 5,
+        "h": 1,
+        "id": 1,
+        "m": 2,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 20,
+        "q1": 16,
+        "s1": 13,
+        "v": 105
+      }
+    },
+    {
+      "usfm_id": "2PE",
+      "path": "67-2PEsom.usfm",
+      "navigation_label": "2 Peter",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "2 BUTROS"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII"
+        },
+        {
+          "marker": "mt2",
+          "text": "LABAAD EE RASUUL"
+        },
+        {
+          "marker": "mt1",
+          "text": "BUTROS"
+        }
+      ],
+      "member_sha256": "999e73213086ccfab54d5f4ffa76b9f817fc6ffebe96700eb001270f1434bb7d",
+      "member_bytes": 10305,
+      "chapter_count": 3,
+      "unit_count": 61,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "c": 3,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 9,
+        "r": 1,
+        "s1": 6,
+        "v": 61
+      }
+    },
+    {
+      "usfm_id": "1JN",
+      "path": "68-1JNsom.usfm",
+      "navigation_label": "1 John",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "1 YOOXANAA"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII"
+        },
+        {
+          "marker": "mt2",
+          "text": "KOWAAD EE RASUUL"
+        },
+        {
+          "marker": "mt1",
+          "text": "YOOXANAA"
+        }
+      ],
+      "member_sha256": "79695a31a17bcb99dda2c1173a5114eafaf92fd33556b2d1caabca5bd849e5c7",
+      "member_bytes": 15274,
+      "chapter_count": 5,
+      "unit_count": 105,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 1,
+        "c": 5,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 20,
+        "s1": 11,
+        "v": 105
+      }
+    },
+    {
+      "usfm_id": "2JN",
+      "path": "69-2JNsom.usfm",
+      "navigation_label": "2 John",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "2 YOOXANAA"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII"
+        },
+        {
+          "marker": "mt2",
+          "text": "LABAAD EE RASUUL"
+        },
+        {
+          "marker": "mt1",
+          "text": "YOOXANAA"
+        }
+      ],
+      "member_sha256": "f8ca22a4ea47b9a04ddd7d8cc9a04d1c509657ecc303640a943c11e13736944b",
+      "member_bytes": 1841,
+      "chapter_count": 1,
+      "unit_count": 13,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "c": 1,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 4,
+        "s1": 1,
+        "v": 13
+      }
+    },
+    {
+      "usfm_id": "3JN",
+      "path": "94-3JNsom.usfm",
+      "navigation_label": "3 John",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "3 YOOXANAA"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII"
+        },
+        {
+          "marker": "mt2",
+          "text": "SADDEXAAD EE RASUUL"
+        },
+        {
+          "marker": "mt1",
+          "text": "YOOXANAA"
+        }
+      ],
+      "member_sha256": "ccc7d1aa0ddaa207defc9c4a417a4f59efaf5cea864d88f2b7c908372c1b66fa",
+      "member_bytes": 2119,
+      "chapter_count": 1,
+      "unit_count": 15,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "c": 1,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 6,
+        "s1": 2,
+        "v": 15
+      }
+    },
+    {
+      "usfm_id": "JUD",
+      "path": "71-JUDsom.usfm",
+      "navigation_label": "Jude",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "YUUDAS"
+        },
+        {
+          "marker": "mt2",
+          "text": "WARQADDII"
+        },
+        {
+          "marker": "mt1",
+          "text": "YUUDAS"
+        }
+      ],
+      "member_sha256": "ceb1fa8e8a3630e47b58dc4e3696daf2a4861102d6f4a1205b11212258a82a50",
+      "member_bytes": 4259,
+      "chapter_count": 1,
+      "unit_count": 25,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "c": 1,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 1,
+        "p": 7,
+        "r": 1,
+        "s1": 3,
+        "v": 25
+      }
+    },
+    {
+      "usfm_id": "REV",
+      "path": "72-REVsom.usfm",
+      "navigation_label": "Revelation",
+      "native_book_metadata": [
+        {
+          "marker": "h",
+          "text": "MUUJINTII"
+        },
+        {
+          "marker": "mt1",
+          "text": "MUUJINTII"
+        },
+        {
+          "marker": "mt2",
+          "text": "CIISE MASIIX EE"
+        },
+        {
+          "marker": "mt2",
+          "text": "YOOXANAA LOO MUUJIYEY"
+        }
+      ],
+      "member_sha256": "db04784fe00f59d1ea1de8ba48f8cd25302261b2b4d3e8a68c3aaad322b7d145",
+      "member_bytes": 74310,
+      "chapter_count": 22,
+      "unit_count": 404,
+      "front_matter_item_count": 0,
+      "marker_counts": {
+        "b": 3,
+        "c": 22,
+        "h": 1,
+        "id": 1,
+        "mt1": 1,
+        "mt2": 2,
+        "p": 108,
+        "q1": 12,
+        "s1": 37,
+        "v": 404
+      }
+    }
+  ],
+  "verification": "CRC passed; GnuPG signature on the clear-signed checksum list verified with its included key. Its fingerprint matches the maintainer's published listing. Every USFM member hash matches the signed list.",
+  "limits": "The source license notice contains both CC BY-NC-ND 3.0 and 4.0 references; the discrepancy is preserved. Exact wording/punctuation format-port permission is observed, but any adaptation is prohibited. Legacy signature algorithms and signer identity limitations apply. This conventional 66-module set is not an Ethiopian/Eritrean Orthodox canon crosswalk, printed-edition completeness audit, or translation review."
+}

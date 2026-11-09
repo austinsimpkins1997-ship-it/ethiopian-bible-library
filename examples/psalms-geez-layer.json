@@ -1,0 +1,216 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/psalms-geez-ludolf-hacohen",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/ethiopic-psalter",
+  "labels": [
+    {
+      "value": "Psalms — Geʽez Ludolf/HaCohen transcription",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-23",
+      "mapping_state": "reviewed_match",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-067",
+        "SRC-068",
+        "SRC-384"
+      ],
+      "notes": "Reviewed work/title crosswalk: the Church's numbered list names Psalms; TAU's Ethiopic Bible index lists Psalmus under Psalterium Davidis and its accompanying notes identify the Ethiopic Psalter digitization. This supports the Psalms/Psalter work link only. Rahlfs numbering, extent, and alignment with any current EOTC printed edition are separate and unverified. Standard USFM title-candidate research readers are catalogued for Psalms."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/psalms-ludolf-1701-hacohen-transcription",
+    "witness_type": "transcription",
+    "title": "Geʽez text of Hiob Ludolf's 1701 Ethiopic Psalter, digitized and retyped by Ran HaCohen",
+    "date_statement": "1701 printed edition; digital transcription date not established here",
+    "repository_or_publisher": "Tel Aviv University source site; local archival capture by Ethiopian Bible Library",
+    "shelfmark_or_edition_id": "Psalterium Davidis aethiopice et latine, Frankfurt am Main, 1701",
+    "editorial_policy": "Uses the TAU Rahlfs-numbered page sequence. Source page text and numbering anomalies are preserved. No independent collation.",
+    "source_ids": [
+      "SRC-036",
+      "SRC-058",
+      "SRC-059",
+      "SRC-067",
+      "SRC-068",
+      "SRC-069"
+    ]
+  },
+  "layer_type": "source_text_transcription",
+  "text_origin": "source_transcription",
+  "language_tag": "gez",
+  "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+  "script_code": "Ethi",
+  "basis_path": [
+    "gez"
+  ],
+  "agents": [
+    {
+      "role": "editor",
+      "name": "Hiob Ludolf",
+      "authority_or_affiliation": "1701 edition",
+      "source_ids": [
+        "SRC-067",
+        "SRC-068"
+      ]
+    },
+    {
+      "role": "digitizer",
+      "name": "Ran HaCohen",
+      "authority_or_affiliation": "Tel Aviv University source site",
+      "source_ids": [
+        "SRC-036",
+        "SRC-058",
+        "SRC-059",
+        "SRC-068"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/psalms-geez-ludolf.json",
+    "media_type": "application/json",
+    "sha256": "42e7d7603e838b0bcf0fd3b2e1370a0d9a5c07e8842036ff1c0ef735cec63fa3",
+    "format_version": "1"
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 2537,
+    "structure_description": "151 ordered TAU Rahlfs-numbered pages with 2,537 extracted nonempty numbered units; headings retained where separable.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "Source label gaps, duplicates, and nonnumeric markers are retained as found; 10 pages contain non-consecutive, duplicate, or nonnumeric labels. No attempt was made to restore text or labels.",
+    "numbering_policy": "Preserves the TAU page sequence and marker labels exactly as parsed; these are source labels, not a newly asserted canonical verse system."
+  },
+  "rights": {
+    "status": "permission_limited",
+    "statement": "The digitizer permits noncommercial copying/distribution only when copyright and permission notices accompany every copy. Other use requires contacting the copyright owner. This archive carries that notice; it grants no commercial rights.",
+    "license_id": null,
+    "rights_holder": "Ran HaCohen (digitized Ethiopic text notice)",
+    "attribution_required": true,
+    "territory_or_term_limits": "Commercial use is not granted. For other uses, contact the copyright owner as instructed by the source.",
+    "evidence_source_ids": [
+      "SRC-036",
+      "SRC-068",
+      "SRC-069"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "Reviewed work/title crosswalk: the Church's numbered list names Psalms; TAU's Ethiopic Bible index lists Psalmus under Psalterium Davidis and its accompanying notes identify the Ethiopic Psalter digitization. This supports the Psalms/Psalter work link only. Rahlfs numbering, extent, and alignment with any current EOTC printed edition are separate and unverified. Standard USFM title-candidate research readers are catalogued for Psalms. Exact edition identity, textual accuracy, and completeness remain distinct questions.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Comparative inspection of the cited Church-list and source-work records.",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-067",
+        "SRC-068",
+        "SRC-077",
+        "SRC-078",
+        "SRC-168",
+        "SRC-169",
+        "SRC-178",
+        "SRC-196",
+        "SRC-329",
+        "SRC-330",
+        "SRC-335",
+        "SRC-340",
+        "SRC-363",
+        "SRC-364",
+        "SRC-365",
+        "SRC-384",
+        "SRC-387",
+        "SRC-388",
+        "SRC-389",
+        "SRC-390",
+        "SRC-391",
+        "SRC-392",
+        "SRC-393",
+        "SRC-394",
+        "SRC-395",
+        "SRC-396",
+        "SRC-403",
+        "SRC-404",
+        "SRC-405",
+        "SRC-406",
+        "SRC-425",
+        "SRC-426",
+        "SRC-427",
+        "SRC-428",
+        "SRC-435"
+      ],
+      "notes": "Reviewed work/title crosswalk: the Church's numbered list names Psalms; TAU's Ethiopic Bible index lists Psalmus under Psalterium Davidis and its accompanying notes identify the Ethiopic Psalter digitization. This supports the Psalms/Psalter work link only. Rahlfs numbering, extent, and alignment with any current EOTC printed edition are separate and unverified. Reviewed work/title crosswalk: the Church's numbered list names Psalms; TAU's Ethiopic Bible index lists Psalmus under Psalterium Davidis and its accompanying notes identify the Ethiopic Psalter digitization. This supports the Psalms/Psalter work link only. Rahlfs numbering, extent, and alignment with any current EOTC printed edition are separate and unverified. Standard USFM title-candidate research readers are catalogued for Psalms."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "151 ordered page titles and nonempty numbered units in local capture.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Archive build validation",
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-069"
+      ]
+    },
+    {
+      "dimension": "unit_boundaries",
+      "state": "checked_with_limits",
+      "scope": "HTML marker-span structure was extracted; verse wording was not independently compared to print.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Archive build validation",
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-069"
+      ]
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "No independent collation against the 1701 print or manuscript witnesses.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-068"
+      ]
+    },
+    {
+      "dimension": "completeness",
+      "state": "checked_with_limits",
+      "scope": "The full 151-page local sequence was captured; completeness against print or manuscript witnesses is unknown.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Archive build validation",
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-069"
+      ]
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "Source notice and required noncommercial attribution are included with each archive copy.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Digitizer notice and archive-copy review",
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-036",
+        "SRC-068",
+        "SRC-069"
+      ]
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "Geʽez source transcription, not an English translation. Source warnings about possible new typos remain applicable."
+}

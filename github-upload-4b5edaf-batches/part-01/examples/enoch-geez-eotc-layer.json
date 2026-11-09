@@ -1,0 +1,134 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/enoch-geez-eotc",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/1-enoch",
+  "labels": [
+    {
+      "value": "1 Enoch — Geʽez EOTC printed-edition transcription",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-14",
+      "mapping_state": "asserted_by_source",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-065"
+      ],
+      "notes": "The Church-list entry is named Enoch. The selected TEI block is identified as an EOTC printed-Bible text; exact physical exemplar and date are not specified."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/enoch-eotc-betamasaheft-eotced",
+    "witness_type": "transcription",
+    "title": "Geʽez 1 Enoch text block xml:id=EOTCed in Beta maṣāḥǝft TEI LIT1340EnochE",
+    "date_statement": null,
+    "repository_or_publisher": "Beta maṣāḥǝft project; TEI header says partner projects digitized the printed text and the project converted it to XML",
+    "shelfmark_or_edition_id": "LIT1340EnochE, edition xml:id=EOTCed",
+    "editorial_policy": "The build input contains only EOTCed. The distinct edition xml:id=ed1, with a noncommercial/no-sale restriction, is excluded. The exact print exemplar and date are not stated in the TEI record.",
+    "source_ids": [
+      "SRC-040",
+      "SRC-041"
+    ]
+  },
+  "layer_type": "source_text_transcription",
+  "language_tag": "gez",
+  "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+  "script_code": "Ethi",
+  "basis_path": [
+    "gez"
+  ],
+  "agents": [],
+  "content_package": {
+    "uri": "../readers/enoch-geez-eotc.json",
+    "media_type": "application/json",
+    "sha256": "019c9ff518c9f4ff11b80fa432d9f3bc3f2f8da84043e501861594ec54d13eed",
+    "format_version": "1"
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 1058,
+    "structure_description": "108 source chapters and 1,058 labeled lines; each source n marker is preserved and displayed beside display order.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "Chapter 21 begins with source marker 2. The reader retains this gap rather than supplying a source marker 1; all other chapter marker sequences begin at 1 and increase consecutively.",
+    "numbering_policy": "The TEI line markers are preserved as source markers. Unique display order supports navigation; a navigation index is not a canonical verse-number claim."
+  },
+  "rights": {
+    "status": "open_license",
+    "statement": "The pinned TEI file carries CC BY-SA 4.0; its additional noncommercial/no-sale clause explicitly names edition 1, which is excluded. Source Text independently identifies its extracted EOTC printed edition as CC BY-SA 4.0. Attribute Beta maṣāḥǝft, identify the EOTCed-only extraction, indicate changes, and share adaptations under CC BY-SA 4.0.",
+    "license_id": "CC-BY-SA-4.0",
+    "rights_holder": "Beta maṣāḥǝft for the encoded TEI file; the record does not identify a separate rights holder for the underlying print exemplar.",
+    "attribution_required": true,
+    "territory_or_term_limits": "This record covers only the selected EOTCed block. Do not apply it to edition 1, other printed editions, the source-site presentation, or other layers.",
+    "evidence_source_ids": [
+      "SRC-040",
+      "SRC-041"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "TEI block xml:id=EOTCed is labeled as text of the EOTC printed Bible; exact physical exemplar/date not specified.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-065",
+        "SRC-066"
+      ],
+      "notes": "Full pinned TEI preserved outside the public site repository; the public build input contains only EOTCed.",
+      "review_method": "automated_validation",
+      "review_process": "Archive build validation"
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "108 source chapter divisions in order; 1,058 nonempty labeled lines and source n markers retained.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-065",
+        "SRC-066"
+      ],
+      "notes": "Structural validation confirms chapter sequence and line text. Chapter 21 begins with source marker 2. Source Text reports 1,058 verses, a count corroboration only.",
+      "review_method": "automated_validation",
+      "review_process": "Archive build validation"
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "No independent collation against the cited print witness or manuscripts.",
+      "reviewer": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-065"
+      ],
+      "notes": "TEI conversion and automated structural checks do not establish the accuracy of the transcription.",
+      "review_method": "unknown",
+      "review_process": null
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "CC BY-SA 4.0 for the selected EOTCed text, with edition 1 restriction kept outside this reader.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-040",
+        "SRC-065",
+        "SRC-066"
+      ],
+      "notes": "Rights attribution follows the Beta maṣāḥǝft file notice and Source Text edition-specific license record; exact print-exemplar rights are not separately identified.",
+      "review_method": "unknown",
+      "review_process": null
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "Source-text transcription/encoding in Geʽez, not an English translation. The source layer displays the EOTCed block only and is not independently collated. The TEI file names Michal Jerabek and a person reference RHC in a file-level digitization/encoding statement; it does not clarify how those roles map onto this selected EOTCed block, so no named agent is assigned to this layer.",
+  "text_origin": "source_transcription"
+}

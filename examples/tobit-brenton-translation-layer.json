@@ -1,0 +1,149 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/tobit-brenton-english-1851",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/tobit-lxx",
+  "labels": [
+    {
+      "value": "Tobit — Brenton Septuagint English (1851)",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-septuagint-1851-tobit",
+    "witness_type": "digital_edition",
+    "title": "The Septuagint Version of the Old Testament: According to the Vatican Text, Translated into English (1851).",
+    "date_statement": "Translation published 1851; USFM source member retained from eBible.org package",
+    "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital text distributed by eBible.org",
+    "shelfmark_or_edition_id": "41-TOBeng-Brenton.usfm",
+    "editorial_policy": "Source chapter divisions, verse labels, USFM footnotes and cross-references, descriptive-title markers, and unnumbered continuation segments are preserved by the reader extraction. Translator additions are visibly bracketed. The parser rejects unhandled inline markers.",
+    "source_ids": [
+      "SRC-142",
+      "SRC-144"
+    ]
+  },
+  "layer_type": "translation",
+  "text_origin": "published_translation",
+  "language_tag": "en",
+  "language_name_as_recorded": "English",
+  "script_code": "Latn",
+  "basis_path": [
+    "grc",
+    "en"
+  ],
+  "agents": [
+    {
+      "role": "translator",
+      "name": "Sir Lancelot Charles Lee Brenton",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-142",
+        "SRC-144"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/tobit-brenton-lxx-1851.json",
+    "media_type": "application/json",
+    "sha256": "69a59335269dee28c6a293a53ce2b3ab536346fbd40f7cba134d46fe0591001e",
+    "format_version": "1",
+    "json_pointer": ""
+  },
+  "coverage": {
+    "extent_state": "unknown",
+    "extent_basis": "source_inventory",
+    "unit_count": 245,
+    "structure_description": "The locally retained USFM member has 14 ordered chapter divisions and 245 numbered verse labels; two unnumbered continuation segments are preserved. This inventory does not establish completeness against the print edition.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "Two unnumbered continuation segments and USFM translator-addition markers are retained explicitly.",
+    "numbering_policy": "Chapter and verse labels follow the selected source member. The 245 labels are an observed digital inventory, not proof of printed-edition completeness or alignment with Geʽez."
+  },
+  "rights": {
+    "status": "public_domain_claimed",
+    "statement": "eBible.org identifies Brenton's 1851 English translation as public domain. This provider claim applies to the historical translation, not the source site's presentation or other text layers.",
+    "license_id": null,
+    "rights_holder": "Sir Lancelot Charles Lee Brenton; provider-reported status",
+    "attribution_required": true,
+    "territory_or_term_limits": "Public-domain status is recorded as stated by eBible.org; no worldwide legal determination is made.",
+    "evidence_source_ids": [
+      "SRC-142",
+      "SRC-144"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "The source page and archived USFM member identify Brenton English Septuagint Tobit; a printed exemplar has not been inspected.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-142",
+        "SRC-144"
+      ],
+      "notes": "Digital source identity is recorded; wording against the printed 1851 edition is not collated.",
+      "review_method": "combined_source_and_automated_validation",
+      "review_process": "Archive source and build audit"
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "Fourteen ordered chapter divisions in the selected local USFM member.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-142",
+        "SRC-144"
+      ],
+      "notes": "The digital member structure is checked; this does not prove printed edition completeness.",
+      "review_method": "automated_validation",
+      "review_process": "Archive build validation"
+    },
+    {
+      "dimension": "unit_boundaries",
+      "state": "checked_with_limits",
+      "scope": "245 numbered verse labels and two unnumbered continuation segments parsed from the checksum-pinned USFM member.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-142",
+        "SRC-144"
+      ],
+      "notes": "Parser validates nonempty content and source labels; it does not collate wording with the printed witness.",
+      "review_method": "automated_validation",
+      "review_process": "Archive build validation"
+    },
+    {
+      "dimension": "translation_accuracy",
+      "state": "unknown",
+      "scope": "No independent review against the Greek Septuagint or Brenton printed 1851 edition.",
+      "reviewer": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-142",
+        "SRC-144"
+      ],
+      "notes": "The English translation is based on Greek, not directly on the archive’s Geʽez transcription.",
+      "review_method": "unknown",
+      "review_process": null
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "eBible.org’s public-domain notice for Brenton’s 1851 English translation.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-142",
+        "SRC-144"
+      ],
+      "notes": "This is a provider-reported status, not a worldwide legal ruling and does not cover other witnesses.",
+      "review_method": "unknown",
+      "review_process": null
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "A Greek-to-English historical translation preserved as a distinct research witness. Its provisional title candidate is not an EOTC identity assertion. It is not a translation from the archive’s Geʽez text; accuracy, alignment, and full edition coverage remain unknown."
+}

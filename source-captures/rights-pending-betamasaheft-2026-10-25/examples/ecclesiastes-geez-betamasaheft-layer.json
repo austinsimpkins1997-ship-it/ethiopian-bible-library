@@ -1,0 +1,156 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/ecclesiastes-geez-eotced",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/betamasaheft-LIT1320Eccles",
+  "labels": [
+    {
+      "value": "Ecclesiastes — Geʽez EOTCed text transcription",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-27",
+      "mapping_state": "asserted_by_source",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-279",
+        "SRC-294"
+      ],
+      "notes": "The Church list names Ecclesiastes. The pinned EOTCed division is explicitly labeled “Text of the EOTC printed Bible,” supporting a source-asserted title link only. Exact print exemplar, current edition identity, accuracy, and physical completeness are unverified."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/betamasaheft-LIT1320Eccles-EOTCed",
+    "witness_type": "digital_edition",
+    "title": "Beta maṣāḥǝft LIT1320Eccles TEI, EOTCed division",
+    "date_statement": "Source file pinned at Works commit 2574a6c84ed477af76122a6b112df3bbf45a96f5; exact print exemplar date unknown",
+    "repository_or_publisher": "Beta maṣāḥǝft, University of Hamburg",
+    "shelfmark_or_edition_id": "LIT1320Eccles, EOTCed",
+    "editorial_policy": "Source says the text was digitized from modern Vulgata printed editions and converted to XML; the exact print exemplar and relation to the EOTC label are not specified. The separate Mercer transcription is excluded from the public extract.",
+    "source_ids": [
+      "SRC-279",
+      "SRC-294"
+    ]
+  },
+  "layer_type": "source_text_transcription",
+  "language_tag": "gez",
+  "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+  "script_code": "Ethi",
+  "basis_path": [
+    "gez"
+  ],
+  "agents": [],
+  "content_package": {
+    "uri": "../readers/ecclesiastes-geez-betamasaheft-eotced.json",
+    "media_type": "application/json",
+    "sha256": "21446af0f8abd22cd2f0d79fea7335901f431cffcafe6617fbac7874efda4066",
+    "format_version": "1"
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 226,
+    "structure_description": "All 226 TEI line elements in the EOTCed division are extracted across 12 ordered chapters. Source line markers and reference targets are preserved separately; in chapter 12 markers 13–17 link to targets 10–14. Line markers are not treated as verse counts.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "No editorial wording was added. Display whitespace is normalized and inline TEI markup flattened; the separate Mercer division is excluded."
+  },
+  "rights": {
+    "status": "open_license",
+    "statement": "The pinned TEI file states CC BY-SA 4.0. The separate Mercer transcription and its noncommercial terms are excluded. Attribute Beta maṣāḥǝft, identify the EOTCed-only extract and whitespace normalization, and share adaptations alike. The source site separately displays CC BY-NC-SA 4.0; the relationship between notices and rights in the unidentified printed exemplar remain unresolved.",
+    "license_id": "CC-BY-SA-4.0",
+    "rights_holder": "Beta maṣāḥǝft TEI source; underlying print rights unresolved",
+    "attribution_required": true,
+    "territory_or_term_limits": "No term limit stated for the file-level license; underlying print rights and the provider site's separate CC BY-NC-SA notice remain unresolved.",
+    "evidence_source_ids": [
+      "SRC-294"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "EOTCed scope tagged Geʽez and labeled EOTC printed-Bible text; exact print exemplar not specified.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-279",
+        "SRC-294"
+      ],
+      "notes": "Source-asserted title mapping only; exact edition identity and print source unresolved.",
+      "review_method": "source_inspection"
+    },
+    {
+      "dimension": "language_identification",
+      "state": "checked_with_limits",
+      "scope": "Selected edition div explicitly declares xml:lang=\"gez\"; TEI root defaults to English.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-294"
+      ],
+      "notes": "Edition-level language governs the extract; root language retained as a metadata conflict.",
+      "review_method": "source_inspection"
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "12 ordered chapter divisions and all 226 TEI line elements checked against pinned extract.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Offline parser validates extract hash, division sequence, line inventory, and reference links",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-294"
+      ],
+      "notes": "Chapter 12 source markers 13–17 link to targets 10–14; both are retained separately. This is structural validation, not print collation."
+    },
+    {
+      "dimension": "completeness",
+      "state": "unknown",
+      "scope": "No comparison with the exact printed exemplar was performed.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-279",
+        "SRC-294"
+      ],
+      "notes": "All lines in the selected TEI division are extracted; completeness of the unidentified physical edition is unknown."
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "No independent collation against the printed source or manuscripts was performed.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-279",
+        "SRC-294"
+      ],
+      "notes": "Structural extraction checks do not establish wording accuracy."
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "File-level CC BY-SA 4.0 notice and separate Mercer noncommercial terms inspected.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "EOTCed-only extract excludes Mercer; provider site footer and underlying print rights also documented",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-294"
+      ],
+      "notes": "Exact print exemplar and its rights remain unestablished; file-level notice is not treated as proof of those rights."
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "Source-text transcription in Geʽez, not an English translation. This package preserves only the selected EOTCed division; the full compound upstream XML is retained outside the Pages site. Source line markers and linked targets differ in chapter 12 and are both preserved.",
+  "text_origin": "source_transcription"
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "audit_id": "gamo-maale-provenance-2026-10-26",
+  "reviewed_at": "2026-10-26",
+  "scope_note": "Edition metadata and source-stated rights observations only. This audit does not certify translation accuracy, legal effect, print completeness, or canon equivalence.",
+  "translation_basis": {
+    "status": "not_stated_in_inspected_edition_records",
+    "note": "Neither inspected eBible.org edition page identifies a source language or relay-language path. No basis is inferred.",
+    "editions": ["GMVETW / gmve", "MDYTWF / mdyeth"],
+    "source_ids": ["SRC-168", "SRC-363", "SRC-374", "SRC-375"]
+  },
+  "editions": [
+    {
+      "edition_id": "GMVETW / gmve",
+      "language_tag": "gmv",
+      "script_code": "Ethi",
+      "publisher_page_source_id": "SRC-168",
+      "stated_credits": "Copyright © 2024 The Word for the World International; contributor The Word for the World Northern Africa.",
+      "publisher_stated_text_license": "CC BY-SA 4.0",
+      "local_package": "readers/source/gamo/gmve-html-pages.zip",
+      "observed_menu_label_count": 66,
+      "scope_limit": "Menu count is not a canon crosswalk, accuracy review, or print-completeness check. Images, fonts, and CSS are excluded."
+    },
+    {
+      "edition_id": "MDYTWF / mdyeth",
+      "language_tag": "mdy",
+      "script_code": "Ethi",
+      "publisher_page_source_id": "SRC-363",
+      "package_source_id": "SRC-364",
+      "stated_credits": "Copyright © 2008 The Word for the World International and Bible Society of Ethiopia; translation by The Word for the World; contributor Bible Society of Ethiopia.",
+      "current_publisher_page_license": "CC BY-SA 4.0",
+      "publisher_page_last_updated": "2025-05-13",
+      "local_package": "readers/source/maale/mdyeth_usfm.zip",
+      "module_count": 66,
+      "observed_verse_label_count": 30506,
+      "scope_limit": "Observed package inventory does not prove printed-edition completeness, translation accuracy, or EOTC/Eritrean Orthodox canon equivalence. Images are excluded under separate provider terms."
+    }
+  ],
+  "rights_history_discrepancy": {
+    "source_id": "SRC-372",
+    "recorded_license_label": "CC BY-ND 4.0",
+    "recorded_as_of": "source files dated 2023-04-14; mirror page generated 2024-02-21",
+    "host": "divinerevelations.info (third-party mirror)",
+    "relationship_to_current_package": "The older notice shares title and credits but is not treated as controlling for the eBible.org page that currently links the retained mdyeth USFM package and states CC BY-SA 4.0.",
+    "resolution": "unresolved_as_license_history",
+    "legal_conclusion": null
+  },
+  "separate_product_record": {
+    "source_id": "SRC-373",
+    "product_id": "MDYBSE",
+    "provider": "Digital Bible Society ARC",
+    "recorded_scope_label": "full protestant canon",
+    "recorded_license_status": "RESERVED",
+    "crosswalk_to_MDYTWF_mdyeth": "not_established",
+    "text_retrieved": false
+  },
+  "contributor_and_process_evidence": {
+    "maale_named_contributor_lead": {
+      "source_id": "SRC-374",
+      "person": "Tamene Lale Gego",
+      "agency_statement": "The Word for the World biography says he translated the complete Bible into his mother tongue Maale.",
+      "link_to_MDYTWF_mdyeth_2008": "not_stated",
+      "edition_translator_field_changed": false
+    },
+    "gamo_project_history": {
+      "source_id": "SRC-375",
+      "agency_statement": "The Word for the World article reports local Gamo translators and checkers, a Gamo New Testament completed in January 2012, and a full-Bible dedication in August 2022.",
+      "link_to_GMVETW_gmve_2024": "not_established",
+      "translation_basis": "not_stated"
+    }
+  },
+  "coverage_effect": "No canon-linked reader coverage added; Gamo and Maale readers remain research-only and unmapped to the EOTC/Eritrean Orthodox lists."
+}

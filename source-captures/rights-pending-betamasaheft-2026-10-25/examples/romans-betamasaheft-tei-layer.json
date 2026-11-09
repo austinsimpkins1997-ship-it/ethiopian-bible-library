@@ -1,0 +1,158 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/romans-betamasaheft-tei",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/betamasaheft-LIT3515Epistle",
+  "labels": [
+    {
+      "value": "Romans — Geʽez source transcription",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-nt-06",
+      "mapping_state": "uncertain",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-274",
+        "SRC-176"
+      ],
+      "notes": "The exact TEI title and its Epistle note support a provisional Romans link to the Church list. The source text is stated to come from a printed EOTC Bible, but the physical exemplar and recension are unidentified; its chapter divisions are described as preliminary."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/betamasaheft-LIT3515Epistle",
+    "witness_type": "digital_edition",
+    "title": "Beta maṣāḥǝft LIT3515Epistle TEI text",
+    "date_statement": "Source file pinned at Works commit ec53d3f4c5de47e463fa56a8465cf1090316a999; exact print-exemplar date unknown",
+    "repository_or_publisher": "Beta maṣāḥǝft, University of Hamburg",
+    "shelfmark_or_edition_id": "LIT3515Epistle",
+    "editorial_policy": "The TEI identifies the epistle text as taken from a printed EOTC Bible and describes its 16 manuscript-present chapter divisions as preliminary, without accounting for recensions. The exact printed exemplar and recension are not identified; unchanged XML is retained alongside the display extraction.",
+    "source_ids": [
+      "SRC-274"
+    ]
+  },
+  "layer_type": "source_text_transcription",
+  "text_origin": "source_transcription",
+  "language_tag": "gez",
+  "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+  "script_code": "Ethi",
+  "basis_path": [
+    "gez"
+  ],
+  "agents": [],
+  "content_package": {
+    "uri": "../readers/romans-betamasaheft-tei.json",
+    "media_type": "application/json",
+    "sha256": "7d8dc9c172acb2c36f1a94524667609ede7b7333ad378bc5ff45356f4aa49f2b",
+    "format_version": "1",
+    "json_pointer": ""
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 502,
+    "structure_description": "The reader retains all 495 TEI line elements (430 numbered, 65 unnumbered), six surrounding unsegmented ab elements, the heading-only Introduction marker, and both source notes. Its 16 explicit chapter divisions are preliminary per the source. This is completeness for the captured TEI scope only, not the printed exemplar or any recension.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "Whitespace normalized for display; inline markup flattened while unchanged TEI is retained. Source labels and the source's preliminary division are preserved without normalization.",
+    "numbering_policy": "Preserve every TEI source n label exactly; retain all unnumbered lines and surrounding text parts in order. Do not treat navigational text-part order as verse numbering."
+  },
+  "rights": {
+    "status": "open_license",
+    "statement": "The TEI file states CC BY-SA 4.0. Attribute Beta maṣāḥǝft, link source and license, identify extraction and whitespace normalization, and share adaptations alike. The file-level license does not establish rights in the unidentified printed exemplar.",
+    "license_id": "CC-BY-SA-4.0",
+    "rights_holder": "Beta maṣāḥǝft TEI file; underlying print rights not established",
+    "attribution_required": true,
+    "territory_or_term_limits": "The file-level license applies to the TEI file and its adaptation; do not infer rights in the unidentified printed source.",
+    "evidence_source_ids": [
+      "SRC-274"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "TEI work id LIT3515Epistle and Church-list title checked; exact print exemplar and recension unresolved.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Pinned TEI header, Epistle note, title, and Church-list row inspected",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-274",
+        "SRC-176"
+      ],
+      "notes": "Provisional title-level link only."
+    },
+    {
+      "dimension": "language_identification",
+      "state": "checked_with_limits",
+      "scope": "TEI root xml:lang=en and edition xml:lang=gez inspected; extracted text is within that edition.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Pinned source XML language declarations and TEI inheritance checked",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-274"
+      ],
+      "notes": "Edition-level gez applies to nested text; root-level en remains recorded as a conflict."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "All 20 ordered source text parts, 16 preliminary chapter divisions, 495 line elements, surrounding ab elements, and source notes checked against the pinned XML.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Offline TEI parser validates source hash, structure, labels, and exact line extraction",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-274"
+      ],
+      "notes": "The source itself calls the chapter division preliminary and excludes recension differences."
+    },
+    {
+      "dimension": "completeness",
+      "state": "unknown",
+      "scope": "No collation against the exact printed exemplar or manuscript recension performed.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-274"
+      ],
+      "notes": "All captured TEI text parts are extracted; physical-edition completeness remains unknown."
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "No independent collation against the printed source or manuscripts performed.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-274"
+      ],
+      "notes": "Structural extraction does not establish wording accuracy."
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "File-level CC BY-SA 4.0 statement inspected in the pinned TEI file.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "File-specific license retained separately from the website terms",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-274"
+      ],
+      "notes": "Rights in the unidentified printed exemplar remain unestablished."
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "Source transcription, not an English translation. The source's preliminary divisions are preserved as written; the reader presents all source text parts distinctly and does not treat its navigational order as a claim about recension."
+}

@@ -1,0 +1,754 @@
+{
+  "reader_id": "amh2003-jas-research",
+  "research_corpus_id": "amh2003-jas-research",
+  "publisher_book_code": "JAS",
+  "source_menu_position": 20,
+  "source_title_label": "የያዕቆብ መልእክት",
+  "reader_scope": "research_witness_reviewed_title_match",
+  "title": "James — Amharic text (የያዕቆብ መልእክት)",
+  "display_name": "James · Amharic (AMH2003)",
+  "normalized_title_en": "James",
+  "title_normalization": {
+    "method": "publisher_standard_book_code_lookup",
+    "publisher_book_code": "JAS",
+    "normalized_english_name": "James",
+    "source_title_label": "የያዕቆብ መልእክት",
+    "is_translation_of_source_label": false,
+    "canon_mapping": "reviewed_work_title_match",
+    "source_ids": [
+      "SRC-029",
+      "SRC-196",
+      "SRC-197",
+      "SRC-198",
+      "SRC-396"
+    ],
+    "note": "Reviewed work/title match for eotc-nt-25 (James): the EOTC's cited 81-entry list names James; the captured publisher menu and page identify this member with standard code JAS; the official USFM/USX table maps that code to James. The Amharic title remains verbatim and is not translated by this normalization. This is a title crosswalk only, not evidence that this edition belongs to or follows the EOTC canon. Evidence: SRC-029, SRC-196, SRC-197, SRC-198, and SRC-396."
+  },
+  "text_origin": "published_translation",
+  "language": "Amharic (አማርኛ)",
+  "language_tag": "am",
+  "language_assignment_status": "publisher_identified_amharic",
+  "script_code": "Ethi",
+  "translation_id": "amh2003eb",
+  "translator": "Translation team not named in the cited copyright page; source notes identify Lapsley/Brooks Foundation e-text (1994) and Dirk Röckmann's UTF-8 conversion/XML tagging (2003).",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The eBible publisher metadata does not document a source-text path. Haile Selassie's 1961 statement describes the 1947–1952 committee's aim as revising the existing Amharic Bible with reference to Hebrew and Greek. A. F. Matthew, a committee member, reports that the 1955 New Testament revision used Nestle's 1904 Greek text, following an Ethiopic reading where the Nestle apparatus listed the same alternative. These are historical statements about the revision process, not proof that this 2003 digital witness reproduces the 1962 print text without change. No collation establishes this reader's book-level lineage, so its path remains unknown.",
+  "edition": "United Bible Societies, Revised Amharic Bible in XML (2003), based on the printed version (1962); Lapsley/Brooks Foundation e-text (1994); Unicode UTF-8 transformation/XML tagging by Dirk Röckmann (2003); eBible.org source files dated 2025-12-12.",
+  "edition_scope": "This is the Amharic New Testament publisher-menu entry 20 under label 'የያዕቆብ መልእክት' and standard book code JAS. The 81-entry catalogue link is provisional and title-level; relation to any particular church canon list or printed exemplar is not established.",
+  "rights_classification": "permission_limited",
+  "copyright_notice": "Copyright © 1962, 2003 United Bible Societies. Language: አማርኛ (Amharic). Amharic NT. Revised Amharic Bible in XML (2003). Printed version by United Bible Societies (© 1962). E-text in transliterated ASCII format by Lapsley/Brooks Foundation (1994). Unicode UTF-8 transformation and XML-tagging by Dirk Röckmann (2003; www.nt-text.net). With kind permission of the Bible Society of Ethiopia. Every non-commercial work using this data in any form must fully include this copyright statement. Every commercial use of parts or the complete data in any form needs written permission of the Bible Society of Ethiopia. Copyright page dated 2014-09-09.",
+  "commercial_use": "The source page permits use in non-commercial works only when the complete copyright statement is included with every such work. Commercial use of any part or all of the data requires written permission from the Bible Society of Ethiopia. This is permission-limited reuse, not an open license or a general public-domain claim.",
+  "license_id": null,
+  "license_url": "https://ebible.org/amh/copyright.htm",
+  "chapter_count": 5,
+  "unit_count": 102,
+  "unit_label": "publisher-displayed Amharic verse marker",
+  "verse_marker_count": 102,
+  "section_label": "Chapter",
+  "chapter_structure_note": "Chapter sequence follows the publisher's linked book index and filename order. The original Ethiopic chapter label is retained alongside the numeric navigation order; verse markers are retained verbatim and are not renumbered. Counts describe captured page structure only.",
+  "transcription_note": "Text was parsed from the retained eBible.org HTML-only page capture. Ethiopic letters and source verse labels are preserved; HTML whitespace is normalized. Page navigation, copyright footer, and any separately parsed apparatus are excluded from verse bodies. This is a structural extraction, not a new translation or independent proofreading.",
+  "editorial_signs_note": "Publisher verse-marker strings and any parsed source notes are retained. No editorial sign is reinterpreted or silently removed from a verse body.",
+  "verification_status": "Structural extraction from the pinned eBible.org AMH2003 / amh capture: this menu entry links to 5 consecutive chapter pages; 102 nonempty verse spans retain their displayed Ethiopic labels; source page hashes are recorded. The standard book-code match to the EOTC list title is reviewed separately; this structural check does not validate translation accuracy, completeness against a printed edition, source language, or exact Church-edition identity.",
+  "source_ids": [
+    "SRC-196",
+    "SRC-197",
+    "SRC-198",
+    "SRC-341",
+    "SRC-342"
+  ],
+  "source_pages": "readers/source/amharic/amh-html-pages.zip; publisher pages index.htm, JAS.htm, and 5 chapter pages; copyright.htm and copr.htm retained.",
+  "source_snapshot_url": "https://ebible.org/Scriptures/amh_html.zip",
+  "source_snapshot_sha256": "510484e9b6db7844b474ad8bf029c6c11a11b46dc9eeb1afc111659c8ca3d782",
+  "source_extract_sha256": "9242e36204af81cf8b250b90477dc200c32ff191ff62e85fd6f82286bd1b025f",
+  "source_index_hashes": {
+    "index.htm": "3ada4bad891392ff1bb1fb43d849e10cb2a7dcbc446e312bce4d9e8da44801d0",
+    "copyright.htm": "00116dec62afe27147cbecac2acedd017bb859c39fc97c4e7786bbaf10cf6674",
+    "copr.htm": "5845dc40e1f605219b888032566acaf6dfe51028d6602ae75caf7de8f7d23a17"
+  },
+  "source_page_hashes": [
+    {
+      "page": "JAS.htm",
+      "sha256": "c5de63df232dc1da373f0239ed7ca1addfb58a32e520fc69b82a4665c779ccff"
+    },
+    {
+      "page": "JAS01.htm",
+      "sha256": "32a2c95497e4a27c3afb81bb5569bf4bfd3fff430057ed7ca27d88a1a93a7feb"
+    },
+    {
+      "page": "JAS02.htm",
+      "sha256": "cdd56625c6da260951f9cf4bf74395f5b085c7abeb05e969e121f02288fb7fa7"
+    },
+    {
+      "page": "JAS03.htm",
+      "sha256": "45388a369af94d1134ec0dbdd08af7359e1890eb8ea5f709ce07880a9a390452"
+    },
+    {
+      "page": "JAS04.htm",
+      "sha256": "b48ae2fd1171e743b752af5b6ff591691b05fc2d6b482bd89221b5b938e4475a"
+    },
+    {
+      "page": "JAS05.htm",
+      "sha256": "ac07f8096e0ecd5f6c358f3ee70728d1d2b3e77f0cd8138624d0ee853878c6b0"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "source_chapter_label": "፩",
+      "source_page_title": "መጽሐፍ ቅዱስ የያዕቆብ መልእክት ፩",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "የእግዚአብሔርና የጌታ የኢየሱስ ክርስቶስ ባሪያ ያዕቆብ ለተበተኑ ለአሥራ ሁለቱ ወገኖች፤ ሰላም ለእናንተ ይሁን።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪-፬",
+          "source_element_id": "V2",
+          "text": "ትዕግሥትም ምንም የሚጎድላችሁ ሳይኖር ፍጹማንና ምሉዓን ትሆኑ ዘንድ ሥራውን ይፈጽም።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ከእናንተ ግን ማንም ጥበብ ቢጎድለው፥ ሳይነቅፍ በልግስና ለሁሉ የሚሰጠውን እግዚአብሔርን ይለምን፥ ለእርሱም ይሰጠዋል።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ነገር ግን በምንም ሳይጠራጠር በእምነት ይለምን፤ የሚጠራጠር ሰው በነፋስ የተገፋና የተነቃነቀ የባሕርን ማዕበል ይመስላልና።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፯-፲፩",
+          "source_element_id": "V7",
+          "text": "ፀሐይ ከትኵሳት ጋር ይወጣልና፥ ሣርንም ያጠወልጋልና፥ አበባውም ይረግፋልና፥ የመልኩም ውበት ይጠፋልና፤ እንዲሁ ደግሞ ባለ ጠጋው በመንገዱ ይዝላል።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "በፈተና የሚጸና ሰው የተባረከ ነው፤ ከተፈተነ በኋላ ለሚወዱት ተስፋ ስለ እርሱ የሰጣቸውን የሕይወትን አክሊል ይቀበላልና።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ማንም ሲፈተን። በእግዚአብሔር እፈተናለሁ አይበል፤ እግዚአብሔር በክፉ አይፈተንምና፤ እርሱ ራሱስ ማንንም አይፈትንም።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ነገር ግን እያንዳንዱ በራሱ ምኞት ሲሳብና ሲታለል ይፈተናል።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "ከዚህ በኋላ ምኞት ፀንሳ ኃጢአትን ትወልዳለች፤ ኃጢአትም ካደገች በኋላ ሞትን ትወልዳለች።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "የተወደዳችሁ ወንድሞቼ ሆይ፥ አትሳቱ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "በጎ ስጦታ ሁሉ ፍጹምም በረከት ሁሉ ከላይ ናቸው፥ መለወጥም በእርሱ ዘንድ ከሌለ በመዞርም የተደረገ ጥላ በእርሱ ዘንድ ከሌለ ከብርሃናት አባት ይወርዳሉ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "ለፍጥረቱ የበኵራት ዓይነት እንድንሆን በእውነት ቃል አስቦ ወለደን።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "ስለዚህ፥ የተወደዳችሁ ወንድሞቼ ሆይ፥ ሰው ሁሉ ለመስማት የፈጠነ ለመናገርም የዘገየ ለቍጣም የዘገየ ይሁን፤",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "የሰው ቍጣ የእግዚአብሔርን ጽድቅ አይሠራምና።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "ስለዚህ ርኵሰትን ሁሉ የክፋትንም ትርፍ አስወግዳችሁ፥ ነፍሳችሁን ማዳን የሚችለውን በውስጣችሁም የተተከለውን ቃል በየዋህነት ተቀበሉ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ቃሉን የምታደርጉ ሁኑ እንጂ ራሳችሁን እያሳታችሁ የምትሰሙ ብቻ አትሁኑ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "ቃሉን የሚሰማ የማያደርገውም ቢኖር የተፈጥሮ ፊቱን በመስተዋት የሚያይን ሰው ይመስላል፤",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "ራሱን አይቶ ይሄዳልና፥ ወዲያውም እንደ ምን እንደ ሆነ ይረሳል።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "ነገር ግን ነጻ የሚያወጣውን ፍጹሙን ሕግ ተመልክቶ የሚጸናበት፥ ሥራንም የሚሠራ እንጂ ሰምቶ የሚረሳ ያልሆነው፥ በሥራው የተባረከ ይሆናል።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "አንደበቱን ሳይገታ ልቡን እያሳተ እግዚአብሔርን የሚያመልክ የሚመስለው ማንም ቢኖር የእርሱ አምልኮ ከንቱ ነው።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "ንጹሕ የሆነ ነውርም የሌለበት አምልኮ በእግዚአብሔር አብ ዘንድ ይህ ነው፤ ወላጆች የሌላቸውን ልጆች ባልቴቶችንም በመከራቸው መጠየቅ፥ በዓለምም ከሚገኝ እድፍ ሰውነቱን መጠበቅ ነው።",
+          "unit_order": 21
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 2,
+      "source_chapter_label": "፪",
+      "source_page_title": "መጽሐፍ ቅዱስ የያዕቆብ መልእክት ፪",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ወንድሞቼ ሆይ፥ በክብር ጌታ በጌታችን በኢየሱስ ክርስቶስ ያለውን እምነት ለሰው ፊት በማድላት አትያዙ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "የወርቅ ቀለበት ያደረገና የጌጥ ልብስ የለበሰ ሰው ወደ ጉባኤአችሁ ቢገባ፥ እድፍ ልብስም የለበሰ ድሀ ሰው ደግሞ ቢገባ፥",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "የጌጥ ልብስም የለበሰውን ተመልክታችሁ። አንተስ በዚህ በመልካም ስፍራ ተቀመጥ ብትሉት፥ ድሀውንም። አንተስ ወደዚያ ቁም ወይም ከእግሬ መረገጫ በታች ተቀመጥ ብትሉት፥ ራሳችሁን መለያየታችሁ አይደለምን?",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "ክፉ አሳብ ያላቸውም ዳኞች መሆናችሁ አይደለምን?",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "የተወደዳችሁ ወንድሞቼ ሆይ፥ ስሙ፤ እግዚአብሔር በእምነት ባለ ጠጎች እንዲሆኑ ለሚወዱትም ተስፋ ስለ እርሱ የሰጣቸውን መንግሥት እንዲወርሱ የዚህን ዓለም ድሆች አልመረጠምን?",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "እናንተ ግን ድሆችን አዋረዳችሁ። ባለ ጠጎቹ የሚያስጨንቁአችሁ አይደሉምን? ወደ ፍርድ ቤትም የሚጎትቱአችሁ እነርሱ አይደሉምን?",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "የተጠራችሁበትን መልካሙን ስም የሚሰድቡ እነርሱ አይደሉምን?",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ነገር ግን መጽሐፍ። ባልንጀራህን እንደ ራስህ ውደድ እንደሚል የንጉሥን ሕግ ብትፈጽሙ መልካም ታደርጋላችሁ፤",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ለሰው ፊት ግን ብታደሉ ኃጢአትን ትሠራላችሁ፥ ሕግም እንደ ተላላፊዎች ይወቅሳችኋል።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ሕግን ሁሉ የሚጠብቅ፥ ነገር ግን በአንዱ የሚሰናከል ማንም ቢኖር በሁሉ በደለኛ ይሆናል፤ አታመንዝር ያለው ደግሞ። አትግደል ብሎአልና፤",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ባታመነዝርም፥ ነገር ግን ብትገድል፥ ሕግን ተላላፊ ሆነሃል።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "በነጻነት ሕግ ፍርድን ይቀበሉ ዘንድ እንዳላቸው ሰዎች እንዲህ ተናገሩ፥ እንዲህም አድርጉ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ምሕረትን ለማያደርግ ምሕረት የሌለበት ፍርድ ይሆናልና፤ ምሕረትም በፍርድ ላይ ይመካል።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ወንድሞቼ ሆይ፥ እምነት አለኝ የሚል፥ ሥራ ግን የሌለው ሰው ቢኖር ምን ይጠቅመዋል? እምነቱስ ሊያድነው ይችላልን?",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "ወንድም ወይም እኅት ራቁታቸውን ቢሆኑ የዕለት ምግብንም ቢያጡ፥",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "ከእናንተ አንዱም። በደኅና ሂዱ፥ እሳት ሙቁ፥ ጥገቡም ቢላቸው ለሰውነት ግን የሚያስፈልጉትን ባትሰጡአቸው ምን ይጠቅማቸዋል?",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "እንደዚሁም ሥራ የሌለው እምነት ቢኖር በራሱ የሞተ ነው።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "ነገር ግን አንድ ሰው። አንተ እምነት አለህ እኔም ሥራ አለኝ፤ እምነትህን ከሥራህ ለይተህ አሳየኝ፥ እኔም እምነቴን በሥራዬ አሳይሃለሁ ይላል።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "እግዚአብሔር አንድ እንደ ሆነ አንተ ታምናለህ፤ መልካም ታደርጋለህ፤ አጋንንት ደግሞ ያምናሉ ይንቀጠቀጡማል።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "አንተ ከንቱ ሰው፥ እምነት ከሥራ ተለይቶ የሞተ መሆኑን ልታውቅ ትወዳለህን?",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "አባታችን አብርሃም ልጁን ይስሐቅን በመሠዊያው ባቀረበ ጊዜ በሥራ የጸደቀ አልነበረምን?",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "እምነት ከሥራው ጋር አብሮ ያደርግ እንደ ነበረ፥ በሥራም እምነት እንደ ተፈጸመ ትመለከታለህን?",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "መጽሐፍም። አብርሃምም እግዚአብሔርን አመነ ጽድቅም ሆኖ ተቈጠረለት ያለው ተፈጸመ፤ የእግዚአብሔርም ወዳጅ ተባለ።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "ሰው በእምነት ብቻ ሳይሆን በሥራ እንዲጸድቅ ታያላችሁ።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "እንደዚሁም ጋለሞታይቱ ረዓብ ደግሞ መልእክተኞቹን ተቀብላ በሌላ መንገድ በሰደደቻቸው ጊዜ በሥራ አልጸደቀችምን?",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "ከነፍስ የተለየ ሥጋ የሞተ እንደ ሆነ እንዲሁ ደግሞ ከሥራ የተለየ እምነት የሞተ ነው።",
+          "unit_order": 26
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 3,
+      "source_chapter_label": "፫",
+      "source_page_title": "መጽሐፍ ቅዱስ የያዕቆብ መልእክት ፫",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ወንድሞቼ ሆይ፥ ከእናንተ ብዙዎቹ አስተማሪዎች አይሁኑ፥ የባሰውን ፍርድ እንድንቀበል ታውቃላችሁና።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ሁላችን በብዙ ነገር እንሰናከላለንና፤ በቃል የማይሰናከል ማንም ቢኖር እርሱ ሥጋውን ሁሉ ደግሞ ሊገታ የሚችል ፍጹም ሰው ነው።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "እነሆ፥ ፈረሶች ይታዘዙልን ዘንድ ልጓም በአፋቸው ውስጥ እናገባለን፥ ሥጋቸውንም ሁሉ እንመራለን።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "እነሆ፥ መርከቦች ደግሞ ይህን ያህል ታላቅ ቢሆኑ በዐውሎ ነፋስም ቢነዱ፥ የመሪ ፈቃድ ወደሚወደው ስፍራ እጅግ ታናሽ በሆነ መቅዘፊያ ይመራሉ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "እንዲሁም አንደበት ደግሞ ትንሽ ብልት ሆኖ በታላላቅ ነገር ይመካል። እነሆ፥ ትንሽ እሳት እንዴት ያለ ትልቅ ጫካ ያቃጥላል።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "አንደበትም እሳት ነው። አንደበት በብልቶቻችን መካከል ዓመፀኛ ዓለም ሆኖአል፤ ሥጋን ሁሉ ያሳድፋልና፥ የፍጥረትንም ሩጫ ያቃጥላል፥ በገሃነምም ይቃጠላል።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "የአራዊትና የወፎች የተንቀሳቃሾችና በባሕር ያለ የፍጥረት ወገን ሁሉ በሰው ይገራል፥ ደግሞ ተገርቶአል፤",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ነገር ግን አንደበትን ሊገራ ማንም ሰው አይችልም፤ የሚገድል መርዝ የሞላበት ወላዋይ ክፋት ነው።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "በእርሱ ጌታንና አብን እንባርካለን፤ በእርሱም እንደ እግዚአብሔር ምሳሌ የተፈጠሩትን ሰዎች እንረግማለን፤",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ከአንድ አፍ በረከትና መርገም ይወጣሉ። ወንድሞቼ ሆይ፥ ይህ እንዲህ ሊሆን አይገባም።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ምንጭስ ከአንድ አፍ የሚጣፍጥንና የሚመርን ውኃ ያመነጫልን?",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ወንድሞቼ ሆይ፥ በለስ ወይራን ወይስ ወይን በለስን ልታፈራ ትችላለችን? ከጨው ውኃም ጣፋጭ ውኃ አይወጣም።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ከእናንተ ጥበበኛና አስተዋይ ማን ነው? በመልካም አንዋዋሩ ስራውን በጥበብ የዋህነት ያሳይ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ነገር ግን መራራ ቅንዓትና አድመኛነት በልባችሁ ቢኖርባችሁ፥ አትመኩ በእውነትም ላይ አትዋሹ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "ይህ ጥበብ ከላይ የሚወርድ አይደለም፤ ነገር ግን የምድር ነው፥ የሥጋም ነው፥ የአጋንንትም ነው፤",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "ቅንዓትና አድመኛነት ባሉበት ስፍራ በዚያ ሁከትና ክፉ ስራ ሁሉ አሉና።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ላይኛይቱ ጥበብ ግን በመጀመሪያ ንጽሕት ናት፥ በኋላም ታራቂ፥ ገር፥ እሺ ባይ ምሕረትና በጎ ፍሬ የሞላባት፥ ጥርጥርና ግብዝነት የሌለባት ናት።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "የጽድቅም ፍሬ ሰላምን ለሚያደርጉት ሰዎች በሰላም ይዘራል።",
+          "unit_order": 18
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 4,
+      "source_chapter_label": "፬",
+      "source_page_title": "መጽሐፍ ቅዱስ የያዕቆብ መልእክት ፬",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "በእናንተ ዘንድ ጦርና ጠብ ከወዴት ይመጣሉ? በብልቶቻችሁ ውስጥ ከሚዋጉ ከእነዚህ ከምቾቶቻችሁ አይደሉምን?",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ትመኛላችሁ ለእናንተም አይሆንም፤ ትገድላላችሁ በብርቱም ትፈልጋላችሁ፥ ልታገኙም አትችሉም፤ ትጣላላችሁ ትዋጉማላችሁ ነገር ግን አትለምኑምና ለእናንተ አይሆንም፤",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ትለምናላችሁ፥ በምቾቶቻችሁም ትከፍሉ ዘንድ በክፉ ትለምናላችሁና አትቀበሉም።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "አመንዝሮች ሆይ፥ ዓለምን መውደድ ለእግዚአብሔር ጥል እንዲሆን አታውቁምን? እንግዲህ የዓለም ወዳጅ ሊሆን የሚፈቅድ ሁሉ የእግዚአብሔር ጠላት ሆኖአል።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ወይስ መጽሐፍ። በእኛ ዘንድ ያሳደረው መንፈስ በቅንዓት ይመኛል ያለው በከንቱ እንደ ተናገረ ይመስላችኋልን?",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ነገር ግን ጸጋን አብልጦ ይሰጣል፤ ስለዚህ። እግዚአብሔር ትዕቢተኞችን ይቃወማል፥ ለትሑታን ግን ጸጋን ይሰጣል ይላል።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "እንግዲህ ለእግዚአብሔር ተገዙ፤ ዲያብሎስን ግን ተቃወሙ ከእናንተም ይሸሻል፤",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ወደ እግዚአብሔር ቅረቡ ወደ እናንተም ይቀርባል። እናንተ ኃጢአተኞች፥ እጆቻችሁን አንጹ፤ ሁለት አሳብም ያላችሁ እናንተ፥ ልባችሁን አጥሩ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ተጨነቁና እዘኑ አልቅሱም፤ ሳቃችሁ ወደ ኀዘን ደስታችሁም ወደ ትካዜ ይለወጥ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "በጌታ ፊት ራሳችሁን አዋርዱ ከፍ ከፍም ያደርጋችኋል።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ወንድሞች ሆይ፥ እርስ በርሳችሁ አትተማሙ። ወንድሙን የሚያማ በወንድሙም የሚፈርድ ሕግን ያማል በሕግም ይፈርዳል፤ በሕግም ብትፈርድ ፈራጅ ነህ እንጂ ሕግን አድራጊ አይደለህም።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ሕግን የሚሰጥና የሚፈርድ አንድ ነው፤ እርሱም ሊያድን ሊያጠፋም የሚችል ነው፤ በሌላው ግን የምትፈርድ አንተ ማን ነህ?",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "አሁንም። ዛሬ ወይም ነገ ወደዚህ ከተማ እንሄዳለን በዚያም ዓመት እንኖራለን እንነግድማለን እናተርፍማለን የምትሉ እናንተ፥ ተመልከቱ፥ ነገ የሚሆነውን አታውቁምና።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ሕይወታችሁ ምንድር ነው? ጥቂት ጊዜ ታይቶ ኋላ እንደሚጠፋ እንፍዋለት ናችሁና።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "በዚህ ፈንታ። ጌታ ቢፈቅድ ብንኖርም ይህን ወይም ያን እናደርጋለን ማለት ይገባችኋል።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "አሁን ግን በትዕቢታችሁ ትመካላችሁ፤ እንደዚህ ያለ ትምክህት ሁሉ ክፉ ነው።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "እንግዲህ በጎ ለማድረግ አውቆ ለማይሠራው ኃጢአት ነው።",
+          "unit_order": 17
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 5,
+      "source_chapter_label": "፭",
+      "source_page_title": "መጽሐፍ ቅዱስ የያዕቆብ መልእክት ፭",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "አሁንም እናንተ ባለ ጠጎች፥ ስለሚደርስባችሁ ጭንቅ ዋይ ዋይ እያላችሁ አልቅሱ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ሀብታችሁ ተበላሽቶአል፥ ልብሳችሁም በብል ተበልቶአል።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ወርቃችሁም ብራችሁም ዝጎአል፥ ዝገቱም ምስክር ይሆንባችኋል ሥጋችሁንም እንደ እሳት ይበላል። ለኋለኛው ቀን መዝገብን አከማችታችኋል።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "እነሆ፥ እርሻችሁን ያጨዱት የሠራተኞች ደመወዝ በእናንተ ተቀምቶ ይጮኻል፥ የአጫጆችም ድምፅ ወደ ጌታ ፀባዖት ጆሮ ገብቶአል።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "በምድር ላይ ተቀማጥላችኋል በሴሰኝነትም ኖራችኋል፤ ለእርድ ቀን እንደሚያወፍር ልባችሁን አወፍራችኋል።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ጻድቁን ኰንናችሁታል ገድላችሁትማል፤ እናንተን አይቃወምም።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "እንግዲህ፥ ወንድሞች ሆይ፥ ጌታ እስኪመጣ ድረስ ታገሡ። እነሆ፥ ገበሬው የፊተኛውንና የኋለኛውን ዝናብ እስኪቀበል ድረስ እርሱን እየታገሠ የከበረውን የመሬት ፍሬ ይጠብቃል።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "እናንተ ደግሞ ታገሡ፥ ልባችሁንም አጽኑ፤ የጌታ መምጣት ቀርቦአልና።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ወንድሞች ሆይ፥ እንዳይፈረድባችሁ እርስ በርሳችሁ አታጉረምርሙ፤ እነሆ፥ ፈራጅ በደጅ ፊት ቆሞአል።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ወንድሞች ሆይ፥ የመከራና የትዕግሥት ምሳሌ የሆኑትን በጌታ ስም የተናገሩትን ነቢያትን ተመልከቱ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "እነሆ፥ በትዕግሥት የጸኑትን ብፁዓን እንላቸዋለን፤ ኢዮብ እንደ ታገሠ ሰምታችኋል፥ ጌታም እንደ ፈጸመለት አይታችኋል፤ ጌታ እጅግ የሚምር የሚራራም ነውና።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ከሁሉም በፊት፥ ወንድሞቼ ሆይ፥ በሰማይ ቢሆን በምድርም ቢሆን በሌላ መሐላም ቢሆን በምንም አትማሉ፤ ነገር ግን ከፍርድ በታች እንዳትወድቁ ነገራችሁ አዎን ቢሆን አዎን ይሁን፥ አይደለምም ቢሆን አይደለም ይሁን።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ከእናንተ መከራን የሚቀበል ማንም ቢኖር እርሱ ይጸልይ፤ ደስ የሚለውም ማንም ቢኖር እርሱ ይዘምር።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ከእናንተ የታመመ ማንም ቢኖር የቤተ ክርስቲያንን ሽምግሌዎች ወደ እርሱ ይጥራ፤ በጌታም ስም እርሱን ዘይት ቀብተው ይጸልዩለት።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "የእምነትም ጸሎት ድውዩን ያድናል ጌታም ያስነሣዋል፤ ኃጢአትንም ሠርቶ እንደ ሆነ ይሰረይለታል።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "እርስ በርሳችሁ በኃጢአታችሁ ተናዘዙ። ትፈወሱም ዘንድ እያንዳንዱ ስለ ሌላው ይጸልይ፤ የጻድቅ ሰው ጸሎት በሥራዋ እጅግ ኃይል ታደርጋለች።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ኤልያስ እንደ እኛ የሆነ ሰው ነበረ፥ ዝናብም እንዳይዘንብ አጥብቆ ጸለየ፥ በምድርም ላይ ሦስት ዓመት ከስድስት ወር አልዘነበም፤ ሁለተኛም ጸለየ፥",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "ሰማዩም ዝናብን ሰጠ ምድሪቱም ፍሬዋን አበቀለች።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "ወንድሞቼ ሆይ፥ ከእናንተ ማንም ከእውነት ቢስት አንዱም ቢመልሰው፥",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "ኃጢአተኛን ከተሳሳተበት መንገድ የሚመልሰው ነፍሱን ከሞት እንዲያድን፥ የኃጢአትንም ብዛት እንዲሸፍን ይወቅ።",
+          "unit_order": 20
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "rights_status": "Reuse of this bundled reader is limited to the stated permission; no open or broader license is inferred. Item-specific notice: Copyright © 1962, 2003 United Bible Societies. Language: አማርኛ (Amharic). Amharic NT. Revised Amharic Bible in XML (2003). Printed version by United Bible Societies (© 1962). E-text in transliterated ASCII format by Lapsley/Brooks Foundation (1994). Unicode UTF-8 transformation and XML-tagging by Dirk Röckmann (2003; www.nt-text.net). With kind permission of the Bible Society of Ethiopia. Every non-commercial work using this data in any form must fully include this copyright statement. Every commercial use of parts or the complete data in any form needs written permission of the Bible Society of Ethiopia. Copyright page dated 2014-09-09. Commercial-use and other-use boundary: The source page permits use in non-commercial works only when the complete copyright statement is included with every such work. Commercial use of any part or all of the data requires written permission from the Bible Society of Ethiopia. This is permission-limited reuse, not an open license or a general public-domain claim."
+}

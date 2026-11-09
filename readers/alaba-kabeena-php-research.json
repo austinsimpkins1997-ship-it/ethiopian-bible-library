@@ -1,0 +1,846 @@
+{
+  "reader_id": "alaba-kabeena-php-research",
+  "research_corpus_id": "alw-2025-php",
+  "canon_id": null,
+  "title": "Philippians — Alaba-K’abeena New Testament (ALWWTW / alw, 2025)",
+  "display_name": "Philippians · Alaba-K’abeena · eBible.org",
+  "text_origin": "published_translation",
+  "translation_id": "alw-alwwtw-2025",
+  "language": "Alaba-K’abeena",
+  "language_tag": "alw",
+  "language_assignment_status": "publisher_declared_in_edition_page_and_USFM_package",
+  "script_code": "Ethi",
+  "translator": "Not named in the inspected edition page or retained USFM headers",
+  "contributor": "The Word for the World International",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The inspected edition page does not identify a source language or relay-language path; none is inferred.",
+  "edition": "Alaba-K’abeena: ሃዕሮ ወኣድ መጻፈ (New Testament), ALWWTW / alw; copyright © 2025.",
+  "edition_scope": "One of 27 conventional New Testament USFM book modules in the provider's ALWWTW / alw edition. A reviewed work/title crosswalk links USFM PHP to the EOTC list title Philippians (eotc-nt-11) using the official Church list and USFM code table (SRC-029 and SRC-396). This reader remains a separate research translation; the crosswalk does not establish EOTC or Eritrean edition identity, tradition affiliation, translation accuracy, or completeness.",
+  "rights_classification": "open_license",
+  "license_id": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "copyright_notice": "Copyright © 2025 The Word for the World International. Source: eBible.org Alaba-K’abeena NT (ALWWTW / alw), language tag alw. The edition page names The Word for the World International as contributor, and states CC BY-SA 4.0 for translation text. This archive converted the retained USFM to reader JSON, preserves source labels and supported structure, and identifies the conversion as a change; no publisher endorsement is implied. Images have separate terms and are not included.",
+  "commercial_use": "The source-stated CC BY-SA 4.0 terms permit commercial sharing and adaptations with attribution, indication of changes, and ShareAlike. Images and other media have separate terms and are not bundled.",
+  "unit_label": "USFM verse labels observed",
+  "unit_count": 104,
+  "verse_marker_count": 104,
+  "chapter_count": 4,
+  "section_label": "Chapter",
+  "chapter_structure_note": "This member has 4 consecutive chapter divisions, 104 distinct source verse labels, 12 notes, 12 front-matter elements, and USFM marker counts {'c': 4, 'h': 1, 'id': 1, 'ie': 1, 'imt1': 1, 'io1': 7, 'iot': 1, 'ip': 3, 'mt1': 1, 'mt2': 1, 'p': 27, 'q1': 6, 'q2': 12, 's1': 10, 'toc1': 1, 'toc2': 1, 'toc3': 1, 'v': 104}. Counts describe extraction from this exact source member only.",
+  "chapter_structure_status": "source_package_parsed_with_limits",
+  "source_numbered_unit_count": 104,
+  "source_unnumbered_unit_count": 12,
+  "source_pages": "readers/source/alaba-kabeena/alw_usfm.zip::56-PHPalw.usfm",
+  "source_package_sha256": "57ba620cf2a288d02cdfc5fa61caa92d682423d383c19c9626ffea007437542a",
+  "source_snapshot_sha256": "ba06109bacbc43725597d5259ed3cfd08b4a2930b8ee175870f89ccb0d2a1c5e",
+  "source_ids": [
+    "SRC-414",
+    "SRC-415"
+  ],
+  "rights_status": "Copyright © 2025 The Word for the World International. Source: eBible.org Alaba-K’abeena NT (ALWWTW / alw), language tag alw. The edition page names The Word for the World International as contributor, and states CC BY-SA 4.0 for translation text. This archive converted the retained USFM to reader JSON, preserves source labels and supported structure, and identifies the conversion as a change; no publisher endorsement is implied. Images have separate terms and are not included.",
+  "verification_status": "The exact source member 56-PHPalw.usfm has SHA-256 ba06109bacbc43725597d5259ed3cfd08b4a2930b8ee175870f89ccb0d2a1c5e, matching the signed file list in the retained ZIP. GnuPG verifies that list against the co-distributed key (54D714D76956DA6673DC1EEA5F62009D93505F26); the fingerprint also appears on the key maintainer's published page, which is not independent proof of identity, custody, or signing authority. The signature uses legacy DSA-1024/SHA-1. Reader structure is regenerated from the exact retained USFM member and retains its source chapter and verse labels, recognized headings, introduction matter, notes, and supported structural markers. These checks do not establish translation accuracy, print completeness, source-language basis, local community review, or Church-canon identity.",
+  "transcription_note": "Display-reader extraction from publisher USFM. The exact USFM member remains in the retained source ZIP; no independent wording proofread or print collation is claimed.",
+  "editorial_signs_note": "Publisher USFM remains bundled so its original markup and reader extraction can be inspected. This reader does not replace the source encoding.",
+  "front_matter": [
+    {
+      "marker": "imt1",
+      "text": "ኣጉስ"
+    },
+    {
+      "marker": "ip",
+      "text": "ጳዉሎስ ከ ሶህኑተ ከተቦሁ መቄዶንያ ዬኖ ሮም መንግስት ገሽ ኣዜን ዮ ፍልጵስዩሳን ሄኣ መገን አመዕናኖ ዱእ ምኒሃት፤ ሁኩ ዱእ ምኑ ጳዉሎስ አውሮፕ ባዶን ዎዕናሃ ኡርሾእታን፤ ሶህኑስ ከተበንቶኢሁ ጳዉሎስ ኡሱር ምኔን ሄዕዮ ወክት ዎሎ አመዕናኖን ግበሙ ኢሌስ ወክትለከ ፍልጵስዩስ መገን አመዕናኖ ዱእ ምነ በላን ኬዕዮ ክዝብ ትምርት መሳን ቀልቡስ አበ ሻዦ ወክትዪት። እሁን ቤሉ ጳዉሎስ መሲህ ኢሳን ዮሲ አመዕነቱ አበ እኮቤቺሃ ከን ሶህኖን በትሽ ለለኖሁ ሙንዲኖተለከ ዊመ አመዕነቱ።"
+    },
+    {
+      "marker": "ip",
+      "text": "ጳዉሎስ ከ ሶህኑተ ከተቦ ዎኔ መሰት ኦርሸስ ወክት ሽልማት ሶኮሲሃ እኮቤቺሃ ፍልጵስዩስ አመዕናኑተ ገለትጮታት፤ እስለከ እሰ አሌን አደዱ ኦርሸት ኢልቶሳሃ እኮጎሬ መለሉለከ ዊሙ አመዕነቱ ሄኦሰተ ከን ገንባቴን ጠረኝሰኖሰ። ቦኑ አጉርት መሲህ ኢስገ ገዉ ሆፍሳረ እኮተ አበ ቃግሰኖሰ፤ መሲህ ኢስ አያኒን ሜጡበ እሂን ደእቶ ሄኡ መገን ኣስቶች አሜቾኢሃለከ አመዕነቲን ደእቶእሃ ቤሉ ሕገ አገሪን ደገሞእሃበአ የን ቃግሰኖሰ፤ መሲህ ኢሲን ሜጡበ እክ ሄኣሀኑኡ ጉዕሚንከ መገኑ ኣሰኖሰ ወገሬትለከ ሙንዲኑተ ከተበኖሰ።"
+    },
+    {
+      "marker": "ip",
+      "text": "ኩ ሶህኑት ደገንታኢሁ ሙንዲኑተ፥ አመዕነሙ፥ ሜጡበ እሁለከ አመዕነት ሄኢን ጠረኙ በትሽ ለሊሶንከሲት፤ በርግን አሳቤቹ ጳዉሎስ ፍልጵስዩስ መገን አመዕናኖ ዱእ ምኒሃ ዮስ አበ ኢተተ ለሊሰኖ።"
+    },
+    {
+      "marker": "iot",
+      "text": "መጻፉስ አፎሃ"
+    },
+    {
+      "marker": "io1",
+      "text": "ኣጉስ (1፥1-11)"
+    },
+    {
+      "marker": "io1",
+      "text": "ጳውሎሴሃ ሀለኘስ ሀለት (1፥12-26)"
+    },
+    {
+      "marker": "io1",
+      "text": "አመዕነት ሄእ ምሳልተ (1፥27—2፥18)"
+    },
+    {
+      "marker": "io1",
+      "text": "ጢሞትዎሴለከ ኤጳፍሮዲቱሲሃ ያደተ (2፥19-30)"
+    },
+    {
+      "marker": "io1",
+      "text": "አመዕነቱ ግባሀኑኡሃ ኩለሞሰ ጠረኘ ጠወ (3፥1—4፥9)"
+    },
+    {
+      "marker": "io1",
+      "text": "ጳዎሎስ ፍልጵስዩስ አመዕናኖተ ሆንጠህሾ ገለትለከ ሸዘነተ (4፥10-20)"
+    },
+    {
+      "marker": "io1",
+      "text": "መጨረሸስ (4፥21-23)"
+    }
+  ],
+  "source_book_metadata": [
+    {
+      "marker": "h",
+      "text": "ፍልጵስዩስ"
+    },
+    {
+      "marker": "toc1",
+      "text": "ጳዉሎስ ፍልጵስዩስ መኒሃ ከተቦ ሶህኑተ"
+    },
+    {
+      "marker": "toc2",
+      "text": "ፍልጵስዩስ"
+    },
+    {
+      "marker": "toc3",
+      "text": "ፍልጵ."
+    },
+    {
+      "marker": "mt1",
+      "text": "ጳዉሎስ ፍልጵስዩስ መኒሃ"
+    },
+    {
+      "marker": "mt2",
+      "text": "ከተቦ ሶህኑተ"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ኩ ሶህኑት መሲህ ኢስ ካዲመተ እኮ ጳዉሎሴችለከ ጥማቶሴች ሶሀንቶእተ ሶህኑ፤ ሶሃሞንኩ «ፍልጵስዩስ» ዬኖ ከተማን ሄኣ አመዕናኖ ጭምት አዎንሳኖሃ፥ ድያቆናከተለከ መሲህ ኢሳን አመዕንት ጠሊላኑተ እኮሀኑኡሃ ጉዕሚንካት።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "አናኔ መገኒቺ ቀርቹሃኔ መሲህ ኢሲች ኣስቱትለከ ወገሬቱ ክዕኔሃ እሁን።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "3",
+          "text": "አን ክዕኔተ ቃጋም ወክት ጉዕመንከ መገኑኤ ገለትጫሚት።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ጳዉሎሴ ገለት ዱአ"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "አን ክዕኔተኔሃ ዱአ አኣም ወክት ጉዕመንከ ሙንዲኖን ዱአ አኣሚት።"
+        },
+        {
+          "number": "5",
+          "text": "ወዕኔ በሬች ጀመር ከበሬ ኢለ ተሽት ላገተ ኢን ሜጡበ እኬን አቴንተቤቺሃ መገኑ ገለትጫም።"
+        },
+        {
+          "number": "6",
+          "text": "ከ ጡመ ሆጉተ ክዕኔን አኦተ ጀመሮ መገኑ መሲህ ኢስ አሜተኖ በር ሹሎተ ኢለ አገረኖገ አመዕናም።"
+        },
+        {
+          "number": "7",
+          "text": "ቴሱ ኡሱር ምኔን ዮም ወክትለከ ኡሱረምችኤ ብርተ እንጂል ሀንቂሃ ከዕመቀሞተለከ እሱንከ ጠረኝሲሃ አኣም ወክት መገኑ ኣስቶንከስ ኣሴኤ ዕድሊን ጉዕሙንኩክዕኔ ቤቀማኑተ እኬንተቤቺሃ አዕኑ ጉዕመ ወክት ቀልቤንከኤ ዮንተ። ህካን እኮቤቺሃ ክዕኔተኔሃ ሞጮጨመኖኤሁ ሀንቅሃን።"
+        },
+        {
+          "number": "8",
+          "text": "መሲህ ኢስ ኢታን ጉዕመንከክዕኔ ሄንከ ሱናሚት ጎሬ መገኑ ደገኖ።"
+        },
+        {
+          "number": "9",
+          "text": "ኢተክዕኔ ኤንኬዕኑለከ ሀይመተ ሰውዩ ዊሞሀ እክ ነጰን መረኖገ ዱአ አኣም።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "እስን ጡመ ጠወ አጥራመቴን ደጎኖተለከ መሲህ ፈንቀል አሜተኖ በር ነጣኑተለከ ሙልሲሰኖ ጠዉ ዮህዕኔበእረ እኬን ደገንቶኖታት።"
+        },
+        {
+          "number": "11",
+          "text": "ህትን መሲህ ኢሲን ደገመኖ ፈይመ ላልቺን ዊንቴን መገኒሃ ኬዕምኝለከ ገለት ደግሲሴነንታሃ እኬነንተ።"
+        },
+        {
+          "number": "12",
+          "text": "አመኤ ኦሶ! ኢ አሌን ኢሌ ጠዉ ጉዕሙንኩ እንጂሉ አበ አልባዕለኖገ አኡስ ደጎኖተ ሀሳም።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ጳውሎሴ ኡሱረሙ እንጂሉ አልባዕሎተ መሰተ እሁስ"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "ህካን እኮቤቺሃ አን ኡሱረሞሚሁ መሲህተኔሃ እሁስ ሮም ዎም ምኒ ዘበኛኑትለከ ዎሉ ህከኔ ዮ መኑ ጉዕሙንኩ ደጋአ።"
+        },
+        {
+          "number": "14",
+          "text": "ቀርቾን አመዕንቶ አመኦሶች ልግቡሰ ኢ ኡሱረምተኔሃ ቀርቾን አመዕነንት መገን ላገተ ዎዕኔች በትስ ዋጅቱዕነ መለልት ዱዱብስታኢት።"
+        },
+        {
+          "number": "15",
+          "text": "እኮጎሬ መት-መቱ መኑ መሲህተኔሃ ዱዱብስታኢሁ አቄሻንትለከ ዎሉሰ ጢቄኒት፤ ጠዉ እኮጎሬ ዎሉስ መኑ መሲህተኔሃ ጡመ ቀልቢን ዱዱብስታኢት።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "እሰ ተሽት ላገተ ፈየ ቀልቢን ዱዱብስታኢሁ ኢታች ኬዕዮሀኒንት፤ መሰንትስ አን ኡሱረሞሚሁ ተሽት ላገተ ሀንቂን ሰበኮተ አጰማምገ ደጋቤቺሃት።"
+        },
+        {
+          "number": "17",
+          "text": "ጠዉ እኮጎሬ አቄሻንለከ ጢቄን መሲህ ዱዱብስታኢሁ ሀንቂን እሁዕነ ገዉሰ ኢቲንለከ ኡሱረምኤ አሌን ዎልት ኦርሸተ በርግታኢሃ አጉጆሰቤቺሃት።"
+        },
+        {
+          "number": "18",
+          "text": "መሃ እኮጎሬ ሀካንስ እኮጎሬ ጉዕማንከ ዎቄን አመሰሊን እኮ ሀንቂን እኮ እቃ መሲህተኔሃ ዱዱብሰመኖቤቺሃ ሙንደኣም።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "ከኒች ኤተሪሃ ሙንደኣም፤ መሰንትስ ክዕኔ ዱኢንለከ መሲህ ኢስ ጠሊለ አያኒ ሀዕለንሺን ዮኤ ኦርሻች ፉላምገ ደጎምቤቺሃት።"
+        },
+        {
+          "number": "20",
+          "text": "ህካን እኮቤቺሃ መ ጠዊኒ ሙላምበእገ ዊሙ ሃሽኣቱትለከ ተብሶሁ ዮኤ፤ ጠዉ እኮጎሬ ጉዕመ ወክት አኣምሀንገን ቴሁ ሄዕዮምጎሬ ህከረንገ ሬዮምጎሬ መሲህ ዊመ ጅስምኤ አሌን ሎረ እሀኖገ ዊሙ መለሉ ዮኤ።"
+        },
+        {
+          "number": "21",
+          "text": "ህካን እኮቤቺሃ ኢ ሄኡ መሲሂን ሄኡሃን፤ ሬሁተ እኮጎሬ ኤሳሃ ደግለለኖኤሃን።"
+        },
+        {
+          "number": "22",
+          "text": "ጠዉ እኮጎሬ ፎሊን ሄዕዮምጎሬ ላልቹ ዮስ ሆጉተ ቀርቺሃ አኦተ አታላም፤ እኮጎሬ ሬሆችለከ ሄኢች ሀካንስ መጠራም ጎር ደጎምበአ።"
+        },
+        {
+          "number": "23",
+          "text": "ከን ለሞ ጠዋን ቀልቡኤ ለሙ ቤቹ እኮኡ፤ እስን መቶ አዲን ከን ሄኢች አደ እክ መሲህን እሆተ ሀሳም፤ መሰንትስ ሁኩን ጉዕመርቺችን በተአኖሃ እኮቤቺሃት።"
+        },
+        {
+          "number": "24",
+          "text": "ጠዉ እኮጎሬ አን ሬሁዕነ ፎሊን ሄዕዮምጎሬ ክዕኔሃ በትሽ ጡመሃን።"
+        },
+        {
+          "number": "25",
+          "text": "አን ከ ጠወ አመዕንዮም፤ ሁኩንን ሙንዲኑክዕኔለከ አመዕነቱክዕኔ ነጰኖገ ሬሁዕነ ፎሊን ሄኣምገ ደጎም።"
+        },
+        {
+          "number": "26",
+          "text": "ህካን እኮቤቺሃ አን ክዕኔኤን ለንኪሃ ደቀሞምጎር ኢ መሳን መሲህ ኢሳን ዮህዕኔ ቦኑ አበ እሀኖ።"
+        },
+        {
+          "number": "27",
+          "text": "ጉዕሚችን በትሴን መሲህ እንጅሊሃ ሀስሰኖገ ሄዕዬ፤ አሜች ለዕዮንክዕኔጎሬ ህከረንገ ክዕኔች ቄዕር ክዕኔተኔሃ ሞጮጬምጎሬ መቶ ቀልቢን እንጂል አመዕነትተኔሃ ሜጡበ እኬን አጰንቴነንተገ ደጋም።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "ክዕኔተ ግባህዕኔረ መ ጠዋኒ ዋጅቶኖቼ፤ ኩንን እሳሃ በእሰተ መላ፤ ጠዉ እኮጎሬ ክዕኔሃ ጡምተ መላ፤ ሁኩንን መገን አዲቺት።"
+        },
+        {
+          "number": "29",
+          "text": "መሰንትስ መሲህን አመዕንቶኖተ ጠለዕል እሁዕነ እስተኔሃ ኦርሸተ ቶጎኖተ ኩን ኣሰሞህዕኔ።"
+        },
+        {
+          "number": "30",
+          "text": "ህካን እኮቤቺሃ አዕኑ ከኒች ብርተ አጰንሸኤ ለኤንታአ፤ ቴሁ ኢ አጰንሸ ለኤነንታት፤ አዕኑሁ ህትናሙ አጰንሸ አጰንቴነንተ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "1",
+          "marker": "Translator/editor note",
+          "text": "+ ድያቆነ ሆጉት፦ ምኒ አኑ ሬዮ ሜንቱ ካደሙሃን።",
+          "note_type": "translator_note",
+          "source_reference": "1:1"
+        },
+        {
+          "verse": "1",
+          "marker": "Translator/editor note",
+          "text": "- ሶቀ. 16፥12።",
+          "note_type": "translator_note",
+          "source_reference": "1:1"
+        },
+        {
+          "verse": "13",
+          "marker": "Translator/editor note",
+          "text": "- ሶቀ. 28፥30።",
+          "note_type": "translator_note",
+          "source_reference": "1:13"
+        },
+        {
+          "verse": "30",
+          "marker": "Translator/editor note",
+          "text": "- ሶቀ. 16፥19-40።",
+          "note_type": "translator_note",
+          "source_reference": "1:30"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": "1",
+          "text": "መሲህን እኬንተቤቺሃ መት-መቱክዕኔ ሸዜነን ጠረኝቴንታአ፤ ህትን እስ ኢታን ጠረኝጨቀንቴነንተ፤ ህትን ጠሊለ አያኒን ሜጡ እኬንታአ፤ ህትን መት-መቲሃክዕኔ ጡምመትለከ ጎደበ ላፍመተ ለሊሴንታች፥",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ህካን ሰውቲን፥ ኢታንለከ ቀልብን ሙርስጭቴን ሜጡ እኬን ሙንዲሲሼኤ።"
+        },
+        {
+          "number": "3",
+          "text": "ገዉ ኢቲን ህከረንገ ቦኒን መቱርቹ አቶኖቼ፤ ጠዉ እኮጎሬ ዎሉ መኑ ክዕኔች ቆሀኖገ ገዉ ሆፍሲን ዎለዕዬ፤"
+        },
+        {
+          "number": "4",
+          "text": "ህትን ገገዉክዕኔ ዎሎ መን መኩተ ሀሼ ቤሉ ገይክዕኔ መኩተ ጠለዕል ሀሶኖቼ።"
+        },
+        {
+          "number": "5",
+          "text": "ህትን ኩ መሲህ ኢሳን ዮ ሰውቱ ክዕኔ በላን ሄኡን።"
+        },
+        {
+          "number": "6",
+          "text": "እስ መገኑ እኮጎሬ",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "መገኒን ቅጡ አአኖ ሀል አፍ አገሮተ ሀሾበአ"
+            }
+          ]
+        },
+        {
+          "number": "7",
+          "text": "ጠዉ እኮጎሬ ሮስ ደነ አፎ",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "መነ እኮ"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ገውስ ኦነ አዕዮ።"
+            }
+          ]
+        },
+        {
+          "number": "8",
+          "text": "ገዉስ ሆፍሽ",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "ሬሆተ ኢለ"
+            },
+            {
+              "source_marker": "q2",
+              "text": "መስቀል አሌን ሰቀለም ሬሆተ ኢለ"
+            },
+            {
+              "source_marker": "q2",
+              "text": "አዘዘሞ።"
+            }
+          ]
+        },
+        {
+          "number": "9",
+          "text": "ህካን እኮቤቺሃ መገኑ ጉዕሚችን አሌ ዋሽ",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "ኬዕምኝ ቤቾን አዕዮስ፤"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ጉዕመ ሱዕሚችን ሎረ ሱዕመ ኣሴስ።"
+            }
+          ]
+        },
+        {
+          "number": "10",
+          "text": "ህካን እኮቤቺሃ ኢስ ሱዕም ኬዕምኝተኔሃ",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "ኡላን፥ ሰማንንለከ ኡለ ኣዜን ዮሩ ጉዕሙንኩ"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ጉሉቤንከሰ ጉሉጵታአ።"
+            }
+          ]
+        },
+        {
+          "number": "11",
+          "text": "ህትን አረቤንከሰን",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "«መሲህ ኢስ ቀርቹሃን» ይት መሰከርት"
+            },
+            {
+              "source_marker": "q2",
+              "text": "አነ መገኒሃ ኬዕምኝ ኣታአ።"
+            }
+          ]
+        },
+        {
+          "number": "12",
+          "text": "ህካን እኮቤቺሃ ኢ ጃላ! ጉዕመ ወክት አዘዘንቴንተኤገን ክዕኔቤቾን ሄዕዮም ወክት ጠለዕል እሁዕነ በትሽን ቴሱ ክዕኔች ቄዕሬም ወክትሃ ጡሙክዕኔ ለሊሳ ሆጉተ ዋጅንለከ ሁጢን አዕዬ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ዱንያ አል መኒሃ ኑሪ እህተኔሃ"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "መሰንትስ እስ ጡመ ስውት ሀሶኖተለከ አቶኖተ ክዕኔ ኣዜን አአኖሁ መገኑሃን።"
+        },
+        {
+          "number": "14",
+          "text": "ጉዕመንከ ሆጉተ አቴነንተ ወክት ቁንቁቶኖቼ፤ ህትን ኦዶኖቼ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "ህካን እኮቤቺሃ አዕኑ ከን ሂለ ክልቀት በላን ሆፍኙለከ ህንቄኖህዕኔርቹ ዮህዕኔበኢሃ ነጣኑተ መገን ኦሱተ እኬን ዱንያ አል መኒሃ ኑር እኬን ለሊሴነንተ።"
+        },
+        {
+          "number": "16",
+          "text": "ኩን እሀኖንኩ ሄኡ ደገመኖ ላገተ ሙርቶኑዕናን ጠረኝሴን አፊኒት፤ ከን ሃሌን ደጉዱኤ እኮ ሆጉኤ ተሰ እክ ፈቃበእቤቺሃ መሲህ ፈንቀል አሜተኖ ወክት ድከኣም ሄአኖኤ ዩሃን።"
+        },
+        {
+          "number": "17",
+          "text": "አዕኑ መገኒሃ አመዕነቲን ሆንጠህሴንተ ክትምለከ ክድመ አሌን አኒሁ ዱንተአኖ ክትምገ ሆንጠኮምጎሬ ክዕኔን ጉዕሚንከክዕኔ ሜጡበ ተሽ የኖኤ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "ህትን አዕኑሁ ኢንን ሜጡበ ሙንደኤነንተ።"
+        },
+        {
+          "number": "19",
+          "text": "ቀርቹ ኢስ ዬጎሬ ክዕኔተኔሃ ሞጮጭ ሙንደኦተ ጢሞትዎሴ ደዕል ክዕኔቤቹ ሶሆተ ተብሳሃ አኣም።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ጢሞቴዎሴለከ ኤጳፍሮዲቱሴ ክድመተ"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "ክዕኔተኔሃ ጡመ ቀልቢን ሰውየን ሻዘኖሁ ጢሞትዎሴገ ዮኢሁ አዪሁ ዮበአ።"
+        },
+        {
+          "number": "21",
+          "text": "ዎሉ ጉዕሙንኩ ገይሰ ጠው ቤሉ መሲህ ኢስ ሆጎተ ሰውይቶበአ።"
+        },
+        {
+          "number": "22",
+          "text": "ጠዉ እኮጎሬ ጢሞትዎስ ቤቱ አነስ ካደመኖሀንገን ኢን ሜጡበ እክ እንጂለ ካደሚንከስለከ አመዕነንሸስ መሰከርሲሱስ አዕኑሁ ደጌነንተ።"
+        },
+        {
+          "number": "23",
+          "text": "ኢ ጠዉ መ ደረጀተ ኢለኖ ጎሬ ለዕዮሚች ኤተሮን ጢሞትዎሴ ደዕል ክዕኔቤቹ ሶሆተ ተብሳሃ አኣም።"
+        },
+        {
+          "number": "24",
+          "text": "ህትን አን ገዉንኩእ ደዕል ክዕኔቤቹ አሜቶተ አታላምገ ቀርቹ ሀዕለኖኤገ አመዕናም።"
+        },
+        {
+          "number": "25",
+          "text": "ህትን ኤሳሃ ሀሲሰኖኤርቺን ጉዕሚን ሀዕሎኤተ ሶኬንተ አመኤቤቱ ኤጳፍሮዲቱሴ ክዕኔቤቹ ሶሁ ሀሲሰኖሃ እክ ደጎም፤ እስ ኢን ሜጡበ ኡሬ ዎታደርቹለከ ሆጎኤ ጃለ እክ አአን ዱንክዮሃን።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "እሱ ክዕኔቤቹ ሶሃሚሁ ጉዕመንከክዕኔ ለኦተ ሱኞገለከ እስ ጥዙስ ሞጮጭቴንተቤቺሃ አበ ጨነቀሞኡ።"
+        },
+        {
+          "number": "27",
+          "text": "ሀንቅንከ እስ አበ ጥዥ ሬሆተ ሆንጠኮ እቅ፤ ጠዉ እኮጎሬ መገኑ መረርሲጭ ፈይሾስ፤ ጠለዕል እስ እሁዕነ ኤሳሃ መረርሲጬቤቺሃ ሻዙተ ሻዞ አሌን በርገመኖኤበእገ አዕዮ።"
+        },
+        {
+          "number": "28",
+          "text": "ህካን እኮቤቺሃ አዕኑ እሱ ለንኪሃ ለኤን ሙንደኦኖተለከ ኢ ጨነቀሙ ቢሎተ አን እሱ ክዕኔቤቹ ደዕል ሶሆተ አበ ሀሾም።"
+        },
+        {
+          "number": "29",
+          "text": "ቴሱ ቀርች ሱዕሚን አመዕናንቹ እኮቤቺሃ አበ ሙንዲኖን ቶጌስ፤ ህትን እስገ ዮ መነ ጉዕመንከ ከበጅዬሰ።"
+        },
+        {
+          "number": "30",
+          "text": "መሰንትስ አዕኑ ግደኖን ሄኤን አቶኖኤተ አታልቴንበ ሀዕለንሸ እስ ደግለሎኤተ መሲህ ሆጎተ ነብሳስ ህግሽ ኣሲን ሬሆተ ኢለ አጰሞኡ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "11",
+          "marker": "Translator/editor note",
+          "text": "- ኢሳ. 45፥23።",
+          "note_type": "translator_note",
+          "source_reference": "2:11"
+        },
+        {
+          "verse": "15",
+          "marker": "Translator/editor note",
+          "text": "- ዘዳ. 32፥5።",
+          "note_type": "translator_note",
+          "source_reference": "2:15"
+        }
+      ],
+      "heading": [
+        "መሲህ ገዉስ ሆፍሾገ"
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": "1",
+          "text": "አመኤ ኦሶ! ቀርቾን ሙንደዕዬ፤ አን ከኒች ብርተ ከተቦንክዕኔሃ ፈንቀሽ ከተቦንክዕኔ ጎሬሁ ህፈትሰኖኤበአ፤ ሁኩንን ክዕኔተ አደጊች ጉዕሚችን አገሮህዕኔተ አታለኖ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ዉሸገ ንጃስሳሀኑኡችለከ ሂለ ጠወ አታሀኑኡች አገዕርዬ፤ ህትን ህለተ ሆጉተ አታሀኑኡችለከ ክዝብ ጡርከመሚች አገዕርዬ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "3",
+          "text": "ነኡ መገን ጠሊለ አያኒን ሰገንዳምረለከ መሲህ ኢሲን ድከዕናምረ እንኮምቤቺሃ ሀንቂን ጡርከመሞምረ፤ ጠዉ እኮጎሬ እሰ ህትናመተበአ።"
+        },
+        {
+          "number": "4",
+          "text": "ህትን አን ማሊን እኮ እቃ ድከኣሚሁ ዮኤ፤ አዪሁ ማሊን ድከአኖሁ ዮሲሃ አጉጆስእቃ አን ድከኣም ልግቡ ዎቆ ዮኤ።"
+        },
+        {
+          "number": "5",
+          "text": "አን እለሞም ህዜትቅ በር ጡርከመሞምየ፤ ቢንያሜ ደቦች እኮም እስራኤላውቹሃን፤ ከኒች ኬዕዮሀኒን ነጠ እኮም ዕብራውቹሃን፤ አይሁድ ሕገ አገዕሪን እኮ እቃ ፈርሳውቹሃን።"
+        },
+        {
+          "number": "6",
+          "text": "ሀይማኖትሃኤ ይ መሲህ ኢሳን አመዕንቶረ ሸራምሃ እቅ፤ ህትን ሙስ ሕገ አገዕሪን ፈይተኔሃ እኮ እቃ ኩሌኖኤርቹ ዮኤበአ።"
+        },
+        {
+          "number": "7",
+          "text": "ጠዉ እኮጎሬ ከኒች ብርተ ኤሳሃ ደግለለኖኤ ዬሚሃ ጉዕመንከ መሲህተኔሃ ይ ተሰ ጠውገ አዕይ ዎለኣንሰ።"
+        },
+        {
+          "number": "8",
+          "text": "ጠለዕል ህካን እሁዕነ ቀርቹኤ መሲህ ኢሰ ደጉ ዎሎርቺች ጉዕሚችን በተአኖሃ እኮቤቺሃ ሁኩን ጉዕሙንኩ ክሳርገ ዎለኣንስ፤ እስተኔሃ ጉዕመርቹንከ አጉሮም፤ መሲሁ ደኦተ ጉዕመርቹንከ ቶሬመ ሁርገ ዎለኣም።"
+        },
+        {
+          "number": "9",
+          "text": "አን ሕገ አገሪን ደኣም ገይኤሃ እኮ ፈዩት ዮኤበአ፤ መሲህ አመዕኒንለከ እሲን ሜጡበ እሂን ደገንታ ፈዩት መገን ቤቺች አሜታ ፈዩት ቴሱ ዮኤ።"
+        },
+        {
+          "number": "10",
+          "text": "አን መሲህ ደጎተለከ ሬሆች ኬእስ ዎልቀተ ደጎተ ሀሳም፤ አን እስ ኦርሸተ ቤቀሞተለከ ሬሆንከስ እሱ አጉዶተ ሄዕላታም።"
+        },
+        {
+          "number": "11",
+          "text": "ህትን ሬሆች ኬኣምገ ተብሳሃ አኣም።"
+        },
+        {
+          "number": "12",
+          "text": "ህካን ጉዕመንከ ደእዮምበአ፤ ህከረንገ መገኑ ሀሰኖ ሃሊን ሆሮ አን ዊማበአ፤ ጠዉ እኮጎሬ መሲህ ኢስ ኤሳሃ ገይሲሃ አዕዮኤቤቺሃ ሽልማት ደኦተ ብርተ ዋሽ ደጉዱ አጉራምበአ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢሉ ሀስሰኖቤቹ ኢሊሃ ደጉዱ"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "አመኤ ኦሶ! አን ህካን ገይኤሃ አዕዮምሀንገ ዎለኣምበአ፤ ጠዉ እኮጎሬ መቱ ጠወ አኣም፤ ሁኩንን ኤተርንከኤ ዮኢሃ ሀበን ብሬንከኤ ዮኢሃ አፎተ ደጉዳም።"
+        },
+        {
+          "number": "14",
+          "text": "መገኑ መሲህ ኢስ አዲን ገኤኤሁ ሰሜች ደኣም ዋገ ዘማን ጉዕሚንከ ሄኡ ደኦተ ኢሉ ሀስሰኖኤቤቹ ኢሎተ ደጉዳም።"
+        },
+        {
+          "number": "15",
+          "text": "ቴሱ አመዕነቲን ጠረኝኖምሩ ጉዕሙንኩ ካን አጉደኖ ሰውቱ ሄኦኔተ ሀስሰኖ፤ አዕኑ አደ እኮ ሃሊን ሰውይቴንተ ጎሬ መገኑ በራሃ አዕይ ለሊሰኖህዕኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "ህካን እኮቤቺሃ ቴሱ ኢለ ደዕኖም ሀንቅ ጠረኝንስ አንፎ።"
+        },
+        {
+          "number": "17",
+          "text": "አመኤ ኦሶ! ኤሳሃ አጉዴነንተረ እኬ፤ ነኡ ዎልሀስ ምሳልተ እንኮምገን ህካን አጉደን ሄኣረ አጥራመቴን ለዕዬ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "መሰንትስ ከኒች ብርተ ልግብ ወክት ኩሎምገን ቴሁ ኦአን ኩላንክዕኔ፤ ልግቡ መኑ ሄእንከስ መሲህ መስቀሊሃ ዲነ እክ ሄኣገ አአኖሰ።"
+        },
+        {
+          "number": "19",
+          "text": "እሳሃ ጎደቡሰ መገኑዋሰ፤ ሙልሲሰኖርቹ እሳሃ ኬዕምኝየሰ፤ ሰውቱሰ ዱንየ አልየ ጠወ፤ እሰ ኤተሩሰ በኡሃ።"
+        },
+        {
+          "number": "20",
+          "text": "ጠዉ እኮጎሬ ኒ ባዱ ሰማሃን፤ ህከንቤቺች አሜተኖ ጡምሳንቹ ቀርቹኔ መሲህ ኢሰ አገርናሚት።"
+        },
+        {
+          "number": "21",
+          "text": "እስ ኒ ህከ ህንቀሞ ጅስመኔ ዶር እስ ኬዕምኝ ጅስመ አጉደኖገ አአኖ፤ ህካን አአኖሁ ጉዕሙንኩስ ገይሃስ ጠገመኖገ አአኖ ዎልቃንተሲት።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "2",
+          "marker": "Translator/editor note",
+          "text": "+ ዉሸተ፦ የኖሁ አይሁድ መኑ መገኑ አመዕንበ መነ «ዉሸተ» ይታቤቺሃት፤ ጠዉ እኮጎሬ ከንቤቾን ጳውሎስ «ዉሸተ የን ጠወአኖሁ «ነኡን አመዕናኖተ» ይተን ሃዕሮ አመዕንቶ መነ «ጡርከሙ ሀሲሰኖህዕኔ» ይተን ግዳጅሳ አይሁድተኔሃት።",
+          "note_type": "translator_note",
+          "source_reference": "3:2"
+        },
+        {
+          "verse": "5",
+          "marker": "Translator/editor note",
+          "text": "- ሶቀ. 23፥6፤ 26፥5፤ ሮሜ 11፥1።",
+          "note_type": "translator_note",
+          "source_reference": "3:5"
+        },
+        {
+          "verse": "17",
+          "marker": "Translator/editor note",
+          "text": "- 1 ቆሮ. 4፥16፤ 11፥1።",
+          "note_type": "translator_note",
+          "source_reference": "3:17"
+        }
+      ],
+      "heading": [
+        "ሀንቅ ፈይመተ"
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": "1",
+          "text": "አመኤ ኦሶ! ኢታንክዕኔሁለከ ሱናንክዕኔሩ ሙንዲኑኤ እኬንተሩ ሆጎተኤ አክሊለ እኬንተሩ ቴሱ ቀርቾን ጠረኝቴን ኡርዬ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ኤዎድያለከ ሲንጢኪ ቀርቺን ሜጡ እኬን ሄኦኖተ ኡጫንክዕኔ።"
+        },
+        {
+          "number": "3",
+          "text": "አት አመዕነንቶንት ሆጎኤ ጃለ! ከ ሜንቱ ሀዕልቶተ ኡጫንኬ፤ መሰንትስ ኩ ሜንቱ ቀሌምንጦሴንለከ ሱዕሙሰ ሄእ መጻፋን ከተበሞ ሆጎ ጃላን ሜጡበ እንጂል ላገተ ኢልሶተ ደግለልቶኤረ።"
+        },
+        {
+          "number": "4",
+          "text": "ጉዕመንከ ወክት ቀርቾን ተሽ ዩንክዕኔ፤ ቴሁ ያንክዕኔ ተሽ ዩንክዕኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "ጡምመክዕኔ ጉዕመንከ መንቤቾን ለልቶኢተ እኩን፤ ቀርቹንኩ አሜቶተ ሆንጠኮኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "ሀስሰኖህዕኔርቺሃ ጉዕሚንከ ሹኩሩ ዊሞ ዱኢን መገኑ ኡጭዬ ቤሉ መቶርቾን ሻዞኖቼ።"
+        },
+        {
+          "number": "7",
+          "text": "መን ኤንኬዕኒች ጉዕሚች ሎረ እኮ መገን ወገሬቱ መሲህ ኢሳን ዮንተቤቺሃ ቀልብክዕኔለከ ሰውትክዕኔ አገረኖህዕኔ።"
+        },
+        {
+          "number": "8",
+          "text": "መጨረሻንን አመኤ ኦሶ! ቀልቡክዕኔ ከኒች ጉዕሚችን በተአኖሃለከ ገለትጭሲሰኖ ጡመ ጠዊን ዊንቴንታረ እኬ፤ ሀንቅ እኮ ጠወ ጉዕመንከ፥ ኬዕምኙ ዮ ጠወ ጉዕመንከ፥ ሀቂቀተ እኮ ጠወ ጉዕመንከ፥ ነጠ እኮ ጠወ ጉዕመንከ፥ ኢቴኖ ጠውተኔሃ ጉዕሚንከለከ ሙንዲሲሰኖ ጠውተኔሃ ሰውይዬ፤",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "ኢች ተማርቴንታሃለከ ቶጌንታሃ፥ ሞጮጭቴንታሃለከ ለኤንታሃ ጉዕመንከ አዕዬ፤ ወገሬት መገኑንኩ ክዕኔን ሜጡበ እሀኖ።"
+        },
+        {
+          "number": "10",
+          "text": "ጠዉ እኮጎሬ ልግብ ወክቲች ኤተሮን ኦርሸኤተኔሃ ሰውዩ ጀመርቴንተቤቺሃ ቀርቾን አበ ሙንደኣም፤ ወክት ደእቴንታበአ ቤሉ ኢተኔሃ ሰውዩ አጉርቴንታበአ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ጳዉሎስ ሶሄመስ ሽልማትተኔሃ ገለትጬገ"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "ህት ያም ወክት ሆፈዕዮኤርቺሃ ሻዥበአ፤ መሰንትስ «ዮኤ ጌሱ ኤሳሃ እሀኖኤ» ዩ ተማሮምቤቺሃ ዮኤሀኒን ሙንደኣምሃን።"
+        },
+        {
+          "number": "12",
+          "text": "ህካን እኮቤቺሃ ደኡለከ ደኡ ሆጉ ደጋም፤ ጉዕመንከ ጠዋን ጉዕመ ወክት ዱቢን እኮ ጎሪን ደእን እኮ ደኡ ሆግን «ዮኤሁ እሀኖኤ» ዩ ሮሾም።"
+        },
+        {
+          "number": "13",
+          "text": "ዎልቀተ ኣሰኖኤ መሲሂን ጉዕመንከ አኦተ አታላም።"
+        },
+        {
+          "number": "14",
+          "text": "እኮጎሬ አዕኑ ኦርሸኤ ቤቀማኑተ እኬን ጡመ ጠወ አቴንታኤ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "ፍልጵሱሳን ዮንተ መኑ! ወኔችን ኬሽ እንጂል ላገተ ተማርሰን መቄዶን ባዲች ፉሎም ወክት ክዕኔ ቤሉ ዎሉ አመዕናኑት ኣሲንለከ ቶጊን ኤሳሃ ሀዕሉ ሆጉሰ አዕኑ ገዉክዕኔ ደጌነንተ።"
+        },
+        {
+          "number": "16",
+          "text": "ህትን ተሰሎንቄ ከተማን ሄዕዮም ወክት ሀስሰኖኤርቹ ሶኬን ልግብ ወክት ሀዕልቴንታኤ።"
+        },
+        {
+          "number": "17",
+          "text": "አን ለኡ ሀሳሚሁ ከኒች ብርተ አቴንተሀኒች አበ ጡመ ሆጉት በርገንቶታት።"
+        },
+        {
+          "number": "18",
+          "text": "ኤሳሃ ሀስሰኖለከ ሀስሰኖሀኒች በትሽ እኮ ሽልማትክዕኔ ኤጳፍሮድቱ አንጋች ቶጎም፤ ሁኩ ክዕኔ ሽልማቱ ጡመ አንጀነተ ዊሞ ክትምገ መገኑ ሙንዲሲሰኖሃለከ መገኑ ቶገኖሃን።"
+        },
+        {
+          "number": "19",
+          "text": "ህካን እኮቤቺሃ ኢ መገኑ ዳንጉ ዮበእ ቀባጦችስ መሲህ ኢስ አዲን ሀስሰኖህዕኔ ጠወ ጉዕመንከ በትሽ ኣሶህዕኔ።"
+        },
+        {
+          "number": "20",
+          "text": "አናኔ መገኒሃ ዘላለሚሃ ኬዕምኙ እሁንስ፤ ኣሚዕን።"
+        },
+        {
+          "number": "21",
+          "text": "መሲህ ኢሳን አመዕንቶ መኒሃ ጉዕሚንከ ወገሬት ኢልሼ፤ ኢን ሜጡበ ዮ አመኤ ኦሱት «ወገሬቴ» ይታህዕኔት።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "መጨረሽ ወገሬት"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "ዎሉ አመዕናኑት ጉዕሙንኩ አደንከ ሮም ዎም ምኔን ካደንታ አመዕናኑንት «ወገሬቴ» ይታህዕኔት።"
+        },
+        {
+          "number": "23",
+          "text": "ቀርቾ መሲህ ኢስ ኣስቱት ጉዕሚንከክዕኔ ሜጡበ እኩን፤ ኣሚዕን።",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "15",
+          "marker": "Translator/editor note",
+          "text": "- 2 ቆሮ. 11፥9።",
+          "note_type": "translator_note",
+          "source_reference": "4:15"
+        },
+        {
+          "verse": "16",
+          "marker": "Translator/editor note",
+          "text": "- ሶቀ. 17፥1።",
+          "note_type": "translator_note",
+          "source_reference": "4:16"
+        },
+        {
+          "verse": "18",
+          "marker": "Translator/editor note",
+          "text": "- ፉል. 29፥18።",
+          "note_type": "translator_note",
+          "source_reference": "4:18"
+        }
+      ],
+      "heading": [
+        "መጨረሽ ሸዘነ ላገተ"
+      ]
+    }
+  ]
+}

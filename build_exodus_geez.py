@@ -5,6 +5,7 @@ from __future__ import annotations
 from html.parser import HTMLParser
 import hashlib
 import json
+from archive_manifest import write_text_atomically
 from pathlib import Path
 import re
 from layer_metadata import sync_layer_checksum
@@ -132,7 +133,7 @@ def main() -> None:
         "<!doctype html><html lang=\"en\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">"
         "<title>Archived Geʽez Exodus source pages</title><main><h1>Geʽez Exodus source pages</h1>"
         "<p>Local copies of Ran HaCohen's 40 chapter pages from Dillmann's historical Octateuch edition. "
-        "The text is a digitizer's transcription, not an independently collated edition. No English translation is included.</p>"
+        "The text is a digitizer's transcription, not an independently collated edition. This Geʽez source-page set contains no English text; the separately identified Brenton English companion is built from its own captured pages.</p>"
         "<p>© Ran HaCohen. The digitized Ethiopic text is permitted to be used, copied, and distributed for noncommercial "
         "purposes without fee, provided the copyright notice and this permission notice accompany all copies. For other uses, "
         "contact the copyright owner.</p><ul>" + page_links + "</ul></main></html>\n",
@@ -141,6 +142,7 @@ def main() -> None:
     verse_count = sum(len(chapter["verses"]) for chapter in chapters)
     reader = {
         "reader_id": "exodus-geez-dillmann-hacohen",
+        "text_origin": "source_transcription",
         "canon_id": "eotc-ot-02",
         "title": "Exodus — Geʽez reader",
         "language": "Geʽez (Classical Ethiopic)",
@@ -152,13 +154,16 @@ def main() -> None:
         "edition_scope": "Historical scholarly edition. It is not identified as the current official EOTC printed edition. Dillmann's critical apparatus is not included in this digital transcription.",
         "transcription_note": "HaCohen reports OCR followed by proofreading and correction of Dillmann's corrigenda, while warning that new transcription errors may remain. This archive bundles that transcription without fresh collation against Dillmann's print or manuscript witnesses.",
         "editorial_signs_note": "The digitizer's Octateuch notes say round parentheses mark additions to the Septuagint, square brackets mark omissions supplied from later Ethiopic manuscripts, and paired asterisks mark rare additions by Dillmann. These signs are retained where represented in the transcription; no editorial signs have been silently removed. Dillmann's full critical apparatus is not included.",
-        "chapter_structure_note": "The locally archived menu and captured source pages contain Exodus chapters 1–40 in order. Verse labels follow the source links and are retained as published; numbering has not been regularized.",
+        "chapter_structure_note": "The locally archived menu and captured source pages contain Exodus chapters 1–40 in order. HaCohen's digitization replaces Dillmann's Ethiopic verse numerals with Arabic numerals and moves them inline. Verse numbering follows the Septuagint and may be discontinuous where the Ethiopic text omits a Septuagint verse. This archive preserves the digitization's displayed labels without regularizing them; they have not been independently collated against the print edition.",
+        "rights_classification": "permission_limited",
         "copyright_notice": "© Ran HaCohen. The digitized Ethiopic text is permitted to be used, copied, and distributed for noncommercial purposes without fee, provided the copyright notice and this permission notice accompany all copies. For other uses, contact the copyright owner.",
         "commercial_use": "Not granted by the cited permission notice.",
         "source_pages": "The 40 source HTML pages are archived in readers/source/exodus/; chapter SHA-256 digests are included below.",
         "chapter_count": len(chapters),
+        "unit_count": verse_count,
+        "unit_label": "Septuagint-numbered source verse markers",
         "verse_marker_count": verse_count,
-        "verification_status": "The archived index lists 40 chapters; captured pages are verified by HTTP status and page title; source-linked verse markers are increasing and nonempty. No independent Geʽez manuscript collation or English translation is claimed.",
+        "verification_status": "The archived source menu lists Exodus chapters 1–40 in order, and re-parsing all 40 retained HTML pages reproduces the stored chapter and verse records, including their source-page hashes. This verifies local capture-to-reader extraction only, not HaCohen's transcription against Dillmann's print or manuscript witnesses. The digitizer warns that transcription errors may remain.",
         "chapters": chapters,
     }
     OUTPUT.write_text(json.dumps(reader, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -178,7 +183,7 @@ def main() -> None:
         sources[sources.index(existing)] = source
     else:
         sources.append(source)
-    archive_path.write_text(json.dumps(archive, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    write_text_atomically(archive_path, json.dumps(archive, ensure_ascii=False, indent=2) + "\n")
     registry_path = ROOT / "translation-registry.json"
     registry = json.loads(registry_path.read_text(encoding="utf-8"))
     geez = next(language for language in registry["languages"] if language["language_tag"] == "gez")
@@ -192,6 +197,7 @@ def main() -> None:
         "basis_language_tag": "gez",
         "basis_description": "Historical Dillmann Geʽez edition transcription; no fresh collation or English translation is claimed.",
         "rights_status": "noncommercial_with_required_notice",
+        "rights_classification": "permission_limited",
         "source_ids": ["SRC-034", "SRC-035", "SRC-036", "SRC-058", "SRC-059", "SRC-061"],
     })
     geez["records"].sort(key=lambda item: (item["canon_id"], item.get("reader_id", "")))

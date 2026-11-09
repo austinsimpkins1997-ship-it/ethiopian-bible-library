@@ -1,0 +1,49 @@
+{
+  "source_id": "SRC-305",
+  "capture_date": "2026-10-25",
+  "source_item_id": "BYNEWT_DBS_HS",
+  "rights_evidence_source_ids": [
+    "SRC-304",
+    "SRC-339"
+  ],
+  "http_status": 200,
+  "pdf_content_type": "application/pdf",
+  "physical_page_count": 80,
+  "page_count_basis": "80 page records in captured Internet Archive scandata.xml; pdfinfo independently reported 80 PDF pages at capture time",
+  "script_observation": {
+    "code": "Ethi",
+    "basis": "Visual inspection of rendered cover and three interior pages",
+    "conflict": "DBS metadata conflict: this witness is labeled Latin (Latn)"
+  },
+  "ocr_assessment": {
+    "file": "Bilin-1890-Mark_djvu.txt",
+    "method_as_reported": "tesseract 5.0.0-1-g862e",
+    "configured_languages": "-l kir+eng+srp+kaz+rus+Latin+Cyrillic+Arabic",
+    "detected_language": "kk",
+    "invalid_source_language": "byn",
+    "use": "Diagnostic only; not a transcription or reader layer"
+  },
+  "files": {
+    "Bilin-1890-Mark.pdf": {
+      "size_bytes": 2846416,
+      "sha256": "6c8cbeb9109df6a2ef8b0b334c2a421a87eb48e4da5b105d3bebc61021b81619",
+      "source_url": "https://archive.org/download/BYNEWT_DBS_HS/Bilin-%281890%29-Mark.pdf"
+    },
+    "Bilin-1890-Mark_djvu.txt": {
+      "size_bytes": 64080,
+      "sha256": "90ef69f6dc1b33a851aaa95e66c23bf0dabbc96f1b8d60531943674da863d375",
+      "source_url": "https://archive.org/download/BYNEWT_DBS_HS/Bilin-%281890%29-Mark_djvu.txt"
+    },
+    "internet-archive-metadata.json": {
+      "size_bytes": 6728,
+      "sha256": "6bf948b82a64a0fb3b51f5d796cb5eadb03654ec63edbdfcd0a21eb3e170076e",
+      "source_url": "https://archive.org/metadata/BYNEWT_DBS_HS"
+    },
+    "Bilin-1890-Mark_scandata.xml": {
+      "size_bytes": 28292,
+      "sha256": "29f3a6f477eeb666fee0e172c8ec3a66e47a9990971a1146435ed3acf67be477",
+      "source_url": "https://archive.org/download/BYNEWT_DBS_HS/Bilin-%281890%29-Mark_scandata.xml"
+    }
+  },
+  "scope_note": "Captured scan and metadata do not establish textual accuracy, complete edition boundaries, translation basis, or canon affiliation."
+}

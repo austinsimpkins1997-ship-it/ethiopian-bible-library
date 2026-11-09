@@ -1,0 +1,161 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/titus-betamasaheft-tei",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/betamasaheft-LIT3527Epistle",
+  "labels": [
+    {
+      "value": "Titus — Geʽez source transcription",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-nt-17",
+      "mapping_state": "uncertain",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-269",
+        "SRC-270",
+        "SRC-176"
+      ],
+      "notes": "The TEI edition note says ‘Text of the EOTC printed Bible’ and explicitly declares Geʽez; this supports a provisional title-level link only. Exact current-edition identity, physical-edition completeness, and transcription accuracy remain unverified."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/betamasaheft-LIT3527Epistle",
+    "witness_type": "digital_edition",
+    "title": "Beta maṣāḥǝft LIT3527Epistle TEI text",
+    "date_statement": "Source file pinned at Works commit ec53d3f4c5de47e463fa56a8465cf1090316a999; exact print-exemplar date unknown",
+    "repository_or_publisher": "Beta maṣāḥǝft, University of Hamburg",
+    "shelfmark_or_edition_id": "LIT3527Epistle",
+    "editorial_policy": "Provider says the text was digitized from modern Vulgata printed editions and converted to TEI; the exact printed exemplar is not identified. The retained XML remains available alongside the whitespace-normalized display extraction.",
+    "source_ids": [
+      "SRC-270"
+    ]
+  },
+  "layer_type": "source_text_transcription",
+  "text_origin": "source_transcription",
+  "language_tag": "gez",
+  "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+  "script_code": "Ethi",
+  "basis_path": [
+    "gez"
+  ],
+  "agents": [],
+  "content_package": {
+    "uri": "../readers/titus-betamasaheft-tei.json",
+    "media_type": "application/json",
+    "sha256": "1f85045e1d288eb717470f8a2ceb70fb247b00cb000df20ad87ee22536993149",
+    "format_version": "1",
+    "json_pointer": ""
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 52,
+    "structure_description": "All 52 TEI line elements from 3 explicit chapter divisions are extracted. This is complete for the declared TEI edition scope only; completeness against the physical printed exemplar is unverified.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "Whitespace normalized for display; inline markup flattened but unchanged source XML retained. Empty TEI line elements remain explicit empty units; none is supplied with wording.",
+    "numbering_policy": "Preserve every TEI source n label exactly as present and retain unnumbered lines in source order. Do not normalize duplicate or anomalous source labels."
+  },
+  "rights": {
+    "status": "open_license",
+    "statement": "The TEI file states CC BY-SA 4.0. Attribute Beta maṣāḥǝft, link the source and license, identify this extraction and whitespace normalization, and share adaptations alike. This file-level license does not establish rights in the unidentified printed exemplar.",
+    "license_id": "CC-BY-SA-4.0",
+    "rights_holder": "Beta maṣāḥǝft TEI file; underlying print rights not established",
+    "attribution_required": true,
+    "territory_or_term_limits": "The file-level license applies to the TEI file and its adaptation; do not infer rights in the unidentified printed source.",
+    "evidence_source_ids": [
+      "SRC-270"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "TEI work id LIT3527Epistle and Church-list title checked; physical exemplar and exact current-edition identity unresolved.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Pinned TEI header, edition division and Church-list title inspected",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-269",
+        "SRC-270",
+        "SRC-176"
+      ],
+      "notes": "Provisional title link only."
+    },
+    {
+      "dimension": "language_identification",
+      "state": "checked_with_limits",
+      "scope": "TEI root xml:lang=en and enclosing edition xml:lang=gez inspected; every extracted line is inside that edition scope.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Pinned source XML language declarations and TEI inheritance rules checked",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-270",
+        "SRC-176"
+      ],
+      "notes": "Edition-level gez applies to nested text; root-level en remains recorded as a conflict."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "All 3 chapter divisions and 52 line elements checked against the pinned XML.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Offline TEI parser validates source hash, divisions and exact line-element inventory",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-270"
+      ],
+      "notes": "Source order and labels preserved; this is not print collation."
+    },
+    {
+      "dimension": "completeness",
+      "state": "unknown",
+      "scope": "No comparison against the exact printed exemplar or manuscript witnesses was performed.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-270"
+      ],
+      "notes": "Extraction includes all TEI line elements in the declared edition scope; physical-edition completeness unknown."
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "No independent collation against the printed source or manuscripts was performed.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-270"
+      ],
+      "notes": "Structural checks do not establish wording accuracy."
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "File-level CC BY-SA 4.0 statement inspected in the pinned TEI file.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "File-specific license retained separately from website terms",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-270"
+      ],
+      "notes": "Underlying print rights remain unestablished."
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "This is a source transcription, not an English translation. Source numbering anomalies, if any, are described in the reader and preserved verbatim in the bundled source TEI."
+}

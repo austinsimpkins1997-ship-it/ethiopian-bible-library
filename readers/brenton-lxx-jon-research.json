@@ -15,19 +15,23 @@
     "grc",
     "en"
   ],
+  "translation_basis_status": "established",
+  "translation_basis_note": "eBible.org identifies Brenton's 1851 English translation as from the Greek Septuagint; the edition title specifies the Vatican Text. This records the edition-stated Greek-to-English basis, not an independently audited translator workflow, textual accuracy, or alignment to Geʽez.",
   "edition": "The Septuagint Version of the Old Testament: According to the Vatican Text, Translated into English (1851).",
-  "edition_scope": "Historical English translation of a Greek Septuagint text as represented by this eBible.org USFM member. This is a separate research witness; it is not a Geʽez transcription, an EOTC printed-edition claim, or a verified translation from Geʽez. No EOTC canon crosswalk is assigned.",
+  "edition_scope": "Historical English translation of a Greek Septuagint text as represented by this eBible.org USFM member. This is a separate research witness; it is not a Geʽez transcription, an EOTC printed-edition claim, or a verified translation from Geʽez. Any title-based EOTC candidate recorded for it is provisional and does not make this reader canon-linked.",
   "chapter_count": 4,
   "unit_count": 48,
   "unit_label": "English verse labels observed in the archived USFM member",
   "verse_marker_count": 48,
   "section_label": "Chapter",
-  "chapter_structure_note": "The local USFM member 33-JONeng-Brenton.usfm contains 4 ordered chapter markers, 48 numbered source labels, 13 preserved notes/cross-references, and 1 unnumbered continuation segments. Marker-only source labels without inline text: 0. These are package observations, not proof of completeness against a print edition, Greek witness, or any community's canon.",
+  "chapter_structure_note": "The local USFM member 33-JONeng-Brenton.usfm contains 4 ordered chapter markers, 48 source labels, including 0 lettered labels, 13 preserved notes/cross-references, and 1 unnumbered continuation segments. Marker-only source labels without inline text: 0. These are package observations, not proof of completeness against a print edition, Greek witness, or any community's canon.",
   "transcription_note": "Reader wording is parsed from the archived USFM member and has not been independently collated against the printed 1851 edition or the Greek source.",
   "editorial_signs_note": "USFM translator-supplied-word markers are displayed in visible archival brackets ⟦…⟧. Source notes, cross-references, headings, paragraph markers, and continuation segments are retained as structured data.",
   "source_ids": [
     "SRC-038",
-    "SRC-142"
+    "SRC-142",
+    "SRC-029",
+    "SRC-384"
   ],
   "source_pages": "readers/source/brenton-septuagint/33-JONeng-Brenton.usfm (member of the locally archived package)",
   "source_package_sha256": "ce098084f168f8bb67081ab48061588f7074d4f68d88dec2ab3edbcc10607a7a",
@@ -393,5 +397,7 @@
         }
       ]
     }
-  ]
+  ],
+  "language_assignment_status": "The cited edition/source identifies this witness as an English translation. The archive records English (en) and Latin script (Latn) as edition metadata; this does not evaluate translation accuracy or represent English varieties.",
+  "rights_status": "This bundled reader is classified as public domain claimed based on its recorded source notice. The claim is not an independent determination for every jurisdiction. Item-specific notice: eBible.org identifies Brenton's 1851 English translation as public domain. This is a provider-reported status, not a jurisdiction-specific legal determination; other source layers and archive materials have separate rights. Commercial-use and excluded-material scope: The provider identifies Brenton's 1851 translation as public domain; this is not a jurisdiction-specific rights determination."
 }

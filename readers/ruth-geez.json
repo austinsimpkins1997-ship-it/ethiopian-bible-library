@@ -1,5 +1,6 @@
 {
   "reader_id": "ruth-geez-dillmann-hacohen",
+  "text_origin": "source_transcription",
   "canon_id": "eotc-ot-08",
   "title": "Ruth — Geʽez reader",
   "language": "Geʽez (Classical Ethiopic)",
@@ -18,13 +19,16 @@
   "edition_scope": "Historical scholarly edition. It is not identified as the current official EOTC printed edition. Dillmann's critical apparatus is not included in this digital transcription.",
   "transcription_note": "HaCohen reports OCR followed by proofreading and correction of Dillmann's corrigenda, while warning that new transcription errors may remain. This archive bundles that transcription without fresh collation against Dillmann's print or manuscript witnesses.",
   "editorial_signs_note": "The digitizer's Octateuch notes say round parentheses mark additions to the Septuagint, square brackets mark omissions supplied from later Ethiopic manuscripts, and paired asterisks mark rare additions by Dillmann. These signs are retained where represented; Dillmann's full critical apparatus is not included.",
-  "chapter_structure_note": "The locally archived menu and source pages contain Ruth chapters 1–4 in order. Verse labels follow the source links and are retained as published; numbering has not been regularized.",
+  "chapter_structure_note": "The locally archived menu and source pages contain Ruth chapters 1–4 in order. HaCohen's digitization replaces Dillmann's Ethiopic verse numerals with Arabic numerals and moves them inline. Verse numbering follows the Septuagint and may be discontinuous where the Ethiopic text omits a Septuagint verse. This archive preserves the digitization's displayed labels without regularizing them; they have not been independently collated against the print edition.",
   "copyright_notice": "© Ran HaCohen. The digitized Ethiopic text is permitted to be used, copied, and distributed for noncommercial purposes without fee, provided the copyright notice and this permission notice accompany all copies. For other uses, contact the copyright owner.",
+  "rights_classification": "permission_limited",
   "commercial_use": "Not granted by the cited permission notice.",
   "source_pages": "The 4 source HTML pages are stored in readers/source/octateuch-additional/ruth/; chapter SHA-256 digests are included below.",
   "chapter_count": 4,
+  "unit_count": 85,
+  "unit_label": "Source-linked verse markers",
   "verse_marker_count": 85,
-  "verification_status": "The archived index lists the chapters; captured pages were checked by HTTP status and page title; source-linked verse markers match the parsed labels and are nonempty. No independent Geʽez manuscript collation or English translation is claimed.",
+  "verification_status": "Reproducible tests confirm that each archived raw HTML page reproduces its local capture byte-for-byte and that parsing it reproduces the bundled chapter text, source labels, and source URL exactly. This checks capture-to-reader correspondence only; no independent Geʽez manuscript collation or English translation is claimed.",
   "chapters": [
     {
       "chapter": 1,
@@ -479,5 +483,402 @@
       "source_url": "https://www.tau.ac.il/~hacohen/Octateuch/Ruth%204.html",
       "source_sha256": "b02f5c1ce2cea7ed480a7930d8ecfea9e61a2ba4843444e4bab883315456acfa"
     }
-  ]
+  ],
+  "parallel_translation": {
+    "translation_id": "ruth-english-brenton-lxx-1851",
+    "text_origin": "published_translation",
+    "title": "English companion — Brenton Septuagint (1851)",
+    "language": "English",
+    "language_tag": "en",
+    "script_code": "Latn",
+    "translator": "Sir Lancelot Charles Lee Brenton",
+    "basis_language_tag": "grc",
+    "translation_method": "Historical English translation from the Greek Septuagint; it is not directly translated from or aligned to the bundled Geʽez transcription.",
+    "edition": "The Septuagint Version of the Old Testament: According to the Vatican Text, Translated into English (1851).",
+    "translation_basis": "eBible.org identifies this as Brenton's 1851 English translation from Greek. It is an independent English witness paired for study, not a modern rendering, direct translation from Geʽez, or proof of verse-level equivalence.",
+    "rights_classification": "public_domain_claimed",
+    "text_notice": "eBible.org identifies Brenton's 1851 translation as public domain. The archive's browser-visible text capture is separately documented; site page design and any other source layer are not included in that rights claim. Historical spellings and names such as Bethleem, Noemin, Booz, and Jessæ are retained.",
+    "source_ids": [
+      "SRC-038",
+      "SRC-095",
+      "SRC-096"
+    ],
+    "chapter_count": 4,
+    "unit_count": 85,
+    "unit_label": "Captured English verse labels",
+    "verse_label_count": 85,
+    "verification_status": "All four eBible.org Ruth chapter pages were captured as browser-visible text and locally checked for page number, ordered chapters, nonempty text, and contiguous verse labels (85 labels: 22, 23, 18, 22). The captures are not raw HTML or byte-for-byte server responses. The English wording has not been independently collated against Brenton's printed 1851 edition or the Greek Septuagint; translation accuracy, edition completeness, and alignment with Geʽez remain unverified. This is a historical companion research transcription, not a verified Geʽez translation.",
+    "chapters": [
+      {
+        "chapter": 1,
+        "verses": [
+          {
+            "number": "1",
+            "text": "And it came to pass when the judges ruled, that there was a famine in the land: and a man went from Bethleem Juda to sojourn in the land of Moab, he, and his wife, and his two sons."
+          },
+          {
+            "number": "2",
+            "text": "And the man's name was Elimelech, and his wife's name Noemin, and the names of his two sons Maalon and Chelaion, Ephrathites of Bethleem of Juda: and they came to the land of Moab, and remained there."
+          },
+          {
+            "number": "3",
+            "text": "And Elimelech the husband of Noemin died; and she was left, and her two sons."
+          },
+          {
+            "number": "4",
+            "text": "And they took to themselves wives, women of Moab; the name of the one was Orpha, and the name of the second Ruth; and they dwelt there about ten years."
+          },
+          {
+            "number": "5",
+            "text": "And both Maalon and Chelaion died also; and the woman was left of her husband and her two sons."
+          },
+          {
+            "number": "6",
+            "text": "And she rose up and her two daughters-in-law, and they returned out of the country of Moab, for she heard in the country of Moab that the Lord had visited his people to give them bread."
+          },
+          {
+            "number": "7",
+            "text": "And she went forth out of the place where she was, and her two daughters-in-law with her: and they went by the way to return to the land of Juda."
+          },
+          {
+            "number": "8",
+            "text": "And Noemin said to her daughters-in-law, Go now, return each to the house of her mother: the Lord deal mercifully with you, as ye have dealt with the dead, and with me."
+          },
+          {
+            "number": "9",
+            "text": "The Lord grant you that ye may find rest each of you in the house of her husband: and she kissed them; and they lifted up their voice, and wept."
+          },
+          {
+            "number": "10",
+            "text": "And they said to her, We will return with thee to thy people."
+          },
+          {
+            "number": "11",
+            "text": "And Noemin said, Return now, my daughters; and why do ye go with me? have I yet sons in my womb to be your husbands?"
+          },
+          {
+            "number": "12",
+            "text": "Turn now, my daughters, for I am too old to be married: for I said, Suppose I were married, and should bear sons;"
+          },
+          {
+            "number": "13",
+            "text": "would ye wait for them till they should be grown? or would ye refrain from being married for their sakes? Not so, my daughters; for I am grieved for you, that the hand of the Lord has gone forth against me."
+          },
+          {
+            "number": "14",
+            "text": "And they lifted up their voice, and wept again; and Orpha kissed her mother-in-law and returned to her people; but Ruth followed her."
+          },
+          {
+            "number": "15",
+            "text": "And Noemin said to Ruth, Behold, thy sister-in-law has returned to her people and to her gods; turn now thou also after thy sister-in-law."
+          },
+          {
+            "number": "16",
+            "text": "And Ruth said, Intreat me not to leave thee, or to return from following thee; for whithersoever thou goest, I will go, and wheresoever thou lodgest, I will lodge; thy people shall be my people, and thy God my God."
+          },
+          {
+            "number": "17",
+            "text": "And wherever thou diest, I will die, and there will I be buried: the Lord do so to me, and more also, if I leave thee, for death only shall divide between me and thee."
+          },
+          {
+            "number": "18",
+            "text": "And Noemin seeing that she was determined to go with her, ceased to speak to her any more."
+          },
+          {
+            "number": "19",
+            "text": "And they went both of them until they came to Bethleem: and it came to pass, when they arrived at Bethleem, that all the city rang with them, and they said, Is this Noemin?"
+          },
+          {
+            "number": "20",
+            "text": "And she said to them, Nay, do not call me Noemin; call me ‘Bitter,’ for the Mighty One has dealt very bitterly with me."
+          },
+          {
+            "number": "21",
+            "text": "I went out full, and the Lord has brought me back empty: and why call ye me Noemin, whereas the Lord has humbled me, and the Mighty One has afflicted me?"
+          },
+          {
+            "number": "22",
+            "text": "So Noemin and Ruth the Moabitess, her daughter-in-law, returned from the country of Moab; and they came to Bethleem in the beginning of barley harvest."
+          }
+        ],
+        "source_url": "https://ebible.org/eng-Brenton/RUT01.htm",
+        "source_capture_sha256": "3fc76c7efc88e0c2eeeb2c06ca367b3c0a1eb00980d68e44ab4488bf5419e45b"
+      },
+      {
+        "chapter": 2,
+        "verses": [
+          {
+            "number": "1",
+            "text": "And Noemin had a friend an acquaintance of her husband, and the man was a mighty man of the kindred of Elimelech, and his name was Booz."
+          },
+          {
+            "number": "2",
+            "text": "And Ruth the Moabitess said to Noemin, Let me go now to the field, and I will glean among the ears behind the man with whomsoever I shall find favour: and she said to her, Go, daughter."
+          },
+          {
+            "number": "3",
+            "text": "And she went; and came and gleaned in the field behind the reapers; and she happened by chance to come on a portion of the land of Booz, of the kindred of Elimelech."
+          },
+          {
+            "number": "4",
+            "text": "And, behold, Booz came from Bethleem, and said to the reapers, The Lord be with you: and they said to him, The Lord bless thee."
+          },
+          {
+            "number": "5",
+            "text": "And Booz said to his servant who was set over the reapers, Whose is this damsel?"
+          },
+          {
+            "number": "6",
+            "text": "And his servant who was set over the reapers answered and said, It is the Moabitish damsel who returned with Noemin out of the land of Moab."
+          },
+          {
+            "number": "7",
+            "text": "And she said, I pray you, let me glean and gather among the sheaves after the reapers: and she came and stood from morning till evening, and rested not even a little in the field."
+          },
+          {
+            "number": "8",
+            "text": "And Booz said to Ruth, Hast thou not heard, my daughter? go not to glean in another field; and depart not thou hence, join thyself here with my damsels."
+          },
+          {
+            "number": "9",
+            "text": "Let thine eyes be on the field where my men shall reap, and thou shalt go after them: behold, I have charged the young men not to touch thee: and when thou shalt thirst, then thou shalt go to the vessels, and drink of that which the young men shall have drawn."
+          },
+          {
+            "number": "10",
+            "text": "And she fell upon her face, and did reverence to the ground, and said to him, How is it that I have found grace in thine eyes, that thou shouldest take notice of me, whereas I am a stranger?"
+          },
+          {
+            "number": "11",
+            "text": "And Booz answered and said to her, It has fully been told me how thou hast dealt with thy mother-in-law after the death of thy husband; and how thou didst leave thy father and thy mother, and the land of thy birth, and camest to a people whom thou knewest not before."
+          },
+          {
+            "number": "12",
+            "text": "The Lord recompense thy work: may a full reward be given thee of the Lord God of Israel, to whom thou hast come to trust under his wings."
+          },
+          {
+            "number": "13",
+            "text": "And she said, Let me find grace in thy sight, my lord, because thou hast comforted me, and because thou hast spoken kindly to thy handmaid, and behold, I shall be as one of thy servants."
+          },
+          {
+            "number": "14",
+            "text": "And Booz said to her, Now it is time to eat; come hither, and thou shalt eat of the bread, and thou shalt dip thy morsel in the vinegar: and Ruth sat by the side of the reapers, and Booz handed her meal, and she ate, and was satisfied, and left."
+          },
+          {
+            "number": "15",
+            "text": "And she rose up to glean; and Booz charged his young men, saying, Let her even glean among the sheaves, and reproach her not."
+          },
+          {
+            "number": "16",
+            "text": "And do ye by all means carry it for her, and ye shall surely let fall for her some of that which is heaped up; and let her eat, and glean, and rebuke her not."
+          },
+          {
+            "number": "17",
+            "text": "So she gleaned in the field till evening, and beat out that she had gleaned, and it was about an ephah of barley."
+          },
+          {
+            "number": "18",
+            "text": "And she took it up, and went into the city: and her mother-in-law saw what she had gleaned, and Ruth brought forth and gave to her the food which she had left from what she had been satisfied with."
+          },
+          {
+            "number": "19",
+            "text": "And her mother-in-law said to her, Where hast thou gleaned to-day, and where hast thou wrought? blessed be he that took notice of thee. And Ruth told her mother-in-law where she had wrought, and said, The name of the man with whom I wrought to-day is Booz."
+          },
+          {
+            "number": "20",
+            "text": "And Noemin said to her daughter-in-law, Blessed is he of the Lord, because he has not failed in his mercy with the living and with the dead: and Noemin said to her, The man is near akin to us, he is one of our relations."
+          },
+          {
+            "number": "21",
+            "text": "And Ruth said to her mother-in-law, Yea, he said also to me, Keep close to my damsels, until the men shall have finished all my reaping."
+          },
+          {
+            "number": "22",
+            "text": "And Noemin said to Ruth her daughter-in-law, It is well, daughter, that thou wentest out with his damsels; thus they shall not meet thee in another field."
+          },
+          {
+            "number": "23",
+            "text": "And Ruth joined herself to the damsels of Booz to glean until they had finished the barley-harvest and the wheat-harvest."
+          }
+        ],
+        "source_url": "https://ebible.org/eng-Brenton/RUT02.htm",
+        "source_capture_sha256": "4e601218d728899983cb076886a617e952e3acb84b05bd5110782712b26f87c1"
+      },
+      {
+        "chapter": 3,
+        "verses": [
+          {
+            "number": "1",
+            "text": "And she lodged with her mother-in-law: and Noemin her mother-in-law said to her, My daughter, shall I not seek rest for thee, that it may be well with thee?"
+          },
+          {
+            "number": "2",
+            "text": "And now is not Booz our kinsman, with whose damsels thou wast? behold, he winnows barley this night in the floor."
+          },
+          {
+            "number": "3",
+            "text": "But do thou wash, and anoint thyself, and put thy raiment upon thee, and go up to the threshing-floor: do not discover thyself to the man until he has done eating and drinking."
+          },
+          {
+            "number": "4",
+            "text": "And it shall come to pass when he lies down, that thou shalt mark the place where he lies down, and shalt come and lift up the covering of his feet, and shalt lie down; and he shall tell thee what thou shalt do."
+          },
+          {
+            "number": "5",
+            "text": "And Ruth said to her, All that thou shalt say, I will do."
+          },
+          {
+            "number": "6",
+            "text": "And she went down to the threshing-floor, and did according to all that her mother-in-law enjoined her."
+          },
+          {
+            "number": "7",
+            "text": "And Booz ate and drank, and his heart was glad, and he came to lie down by the side of the heap of corn; and she came secretly, and lifted up the covering of his feet."
+          },
+          {
+            "number": "8",
+            "text": "And it came to pass at midnight that the man was amazed, and troubled, and behold, a woman lay at his feet."
+          },
+          {
+            "number": "9",
+            "text": "And he said, Who art thou? and she said, I am thine handmaid Ruth; spread therefore thy skirt over thine handmaid, for thou art a near relation."
+          },
+          {
+            "number": "10",
+            "text": "And Booz said, Blessed be thou of the Lord God, my daughter, for thou hast made thy latter kindness greater than the former, in that thou followest not after young men, whether any be poor or rich."
+          },
+          {
+            "number": "11",
+            "text": "And now fear not, my daughter, whatever thou shalt say I will do to thee; for all the tribe of my people knows that thou art a virtuous woman."
+          },
+          {
+            "number": "12",
+            "text": "And now I am truly akin to thee; nevertheless there is a kinsman nearer than I."
+          },
+          {
+            "number": "13",
+            "text": "Lodge here for the night, and it shall be in the morning, if he will do the part of a kinsman to thee, well—let him do it: but if he will not do the part of a kinsman to thee, I will do the kinsman's part to thee, as the Lord lives; lie down till the morning."
+          },
+          {
+            "number": "14",
+            "text": "And she lay at his feet until the morning; and she rose up before a man could know his neighbour; and Booz said, Let it not be known that a woman came into the floor."
+          },
+          {
+            "number": "15",
+            "text": "And he said to her, Bring the apron that is upon thee: and she held it, and he measured six measures of barley, and put them upon her, and she went into the city."
+          },
+          {
+            "number": "16",
+            "text": "And Ruth went in to her mother-in-law, and she said to her, My daughter! and Ruth told her all that the man had done to her."
+          },
+          {
+            "number": "17",
+            "text": "And she said to her, He gave me these six measures of barley, for he said to me, Go not empty to thy mother-in-law."
+          },
+          {
+            "number": "18",
+            "text": "And she said, Sit still, my daughter, until thou shalt know how the matter will fall out; for the man will not rest until the matter be accomplished this day."
+          }
+        ],
+        "source_url": "https://ebible.org/eng-Brenton/RUT03.htm",
+        "source_capture_sha256": "ee8298d26e54124926d49e99dcc0a00a58f0a1b0b22b0b55df6538d6dbb90b79"
+      },
+      {
+        "chapter": 4,
+        "verses": [
+          {
+            "number": "1",
+            "text": "And Booz went up to the gate, and sat there; and behold, the relative passed by, of whom Booz spoke: and Booz said to him, Turn aside, sit down here, such a one: and he turned aside and sat down."
+          },
+          {
+            "number": "2",
+            "text": "And Booz took ten men of the elders of the city, and said, Sit ye here; and they sat down."
+          },
+          {
+            "number": "3",
+            "text": "And Booz said to the relative, The matter regards the portion of the field which was our brother Elimelech's which was given to Noemin, now returning out of the land of Moab;"
+          },
+          {
+            "number": "4",
+            "text": "and I said, I will inform thee, saying, Buy it before those that sit, and before the elders of my people: if thou wilt redeem it, redeem it, but if thou wilt not redeem it, tell me, and I shall know; for there is no one beside thee to do the office of a kinsman, and I am after thee: and he said, I am here, I will redeem it."
+          },
+          {
+            "number": "5",
+            "text": "And Booz said, In the day of thy buying the field of the hand of Noemin and of Ruth the Moabitess the wife of the deceased, thou must also buy her, so as to raise up the name of the dead upon his inheritance."
+          },
+          {
+            "number": "6",
+            "text": "And the kinsman said, I shall not be able to redeem it for myself, lest I mar my own inheritance; do thou redeem my right for thyself, for I shall not be able to redeem it."
+          },
+          {
+            "number": "7",
+            "text": "And this was in former time the ordinance in Israel for redemption, and for a bargain, to confirm every word: A man loosed his shoe, and gave it to his neighbour that redeemed his right; and this was a testimony in Israel."
+          },
+          {
+            "number": "8",
+            "text": "And the kinsman said to Booz, Buy my right for thyself: and he took off his shoe and gave it to him."
+          },
+          {
+            "number": "9",
+            "text": "And Booz said to the elders and to all the people, Ye are this day witnesses, that I have bought all that was Elimelech's, and all that belonged to Chelaion and Maalon, of the hand of Noemin."
+          },
+          {
+            "number": "10",
+            "text": "Moreover I have bought for myself for a wife Ruth the Moabitess, the wife of Maalon, to raise up the name of the dead upon his inheritance; so the name of the dead shall not be destroyed from among his brethren, and from the tribe of his people: ye are this day witnesses."
+          },
+          {
+            "number": "11",
+            "text": "And all the people who were in the gate said, We are witnesses: and the elders said, The Lord make thy wife who goes into thy house, as Rachel and as Lia, who both together built the house of Israel, and wrought mightily in Ephratha, and there shall be a name to thee in Bethleem."
+          },
+          {
+            "number": "12",
+            "text": "And let thy house be as the house of Phares, whom Thamar bore to Juda, of the seed which the Lord shall give thee of this handmaid."
+          },
+          {
+            "number": "13",
+            "text": "And Booz took Ruth, and she became his wife, and he went in to her; and the Lord gave her conception, and she bore a son."
+          },
+          {
+            "number": "14",
+            "text": "And the women said to Noemin, Blessed is the Lord, who has not suffered a redeemer to fail thee this day, even to make thy name famous in Israel."
+          },
+          {
+            "number": "15",
+            "text": "And he shall be to thee a restorer of thy soul, and one to cherish thy old age; for thy daughter-in-law which has loved thee, who is better to thee than seven sons, has born him."
+          },
+          {
+            "number": "16",
+            "text": "And Noemin took the child and laid it in her bosom, and became a nurse to it."
+          },
+          {
+            "number": "17",
+            "text": "And the neighbours gave it a name, saying, A son has been born to Noemin; and they called his name Obed; this is the father of Jessæ the father of David."
+          },
+          {
+            "number": "18",
+            "text": "And these are the generations of Phares: Phares begot Esrom:"
+          },
+          {
+            "number": "19",
+            "text": "Esrom begot Aram; and Aram begot Aminadab."
+          },
+          {
+            "number": "20",
+            "text": "And Aminadab begot Naasson; and Naasson begot Salmon."
+          },
+          {
+            "number": "21",
+            "text": "And Salmon begot Booz; and Booz begot Obed."
+          },
+          {
+            "number": "22",
+            "text": "And Obed begot Jessæ; and Jessæ begot David."
+          }
+        ],
+        "source_url": "https://ebible.org/eng-Brenton/RUT04.htm",
+        "source_capture_sha256": "da26671408ff280c253766983162cdad10945f85e674d6cabc3786fff7d00fd8"
+      }
+    ]
+  },
+  "language_assignment_status": "The cited edition/source identifies this witness as Geʽez/Ethiopic. The archive records Geʽez (gez) and Ethiopic script (Ethi) from that edition context; this is not an independent language-specialist or recension review.",
+  "rights_status": "Reuse of this bundled reader is limited to the stated permission; no open or broader license is inferred. Item-specific notice: © Ran HaCohen. The digitized Ethiopic text is permitted to be used, copied, and distributed for noncommercial purposes without fee, provided the copyright notice and this permission notice accompany all copies. For other uses, contact the copyright owner. Commercial-use and other-use boundary: Not granted by the cited permission notice."
 }

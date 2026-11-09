@@ -1,0 +1,137 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/leviticus-geez-dillmann-hacohen",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/leviticus-eotc",
+  "labels": [
+    {
+      "value": "Leviticus — Geʽez reader",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-03",
+      "mapping_state": "asserted_by_source",
+      "evidence_source_ids": [
+        "SRC-029"
+      ],
+      "notes": "The Church's English canon list names Leviticus. This historical edition is not claimed to be the current official printed edition."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/leviticus-dillmann-1853-1855",
+    "witness_type": "printed_edition",
+    "title": "August Dillmann (ed.), Veteris Testamenti Aethiopici Tomus Primus, sive Octateuchus Aethiopicus",
+    "date_statement": "1853–1855",
+    "repository_or_publisher": "Leipzig edition; digital transcription by Ran HaCohen",
+    "shelfmark_or_edition_id": null,
+    "editorial_policy": "Historical critical edition transcription; Dillmann's critical apparatus is not included in the digitized text.",
+    "source_ids": [
+      "SRC-034",
+      "SRC-035",
+      "SRC-036",
+      "SRC-064"
+    ]
+  },
+  "layer_type": "source_text_transcription",
+  "text_origin": "source_transcription",
+  "language_tag": "gez",
+  "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+  "script_code": "Ethi",
+  "basis_path": [
+    "gez"
+  ],
+  "agents": [
+    {
+      "role": "editor",
+      "name": "August Dillmann",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-034",
+        "SRC-035"
+      ]
+    },
+    {
+      "role": "digitizer",
+      "name": "Ran HaCohen",
+      "authority_or_affiliation": "University of Tel Aviv",
+      "source_ids": [
+        "SRC-036"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/leviticus-geez.json",
+    "media_type": "application/json",
+    "sha256": "898e6f657ed181e8bfd3f67ed13015e595c445a26b3f6088111cfdf64c90e572",
+    "format_version": "1"
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 857,
+    "structure_description": "27 source chapters; 857 source-linked verse markers in the digitized transcription.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "The transcription's visible editorial signs are retained where represented. Dillmann's full critical apparatus is not included.",
+    "numbering_policy": "Preserve source-linked labels; no renumbering or cross-witness equivalence is implied."
+  },
+  "rights": {
+    "status": "permission_limited",
+    "statement": "Noncommercial copy and distribution only with the copyright notice and permission notice accompanying every copy; other uses require contacting the rights holder.",
+    "license_id": null,
+    "rights_holder": "Ran HaCohen",
+    "attribution_required": true,
+    "territory_or_term_limits": "Commercial rights are not granted by the cited notice.",
+    "evidence_source_ids": [
+      "SRC-036"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "The locally archived menu and 27 captured pages were checked in order. Each raw HTML page reproduces the stored local capture byte-for-byte, and parsing those pages reproduces the bundled chapter text, source labels, and source URLs exactly.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Archive build validation",
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-034",
+        "SRC-035",
+        "SRC-064"
+      ],
+      "notes": "Confirms correspondence between the local capture and this parser-derived reader, not correctness of the upstream digitization, manuscript completeness, or transcription accuracy."
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "No fresh collation against Dillmann's print edition or manuscript witnesses.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-036"
+      ],
+      "notes": "The digitizer reports OCR and proofreading and warns that transcription errors may remain."
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "Permission notice for noncommercial reuse of the digitized transcription.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-036"
+      ],
+      "notes": "This is not a grant of commercial rights."
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "This bundle contains the Geʽez digitizer's transcription only. No English translation or independent manuscript collation is included."
+}

@@ -1,0 +1,4731 @@
+{
+  "reader_id": "gamo-jos-research",
+  "research_corpus_id": "gmvetw-jos-research",
+  "publisher_book_code": "JOS",
+  "source_menu_position": 6,
+  "source_title_label": "ኢያሶ ማጻፋ",
+  "reader_scope": "research_witness_unmapped",
+  "title": "Joshua — Gamo text (ኢያሶ ማጻፋ)",
+  "display_name": "Joshua · Gamo (JOS)",
+  "text_origin": "published_translation",
+  "language": "Gamo (Gamotso)",
+  "language_tag": "gmv",
+  "language_assignment_status": "publisher_identified_gmv_gamotso_gamo",
+  "script_code": "Ethi",
+  "translation_id": "gmvetw-gamo-jos",
+  "translator": "Not identified in the cited publisher edition record",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The cited eBible.org edition page does not identify the source language or relay-language path. No source language or translation path is inferred.",
+  "edition": "The Word for the World International, Gamo Bible (ጌሻ ማጻፋ), GMVETW / gmve; source files dated 2025-05-03; mobile HTML generated 2026-10-20.",
+  "edition_scope": "This is the Gamo edition's publisher-menu entry 6; the exact source book label is 'ኢያሶ ማጻፋ', publisher code JOS. The 81-entry catalogue link, where present, is a provisional title-level candidate only.",
+  "rights_classification": "open_license",
+  "copyright_notice": "© 2024 The Word for the World International. Gamo translation contributed by The Word for the World Northern Africa. Source: eBible.org, GMVETW / gmve, Gamo Bible (ጌሻ ማጻፋ), Ethiopic script. Licensed CC BY-SA 4.0. This archive converted HTML structure to JSON and whitespace for display; those changes do not imply publisher endorsement.",
+  "commercial_use": "The provider page grants share and adaptation rights under CC BY-SA 4.0 subject to attribution, change indication, and share-alike. This notice covers only this source-derived Gamo reader layer, not other site content or separately licensed images.",
+  "license_id": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "chapter_count": 24,
+  "unit_count": 657,
+  "unit_label": "publisher verse marker",
+  "section_label": "Chapter",
+  "chapter_structure_note": "Chapter pages and order follow the publisher's own book index. Displayed verse labels are preserved verbatim, including combined labels such as 6-7; they are not renumbered. Counts describe extracted source spans only.",
+  "transcription_note": "Text was extracted from the captured publisher HTML into JSON. The displayed text normalizes HTML whitespace and line breaks; source marker labels are retained. Publisher cross-reference notes are preserved in chapter notes. Images, fonts, and CSS are excluded because the publisher says pictures have separate terms. The captured HTML-only source archive is retained alongside this reader.",
+  "editorial_signs_note": "The reader preserves publisher verse labels and captured cross-reference note text. It does not reconstruct missing apparatus or independently interpret editorial conventions.",
+  "verification_status": "Structural extraction from the captured eBible.org GMVETW / gmve HTML snapshot: this menu entry links to 24 consecutive chapter pages; 657 nonempty verse spans retain their displayed labels; each source chapter page hash is recorded in the reader. This verifies extraction against the captured HTML package only. It does not verify translation accuracy, completeness against any print edition, manuscript agreement, or the provisional title-code candidate mapping, and is not counted as an EOTC canon reader.",
+  "source_ids": [
+    "SRC-168",
+    "SRC-169",
+    "SRC-178"
+  ],
+  "source_pages": "readers/source/gamo/gmve-html-pages.zip; publisher pages JOS.htm and JOS chapter pages",
+  "source_snapshot_url": "https://ebible.org/Scriptures/gmve_html.zip",
+  "source_snapshot_sha256": "57d4266f4cfa9606b340d30a2bc06101f5bfb396f69d154e32555d711e33378d",
+  "source_extract_sha256": "a61457709d70b19016534807e381d9a13cc813cf890b8a128874888f4ca0bd58",
+  "source_page_hashes": [
+    {
+      "page": "JOS01.htm",
+      "sha256": "5776e37bf2397705a0be7371b20362166fc68ffb04ccbf4e376be49dddb0ad21"
+    },
+    {
+      "page": "JOS02.htm",
+      "sha256": "ef5a50e2a65231a184821b7be145f406df1424576e28f714ce9f351c7182e3b4"
+    },
+    {
+      "page": "JOS03.htm",
+      "sha256": "e9c7f29fc29f2df4e30617c393d1861f116e76fbc0f037250cabb7ab824d4437"
+    },
+    {
+      "page": "JOS04.htm",
+      "sha256": "f4a5c6e2e762ab1395b1b8cbcb4590ce9430e1c4d43362c8394c019feaf01c73"
+    },
+    {
+      "page": "JOS05.htm",
+      "sha256": "fe6a575c24f797b5cb36c8508e1fe04d7654b91b680f5002fdccde1f9fe049b0"
+    },
+    {
+      "page": "JOS06.htm",
+      "sha256": "1e8a245e71ee295491bfa6ec12dbfdecc1da43e7567641f82ce713f8b394f15c"
+    },
+    {
+      "page": "JOS07.htm",
+      "sha256": "7b36d78ae9e611c7e0893e56692a54c61554100810dda357bf22ff37451d6975"
+    },
+    {
+      "page": "JOS08.htm",
+      "sha256": "9ad5092414b67da8bbcdcb6a8f35d07995631c8179653f93727f42337ae39fe8"
+    },
+    {
+      "page": "JOS09.htm",
+      "sha256": "e9f0eb2a22d119bf5be91c30dd7aa579cf1b4f27a6e75c1dfe4fb10a4a6bce4a"
+    },
+    {
+      "page": "JOS10.htm",
+      "sha256": "fa9ff61c195468a24006725077ef606f60b96c4055298bf9474fa06636681a65"
+    },
+    {
+      "page": "JOS11.htm",
+      "sha256": "bd4af4bd2670b0d92ec2d41606aa6aed7fab2ffc69a8887616e744f316f63c3a"
+    },
+    {
+      "page": "JOS12.htm",
+      "sha256": "b93976d288936151d9ad3109b08c9cd156441dd7565c73ba341d19b8d003124e"
+    },
+    {
+      "page": "JOS13.htm",
+      "sha256": "c2fb7b0fcb68bdb09621c99d3e0207ef08bd0bde5de3d2b6ee8b5d1e8989bf6c"
+    },
+    {
+      "page": "JOS14.htm",
+      "sha256": "ba6de3e43a33443b93cc3f1a8f5a3c904297cde233dca78e70ca654a0a2f4e00"
+    },
+    {
+      "page": "JOS15.htm",
+      "sha256": "972db4863f0b3229cf21858c0b39e43b78ef8d4f7904e0bacf1b4cf748d4c281"
+    },
+    {
+      "page": "JOS16.htm",
+      "sha256": "776d822923c1063ec85a2ef97b3c809389c07a2cacb023392b73692005120120"
+    },
+    {
+      "page": "JOS17.htm",
+      "sha256": "ba4eea3198baf287c9b4641d6e13c52fc277299b28198e778f232e17fc5c7a49"
+    },
+    {
+      "page": "JOS18.htm",
+      "sha256": "5e8c57ce436cc76ef8533ae19477f5a1bdc9c0cfb8654a94459c0e3e2805f3f4"
+    },
+    {
+      "page": "JOS19.htm",
+      "sha256": "b7753c9ff48d174f4520569bd7db01db47f70a3d3952da75ff5b5c4130b87187"
+    },
+    {
+      "page": "JOS20.htm",
+      "sha256": "5415016998373608aa582ccbc368b52d998f9f0f8160e7baba7d90c062553a9e"
+    },
+    {
+      "page": "JOS21.htm",
+      "sha256": "22070ab194c38a03fa85ac75798a8665b0bf75266a2028c80493d1d3c395e699"
+    },
+    {
+      "page": "JOS22.htm",
+      "sha256": "11fcd2191e63feeb9c2798c3eb9e18031a1c9d3e766bc0fa0b08d0be24d1b129"
+    },
+    {
+      "page": "JOS23.htm",
+      "sha256": "7b67d144ca72ca2b1c85612682a2e50995024c19b3063325e216e9728b06e0da"
+    },
+    {
+      "page": "JOS24.htm",
+      "sha256": "0e05f7d092ecd93930fac88b455311278a7c0ebf11ad37365c96e109d12b1c1f"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "source_chapter_label": "1",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 1",
+      "heading": [
+        "ጎዳይ ኢያሶ ኣዛዚዳ ኣዛዞ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ጎዳ ኣይሌ ሙሴይ ሃይቂዳፔ ጉዬ ጎዳይ ሙሴ ማዲዛ ናዌ ና ኢያሶስ፥",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "«ሄኮ ታ ኣይሌ ሙሴይ ሃይቂዴስ፤ ሃኢ ኔኒኔ ሃይሲ ዴሬዚ ዴንዲቴ፤ ታኒ ካሴ ኢስራኤሌ ኣሳስ ኢማና ጊዳ ቢታ ጌላናስ ዮርዳኖሴ ሻፋ ፒኒቴ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ታኒ ካሴ ሙሴስ ኢሚዳ ሂዶታ ማላ ኢንቴ ቶሆይ ዬꬊዛ ቢታ ኡባ ታ ኢንቴስ ኢማና።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ኢንቴ ቢታ ዛዋይ ባዞፌ ዶሚዲ ሊባኖሴ፥ ዎጋ ሻፋ ኤፊራጺሴፔ ቢዲ ሂቴ ዴሬ ኡባ ኦይኪዲ ኣርሼይ ዉሊዛ ባጋራ ቢዲ ዎጋ ኣባ ጋካናሳ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ኔኒ ዲዛ ዎዴ ኡባን ኔናራ ኦኒካ ኤቄታና ዳንዳዬና፤ ታኒ ካሴ ሙሴራ ጊዲዳ ማላ ኔናራካ ጊዳና፤ ሙሌካ ታ ኔና ዬጊኬኔ ኣጊኬ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "«ሚና! ጻላ ጊዳ፤ ታኒ ካሴ ኢስታ ኣዋታስ ኢማና ጋዳ ጫቂዳ ቢታ ሃ ዴሬዛ ካሌꬃዳ ላቲሳናይ ኔና ጊዲዳ ጊሻስ ሚና።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ኣይኮይ ባ፤ ኔኒ ሚኖ ጻላ ሚና፤ ታ ኣይሌ ሙሴይ ኔስ ኢሚዳ ዎጋዛ ኡባ ሎኤꬃ ኣዛዜታ፤ ኔ ቢዳሶ ኡባን ጊጋ ጊዳና ማላ ሃዲርስ ኡሻች ጎፓ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ሃይሲ ዎጋ ማጻፋይ ኔ ዶናፔ ሻኬቶፎ፤ ኢዛ ጊዶን ዲዛይሳ ኔ ሎኤꬃ ናጌታዳ ፖላና ማላ ጋላስ ጊዲን ኦማርስ ዛራ ዛራ ቆፓ፤ ኔ ሄሳꬆ ኦꬂኮ ኔ ቆፒዳ ኡባይ ኔስ ሱራናኔ ሃናና።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ኔኒ ቢዛሶን ኡባን ጎዳ ኔ ጾሳይ ኔናራ ዲዛ ጊሻስ ኣይኮይ ባ፥ ሚና፥ ያዮፋ፥ ዳጋሞፋ ጋዳ ታ ኔና ኣዛዛቤኪና!» ጊዴስ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ሄሳፌ ካሊዲ ኢያሶይ ኢስራኤሌ ኣሳ፥",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "«ኢንቴ ጌዴ ኣሳይ ዲዛሶ ቢዲ፥ ‹ኢንቴ ሄꬑ ጋላሳፌ ጉዬ ካሴ ጎዳ ኢንቴ ጾሳይ ኢንቴና ላቲሳናስ ኢንቴስ ኢሚዛ ቢታዮ ላታናስ ዮርዳኖሴ ፒናና ጊሻስ ኢንቴስ ሺንቄ ጊግሲቴ› ጊ ዮቲቴ» ጊ ኣዛዚዴስ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ኢያሶይ ኦሮቤሌ ቆሞታስ፥ ጋዴ ቆሞታስ፥ ሄሳꬆካ ሚናሴ ቆሞታፔ ባጋይታስ፥",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "«ጎዳ ኣይሌ ሙሴይ፥ ‹ጎዳ ኢንቴ ጾሳይ ኢንቴና ሼምፒሳና፤ ሃኖ ቢታዮካ ኢዚ ኢንቴስ ኢማና› ጊ ኢሚዳ ኣዛዞዛ ኣኬኪቴ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ኢንቴ ማቼቲ፥ ኢንቴ ናይቲኔ ኢንቴ ሜሄቲካ ካሴ ሙሴይ ኢንቴስ ዮርዳኖሴ ሻፋፔ ሄ ፒንꬃን ኢሚዳሶን ሄን ዲሼቶ፤ ጊዶ ኣቲን ኢንቴ ኦላ ኣሳይ ኡባይ ኩሜꬅ ኦላ ሚሻራ ኢንቴ ባጋታ ኢስራኤሌ ኣሳ ማዳናስ ካሴቲዲ ዮርዳኖሴ ፒኔቶ፤ ኢንቴካ ኢንቴ ኢሻታራ ኢሲፌ ኦላስ ኬዚቴ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ሄሲካ ጎዳይ ኢስታ ሼምፒሳና ጋካናሲኔ ኢንቴስ ኢዚ ኦꬆይሳꬆ ኢስቲካ ጎዳ ኢንቴ ጾሳይ ኢስታስ ኢሚዳ ቢታ ጋኪ ላታና ጋካናሳ፤ ሄሳፌ ጉዬ ኢንቴ ሲሚ ዪዲ ኣርሼይ ሞኪዛ ባጋራ ዮርዳኖሴ ሻፋፔ ሄ ፒንꬃን ጎዳ ኣይሌ ሙሴይ ኢንቴስ ኢሚዳ ቢታ ኢንቴ ላታና» ጊዴስ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "ኢስቲካ ኢያሶስ፥ «ኔኒ ኑስ ዮቶይሳ ኑኒ ኡባ ፖላና፤ ኔ ኪቲዛሶ ኣዋካ ባና።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17",
+          "source_element_id": "V17",
+          "text": "ኑኒ ሙሴስ ኡባ ዎዴ ኣዛዜቲዳ ማላ ኔስካ ኣዛዜታና፤ ጎዳ ኔ ጾሳይ ካሴ ሙሴራ ጊዲዳ ማላ ኔናራካ ኢዚ ጊዶ!",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "18",
+          "source_element_id": "V18",
+          "text": "ኔናራ ኤቄቲዛዴይኔ ኔስ ኣዛዜቶንታዴ ኡባይ ሃይቆ፤ ኔ ሚና፤ ኣይኮይ ባ፥ ኔ ሚኖ ሚና» ጊዳ።",
+          "unit_order": 18
+        }
+      ],
+      "notes": [
+        {
+          "verse": "1:5",
+          "marker": "cross-reference",
+          "text": "ዛሬ 31፡6፥8፤ ኢብ 13፡5",
+          "source_reference": "1"
+        },
+        {
+          "verse": "1:5",
+          "marker": "cross-reference",
+          "text": "ዛሬ 11፡24-25",
+          "source_reference": "2"
+        },
+        {
+          "verse": "1:6",
+          "marker": "cross-reference",
+          "text": "ዛሬ 31፡6፥7፥23",
+          "source_reference": "3"
+        },
+        {
+          "verse": "1:15",
+          "marker": "cross-reference",
+          "text": "ታይ 32፡28-32፤ ዛሬ 3፡18፤ ኢያ 22፡1-6",
+          "source_reference": "4"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "source_chapter_label": "2",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 2",
+      "heading": [
+        "ኢያሶይ ኪቲዳ ዎቼ ኣሳታ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ናዌ ና ኢያሶይ ቢታ ዎቺዛ ናምኡ ኣሳታ ሺጺሜ ጌቴቲዛሶፔ ቆታን ኪቲዴስ፤ ኪቲሼ ኢስታስ፥ «ቢቴ፤ ቢዲ ቢታ ዎቺቴ፤ ሃራፔካ ኢያርኮ ካታማ ዱማሲ ዎቺቴ» ጊዴስ።\nሂስቲን ኢስቲ ቢዲ ኤራኣቦ ጌቴቲዛ ላይማ ማጫሳይ ሶ ጌሊዲ ኣቂዳ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ሂስቲን ኢያርኮ ካዎይ፥ «ኢስራኤሌ ኣሳፔ ኪቴቲዳይቲ ሃ ቢታ ዎቻናስ ኦማርስ ዪዳ» ጊዛ ዮኦ ሲዪዴስ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ኢያርኮ ካዎይ ኤራኣቢኮ፥ «ኔ ሶ ዪ ጌሊዳ ኣሳታ ኬሳ ኢማ። ኣይስ ጊኮ ኢስቲ ቢታ ኡባ ዎቻናስ ዪዳ» ጊዛ ኪታ ዬዲዴስ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ጊዶ ኣቲን ሚሺሬያ ሄ ናምኡ ኣሳታ ቆታ ዎꬃዳ፥ «ኤ ኣሳቲ ታኮ ዪዳኮሺን ኢስቲ ኣዋፔ ዪዳኮ ታ ኤራቤኬ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ኦማርስ ካታማ ፔንጌ ጎርዳና ጊዛ ዎዴ ኢስቲ ኬዚ ቢዳ፤ ኢስቲ ኣዋ ቢዳኮ ታ ኤሪኬ፤ ኤሶቲዲ ካሊዛ ጊዲኮ ኢንቴ ኢስታ ኦይካና» ጋዱስ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ጊዶ ኣቲን ኤራኣባ ኣሳታ ፖቄ ማላ ኦሴቲዳሶ ኬሳዳ ሚጬቲዳ ታልባ ቡጻ ጊዶን ኢስታ ቆታ ዎꬃዱስ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ኣሳቲ ጾሞሲዛይታ ኮያናስ ኬዚዲ ዮርዳኖሴ ሻፋ ፒንꬅ ኤፊዛ ኦጌ ኦይኪዲ ቢዳ፤ ኮይዛይቲ ካታማፔ ኬዚዳ ማላ ካታማ ፔንጌይ ጎርዴቲዴስ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ዎቺዛይቲ ꬊስካናፔ ካሴታዳ ኢዛ ኢስታኮ ፑዴ ኬዛዳ ኢስታስ፥",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "«ጎዳይ ሃ ቢታ ኢንቴስ ኢሚዳይሳ፥ ኢንቴስ ያሻቴꬂ ኑናን ኩሚዳይሳኔ ሃ ቢታን ዴኢዛ ኣሳ ዎዚናይ ኢንቴስ ሂርጋን ሴሪዳይሳ ታ ኤራይስ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ጊብጼ ቢታፌ ኢንቴ ኬዚዳ ዎዴ ኢንቴ ሲንꬃን ዞኦ ኣባ ጎዳይ ዎስቲ ሜሊሲዳኮ ኑኒ ሲዪዶስ፤ ቃሴ ዮርዳኖሴ ሻፋፔ ኣርሼ ኬሳሶ ባጋራ ዲዛ ኣሞሬ ቢታ ካዎታ ናምኣታ፥ ሲሆኔኔ ኣጌ ኢንቴ ዎስቲ ኡባ ꬋይሲዳኮ ኑ ሲዪዶስ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ኑ ሄሳ ሲዪዳ ማላ ኑ ዎዚናይ ሴሪዴስ፤ ኢንቴስ ያሻቴꬃፌ ዴንዲዳይሳን ሺሮቶንታ ኣሲ ዴና፤ ጎዳ ኢንቴ ጾሳይ ቦላ ሳሎንካ ጋርሳ ቢታንካ ኢዚ ጾሳ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ሄሳ ጊሻስ ታኒ ኢንቴስ ኪዪዳ ማላ ኢንቴካ ታ ኣዋ ኬꬃ ኣሳስ ኪያና ማላ ታስ ጎዳን ጫቂቴ፤ ሄሳስካ ኣማንꬂዛ ማላታ ታስ ኢሚቴ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ታ ኣዋኔ ታ ኣዪዮ፥ ታ ኢሻታኔ ታ ሚቼታ ኢስታስ ሼምፖራ ዲዛ ኡባ ዎꬎፒቴ፤ ኑና ሃይቆፔ ኣሺቴ» ጋዱስ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ሄ ኣሳቲ፥ «ኑ ኔስ ጫቂዳ ቃላ ማላ ፖሎንታ ኣጊኮ ጾሲ ኑና ዎꬎ! ኑ ኦꬂዳይሳ ኔ ኦናስካ ዮቶንታ ኣጊኮ፥ ጎዳይ ሃኖ ቢታዮ ኑስ ኢሚዛ ዎዴ ኑ ኔስ ሎኦ ኦꬃና ማላ ጫቆስ» ጊዳ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ኤራኣባ ዲዛ ኬꬃይ ካታማ ዲርሳራ ኦይኬቲ ኬጼቲ ኡቲዳ ጊሻስ ኣሳታ ዎዶሮን ቃቻዳ ማስኮቴራ ዱጌ ዎꬃዱስ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "ኤራኣባ ኢስታስ፥ «ኢንቴና ኮይዛይቲ ዴሞንታ ማላ ፑዴ ዙምቡላታ ቦላ ኬዚዲ ሄን ሄꬑ ጋላስ ቆቴቲቴ፤ ሄሳፌ ጉዬ ኢንቴ ባናሶ ቢቴ» ጋዱስ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17-18",
+          "source_element_id": "V17",
+          "text": "ኣሳቲካ ኢዚስ፥ «ኑኒ ኔ ቢታ ጌሊዛ ዎዴ ሃ ዞኦ ዎዶሮዛ ኔኒ ኑና ኬሲዳ ማስኮቴ ቦላ ቃቾንታ ኣጊኮ ኔ ኣዋ፥ ኔ ኣዪዮ፥ ኔ ኢሻታኔ ኔሶ ኣሳ ኡባ ኔሶ ኤሆንታ ኣጊኮ ኔኒ ኑና ጫቂሲዳ ጫቆይ ኑስ ጎሜቴና።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "19",
+          "source_element_id": "V19",
+          "text": "ኦኒካ ኔ ኬꬃፌ ካሬ ኬዚ ኦጌ ቦላ ቤቲ ሃይቂኮ ሄሲ ኢዛ ጎሜ፤ ኑኒ ሄሳን ኦይሼቶኮ፤ ጊዶ ኣቲን ኔናራ ሶን ኢሲፌ ዲዛይ ኦኒካ ቦሼቲኮ ኢዛ ሱꬃ ጎሜይ ኑና ጋኮ።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "20",
+          "source_element_id": "V20",
+          "text": "ኑ ኦꬂዛይሳ ኔ ሃራስ ዮቲዛ ጊዲኮ ኔኒ ኑና ጫቄꬂዳ ጫቆይ ኑስ ጎሜቴና» ጊዳ።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "21",
+          "source_element_id": "V21",
+          "text": "ኢዛካ፥ «ኢንቴ ጊዳ ማላ ሃኖ» ጋዳ ኢስታ ሞይዛዱስ፤ ኢስቲ ቢዳፔ ጉዬ ዞኦ ዎዶሮ ባ ማስኮቴ ቦላ ቃጳዱስ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "22",
+          "source_element_id": "V22",
+          "text": "ኢስቲ ፑዴ ዙምቡላታኮ ቢዳ፤ ጎዴꬂዛይቲ ኢያርኮ ሲማና ጋካናስ ሄን ሄꬑ ጋላስ ቆቴቲዳ። ጎዴꬂዛይቲ ኦጌ ኡባን ኮዪዳ ሺን ኢስቲ ዴሚቤቴና።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "23",
+          "source_element_id": "V23",
+          "text": "ሄሳፌ ጉዬ ሄ ናምኡ ኣሳቲ ዙምቡላታፔ ዎꬊ ዮርዳኖሴ ሻፋ ፒኒዲ ናዌ ና ኢያሶኮ ቢዲ ባና ጋኪዳ ኡባ ኢዛስ ዮቲዳ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "24",
+          "source_element_id": "V24",
+          "text": "ኢስቲ ኢያሶስ፥ «ጎዳይ ቱማፔ ቢታ ኡባ ኑስ ኣꬂ ኢሚዴስ፤ ቃሴ ሄ ቢታን ዲዛ ኣሳይ ዉሪ ኑስ ያሻቴꬃፌ ዴንዲዳይሳን ኢስታ ዎዚናይ ሴሪዳይሳ ኑ ቤኢዶስ» ጊዳ።",
+          "unit_order": 23
+        }
+      ],
+      "notes": [
+        {
+          "verse": "2:1",
+          "marker": "cross-reference",
+          "text": "ኢብ 11፡31፤ ያቆ 2፡25",
+          "source_reference": "1"
+        },
+        {
+          "verse": "2:10",
+          "marker": "cross-reference",
+          "text": "ኬሳ 14፡21፤ ታይ 21፡21-35",
+          "source_reference": "2"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "source_chapter_label": "3",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 3",
+      "heading": [
+        "ኢስራኤሌ ኣሳይ ዮርዳኖሴ ሻፋ ፒኔꬅ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ኢያሶይኔ ኢስራኤሌ ኣሳይ ማላዶ ዎንታራ ዴንዲዳ፤ ኢስቲ ሺጺሜ ጌቴቲዛሶፔ ዴንዲዲ ዮርዳኖሴ ሻፋኮ ቢዲ ፒኖንታ ሄን ታኪዳ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ሄꬑ ጋላሳፌ ጉዬ ኦላ ጋዳዋቲ ኢስቲ ዱንካኒዳሶን ጌሊዲ፥",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ኣሳስ፥ «ጎዳ ኢንቴ ጾሳ ጫቆ ቃላ ታቦታኔ ኢዛ ቶኪዳ ሌዌ ዛሬ ቄሴታ ቤኢዛ ዎዴ ኢንቴ ዱንካኒዳሶፔ ዴንዲዲ ኢስታ ካሊቴ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ኢንቴ ካሴ ሄ ኦጌራ ቢ ኤሮንታ ጊሻስ ኢንቴ ባና ኦጌ ኢስቲ ኢንቴና ቤሳና፤ ጊዶ ኣቲን ጫቆ ቃላ ታቦታኮ ሺቆፒቴ፤ ጫቆ ቃላ ታቦታፔ 2,000 ዋꬋ ጊዲዛይሳ ማላ ሃሆን ኤቂቴ» ጊ ኣዛዞ ኢሚዳ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ኢያሶይ ኣሳ፥ «ጎዳይ ዎንቶ ኢንቴ ጊዶን ማላሊሲዛዝ ኦꬃና ጊሻስ ኢንቴ ጌይቴ» ጊዴስ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ቃሴካ ኢያሶይ ቄሴታስ፥ «ኢንቴ ጫቆ ቃላ ታቦታ ቶኪዲ ኣሳፔ ሲንꬄ ኣꬊቴ» ጊ ዮቲዴስ፤ ኢስቲ ጫቆ ቃላ ታቦታ ቶኪዲ ዴራፔ ሲንꬄ ሲንꬄ ቢዳ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ጎዳይ ኢያሶስ፥ «ታኒ ሙሴራ ጊዲዳ ማላ ኔናራ ጊዳናይሳ ኢስራኤሌ ኣሳይ ዉሪ ኤራና ማላ ሃች ኢስታ ሲንꬃን ታኒ ኔና ꬎቁ ꬎቁ ኦꬃናስ ዶማና።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ኔኒ ጫቆ ቃላ ታቦታ ቶኪዛ ቄሴታ፥ ‹ዮርዳኖሴ ሻፋ ዶና ጋኪዛ ዎዴ ሃꬃን ጌሊዲ ኤቂቴ› ጋዳ ኣዛዛ» ጊዴስ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ኢያሶይ ኢስራኤሌ ኣሳ፥ «ሃ ዪቴ፤ ዪዲ ጎዳ ኢንቴ ጾሳ ቃላ ሲዪቴ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ዴኦ ጾሲ ኢንቴ ጊዶን ዲዛይሳኔ ኢዚ ቱማፔ ካናኔታ፥ ሂቴታ፥ ሂዌታ፥ ፓሪዜታ፥ ጌርጌሴታ፥ ኣሞሬታኔ ያቡሴታ ኢንቴ ሲንꬃፌ ኬሳናይሳ ኢንቴ ሄሳን ኤራና።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ሳኣ ኡባ ጎዳ ጫቆ ቃላ ታቦታይ ኢንቴፌ ሲንꬃቲዲ ዮርዳኖሴ ሻፋ ጌላና።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ሃኢ ኢስራኤሌ ዛሬታፔ 12 ኣሳታ ዶሪቴ፤ ኢሲ ኢሲ ዛሬፔ ኢሲ ኢሲ ኣስ ጊዶ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ሳኣ ኡባ ጎዳ ጫቆ ቃላ ታቦታ ቶኪዳ ቄሴታ ቶሆይ ዮርዳኖሴ ሃꬃ ቦቺዳ ማላ ፑዴሃፔ ዱጌ ጎጊዛ ዮርዳኖሴ ሃꬂ ሄራካ ጎጌꬃ ኣጋጋና፤ ዶሬ ማላ ጊዲ ኤቃ ጋና» ጊዴስ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ኣሳይ ዮርዳኖሴ ሻፋ ፒናናስ ባ ዱንካኔፔ ኬዚዳ ዎዴ ጫቆ ቃላ ታቦታ ቶኪዳ ቄሴቲ ኣሳፔ ሲንꬃቲ ቢዳ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ካꬃ ሺሾ ዎዴን ኡባን ዮርዳኖሴ ሻፋይ ኪጼስ፤ ጊዲኮካ ጫቆ ቃላ ታቦታ ቶኪዳ ቄሴቲ ዮርዳኖሴ ሻፋ ጋኪዲ ኢስታ ቶሆይ ሃꬃ ጋጻ ዬꬊዳ ማላ፥",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "ጎጊዛ ሃꬃይ ኤቂዴስ፤ ሄን ዳሮ ሃሆሶን ጳርታኔ ማታን ዲዛ ኣዳሜ ጌቴቲዛ ካታማ ጋካናስ ኢሲሶ ሺቂዲ ዶሬቲዴስ፤ ዱጌ ኣራቤ ጋꬋን ዲዛ ማጺኔ ኣባን ጎጊዛ ሃꬂ ኡባይ ዱጺ ኣቲዴስ፤ ሂስቲን ኣሳይ ኢያርኮ ካታማ ጊናራ ፒኒዴስ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17",
+          "source_element_id": "V17",
+          "text": "ኢስራኤሌ ኣሳይ ሜላ ቢታ ዬꬊ ፒኒዛ ዎዴ ኣሳይ ዉሪ ፒናና ጋካናስ ጎዳ ጫቆ ቃላ ታቦታ ቶኪዳ ቄሴቲ ዮርዳኖሴ ሻፋ ጊዶን ሜላ ቢታን ኤቃ ጊዳ።",
+          "unit_order": 17
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 4,
+      "source_chapter_label": "4",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 4",
+      "heading": [
+        "ሃሳኢሲዛ ሹቻታ ኤሶ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ካዎቴꬃይ ዉሪ ዮርዳኖሴ ሻፋ ፒኒዳፔ ጉዬ ጎዳይ ኢያሶ፥",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "«ኢስራኤሌ ኣሳፔ 12 ኣሳታ ዶራ፤ ኢሲ ኢሲ ቆሞፌ ኢሲ ኢሲ ኣስ ጊዶ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ሂስታዳ ኢስታስ፥ ‹ዮርዳኖሴ ሻፋ ጊዶን ቄሴታ ቶሆይ ኤቂዳሶፔ 12 ሹቻታ ኤኪቴ፤ ሄ ሹቻታ ቶኪ ኤፊዲ ሃች ኢንቴ ኣቂዛሶን ዎꬂቴ› ጋዳ ዮታ» ጊዴስ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ሄሳ ጊሻስ ኢያሶይ ኢስራኤሌ ቆሞታፔ ኢሲ ኢሲ ኣስ ኤኪዲ ታማኔ ናምኡ ዶሬቲዳይታ ጼይጊዴስ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ሂስቲዲ ኢስታስ፥ «ጎዳ ኢንቴ ጾሳ ጫቆ ቃላ ታቦታይ ዲዛሶሆ ዮርዳኖሴ ሻፋ ጌሊቴ፤ ኢስራኤሌ ቆሞታ ቆዳን ዉሪካ ኢሲ ኢሲ ሹች ኢንቴ ሃሼን ሃሼን ቶኪቴ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ሃ ሹቻቲ ጎዳይ ሃች ኦꬂዳይሳ ኢንቴና ሃሳኢሲዛ ማላታ ጊዳና፤ ዎዴፔ ኢንቴ ናይቲ ኢንቴና፥ ‹ሃ ሹቻቲ ኣዜ?› ጊዲ ኦይቺዛ ዎዴ፥",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ኢንቴ፥ ‹ጎዳ ጫቆ ቃላ ታቦታይ ፒኒዛ ዎዴ ዮርዳኖሴ ሻፋይ ጎጊዛይሳ ኣጊ ኤቂዴስ፤ ሃ ሹቻቲ ሄ ሶሆን ሃኒዳይሳ ኡባ ሜርናስ ኢስራኤሌ ኣሳ ሃሳኢሲዛይታ› ጊዲ ኢስታስ ዮቲቴ» ጊዴስ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ኢስራኤሌ ኣሳይ ኢያሶይ ኣዛዚዳ ማላ ኦꬂዴስ፤ ጎዳይ ኢያሶስ ዮቲዳ ማላ ኢስራኤሌ ቆሞታ ቆዳን 12 ሹቻታ ዮርዳኖሴ ሻፋ ጊዶፌ ኤኪዳ፤ ቶኪ ኤሂዲ ባ ኣቂዳ ሶሆን ዎꬂዳ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ኢያሶይ ጫቆ ቃላ ታቦታ ቶኪዳ ቄሴታ ቶሆይ ዮርዳኖሴ ሻፋ ጊዶን ኤቂዳሶን 12 ሹቻታ ኤሲዴስ፤ ሄ ሹቻቲ ሃች ጋካናስ ሄን ዴቴስ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ጎዳይ ኢያሶ ኣዛዚዳይሳ ኡባ ኣሳይ ፖላና ጋካናስ ጫቆ ቃላ ታቦታ ቶኪዳ ቄሴቲ ዮርዳኖሴ ሻፋ ጊዶን ኤቂ ጋምኢዳ፤ ሙሴይ ኢያሶ ኣዛዚዳ ኣዛዞይካ ሄሳ፤ ኣሳይ ኤሶቲዲ ሻፋ ፒኒዴስ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ኣሳይ ዉሪ ፒኒዳፔ ጉዬ ጎዳ ጫቆ ቃላ ታቦታይኔ ቄሴቲ ኣሳይ ኢስታ ጼሊሺን ፒኒዳ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ሙሴይ ኣዛዚዳ ማላ ኦሮቤሌ ዛሬቲ፥ ጋዴ ዛሬቲኔ ሚናሴ ዛሬታፔ ባጋይ ኦላ ሚሻ ኦይኪዲ ኢስራኤሌ ኣሳፔ ሲንꬃቲዲ ፒኒዳ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ቆዳን 40,000 ጊዲዛ ኣሳይ ቶራኔ ጎንዳሌ ኦይኪ ኦላስ ጊጌቲዲ ጎዳ ሲንꬃን ኢያርኮ ማታን ዲዛ ዴምባ ፒኒዳ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ሄ ጋላስ ጎዳይ ኢያሶ ኢስራኤሌ ኣሳ ኡባ ሲንꬃን ꬎቁ ꬎቁ ሂስቲዴስ፤ ኣሳይ ሙሴ ቦንቺዳ ማላ ኢያሶካ ኢዚ ዲዳ ላይꬅ ኡባን ቦንቺዴስ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ሄሳፌ ጉዬ ጎዳይ ኢያሶስ፥",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "«ጫቆ ቃላ ታቦታ ቶኪዳ ቄሴቲ ዮርዳኖሴ ሻፋፔ ኬዛና ማላ ኣዛዛ» ጊ ዮቲን፥",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17",
+          "source_element_id": "V17",
+          "text": "ኢያሶይ ቄሴታ፥ «ዮርዳኖሴ ሻፋፔ ኬዚቴ» ጊ ኣዛዚዴስ።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "18",
+          "source_element_id": "V18",
+          "text": "ጎዳ ጫቆ ቃላ ታቦታ ቶኪዳ ቄሴቲ ዮርዳኖሴ ሻፋ ጊዶፌ ኬዚዲ ሜላ ቢታ ኢስቲ ዬꬊዳ ማላ ሄራካ ዮርዳኖሴ ሃꬃይ ካሴ ማላ ሻፋ ኩሚዲ ጎጌꬅ ኦይኪዴስ።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "19",
+          "source_element_id": "V19",
+          "text": "ኣሳይ ኮይሮ ኣጊናን ታማንꬃ ጋላሳን ዮርዳኖሴ ሻፋ ፒኒዲ ኢያርኮን ኣርሼይ ሞኪዛሶ ባጋራ ዛዋቲዛ ጌልጌላን ዱንካኒዴስ።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "20",
+          "source_element_id": "V20",
+          "text": "ኢያሶይ ዮርዳኖሴ ሻፋፔ ኤሂዳ 12 ሹቻታ ጌልጌላን ኤሲዴስ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "21",
+          "source_element_id": "V21",
+          "text": "ኢስራኤሌ ኣሳስ፥ «ዎዴፔ ኢንቴ ዛሬቲ ባ ኣዋታ፥ ‹ሃ ሹቻቲ ኣዜ?› ጊ ኦይቺዛ ዎዴ፥",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "22",
+          "source_element_id": "V22",
+          "text": "‹ኢስራኤሌ ኣሳይ ዮርዳኖሴ ሻፋ ሜላ ቢታ ዬꬊዲ ፒኒዳይሳ ሃሳኢሲዛይሳ› ጊዲ ዮቲቴ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "23",
+          "source_element_id": "V23",
+          "text": "ኑኒ ፒናና ጋካናስ ጎዳ ኑ ጾሳይ ዞኦ ኣባ ካሴ ኑ ሲንꬃን ሜሊሲዳ ማላ ኢንቴካ ፒናና ጋካናስ ጎዳ ኢንቴ ጾሳይ ዮርዳኖሴ ሻፋ ኢንቴ ሲንꬃን ሜሊሲዴስ።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "24",
+          "source_element_id": "V24",
+          "text": "ሄሳꬆ ኢዚ ኦꬂዳይ ሳኣን ዲዛ ኣሳይ ዉሪ ጎዳ ዎልቃይ ኣይ ማላ ጊታኮ ኤራናሲኔ ኢንቴካ ጎዳስ ኢንቴ ጾሳስ ሜርናስ ያያናሳ» ጊዴስ።",
+          "unit_order": 24
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 5,
+      "source_chapter_label": "5",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 5",
+      "heading": [
+        "ቃጻራ",
+        "ማሻ ኦይኪዲ ኢያሶራ ጋይቲዳዴ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ዮርዳኖሴ ሻፋፔ ኣርሼይ ዉሊዛ ባጋራ ዲዛ ኣሞሬታ ካዎቲኔ ሜዲቴራኔ ኣባ ላንቄ ላንቄ ኦይኪዲ ዲዛ ካናኔታ ካዎቲ ዉሪ ኢስራኤሌ ኣሳይ ፒናና ጋካናስ ጎዳይ ዮርዳኖሴ ሻፋ ሃꬃ ሜሊሲዳይሳ ሲዪዳ ዎዴ ኢስታ ዎዚናይ ባቦን ሴሪዴስ። ሂስቲን ኢስቲ ኢስራኤሌ ኣሳራ ኤቄታናስ ጻሊቤቴና።\nቃጻራ",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ሄ ዎዴ ጎዳይ ኢያሶስ፥ «ሳሎ ሹቻ ቃራ ኤካዳ ቃጻሬቶንታ ኢስራኤሌ ኣቱማ ኣሳ ናምኣንꬆ ቃጻራ» ጊዴስ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ሂስቲን ኢያሶይ ሳሎ ሹች ቃራሲዲ ጊቢኣዜ ኤሎቴ ጌቴቲዛሶን ኢስራኤሌ ኣቱማሳ ቃጻሪዴስ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ኢዚ ሄሳ ኦꬂዳ ጋሶይካ ጊብጼፔ ኬዚዳ ኣሳን ላይꬃይ ኦላስ ጋኪዳ ኣቱማ ኣሳይ ዉሪ ጊብጼፔ ኬዚዳፔ ጉዬ ባዞን ኦጌ ቦላ ሃይቂዴስ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ጊብጼፔ ኬዚዳ ኣቱማ ኣሳይ ዉሪ ቃጻሬቲዴስ፤ ጊዶ ኣቲን ባዞን ዩዪዛ ዎዴ ዬሌቲዳ ኣቱማ ናይታፔ ኢሶይካ ቃጻሬቲቤና።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ኢስራኤሌ ካዎቴꬃይ ጎዳስ ኣዛዜቶንታ ኢጺዳ ጊሻስ ጊብጼፔ ኬዚዛ ዎዴ ላይꬃይ ኦላስ ጋኪዳ ኣቱማ ኣሳይ ዉሪ ሃይቂዲ ዉራና ጋካናስ ባዞን 40 ላይꬅ ዩዪዴስ፤ ሄሳን ጎዳይ ኢስታስ፥ «ኤሲኔ ማꬂ ጎጊዛ ኣራዳ ቢታ ታኒ ካሴ ኢንቴ ኣዋታስ ኢማና ጊዳ ሄ ቢታ ኢንቴ ቤዬኬታ» ጊዳ ቃላይ ፖሌታናሳ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ሄሳ ጊሻስ ጎዳይ ኢስታ ናይታ ኢስታሶሆን ዴንꬂዴስ፤ ኢያሶይ ቃጻራ ጌልꬂዳይቲ ሄይታንታ፤ ኢስቲ ኦጌ ቦላ ሄሜቲሼ ዲዛ ጊሻስ ቃጻሬቲቤቴና።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ካዎቴꬃይ ዉሪ ቃጻሬቲዳፔ ጉዬ ማዱንꬃይ ፓጻና ጋካናስ ባ ዱንካኒ ዲዛሶን ታኪዴስ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ጎዳይ ኢያሶስ፥ «ሃች ታኒ ጊብጼታ ቦሬ ኢንቴፌ ጌንዴሪሳ ዲጋዲስ» ጊዴስ፤ ሂስቲን ሄ ሶሆዛ ሱንꬃይ ሃች ጋካናስ ጌልጌላ ጌቴቴስ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ኢስራኤሌ ኣሳይ ኢያርኮ ዴምባን ጌልጌላን ዱንካኒ ዲሼ ኣጊናይ ጌሊን ታማኔ ኦይዳንꬃ ጋላሳ ኦማርስ ፓዚጋ ባኣሌ ቦንቺዴስ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ፓዚጋፔ ጉዬ ዎንቴꬃ ጋላስ ቢታን ሞኪዳ ካꬃ ኣይፌፔ ኢርሾይ ጌሎንታ ኡኬቲዳይሳኔ ጫጬቲዳ ቲያ ሚዴስ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ሄ ቢታን ሞኪዳ ካꬃ ኣይፌ ሚዳ ጋላስ ማናይ ዩስ ኣጊዴስ፤ ሄሳፌ ጉዬ ኢስራኤሌ ኣሳስ ማናይ ዪቤና፤ ጊዶ ኣቲን ሄ ዎዴፔ ዶሚዲ ኢስቲ ካናኔን ሞኪዳ ካꬅ ሚሼ ዴኢዳ።\nማሻ ኦይኪዲ ኢያሶራ ጋይቲዳዴ",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ኢያሶይ ኢያርኮ ማታን ዲሼ ꬎቁ ጊ ጼሊዲ ጊꬃ ማሻ ሾዲ ኦይኪዳ ኢሲ ኣሲ ኢዛ ሲንꬃን ኤቂዳይሳ ቤኢዴስ፤ ኢያሶይ ኢዛኮ ሺቂዲ፥ «ኔኒ ኑ ባጋዬ ኑ ሞርኬታ ባጋ?» ጊ ኦይቺዴስ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ኢዚካ፥ «ታ ኦና ባጋካ ጊዲኬ፤ ጊዶ ኣቲን ታኒ ጎዳ ኦላንቻታ ጋዳዋ ጊዲዳ ጊሻስ ያዲስ» ጊ ዛሪዴስ።\nኢያሶይካ ሳኣን ጉፋኒ ጎይኒዲ፥ «ታ ጎዳዉ! ታስ ኔ ኣይሌዛስ ኔ ኣይ ዮታኔ?» ጊዴስ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ጎዳ ኦላንቻታ ጋዳዋይ፥ «ኔኒ ኤቂዳሶይ ጌሽ ጊዲዳ ጊሻስ ኔ ቶሆፔ ጫማ ኬሳ» ጊዴስ፤ ሂስቲን ኢያሶይ ኢዚ ኣዛዚዳ ማላ ኦꬂዴስ።",
+          "unit_order": 15
+        }
+      ],
+      "notes": [
+        {
+          "verse": "5:6",
+          "marker": "cross-reference",
+          "text": "ታይ 14፡28-35",
+          "source_reference": "1"
+        },
+        {
+          "verse": "5:10",
+          "marker": "cross-reference",
+          "text": "ኬሳ 12፡1-13",
+          "source_reference": "3"
+        },
+        {
+          "verse": "5:12",
+          "marker": "cross-reference",
+          "text": "ኬሳ 16፡35",
+          "source_reference": "4"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "source_chapter_label": "6",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 6",
+      "heading": [
+        "ኢያርኮ ኩንዴꬅ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ኢስራኤሌ ኣሳስ ያዪዳ ጋሶን ኢያርኮ ካታማ ዲርሳ ፔንጌቲ ጎርዴቲዳ፤ ካታማ ጌላናሲኔ ካታማፔ ኬዛናስ ዳንዳይዛይ ኦኒካ ዴና።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ጎዳይ ኢያሶስ፥ «ሄኮ ታኒ ኢያርኮ ካታማዮ ኢዚ ካዎዛራ ኢዚ ሚኖ ኦላንቻታራካ ኔ ኩሼን ኣꬃ ኢማዲስ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ኔኒኔ ኔ ኦላንቻቲ ጪፍሪዲ ኡሱፑን ጋላስ ጋካናስ ሃች ሃች ካታማ ዲርሳ ኢሲቶ ዩዪ ኣꬊቴ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ቃሴ ላፑን ቄሴቲ ላፑን ዛዬታ ኦይኪዲ ጎዳ ጫቆ ቃላ ታቦታ ሲንꬅ ኣꬌቶ፤ ላፑንꬃ ጋላስ ቄሴቲ ዛዬታ ፑኒሺን ኦላንቻቲ ጪፍሪዲ ኢሲፌ ካታማዮ ላፑንቶ ዩዪ ኣꬌቶ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ሄሳፌ ጉዬ ዛዬይ ቃንጾይ ባይንዳ ፑኔቲዛይሳ ሲዪዳ ማላ ኣሳይ ዉሪ ባ ቃላ ꬎቁ ሂስቲ ዋሶ፤ ሂስቲዳ ማላ ካታማይ ጊምቤይ ላሌታና፤ ኣሳይ ዉሪ ላዉሁ ጊ ኬኢዲ ካታማይ ጊዶ ሲቲ ጊ ጌላና» ጊዴስ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ናዌ ና ኢያሶይ ቄሴታ ጼይጊዲ፥ «ጎዳ ጫቆ ቃላ ታቦታ ቶኪቴ፤ ኢንቴፌ ላፑን ቄሴቲ ላፑን ዛዬታ ኦይኪዲ ጫቆ ቃላ ታቦታፔ ሲንꬄ ኣꬊ ቢቴ» ጊዴስ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ዴሬዛካ፥ «ጌዴ ሲንꬄ ቢቴ፤ ካታማ ዩዪ ኣꬊቴ፤ ኦላንቻቲካ ጎዳ ጫቆ ቃላ ታቦታፔ ሲንꬃቲ ቤቶ፤ ካታማዮካ ዩዪቴ» ጊዲ ኣዛዚዴስ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ኢያሶይ ኣሳስ ሃሳይዳ ማላ ላፑን ቄሴቲ ላፑን ዛዬታ ጎዳ ሲንꬃን ኦይኪዲ ፑኒሼ ሲንꬃቲ ቢዳ፤ ቃሴ ጎዳ ጫቆ ቃላ ታቦታይ ኢስታ ካሊዴስ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ኦላስ ጊጌቲዳይቲ ዛዬታ ፑኒዛ ቄሴታፔ ሲንꬃራ ቢሺን ጉዬራ ናጊዛ ኦላንቻቲ ጫቆ ቃላ ታቦታ ካሊዳ፤ ሄ ዎዴ ዛዬይ ቃንጾይ ባይንዳ ፑኔቲዴስ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ጊዶ ኣቲን ኢያሶይ ኣሳ፥ «ታኒ ኢንቴና፥ ‹ዋሲቴ!› ጋና ጋላሳይ ጋካናስ ኦላ ዋሶ ዋሶፍቴ፤ ኢንቴ ቃላይ ሲዬቶፎ፤ ኢሲ ቃላካ ቃቶፍቴ፤ ታ ዋሲቴ ጊኮ ሄ ዎዴ ዋሲቴ!» ጊ ኣዛዚዴስ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ሄሳ ጊሻስ ጎዳ ጫቆ ቃላ ታቦታይ ቶኬቲዲ ሄ ካታማ ኢሲቶ ዩዪ ኣꬋና ማላ ኦꬂዴስ፤ ሄሳፌ ጉዬ ኣሳይ ባ ዱንካኒዳሶ ሲሚዲ ኦማርስ ሄን ኣቂዴስ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ዎንቴꬃ ጋላስ ኢያሶይ ዎንታቲ ዴንዲዴስ፤ ቄሴቲካ ጎዳ ጫቆ ቃላ ታቦታ ቶኪዳ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ላፑን ዛዬታ ኦይኪዳ ላፑን ቄሴቲ ሲንꬄ ኣꬊዲ ዛዪሼ ጎዳ ጫቆ ቃላ ታቦታፔ ሲንꬄ ሲንꬄ ቢሼ ዛዬዛ ቃንጾይ ባይንዳ ፑኒዳ፤ ኦላስ ጊጊዳይቲ ኢስታፌ ሲንꬃራ ቢሺን ጉዬራ ናጊዛ ኦላንቻቲካ ጎዳ ጫቆ ቃላ ታቦታ ካሊ ቤቴስ፤ ሄ ዎዴ ቄሴቲ ቃንጾይ ባይንዳ ዛዬ ዛዬቴስ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ናምኣንꬆ ጋላስ ካታማ ኢሲቶ ዩዪ ኣꬊዲ ባ ዱንካኒዳሶ ሲሚዳ፤ ኡሱፑን ጋላስ ጋካናስ ሄሳꬆካ ኦꬂዳ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ላፑንꬃ ጋላስ ባዞይ ዞኢሺን ዴንዲዲ ካሴይሳꬆካ ካታማዮ ላፑንቶ ዩዪ ኣꬊዳ፤ ሄ ጋላስ ጻላ ካታማዮ ላፑንቶ ዩዪ ኣꬊዳ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "ላፑንꬆ ዩዪሼ ቄሴቲ ዛዬታ ፑኒሺን ኢያሶይ ዴራ፥ «ጎዳይ ሃኖ ካታማዮ ኢንቴስ ኣꬂ ኢሚዳ ጊሻስ ዋሲቴ!",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17",
+          "source_element_id": "V17",
+          "text": "ካታማያኔ ካታማይ ጊዶን ዲዛ ኡባይ ጎዳስ ዱማ ጊዲዳ ጊሻስ ኢዞ ሙሌራ ꬋይሲቴ፤ ኑኒ ቢታዮ ዎቻናስ ኪቲዳ ኣሳታ ቆታ ኣሺዳ ጊሻስ ላይማ ማጫስ ኤራኣባኔ ኢዚ ሶን ኢዚራ ኢሲፌ ዲዛ ኣሲ ጻላ ኣታና።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "18",
+          "source_element_id": "V18",
+          "text": "ጊዶ ኣቲን ኢንቴ ጎዳስ ዱማቲዳይሳፌ ኣይኮካ ኤኮንታ ማላ ኢንቴ ሁኤስ ናጌቲቴ፤ ኢንቴ ሂስቶንታ ኣጊኮ ኢስራኤሌቲ ዱንካኒዳሶ ኢታስ ኣꬂ ኢማና፤ ሂስቲዲ ሄ ሶሆዛ ቦላ ሜቶ ጋꬃና።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "19",
+          "source_element_id": "V19",
+          "text": "ቢራይኔ ዎርቃይ ዉሪ ቃሴ ጻርቂማላፔኔ ቢራታፔ ኦሴቲዳ ሚሻቲ ኡባይ ጎዳስ ዱማ ጊዲዳ ጊሻስ ጎዳ ሚንጃ ኬꬅ ጌሎ» ጊዴስ።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "20",
+          "source_element_id": "V20",
+          "text": "ሄሳ ጊሻስ ዛዬይ ፑኔቲን ኣሳይ ዋሲዴስ፤ ዛዬዚ ፑኔቲሺን ዴሬዚ ባ ቃላ ꬎቁ ሂስቲዲ ዋሲን ካታማ ዲርሳይ ላሌቲዴስ፤ ሄሳፌ ጉዬ ኣሳይ ዉሪ ሲቲ ጊዲ ጌዴ ካታማዮ ጌሊዴስ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "21",
+          "source_element_id": "V21",
+          "text": "ካታማን ሼምፖራ ፓጻ ዲዛይታ ኡባ ኦይኪዲ ማጫ፥ ኣቱማ፥ ናይታ፥ ጪማታ፥ ሚዝ፥ ዶርሳኔ ሃሬ ኡባ ቃራ ማሻን ዎꬊዴስ።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "22",
+          "source_element_id": "V22",
+          "text": "ኢያሶይ ቢታ ዎቻናስ ኪቴቲዳ ናምኡ ኣሳታ፥ «ላይማ ማጫስ ኤራኣቢ ሶ ቢቴ፤ ሂስቲዲ ኢንቴ ኢዚስ ጫቂዳ ማላ ኣኔ ኢዞኔ ኢዚ ሶ ኣሳ ኡባ ቆሪ ኬሲቴ» ጊዴስ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "23",
+          "source_element_id": "V23",
+          "text": "ሄሳ ጊሻስ ቢታ ዎቺዳ ኣሳቲ ቢዲ ኤራኣቦ፥ ኢዚ ኣዋ፥ ኢዚ ኣዪዮ፥ ኢዚ ኢሻታኔ ኢዚ ዳቦታ ኡባ ቆሪ ኬሲዳ፤ ኢስራኤሌ ኣሳይ ዱንካኒ ዲዛሶፔ ጋጻራ ዎꬂዳ።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "24",
+          "source_element_id": "V24",
+          "text": "ሄሳፌ ጉዬ ካታማዮኔ ኢዚ ጊዶን ዲዛ ኡባ ታማን ጹጊዳ፤ ጊዶ ኣቲን ቢራኔ ዎርቃ፥ ጻርቂማላፔኔ ቢራታፔ ኦሴቲዳ ሚሻታ ጎዳ ሚንጃ ኬꬃን ዎꬂዳ።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "25",
+          "source_element_id": "V25",
+          "text": "ቃሴ ኢያሶይ ላይማ ማጫስ ኤራኣቦ ኢዚ ኣዋ ሶ ኣሳኔ ኢዚራ ዲዛ ዳቦታ ኡባ ኣሺዴስ፤ ጋሶይካ ኢያሶይ ኢያርኮ ካታማዮ ዎቻናስ ኪቴቲዳ ኣሳታ ኢዛ ካሴ ቆታዳ ኣሺዳ ጊሻሳ፤ ኢዚ ዛሬቲ ሃች ጋካናስ ኢስራኤሌ ቢታን ዴቴስ።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "26",
+          "source_element_id": "V26",
+          "text": "ሄ ዎዴ ኢያሶይ፥ «ሃኖ ካታማዮ ዛሪ ኤሲዛ ኣሲ፥\n«ጎዳ ሲንꬃን ቃንጌቲዳዴ ጊዶ።\nዮች ዬጊዛ ዎዴ\nኢዛስ ባይራ ናይ ꬋዮ።\nጊምቤታ ኤሲሺን\nዉርሴꬃ ናይ ꬋዮ»\nጊዲ ቃንጊዴስ።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "27",
+          "source_element_id": "V27",
+          "text": "ሃ ኡባን ጎዳይ ኢያሶራ ጊዲዴስ፤ ኢያሶ ጎባቴꬃ ዎሬይ ቢታ ኡባ ጋኪዴስ።",
+          "unit_order": 27
+        }
+      ],
+      "notes": [
+        {
+          "verse": "6:25",
+          "marker": "cross-reference",
+          "text": "ኢብ 11፡31",
+          "source_reference": "2"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "source_chapter_label": "7",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 7",
+      "heading": [
+        "ኣካኔ ናጋራ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ኢስራኤሌ ኣሳይ ጎዳስ ኣማኔቶንታ ኢጺዲ ፒላ ሚሽ ኤኪዴስ፤ ሄሳ ኤኪዳይ ኣካኔ፤ ኣካኔይ ካርሜ ና፤ ካርሜይ ዚሚሬ ና፤ ዚሚሬይ ዩሁዳ ቆሞፌ ዛራሄ ና፤ ሂስቲን ጎዳ ሃንቆይ ኢስራኤሌ ኣሳ ቦላ ኤጺ ኬዚዴስ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ኢያሶይ ቤቴሌ ካታማፔ ኣርሼይ ሞኪዛ ባጋራ ቤቲ-ኣዌኔ ማታን ዲዛ ኣዬ ካታማ ኢያርኮፌ ኣስ ኪቲዲ፥ «ጌዴ ኬኢቴ፤ ቢታዮካ ዎቺቴ» ጊዴስ። ኣሳቲካ ቢዲ ኣዬ ካታማ ዎቺዳ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ዎቺዳ ኣሳቲ ኢያሶኮ ሲሚ ዪዲ፥ «ኣዬ ካታማ ኦላናስ ኡባ ኣሳይ ባናስ ኮሼና፤ ናምኡ ዎይኮ ሄꬑ ሺ ኣስ ዬዳ፤ ኣዬን ጉꬃ ኣሲ ዲዛ ጊሻስ ኣሳይ ዉሪ ዳቡሮፖ» ጊዳ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ሂስቲን 3,000 ጊዲዛ ኣሳይ ኦሌታናስ ኣዬ ካታማ ቢዴስ፤ ጊዶ ኣቲን ኣሳይ ኣዬ ካታማ ኣሳ ሲንꬃፌ ባቃቲዴስ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ኣዬ ካታማ ኣሳይ ኢስራኤሌ ኣሳ ካታማ ጊምቤ ፔንጌፌ ቢዲ ሺባርሜ ጋካናስ ዱጉንꬃን ጎዲሼ ሾጪዴስ፤ ኢስታፌ 36 ኣስ ዎꬊዳ፤ ሄሳን ኣሳ ዎዚናይ ሴሪዲ ሃꬃ ማላ ጉኪዴስ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ሄሳፌ ጉዬ ኢያሶይ ባ ማይኦ ዳኪዴስ፤ ሂስቲዲ ጎዳ ታቦታ ሲንꬃን ኦማርስ ጋካናስ ጉፋኒዴስ። ኢስራኤሌ ጪማቲካ ሄሳ ማላ ሃኒዳ፤ ባ ሁኤንካ ጉዱላ ማኪዳ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ሂስቲን ኢያሶይ፥ «ኣዬ ኣና! ኡባ ሃሪዛ ጎዳዉ! ኑና ኣሞሬ ኣሳስ ኣꬃ ኢማዳ ዉርሲሳናስ ኣይስ ዮርዳኖሴ ሻፋ ፒንꬃዳ ኤሃዲ? ኑ ፒኖንታ ሄን ኣቲዳኮ ኣዜ ዲዛይሺን!",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ኣቤት ጎዳዉ! ኢስራኤሌ ኣሳይ ጾኔቲዲ ባ ሞርኬታ ሲንꬃፌ ባቃቲዳይሳ ታኒ ኣይ ጎ?",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ካናኔ ኣሳይኔ ሃ ቢታን ዲዛ ሃራ ኣሳይ ዉሪ ሃ ዮኦዛ ሲዪዲ ኑና ዶዳና፤ ቢታ ቦላፌ ኑ ሱንꬅ ꬋይሳና፤ ሂስቲን ኔ ጊታ ሱንꬃ ጊሻስ ጋዳ ኔ ኣይ ኦꬃኔ?» ጊዴስ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ጎዳይ ኢያሶ፥ «ዴንዳ ኤቃ! ኣይስ ጉፋናዲ?",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ኢስራኤሌ ኣሳይ ናጋራ ኦꬂዴስ፤ ታኒ ኢስታራ ጫቄቲዳ ታ ጫቆዛ ሜንꬂዴስ፤ ኢስቲ ፒላ ሚሻታፔ ኤኪዳ፤ ካይሶቲዳ፤ ዎርዶቲዳ፤ ቃሴ ባንቲ ኤኪዳይሳ ባንታ ሚሻራ ዋላኪዳ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ኢስራኤሌ ኣሳይ ባንታ ሞርኬታራ ኤቄታናስ ዳንዳዮንታይ ሄሳ ጋሶና፤ ኢስቲ ꬋዮስ ኣꬊ ኢሜቲዳ ጊሻስ ባንታ ሞርኬታ ሲንꬃፌ ጉዬ ሲሚ ባቃቲዳ፤ ፒላ ሚሽ ኢንቴ ጊዶፌ ኢንቴ ꬋይሶንታ ኣጊኮ ሃይሳፌ ጉዬ ታኒ ኢንቴናራ ጊዲኬ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "«ዴንዳ! ኣሳ ጌሻ፤ ኢስታስ፥ ‹ጎዳ ኢስራኤሌ ጾሳይ ኢንቴና፡ ኢስራኤሌቶ! ፒላ ሚሺ ኢንቴ ጊዶን ዴስ፤ ኢንቴ ሄሳ ኢንቴ ጊዶፌ ዲጋና ጋካናስ ኢንቴ ሞርኬታ ሲንꬃን ኤቃናስ ዳንዳዬኬታ፤ ዎንቶስ ኢንቴና ጊጊሳናስ ኢንቴና ጌሺቴ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ዎንቶ ማላዶ ኢንቴ ቆሞን ቆሞን ሺቂቴ፤ ጎዳይ ሻኪዳይሲ፥ ዛሬን ዛሬን፥ ዛርኬን ዛርኬን፥ ኬꬃን ኬꬃኒኔ ሁኤን ሁኤን ሲንꬄ ኬዛና።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ሄሳፌ ጉዬ ፒላ ሚሺ ኢዛ ኣቻን ቤቲዳዴይኔ ኢዛስ ዲዛ ኡባይ ታማን ጹጌታና። ጋሶይካ ጎዳ ጫቆ ቃላ ላሊዲ ኢስራኤሌ ጊዶን ዬላቺዛ ኦሶ ኦꬂዳ ጊሻሳ› ጋ» ጊዴስ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "ኢያሶይ ዎንቴꬃ ጋላስ ዎንታራ ዴንዲዲ ኢስራኤሌ ኣሳይ ባ ቆሞን ቆሞን ሺቃና ማላ ኦꬂዴስ፤ ሄሳፌ ጉዬ ዩሁዳ ቆሞይ ሻኬቲዴስ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17",
+          "source_element_id": "V17",
+          "text": "ዩሁዳ ቆሞይ ሺቂን፥ ዛራሄ ዛሬይ ሻኬቲዴስ፤ ዛራሄ ዛሬይ ሺቂን፥ ዚሚሬ ሶ ኣሳይ ሻኬቲዴስ።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "18",
+          "source_element_id": "V18",
+          "text": "ዚሚሬ ሶ ኣሳይ ሺቂን፥ ዉርሴꬃን ዚሚሬ ና፥ ካርሜ ና ኣካኔይ ሻኬቲዴስ።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "19",
+          "source_element_id": "V19",
+          "text": "ሂስቲን ኢያሶይ ኣካኔ፥ «ታ ናዞ! ጎዳ ኢስራኤሌ ጾሳ ቦንቻ፤ ኢዛስ ፓጻ፤ ኣኔ ኔኒ ኦꬂዳይሳ ቆቶንታ ዳሼ ታስ ዮታ» ጊዴስ።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "20",
+          "source_element_id": "V20",
+          "text": "ኣካኔይካ ኢያሶስ፥ «ኤ ቱማ! ታኒ ጎዳ ኢስራኤሌ ጾሳ ቆሃዲስ፤ ታኒ ኦꬂዳይ ሃይሳ፤",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "21",
+          "source_element_id": "V21",
+          "text": "ዲኤቲ ዪዳ ሚሻ ጊዶፌ ታኒ ኢሲ ሎኢዛ ሳናኦሬ ካባ፥ ናምኡ ጼቱ ሳቂሌ ቢራኔ ባጋ ኪሎ ጊዲዛ ዎርቃ ቤኣዳ ኣሞቲዳ ጊሻስ ኤካዲስ። ሂስታዳ ታ ዱንካኔ ጊዶን ቦካዳ ቢራ ጋርሳራ ሂጻ ሞጋዲስ» ጊዴስ።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "22",
+          "source_element_id": "V22",
+          "text": "ሂስቲን ኢያሶይ ኣስ ኪቲዴስ፤ ኢስቲ ኢዛ ዱንካኔኮ ዎጺ ቢዲ ቢራዚ ጋርሳራ ሂጼቲ ሃንኮ ሚሻታራ ሞጌቲዳይሳ ዴሚዳ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "23",
+          "source_element_id": "V23",
+          "text": "ኪቴቲ ቢዳ ኣሳቲ ሚሻ ዱንካኔዛ ጊዶፌ ኤኪዲ፥ ኢያሶኮኔ ኢስራኤሌ ኣሳኮ ኤሂዲ ጎዳ ሲንꬃን ዎꬂዳ።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "24",
+          "source_element_id": "V24",
+          "text": "ሄሳፌ ጉዬ ኢያሶይኔ ኢስራኤሌ ኣሳይ ኡባይ ኢሲፌ ዛራሄስ ናዛ ና ካርሜ ና ኣካኔ፥ ቢራ፥ ካባ፥ ዎርቃ፥ ኢዛ ኣቱማ ናይታኔ ማጫ ናይታ፥ ኢዛ ሚዛ፥ ሃሬታኔ ዶርሳታ፥ ኢዛ ዱንካኔኔ ኢዛስ ዲዛይሳ ኡባ ኤኪዲ ኣኮሬ ዙሌ ኤሂዴስ።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "25",
+          "source_element_id": "V25",
+          "text": "ኢያሶይ ኣካኔ፥ «ሃይሳ ማላ ሜቶ ኑ ቦላ ኣይስ ኤሃዲ? ጎዳይ ሃች ኔ ቦላካ ሜቶ ኤሃና» ጊዴስ።\nሂስቲን ኢስራኤሌ ኣሳይ ዉሪ ኣካኔኔ ኢዛ ሶ ኣሳ ሹቻን ኩራኪ ዎꬊዲ ኢዛስ ዲዛ ኡባ ታማን ጹጊዴስ።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "26",
+          "source_element_id": "V26",
+          "text": "ኢስቲ ኣካኔ ቦላን ሃች ጋካናስ ዲዛ ዳሮ ሹች ኮሪዳ። ሄሳፌ ጉዬ ጎዳይ ያሺሲዛ ባ ሃንቆዛ ዛሪዴስ፤ ሄሳ ጊሻስ ሃች ጋካናስ ሄ ሶሆይ ኣኮሬ ዙሌ ጌቴቴስ።",
+          "unit_order": 26
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 8,
+      "source_chapter_label": "8",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 8",
+      "heading": [
+        "ኣዬ ካታማ ጾኔቴꬅ",
+        "ኤባሌ ዙማ ቦላ ኦራጺዳ ጫቆ ቃላ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ጎዳይ ኢያሶስ፥ «ያዮፋ፤ ዳጋሞፋ! ኦላንቻታ ኡባ ኔናራ ኤካዳ፥ ኣዬ ካታማ ባዳ ኦላ። ሄኮ ኣዬ ካታማ ካዎ፥ ኢዛ ዴራ፥ ኢዛ ካታማኔ ኢዛ ቢታ ታኒ ኔ ኩሼን ኣꬃ ኢማዲስ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ኔኒ ኢያርኮ ካታማኔ ኢዛ ካዎዛ ꬋይሲዳ ማላ ኣዬ ካታማኔ ኢዛ ካዎዛካ ꬋይሳና። ጊዶ ኣቲን ቦንቂዳ ሃሮዛኔ ዲኢዳ ሜሄዛ ኢንቴስ ኤኪቴ። ካታማፔ ጉዬ ባጋራ ዛማዲ ናጊዛ ኦላንቻታ ዎꬃ» ጊዴስ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ሂስቲን ኢያሶይኔ ኦላንቻቲ ኡባይ ኣዬ ኦላናስ ዴንዲዳ። ኢያሶይ ባ ኦላንቻታ ጊዶፌ 30,000 ጊዲዛ ሚኖ ኦላንቻታ ዶሪዲ ቃማራ ዬዲዴስ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ኢያሶይ ኢስታስ፥ «ሲዪቴ፥ ካታማፔ ጉዬ ባጋራ ዛማዲ ናጊቴ፤ ካታማፔ ሃኮፍቴ፤ ኡባይካ ሚኒ ናጊቴ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ታኒኔ ታናራ ዲዛ ኣሳ ኡባይ ካታማይኮ ሺቃና፤ ሄ ዎዴ ኣዬ ካታማ ኣሳይ ካሴይሳꬆካ ኑናራ ኦሌታና ጊዲ ኑኮ ኬዚሺን ኑኒ ኢስታፌ ባቃታና።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ካታማፔ ኢስቲ ኡባይ ኬዛና ጋካናስ ኑኒ ኢስታ ሲንꬃፌ ባቃታና፤ ሂስቲዳ ማላ ኢስታስ፥ ‹ካሴይሳꬆ ኢስራኤሌቲ ኑ ሲንꬃፌ ባቃቴቴስ› ጊሼ ኑ ኢስታ ካሌꬂዲ ሃሲ ኤፋና ጋካናስ ኢስቲ ኑና ካላና፤ ኑኒካ ኢስታፌ ባቃታና።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ሄ ዎዴ ኢንቴ ቆቴቲዳሶፔ ኬዚዲ ካታማዮ ኦይካንዴታ፤ ጎዳ ኢንቴ ጾሳይ ካታማዮ ኢንቴስ ኣꬂ ኢማና።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ካታማዮ ኦይኪዳፔ ጉዬ ጎዳይ ኣዛዚዳ ማላ ታማን ጹጊቴ፤ ቤኢቴ ታኒ ኢንቴና ኣዛዛዲስ» ጊዴስ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ሂስቲዲ ኢያሶይ ኦላንቻታ ዬዲዴስ፤ ኢስቲ ቢዲ ኣዬ ካታማፔ ኣርሼይ ዉሊዛሶ ባጋራ ዲዛ ቤቴሌሲኔ ኣዬስ ጊዶን ዛማዲ ናጊዳ፤ ጊዶ ኣቲን ኢያሶይ ሄ ጋላሳ ኦማርስ ኣሳራ ኢሲፌ ኣቂዴስ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ኢያሶይ ዎንቴꬃ ጋላስ ዎንታራ ዴንዲዲ ኦላንቻታ ኡባ ሺሺዴስ፤ ኢዚኔ ኢስራኤሌ ጋዳዋቲ ኦላ ኣሳ ካሌꬂዲ ኣዬ ቢዳ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ኢዛራ ዲዛ ኦላንቻቲ ኡባይ ካታማይስ ሲንꬅ ቢ ማቲዳ፤ ሄሳፌ ጉዬ ቃሴ ኣዬ ካታማፔ ፑዴሃ ባጋራ ዲዛ ሾባፌ ሄ ፒንꬃን ዱንካኒዳ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ኢያሶይ 5,000 ጊዳና ኦላንቻታ ኤኪዲ ካታማይፔ ኣርሼይ ዉሊዛ ባጋራ ቤቴሌፔኔ ኣዬፔ ጊዶን ዛማዲ ኡታና ማላ ኦꬂዴስ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ካታማይፔ ፑዴሃ ባጋራ ዲዛ ኦላንቻታኔ ካታማይፔ ኣርሼይ ዉሊዛ ባጋራ ዛማዲ ኡቲዳ ኦላንቻታ ኡባ ሶሆ ሶሆ ኦይꬂዴስ። ሄ ጋላሳ ኦማርስ ኢያሶይ ዱጌ ሾባ ዎꬊዴስ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ኣዬ ዴሬ ካዎይ ሄሳ ቤኢዲ ኢዚኔ ኢዛ ኦላንቻቲ ኡባይ ኢስራኤሌ ኣሳ ኦላናስ ኣራቤፔ ሲንꬃ ባጋራ ዲዛሶሆ ዪዳ። ጊዶ ኣቲን ካዎዚ ካታማይፔ ጉዬ ባጋራ ዛማዲ ናጊዛይቲ ዲዛይሳ ኤሪቤና።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ኢያሶይኔ ኢስራኤሌ ኣሳይ ኡባይ ጾኔቲዳ ሚሳቲዲ ባዞ ሲሚ ባቃቲዳ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "ኣዬ ኣሳይ ኡባይ ኢስታ ዬዴꬃናስ ጼይጌቲዳ፤ ኢያሶካ ዬዴꬂዳ፤ ሄሳꬆ ኦꬂዲ ኣዬ ኣሳይ ካታማፔ ሃካና ማላ ኦꬂዳ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17",
+          "source_element_id": "V17",
+          "text": "ኢስራኤሌ ኣሳ ዬዴꬃናስ ኣዬፔኔ ቤቴሌፔ ኬዞንታ ኣቲዳ ኣቱማሲ ዴና፤ ካታማዮ ዶያ ዬጊዲ ኢስራኤሌ ዬዴꬂዳ።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "18",
+          "source_element_id": "V18",
+          "text": "ሄሳፌ ጉዬ ጎዳይ ኢያሶስ፥ «ካታማዮ ታ ኔ ኩሼን ኣꬃ ኢማና፤ ኔ ኦይኪዳ ቶራ ኣዬ ቦላ ጾንጋናስ ማላ ጼላ» ጊዴስ። ሂስቲን ኢያሶይ ባ ቶራ ካታማኮ ዛሪዲ ማሊዴስ።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "19",
+          "source_element_id": "V19",
+          "text": "ኢያሶይ ቶራ ሄ ዛሪ ማሊዳ ማላ ካሴ ዛማዲ ኡቲዳ ኦላንቻቲ ባንቲ ቆቴቲዳሶፔ ኤሶን ኬዚዳ። ዎጺ ጌሊዲ ኦይኪዳ፤ ሄራካ ኢዞ ታማን ጹጊዳ።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "20",
+          "source_element_id": "V20",
+          "text": "ኣዬ ኣሳይ ጉዬ ሲሚዲ ጼሊሺን ካታማይፔ ጩዋይ ሳሎ ኬዚዛይሳ ቤኢዳ። ባዞ ባቃቲዳ ኢስራኤሌ ኣሳይ ኢስታ ቦላ ሃ ሲሚ ዎꬊዳ ጊሻስ ኢስታስ ቢዛሶይ ꬋይዴስ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "21",
+          "source_element_id": "V21",
+          "text": "ኢያሶይኔ ኢስራኤሌ ኣሳይ ኡባይ ዛማዲ ኡቲዳ ኦላንቻቲ ካታማ ኦይኪዳይሳኔ ጩዋይ ሳሎ ኬዚዳይሳ ቤኢዳ ማላ ጉዬ ሲሚዲ ኣዬ ኣሳ ቦላ ሜቶ ዬጊዳ።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "22",
+          "source_element_id": "V22",
+          "text": "ዛማዲ ኡቲዳ ኦላንቻቲካ ካታማይፔ ኢስታ ቦላ ኬዚዳ። ሄሳ ጊሻስ ኢስራኤሌ ኦላንቻቲ ኢስታ ያራ ሃራ ጊዶꬂዲ ዲፒ ሂስቲዳ፤ ኢሲ ኣሲካ ኣቲቤና።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "23",
+          "source_element_id": "V23",
+          "text": "ጊዶ ኣቲን ኣዬ ካዎ ጻላ ሼምፖራ ፓጻ ኦይኪዲ ኢያሶኮ ኤሂዳ።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "24",
+          "source_element_id": "V24",
+          "text": "ኢስራኤሌ ኣሳይ ኣዬ ኣቱማ ኣሳ ኡባ ዬዴꬂዳ ዴምባኒኔ ባዞን ኢሳ ኢሳ ቃራ ማሻን ዎꬊ ዉርሲዳፔ ጉዬ ሲሚዲ ካታማዮ ቢዲ ሄን ቤቲዳ ኣስ ኡባ ዎꬊዳ።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "25",
+          "source_element_id": "V25",
+          "text": "ሄ ጋላስ ኣዬ ኣሳይ ኡባይ ሃይቂዴስ፤ ሃይቂዳ ኣሳ ኡባ ቆዳይ 12,000 ጊዲዴስ።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "26",
+          "source_element_id": "V26",
+          "text": "ኢያሶይ ኣዬ ካታማይን ዲዛ ኣሳ ሙሌራ ꬋይሳና ጋካናስ ካታማኮ ማሊ ዎꬂዳ ቶራ ዱጌ ዎꬂቤና።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "27",
+          "source_element_id": "V27",
+          "text": "ጊዶ ኣቲን ጎዳይ ኢያሶ ኣዛዚዳ ማላ ኢስራኤሌ ኣሳይ ሄ ካታማይን ዲዛ ሜዶሳታኔ ዲኢዳ ሚሻታ ባስ ኤኪዳ።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "28",
+          "source_element_id": "V28",
+          "text": "ኢያሶይ ኣዬ ካታማ ጹጊዴስ፤ ሃች ጋካናስ ቤቲዛ ማላ ሜርናስ ቢዲንꬃ ዶሬኔ ቡላ ኬሲዴስ።",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "29",
+          "source_element_id": "V29",
+          "text": "ኣዬ ዴሬ ካዎ ሚꬃ ቦላ ካቂዴስ፤ ኢዛ ኣሃዛ ኦማርስ ጋካናስ ሄ ሚꬃ ቦላ ኣጋጊዴስ፤ ኣርሼይ ዉሊሺን ኢያሶይ ኢዛ ኣሃ ካታማ ፔንጌ ቦላ ዬጋና ማላ ኣዛዚዴስ፤ ኢዛ ቦላ ዳሮ ሹች ኮሪዳ፤ ሹቻይ ሃች ጋካናስ ሄ ሶሆን ዴስ።\nኤባሌ ዙማ ቦላ ኦራጺዳ ጫቆ ቃላ",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "30",
+          "source_element_id": "V30",
+          "text": "ሄሳፌ ጉዬ ኢያሶይ ኤባሌ ዙማ ቦላ ጎዳስ ኢስራኤሌ ጾሳስ ያርሾ ያርሺዛሶሆ ጊግሲዴስ።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "31",
+          "source_element_id": "V31",
+          "text": "ጎዳ ኣይሌ ሙሴይ ኢስራኤሌ ኣሳ ኣዛዚዳ ማላኔ ሙሴ ዎጋ ማጻፋን ጻፌቲዳ ማላ ያርሺዛሶሆዚ ማሴቶንታኔ ቢራታይ ቦቾንታ ሹቻፌ ኬሌቲዴስ። ኢዛን ጎዳስ ጹጌቲዛ ያርሾኔ ኢሲፌቴꬃ ያርሾ ያርሺዳ።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "32",
+          "source_element_id": "V32",
+          "text": "ኢያሶይ ሙሴይ ጻፊዳ ዎጋ ማጻፋ ኢስራኤሌ ኣሳይ ጼሊሺን ሹቻ ቦላ ዎጪ ጻፊዴስ።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "33",
+          "source_element_id": "V33",
+          "text": "ኢስራኤሌ ኣሳይ ኡባይ፥ ቤቴ ኣሳቲ፥ ጪማቲ፥ ሹሜቲኔ ዳናቲ ኡባይ ጎዳ ጫቆ ቃላ ታቦታ ቶኪዳ ሌዌ ዛሬ ጊዲዳ ቄሴታ ሲንꬃን ጫቆ ቃላ ታቦታፔ ኡሻቻ ባጋራኔ ሃዲርሳ ባጋራ ኤቂዳ። ጎዳ ኣይሌ ሙሴይ ካሴ ኣዛዚዳ ማላ ኢስራኤሌ ኣሳ ኣንጃናስ ኢስታፌ ባጋ ኣሳይ ጋሪዛኔ ዙማኮ፥ ባጋ ኣሳይ ኤባሌ ዙማኮ ሲሚ ኤቂዴስ።",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "34",
+          "source_element_id": "V34",
+          "text": "ሄሳፌ ጉዬ ዎጋ ማጻፋን ጻፌቲዳ ማላ ኢያሶይ ዎጋ ቃላ ኣንጆኔ ቃንጌꬅ ኡባ ናባቢዴስ።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "35",
+          "source_element_id": "V35",
+          "text": "ሙሴይ ኣዛዚዳ ኡባፌ ኢያሶይ ናባቦንታ ኣጊዳ ኢሲ ቃላይካ ዴና። ኩሜꬃ ኢስራኤሌ ዴራስ፥ ማጫሳስ፥ ናይታሲኔ ኢስታ ጊዶን ዲዛ ቤቴ ኣሳታስ ኡባስ ናባቢዴስ።",
+          "unit_order": 35
+        }
+      ],
+      "notes": [
+        {
+          "verse": "8:31",
+          "marker": "cross-reference",
+          "text": "ኬሳ 20፡25",
+          "source_reference": "1"
+        },
+        {
+          "verse": "8:32",
+          "marker": "cross-reference",
+          "text": "ዛሬ 27፡2-8",
+          "source_reference": "2"
+        },
+        {
+          "verse": "8:35",
+          "marker": "cross-reference",
+          "text": "ዛሬ 11፡29፤ 27፡11-14",
+          "source_reference": "3"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "source_chapter_label": "9",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 9",
+      "heading": [
+        "ጌባኦኔ ኣሳይ ኢያሶ ባሌꬂዳ ባሌꬆ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ዮርዳኖሴ ሻፋፔ ኣርሼይ ዉሊዛ ባጋራ ፑዴ ጌዜን ዲዛ ዴሬይ፥ ጋꬋን ዲዛ ዴሬይ ሊባኖሴ ጋካናስ ዲዛ ጊታ ኣባ ጋጻን ዲዛ ሂቴታ፥ ኣሞሬታ፥ ካናኔታ፥ ፓሪዜታ፥ ሂዌታኔ ያቡሴታ ካዎቲ ኡባይ ኢስራኤሌ ኣሳይ ጾኒዳይሳ ሲዪዳ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ሂስቲዲ ኢያሶኔ ኢስራኤሌ ኣሳ ኦላናስ ኢሲ ቦላ ዴንዲ ዪዳ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ጌባኦኔ ኣሳይ ጊዲኮ ኢያሶይ ኢያርኮ ካታማኒኔ ኣዬ ካታማን ኦꬂዳይሳ ሲዪዳ ዎዴ፥",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ባሌꬃናስ ኮዪዲ ጋልኣ ኦጎሮኔ ዎይኔ ኡሹ ኢዛን ዎꬂዛ ሲኬቲዳ ሉካሞ ሃሬን ጫኒዳ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ኣሳቲ ጋልኣኔ ሲኬቲዳ ጫማ ኣꬂዳ፤ ጋልኣ ማይኦካ ማይኢዳ፤ ሜሊዲ ቡቂዳ ሺንቄ ኦይኪዳ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ሄሳፌ ጉዬ ኢስቲ ኢያሶይ ዱንካኒዳሶ ጌልጌላ ቢዲ ኢያሶሲኔ ኢስራኤሌ ኣሳስ፥ «ኑኒ ሃሆ ቢታፌ ዪዶስ፤ ሃኢ ኑናራ ጫቄቲቴ» ጊዳ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ኢስራኤሌ ኣሳይ ሂዌታስ፥ «ኢንቴ ኑ ማታን ዲዛ ኣሳኮ ኑ ኣይ ኤሪዲ ኢንቴናራ ጫቄታኔ?» ጊዳ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ኢስቲ ኢያሶስ፥ «ኑኒ ኔ ኣይሌታ» ጊዳ።\nኢያሶይ፥ «ኢንቴ ኦኔ? ኣዋፔ ዪዴቲ?» ጊዲ ኦይቺዴስ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ኢስቲካ፥ «ኑኒ ኔ ኣይሌቲ ጎዳ ኔ ጾሳ ጊታቴꬅ ሲዪዲ ዳሮ ሃሆ ቢታፌ ዪዶስ። ኢዛ ጊታቴꬃኔ ኢዚ ጊብጼ ቢታን ኦꬂዳይሳ ኡባ ሲዪዶስ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ቃሴ ዮርዳኖሴ ሻፋፔ ሄ ፒንꬃን ዲዛ ኣሞሬ ካዎታ ናምኣታ፥ ሄይቲካ ሃሴቦኔ ካዎ ሲሆኔ፥ ኣስታሮቴ ሃሪዛ ባሳኔ ካዎ ኣጌ ቦላ ኢዚ ኦꬂዳይሳካ ኑ ሲዪዶስ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ኑ ዴሬ ጪማቲኔ ኑ ቢታን ዲዛ ኣሳይ ኡባይ ኑና፥ ኢንቴስ ኦጌ ሺንቄ ኦይኪዲ ኢስታራ ቢዲ ጋይቲቴ፤ ኢስታስ፥ ‹ኑኒ ኢንቴስ ኣይሌታ ጊዳና፤ ኢንቴ ኑናራ ጫቄቲቴ› ጊዳ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "«ኑኒ ኢንቴኮ ያናስ ኑ ሶፔ ሃይሳ ሺንቄዚ ሆኦ ዲሺን ኤኪ ዪዶስ፤ ጊዶ ኣቲን ሜሊዳይሳኔ ቡቂዳይሳ ሃይሳ ቤኢቴ!",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ሃይቲ ኤሳ ሉካሞቲ ኑኒ ኩንꬂዛ ዎዴ ኦራꬃ፤ ጊዶ ኣቲን ሃኢ ኢስቲ ዋኒ ዳኬቲዳኮ ቤኢቴ! ኑ ሃሆ ኦጌ ሄሜቲዳ ጊሻስ ኑ ማይኦይኔ ጫማይ ዉሪዴስ» ጊዳ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ጎዳ ኦይቾንታ ኢስራኤሌ ኣሳይ ኢስታ ሺንቄፌ ጉꬃራ ኤኪዴስ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ኢያሶይ ኢስቲ ሳሮን ዴኣና ማላ ኢስታራ ጫቄቲዴስ፤ ዴራ ካሌꬂዛይቲካ ሄ ጫቆዛ ሚንꬃናስ ቃላ ጌሊዳ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "ኢስታራ ጫቄቲዳ ሄꬓንꬆ ጋላሳፌ ጉዬ ሄ ኣሳቲ ኢስታ ዶꬅ ጊዲዳይሳ ኢስራኤሌቲ ሲዪዳ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17",
+          "source_element_id": "V17",
+          "text": "ኢስራኤሌ ኣሳይ ሄꬑ ጋላስ ሄሜቲዲ ጌባኦኔ፥ ካፊሬ፥ ቢኤሮቴኔ ቂሪያቴ-ዪኣሪሜ ጌቴቲዛ ካታማታ ጋኪዴስ።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "18",
+          "source_element_id": "V18",
+          "text": "ጊዲኮካ ዴራ ካሌꬂዛይቲ ጎዳ ኢስራኤሌ ጾሳ ሱንꬃን ጫቂዳ ጊሻስ ኢስራኤሌቲ ኢስታ ኦሊቤቴና፤ ኩሜꬃ ማባራይካ ኢስታ ቦላ ዙዙሚዴስ።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "19",
+          "source_element_id": "V19",
+          "text": "ጊዶ ኣቲን ዴራ ካሌꬂዛይቲ፥ «ኑኒ ጎዳ ኢስራኤሌ ጾሳ ሱንꬃን ጫቂዳ ጊሻስ ሃኢ ሲሚዲ ኢስታ ቦላ ሜቶ ጋꬃናስ ዳንዳዮኮ።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "20",
+          "source_element_id": "V20",
+          "text": "ኑኒ ኢስታስ ኦꬃና ዳንዳይዛይ ኢስታስ ጌሊዳ ጫቆ ቃላ ሜንꬂን ሃንቆይ ኑ ቦላ ጋኮንታ ማላ ኢስታ ዎꬎፒቴ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "21",
+          "source_element_id": "V21",
+          "text": "ጊዶ ኣቲን ኢስቲ ኩሜꬃ ማባራስ ሚꬅ ሚጺሼኔ ሃꬅ ዱቂሼ ዴቶ» ጊ ዛሪዳ። ሄሳ ጊሻስ ማባራ ካሌꬂዛይቲ ጌሊዳ ቃላይ ናጌቲዴስ።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "22",
+          "source_element_id": "V22",
+          "text": "ኢያሶይ ጌባኦኔ ኣሳታ ጼይጊዲ፥ «ኢንቴ ሃን ኑ ማታን ዴኢሼ፥ ‹ኑኒ ኬሂ ሃሆ ቢታፌ ዪዶስ› ጊዲ ኣይስ ኑና ባሌꬂዴቲ?",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "23",
+          "source_element_id": "V23",
+          "text": "ሄሳ ጊሻስ ሃኢ ኢንቴ ቃንጌቲዳይታ፤ ጉꬃቲ ታ ጎዳ ኬꬃን ሚꬅ ሚጺዛኔ ሃꬅ ዱቂዛ ኣይሌታ ጊዳና» ጊዴስ።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "24",
+          "source_element_id": "V24",
+          "text": "ኢስቲ ኢያሶስ፥ «ኑኒ ኔ ኣይሌቲ ጎዳ ኔ ጾሳይ ሃ ቢታ ኡባ ኢንቴስ ኢማናይሳኔ ኢዛን ዲዛ ኣሳ ኡባ ኢንቴ ሲንꬃፌ ꬋይሳናስ ባ ኣይሌ ሙሴ ኣዛዚዳይሳ ጌሺ ሲዪዶስ። ሄሳ ጊሻስ ኢንቴፌ ዴንዶይሳን ኑ ሼምፖስ ሂርጊዲ ሃይሳ ኦꬂዶስ።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "25",
+          "source_element_id": "V25",
+          "text": "ሄኮ ሃኢ ኑኒ ኔ ኩሼን ዶስ፤ ኔስ ሎኦኔ ሱሬ ሚሳቲ ቤቲዳ ማላ ኑ ቦላ ኦꬃ» ጊ ዛሪዳ።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "26",
+          "source_element_id": "V26",
+          "text": "ሂስቲን ኢያሶይ ጌባኦኔ ኣሳታ ኢስራኤሌታ ኩሼፔ ኣሺዴስ፤ ኢስቲካ ዎꬊቤቴና።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "27",
+          "source_element_id": "V27",
+          "text": "ሄ ጋላስ ኢያሶይ ጌባኦኔ ኣሳታ ኢስራኤሌ ማባራሲኔ ጎዳይ ዶሪዳሶሆን ኤቂዳ ያርሾሶዛስ ኢስቲ ሃች ጋካናስ ሚꬅ ሚጻናሲኔ ሃꬅ ዱቃና ማላ ኦꬂዴስ።",
+          "unit_order": 27
+        }
+      ],
+      "notes": [
+        {
+          "verse": "9:7",
+          "marker": "cross-reference",
+          "text": "ኬሳ 23፡32፤ 34፡12፤ ዛሬ 7፡2",
+          "source_reference": "1"
+        },
+        {
+          "verse": "9:10",
+          "marker": "cross-reference",
+          "text": "ታይ 21፡21-35",
+          "source_reference": "2"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "source_chapter_label": "10",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 10",
+      "heading": [
+        "ኣርሼ ኤቆ",
+        "ኣሞሬ ካዎታ ኢቻሻታ ሃይቆ",
+        "ኢያሶይ ጾኒ ኦይኪዳ ሃራ ካታማታ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ኢያሶይ ካሴ ኢያርኮ ካታማ ኦሊ ꬋይሲዲኔ ኢስታ ካዎዛ ዎꬊዳ ማላ፥ ኣዬ ካታማ ኦሊዲ ኡባ ꬋይሲዳይሳኔ ኢስታ ካዎዛካ ዎꬊዳይሳ ዬሩሳላሜ ካዎ ኣዶኒ-ጼዴቄይ ሲዪዴስ። ቃሴ ጌባኦኔ ኣሳይ ኢስራኤሌ ኣሳራ ሳሮን ዴኣናስ ጫቄቲዳይሳኔ ሃኢ ኢስታራ ኢሲፌ ዲዛይሳ ሲዪዴስ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ሄሳን ኢዚኔ ዴሬዚ ዳጋሚዳ፤ ጋሶይካ ጌባኦኔይ ካዎታ ካታማ ማላ ካታማታ ኡባፌ ጊታ ካታማ፤ ጎምፓይ ኣዬ ካታማይፔ ዳሬስ፤ ኢዚን ዲዛ ኣሳይካ ሚኖ ኦላንቻ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ሄሳ ጊሻስ ዬሩሳላሜ ካዎይ ኣዶኒ-ጼዴቄይ፥ ኬብሮኔ ካዎ ሆሃሜስ፥ ያርሙቴ ካዎ ጲርኣሜስ፥ ላኪሼ ካዎ ያፊኣሲኔ ኤጊሎኔ ካዎ ዳቢሬይ፥",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "«ጌባኦኔ ካታማ ኣሳይ ኢያሶራኔ ኢስራኤሌ ኣሳራ ሳሮ ዴያናስ ጫቄቲዳ ጊሻስ ኢስታራ ኦሌታናስ ዪዲ ታና ማዴርኬቲ!» ጊዴስ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ሄሳፌ ጉዬ ኣሞሬታ ካዎቲ ኢቻሻቲ ዬሩሳላሜ ካዎይ፥ ኬብሮኔ ካዎይ፥ ያርሙቴ ካዎይ፥ ላኪሼ ካዎይኔ ኤጊሎኔ ካዎይ ባ ኦላንቻታ ኢሲፌ ጋꬂዲ ኡባ ኤኪ ቢዲ፥ ጌባኦኔ ካታማ ዶዲ ኦይኪዲ ኦሊዳ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ጌባኦኔ ኣሳይ ጌልጌላን ዱንካኒዳ ኢያሶኮ ኪቲዲ፥ «ኑና ኔ ኣይሌታ ኣጎፋ፤ ኤሶን ኑኮ ያዳ ኑና ኣሻ። ጌዜ ዴሬን ዲዛ ኣሞሬታ ካዎቲ ዉሪ ኑና ኦላናስ ባ ኦላንቻታ ኡባ ሺሺ ኤኪዲ ዪዛ ጊሻስ ኑና ኔ ኣይሌታ ማዳ» ጊዳ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ሄሳ ጊሻስ ኢያሶይ ባ ኦላንቻታኔ ሚኖ ኣሳታ ኡባ ሺሺ ኤኪዲ ጌልጌላፔ ኬዚዴስ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ጎዳይ ኢያሶ፥ «ኔ ኢስታስ ያዮፋ፤ ታኒ ኢስታ ኔ ኩሼን ኣꬃ ኢማዲስ፤ ኢስታፌ ኢሳዴይካ ኔናራ ኤቄታናስ ዳንዳዬና» ጊዴስ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ሄሳፌ ጉዬ ኢያሶይ ጌልጌላፔ ኦማርሳራ ሄሜቲሼ ኣቂዲ ኢስቲ ኣኬኮንታ ዲሺን ኢስታ ቦላ ዎራጂዴስ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ጎዳይ ኢስራኤሌ ኣሳ ሲንꬃን ኣሞሬታ ቦላ ሺሮ ዬዲዴስ፤ ኢስራኤሌ ኣሳይ ኢስታፌ ዳሮ ኣሳ ጌባኦኔን ዎꬊዴስ። ኢስራኤሌ ኣሳይ ኢስታ ቤቲ-ሆሮኔ ኤፊዛ ኦጌ ፑዱንꬃን ካሊዴስ፤ ኣዜቄፔ ቢዲ ማቄዳ ጋካናስ ዬዴꬂ ዎꬊዳ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ቤቲ-ሆሮኔፔ ዱጌ ኣዜቄ ኤፊዛ ኦጌ ኦይኪዲ ኢስቲ ኢስራኤሌ ኣሳ ሲንꬃፌ ባቃቲሺን ጎዳይ ዎልቃማ ሻች ሳሎፔ ኢስታ ቦላ ቡኪሲዴስ። ሂስቲን ኢስራኤሌ ኣሳይ ማሻን ዎꬊዳ ኣሳፔ፥ ሻቻይ ዎꬊዳ ኣሳይ ኬሂፔ ዳሮ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ጎዳይ ኣሞሬታ ኢስራኤሌ ኣሳ ኩሼን ኣꬂ ኢሚዳ ጋላስ ኢስራኤሌ ኣሳ ሲንꬃን ኢያሶይ ጎዳስ፥\n«ኣርሼይ ጌባኦኔን ኤቆ፤\nኣጊናይካ ኣያሎኔ\nሾባን ኤቁ» ጊዴስ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ሄሳ ጊሻስ ኢስራኤሌ ካዎቴꬃይ ባ ሞርኬታ ቦላ ሃሎ ኬሳና ጋካናስ ኣርሼይ ኤቂዴስ። ኣጊናይካ ቃጻቤኩ። ሄሲካ ያሻሬ ማጻፋን ጻፌቲዴስ፤ ኣርሼይ ሳሎስ ጊዶ ኣዳን ኤቂዴስ፤ ኢሲ ጋላስ ኩሜꬅ ኣርሼይ ዉሎንታ ፔኢዴስ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ጎዳይ ኣሳ ቃላ ሲዪዳ ሄሳ ማላ ጋላሲ ሄሳፌ ካሴካ ጉዬካ ሃኒቤና። ቱሙካ ጎዳይ ኢስራኤሌ ጊሻስ ኦሌቲዴስ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ሄሳፌ ጉዬ ኢያሶይኔ ኢስራኤሌ ኦላንቻቲ ኡባይ ባ ዱንካኒዳሶ ጌልጌላ ሲሚዳ።\nኣሞሬ ካዎታ ኢቻሻታ ሃይቆ",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "ሄ ዎዴ ኣሞሬታ ካዎቲ ኢቻሻቲ ባቃቲ ቢዲ ማቄዳን ጎንጎሎ ጊዶን ቆቴቲዳ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17",
+          "source_element_id": "V17",
+          "text": "ኢያሶይካ ኢቻሽ ካዎቲ ማቄዳን ጎንጎሎ ጊዶን ቆቴቲ ዲዛይሳ ሲዪዴስ።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "18",
+          "source_element_id": "V18",
+          "text": "ኢያሶይ፥ «ጊታ ሹቻታ ጌንዴሪሲ ኤፊዲ ጎንጎሎዛ ጎርዲቴ፤ ሂስቲዲ ናጋና ዛቤታ ሄን ዎꬂቴ።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "19",
+          "source_element_id": "V19",
+          "text": "ኢንቴ ሞርኬታ ዬዴꬂቴ ኣቲን ኣዛሎፍቴ፤ ኢስታ ካሊ ካሊ ሜቶ ጋꬂቴ፤ ኢስቲ ባ ካታማ ቢ ጌሎንታ ማላ ዲጊቴ፤ ሄኮ ጎዳ ኢንቴ ጾሳይ ኢስታ ኢንቴ ኩሼን ኣꬂ ኢሚዴስ» ጊዴስ።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "20",
+          "source_element_id": "V20",
+          "text": "ሄሳ ጊሻስ ኢያሶይኔ ኢስራኤሌ ኣሳይ ኢስታ ሙሌራ ዲፒ ሂስቲዳ፤ ኢስታፌ ኣቲዳ ጉꬃቲ ካሴ ባ ዲዛ ጊምቤቲዳ ካታማታ ሲሚ ጌሊዳ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "21",
+          "source_element_id": "V21",
+          "text": "ሄሳፌ ጉዬ ኣሳይ ኡባይ ሳሮን ሲሚዲ ኢያሶይ ዱንካኒ ዲዛሶ ማቄዳ ዪዴስ፤ ኢስራኤሌ ኣሳ ቦላ ኢሲ ቃላካ ሃሳይዳ ኣሲ ዴና።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "22",
+          "source_element_id": "V22",
+          "text": "ኢያሶይ ኢስታስ፥ «ጎንጎሎዛ ዶይዲ ሄ ኢቻሽ ካዎታ ኬሲዲ ታስ ሃ ኤኪ ዪቴ» ጊዴስ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "23",
+          "source_element_id": "V23",
+          "text": "ኢስቲካ ሄ ኢቻሽ ካዎታ ዬሩሳላሜ ካዎ፥ ኬብሮኔ ካዎ፥ ያርሙቴ ካዎ፥ ላኪሼ ካዎኔ ኤጊሎኔ ካዎ ኬሲዲ ኢዛኮ ኤሂዳ።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "24",
+          "source_element_id": "V24",
+          "text": "ኢስቲ ሄ ካዎታ ኢያሶኮ ኤሂን ኢያሶይ ኢስራኤሌ ኣቱማ ኣሳ ኡባ ባኮ ጼይጊዲ ባናራ ዲዛ ኦላ ጋዳዋታ፥ «ሃ ዪዲ ሃይታ ካዎታ ቆꬌ ቦላ ዬꬊ ኤቂቴ» ጊዴስ። ኢስቲካ ሲንꬅ ኣꬊዲ ባ ቶሆን ካዎታ ቆꬌ ቦላ ዬꬊ ኤቂዳ።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "25",
+          "source_element_id": "V25",
+          "text": "ኢያሶይካ ኢስታስ፥ «ባቦፍቴ፤ ዳጋሞፍቴ፤ ሚኒቴኔ ጻሊቴ፤ ኢንቴናራ ኦሌቲዛ ኢንቴ ሞርኬታ ኡባታ ቦላ ጎዳይ ሃይሳꬆ ኦꬃና» ጊዴስ።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "26",
+          "source_element_id": "V26",
+          "text": "ሄሳፌ ጉዬ ኢያሶይ ኢቻሽ ካዎታ ዎꬊዲ ኢቻሽ ሚꬃ ቦላ ኢስታ ኣሃ ካቂዴስ፤ ኦማርሲ ጋካናስ ኢስታ ኣሃይ ሚꬃ ቦላፌ ዎꬊቤና።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "27",
+          "source_element_id": "V27",
+          "text": "ኣርሼይ ዉላና ሃኒሺን ኢያሶይ ኣዛዚን ሚꬃ ቦላፌ ካዎታ ኣሃ ዎꬂዲ ካሴ ኢስቲ ቆቴቲዳ ጎንጎሎዛን ኤፊ ዬጊዳ። ሂስቲዲ ጎንጎሎዛ ጊታ ሹቻታን ቱጪዳ፤ ሄ ሹቻቲ ሃች ጋካናስካ ሄን ዴቴስ።\nኢያሶይ ጾኒ ኦይኪዳ ሃራ ካታማታ",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "28",
+          "source_element_id": "V28",
+          "text": "ሄ ጋላስ ኢያሶይ ማቄዳ ካታማ ኦይኪዴስ፤ ካታማዮኔ ኢዚ ካዎዛ ጊꬃ ማሻን ሲፊዴስ፤ ኢዚ ጊዶን ዲዛ ኣሳፔ ኢሲኖካ ኣሾንታ ዲሼ ዲፒ ሂስቲዴስ፤ ኢያርኮ ካዎ ቦላ ኦꬂዳይሳꬆካ ማቄዳ ካዎ ቦላካ ኦꬂዴስ።",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "29",
+          "source_element_id": "V29",
+          "text": "ሄሳፌ ጉዬ ኢያሶይኔ ኢዛራ ዲዛ ኢስራኤሌ ኣሳይ ኡባይ ማቄዳፌ ሊቢና ቢዲ ኦሊዳ።",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "30",
+          "source_element_id": "V30",
+          "text": "ጎዳይ ሄ ካታማዮኔ ኢዚ ካዎዛ ኢስራኤሌ ኣሳ ኩሼን ኣꬂ ኢሚዴስ፤ ኢያሶይ ካታማዮኔ ኢዚ ጊዶን ዲዛ ኡባ ኢሲኖካ ኣሾንታ ጊꬃ ማሻን ዲፒ ሂስቲዴስ፤ ኢያርኮ ካዎ ቦላ ኦꬆይሳꬆካ ሊቢና ካዎ ቦላካ ኦꬂዴስ።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "31",
+          "source_element_id": "V31",
+          "text": "ሄሳፌ ጉዬ ኢያሶይኔ ኢዛራ ዲዛ ኢስራኤሌ ኣሳይ ኡባይ ሊቢናፔ ላኪሼ ቢ ዶዲ ኦሊዳ።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "32",
+          "source_element_id": "V32",
+          "text": "ጎዳይ ላኪሼ ኢስራኤሌ ኣሳ ኩሼን ኣꬂ ኢሚዴስ፤ ኢያሶይ ሄ ካታማዮ ናምኣንꬆ ጋላሳን ኦይኪዴስ፤ ኢዚ ሊቢናን ኦꬆይሳꬆካ ሃኖ ሃ ካታማዮኔ ኢዚ ጊዶን ዲዛ ኡባ ጊꬃ ማሻን ሲፊዴስ።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "33",
+          "source_element_id": "V33",
+          "text": "ሄ ዎዴ ጌዜሬ ካዎ ሆራሜይ ላኪሼ ካዎ ማዳናስ ዪዴስ፤ ጊዶ ኣቲን ኢያሶይ ኢዛካ ኢዛ ኣሳካ ኢሲኖ ኣሾንታ ኡባ ዲፒ ሂስቲዴስ።",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "34",
+          "source_element_id": "V34",
+          "text": "ሄሳፌ ጉዬ ኢያሶይኔ ኢዛራ ዲዛ ኢስራኤሌ ኣሳይ ኡባይ ላኪሼፔ ኤጊሎኔ ቢዲ ሄ ካታማ ዶዲ ኦይኪ ኦሊዳ።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "35",
+          "source_element_id": "V35",
+          "text": "ሄ ጋላስ ኤጊሎኔ ኦሊ ኦይኪዲ ጊꬃ ማሻን ꬋይሲዳ፤ ካሴ ላኪሼን ኦꬂዳ ማላ ኤጊሎኔ ካታማን ዲዛ ኣሳ ሙሌራ ꬋይሲዳ።",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "36",
+          "source_element_id": "V36",
+          "text": "ሄሳፌ ጉዬ ኢያሶይኔ ኢዛራ ዲዛ ኢስራኤሌ ኣሳ ኡባይ ኤጊሎኔፔ ኬዚ ቢዲ ኬብሮኔ ኦሊዳ።",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "37",
+          "source_element_id": "V37",
+          "text": "ሄ ካታማዮኔ ካታማይ ጊዶን ዲዛ ሚሽ ኡባ ኢሲኖካ ኣሾንታ ጊꬃ ማሻን ዲፒ ሂስቲዳ፤ ካሴ ኤጊሎኔን ኦꬂዳ ማላ ሃኖ ካታማይ ጊዶን ዲዛ ኡባ ሙሌራ ዲፒ ሂስቲዳ።",
+          "unit_order": 37
+        },
+        {
+          "source_marker": "38",
+          "source_element_id": "V38",
+          "text": "ሄሳፌ ጉዬ ኢያሶይኔ ኢዛራ ዲዛ ኢስራኤሌ ኣሳይ ኡባይ ጉዬ ሲሚዲ ዳቢሬ ኦሊዳ።",
+          "unit_order": 38
+        },
+        {
+          "source_marker": "39",
+          "source_element_id": "V39",
+          "text": "ካታማዮኔ ኢዚ ካዎዛ፥ ኢዚ ሄራን ዲዛ ቄሪ ካታማታካ ኡባ ጊꬃ ማሻን ሲፊዳ፤ ኢዚ ጊዶን ዲዛይሳፌ ኢሲኖካ ኣሾንታ ኡባ ዲፒ ሂስቲዳ፤ ካሴ ሊቢናኒኔ ሊቢና ካዎ ቦላ ኦꬂዳ ማላ፥ ኬብሮኔ ቦላ ኦꬆይሳꬆካ ዳቢሬ ቦላኔ ኢዚ ካዎዛ ቦላ ኦꬂዳ።",
+          "unit_order": 39
+        },
+        {
+          "source_marker": "40",
+          "source_element_id": "V40",
+          "text": "ሄሳꬆካ ኢያሶይ ዙምቡላቲ ዳሪዛ ቢታ፥ ኔጌቤ፥ ኣርሼይ ዉሊዛ ባጋራ ዲዛ ጋꬋ ቢታኔ ዙማ ላዴታ፥ ቢታ ኡባ ካዎታራ ጋꬂ ኦይኪዴስ። ጎዳ ኢስራኤሌ ጾሳይ ኣዛዚዳ ማላ ቢታ ቦላ ሼምፖራ ዲዛ ኡባ ዲፒ ሂስቲዴስ፤ ኣይኮካ ሼምፖራ ፓጻ ኣሺቤና።",
+          "unit_order": 40
+        },
+        {
+          "source_marker": "41",
+          "source_element_id": "V41",
+          "text": "ኢያሶይ ኢስታ ቃዴሴ ባሪኔፔ ቢዲ ጋዛ ጋካናስ፥ ቃሴ ጎሼኔ ቢታፌ ዶሚዲ ጌባኦኔ ጋካናስ ኡባ ጾኒ ኦይኪዴስ።",
+          "unit_order": 41
+        },
+        {
+          "source_marker": "42",
+          "source_element_id": "V42",
+          "text": "ኢያሶይ ኢሲቶ ኦላ ኬዚዲ ሄ ካዎታኔ ኢስታ ቢታ ኡባ ጾኒዴስ። ሄሲካ ሃኒዳይ ጎዳ ኢስራኤሌ ጾሳይ ባ ዴራስ ኦሌቲዳ ጊሻሳ።",
+          "unit_order": 42
+        },
+        {
+          "source_marker": "43",
+          "source_element_id": "V43",
+          "text": "ሄሳፌ ጉዬ ኢያሶይኔ ኢስራኤሌ ኣሳይ ኡባይ ባ ዱንካኒዳሶ ጌልጌላ ሲሚዴስ።",
+          "unit_order": 43
+        }
+      ],
+      "notes": [
+        {
+          "verse": "10:13",
+          "marker": "cross-reference",
+          "text": "2ሳሜ 1፡18",
+          "source_reference": "1"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "source_chapter_label": "11",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 11",
+      "heading": [
+        "ፑዴሃ ባጋ ካዎታ ጾኔቴꬅ",
+        "ኢያሶይ ኦይኪዳ ቢታ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ሃጾሬ ካዎ ያቢኔይ ኢስራኤሌ ኣሳይ ጾኒዳይሳ ሲዪዳ ዎዴ፥ ሜዶኔ ካዎ ዮባቤስ፥ ሺሚሮኔ ካታማስ፥ ኣኪሻፌ ካዎስ ኪታ ዬዲዴስ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ሄሳꬆካ ፑዴሃ ባጋራ ሻራ ሜንꬆን ዲዛ ካዎታስ፥ ዱጌሃ ባጋን ኣራቤ ካዎታስ፥ ኣርሼይ ዉሊዛ ባጋራ ዲዛ ጋꬋ ካዎታሲኔ ኣርሼይ ዉሊዛ ባጋራ ዶሬ ዙማን ዲዛ ካዎታስ ኪቲዴስ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ቃሴ ኣርሼይ ኬዚዛ ባጋራኔ ዉሊዛ ባጋራ ዲዛ ካናኔታስ፥ ኣሞሬታስ፥ ሂቴታስ፥ ፓሪዜታስ፥ ሻራ ሜንꬆን ዲዛ ያቡሴታሲኔ ሚጺጳ ቢታን ሄርሞኔ ዙማፔ ጋርሳ ባጋራ ዲዛ ሂዌ ካዎታስ ኪቲዴስ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ሂስቲን ኢስቲ ባ ኦላንቻታ ኡባ ዴንꬂዲ ዳሮ ፓራታኔ ፓራ-ጋሬታ ኢሲፌ ኢስራኤሌ ኦላናስ ኤኪ ዪዳ። ኢስታስ ቆዳይ ኣባ ዶናን ዲዛ ኣንጮ ማላ ጮራ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ሄ ካዎቲ ዉሪ ኢሲፌ ባ ዎልቃ ሚንꬂዲ ኢስራኤሌ ኦላናስ ሜሮሜ ሃꬃ ማታን ዱንካኒዳ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ጎዳይ ኢያሶስ፥ «ኔኒ ኢስታስ ባቦፋ! ታኒ ዎንቶ ሃኒ ዎዴ ኢስታ ኡባ ሃይቂዳ ኣሳ ማላ ሂስታ ኢስራኤሌ ኩሼን ኣꬃ ኢማና። ኔኒ ኢስታ ፓራታ ኡባ ጊልዳያና፤ ኢስታ ፓራ-ጋሬታካ ታማን ጹጋና» ጊዴስ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ሂስቲን ኢያሶይኔ ኢዛ ኦላንቻቲ ኡባይ ኢስቲ ቆፖንታ ዲሺን ሜሮሜ ሃꬃ ማታን ኢስታ ቦላ ፑቱ ጊዲ ኢስታ ኦሊዳ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ጎዳይ ኢስታ ኢስራኤሌታ ኩሼን ኣꬂ ኢሚዴስ፤ ሂስቲን ኢስራኤሌቲ ኢስታ ጾኒዲ ጊታ ሲዶና ቢታ ኤፊዛ ኦጌራ፥ ማሲራፎቴ-ማይማ ጋካናስ ቃሴካ ኣርሼይ ሞኪዛ ባጋራ ሚጺጳ ሾባ ጋካናስ ዬዴꬂዳ። ኢስታፌ ኢሲ ኣሲካ ሼምፖራ ፓጻ ኣቲቤና።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ኢያሶይ ጎዳይ ኢዛ ኣዛዚዳይሳ ኡባ ኢስታ ቦላ ፖሊዴስ፤ ኢስታ ፓራታካ ጊልዳይዴስ፤ ኢስታ ፓራ-ጋሬታካ ታማን ጹጊዴስ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ሄ ዎዴ ኢያሶይ ጉዬ ሲሚዲ ሃጾሬ ካታማ ኦይኪዴስ፤ ሄ ካታማ ካዎዛካ ጊꬃ ማሻን ሲፊዴስ፤ ሃጾሬ ካታማስ ሄ ዎዴ ዲዛ ካዎቴꬃታ ኡባ ቦላ ኣላፌቴꬂ ዴስ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ሄ ካታማን ዲዛ ኣሳ ኡባ ጊꬃ ማሻን ሲፊዳ፤ ሼምፖራ ፓጻ ዲዛ ኡባ ኢሲኖካ ኣሾንታ ዎꬊዳ፤ ካታማዮካ ታማን ጹጊዳ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ጎዳ ኣይሌ ሙሴይ ኣዛዚዳ ማላ ኢያሶይ ሄ ካታማታኔ ኢስታ ካዎታ ኡባ ꬋይሲዴስ፤ ጊꬃ ማሻንካ ሲፊዴስ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ጊዲኮካ ኢያሶይ ሃጾሬ ካታማ ጹጎይሳፌ ኣቲን ኢስራኤሌ ኣሳይ ዙማታ ቦላ ኬጼቲዳ ካታማታ ጹጊቤና።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ኢስራኤሌ ኣሳይ ሄ ካታማታፔ ቦንቂዳ ሚሽ ኡባኔ ሜሄ ኡባ ባንታስ ኤኪዳ፤ ጊዶ ኣቲን ኣሳ ጊꬃ ማሻን ꬋይሲዳ፤ ሼምፖራ ፓጻ ዲዛ ኢሲኖካ ኣሺቤቴና።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ጎዳይ ባ ኣይሌ ሙሴ ኣዛዚዳ ማላ ሙሴይካ ኢያሶ ኣዛዚዴስ። ሂስቲን ኢያሶይካ ኣዛዞዛ ፖሊዴስ፤ ጎዳይ ሙሴስ ኣዛዚዳ ኡባፌ ኢዚ ኦꬆንታ ኣጊዳ ኣይ ሚሺካ ዴና።\nኢያሶይ ኦይኪዳ ቢታ",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "ሄሳꬆ ሂስቲዲ ኢያሶይ ሄ ቢታ ኡባ ጌዜ ቢታ፥ ኔጌቤ ቢታ፥ ጎሼኔ ቢታ፥ ኣርሼይ ዉሊዛሶ ባጋራ ዲዛ ጋꬋኔ ኣራቤ ቢታ ቃሴካ ኢስራኤሌ ጌዜኔ ጋꬋ ኡባ ሺሺ ኦይኪዴስ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17",
+          "source_element_id": "V17",
+          "text": "ሄሲካ ሴይሬ ጋካናስ ዲዛ ሃላቄ ዙማፔ ቢዲ ሄርሞኔ ዙማፔ ዳንኤ ባጋራ ሊባኖሴ ዙሌን ባኣሊ-ጋዴ ጋካናስ ዲዛ ቢታ ኡባ ጋኪዴስ። ኢስታ ካዎታካ ኡባ ኦይኪዲ ዎꬊዴስ።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "18",
+          "source_element_id": "V18",
+          "text": "ኢያሶይ ዳሮ ዎዴ ሄ ካዎታ ኡባራ ኦሌቲሼ ጋምኢዴስ።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "19",
+          "source_element_id": "V19",
+          "text": "ጌባኦኔን ዲዛ ሂዌታፔ ኣቲን ሃራ ካታማይ ኢሶይኔ ኢስራኤሌታራ ሳሮቴꬃን ዴኣና ጫቄቲቤና፤ ኢስራኤሌቲ ኡባታካ ኦሊ ኦይኪዳ።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "20",
+          "source_element_id": "V20",
+          "text": "ጎዳይ ሙሴ ኣዛዚዳ ማላ ኢያሶይ ኢስታስ ቃꬌቶንታ ኡባ ዎꬊዴስ። ጋሶይካ ኢስቲ ኢስራኤሌታራ ኦሌታና ማላ ጎዳይ ኢስታ ዎዚና ዳሚሲዴስ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "21",
+          "source_element_id": "V21",
+          "text": "ሄ ዎዴ ኢያሶይ ቢዲ፥ ጌዜ ቢታን ኬብሮኔ ካታማን፥ ዳቢሬ ካታማን፥ ኣናቤ ካታማን፥ ዩሁዳኒኔ ኢስራኤሌ ጌዜ ቢታ ኡባን ዲዛ ኤናቄ ዛሬታ ኡባኔ ኢስታ ካታማ ኡባ ꬋይሲዴስ።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "22",
+          "source_element_id": "V22",
+          "text": "ኢስታፌ ጉꬃቲ ጻላ ጋዛን፥ ጌቴኒኔ ኣሽዶዴን ኣቲዳ፤ ጊዶ ኣቲን ኢስራኤሌን ሼምፖራ ፓጻ ኣቲዳ ኤናቄ ዜሬꬂ ዴና።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "23",
+          "source_element_id": "V23",
+          "text": "ጎዳይ ሙሴ ኣዛዚዳ ማላ ኢያሶይ ቢታ ኡባ ኦይኪዴስ፤ ሂስቲዲ ኢስራኤሌ ኣሳስ ኢስታ ቆሞን ቆሞን ሻኪ ኢሚዴስ፤ ሄሳፌ ጉዬ ቢታይ ኦላፔ ሼምፒዴስ።",
+          "unit_order": 23
+        }
+      ],
+      "notes": [
+        {
+          "verse": "11:20",
+          "marker": "cross-reference",
+          "text": "ዛሬ 7፡16",
+          "source_reference": "1"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "source_chapter_label": "12",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 12",
+      "heading": [
+        "ሙሴይኔ ኢያሶይ ጾኒዳ ካዎታ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ኢስራኤሌ ኣሳይ ዮርዳኖሴ ሻፋፔ ኣርሼይ ሞኪዛ ባጋራ ዲዛ ኣራቤ ቢታ ኡባ ኦይኪዲ ኣርኖኔ ዙሌራ ቢዲ ሄርሞኔ ዙማ ጋካናስ ዲዛ ሄ ዴሬ ካዎታ ጾኒዲ ዎꬂ ኤኪዴስ። ሄ ጾኔቲዳ ካዎቲ ሃይሳፌ ካሊ ጻፌቲዳይታ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ሃሴቦኔ ካታማን ኡቲዲ ኣይሲዛ ኣሞሬታ ካዎይ ሲሆኔ። ኢዚ ኣርኖኔ ሾባ ላንቄን ዲዛ ኣሮኤሬ ዙሌራ ካንꬂ ቢዲ ኣሞኔታ ዛዋ ያቦቄ ሻፋ ጋካናስ ሃሪዴስ፤ ሄሲ ጋላኣዴ ቢታፌ ባጋ ጉጂ ኤኬስ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ቃሴካ ኣርሼይ ሞኪዛ ባጋራ ዮርዳኖሴ ሾባፌ ቢዲ ጋሊላ ኣባ ጋካናስ፥ ቤቲ-ያሺሞቴ ባጋራ ቢዲ ማጺኔ ኣባፌ ዱጌሃ ባጋራ ዲዛ ፒዝጋ ዙማስ ዳንኤ ባጋ ጋካናስ ዲዛሶዛ ሃሪዴስ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ኣስታሮቴኒኔ ኤዲራኤን ኡቲዲ ሃሪዛ ኤራፋይሜ ዜሬꬃታፔ ዉርሴꬃ ቦላ ካዎቲዳይ ባሳኔ ካዎ ኣጌ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ኢዚ ሄርሞኔ ዙማ፥ ሳላካ፥ ባሳኔ ቢታ ኡባ፥ ቢዲ ጌሹሬታኔ ማኢካቴ ዛዋ ጋካናስ፥ ቃሴካ ጋላኣዴ ቢታፌ ባጋ ኤኪ ቢዲ ሃሴቦኔ ካዎ ሲሆኔ ዛዋ ጋካናስ ሃሪዴስ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ጎዳ ኣሽካራ ሙሴይኔ ኢስራኤሌ ኣሳይ ሃ ካዎታ ጾኒዳ፤ ሂስቲዲ ጎዳ ኣይሌ ሙሴይ ኢስታ ቢታ ኦሮቤሌ ቆሞታስ፥ ጋዴ ቆሞታሲኔ ሚናሴ ቆሞታፔ ባጋይታስ ጺንጾ ጊዳና ማላ ሻኪ ኢሚዴስ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ኢያሶይኔ ኢስራኤሌ ኣሳይ ዮርዳኖሴ ሻፋፔ ኣርሼይ ዉሊዛ ባጋን ዲዛ ካዎታ ኡባ ጾኒዳ። ሄይቲ ሃሪዛ ዛዋይ ሊባኖሴ ሾባን ዲዛ ባኣሊ-ጋዴፔ ዶሚዲ ሴይሬን ሃላቄ ዙማ ጋኬስ፤ ኢያሶይ ሄ ቢታታ ሻኪዲ ኢስራኤሌ ቆሞታስ ጺንጾ ሂስቲ ኢሚዴስ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ሄ ቢታቲ፥ ጌዜ ዴሬ፥ ኣርሼይ ዉሊዛሶ ባጋን ዲዛ ዙምቡላታ ላዴ፥ ኣራቤ ዙማታ ላዴ፥ ባዞ ቢታኔ ኔጌቤ ቢታ። ሄ ቢታቲ ካሴ ሂቴቲ፥ ኣሞሬቲ፥ ካናኔቲ፥ ፓሪዜቲ፥ ሂዌቲኔ ያቡሴቲ ዴኢዛ ቢታ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ኢስራኤሌ ኣሳይ ጾኒዳ ካዎቲ ሃይሳፌ ካሊ ዲዛይታ፤ ኢያርኮ ካዎ፥ ቤቴሌ ማታን ዲዛ ኣዬ ካዎ፥",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ዬሩሳላሜ ካዎ፥ ኬብሮኔ ካዎ፥",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ያርሙቴ ካዎ፥ ላኪሼ ካዎ፥",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ኤጊሎኔ ካዎ፥ ጌዜሬ ካዎ፥",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ዳቢሬ ካዎ፥ ቤቲ-ጋዴራ ካዎ፥",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ሆርማ ካዎ፥ ኣራዴ ካዎ፥",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ሊቢና ካዎ፥ ኣዱላሜ ካዎ፥",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "ማቄዳ ካዎ፥ ቤቴሌ ካዎ፥",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17",
+          "source_element_id": "V17",
+          "text": "ታጱሄ ካዎ፥ ሄፌሬ ካዎ፥",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "18",
+          "source_element_id": "V18",
+          "text": "ኣፌቄ ካዎ፥ ላሻሮኔ ካዎ፥",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "19",
+          "source_element_id": "V19",
+          "text": "ሜዶኔ ካዎ፥ ሃጾሬ ካዎ፥",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "20",
+          "source_element_id": "V20",
+          "text": "ሺሚሮኔ-ሚሮኔ ካዎ፥ ኣኪሻፌ ካዎ፥",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "21",
+          "source_element_id": "V21",
+          "text": "ታኢናኬ ካዎ፥ ማጊዶ ካዎ፥",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "22",
+          "source_element_id": "V22",
+          "text": "ቃዴሴ ካዎ፥ ቃርሜሎሴን ዲዛ ዮቂናኣሜ ካዎ፥",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "23",
+          "source_element_id": "V23",
+          "text": "ዙምቡላታ ቦላ ዲዛ ዶሬ ካዎ፥ ጌልጌላን ዲዛ ጎይሜ ካዎ፥",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "24",
+          "source_element_id": "V24",
+          "text": "ቲርጻ ካዎ። ሄይቲ ኢሲ ቦላ 31 ካዎታ።",
+          "unit_order": 24
+        }
+      ],
+      "notes": [
+        {
+          "verse": "12:5",
+          "marker": "cross-reference",
+          "text": "ታይ 21፡21-35፤ ዛሬ 2፡26—3፡11",
+          "source_reference": "1"
+        },
+        {
+          "verse": "12:6",
+          "marker": "cross-reference",
+          "text": "ታይ 32፡33፤ ዛሬ 3፡12",
+          "source_reference": "2"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "source_chapter_label": "13",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 13",
+      "heading": [
+        "ቡሮ ኦይኬቲቤና ቢታታ",
+        "ዮርዳኖሴ ሻፋፔ ኣርሼይ ሞኪዛ ባጋራ ዲዛ ቢታ ጊሼሬꬆ",
+        "ኦሮቤሌ ቆሞታ ጋኪዳ ጺንጾ",
+        "ጋዴ ቆሞታ ጋኪዳ ጺንጾ",
+        "ሚናሴ ቆሞታፔ ባጋይታስ ጋኪዳ ጺንጾ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ኢያሶይ ጪሚን ኢዛስ ላይꬃይ ኬሂ ቢዳ ዎዴ ጎዳይ፥ «ኔኒ ኬሃ ጪማዳሳ፤ ላይꬃይካ ኔስ ኬሂ ቢዴስ፤ ጊዶ ኣቲን ቡሮ ኦይኬቶንታ ዳሮ ቢታይ ዴስ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ቡሮ ኦይኬቲቤና ቢታቲ ሃይታ፤ ፊሊስጼሜታ ቢታኔ ጌሹሬታ ቢታ ኡባታ፥",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ጊብጼፔ ኣርሼይ ሞኪዛ ባጋራ ዲዛ ሺሆሬ ሻፋፔ ዶሚዲ፥ ፑዴሃ ባጋራ ዲዛ ኣቃሮኔ ዛዋ ጋካናስ ዲዛ ቢታቲ ዉሪ ካናኔ ቢታ ማላ ቆዴቴቴስ። ኢቻሽ ፊሊስጼሜ ካዎቲ ሃሪዛ ካታማቲ ጋዛ፥ ኣሽዶዴ፥ ኣስቄሎና፥ ጌቴኔ ኣቃሮኔ ጌቴቲዛይታ ጊዲሺን ሄይቲካ ኣዌታ ቢታ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ዱጌሃ ባጋራ ካናኔታ ቢታይ ዉሪ፥ ሲዶናታስ ዲዛ ማኣሬ ጌቴቲዛሶፔ ዶሚ ቢዲ ኣሞሬታ ቢታን ዲዛ ኣፌቄ ካታማ ጋካናስ፥",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ጌባሌታ ቢታ፥ ኣርሼይ ሞኪዛ ባጋራ ባኣሊ-ጋዴፔ ቢዲ ሄርሞኔ ዙማስ ዳንኤ ባጋራ ኣꬊ ቢዲ ሃማቴ ፑርዴ ጋካናስ ዲዛ ሊባኖሴ ቢታ ኡባ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "«ሊባኖሴፔ ቢዲ ማሲራፎቴ-ማይማን ዲዛ ጌዜ ዴሬን ሲዶናታ ቢታይካ ኦይኬቲቤና። ታኒ ታ ሁኤስ ኢስራኤሌ ኣሳ ሲንꬃፌ ኢስታ ጎዳ ኬሳና። ታኒ ኔና ኣዛዚዳ ማላ ኔኒ ሃ ቢታታ ኢስራኤሌ ኣሳስ ጺንጾ ሂስታ ሻካ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ኔኒ ሃ ቢታ ኡዱፉን ቆሞታሲኔ ሚናሴ ቆሞታፔ ባጋይታስ ጊሻ» ጊዴስ።\nዮርዳኖሴ ሻፋፔ ኣርሼይ ሞኪዛ ባጋራ ዲዛ ቢታ ጊሼሬꬆ",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ሚናሴ ቆሞታፔ ባጋቲ፥ ኦሮቤሌ ዛሬቲኔ ጋዴ ዛሬቲ ጎዳ ኣይሌ ሙሴይ ዮርዳኖሴ ሻፋፔ ሄ ፒንꬃን ኣርሼይ ሞኪዛሶ ባጋራ ኢስታስ ኢሚዳ ቢታ ኤኪዳ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ኢስታ ቢታይ ኣርኖኔ ሾባ ላንቄን ዲዛ ኣሮኤሬ ካታማፔ ዶሚዲ ሄ ሾባ ጊዶን ዲዛ ካታማ ኦይኪዲ ሜዴባ ጌቴቲዛ ጌዜ ዴሬ ካንꬂ ቢዲ ዲቦኔ ጋኬስ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ቃሴ ሃሴቦኔን ኡቲዲ ኣሞኔታ ዛዋ ጋካናስ ሃሪዳ ኣሞሬታ ካዎ ሲሆኔ ካታማታ ኡባ ጋꬂ ኦይኬስ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ሄሳꬆካ ጋላኣዴ ቢታ፥ ጌሹሬታ ቢታ፥ ማኢካቴ ቢታ፥ ሄርሞኔ ዙማ ኡባ፥ ባሳኔ ቢታ ቢዲ ሳላካ ጋካናስ ኦይኬስ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ሄሲካ ኣስታሮቴ ካታማኒኔ ኤዲራኤ ካታማን ዲሼ ሃሪዳ ኣጌ ካዎቴꬃ ኡባ ኦይኬስ፤ ኣጌይ ዉርሼ ኣቲዳ ኤራፋይሜ ዛሬታፔ ኢሳ። ሙሴይ ሄ ኣሳ ጾኒ ጎዲዲ ኢስታ ቢታ ኦይኪዴስ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ጊዶ ኣቲን ኢስራኤሌ ኣሳይ ጌሹሬ ኣሳኔ ማኢካቴ ኣሳ ኬሲ ጎዶንታ ኣጊዳ ጊሻስ ኢስቲ ሃች ጋካናስ ኢስራኤሌ ኣሳ ጊዶን ዴቴስ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ሙሴይ ሌዌ ቆሞታስ ጺንጾ ኢሚቤና፤ ጎዳይ ሙሴስ ጊዳ ማላ፥ ጎዳስ ኢስራኤሌ ጾሳስ ታማን ጹጌቲዛ ያርሾይ ኢስታስ ጺንጾ።\nኦሮቤሌ ቆሞታ ጋኪዳ ጺንጾ",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ሙሴይ ኦሮቤሌ ቆሞታስ ኢስታ ዛርኬን ዛርኬን ጊሼሬꬂ ኢሚዳ ቢታይ ሃይሳፌ ካሊ ዲዛይሳ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "ኢስታ ዛዋይ ኣርኖኔ ሾባ ላንቄን ዲዛ ኣሮኤሬ ካታማፔኔ ሄ ሾባ ጊዶን ዲዛ ካታማ ኦይኪዲ፥ ሜዴባ ጌዜ ዴሬ ካንꬂ ቢዲ፥",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17",
+          "source_element_id": "V17",
+          "text": "ሃሴቦኔኔ ጌዜ ዴሬን ዲዛ ካታማታ ኡባ፥ ቃሴ ዲቦኔ፥ ባሞቲ ባኣሌ፥ ቤቲ-ባኣሊ-ሜኦኔ፥",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "18",
+          "source_element_id": "V18",
+          "text": "ያሃጼ፥ ቂዲሞቴ፥ ሜፋኣቴ፥",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "19",
+          "source_element_id": "V19",
+          "text": "ቂሪያታይሜ፥ ሴባማ ሾባ ጊዶን ዲዛ ዙምቡላ ቦላ ዲዛ ጼሬቴ-ሻሃሬ፥",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "20",
+          "source_element_id": "V20",
+          "text": "ቤቲ-ፔኦሬ፥ ፒዝጋ ዱጉንꬃታኔ ቤቲ-ያሺሞቴ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "21",
+          "source_element_id": "V21",
+          "text": "ሄሲካ ጌዜ ቢታን ዲዛ ካታማታ ኡባኔ ሃሴቦኔ ካታማን ኡቲዲ ሃሪዳ ኣሞሬታ ካዎ ሲሆኔ ቢታ ኡባ ኦይኬስ። ሙሴይ ካዎ ሲሆኔኔ ሄ ቢታን ዲዛ ዳናታ፥ ኤዋ፥ ኤሬቄሜ፥ ጹሬ፥ ኡሬኔ ኤሬባኤ ጌቴቲዛ ሚዲያሜ ሃላቃታ ኦሊ ጾኒዴስ።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "22",
+          "source_element_id": "V22",
+          "text": "ኢስራኤሌ ኣሳይ ኦላን ዎꬊዳ ኣሳፔ ሃራ፥ ቢኦሬ ና ማሮ ባላሜካ ማሻን ሲፊዳ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "23",
+          "source_element_id": "V23",
+          "text": "ኦሮቤሌ ቆሞታ ዛዋይ ዮርዳኖሴ ሻፋ። ኦሮቤሌ ቆሞቲ ባ ዛርኬን ዛርኬን ጊሼቲ ኤኪዳ ካታማቲኔ ጉታቲ ሄይታ።\nጋዴ ቆሞታ ጋኪዳ ጺንጾ",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "24",
+          "source_element_id": "V24",
+          "text": "ሙሴይ ጋዴ ቆሞታስ ኢስታ ዛርኬን ዛርኬን ጊሼሬꬂ ኢሚዳ ቢታይ ሃይሳፌ ካሊ ዲዛይሳ።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "25",
+          "source_element_id": "V25",
+          "text": "ኢስታ ዛዋይ ኢያዜሬ፥ ጋላኣዴ ካታማታ ኡባ ኤራባ ኣቻን ዲዛ ኣሮኤሬ ጋካናስ ዲዛ ኣሞኔታ ቢታፌ ባጋ፥",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "26",
+          "source_element_id": "V26",
+          "text": "ሃሴቦኔፔ ቢዲ ኤራሞቴ-ሚጺጳኔ ቤጾኒሜ፥ ማሃናይሜፔ ቢዲ ዳባሬ ዛዋ፥",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "27",
+          "source_element_id": "V27",
+          "text": "ኣርሼይ ሞኪዛ ባጋራ ዲዛ ዮርዳኖሴ ሾባስ ጊዶን ሃሴቦኔ ካዎ ሲሆኔ ካዎቴꬃፌ ኣቲዳይታ፥ ቤቲ-ሃራሜ፥ ቤቲ-ኒሚሬ፥ ሱኮቴኔ ጻፎኔ ጌቴቲዛ ካታማታ ኢሲፌ ጋꬂ ኦይኬስ።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "28",
+          "source_element_id": "V28",
+          "text": "ጋዴ ቆሞቲ ባ ዛርኬን ዛርኬን ጊሼቲ ኤኪዳ ካታማቲኔ ጉታቲ ሄይታ።\nሚናሴ ቆሞታፔ ባጋይታስ ጋኪዳ ጺንጾ",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "29",
+          "source_element_id": "V29",
+          "text": "ሙሴይ ሚናሴ ቆሞታፔ ባጋይታስ ኢስታ ዛርኬን ዛርኬን ጊሼሬꬂ ኢሚዳ ቢታይ ሃይሳፌ ካሊ ዲዛይሳ።",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "30",
+          "source_element_id": "V30",
+          "text": "ኢስታ ዛዋይ ማሃናይሜፔ ዶሚዲ ባሳኔ ቢታ ኡባ ጉጂዲ ባሳኔን ዲዛ 60 ያኢሬ ካታማታ ኡባ ኤኪዲ ባሳኔ ካዎ ኣጌይ ሃሪዛሶ ኡባ ጊዲሺን፥",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "31",
+          "source_element_id": "V31",
+          "text": "ጋላኣዴፔ ባጋኔ ባሳኔን ኣጌ ካዎቴꬃስ ዋና ካታማታ ኣስታሮቴኔ ኤዲራኤ ጋኬስ። ሄይቲ ሚናሴ ና ማኪሬ ዛሬታስ ኢሜቲዳይታ ጊዲሺን ሄይቲካ ማኪሬ ናይታፔ ባጋይታስ ኢስታ ዛርኬን ዛርኬን ኢሜቲዳይታ።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "32",
+          "source_element_id": "V32",
+          "text": "ዮርዳኖሴፔ ሄ ፒንꬃን፥ ኢያርኮፌ ኣርሼይ ሞኪዛ ባጋራ ዲዛ ሞኣቤ ዴምባን ዲዛ ዎዴ ሙሴይ ሻኪዲ ኢሚዳ ቢታይ ሄሳ።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "33",
+          "source_element_id": "V33",
+          "text": "ጊዶ ኣቲን ሙሴይ ሌዌ ቆሞታስ ጺንጾ ኢሚቤና፤ ካሴ ጎዳ ኢስራኤሌ ጾሳይ ኢስታስ ዮቲዳ ማላ ኢዚ ኢስታ ጺንጾ።",
+          "unit_order": 33
+        }
+      ],
+      "notes": [
+        {
+          "verse": "13:6",
+          "marker": "cross-reference",
+          "text": "ታይ 33፡54",
+          "source_reference": "1"
+        },
+        {
+          "verse": "13:8",
+          "marker": "cross-reference",
+          "text": "ታይ 32፡33፤ ዛሬ 3፡12",
+          "source_reference": "2"
+        },
+        {
+          "verse": "13:14",
+          "marker": "cross-reference",
+          "text": "ዛሬ 18፡1",
+          "source_reference": "3"
+        },
+        {
+          "verse": "13:33",
+          "marker": "cross-reference",
+          "text": "ታይ 18፡20፤ ዛሬ 18፡2",
+          "source_reference": "4"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "source_chapter_label": "14",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 14",
+      "heading": [
+        "ዮርዳኖሴ ሻፋፔ ኣርሼይ ዉሊዛሶ ባጋ ቢታ ጊሼቾ",
+        "ካሌቤስ ኢሜቲዴ ኬብሮኔ ቢታ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ቄሴ ኤልኤዜሬይ፥ ናዌ ና ኢያሶይኔ ኢስራኤሌ ዛሬታ ኮራፒኔቲ ጊሼቺ ኢሚን ኢስራኤሌ ኣሳይ ጊሼቲ ኤኪዲ ላቲዳ ቢታይ ሃይሳፌ ካሊዛይሳ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ጎዳይ ሙሴ ባጋራ ኣዛዚዳ ማላ ኢስቲ ጊሼቲ ኤኪዳ ቢታይ ኡዱፉን ቆሞታሲኔ ባጋይታስ ሳማን ጋኪዴስ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ሙሴይ ናምኡ ቆሞታሲኔ ባጋታስ ዮርዳኖሴ ሻፋፔ ሄ ፒንꬃን ኣርሼይ ሞኪዛ ባጋራ ዲዛ ጋዴዛ ኢስታስ ጺንጾ ሂስቲ ኢሚዴስ፤ ጊዶ ኣቲን ሌዌ ቆሞታስ ኢስታ ጊዶን ጺንጾ ኢሚቤና።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ዮሴፌ ናይቲ ሚናሴኔ ኤፍሬሜ ጌቴቲዲ ናምኡ ዛርኬ ጊዲዳ። ሙሴይ ሌዌ ቆሞታስ ላታ ቢታ ኢሚቤና፤ ጊዶ ኣቲን ሌዌ ቆሞታስ ኢስቲ ዲዛ ካታማታኔ ኢስቲ ባ ሜሄኔ ዶርሳ ሄሚዛሶሆ ጻላ ኣቲን ሃራ ጋዴይ ኢስታስ ኢሜቲቤና።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ሄሳ ጊሻስ ጎዳይ ሙሴ ኣዛዚዳ ማላ ኢስራኤሌ ኣሳይ ቢታ ጊሼቲ ኤኪዳ።\nካሌቤስ ኢሜቲዴ ኬብሮኔ ቢታ",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ኢሲ ጋላስ ዩሁዳ ኣሳይ ኢያሶኮ ጌልጌላ ሺቂዴስ፤ ኢስታፌ ቄናዜ ዴሬ ኣስ ዮፊኔ ና ካሌቤይ ኢያሶስ፥ «ኑኒ ቃዴሴ ባሪኔን ዲሺን ጎዳ ኣስ ሙሴስ ኔ ጊሻሲኔ ታ ጊሻስ ዮቲዳይሳ ኔ ኤራሳ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ጎዳ ኣይሌ ሙሴይ ቢታዮ ዎቻዳ ያና ማላ ቃዴሴ ባሪኔፔ ታና ኪቲዛ ዎዴ ታስ ላይꬃይ 40። ሄ ዎዴ ታኒ ኢዛስ ኣማንꬂዛ ዮኦ ኤካ ያዲስ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ታናራ ቢዳ ኣሳቲ ዴራ ዎዚና ሂርጋን ኩንꬂዳ፤ ታኒ ጊዲኮ ጎዳ ታ ጾሳ ኩሜꬃ ዎዚናፔ ካላዲስ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ሄ ጋላስ ሙሴይ፥ ‹ኔኒ ጎዳ ታ ጾሳ ኩሜꬃ ዎዚናፔ ካሊዳ ጊሻስ ኔ ቶሆይ ዬꬊዳ ቢታይ ሜርናስ ኔሲኔ ኔ ዜሬꬃስ ላታ ቢታ ጊዳና› ጊዲ ታስ ጫቂዴስ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "«ጎዳይ ሃ ዮኦዛ ሙሴስ ዮቶሶፔ ዶሚዲ ኢስራኤሌ ኣሳይ ባዞ ቢታን ቶይላቲሺን ታና 45 ላይꬅ ናጊዲ ሼምፖራ ፓጻ ዎꬂዴስ፤ ሃኢ ታ ላይꬃይ 85 ጊዲዴስ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ጊዲኮካ ሃኢ ታስ ዲዛ ሚኖቴꬃይ ቤኒ ሙሴይ ታና ኪቲዛ ዎዴ ዲዛ ሚኖቴꬃ ማላ። ታስ ሃኢካ ኦሌታና ባናስ ቤኒ ዎልቃይኔ ሚኖቴꬂ ዴስ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ሄሳ ጊሻስ ጎዳይ ታስ ኢማና ጊዳ ሃ ጌዜ ቢታ ሃኢ ታስ ኢማ። ሄ ዎዴ ኤናቄቲ ሄ ቢታን ዲዛይሳኔ ኢስታ ካታማቲካ ጊታኔ ጊምቤቲዳይታ ጊዲዳይሳ ኔ ሲያዳሳ፤ ጊዶ ኣቲን ጎዳይ ታናራ ጊዲኮ ኢዚ ጊዳ ማላ ታኒ ኢስታ ሄ ቢታፌ ዬዴꬃና» ጊዴስ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ሄሳፌ ጉዬ ኢያሶይ ዮፊኔ ና ካሌቤ ኣንጂዲ ኬብሮኔ ኢዛስ ጺንጾ ሂስቲ ኢሚዴስ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ጎዳ ኢስራኤሌ ጾሳ ኢዚ ኩሜꬃ ዎዚናፔ ካሊዳ ጊሻስ ሄ ጋላሳፌ ዶሚዲ ኬብሮኔይ ቄናዜ ዴሬ ኣስ ዮፊኔ ና ካሌቤስ ጺንጾ ጊዲዴስ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ኬብሮኔይ ካሴ ኤናቄታ ኡባፌ ባይራ ጊዲዳ ኣርባኤ ሱንꬃን ቂሪያቴ-ኣርባኤ ጌቴታ ጼይጌታዱስ።\nሄሳፌ ጉዬ ሄ ቢታያ ኦላፔ ሼምፓዱስ።",
+          "unit_order": 15
+        }
+      ],
+      "notes": [
+        {
+          "verse": "14:2",
+          "marker": "cross-reference",
+          "text": "ታይ 26፡52-56፤ 34፡13",
+          "source_reference": "1"
+        },
+        {
+          "verse": "14:3",
+          "marker": "cross-reference",
+          "text": "ታይ 32፡33፤ 34፡14-15፤ ዛሬ 3፡12-17",
+          "source_reference": "2"
+        },
+        {
+          "verse": "14:6",
+          "marker": "cross-reference",
+          "text": "ታይ 14፡30",
+          "source_reference": "3"
+        },
+        {
+          "verse": "14:7",
+          "marker": "cross-reference",
+          "text": "ታይ 13፡1-30",
+          "source_reference": "4"
+        },
+        {
+          "verse": "14:9",
+          "marker": "cross-reference",
+          "text": "ታይ 14፡24",
+          "source_reference": "5"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "source_chapter_label": "15",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 15",
+      "heading": [
+        "ጊሾን ዩሁዳ ቆሞታ ጋኪዳ ጋዴ",
+        "ካሌቤይ ጾኒ ኦይኪዳ ኬብሮኔኔ ዳቢሬ ቢታ",
+        "(ዳና 1፡11-15)",
+        "ዩሁዳ ቆሞታስ ኢሜቲዳ ጺንጾ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ዩሁዳ ቆሞታስ ኢስታ ዛርኬን ዛርኬን ሳማ ዬጊን ጋኪዳ ጋዴይ ቢዲ ኤዶሜራ ዛዋቲዲ፥ ዱጌሃ ባጋ ጋጻን ዲዛ ጺኔ ጌቴቲዛ ባዞ ጋኬስ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ዱጌሃ ባጋራ ኢስታ ዛዋይ ማጺኔ ኣባስ ዱጌሃ ባጋ ጼራፔ ዶሜስ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ኣኪራቢሜ ፑርዴራ ካንꬂዲ፥ ጺኔ ባዞራ ቢዲ ቃዴሴ ባሪኔ ዱጌሃ ባጋ ጋኬስ። ቃሴ ሄሳፌ ሄጺሮሜራ ካንꬂ ፑዴ ኣዳሬ ጋኪዲ ቃርቃኮ ሲሜስ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ኣጺሞኔራ ካንꬂ ቢዲ ሃꬂ ባይንዳ ጊብጼ ሻፋን ጋኪዲ ሜዲቴራኔ ኣባን ዛዋቴስ። ዱጌሃ ባጋራ ዲዛ ዩሁዳ ዛዋይ ሃይሳ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ኣርሼይ ሞኪዛሶ ባጋራ ዲዛ ዛዋይ ማጺኔ ኣባ ጊዲሺን ሄሲካ ዮርዳኖሴ ሻፋይ ኢዛን ቢ ጌሊዛሶ ጋኬስ።\nፑዴሃ ባጋራ ዲዛ ዛዋይ ዮርዳኖሴ ሻፋይ ማጺኔ ኣባን ጌሊዛሶፔ ዶሚዲ፥",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ፑዴ ቤቲ-ሆጊሌ ኬዚዲ ዮርዳኖሴ ሾባፌ ጋና ባጋራ ካንꬂዲ ኦሮቤሌ ና ቦሃኔ ሹቻን ዛዋቴስ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ሂስቲዲ ዛዋዚ ኣኮሬ ሾባፌ ዳቢሬ ካታማ ፑዴ ኬዚዲ፥ ሾባፌ ዱጌ ባጋራ ዲዛ ኣዱሚሜ ፑርዴፌ ሲንꬃራ ካንꬂዲ ፑዴሃ ባጋ ጌልጌላኮ ሲሜስ። ቃሴ ኤን-ሼሚሼ ጌቴቲዛ ፑልቶዛራ ካንꬂ ቢዲ ፑዴ ኤን-ሮጌሌ ጌቴቲዛሶ ኬዜስ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ሄሳፌ ሄኖሜ ና ሾባራ ካንꬂ ቢዲ ያቡሴታ ካታማ ዬሩሳላሜይ ዲዛሶ ዱጌሃ ባጋራ ካንꬂዲ ኤራፋይሜ ሾባስ ፑዴሃ ባጋ ጼራራ ካንꬂ ቢዲ ሄኖሜ ሾባስ ኣርሼይ ዉሊዛ ባጋራ ዲዛ ዙምቡላ ጼራ ጋኬስ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ሄፔካ ዙምቡላ ጼራፔ ዶሚዲ ኔፍቶ ፑልቶታራ ካንꬂዲ ኤፍሮኔ ዴሬን ዲዛ ካታማታኮ ጋኬስ። ሄሳፌ ቃሴ ዱጌ ባኣላ ዎይኮ ቂሪያቴ-ዪኣሪሜ ጌቴቲዛ ካታማኮ ዎꬌስ፤",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ባኣላፔ ኣርሼይ ዉሊዛ ባጋራ ዲዛ ሴይሬ ዙማኮ ሚርቄቲዲ ኪሳሎኔ ጌቴቲ ጼይጌቲዛ ዪኣሪሜ ዙምቡላስ ፑዴሃ ባጋራ ዲዛ ዱጉንꬃራ ዱጌ ቤቲ-ሼሚሼ ዎꬊዲ ቴሚና ፒኔስ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ቃሴ ኣቃሮኔስ ፑዴሃ ባጋራ ዲዛ ዱጉንꬃራ ካንꬂዲ ሺካሮኔኮ ሚርቄቲዲ ባኣላ ዙማ ቦላራ ኣꬊ ቢዲ ያቢንኤሌ ጋኬስ፤ ሄሳፌ ጉዬ ዛዋይ ቢዲ ኣባን ኤቄስ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ኣርሼይ ዉሊዛ ባጋራ ዲዛ ዛዋይ ሜዲቴራኔ ኣባ ጋጻ ጋኬስ። ዩሁዳ ቆሞቲ ባ ዛርኬን ዛርኬን ኤኪዳ ዛዋቲ ሃይታንታ።\nካሌቤይ ጾኒ ኦይኪዳ ኬብሮኔኔ ዳቢሬ ቢታ\n(ዳና 1፡11-15)",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ጎዳይ ኢዛ ኣዛዚዳ ማላ ኢያሶይ ዩሁዳ ጊሻፔ ሻኪዲ ኬብሮኔ ጌቴቲዛሮ ቂሪያቴ-ኣርባኤ ዮፊኔ ና ካሌቤስ ኢሚዴስ፤ ኣርባኤይ ኤናቄ ኣዋ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ካሌቤይካ ኤናቄ ዛሬ ሄꬓታ፥ ሻሻዬ፥ ኣሂማኔኔ ታሊማዬ ኬብሮኔፔ ኬሲ ጎዲዴስ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ሄሳፌ ጉዬ ዳቢሬ ዴሬ ቦላ ኦላስ ዴንዲዴስ፤ ዳቢሬ ካታማይ ካሴ ቂሪያቴ-ሴፌሬ ጌቴታዉስ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "ካሌቤይ፥ «ቂሪያቴ-ሴፌሬ ኦሊዲ ኦይኪዛዴስ ታኒ ታ ናዮ ኣኪሳ ኢማና» ጊዴስ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17",
+          "source_element_id": "V17",
+          "text": "ሄሳ ጊሻስ ካሌቤ ኢሻ ቄናዜ ና ኦቲንኤሌይ ሄ ካታማ ኦሊዲ ኦይኪዴስ፤ ሂስቲን ካሌቤይ ባ ናዮ ኢዛስ ማቾ ኢሚዴስ።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "18",
+          "source_element_id": "V18",
+          "text": "ኣኪሳይ ኦቲንኤሌ ጌሊዳፔ ጉዬ ኢዚ ኣዋይ ኢዚስ ጋዴ ኢማና ማላ ባ ኣዋ ዎሳና ማላ ባ ኣዚናስ ሚንꬃ ዮታዱስ፤ ኢዛ ሃሬዛ ቦላፌ ዎꬊን ካሌቤይ ኢዞ፥ «ታ ኔስ ኣይ ኦꬃና ማላ ኮያይ?» ጊ ኦይቺዴስ።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "19",
+          "source_element_id": "V19",
+          "text": "ኢዛካ ዛራዳ፥ «ታስ ሎኦ ኦꬃርኪ! ኔኒ ካሴ ታስ ኔጌቤን ጋዴ ኢሚዳይሳꬆ ሃኢካ ፑልቶ ሃꬃራ ዲዛ ጋዴ ታስ ኢማ» ጋዱስ። ሂስቲን ካሌቤይ ኢዚስ ፑዴራኔ ዱጌራ ዲዛ ፑልቶ ኢሚዴስ።\nዩሁዳ ቆሞታስ ኢሜቲዳ ጺንጾ",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "20",
+          "source_element_id": "V20",
+          "text": "ዩሁዳ ቆሞታስ ኢስታ ዛርኬን ዛርኬን ጊሻስ ኢሚዳ ቢታይ ሃይሳፌ ካሊ ዲዛይሳ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "21",
+          "source_element_id": "V21",
+          "text": "ኔጌቤ ሄራን ኤዶሜ ዛዋ ጼራን ዲዛ ዱጌሃ ባጋራ ዲዛ ዩሁዳ ቆሞታ ካታማቲ ቃብጺኤሌ፥ ኤዴሬ፥ ያጉሬ፥",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "22",
+          "source_element_id": "V22",
+          "text": "ቂና፥ ዲሞና፥ ኣዳዳ፥",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "23",
+          "source_element_id": "V23",
+          "text": "ቃዴሴ፥ ሃጾሬ፥ ዩቲናኔ፥",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "24",
+          "source_element_id": "V24",
+          "text": "ዚፌ፥ ቴሌሜ፥ ባኣሎቴ፥",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "25",
+          "source_element_id": "V25",
+          "text": "ሃጾሬ-ሃዳታ፥ ሄጺሮሜ ጌቴቲዛ ቂሪያቴ-ሃጾሬ፥",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "26",
+          "source_element_id": "V26",
+          "text": "ኣማሜ፥ ሼማኤ፥ ሞላዴ፥",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "27",
+          "source_element_id": "V27",
+          "text": "ሃጻሬ-ጋዳ፥ ሄሽሞኔ፥ ቤቲ-ጳሌጼ፥",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "28",
+          "source_element_id": "V28",
+          "text": "ሃጻሬ-ሹኣሌ፥ ቤርሳቤሄ፥ ቢዚዮቲያ፥",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "29",
+          "source_element_id": "V29",
+          "text": "ባኣላ፥ ኢዩሜ፥ ኤጼሜ፥",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "30",
+          "source_element_id": "V30",
+          "text": "ኤልቶላዴ፥ ኪሲሌ፥ ሆርማ፥",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "31",
+          "source_element_id": "V31",
+          "text": "ጺጊላጌ፥ ማዲማና፥ ሳንሳና፥",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "32",
+          "source_element_id": "V32",
+          "text": "ሌባዎቴ፥ ሺሊሂሜ፥ ኣዪኔኔ ኣርሞኔ። ካታማቲኔ ጉታቲ ኢሲ ቦላ ናምኡ ታማኔ ኡዱፉና።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "33",
+          "source_element_id": "V33",
+          "text": "ኣርሼይ ዉሊዛ ባጋራ ዙምቡላታ ቶሆሶራ ዲዛይቲ ኤሽታኦሌ፥ ጾራኣ፥ ኣሺና፥",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "34",
+          "source_element_id": "V34",
+          "text": "ዛኖሄ፥ ኤን-ጋኒሜ፥ ታጱሄ፥ ኤናሜ፥",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "35",
+          "source_element_id": "V35",
+          "text": "ያርሙቴ፥ ኣዱላሜ፥ ሶኮ፥ ኣዜቄ፥",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "36",
+          "source_element_id": "V36",
+          "text": "ሻኢራይሜ፥ ኣዲታይሜ፥ ጋዴሬኔ ጋዴሮታይሜ። ካታማቲኔ ጉታቲ ኢሲ ቦላ ታማኔ ኦይዳ።",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "37",
+          "source_element_id": "V37",
+          "text": "ቃሴ ጺናኔ፥ ሃዳሻ፥ ሚጊዳላ-ጋዴ፥",
+          "unit_order": 37
+        },
+        {
+          "source_marker": "38",
+          "source_element_id": "V38",
+          "text": "ዲልኣኔ፥ ሚጺጳ፥ ዮቂቲኤሌ፥",
+          "unit_order": 38
+        },
+        {
+          "source_marker": "39",
+          "source_element_id": "V39",
+          "text": "ላኪሼ፥ ቦጺቃቴ፥ ኤጊሎኔ፥",
+          "unit_order": 39
+        },
+        {
+          "source_marker": "40",
+          "source_element_id": "V40",
+          "text": "ካቦኔ፥ ላሂማሴ፥ ኪቲሊሼ፥",
+          "unit_order": 40
+        },
+        {
+          "source_marker": "41",
+          "source_element_id": "V41",
+          "text": "ጋዴሮቴ፥ ቤቲ-ዳጎኔ፥ ናኢማኔ ማቄዳ። ካታማቲኔ ጉታቲ ኢሲ ቦላ ታማኔ ኡሱፑና።",
+          "unit_order": 41
+        },
+        {
+          "source_marker": "42",
+          "source_element_id": "V42",
+          "text": "ቃሴ ሊቢና፥ ኤቴሬ፥ ኣሻኔ፥",
+          "unit_order": 42
+        },
+        {
+          "source_marker": "43",
+          "source_element_id": "V43",
+          "text": "ዮፍታሄ፥ ኣሺና፥ ኒጺቤ፥",
+          "unit_order": 43
+        },
+        {
+          "source_marker": "44",
+          "source_element_id": "V44",
+          "text": "ቂኢላ፥ ኣኪዚቤኔ ማሬሻ። ካታማቲኔ ጉታቲ ኢሲ ቦላ ኡዱፉና።",
+          "unit_order": 44
+        },
+        {
+          "source_marker": "45",
+          "source_element_id": "V45",
+          "text": "ኣቃሮኔይ ባ ሄራን ዲዛ ጉታታራ፥",
+          "unit_order": 45
+        },
+        {
+          "source_marker": "46",
+          "source_element_id": "V46",
+          "text": "ሄሳꬆካ ኣቃሮኔፔ ኣርሼይ ዉሊዛ ባጋራ ዲዛ ኣሽዶዴ ጋካናስ፥",
+          "unit_order": 46
+        },
+        {
+          "source_marker": "47",
+          "source_element_id": "V47",
+          "text": "ቃሴ ኣሽዶዴይ ባ ሄራን ዲዛ ጉታታራኔ ጋዛፔ ቢዲ ሃꬂ ባይንዳ ጊብጼ ሻፋ ጋካናሲኔ ሜዲቴራኔ ጋጻፔ ሃ ሲሚን ዲዛ ካታማታኔ ጉታታ።",
+          "unit_order": 47
+        },
+        {
+          "source_marker": "48",
+          "source_element_id": "V48",
+          "text": "ዙምቡላታ ቦላ ዲዛ ካታማቲካ ሻሚሬ፥ ዬቲሬ፥ ሶኮ፥",
+          "unit_order": 48
+        },
+        {
+          "source_marker": "49",
+          "source_element_id": "V49",
+          "text": "ዳና፥ ቂሪያቴ-ሲና ዎይኮ ዳቢሬ፥",
+          "unit_order": 49
+        },
+        {
+          "source_marker": "50",
+          "source_element_id": "V50",
+          "text": "ኣናቤ፥ ኤሽታሞ፥ ኣኒሜ፥",
+          "unit_order": 50
+        },
+        {
+          "source_marker": "51",
+          "source_element_id": "V51",
+          "text": "ጎሼኔ፥ ሆሎኔኔ ጊሎ፤ ሄይቲ ታማኔ ኢሲኔቲ ኢስታ ካታማታኔ ኢስታ ጉታታ።",
+          "unit_order": 51
+        },
+        {
+          "source_marker": "52",
+          "source_element_id": "V52",
+          "text": "ቃሴ ኣራቤ፥ ዱማ፥ ኤሻኔ፥",
+          "unit_order": 52
+        },
+        {
+          "source_marker": "53",
+          "source_element_id": "V53",
+          "text": "ያኒሜ፥ ቤቲ-ታጱሄ፥ ኣፌቄ፥",
+          "unit_order": 53
+        },
+        {
+          "source_marker": "54",
+          "source_element_id": "V54",
+          "text": "ሁሚጻ፥ ኬብሮኔ ዎይኮ ቂሪያቴ-ኣርባኤኔ ጺኦሬ፤ ሄይቲ ኡዱፉናቲ ኢስታ ካታማታኔ ኢስታ ጉታታ።",
+          "unit_order": 54
+        },
+        {
+          "source_marker": "55",
+          "source_element_id": "V55",
+          "text": "ቃሴካ ማኦኔ፥ ቃርሜሎሴ፥ ዚፌ፥ ዩጻ፥",
+          "unit_order": 55
+        },
+        {
+          "source_marker": "56",
+          "source_element_id": "V56",
+          "text": "ኢዝራኤሌ፥ ዮቂዲኣሜ፥ ዛኖሄ፥",
+          "unit_order": 56
+        },
+        {
+          "source_marker": "57",
+          "source_element_id": "V57",
+          "text": "ቃይኔ፥ ጊቢኣኔ ቴሚና፤ ሄይቲ ታማቲ ኢስታ ካታማታኔ ኢስታ ጉታታ።",
+          "unit_order": 57
+        },
+        {
+          "source_marker": "58",
+          "source_element_id": "V58",
+          "text": "ቃሴ ሃሊሁሌ፥ ቤቲ-ጹሬ፥ ጋዶሬ፥",
+          "unit_order": 58
+        },
+        {
+          "source_marker": "59",
+          "source_element_id": "V59",
+          "text": "ማራቴ፥ ቤቲ-ኣኖቴኔ ኤልቲቆኔ፤ ሄይቲ ኡሱፑናቲ ኢስታ ካታማታኔ ኢስታ ጉታታ።",
+          "unit_order": 59
+        },
+        {
+          "source_marker": "60",
+          "source_element_id": "V60",
+          "text": "ሄሳꬆካ ቂሪያቴ-ዪኣሪሜ ጌቴቲዳራ ቂሪያቴ-ባኣሌኔ ኤራባ፤ ሄይቲ ናምኣቲ ኢስታ ካታማታኔ ኢስታ ጉታታ።",
+          "unit_order": 60
+        },
+        {
+          "source_marker": "61",
+          "source_element_id": "V61",
+          "text": "ባዞን ዲዛይቲ ሃይሳፌ ካሊዛይታ፤ ቤቲ-ኣራቤ፥ ሚዲና፥ ሲካካ፥",
+          "unit_order": 61
+        },
+        {
+          "source_marker": "62",
+          "source_element_id": "V62",
+          "text": "ኒቢሻኔ፥ ማጺኔ ካታማኔ ኤን-ጋዴ፤ ሄይቲ ኡሱፑናቲ ኢስታ ካታማታኔ ኢስታ ጉታታ።",
+          "unit_order": 62
+        },
+        {
+          "source_marker": "63",
+          "source_element_id": "V63",
+          "text": "ጊዶ ኣቲን ዩሁዳ ኣሳይ ዬሩሳላሜን ዲዛ ያቡሴታ ኢስቲ ዲዛሶፔ ኬሲ ጎዳና ዳንዳይቤቴና፤ ሄሳ ጊሻስ ያቡሴቲ ሃች ጋካናስካ ዩሁዳ ኣሳራ ኢሲፌ ዬሩሳላሜን ዴቴስ።",
+          "unit_order": 63
+        }
+      ],
+      "notes": [
+        {
+          "verse": "15:14",
+          "marker": "cross-reference",
+          "text": "ዳና 1፡20",
+          "source_reference": "1"
+        },
+        {
+          "verse": "15:63",
+          "marker": "cross-reference",
+          "text": "ዳና 1፡21፤ 2ሳሜ 5፡6፤ 1ታሪ 11፡4",
+          "source_reference": "2"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "source_chapter_label": "16",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 16",
+      "heading": [
+        "ዮሴፌ ቆሞታ ጋኪዳ ቢታ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ዮሴፌ ዛሬታ ጋኪዳ ቢታይ ኢያርኮ ማታን ዮርዳኖሴ ሻፋፔ ዶሚዲ ኢያርኮ ፑልቶታፔ ኣርሼይ ሞኪዛ ባጋራ ባዞ ካንꬂዲ ጌዜቲዛ ቢታራ ኣꬊዲ ቤቴሌ ጋኬስ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ሎዛ ጌቴቲዛ ቤቴሌፔ ዴንዲዲ ኣጻሮቴ ጌቴቲዛ ኣርኬታ ቢታ ጋኬስ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ሄሳፌ ኣርሼይ ዉሊዛ ባጋራ ዲዛ ያፋሌጼታ ቢታ ዱጉንꬃ ዱጌ ቤቲ-ሆሮኔ ዎꬊዲ ጌዜሬራ ካንꬂ ቢዲ ጊታ ኣባን ጌሌስ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ዮሴፌ ቆሞ ሚናሴ ዛሬቲኔ ኤፍሬሜ ዛሬቲ ባንታና ጋኪዛ ቢታ ላቲዳ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ኤፍሬሜ ዛሬታ ኢስታ ዛርኬን ዛርኬን ጋኪዳ ቢታይ ሃይሳፌ ካሊዛይሳ፤ ኢስታ ዛዋይ ኣርሼይ ሞኪዛ ባጋራ ዲዛ ኣጻሮቴ-ኣዳሬፔ ቢዲ ጋና ቤቲ-ሆሮኔ ጋኬስ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ሄፔ ቢዲ ዎጋ ኣባን ጌሌስ። ቃሴ ፑዴሃ ባጋራ ዲዛ ዛዋይ ሚኪማታቴፔ ኣርሼይ ሞኪዛሶ ባጋ ታናቴ-ሺሎራ ሚርቄቲ ሲሚዲ፥ ኣርሼይ ሞኪዛሶ ባጋራ ዲዛ ያኖኬ ጋኬስ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ያኖኬፔ ዱጌ ኣጻሮቴኔ ናራቴ ዱጉንꬃ ዎꬊዲ ኢያርኮራ ካንꬂ ቢዲ ዮርዳኖሴ ሻፋን ጌሌስ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ዛዋዚ ታጱሄፔ ኣርሼይ ዉሊዛ ባጋራ ቢዲ ቃና ሻፋራ ዎꬊ ቢዲ ሜዲቴራኔ ኣባን ጌሌስ። ኤፍሬሜ ዛሬቲ ባ ዛርኬን ዛርኬን ላቲዳ ቢታይ ሃይሳ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ሄሲ ሚናሴ ዛሬታ ቢታፌ ኤፍሬሜ ዛሬታስ ኢሚዳ ካታማታኔ ኢስታ ጉታታ ኡባ ጋꬂ ኦይኪዴስ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ሃይሲ ኡባይ ሃኒንካ ኤፍሬሜ ዛሬቲ ጌዜሬ ካታማን ዲዛ ካናኔ ኣሳታ ኬሲ ጎዲቤቴና። ካናኔ ኣሳቲ ሃች ጋካናስ ኤፍሬሜ ዛሬታራ ኢሲፌ ዴቴስ። ጊዶ ኣቲን ኤፍሬሜ ዛሬቲ ኢስታ ዎልቃራ ኦሲሴቴስ።",
+          "unit_order": 10
+        }
+      ],
+      "notes": [
+        {
+          "verse": "16:10",
+          "marker": "cross-reference",
+          "text": "ዳና 1፡29",
+          "source_reference": "1"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "source_chapter_label": "17",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 17",
+      "heading": [
+        "ሚናሴ ቆሞታ ጋኪዳ ቢታ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ሚናሴይ ዮሴፌስ ባይራ ና ጊዲዳ ጊሻስ ኢዛ ዛሬታ ሳማን ጋኪዳ ቢታይ ሃይሳፌ ካሊ ዲዛይሳ፤ ሚናሴስ ባይራ ናዚ ማኪሬይ ጋላኣዴታ ኣዋይ ሚኖ ኦላንቻ ጊዲዳ ጊሻስ ጋላኣዴይኔ ባሳኔይ ኢዛስ ጊሻ ጊዲዴስ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ሄሳ ጊሻስ ሄ ቢታዚ ሃንኮ ኣቲዳ ሚናሴ ዛሬታስ ኣቢኤዜሬስ፥ ሄሌቄስ፥ ኣሲራኤሌስ፥ ሴኬሜስ፥ ሄፌሬስ፥ ሻሚዳስ ኢሜቲዴስ፤ ዮሴፌ ና ሚናሴ ዛርኬ ጊዲዳ ኣቱማቲ ሃይሳፌ ካሊ ዲዛይታ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ጺሎፋዴይ ሄፌሬ ና፤ ሄፌሬይ ጋላኣዴ ና፤ ጋላኣዴይ ማኪሬ ና፤ ማኪሬይ ሚናሴ ና። ጺሎፋዴስ ማጫ ናይታፔ ኣቲን ኣቱማ ናይ ዴና፤ ኢዛ ማጫ ናይቲ ማሂሎ፥ ኖኦ፥ ሆጊሎ፥ ሚልኮኔ ቲርጾ ጌቴቴቴስ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ኢስታ ቄሴ ኤልኤዜሬኮ፥ ናዌ ና ኢያሶኮኔ ሃላቃታኮ ሺቂዲ፥ «ኑኒ ኑ ኢሻታራ ጋዴ ጊሼቲ ኤካና ማላ ጎዳይ ሙሴ ኣዛዚዴስ» ጊዳ። ሄሳ ጊሻስ ጎዳይ ኣዛዚዳ ማላ ኢያሶይ ኢስታ ኣዋ ኢሻታሳራኔ ኢስታሳራ ጊሼቺ ኢሚዴስ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ሚናሴስ ጋላኣዴፔኔ ባሳኔፔ ሃራሶን ታሙ ኬዚ ጊሼቲዛ ቢታይ ዮርዳኖሴፔ ኣርሼይ ሞኪዛ ባጋራ ዴስ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ሚናሴ ዛሬታፔ ማጫ ናይቲካ ኣቱማ ናይታራ ኢሲፌ ቢታ ጊሼቲ ኤኪዳ ጊሻስ ጋላኣዴ ቢታይ ኣቲዳ ሚናሴ ዛሬታስ ጊዲዴስ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ሚናሴ ዛሬታ ቢታ ዛዋይ ኣሴሬ ቢታፌ ዶሚዲ፥ ሴኬሜፔ ኣርሼይ ሞኪዛ ባጋራ ዲዛ ሚኪማታቴ ጋኬስ። ሄ ዛዋይ ሄሳፌ ቢዲ ዱጌሃ ባጋራ ካንꬂዲ ኤን-ታጱሄን ዲዛ ዴሬዛካ ጉጄስ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ታጱሄ ቢታይ ሚናሴሳ፤ ጊዶ ኣቲን ሚናሴ ዛዋን ዲዛ ታጱሄ ካታማያ ካሴ ኤፍሬሜ ዛሬታሳ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ሄሳፌ ካሊዲ ኢዛ ዛዋይ ቢዲ ቃና ሻፋን ጌሌስ። ሚናሴ ካታማታ ጊዶን ኤፍሬሜ ካታማቲካ ዴቴስ፤ ጊዶ ኣቲን ሚናሴ ዛዋይ ቃና ሻፋፔ ፑዴሃ ባጋራ ቢዲ ሜዲቴራኔ ኣባን ጌሌስ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ዱጌሃ ባጋራ ዲዛ ቢታይ ኤፍሬሜሳ፤ ፑዴሃ ባጋራ ዲዛ ቢታይ ቃሴ ሚናሴሳ። ሚናሴ ቢታ ዛዋይ ቢዲ ሜዲቴራኔ ኣባ ጋኬስ፤ ፑዴሃ ባጋ ዛዋይ ኣሴሬ ጋኬስ፤ ኣርሼይ ሞኪዛ ባጋራ ዲዛ ዛዋይ ዪሳኮሬ ጋኬስ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ዪሳኮሬ ቢታኒኔ ኣሴሬ ቢታን ቤቲ-ሻኣኔይ፥ ዪቢላኣሜይ፥ ዶሬ ኣሳይ፥ ኤን-ዶሬይ፥ ታኢናኬይኔ ማጊዶይ ባ ዩሾን ጉታታራ ኢሲፌ ሚናሴሳ፤ ሄꬓንꬆዚ ናፎቴ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ጊዶ ኣቲን ሚናሴ ዛሬቲ ሄ ካታማታ ጾኒ ኦይካና ዳንዳይቤቴና። ጋሶይካ ካናኔ ኣሳይ ባ ኦይኪዳ ቢታ ዬዶኮ ጊ ሙርቲዳ ጊሻሳ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ኢስራኤሌ ኣሳይ ሚኒዳ ዎዴ ካናኔ ኣሳታ ባንታስ ሃጋዚሲዳ ኣቲን ቢታፌ ኢስታ ኡባ ኬሲ ጎዲቤቴና።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ዮሴፌ ዛሬቲ ኢያሶ፥ «ጎዳይ ኑና ኣንጂን ኑኒ ቆዳን ጮራ ጊዲሺን ላታ ቢታ ሻኮን ኑስ ኣይስ ኢሲ ጊሻ ጻላ ኢማዲ?» ጊዳ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ኢያሶይካ ኢስታስ፥ «ኢንቴ ጮራ ጊዲኮ ኤፍሬሜ ጌዜይ ፓሪዜቲኔ ኤራፋይሜቲ ዲዛ ቢታ ቢዲ ዎራ ኢንቴስ ቄጺቴ» ጊዴስ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "ዮሴፌ ዛሬቲ፥ «ጌዜ ቢታዚ ኑስ ጊዴና፤ ሄሳ ቦላካ ዴምባን ዲዛ ቤቲ-ሻኣኔኔ ሄ ሄራን ዲዛይቲ፥ ቃሴ ኢዝራኤሌ ሾባን ዲዛ ካናኔታስ ቢራታ ፓራ-ጋሬቲ ዴቴስ» ጊዳ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17",
+          "source_element_id": "V17",
+          "text": "ኢያሶይ ዛሪዲ ዮሴፌ ዛሬታስ ኤፍሬሜ ቆሞታሲኔ ሚናሴ ቆሞታስ፥ «ኢንቴ ጮራኔ ኬሂ ዎልቃማ፤ ኢንቴስ ኢሲ ጊሻ ጻላይ ጊዴና።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "18",
+          "source_element_id": "V18",
+          "text": "ሄሳ ጊሻስ ጌዜ ቢታይካ ኢንቴሳ፤ ቢዲ ቄጺቴ፤ ዉርሴꬃ ጋጻ ጋካናስ ዲዛይሲ ኢንቴስ ጊዳና፤ ካናኔታስ ቢራታ ፓራ-ጋሬቲ ዲኮካ፥ ኢስቲ ሚኖ ጊዲኮካ ኢንቴ ኢስታ ሄፔ ኬሳና» ጊዴስ።",
+          "unit_order": 18
+        }
+      ],
+      "notes": [
+        {
+          "verse": "17:4",
+          "marker": "cross-reference",
+          "text": "ታይ 27፡1-7",
+          "source_reference": "1"
+        },
+        {
+          "verse": "17:13",
+          "marker": "cross-reference",
+          "text": "ዳና 1፡27-28",
+          "source_reference": "2"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "source_chapter_label": "18",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 18",
+      "heading": [
+        "ኣቲዳ ጋዴ ጊሼቴꬅ",
+        "ቢኒያሜ ቆሞታስ ጋኪዳ ቢታ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ኢስራኤሌ ማባራይ ዉሪ ሴሎን ሺቂዳ፤ ጋይቶቴꬃ ዱንካኔ ሄን ቶኪዳ፤ ቢታያካ ጮኡ ጋዳ ኢስታስ ሃሬታዱስ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ጊዶ ኣቲን ኢስራኤሌ ኣሳፔ ጋዴ ጊሻይ ጋኮንታ ኣቲዳ ላፑን ቆሞቲ ዴቴስ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ሄሳ ጊሻስ ኢያሶይ ኢስራኤሌ ኣሳ፥ «ጎዳ ኢንቴ ኣዋታ ጾሳይ ኢንቴስ ኢሚዳ ቢታ ላቶንታ ኣይዴ ጋካናስ ኣዛሌቲ?",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ኢሲ ኢሲ ቆሞፌ ሄꬑ ሄꬑ ኣሳታ ዶሪቴ። ቢታ ዩዪ ጼሊዲ ኢሲ ኢሲ ቆሞ ጋካናይሳ ታስ ጻፊ ኢማናይታ ታ ኪታና፤ ኢስቲካ ታኮ ሃ ሲሚ ያና።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ኢስቲ ሄ ቢታዮ ላፑን ኬሲ ሻካና። ዱጌሃ ባጋራ ዩሁዳይ፥ ፑዴሃ ባጋራ ዮሴፌይ ባስ ጺንጾ ሂስቲ ኦይካና።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ሃ ላፑን ኬዚ ሻኬቲዳ ቢታ ሃኖታ ጻፊዳፔ ጉዬ ታኮ ኤኪ ዪኮ ታኒ ጎዳ ኑ ጾሳ ሲንꬃን ኢንቴስ ሳማ ዬጋና።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ሌዌ ዛሬቲ ጾሳስ ኦꬂዛ ኦሶይ ኢስታስ ጺንጾ ጊዲዳ ጊሻስ ኢንቴናራ ኢስቲ ቢታ ጊሼቴቴና። ጋዴ ዛሬቲ፥ ኦሮቤሌ ዛሬቲኔ ሚናሴ ዛሬታፔ ባጋይ ዮርዳኖሴ ሻፋፔ ኣርሼይ ሞኪዛሶ ባጋራ ጎዳ ኣይሌ ሙሴይ ኢስታስ ኢሚዳ ቢታ ካሴቲ ላቲዳ» ጊዴስ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ኣሳይ ቢታ ሃኖታ ፒልጊ ጼላናሲኔ ጻፋናስ ቡስ ዶሚሺን ኢያሶይ፥ «ቢዲ ቢታይ ሃኖታ ፒልጊ ጼሊዲ ፓቲ ጻፊዳፔ ጉዬ ሃ ታኮ ሲሚ ዪቴ። ሃይሳን ሴሎን ጎዳ ሲንꬃን ታ ኢንቴስ ሳማ ዬጋና» ጊዴስ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ሄሳ ጊሻስ ኣሳይ ቢታ ዩዪ ጼሊዴስ፤ ካታማታራ ኢሲፌ ላፑን ኬሲ ሻኪዲ ጻꬃ ዋራቃታን ጻፊዳ፤ ሄሳፌ ጌዴ ኢያሶኮ ሴሎ ሲሚ ቢዳ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ኢያሶይ ጎዳ ሲንꬃን ሴሎን ኢስታስ ሳማ ዬጊዴስ፤ ቢታዮ ኢስራኤሌ ኣሳስ ኢስታ ቆሞ ኬና ጊሼቺ ኢሚዴስ።\nቢኒያሜ ቆሞታስ ጋኪዳ ቢታ",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ኮይሮ ጊሻይ ቢኒያሜ ቆሞታ ኢስታ ዛርኬን ዛርኬን ጋኪዴስ። ሳማን ኢስታ ጋኪዳ ቢታይ ዲዛሶይ ዩሁዳ ዛሬታ ቢታፌኔ ዮሴፌ ዛሬታ ቢታፌ ጊዶን ጊዲሺን ሃይሳፌ ካሊዛይሳ፤",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ፑዴሃ ባጋራ ኢስታ ዛዋይ ዮርዳኖሴ ሻፋፔ ዶሚዲ፥ ኢያርኮ ፑዱንꬃራ ኣꬊ ቢዲ ኣርሼይ ዉሊዛ ባጋራ ꬎቃ ቢታራ ኦይኪዲ ቤቲ-ኣዌኔራ ካንꬄስ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ሄሳፌ ዱጌሃ ባጋራ ሎዛ ጌቴቲዛ ቤቴሌ ፑዱንꬃራ ካንꬂዲ ዱጌ ባጋራ ዲዛ ቤቲ-ሆሮኔፔ ዱጌሃ ባጋራ ዲዛ ዙማ ኣቻራ ካንꬂ ቢዲ ዱጌ ኣጻሮቴ-ኣዳሬ ጋኬስ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ዱጌሃ ባጋራ ዲዛ ዛዋይ ቤቲ-ሆሮኔስ ሲንꬃ ባጋራ ዲዛ ዙምቡላፌ ዶሚዲ፥ ኣርሼይ ዉሊዛ ባጋራ ዱጌሃ ባጋ ሚርቄቲዲ ዩሁዳ ቆሞታ ካታማ ጊዲዳ ቂሪያቴ-ባኣሌ ዎይኮ ቂሪያቴ-ዪኣሪሜራ ካንꬂ ቤስ፤ ሄሲ ኣርሼይ ዉሊዛ ባጋስ ዛዋ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ዱጌሃ ባጋራ ዛዋይ ቂሪያቴ-ዪኣሪሜፔ ዶሚዲ ኔፍቶ ፑልቶ ሃꬃራ ካንꬄስ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "ሄ ዛዋዚ ኤራፋይሜ ሾባፌ ፑዴሃ ባጋራ ዲዛ ሄኖሜ ና ሾባ ጊናራ ዲዛ ዙምቡላ ቶሆሶ ዎꬌስ፤ ሄፔ ያቡሴታ ካታማፔ ዱጌሃ ባጋራ ዲዛ ዱጉንꬃራ ሄኖሜ ዙሌ ዎꬊዲ ኤን-ሮጌሌራ ካንꬄስ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17",
+          "source_element_id": "V17",
+          "text": "ቃሴ ፑዴሃ ባጋ ሚርቄቲዲ ኤን-ሼሚሼራ ቢዲ ጌሊሎቴራ ካንꬄስ፤ ሄሳፌ ኣዱሚሜ ፑርዴ ጊናራ ዲዛ ኦሮቤሌ ና ቦሃኔ ሹቻኮ ዱጌ ዎꬌስ።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "18",
+          "source_element_id": "V18",
+          "text": "ሄሳፌ ቤቲ-ኣራቤ ፑዱንꬃራ ካንꬂዲ ዱጌ ኣራቤ ዎꬌስ።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "19",
+          "source_element_id": "V19",
+          "text": "ሄሳፌ ቃሴ ቤቲ-ሆጊሌ ፑዱንꬃፌ ፑዴሃ ባጋራ ካንꬂዲ፥ ዮርዳኖሴ ሻፋይ ጎጊ ጌሊዛሶ ማጺኔ ኣባፌ ጋና ባጋ ጋጻ ጋኬስ። ሄሲ ዱጌሃ ባጋስ ዛዋ።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "20",
+          "source_element_id": "V20",
+          "text": "ኣርሼይ ሞኪዛሶ ባጋራ ዮርዳኖሴ ሻፋይ ዛዋ። ቢኒያሜ ዛሬቲ ላቲዳ ቢታ ኡባሲካ ዛዋቲ ሄይታንታ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "21",
+          "source_element_id": "V21",
+          "text": "ቢኒያሜ ዛሬቲ ባ ዛርኬን ዛርኬን ኤኪዳ ካታማቲ ኢያርኮ፥ ቤቲ-ሆጊሌ፥ ኣሜቅ-ኬጺጼ፥",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "22",
+          "source_element_id": "V22",
+          "text": "ቤቲ-ኣራቤ፥ ዛማራይሜ፥ ቤቴሌ፥",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "23",
+          "source_element_id": "V23",
+          "text": "ኣዊሜ፥ ፓራ፥ ኦፊራ፥",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "24",
+          "source_element_id": "V24",
+          "text": "ካፌር-ኣሞናዬ፥ ኦፊናኔ ጌባ። ሃይቲ ባንታ ጉታታራ 12 ካታማታ።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "25",
+          "source_element_id": "V25",
+          "text": "ቃሴ ጌባኦኔ፥ ኤራማ፥ ቢኤሮቴ፥",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "26",
+          "source_element_id": "V26",
+          "text": "ሚጺጳ፥ ካፊሬ፥ ሞጻ፥",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "27",
+          "source_element_id": "V27",
+          "text": "ኤሬቄሜ፥ ዪርጲኤላ፥ ቴራላ፥",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "28",
+          "source_element_id": "V28",
+          "text": "ጼላ፥ ሄሌፋ፥ ያቡሴታ ካታማ ዬሩሳላሜ፥ ጊቢኣኔ ቂሪያቴ-ዪኣሪሜ። ሃይቲ ባንታ ጉታታራ 14 ካታማታ። ቢኒያሜ ቆሞቲ ባንታ ዛርኬን ዛርኬን ላቲዳ ቢታይ ሃይታ።",
+          "unit_order": 28
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 19,
+      "source_chapter_label": "19",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 19",
+      "heading": [
+        "ሲሞና ቆሞታ ጋኪዳ ቢታ",
+        "ዛቢሎኔ ቆሞታ ጋኪዳ ቢታ",
+        "ዪሳኮሬ ቆሞታ ጋኪዳ ቢታ",
+        "ኣሴሬ ቆሞታ ጋኪዳ ቢታ",
+        "ኒፍታሌሜ ቆሞታ ጋኪዳ ቢታ",
+        "ዳኔ ቆሞታ ጋኪዳ ቢታ",
+        "ኢያሶ ጋኪዳ ቢታ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ናምኣንꬆ ሳማይ ሲሞና ቆሞታ ኢስታ ዛርኬን ዛርኬን ጋኪዴስ። ኢስታ ጋኪዳ ቢታይ ዩሁዳ ቆሞቲ ላቲዳ ቢታይ ኢስቲ ላቲዳ ቢታ ጊዶꬂ ኡቲዴስ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ኢስቲ ላቲዳ ካታማቲ ቤርሳቤሄ፥ ሼባኤ፥ ሞላዴ፥",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ሃጻሬ-ሹኣሌ፥ ባላ፥ ኤጼሜ፥",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ኤልቶላዴ፥ ባቱሌ፥ ሆርማ፥",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ጺጊላጌ፥ ቤቲ-ማርካቦቴ፥ ሃጻሬ-ሱሳ፥",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ቤቲ-ላባኦቴኔ ሻሩሄኔ። ሄይቲ ኡባይ 13 ካታማታኔ ኢስታ ዩሾን ዲዛ ጉታታ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ቃሴ ኣዪኔ፥ ኣርሞኔ፥ ኤቴሬኔ ኣሻኔ ጌቴቲዛ ኦይዱ ካታማታኔ ኢስታ ዩሾን ዲዛ ጉታታ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ባኣላቴ-ባኤሬ ዎይኮ ኔጌቤን ዲዛ ኣራማቴሜ ጋካናስ ዲዛ ካታማታ ዩሾን ዲዛ ጉታታ ኡባ ላቲዳ። ሲሞና ቆሞቲ ባ ዛርኬን ዛርኬን ጊሼቲ ኤኪዳ ቢታቲ ሄይታንታ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ዩሁዳ ቆሞቲ ኦይኪዳ ጺንጾይ ኬሂ ኣኮ ጊዲዳ ጊሻስ ሲሞና ቆሞታስ ጺንጾ ጊዲ ኢሜቲዴስ፤ ሄሳ ጊሻስ ሲሞና ቆሞቲ ዩሁዳ ቆሞታ ጊሻፔ ጊሼቲ ኤካና ዳንዳይዳ።\nዛቢሎኔ ቆሞታ ጋኪዳ ቢታ",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ሄꬓንꬆ ሳማይ ዛቢሎኔ ቆሞታስ ኢስታ ዛርኬን ዛርኬን ጋኪዴስ። ኢስቲ ላቲዳ ቢታ ዛዋይ ሳሪዴ ጋኬስ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ቃሴ ሄሳፌ ቢዲ ኣርሼይ ዉሊዛሶራ ማራላ ባጋራ ካንꬂ ቤስ፤ ዳባሼቴ ማታራ ዮቂናኣሜ ኣቻን ዲዛ ሻፋን ቢ ጌሌስ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ሃራ ባጋራ ቃሴ ሳሪዴ ካታማፔ ኣርሼይ ሞኪዛሶ ባጋ ሲሚዲ ኪሲሎቴ-ታቦሬራ ካንꬂ ቢዲ ዳቢራቴራ ጌዴ ያፊኣ ቤስ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ሄራ ጌዴ ኣርሼይ ሞኪዛ ባጋራ ጌት-ሄፌሬኔ ኤቲ-ቃጺኔ ካንꬂ ቤስ፤ ሄፔካ ጌዴ ኣርሞኔ ጋኪዲ ኒኣ ባጋ ሚርቄቴስ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ፑዴሃ ባጋራ ሃናቶኔ ሲሚዲ ዪፍታሂኤሌ ሾባን ጋኪ ኤቄስ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ቃሴካ ቃጻቴ፥ ናሂላሌ፥ ሺሚሮኔ፥ ኢዳሌኔ ቤቴሊሄሜ ጌቴቲዛ ካታማቲካ ዴቴስ። ኢስቲ ዉሪ 12፤ ኢስታ ዩሾን ዲዛ ጉታቲካ ኢስታን ጉጄቴቴስ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "ሃይቲ ዛቢሎኔ ቆሞታስ ጺንጾ ጊዲዲ ኢስታ ዛርኬን ዛርኬን ጊሻን ጋኪዳ ካታማታኔ ጉታታ።\nዪሳኮሬ ቆሞታ ጋኪዳ ቢታ",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17",
+          "source_element_id": "V17",
+          "text": "ኦይዳንꬆ ሳማይ ዪሳኮሬ ቆሞታ ኢስታ ዛርኬን ዛርኬን ጋኪዴስ።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "18",
+          "source_element_id": "V18",
+          "text": "ኢስታ ቢታቲ ሃይሳፌ ካሊዛይታ፤ ኢዝራኤሌ፥ ካሱሎቴ፥ ሱኔሜ፥",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "19",
+          "source_element_id": "V19",
+          "text": "ሃፋራኢሜ፥ ሺኦኔ፥ ኣናሃራቴ፥",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "20",
+          "source_element_id": "V20",
+          "text": "ኤራቢቴ፥ ቂሶኔ፥ ኣቤጼ፥",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "21",
+          "source_element_id": "V21",
+          "text": "ኤሬሜቴ፥ ኤን-ጋኒሜ፥ ኤን-ሃዳኔ ቤቲ-ጳጼጼ።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "22",
+          "source_element_id": "V22",
+          "text": "ሄ ቢታታ ዛዋይ ታቦሬ፥ ሻሃጹሜኔ ቤቲ-ሼሚሼ ቦቺ ቢዲ፥ ዮርዳኖሴ ሻፋን ጌሌስ። ኢስቲ ኡባይ ታማኔ ኡሱፑን ካታማታ፤ ኢስታ ዩሾን ዲዛ ጉታቲካ ኢስታን ጉጄቴቴስ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "23",
+          "source_element_id": "V23",
+          "text": "ሃይቲ ዪሳኮሬ ቆሞታስ ጺንጾ ጊዲዲ ኢስታ ዛርኬን ዛርኬን ጊሻን ጋኪዳ ካታማታኔ ጉታታ።\nኣሴሬ ቆሞታ ጋኪዳ ቢታ",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "24",
+          "source_element_id": "V24",
+          "text": "ኢቻሻንꬆ ሳማይ ኣሴሬ ቆሞታ ኢስታ ዛርኬን ዛርኬን ጋኪዴስ።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "25",
+          "source_element_id": "V25",
+          "text": "ኢስታ ቢታቲ ሃይሳፌ ካሊዛይታ ሄልቃቴ፥ ሃሌ፥ ቤጼኔ፥ ኣኪሻፌ፥",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "26",
+          "source_element_id": "V26",
+          "text": "ኣላሜሌኬ፥ ኣማዴኔ ሚሻሌ። ኣርሼይ ዉሊዛሶ ባጋራ ቃርሜሎሴራኔ ሺሆሬ-ሊቢናቴራ ዛዋቴስ።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "27",
+          "source_element_id": "V27",
+          "text": "ቃሴ ኣርሼ ኬሳሶ ባጋ ሲሚ ቤቲ-ዳጎኔኮ ሚርቄቲዲ፥ ዛቢሎኔ ቢታኔ ዪፍታሂኤሌ ሾባራ ካንꬂ ቢዲ ካቡሌ ሃዲርሳ ቦላ ዬጊዲ ፑዴሃ ባጋራ ቤቲ-ኤሜቄኔ ናኢኤሌ ቤስ።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "28",
+          "source_element_id": "V28",
+          "text": "ሄሳፌ ቃሴ ኤቢሮኔ፥ ኤራሆቤ፥ ሃሞኔኔ ቃና ፑዱንꬃ ኬዚዲ ጊታ ሲዶና ጋኬስ።",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "29",
+          "source_element_id": "V29",
+          "text": "ዛዋይ ኤራማ ሲሚዳፔ ጊምቤቲዳ ጺሮሴ ካታማኮ ሚርቄቲ ጌዴ ሆሳ ሲሚዲ ኣኪዚቤ ባጋራኔ ማሂሌቤ ጌዴ ሜዲቴራኔ ኣባን ጋኪ ጌሌስ።",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "30",
+          "source_element_id": "V30",
+          "text": "ሄን ኡማ፥ ኣፌቄኔ ኤራሆቤ ጌቴቲዛ ካታማቲካ ዴቴስ። ኢስቲ ኡባይ 22፤ ኢስታ ዩሾን ዲዛ ጉታቲካ ኢስታን ጉጄቴቴስ።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "31",
+          "source_element_id": "V31",
+          "text": "ሃይቲ ኣሴሬ ቆሞታስ ጺንጾ ጊዲዲ ኢስታ ዛርኬን ዛርኬን ጊሻን ጋኪዳ ካታማታኔ ጉታታ።\nኒፍታሌሜ ቆሞታ ጋኪዳ ቢታ",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "32",
+          "source_element_id": "V32",
+          "text": "ኡሱፑንꬃ ሳማይ ኒፍታሌሜ ቆሞታ ኢስታ ዛርኬን ዛርኬን ጋኪዴስ።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "33",
+          "source_element_id": "V33",
+          "text": "ኢስታ ዛዋይ ሄሌፌፔኔ ዛናኒሜን ዲዛ ጊታ ዎላፔ ዶሚዲ ኣዳሜ-ኔቄቤ፥ ያቢንኤሌኔ ላቁሜ ካንꬂ ቢዲ ዮርዳኖሴ ሻፋ ጌሌስ።",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "34",
+          "source_element_id": "V34",
+          "text": "ዛዋዚካ ኣርሼይ ዉሊዛ ባጋራ ኣዚኖቴ-ታቦሬኮ ሚርቄቴስ፤ ሄሳፌ ቃሴ ሁቆቄ ሲሚዲ ዱጌሃ ባጋራ ዛቢሎኔ ቢታኒኔ ኣርሼይ ጌሊዛ ባጋራ ኣሴሬ ቢታን ዛዋቲዲ ኣርሼይ ኬዚዛ ባጋራ ዮርዳኖሴ ሻፋን ጌሌስ።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "35",
+          "source_element_id": "V35",
+          "text": "ጊምቤቲዳ ካታማቲካ ጺዲሜ፥ ጼራ፥ ሃማቴ፥ ኤራቃቴ፥ ኪኔሬቴ፥",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "36",
+          "source_element_id": "V36",
+          "text": "ኣዳማ፥ ኤራማ፥ ሃጾሬ፥",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "37",
+          "source_element_id": "V37",
+          "text": "ቃዴሴ፥ ኤዲራኤ፥ ኤን-ሃጾሬ፥",
+          "unit_order": 37
+        },
+        {
+          "source_marker": "38",
+          "source_element_id": "V38",
+          "text": "ዪሮኔ፥ ሚጊዳልኤሌ፥ ሆሬሜ፥ ቤቲ-ኣናቴኔ ቤቲ-ሼሚሼ። ኢስቲ ዉሪ 19፤ ኢስታ ዩሾን ዲዛ ጉታቲካ ኢስታን ጉጄቴቴስ።",
+          "unit_order": 38
+        },
+        {
+          "source_marker": "39",
+          "source_element_id": "V39",
+          "text": "ሃይቲ ኒፍታሌሜ ቆሞታስ ጺንጾ ጊዲዲ ኢስታ ዛርኬን ዛርኬን ጊሻን ጋኪዳ ካታማታኔ ኢስታ ዩሾን ዲዛ ጉታታ።\nዳኔ ቆሞታ ጋኪዳ ቢታ",
+          "unit_order": 39
+        },
+        {
+          "source_marker": "40",
+          "source_element_id": "V40",
+          "text": "ላፑንꬆ ሳማይ ዳኔ ቆሞታ ኢስታ ዛርኬን ዛርኬን ጋኪዴስ።",
+          "unit_order": 40
+        },
+        {
+          "source_marker": "41",
+          "source_element_id": "V41",
+          "text": "ኢስቲ ላቲዳ ቢታቲ ጾራኣ፥ ኤሽታኦሌ፥ ኢር-ሼሜሼ፥",
+          "unit_order": 41
+        },
+        {
+          "source_marker": "42",
+          "source_element_id": "V42",
+          "text": "ሻኣልቢኔ፥ ኣያሎኔ፥ ዪታላ፥",
+          "unit_order": 42
+        },
+        {
+          "source_marker": "43",
+          "source_element_id": "V43",
+          "text": "ኤሎኔ፥ ቴሚና፥ ኣቃሮኔ፥",
+          "unit_order": 43
+        },
+        {
+          "source_marker": "44",
+          "source_element_id": "V44",
+          "text": "ኤልቴቄ፥ ጋባቶኔ፥ ባኣላቴ፥",
+          "unit_order": 44
+        },
+        {
+          "source_marker": "45",
+          "source_element_id": "V45",
+          "text": "ዩሁዳ፥ ባኔ-ባራቄ፥ ጌት-ኤርሞኔ፥",
+          "unit_order": 45
+        },
+        {
+          "source_marker": "46",
+          "source_element_id": "V46",
+          "text": "ሜያርቆኔ፥ ኤራቆኔኔ ዮጴ ካታማ ዩሾን ዲዛ ሄራታ ኡባ ኦይኬስ።",
+          "unit_order": 46
+        },
+        {
+          "source_marker": "47",
+          "source_element_id": "V47",
+          "text": "ጊዶ ኣቲን ዳኔ ቆሞታስ ኢሜቲዳ ጺንጾይ ኢስታስ ጊዶንታ ኣጊዳ ጊሻስ ላይሻ ካታማ ኦሊ ኦይኪዳ፤ ሄ ካታማን ዲዛ ኣሳ ጊꬃ ማሻን ሲፊ ዉርሲዲ ካታማ ባስ ኤኪዲ ሄን ኡቲዳ። ሄ ካታማ ሱንꬃካ ላሚዲ ባ ኣዋ ዳኔ ሱንꬃን ጼይጊዳ።",
+          "unit_order": 47
+        },
+        {
+          "source_marker": "48",
+          "source_element_id": "V48",
+          "text": "ሃይቲ ዳኔ ቆሞታስ ጺንጾ ጊዲዲ ኢስታ ዛርኬን ዛርኬን ጊሻን ጋኪዳ ካታማታኔ ጉታታ።\nኢያሶ ጋኪዳ ቢታ",
+          "unit_order": 48
+        },
+        {
+          "source_marker": "49",
+          "source_element_id": "V49",
+          "text": "ኢስራኤሌ ኣሳይ ባንታና ጋኪዳ ቢታ ኤኪዳፔ ጉዬ ናዌ ና ኢያሶስ ባንታ ቢታፌ ጺንጾ ጋዴ ኢሚዳ፤",
+          "unit_order": 49
+        },
+        {
+          "source_marker": "50",
+          "source_element_id": "V50",
+          "text": "ጎዳይ ኣዛዚዳ ማላኔ ኢያሶይ ኮይዛ ማላ ኤፍሬሜ ጌዜ ዴሬን ዲዛ ቴሚናቴ-ሴራሃ ጌቴቲዛ ካታማ ኢዛስ ኢሚዳ። ኢዚካ ካታማዮ ሎኤꬂዲ ባስ ዱሳሶ ኦꬂዴስ።",
+          "unit_order": 50
+        },
+        {
+          "source_marker": "51",
+          "source_element_id": "V51",
+          "text": "ቄሴ ኤልኤዜሬይ፥ ናዌ ና ኢያሶይኔ ኢስራኤሌ ቆሞታ ኮራፒኔቲ ሴሎን ጋይቶቴꬃ ዱንካኔዛ ፔንጌን ጎዳ ሲንꬃን ሳማ ዬጊዲ ጊሺዳ ጺንጾ ቢታይ ሃይሳ። ኢስቲ ቢታ ጊሼሬꬂ ጊጊዳ።",
+          "unit_order": 51
+        }
+      ],
+      "notes": [
+        {
+          "verse": "19:8",
+          "marker": "cross-reference",
+          "text": "1ታሪ 4፡28-33",
+          "source_reference": "1"
+        },
+        {
+          "verse": "19:47",
+          "marker": "cross-reference",
+          "text": "ዳና 18፡27-29",
+          "source_reference": "2"
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "source_chapter_label": "20",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 20",
+      "heading": [
+        "ባቃቲ ቢ ኣቲዛ ካታማታ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ሄሳፌ ጉዬ ጎዳይ ኢያሶ፥",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "«ታኒ ሙሴ ባጋራ ዮቲዳ ማላ ኣሲ ባቃቲ ኣቲዛ ካታማታ ሻካና ማላ ኢስራኤሌ ኣሳስ ዮታ፤",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ኣይ ኣሲካ ኤሮንታኔ ኣኬኮንታ ኣስ ዎꬊኮ ሄ ባቃቲ ቢዲ ሱꬃ ኣጮፔ ኣታና።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ኣስ ዎꬊዳይ ሄ ካታማታፔ ኢሳኮ ባቃቲ ቢዲ ካታማ ጌሊዛ ፔንጌን ኤቂዲ፥ ሃኒዳይሳ ሄ ካታማ ጪማታስ ዮቶ። ኢስቲካ ባንታ ካታማ ኤፊዲ ኢዚ ዴኣናሶ ኢሚኮ ኢዚ ኢስታራ ሄን ዴኦ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ሱꬅ ኣዛራና ኮይዛይ ኢዛ ካሊዲ ዪኮ ሄ ካታማ ጪማቲ ኢዛ ኣꬂ ኢሞፌቶ። ጋሶይካ ባ ሾሮዛ ኢዚ ኦዲ ሞርኬቴꬃ ጊሻስ ዎꬊቤና።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ዴራ ሲንꬃን ፒርዳስ ኢዚ ኤቃና ጋካናሲኔ ሄ ዎዴን ዲዛ ቄሴታ ሃላቃይ ሃይቃና ጋካናስ ሄ ካታማን ዴኦ። ሄሳፌ ጉዬ ባቃቲዲ ኬዚዳ ካታማ ጉዬ ሲሚዲ ባ ሶ ጌሎ» ጊዴስ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ሂስቲን ኢስራኤሌ ኣሳይ ኒፍታሌሜ ጌዜ ዴሬ፥ ጋሊላን ዲዛ ቃዴሴ፥ ኤፍሬሜ ጌዜ ዴሬን ዲዛ ሴኬሜን ዲዛ ሻራ ሜንꬆ ቦላኔ ዩሁዳን ሻራ ሜንꬆን ዲዛ ቂሪያቴ-ኣርባኤ ዎይኮ ኬብሮኔ ዱማሲዳ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ዮርዳኖሴ ሻፋፔ ሄ ፒንꬃን፥ ኢያርኮፌ ኣርሼይ ሞኪዛ ባጋራ ኦሮቤሌ ቆሞታ ጺንጾ ጊዶን ባዞን ꬎቃሶ ቦላ ዲዛ ባጺራ፥ ጋዴ ቆሞታ ጺንጾፌ ጋላኣዴን ዲዛ ኤራሞቴኔ ሚናሴ ቆሞታ ጺንጾፌ ባሳኔን ዲዛ ጎላኔ ዱማሲዳ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ኢስራኤሌ ኣስ ኡባሲኔ ኢስታ ጊዶን ዲዛ ቤቴታስ ዱማሲዳ ካታማቲ ሃይታ፤ ኤሮንታ ዲሼ ኣስ ዎꬊዳ ኣይ ኣሲካ ዴራ ሲንꬃን ኤቃና ጋካናስ ሱꬅ ኣዛራና ኮይዛዴ ኩሼን ሃይቆንታ ማላ ሄ ካታማታፔ ኢሳኮ ባቃታናስ ዳንዳዬስ።",
+          "unit_order": 9
+        }
+      ],
+      "notes": [
+        {
+          "verse": "20:1",
+          "marker": "cross-reference",
+          "text": "ታይ 35፡6-32፤ ዛሬ 4፡41-43፤ 19፡1-13",
+          "source_reference": "1"
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "source_chapter_label": "21",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 21",
+      "heading": [
+        "ሌዌታስ ኢሜቲዳ ካታማታ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ሌዌ ዛርኬታ ካሌꬂዛይቲ ቄሴ ኤልኤዜሬኮ፥ ናዌ ና ኢያሶኮኔ ኢስራኤሌ ዛሬታ ኣዋታኮ ሺቂዳ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ካናኔ ቢታን ዲዛ ሴሎን ኢስታስ፥ «ኑኒ ዴኣና ካታማታኔ ኑ ሜሄ ሄንꬃሶሆታ ኢንቴ ኑስ ኢማና ማላ ጎዳይ ካሴ ሙሴ ባጋራ ኣዛዚ ዎꬂዴስ» ጊዳ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ሂስቲን ጎዳይ ኣዛዚዳ ማላ ኢስራኤሌ ኣሳይ ሌዌ ቆሞታስ ባ ላቲዳ ጺንጾታፔ ሃ ካታማታኔ ሜሄ ሄንꬃሶሆታ ቃንጺ ኢሚዳ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ኮይሮ ሳማይ ቃኣቴ ዜሬꬃታስ ኢስታ ዛርኬን ዛርኬን ኬዚዴስ። ቄሴ ኣሮኔ ዛሬ ጊዲዳ ሌዌታስ ዩሁዳፔ፥ ሲሞናፔኔ ቢኒያሜ ቆሞታፔ 13 ካታማቲ ሳማን ጋኪዳ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ሃንኮ ኣቲዳ ቃኣቴ ዜሬꬃታስ ኤፍሬሜፔ፥ ዳኔፔኔ ሚናሴስ ባጋ ቆሞታፔ 10 ካታማቲ ሳማን ጋኪዳ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ጌርሾኔ ዜሬꬃታስ ዪሳኮሬፔ፥ ኣሴሬፔ፥ ኒፍታሌሜፔኔ ባሳኔን ዲዛ ሚናሴስ ባጋ ቆሞታፔ 13 ካታማቲ ሳማን ጋኪዳ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ሜራሬ ዜሬꬃታስ ኢስታ ዛርኬን ዛርኬን ኦሮቤሌፔ፥ ጋዴፔኔ ዛቢሎኔ ቆሞታፔ 10 ካታማቲ ሳማን ጋኪዳ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ጎዳይ ሙሴ ባጋራ ኣዛዚዳ ማላ፥ ኢስራኤሌ ኣሳይ ሃ ካታማታኔ ሜሄ ሄንꬃሶሆታ ሌዌታስ ሳማን ኢሚዳ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ዩሁዳፔኔ ሲሞና ቆሞታፔ ሃይሳፌ ካሊ ዲዛ ካታማታ ሳማን ጋꬂዳ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ኮይሮ ሳማይ ሌዌ ቆሞ ቃኣቴፔ ዬሌቲዳ ኣሮኔ ዛሬታስ ኬዚን ኢስታስ ኢሜቲዳ ካታማቲ ሃይሳፌ ካሊዛይታ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ሄይቲካ ዩሁዳ ቢታን ጌዜቲዛሶን ዲዛ ኬብሮኔ ጌቴቲዛ ቂሪያቴ-ኣርባኤኔ ኢዛ ዩሾን ዲዛ ሜሄ ሄንꬃሶሆታ ኢስታስ ኢሚዳ። (ኣርባኤይ ኤናቄ ኣዋ።)",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ጊዶ ኣቲን ሄ ካታማ ዩሾን ዲዛ ሜሄ ሄንꬃሶሆታኔ ሞꬃታ ዮፊኔ ና ካሌቤስ ጺንጾ ሂስቲ ኢሚዳ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ቄሴ ኣሮኔ ዛሬታስ ኣስ ዎꬊዳ ኣሲ ባቃቲ ቢዲ ኣቲዛ ኬብሮኔኔ ሊቢና ካታማታ ኢስታ ሜሄ ሄንꬃሶሆራ ኢሲፌ ጋꬂ ኢሚዳ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ዬቲሬኔ ኤሽታሞኣ፥",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ሆሎኔኔ ዳቢሬ፥",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "ኣዪኔ፥ ዩጻ፥ ቤቲ-ሼሚሼኔ ኢስታ ሜሄ ሄንꬃሶሆራ ኢሲፌ ጋꬂ ኢሚዳ። ሃይቲ ኡዱፉን ካታማቲ ዩሁዳ ቆሞታፔኔ ሲሞና ቆሞታ ጺንጾፌ ጊሼቲ ኢሜቲዳይታ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17",
+          "source_element_id": "V17",
+          "text": "ቢኒያሜ ቆሞታፔ ጌባኦኔ፥ ጌባ፥",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "18",
+          "source_element_id": "V18",
+          "text": "ኣናቶቴ፥ ኣልሞኔ ጌቴቲዛ ኦይዱ ካታማታኔ ኢስቲ ሜሄ ሄሚዛሶሆራ ኢሲፌ ጋꬂ ኢሚዳ።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "19",
+          "source_element_id": "V19",
+          "text": "ቄሴ ኣሮኔ ዜሬꬃታስ ሜሄ ሄንꬃሶሆራ ኢሲፌ ጋꬂዲ 13 ካታማታ ኢሚዳ።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "20",
+          "source_element_id": "V20",
+          "text": "ሃንኮ ኣቲዳ ሌዌ ና ቃኣቴ ዛሬታስ ኤፍሬሜ ቆሞታፔ ሃይሳፌ ካሊ ዲዛይሲ ሳማን ጋኪዴስ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "21",
+          "source_element_id": "V21",
+          "text": "ኤፍሬሜ ጌዜ ዴሬን ዲዛ ኣስ ዎꬊዳ ኣሲ ባቃቲ ቢዲ ኣቲዛሶ ሴኬሜኔ ጌዜሬ፥",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "22",
+          "source_element_id": "V22",
+          "text": "ቂቢጻይሜ፥ ቤቲ-ሆሮኔኔ ኢስታ ሜሄ ሄንꬃሶሆራ ኢሲፌ ጋꬂዲ 4 ካታማታ ኢሚዳ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "23",
+          "source_element_id": "V23",
+          "text": "ዳኔ ቆሞታፔ ኤልቴቄ፥ ጋባቶኔ፥",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "24",
+          "source_element_id": "V24",
+          "text": "ኣያሎኔ፥ ጌት-ኤርሞኔኔ ኢስታ ሜሄ ሄንꬃሶሆራ ኢሲፌ ጋꬂ 4 ካታማታ ኢሚዳ።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "25",
+          "source_element_id": "V25",
+          "text": "ሚናሴ ቆሞታስ ባጋታፔ ታኢናኬ፥ ጌት-ኤርሞኔ ሜሄ ሄንꬃሶሆታራ ኢሲፌ ጋꬂ 2 ካታማታ ኢሚዳ።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "26",
+          "source_element_id": "V26",
+          "text": "ሃይቲ 10 ካታማቲ ኡባይ ሜሄ ሄንꬃሶሆታራ ኢሲፌ ሃንኮ ኣቲዳ ቃኣቴ ዛሬታስ ኢሜቲዴስ።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "27",
+          "source_element_id": "V27",
+          "text": "ሚናሴ ዛሬታ ባጋታፔ ኣስ ዎꬊዳ ኣሲ ባቃቲ ቢዲ ኣቲዛ፥ ባሳኔን ዲዛ ጎላኔ ካታማ ሜሄ ሄንꬃሶሆራ ባኤሽቲራ ሜሄ ሄንꬃሶሆራ፥ ናምኡ ካታማታ ኡባ ኤኪዲ፥ ጌርሾኔ ዛሬ ጊዲዳ ሃራ ሌዌታስ ኢሚዳ።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "28",
+          "source_element_id": "V28",
+          "text": "ዪሳኮሬ ዛሬታፔ ቂሶኔ ሜሄ ሄንꬃሶሆራ፥ ዳቢራቴ ሜሄ ሄንꬃሶሆራ፥",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "29",
+          "source_element_id": "V29",
+          "text": "ያርሙቴ ሜሄ ሄንꬃሶሆራ፥ ኤን-ጋኒሜ ሜሄ ሄንꬃሶሆራ፥ ኦይዱ ካታማታ ኡባ ኤኪዲ ኢሚዳ።",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "30",
+          "source_element_id": "V30",
+          "text": "ኣሴሬ ዛሬታፔ ሚሻሌ ሜሄ ሄንꬃሶሆራ፥ ኣብዶኔ ሜሄ ሄንꬃሶሆራ፥",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "31",
+          "source_element_id": "V31",
+          "text": "ሄልቃቴ ሜሄ ሄንꬃሶሆራኔ ኤራሆቤ ሜሄ ሄንꬃሶሆራ፥ ኦይዱ ካታማታ ኡባ ኤኪዲ ኢሚዳ።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "32",
+          "source_element_id": "V32",
+          "text": "ሄሳꬆካ ኒፍታሌሜ ዛሬታፔ ኣስ ዎꬊዳ ኣሲ ባቃቲ ቢዲ ኣቲዛ ጋሊላን ዲዛ ቃዴሴ ሜሄ ሄንꬃሶሆራ፥ ሃሞቲ-ዶሬ ሜሄ ሄንꬃሶሆራ፥ ቃርታ ሜሄ ሄንꬃሶሆራ፥ 3 ካታማታ ኡባ ኤኪዲ ኢስታስ ኢሚዳ።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "33",
+          "source_element_id": "V33",
+          "text": "ጌርሾኔ ዛሬታ ካታማቲኔ ኢስታ ሜሄታ ሄንꬃሶሆቲ ኡባይ ታማኔ ሄꬓ።",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "34",
+          "source_element_id": "V34",
+          "text": "ኣቲዳ ሜራሬ ዛሬ ጊዲዳ ሌዌታስ ኢሜቲዳ ቢታቲ ዛቢሎኔ ዛሬታፔ ዮቂናኣሜ ሜሄ ሄንꬃሶሆራ፥ ቃርታ ሜሄ ሄንꬃሶሆራ፥",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "35",
+          "source_element_id": "V35",
+          "text": "ዲሚና ሜሄ ሄንꬃሶሆራ፥ ናሂላሌ ሜሄ ሄንꬃሶሆራ፥ ኦይዱ ካታማታ ኡባ ኤኪዲ ኢሚዳ።",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "36",
+          "source_element_id": "V36",
+          "text": "ኦሮቤሌ ዛሬታፔ ባጺራኔ ሜሄ ሄንꬃሶሆታ፥ ያሃጼኔ ሜሄ ሄንꬃሶሆታ፥",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "37",
+          "source_element_id": "V37",
+          "text": "ቂዲሞቴኔ ኢዚ ሜሄ ሄንꬃሶሆታ፥ ሜፋኣቴኔ ሜሄ ሄንꬃሶሆታ፥ ሃይታ ኦይዱ ካታማታ ኡባ ኤኪዲ ኢስታስ ኢሚዳ።",
+          "unit_order": 37
+        },
+        {
+          "source_marker": "38",
+          "source_element_id": "V38",
+          "text": "ቃሴ ጋዴ ዛሬታፔ ኣስ ዎꬊዳ ኣሲ ባቃቲ ቢዲ ኣቲዛ፥ ጋላኣዴን ዲዛ ኤራሞቴ ሜሄ ሄንꬃሶሆራ፥ ማሃናይሜ ሜሄ ሄንꬃሶሆራ፥",
+          "unit_order": 38
+        },
+        {
+          "source_marker": "39",
+          "source_element_id": "V39",
+          "text": "ሃሴቦኔ ሜሄ ሄንꬃሶሆራ፥ ኢያዜሬ ሜሄ ሄንꬃሶሆራ፥ ሃይታ ኦይዱ ካታማታ ኡባ ኤኪዲ ኢስታስ ኢሚዳ።",
+          "unit_order": 39
+        },
+        {
+          "source_marker": "40",
+          "source_element_id": "V40",
+          "text": "ሜራሬይ ዛሬ ጊዲዳ ሃራ ሌዌታስ ጊሻን ጋኪዳ ካታማቲ ኡባይ ታማኔ ናምኣ።",
+          "unit_order": 40
+        },
+        {
+          "source_marker": "41",
+          "source_element_id": "V41",
+          "text": "ኢስራኤሌ ኣሳይ ላቲዳ ቢታን ዲዛ ሌዌታስ ኢሜቲዳ ካታማቲ ኢስታ ሜሄ ሄንꬃሶሆራ ኡባይ ኢሲ ቦላ ኦይዱ ታማኔ ኦስፑና።",
+          "unit_order": 41
+        },
+        {
+          "source_marker": "42",
+          "source_element_id": "V42",
+          "text": "ሄ ካታማታ ኡባ ዩሾን ሜሄ ሄሚዛሶሆቲ ዴቴስ። ሜሄ ሄሚዛሶሆይ ባይንዳ ካታማይ ዴና።",
+          "unit_order": 42
+        },
+        {
+          "source_marker": "43",
+          "source_element_id": "V43",
+          "text": "ሄሳꬆ ኦꬂዲ ጎዳይ ኢስታ ኣዋታስ ኢማናስ ጫቂዳ ቢታ ኡባ ኢስራኤሌ ኣሳስ ኢሚዴስ፤ ሂስቲን ኢስቲ ላቲዲ ሄን ዴኢዳ።",
+          "unit_order": 43
+        },
+        {
+          "source_marker": "44",
+          "source_element_id": "V44",
+          "text": "ጎዳይ ኢስታ ኣዋታስ ጫቂዳ ማላ ኢስታ ዩሾን ዲዛ ኡባታፔ ኢስታ ሼምፒሲዴስ። ጎዳይ ኢስታ ሞርኬታ ኡባ ኢስታስ ኣꬂ ኢሚዳ ጊሻስ ኢስታ ሞርኬታፔ ኢሶይካ ኢስታራ ኤቄታናስ ዳንዳይቤና።",
+          "unit_order": 44
+        },
+        {
+          "source_marker": "45",
+          "source_element_id": "V45",
+          "text": "ጎዳይ ኢስራኤሌ ኣሳስ ኢማና ጊዳ ሎኦ ቃላ ኡባ ፖሊዴስ ኣቲን ኢሶይኔ ሳኣን ዎꬊ ኣቲቤና።",
+          "unit_order": 45
+        }
+      ],
+      "notes": [
+        {
+          "verse": "21:2",
+          "marker": "cross-reference",
+          "text": "ታይ 35፡1-8",
+          "source_reference": "1"
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "source_chapter_label": "22",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 22",
+      "heading": [
+        "ባንታሶ ሲሚዳ ኣርሼይ ሞኪዛ ባጋራ ዲዛ ቆሞታ",
+        "ዮርዳኖሴ ሻፋ ማታን ኦሴቲዳ ያርሾሶሆ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ሄሳፌ ጉዬ ኢያሶይ ኦሮቤሌ ቆሞታ፥ ጋዴ ቆሞታኔ ሚናሴ ቆሞታፔ ባጋታ ጼይጊዴስ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ሂስቲዲ፥ «ጎዳ ኣይሌ ሙሴይ ኢንቴና ኣዛዚዳይሳ ኡባ ናጊዴታ፤ ቃሴ ታኒካ ኣዛዚዳይሳ ሙሌራ ፖሊዴታ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ዳሮ ዎዴፔ ዶሚዲ ሃች ጋካናስ ኢንቴ ኢንቴ ኢሻታ ዬጊቤኬታ፤ ጎዳ ኢንቴ ጾሳይ ኢንቴስ ኢሚዳ ሃዳራ ፖሊዴታ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ሄኮ ጎዳ ኢንቴ ጾሳይ ኢንቴስ ኢሚዳ ሂዶታ ቃላ ማላ ኢንቴ ኢሻታ ሼምፒሲዴስ። ሄሳ ጊሻስ ጎዳ ኣሽካራ ሙሴይ ኢንቴስ ዮርዳኖሴ ሻፋፔ ሄ ፒንꬃን ኢሚዳ ላታ ቢታን ዲዛ ኢንቴ ሶ ሶ ሲሚቴ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ጎዳ ኣይሌ ሙሴይ ኢንቴና ኣዛዚዳ ኣዛዞዛኔ ዎጋ ኢንቴ ናጊቴ። ጎዳ ኢንቴ ጾሳ ሲቂቴ፤ ኢዛ ኦጌታ ኡባን ሲሜሬቲቴ፤ ኢዛ ኣዛዞታ ፖሊቴ፤ ኢዛካ ሚንꬂ ኦይኪቴ፤ ኢንቴ ኩሜꬃ ዎዚናፔኔ ኩሜꬃ ሼምፖፌ ኢዛስ ኦꬃና ማላ ኢዚ ኢሚዳ ኣዛዞታኔ ዎጋታ ሚንꬂ ናጊቴ» ጊዴስ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ሄሳፌ ጉዬ ኢያሶይ ኢስታ ኣንጂ ዬዲን ኢስቲካ ባንታ ሶ ሶ ሲሚ ቢዳ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ሙሴይ ሚናሴ ቆሞፌ ባጋታስ ባሳኔ ቢታን ጺንጾ ኢሚዴስ፤ ሃንኮ ኣቲዳ ባጋታስ ኢያሶይ ዮርዳኖሴፔ ኣርሼይ ዉሊዛ ባጋፌ ኢስታ ኢሻታ ጊዶን ኢስታስ ጺንጾ ኢሚዴስ። ኢያሶይ ኢስታ ባንታ ሶ ሶ ሲማና ማላ ሞይዚዛ ዎዴ ኢስታ ኣንጂሼ፥",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "«ቤኢቴ፥ ኢንቴ ሃኢ ዳሮ ኣቆታ ኤኪዲ፥ ዳሮ ሜሄ ዉዴ፥ ቢራ፥ ዎርቃ፥ ጻርቂማላ፥ ቢራታኔ ዳሮ ማይኦ ኤኪዲ ኢንቴ ሶ ሲሚቴ። ሄሳ ጊሻስ ኢንቴ ሞርኬታፔ ዲኤቲዳይሳ፥ ኢንቴ ኢሻታራ ጊሼቲ ኤኪቴ» ጊዴስ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ሄሳ ጊሻስ ኦሮቤሌ ቆሞቲኔ ጋዴ ቆሞቲ ሄሳꬆካ ሚናሴ ቆሞፌ ባጋቲ ኢስራኤሌ ኣሳ ካናኔን ዲዛ ሴሎን ኣጊዲ ካሴ ሙሴ ባጋራ ጎዳ ኣዛዞን ላታ ኤኪዳ ጺንጾን ጋላኣዴ ሲሚ ቢዳ።\nዮርዳኖሴ ሻፋ ማታን ኦሴቲዳ ያርሾሶሆ",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ኦሮቤሌ ቆሞቲ፥ ጋዴ ቆሞቲኔ ሚናሴ ቆሞታፔ ባጋቲ ዮርዳኖሴ ሻፋ ማታን ካናኔ ቢታን ዲዛ ጋላኣዴ ዪዳ ዎዴ ሻፋ ማታን ጊታ ያርሾሶሆ ጊግሲዳ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ሂስቲን ኢስቲ ኢስራኤሌ ቢታን፥ ካናኔ ዛዋን፥ ጋዴን ጊታ ያርሾሶሆ ጊግሲዳይሳ ሃራ ኢስራኤሌ ኣሳይ ሲዪዳ ዎዴ",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ኩሜꬃ ኢስራኤሌ ኣሳይ ኢስታ ኦላና ባናስ ሴሎን ኢሲፌ ሺቂዴስ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ሂስቲዲ ኢስራኤሌ ኣሳይ ቄሴ ኤልኤዜሬ ና ፊኒሃሴ፥ ጋላኣዴ ቢታን ዲዛ ኦሮቤሌ ቆሞታኮ፥ ጋዴ ቆሞታኮኔ ሚናሴ ቆሞታፔ ባጋታኮ ኪቲዴስ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "ኩሜꬃ ኢስራኤሌ ቆሞታ ባ ቆሞታ ሃላቃታፔ ኢሲ ኢሲ ኣስ ዶሪዲ፥ ታሙ ኣስ ፊኒሃሴራ ጋꬂ ዬዲዴስ። ሃይቲ ኢሶይ ኢሶይ ኢስራኤሌ ቆሞታፔ ዪዳ ባንታ ዛርኬን ዛርኬን ዶሬቲዳ ሃላቃታ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ኢስቲ ኦሮቤሌ ቆሞቲ፥ ጋዴ ቆሞቲኔ ሚናሴ ቆሞታፔ ባጋቲ ዲዛ ጋላኣዴ ቢታ ቢዲ ኢስታስ፥",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "«ጎዳ ኣሳይ ኩሜꬅ ኢንቴና፥ ‹ኢስራኤሌ ጾሳ ቦላ ኣይስ ሃይሳ ማላ ኢታ ኦꬂዴቲ? ዋኒዲ ኢንቴ ሃራ ያርሾ ያርሺዛሶ ኢንቴስ ጊግሲዴቲ? ጎዳ ቦላ ዋኒ ማካሊዴቲ? ኢዛ ካሊዛይሳካ ዋኒዲ ኣጊዴቲ?",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17",
+          "source_element_id": "V17",
+          "text": "ፔኦሬን ኑኒ ኦꬂዳ ናጋራይ ኑስ ጊዴኔ? ኢስራኤሌ ዴራ ቦላ ቦሻይ ዎꬊዳ ጊዲኮካ ሃች ጋካናስካ ኑኒ ሄ ናጋራፔ ጌዪቦኮ።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "18",
+          "source_element_id": "V18",
+          "text": "ኢንቴ ሃኢካ ጎዳ ካሊዛይሳ ኣጊዲ ጉዬ ጉዬ ጌቲ?\n« ‹ኢንቴ ሃች ጎዳ ቦላ ማካሊኮ ኢዚ ዎንቶ ኩሜꬃ ኢስራኤሌ ዴራ ሃንቄታና።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "19",
+          "source_element_id": "V19",
+          "text": "ኢንቴ ላቲዳ ቢታይ ቱኒዳ ጊዲኮ ጎዳ ዱንካኔይ ኤቂዳ ጎዳ ቢታ ሃ ዪዲ፥ ኑናራ ጋዴ ጊሼቲ ኤኪቴ። ጊዶ ኣቲን ካሴፔ ዲዛ ጎዳ ኑ ጾሳ ያርሾሶፔ ሃራ ያርሾሶሆ ጊግሲዲ ጎዳ ቦላ ዎይኮ ኑ ቦላ ማካሎፍቴ።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "20",
+          "source_element_id": "V20",
+          "text": "ዛራሄ ና ኣካኔይ ፒላ ጊዲዳይሳ ኤኪዲ፥ ናጋራ ኦꬂዳ ጊሻስ፥ ኩሜꬃ ኢስራኤሌ ዴራ ቦላ ጎዳ ሃንቆይ ዎꬊቤኔ? ኢዛ ናጋራ ጋሶን ሃይቂዳይ ኢዛ ጻላላ ጊዴና› ጌቴስ» ጊዳ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "21",
+          "source_element_id": "V21",
+          "text": "ሂስቲን ኦሮቤሌ ቆሞቲ፥ ጋዴ ቆሞቲኔ ሚናሴ ቆሞታፔ ባጋቲ ኢስራኤሌ ቆሞታ ሃላቃታስ ዛሪዲ፥",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "22",
+          "source_element_id": "V22",
+          "text": "«ጎዳይ ዎልቃማ ጾሳይ! ጎዳይ ዎልቃማ ጾሳይ! ኑኒ ሃይሳ ኣይስ ኦꬂዳኮ ኢዚ ኤሬስ! ኑኒ ኣይስ ኦꬂዳኮ ኢንቴካ ኤራና ማላ ኮዮስ። ኑኒ ሃይሳ ኦꬂዳይ ማካላቴꬃኒኔ ጎዳስ ኣዛዜቴꬃ ኢጾን ጊዲኮ፥ ሃች ኑና ማሮፒቴ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "23",
+          "source_element_id": "V23",
+          "text": "ኑኒ ጎዳ ካሊዛይሳ ኣጊዲ ጹጌቲዛ ያርሾ፥ ካꬃ ያርሾኔ ኢሲፌቴꬃ ያርሾ ያርሻናስ ቆፒዲ ጊግሲዳ ጊዲኮ፥ ጎዳይ ኑ ቦላ ባ ሃሎ ኬሶ።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "24",
+          "source_element_id": "V24",
+          "text": "ኑኒ ሄሳꬆ ኦꬂዳይ ሲንꬃፌ ያና ኢንቴ ዜሬꬃቲ ኑ ዜሬꬃታ፥ ‹ጎዳ ኢስራኤሌ ጾሳራ ኢንቴስ ኣዛ ጋይቶቴꬂ ዲዜ?",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "25",
+          "source_element_id": "V25",
+          "text": "ኢንቴኖ ኦሮቤሌኔ ጋዴ ቆሞቶ፥ ጎዳይ ኑ ጊዶኒኔ ኢንቴ ጊዶን ዮርዳኖሴ ሻፋን ዛዋ ዛሪዳ ጊሻስ፥ ጎዳን ኢንቴና ጋꬂዛ ሚሺ ዴና› ጊዲ ኢንቴ ዛሬቲ ኑ ዛሬታ ጎዳስ ጎይኖንታ ማላ ቴቆንታ ኣጌቴና ጊ ሂርጊዶስ» ጊዳ።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "26",
+          "source_element_id": "V26",
+          "text": "«ሄሳ ጊሻስ፥ ‹ኑኒ ኑ ጊዶን ያርሾ ያርሺዛሶሆ ኣኔ ኦꬆስ፤ ጊዶ ኣቲን ጹጌቲዛ ያርሾስ ዎይኮ ሃራ ያርሾስ ጊዴና› ጊዳይ ሄሳሳ።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "27",
+          "source_element_id": "V27",
+          "text": "ኑኒ ያርሾሶሆ ጊግሲዳይ ጹጌቲዛ ያርሾ፥ ኢሲፌቴꬃ ያርሾኔ ሃራ ያርሾ ያርሺዲ፥ ጎዳስ ኢዛ ዱንካኔን ጎይኒዛይሳ ሃይሲ ያርሾሶሆዚ ኑ ጊዶኒኔ ኢንቴ ጊዶን፥ ቃሴ ኑፔ ካሊዛ ዬሌታታ ጊዶን ማርካ ጊዳና። ዎዴፔ ኢንቴ ዜሬꬃቲ ኑ ዜሬꬃታ፥ ‹ኢንቴና ጎዳን ጋꬂዛይ ኣይኮይካ ዴና› ጋናስ ዳንዳዬቴና።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "28",
+          "source_element_id": "V28",
+          "text": "ኢስቲ ኑና ዎይኮ ኑ ዜሬꬃታ ዎዴፔ ሄሳꬆ ጊኮ ኑኒ ኢስታስ ዛሪዲ፥ ‹ሄኮ! ኑ ኣዋቲ ጎዳሲ ያርሺዛሶሆ ሌሚሶ ኦꬂዳይሳ ቤኢቴ። ሃይሳ ኑ ኣዋቲ ጹጌቲዛ ያርሾኔ ሃራ ያርሾ ያርሻናስ ጊዶንታ፥ ኢንቴፌኔ ኑፔ ጊዶን ማርካ ጊዳና ማላ ጊግሲዳ› ጋና።",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "29",
+          "source_element_id": "V29",
+          "text": "ጎዳ ኑ ጾሳ ዱንካኔዛ ሲንꬃን ኤቂዳ ያርሾ ያርሺዛሶሆፔ ሃራ፥ ጹጌቲዛ ያርሾ፥ ካꬃ ያርሾኔ ሃራ ያርሾ ያርሺዛሶሆ ጊግሲዲ ጎዳ ቦላ ማካሎይ ኑፔ ሃኮ!» ጊዳ።",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "30",
+          "source_element_id": "V30",
+          "text": "ቄሴ ፊኒሃሲኔ ኢዛራ ዲዛ ኢስራኤሌ ቆሞታ ሃላቃቲ፥ ኦሮቤሌ፥ ጋዴኔ ሚናሴ ቆሞቲ ዮቲዳይሳ ሲዪዲ፥ ኬሂ ኡፋዬቲዳ።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "31",
+          "source_element_id": "V31",
+          "text": "ቄሴ ኤልኤዜሬ ና ፊኒሃሲ ኦሮቤሌ፥ ጋዴኔ ሚናሴ ቆሞታስ፥ «ጎዳይ ኑ ጊዶን ዲዛይሳ ኑኒ ሃች ኤሪዶስ፤ ኣይስ ጊኮ ሃ ዮኦዛ ኢንቴ ጎዳ ቦላ ማካላናስ ኦꬂቤኬታ። ኢንቴ ሃኢ ጎዳ ሃንቆፌ ኢስራኤሌ ኣሳ ኣሺዴታ» ጊዴስ።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "32",
+          "source_element_id": "V32",
+          "text": "ሄሳፌ ጉዬ ቄሴ ኤልኤዜሬ ና ፊኒሃሲኔ ዴራ ካሌꬂዛይቲ ጋላኣዴን ዲዛ ኦሮቤሌኔ ጋዴ ቆሞታራ ሃሳዬቲዳፔ ጉዬ ካናኔን ዲዛ ኢስራኤሌ ኣሳኮ ሲሚዳ፤ ሂስቲዲ ሃኒዳይሳ ኢስታስ ዮቲዳ።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "33",
+          "source_element_id": "V33",
+          "text": "ኢስራኤሌ ኣሳይ ሄሳ ሲዪዲ ኡፋይሳን ጾሳ ጋላቲዴስ። ቃሴ ኦሮቤሌ ቆሞቲኔ ጋዴ ቆሞቲ ዲዛ ቢታ ኦሊ ꬋይሳናስ ባና ጊዳይሳ ኣጊዴስ።",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "34",
+          "source_element_id": "V34",
+          "text": "ኦሮቤሌይኔ ጋዴ ቆሞቲ፥ «ጎዳይ ኢዚ ጾሳ ጊዲዳይሳስ ሃይሲ ኑ ጊዶን ማርካ» ጊዲ ያርሾሶሆዛ፥ «ማርካ» ጊ ሱንꬂዳ።",
+          "unit_order": 34
+        }
+      ],
+      "notes": [
+        {
+          "verse": "22:2",
+          "marker": "cross-reference",
+          "text": "ታይ 32፡20-32፤ ኢያ 1፡12-15",
+          "source_reference": "1"
+        },
+        {
+          "verse": "22:16",
+          "marker": "cross-reference",
+          "text": "ዛሬ 12፡13-14",
+          "source_reference": "2"
+        },
+        {
+          "verse": "22:17",
+          "marker": "cross-reference",
+          "text": "ታይ 25፡1-9",
+          "source_reference": "3"
+        },
+        {
+          "verse": "22:20",
+          "marker": "cross-reference",
+          "text": "ኢያ 7፡1-26",
+          "source_reference": "4"
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "source_chapter_label": "23",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 23",
+      "heading": [
+        "ኢያሶይ ዴራ ካሌꬂዛይታስ ዮቲዳ ዉርሴꬃ ቃላ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ዳሮ ዎዴስ ጎዳይ ኢስራኤሌ ኣሳ ኢስታ ዩሾን ዲዛ ሞርኬታ ኡባፌ ሼምፒሲዴስ። ሄ ዎዴ ኢያሶይ ጪሚዲ ኬሂፔ ዎዴ ሱጊዴስ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ኢያሶይ ኢስራኤሌ ኣሳ ኡባ፥ ጪማታ፥ ሹሜታ፥ ዳናታኔ ፒርዲዛይታ ኢሲፌ ጼይጊ ሺሺዲ፥ «ታኒ ጪማዲስ፥ ዎዴይካ ታስ ኬሂ ቢዴስ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ጎዳ ኢንቴ ጾሳይ ኢንቴ ጊሻስ ሃ ካዎቴꬃታ ቦላ ኦꬂዳ ኡባ ሚሽ ኢንቴ ኢንቴ ኣይፌን ቤዪዴታ። ኢንቴ ጊሻስ ኦሌቲዳይ ጎዳ ኢንቴ ጾሳ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ቤኢቴ፥ ዮርዳኖሴ ሻፋፔ ዶሚዲ ኣርሼይ ዉሊዛሶ ባጋን ሜዲቴራኔ ኣባ ጋካናስ ዲዛሶታ ኡባ፥ ኢንቴ ጾኒዳ ካዎቴꬃታፔ ኢንቴ ቡሮ ላቶንታ ቢታታ ታኒ ኢንቴ ቆሞታስ ሳማን ሳማን ዎስታ ጊሺዳኮ ኣኬኪቴ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "ጎዳ ኢንቴ ጾሳይ ኢስታ ኢንቴ ሲንꬃፌ ኢስቲ ዲዛሶዛፔ ኢስታ ዬዴꬃና፤ ጎዳ ኢንቴ ጾሳይ ኢንቴስ ኢሚዳ ሂዶታ ቃላ ማላ ኢንቴ ኢስታ ቢታ ላታና።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "«ሚኒቴ! ሃዲርሲኔ ኡሻች ጎፒቴ፤ ሙሴ ዎጋ ማጻፋን ጻፌቲዳ ኡባ ናጋናሲኔ ኦꬃናስ ኬሂፔ ሚኔቲቴ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ሃይታ ኢንቴ ጊዶን ኣቲዳ ካዎቴꬃታራ ኢሲፌቶፍቴ፤ ኢስታ ኤቃ ጾሳታ ሱንꬃ ጼይጎፒቴ፤ ኢስታ ሱንꬃን ጫቆፍቴ፤ ኢስታስ ኦꬆፍቴኔ ጎይኖፍቴ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "ጊዶ ኣቲን ሃች ጋካናስ ኢንቴ ኦꬂዳ ማላ ጎዳ ኢንቴ ጾሳ ሚንꬂ ኦይኪቴ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "«ጎዳይ ጊታኔ ሚኖ ካዎቴꬃታ ኢንቴ ሲንꬃፌ ጎዲ ኬሲዴስ፤ ሃች ጋካናስ ኦኒካ ኢንቴናራ ኤቄታናስ ዳንዳይቤና።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ጎዳ ኢንቴ ጾሳይ ኢንቴስ ኢሚዳ ሂዶታ ቃላ ማላ ኢዚ ኦሌቲዛ ጊሻስ ኢንቴፌ ኢሲ ኣሲ ሺ ኣስ ዬዴꬃና።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "ሄሳ ጊሻስ ጎዳ ኢንቴ ጾሳ ሚኒ ሲቂቴ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ጊዶ ኣቲን ኢንቴ ጉዬ ሲሚዲ ሃንኮ ኣቲዳ ኢንቴናራ ዲዛ ካዎቴꬃታራ ኢንቴ ኢሲፌቲኮ፥ ኤኮን ጌሎን ኢስታራ ኢሲፌ ዋላኬቲኮ፥",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ጎዳ ኢንቴ ጾሳይ ሃይሳፌ ጉዬ ኢንቴ ሲንꬃፌ ኢስታ ኬሲ ጎዶንታይሳ ኢንቴ ኤራናስ ቤሴስ፤ ጎዳ ኢንቴ ጾሳይ ኢንቴስ ኢሚዳ ሃ ሎኦ ቢታይፌ ኢንቴ ꬋያና ጋካናስ ኢስቲ ኢንቴስ ዎጺማዴኔ ያርዴ ጊዳና፤ ኢንቴ ዞኮስ ሊሶ፥ ኢንቴ ኣይፌሲካ ኣጉንꬅ ጊዳና።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "«ቤኢቴ ታስ ሃኢ ሃይቆ ዎዴይ ጋኪዴስ፤ ጎዳ ኢንቴ ጾሳይ ኢንቴስ ኢሚዳ ሎኦ ሂዶታ ኡባፌ ኢሲኖካ ኢዚ ኣሾንታይሳ ኢንቴ ኩሜꬃ ዎዚናፔኔ ኩሜꬃ ሼምፖፌ ኤሬታ፤ ኢዚ ኢንቴስ ኢማና ጊዳ ሂዶታይ ፓጬይ ባይንዳ ሙሌራ ፖሌቲዴስ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ጊዶ ኣቲን ጎዳ ኢንቴ ጾሳይ ኢንቴስ ኢሚዳ ሎኦ ሂዶታ ኡባይ ሙሌራ ፖሌቲዳ ማላ ጎዳ ኢንቴ ጾሳይ ኢንቴስ ኢሚዳ ሎኦ ቢታይፌ ኢንቴና ꬋይሳና ጋካናስ ኢታ ሚሽ ኢንቴ ቦላ ኤሃና።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "ጎዳ ኢንቴ ጾሳይ ኢንቴስ ኢሚዳ ጫቆ ቃላ ኢንቴ ላሊዛ ጊዲኮ፥ ቢዲ ሃራ ኤቃ ጾሳታስ ሃጋዚኮኔ ጎይኒኮ ጎዳ ሃንቆይ ኢንቴ ቦላ ታማ ማላ ኤጺ ኬዛና፤ ኢዚ ኢንቴስ ኢሚዳ ሎኦ ቢታይፌ ኢንቴ ኤሶን ꬋያና» ጊዴስ።",
+          "unit_order": 16
+        }
+      ],
+      "notes": [
+        {
+          "verse": "23:10",
+          "marker": "cross-reference",
+          "text": "ዛሬ 3፡22፤ 32፡30",
+          "source_reference": "1"
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "source_chapter_label": "24",
+      "source_page_title": "ጌሻ ማጻፋ ኢያሶ ማጻፋ 24",
+      "heading": [
+        "ሴኬሜን ኦራጺዳ ጫቆ ቃላ",
+        "ኢያሶ ሃይቆኔ ኤልኤዜሬ ሃይቆ"
+      ],
+      "units": [
+        {
+          "source_marker": "1",
+          "source_element_id": "V1",
+          "text": "ሄሳፌ ጉዬ ኢያሶይ ኢስራኤሌ ቆሞታ ኡባ ሴኬሜን ሺሺዴስ። ጪማታ፥ ካሌꬂዛይታ፥ ዳናታኔ ፒርዲዛይታ ኡባ ጼይጊዴስ፤ ኢስቲካ ጾሳ ሲንꬅ ሺቂዳ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "2",
+          "source_element_id": "V2",
+          "text": "ኢያሶይ ዴራ ኡባስ፥ «ጎዳ ኢስራኤሌ ጾሳይ፥ ‹ካሴ ኢንቴ ኣዋቲ ኣብራሃሜኔ ናኮሬ ኣዋ ታራ ጉጂዲ ኤፊራጺሴ ሻፋፔ ሄ ፒንꬃን ዴኢዳ፤ ኢስቲ ሃራ ኤቃ ጾሳታስ ጎይኒዳ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "3",
+          "source_element_id": "V3",
+          "text": "ታኒ ጊዲኮ ኢንቴ ኣዋ ኣብራሃሜ ኤፊራጺሴ ሻፋስ ሄ ፒንꬃፌ ኤሃዲስ፤ ካናኔ ቢታንካ ካሌꬃዲስ። ኢዛ ዜሬꬃታካ ዳርሳዲስ፤ ዪሳቃካ ኢዛስ ኢማዲስ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "4",
+          "source_element_id": "V4",
+          "text": "ዪሳቃስካ ያቆቤኔ ኤሳዌ ኢማዲስ። ኤሳዌስ ጌዜቲዛ ሴይሬ ቢታ ጺንጾ ሂስታ ኢማዲስ፤ ያቆቤይኔ ኢዛ ናይቲ ጊዲኮ ዱጌ ጊብጼ ቢዳ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "5",
+          "source_element_id": "V5",
+          "text": "« ‹ሄሳፌ ጉዬ ሙሴኔ ኣሮኔ ኪታዲስ፤ ታ ኤሂዳ ቦሻን ጊብጼታ ኡንኤꬃዳ ኢንቴና ሄፔ ኬሳዲስ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "6",
+          "source_element_id": "V6",
+          "text": "ታኒ ኢንቴ ኣዋታ ጊብጼፔ ኬሲን ዞኦ ኣባኮ ዪዴታ፤ ጊብጼቲ ፓራ-ጋሬታኒኔ ቶጋ ኣሳታን ኢንቴና ዞኦ ኣባ ጋካናስ ኦይካና ካሊዳ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "7",
+          "source_element_id": "V7",
+          "text": "ኢንቴ ኣዋቲ ማዶ ዴማናስ ታኮ ዋሲዳ፤ ታኒ ኢስታፌኔ ጊብጼታፔ ጊዶን ꬉማ ዬጋዲስ፤ ሂስታዳ ኣባይ ኢስታ ቦላ ሲማና ማላኔ ኢስታ ሚታና ማላ ኦꬃዲስ። ታኒ ጊብጼታ ቦላ ኦꬂዳይሳ ኢንቴ ኢንቴ ኣይፌን ቤኢዴታ። ኢንቴካ ባዞን ዳሮ ዎዴ ዴኢዴታ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "8",
+          "source_element_id": "V8",
+          "text": "« ‹ሄሳፌ ጉዬ ዮርዳኖሴ ሻፋፔ ኣርሼይ ሞኪዛሶ ባጋራ ዲዛ ኣሞሬታ ቢታ ታኒ ኢንቴና ኤሃዲስ። ኢስቲ ኢንቴናራ ኦሌቲን ታኒ ኢስታ ኢንቴ ኩሼን ኣꬃ ኢማዲስ፤ ታኒ ኢስታ ኢንቴ ሲንꬃፌ ꬋይሳዲስ፤ ቃሴ ኢንቴ ኢስታ ቢታ ላቲዴታ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "9",
+          "source_element_id": "V9",
+          "text": "ሄሳፌ ጉዬ ሞኣቤ ቢታ ካዎ ጺፖራ ና ባላቄይ ኢስራኤሌ ኦላናስ ዴንዲዴስ፤ ኢንቴና ዪዲ ዶቃና ማላ ቢኦሬ ና ባላሜስ ኪታ ዬዲዴስ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "10",
+          "source_element_id": "V10",
+          "text": "ታኒ ጊዲኮ ባላሜ ሲያና ኮያቤኬ፤ ሄሳ ጊሻስ ኢዚ ኢንቴና ዛሪ ዛሪ ኣንጂዴስ፤ ታኒካ ኢንቴና ባላቄ ኩሼፔ ኣሻዲስ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "11",
+          "source_element_id": "V11",
+          "text": "« ‹ሄፔ ኢንቴ ዮርዳኖሴ ሻፋ ፒኒዲ ኢያርኮ ዪዴታ፤ ኣሞሬቲ፥ ፓሪዜቲ፥ ካናኔቲ፥ ሂቴቲ፥ ጌርጌሴቲ፥ ሂዌቲኔ ያቡሴቲ ኢንቴናራ ኦሌቲዳ ማላ ኢያርኮ ኣሳይ ኢንቴናራ ኦሌቲዴስ፤ ጊዶ ኣቲን ታኒ ኢስታ ኢንቴ ኩሼን ኣꬃ ኢማዲስ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "12",
+          "source_element_id": "V12",
+          "text": "ኢንቴፌ ሲንꬄ ካዤ ኪታዳ ኢስታኔ ኣሞሬ ካዎ ናምኣታ ኢንቴ ሲንꬃፌ ጎዳዲስ። ሃይሲ ኡባይ ሃኒዳይ ኢንቴ ማሻኒኔ ኢንቴ ዎንዳፌን ጊዴና።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "13",
+          "source_element_id": "V13",
+          "text": "ኢንቴ ዳቡሮንታ ቢታኔ ኢንቴ ኬጾንታ ካታማታ ታኒ ኢንቴስ ኢማዲስ፤ ሄኮ ኢንቴ ቶኮንታ ዎይኔ ኣይፌኔ ዎጋራ ኣይፌ ሜታ› ጊዴስ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "14",
+          "source_element_id": "V14",
+          "text": "«ሄሳ ጊሻስ ሃኢካ ጎዳስ ያዪቴ፤ ኩሜꬃ ዎዚናፔ ኣማኔቴꬃን ኢዛስ ሃሬቲቴ፤ ካሴ ኢንቴ ኣዋቲ ኤፊራጺሴ ሻፋፔ ሄ ፒንꬃኒኔ ጊብጼ ቢታን ጎይኒዳ ኤቃ ጾሳታ ኢንቴፌ ሃሲቴ፤ ጎዳስ ጻላ ጎይኒቴ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "15",
+          "source_element_id": "V15",
+          "text": "ጎዳስ ጎይኖይ ኮሾንታ ሚሽ ሚሳቲ ኢንቴስ ቤቲኮ ካሴ ኢንቴ ኣዋቲ ሻፋፔ ሄ ፒንꬃን ዲሼ ጎይኒዳ ኤቃ ጾሳታ ዎይኮ ሃኢ ኢንቴ ዲዛ ኣሞሬቲ ጎይኒዛ ጾሳታ ጎይናና ጊዲኮ ኢንቴ ጎይናናይሳ ሃች ዶሪቴ፤ ታኒኔ ታ ኬꬃ ኣሳይ ጊዲኮ ጎዳስ ጎይናና» ጊዴስ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "16",
+          "source_element_id": "V16",
+          "text": "ሂስቲን ኣሳይ ዛሪዲ፥ «ጎዳ ኣጊዲ ሃራ ኤቃ ጾሳታስ ጎይኖይ ኑፔ ሃኮ!",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "17",
+          "source_element_id": "V17",
+          "text": "ጊብጼ ኣይሌቴꬃ ቢታፌ፥ ኑናኔ ኑ ኣዋታ ኬሲዲ ኤሂዳይ፥ ሄ ጊታ ማላታታ ኑ ሲንꬃን ኦꬂዳይ፥ ኑ ቢዛ ኦጌ ኡባኒኔ ኑ ካንꬂዳ ካዎቴꬃታ ኡባ ጊዶን ኑና ናጊዳይ ጎዳ ኑ ጾሳ።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "18",
+          "source_element_id": "V18",
+          "text": "ቃሴ ጎዳይ ሄ ቢታን ዲዛ ኣሞሬታራ ጉጂን ዴራ ኡባ ኑ ሲንꬃፌ ጎዲዴስ፤ ሄሳ ጊሻስ ኑኒ ጎዳስ ጎይናና፤ ኢዚ ኑ ጾሳ» ጊዴስ።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "19",
+          "source_element_id": "V19",
+          "text": "ኢያሶይካ ዴራስ፥ «ኢንቴ ጎዳስ ጎይናናስ ዳንዳዬኬታ፤ ኢዚ ጌሻ ጾሳ፤ ኢዚ ቃናቲዛ ጾሳ፤ ኢዚ ኢንቴ ማካላቴꬃኔ ኢንቴ ናጋራ ኣቶ ጌና።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "20",
+          "source_element_id": "V20",
+          "text": "ኢንቴ ጎዳ ኣጊዲ ኣላጋ ጾሳታስ ጎይኒኮ ኢዚ ኢንቴስ ሎኦ ኦꬂዳፔ ጉዬ ሲሚ ዎꬊዲ ኢዚ ኢንቴ ቦላ ኢታ ኦꬃናኔ ኢንቴና ꬋይሳና» ጊዴስ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "21",
+          "source_element_id": "V21",
+          "text": "ሂስቲን ዴሬዚ ኢያሶ፥ «ኣካይ ኑኒ ጎዳስ ጻላ ጎይናና» ጊዴስ።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "22",
+          "source_element_id": "V22",
+          "text": "ሄሳፌ ጉዬ ኢያሶይ ዴራስ፥ «ኢንቴ ጎዳስ ጎይናናስ ዶሪዳ ጊሻስ ኢንቴ ሁኤስ ኢንቴ ማርካ» ጊዴስ።\nኢስቲካ ዛሪዲ፥ «ኤ ኑኒ ማርካ!» ጊዳ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "23",
+          "source_element_id": "V23",
+          "text": "ኢያሶይ፥ «ሂስቲኮ፥ ኢንቴ ጊዶን ዲዛ ኣላጋ ጾሳታ ዲጊቴ፤ ኢንቴ ዎዚና ጎዳ ኢስራኤሌ ጾሳኮ ዛሪቴ» ጊዴስ።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "24",
+          "source_element_id": "V24",
+          "text": "ዴሬዚካ ኢያሶስ፥ «ኑኒ ጎዳ ኑ ጾሳስ ጎይናና፤ ኢዛስካ ኣዛዜታና» ጊዳ።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "25",
+          "source_element_id": "V25",
+          "text": "ሄ ጋላስ ኢያሶይ ዴሬዛ ጫቄꬂዴስ፤ ኢስቲ ካላና ዎጋኔ ማራ ሄን ሴኬሜን ኢስታስ ኢሚዴስ።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "26",
+          "source_element_id": "V26",
+          "text": "ኢያሶይ ሄ ቃላታ ጾሳ ዎጋ ማጻፋን ጻፊዴስ። ሄሳፌ ጉዬ ኢሲ ጊታ ሹች ኤኪዲ ጌሽ ጊዲዳ ጎዳ ዱንካኔዛ ማታን ዲዛ ዎላ ጋርሳን ኤሲዴስ።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "27",
+          "source_element_id": "V27",
+          "text": "ኢያሶይ ኩሜꬃ ዴራስ፥ «ቤኢቴ፤ ጎዳይ ኑስ ሃሳይዳ ቃላ ኡባ ሃ ሹቻይ ሲዪዳ ጊሻስ ኢዚ ኑ ቦላ ማርካ ጊዳና። ኢንቴ ጾሳ ቦላን ማካሊኮ ሃ ሹቻይ ኢንቴ ቦላ ማርካ ጊዳና» ጊዴስ።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "28",
+          "source_element_id": "V28",
+          "text": "ሄሳፌ ጉዬ ኢያሶይ ዴራ ኡባ ባ ጺንጾን ጺንጾን ሲማና ማላ ሞይዚዴስ።\nኢያሶ ሃይቆኔ ኤልኤዜሬ ሃይቆ",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "29",
+          "source_element_id": "V29",
+          "text": "ሄሳፌ ጉዬ ጎዳ ኣይሌ፥ ናዌ ና ኢያሶስ ላይꬃይ 110 ጊዲን ሃይቂዴስ።",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "30",
+          "source_element_id": "V30",
+          "text": "ኣሳይ ጋኣሼ ዙማፔ ፑዴሃ ባጋን፥ ሻራ ሜንꬆን ዲዛ ኤፍሬሜ ዴሬን ዲዛ ኢዛ ጺንጾን ቴሚናቴ-ሴራሃን ሞጊዴስ።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "31",
+          "source_element_id": "V31",
+          "text": "ኢያሶይ ፓጻ ዲዛ ዎዴ ኡባን፥ ኢያሶፔ ሲሚን ዴኢዳ ኣሳቲኔ ጎዳይ ኢስራኤሌታስ ኦꬂዳ ኦሶ ኡባ ኤሪዛ ጪማቲ ዲዛ ዎዴ ኡባን ኢስራኤሌ ኣሳይ ጎዳስ ጎይኒዴስ።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "32",
+          "source_element_id": "V32",
+          "text": "ኢስራኤሌ ኣሳይ ጊብጼ ቢታፌ ኤሂዳ ዮሴፌ ሜቄꬃ ሴኬሜን ሞጊዳ። ሄ ሶሆዛ ያቆቤይ ሴኬሜ ኣዋ ኤሞሬፔ 100 ሳቂሌ ቢራን ሻሚዴስ፤ ሂስቲን ጉዬፔ ዮሴፌ ዜሬꬃታስ ጺንጾ ጊዲዴስ።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "33",
+          "source_element_id": "V33",
+          "text": "ቃሴካ ኣሮኔ ና ኤልኤዜሬይ ሃይቂዴስ፤ ኢዚካ ሻራ ሜንꬆን ዲዛ ኤፍሬሜ ዴሬን ኢዛ ናዛ ፊኒሃሴ ሳማን ጋኪዳ ጊቢኣ ካታማን ሞጌቲዴስ።",
+          "unit_order": 33
+        }
+      ],
+      "notes": [
+        {
+          "verse": "24:2",
+          "marker": "cross-reference",
+          "text": "ሜꬌ 11፡27",
+          "source_reference": "1"
+        },
+        {
+          "verse": "24:3",
+          "marker": "cross-reference",
+          "text": "ሜꬌ 12፡1-9፤ 21፡1-3",
+          "source_reference": "2"
+        },
+        {
+          "verse": "24:4",
+          "marker": "cross-reference",
+          "text": "ሜꬌ 25፡24-26፤ 36፡8፤ 46፡1-7፤ ዛሬ 2፡5",
+          "source_reference": "3"
+        },
+        {
+          "verse": "24:5",
+          "marker": "cross-reference",
+          "text": "ኬሳ 3፡1—12፡42",
+          "source_reference": "4"
+        },
+        {
+          "verse": "24:6",
+          "marker": "cross-reference",
+          "text": "ኬሳ 14፡1-31",
+          "source_reference": "5"
+        },
+        {
+          "verse": "24:8",
+          "marker": "cross-reference",
+          "text": "ታይ 21፡21-35",
+          "source_reference": "6"
+        },
+        {
+          "verse": "24:10",
+          "marker": "cross-reference",
+          "text": "ታይ 22፡1—24፡25",
+          "source_reference": "7"
+        },
+        {
+          "verse": "24:11",
+          "marker": "cross-reference",
+          "text": "ኢያ 3፡14-17፤ 6፡1-21",
+          "source_reference": "8"
+        },
+        {
+          "verse": "24:12",
+          "marker": "cross-reference",
+          "text": "ኬሳ 23፡28፤ ዛሬ 7፡20",
+          "source_reference": "9"
+        },
+        {
+          "verse": "24:13",
+          "marker": "cross-reference",
+          "text": "ዛሬ 6፡10-11",
+          "source_reference": "10"
+        },
+        {
+          "verse": "24:30",
+          "marker": "cross-reference",
+          "text": "ኢያ 19፡49-50",
+          "source_reference": "11"
+        },
+        {
+          "verse": "24:32",
+          "marker": "cross-reference",
+          "text": "ሜꬌ 33፡19፤ 50፡24-25፤ ኬሳ 13፡19፤ ዮሃ 4፡5፤ ሃዋ 7፡16",
+          "source_reference": "12"
+        }
+      ]
+    }
+  ],
+  "normalized_title_en": "Joshua",
+  "title_normalization": {
+    "method": "publisher_standard_book_code_lookup",
+    "publisher_book_code": "JOS",
+    "normalized_english_name": "Joshua",
+    "source_title_label": "ኢያሶ ማጻፋ",
+    "is_translation_of_source_label": false,
+    "canon_mapping": "uncertain_title_candidate",
+    "source_ids": [
+      "SRC-168",
+      "SRC-171",
+      "SRC-196"
+    ],
+    "note": "English navigation label decoded from the publisher's standard book code. The Gamo source label is preserved verbatim; this is not a translation of that label. Provisional title-level candidate for eotc-ot-06, based only on publisher standard book code JOS and the archive's English navigation-name lookup. This does not establish EOTC, Eritrean, or other canon affiliation, text identity, scope equivalence, or completeness. It remains a research reader and is excluded from canon-linked coverage pending independent crosswalk review."
+  },
+  "rights_status": "This bundled reader is classified under CC-BY-SA-4.0. Follow the item-specific notice and obligations: © 2024 The Word for the World International. Gamo translation contributed by The Word for the World Northern Africa. Source: eBible.org, GMVETW / gmve, Gamo Bible (ጌሻ ማጻፋ), Ethiopic script. Licensed CC BY-SA 4.0. This archive converted HTML structure to JSON and whitespace for display; those changes do not imply publisher endorsement. Commercial-use scope: The provider page grants share and adaptation rights under CC BY-SA 4.0 subject to attribution, change indication, and share-alike. This notice covers only this source-derived Gamo reader layer, not other site content or separately licensed images. This applies only to the selected reader layer, not excluded media or other site material."
+}

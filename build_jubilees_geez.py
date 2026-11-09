@@ -17,6 +17,7 @@ NS = {"tei": TEI, "xml": XML}
 
 
 def main() -> None:
+    raise RuntimeError("Publication blocked: Jubilees scripture text is withheld pending Beta maṣāḥǝft rights clarification.")
     raw = SOURCE.read_bytes()
     root = ET.fromstring(raw)
     edition = root.find('.//tei:div[@type="edition"][@xml:id="Ran"]', NS)
@@ -45,6 +46,7 @@ def main() -> None:
 
     OUTPUT.write_text(json.dumps({
         "reader_id": "jubilees-geez-hacohen",
+        "text_origin": "source_transcription",
         "canon_id": "eotc-ot-13",
         "title": "Jubilees — Geʽez reader",
         "language": "Geʽez (Classical Ethiopic)",
@@ -59,8 +61,13 @@ def main() -> None:
         "parent_source_sha256": "d8c6eaa3857c35d8e467a6c150178fc02395fc569527bedfc7687c43cc68d87f",
         "source_path": "readers/source/jubilees/LIT1697Jubilees-Ran.xml",
         "chapter_count": len(chapters),
+        "unit_count": sum(len(chapter["verses"]) for chapter in chapters),
+        "unit_label": "Entry order (source line marker shown)",
         "verse_marker_count": sum(len(chapter["verses"]) for chapter in chapters),
         "verification_status": "Parsed offline from the pinned TEI snapshot’s Ran-only extract. The full pinned source snapshot is retained outside the published site for audit (SHA-256 d8c6eaa3857c35d8e467a6c150178fc02395fc569527bedfc7687c43cc68d87f). The selected edition contains exactly chapters 1–50; chapter order, nonempty line text, and preservation of every source n marker are checked. Source markers repeat and skip in places, so navigation uses display order and shows the original marker alongside. No independent manuscript collation or line-by-line scholarly verification was performed.",
+        "rights_classification": "open_license",
+        "license_id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "copyright_notice": "CC BY-SA 4.0. Source TEI explicitly states that this Ran HaCohen transcription is under the same license. Attribute Ran HaCohen and the Beta maṣāḥǝft record; adaptations must use the same license and indicate changes.",
         "commercial_use": "Permitted under CC BY-SA 4.0 with attribution and ShareAlike terms.",
         "chapters": chapters,

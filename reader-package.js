@@ -88,7 +88,11 @@
       candidate_canon_id: candidateCanonId,
       state: researchCorpus.canon_mapping_state || 'unknown',
       note: researchCorpus.canon_mapping_note || 'No mapping note recorded.',
-    } : (reader.canon_id ? { canon_id: reader.canon_id, state: 'linked' } : null);
+    } : (reader.canon_id ? {
+      canon_id: reader.canon_id,
+      state: 'registry_link',
+      note: 'This archive snapshot associates the reader with this canon entry. The registry link is not independent verification of work identity, exact edition, wording, or completeness. See canon_entry.mapping_note and the reader verification_status for the supporting evidence and limits.',
+    } : null);
 
     return {
       $schema: 'https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/schemas/reader-package.schema.json',

@@ -1,0 +1,284 @@
+{
+  "reader_id": "amh2003-tit-research",
+  "research_corpus_id": "amh2003-tit-research",
+  "publisher_book_code": "TIT",
+  "source_menu_position": 17,
+  "source_title_label": "ወደ ቲቶ",
+  "reader_scope": "research_witness_reviewed_title_match",
+  "title": "Titus — Amharic text (ወደ ቲቶ)",
+  "display_name": "Titus · Amharic (AMH2003)",
+  "normalized_title_en": "Titus",
+  "title_normalization": {
+    "method": "publisher_standard_book_code_lookup",
+    "publisher_book_code": "TIT",
+    "normalized_english_name": "Titus",
+    "source_title_label": "ወደ ቲቶ",
+    "is_translation_of_source_label": false,
+    "canon_mapping": "reviewed_work_title_match",
+    "source_ids": [
+      "SRC-029",
+      "SRC-196",
+      "SRC-197",
+      "SRC-198",
+      "SRC-396"
+    ],
+    "note": "Reviewed work/title match for eotc-nt-17 (Titus): the EOTC's cited 81-entry list names Titus; the captured publisher menu and page identify this member with standard code TIT; the official USFM/USX table maps that code to Titus. The Amharic title remains verbatim and is not translated by this normalization. This is a title crosswalk only, not evidence that this edition belongs to or follows the EOTC canon. Evidence: SRC-029, SRC-196, SRC-197, SRC-198, and SRC-396."
+  },
+  "text_origin": "published_translation",
+  "language": "Amharic (አማርኛ)",
+  "language_tag": "am",
+  "language_assignment_status": "publisher_identified_amharic",
+  "script_code": "Ethi",
+  "translation_id": "amh2003eb",
+  "translator": "Translation team not named in the cited copyright page; source notes identify Lapsley/Brooks Foundation e-text (1994) and Dirk Röckmann's UTF-8 conversion/XML tagging (2003).",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The eBible publisher metadata does not document a source-text path. Haile Selassie's 1961 statement describes the 1947–1952 committee's aim as revising the existing Amharic Bible with reference to Hebrew and Greek. A. F. Matthew, a committee member, reports that the 1955 New Testament revision used Nestle's 1904 Greek text, following an Ethiopic reading where the Nestle apparatus listed the same alternative. These are historical statements about the revision process, not proof that this 2003 digital witness reproduces the 1962 print text without change. No collation establishes this reader's book-level lineage, so its path remains unknown.",
+  "edition": "United Bible Societies, Revised Amharic Bible in XML (2003), based on the printed version (1962); Lapsley/Brooks Foundation e-text (1994); Unicode UTF-8 transformation/XML tagging by Dirk Röckmann (2003); eBible.org source files dated 2025-12-12.",
+  "edition_scope": "This is the Amharic New Testament publisher-menu entry 17 under label 'ወደ ቲቶ' and standard book code TIT. The 81-entry catalogue link is provisional and title-level; relation to any particular church canon list or printed exemplar is not established.",
+  "rights_classification": "permission_limited",
+  "copyright_notice": "Copyright © 1962, 2003 United Bible Societies. Language: አማርኛ (Amharic). Amharic NT. Revised Amharic Bible in XML (2003). Printed version by United Bible Societies (© 1962). E-text in transliterated ASCII format by Lapsley/Brooks Foundation (1994). Unicode UTF-8 transformation and XML-tagging by Dirk Röckmann (2003; www.nt-text.net). With kind permission of the Bible Society of Ethiopia. Every non-commercial work using this data in any form must fully include this copyright statement. Every commercial use of parts or the complete data in any form needs written permission of the Bible Society of Ethiopia. Copyright page dated 2014-09-09.",
+  "commercial_use": "The source page permits use in non-commercial works only when the complete copyright statement is included with every such work. Commercial use of any part or all of the data requires written permission from the Bible Society of Ethiopia. This is permission-limited reuse, not an open license or a general public-domain claim.",
+  "license_id": null,
+  "license_url": "https://ebible.org/amh/copyright.htm",
+  "chapter_count": 3,
+  "unit_count": 28,
+  "unit_label": "publisher-displayed Amharic verse marker",
+  "verse_marker_count": 28,
+  "section_label": "Chapter",
+  "chapter_structure_note": "Chapter sequence follows the publisher's linked book index and filename order. The original Ethiopic chapter label is retained alongside the numeric navigation order; verse markers are retained verbatim and are not renumbered. Counts describe captured page structure only.",
+  "transcription_note": "Text was parsed from the retained eBible.org HTML-only page capture. Ethiopic letters and source verse labels are preserved; HTML whitespace is normalized. Page navigation, copyright footer, and any separately parsed apparatus are excluded from verse bodies. This is a structural extraction, not a new translation or independent proofreading.",
+  "editorial_signs_note": "Publisher verse-marker strings and any parsed source notes are retained. No editorial sign is reinterpreted or silently removed from a verse body.",
+  "verification_status": "Structural extraction from the pinned eBible.org AMH2003 / amh capture: this menu entry links to 3 consecutive chapter pages; 28 nonempty verse spans retain their displayed Ethiopic labels; source page hashes are recorded. The standard book-code match to the EOTC list title is reviewed separately; this structural check does not validate translation accuracy, completeness against a printed edition, source language, or exact Church-edition identity.",
+  "source_ids": [
+    "SRC-196",
+    "SRC-197",
+    "SRC-198",
+    "SRC-341",
+    "SRC-342"
+  ],
+  "source_pages": "readers/source/amharic/amh-html-pages.zip; publisher pages index.htm, TIT.htm, and 3 chapter pages; copyright.htm and copr.htm retained.",
+  "source_snapshot_url": "https://ebible.org/Scriptures/amh_html.zip",
+  "source_snapshot_sha256": "510484e9b6db7844b474ad8bf029c6c11a11b46dc9eeb1afc111659c8ca3d782",
+  "source_extract_sha256": "9242e36204af81cf8b250b90477dc200c32ff191ff62e85fd6f82286bd1b025f",
+  "source_index_hashes": {
+    "index.htm": "3ada4bad891392ff1bb1fb43d849e10cb2a7dcbc446e312bce4d9e8da44801d0",
+    "copyright.htm": "00116dec62afe27147cbecac2acedd017bb859c39fc97c4e7786bbaf10cf6674",
+    "copr.htm": "5845dc40e1f605219b888032566acaf6dfe51028d6602ae75caf7de8f7d23a17"
+  },
+  "source_page_hashes": [
+    {
+      "page": "TIT.htm",
+      "sha256": "10ca80749971dc51e8c9b3ac4dd19446c65f2d238c5bac5b2cd709b3e3aa908d"
+    },
+    {
+      "page": "TIT01.htm",
+      "sha256": "7faab63ef5b626b4c2cdfafb6ffe6e90ebd6b4b0f8d59f3b79cd730cff28cd4b"
+    },
+    {
+      "page": "TIT02.htm",
+      "sha256": "724d47f05b754cb98804167952f044a20a556b203ce8448b602218ee5caeaa9f"
+    },
+    {
+      "page": "TIT03.htm",
+      "sha256": "076592a344995572805427a229b816213c33e92842758f5c8e8b94f30f36ad3c"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "source_chapter_label": "፩",
+      "source_page_title": "መጽሐፍ ቅዱስ ወደ ቲቶ ፩",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩-፫",
+          "source_element_id": "V1",
+          "text": "በዘመኑም ጊዜ፥ መድኃኒታችን እግዚአብሔር እንዳዘዘ፥ ለእኔ አደራ በተሰጠኝ ስብከት ቃሉን ገለጠ፤",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "በሃይማኖት ኅብረት እውነተኛ ልጄ ለሚሆን ለቲቶ፤ ከእግዚአብሔር አብ ከመድኃኒታችንም ከጌታ ከኢየሱስ ክርስቶስ ጸጋና ምሕረት ሰላምም ይሁን።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ስለዚህ ምክንያት የቀረውን እንድታደራጅ በየከተማውም፥ እኔ አንተን እንዳዘዝሁ፥ ሽማግሌዎችን እንድትሾም በቀርጤስ ተውሁህ፤",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "የማይነቀፍና የአንዲት ሚስት ባል የሚሆን፥ የሚያምኑም ልጆች ያሉት፥ ስለ መዳራትም ወይም ስለ አለመታዘዝ የማይከሰስ ማንም ቢኖር፥ ሹመው።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ኤጲስ ቆጶስ፥ እንደ እግዚአብሔር መጋቢ፥ የማይነቀፍ ሊሆን ይገባዋልና፤ የማይኮራ፥ የማይቆጣ፥ የማይሰክር፥ የማይጨቃጨቅ፥ ነውረኛ ረብ የማይወድ፥",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ነገር ግን እንግዳ ተቀባይ፥ በጎ የሆነውን ነገር የሚወድ፥ ጠንቃቃ፥ ጻድቅ፥ ቅዱስ፥ ራሱን የሚገዛ ይሁን፤",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ሕይወት በሚገኝበት ትምህርት ደግሞ ሊመክር ተቃዋሚዎቹንም ሊወቅስ ይችል ዘንድ፥ እንደተማረው በታመነ ቃል ይጽና።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "የማይታዘዙና ከንቱ የሚናገሩ የሚያታልሉ ይልቁንም ከተገረዙት ወገን የሚሆኑ ብዙ ናቸውና፤",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "እነዚህም ስለ ነውረኛ ረብ የማይገባውን እያስተማሩ ቤቶችን በሞላው ስለ ሚገለብጡ፥ አፋቸውን መዝጋት ይገባል።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "የገዛ ራሳቸው ነቢይ የሆነ ከእነርሱ አንዱ። የቀርጤስ ሰዎች ዘወትር ውሸተኞች፥ ክፉዎች አራዊት፥ በላተኞች፥ ሥራ ፈቶች ናቸው ብሎአል።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፫-፲፭",
+          "source_element_id": "V13",
+          "text": "ሁሉ ለንጹሖች ንጹሕ ነው፤ ለርኵሳንና ለማያምኑ ግን ንጹሕ የሆነ ምንም የለም፥ ነገር ግን አእምሮአቸውም ሕሊናቸውም ረክሶአል።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "እግዚአብሔርን እንዲያውቁ በግልጥ ይናገራሉ፥ ዳሩ ግን የሚያስጸይፉና የማይታዘዙ ለበጎ ሥራም ሁሉ የማይበቁ ስለ ሆኑ፥ በሥራቸው ይክዱታል።",
+          "unit_order": 12
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 2,
+      "source_chapter_label": "፪",
+      "source_page_title": "መጽሐፍ ቅዱስ ወደ ቲቶ ፪",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "አንተ ግን ሕይወት ለሚገኝበት ትምህርት የሚገባውን ተናገር።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ሽማግሌዎች ልከኞች፥ ጭምቶች፥ ራሳቸውን የሚገዙ፥ በእምነትና በፍቅር በመጽናትም ጤናሞች እንዲሆኑ ምከራቸው፤",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "እንዲሁም አሮጊቶች ሴቶች አካሄዳቸው ለቅዱስ አገልግሎት የሚገባ፥ የማያሙ፥ ለብዙ ወይን ጠጅ የማይገዙ፥ በጎ የሆነውን ነገር የሚያስተምሩ ይሁኑ፤",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬-፮",
+          "source_element_id": "V4",
+          "text": "ጎበዞችም እንዲሁ ራሳቸውን እንዲገዙ ምከራቸው።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፯-፲፩",
+          "source_element_id": "V5",
+          "text": "ሰዎችን ሁሉ የሚያድን የእግዚአብሔር ጸጋ ተገልጦአልና፤",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፲፪-፲፬",
+          "source_element_id": "V6",
+          "text": "መድኃኒታችንም ከዓመፅ ሁሉ እንዲቤዠን፥ መልካሙንም ለማድረግ የሚቀናውን ገንዘቡም የሚሆነውን ሕዝብ ለራሱ እንዲያነጻ፥ ስለ እኛ ነፍሱን ሰጥቶአል።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "ይህን በሙሉ ሥልጣን ተናገርና ምከር ገሥጽም፤ ማንም አይናቅህ።",
+          "unit_order": 7
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 3,
+      "source_chapter_label": "፫",
+      "source_page_title": "መጽሐፍ ቅዱስ ወደ ቲቶ ፫",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩-፫",
+          "source_element_id": "V1",
+          "text": "እኛ ደግሞ አስቀድመን የማናስተውል ነበርንና፤ የማንታዘዝ፥ የምንስት፥ ለምኞትና ለልዩ ልዩ ተድላ እንደ ባሪያዎች የምንገዛ፥ በክፋትና በምቀኝነት የምንኖር፥ የምንጣላ፥ እርስ በርሳችን የምንጠላላ ነበርን።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "ነገር ግን የመድኃኒታችን የእግዚአብሔር ቸርነትና ሰውን መውደዱ በተገለጠ ጊዜ፥",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "እንደ ምሕረቱ መጠን ለአዲስ ልደት በሚሆነው መታጠብና በመንፈስ ቅዱስ በመታደስ አዳነን እንጂ፥ እኛ ስላደረግነው በጽድቅ ስለ ነበረው ሥራ አይደለም፤",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፮-፰",
+          "source_element_id": "V6",
+          "text": "ቃሉ የታመነ ነው። እግዚአብሔርንም የሚያምኑት በመልካም ሥራ በጥንቃቄ እንዲጸኑ፥ እነዚህን አስረግጠህ እንድትናገር እፈቅዳለሁ። ይህ መልካምና ለሰዎች የሚጠቅም ነው፤",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ነገር ግን ሞኝነት ካለው ምርመራና ከትውልዶች ታሪክ ከክርክርም ስለ ሕግም ከሚሆን ጠብ ራቅ፤ የማይጠቅሙና ከንቱዎች ናቸውና፤",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፲-፲፪",
+          "source_element_id": "V10",
+          "text": "አርጢሞንን ወይም ቲኪቆስን ወደ አንተ ስልክ፥ ወደ ኒቆጵልዮን ወደ እኔ እንድትመጣ ትጋ፤ በዚያ ልከርም ቈርጬአለሁና።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ሕግ አዋቂውን ዜማስንና አጵሎስን ምንም እንዳይጎድልባቸው በጉዞአቸው ተግተህ እርዳ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ከወገናችንም ያሉት ደግሞ ፍሬ ቢሶች ሆነው እንዳይቀሩ፥ የግድ ስለሚያስፈልገው ነገር በመልካም ሥራ እንዲጸኑ ይማሩ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "ከእኔ ጋር ያሉት ሁሉ ሰላምታ ያቀርቡልሃል። በእምነት ለሚወዱን ሰላምታ አቅርብልን። ጸጋ ከሁላችሁ ጋር ይሁን፤ አሜን።",
+          "unit_order": 9
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "rights_status": "Reuse of this bundled reader is limited to the stated permission; no open or broader license is inferred. Item-specific notice: Copyright © 1962, 2003 United Bible Societies. Language: አማርኛ (Amharic). Amharic NT. Revised Amharic Bible in XML (2003). Printed version by United Bible Societies (© 1962). E-text in transliterated ASCII format by Lapsley/Brooks Foundation (1994). Unicode UTF-8 transformation and XML-tagging by Dirk Röckmann (2003; www.nt-text.net). With kind permission of the Bible Society of Ethiopia. Every non-commercial work using this data in any form must fully include this copyright statement. Every commercial use of parts or the complete data in any form needs written permission of the Bible Society of Ethiopia. Copyright page dated 2014-09-09. Commercial-use and other-use boundary: The source page permits use in non-commercial works only when the complete copyright statement is included with every such work. Commercial use of any part or all of the data requires written permission from the Bible Society of Ethiopia. This is permission-limited reuse, not an open license or a general public-domain claim."
+}

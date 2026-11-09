@@ -1,0 +1,171 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/sirach-english-brenton-lxx-1851",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/sirach-brenton-lxx-1851",
+  "labels": [
+    {
+      "value": "English companion — Brenton Septuagint (1851), Sirach",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-45",
+      "mapping_state": "uncertain",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-145"
+      ],
+      "notes": "The EOTC English list names 'Book of Joshua the Son of Sirac' at entry 45, and the archive indexes Sirach/Ecclesiasticus as a candidate title. This establishes a title-level research connection only, not identity between the English Brenton Septuagint text, a Geʽez witness, or a current Church edition."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-lxx-sirach-brenton-lxx-1851-1851",
+    "witness_type": "digital_edition",
+    "title": "Sirach — Brenton Septuagint English (1851)",
+    "date_statement": "Translation published 1851; USFM source package provided by eBible.org",
+    "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital text distributed by eBible.org",
+    "shelfmark_or_edition_id": "46-SIReng-Brenton.usfm",
+    "editorial_policy": "USFM descriptive heading, verse labels, paragraph starts, source break marker, unnumbered continuation, and translator-added-word markers are retained. Translator additions are shown in visible archival brackets.",
+    "source_ids": [
+      "SRC-029",
+      "SRC-038",
+      "SRC-142",
+      "SRC-145"
+    ]
+  },
+  "layer_type": "translation",
+  "text_origin": "published_translation",
+  "language_tag": "en",
+  "language_name_as_recorded": "English",
+  "script_code": "Latn",
+  "basis_path": [
+    "grc",
+    "en"
+  ],
+  "agents": [
+    {
+      "role": "translator",
+      "name": "Sir Lancelot Charles Lee Brenton",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-038"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/sirach-brenton-lxx-1851.json",
+    "media_type": "application/json",
+    "sha256": "f8e7a01f769b4bbe94b28aff4c2adb42dcc4b4d29ce6d7ca5ec22dd1e367d3bd",
+    "format_version": "1",
+    "json_pointer": ""
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 1368,
+    "structure_description": "The locally archived member contains chapters 1–51 and 1,368 numbered labels; chapter 1 contains the prologue labels 1a–1g and onward. The source site's page 0 is title-only; its page 1 holds the prologue text. These are measured digital-source counts, not proof of print-edition completeness.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "One unnumbered continuation is preserved, as are the chapter-1 prologue heading, paragraph starts, a source break marker, numbering gaps, and translator-supplied additions in visible archival brackets.",
+    "numbering_policy": "Source chapter and verse labels are retained as strings. The title-only HTML page 0 is not a verse-bearing chapter; its prologue text appears in chapter 1, including labels 1a–1g. No missing labels are synthesized."
+  },
+  "rights": {
+    "status": "public_domain_claimed",
+    "statement": "eBible.org identifies Brenton's English translation, published in 1851 from the Greek Septuagint, as public domain. This is a provider-reported status, not a worldwide legal determination; source-package and archive materials have separate rights.",
+    "license_id": null,
+    "rights_holder": null,
+    "attribution_required": true,
+    "territory_or_term_limits": "Provider-reported public-domain status; no jurisdiction-by-jurisdiction determination is claimed.",
+    "evidence_source_ids": [
+      "SRC-038",
+      "SRC-142"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "eBible.org USFM member identifies this as Brenton English Septuagint Sirach; no printed witness was collated.",
+      "reviewer": null,
+      "review_method": "combined_source_and_automated_validation",
+      "review_process": "Archived package metadata and local member/header audit",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-038",
+        "SRC-142",
+        "SRC-145"
+      ],
+      "notes": "The provider's title and attribution are recorded; exact identity to every detail of the 1851 print edition remains unchecked."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "All 51 chapter markers in the identified USFM member are ordered 1–51.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Brenton USFM archive parser and integrity tests",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-038",
+        "SRC-142",
+        "SRC-145"
+      ],
+      "notes": "Checks the archived digital source member, not completeness against the printed edition."
+    },
+    {
+      "dimension": "unit_boundaries",
+      "state": "checked_with_limits",
+      "scope": "All 1368 verse markers and 1 unnumbered continuation segments are parsed with nonempty text; 0 footnotes/cross-references and structural markers {'d': 1, 'p': 269, 'b': 1, 'nb': 4, 'p_inline_text_segments': 1} are retained.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Brenton USFM parser and integrity tests",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-038",
+        "SRC-142",
+        "SRC-145"
+      ],
+      "notes": "Structural source-package check only; not an independent textual or translation review."
+    },
+    {
+      "dimension": "translation_accuracy",
+      "state": "unknown",
+      "scope": "No independent review against the Greek Septuagint or Brenton's printed 1851 edition.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-038",
+        "SRC-142",
+        "SRC-145"
+      ],
+      "notes": "This is not a direct translation from the bundled Geʽez text."
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "eBible.org's public-domain notice for Brenton's 1851 English translation.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Provider copyright notice and source package metadata",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-038",
+        "SRC-142",
+        "SRC-145"
+      ],
+      "notes": "Provider-reported status; no international rights survey is claimed."
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "The local parser checks the member checksum, 51 ordered USFM chapter divisions (1–51), 1,368 source-numbered labels, one unnumbered continuation, the chapter-1 prologue heading and labels 1a–1g, source paragraph/break markers, and the chapter-1 omission gaps. eBible.org's index includes a page numbered 0, but that page contains only the prologue heading; the prologue text is on its page 1 and within USFM chapter 1, so no verse-bearing chapter is omitted or invented. These are digital-source structure checks only, not collation against the 1851 print edition or Greek source. Accuracy and printed-edition completeness remain unverified. The title-level relationship to EOTC entry 45 remains uncertain, and it is not counted as an EOTC canon reader or toward canon reader coverage."
+}

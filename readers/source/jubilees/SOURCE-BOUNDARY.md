@@ -1,0 +1,5 @@
+# Jubilees TEI edition boundary and rights status
+
+The pinned Beta maṣāḥǝft record `LIT1697Jubilees` contains distinct Geʽez editions. Its publication notice identifies a Ran HaCohen transcription under CC BY-SA 4.0; a separate edition is labeled `EOTCed` and described as a standard printed EOTC Bible edition. Current project guidance, the versioned dataset record, and source-specific notices do not together clarify which terms govern redistribution of the selected transcription or rights in its underlying print source.
+
+The reviewed upstream snapshot SHA-256 is `d8c6eaa3857c35d8e467a6c150178fc02395fc569527bedfc7687c43cc68d87f`. The previously generated Ran-only extraction SHA-256 is `95df4eadacbdec938e1a5196c1a9f86c5168b59755129d454a417f51eaa9fa9e`. The extraction and reader are withheld from this public site pending clarification. The source citation, edition boundary, checksums, and metadata remain available; the retained records do not claim a critical text, manuscript collation, or current-edition equivalence.

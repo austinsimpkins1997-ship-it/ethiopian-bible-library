@@ -1,0 +1,80 @@
+name: Deploy site to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - name: Set up Node.js for reader export verification
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - name: Rebuild source-backed readers and validate offline site
+        run: |
+          python build_jubilees_geez.py
+          python build_genesis_english.py
+          python build_genesis_geez.py
+          python build_exodus_geez.py
+          python build_brenton_exodus.py
+          python build_octateuch_readers.py
+          python build_enoch_geez.py
+          python build_eritrea_canon_evidence.py
+          python build_psalms_geez.py
+          python integrate_psalms.py
+          python audit_crosswire_module.py
+          python build_octateuch_inventory.py
+          python build_canon_registry.py
+          python build_brenton_octateuch.py
+          python build_brenton_research_readers.py
+          python build_brenton_job.py
+          python build_brenton_tobit.py
+          python build_brenton_sirach.py
+          python build_brenton_ruth.py
+          python audit_mark_tei.py
+          python build_mark_research_reader.py
+          python build_wisdom_solomon_research_reader.py
+          python build_gamo_research_readers.py
+          python build_standalone.py
+          python -m unittest discover -s tests -v
+          node tests/test_reader_package.js
+          node tests/test_service_worker.js
+      - name: Require committed build outputs to match source evidence
+        shell: bash
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git status --short
+            echo "::error::Generated archive files are stale. Run the source-backed rebuild commands in README.md and commit the results."
+            exit 1
+          fi
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+from archive_manifest import write_text_atomically
 import re
 import zipfile
 from pathlib import Path
@@ -29,17 +30,36 @@ CANON_ID = {"PSA": "eotc-ot-23", "LEV": "eotc-ot-03", "NUM": "eotc-ot-04", "DEU"
 USFM_MEMBER = {"PSA": "20-PSAeng-Brenton.usfm", "LEV": "04-LEVeng-Brenton.usfm", "NUM": "05-NUMeng-Brenton.usfm", "DEU": "06-DEUeng-Brenton.usfm", "JOS": "07-JOSeng-Brenton.usfm", "JDG": "08-JDGeng-Brenton.usfm"}
 READER_FILE = {"PSA": "psalms-geez-ludolf.json"}
 GEEZ_LAYER_FILE = {"PSA": "psalms-geez-layer.json"}
-NONVERSE_MARKERS = {"id", "h", "toc1", "toc2", "toc3", "mt1", "mt2", "p", "nb", "d", "b"}
+NONVERSE_MARKERS = {
+    "id", "ide", "h", "toc1", "toc2", "toc3", "mt1", "mt2", "mt3",
+    "ip", "is1", "s1", "ms1", "sp", "cl", "cp", "pc", "ili", "mi",
+    "pi1", "li1", "q1", "q2", "q3", "m", "p", "nb", "d", "b",
+}
 
 
 def sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
-def clean_usfm(text: str) -> str:
+def clean_usfm(text: str, *, strip_nested_plus: bool = False) -> str:
     """Remove USFM formatting controls while visibly retaining translator additions."""
     text = re.sub(r"\\add\s*(.*?)\\add\*", r"⟦\1⟧", text)
     text = re.sub(r"\\sc\s*(.*?)\\sc\*", r"\1", text)
+    # USFM word-level Strong's tags are alignment metadata: retain their
+    # displayed words and preserve the untouched tagged form in the source ZIP.
+    text = re.sub(r"\\w\s*(.*?)\\w\*", lambda match: match.group(1).split("|", 1)[0], text, flags=re.S)
+    # Some publisher USFM uses nested +markers. Generic source extraction may
+    # remove only those wrappers; Brenton's established parser keeps its prior
+    # visible notation unless the caller explicitly opts in.
+    if strip_nested_plus:
+        text = re.sub(r"\\\+([A-Za-z][A-Za-z0-9]*)\s*(.*?)\\\+\1\*", r"\2", text, flags=re.S)
+    # USFM \ior marks an introduction outline reference. Preserve its label in
+    # the extracted display while the original source retains the markup.
+    text = re.sub(r"\\ior\s*(.*?)\\ior\*", r"\1", text, flags=re.S)
+    # These are paired inline formatting/name markers in the gaz source. Their
+    # enclosed wording remains in the display; the original USFM retains the
+    # publisher's full markup for readers who need that distinction.
+    text = re.sub(r"\\(nd|wj|tl|xt|it|bk|k|qs)\s*(.*?)\\\1\*", r"\2", text)
     # USFM \fl marks a footnote label; retain its following source words while
     # removing the structural token itself.
     text = re.sub(r"\\fl\s*", " ", text)
@@ -48,7 +68,7 @@ def clean_usfm(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def note_from_markup(marker: str, body: str, verse: str, chapter: int) -> dict:
+def note_from_markup(marker: str, body: str, verse: str, chapter: int, *, strip_nested_plus: bool = False) -> dict:
     reference_match = re.search(r"\\fr\s+([^\\]+)", body)
     reference = reference_match.group(1).strip() if reference_match else ""
     alt = "\\fqa" in body
@@ -58,7 +78,7 @@ def note_from_markup(marker: str, body: str, verse: str, chapter: int) -> dict:
     text = re.sub(r"\\(?:ft|fqa|fq|xt)\s*", "", text)
     text = re.sub(r"^\s*\+\s*", "", text)
     text = re.sub(r"\s+", " ", text).strip()
-    text = clean_usfm(text)
+    text = clean_usfm(text, strip_nested_plus=strip_nested_plus)
     if not text:
         return {
             "verse": verse,
@@ -77,16 +97,48 @@ def note_from_markup(marker: str, body: str, verse: str, chapter: int) -> dict:
     }
 
 
-def parse_usfm(raw: bytes, code: str, member_name: str, package_hash: str) -> dict:
-    slug, canon_number, title, expected_chapters = BOOKS[code]
+def parse_usfm(
+    raw: bytes,
+    code: str,
+    member_name: str,
+    package_hash: str,
+    *,
+    expected_edition_id: str | None = "Brenton English Septuagint",
+    book_info: tuple[str, int, str, int] | None = None,
+) -> dict:
+    slug, canon_number, title, expected_chapters = book_info or BOOKS[code]
+    strip_nested_plus = expected_edition_id is None
     source = raw.decode("utf-8-sig")
-    if not re.search(rf"^\\id\s+{code}\s+-\s+Brenton English Septuagint\s*$", source, re.M):
+    if expected_edition_id is None:
+        # Other signed provider packages use differing but valid \\id
+        # descriptions. In generic mode require only the exact USFM book code;
+        # the caller must independently bind the source member to its package.
+        standard_id = re.search(rf"^\\id\s+{code}(?:\s|$)", source, re.M)
+    else:
+        standard_id = re.search(
+            rf"^\\id\s+{code}\s+-\s+{re.escape(expected_edition_id)}\s*$",
+            source,
+            re.M,
+        )
+    # The captured Brenton package's 2KI member omits the edition label in
+    # its \id line. Admit only that exact filename/code/title combination;
+    # all other members still require the full edition identifier.
+    documented_2ki_exception = (
+        code == "2KI"
+        and member_name == "13-2KIeng-Brenton.usfm"
+        and re.search(r"^\\id\s+2KI\s*$", source, re.M)
+        and re.search(r"^\\toc3\s+4 Kings\s*$", source, re.M)
+        and re.search(r"^\\mt1\s+KINGS IV\.?\s*$", source, re.M)
+    )
+    if not standard_id and not documented_2ki_exception:
         raise ValueError(f"{member_name} does not identify as the expected Brenton {title} source.")
     chapters: list[dict] = []
     current: dict | None = None
     observed_label_counts: list[int] = []
     structural_marker_counts: dict[str, int] = {}
     pending_markers: list[str] = []
+    pending_headings: list[str] = []
+    pending_chapter_source_label: str | None = None
 
     for line_number, line in enumerate(source.splitlines(), start=1):
         chapter_match = re.match(r"^\\c\s+(\d+)\s*$", line)
@@ -94,12 +146,16 @@ def parse_usfm(raw: bytes, code: str, member_name: str, package_hash: str) -> di
             chapter_number = int(chapter_match.group(1))
             if current is not None:
                 if pending_markers:
-                    raise ValueError(f"Unattached USFM markers {pending_markers} at end of {title} chapter {current['chapter']}.")
+                    current.setdefault("trailing_structural_markers", []).extend(pending_markers)
+                    pending_markers.clear()
                 if not current["verses"]:
                     raise ValueError(f"{title} chapter {current['chapter']} has no verses.")
                 observed_label_counts.append(len(current["verses"]))
                 chapters.append(current)
             current = {"chapter": chapter_number, "verses": [], "notes": []}
+            if pending_chapter_source_label:
+                current["source_page_label"] = pending_chapter_source_label
+                pending_chapter_source_label = None
             continue
 
         verse_match = re.match(r"^\\v\s+(\d+[a-z]?)\s*(.*)$", line)
@@ -107,45 +163,87 @@ def parse_usfm(raw: bytes, code: str, member_name: str, package_hash: str) -> di
             marker_match = re.match(r"^\\([A-Za-z0-9]+)", line)
             if marker_match and marker_match.group(1) not in NONVERSE_MARKERS:
                 raise ValueError(f"Unhandled USFM marker {marker_match.group(1)} at {member_name}:{line_number}.")
-            if marker_match and marker_match.group(1) in {"p", "nb", "d", "b"}:
-                if current is None:
-                    raise ValueError(f"Structural marker appears before a chapter at {member_name}:{line_number}.")
+            if marker_match and marker_match.group(1) in {
+                "p", "nb", "d", "b", "m", "mi", "q1", "q2", "q3", "li1", "pi1",
+                "s1", "ms1", "sp", "cl", "cp", "pc",
+            }:
                 marker = marker_match.group(1)
                 suffix = line[marker_match.end():].strip()
                 structural_marker_counts[marker] = structural_marker_counts.get(marker, 0) + 1
+                if marker == "cp" and suffix and (current is None or not current["verses"]):
+                    chapter_label = clean_usfm(suffix, strip_nested_plus=strip_nested_plus)
+                    if current is None:
+                        pending_chapter_source_label = chapter_label
+                    else:
+                        current["source_page_label"] = chapter_label
+                    continue
+                if marker == "cl":
+                    # Chapter labels such as “Psalm” are edition apparatus and
+                    # are also preserved in the complete source USFM package.
+                    continue
+                if marker in {"s1", "ms1", "sp", "pc"} and suffix:
+                    heading_notes = []
+                    note_pattern = re.compile(r"\\([fx])\b(.*?)\\\1\*", re.S)
+                    def pull_structural_note(match: re.Match) -> str:
+                        if current is None:
+                            return " "
+                        heading_notes.append(note_from_markup(match.group(1), match.group(2), "0", current["chapter"]))
+                        return " "
+                    suffix = note_pattern.sub(pull_structural_note, suffix)
+                    heading = clean_usfm(suffix)
+                    if current is not None:
+                        current["notes"].extend(heading_notes)
+                    if marker == "sp":
+                        heading = f"Speaker: {heading}"
+                    if current is None:
+                        # Introductory headings are captured by the book builder.
+                        continue
+                    pending_headings.append(heading)
+                    continue
                 if suffix:
                     if marker == "d":
-                        heading = clean_usfm(suffix)
+                        if current is None:
+                            continue
+                        heading_notes = []
+                        note_pattern = re.compile(r"\\([fx])\b(.*?)\\\1\*", re.S)
+                        def pull_heading_note(match: re.Match) -> str:
+                            heading_notes.append(note_from_markup(match.group(1), match.group(2), "0", current["chapter"], strip_nested_plus=strip_nested_plus))
+                            return " "
+                        suffix = note_pattern.sub(pull_heading_note, suffix)
+                        heading = clean_usfm(suffix, strip_nested_plus=strip_nested_plus)
                         if not heading:
                             raise ValueError(f"Empty USFM descriptive heading at {member_name}:{line_number}.")
                         current.setdefault("heading", []).append(heading)
-                    elif marker == "p" and not current["verses"]:
+                        current["notes"].extend(heading_notes)
+                    elif marker in {"p", "m", "mi", "q1", "q2", "q3", "li1", "pi1"} and current is not None and not current["verses"]:
                         heading = clean_usfm(suffix)
                         if not heading:
-                            raise ValueError(f"Empty USFM introductory paragraph at {member_name}:{line_number}.")
+                            raise ValueError(f"Empty USFM heading or introduction at {member_name}:{line_number}.")
                         current.setdefault("heading", []).append(heading)
-                        current.setdefault("heading_markers", []).append("p")
-                    elif marker != "p" or not current["verses"]:
-                        raise ValueError(f"USFM \\{marker} contains inline text without a preceding verse at {member_name}:{line_number}.")
-                    elif marker == "p":
+                        current.setdefault("heading_markers", []).append(marker)
+                    elif marker in {"p", "m", "mi", "q1", "q2", "q3", "li1", "pi1"} and current is not None and current["verses"]:
                         prior_verse = current["verses"][-1]
                         continuation_notes = []
                         note_pattern = re.compile(r"\\([fx])\b(.*?)\\\1\*", re.S)
                         def pull_continuation_note(match: re.Match) -> str:
-                            continuation_notes.append(note_from_markup(match.group(1), match.group(2), prior_verse["number"], current["chapter"]))
+                            continuation_notes.append(note_from_markup(match.group(1), match.group(2), prior_verse["number"], current["chapter"], strip_nested_plus=strip_nested_plus))
                             return " "
                         suffix = note_pattern.sub(pull_continuation_note, suffix)
-                        continuation_text = clean_usfm(suffix)
-                        if not continuation_text:
-                            raise ValueError(f"Empty inline USFM \\p segment at {member_name}:{line_number}.")
-                        prior_verse.setdefault("continuations", []).append({"source_marker": "p", "text": continuation_text})
+                        continuation_text = clean_usfm(suffix, strip_nested_plus=strip_nested_plus)
+                        if continuation_text:
+                            prior_verse.setdefault("continuations", []).append({"source_marker": marker, "text": continuation_text})
                         prior_verse.setdefault("continuation_notes", []).extend(continuation_notes)
                         current["notes"].extend(continuation_notes)
-                        structural_marker_counts["p_inline_text_segments"] = structural_marker_counts.get("p_inline_text_segments", 0) + 1
+                        structural_marker_counts[f"{marker}_inline_text_segments"] = structural_marker_counts.get(f"{marker}_inline_text_segments", 0) + 1
+                    elif current is None:
+                        # Non-scripture front matter before the first chapter is
+                        # retained separately in the book-level reader metadata.
+                        continue
                     else:
-                        raise ValueError(f"USFM \\{marker} has unexpected inline text at {member_name}:{line_number}.")
+                        raise ValueError(f"USFM \\{marker} contains inline text without a preceding verse at {member_name}:{line_number}.")
                 else:
-                    pending_markers.append(marker)
+                    if current is not None:
+                        pending_markers.append(marker)
             if line.strip() and not marker_match:
                 raise ValueError(f"Unmarked source content would be lost at {member_name}:{line_number}.")
             continue
@@ -160,10 +258,10 @@ def parse_usfm(raw: bytes, code: str, member_name: str, package_hash: str) -> di
         notes = []
         note_pattern = re.compile(r"\\([fx])\b(.*?)\\\1\*", re.S)
         def pull_note(match: re.Match) -> str:
-            notes.append(note_from_markup(match.group(1), match.group(2), label, current["chapter"]))
+            notes.append(note_from_markup(match.group(1), match.group(2), label, current["chapter"], strip_nested_plus=strip_nested_plus))
             return " "
         body = note_pattern.sub(pull_note, body)
-        verse_text = clean_usfm(body)
+        verse_text = clean_usfm(body, strip_nested_plus=strip_nested_plus)
         if not verse_text:
             if not notes:
                 raise ValueError(f"Empty {title} {current['chapter']}:{label} without an explanatory source note.")
@@ -173,11 +271,15 @@ def parse_usfm(raw: bytes, code: str, member_name: str, package_hash: str) -> di
         if pending_markers:
             current["verses"][-1]["source_markers_before"] = list(pending_markers)
             pending_markers.clear()
+        if pending_headings:
+            current["verses"][-1].setdefault("source_headings_before", []).extend(pending_headings)
+            pending_headings.clear()
         current["notes"].extend(notes)
 
     if current is not None:
         if pending_markers:
-            raise ValueError(f"Unattached USFM markers {pending_markers} at end of {title} chapter {current['chapter']}.")
+            current.setdefault("trailing_structural_markers", []).extend(pending_markers)
+            pending_markers.clear()
         if not current["verses"]:
             raise ValueError(f"{title} chapter {current['chapter']} has no verses.")
         observed_label_counts.append(len(current["verses"]))
@@ -368,7 +470,7 @@ def build() -> None:
         "reviewer_notes": "The English companion preserves USFM paragraph starts, descriptive-title markers, footnotes, cross-references, and visible brackets for translator-supplied words. English and Geʽez are independent witnesses; the unique-label display is navigational only. Chapter numbering, wording accuracy, edition completeness, and exact Church-list crosswalk remain unverified.",
     })
     psalms["evidence_source_ids"] = list(dict.fromkeys(psalms.get("evidence_source_ids", []) + ["SRC-142"]))
-    archive_path.write_text(json.dumps(archive_data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    write_text_atomically(archive_path, json.dumps(archive_data, ensure_ascii=False, indent=2) + "\n")
 
     registry_path = ROOT / "translation-registry.json"
     registry = json.loads(registry_path.read_text(encoding="utf-8"))

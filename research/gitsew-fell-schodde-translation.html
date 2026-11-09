@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Gitsew / Gessew — source editions</title>
+  <style>
+    :root { color-scheme: light; --ink: #123e39; --muted: #53645f; --line: #e3ddd1; --paper: #fbfaf7; --accent: #b27d32; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.65 system-ui, sans-serif; }
+    main { width: min(900px, calc(100% - 32px)); margin: 0 auto; padding: 36px 0 64px; }
+    h1, h2 { font-family: Georgia, serif; font-weight: 500; line-height: 1.2; }
+    h1 { font-size: clamp(2rem, 5vw, 3.3rem); margin: 0 0 12px; }
+    h2 { font-size: 1.55rem; margin: 32px 0 8px; }
+    p, li { max-width: 78ch; }
+    .kicker { color: var(--accent); letter-spacing: .12em; text-transform: uppercase; font-size: .78rem; font-weight: 700; }
+    .notice { border-left: 4px solid var(--accent); background: #f3efe5; padding: 14px 18px; }
+    .source { border: 1px solid var(--line); background: white; padding: 18px; margin: 14px 0; }
+    a { color: #075c53; text-underline-offset: .18em; overflow-wrap: anywhere; }
+    .buttons { display: flex; gap: 12px; flex-wrap: wrap; margin: 12px 0; }
+    .button { display: inline-block; border: 1px solid #8e795b; border-radius: 4px; padding: 10px 14px; text-decoration: none; font-weight: 650; }
+    .small { color: var(--muted); font-size: .92rem; }
+    code { overflow-wrap: anywhere; }
+  </style>
+</head>
+<body><main>
+  <p class="kicker">Ethiopian Bible Library · source review</p>
+  <h1>Gitsew / Gessew</h1>
+  <p>Two historical editions are bundled here for offline inspection: Winand Fell’s 1871 Ethiopic-and-Latin edition and George H. Schodde’s 1885 English translation of the Ethiopic text.</p>
+  <div class="notice"><strong>Reader status:</strong> The page-labeled Schodde PDF text-layer extraction remains unproofread. A separate partial transcript covers the opening formula and Canons I–LVII, except that Canon XX is only a visible scan fragment. The scan cuts Canon XX off after “from me,” and the missing words are not supplied. This is not a complete reader and does not increase reader coverage.</div>
+
+  <h2>Fell, 1871 — Ethiopic and Latin</h2>
+  <div class="source">
+    <p><em>Canones Apostolorum Aethiopice</em>, edited by Winand Fell, Leipzig: F. A. Brockhaus, 1871. Theological Commons describes the edition as Ethiopic and Latin; its digitized item record identifies 52 pages and states “No Known Copyright” for the images. Berkeley Lawcat describes the printed item as 47 pages. The difference between printed pagination and scan-page count remains noted rather than silently reconciled.</p>
+    <div class="buttons"><a class="button" href="../readers/source/gitsew/Canones-Apostolorum-Aethiopice-Fell-1871.pdf">Open local Fell scan (PDF)</a></div>
+    <p class="small">Catalog and scan record: <a href="https://commons.ptsem.edu/id/canonesapostolor00unse">Princeton Theological Seminary, Theological Commons</a> · <a href="https://archive.org/details/canonesapostolor00unse">Internet Archive item</a> · <a href="https://lawcat.berkeley.edu/record/333354">Berkeley Lawcat</a>.</p>
+  </div>
+
+  <h2>Schodde, 1885 — English translation</h2>
+  <div class="source">
+    <p>George H. Schodde, “The Apostolic Canons, Translated from the Ethiopic,” <em>Journal of the Society of Biblical Literature and Exegesis</em> 5, no. 1/2 (1885), 61–72. Schodde states that he translated Fell’s 1871 Ethiopic edition, which was published with a Latin version. The journal article prints headings through Canon LVII; that printed count is preserved as evidence and is not forced into the 56-canons count found in some descriptions.</p>
+    <div class="buttons"><a class="button" href="../readers/source/gitsew/The-Apostolic-Canons-Schodde-1885.pdf">Open local Schodde article (PDF)</a></div>
+    <div class="buttons"><a class="button" href="gitsew-schodde-1885-raw-extract.txt">Read raw text-layer extraction (unproofread)</a></div>
+    <p class="small"><a href="gitsew-schodde-heading-audit.json">Open the visual inventory of all 57 printed headings</a>. <a href="gitsew-schodde-proofread-progress.json">Open the partial proofread transcript</a> for the opening formula, Canons I–LVII except Canon XX, and the scan-visible fragment of Canon XX. That working transcript is not a complete reader and is not counted toward coverage.</p>
+    <p class="small">The extraction covers PDF pages 2–13 (printed pages 61–72); the later repository notice on PDF page 1 is excluded. Extraction errors, missing characters, and reading-order issues have not been corrected. Compare every passage with the facsimile before quoting or using it as a translation.</p>
+    <p class="small">Article record and rights statement: <a href="https://www.jstor.org/stable/3268629">JSTOR stable record 3268629</a>. The local facsimile begins with a one-page repository notice; the article itself occupies printed pages 61–72 (PDF pages 2–13).</p>
+  </div>
+
+  <h2>Related Greek canonical parallel — not a completion of Schodde</h2>
+  <div class="source">
+    <p>The Ethiopic/Schodde Canon XX on printed page 65 concerns ordination obtained by bribery. A related Greek collection places a corresponding rule at Canon XXIX (Percival’s 1899 numbering): it concerns obtaining clerical rank by money and ends with the Simon Magus comparison, “as Simon Magus was by me, Peter.” The next rules also align in sequence: Schodde XXI concerns obtaining a church through rulers, corresponding to Percival XXX. This sequence supports identifying a parallel tradition, while showing that numbering differs.</p>
+    <p><strong>Editorial boundary:</strong> this Greek-based parallel is not the missing portion of Schodde’s scan and does not establish the exact Ethiopic wording or the ending of Fell’s witness. Canon XX therefore remains a fragment ending “from me,” in the proofread transcription. The Greek/Percival wording is not inserted into it.</p>
+    <p class="small">Parallel source: Henry R. Percival, translator, “The Apostolic Canons” (1899), Canon XXIX, hosted by <a href="https://apostoliki-diakonia.gr/en/the-apostolic-canons/">Apostoliki Diakonia</a>. The host identifies Percival as translator. Greek text, manuscript variants, and textual transmission were not independently collated here; treat this as a related English witness only.</p>
+  </div>
+
+  <h2>Fell’s Latin version — same printed edition</h2>
+  <div class="source">
+    <p>The title page says <em>cum versione Latina</em> (“with a Latin version”). On printed page 37 (PDF page 39), Fell’s Latin section contains a complete Canon XX parallel to the Geʽez-based Schodde passage.</p>
+    <p><strong>Latin transcription:</strong></p>
+    <blockquote><p><em>Can. XX. De eo, qui per munera ordinatus est. — Si quis episcopus aut presbyter aut diaconus dignitatem clericalem per munera adeptus fuerit: deponatur, atque deponatur etiam is, qui eum ordinaverit et in perpetuum ab administratione sacerdotii excludatur: nullamque cum eo habeant societatem, sicut Simonem Magum a me removi: ego Petrus.</em></p></blockquote>
+    <p><strong>Close English rendering:</strong> “Canon XX. On one ordained through payments. If any bishop, presbyter, or deacon has obtained clerical rank through payments, let him be deposed; and let the one who ordained him also be deposed and excluded forever from administering priestly office. Let them have no association with him, just as I removed Simon Magus from me: I, Peter.”</p>
+    <p><strong>Limit:</strong> this same-edition Latin parallel provides the complete rule in Latin, but it does not make the ending visible in the 1885 English scan or establish that the Latin and Ethiopic wording are exactly equivalent. Canon XX therefore remains a scan-fragment in the Schodde transcript. The Geʽez text has not yet been collated.</p>
+    <p>The critical apparatus separately labels Ethiopic variants “Can. XX” on printed page 28 (PDF page 30). This confirms the corresponding canon number within Fell’s edition and supplies a locator for further comparison; the apparatus is not a complete Geʽez transcription.</p>
+    <p>Internet Archive’s DjVu OCR derivative was checked as a possible text aid and rejected: the sampled Ethiopic material is misrecognized as Latin-like characters, and the file contains no Ethiopic Unicode code points. The OCR is neither bundled nor used to fill the gap. <a href="gitsew-fell-internet-archive-ocr-audit.json">View the OCR audit and checksum.</a></p>
+    <p class="small"><a href="gitsew-fell-latin-canon20.json">Open transcription and translation record with provenance and method</a>.</p>
+  </div>
+
+  <h2>Publisher-described modern English text — edition not inspected</h2>
+  <div class="source">
+    <p>The Ethiopian Canon Project says its Gitzew / Apostolic Canons section contains 57 canons modernized from Schodde’s 1885 English translation, which Schodde identifies as translated from Geʽez. This is a publisher claim about its own work; it does not establish that the described edition has been published, that its structure matches a specific Geʽez witness, or that it is identical with a current Church edition.</p>
+    <p class="small">No output text, complete edition record, accuracy review, or reuse license was inspected. No modernized wording is copied or bundled. The lead is metadata only and does not increase reader coverage.</p>
+    <p class="small">Publisher article: <a href="https://www.ethiopiancanon.com/blog/the-article-that-started-this-project">The Article That Started This Project</a>. The site’s copyright notice is not a reuse license; this archive records text rights as unknown.</p>
+  </div>
+
+  <h2>Why this is linked to the Gitsew catalogue entry</h2>
+  <p>Mikre-Sellassie and Cowley describe Gessew/Gitsew as a Sinodos section with a reported count of 56 or 57 canons and identify Fell’s 1871 edition as its printed witness. Schodde independently says his translation is based on Fell. This supports an attributed edition-family connection to the Church-list title Gitsew. It does not establish that this 19th-century printed text is identical to a current church edition, that all manuscript recensions share its order, or that a local transcription is complete.</p>
+  <ul>
+    <li><a href="https://translation.bible/wp-content/uploads/2024/06/mikre-sellassie-1993-the-bible-and-its-canon-in-the-ethiopian-orthodox-church.pdf">Mikre-Sellassie, “The Bible and its Canon in the Ethiopian Orthodox Church” (1993), pp. 119–120</a>.</li>
+    <li><a href="https://www.islamic-awareness.org/bible/text/canon/ethiopican">R. W. Cowley, “The Biblical Canon of the Ethiopian Orthodox Church Today” (1974)</a>.</li>
+    <li><a href="https://www.ethiopianorthodox.org/english/canonical/books.html?lang=en">Ethiopian Orthodox Tewahedo Church English canon list</a>, which names Gitsew in the broader New Testament list.</li>
+  </ul>
+
+  <h2>Rights and verification</h2>
+  <p>Both original works date from the 19th century. JSTOR says that, to its knowledge, the 1885 journal issue is in the public domain and may be used accordingly; Theological Commons marks the Fell item’s image rights “No Known Copyright.” These source-level statements are retained as public-domain claims, not as an open-license grant for unrelated editions or future translations.</p>
+  <p>The scans’ bibliographic identity and article page range have been checked. All 57 printed headings in the relevant pages have been visually inventoried. The opening formula and Canons I–LVII have been transcribed against the page images, except for Canon XX, which is recorded only through the visible scan fragment. Printed page 65 ends after “from me,” and page 66 begins Canon XXI; the text layer supplies “I Peter” after that point, but those words are not visible in the scan and are not inserted. Canons XXXI, XXXVII, XLVI, LI, and LIV continue across page breaks. The article introduction and footnotes remain unproofread. <a href="https://biblicalstudies.org.uk/pdf/jbl/1885_061.pdf">A second online copy</a> was downloaded and proved byte-identical to this scan, so it is not an independent witness. No complete reader is available, and this partial transcript does not increase reader coverage. Ge’ez-English collation and reconciliation of 56/57 numbering remain open.</p>
+  <p class="small">Local SHA-256 · Fell: <code>5bfc75a17cee6551153f36ba123b443dd17ce98c90aa40e9b7e8ac0115421beb</code> · Schodde: <code>419f4f9f519414a4ad10c4533478488f741d26570fbf7220240cf998d766a79a</code>.</p>
+</main></body></html>

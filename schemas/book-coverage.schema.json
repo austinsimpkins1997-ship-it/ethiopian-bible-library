@@ -1,0 +1,446 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/schemas/book-coverage.schema.json",
+  "title": "Ethiopian Bible Library book coverage register",
+  "description": "Snapshot inventory of bundled reader records and discovery leads for the registered 81-entry Church list. Includes recorded rights notices and license identifiers where available. Availability is local to this package and does not assert completeness or accuracy.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "scope",
+    "source_registry",
+    "entry_count",
+    "availability_counts",
+    "source_id_reference",
+    "schema_uri",
+    "entries"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_registry": {
+      "const": "canon-registry.json"
+    },
+    "entry_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "availability_counts": {
+      "type": "object",
+      "required": [
+        "canon_linked_reader",
+        "reviewed_title_match_research_reader_only",
+        "source_asserted_research_reader_only",
+        "research_candidate_reader_only",
+        "no_bundled_reader"
+      ],
+      "properties": {
+        "canon_linked_reader": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "reviewed_title_match_research_reader_only": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "source_asserted_research_reader_only": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "research_candidate_reader_only": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "no_bundled_reader": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "source_id_reference": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_uri": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "canon_id",
+          "section",
+          "section_number",
+          "display_name",
+          "catalogue_ids",
+          "catalogue_source_ids",
+          "canon_entry_source_ids",
+          "mapping_state",
+          "reader_availability",
+          "canon_linked_readers",
+          "research_reader_candidates",
+          "unbundled_leads",
+          "reader_source_ids",
+          "lead_source_ids",
+          "related_source_ids",
+          "supplemental_research_views"
+        ],
+        "properties": {
+          "canon_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "section": {
+            "type": "string",
+            "minLength": 1
+          },
+          "section_number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "display_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_label": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "catalogue_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "catalogue_source_ids": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "canon_entry_source_ids": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "mapping_state": {
+            "enum": ["reviewed_match", "asserted_by_source", "uncertain", "related_work", "not_mapped", "unrecorded"]
+          },
+          "mapping_note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reader_availability": {
+            "enum": [
+              "canon_linked_reader",
+              "reviewed_title_match_research_reader_only",
+              "source_asserted_research_reader_only",
+              "research_candidate_reader_only",
+              "no_bundled_reader"
+            ]
+          },
+          "canon_linked_readers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "reader_id",
+                "reader_data_url",
+                "title",
+                "source_ids"
+              ],
+              "properties": {
+                "reader_id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reader_data_url": {
+                  "type": "string",
+                  "pattern": "^readers/[^/]+\\.json$"
+                },
+                "title": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "rights_classification": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "rights_status": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "license_id": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "minLength": 1
+                },
+                "license_url": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "format": "uri"
+                },
+                "copyright_notice": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "commercial_use": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "research_reader_candidates": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "corpus_id",
+                "reader_id",
+                "reader_data_url",
+                "title",
+                "mapping_state",
+                "language_tag",
+                "script_code",
+                "source_ids"
+              ],
+              "properties": {
+                "corpus_id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reader_id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reader_data_url": {
+                  "type": "string",
+                  "pattern": "^readers/[^/]+\\.json$"
+                },
+                "title": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "mapping_state": {
+                  "enum": ["reviewed_match", "asserted_by_source", "uncertain", "related_work", "not_mapped", "unrecorded"]
+                },
+                "language_tag": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "script_code": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "rights_classification": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "rights_status": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "license_id": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "minLength": 1
+                },
+                "license_url": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "format": "uri"
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "unbundled_leads": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "lead_type",
+                "mapping_state",
+                "text_bundled",
+                "source_ids"
+              ],
+              "properties": {
+                "lead_type": {
+                  "enum": [
+                    "translation",
+                    "edition",
+                    "corpus"
+                  ]
+                },
+                "lead_id": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "title": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "mapping_state": {
+                  "enum": ["reviewed_match", "asserted_by_source", "uncertain", "related_work", "not_mapped", "unrecorded"]
+                },
+                "scope_description": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "text_bundled": {
+                  "type": "boolean"
+                },
+                "rights_classification": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "rights_status": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "license_id": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "license_url": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "format": "uri"
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "reader_source_ids": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "lead_source_ids": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "related_source_ids": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "supplemental_research_views": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "source_id",
+                "source_name",
+                "research_view_url",
+                "archive_status",
+                "rights_classification",
+                "rights_status",
+                "inspection_and_limitations"
+              ],
+              "properties": {
+                "source_id": {
+                  "type": "string",
+                  "pattern": "^SRC-[0-9]{3}$"
+                },
+                "source_name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "research_view_url": {
+                  "type": "string",
+                  "pattern": "^research/[^/]+\\.html$"
+                },
+                "archive_status": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "rights_classification": {
+                  "enum": [
+                    "public_domain_claimed",
+                    "open_license",
+                    "permission_limited",
+                    "all_rights_reserved",
+                    "unknown",
+                    "mixed"
+                  ]
+                },
+                "rights_status": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "inspection_and_limitations": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

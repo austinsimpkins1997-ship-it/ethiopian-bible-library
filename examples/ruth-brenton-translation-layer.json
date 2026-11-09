@@ -1,0 +1,147 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/ruth-brenton-english-1851",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/ruth-lxx",
+  "labels": [
+    {
+      "value": "English companion — Brenton Septuagint (1851)",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-septuagint-1851-ruth",
+    "witness_type": "digital_edition",
+    "title": "The Septuagint Version of the Old Testament: According to the Vatican Text, Translated into English",
+    "date_statement": "1851; locally captured from eBible.org's digital edition",
+    "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital presentation by eBible.org",
+    "shelfmark_or_edition_id": null,
+    "editorial_policy": "The historical English wording, spellings, names, chapter sequence, and verse labels returned on the four source pages are preserved. The local captures are browser-visible text, not raw HTML or byte-for-byte HTTP bodies.",
+    "source_ids": [
+      "SRC-038",
+      "SRC-095",
+      "SRC-096"
+    ]
+  },
+  "layer_type": "translation",
+  "text_origin": "published_translation",
+  "language_tag": "en",
+  "language_name_as_recorded": "English",
+  "script_code": "Latn",
+  "basis_path": [
+    "grc",
+    "en"
+  ],
+  "agents": [
+    {
+      "role": "translator",
+      "name": "Sir Lancelot Charles Lee Brenton",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-038",
+        "SRC-095"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/ruth-geez.json",
+    "media_type": "application/json",
+    "sha256": "2acb536b0563657fa80458a70e69ec199e945339f5790e91e7a98632ac6c1ae3",
+    "format_version": "1",
+    "json_pointer": "/parallel_translation"
+  },
+  "coverage": {
+    "extent_state": "unknown",
+    "extent_basis": "unknown",
+    "unit_count": 85,
+    "structure_description": "Four browser-visible chapter-page captures; 85 contiguous English verse labels (22, 23, 18, 22). This inventory does not prove completeness of the printed edition.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "No editor-supplied additions were identified in the page-text extracts. Raw HTML and print apparatus were not captured.",
+    "numbering_policy": "Source labels 1–22, 1–23, 1–18, and 1–22 are retained per chapter. Matching labels are navigation aids, not verified one-to-one equivalents with the separate Geʽez transcription."
+  },
+  "rights": {
+    "status": "public_domain_claimed",
+    "statement": "eBible.org identifies Brenton's 1851 English translation as public domain. This claim applies to the historical English translation only; it does not grant rights in other layers or in eBible.org's page design.",
+    "license_id": null,
+    "rights_holder": null,
+    "attribution_required": true,
+    "territory_or_term_limits": "Public-domain status is recorded from the cited eBible.org notice; no claim is made about other editions or website presentation.",
+    "evidence_source_ids": [
+      "SRC-038"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "Four eBible.org chapter pages identify Ruth and the Brenton English Septuagint; no printed witness was inspected.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-095",
+        "SRC-096"
+      ],
+      "notes": "Digital page identity is recorded; identity with every detail of the printed 1851 edition is not independently collated.",
+      "review_method": "combined_source_and_automated_validation",
+      "review_process": "Archive source and build audit"
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "All four chapter URLs and local captures are ordered 1–4.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-095",
+        "SRC-096"
+      ],
+      "notes": "Confirms the inspected source-page inventory, not completeness of the printed edition.",
+      "review_method": "automated_validation",
+      "review_process": "Archive build validation"
+    },
+    {
+      "dimension": "unit_boundaries",
+      "state": "checked_with_limits",
+      "scope": "85 contiguous numbered units parsed from the four captured page-text extracts.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-096"
+      ],
+      "notes": "Parser checks labels and nonempty units; it does not independently collate wording against live pages or print.",
+      "review_method": "automated_validation",
+      "review_process": "Archive build validation"
+    },
+    {
+      "dimension": "translation_accuracy",
+      "state": "unknown",
+      "scope": "No independent review against the Greek Septuagint or Brenton's printed 1851 edition.",
+      "reviewer": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-038",
+        "SRC-095"
+      ],
+      "notes": "The English translation is based on Greek, not directly on the archive's Geʽez transcription.",
+      "review_method": "unknown",
+      "review_process": null
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "eBible.org's public-domain notice for Brenton's 1851 English translation.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-038"
+      ],
+      "notes": "This does not clear rights in the Geʽez transcription or the source site's page presentation.",
+      "review_method": "unknown",
+      "review_process": null
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "This is a Greek-to-English historical translation paired for comparison with the locally bundled Geʽez transcription. It is not a direct translation from Geʽez or an aligned replacement. The page capture, structural checks, and public-domain claim are each bounded as described; textual accuracy and complete-edition coverage remain unknown."
+}

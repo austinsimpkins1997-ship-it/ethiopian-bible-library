@@ -1,0 +1,870 @@
+{
+  "reader_id": "baiso-ethiopic-jas-research",
+  "research_corpus_id": "bsw-bswe-jas",
+  "canon_id": null,
+  "title": "James — Baiso New Testament (BSWE, Ethiopic script)",
+  "display_name": "James · Baiso · Ethiopic script · eBible.org",
+  "text_origin": "published_translation",
+  "translation_id": "bsw-bswe-2024",
+  "language": "Baiso (Bayso)",
+  "language_tag": "bsw",
+  "language_assignment_status": "publisher_declared_in_source_page_and_USFM_package",
+  "script_code": "Ethi",
+  "translator": "Not named in the inspected edition page or retained USFM headers",
+  "contributor": "The Word for the World International",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The inspected edition page does not identify the source language or a relay-language path; none is inferred.",
+  "edition": "Baiso: አማቶ ኦኡሱብ (New Testament); Ethiopic script; Copyright © 2024 The Word for the World International.",
+  "edition_scope": "One of 27 USFM book members in eBible.org edition BSWE (Baiso: አማቶ ኦኡሱብ (New Testament)). The provider calls it a New Testament; this conventional 27-module inventory does not establish equivalence to any Ethiopian or Eritrean Orthodox canon. No canon crosswalk is assigned.",
+  "rights_classification": "open_license",
+  "license_id": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "copyright_notice": "The eBible.org edition record identifies the Baiso language (bsw), The Word for the World International as contributor, and CC BY-SA 4.0 terms for the translation text. This archive converted the retained USFM source into reader JSON; the original package is included. Attribution is retained, changes are identified, and this archive does not imply publisher endorsement. Image terms are separate; no images are bundled.",
+  "commercial_use": "The provider-stated CC BY-SA 4.0 terms allow commercial sharing and adaptations with attribution, change indication, and ShareAlike. Images and other media have separate terms and are not included.",
+  "unit_label": "USFM verse labels observed",
+  "unit_count": 108,
+  "verse_marker_count": 108,
+  "chapter_count": 5,
+  "section_label": "Chapter",
+  "chapter_structure_note": "This source member contains 5 consecutive chapter divisions, 108 distinct source verse labels, 18 notes, 14 front-matter elements, and USFM marker counts {'c': 5, 'h': 1, 'id': 1, 'imt1': 1, 'io1': 10, 'iot': 1, 'ip': 2, 'mt1': 1, 'p': 32, 's1': 14, 'toc1': 1, 'toc2': 1, 'toc3': 1, 'v': 108}. Labels and recognized structure are preserved; counts describe extraction from this exact source member only.",
+  "chapter_structure_status": "source_package_parsed_with_limits",
+  "source_numbered_unit_count": 108,
+  "source_unnumbered_unit_count": 1,
+  "source_pages": "readers/source/baiso/bswe_usfm.zip::65-JASbswe.usfm",
+  "source_package_sha256": "46736a655c08e80cc1c5c3d46cfc26c1b2c5a58d5a99f91bd697a86db36ce0ba",
+  "source_snapshot_sha256": "8a6cd6aa651eb0518b3483436a9bf5627403512c7921eb4ab796813d93a9df10",
+  "source_ids": [
+    "SRC-412",
+    "SRC-413"
+  ],
+  "rights_status": "The eBible.org edition record identifies the Baiso language (bsw), The Word for the World International as contributor, and CC BY-SA 4.0 terms for the translation text. This archive converted the retained USFM source into reader JSON; the original package is included. Attribution is retained, changes are identified, and this archive does not imply publisher endorsement. Image terms are separate; no images are bundled.",
+  "verification_status": "The exact source member 65-JASbswe.usfm has SHA-256 8a6cd6aa651eb0518b3483436a9bf5627403512c7921eb4ab796813d93a9df10, matching the clear-signed member list in the retained ZIP. GnuPG verifies the list against the key included with that ZIP (54D714D76956DA6673DC1EEA5F62009D93505F26); this is tamper evidence, not independent proof of signer identity, custody, or authority. The signature uses legacy DSA-1024/SHA-1. Extraction preserves publisher verse labels, chapter divisions, recognized headings, introduction material, notes, continuations, and other supported USFM structures. These checks do not establish print completeness, wording accuracy, language-community review, translation basis, or Church-canon identity.",
+  "transcription_note": "Display-reader extraction from the publisher's USFM. The exact USFM member and complete signed source package remain locally available; no independent wording proofread or print collation is claimed.",
+  "editorial_signs_note": "The source USFM remains bundled so supported structure, unrendered styles, and extraction decisions can be inspected; this reader is not a replacement for the publisher's original encoding.",
+  "front_matter": [
+    {
+      "marker": "imt1",
+      "text": "ታባኖ"
+    },
+    {
+      "marker": "ip",
+      "text": "ሂክ ካያይቆባ ሀንዳ ባርሳኖ ኦህታርቴዉን ሴራ ታሌቶ ቆፋ ካአበሮ ጎሌሮ ካኮንጻፋመራና አላም ዱባይ ዳርኣንተ ታግቶ ቶሞንኮ ላማ ኣኒዉንየ፤ ጻፍትና ቃሩማ ፈሎይ ኖ ካኮሀይስናኖ ማላኮክ ጋራ፥ አማኒልኮክ ቆጳታኖና ያዳሊኮክ ሴራ ካሌሮ አየስ አዴስሰ ምስሊ ካአቦ አየስ ሮርሳራ። ህዩማኮክ ጋራና ዱሩማኮክ ጋራ፥ ጫፍቲኮክ ጋራ፥ አማላ ካእዳንኮክ ጋራ፥ ሀኡሳታኖኮክ ጋራ፥ አማኖኮክና ታኢዳን ያዳሊኮክ ጋራ፥ ህኢኮት ኢዳነና ሜላነኮክ ጋራ፥ ቃሩማኮክ ጋራ፥ እስእስኦሮ እስዲዳኖኮክ ጋራ፥ ኮራኮክና አንጅረኮክ ጋራ፥ ካካለ ጉት ፍርዳኖኮክ ጋራ፥ ዳታኖኮክ ጋራ ኦብስኮክና ኤብኮክ ጋራ፥ አማኒል ፈልን ካዶትሳሮ ዱባ ካለካለ ቤሰ ጻፈራ።"
+    },
+    {
+      "marker": "ip",
+      "text": "ሂክ ሀንዳ አማኒልኮክ ግሪ አማኖ ፈሎይ ቱሳኖኮክ ጋራ ኣሎ አዴስሰ ቱሳራ።"
+    },
+    {
+      "marker": "iot",
+      "text": "ራቶ ሂክ ማጻፋ ካአበራ"
+    },
+    {
+      "marker": "io1",
+      "text": "ታባኖ 1፡1"
+    },
+    {
+      "marker": "io1",
+      "text": "አማኖና ቃሩማ 1፡2-8"
+    },
+    {
+      "marker": "io1",
+      "text": "ህዩማና ዱሩማ 1፡9-11"
+    },
+    {
+      "marker": "io1",
+      "text": "ጫፍት 1፡12-18"
+    },
+    {
+      "marker": "io1",
+      "text": "ሃፉራ ካዋ ማላኖና ፈሎይ ሀይሳኖ 1፡19-27"
+    },
+    {
+      "marker": "io1",
+      "text": "ኡሉልስ ጎጎአዬሶንኮ ካስሳመሮ ሴራ 2፡1-13"
+    },
+    {
+      "marker": "io1",
+      "text": "አማኖና ፈሎ 2፡14-16"
+    },
+    {
+      "marker": "io1",
+      "text": "አማኒልና ህኢትሶ 3፡1-18"
+    },
+    {
+      "marker": "io1",
+      "text": "አማኒልና ሂካ አላም 4፡1—5፡6"
+    },
+    {
+      "marker": "io1",
+      "text": "ካለካለክ አዬስኮክ ጋራን ካስሳመሮ ጎርሳ 5፡7-20"
+    }
+  ],
+  "source_book_metadata": [
+    {
+      "marker": "h",
+      "text": "ያይቆባ"
+    },
+    {
+      "marker": "toc1",
+      "text": "ሀንዳ ካያይቆባ"
+    },
+    {
+      "marker": "toc2",
+      "text": "ያይቆባ"
+    },
+    {
+      "marker": "toc3",
+      "text": "ያይ."
+    },
+    {
+      "marker": "mt1",
+      "text": "ሀንዳ ካያይቆባ"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ዋዉና ጎታ የሱሳ ክርስቶሳን ካሃንዳራ፥ ያይቆባ፥ አላም ዳርኣንቴን ኦግታን ኣኒ ቶሞንኮ ላማዉን፦",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "ኖጎዳ እስኑን ሀሌቶ።"
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "text": "አቢላልቴ፥ ካለካለት ራኮ እስን ጎጌተ ኦአቲ ገጌሎ ኣን ቶታ፤",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ራኮ ኦሮ ካዶትሳሮ አማኖና ቃሩማ"
+          ]
+        },
+        {
+          "number": "3",
+          "text": "ኣላንቲና አማኖክስንኮክ ጫፋማኖ ኦብስ ስሳኖ ካሳንዋ።"
+        },
+        {
+          "number": "4",
+          "text": "ኮና ካኮንሀንቃኖን ቁሉኒዕና ካመን ዱባ ልኪኒዕና ኦአማጋንቴን ጎጎሌታኑን ኦብስ ፈሎኦትሴ ሀፈልቶ።"
+        },
+        {
+          "number": "5",
+          "text": "እስንኮ ማዮና ቃሩማ ጎሀንቅካተ፥ ሀቱፋኖን ዱባን አዳ. ካስሳሮ ዋ ሀኤባቶ፤ ኡሱና ስሳምሮዋ።"
+        },
+        {
+          "number": "6",
+          "text": "አየሱን ጎአመን ሀሄዳኖን አማኖ ሀኤባቶ፤ ኣላንቲና ካሄዳታራ እባዶ አንባል ካአኢሳቶና ካከያሮ ጋሽማሎ ካበከ አንያ።"
+        },
+        {
+          "number": "7",
+          "text": "ሀሱ ኣንክክ እባዶት፥ ጎታኮ ኮኮ ኮ ሄላይናራ አም አሮሄዳኖ።"
+        },
+        {
+          "number": "8",
+          "text": "ኡሱ ቆፋ ላማ ካአባመና ራከሳ ዱባ ሀጋቶላ ካላልአማሮያ።"
+        },
+        {
+          "number": "9",
+          "text": "ባሪሳኖይ ካኮንየራተራን አቢ ዋ ጦቂ ማንኮኢሳሮ ማራን ሀገጌላቶ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ህየሳክ እባዶትና ዱረሳክ እባዶት"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "ዱሩማ ታእባዶ ዳራራ ታኤሰ ኣን ማንኮኡባቶ ማራን ባሪሳኖይ ጦቂ ካአመ አቢ ዋ ባሪሳኖይ ጎየራሰና ሀገጌላተ።"
+        },
+        {
+          "number": "11",
+          "text": "አርት ጉባኖኮ ካከይ ፉርሳይ ኤስ አንጋግሳታ፤ ዳራራና ኡባታ፤ ምዲና ባታ፤ ኡሱማለና ዱረሳክ እባዶት ፈሎኦቴሳ ሀጋቶላ ራንካ ባራ።"
+        },
+        {
+          "number": "12",
+          "text": "ጫፍቲ ኦሮ ካአታታራ እባዶት ካሶማሳመያ፤ ኣላንትና ጫፍቲ ካኮዳንዴ ጎራታ ዋ ኦጌላታሮን ታስሰሮ አብዲ፥ ካግር ካላቻ ሄላይናራ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "እባዶ ጉት ታግያቶ ጫፍቲ"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "ማዮና ጎጫፋመ፥ “ዋ እን ጫፌ” አሮኣሞ፤ ኣላንትና ዋ ሜላነይ ላኮጫፋማሮ፤ ኡሱ አደ ማዮና ላኮጫፋሮ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "አየሱን ጎአመን መተመተይ እባዶ ካኮጫፋማራ ካሜላነ ሀልቻኬሳ ጎቦጃምሮና ጎሶባምሮያ።"
+        },
+        {
+          "number": "15",
+          "text": "ሀልቻና ካኮጂናሮ ጎራታ ጩቦ ኡሙላራ፥ ጩቦና ካኮጂናተ ጎራታ ጎይ ኡሙላራ።"
+        },
+        {
+          "number": "16",
+          "text": "ኦጌላንቴን አቢላልቴ፥ አሮሶባንቴን።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "ካእዳን እላቦና ዱዶኒዕ ሶማ ዱባ ዋኮያን፤ ህክና ካኤመታራ ሆስንደ ኣን ማራሙራ ጎርቱን ኢግልሳማ ካኮግኖን ካኢፋ ኦዶ ዋኮያ።"
+        },
+        {
+          "number": "18",
+          "text": "ዋ ኖ መጣ ዱባኮ ኦሆሬ ጎጎሌኖን ፈኢቴሳ ካሩም ሃፉራ ኖ ኡሙለ።"
+        },
+        {
+          "number": "19",
+          "text": "ኦጌላንቴን አቢላልቴ! ሂካ ሻዳ፤ እባዶ ዱባ ማልን ካጀጀሬ፥ አዬስን ካእስላተ፥ ኢኦኮና ካኦብሴ ሀሌዎ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ካማሌን ፈሎ ጉት ሀይሳኖ"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "እኦ ኦእባዶ ቁሉማ ታዋ ላኮኬናራን።"
+        },
+        {
+          "number": "21",
+          "text": "ሃንሱን ባቶዋኖና ሜላነኮክ ጂናን ትራየንዴነ ኔፎትስን ፋይስን ካዳንዳሮ፥ ዎዳናታትስን ካባተሮ ሃፉራ ኢዳነ አታዬን።"
+        },
+        {
+          "number": "22",
+          "text": "ሃፉራኬሳ ካአማሮ ፈላ ኳሬ ካማላሮ ካላ ልዴነ እስኦትስን አሮሶባቴን።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "ሃፉራኬሳ ካማላራ፥ አየሱን ጎአመን ካአማሮ ካኦራኖን እባዶት በቤድቴሳ ዳዉኢቲ ካድያታሮ እባዶ አንያ።"
+        },
+        {
+          "number": "24",
+          "text": "እስኦቴሳና ድያተ ሴታራ፥ ጎርሰዋ መ ኣን ላሮ ኢሎታራ።"
+        },
+        {
+          "number": "25",
+          "text": "አየሱን ጎአመን ባልቹማ ካቤሳሮ ልክኪ ሴራ ዴረ ካአታታራ፥ ካማለሮ ካፈላራና ካኢሎኖ እባዶ ፈሎኦቴሳ ካሶማሳመ ላራ።"
+        },
+        {
+          "number": "26",
+          "text": "ህኢቴሳ ሀኦራኖን፥ ዎዳናቴሳ ሽርሳታ አማኖ አባ ካአማራ እባዶት፥ እስኦቴሳ ሶባታራ፥ አማኖኬሳኮኒዕ ፈሎና ላኦ ካላይኒዕያን።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "27",
+          "text": "ዋ ኦዶይ ሆረ ካሙጭመና ሜላነ ካላይክ አማኖ ሂካያ፤ ኦዶና ኣና ኦኮንጎየራን ይንሳ ኤንተርጆል ካኮንጎየሮ ሄለል ራኮትሶይ ጋርጋራኖና አላምኮክ ባትናትኮ እስ ኦራታኖያ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "1",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 13፡55፤ ማር. 6፡3፤ ኦፋ. ፈ. 15፡13፤ ጋላ. 1፡19።",
+          "note_type": "translator_note",
+          "source_reference": "1:1"
+        },
+        {
+          "verse": "11",
+          "marker": "Translator/editor note",
+          "text": "- ኢሳ. 40፡6-7።",
+          "note_type": "translator_note",
+          "source_reference": "1:11"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": "1",
+          "text": "አቢላልቴ፥ ካባጃ ካሌሮ ጎታካን የሱሳ ክርስቶሳ ኦአማናታን ማንኮሌተን ማራን አሮኡሉልሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ታዎርቂ ፍራንታ ካካተረና ካእዳንክ ሳርስ ካሳርሳተረ እባዶት ታአማኒል ሀጋና ቶስ ካኮታበ ጎራታ ኡሱማለና ጦርቀ ካኣተ ሳርስ ካሳርሳተራ ህየሳክ እባዶ ጎታበ፥"
+        },
+        {
+          "number": "3",
+          "text": "ካእዳንክ ሳርስ ካሳርሳቴን ካለት ካባጃ ቱሳ፥ “ኩዬን ካዶትሳራ ካእዳንክ ባርጩማ ሂክማ” ጎአንቴን ህየሳትነ አድ፥ “አት ሀሴ አሊ” ጎርቱን ሉክቴ ሄገሊ “ሀማጺ” ጎአንቴን፥"
+        },
+        {
+          "number": "4",
+          "text": "እስን ኦሮ ኡሉልሳኖ ላኮዮያ? አደና ቆፋ ታሜላን ኦአባንቴታና ኦፍርዳታን ላኖ ላኮዮያ?"
+        },
+        {
+          "number": "5",
+          "text": "ኦጌላንቴታን አቢላልቴ፥ ማላ፥ ዋ አማኖ ዱረሳ ጎጎሌናዉና ኡሱ ኦጌላታራዉን አብዲ ካስሳመሮ ዎኖናት ጎጎኤላዉን ሂካ አላምክ ህየሳል ላኮአሳበሮያ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "እስን አዴን ህየሳል የራሴን፤ እስን ኦጫናቅሳራን ዱሬሳል ላኮዬንያ? ምን ካፍርዲ ቶስ እስን ኦጌሳራን ላ እሶያና?"
+        },
+        {
+          "number": "7",
+          "text": "እስኒ ካኡማመሮ ካባጃ ካሌሮ መገ ኦኢንጋማራን ላኮኢሶያንያ?"
+        },
+        {
+          "number": "8",
+          "text": "ማጻፋይ ቁሉክ፥ “ኦላታ እስኦታ ማለ የላ ጌላ” አማመ ካጻፋመሮ ሴራ ካዋ ጎኦራቴን ታኢዳን ፈላግታን።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "ጎኡሉልሴን አድ ጩቦ ፈላግታን፥ ሴራ ሆረና ሴራ ካባሳሮ ኣን ቶታማታን።"
+        },
+        {
+          "number": "10",
+          "text": "ኣላንቲና ሴራ ዱባ ካኦራታራ አየሱን ጎአመን ሴራ ኮይ ካሀንዱዱፋታራ ጎግረ፥ ዱባና ባሳኖ አን ቶታማራ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "“አሮሻርሙጢተ” ካአመራ ጎታ ኡሱማለና “አሮላጋደና” አመራ። ጎሻርሙጣናዋተ፥ አየሱን ጎአመን ጎላጋደ፥ ሴራ ካባሳቶ ሌተታ።"
+        },
+        {
+          "number": "12",
+          "text": "አዬሳና ሌረ ፈላታ ጎግቴን ባልቹማ ካስሳሮ ሴራ ሆረ ካፍርዳሮ እባዶ ኣን ሌን።"
+        },
+        {
+          "number": "13",
+          "text": "ኣላንቲና ሻጋ ካየሎን ዱባ ሻጋ ካላይ ፍርዳምናራ፥ ሻጋ ፍርዳ ጉት አታይናራ።"
+        },
+        {
+          "number": "14",
+          "text": "አቢላልቴ፥ እባዶት ኮ አን አማኖ አባ ጎአመ ፈሎ አድ ጎዋተ መ ላኦ አባ? ሂካ ኣንክክ አማኖ ፋይስን ዳንዳራ?",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "አማኖና ፈሎ"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "አቢ ኮ ጎርቱን አባ ቶ ካሳርሳታራን ሳርስና ሌረ ካአምራን ባቦ ዋይጎግሬን፥"
+        },
+        {
+          "number": "16",
+          "text": "እስን ኦሮኮ ኮ፥ “ኖጎዳ ሴዬን፥ አሮአምቦሎቴን፥ ባራራ” ጎአመ፥ ማርክሶዉን አደ ካዶትሳሮ ጎስሶን፥ መ ላኦ አባ?"
+        },
+        {
+          "number": "17",
+          "text": "ኡሱማሌ ፈሎ ካላይክ አማኖ መተኬሳዉን ካጎየያ።"
+        },
+        {
+          "number": "18",
+          "text": "አየሱን ጎአመን እባዶት ኮ “አት አማኖ አብታ፥ አን ፈሎ አባ” አማራ። አማኖካ ፈሎኮ ካለየልደ ቱስ፥ አንና አማኖኬ ፈሎይ ቱስናራ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "አት “ዋ ኮ ግራኖ” አብዳታ፤ ካእዳንክያ፥ ዱርሳልና ሂካ አብዳታናን፥ አብሲና ሀራኣናን።"
+        },
+        {
+          "number": "20",
+          "text": "አት ጎዋክ እባዶት! አማኖ ፈሎ ካላይ ላኦ ካላይክ ላኖ አዴስን አቶ ዶታታ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "ኣቦካን አብራመ ኤረኬሳ ይሳቃ ባንኤ ታጃርሶ ጉት ካኮካየረ ጎራታ ካኮቁሎየረ ፈሎይ ላኮየያ?"
+        },
+        {
+          "number": "22",
+          "text": "ሂካኒና አማኖ ፈሎኔ ዎታ ፈላ ግራኖ ድያታ፥ አማኖና ፈሎይ ካአማጋመ ሌ።"
+        },
+        {
+          "number": "23",
+          "text": "“አብራመ ዋይ አማነ፥ ቁሉክና ሌ ቶታመ” ካአማራ ማጻፋ ቁሉክኮክ ሃፉራ ጉዳተ፥ ኡሱና ዋ ካጌላታሮ አማመ።"
+        },
+        {
+          "number": "24",
+          "text": "ጎርታ አማኖ ካላሊ ሀሌኖን ፈሎኦቴሳይ ጎጎቁሎየሮ ድያታን።"
+        },
+        {
+          "number": "25",
+          "text": "ኡሱማለና ታሻርሙጣተ ራአብ ኦሀንዳረን ቆጳተደ ራ ካካለኔ ጎጎሴራዉን ካኮየልተ ጎራታ ፈሎኦትሴይ ላኮቁሎይተቴያ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "ማር ኔፎ ካሊ ካጎየያ፤ ኡሱማለና አማኖ ፈሎ ካሊ ካጎየያ።",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "8",
+          "marker": "Translator/editor note",
+          "text": "- ዎዩ. 19፡18።",
+          "note_type": "translator_note",
+          "source_reference": "2:8"
+        },
+        {
+          "verse": "11",
+          "marker": "Translator/editor note",
+          "text": "- ብያ. 20፡13-14፤ አዳ. 5፡17-18።",
+          "note_type": "translator_note",
+          "source_reference": "2:11"
+        },
+        {
+          "verse": "20",
+          "marker": "Translator/editor note",
+          "text": "+ ላኦ ካላይክ፦ ኮኮ ካሆርኮ ማጻፋል ካጎየ ማራ።",
+          "note_type": "translator_note",
+          "source_reference": "2:20"
+        },
+        {
+          "verse": "21",
+          "marker": "Translator/editor note",
+          "text": "- መጣ 22፡1-14።",
+          "note_type": "translator_note",
+          "source_reference": "2:21"
+        },
+        {
+          "verse": "23",
+          "marker": "Translator/editor note",
+          "text": "- መጣ 15፡6፤ 2 ኦዱ 20፡7፤ ኢሳ. 41፡8።",
+          "note_type": "translator_note",
+          "source_reference": "2:23"
+        },
+        {
+          "verse": "25",
+          "marker": "Translator/editor note",
+          "text": "- ኢያ. 2፡1-21።",
+          "note_type": "translator_note",
+          "source_reference": "2:25"
+        }
+      ],
+      "heading": [
+        "ህየሳ ቱፋታኖ ካዶትሶን ላኖ"
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": "1",
+          "text": "አቢላልቴ፥ እስንኮ ካሞጋን ካአጋልስሳሮ አሮሌኖ፥ ኣላንቲና ኦአጋልስሳኖ ኦሌነና ኖ ዱባኮ ታሮርተ ፍርዲ ካአታይናኖ ካሳንዋ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ዱባና አየስ ካሞጋኒ ሀንዱዱፋታና፤ አዬሲ ካሀንዱዱፋኖን ማዮና ጎግረ ኡሱ ማርኬሳ ዱባ ኦራይን ካዳንዳሮ ልክኪ እባዶትያ።"
+        },
+        {
+          "number": "3",
+          "text": "ፋራዴል ጎጎአጃጃምሮን ብጣላ ሙንጀትሶይ ጎቱይንሰ፥ ማንኮጌላነ ዱባ ገጌስን ዳንዳና።"
+        },
+        {
+          "number": "4",
+          "text": "ጎርቱን ማርካፋጆል ዲያ፥ ማምሲ ኣሎ ካንጅንክና አንባል ታአቲት ካሻፋማሮ ጎሌና ማርካፋ ካዱዳራ ክጫርክ ሞቶሬ ማንኮዶታተ ጌሳራ።"
+        },
+        {
+          "number": "5",
+          "text": "ኡሱማለና ኤሬብ ክጫርክ ካማሬ ምክታ ላ ግራን ካጅንጂን አዬሲ ኮራራ፥ ጋ ታአቲ ኤለን ትጫርት ምሲ ጉብተ ባሳቶ ሻዳ።"
+        },
+        {
+          "number": "6",
+          "text": "ኤሬብ ኤሌንያ፥ ካማሬ ክፍሊታን ኦሮ ካግሮ ካሜላን አላምያ፥ ማር ዱባ ባቶይሳራ፥ አደና ጋሃናመኮ ታበያቶ ኤለኒ አን አላታንኮክ ትያኖ ጉባራ፥ መተኬሳዉና ታንባኖ ኤለኒ ጉባይናራ።"
+        },
+        {
+          "number": "7",
+          "text": "ማምስክ ግድ፥ ክምብርጆል ኡሱማለና ኡል ጉት ካግታማራና፥ በከ ኦሮ ታግታ መጣ ዱባ አጃጅን ዳንዴራ፥ እባዶይና አጃጃመራ።"
+        },
+        {
+          "number": "8",
+          "text": "አየሱን ጎአመን ኤሬብ ኦራይን ካዳንዳራ ማዮና ላግሮ፥ ታላጋዳ ማርዚ ካኮአማጋንተቶ ፎልሲ ካላይክ ካሜላን አዬስያ።"
+        },
+        {
+          "number": "9",
+          "text": "ኤሬብካን ዋ ኦዶካን ጋላታና፥ ኡሱ ኤሬብና ምዲ ታዋይ ካመጣመሮ እባዶ ቃንጋና።"
+        },
+        {
+          "number": "10",
+          "text": "ህኢ ቶኮ ሶማና ቃንጎና ብያራን፤ አቢላልቴ፥ ሃ ላኖ ላኮዶትሳሮ።"
+        },
+        {
+          "number": "11",
+          "text": "ፉልቶ ኮኮ በከ ኦሙጭሜና ኦጎራ ብያራን?"
+        },
+        {
+          "number": "12",
+          "text": "አቢላልቴ፥ ባላስ ኤጀርሳ፥ ዎይኒና ባላስ ዱባምን ዳንዳራ? ኡሱማለና ኦጎራ በከኮ ኦኦኖሞታራን ብን ላኮዳንዳራን።"
+        },
+        {
+          "number": "13",
+          "text": "እስን ኦሮኮ ቃሮክና ካሻዳሮ ካሌራ እባዶት አዮያ? ቃሩማና ኢዳነይ ኦፈለሮ ፈሎኦቴሳ ግርኬሳ ሀቱሰ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ታኡሌና ታዳሩረ ቃሩማ"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "አየሱን ጎአመን ታኦኮካታ ጋቢና እስ ጌላንጀ ዎዳናትስኒ ጎግቴ አሮኮርተን፥ ሩም ጉት ጣራ አሮአዬሴን።"
+        },
+        {
+          "number": "15",
+          "text": "ህታ ኣንትት ቃሩማ ኤለኮ ላኮቶ፥ አየሱን ጎአመን አላምኮ፥ ሶኮና ዱርሳኮታ።"
+        },
+        {
+          "number": "16",
+          "text": "ጋቢና እስ ጌላታኖ ታኮግራን ኤሰ ባንኤ ሻላጋማኖና ፈሎ ኦሜላን ዱባ ግራን።"
+        },
+        {
+          "number": "17",
+          "text": "ዳሩርኮ ታሌተታ ቃሩማ አደ ሆራርጀ ታሙጭንተታ፥ ኤሰኮና ኖጎዳ ታጌላቶ፥ ታኦብሳቶ፥ ታኢዳንት፥ ሻጋና ኢል ታኢዳን ታኮአማጋንተቶ፥ ኡሉልሳኖና ኢፍሳዳናት ታኮግኖንታ።"
+        },
+        {
+          "number": "18",
+          "text": "ኖጎዳ ካጌላታራ ኖጎዳ ዉጣተረ ታቁሉማ ኢል ኩኩይሳታራ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "9",
+          "marker": "Translator/editor note",
+          "text": "- መጣ 1፡26።",
+          "note_type": "translator_note",
+          "source_reference": "3:9"
+        }
+      ],
+      "heading": [
+        "ኤሬብ ኦራታኖ"
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": "1",
+          "text": "እስን ኦሮ ካግራ ጀሬና ኤንገ ኤትኮ ታኤሜተቶታ? እስን ኦሮ ካኦላማራ ሀልቻክስንኮ ላኮዮያ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ኮኮ ሄላይን ሀልቻታን፥ አየሱን ጎአመን ላኮሄላይናታን፤ ላጋዳታን፤ ኣሎ ሀልቻታን፥ ሄላይና ላኮዳንዳታን። ኢንሰ ኢንጋማታን፥ ጀሬን ሻፋታታን፥ ላኮኤባታን ካዶታታን ኮኮ ላኮሄላይናታን።"
+        },
+        {
+          "number": "3",
+          "text": "ኤባይናታን፤ አየሱን ጎአመን ላኮአታይናታን፥ ካኤባታና መተክስኑን ገጌሎ ኦሶየት ቆፓ ካሜላነ ሀልቻ ማንኮሌ ማራንያ።"
+        },
+        {
+          "number": "4",
+          "text": "ኦሻርሙጣታን፥ አላምነ ዎታ ጌላንጀ ካታኖ ዋኔ ዎታ ዲና ላኖ ላኮካሳንያ? ሃንሱን አላምነ ዎታ ጌላንጀ ካይን ካዶታታራ ዱባ ዲና ካዋ ላራ።"
+        },
+        {
+          "number": "5",
+          "text": "ጎርቱን ኖ ኦሮ ዋ ካባሪሰራ አያና “ኣሎ ሀኡሳታራ” አማ ማጻፋ ቁሉክ ካአዬሰራ አዳ. ካሄስሮ ኣን ላራ?"
+        },
+        {
+          "number": "6",
+          "text": "አየሱን ጎአመን ስኖ ጂናሰ ስሳራ፥ ማጻፋ ቁሉክና፥ “ዋ ኮራሜሳጆል ዲዳራ፥ ፋያንካኒዕ ጎአመን ስኖ ስሳራ” ካኮንአመራ ሂካኑንያ።"
+        },
+        {
+          "number": "7",
+          "text": "ጎርታ እስኦትስን ዋዉን ስሳዬን፥ ዱርሳና ዲዳ፥ እስንኮና ፋክምሮዋ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "ዋ ቶስ ጋባላማ፥ ኡሱና እስን ቶስ ጋባላምሮዋ። እስን ጩባለሳል ገነኖኦትስን ሙጭሳዬን፥ እስን ቆፋ ላማ ሀጋቶላ ኦላታን ዎዳናትስን ሙጭሳዬን።"
+        },
+        {
+          "number": "9",
+          "text": "ጫናቃማ፤ ጋዳ፤ ኦዬን፤ ኦሶልክስን ኦታን ቶስ፥ ገጌሎኦትስና ጋዳ ቶስ ሀኢግልሳሜን።"
+        },
+        {
+          "number": "10",
+          "text": "ጎታ ሆረ እስኦትስን የራሳዬን፥ ኡሱና እስን ጦቂ ጦቂ እስሮዋ።"
+        },
+        {
+          "number": "11",
+          "text": "አቢላልቴ፥ እስእስኦሮ አሮህማቴን፥ አቢኬሳ ካህማታራና አቢኬሳ ጉቲና ካፍርዳራ ሴራ ጉት ታሜላን አዬሳራ፥ ሴራ ጉቲና ፍርዳራ። ሴራ ጉት ጎፍርድተ ካፍርዳቶ ኳሬ ሴራ ካኦራቶ ላኮቶ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "እባዶ ጉት አሮፍርድቴን"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "ሴራ ካስሳራና ካፍርዳራ ዋ ኮ ካላልያ፥ ኡሱና ሃስና ባስን ካዳንዳሮያ፥ አየሱን ጎአመን ኦላታ ጉት ካፍዳታ አት አዮታ?"
+        },
+        {
+          "number": "13",
+          "text": "እስን “ህታር ጎርቱን ጌባር ህታ ጎርቱን አንት ካታማ ቶስ ሴይናና፥ ኤሴና ጌስ ኮ አዳላይናና፥ ዳዳላይናና፥ ዎረኤ ሄላይናና” ኦአማታን ጎርታ ማላ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኮራ ማራን ካስሳመሮ ሴርሳኖ"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "ጌባር ካልናሮ ላካሳን። ግሪኪን መያ? ጎራታ ክጫሩን ሙተረ አባባተ ካባሮ ኢዮተ አንታን።"
+        },
+        {
+          "number": "15",
+          "text": "ሱረዋ፥ “ታጎታ ፈኢ ጎሌተ ግርናና፥ ሂካ ጎርቱን ኣንክ ፈልናና” አማኖ እስኑን ዶትሳራ።"
+        },
+        {
+          "number": "16",
+          "text": "ግዳ አደ ኮራክስኒ ዳታን፥ ሂካ ኣንክክ ኮራ ዱባ ካሜላንያ።"
+        },
+        {
+          "number": "17",
+          "text": "ጎራታ ካእዳንክ አየስ ፈልን አዴሳ ግራን ካፈሎን እባዶ ፈላናዋት ኡሱን ጩቦ ላራ።",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "14",
+          "marker": "Translator/editor note",
+          "text": "- ማሱ. 27፡1።",
+          "note_type": "translator_note",
+          "source_reference": "4:14"
+        }
+      ],
+      "heading": [
+        "አላምኮት ሜላነ አሮጌላተን"
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ጎርታ እስን ዱሬሳጆል ማላ፥ እስን ታግናቶ ራኮዉን ኦዬን፥ ዎ ዎ አማ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ዱሩማትስን ቡቅተታ፥ ሳርስክስና ቆቃና ኣመራ።"
+        },
+        {
+          "number": "3",
+          "text": "ዎርቂክስና ማራጋደክስን ኦዶዶተራ፥ ኦዶዶታኖና እስን ጉት አቶታራ፥ ሶኦትስና ኤለን ኣን ኣምናራ፥ ካጋቾ ጌሱን ዱሩማ ኩኩይሳተታን።"
+        },
+        {
+          "number": "4",
+          "text": "ዎዳና አባዬን፥ ኢራክስን ታጋታ ኦሀዬራን ኦፈላታራዉን ሀሙሮን ካግታን ዳሞዛ እስን ጉት ኢያራ፤ ኦታጋታራንኮክ እያ ዱባ ካዳንዳሮ ካሌሮ ጎታኮት ነበ ቶስ ጌራ።"
+        },
+        {
+          "number": "5",
+          "text": "ኡል ጉቲና ታኡማኒ ቡራቃ ግቴን፥ ታኤኖኦ አሪን ዎዳናትስን ኡኡራይሳቴን።"
+        },
+        {
+          "number": "6",
+          "text": "እስን ካኔባኖን ቁሉክ እባዶት ጉት ሙርቴስቴታን፤ ላጋዴታን።"
+        },
+        {
+          "number": "7",
+          "text": "ጎራታ አቢላልቴ፥ ጎታ ታኤሜሮ ኦብሳ። ኦታተ ካባራረ ኤሬ ኢል ታኢዳንት ታስሶን ምሲ ኦብሳሮ፥ ካሆሬና ካሃረ ኢዳሞ ምሲ ኦራታሮ ሻዳ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ራኮ ኦሮ ኦብሳኖ"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "እስና ሂካማሌዋ ኦብሳ፥ ዎዳናትስና አታይሳዬን፥ ኣላንቲ ታጎታ ኤመቶ ጋባላንተታ።"
+        },
+        {
+          "number": "9",
+          "text": "አቢላልቴ፤ እስእስኦሮ አሮጉንጉምተን፥ ጎርቱን እስን ጉት ፍርዳምሮዋ፥ ሂክማ ካፍርዳራ ጎጫ አሌራ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "አቢላልቴ፤ መገ ካጎታይ ካአዬሰራ ሄገሮል ራኮ ኦብሲ አታታኖይ ማሱሳ ላኖክሶ አዴሳ።"
+        },
+        {
+          "number": "11",
+          "text": "አደና ኦብሲ ኦአታቴራን ኦሶማሳሜን የልነ ኖ ካቶታኖ ካሳንዋ፥ ኢዮብ ምሲ ኦብሴረ አታተሮ ማልቴታን፤ ጎታና ጉድሳኖይ ካየለሮ ዴተታን። ጎታ ኣሎ ካነኔኤይሳታሮና ሻጋ ካየላሮያ።"
+        },
+        {
+          "number": "12",
+          "text": "አቢላልቴ፤ ዱባንኮ ሮረ ዳሩሪ ጎርቱን ኡል ጎርቱን ማምስክ አዬስና ጎሌ አሮአማቴን፥ “እ” ጎሌ እ ሀሌዎ፥ “ላ” ጎሌ ላ ሀሌዎ፥ ጎርቱን ሙርተሳምናራ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "እስን ኦሮኮ ራኮ ኦሮ ካግራ ግሮ? ኡሱ ሀኤባተ፥ ካገገላተራ ግሮ? ካጋላታ ማዛሙር ሀዛማሮ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "አማኖኮ ካሌ ኤብ"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "እስን ኦሮኮ ካሀዉአመራ እባዶት ጎግሮ? ምን ካዋክ ጃርሶለ ሀኡማተ፥ እሶና መገ ካጎታይ ዛይቲ ሽግድ ሀኤባተን።"
+        },
+        {
+          "number": "15",
+          "text": "አማኖኮ ካሌ ኤብ ካሀዉአመሮ እባዶት ፋይሳራ፤ ጎታና ኬሳራ፥ ጩቦ ፈል ጎግረና፥ ሀሄሶ አማማራ።"
+        },
+        {
+          "number": "16",
+          "text": "ሃንሱን ጩቦክስን እስእስኦሮ ቤሳየን፤ ጎጎፋይታዉና ኮ ካካለዉን ሀኤባተ፤ ቁሉክ እባዶትኮክ ኤብ ሁና አባ፥ ካአቲ አዬስና ፈላራ።"
+        },
+        {
+          "number": "17",
+          "text": "ኤላሳ ኖ ኣንክክ እባዶትየ፤ ኢዳሞ ጎጎኡባኖንኮ አታይሰ ኤባተ፤ ኡል ጉቲና ጌስ ሴንዳ ምናና ኢዳሞ ላኮኡባተሮ።"
+        },
+        {
+          "number": "18",
+          "text": "አደና ኤባተ፥ ኢዳሞና ዳሩርኮ ኡባተ፤ ኤሬና ኢል ስሴ።"
+        },
+        {
+          "number": "19",
+          "text": "አቢላልቴ፥ እስንኮ ኮ ሩምኮ ጎሽርመ ካካለ ጎአባበ፥",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "ሂካ ሻዳ፤ ጩባለሳ ካኮሽርመሮ ራኮ ካአባባራ እባዶ ኔፎቴሳ ጎይኮ ሃሳራ፥ ጩቦ ካሞጋና ሀሄሶ አምስሳራ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "3",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 6፡19።",
+          "note_type": "translator_note",
+          "source_reference": "5:3"
+        },
+        {
+          "verse": "4",
+          "marker": "Translator/editor note",
+          "text": "- አዳ. 24፡14-15።",
+          "note_type": "translator_note",
+          "source_reference": "5:4"
+        },
+        {
+          "verse": "11",
+          "marker": "Translator/editor note",
+          "text": "- ኢዮ. 1፡21-22፤ 2፡10፤ ማዛ. 103፡8።",
+          "note_type": "translator_note",
+          "source_reference": "5:11"
+        },
+        {
+          "verse": "12",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 5፡34-37።",
+          "note_type": "translator_note",
+          "source_reference": "5:12"
+        },
+        {
+          "verse": "14",
+          "marker": "Translator/editor note",
+          "text": "- ማር. 6፡13።",
+          "note_type": "translator_note",
+          "source_reference": "5:14"
+        },
+        {
+          "verse": "17",
+          "marker": "Translator/editor note",
+          "text": "- 1 ዎኖ. 17፡1፤ 18፡1።",
+          "note_type": "translator_note",
+          "source_reference": "5:17"
+        },
+        {
+          "verse": "18",
+          "marker": "Translator/editor note",
+          "text": "- 1 ዎኖ. 18፡42-45።",
+          "note_type": "translator_note",
+          "source_reference": "5:18"
+        },
+        {
+          "verse": "20",
+          "marker": "Translator/editor note",
+          "text": "- ማሱ. 10፡12፤ 1 ጴጢ. 4፡8።",
+          "note_type": "translator_note",
+          "source_reference": "5:20"
+        }
+      ],
+      "heading": [
+        "ዱሬሳጆሉን ካስሳመሮ ሴርሳኖ"
+      ]
+    }
+  ]
+}

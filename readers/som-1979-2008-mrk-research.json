@@ -1,0 +1,3882 @@
+{
+  "reader_id": "som-1979-2008-mrk-research",
+  "research_corpus_id": "somsim-1979-2008-mrk",
+  "canon_id": null,
+  "title": "Mark — Kitaabka Quduuska Ah (Somali, SIM 2008)",
+  "display_name": "Mark · Somali · SIM 2008",
+  "text_origin": "published_translation",
+  "translation_id": "somsim-1979-2008",
+  "language": "Somali, language of Somalia (edition description)",
+  "language_tag": "so",
+  "language_assignment_status": "eBible.org identifies Somali (language code som); the archive maps it to BCP 47 so. No dialect or community review is asserted.",
+  "script_code": "Latn",
+  "translator": "SIM International",
+  "contributor": "Society for International Ministries -- Kenya",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The inspected edition page does not state its source language or any relay path.",
+  "edition": "Kitaabka Quduuska Ah; The Holy Bible in the Somali language of Somalia, Adan Jim'ale Version; copyright © 1979, 2008; publisher code SOMSIM / som.",
+  "edition_scope": "One of 66 conventional USFM modules in the retained publisher package. The English book name is a navigation aid. No Ethiopian or Eritrean Orthodox canon crosswalk is assigned.",
+  "rights_classification": "permission_limited",
+  "license_id": "CC-BY-NC-ND-3.0-and-4.0 (both notices appear in source)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "copyright_notice": "Copyright © 1979, 2008 Society for International Ministries -- Kenya. Translation by SIM International. Source edition: The Holy Bible in the Somali language of Somalia, Adan Jim'ale Version (eBible.org code SOMSIM / som). The provider's archived notice states CC BY-NC-ND 3.0 and also links CC BY-NC-ND 4.0; the version discrepancy is retained. The notice permits file-format porting only if the Bible's wording and punctuation are unchanged, and prohibits commercial use and text adaptations. This archive converted USFM structure to reader JSON without intentionally changing scripture words or punctuation and retains the original USFM ZIP verbatim. This is a format port under the provider's stated terms, not a translation or editorial adaptation; no textual proofread is claimed.",
+  "commercial_use": "The provider's terms prohibit selling the work for profit. The 3.0/4.0 version discrepancy is retained; do not infer permissions beyond the source's express format-porting allowance.",
+  "unit_label": "Publisher USFM chapter/verse labels observed",
+  "unit_count": 678,
+  "verse_marker_count": 678,
+  "chapter_count": 16,
+  "section_label": "Chapter",
+  "chapter_structure_note": "The parser found 16 consecutive chapter divisions and 678 distinct chapter/verse labels. Publisher labels, native book headings, front matter, section headings, paragraph structure, and footnotes are retained; these counts do not prove completeness against print or wording accuracy.",
+  "chapter_structure_status": "source_package_parsed_with_limits",
+  "source_numbered_unit_count": 678,
+  "source_unnumbered_unit_count": 13,
+  "source_pages": "readers/source/som/som_usfm.zip::47-MRKsom.usfm",
+  "source_package_sha256": "9ac3b1e08d708cd2e98d4095dc74031839f183bbc149ecf0f9b200b36ff606d1",
+  "source_snapshot_sha256": "648f223510c1daadf865c22de664e6c479707a2876ace5d6ec512e7b3594b6b1",
+  "source_ids": [
+    "SRC-390",
+    "SRC-391",
+    "SRC-392"
+  ],
+  "rights_status": "Copyright © 1979, 2008 Society for International Ministries -- Kenya. Translation by SIM International. Source edition: The Holy Bible in the Somali language of Somalia, Adan Jim'ale Version (eBible.org code SOMSIM / som). The provider's archived notice states CC BY-NC-ND 3.0 and also links CC BY-NC-ND 4.0; the version discrepancy is retained. The notice permits file-format porting only if the Bible's wording and punctuation are unchanged, and prohibits commercial use and text adaptations. This archive converted USFM structure to reader JSON without intentionally changing scripture words or punctuation and retains the original USFM ZIP verbatim. This is a format port under the provider's stated terms, not a translation or editorial adaptation; no textual proofread is claimed.",
+  "verification_status": "The 70-entry ZIP passed CRC. GnuPG verified the clear-signed SHA-256 list; the signer fingerprint 54D714D76956DA6673DC1EEA5F62009D93505F26 matches the key maintainer's public fingerprint list, subject to identity/custody and legacy DSA-1024/SHA-1 limitations. All 66 USFM member hashes match. Chapter sequences and duplicate chapter/verse labels were checked. An automated exact comparison matched all 678 labeled source verse lines to this reader's verse text after stripping USFM formatting and separating note/figure markup; whitespace was normalized. This is not human proofreading, a print collation, a completeness review, or translation validation.",
+  "transcription_note": "Format conversion from the retained publisher USFM to reader JSON. The source notice expressly allows file-format porting if scripture words and punctuation do not change. The original USFM is preserved verbatim; the rendered layer removes USFM controls and normalizes whitespace only. No text adaptation or translation is made.",
+  "editorial_signs_note": "Native book headings and title markers, verse labels, section headings, paragraphs, poetry markers, notes, and available front matter are represented in structured form. Source USFM remains available to inspect the original markup. Images are not included because their terms differ.",
+  "front_matter": [],
+  "source_book_metadata": [
+    {
+      "marker": "h",
+      "text": "MARKOS"
+    },
+    {
+      "marker": "mt2",
+      "text": "INJIILKA SIDA"
+    },
+    {
+      "marker": "mt1",
+      "text": "MARKOS"
+    },
+    {
+      "marker": "mt2",
+      "text": "U QORAY"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Bilowgii injiilkii Ciise Masiix, oo ah Wiilka Ilaah.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Sidii Nebi Isayos u qoray,",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "Eeg, waxaan hortaada soo dirayaa wargeeyahayga,"
+            },
+            {
+              "source_marker": "q1",
+              "text": "Kan jidkaaga diyaargarayn doona;"
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "text": "Waa codka kan cidlada kaga qaylinaya,",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "Jidka Rabbiga hagaajiya,"
+            },
+            {
+              "source_marker": "q1",
+              "text": "Waddooyinkiisa toosiya."
+            }
+          ]
+        },
+        {
+          "number": "4",
+          "text": "Waxaa yimid Yooxanaa kan cidlada dadka ku baabtiisayay oo ku wacdiyeyey baabtiiskii toobadda dembidhaafka aawadiis.",
+          "source_markers_before": [
+            "m"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Markaasaa waxaa u soo baxay dadkii Yahuudiya oo dhan iyo kuwii Yeruusaalem oo dhan, oo kulligoodna Webi Urdun ayuu ku baabtiisay, iyagoo dembiyadooda qiranaya."
+        },
+        {
+          "number": "6",
+          "text": "Yooxanaa wuxuu guntanaa dharkiisii dhogorta geel ahaa, oo suun meged ahna dhexduu ku xidhnaa, oo wuxuu cunay ayax iyo malab dibadeed."
+        },
+        {
+          "number": "7",
+          "text": "Oo wax buu wacdiyey oo yidhi, Waxaa iga daba imanaya ku iga itaal weyn, kan aanan istaahilin inaan foororsado oo aan yeelmihii kabihiisa furo."
+        },
+        {
+          "number": "8",
+          "text": "Anigu waxaan idinku baabtiisay biyo, isaguse wuxuu idinku baabtiisi doonaa Ruuxa Quduuska ah."
+        },
+        {
+          "number": "9",
+          "text": "Wakhtigaas waxay noqotay in Ciise ka yimid Naasared tii Galili, oo Yooxanaa baa Webi Urdun ku baabtiisay isagii.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Waa La Baabtiisay",
+            "(Mat. 3:13-17; Luuk. 3:21-22)"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Markiiba intuu biyihii ka soo baxay wuxuu arkay samooyinkii oo kala dillaacay iyo Ruuxii oo sidii qoolley oo kale dushiisa ugu soo degaya."
+        },
+        {
+          "number": "11",
+          "text": "Waxaa samooyinka ka yimid cod leh, Adigu waxaad tahay Wiilkayga aan jeclahay oo aan ku faraxsanahay."
+        },
+        {
+          "number": "12",
+          "text": "Oo markiiba Ruuxii baa xaggii cidlada u eryay.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Shayddaan Baa Isku Dayay Inuu Ciise Duufsado",
+            "(Mat. 4:1-11; Luuk. 4:1-13)"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Afartan maalmood buu cidlada joogay, Shayddaan baana jirrabay oo wuxuu la jiray dugaagga, malaa'igahuna waa u adeegeen."
+        },
+        {
+          "number": "14",
+          "text": "Kolkii Yooxanaa la qabtay dabadeed, Ciise wuxuu yimid Galili, oo wuxuu dadka ku wacdiyey injiilka Ilaah,",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Bilowgii Wacdiga Ciise",
+            "(Mat. 4:17; Luuk. 4:14-15)"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "wuxuuna yidhi, Wakhtigii waa buuxsamay, oo boqortooyadii Ilaah waa soo dhowaatay; toobadkeena oo injiilka rumaysta."
+        },
+        {
+          "number": "16",
+          "text": "Markuu badda Galili ag marayay, wuxuu arkay Simoon iyo walaalkiis Andaros, iyagoo shabag badda ku tuuraya, waayo, waxay ahaayeen kuwa kalluun jillaabta.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Wuxuu U Yeedhay Xertiisii U Horraysay",
+            "(Mat. 4:18-22; Luuk. 5:1-11)"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "Ciise wuxuu ku yidhi, I soo raaca. Waxaan idinka dhigayaa kuwa dadka jillaabta."
+        },
+        {
+          "number": "18",
+          "text": "Markiiba shabagyadoodii way ka tageen, wayna raaceen."
+        },
+        {
+          "number": "19",
+          "text": "Markuu cabbaar socday, wuxuu arkay Yacquub ina Sebedi iyo walaalkiis Yooxanaa, iyagoo doonnida dhexdeeda shabagyadoodii ku hagaajinaya."
+        },
+        {
+          "number": "20",
+          "text": "Markiiba wuu u yeedhay. Kolkaasay aabbahood Sebedi iyo shaqaalayaasha kaga soo tageen doonnida, oo isagay raaceen."
+        },
+        {
+          "number": "21",
+          "text": "Markaasay Kafarna'um galeen, oo markiiba sabtida wuxuu galay sunagogga oo dadka wax baray.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Wuxuu Kafarna'um Ku Bogsiiyey Jinnoole",
+            "(Luuk. 4:31-37)"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "Waxayna la yaabeen wax bariddiisa, waayo, wuxuu wax u barayay sida mid amar leh, oo uma uu baraynin sida culimmada."
+        },
+        {
+          "number": "23",
+          "text": "Markaasaa waxaa sunagoggoodii ku jiray nin jinni wasakh leh qaba, wuuna qayliyey, oo wuxuu yidhi,"
+        },
+        {
+          "number": "24",
+          "text": "Maxaa inoo dhexaya, Ciise reer Naasaredow? Ma waxaad u timid inaad na baabbi'iso? Anigu waa ku garanayaa kii aad tahay Kan Quduuska ah ee Ilaah."
+        },
+        {
+          "number": "25",
+          "text": "Ciise baa canaantay oo ku yidhi, Aamus oo ka soo bax."
+        },
+        {
+          "number": "26",
+          "text": "Goortii jinnigii wasakhda lahaa gilgilay oo cod weyn ku qayliyey, ayuu ka soo baxay."
+        },
+        {
+          "number": "27",
+          "text": "Kulligoodba ayay la wada yaabeen, sidaa aawadeed iyaga dhexdooda way isweyddiiyeen oo yidhaahdeen, Waa maxay waxani? Ma wax barid cusub baa? Xataa jinniyadii wasakhda lahayd amar buu ku amraa, wayna yeelaan."
+        },
+        {
+          "number": "28",
+          "text": "Markiiba warkiisii waa gaadhay dhulkii Galili ku wareegsanaa oo dhan."
+        },
+        {
+          "number": "29",
+          "text": "Oo markiiba kolkay sunagoggii ka soo baxeen, waxay galeen guriga Simoon iyo Andaros, iyaga iyo Yacquub iyo Yooxanaaba.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Wuxuu Bogsiiyey Butros Soddohdiis Iyo Dad Kale Oo Badan",
+            "(Mat. 8:14-17; Luuk. 4:38-41)"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "Simoon soddohdiis baa qandho la jiiftay, oo kolkiiba waxay isaga u sheegeen wax iyada ku saabsan."
+        },
+        {
+          "number": "31",
+          "text": "Markaasuu u soo dhowaaday oo gacanteeda qabtay oo uu kiciyey. Kolkiiba qandhadii waa ka baxday oo ay u adeegtay iyaga."
+        },
+        {
+          "number": "32",
+          "text": "Makhribkii goortay qorraxdii dhacday, waxay u keeneen kuwa buka oo dhan iyo kuwa jinniyo qaba.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "33",
+          "text": "Markaasaa dadkii magaalada oo dhan albaabka ku soo ururay."
+        },
+        {
+          "number": "34",
+          "text": "Oo wuxuu bogsiiyey dad badan oo cudurro kala cayncayn ah qabay, dadkana jinniyo badan buu ka saaray, oo uma oggolaanin jinniyadu inay hadlaan, waayo, isagay garanayeen."
+        },
+        {
+          "number": "35",
+          "text": "Aroortii hore intaan weli waagii beryin ayuu kacay oo wuxuu tegey meel cidla ah, halkaasuuna ku soo tukanayay.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Gooni Ahaan Buu U Tukaday",
+            "(Luuk. 4:42-44)"
+          ]
+        },
+        {
+          "number": "36",
+          "text": "Markaasaa Simoon iyo kuwii la jiray ka daba tageen."
+        },
+        {
+          "number": "37",
+          "text": "Goortay heleen waxay ku yidhaahdeen, Dadka oo dhan baa ku doondoonaya."
+        },
+        {
+          "number": "38",
+          "text": "Wuxuu ku yidhi, Aan tagno magaalooyinka inoo dhow, inaan halkaasna wax ku wacdiyo; waayo, taas aawadeed ayaan u imid."
+        },
+        {
+          "number": "39",
+          "text": "Wuxuu galay sunagogyadoodii Galili ku yiil oo dhan; dadkana ayuu ka wacdiyey, jinniyadiina ayuu dadka ka saaray."
+        },
+        {
+          "number": "40",
+          "text": "Markaasaa waxaa u yimid nin baras leh, wuuna jilba joogsaday oo baryay, oo ku yidhi, Haddaad doonaysid waad i daahirin kartaa.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Baraslihii La Bogsiiyey",
+            "(Mat. 8:1-4; Luuk. 5:12-16)"
+          ]
+        },
+        {
+          "number": "41",
+          "text": "Kolkaasaa Ciise u naxariistay, oo intuu gacantiisa soo taagay, ayuu taabtay oo ku yidhi, Waa doonayaa ee daahirsanow."
+        },
+        {
+          "number": "42",
+          "text": "Kolkiiba baraskii waa ka baxay, oo wuu daahirsanaaday."
+        },
+        {
+          "number": "43",
+          "text": "Ciisena aad buu u xukumay, oo markiiba ayuu iska diray,"
+        },
+        {
+          "number": "44",
+          "text": "oo ku yidhi, Ninna waxba ha kala hadlin, laakiin tag oo wadaadka istus. Waxaad daahirsanaantaada u bixisaa wixii uu Muuse amray, marag iyaga ha u ahaatee."
+        },
+        {
+          "number": "45",
+          "text": "Laakiin wuu baxay oo bilaabay inuu aad u naadiyo oo warka faafiyo, taas aawadeed kol dambe Ciise magaaladuu bayaan u geli kari waayay, laakiin wuxuu joogay dibadda ee meelo cidla ah, meel kastana waa looga yimid."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "21",
+          "marker": "Translator/editor note",
+          "text": "+ sunagog = guri lagu tukado.",
+          "note_type": "translator_note",
+          "source_reference": "1:21"
+        }
+      ],
+      "heading": [
+        "Yooxanaa Baabtiisaha Iyo Farriintii Uu Waday",
+        "(Mat. 3:1-12; Luuk. 3:1-17)"
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Dhawr maalmood dabadeed goortuu haddana Kafarna'um galay, waxaa la maqlay inuu guriga joogo.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Markaasaa waxaa is-urursaday dad badan, sidaa daraaddeed meel ay joogsadaan ayay ka waayeen xataa albaabka hortiisii, oo iyaga ayuu ereygii kula hadlay."
+        },
+        {
+          "number": "3",
+          "text": "Kolkaasay u yimaadeen oo nin curyaan ah u keeneen, waxaana siday afar qof."
+        },
+        {
+          "number": "4",
+          "text": "Goortay u soo dhowaan kari waayeen dadkii badnaa daraaddiis ayay saqafka dusha ka fureen meeshuu joogay. Goortii ay jebsheen, waxay ka soo dejiyeen sariirtii ninkii curyaanka ahaa ku jiifay."
+        },
+        {
+          "number": "5",
+          "text": "Ciise kolkuu rumaysadkoodii arkay, ayuu ninkii curyaanka ahaa ku yidhi, Wiilkow, dembiyadaadu waa cafiyan yihiin."
+        },
+        {
+          "number": "6",
+          "text": "Laakiin halkaa waxaa joogay qaar culimmada ah oo iska fadhiyey oo qalbiyadooda ka fikirayay, oo waxay isku yidhaahdeen,"
+        },
+        {
+          "number": "7",
+          "text": "Ninkanu muxuu sidan ugu hadlayaa? Wuu caytamayaa. Ayaa dembiyo cafiyi kara Ilaah keliya maahee?"
+        },
+        {
+          "number": "8",
+          "text": "Kolkiiba Ciise ruuxiisuu ka ogaaday inay sidaas qalbiyadooda ka fikirayaan, oo wuxuu ku yidhi, Maxaad waxan qalbiyadiinna ugaga fikiraysaan?"
+        },
+        {
+          "number": "9",
+          "text": "Iyamaa hawl yar, in curyaanka lagu yidhaahdo, Dembiyadaadu waa cafiyan yihiin, ama in lagu yidhaahdo, Kac oo sariirtaada qaado oo soco?"
+        },
+        {
+          "number": "10",
+          "text": "Laakiin si aad ku garataan in Wiilka Aadanahu dhulka ku leeyahay amar uu dembiyada ku cafiyo (ayuu ninkii curyaanka ahaa ku yidhi),"
+        },
+        {
+          "number": "11",
+          "text": "Waxaan ku leeyahay, Kac oo sariirtaada qaado oo gurigaaga tag."
+        },
+        {
+          "number": "12",
+          "text": "Kolkiiba wuu kacay oo sariirtiisii qaatay; wuuna baxay dadkii oo dhan hortooda, sidaa darteed ayay la wada yaabeen, wayna ammaaneen Ilaah, oo waxay yidhaahdeen, Weligayo sidan oo kale ma aannu arag."
+        },
+        {
+          "number": "13",
+          "text": "Haddana wuu u baxay badda xeebteeda, oo dadkii oo dhan baa u yimid, wuuna wax baray.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "U yeedhidda Laawi",
+            "(Mat. 9:9-13; Luuk. 5:27-32)"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Goortuu ag marayay, wuxuu arkay Laawi ina Alfayos, isagoo fadhiya meesha cashuurta lagu qaado, oo uu ku yidhi isaga, I soo raac. Wuuna kacay oo raacay."
+        },
+        {
+          "number": "15",
+          "text": "Waxaa dhacay markii Ciise gurigiisa cunto u fadhiistay in kuwa badan oo cashuurqaadayaal iyo dembilayaal ah Ciise iyo xertiisii la fadhiistay; waayo, way badnaayeen, wayna raaceen."
+        },
+        {
+          "number": "16",
+          "text": "Culimmadii iyo Farrisiintii markay arkeen isagoo dembilayaal iyo cashuurqaadayaal wax la cunaya, waxay xertiisii ku yidhaahdeen, Waa sidee? Wuxuu wax la cunaa oo la cabbaa cashuurqaadayaal iyo dembilayaal."
+        },
+        {
+          "number": "17",
+          "text": "Ciise goortuu maqlay ayuu ku yidhi, Kuwa ladan dhakhtar uma baahna, laakiin kuwa buka ayaa u baahan. Uma aan imanin inaan kuwa xaqa ah u yeedho, laakiin inaan dembilayaasha u yeedho ayaan u imid."
+        },
+        {
+          "number": "18",
+          "text": "Xertii Yooxanaa iyo Farrisiintii ayaa soomi jiray. Isagay u yimaadeen oo waxay ku yidhaahdeen, Xertii Yooxanaa iyo xertii Farrisiintu maxay u soomaan oo ay xertaadu u soomi weydaa?",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Wax Soonka Ku Saabsan",
+            "(Mat. 9:14-17; Luuk. 5:33-39)"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Markaasaa Ciise ku yidhi, Dadka aroosku miyay soomi karaan intuu aroosku la joogo? In alla intii aroosku la joogo ma ay soomi karaan."
+        },
+        {
+          "number": "20",
+          "text": "Laakiin waxaa iman doona maalmaha arooska laga qaadi doono, markaasay soomi doonaan maalintaas."
+        },
+        {
+          "number": "21",
+          "text": "Ninna karriin cusub kuma tolo dhar duug ah, haddii kale tan cusub ee lagu buuxin lahaa ayaa ka go'da kan duug ah, oo jeexdintu waa ka sii xumaataa."
+        },
+        {
+          "number": "22",
+          "text": "Khamri cusubna qarbeddo duug ah laguma shubo, haddii kale khamrigii cusbaa ayaa qarbeddada kala dildillaacinaya, khamriguna waa daadanayaa, qarbeddaduna waa hallaabayaan, laakiin khamriga cusubse waxaa lagu shubaa qarbeddo cuscusub."
+        },
+        {
+          "number": "23",
+          "text": "Waxaa dhacay inuu sabtidii beeraha dhex marayay, oo xertiisii intay soconayeen ayay bilaabeen inay sabuullada jartaan.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Wax Sabti Dhawridda Ku Saabsan",
+            "(Mat. 12:1-8; Luuk. 6:1-5)"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "Markaasaa Farrisiintii waxay isaga ku yidhaahdeen, Bal eeg, maxay sabtida u samaynayaan wixii aan xalaal ahayn?"
+        },
+        {
+          "number": "25",
+          "text": "Wuxuu ku yidhi, Miyaydnaan weligiin akhriyin wixii Daa'uud sameeyey markuu wax u baahnaa oo uu gaajaysnaa, isaga iyo kuwii la jiray?"
+        },
+        {
+          "number": "26",
+          "text": "Siduu guriga Ilaah u galay waagii wadaadkii sare ee Aabyaataar, oo uu u cunay kibistii tusniinta oo aan xalaal uu ahayn dad kale wadaaddada maahee, oo uu siiyey kuwii la jirayna."
+        },
+        {
+          "number": "27",
+          "text": "Markaasaa wuxuu ku yidhi iyaga, Sabtida waxaa loo sameeyey dadka aawadiis ee dadka looma samayn sabtida aawadeed."
+        },
+        {
+          "number": "28",
+          "text": "Sidaa darteed Wiilka Aadanahu waa sayidka sabtida."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "26",
+          "marker": "Translator/editor note",
+          "text": "+ kibistii tusniinta = kibis gooni ah oo loo bixiyey Ilaah.",
+          "note_type": "translator_note",
+          "source_reference": "2:26"
+        }
+      ],
+      "heading": [
+        "Curyaankii La Bogsiiyey",
+        "(Mat. 9:1-8; Luuk. 5:17-26)"
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Kol dambe wuxuu galay sunagogga; halkaasna waxaa joogay nin gacan engegan.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Markaasay fiirinayeen inuu sabtida bogsiinayo iyo in kale, si ay u ashtakeeyaan."
+        },
+        {
+          "number": "3",
+          "text": "Kolkaasuu ninkii gacanta engegnaa ku yidhi, Dhexda isa soo taag."
+        },
+        {
+          "number": "4",
+          "text": "Oo wuxuu iyaga ku yidhi, Sabtida ma xalaal baa in wanaag la falo ama shar; in naf la badbaadiyo ama la dilo? Laakiin way iska aamuseen."
+        },
+        {
+          "number": "5",
+          "text": "Goortuu iyaga isha mariyey isagoo cadhaysan oo qalbigiisii ka tiiraanyooday qalbi engegnaantooda aawadeed, wuxuu ninkii ku yidhi, Gacanta soo taag. Kolkaasuu soo taagay, oo gacantiisu way bogsatay."
+        },
+        {
+          "number": "6",
+          "text": "Markaasaa Farrisiintu baxeen, oo markiiba waxay kala tashadeen Herodosiintii si ay u dilaan isaga."
+        },
+        {
+          "number": "7",
+          "text": "Laakiin Ciise xertiisii ayuu badda kula noqday; waxaana raacay dad badan oo ka yimid Galili, iyo Yahuudiya,",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Dad Kaloo La Bogsiiyey"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "iyo Yeruusaalem, iyo Idumiya, iyo Webi Urdun shishadiisa, iyo kuwa ag joogay Turos iyo Siidoon; dad tiro badan goortii ay maqleen waxa weyn ee uu samaynayay ayay u yimaadeen."
+        },
+        {
+          "number": "9",
+          "text": "Xertiisii wuu la hadlay oo wuxuu ku yidhi, Doonni yar ha i sugto dadkii badnaa aawadiis si ayan ii cidhiidhiyin."
+        },
+        {
+          "number": "10",
+          "text": "Waayo, dad badan ayuu bogsiiyey, sidaa daraaddeed ayay waxay ugu kufeen si ay kuwii cudur qabay oo dhan u taabtaan isaga."
+        },
+        {
+          "number": "11",
+          "text": "Oo jinniyada wasakhda lehna goortay arkeen, hortiisii ayay isku tuureen oo qayliyeen, oo waxay yidhaahdeen, Adigu waxaad tahay Wiilka Ilaah."
+        },
+        {
+          "number": "12",
+          "text": "Aad buu u amray inaanay dadka ogeysiinin isaga."
+        },
+        {
+          "number": "13",
+          "text": "Goortaasuu buurta fuulay; wuu u yeedhayna kuwii uu doonayay; wayna u yimaadeen.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Laba Iyo Tobankiisii Rasuul",
+            "(Mat. 10:1-4; Luuk. 6:12-16)"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Laba iyo toban ayuu soo saaray inay isaga la joogaan, iyo inuu u diro inay wax wacdiyaan,"
+        },
+        {
+          "number": "15",
+          "text": "iyo inay u leeyihiin amar ay cudurro ku bogsiiyaan oo ay jinniyo ku saaraan."
+        },
+        {
+          "number": "16",
+          "text": "Waxay ahaayeen Simoon, kan uu Butros u bixiyey,"
+        },
+        {
+          "number": "17",
+          "text": "iyo Yacquub ina Sebedi, iyo Yooxanaa, Yacquub walaalkiis, iyaga wuxuu u bixiyey Bo'anerges, waxaa weeye wiilashii onkodka,"
+        },
+        {
+          "number": "18",
+          "text": "iyo Andaros, iyo Filibos, iyo Bartolomayos, iyo Matayos, iyo Toomas, iyo Yacquub ina Alfayos, iyo Tadayos, iyo Simoon reer Kaana,"
+        },
+        {
+          "number": "19",
+          "text": "iyo Yuudas Iskariyod, kii gacangeliyey."
+        },
+        {
+          "number": "20",
+          "text": "Kolkaasuu guri galay; oo dad badan ayaa haddana ku soo ururay si aanay karin inay kibis cunaan.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Iyo Be'elsebul",
+            "(Mat. 12:22-37; Luuk. 11:14-23; 12:10)"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "Xigtadiisii goortay maqleen, ayay u soo baxeen inay qabtaan, waayo, waxay yidhaahdeen, Isagu waa waalan yahay."
+        },
+        {
+          "number": "22",
+          "text": "Culimmadii Yeruusaalem ka soo degeenna waxay yidhaahdeen, Wuxuu qabaa Be'elsebul, oo madaxda jinniyada ayuu jinniyada ku saaraa."
+        },
+        {
+          "number": "23",
+          "text": "Kolkaasuu iyagii u yeedhay oo masaallo kugu yidhi, Sidee baa Shayddaan Shayddaan u saari karaa?"
+        },
+        {
+          "number": "24",
+          "text": "Haddii boqortooyo kala qaybsanto, boqortooyadaasu ma taagnaan karto."
+        },
+        {
+          "number": "25",
+          "text": "Haddii gurina kala qaybsamo, gurigaasu ma taagnaan kari doono."
+        },
+        {
+          "number": "26",
+          "text": "Haddii Shayddaanna isku kaco oo qaybsamo, ma taagnaan karo. Laakiin wuxuu leeyahay dhammaansho."
+        },
+        {
+          "number": "27",
+          "text": "Ninna nin xoog leh gurigiisa ma geli karo inuu alaabtiisa dhaco hadduusan kolkii hore ninka xoogga leh xidhin, goortaasuu gurigiisa dhici doonaa."
+        },
+        {
+          "number": "28",
+          "text": "Runtii waxaan idinku leeyahay, Bini-aadmiga waa loo cafiyi doonaa dembiyadii oo dhan iyo caydii ay ku caytamaan;"
+        },
+        {
+          "number": "29",
+          "text": "laakiin ku alla kii caaya Ruuxa Quduuska ah, weligiis cafiga heli maayo, laakiin wuxuu eed u leeyahay dembi weligiis ah;"
+        },
+        {
+          "number": "30",
+          "text": "waayo, waxay yidhaahdeen, Jinni wasakh leh ayuu qabaa."
+        },
+        {
+          "number": "31",
+          "text": "Markaasaa waxaa yimid walaalihiis iyo hooyadiis, oo dibadday istaageen, waxayna u direen cid ugu yeedha.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Walaalnimada Runta Ah",
+            "(Mat. 12:46-50; Luuk. 8:19-21)"
+          ]
+        },
+        {
+          "number": "32",
+          "text": "Dad badan baa agtiisa fadhiyey oo waxay ku yidhaahdeen, Bal eeg, hooyadaa iyo walaalahaa dibadday joogaan oo waa ku doonayaan."
+        },
+        {
+          "number": "33",
+          "text": "Markaasuu u jawaabay oo ku yidhi, Yaa ah hooyaday iyo walaalahay?"
+        },
+        {
+          "number": "34",
+          "text": "Kolkaasuu isha mariyey kuwii agtiisa fadhiyey oo ku yidhi, Waa kuwan hooyaday iyo walaalahay!"
+        },
+        {
+          "number": "35",
+          "text": "Ku alla kii yeela doonistii Ilaah kaasaa walaalkay iyo walaashay iyo hooyaday."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "18",
+          "marker": "Translator/editor note",
+          "text": "+ Simoon reer Kaana = Simoon Qiiroleh.",
+          "note_type": "translator_note",
+          "source_reference": "3:18"
+        }
+      ],
+      "heading": [
+        "Ninkii Gacanta Engegnaa Waa La Bogsiiyey",
+        "(Mat. 12:9-14; Luuk. 6:6-11)"
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Haddana wuxuu bilaabay inuu badda agteeda wax ku baro, oo waxaa u soo ururay dad badan, sidaa darteed doonni ayuu fuulay, wuxuuna fadhiistay badda, dadkii badnaana waxay joogeen badda xeebteeda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Markaasuu wax badan masaallo ku baray, oo intuu wax barayay ayuu iyaga ku yidhi,"
+        },
+        {
+          "number": "3",
+          "text": "Dhegaysta, waxaa baxay beerrey inuu wax beero."
+        },
+        {
+          "number": "4",
+          "text": "Intuu beerayay qaar baa jidka geestiisa ku dhacay, kolkaasaa shimbirro yimaadeen oo cuneen."
+        },
+        {
+          "number": "5",
+          "text": "Qaar kalena waxay ku dhaceen dhul dhagax ah oo aan carro badan lahayn; kolkiiba way soo baxeen, waayo, carradu hoos uma dheerayn,"
+        },
+        {
+          "number": "6",
+          "text": "laakiin qorraxdu goortay soo baxday way gubteen, waana engegeen, waayo, xidid ma lahayn."
+        },
+        {
+          "number": "7",
+          "text": "Qaar kalena waxay ku dhex dhaceen qodxan, qodxantiina waa soo baxday oo ceejisay, oo midho ma ay dhalin."
+        },
+        {
+          "number": "8",
+          "text": "Qaar kalena dhul wanaagsan bay ku dhaceen, oo intay baxeen ayay koreen oo midho dhaleen. Mid wuxuu dhalay soddon, midna lixdan, midna boqol."
+        },
+        {
+          "number": "9",
+          "text": "Oo wuxuu ku yidhi, Kan dhego wax lagu maqlo lahu ha maqlo."
+        },
+        {
+          "number": "10",
+          "text": "Goortuu keligiis ahaa kuwii la joogay iyo laba-iyo-tobankii wax bay masaalladii ka weyddiiyeen.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Sida Loo Isticmaalo Masaallada",
+            "(Mat. 13:10-17; Luuk. 8:9-10)"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Kolkaasuu ku yidhi, Idinka waa laydin siiyaa inaad waxa qarsoon ee boqortooyada Ilaah garataan, laakiin kuwa dibadda jooga wax walba waxaa loogu sheegaa masaallo,"
+        },
+        {
+          "number": "12",
+          "text": "si ay goortay arkayaan ayan u arkin, oo si ay goortay maqlayaan ayan u garan, si ayan u soo noqon oo aan loo cafiyin."
+        },
+        {
+          "number": "13",
+          "text": "Wuxuuna iyaga ku yidhi, Miyaydnaan masaalkan garanaynin? Sidee baad masaalladii oo dhan u garan doontaan?",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Micnaynta Masaalka Beerreyga",
+            "(Mat. 13:18-23; Luuk. 8:11-15)"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Beerreygu wuxuu beeraa hadalka."
+        },
+        {
+          "number": "15",
+          "text": "Waa kuwan kuwii jidka yiil meeshii hadalka lagu beeray, oo goortay maqlaan, Shayddaan baa kolkiiba yimaada oo ka qaada hadalkii lagu beeray iyaga."
+        },
+        {
+          "number": "16",
+          "text": "Si la mid ahna kuwan waa kuwii dhul dhagax ah lagu beeray, kuwii goortay hadalkii maqlaanba kolkiiba farxad bay ku qaataan;"
+        },
+        {
+          "number": "17",
+          "text": "xididse isagu ma leh, laakiin wakhti yar bay sii jiraan, markii dambe goortii dhib ama silac u dhoco hadalka aawadiis, markiiba way ka xumaadaan."
+        },
+        {
+          "number": "18",
+          "text": "Kuwanna waa kuwii qodxanta lagu dhex beeray, kuwa hadalka maqla,"
+        },
+        {
+          "number": "19",
+          "text": "laakiin kawelwelidda dunidan, iyo sasabidda maalka, iyo damacyada wax kale ayaa gala oo hadalkii ceejiya, oo wuxuu noqdaa midhola'aan."
+        },
+        {
+          "number": "20",
+          "text": "Kuwanna waa kuwii dhulka wanaagsan lagu beeray, kuwa hadalka maqla, oo aqbala, oo midho soo dhala, mid soddon, midna lixdan, midna boqol."
+        },
+        {
+          "number": "21",
+          "text": "Wuxuuna iyaga ku yidhi, Ilays ma waxaa loo keenaa in la hoos geliyo weel ama sariir? Sow lama saaro meeshii ilayska?",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Waxa Laga Barto Laambadda Iyo Abuurka",
+            "(Mat. 13:31-35; Luuk. 8:16-18; 13:18-19)"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "Wax qarsoon ma jiro oo aan soo muuqan doonin, oo wax daboolanna ma jiro oo aan bannaan soo bixi doonin."
+        },
+        {
+          "number": "23",
+          "text": "Haddii nin leeyahay dhego uu wax ku maqlo ha maqlo."
+        },
+        {
+          "number": "24",
+          "text": "Kolkaasuu ku yidhi, U fiirsada waxaad maqlaysaan; qiyaastii aad ku qiyaastaan ayaa laydiinku qiyaasi doona oo ayaa laydiin kordhin doonaa."
+        },
+        {
+          "number": "25",
+          "text": "Kii wax haysta waa la siin doonaa. Kii aan waxba haysanse waa laga qaadi doonaa wuxuu haysto."
+        },
+        {
+          "number": "26",
+          "text": "Wuxuuna yidhi, Sidaa weeye boqortooyadii Ilaah, sida nin abuur dhulka ku daadsha.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "27",
+          "text": "Isagu waa hurdaa, waana kacaa maalin iyo habeenba, oo abuurku waa baxaa oo weynaadaa, laakiin si ay tahay isagu garan maayo."
+        },
+        {
+          "number": "28",
+          "text": "Dhulka keligiis ayaa midhaha bixiya, horta jirridda, dabadeed sabuulka, dabadeedna sabuulka midho ka buuxsama."
+        },
+        {
+          "number": "29",
+          "text": "Laakiin goortii midhuhu soo bislaadaan, kolkiiba ayuu mindi la galaa, waayo, wakhtigii beergooyska ayaa yimid."
+        },
+        {
+          "number": "30",
+          "text": "Wuxuuna yidhi, Maxaynu boqortooyadii Ilaah la masaysiinnaa, oo masaalkee baynu u ekaysiinnaa?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "31",
+          "text": "Wuxuu yahay sida iniin khardal oo kale, tan goortii dhulka lagu beero waa ka wada yar tahay iniinaha dhulka ku jira oo dhan."
+        },
+        {
+          "number": "32",
+          "text": "Laakiin goortii la beero way baxdaa oo ka weynaataa dhalatada oo dhan, oo ay laamo waaweyn bixisaa si ay shimbirraha cirku hooskeeda ugu degaan."
+        },
+        {
+          "number": "33",
+          "text": "Masaallo badan oo tan oo kale ah ayuu ereyga kula hadlay intii ay maqli karayeen.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "34",
+          "text": "Laakiin masaalla'aan kulama uu hadlin, oo markay keligood ahaayeen ayuu wax walba xertiisii u fasiray."
+        },
+        {
+          "number": "35",
+          "text": "Maalintii qudheedii, goortii makhribkii la gaadhay, wuxuu iyaga ku yidhi, Dhanka kale aan u gudubnee.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciisaa Duufaantii Dejiyey",
+            "(Mat. 8:23-27; Luuk. 8:22-25)"
+          ]
+        },
+        {
+          "number": "36",
+          "text": "Goortay dadkii badnaa direen, isagay wadeen intuu doonnidii ku jiray, oo doonniyo yaryar oo kalena way la jireen."
+        },
+        {
+          "number": "37",
+          "text": "Waxaa kacay duufaan weyn oo dabayl ah, hirarkiina doonniday ku dhaceen ilaa ay doonnidii buuxsamaysay."
+        },
+        {
+          "number": "38",
+          "text": "Isaguna wuxuu joogay xaggii dambe ee doonnida isagoo barkin ku hurda. Markaasay toosiyeen oo ku yidhaahdeen, Macallimow, miyaanay waxba kula ahayn inaynu lunno?"
+        },
+        {
+          "number": "39",
+          "text": "Kolkaasuu kacay oo dabayshii canaantay, oo badduu ku yidhi, Aamus oo xasil. Markaasaa dabayshii degtay oo xawaal weyn baa dhacday."
+        },
+        {
+          "number": "40",
+          "text": "Goortaasuu wuxuu iyaga ku yidhi, Maxaad sidaa ugu baqaysaan? Sidee baydnaan weli rumaysad u lahayn?"
+        },
+        {
+          "number": "41",
+          "text": "Aad bay u baqeen, oo waxay isku yidhaahdeen, Haddaba yuu yahay kan xataa dabaysha iyo badduba yeelaan?"
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Masaalka Ku Saabsan Beerreyga",
+        "(Mat. 13:1-9; Luuk. 8:4-8)"
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Waxay yimaadeen dhanka kale oo badda ilaa dalkii Gadareni.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Goortuu doonnidii ka degay, kolkiiba waxaa la kulmay nin xabaalaha ka soo baxay oo jinni wasakh leh qaba."
+        },
+        {
+          "number": "3",
+          "text": "Isagu xabaalaha ayuu dhex fadhiyi jiray, oo ninna xataa silsilad kuma xidhi kari jirin."
+        },
+        {
+          "number": "4",
+          "text": "Maxaa yeelay, marar badan bir cagaha iyo silsilado waa lagu xidhi jiray, silsiladihiina ayuu iska gooyn jiray, bir cagahana wuu kala jejebin jiray. Ninna ka adkaan kari waayay."
+        },
+        {
+          "number": "5",
+          "text": "Weligiiba, habeen iyo maalin, ayuu buuraha iyo xabaalaha joogi jiray isagoo qaylinaya oo dhagaxyona isku jarjaraya."
+        },
+        {
+          "number": "6",
+          "text": "Laakiin goortuu Ciise meel fog ka arkay, ayuu ku soo orday oo u sujuuday.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Markaasuu cod weyn ku qayliyey oo ku yidhi, Maxaa inoo dhexeeya, Ciisow adigoo ah Wiilka Ilaaha sarow? Ilaah baan kugu dhaarinayaa, Ha i silcin."
+        },
+        {
+          "number": "8",
+          "text": "Waayo, wuxuu ku yidhi, Ka soo bax ninka, jinni wasakh lahow."
+        },
+        {
+          "number": "9",
+          "text": "Markaasuu weyddiiyey, Magacaa? Wuxuu ugu jawaabay, Waxaa lay yidhaahdaa, Liijon, waayo, annagu waa badan nahay."
+        },
+        {
+          "number": "10",
+          "text": "Aad buuna uga baryay inaanu dalka ka eryin."
+        },
+        {
+          "number": "11",
+          "text": "Buurta sinteedana waxaa joogay daaqsin weyn oo doofaarro ah oo daaqaysa."
+        },
+        {
+          "number": "12",
+          "text": "Jinniyadii oo dhan baa baryeen, oo waxay ku yidhaahdeen, Noo dir doofaarrada inaannu galno."
+        },
+        {
+          "number": "13",
+          "text": "Kolkiiba Ciise baa u fasaxay. Markaasaa jinniyadii wasakhda lahayd baxeen, oo waxay galeen doofaarrada, daaqsintiina jarka hoos bay uga yacday ilaa badda, baddayna ku bakhtiyeen, waxayna ahaayeen abbaaraha laba kun."
+        },
+        {
+          "number": "14",
+          "text": "Markaasaa kuwii daajin jiray carareen, oo dadkii magaalada iyo beerahaba ayay u warrameen. Kolkaasaa dadkii u soo baxay inay arkaan wixii dhacay.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Markaasay u yimaadeen Ciise, oo waxay arkeen jinnoolihii isagoo fadhiya oo dhar sita oo miyir qaba, wayna baqeen."
+        },
+        {
+          "number": "16",
+          "text": "Kolkaasaa kuwii arkay waxay u sheegeen sidii ay u dhacday jinnoolihii iyo warkii doofaarrada."
+        },
+        {
+          "number": "17",
+          "text": "Markaasay bilaabeen inay baryaan inuu soohdintooda ka noqdo."
+        },
+        {
+          "number": "18",
+          "text": "Intuu doonnida fuulayay, kii jinniyada qabi jiray ayaa baryay inuu raaco.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Ciisese uma fasaxin, laakiin wuxuu ku yidhi, Gurigaaga iyo dadkaaga u tag oo u sheeg waxa weyn oo Rabbigu kuu sameeyey iyo siduu kuugu naxariistay."
+        },
+        {
+          "number": "20",
+          "text": "Kolkaasuu tegey oo bilaabay inuu Dekabolis ku naadiyo waxa weyn oo Ciise u sameeyey, oo dhammaan bay la wada yaabeen."
+        },
+        {
+          "number": "21",
+          "text": "Markii Ciise haddana dhanka kale doonnida ugu gudbay ayaa dad faro badan u soo ururay, isaguna badda agteeda ayuu joogay.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Yayros Gabadhiisii Iyo Naagtii Dhiigbixidda Qabtay",
+            "(Mat. 9:18-26; Luuk. 8:40-56)"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "Waxaa u yimid taliyayaasha sunagogga midkood ee Yayros la odhan jiray, oo markuu arkay, cagihiisa ayuu isku riday,"
+        },
+        {
+          "number": "23",
+          "text": "oo aad buu u baryay oo ku yidhi, Gabadhaydii yarayd waa sakaraad. Waan ku baryayaa, kaalay oo gacmahaaga saar inay bogsato oo noolaato."
+        },
+        {
+          "number": "24",
+          "text": "Markaasaa Ciise raacay, dad faro badanna waa la socday, wayna cidhiidhiyeen."
+        },
+        {
+          "number": "25",
+          "text": "Waxaa jirtay naag laba iyo toban sannadood dhiigbixid qabtay.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "Silec badanna ayay dhakhtarro badan ka heshay, oo wixii ay lahayd oo dhanna ayay ku bixisay, mana roonaanin laakiinse way ka sii dartay."
+        },
+        {
+          "number": "27",
+          "text": "Markay Ciise warkiisa maqashay ayay dadkii soo dhex martay oo dhabarkiisa timid, markaasay maradiisa taabatay."
+        },
+        {
+          "number": "28",
+          "text": "Waayo, waxay tidhi, Haddaan dharkiisa iska taabto uun, waan bogsanayaa."
+        },
+        {
+          "number": "29",
+          "text": "Kolkiiba bixiddii dhiiggeeda ayaa joogsatay oo waxay jidhkeedii ka garatay inay cudurkii ka bogsatay."
+        },
+        {
+          "number": "30",
+          "text": "Ciise kolkiiba wuxuu iska gartay in xoog ka baxay isagii, oo intuu cidhiidhiga ku soo jeestay ayuu yidhi, Yaa dharkayga taabtay?"
+        },
+        {
+          "number": "31",
+          "text": "Xertiisii ayaa ku tidhi, Adigu waad aragtaa dadka badan oo ku cidhiidhinaya. Ma waxaad na leedahay, Yaa i taabtay?"
+        },
+        {
+          "number": "32",
+          "text": "Kolkaasuu hareerihiisii ka fiirfiiriyey inuu arko tan waxan samaysay."
+        },
+        {
+          "number": "33",
+          "text": "Naagtiise waa baqday oo gariirtay iyadoo garanaysa wixii loogu sameeyey. Markaasay timid oo hortiisa ku dhacday oo runtii oo dhan u sheegtay."
+        },
+        {
+          "number": "34",
+          "text": "Kolkaasuu wuxuu iyada ku yidhi, Gabadhay, rumaysadkaaga ayaa ku bogsiiyey. Nabad ku tag, cudurkaagiina ka bogso."
+        },
+        {
+          "number": "35",
+          "text": "Goortuu weli hadlayay waxaa gurigii taliyaha sunagogga ka yimid kuwii yidhi, Gabadhaadii waa dhimatay. Maxaad Macallinka u sii dhibaysaa?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "36",
+          "text": "Mar alla markuu Ciise maqlay hadalka lagu hadlay, wuxuu taliyaha sunagogga ku yidhi, Ha baqin ee iska rumayso."
+        },
+        {
+          "number": "37",
+          "text": "Ninnana uma oggolaanin inuu raaco, Butros, iyo Yacquub, iyo Yooxanaa oo ahaa Yacquub walaalkiis, maahee."
+        },
+        {
+          "number": "38",
+          "text": "Kolkaasuu yimid gurigii taliyaha sunagogga, oo wuxuu arkay buuqa iyo kuwa ooyaya oo aad u barooranaya."
+        },
+        {
+          "number": "39",
+          "text": "Goortuu galay wuxuu ku yidhi, Maxaad sidaas ugu buuqaysaan oo u ooyaysaan? Gabadhu ma dhiman, waase huruddaa."
+        },
+        {
+          "number": "40",
+          "text": "Iyaguse aad bay ugu qosleen, laakiin goortuu kulligood dibadda u saaray, wuxuu waday gabadhii aabbeheed iyo hooyadeed iyo kuwii isaga la jiray, wuxuuna galay meeshii gabadhu jiiftay."
+        },
+        {
+          "number": "41",
+          "text": "Kolkaasuu gabadhii gacanteeda qabtay oo ku yidhi, Talita qumi, taasoo micneheedu yahay, Gabadhay, waxaan ku leeyahay, Kac."
+        },
+        {
+          "number": "42",
+          "text": "Kolkiiba gabadhii waa kacday oo socotay; waxay jirtay laba iyo toban sannadood. Dadkuna aad bay ula wada yaabeen."
+        },
+        {
+          "number": "43",
+          "text": "Aad buu ugu adkeeyey inaan ninna ogaan, wuxuuna u sheegay in cunto la siiyo iyada."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Jinnoolihii Reer Gadareni Oo La Bogsiiyey",
+        "(Mat. 8:28-34; Luuk. 8:26-39)"
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Meeshaas ayuu ka tegey oo waddankiisii yimid, xertiisiina way soo raaceen.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Goortii sabtida la gaadhay ayuu bilaabay inuu sunagogga wax ku baro; dad badan oo maqlayaana way la yaabeen, oo waxay yidhaahdeen, Ninkanu xaggee buu waxyaalahan ka helay? Oo xigmaddan la siiyeyna maxay tahay in xataa shuqulladan oo xoogga leh gacmihiisu sameeyaan?"
+        },
+        {
+          "number": "3",
+          "text": "Kanu miyaanu ahayn nijaarkii, ina Maryan, kii walaal u yahay Yacquub, iyo Yoosee, iyo Yuudas, iyo Simoon; gabdhihii walaalihiis ahaana miyaanay inala wada joogin? Wayna ka xumaadeen."
+        },
+        {
+          "number": "4",
+          "text": "Laakiin Ciise wuxuu ku yidhi, Nebi murwad la' ma jiro, waddankiisa, iyo dadkiisa, iyo gurigiisa dhexdooda maahee."
+        },
+        {
+          "number": "5",
+          "text": "Meeshaas shuqul xoog leh kuma samayn karin inuu dhawr buka gacmihiisii saaro oo bogsiiyo mooyaane."
+        },
+        {
+          "number": "6",
+          "text": "Wuuna ka yaabay rumaysadla'aantooda aawadeed. Kolkaasuu tuulooyinka ku wareegay isagoo wax baraya."
+        },
+        {
+          "number": "7",
+          "text": "Kolkaasuu laba-iyo-tobankii u yeedhay, wuxuuna bilaabay inuu laba laba u diro. Wuuna siiyey amar ay jinniyo wasakh leh ku saaraan.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Rasuulladii Shuqulkoodii",
+            "(Mat. 10:5-15; Luuk. 9:1-6)"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Wuxuuna ku amray, Waxba safarka ha u qaadanina ul maahee. Kibis iyo qandi iyo lacag kiishad ku jirta ha qaadanina."
+        },
+        {
+          "number": "9",
+          "text": "Kabo gashada, laakiin laba khamiis ha gashanina."
+        },
+        {
+          "number": "10",
+          "text": "Wuxuuna ku yidhi, Meel walba oo aad guri ka gashaan, halkaas jooga ilaa aad ka tegaysaan."
+        },
+        {
+          "number": "11",
+          "text": "Meel alla meeshaan idin soo dhowayn oo aan idin maqlin, goortaad halkaas ka tegaysaan, siigada cagihiinna ka dhabaandhaba inay marag ka gees ah ku ahaato."
+        },
+        {
+          "number": "12",
+          "text": "Markaasay baxeen oo waxay wacdiyeen dadkii si ay u toobadkeenaan."
+        },
+        {
+          "number": "13",
+          "text": "Jinniyo badan ayay saareen, dad badan oo bukayna saliid bay mariyeen, wayna bogsiiyeen."
+        },
+        {
+          "number": "14",
+          "text": "Boqor Herodos ayaa warkii Ciise maqlay, waayo, magiciisa ayaa meel walba laga wada ogaaday. Kolkaasuu yidhi, Yooxanaa Baabtiisaha ayaa kuwii dhintay ka soo sara kacay, sidaa darteeda shuqulladan xoogga leh waa ku dhex jiraan oo shaqaynayaan.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Dhimashadii Yooxanaa Baabtiisaha",
+            "(Mat. 14:1-12; Luuk. 9:7-9)"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Laakiin qaar kale waxay yidhaahdeen, Waa Eliyaas; qaar kalena waxay yidhaahdeen, Waa nebi, nebiyada kale la mid ah."
+        },
+        {
+          "number": "16",
+          "text": "Laakiin Herodos goortuu maqlay wuxuu yidhi, Kanu waa Yooxanaa, kii aan madaxa ka gooyay. Kuwii dhintay ayuu ka soo sara kacay."
+        },
+        {
+          "number": "17",
+          "text": "Waayo, Herodos qudhiisa ayaa cid diray oo Yooxanaa qabtay oo u xabbisay walaalkiis Filibos naagtiisii Herodiya aawadeed, waayo, wuu guursaday,"
+        },
+        {
+          "number": "18",
+          "text": "oo Yooxanaa wuxuu Herodos ku yidhi, Xalaal kuu ma aha inaad naagtii walaalkaa haysatid."
+        },
+        {
+          "number": "19",
+          "text": "Sidaa darteed ayaa Herodiya ka dhiriftay oo doonaysay inay disho, mase karin,"
+        },
+        {
+          "number": "20",
+          "text": "waayo, Herodos baa Yooxanaa ka baqay. Wuxuu ogaa inuu yahay nin qumman oo quduus ah, wuuna ilaaliyey. Oo goortuu maqlay waa wareeray, farxadna wuu ku maqlay."
+        },
+        {
+          "number": "21",
+          "text": "Goortii maalin wanaagsan timid, markii la xusuustay dhalashadii Herodos, ayuu diyaafad ugu yeedhay raggiisii waaweynaa iyo saraakiishiisii iyo cuqaashii Galili.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "Kolkaasaa gabadhii Herodiya qudheedu soo gashay oo cayaartay, oo waxay ka farxisay Herodos iyo kuwii la fadhiyey, kolkaasaa boqorkii baa wuxuu gabadhii ku yidhi, Wax alla wixii aad doonaysidba i weyddiiso, waanan ku siinayaa."
+        },
+        {
+          "number": "23",
+          "text": "Kolkaasuu wuxuu ugu dhaartay, Wax alla wixii aad i weyddiisatidba, waan ku siinayaa ilaa boqortooyadayda badhkeed."
+        },
+        {
+          "number": "24",
+          "text": "Markaasay baxday oo hooyadeed ku tidhi, Maxaan weyddiistaa? Oo waxay tidhi, Madaxa Yooxanaa Baabtiisaha."
+        },
+        {
+          "number": "25",
+          "text": "Kolkiiba boqorkii ayay dhaqso ugu timid oo weyddiisatay iyadoo leh, Waxaan doonayaa haddaba madaxii Yooxanaa Baabtiisaha inaad xeedho igu siiso."
+        },
+        {
+          "number": "26",
+          "text": "Markaasaa boqorkii aad u calool xumaaday, laakiin dhaarihiisii iyo kuwii la fadhiyey aawadood ayuusan doonaynin inuu diido."
+        },
+        {
+          "number": "27",
+          "text": "Kolkiiba boqorkii wuxuu diray askari oo ku amray inuu madaxiisa soo qaado. Markaasuu tegay oo xabsiga madaxa kaga gooyay."
+        },
+        {
+          "number": "28",
+          "text": "Madaxiisiina ayuu xeedho ku soo qaaday oo gabadhii siiyey, gabadhiina waxay siisay hooyadeed."
+        },
+        {
+          "number": "29",
+          "text": "Tan goortii xertiisii maqashay, ayay yimaadeen oo meydkiisii qaadeen oo aaseen."
+        },
+        {
+          "number": "30",
+          "text": "Rasuulladii ayaa Ciise u soo ururay, oo waxay u sheegeen wixii ay sameeyeen oo dhan iyo wixii ay bareenba.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Soo Noqodkii Rasuullada",
+            "(Mat. 14:13-14; Luuk. 9:10)"
+          ]
+        },
+        {
+          "number": "31",
+          "text": "Markaasuu iyaga ku yidhi, Keligiin kaalaya cidlada, waxoogaana ku nasta. Waayo, kuwii imanayay iyo kuwii tegayay way badnaayeen, nefis ay wax ku cunaanna ma lahayn."
+        },
+        {
+          "number": "32",
+          "text": "Kolkaasay keli ahaantooda doonni raaceen oo meel cidla' ah tageen."
+        },
+        {
+          "number": "33",
+          "text": "Dadkii baase arkay iyagoo tegaya, qaar badanna way garteen, oo magaalooyinka oo dhan ayay ka soo ordeen, wayna ka dheereeyeen."
+        },
+        {
+          "number": "34",
+          "text": "Ciise goortuu soo degay ayuu dad badan arkay, wuuna u naxariistay, maxaa yeelay, waxay ahaayeen sidii ido aan adhijir lahayn, wuxuuna bilaabay inuu wax badan baro."
+        },
+        {
+          "number": "35",
+          "text": "Goortii maalintii hore u badatay ayaa xertiisii u timid oo ku tidhi, Meeshu waa cidlo, haddana maalintii horay u badatay.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Waxaa Cunto La Siiyey Shan Kun Oo Nin",
+            "(Mat. 14:15-21; Luuk. 9:11-17; Yoox. 6:1-13)"
+          ]
+        },
+        {
+          "number": "36",
+          "text": "Dadka dir, si ay u tagaan beeraha iyo tuulooyinka ku wareegsan, oo ay wax la cuno u soo iibsadaan."
+        },
+        {
+          "number": "37",
+          "text": "Kolkaasuu u jawaabay oo ku yidhi, Idinku siiya waxay cunaan. Waxay ku yidhaahdeen, Miyaannu tagnaa inaannu soo iibinno laba boqol oo dinaar oo kibis ah oo aannu siinno inay cunaan?"
+        },
+        {
+          "number": "38",
+          "text": "Markaasuu ku yidhi, Immisa kibsood baad haysaan? Soo eega. Oo markay ogaadeen, waxay ku yidhaahdeen, Shan kibsood iyo laba kalluun."
+        },
+        {
+          "number": "39",
+          "text": "Kolkaasuu ku amray inay cawska koox koox ugu fadhiisiyaan.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "40",
+          "text": "Waxay u fadhiisteen safaf boqol boqol iyo konton konton ah."
+        },
+        {
+          "number": "41",
+          "text": "Isaguna wuxuu qaaday shantii kibsood iyo labadii kalluun, oo intuu cirka eegay ayuu barakeeyey, kibistiina ayuu kala jejebiyey oo xertiisii siiyey inay hortooda dhigaan, labadii kalluunna wuu u qaybiyey giddigood."
+        },
+        {
+          "number": "42",
+          "text": "Dhammaantood way wada cuneen, oo ka dhergeen."
+        },
+        {
+          "number": "43",
+          "text": "Oo waxay soo gureen laba iyo toban dambiilood oo ka buuxa jajabkii iyo kalluunka."
+        },
+        {
+          "number": "44",
+          "text": "Kuwii kibistii cunayna waxay ahaayeen shan kun oo nin."
+        },
+        {
+          "number": "45",
+          "text": "Kolkiiba wuxuu xertiisii ku amray inay doonnida fuulaan oo ay hortiis tagaan dhanka kale oo Beytsayda intuu dadkii badnaa dirayo.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Baa Badda Ku Dul Socday",
+            "(Mat. 14:22-27; Yoox. 6:16-21)"
+          ]
+        },
+        {
+          "number": "46",
+          "text": "Goortuu kala diray, ayuu buurta tegey inuu ku tukado."
+        },
+        {
+          "number": "47",
+          "text": "Goortii makhribkii la gaadhay, doonnidii waxay joogtay badda dhexdeeda, isaguna keligiis ayuu dhulka joogay."
+        },
+        {
+          "number": "48",
+          "text": "Wuxuu arkay iyagoo wadidda ku dhibtoonaya, waayo, dabaysha ayaa ka gees ahayd. Wakhtigii gaadhka afraad oo habeenka ayuu u yimid isagoo badda ku dul socda, wuuna iska dhaafi lahaa."
+        },
+        {
+          "number": "49",
+          "text": "Laakiin goortay arkeen isagoo badda ku dul socda, waxay moodeen inuu muuqasho yahay, markaasay qayliyeen."
+        },
+        {
+          "number": "50",
+          "text": "Waayo, way wada arkeen, wayna nexeen. Markiiba wuu la hadlay oo ku yidhi, Kalsoonaada, waa aniga ee ha baqina."
+        },
+        {
+          "number": "51",
+          "text": "Markaasuu doonnidii iyaga ugu tegey, dabayshuna waa joogsatay. Aad iyo aad bay u nexeen oo ula yaabeen."
+        },
+        {
+          "number": "52",
+          "text": "Waayo, iyaga kibistii waxba kama ay garanin, maxaa yeelay, qalbigoodu waa engegnaa."
+        },
+        {
+          "number": "53",
+          "text": "Oo markay gudbeen waxay yimaadeen dalka Gennesared, oo doonnidiina xeebtay ku xidheen.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Bogsiintii Dadka Gennesared Joogay",
+            "(Mat. 14:34-36)"
+          ]
+        },
+        {
+          "number": "54",
+          "text": "Goortay doonnida ka soo degeen, kolkiiba dadku way garteen isaga."
+        },
+        {
+          "number": "55",
+          "text": "Oo waxay orod ku wareegeen dalka u dhow oo dhan oo bilaabeen inay kuwa buka sariiro ugu soo qaadaan meeshii ay ku maqleen inuu joogo."
+        },
+        {
+          "number": "56",
+          "text": "Meel alla meeshuu galayba, tuulooyinka ama magaalooyinka ama beeraha, waxay suuqyada dhigeen kuwa buka, oo ay ka baryeen inay faraqa maradiisa oo keliya taabtaan, oo kuwii taabtay oo dhammuna way bogsadeen."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Ciise Waa Laga Celiyey Naasared",
+        "(Mat. 13:53-58; Luuk. 4:16-30)"
+      ]
+    },
+    {
+      "chapter": 7,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Kolkaasaa waxaa u soo urureen Farrisiintii iyo qaar culimmo ah oo Yeruusaalem ka yimid.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Goortaasay arkeen xertiisii qaarkooda oo kibis ku cunaya gacmo nijaasaysan, waxa weeye gacmo aan dhaqnayn."
+        },
+        {
+          "number": "3",
+          "text": "Waayo, Farrisiinta iyo Yuhuudda oo dhammu waxba ma cunaan haddayan gacmahooda aad u dhaqin, si ay u xajiyaan xeerkii waayeellada."
+        },
+        {
+          "number": "4",
+          "text": "Oo goortay suuqa ka yimaadaan waxba ma cunaan, inay maydhaan maahee. Waxyaalo badan oo kale ayaa jira oo ay heleen inay xajiyaan sida dhaqidda koobab, iyo dheriyo, iyo weelal naxaas ah, iyo miisas."
+        },
+        {
+          "number": "5",
+          "text": "Markaasaa Farrisiintii iyo culimmadii weyddiiyeen oo waxay ku yidhaahdeen, Xertaadii maxay ugu socon waayeen xeerkii waayeellada, waxayse wax ku cunaan gacmo nijaasaysan?"
+        },
+        {
+          "number": "6",
+          "text": "Markaasuu wuxuu ku yidhi, Isayos aad buu wax idiinka sii sheegay, labawejiilayaalow, siday u qoran tahay,",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "Dadkanu bushimahooda ayay igu maamuusaan,"
+            },
+            {
+              "source_marker": "q1",
+              "text": "Laakiin qalbigoodu waa iga fog yahay."
+            }
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Si aan micne lahayn ayay ii caabudaan,",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "Iyagoo dadka wax ku baraya amarrada dadka."
+            }
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Idinku qaynuunkii Ilaah waad ka tagtaan, oo waxaad xajisaan xeerka dadka, sida dhaqidda dheriyada iyo koobabka, oo wax kale oo badan oo kuwaas la mid ah ayaad samaysaan.",
+          "source_markers_before": [
+            "m"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Markaasuu ku yidhi, Qaynuunkii Ilaah aad baad u diiddaan inaad xeerkiinna xajisaan.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Waayo, Muuse wuxuu yidhi, Aabbahaa iyo hooyadaa maamuus; oo kan aabbihii iyo hooyadii caayaa, dhimasho ha ku dhammaado."
+        },
+        {
+          "number": "11",
+          "text": "Laakiin waxaad leedihiin, Haddii nin aabbihii iyo hooyadii ku yidhaahdo, Wixii aan idiin tari lahaa oo dhan waa Qurbaan, waxa weeye, Waa sadaqad aan Ilaah siiyey;"
+        },
+        {
+          "number": "12",
+          "text": "idinku uma daysaan mar dambe inuu aabbihii iyo hooyadii wax u sameeyo."
+        },
+        {
+          "number": "13",
+          "text": "Ereygii Ilaah ayaad ku buriseen xeerkiinna aad bixiseen, oo wax badan oo kuwan oo kale ah ayaad samaysaan."
+        },
+        {
+          "number": "14",
+          "text": "Markaasuu dadkii badnaa haddana u yeedhay oo ku yidhi, I maqla kulligiin oo garta.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Ma jiraan wax dibadda jooga oo intay ninka galaan nijaasayn karaa, laakiin waxa isaga ka soo baxa kuwaasaa waxa ninka nijaaseeya."
+        },
+        {
+          "number": "16",
+          "text": "Haddii nin dhego wax lagu maqlo leeyahay ha maqlo."
+        },
+        {
+          "number": "17",
+          "text": "Markuu dadka ka tegey oo guri galay ayaa xertiisii masaalladii wax ka weyddiisay.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Wuxuu iyaga ku yidhi, Idinkuna ma sidaasaad garashola'aan u tihiin? Miyaydnaan garanaynin in waxa dibadda joogaa oo dadka galaa ayan nijaasayn karin?"
+        },
+        {
+          "number": "19",
+          "text": "Waayo, qalbigiisa ma galaan, laakiin calooshiisay galaan, oo waxay ku dhacaan meesha lagu saxaroodo. Sidaasuu cuntada oo dhan ku nadiifiyey."
+        },
+        {
+          "number": "20",
+          "text": "Wuxuuna ku yidhi, Waxa ninka ka soo baxa, kuwaas weeye waxa ninka nijaaseeyaa."
+        },
+        {
+          "number": "21",
+          "text": "Waayo, waxan weeye waxa qalbiga dadka gudihiisa ka soo baxa fikirrada shar leh, iyo galmada xaaraanta ah, iyo tuuganimada, iyo dilidda,"
+        },
+        {
+          "number": "22",
+          "text": "iyo damacnimada, iyo sharka, iyo khiyaanada, iyo camal xumaanta, iyo il xun, iyo cayda, iyo kibirka, iyo nacasnimada."
+        },
+        {
+          "number": "23",
+          "text": "Waxyaalahan shar leh oo dhammu gudahay ka soo baxaan oo ninka nijaaseeyaan."
+        },
+        {
+          "number": "24",
+          "text": "Meeshaas ayuu ka kacay oo wuxuu tegey soohdimaha Turos iyo Siidoon. Markaasuu guri galay. Ma uu doonaynin in la ogaado, laakiin wuu qarsoomi kari waayay.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Bogsiintii Gabadha Aan Yuhuudda Ahayn",
+            "(Mat. 15:21-28)"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "Kolkaasaa naag gabadheedu jinni wasakh leh qabtay ayaa warkiisa maqashay, oo intay timid ayay lugihiisa isku tuurtay."
+        },
+        {
+          "number": "26",
+          "text": "Naagtii waxay ahayd Gariig, qolo ahaanna Surofoynike. Oo waxay ka bariday inuu jinniga gabadheeda ka saaro."
+        },
+        {
+          "number": "27",
+          "text": "Kolkaasuu ku yidhi, Kolka hore carruurtu ha dheergaan, waayo, ma wanaagsana in carruurta kibistooda la qaado oo eeyaha loo tuuro."
+        },
+        {
+          "number": "28",
+          "text": "Laakiin way u jawaabtay oo ku tidhi, Waa run, Sayidow, laakiin weliba eeyaha miiska hoostiisa ku jiraa waxay cunaan jajabka carruurta ka dhaca."
+        },
+        {
+          "number": "29",
+          "text": "Kolkaasuu iyada ku yidhi, Hadalkaas aawadiis tag; jinnigii ayaa gabadhaada ka baxay."
+        },
+        {
+          "number": "30",
+          "text": "Goortay gurigeeda timid waxay aragtay gabadhii oo sariirta jiifta oo jinnigii ka baxay."
+        },
+        {
+          "number": "31",
+          "text": "Mar kale ayuu soohdimaha Turos ka soo tegey oo Siidoon maray oo badda Galili yimid, soohdimaha Dekabolisna ayuu soo dhex maray.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Nin Dhego Iyo Carrabla' Oo La Bogsiiyey",
+            "(Mat. 15:29-31)"
+          ]
+        },
+        {
+          "number": "32",
+          "text": "Markaasay waxay u keeneen mid dhego iyo carrab la', waxayna ka baryeen inuu gacantiisa saaro."
+        },
+        {
+          "number": "33",
+          "text": "Kolkaasuu dadkii badnaa dhinaca uga bixiyey, oo farihiisa ayuu dhegihiisa ka geliyey, wuuna tufay oo carrabkiisa taabtay."
+        },
+        {
+          "number": "34",
+          "text": "Markaasuu cirka kor u eegay, wuuna taahay oo ku yidhi, Efata, waxa weeye, Furan."
+        },
+        {
+          "number": "35",
+          "text": "Markiiba dhegihiisa waa furmeen oo carrabkiisii xidhnaa waa debcay, oo si bayaan ah ayuu u hadlay."
+        },
+        {
+          "number": "36",
+          "text": "Wuuna ku amray inaanay ninna u sheegin; laakiin in alla intuu amray, ayay in ka badan sii naadiyeen."
+        },
+        {
+          "number": "37",
+          "text": "Aad iyo aad bay ula yaabsanaayeen, oo waxay yidhaahdeen, Wax walba si wanaagsan ayuu u sameeyey. Kuwa dhegaha la' wax buu maqashiiyaa, kuwa carrabka la'na wax buu ka hadliyaa."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Ciisaa Ka Jawaabay Eedayntii Ku Saabsanayd Xeerka",
+        "(Mat. 15:1-20)"
+      ]
+    },
+    {
+      "chapter": 8,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Maalmahaas dadkii aad buu u badnaa oo waxay cunaanna ma haysan, markaasaa Ciise xertiisii u yeedhay oo ku yidhi,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Dadka badan ayaan u naxariisanayaa, waayo, durba saddex maalmood ayay ila joogeen, oo waxay cunaanna ma haystaan."
+        },
+        {
+          "number": "3",
+          "text": "Haddii aan guryahooda u diro, iyagoo sooman, jidkay ku itaalbeeli doonaan, waayo, qaarkood waxay ka yimaadeen meel fog."
+        },
+        {
+          "number": "4",
+          "text": "Kolkaasaa xertiisii u jawaabtay, oo waxay ku yidhaahdeen, Meeshan cidlada ah xaggee looga heli karaa kibis dadkanu ka dhergaan?"
+        },
+        {
+          "number": "5",
+          "text": "Goortaasuu weyddiiyey, Immisa kibsood baad haysaan? Waxay ku yidhaahdeen, Toddoba."
+        },
+        {
+          "number": "6",
+          "text": "Kolkaasuu dadkii badnaa ku amray inay dhulka fadhiistaan. Markaasuu toddobadii kibsood soo qaaday, oo goortuu ku mahadnaqay ayuu kala jejebiyey oo xertiisii siiyey inay hortooda dhigaan. Markaasay dadkii badnaa hor dhigeen."
+        },
+        {
+          "number": "7",
+          "text": "Waxay haysteen in yar oo kalluun yaryar ah. Oo intuu barakeeyey, wuxuu ku amray inay kuwaasna hortooda dhigaan."
+        },
+        {
+          "number": "8",
+          "text": "Markaasay cuneen oo dhergeen; kolkaasay soo ururiyeen toddoba dambiilood oo ka buuxa jajabkii hadhay."
+        },
+        {
+          "number": "9",
+          "text": "Kuwii cunayna waxay ku dhowaayeen afar kun, markaasuu diray."
+        },
+        {
+          "number": "10",
+          "text": "Kolkiiba xertiisii ayuu doonni la fuulay, oo wuxuu yimid dhinacyada Dalmanuuta."
+        },
+        {
+          "number": "11",
+          "text": "Markaasaa Farrisiintu u soo baxday, oo waxay bilaabeen inay wax weyddiiyaan, oo waxay ka doonayeen inuu calaamo cirka ka tuso, si ay u jirrabaan.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Baa Diiday Markii Calaamo La Weyddiistay",
+            "(Mat. 16:1-4; Luuk. 12:54-56)"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Intuu ruuxiisa ka taahay ayuu yidhi, Qarnigan muxuu calaamo u doondoonayaa? Runtii waxaan idinku leeyahay, Qarnigan calaamo lama siin doono."
+        },
+        {
+          "number": "13",
+          "text": "Markaasuu ka tegey oo haddana doonniduu fuulay oo dhanka kale u kacay."
+        },
+        {
+          "number": "14",
+          "text": "Xertii waxay illoobeen inay kibis soo qaataan, oo doonnida kibis kuma ay haysan mid keliya maahane.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Baa Xertii Ku Canaantay Indhala'aantoodii",
+            "(Mat. 16:5-12)"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Markaasuu wuxuu ku amray, oo ku yidhi, Iska eega oo iska jira khamiirka Farrisiinta iyo khamiirka Herodos."
+        },
+        {
+          "number": "16",
+          "text": "Markaasay isla wada hadleen, oo isku yidhaahdeen, Sababtaasu waa kibistii aannan haysan aawadeed."
+        },
+        {
+          "number": "17",
+          "text": "Ciise oo gartay ayaa ku yidhi, Maxaad isu la hadlaysaan? Ma kibistii aydnaan haysan aawadeed ba? Miyaydnaan weli arkin oo aydnaan garanaynin? Qalbigiinnu weli ma engegan yahay?"
+        },
+        {
+          "number": "18",
+          "text": "Indho baad leedihiin, miyaydnaan waxba arkaynin? Dhegona waad leedihiin, miyaydnaan waxba maqlaynin oo aydnaan xusuusnayn?"
+        },
+        {
+          "number": "19",
+          "text": "Goortii aan shantii kibsood shantii kun u kala jejebiyey, immisa dambiilood oo jajab ka buuxa ayaad soo ururiseen? Waxay ku yidhaahdeen, Laba iyo toban."
+        },
+        {
+          "number": "20",
+          "text": "Oo goortii aan toddobadii kibsood afartii kun u kala jejebiyey, immisa dambiilood oo jajab ka buuxa ayaad soo ururiseen? Waxay ku yidhaahdeen, Toddoba."
+        },
+        {
+          "number": "21",
+          "text": "Wuxuuna ku yidhi, Miyaydnaan weli garanaynin?"
+        },
+        {
+          "number": "22",
+          "text": "Markaasay yimaadeen Beytsayda. Oo waxay u keeneen nin indha la' oo ay ka baryeen inuu taabto.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Wuxuu Bogsiiyey Nin Indhala' Oo Beytsayda Joogay"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "Markaasuu ninkii indhaha la'aa gacanta qabtay, oo tuulada dibadda uga saaray, oo goortuu indhaha kaga tufay oo gacmihiisii saaray, wuxuu weyddiiyey, Wax ma arkaysaa?"
+        },
+        {
+          "number": "24",
+          "text": "Kor buu u eegay oo yidhi, Waxaan arkayaa niman, oo waxay ii le'eg yihiin sida geedo socda."
+        },
+        {
+          "number": "25",
+          "text": "Kolkaasuu mar kale gacmihiisii indhaha ka saaray. Markaasuu aad iyo aad wax u eegay, wuuna bogsaday, oo wax walba bayaan buu u arkay."
+        },
+        {
+          "number": "26",
+          "text": "Kolkaasuu gurigiisii u diray, oo wuxuu ku yidhi, Tuulada ha gelin."
+        },
+        {
+          "number": "27",
+          "text": "Markaasaa Ciise iyo xertiisii waxay tageen oo galeen tuulooyinka Kaysariya Filibos. Xertiisii ayuu jidka ku weyddiiyey, oo wuxuu ku yidhi, Dadku yay igu sheegaan?",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Butros Wuxuu Qiray Inuu Ciise Yahay Masiixa",
+            "(Mat. 16:13-20; Luuk. 9:18-21)"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "Waxay yidhaahdeen, Yooxanaa Baabtiisaha, qaarna, Eliyaas, qaar kalena, Nebiyada midkood."
+        },
+        {
+          "number": "29",
+          "text": "Markaasuu weyddiiyey, oo wuxuu ku yidhi, Idinkuse yaad igu sheegtaan? Butros ayaa u jawaabay oo wuxuu ku yidhi, Waxaad tahay Masiixa."
+        },
+        {
+          "number": "30",
+          "text": "Markaasuu ku amray inayan ninna isaga u sheegin."
+        },
+        {
+          "number": "31",
+          "text": "Kolkaasuu bilaabay inuu baro inay waajib ugu tahay Wiilka Aadanahu inuu wax badan ku xanuunsado, oo ay waayeellada iyo wadaaddada sare iyo culimmadu diidaan, oo la dilo, oo saddex maalmood dabadeed uu soo sara kaco.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Wuxuu Sii Sheegay Dhimashadiisa Iyo Sara Kiciddiisa",
+            "(Mat. 16:21-23; Luuk. 9:22-27)"
+          ]
+        },
+        {
+          "number": "32",
+          "text": "Hadalkaas bayaan buu ugu hadlay. Markaasaa Butros gees u waday oo bilaabay inuu canaanto."
+        },
+        {
+          "number": "33",
+          "text": "Laakiin Ciise markuu soo jeestay oo xertiisii eegay, ayuu Butros canaantay, oo wuxuu ku yidhi, Gadaal iga mar, Shayddaan yahow, waayo, waxyaalaha Ilaah kama fikirtid, waxaadse ka fikirtaa waxyaalaha dadka."
+        },
+        {
+          "number": "34",
+          "text": "Goortaasuu dadkii badnaa u yeedhay iyo xertiisiiba oo wuxuu ku yidhi, Mid uun hadduu doonayo inuu iga daba yimaado, ha dayriyo doonistiisa, iskutallaabtiisana ha soo qaato oo ha i soo raaco.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Waa In Nafta La Diido",
+            "(Mat. 16:24-28; Luuk. 9:23-27)"
+          ]
+        },
+        {
+          "number": "35",
+          "text": "Kan doonaya inuu naftiisa badbaadiyo, waa lumin doonaa, laakiin kan naftiisa u lumiya aawaday iyo injiilka aawadii, kaasaa badbaadin doona."
+        },
+        {
+          "number": "36",
+          "text": "Waayo, nin maxay u taraysaa hadduu dunida oo dhan helo oo uu naftiisa lumiyo?"
+        },
+        {
+          "number": "37",
+          "text": "Nin muxuu u bixiyaa naftiisa beddelkeeda?"
+        },
+        {
+          "number": "38",
+          "text": "Haddaba ku alla kii qarnigan dembiga iyo sinada leh kaga xishooda aniga iyo hadalkaygaba, Wiilka Aadanaha ayaa ka xishoon doona isaga markuu ammaantii Aabbihiis kula yimaado malaa'igaha quduuska ah."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Waxaa Cunto La Siiyey Afar Kun Oo Nin",
+        "(Mat. 15:32-39)"
+      ],
+      "source_trailing_elements": [
+        {
+          "marker": "b",
+          "text": null
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Wuxuu iyaga ku yidhi, Runtii waxaan idinku leeyahay, Kuwa halkan taagan qaarkood sinaba dhimasho uma dhadhamin doonaan ilaa ay arkaan boqortooyada Ilaah oo xoog ku imanaysa.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Lix maalmood dabadeed Ciise wuxuu waday Butros iyo Yacquub iyo Yooxanaa; oo wuxuu keligood geeyey buur dheer, hortoodana ayuu ku beddelmay.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Muuqiisu Waa Isbeddelay",
+            "(Mat. 17:1-13; Luuk. 9:28-36)"
+          ]
+        },
+        {
+          "number": "3",
+          "text": "Dharkiisu aad buu caddaan ula dhalaalay sidii midka dhulka wax ku caddeeya aanu u caddayn karin."
+        },
+        {
+          "number": "4",
+          "text": "Markaasaa waxaa iyaga u muuqday Eliyaas iyo Muuseba, waxayna la hadlayeen Ciise."
+        },
+        {
+          "number": "5",
+          "text": "Markaasaa Butros la hadlay oo Ciise ku yidhi, Macallimow, waxaa inoo wanaagsan inaynu halkan joogno. Saddex waab aannu ka dhisno, mid adaan kuu dhisaynaa, midna Muuse, midna Eliyaas."
+        },
+        {
+          "number": "6",
+          "text": "Waayo, ma uu garanaynin wuxuu ku jawaabo, maxaa yeelay, aad bay u baqeen."
+        },
+        {
+          "number": "7",
+          "text": "Kolkaasaa waxaa timid daruur oo iyaga hadhaynaysa, daruurtiina waxaa ka yimid cod leh, Kanu waa Wiilkayga aan jeclahay ee maqla isaga."
+        },
+        {
+          "number": "8",
+          "text": "Dhaqsiba goortii ay hareerahooda fiiriyeen, mar dambe ma ay arkin cid kale oo iyaga la joogta Ciise keliya maahee."
+        },
+        {
+          "number": "9",
+          "text": "Markay buurta ka soo degayeen, wuxuu ku amray inaanay ninna u sheegin waxay arkeen intaanu Wiilkii Aadanahu kuwii dhintay ka soo sara kicin.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Dhexdoodii ayay hadalkii haysteen oo iska weyddiinayeen, Waa maxay ka soo sara kiciddii kuwii dhintay?"
+        },
+        {
+          "number": "11",
+          "text": "Markaasay waxay weyddiiyeen oo ku yidhaahdeen, Culimmadu maxay u yidhaahdaan, Eliyaas waa inuu horta yimaado?"
+        },
+        {
+          "number": "12",
+          "text": "Markaasuu u jawaabay oo ku yidhi, Waa run in Eliyaas horta imanayo oo wax walba soo celinayo. Oo sidee uga qoran tahay xagga Wiilka Aadanaha inuu wax badan ku xanuunsan doono oo la nici doono?"
+        },
+        {
+          "number": "13",
+          "text": "Laakiin waxaan idinku leeyahay, Eliyaas waa yimid, oo wax kasta oo ay doonayeen ayay ku sameeyeen siday uga qoran tahay."
+        },
+        {
+          "number": "14",
+          "text": "Markay xertii u yimaadeen, waxay arkeen dad faro badan oo la jooga. Culimmaduna wax bay weyddiinayeen.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Wiilkii Jinnigii Qabay Waa La Bogsiiyey",
+            "(Mat. 17:14-21; Luuk. 9:37-43)"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Kolkiiba dadkii badnaa markay isaga arkeen aad bay u yaabeen oo ku soo ordeen oo nabdaadiyeen."
+        },
+        {
+          "number": "16",
+          "text": "Kolkaasuu weyddiiyey, Maxaad isweyddiinaysaan?"
+        },
+        {
+          "number": "17",
+          "text": "Markaasaa dadkii badnaa midkood wuxuu ugu jawaabay, Macallimow, waxaan kuu keenay wiilkayga jinni carrab la' qaba."
+        },
+        {
+          "number": "18",
+          "text": "Meel alla meeshuu ku qabtoba, wuu ridaa; markaasuu afka ka xumbeeyaa, wuuna ilka jirriqsadaa oo qallalaa. Waxaan xertaada ka baryay inay ka saaraan, wayna kari waayeen."
+        },
+        {
+          "number": "19",
+          "text": "Markaasuu u jawaabay oo ku yidhi, Qarni yahow rumaysadka daranu! Ilaa goormaan idinla jiri doonaa? Ilaa goormaan idiin dulqaadan doonaa? Ii keena isaga."
+        },
+        {
+          "number": "20",
+          "text": "Markaasay u keeneen. Goortuu arkay, kolkiiba jinnigii waa gilgilay; dhulkuuna ku dhacay oo laballegdeeyey isagoo afka ka xumbaynaya."
+        },
+        {
+          "number": "21",
+          "text": "Markaasuu aabbihiis weyddiiyey, Intee buu waxan qabay? Kolkaasuu yidhi, Tan iyo yaraantiisii."
+        },
+        {
+          "number": "22",
+          "text": "Marar badan wuxuu ku tuuray dab iyo biyo inuu dumiyo, laakiin haddaad wax samayn kartid, noo naxariiso oo na caawi."
+        },
+        {
+          "number": "23",
+          "text": "Ciise wuxuu ku yidhi, Haddaad rumaysan karaysid, wax waluba waa u suurtoobaan ka rumaysan."
+        },
+        {
+          "number": "24",
+          "text": "Kolkiiba wiilka aabbihiis ayaa qayliyey oo oohin ku yidhi, Sayidow, waan rumaysanahay, iga caawi rumaysaddarradayda."
+        },
+        {
+          "number": "25",
+          "text": "Ciise goortuu arkay dadkii oo u soo ordaya, ayuu jinnigii wasakhda lahaa canaantay oo ku yidhi, Jinni yahow carrabka iyo dhegaha la'u, waxaan kugu amrayaa, Ka soo bax oo kol dambena ha ku noqon.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "Jinnigii intuu qayliyey, aad buu u gilgilay, kolkaasuu ka soo baxay. Markaasuu wiilku noqday sidii mid dhintay oo kale, sidaa darteeda dad badan baa yidhi, Waa dhintay."
+        },
+        {
+          "number": "27",
+          "text": "Laakiin Ciise ayaa gacanta qabtay oo kiciyey; markaasuu kacay."
+        },
+        {
+          "number": "28",
+          "text": "Ciise goortuu guriga galay, xertiisii waxay gooni ahaan u weyddiiyeen, Annagu maxaannu u saari kari waynay?"
+        },
+        {
+          "number": "29",
+          "text": "Wuxuu ku yidhi, Caynkanu wax kale kuma soo bixi karo tukasho iyo soon maahee."
+        },
+        {
+          "number": "30",
+          "text": "Markaasay halkaas ka tageen oo Galili dhex mareen, mana uu doonaynin in la ogaado.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Baa Mar Labaad Dhimashadiisa Sii Sheegay",
+            "(Mat. 17:22-23; Luuk. 9:43-45)"
+          ]
+        },
+        {
+          "number": "31",
+          "text": "Waayo, xertiisii ayuu wax barayay, oo wuxuu ku yidhi, Wiilka Aadanaha ayaa dadka loo gacangelinayaa, wayna dili doonaan oo markii la dilo, saddex maalmood dabadeed, ayuu sara kici doonaa."
+        },
+        {
+          "number": "32",
+          "text": "Laakiin hadalkaas ayay garan waayeen, wayna ka cabsadeen inay weyddiiyaan."
+        },
+        {
+          "number": "33",
+          "text": "Markaasuu yimid Kafarna'um, oo intuu gurigii joogay ayuu weyddiiyey, Maxaad ka wada hadlayseen intaad jidka ku soo socoteen?",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Is Hoosaysiinta",
+            "(Mat. 18:1-5; Luuk. 9:46-48)"
+          ]
+        },
+        {
+          "number": "34",
+          "text": "Laakiin way aamuseen, waayo, intay jidka ku socdeen waxay ka wada hadlayeen kan ugu weyn."
+        },
+        {
+          "number": "35",
+          "text": "Intuu fadhiistay laba-iyo-tobankii ayuu u yeedhay oo ku yidhi, Haddii qof doonayo inuu dadka u horreeyo, isagaa ugu wada dambayn doona, midiidin buuna u wada noqon doonaa."
+        },
+        {
+          "number": "36",
+          "text": "Ilmo yar ayuu qaaday oo dhexdooda joojiyey, oo goortuu gacmihiisii ku soo qaaday ayuu iyaga ku yidhi,"
+        },
+        {
+          "number": "37",
+          "text": "Ku alla kii carruurta kan la mid ah midkood magacayga ku aqbalaa, wuu i aqbalaa, oo ku alla kii i aqbalaa, ima aqbalo, wuxuuse aqbalaa kan i soo diray."
+        },
+        {
+          "number": "38",
+          "text": "Yooxanaa baa u jawaabay oo ku yidhi, Macallimow, waxaannu aragnay qof magacaaga jinniyo ku saaraya. Nama uu soo raaco. Waannu u diidnay, waayo, isagu nama uu soo raaco.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Midba Midka Kale Ha U Dulqaato",
+            "(Luuk. 9:49-50)"
+          ]
+        },
+        {
+          "number": "39",
+          "text": "Laakiin Ciise baa yidhi, Ha u diidina, waayo, ninna ma jiro oo yaab xoog leh magacayga ku sameeyaa oo dhaqso hadal xun iga odhan karaa."
+        },
+        {
+          "number": "40",
+          "text": "Waayo, kan aan inaga gees ahayn waa inala gees."
+        },
+        {
+          "number": "41",
+          "text": "Ku alla kii koob biyo ah magacayga idinku siiyaa, maxaa yeelay, waxaad tihiin kuwa Masiix, runtii waxaan idinku leeyahay, Abaalkiisuu ka lumi maayoba."
+        },
+        {
+          "number": "42",
+          "text": "Ku alla kii xumeeya yaryarkan i rumaystay midkood, waxaa u roon in dhagaxshiid luqunta looga lalmiyo oo badda lagu tuuro.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Wuxuu Ka Digay Inaan Dadka Kale La Xumayn",
+            "(Mat. 18:6-9; Luuk. 17:1-2)"
+          ]
+        },
+        {
+          "number": "43",
+          "text": "Haddii gacantaadu ku xumayso, iska jar; waxaa kuu wanaagsan inaad gacanla'aan nolosha ku gashid intii aad adigoo laba gacmood leh ula tegi lahayd jahannamada ee ah dabkii aan la demin karayn"
+        },
+        {
+          "number": "44",
+          "text": "oo ah meeshii dixirigoodu uusan dhimanayn, dabkuna uusan ka demayn."
+        },
+        {
+          "number": "45",
+          "text": "Cagtaaduna hadday ku xumayso, iska jar. Waxaa kuu wanaagsan inaad lugla'aan nolosha ku gashid intii adigoo laba cagood leh lagugu tuuri lahaa jahannamada"
+        },
+        {
+          "number": "46",
+          "text": "oo ah meeshii dixirigoodu uusan dhimanayn, dabkuna uusan ka demayn."
+        },
+        {
+          "number": "47",
+          "text": "Haddii ishaadu ku xumayso, iska bixi. Waxaa kuu wanaagsan inaad boqortooyada Ilaah gashid adigoo il keliya leh intii adigoo laba indhood leh lagugu tuuri lahaa jahannamada"
+        },
+        {
+          "number": "48",
+          "text": "oo ah meeshii dixirigoodu uusan dhimanayn, dabkuna uusan ka demayn."
+        },
+        {
+          "number": "49",
+          "text": "Waayo, mid walba dab baa lagu cusbayn doonaa.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Wax Ku Saabsan Cusbada",
+            "(Mat. 5:13; Luuk. 14:34-35)"
+          ]
+        },
+        {
+          "number": "50",
+          "text": "Cusbadu waa wanaagsan tahay, laakiin cusbadu hadday dhadhan beesho, maxaad wax ku cusbaynaysaan? Cusbo isku lahaada, nabadna isu ahaada."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 10,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Meeshaasuu ka soo kacay oo wuxuu galay soohdimaha Yahuudiya oo Webi Urdun ka shisheeya. Mar kale dadkii badnaa baa u soo ururay, oo sida caadadiisu ahaan jirtay, ayuu haddana wax baray.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Markaasaa Farrisiintu u timid oo weyddiisay, Ma xalaal baa in nin naagtiisa furo? Wayna jirrabayeen."
+        },
+        {
+          "number": "3",
+          "text": "Kolkaasuu u jawaabay oo ku yidhi, Muuse muxuu idinku amray?"
+        },
+        {
+          "number": "4",
+          "text": "Waxay yidhaahdeen, Muuse waa fasaxay in warqaddii furniinta la dhigo oo la furo."
+        },
+        {
+          "number": "5",
+          "text": "Ciisena wuxuu u jawaabay oo ku yidhi, Qalbi engegnaantiinna aawadeed ayuu amarkaas idiinku dhigay."
+        },
+        {
+          "number": "6",
+          "text": "Laakiin tan iyo bilowgii abuurniinta, Ilaah wuxuu sameeyey lab iyo dhaddig."
+        },
+        {
+          "number": "7",
+          "text": "Sababtaas aawadeed nin wuxuu ka tegayaa aabbihiis iyo hooyadiis, wuxuuna la joogayaa naagtiisa."
+        },
+        {
+          "number": "8",
+          "text": "Labaduba waxay noqonayaan isku jidh. Sidaa darteed haatan iyagu laba ma aha, laakiin waa isku jidh."
+        },
+        {
+          "number": "9",
+          "text": "Haddaba wixii Ilaah isku xidhay ninna yaanu kala furin."
+        },
+        {
+          "number": "10",
+          "text": "Goortay guriga ku jireen, xertiisii ayaa haddana waxaas wax ka weyddiiyeen."
+        },
+        {
+          "number": "11",
+          "text": "Markaasuu wuxuu ku yidhi, Ku alla kii naagtiisa furaa oo mid kale guursadaa ayaa ka sinaysta."
+        },
+        {
+          "number": "12",
+          "text": "Naagna haddii ay ninkeeda furto oo mid kale guursato ayay sinaysataa."
+        },
+        {
+          "number": "13",
+          "text": "Ilmo yaryar ayay u keeneen inuu taabto, xertuna way canaanatay.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Wuxuu U Duceeyey Carruur Yaryar",
+            "(Mat. 19:13-15; Luuk. 18:15-17)"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Laakiin Ciise goortuu arkay, wuu cadhooday, oo wuxuu ku yidhi, Ilmaha yaryar daaya, ha ii yimaadeene, hana diidina, waayo, kuwan oo kale ayaa ka mid ah boqortooyada Ilaah."
+        },
+        {
+          "number": "15",
+          "text": "Runtii waxaan idinku leeyahay, Ku alla kii aan boqortooyada Ilaah u aqbalin sida ilmo yar oo kale, meeshaas ma uu geli doono."
+        },
+        {
+          "number": "16",
+          "text": "Gacmihiisuu ku qaaday oo intuu calaacalihiisa saaray, ayuu barakeeyey."
+        },
+        {
+          "number": "17",
+          "text": "Goortuu jidka u soo baxay, mid baa ku soo orday oo intuu u jilba joogsaday ayuu weyddiiyey oo ku yidhi, Macallin wanaagsanow, maxaan sameeyaa inaan nolosha weligeed ah dhaxlo?",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Nin Dhallinyar Oo Hodan Ah Baa Doonayay Nolosha Weligeed Ah",
+            "(Mat. 19:16-22; Luuk. 18:18-23)"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Ciise wuxuu ku yidhi, Maxaad iigu yeedhaysaa, Wanaagsanow? Mid wanaagsan ma jiro mid maahee, kaasuna waa Ilaah."
+        },
+        {
+          "number": "19",
+          "text": "Qaynuunnada waad taqaan. Waa inaanad sinaysan, Waa inaanad qudh gooyn, Waa inaanad waxba xadin, Waa inaanad marag been ah furin, Waa inaanad waxba dulmin, Aabbahaa iyo hooyadaana maamuus."
+        },
+        {
+          "number": "20",
+          "text": "Wuxuu u jawaabay oo ku yidhi, Macallimow, kuwaas oo dhan tan iyo yaraantaydii ayaan dhawrayay."
+        },
+        {
+          "number": "21",
+          "text": "Markaasaa Ciise intuu eegay jeclaaday oo ku yidhi, Wax keliya ayaa kuu dhiman. Tag oo iibi waxaad haysatid oo dhan, oo masaakiintana sii, oo waxaad jannada ku lahaan doontaa maal; ee kaalay oo i soo raac."
+        },
+        {
+          "number": "22",
+          "text": "Hadalkaas ayuu ka qulbay, wuuna baxay isagoo calool xun, waayo, wuxuu ahaa mid waxyaalo badan leh."
+        },
+        {
+          "number": "23",
+          "text": "Ciise ishuu wada mariyey oo xertiisuu ku yidhi, Kuwa hodanka ah waa ku adag tahay inay boqortooyada Ilaah galaan!",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Hodanka Faa'iidola'aantiisa",
+            "(Mat. 19:23-30; Luuk. 18:24-30)"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "Xertiisii hadalladiisii bay ka yaabeen. Laakiin Ciise mar kaluu u jawaabay oo ku yidhi, Ilma yahow, siday ugu adag tahay kuwa maalka isku halleeya inay boqortooyada Ilaah galaan!"
+        },
+        {
+          "number": "25",
+          "text": "Nin hodan ah inuu boqortooyada Ilaah galo waxaa ka hawl yar in awr irbad daloolkeed ka duso."
+        },
+        {
+          "number": "26",
+          "text": "Aad bay u yaabeen, waxayna isku lahaayeen, Haddaba yaa badbaadi kara?"
+        },
+        {
+          "number": "27",
+          "text": "Markaasaa Ciise eegay oo ku yidhi, Waxanu uma suurtoobaan dadka, waxbase uma aha Ilaah, waayo, wax waluba waa u suurtoobaan Ilaah."
+        },
+        {
+          "number": "28",
+          "text": "Kolkaasaa Butros bilaabay inuu ku yidhaahdo, Annagu wax walba waannu ka wada tagnay, waana ku raacnay."
+        },
+        {
+          "number": "29",
+          "text": "Ciise wuxuu ku yidhi, Runtii waxaan idinku leeyahay, Ma jiro nin aawaday iyo injiilka aawadiis uga tegey guri, ama walaalo, ama hooyo, ama aabbe, ama carruur, ama beero,"
+        },
+        {
+          "number": "30",
+          "text": "oo aan haatan oo la joogo helayn boqol laab guryo ah, iyo walaalo, iyo hooyooyin, iyo carruur, iyo beero, wuxuuna la heli doonaa silec, wakhtiga imanayana nolosha weligeed ah."
+        },
+        {
+          "number": "31",
+          "text": "Laakiin kuwa badan oo hore waa dambayn doonaan, kuwa dambena waa horrayn doonaan."
+        },
+        {
+          "number": "32",
+          "text": "Waxay ku socdeen jidka xaggii Yeruusaalem, Ciisena waa hor marayay. Wayna yaabeen oo intay daba socdeen way baqeen. Kolkaasuu laba-iyo-tobankii haddana waday oo bilaabay inuu u sheego waxa isaga ku dhici doona,",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Mar Saddexaad Ayaa Ciise Sii Sheegay Dhimashadiisa",
+            "(Mat. 20:17-19; Luuk. 18:31-34)"
+          ]
+        },
+        {
+          "number": "33",
+          "text": "oo wuxuu ku yidhi, Waxaynu ku soconnaa Yeruusaalem. Wiilka Aadanaha waxaa loo dhiibi doonaa wadaaddada sare iyo culimmada; oo waxay ku xukumi doonaan dhimasho. Waxayna u dhiibi doonaan dadka aan Yuhuudda ahayn."
+        },
+        {
+          "number": "34",
+          "text": "Wayna ku kajami doonaan, oo ku tufi doonaan, oo karbaashi doonaan, wayna dili doonaan, saddex maalmood dabadeedna wuu soo sara kici doonaa."
+        },
+        {
+          "number": "35",
+          "text": "Waxaa u yimid Yooxanaa iyo Yacquub oo ahaa wiilashii Sebedi, oo waxay ku yidhaahdeen, Macallimow, waxaannu doonaynaa inaad noo yeeshid wixii aannu weyddiisanno.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Waxaa La Weyddiistay Derejada Dunida",
+            "(Mat. 20:20-23)"
+          ]
+        },
+        {
+          "number": "36",
+          "text": "Wuxuu ku yidhi, Maxaad doonaysaan inaan idiin sameeyo?"
+        },
+        {
+          "number": "37",
+          "text": "Waxay ku yidhaahdeen, Na sii inaannu fadhiisanno mid midigtaada, kii kalena bidixdaada xaggii ammaantaada."
+        },
+        {
+          "number": "38",
+          "text": "Laakiin Ciise wuxuu ku yidhi, Garan maysaan waxaad weyddiisanaysaan. Ma karaysaan inaad ka cabtaan koobka aan ku dhowahay inaan ka cabbo, iyo in laydinku baabtiiso baabtiiska laygu baabtiisay?"
+        },
+        {
+          "number": "39",
+          "text": "Waxay ku yidhaahdeen, Waannu karaynaa. Markaasaa Ciise ku yidhi, Koobka aan ka cabbayo waad ka cabbi doontaan, oo baabtiiska laygu baabtiisay waa laydinku baabtiisi doonaa,"
+        },
+        {
+          "number": "40",
+          "text": "laakiin inaad midigtayda iyo bidixdayda fadhiisataan anigu ma lihi inaan idin siiyo, laakiin waxaa la siin doonaa kuwa loo diyaargareeyey."
+        },
+        {
+          "number": "41",
+          "text": "Tobankii goortay taas maqleen waxay bilaabeen inay Yacquub iyo Yooxanaa u cadhoodaan.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Weynaanta Runta Ah",
+            "(Mat. 20:24-28; Luuk. 22:24-27)"
+          ]
+        },
+        {
+          "number": "42",
+          "text": "Laakiin Ciise baa u yeedhay oo ku yidhi, Idinku waad garanaysaan in kuwa loo malaynayo inay quruumaha madaxdooda yihiin ay u taliyaan, oo kuwooda u waaweynna ay xukun ku leeyihiin."
+        },
+        {
+          "number": "43",
+          "text": "Laakiin sidaasu dhexdiinna ma aha, laakiin ku alla kii doonaya inuu dhexdiinna u weynaado, midiidinkiinna waa inuu ahaado,"
+        },
+        {
+          "number": "44",
+          "text": "oo ku alla kii doonaya inuu idiin horreeyo, kulli waa inuu addoon u ahaado."
+        },
+        {
+          "number": "45",
+          "text": "Waayo, Wiilka Aadanahu uma iman in loo adeego laakiin inuu adeego iyo inuu naftiisa dad badan furashadooda u bixiyo."
+        },
+        {
+          "number": "46",
+          "text": "Kolkaasay yimaadeen Yerixoo, oo goortuu Yerixoo ka soo baxayay, isaga iyo xertiisii iyo dad faro badanba, nin indha la' oo Bartimayos la odhan jiray, oo ina Timayos ahaa, ayaa jidka ag fadhiyey oo dawarsanayay.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Wuxuu Bogsiiyey Nin Indhala' Oo Bartimayos La Odhan Jiray",
+            "(Mat. 20:29-34; Luuk. 18:35-43)"
+          ]
+        },
+        {
+          "number": "47",
+          "text": "Goortuu maqlay inuu yahay Ciisihii reer Naasared, wuxuu bilaabay inuu aad u qayliyo oo yidhaahdo, Ciise, ina Daa'uudow, ii naxariiso."
+        },
+        {
+          "number": "48",
+          "text": "Qaar badan baa canaantay si uu u aamuso, laakiin si ka badan ayuu ugu qayliyey, Ina Daa'uudow, ii naxariiso."
+        },
+        {
+          "number": "49",
+          "text": "Kolkaasaa Ciise joogsaday oo yidhi, U yeedha. Markaasay ninkii indhaha la'aa u yeedheen oo ku yidhaahdeen, Kalsoonow, kac, waa kuu yeedhayaaye."
+        },
+        {
+          "number": "50",
+          "text": "Intuu maradiisa iska tuuray ayuu booday oo Ciise u yimid."
+        },
+        {
+          "number": "51",
+          "text": "Ciise ayaa u jawaabay oo ku yidhi, Maxaad doonaysaa inaan kuu sameeyo? Indhoolihii baa ku yidhi, Sayidow, inaan wax arko."
+        },
+        {
+          "number": "52",
+          "text": "Markaasaa Ciise ku yidhi, Soco. Rumaysadkaaga ayaa ku bogsiiyey. Kolkiiba ayuu wax arkay, oo jidka buu la qaaday isaga."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Wax Ku Saabsan Naagfuridda",
+        "(Mat. 19:1-12; Luuk. 16:18)"
+      ]
+    },
+    {
+      "chapter": 11,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Goortay Yeruusaalem ku soo dhowaadeen, halka Beytfaage iyo Beytaniya, xaggii Buur Saytuun, xertiisii ayuu laba ka diray.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Wuxuuna ku yidhi, Tuulada idinka soo hor jeedda taga, oo kolkiiba markaad gashaan waxaad ka helaysaan qayl xidhan oo aan ninna weligii fuulin. Soo fura oo keena."
+        },
+        {
+          "number": "3",
+          "text": "Haddii nin idinku yidhaahdo, Maxaad waxan u samaynaysaan? waxaad ku tidhaahdaan, Sayidkaa u baahan, oo kolkiiba wuu u soo diri doonaa halkan."
+        },
+        {
+          "number": "4",
+          "text": "Markaasay tageen oo heleen qayl ku xidhan irid agteed meel dibadda ah oo jidka dhexdiisaa, wayna soo fureen."
+        },
+        {
+          "number": "5",
+          "text": "Kuwa halkaa taagnaa qaarkood waxay ku yidhaahdeen, Maxaad samaynaysaan oo u furaysaan qaylka?"
+        },
+        {
+          "number": "6",
+          "text": "Kolkaasay waxay ku yidhaahdeen sida Ciise u amray, markaasay oggolaadeen."
+        },
+        {
+          "number": "7",
+          "text": "Waxay qaylkii u keeneen Ciise, dharkoodana ayay dusha ka saareen, wuuna ku fadhiistay."
+        },
+        {
+          "number": "8",
+          "text": "Dad badan baa dharkoodii jidka ku goglay, kuwa kalena laamo ayay beeraha ka soo jareen oo jidka ku gogleen."
+        },
+        {
+          "number": "9",
+          "text": "Kuwii hor socday iyo kuwii daba socdayba way qayliyeen oo yidhaahdeen, Hoosanna, waxaa barakaysan kan Rabbiga magiciisa ku imanayo."
+        },
+        {
+          "number": "10",
+          "text": "Waxaa barakaysan boqortooyada imanaysa oo aabbeheen Daa'uud. Hoosanna ha ku jirto meelaha ugu sarreeya."
+        },
+        {
+          "number": "11",
+          "text": "Markaasaa Ciise Yeruusaalem yimid oo galay macbudka. Goortuu hareeraha iyo wax walbaba eegay, oo gabbalkiina dhacay, ayuu Beytaniya laba-iyo-tobankii ula baxay.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Maalintii dambe, markay Beytaniya ka yimaadeen, wuu gaajaysnaa.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Geedka Berdaha Ah Oo Aan Waxba Dhalin",
+            "(Mat. 21:18-19)"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Meel fog wuxuu ka arkay geed berde ah oo caleen leh. Wuu u yimid inuu haddana wax ka helo. Goortuu u yimid waxba kama uu helin caleemo keliya maahee, waayo, wakhtigii berdaha ma ahayn."
+        },
+        {
+          "number": "14",
+          "text": "Ciise baa u jawaabay oo geedkii ku yidhi, Hadda dabadeed weligaa ninna yuu midho kaa cunin. Xertiisiina waa maqashay."
+        },
+        {
+          "number": "15",
+          "text": "Waxay yimaadeen Yeruusaalem. Ciisena macbudka ayuu galay oo bilaabay inuu ka eryo kuwii macbudkii wax ku iibinayay iyo kuwii wax ka iibsanayay. Wuxuuna rogay miisaskii kuwii lacagta bedbeddelayay iyo kursiyadii kuwii qoolleyaha iibinayay.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Macbudkuu Nadiifiyey",
+            "(Mat. 21:12-17; Luuk. 19:45-48; Yoox. 2:13-22)"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "Umana oggolayn in ninna alaab macbudka la soo dhex maro."
+        },
+        {
+          "number": "17",
+          "text": "Markaasuu wax baray oo ku yidhi, Miyaanay qornayn, Gurigayga waxaa quruumaha oo dhan loogu yeedhi doonaa guriga tukashada? Idinkuse waxaad ka dhigteen god tuugo."
+        },
+        {
+          "number": "18",
+          "text": "Markii wadaaddadii sare iyo culimmadii maqleen, waxay doonayeen si ay u dilaan, waayo, way ka baqeen, maxaa yeelay, dadka oo dhan waxay ka yaabeen waxbariddiisa."
+        },
+        {
+          "number": "19",
+          "text": "Mar alla markii qorraxdu dhacday ayay magaalada ka baxeen.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Subaxdii goortay ag marayeen, waxay arkeen geedkii berdaha ahaa oo xididdada ka engegay.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Xoogga Rumaysadka",
+            "(Mat. 21:20-22)"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "Markaasaa Butros soo xusuustay, oo wuxuu ku yidhi, Macallinkaygiiyow, eeg, geedkii berdaha ahaa oo aad habaartay waa engegay."
+        },
+        {
+          "number": "22",
+          "text": "Ciise baa u jawaabay oo ku yidhi, Ilaah rumaysta."
+        },
+        {
+          "number": "23",
+          "text": "Runtii waxaan idinku leeyahay, Ku alla kii buurtan ku yidhaahda, Ruq, baddana isku tuur, oo aan qalbigiisana ka shakiyin laakiin rumaysta in wuxuu yidhi ay noqonayso, waa u ahaan doontaa."
+        },
+        {
+          "number": "24",
+          "text": "Sidaa darteed, waxaan idinku leeyahay, wax kasta oo aad tukasho ku baridaan, rumaysta inaad hesheen oo way idiin ahaan doontaa."
+        },
+        {
+          "number": "25",
+          "text": "Oo kolkaad tukasho u taagan tihiin, cafiya haddii aad dad wax ku leedihiin, si Aabbihiinna jannada ku jiraa xumaantiinna idiin cafiyo."
+        },
+        {
+          "number": "26",
+          "text": "Haddii aanad cafiyin, Aabbihiinna jannada ku jira xumaantiinna idiin cafiyi maayo."
+        },
+        {
+          "number": "27",
+          "text": "Mar kale ayay Yeruusaalem yimaadeen. Oo goortuu macbudkii dhex marayay waxaa u yimid wadaaddadii sare iyo culimmadii iyo waayeelladii.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Amarkiisii Baa Wax Laga Weyddiiyey",
+            "(Mat. 21:23-27; Luuk. 20:1-8)"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "Markaasay waxay ku yidhaahdeen, Amarkee baad waxan ku samaysaa? Yaa amarkan ku siiyey inaad waxan ku samayso?"
+        },
+        {
+          "number": "29",
+          "text": "Ciise ayaa u jawaabay oo ku yidhi, Aniguna hal baan idin weyddiinayaa, ii jawaaba, waanan idiin sheegi doonaa amarka aan waxan ku sameeyo."
+        },
+        {
+          "number": "30",
+          "text": "Baabtiiskii Yooxanaa ma wuxuu ka yimid xagga jannada mise dadka? Ii jawaaba."
+        },
+        {
+          "number": "31",
+          "text": "Dhexdooda ayay iskala hadleen iyagoo leh, Maxaynu nidhaahnaa? Haddaynu nidhaahno, Xagga jannada, wuxuu inagu odhanayaa, Haddaba maxaad u rumaysan weydeen?"
+        },
+        {
+          "number": "32",
+          "text": "Laakiin haddii aynu nidhaahno, Xagga dadka ayuu ka yimid, dadkay ka baqeen. Waayo, kulli waxay u haysteen Yooxanaa inuu nebi yahay."
+        },
+        {
+          "number": "33",
+          "text": "Markaasay Ciise u jawaabeen oo ku yidhaahdeen, Garan mayno. Ciisena wuxuu ku yidhi, Aniguna idiin sheegi maayo amarka aan waxan ku sameeyo."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "9",
+          "marker": "Translator/editor note",
+          "text": "+ Hoosanna = hadal ammaan ah.",
+          "note_type": "translator_note",
+          "source_reference": "11:9"
+        }
+      ],
+      "heading": [
+        "Ciise Guul Buu Ku Galay Yeruusaalem",
+        "(Mat. 21:1-11; Luuk. 19:28-40; Yoox. 12:12-19)"
+      ]
+    },
+    {
+      "chapter": 12,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Markaasuu wuxuu bilaabay inuu masaallo kula hadlo iyaga. Nin baa wuxuu beertay beer canab ah, oo ood ku heraaray, dabadeedna god macsareed ka dhex qoday, oo munaarad ka dhisay, oo niman beerrey ah u kiraystay, oo dal kale tegey.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Goortii xilligii yimid, ayuu addoon u soo diray beerreydii inuu beerreydii midhihii beerta ka soo qaado."
+        },
+        {
+          "number": "3",
+          "text": "Markaasay qabteen oo garaaceen oo waxla'aan ku direen."
+        },
+        {
+          "number": "4",
+          "text": "Haddana addoon kale ayuu u soo diray. Kaasay dakhreen oo ceebeeyeen."
+        },
+        {
+          "number": "5",
+          "text": "Haddana mid kale ayuu u soo diray, wayna dileen; oo qaar kale oo badan ayuu diray. Qaar waa la garaacay; qaarna waa la dilay."
+        },
+        {
+          "number": "6",
+          "text": "Weliba wuxuu lahaa wiil keliya oo uu jeclaa. Kolkii ugu dambaysay ayuu u soo diray isagii, oo wuxuu yidhi, Wiilkayga way maamuusi doonaan."
+        },
+        {
+          "number": "7",
+          "text": "Laakiin beerreydii waxay isku yidhaahdeen, Kanu waa kii dhaxalka lahaa, kaalaya aan dilnee, dhaxalkiina innagaa lahaan doonna."
+        },
+        {
+          "number": "8",
+          "text": "Way qabteen, wayna dileen, oo beertii canabka ahayd dibaddeeda ku tuureen."
+        },
+        {
+          "number": "9",
+          "text": "Haddaba sayidkii beerta canabka ah muxuu samayn doonaa? Wuu iman doonaa oo beerreyda dili doonaa, dad kalena ayuu beerta canabka ah u dhiibi doonaa."
+        },
+        {
+          "number": "10",
+          "text": "Miyaanaydin weligiin Qorniinka ka akhriyin",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "Dhagixii kuwa wax dhisaa ay diideen,"
+            },
+            {
+              "source_marker": "q1",
+              "text": "Kaasu wuxuu noqday madaxa rukunka."
+            }
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Tanu xagga Rabbiga bay ka timid;",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "Oo waa ku yaab indhahayaga?"
+            }
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Markaasay waxay dooneen inay qabtaan, laakiin dadkay ka baqeen; waayo, way garteen inuu masaalka iyaga kaga hadlay, markaasay iska daayeen oo ka tageen.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Waxay u soo direen Farrisiinta iyo Herodosiinta qaarkood si ay hadalkiisa ugu qabtaan.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Wax Ku Saabsan Cashuurta Kaysar La Siinayo",
+            "(Mat. 22:15-22; Luuk. 20:20-26)"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Goortay yimaadeen waxay ku yidhaahdeen, Macallimow, waannu og nahay inaad run tahay oo aanad ninna u eexan, waayo, dadka wejigooda ma eegtid, jidka Ilaahse aad run ku bartid. Ma xalaal baa in cashuur Kaysar la siiyo ama inaan la siin?"
+        },
+        {
+          "number": "15",
+          "text": "Ma siinna mise ma siinno? Isaguse labawejiilenimadooda ayuu gartay, oo wuxuu ku yidhi, Maxaad ii jirrabaysaan? Dinaar ii keena aan arko e."
+        },
+        {
+          "number": "16",
+          "text": "Wayna u keeneen, oo wuxuu ku yidhi, Yaa leh masawirkan iyo qorniinkan? Waxay ku yidhaahdeen, Kaysar baa leh."
+        },
+        {
+          "number": "17",
+          "text": "Ciise baa u jawaabay oo ku yidhi, Kaysar siiya wixii Kaysar leeyahay, Ilaahna siiya wixii Ilaah leeyahay. Wayna ka yaabeen."
+        },
+        {
+          "number": "18",
+          "text": "Markaasaa waxaa u yimid Sadukiin kuwii odhan jiray, Sarakicidda kuwii dhintay ma jirto. Oo waxay weyddiiyeen oo ku yidhaahdeen,",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Sarakicidda Kuwii Dhintay",
+            "(Mat. 22:23-33; Luuk. 20:27-40)"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Macallimow, Muuse wuxuu noo qoray, Nin walaalkiis hadduu dhinto oo naag ka tago isagoo aan ilmo lahayn, walaalkiis naagtiisa waa inuu dumaalo oo uu carruur walaalkiis u dhalo."
+        },
+        {
+          "number": "20",
+          "text": "Waxaa jiray toddoba walaalo ah. Kii ugu horreeyey naag buu qabay, wuuna dhintay, dhalna kama tegin."
+        },
+        {
+          "number": "21",
+          "text": "Kii labaad baa dumaalay, wuuna dhintay, isaguna dhal kama tegin, oo sidaas oo kalaa ku dhacday kii saddexaad."
+        },
+        {
+          "number": "22",
+          "text": "Toddobadii way wada guursadeen, dhalna kama tegin. Kulligood dabadood naagtiina waa dhimatay."
+        },
+        {
+          "number": "23",
+          "text": "Wakhtiga sarakicidda kuwii dhintay iyaga kee bay naagtiisii ahaan doontaa? Waayo, toddobadu way wada guursadeen."
+        },
+        {
+          "number": "24",
+          "text": "Ciise baa u jawaabay oo ku yidhi, Sidaa darteed miyaydnaan qaldamin? Waayo, Qorniinka iyo xoogga Ilaah midna garan maysaan."
+        },
+        {
+          "number": "25",
+          "text": "Waayo, goortay kuwii dhintay ka soo sara kacaan layskuma guursado, guurna layskuma siiyo, laakiin waxay yihiin sida malaa'igaha jannada ku jira."
+        },
+        {
+          "number": "26",
+          "text": "Oo xagga kuwii dhintay in la sara kiciyo miyaydnaan kitaabkii Muuse ka akhriyin sidii Ilaah geedkii ugala soo hadlay oo yidhi, Anigu waxaan ahay Ilaaha Ibraahim iyo Ilaaha Isxaaq iyo Ilaaha Yacquub?"
+        },
+        {
+          "number": "27",
+          "text": "Isagu ma aha Ilaaha kuwa dhintay, laakiin waa Ilaaha kuwa nool. Idinku aad baad u qaldan tihiin."
+        },
+        {
+          "number": "28",
+          "text": "Kolkaasaa culimmada midkood u yimid, oo markuu maqlay iyagoo wada hadlaya, oo markuu gartay inuu si wanaagsan u jawaabay, ayuu wax weyddiiyey oo ku yidhi, Qaynuunkee baa ka horreeya kuwa kale oo dhan?",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Qaynuunka Ugu Weyn",
+            "(Mat. 22:34-40)"
+          ]
+        },
+        {
+          "number": "29",
+          "text": "Markaasaa Ciise u jawaabay oo ku yidhi, Kan ugu horreeyaa waxaa weeye, Maqal, Israa'iilow, Rabbiga Ilaaheenna ah waa Rabbi keliya."
+        },
+        {
+          "number": "30",
+          "text": "Waa inaad Rabbiga Ilaahaaga ah ka jeclaataa qalbigaaga oo dhan, iyo naftaada oo dhan, iyo caqligaaga oo dhan, iyo xooggaaga oo dhan."
+        },
+        {
+          "number": "31",
+          "text": "Ku labaad waa kan, Waa inaad deriskaaga u jeclaataa sida naftaada. Qaynuun kale oo kuwan ka weyn ma jiro."
+        },
+        {
+          "number": "32",
+          "text": "Waxaa culimmada mid ka mid ahu ku yidhi, Sida runta ah, Macallimow, si wanaagsan baad u hadashay markaad tidhi, Isagu waa mid keliya, oo mid kalena ma jiro isaga ma ahaane."
+        },
+        {
+          "number": "33",
+          "text": "In laga jeclaado qalbiga oo dhan, iyo caqliga oo dhan, iyo nafta oo dhan, iyo xoogga oo dhan, iyo in deriska loo jeclaado sida nafta, taasaa ka sii wanaagsan allabaryo la wada gubo iyo allabaryo kale oo dhanba."
+        },
+        {
+          "number": "34",
+          "text": "Markii Ciise arkay inuu miyir ku jawaabay, wuxuu ku yidhi, Boqortooyada Ilaah kama aad fogid. Markaas dabadeed ninna kuma dhicin inuu wax weyddiiyo."
+        },
+        {
+          "number": "35",
+          "text": "Ciise baa u jawaabay oo ku yidhi, intuu macbudka wax ku barayay, Culimmadu sidee bay u yidhaahdaan, Masiixu waa ina Daa'uud?",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Wax Masiixa Ku Saabsan",
+            "(Mat. 22:41-46; Luuk. 20:41-44)"
+          ]
+        },
+        {
+          "number": "36",
+          "text": "Daa'uud qudhiisuna, isagoo Ruuxa Quduuskaa ku hadlaya, ayuu wuxuu yidhi,",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "Rabbigu wuxuu Sayidkayga ku yidhi,"
+            },
+            {
+              "source_marker": "q1",
+              "text": "Midigtayda fadhiiso,"
+            },
+            {
+              "source_marker": "q1",
+              "text": "Ilaa aan cadaawayaashaada cagahaaga hoostooda geliyo."
+            }
+          ]
+        },
+        {
+          "number": "37",
+          "text": "Daa'uud qudhiisa ayaa ugu yeedhay Sayid, sidee buu wiilkiisa u yahay? Dadkii badnaana farxad bay ku maqleen.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "38",
+          "text": "Markuu wax barayay wuxuu ku yidhi, Iska jira culimmada oo doonaya inay khamiisyo dhaadheer ku socdaan, oo jecel salaanta suuqa,",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Wuxuu Ka Digay Culimmadii",
+            "(Mat. 23:1-36; Luuk. 11:37-54; 20:45-47)"
+          ]
+        },
+        {
+          "number": "39",
+          "text": "iyo kursiyada hore oo sunagogyada, iyo meelaha hore oo diyaafadaha."
+        },
+        {
+          "number": "40",
+          "text": "Waxay yihiin kuwa wada laasta guryaha carmallada, oo tukashooyin dhaadheer ayay istusid u tukadaan. Kuwaas waxay heli doonaan xisaab aad u daran."
+        },
+        {
+          "number": "41",
+          "text": "Ciise wuxuu fadhiistay meel ka hor jeedda khasnaddii, oo wuxuu eegayay sida dadku lacagta ugu ridayo khasnaddii. Qaar badan oo hodon ah ayaa wax badan ku riday.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Sadaqadii Carmalka",
+            "(Luuk. 21:1-4)"
+          ]
+        },
+        {
+          "number": "42",
+          "text": "Markaasaa waxaa yimid carmal miskiin ah. Iyadu waxay ku ridday laba lacag ah oo yaryar oo qiimadood beesad tahay."
+        },
+        {
+          "number": "43",
+          "text": "Markaasuu xertiisii u yeedhay oo ku yidhi, Runtii waxaan idinku leeyahay, Carmalkan miskiinta ah waxay ku ridday wax ka badan wixii ay dhammaan ku ridayaan khasnaddii."
+        },
+        {
+          "number": "44",
+          "text": "Waayo, kulligood waxay kaga rideen waxoodii badnaa, iyaduse miskiinnimadeeday kaga ridday wixii ay lahayd oo dhan, xataa wixii ay ku noolaan lahayd oo dhan."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Masaalka Ku Saabsan Beerta Canabka Ah",
+        "(Mat. 21:33-46; Luuk. 20:9-19)"
+      ]
+    },
+    {
+      "chapter": 13,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Goortuu macbudka ka baxay, xertiisa midkood ayaa ku yidhi, Eeg, Macallimow, dhagaxyada iyo dhismaha siday u weyn yihiin!",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Ciise wuxuu ku yidhi, Guryahan waaweyn ma arkaysaa? Halkan lagu dul dayn maayo dhagax dhagax kale dushiisa oo aan la dumin doonin."
+        },
+        {
+          "number": "3",
+          "text": "Oo intuu Buur Saytuun fadhiistay, meel macbudka ku toosan, Butros iyo Yacquub iyo Yooxanaa iyo Andaros waxay keli ahaan u weyddiiyeen, oo ku yidhaahdeen,",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Belaayooyinka Imanaya",
+            "(Mat. 24:3-25; Luuk. 21:7-24)"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "Noo sheeg, Goormay waxyaalahanu ahaan doonaan? Calaamadu maxay ahaan doontaa, goortii waxyaalahan oo dhan dhammaan u dhowaan doonaan?"
+        },
+        {
+          "number": "5",
+          "text": "Ciise baa u jawaabay oo bilaabay inuu ku yidhaahdo, Iska eega yaan laydin khiyaanayn."
+        },
+        {
+          "number": "6",
+          "text": "Qaar badan ayaa magacayga ku iman doona, oo waxay odhan doonaan, Anigu waxaan ahay isaga, oo qaar badan ayay khiyaanayn doonaan."
+        },
+        {
+          "number": "7",
+          "text": "Goortaad dagaallo maqashaan iyo dagaallo hadalhayntood ha baqanina. Waxaasu waa inay dhacaan, laakiin dhammaadku weli weeye."
+        },
+        {
+          "number": "8",
+          "text": "Waayo, quruunba quruun bay ku kici doontaa, boqortooyona boqortooyo, oo waxaa meelo kala duwan ka dhici doona dhulgariir iyo abaaro. Waxanu waa bilowga hoogagga."
+        },
+        {
+          "number": "9",
+          "text": "Laakiin iska jira. Waxaa laydiin dhiibi doonaa shirar, oo sunagogyo waa laydinku karbaashi doonaa; taliyayaal iyo boqorro hortooda ayaad daraadday u istaagi doontaan inaad markhaati u ahaataan.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Horta injiilka waa in lagu wacdiyo quruumaha oo dhan."
+        },
+        {
+          "number": "11",
+          "text": "Oo goortii laydin wado oo laydin gacangeliyo, horta ha ka welwelina wixii aad ku hadli doontaan; laakiin wixii saacaddaas laydin siiyo, waxaas ku hadla, waayo, ma aha idinka kuwa hadlayaa laakiin waa Ruuxa Quduuska ah."
+        },
+        {
+          "number": "12",
+          "text": "Walaalba walaalkiis wuxuu u dhiibi doonaa in la dilo, aabbena wiilkiis, carruurna waalidkood ayay ku kici doonaan, oo dhimasho ay gaadhsiin doonaan."
+        },
+        {
+          "number": "13",
+          "text": "Dadka oo dhan ayaa magacayga aawadiis idiin necbaan doona, laakiin kan ilaa ugu dambaysta adkaysta kaasaa badbaadi doona."
+        },
+        {
+          "number": "14",
+          "text": "Laakiin goortaad aragtaan waxa baas oo hallaynta ah oo taagan meeshii uusan lahayn inuu taagnaado (kii akhriyaa ha garto), markaas kuwa Yahuudiya joogaa buuraha ha u carareen.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Kii guri fuushanuna yaanu guriga u soo degin oo gelin inuu wax ka soo qaato."
+        },
+        {
+          "number": "16",
+          "text": "Kii beer joogaana yaanu dib ugu noqon inuu dharkiisa soo qaato."
+        },
+        {
+          "number": "17",
+          "text": "Laakiin waa u hoog kuwa uurka leh iyo kuwa wakhtigaas ilmo nuujinaya."
+        },
+        {
+          "number": "18",
+          "text": "Barya inaan waxaasu noqon wakhtiga qabowga."
+        },
+        {
+          "number": "19",
+          "text": "Waayo, maalmahaas waxay ahaan doonaan dhib sida mid aan jirin tan iyo bilowgii abuurniinta oo Ilaah abuuray, mana jiri doonto weligeed."
+        },
+        {
+          "number": "20",
+          "text": "Oo haddaan Rabbigu wakhtigaas gaabin, ninna ma uu badbaadeen, laakiin kuwuu doortay aawadood ayuu wakhtigaas u gaabshay."
+        },
+        {
+          "number": "21",
+          "text": "Markaas haddii nin idinku yidhaahdo, Waa kan Masiixii, ama, Waa kaas, ha rumaysanina."
+        },
+        {
+          "number": "22",
+          "text": "Waayo, waxaa kici doona Masiixyo been ah iyo nebiyo been ah, oo waxay samayn doonaan calaamooyin iyo yaabab si ay xataa kuwa la doortay u khiyaaneeyaan hadday u suurtowdo."
+        },
+        {
+          "number": "23",
+          "text": "Laakiin idinku iska jira, wax walbaba horaan idiinku sheegaye."
+        },
+        {
+          "number": "24",
+          "text": "Laakiin wakhtigaas, dhibtaas dabadeed, qorraxdu waa madoobaan doontaa, dayaxuna ma nuuri doono,",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Imaatinka Wiilka Aadanaha",
+            "(Mat. 24:29-31; Luuk. 21:25-28)"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "xiddiguhuna cirka waa ka soo dhici doonaan, xoogagga cirka ku jirana waa la gariirin doonaa."
+        },
+        {
+          "number": "26",
+          "text": "Markaasay waxay arki doonaan Wiilka Aadanaha oo daruuraha ku imanaya isagoo leh xoog badan iyo ammaan."
+        },
+        {
+          "number": "27",
+          "text": "Markaasuu wuxuu soo diri doonaa malaa'igihiisa, oo kuwuu doortay ayuu ka soo ururin doonaa afarta jahood ee meesha dhulka ugu fog ilaa meesha cirka ugu fog."
+        },
+        {
+          "number": "28",
+          "text": "Haddeer geedka berdaha ah masaal ka garta. Intii laantiisu curdan tahay oo caleemo bixinayso, waxaad garanaysaan inuu roobku dhow yahay.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Soojeedid Baa Loo Baahan Yahay",
+            "(Mat. 24:32-36, 42; Luuk. 21:29-33)"
+          ]
+        },
+        {
+          "number": "29",
+          "text": "Idinkuna sidaas oo kale goortaad aragtaan waxaas oo dhacaya, garta inuu Wiilka Aadanahu dhow yahay oo albaabbada ag joogo."
+        },
+        {
+          "number": "30",
+          "text": "Runtii waxaan idinku leeyahay, Qarniganu ma idlaan doono intaanay waxan oo dhammi dhicin."
+        },
+        {
+          "number": "31",
+          "text": "Cirka iyo dhulku waa idlaan doonaan, laakiinse hadalladaydu ma idlaan doonaan."
+        },
+        {
+          "number": "32",
+          "text": "Laakiin maalintaas iyo saacaddaas ninna waxba kama oga, malaa'igaha jannada ku jira iyo Wiilka toona, midna ma oga, Aabbaha keliya maahee."
+        },
+        {
+          "number": "33",
+          "text": "Iska jira oo soo jeeda, waayo, ma ogidin wakhtigu goortuu yahay."
+        },
+        {
+          "number": "34",
+          "text": "Waa sidii nin dal kale tegey oo gurigiisii kaga tegey. Addoommadiisa ayuu amar siiyey, nin walbana shuqulkiisa; wuxuuna amray albaabjoogahu inuu soo jeedo."
+        },
+        {
+          "number": "35",
+          "text": "Soo jeeda haddaba, waayo, idinku ma ogidin sayidkii guriga lahaa goortuu imanayo, inay tahay makhrib, ama habeenbadhkii, ama goortii diiqu ciyo, ama aroortiiba,"
+        },
+        {
+          "number": "36",
+          "text": "waayo, waaba intaasuu idinku soo kediyaa oo uu idin helaa idinkoo hurda."
+        },
+        {
+          "number": "37",
+          "text": "Waxaan idinku leeyahay ayaan dadkii oo dhan ku leeyahay, Soo jeeda."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Ciise Wuxuu Sii Sheegay Dumidda Macbudka",
+        "(Mat. 24:1-2; Luuk. 21:5-6)"
+      ]
+    },
+    {
+      "chapter": 14,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Laba maalmood dabadeed waxaa jiray Iiddii Kormaridda iyo Iiddii Kibistii-aan-khamiirka-lahayn. Wadaaddadii sare iyo culimmadii waxay doonayeen si ay khiyaano ugu qabtaan oo ay u dilaan.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Waayo, waxay yidhaahdeen, Yaanay noqon wakhtiga iidda si aan rabshad dadka uga dhex kicin."
+        },
+        {
+          "number": "3",
+          "text": "Ciise goortuu Beytaniya joogay oo ku jiray guriga Simoon kii baraska qabi jiray, intuu cuntada u fadhiyey, waxaa u timid naag haysa weel alabastar ah oo cadar naaradiin oo qaali ah ku jiro. Weelkii bay jebisay, oo cadarkii madaxiisay ku shubtay.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise oo Beytaniya Lagu Subkay",
+            "(Mat. 26:6-13; Yoox. 12:1-8)"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "Waxaa joogay kuwa qalbiga ka cadhooday, oo waxay isku yidhaahdeen, Cadarkii maxaa sidan loogu khasaariyey?"
+        },
+        {
+          "number": "5",
+          "text": "Waayo, cadarkan waxaa lagu iibin kari lahaa wax saddex boqol oo dinaar ka badan oo masaakiinta la siin lahaa, wayna ku gunuunaceen iyadii."
+        },
+        {
+          "number": "6",
+          "text": "Laakiin Ciise baa ku yidhi, Daaya. Maxaad iyada u dhibaysaan? Shuqul wanaagsan ayay igu samaysaye."
+        },
+        {
+          "number": "7",
+          "text": "Waayo, masaakiintu mar walba way idinla jiraan. Markaad doonaysaan wax wanaagsan waad u samayn kartaan. Aniguse mar walba idinlama joogo."
+        },
+        {
+          "number": "8",
+          "text": "Way samaysay waxay kartay. Waxay hore ugu soo baxday inay jidhkayga udgoonayso aasniintayda aawadeed."
+        },
+        {
+          "number": "9",
+          "text": "Runtii waxaan idinku leeyahay, Dunida oo dhan meel alla meeshii injiilkan lagu wacdiyo, waxay samaysay ayaa xusuusteeda lagaga hadli doonaa."
+        },
+        {
+          "number": "10",
+          "text": "Yuudas Iskariyod oo ahaa mid laba-iyo-tobanka ka mid ah ayaa u tegey wadaaddada sare inuu u gacangeliyo.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Yuudas Khiyaanadiisa",
+            "(Mat. 26:14-16; Luuk. 22:3-6)"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Iyagu markay maqleen ayay farxeen oo waxay ka ballanqaadeen inay lacag siiyaan. Markaasuu doonayay goor wanaagsan oo uu u soo gacangeliyo."
+        },
+        {
+          "number": "12",
+          "text": "Maalinta ugu horraysay oo Iiddii Kibistii-aan-khamiirka-lahayn, goortii neefka Kormaridda la gowraco ayaa xertiisii ku tidhi, Xaggee baad doonaysaa inaannu tagno oo ku diyaargarayno inaad cuntid cashada Iidda Kormaridda?",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Cashadii Ugu Dambaysay",
+            "(Mat. 26:17-30; Luuk. 22:7-23; Yoox. 13:21-30; 1 Kor. 11:23-25)"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Wuxuu diray laba xertiisii ah oo ku yidhi, Magaalada gala, oo waxaa idinla kulmi doona nin ashuun biyah sita; isaga raaca."
+        },
+        {
+          "number": "14",
+          "text": "Meeshuu galo waxaad ninkii guriga lahaa ku tidhaahdaan, Macallinkii wuxuu leeyahay, Meeday qolladdaydii martidu oo aan xertayda kula cuni doono cashada Iidda Kormaridda?"
+        },
+        {
+          "number": "15",
+          "text": "Wuxuu idin tusayaa qollad weyn oo sare oo goglan oo diyaar ah; halkaa inoogu diyaargareeya."
+        },
+        {
+          "number": "16",
+          "text": "Xertiisii ayaa baxday oo magaalada gashay, wayna heleen siduu u sheegay, oo cashada Iidda Kormaridda ayay diyaargareeyeen."
+        },
+        {
+          "number": "17",
+          "text": "Goortii makhribkii la gaadhay ayuu laba-iyo-tobankii la yimid.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Oo intay fadhiisteen oo wax cunayeen, Ciise baa yidhi, Runtii waxaan idinku leeyahay, Midkiin oo wax ila cunaya ayaa i gacangelin doona."
+        },
+        {
+          "number": "19",
+          "text": "Markaasay calool xumaadeen, oo mid baa mid ku yidhi, Ma aniga baa?"
+        },
+        {
+          "number": "20",
+          "text": "Wuu u jawaabay oo wuxuu ku yidhi, Waa mid ka mid ah laba-iyo-tobankii oo saxanka gacanta ila gesha."
+        },
+        {
+          "number": "21",
+          "text": "Wiilka Aadanahu waa baxayaa siday u qoran tahay, laakiin hoog waxaa leh ninkaas Wiilka Aadanaha gacangelinaya. Waxaa ninkaas u wanaagsanaan lahayd inaanu dhalan."
+        },
+        {
+          "number": "22",
+          "text": "Oo intay wax cunayeen, Ciise ayaa kibis qaaday oo barakeeyey, wuuna jejebiyey oo iyaga siiyey oo yidhi, Qaata, tanu waa jidhkaygiiye.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "Kolkaasuu koobkii qaaday oo mahadnaqay oo siiyey iyaga, oo kulli way ka wada cabbeen."
+        },
+        {
+          "number": "24",
+          "text": "Wuxuu ku yidhi, Kanu waa dhiiggayga axdiga cusub kan kuwo badan loo daadshay."
+        },
+        {
+          "number": "25",
+          "text": "Runtii waxaan idinku leeyahay, Mar dambe midhaha geedka canabka ah kama cabbi doono ilaa maalinta aan boqortooyada Ilaah ka cabbi doono kan cusub."
+        },
+        {
+          "number": "26",
+          "text": "Goortay gabay ammaan ah ku gabyeen waxay u baxeen Buur Saytuun.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "27",
+          "text": "Markaasaa Ciise wuxuu ku yidhi, Kulligiin waad iga xumaan doontaan, waayo, waxaa qoran, Adhijirkaan dili doonaa, idahuna waa kala firdhi doonaan.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Wuxuu Sii Sheegay Xertiisa Ka Tegiddooda",
+            "(Mat. 26:31-35; Luuk. 22:31-34; Yoox. 13:36-38)"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "Laakiin markii kuwii dhintay layga sara kiciyo dabadeed ayaan Galili hortiin tegi doonaa."
+        },
+        {
+          "number": "29",
+          "text": "Laakiin Butros ayaa ku yidhi, In kastoo kulligood kaa xumaadaan, aniguse kaa xumaan maayo."
+        },
+        {
+          "number": "30",
+          "text": "Ciise wuxuu ku yidhi, Runtii waxaan kugu leeyahay, Maalintan, xataa caawa, intaan diiqu laba goor ciyin, saddex kol ayaad i dafiri doontaa."
+        },
+        {
+          "number": "31",
+          "text": "Laakiin aad buu ugu celceliyey, Haddaan leeyahay inaan kula dhinto, kolleyba ku dafiri maayo. Kulligoodba sidaas oo kale ayay yidhaahdeen."
+        },
+        {
+          "number": "32",
+          "text": "Markaasay yimaadeen meel Getsemane la odhan jiray, wuxuuna xertiisii ku yidhi, Halkan fadhiista intii aan soo tukanayo.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Oo Beer Getsemane Ku Jiray",
+            "(Mat. 26:36-46; Luuk. 22:39-46)"
+          ]
+        },
+        {
+          "number": "33",
+          "text": "Oo wuxuu watay Butros iyo Yacquub iyo Yooxanaa, oo wuxuu bilaabay inuu calool xumaado oo tiraanyoodo."
+        },
+        {
+          "number": "34",
+          "text": "Markaasuu ku yidhi, Naftaydu aad bay u calool xun tahay tan iyo dhimasho; halkan jooga oo soo jeeda."
+        },
+        {
+          "number": "35",
+          "text": "Waxoogaa ayuu hore u socday oo dhulkuu ku dhacay, wuxuuna tukaday in hadday suurtowdo saacaddu ay dhaafto."
+        },
+        {
+          "number": "36",
+          "text": "Wuxuuna yidhi, Aabbow, Aabbe, wax walbaba waad karaysaa. Koobkan iga qaad, laakiin yaanay noqon waxaan doonayo, ee waxaad doonaysid ha noqoto."
+        },
+        {
+          "number": "37",
+          "text": "Markaasuu yimid oo wuxuu arkay iyagoo hurda, oo wuxuu Butros ku yidhi, Simoonow, ma huruddaa? Miyaad kari wayday inaad saacad keliya soo jeeddo?"
+        },
+        {
+          "number": "38",
+          "text": "Soo jeeda oo tukada inaydnaan jirrabaadda gelin. Ruuxu waa diyaar, laakiin jidhku waa itaal daranyahay."
+        },
+        {
+          "number": "39",
+          "text": "Mar kale ayuu tegey oo tukaday isagoo hadalkii oo kale ku hadlaya."
+        },
+        {
+          "number": "40",
+          "text": "Mar kale ayuu yimid oo arkay iyagoo hurda, waayo, indhahoodu lulmay la cuslaayeen, ma ayna garan waxay ugu jawaabaan."
+        },
+        {
+          "number": "41",
+          "text": "Kolkii saddexaad ayuu yimid oo ku yidhi, Hadda seexda oo nasta, waa ku filan tahay. Saacaddii waa timid. Bal eega, Wiilka Aadanaha ayaa dembilayaal loo gacangelinayaa."
+        },
+        {
+          "number": "42",
+          "text": "Kaca aan tagnee. Eega, kii i gacangelin lahaa waa soo dhow yahay."
+        },
+        {
+          "number": "43",
+          "text": "Kolkiiba intuu weli hadlayay ayaa Yuudas oo laba-iyo-tobankii ka mid ahaa yimid, isaga iyo dad aad u badan oo seefo iyo ulo sita. Waxay ka yimaadeen wadaaddada sare iyo culimmada iyo waayeellada.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Waa La Qabtay",
+            "(Mat. 26:47-56; Luuk. 22:47-53; Yoox. 18:2-11)"
+          ]
+        },
+        {
+          "number": "44",
+          "text": "Kii gacangeliyey ayaa calaamo kula ballamay oo ku yidhi, Mid alla midkaan dhunkado waa isagii. Qabta oo kaxeeya oo dhawra."
+        },
+        {
+          "number": "45",
+          "text": "Kolkuu yimidba, kolkiiba ayuu u tegey oo ku yidhi, Macallimow, wuuna dhunkaday."
+        },
+        {
+          "number": "46",
+          "text": "Markaasay gacmaha saareen, wayna qabteen."
+        },
+        {
+          "number": "47",
+          "text": "Midkooda oo ag taagnaa ayaa seeftiisa soo bixiyey, oo wuxuu ku dhuftay wadaadkii sare addoonkiisii, oo dheg buu ka gooyay."
+        },
+        {
+          "number": "48",
+          "text": "Ciise baa u jawaabay oo ku yidhi, Ma waxaad iila soo baxdeen seefo iyo ulo inaad i qabataan sidaan tuug ahay?"
+        },
+        {
+          "number": "49",
+          "text": "Maalin walbaba macbudka ayaan idinkula jiri jiray oo wax bari jiray, imana aydnaan qabsan, laakiin Qorniinku waa inuu rumoobo."
+        },
+        {
+          "number": "50",
+          "text": "Markaasay xertii ka wada tageen oo carareen."
+        },
+        {
+          "number": "51",
+          "text": "Waxaa daba socday nin dhallinyaro ah oo qaawanaantiisa maro jilicsan ka huwaday; wayna qabteen.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ninkii Dhallinyarada Ahaa Oo Cararay"
+          ]
+        },
+        {
+          "number": "52",
+          "text": "Laakiin maradii jilicsanayd ayuu ka tegey oo ka cararay isagoo qaawan."
+        },
+        {
+          "number": "53",
+          "text": "Ciisena waxay u geeyeen wadaadkii sare, waxaana u soo ururay wadaaddadii sare iyo waayeelladii iyo culimmadii.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Waxaa Lagu Xukumay Wadaadka Sare Hortiisii",
+            "(Mat. 26:57-68; Luuk. 22:54-55, 63-71; Yoox. 18:12-14, 19-24)"
+          ]
+        },
+        {
+          "number": "54",
+          "text": "Butros baa meel fog ka soo daba socday, oo wuxuu galay barxadda wadaadkii sare oo la fadhiistay askartii, dabkana ayuu kulaalay."
+        },
+        {
+          "number": "55",
+          "text": "Wadaaddadii sare iyo shirkii oo dhan ayaa waxay dooneen markhaati Ciise ka gees ah si ay u dilaan, waase heli waayeen."
+        },
+        {
+          "number": "56",
+          "text": "Waayo, qaar badan baa marag been ah ku fureen, laakiin maraggoodii isku mid ma ahayn."
+        },
+        {
+          "number": "57",
+          "text": "Markaasaa waxaa kacay qaar marag been ah ku furay oo yidhaahdeen,"
+        },
+        {
+          "number": "58",
+          "text": "Waxaannu maqalnay isagoo leh, Macbudkan gacmo lagu sameeyey ayaan dudumin doonaa, saddex maalmood dabadeed waxaan dhisi doonaa mid kale oo aan gacmo lagu samayn."
+        },
+        {
+          "number": "59",
+          "text": "Laakiin sidaasuuna maraggoodii isku mid u ahayn."
+        },
+        {
+          "number": "60",
+          "text": "Markaasaa wadaadkii sare dhexda istaagay oo Ciise weyddiiyey isagoo leh, Miyaanad waxba ka jawaabayn? Kuwanu waxay kugu marag furayaan waa maxay?"
+        },
+        {
+          "number": "61",
+          "text": "Isaguse waa iska aamusay oo waxba uma jawaabin. Mar kale wadaadkii sare ayaa weyddiiyey oo ku yidhi, Miyaad tahay Masiixa oo ah Wiilka Kan la ammaano?"
+        },
+        {
+          "number": "62",
+          "text": "Ciise baa yidhi, Waan ahay, oo waxaad arki doontaan Wiilka Aadanaha oo fadhiya midigta xoogga Ilaah, oo ku imanaya daruuraha cirka."
+        },
+        {
+          "number": "63",
+          "text": "Markaasaa wadaadkii sare dharkiisii jeexjeexay oo yidhi, Maxaannu markhaatiyaal weli ugu baahan nahay?"
+        },
+        {
+          "number": "64",
+          "text": "Waad maqasheen caytanka. Maxay idinla tahay? Kulligood waxay xukumeen inuu dhimasho istaahilo."
+        },
+        {
+          "number": "65",
+          "text": "Qaar waxay bilaabeen inay candhuuf ku tufaan oo wejigiisa daboolaan oo garaacaan, waxayna ku yidhaahdeen, Wax sheeg. Askartiina way dharbaaxeen."
+        },
+        {
+          "number": "66",
+          "text": "Butros intuu hoosta joogay xaggii barxadda, waxaa u timid mid ka mid ah hablihii wadaadkii sare u shaqaynayay,",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Butros Baa Dafiray Ciise",
+            "(Mat. 26:69-75; Luuk. 22:56-62; Yoox. 18:15-18, 25-27)"
+          ]
+        },
+        {
+          "number": "67",
+          "text": "oo markay aragtay Butros oo dabka kulaalaya, ayay dayday oo tidhi, Adiguna waxaad la jirtay Ciisihii reer Naasared."
+        },
+        {
+          "number": "68",
+          "text": "Laakiin wuu dafiray oo wuxuu ku yidhi, Anigu ma aqaan, garanba maayo waxaad leedahay. Markaasuu albaabka agtiisa tegey, diiqiina waa ciyey."
+        },
+        {
+          "number": "69",
+          "text": "Gabadhii baa aragtay oo bilowday haddana inay kuwii ag taagnaa ku tidhaahdo, Kanu waa midkood."
+        },
+        {
+          "number": "70",
+          "text": "Laakiin mar kale ayuu dafiray. Waxoogaa yar dabadeed kuwii ag taagnaa ayaa mar kale Butros ku yidhi, Run weeye, adiguna midkood baad tahay, waayo, waxaad tahay reer Galili, afkaaguna waa la mid afkooda."
+        },
+        {
+          "number": "71",
+          "text": "Laakiin wuxuu bilaabay inuu habaaro oo dhaarto isagoo leh, Anigu garan maayo ninkaas aad ka hadlaysaan."
+        },
+        {
+          "number": "72",
+          "text": "Kolkii labaad ayaa diiqii ciyey; oo Butros wuxuu xusuustay hadalkii Ciise ku hadlay, Diiqu intaanu laba goor ciyin, saddex kol ayaad i dafiri doontaa, oo intuu ka fikirayay ayuu ooyay."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "3",
+          "marker": "Translator/editor note",
+          "text": "+ alabastar = dhagax cad.",
+          "note_type": "translator_note",
+          "source_reference": "14:3"
+        }
+      ],
+      "heading": [
+        "Shirqoolkii Ciise Loo Dhigay",
+        "(Mat. 26:1-5; Luuk. 22:1-2)"
+      ]
+    },
+    {
+      "chapter": 15,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Aroortii kolkiiba wadaaddadii sare waxay la wada hadleen waayeelladii iyo culimmadii iyo shirkii oo dhan. Ciisena way xidheen oo kaxeeyeen oo waxay u dhiibeen Bilaatos.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Bilaatos wuxuu weyddiiyey, Ma Boqorka Yuhuudda baad tahay? Wuu u jawaabay oo ku yidhi, Waad tidhi."
+        },
+        {
+          "number": "3",
+          "text": "Markaasaa wadaaddadii sare wax badan ku ashtakeeyeen."
+        },
+        {
+          "number": "4",
+          "text": "Bilaatos baa kol dambe wax weyddiiyey isagoo leh, Miyaanad waxba ka jawaabayn? Bal eeg intii ay kugu ashtakaynayaan."
+        },
+        {
+          "number": "5",
+          "text": "Laakiin Ciise weli waxba ugama jawaabin, sidaa darteed Bilaatos waa la yaabay."
+        },
+        {
+          "number": "6",
+          "text": "Iiddaas wuxuu iyaga u sii dayn jiray maxbuuskay doonayeen.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Markaasaa waxaa jiray nin Baraabbas la odhan jiray oo ahaa mid lala xidhay kuwii kula kacay oo wax dilay markii fidmaddu dhacday."
+        },
+        {
+          "number": "8",
+          "text": "Dadkii badnaa ayaa Bilaatos u kacay oo bilaabay inay doonaan inuu u sameeyo siduu u samayn jiray."
+        },
+        {
+          "number": "9",
+          "text": "Bilaatos baa u jawaabay oo ku yidhi, Ma waxaad doonaysaan inaan idiin sii daayo Boqorka Yuhuudda?"
+        },
+        {
+          "number": "10",
+          "text": "Waayo, wuxuu ogaa wadaaddadii sare inay hinaaso ugu soo dhiibeen."
+        },
+        {
+          "number": "11",
+          "text": "Laakiin wadaaddadii sare ayaa dadka kiciyey, oo waxay yidhaahdeen inay u roon tahay inuu Baraabbas u sii daayo iyaga."
+        },
+        {
+          "number": "12",
+          "text": "Bilaatos baa mar kale u jawaabay oo ku yidhi, Haddaba maxaad doonaysaan inaan ku sameeyo kan aad ugu yeedhaan Boqorka Yuhuudda?"
+        },
+        {
+          "number": "13",
+          "text": "Iyaguna mar kale ayay ku qayliyeen, Iskutallaabta ku qodob."
+        },
+        {
+          "number": "14",
+          "text": "Markaasaa Bilaatos ku yidhi, Waa maxay sharkuu falay? Laakiin aad bay u sii qayliyeen oo yidhaahdeen, Iskutallaabta ku qodob."
+        },
+        {
+          "number": "15",
+          "text": "Bilaatos wuxuu doonayay inuu sameeyo waxa dadku raalli ka yahay, sidaa darteed ayuu Baraabbas u sii daayay, oo goortuu Ciise karbaashay ayuu u dhiibay in iskutallaabta lagu qodbo."
+        },
+        {
+          "number": "16",
+          "text": "Markaasaa askartii isaga geeyeen barxaddii dhexdeeda, taasoo la odhan jiray Baraytoriyon, waxayna isugu yeedheen askartii oo dhan.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Askartii Baa Ciise Ku Majaajilootay",
+            "(Mat. 27:27-31; Yoox. 19:2-3)"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "Waxay u geliyeen dhar guduudan, oo taaj ayay qodxan uga texeen, oo madaxiisay saareen."
+        },
+        {
+          "number": "18",
+          "text": "Markaasay salaameen oo waxay ku yidhaahdeen, Nabad, Boqorka Yuhuuddow."
+        },
+        {
+          "number": "19",
+          "text": "Madaxana ayay cawsduur kaga dhufteen, oo wayna ku candhuufeen, oo u jilba joogsadeen, oo u sujuudeen."
+        },
+        {
+          "number": "20",
+          "text": "Goortay ku majaajiloodeen dabadeed ayay dharkii guduudnaa ka qaadeen oo dharkiisii bay u geliyeen, markaasay wadeen in iskutallaabta lagu qodbo."
+        },
+        {
+          "number": "21",
+          "text": "Waxaa ag marayay nin beeraha ka yimid, oo reer Kuranaya ah, oo Simoon la odhan jiray, oo ahaa aabbihii Aleksanderos iyo Rufus, kan ay ku qasbeen inuu iskutallaabtiisa u qaado.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Waa Lagu Qodbay Iskutallaabta",
+            "(Mat. 27:32-44; Luuk. 23:26-43; Yoox. 19:17-27)"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "Oo waxay u soo wadeen meel Golgota la odhan jiray, taasoo micneheedu yahay meeshii dhakada."
+        },
+        {
+          "number": "23",
+          "text": "Waxay siiyeen inuu cabbo khamri xammeeti lagu daray, laakiin ma uu qaadan."
+        },
+        {
+          "number": "24",
+          "text": "Oo goortay iskutallaabta ku qodbeen, dharkiisay qaybsadeen, wayna saami ku riteen mid kasta wuxuu qaadan lahaa."
+        },
+        {
+          "number": "25",
+          "text": "Waxayna ahayd saacaddii saddexaad oo iskutallaabta ay ku qodbeen."
+        },
+        {
+          "number": "26",
+          "text": "Waxaa lagu qoray meel ka korraysa isaga qorniinkii ashtakadiisii oo leh, BOQORKA YUHUUDDA."
+        },
+        {
+          "number": "27",
+          "text": "Markaasaa waxaa iskutallaabo lagula qodbay laba tuug, mid midigtiisa, midna bidixdiisa."
+        },
+        {
+          "number": "28",
+          "text": "Oo waxaa rumoobay Qorniinkii yidhi, Waxaa isaga lagu tiriyey sharcilaawayaasha."
+        },
+        {
+          "number": "29",
+          "text": "Oo kuwii ag marayayna waa caayeen, oo intay madaxooda luleen, waxay yidhaahdeen, Kaaga macbudka duminayow oo saddex maalmood ku dhisayow,"
+        },
+        {
+          "number": "30",
+          "text": "isbadbaadi oo iskutallaabta ka soo deg."
+        },
+        {
+          "number": "31",
+          "text": "Sidaas oo kalena ayaa wadaaddada sare dhexdooda ugu majaajiloodeen, iyaga iyo culimmadaba, oo waxay yidhaahdeen, Kuwa kale ayuu badbaadiyey, qudhiisa isma badbaadin karo."
+        },
+        {
+          "number": "32",
+          "text": "Masiixa oo ah Boqorka Israa'iil haddeer iskutallaabta ha ka soo dego si aannu u aragno oo u rumaysanno. Kuwii iskutallaabaha lagula qodbayna ayaa caayay."
+        },
+        {
+          "number": "33",
+          "text": "Goortii saacaddii lixaad la gaadhay, dhulka oo dhammu gudcur buu ahaa ilaa saacaddii sagaalaad.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Waa Dhintay",
+            "(Mat. 27:45-56; Luuk. 23:44-49; Yoox. 19:28-30)"
+          ]
+        },
+        {
+          "number": "34",
+          "text": "Saacaddii sagaalaad Ciise ayaa cod weyn ku dhawaaqay oo yidhi, Eloy, Eloy, lama sabakhtani? taasoo micneheedu yahay, Ilaahayow, Ilaahayow, maxaad ii dayrisay?"
+        },
+        {
+          "number": "35",
+          "text": "Kuwa ag taagnaa qaarkood ayaa goortay maqleen yidhi, Eeg, wuxuu u yeedhayaa Eliyaas."
+        },
+        {
+          "number": "36",
+          "text": "Mid baa orday, oo geed isbonji la yidhaahdo khal uga soo buuxshay, oo intuu cawsduur saaray ayuu siiyey inuu cabbo, wuxuuna yidhi, Daaya aannu aragnee inuu Eliyaas yimaado oo soo dejiyo."
+        },
+        {
+          "number": "37",
+          "text": "Markaasaa Ciise cod weyn ku dhawaaqay oo ruuxii bixiyey."
+        },
+        {
+          "number": "38",
+          "text": "Markaasaa daahii macbudka kor ilaa hoos laba u kala dillaacay."
+        },
+        {
+          "number": "39",
+          "text": "Kolkaasaa boqol-u-taliyihii oo meel ku toosan taagnaa markuu arkay inuu sidaas ruuxiisii u baxshay, wuxuu yidhi, Runtii, ninkanu wuxuu ahaa Wiilkii Ilaah."
+        },
+        {
+          "number": "40",
+          "text": "Waxaana joogay dumar meel fog ka eegayay, oo waxaa ku dhex jirtay Maryan tii reer Magdala, iyo Maryan oo ahayd Yacquub Yare iyo Yoosee hooyadood, iyo Saloome,"
+        },
+        {
+          "number": "41",
+          "text": "oo ah kuwa xataa intuu Galili joogay raaci jiray oo u adeegi jiray, iyo qaar kale oo badan oo Yeruusaalem u sii raacay."
+        },
+        {
+          "number": "42",
+          "text": "Haddaba waxay ahayd Maalintii Diyaargarayska, taas oo ah maalinta sabtida ka horraysa, oo markii makhribkii la gaadhay,",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Waa La Aasay",
+            "(Mat. 27:57-61; Luuk. 23:50-56; Yoox. 19:38-42)"
+          ]
+        },
+        {
+          "number": "43",
+          "text": "waxaa yimid Yuusuf kii reer Arimataya oo ahaa taliye murwad leh, oo isna boqortooyadii Ilaah ayuu sugayay. Isagu wuxuu dhiranaan ugu galay Bilaatos oo ka baryay Ciise meydkiisii."
+        },
+        {
+          "number": "44",
+          "text": "Bilaatos waa yaabay inuu hadda dhintay. Markaasuu wuxuu u yeedhay boqol-u-taliyihii oo weyddiiyey, Durba miyuu dhintay?"
+        },
+        {
+          "number": "45",
+          "text": "Goortuu ka gartay boqol-u-taliyihii, ayuu meydkii Yuusuf siiyey."
+        },
+        {
+          "number": "46",
+          "text": "Markaasaa Yuusuf wuxuu soo iibsaday kafan, wuuna soo dejiyey isaga, oo kafantii ku duudduubay, oo wuxuu geliyey xabaal dhagax ka qodnayd, oo xabaashii afkeedii wuxuu ku soo giringiriyey dhagax weyn."
+        },
+        {
+          "number": "47",
+          "text": "Maryan tii reer Magdala iyo Maryan oo ahayd hooyadii Yoosee waxay arkeen meeshii la dhigay."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "16",
+          "marker": "Translator/editor note",
+          "text": "+ Baraytoriyon = guriga taliyaha.",
+          "note_type": "translator_note",
+          "source_reference": "15:16"
+        }
+      ],
+      "heading": [
+        "Ciise Oo Hor Taagan Bilaatos Oo Ahaa Taliyaha Reer Rooma",
+        "(Mat. 27:1-2, 11-26; Luuk. 23:1-5, 13-25; Yoox. 18:26--19:16)"
+      ]
+    },
+    {
+      "chapter": 16,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Goortii sabtidii dhammaatay Maryan tii reer Magdala, iyo Maryan oo ahayd Yacquub hooyadiis, iyo Saloome, waxay iibsadeen dhir udgoon inay u yimaadaan oo mariyaan isaga.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Waaberigii maalintii ugu horraysay ee toddobaadka waxay yimaadeen xabaasha goortii qorraxdu soo baxday."
+        },
+        {
+          "number": "3",
+          "text": "Waxay isku yidhaahdeen, Ayaa dhagaxa xabaashii afkeeda inooga giringirinaya?"
+        },
+        {
+          "number": "4",
+          "text": "Goortay eegeen waxay arkeen dhagixii oo la giringiriyey; oo aad buu u weynaa."
+        },
+        {
+          "number": "5",
+          "text": "Goortay xabaashii galeen waxay arkeen nin dhallinyar oo midigta fadhiya oo khamiis cad gashan, markaasay aad u nexeen."
+        },
+        {
+          "number": "6",
+          "text": "Wuxuu ku yidhi, Ha nexina. Waxaad doonaysaan Ciisihii reer Naasared, kan iskutallaabta lagu qodbay. Wuu sara kacay, oo halkan ma joogo. Waa taa meeshii la dhigay."
+        },
+        {
+          "number": "7",
+          "text": "Laakiin taga, oo waxaad ku tidhaahdaan xertiisii iyo Butros, Wuu idin hor marayaa ilaa Galili. Halkaasna waad ku arki doontaan, siduu idinku yidhi."
+        },
+        {
+          "number": "8",
+          "text": "Markaasay dhaqso u soo baxeen oo xabaasha ka soo carareen, waayo, way gariireen oo yaabeen. Ninnana waxba kuma ay odhan, maxaa yeelay, way baqeen."
+        },
+        {
+          "number": "9",
+          "text": "Waaberigii maalintii ugu horraysay ee toddobaadka ayaa Ciise sara kacay, oo markii hore wuxuu u muuqday Maryan tii reer Magdala, tii uu toddoba jinni ka saaray.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Baa Dad Kale U Muuqday",
+            "(Yoox. 20:11-18; Luuk. 24:13-35; Mat. 28:16-20; Luuk. 24:36-49; Yoox. 20:19-23)"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Iyadu waa tagtay oo waxay u sheegtay kuwii la joogi jiray, iyagoo barooranaya oo ooyaya."
+        },
+        {
+          "number": "11",
+          "text": "Iyaguna goortay maqleen inuu nool yahay oo ay aragtay, way rumaysan waayeen."
+        },
+        {
+          "number": "12",
+          "text": "Waxan dabadeed isagoo suurad kale ah ayuu u muuqday laba iyaga ah iyagoo sii socda oo beeraha tegaya.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Markaasay baxeen oo kuwii kale u sheegeen, kuwaasina ma ay rumaysan."
+        },
+        {
+          "number": "14",
+          "text": "Dabadeed wuxuu u muuqday koob-iyo-tobankii goortay cunto u fadhiyeen. Wuuna u canaantay rumaysaddarradooda iyo qalbi engegnaantooda, waayo, ma ayna rumaysan kuwii isaga arkay goortuu sara kacay dabadeed.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Markaasuu wuxuu iyaga ku yidhi, Dunida oo dhan taga, oo uunka oo dhan injiilka ku wacdiya."
+        },
+        {
+          "number": "16",
+          "text": "Kii rumaysta oo la baabtiiso waa badbaadi doonaa, laakiin kii aan rumaysanin waa la xukumi doonaa."
+        },
+        {
+          "number": "17",
+          "text": "Calaamooyinkanna ayaa la socon doona kuwa rumaysta. Magacayga ayay jinniyo ku saari doonaan, afaf cuscusubna ayay ku hadli doonaan,"
+        },
+        {
+          "number": "18",
+          "text": "abeesooyin ayay qaadi doonaan, oo hadday cabbaan wax lagu dhimanayo waxba ma yeeli doono, gacmo ayay kuwii buka dul saari doonaan, wayna bogsan doonaan."
+        },
+        {
+          "number": "19",
+          "text": "Haddaba Rabbi Ciise goortuu la hadlay dabadeed ayaa samada loo qaaday, wuxuuna fadhiistay Ilaah midigtiisa.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ciise Kor Buu U Baxay",
+            "(Luuk. 24:50-53)"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Iyaguna way baxeen oo meel kasta oo ay tageen dadkii bay wacdiyeen, Rabbiguna waa la shaqaynayay iyaga, isagoo hadalka ku xaqiijinaya calaamooyinkii la socday. Aamiin.",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Ciise Waa Ka Soo Sara Kacay Kuwii Dhintay",
+        "(Mat. 28:1-10; Luuk. 24:1-12; Yoox. 20:1-10)"
+      ]
+    }
+  ]
+}

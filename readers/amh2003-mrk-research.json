@@ -1,0 +1,4209 @@
+{
+  "reader_id": "amh2003-mrk-research",
+  "research_corpus_id": "amh2003-mrk-research",
+  "publisher_book_code": "MRK",
+  "source_menu_position": 2,
+  "source_title_label": "የማርቆስ ወንጌል",
+  "reader_scope": "research_witness_reviewed_title_match",
+  "title": "Mark — Amharic text (የማርቆስ ወንጌል)",
+  "display_name": "Mark · Amharic (AMH2003)",
+  "normalized_title_en": "Mark",
+  "title_normalization": {
+    "method": "publisher_standard_book_code_lookup",
+    "publisher_book_code": "MRK",
+    "normalized_english_name": "Mark",
+    "source_title_label": "የማርቆስ ወንጌል",
+    "is_translation_of_source_label": false,
+    "canon_mapping": "reviewed_work_title_match",
+    "source_ids": [
+      "SRC-029",
+      "SRC-196",
+      "SRC-197",
+      "SRC-198",
+      "SRC-396"
+    ],
+    "note": "Reviewed work/title match for eotc-nt-02 (Mark): the EOTC's cited 81-entry list names Mark; the captured publisher menu and page identify this member with standard code MRK; the official USFM/USX table maps that code to Mark. The Amharic title remains verbatim and is not translated by this normalization. This is a title crosswalk only, not evidence that this edition belongs to or follows the EOTC canon. Evidence: SRC-029, SRC-196, SRC-197, SRC-198, and SRC-396."
+  },
+  "text_origin": "published_translation",
+  "language": "Amharic (አማርኛ)",
+  "language_tag": "am",
+  "language_assignment_status": "publisher_identified_amharic",
+  "script_code": "Ethi",
+  "translation_id": "amh2003eb",
+  "translator": "Translation team not named in the cited copyright page; source notes identify Lapsley/Brooks Foundation e-text (1994) and Dirk Röckmann's UTF-8 conversion/XML tagging (2003).",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The eBible publisher metadata does not document a source-text path. Haile Selassie's 1961 statement describes the 1947–1952 committee's aim as revising the existing Amharic Bible with reference to Hebrew and Greek. A. F. Matthew, a committee member, reports that the 1955 New Testament revision used Nestle's 1904 Greek text, following an Ethiopic reading where the Nestle apparatus listed the same alternative. These are historical statements about the revision process, not proof that this 2003 digital witness reproduces the 1962 print text without change. No collation establishes this reader's book-level lineage, so its path remains unknown.",
+  "edition": "United Bible Societies, Revised Amharic Bible in XML (2003), based on the printed version (1962); Lapsley/Brooks Foundation e-text (1994); Unicode UTF-8 transformation/XML tagging by Dirk Röckmann (2003); eBible.org source files dated 2025-12-12.",
+  "edition_scope": "This is the Amharic New Testament publisher-menu entry 2 under label 'የማርቆስ ወንጌል' and standard book code MRK. The 81-entry catalogue link is provisional and title-level; relation to any particular church canon list or printed exemplar is not established.",
+  "rights_classification": "permission_limited",
+  "copyright_notice": "Copyright © 1962, 2003 United Bible Societies. Language: አማርኛ (Amharic). Amharic NT. Revised Amharic Bible in XML (2003). Printed version by United Bible Societies (© 1962). E-text in transliterated ASCII format by Lapsley/Brooks Foundation (1994). Unicode UTF-8 transformation and XML-tagging by Dirk Röckmann (2003; www.nt-text.net). With kind permission of the Bible Society of Ethiopia. Every non-commercial work using this data in any form must fully include this copyright statement. Every commercial use of parts or the complete data in any form needs written permission of the Bible Society of Ethiopia. Copyright page dated 2014-09-09.",
+  "commercial_use": "The source page permits use in non-commercial works only when the complete copyright statement is included with every such work. Commercial use of any part or all of the data requires written permission from the Bible Society of Ethiopia. This is permission-limited reuse, not an open license or a general public-domain claim.",
+  "license_id": null,
+  "license_url": "https://ebible.org/amh/copyright.htm",
+  "chapter_count": 16,
+  "unit_count": 654,
+  "unit_label": "publisher-displayed Amharic verse marker",
+  "verse_marker_count": 654,
+  "section_label": "Chapter",
+  "chapter_structure_note": "Chapter sequence follows the publisher's linked book index and filename order. The original Ethiopic chapter label is retained alongside the numeric navigation order; verse markers are retained verbatim and are not renumbered. Counts describe captured page structure only.",
+  "transcription_note": "Text was parsed from the retained eBible.org HTML-only page capture. Ethiopic letters and source verse labels are preserved; HTML whitespace is normalized. Page navigation, copyright footer, and any separately parsed apparatus are excluded from verse bodies. This is a structural extraction, not a new translation or independent proofreading.",
+  "editorial_signs_note": "Publisher verse-marker strings and any parsed source notes are retained. No editorial sign is reinterpreted or silently removed from a verse body.",
+  "verification_status": "Structural extraction from the pinned eBible.org AMH2003 / amh capture: this menu entry links to 16 consecutive chapter pages; 654 nonempty verse spans retain their displayed Ethiopic labels; source page hashes are recorded. The standard book-code match to the EOTC list title is reviewed separately; this structural check does not validate translation accuracy, completeness against a printed edition, source language, or exact Church-edition identity.",
+  "source_ids": [
+    "SRC-196",
+    "SRC-197",
+    "SRC-198",
+    "SRC-341",
+    "SRC-342"
+  ],
+  "source_pages": "readers/source/amharic/amh-html-pages.zip; publisher pages index.htm, MRK.htm, and 16 chapter pages; copyright.htm and copr.htm retained.",
+  "source_snapshot_url": "https://ebible.org/Scriptures/amh_html.zip",
+  "source_snapshot_sha256": "510484e9b6db7844b474ad8bf029c6c11a11b46dc9eeb1afc111659c8ca3d782",
+  "source_extract_sha256": "9242e36204af81cf8b250b90477dc200c32ff191ff62e85fd6f82286bd1b025f",
+  "source_index_hashes": {
+    "index.htm": "3ada4bad891392ff1bb1fb43d849e10cb2a7dcbc446e312bce4d9e8da44801d0",
+    "copyright.htm": "00116dec62afe27147cbecac2acedd017bb859c39fc97c4e7786bbaf10cf6674",
+    "copr.htm": "5845dc40e1f605219b888032566acaf6dfe51028d6602ae75caf7de8f7d23a17"
+  },
+  "source_page_hashes": [
+    {
+      "page": "MRK.htm",
+      "sha256": "0ca7fedf86f0bf86e66e793cf53255c92d2f4a1796d0bca05f79f8d97ca0f827"
+    },
+    {
+      "page": "MRK01.htm",
+      "sha256": "33645e779a833bfe09830d008f9e7eb454561f074e6cc1835f1980a1d1e0d60a"
+    },
+    {
+      "page": "MRK02.htm",
+      "sha256": "fc69a4bc29626be55340e2aa665a1f097bf860c20b4dcf010be7a2ac7956bcaf"
+    },
+    {
+      "page": "MRK03.htm",
+      "sha256": "9ac2c797580c43b33042fef24a08de98873916f88fb55211b0bb04478bcfa8ca"
+    },
+    {
+      "page": "MRK04.htm",
+      "sha256": "f0ea9205f7216b94cc4199ffb56a289ea108bc0e389c6da028c8a6e7f6fa4c92"
+    },
+    {
+      "page": "MRK05.htm",
+      "sha256": "8d7cb773c7a99ba59936a4d40beac96a872e7ba684331d40ab01a68427931dec"
+    },
+    {
+      "page": "MRK06.htm",
+      "sha256": "bc459dc3ad536bbcb163ab02ad5e81615912bb71c0fd45f0461735130a7e18f1"
+    },
+    {
+      "page": "MRK07.htm",
+      "sha256": "8f6f7af703ac8e02c14c9a5a21a08dd9c862f1159760ae4294cd698db4f34f40"
+    },
+    {
+      "page": "MRK08.htm",
+      "sha256": "bb5285dbef25afb5cba45c142a7ea4203bfbd45fe4ba80cf851e44f5a27a85fb"
+    },
+    {
+      "page": "MRK09.htm",
+      "sha256": "1a4e5fe0abe0c465bf0139becf2e930f1679a7d6badf0ffdb838cbea7f579b63"
+    },
+    {
+      "page": "MRK10.htm",
+      "sha256": "08f8716f23096e92966db8e7c17ec7210d53e5ded76eca428f70508d1f58fc52"
+    },
+    {
+      "page": "MRK11.htm",
+      "sha256": "f3b07fb4cefd52376e6676609160ddd126733278e7c0433e1c374c9afc9cbde1"
+    },
+    {
+      "page": "MRK12.htm",
+      "sha256": "a88951455ca97743084ee1307c3db0c37e3b306e4d544608733dc690ff842bed"
+    },
+    {
+      "page": "MRK13.htm",
+      "sha256": "fcc4a4f313d36ff5a25ecb64eaa362e16b86686947f80ae0b37527514ac03673"
+    },
+    {
+      "page": "MRK14.htm",
+      "sha256": "15904edacabaafe89d073c6f89a0ccc3dbe6f943ae4a963ff40e76dc38401ae8"
+    },
+    {
+      "page": "MRK15.htm",
+      "sha256": "bc457899b79446960798e5226a3cf9fbd95c0e74b8e4bb9b4343030daf4c0b93"
+    },
+    {
+      "page": "MRK16.htm",
+      "sha256": "e2c18e9fe72c0d23bebaa28ec62c057b13f2a2a17d2355483c9146b8437105b0"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "source_chapter_label": "፩",
+      "source_page_title": "መጽሐፍ ቅዱስ የማርቆስ ወንጌል ፩",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "የእግዚአብሔር ልጅ የኢየሱስ ክርስቶስ ወንጌል መጀመሪያ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪-፬",
+          "source_element_id": "V2",
+          "text": "ዮሐንስ በምድረ በዳ እያጠመቀ የንስሐንም ጥምቀት ለኃጢአት ስርየት እየሰበከ መጣ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "የይሁዳም አገር ሁሉ የኢየሩሳሌምም ሰዎች ሁሉ ወደ እርሱ ይወጡ ነበር፥ ኃጢአታቸውንም እየተናዘዙ በዮርዳኖስ ወንዝ ከእርሱ ይጠመቁ ነበር።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ዮሐንስም የግመል ጠጉር ለብሶ በወገቡ ጠፍር ይታጠቅ አንበጣና የበረሀ ማርም ይበላ ነበር።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ተጎንብሼ የጫማውን ጠፍር መፍታት የማይገባኝ ከእኔ የሚበረታ በኋላዬ ይመጣል።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "እኔ በውኃ አጠመቅኋችሁ እርሱ ግን በመንፈስ ቅዱስ ያጠምቃችኋል እያለ ይሰብክ ነበር።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "በዚያ ወራትም ኢየሱስ ከገሊላ ናዝሬት መጥቶ ከዮሐንስ በዮርዳኖስ ወንዝ ተጠመቀ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ወዲያውም ከውኃው በወጣ ጊዜ ሰማያት ሲቀደዱ መንፈስም እንደ ርግብ ሲወርድበት አየና። የምወድህ ልጄ አንተ ነህ፥",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "በአንተ ደስ ይለኛል የሚል ድምፅ ከሰማያት መጣ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ወዲያውም መንፈስ ወደ ምድረ በዳ አወጣው።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "በምድረ በዳም ከሰይጣን እየተፈተነ አርባ ቀን ሰነበተ ከአራዊትም ጋር ነበረ፥ መላእክቱም አገለገሉት።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፬-፲፮",
+          "source_element_id": "V14",
+          "text": "በገሊላ ባሕርም አጠገብ ሲያልፍ ስምዖንን ወንድሙንም እንድርያስን መረባቸውን ወደ ባሕር ሲጥሉ አየ፥ ዓሣ አጥማጆች ነበሩና።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ኢየሱስም። በኋላዬ ኑና ሰዎችን አጥማጆች እንድትሆኑ አደርጋችኋለሁ አላቸው።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "ወዲያውም መረባቸውን ትተው ተከተሉት።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "ከዚያም ጥቂት እልፍ ብሎ የዘብዴዎስን ልጅ ያዕቆብን ወንድሙንም ዮሐንስን ደግሞ በታንኳ ላይ መረባቸውን ሲያበጁ አየ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "ወዲያውም ጠራቸው አባታቸውንም ዘብዴዎስን ከሞያተኞቹ ጋር በታንኳ ላይ ትተው ተከትለውት ሄዱ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "ወደ ቅፍርናሆምም ገቡ፤ ወዲያውም በሰንበት ወደ ምኵራብ ገብቶ አስተማረ።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "እንደ ባለ ሥልጣን ያስተምራቸው ነበር እንጂ እንደ ጻፎች አይደለምና በትምህርቱ ተገረሙ።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "በዚያን ጊዜም በምኩራባቸው ርኵስ መንፈስ ያለው ሰው ነበረ፤",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "እርሱም። የናዝሬቱ ኢየሱስ ሆይ፥ ከአንተ ጋር ምን አለን? ልታጠፋን መጣህን? ማን እንደ ሆንህ አውቄአለሁ፥ የእግዚአብሔር ቅዱሱ ብሎ ጮኸ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "ኢየሱስም። ዝም በል ከእርሱም ውጣ ብሎ ገሠጸው።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "ርኵሱም መንፈስ አንፈራገጠውና በታላቅ ድምፅ ጮኾ ከእርሱ ወጣ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "ሁሉም። ይህ ምንድር ነው? በሥልጣን ርኵሳን መናፍስትን ያዝዛል፤ እነርሱም ይታዘዙለታልና ይህ አዲስ ትምህርት ምንድር ነው? ብለው እስኪጠያየቁ ድረስ አደነቁ።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "ዝናውም ወዲያው በየስፍራው ወደ ገሊላ ዙሪያ ሁሉ ወጣ።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "ወዲያውም ከምኵራብ ወጥቶ ከያዕቆብና ከዮሐንስ ጋር ወደ ስምዖንና ወደ እንድርያስ ቤት ገባ።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "የስምዖንም አማት በንዳድ ታማ ተኝታ ነበር፥ ስለ እርስዋም ወዲያው ነገሩት።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፴፩",
+          "source_element_id": "V31",
+          "text": "ቀርቦም እጅዋን ይዞ አስነሣት ንዳዱም ወዲያው ለቀቃትና አገለገለቻቸው።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፴፪",
+          "source_element_id": "V32",
+          "text": "ፀሐይም ገብቶ በመሸ ጊዜ፥ የታመሙትንና አጋንንት ያደረባቸውን ሁሉ ወደ እርሱ አመጡ፤",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፴፫",
+          "source_element_id": "V33",
+          "text": "ከተማይቱም ሁላ በደጅ ተሰብስባ ነበር።",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴፬",
+          "source_element_id": "V34",
+          "text": "በልዩ ልዩ ደዌም የታመሙትን ብዙዎችን ፈወሰ፥ ብዙዎችንም አጋንንት አወጣ፥ አጋንንትም ክርስቶስ መሆኑን አውቀው ነበርና ሊናገሩ አልፈቀደላቸውም።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፭",
+          "source_element_id": "V35",
+          "text": "ማለዳም ተነሥቶ ገና ሌሊት ሳለ ወጣ ወደ ምድረ በዳም ሄዶ በዚያ ጸለየ።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "፴፮",
+          "source_element_id": "V36",
+          "text": "ስምዖንና ከእርሱ ጋር የነበሩትም ገሥግሠው ተከተሉት፥",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "፴፯",
+          "source_element_id": "V37",
+          "text": "ባገኙትም ጊዜ። ሁሉ ይፈልጉሃል አሉት።",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "፴፰",
+          "source_element_id": "V38",
+          "text": "እርሱም። በዚያ ደግሞ ልሰብክ ወደ ሌላ ስፍራ በቅርብ ወዳሉ መንደሮች እንሂድ ስለዚህ ወጥቻለሁና አላቸው።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "፴፱",
+          "source_element_id": "V39",
+          "text": "በምኵራባቸውም እየሰበከ አጋንንትንም እያወጣ ወደ ገሊላ ሁሉ መጣ።",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "፵",
+          "source_element_id": "V40",
+          "text": "ለምጻምም ወደ እርሱ መጥቶ ተንበረከከና። ብትወድስ ልታነጻኝ ትችላለህ ብሎ ለመነው።",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "፵፩",
+          "source_element_id": "V41",
+          "text": "ኢየሱስም አዘነለት እጁንም ዘርግቶ ዳሰሰውና። እወድዳለሁ፤ ንጻ አለው።",
+          "unit_order": 37
+        },
+        {
+          "source_marker": "፵፪",
+          "source_element_id": "V42",
+          "text": "በተናገረም ጊዜ ለምጹ ወዲያው ለቀቀውና ነጻ።",
+          "unit_order": 38
+        },
+        {
+          "source_marker": "፵፫",
+          "source_element_id": "V43",
+          "text": "በብርቱም ተናግሮ ወዲያው አወጣው፤",
+          "unit_order": 39
+        },
+        {
+          "source_marker": "፵፬",
+          "source_element_id": "V44",
+          "text": "ለማንም አንዳች እንዳትናገር ተጠንቀቅ፥ ነገር ግን ሄደህ ራስህን ለካህን አሳይ ለእነርሱም ምስክር እንዲሆን ስለ መንጻትህ ሙሴ ያዘዘውን አቅርብ አለው።",
+          "unit_order": 40
+        },
+        {
+          "source_marker": "፵፭",
+          "source_element_id": "V45",
+          "text": "እርሱ ግን ሲወጣ ብዙ ሊሰብክና ነገሩን ሊያወራ ጀመረ፥ ስለዚህም ኢየሱስ ተገልጦ ወደ ከተማ መግባት ወደ ፊት ተሳነው፥ ነገር ግን በውጭ በምድረ በዳ ይኖር ነበር፤ ከየስፍራውም ወደ እርሱ ይመጡ ነበር።",
+          "unit_order": 41
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 2,
+      "source_chapter_label": "፪",
+      "source_page_title": "መጽሐፍ ቅዱስ የማርቆስ ወንጌል ፪",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ከጥቂት ቀን በኋላ ወደ ቅፍርናሆም ደግሞ ገብቶ በቤት እንደ ሆነ ተሰማ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "በደጅ ያለው ስፍራም እስኪጠባቸው ድረስ ብዙ ሰዎች ተሰበሰቡ፤ ቃሉንም ይነግራቸው ነበር።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "አራት ሰዎችም የተሸከሙትን ሽባ አመጡለት።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "ስለ ሕዝቡም ብዛት ወደ እርሱ ማቅረብ ቢያቅታቸው እርሱ ያለበትን የቤቱን ጣራ አነሡ፥ ነድለውም ሽባው የተኛበትን አልጋ አወረዱ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ኢየሱስም እምነታቸውን አይቶ ሽባውን። አንተ ልጅ፥ ኃጢአትህ ተሰረየችልህ አለው።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ከጻፎችም አንዳንዶቹ በዚያ ተቀምጠው ነበር በልባቸውም። ይህ ሰው ስለ ምን እንደዚህ ያለ ስድብ ይናገራል?",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ከአንዱ ከእግዚአብሔር በቀር ኃጢአት ሊያስተሰርይ ማን ይችላል? ብለው አሰቡ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ወዲያውም ኢየሱስ በልባቸው እንዲህ እንዳሰቡ በመንፈስ አውቆ እንዲህ አላቸው። በልባችሁ ይህን ስለ ምን ታስባላችሁ?",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ሽባውን። ኃጢአትህ ተሰረየችልህ ከማለት ወይስ። ተነሣ አልጋህንም ተሸከምና ሂድ ከማለት ማናቸው ይቀላል?",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ነገር ግን ለሰው ልጅ በምድር ላይ ኃጢአትን ሊያስተሰርይ ሥልጣን እንዳለው እንድታውቁ፤",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ሽባውን። አንተን እልሃለሁ፥ ተነሣ፥ አልጋህን ተሸከምና ወደ ቤትህ ሂድ አለው።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ተነሥቶም ወዲያው አልጋውን ተሸክሞ በሁሉ ፊት ወጣ፥ ስለዚህም ሰዎች ሁሉ ተገረሙና። እንዲህ ያለ ከቶ አላየንም ብለው እግዚአብሔርን አከበሩ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ደግሞም በባሕር አጠገብ ወጣ፤ ሕዝቡም ሁሉ ወደ እርሱ መጡና አስተማራቸው።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ሲያልፍም በመቅረጫው ተቀምጦ የነበረውን የእልፍዮስን ልጅ ሌዊን አየና። ተከተለኝ አለው። ተነሥቶም ተከተለው።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "በቤቱም በማዕድ ተቀምጦ ሳለ፥ ብዙ ቀራጮችና ኃጢአተኞች ከኢየሱስና ከደቀ መዛሙርቱ ጋር ተቀመጡ፤ ብዙ ነበሩ ይከተሉትም ነበር።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "ጻፎችና ፈሪሳውያንም ከቀራጮችና ከኃጢአተኞች ጋር ሲበላ አይተው ለደቀ መዛሙርቱ። ከቀራ ጮችና ከኃጢአተኞች ጋር የሚበላና የሚጠጣ ስለ ምንድር ነው? አሉ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ኢየሱስም ሰምቶ። ሕመምተኞች እንጂ ብርቱዎች ባለ መድኃኒት አያስፈልጋቸውም ኃጢአተኞችን እንጂ ጻድቃንን ልጠራ አልመጣሁም አላቸው።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "የዮሐንስ ደቀ መዛሙርትና ፈሪሳውያን ይጦሙ ነበር። መጥተውም። የዮሐንስና የፈሪሳውያን ደቀ መዛሙርት የሚጦሙት የአንተ ደቀ መዛሙርት ግን የማይጦሙት ስለ ምንድር ነው? አሉት።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "ኢየሱስም አላቸው። ሙሽራው ከእነርሱ ጋር ሳለ ሚዜዎች ሊጦሙ ይችላሉን? ሙሽራው ከእነርሱ ጋር ሳለ ሊጦሙ አይችሉም።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "ነገር ግን ሙሽራው ከእነርሱ የሚወሰድበት ወራት ይመጣል፥ በዚያ ወራትም ይጦማሉ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "በአረጀ ልብስ አዲስ እራፊ የሚጥፍ የለም፤ ቢደረግ ግን፥ አዲሱ መጣፊያ አሮጌውን ይቦጭቀዋል፥ መቀደዱም የባሰ ይሆናል።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "በአረጀ አቁማዳም አዲስ የወይን ጠጅ የሚያኖር የለም፤ ቢደረግ ግን፥ የወይን ጠጁ አቁማዳውን ያፈነዳል የወይኑም ጠጅ ይፈሳል አቁማዳውም ይጠፋል አዲሱን የወይን ጠጅ ግን በአዲስ አቁማዳ ያኖራሉ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "በሰንበትም በእርሻ መካከል ሲያልፍ ደቀ መዛሙርቱ እየሄዱ እሸት ይቀጥፉ ጀመር።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "ፈሪሳውያንም። እነሆ፥ በሰንበት ያልተፈቀደውን ስለ ምን ያደርጋሉ? አሉት።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "እርሱም። ዳዊት ባስፈለገውና በተራበ ጊዜ፥ እርሱ አብረውት ከነበሩት ጋር ያደረገውን፥ አብያተር ሊቀ ካህናት በነበረ ጊዜ ወደ እግዚአብሔር ቤት እንደ ገባ፥",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "ከካህናት በቀር መብላት ያልተፈቀደውን የመሥዋዕትን እንጀራ እንደ በላ፥ ከእርሱም ጋር ለነበሩት እንደ ሰጣቸው ከቶ አላነበባችሁምን? አላቸው።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "ደግሞ። ሰንበት ስለ ሰው ተፈጥሮአል እንጂ ሰው ስለ ሰንበት አልተፈጠረም፤",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "እንዲሁም የሰው ልጅ ለሰንበት እንኳ ጌታዋ ነው አላቸው።",
+          "unit_order": 28
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 3,
+      "source_chapter_label": "፫",
+      "source_page_title": "መጽሐፍ ቅዱስ የማርቆስ ወንጌል ፫",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ደግሞም ወደ ምኵራብ ገባ፥ በዚያም እጁ የሰለለች ሰው ነበር፤",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ሊከሱትም፥ በሰንበት ይፈውሰው እንደ ሆነ ይጠባበቁት ነበር።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "እጁ የሰለለችውንም ሰው። ተነሥተህ ወደ መካከል ና አለው።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "በሰንበት በጎ ማድረግ ተፈቅዶአልን? ወይስ ክፉ? ነፍስ ማዳን ወይስ መግደል? አላቸው፤ እነርሱም ዝም አሉ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ስለ ልባቸውም ድንዛዜ አዝኖ ዙሪያውን እየተመለከተ በቍጣ አያቸው፥ ሰውየውንም። እጅህን ዘርጋ አለው።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ዘረጋትም፥ እጁም ዳነች። ፈሪሳውያንም ወጥተው ወዲያው እንዴት አድርገው እንዲያጠፉት ከሄሮድስ ወገን ጋር ተማከሩበት።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ኢየሱስም ከደቀ መዛሙርቱ ጋር ወደ ባህር ፈቀቅ አለ፤ ከገሊላ የመጡም ብዙ ሰዎች ተከተሉት፤",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "እንዴት ትልቅ ነገርም እንዳደረገው ሰምተው ብዙ ሰዎች ከይሁዳ ከኢየሩሳሌምም ከኤዶምያስም ከዮርዳኖስ ማዶም ከጢሮስና ከሲዶና ምድርም ወደ እርሱ መጡ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ሰዎቹም እንዳያጋፉት ታንኳን ያቆዩለት ዘንድ ደቀ መዛሙርቱን አዘዛቸው፤",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ብዙ ሰዎችን አድኖ ነበርና፥ ስለዚህም ሥቃይ ያለባቸው ሁሉ እንዲዳስሱት ይወድቁበት ነበር።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ርኵሳን መናፍስትም ባዩት ጊዜ በፊቱ ተደፍተው። አንተ የእግዚአብሔር ልጅ ነህ እያሉ ጮኹ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "እንዳይገልጡትም በጣም አዘዛቸው።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ወደ ተራራም ወጣ፥ ራሱም የወደዳቸውን ወደ እርሱ ጠራ፥ ወደ እርሱም ሄዱ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ከእርሱም ጋር እንዲኖሩና ለመስበክ እንዲልካቸው፥",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "ድውዮችንም ሊፈውሱ አጋንንትንም ሊያወጡ ሥልጣን ይሆንላቸው ዘንድ አሥራ ሁለት አደረገ፤",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "ስምዖንንም ጴጥሮስ ብሎ ሰየመው፤",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "የዘብዴዎስንም ልጅ ያዕቆብን የያዕቆብንም ወንድም ዮሐንስን ቦአኔርጌስ ብሎ ሰየማቸው፥ የነጎድጓድ ልጆች ማለት ነው፤",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "እንድርያስንም ፊልጶስንም በርተሎሜውስንም ማቴዎስንም ቶማስንም የእልፍዮስን ልጅ ያዕቆብንም ታዴዎስንም ቀነናዊውንም ስምዖንን፥",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "አሳልፎ የሰጠውንም የአስቆሮቱን ይሁዳን።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "ወደ ቤትም መጡ፤ እንጀራም መብላት ስንኳ እስኪሳናቸው ድረስ እንደ ገና ብዙ ሰዎች ተሰበሰቡ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "ዘመዶቹም ሰምተው። አበደ ብለዋልና ሊይዙት ወጡ።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ከኢየሩሳሌም የወረዱ ጻፎችም። ብዔል ዜቡል አለበት፤ ደግሞ። በአጋንንት አለቃ አጋንንትን ያወጣል ብለው ተናገሩ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "እነርሱንም ወደ እርሱ ጠርቶ በምሳሌ አላቸው። ሰይጣን ሰይጣንን ሊያወጣው እንዴት ይችላል?",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "መንግሥትም እርስ በርስዋ ከተለያየች ያች መንግሥት ልትቆም አትችልም፤",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "ቤትም እርስ በርሱ ከተለያየ ያ ቤት ሊቆም አይችልም።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "ሰይጣንም ራሱን ተቃውሞ ከተለያየ፥ መጨረሻ ይሆንበታል እንጂ ሊቆም አይችልም።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "ነገር ግን አስቀድሞ ኃይለኛውን ሳያስር ወደ ኃይለኛው ቤት ገብቶ ዕቃውን ሊበዘብዝ የሚችል የለም፥ ከዚያም ወዲያ ቤቱን ይበዘብዛል።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "እውነት እላችኋለሁ፥ ለሰው ልጆች ኃጢአት ሁሉ የሚሳደቡትም ስድብ ሁሉ ይሰረይላቸዋል፤",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "በመንፈስ ቅዱስ ላይ የሚሳደብ ሁሉ ግን የዘላለም ኃጢአት ዕዳ ይሆንበታል እንጂ ለዘላለም አይሰረይለትም።",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "ርኵስ መንፈስ አለበት ይሉ ነበርና።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፩",
+          "source_element_id": "V31",
+          "text": "እናቱና ወንድሞቹም መጡ በውጭም ቆመው ወደ እርሱ ልከው አስጠሩት።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "፴፪",
+          "source_element_id": "V32",
+          "text": "ብዙ ሰዎችም በዙሪያው ተቀምጠው ነበሩና። እነሆ፥ እናትህ ወንድሞችህም በውጭ ቆመው ይፈልጉሃል አሉት።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "፴፫",
+          "source_element_id": "V33",
+          "text": "መልሶም። እናቴ ማን ናት? ወንድሞቼስ እነ ማን ናቸው? አላቸው።",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "፴፬",
+          "source_element_id": "V34",
+          "text": "በዙሪያው ተቀምጠው ወደ ነበሩትም ተመለከተና። እነሆ እናቴ ወንድሞቼም።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "፴፭",
+          "source_element_id": "V35",
+          "text": "የእግዚአብሔርን ፈቃድ የሚያደርግ ሁሉ፥ እርሱ ወንድሜ ነው እኅቴም እናቴም አለ።",
+          "unit_order": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 4,
+      "source_chapter_label": "፬",
+      "source_page_title": "መጽሐፍ ቅዱስ የማርቆስ ወንጌል ፬",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ደግሞም በባሕር ዳር ሊያስተምር ጀመረ። እጅግ ብዙ ሰዎችም ወደ እርሱ ስለ ተሰበሰቡ እርሱ በታንኳ ገብቶ በባሕር ላይ ተቀመጠ፤ ሕዝቡም ሁሉ በባሕር ዳር በምድር ላይ ነበሩ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "በምሳሌም ብዙ ያስተምራቸው ነበር፥ በትምህርቱም አላቸው። ስሙ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫-፭",
+          "source_element_id": "V3",
+          "text": "ሌላውም ብዙ መሬት በሌለበት በጭንጫ ላይ ወደቀና ጥልቅ መሬት ስላልነበረው ወዲያው በቀለ፤",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ፀሐይም ሲወጣ ጠወለገ፥ ሥርም ስላልነበረው ደረቀ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ሌላውም በእሾህ መካከል ወደቀ፥ እሾህም ወጣና አነቀው፥ ፍሬም አልሰጠም።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ሌላውም በመልካም መሬት ላይ ወደቀና ወጥቶ አድጎ ፍሬ ሰጠ፥ አንዱም ሠላሳ አንዱም ስድሳ አንዱም መቶ አፈራ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "የሚሰማ ጆሮ ያለው ይስማ አለ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ብቻውንም በሆነ ጊዜ፥ በዙሪያው የነበሩት ከአሥራ ሁለቱ ጋር ስለ ምሳሌው ጠየቁት።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፲፩-፲፫",
+          "source_element_id": "V11",
+          "text": "አላቸውም። ይህን ምሳሌ አታውቁምን? እንዴትስ ምሳሌዎቹን ሁሉ ታውቃላችሁ?",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ዘሪው ቃሉን ይዘራል። ቃልም በተዘራበት በመንገድ ዳር የሆኑት እነዚህ ናቸው፥",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "በሰሙት ጊዜም ሰይጣን ወዲያው መጥቶ በልባቸው የተዘራውን ቃል ይወስዳል።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "እንዲሁም በጭንጫ ላይ የተዘሩት እነዚህ ናቸው፥ ቃሉንም ሰምተው ወዲያው በደስታ ይቀበሉታል፥",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ለጊዜውም ነው እንጂ በእነርሱ ሥር የላቸውም፥ ኋላም በቃሉ ምክንያት መከራ ወይም ስደት በሆነ ጊዜ ወዲያው ይሰናከላሉ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "በእሾህም የተዘሩት ሌሎች ናቸው፥ ቃሉን የሰሙት እነዚህ ናቸው፥",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "የዚህም ዓለም አሳብና የባለጠግነት ማታለል የሌላውም ነገር ምኞት ገብተው ቃሉን ያንቃሉ፥ የማያፈራም ይሆናል።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "በመልካምም መሬት የተዘሩት ቃሉን ሰምተው የሚቀበሉት አንዱም ሠላሳ አንዱም ስድሳ አንዱም መቶ ፍሬ የሚያፈሩት እነዚህ ናቸው።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "እንዲህም አላቸው። መብራትን ከዕንቅብ ወይስ ከአልጋ በታች ሊያኖሩት ያመጡታልን? በመቅረዝ ላይ ሊያኖሩት አይደለምን?",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "እንዲገለጥ ባይሆን የተሰወረ የለምና፤ ወደ ግልጥ እንዲመጣ እንጂ የተሸሸገ የለም።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "የሚሰማ ጆሮ ያለው ቢኖር ይስማ።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "አላቸውም። ምን እንድትሰሙ ተጠበቁ። በምትሰፍሩበት መስፈሪያ ይሰፈርላችኋል ለእናንተም ይጨመርላችኋል።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "ላለው ይሰጠዋልና፤ ከሌለውም ያው ያለው እንኳ ይወሰድበታል።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "እርሱም አለ። በምድር ዘርን እንደሚዘራ ሰው የእግዚአብሔር መንግሥት እንደዚህ ናት ሌሊትና ቀን ይተኛልም ይነሣልም፥",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "እርሱም እንዴት እንደሚሆን ሳያውቅ ዘሩ ይበቅላል ያድግማል።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "ምድሪቱም አውቃ በመጀመሪያ ቡቃያ ኋላም ዛላ ኋላም በዛላው ፍጹም ሰብል ታፈራለች።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "ፍሬ ግን ሲበስል መከር ደርሶአልና ወዲያው ማጭድ ይልካል።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "እርሱም አለ። የእግዚአብሔርን መንግሥት በምን እናስመስላታለን? ወይስ በምን ምሳሌ እንመስላታለን?",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፴፩",
+          "source_element_id": "V31",
+          "text": "እንደ ሰናፍጭ ቅንጣት ናት፥ እርስዋም በምድር በተዘራች ጊዜ በምድር ካለ ዘር ሁሉ ታንሳለች፤ በተዘራችም ጊዜ ትወጣለች ከአትክልትም ሁሉ የምትበልጥ ትሆናለች፥",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፴፪",
+          "source_element_id": "V32",
+          "text": "የሰማይ ወፎችም በጥላዋ ሊሰፍሩ እስኪችሉ ታላላቅ ቅርንጫፎች ታደርጋለች።",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፴፫",
+          "source_element_id": "V33",
+          "text": "መስማትም በሚችሉበት መጠን እነዚህን በሚመስል በብዙ ምሳሌ ቃሉን ይነግራቸው ነበር፤ ያለ ምሳሌ ግን አልነገራቸውም፥",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴፬",
+          "source_element_id": "V34",
+          "text": "ለብቻቸውም ሲሆኑ ነገሩን ሁሉ ለገዛ ደቀ መዛሙርቱ ይፈታላቸው ነበር።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፭",
+          "source_element_id": "V35",
+          "text": "በዚያም ቀን በመሸ ጊዜ። ወደ ማዶ እንሻገር አላቸው።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "፴፮",
+          "source_element_id": "V36",
+          "text": "ሕዝቡንም ትተው በታንኳ እንዲያው ወሰዱት፥ ሌሎች ታንኳዎችም ከእርሱ ጋር ነበሩ።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "፴፯",
+          "source_element_id": "V37",
+          "text": "ብርቱ ዐውሎ ነፋስም ተነሣና ውኃ በታንኳይቱ እስኪሞላ ድረስ ማዕበሉ በታንኳይቱ ይገባ ነበር።",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "፴፰",
+          "source_element_id": "V38",
+          "text": "እርሱም በስተኋላዋ ትራስ ተንተርሶ ተኝቶ ነበር፤ አንቅተውም። መምህር ሆይ፥ ስንጠፋ አይገድህምን? አሉት።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "፴፱",
+          "source_element_id": "V39",
+          "text": "ነቅቶም ነፋሱን ገሠጸው ባሕሩንም። ዝም በል፥ ፀጥ በል አለው። ነፋሱም ተወ ታላቅ ፀጥታም ሆነ።",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "፵",
+          "source_element_id": "V40",
+          "text": "እንዲህ የምትፈሩ ስለ ምን ነው? እንዴትስ እምነት የላችሁም? አላቸው።",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "፵፩",
+          "source_element_id": "V41",
+          "text": "እጅግም ፈሩና። እንግዲህ ነፋስም ባሕርም የሚታዘዙለት ይህ ማን ነው? ተባባሉ።",
+          "unit_order": 37
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 5,
+      "source_chapter_label": "፭",
+      "source_page_title": "መጽሐፍ ቅዱስ የማርቆስ ወንጌል ፭",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ወደ ባሕር ማዶም ወደ ጌርጌሴኖን አገር መጡ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ከታንኳይቱም በወጣ ጊዜ፥ ርኵስ መንፈስ የያዘው ሰው ከመቃብር ወጥቶ ወዲያው ተገናኘው፤",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "እርሱም በመቃብር ይኖር ነበር፥ በሰንሰለትም ስንኳ ማንም ሊያስረው በዚያን ጊዜ አይችልም ነበር፤",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "ብዙ ጊዜ በእግር ብረትና በሰንሰለት ይታሰር ነበርና ዳሩ ግን ሰንሰለቱን ይበጣጥስ እግር ብረቱንም ይሰባብር ነበር፥ ሊያሸንፈውም የሚችል አልነበረም፤",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ሁልጊዜም ሌሊትና ቀን በመቃብርና በተራራ ሆኖ ይጮኽ ነበር ሰውነቱንም በድንጋይ ይቧጭር ነበር።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ኢየሱስንም ከሩቅ ባየ ጊዜ ሮጦ ሰገደለት፥",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "በታላቅ ድምፅም እየጮኸ። የልዑል እግዚአብሔር ልጅ ኢየሱስ ሆይ፥ ከአንተ ጋር ምን አለኝ? እንዳታሠቃየኝ በእግዚአብሔር አምልሃለሁ አለ፤",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "አንተ ርኵስ መንፈስ፥ ከዚህ ሰው ውጣ ብሎት ነበርና።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ስምህ ማን ነው? ብሎ ጠየቀው። ብዙዎች ነንና ስሜ ሌጌዎን ነው አለው፥",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ከአገርም ውጭ እንዳይሰዳቸው አጥብቆ ለመነው።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "በዚያም በተራራ ጥግ ብዙ የእሪያ መንጋ ይሰማራ ነበርና።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ወደ እሪያዎቹ እንድንገባ ስደደን ብለው ለመኑት።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ኢየሱስም ፈቀደላቸው። ርኵሳን መናፍስቱም ወጥተው ወደ እሪያዎቹ ገቡ፥ ሁለት ሺህም የሚያህል መንጋ ከአፋፉ ወደ ባሕር ተጣደፉና በባሕር ሰጠሙ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "እረኞቹም ሸሽተው በከተማውና በአገሩ አወሩ፤ ነገሩም ምን እንደ ሆነ ለማየት መጡ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "ወደ ኢየሱስም መጡ፥ አጋንንትም ያደሩበትን ሌጌዎንም የነበረበትን ሰው ተቀምጦ ለብሶም ልቡም ተመልሶ አዩና ፈሩ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "ያዩት ሰዎችም አጋንንት ላደሩበት ሰው የሆነውንና ስለ እሪያዎቹ ተረኩላቸው።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ከአገራቸውም እንዲሄድላቸው ይለምኑት ጀመር።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "ወደ ታንኳይቱም በገባ ጊዜ አጋንንት አድረውበት የነበረው ሰው ከእርሱ ጋር እንዲኖር ለመነው።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "ኢየሱስም አልፈቀደለትም፥ ነገር ግን። ወደ ቤትህ በቤተ ሰዎችህ ዘንድ ሄደህ ጌታ እንዴት ያለ ታላቅ ነገር እንዳደረገልህ እንዴትስ እንደ ማረህ አውራላቸው አለው።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "ሄዶም ኢየሱስ እንዴት ያለ ታላቅ ነገር እንዳደረገለት አሥር ከተማ በሚባል አገር ይሰብክ ጀመር፥ ሁሉም ተደነቁ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "ኢየሱስም ደግሞ በታንኳይቱ ወደ ማዶ ከተሻገረ በኋላ ብዙ ሰዎች ወደ እርሱ ተሰበሰቡ፥ በባሕርም አጠገብ ነበረ።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ኢያኢሮስ የተባለ ከምኵራብ አለቆች አንዱ መጣ፤ ባየውም ጊዜ በእግሩ ላይ ወደቀና።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "ታናሽቱ ልጄ ልትሞት ቀርባለችና እንድትድንና በሕይወት እንድትኖር መጥተህ እጅህን ጫንባት ብሎ አጥብቆ ለመነው።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "ከእርሱም ጋር ሄደ። ብዙ ሕዝብም ተከተሉት አጋፉትም።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "ከአሥራ ሁለት ዓመትም ጀምሮ ደም የሚፈሳት ሴት ነበረች፥",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "ከብዙ ባለ መድኃኒቶችም ብዙ ተሠቃየች፤ ገንዘብዋንም ሁሉ ከስራ ባሰባት እንጂ ምንም አልተጠቀመችም፤",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "የኢየሱስንም ወሬ ሰምታ በስተኋላው በሰዎች መካከል መጥታ ልብሱን ዳሰሰች።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "ልብሱን ብቻ የዳሰስሁ እንደ ሆነ እድናለሁ ብላለችና።",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "ወዲያውም የደምዋ ምንጭ ደረቀ ከሥቃይዋም እንደዳነች በሰውነትዋ አወቀች።",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "ወዲያውም ኢየሱስ ከእርሱ ኃይል እንደ ወጣ በገዛ ራሱ አውቆ በሕዝቡ መካከል ዘወር ብሎ። ልብሴን የዳሰሰ ማን ነው? አለ።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፩",
+          "source_element_id": "V31",
+          "text": "ደቀ መዛሙርቱም። ሕዝቡ ሲያጋፉህ እያየህ። ማን ዳሰሰኝ ትላለህን? አሉት።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "፴፪",
+          "source_element_id": "V32",
+          "text": "ይህንም ያደረገችውን ለማየት ዘወር ብሎ ይመለከት ነበር።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "፴፫",
+          "source_element_id": "V33",
+          "text": "ሴቲቱ ግን የተደረገላትን ስላወቀች፥ እየፈራች እየተንቀጠቀጠችም፥ መጥታ በፊቱ ተደፋች እውነቱንም ሁሉ ነገረችው።",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "፴፬",
+          "source_element_id": "V34",
+          "text": "እርሱም። ልጄ ሆይ፥ እምነትሽ አድኖሻል፤ በሰላም ሂጂ ከሥቃይሽም ተፈወሽ አላት።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "፴፭",
+          "source_element_id": "V35",
+          "text": "እርሱም ገና ሲናገር ከምኵራብ አለቃው ቤት ዘንድ የመጡት። ልጅህ ሞታለች፤ ስለ ምን መምህሩን አሁን ታደክመዋለህ? አሉት።",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "፴፮",
+          "source_element_id": "V36",
+          "text": "ኢየሱስ ግን የተናገሩትን ቃል አድምጦ ለምኵራቡ አለቃ። እመን ብቻ እንጂ አትፍራ አለው።",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "፴፯",
+          "source_element_id": "V37",
+          "text": "ከጴጥሮስም ከያዕቆብም ከያዕቆብም ወንድም ከዮሐንስ በቀር ማንም እንዲከተለው አልፈቀደም።",
+          "unit_order": 37
+        },
+        {
+          "source_marker": "፴፰",
+          "source_element_id": "V38",
+          "text": "ወደ ምኵራቡ አለቃ ቤትም መጥቶ ሰዎች ሲንጫጩና ሲያለቅሱ ዋይታም ሲያበዙ አየ፤",
+          "unit_order": 38
+        },
+        {
+          "source_marker": "፴፱",
+          "source_element_id": "V39",
+          "text": "ገብቶም። ስለ ምን ትንጫጫላችሁ ታለቅሳላችሁም? ብላቴናይቱ ተኝታለች እንጂ አልሞተችም አላቸው።",
+          "unit_order": 39
+        },
+        {
+          "source_marker": "፵",
+          "source_element_id": "V40",
+          "text": "በጣምም ሳቁበት። እርሱ ግን ሁሉን አስወጥቶ የብላቴናይቱን አባትና እናትም ከእርሱ ጋር የነበሩትንም ይዞ ብላቴናይቱ ወዳለችበት ገባ።",
+          "unit_order": 40
+        },
+        {
+          "source_marker": "፵፩",
+          "source_element_id": "V41",
+          "text": "የብላቴናይቱንም እጅ ይዞ። ጣሊታ ቁሚ አላት፤ ፍችውም አንቺ ብላቴና ተነሽ እልሻለሁ ነው።",
+          "unit_order": 41
+        },
+        {
+          "source_marker": "፵፪",
+          "source_element_id": "V42",
+          "text": "ብላቴናይቱም የአሥራ ሁለት ዓመት ልጅ ነበረችና ወዲያው ቆማ ተመላለሰች። ወዲያውም ታላቅ መገረም ተገረሙ።",
+          "unit_order": 42
+        },
+        {
+          "source_marker": "፵፫",
+          "source_element_id": "V43",
+          "text": "ይህንም ማንም እንዳያውቅ አጥብቆ አዞአቸው። የምትበላውን ስጡአት አላቸው።",
+          "unit_order": 43
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 6,
+      "source_chapter_label": "፮",
+      "source_page_title": "መጽሐፍ ቅዱስ የማርቆስ ወንጌል ፮",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ከዚያም ወጥቶ ወደ ገዛ አገሩ መጣ ደቀ መዛሙርቱም ተከተሉት።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ሰንበትም በሆነ ጊዜ በምኵራብ ያስተምር ጀመር፤ ብዙዎችም ሰምተው ተገረሙና። እነዚህን ነገሮች ይህ ከወዴት አገኛቸው? ለዚህ የተሰጠችው ጥበብ ምንድር ናት? በእጁም የሚደረጉ እንደነዚህ ያሉ ተአምራት ምንድር ናቸው?",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ይህስ ጸራቢው የማርያም ልጅ የያቆብም የዮሳም የይሁዳም የስምዖንም ወንድም አይደለምን? እኅቶቹስ በዚህ በእኛ ዘንድ አይደሉምን? አሉ፤ ይሰናከሉበትም ነበር።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "ኢየሱስም። ነቢይ ከገዛ አገሩና ከገዛ ዘመዶቹ ከገዛ ቤቱም በቀር ሳይከበር አይቀርም አላቸው።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "በዚያም በጥቂቶች ድውዮች ላይ እጁን ጭኖ ከመፈወስ በቀር፥ ተአምር ሊያደርግ ምንም አልቻለም።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ስለ አለማመናቸውም ተደነቀ። በመንደሮችም እያስተማረ ይዞር ነበር።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "አስራ ሁለቱንም ወደ እርሱ ጠራ ሁለት ሁለቱንም ይልካቸው ጀመር፥ በርኵሳን መናፍስትም ላይ ሥልጣን ሰጣቸው፥",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ለመንገድም ከበትር በቀር እንጀራም ቢሆን ከረጢትም ቢሆን መሐለቅም በመቀነታቸው ቢሆን እንዳይዙ አዘዛቸው።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "በእግራችሁ ጫማ አድርጉ እንጂ ሁለት እጀ ጠባብ አትልበሱ አለ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "በማናቸውም ስፍራ ወደ ቤት ብትገቡ ከዚያ እስክትወጡ ድረስ በዚያው ተቀመጡ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ከማይቀበሉአችሁና ከማይሰሙአችሁ ስፍራ ሁሉ፥ ከዚያ ወጥታችሁ ምስክር ይሆንባቸው ዘንድ ከእግራችሁ በታች ያለውን ትቢያ አራግፉ። እውነት እላችኋለሁ፥ ከዚያች ከተማ ይልቅ ለሰዶምና ለገሞራ በፍርድ ቀን ይቀልላቸዋል አላቸው።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ወጥተውም ንስሐ እንዲገቡ ሰበኩ፥ ብዙ አጋንንትንም አወጡ፥",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ብዙ ድውዮችንም ዘይት እየቀቡ ፈወሱአቸው።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ስሙም ተገልጦአልና ንጉሡ ሄሮድስ በሰማ ጊዜ። መጥምቁ ዮሐንስ ከሙታን ተነሥቶአል ስለዚህም ኃይል በእርሱ ይደረጋል አለ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "ሌሎችም። ኤልያስ ነው አሉ፤ ሌሎችም። ከነቢያት እንደ አንዱ ነቢይ ነው አሉ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "ሄሮድስ ግን ሰምቶ። እኔ ራሱን ያስቈረጥሁት ዮሐንስ ይህ ነው እርሱ ከሙታን ተነሥቶአል አለ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ሄሮድስ የወንድሙን የፊልጶስን ሚስት ሄሮድያዳን አግብቶ ነበርና በእርስዋ ምክንያት ራሱ ልኮ ዮሐንስን አስይዞ በወኅኒ አሳስሮት ነበር፤",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "ዮሐንስ ሄሮድስን። የወንድምህ ሚስት ለአንተ ልትሆን አልተፈቀደም ይለው ነበርና።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "ሄሮድያዳ ግን ተቃውማው ልትገድለው ትፈልግ ነበር አልቻለችም፤",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "ሄሮድስ ዮሐንስ ጻድቅና ቅዱስ ሰው እንደ ሆነ አውቆ ይፈራውና ይጠባበቀው ነበር፤ እርሱንም ሰምቶ በብዙ ነገር ያመነታ ነበር፤",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "በደስታም ይሰማው ነበር። ሄሮድስም በተወለደበት ቀን ለመኳንንቱና ለሻለቆቹ ለገሊላም ሹማምንት ግብር ባደረገ ጊዜ ምቹ ቀን ሆነላትና",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "የሄሮድያዳ ልጅ ገብታ ስትዘፍን ሄሮድስንና ከእርሱ ጋር የተቀመጡትን ደስ አሰኘቻቸው። ንጉሡም ብላቴናይቱን። የምትወጂውን ሁሉ ለምኚኝ እሰጥሽማለሁ አላት፤",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "የመንግሥቴ እኩሌታ ስንኳ ቢሆን የምትለምኚውን ሁሉ እሰጥሻለሁ ብሎ ማለላት።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "ወጥታም ለእናትዋ። ምን ልለምነው? አለች። እርስዋም። የመጥምቁን የዮሐንስን ራስ አለች።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "ወዲያውም ፈጥና ወደ ንጉሡ ገብታ። የመጥምቁን የዮሐንስን ራስ በወጭት አሁን ልትሰጠኝ እወዳለሁ ብላ ለመነችው።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "ንጉሡም እጅግ አዝኖ ስለ መሐላው ከእርሱም ጋር ስለ ተቀመጡት ሊነሣት አልወደደም።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "ወዲያውም ንጉሡ ባለ ወግ ልኮ ራሱን እንዲያመጣ አዘዘው። ሄዶም በወኅኒ ራሱን ቈረጠ፥",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "ራሱንም በወጭት አምጥቶ ለብላቴናይቱ ሰጣት፥ ብላቴናይቱም ለእናትዋ ሰጠች።",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "ደቀ መዛሙርቱም ሰምተው መጡ በድኑንም ወስደው ቀበሩት።",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "ሐዋርያትም ወደ ኢየሱስ ተሰብስበው ያደረጉትንና ያስተማሩትን ሁሉ ነገሩት።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፩",
+          "source_element_id": "V31",
+          "text": "እናንት ራሳችሁ ብቻችሁን ወደ ምድረ በዳ ኑና ጥቂት ዕረፉ አላቸው፤ የሚመጡና የሚሄዱ ብዙዎች ነበሩና፥ ለመብላት እንኳ ጊዜ አጡ።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "፴፪",
+          "source_element_id": "V32",
+          "text": "በታንኳውም ብቻቸውን ወደ ምድረ በዳ ሄዱ።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "፴፫",
+          "source_element_id": "V33",
+          "text": "ሰዎችም ሲሄዱ አዩአቸው ብዙዎችም አወቁአቸውና ከከተሞች ሁሉ በእግር እየሮጡ ወዲያ ቀደሙአቸው ወደ እርሱም ተሰበሰቡ።",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "፴፬",
+          "source_element_id": "V34",
+          "text": "ኢየሱስም ወጥቶ ብዙ ሕዝብ አየና እረኛ እንደሌላቸው በጎች ስለ ነበሩ አዘነላቸው፥ ብዙም ነገር ያስተምራቸው ጀመር።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "፴፭",
+          "source_element_id": "V35",
+          "text": "በዚያን ጊዜም ብዙ ሰዓት ካለፈ በኋላ ደቀ መዛሙርቱ ወደ እርሱ ቀርበው። ቦታው ምድረ በዳ ነው አሁንም መሽቶአል፤",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "፴፮",
+          "source_element_id": "V36",
+          "text": "የሚበሉት የላቸውምና በዙሪያ ወዳሉ ገጠሮችና መንደሮች ሄደው እንጀራ ለራሳቸው እንዲገዙ አሰናብታቸው አሉት።",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "፴፯",
+          "source_element_id": "V37",
+          "text": "እርሱ ግን መልሶ። እናንተ የሚበሉትን ስጡአቸው አላቸው። ሄደን እንጀራ በሁለት መቶ ዲናር እንግዛላቸውን? እንዲበሉም እንስጣቸውን? አሉት።",
+          "unit_order": 37
+        },
+        {
+          "source_marker": "፴፰",
+          "source_element_id": "V38",
+          "text": "እርሱም። ስንት እንጀራ አላችሁ? ሂዱና እዩ አላቸው። ባወቁም ጊዜ። አምስት፥ ሁለትም ዓሣ አሉት።",
+          "unit_order": 38
+        },
+        {
+          "source_marker": "፴፱",
+          "source_element_id": "V39",
+          "text": "ሁሉንም በየክፍሉ በለመለመ ሣር ላይ እንዲያስቀምጡአቸው አዘዛቸው።",
+          "unit_order": 39
+        },
+        {
+          "source_marker": "፵",
+          "source_element_id": "V40",
+          "text": "መቶ መቶውና አምሳ አምሳው እየሆኑ በተራ በተራ ተቀመጡ።",
+          "unit_order": 40
+        },
+        {
+          "source_marker": "፵፩",
+          "source_element_id": "V41",
+          "text": "አምስቱንም እንጀራ ሁለቱንም ዓሣ ይዞ ወደ ሰማይ አሻቅቦ አየና ባረከ፥ እንጀራውንም ቈርሶ እንዲያቀርቡላቸው ለደቀ መዛሙርቱ ሰጠ፥",
+          "unit_order": 41
+        },
+        {
+          "source_marker": "፵፪",
+          "source_element_id": "V42",
+          "text": "ሁለቱን ዓሣ ደግሞ ለሁሉ ከፈለ። ሁሉም በልተው ጠገቡ፤",
+          "unit_order": 42
+        },
+        {
+          "source_marker": "፵፫",
+          "source_element_id": "V43",
+          "text": "ከቍርስራሹም አሥራ ሁለት መሶብ የሞላ አነሡ ከዓሣውም ደግሞ።",
+          "unit_order": 43
+        },
+        {
+          "source_marker": "፵፬",
+          "source_element_id": "V44",
+          "text": "እንጀራውንም የበሉት ወንዶቹ አምስት ሺህ ነበሩ።",
+          "unit_order": 44
+        },
+        {
+          "source_marker": "፵፭",
+          "source_element_id": "V45",
+          "text": "ወዲያውም ሕዝቡን ሲያሰናብት ሳለ ደቀ መዛሙርቱ በታንኳ ገብተው ወደ ማዶ ወደ ቤተ ሳይዳ እንዲቀድሙት ግድ አላቸው።",
+          "unit_order": 45
+        },
+        {
+          "source_marker": "፵፮",
+          "source_element_id": "V46",
+          "text": "ካሰናበታቸውም በኋላ ሊጸልይ ወደ ተራራ ወጣ።",
+          "unit_order": 46
+        },
+        {
+          "source_marker": "፵፯",
+          "source_element_id": "V47",
+          "text": "በመሸም ጊዜ ታንኳይቱ በባሕር መካከል ሳለች እርሱ ብቻውን በምድር ላይ ነበረ።",
+          "unit_order": 47
+        },
+        {
+          "source_marker": "፵፰",
+          "source_element_id": "V48",
+          "text": "ነፋስ ወደ ፊታቸው ነበረና እየቀዘፉ ሲጨነቁ አይቶ፥ ከሌሊቱ በአራተኛው ክፍል በባሕር ላይ እየሄደ ወደ እነርሱ መጣ፤ ሊያልፋቸውም ይወድ ነበር።",
+          "unit_order": 48
+        },
+        {
+          "source_marker": "፵፱",
+          "source_element_id": "V49",
+          "text": "እነርሱ ግን በባሕር ላይ ሲሄድ ባዩት ጊዜ ምትሀት መሰላቸውና ጮኹ፥",
+          "unit_order": 49
+        },
+        {
+          "source_marker": "፶",
+          "source_element_id": "V50",
+          "text": "ሁሉ አይተውታልና፥ ታወኩም። ወዲያውም ተናገራቸውና። አይዞአችሁ፤ እኔ ነኝ፥ አትፍሩ አላቸው።",
+          "unit_order": 50
+        },
+        {
+          "source_marker": "፶፩",
+          "source_element_id": "V51",
+          "text": "ወደ እነርሱም ወደ ታንኳይቱ ገባ፥ ነፋሱም ተወ፤ በራሳቸውም ያለ መጠን እጅግ ተገረሙ፤",
+          "unit_order": 51
+        },
+        {
+          "source_marker": "፶፪",
+          "source_element_id": "V52",
+          "text": "ስለ እንጀራው አላስተዋሉምና፤ ነገር ግን ልባቸው ደንዝዞ ነበር።",
+          "unit_order": 52
+        },
+        {
+          "source_marker": "፶፫",
+          "source_element_id": "V53",
+          "text": "ተሻግረውም ወደ ምድር ወደ ጌንሴሬጥ ደረሱ ታንኳይቱንም አስጠጉ።",
+          "unit_order": 53
+        },
+        {
+          "source_marker": "፶፬",
+          "source_element_id": "V54",
+          "text": "ከታንኳይቱም ሲወጡ ወዲያው አውቀውት",
+          "unit_order": 54
+        },
+        {
+          "source_marker": "፶፭",
+          "source_element_id": "V55",
+          "text": "በዚያች አገር ሁሉ ዙሪያ ሮጡና እርሱ እንዳለ ወደ ሰሙበት ስፍራ ሕመምተኞችን በአልጋ ላይ ያመጡ ጀመር።",
+          "unit_order": 55
+        },
+        {
+          "source_marker": "፶፮",
+          "source_element_id": "V56",
+          "text": "በገባበትም ስፍራ ሁሉ፥ መንደርም ከተማም ገጠርም ቢሆን፥ በገበያ ድውዮችን ያኖሩ ነበር፤ የልብሱንም ጫፍ እንኳ ሊዳስሱ ይለምኑት ነበር የዳሰሱትም ሁሉ ዳኑ።",
+          "unit_order": 56
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 7,
+      "source_chapter_label": "፯",
+      "source_page_title": "መጽሐፍ ቅዱስ የማርቆስ ወንጌል ፯",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ፈሪሳውያንና ከጻፎች ወገን ከኢየሩሳሌም የመጡትም ወደ እርሱ ተሰበሰቡ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ከደቀ መዛሙርቱም አንዳንድ በርኵስ ማለት ባልታጠበ እጅ እንጀራ ሲበሉ አዩ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ፈሪሳውያንና አይሁድም ሁሉ የሽማግሎችን ወግ ሲጠብቁ እጃቸውን ደኅና አድርገው ሳይታጠቡ አይበሉምና፥",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "ከገበያም ተመልሰው ካልታጠቡ አይበሉም፥ ጽዋንም ማድጋንም የናስ ዕቃንም አልጋንም እንደ ማጠብ ሌላ ነገር ሊጠብቁት የተቀበሉት ብዙ አለ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ፈሪሳውያንም ጻፎችም። ደቀ መዛሙርትህ እንደ ሽማግሌዎች ወግ ስለ ምን አይሄዱም? ነገር ግን እጃቸውን ሳይታጠቡ እንጀራ ይበላሉ ብለው ጠየቁት።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "እርሱ ግን እንዲህ አላቸው። ኢሳይያስ ስለ እናንተ ስለ ግብዞች። ይህ ሕዝብ በከንፈሩ ያከብረኛል ልቡ ግን ከእኔ በጣም የራቀ ነው፤",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "የሰውም ሥርዓት የሆነ ትምህርት እያስተማሩ በከንቱ ያመልኩኛል ተብሎ እንደ ተጻፈ በእውነት ትንቢት ተናገረ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "የእግዚአብሔርን ትእዛዝ ትታችሁ ጽዋን ማድጋንም እንደ ማጠብ የሰውን ወግ ትጠብቃላችሁ፥ ይህንም የመሰለ ብዙ ሌላ ነገር ታደርጋላችሁ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "እንዲህም አላቸው። ወጋችሁን ትጠብቁ ዘንድ የእግዚአብሔርን ትእዛዝ እጅግ ንቃችኋል።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ሙሴ። አባትህንና እናትህን አክብር፤ ደግሞ። አባቱን ወይም እናቱን የሰደበ ፈጽሞ ይሙት ብሎአልና።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "እናንተ ግን ትላላችሁ። ሰው አባቱን ወይም እናቱን። ከእኔ የምትጠቀምበት ነገር ሁሉ ቍርባን ማለት መባ ነው ቢል፥",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ለአባቱና ለእናቱ ምንም እንኳ ሊያደርግ ወደ ፊት አትፈቅዱለትም፤",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ባስተላለፋችሁትም ወግ የእግዚአብሔርን ቃል ትሽራላችሁ፤ እንደዚሁም ይህን የሚመስል ብዙ ነገር ታደርጋላችሁ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ደግሞም ሕዝቡን ጠርቶ። ሁላችሁ እኔን ስሙ አስተውሉም።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "ከሰው የሚወጡት ሰውን የሚያረክሱ ናቸው እንጂ ከሰው ውጭ የሚገባውስ ሊያረክሰው የሚችል ምንም የለም።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "የሚሰማ ጆሮ ያለው ቢኖር ይስማ አላቸው።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ከሕዝቡ ዘንድ ወደ ቤት ከገባ በኋላ ደቀ መዛሙርቱ ምሳሌውን ጠየቁት።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "እርሱም። እናንተ ደግሞ እንደዚህ የማታስተውሉ ናችሁን? ከውጭ ወደ ሰው የሚገባ ሊያረክሰው ምንም እንዳይችል አትመለከቱምን?",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "ወደ ሆድ ገብቶ ወደ እዳሪ ይወጣል እንጂ ወደ ልብ አይገባምና፤ መብልን ሁሉ እያጠራ አላቸው።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "እርሱም አለ። ከሰው የሚወጣው ሰውን የሚያረክስ ያ ነው።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "ከውስጥ ከሰው ልብ የሚወጣ ክፉ አሳብ፥",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ዝሙት፥ መስረቅ፥ መግደል፥ ምንዝርነት፥ መጐምጀት፥ ክፋት፥ ተንኰል፥ መዳራት፥ ምቀኝነት፥ ስድብ፥ ትዕቢት፥ ስንፍና ናቸውና፤",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "ይህ ክፉው ሁሉ ከውስጥ ይወጣል ሰውን ያረክሰዋል።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "ከዚያም ተነሥቶ ወደ ጢሮስና ወደ ሲዶና አገር ሄደ። ወደ ቤትም ገብቶ ማንም እንዳያውቅበት ወደደ ሊሰወርም አልተቻለውም፤",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "ወዲያው ግን ታናሺቱ ልጅዋ ርኵስ መንፈስ ያደረባት አንዲት ሴት ስለ እርሱ ሰምታ መጣችና በእግሩ ላይ ተደፋች",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "ሴቲቱም ግሪክ፥ ትውልድዋም ሲሮፊኒቃዊት ነበረች፤ ከልጅዋ ጋኔን ያወጣላት ዘንድ ለመነችው።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "ኢየሱስ ግን። ልጆቹ በፊት ይጠግቡ ዘንድ ተዪ የልጆቹን እንጀራ ይዞ ለቡችሎች መጣል አይገባምናአላት።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "እርስዋም መልሳ። አዎን፥ ጌታ ሆይ፥ ቡችሎች እንኳ ከማዕድ በታች ሆነው የልጆችን ፍርፋሪ ይበላሉ አለችው።",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "እርሱም። ስለዚህ ቃልሽ ሂጂ ጋኔኑ ከልጅሽ ወጥቶአል አላት።",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "ወደ ቤትዋም ሄዳ ጋኔኑ ወጥቶ ልጅዋም በአልጋ ላይ ተኝታ አገኘች።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፩",
+          "source_element_id": "V31",
+          "text": "ደግሞም ከጢሮስ አገር ወጥቶ በሲዶና አልፎ አሥር ከተማ በሚባል አገር መካከል ወደ ገሊላ ባሕር መጣ።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "፴፪",
+          "source_element_id": "V32",
+          "text": "ደንቆሮና ኰልታፋም የሆነ ሰው ወደ እርሱ አመጡ፥",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "፴፫",
+          "source_element_id": "V33",
+          "text": "እጁንም ይጭንበት ዘንድ ለመኑት። ከሕዝቡም ለይቶ ለብቻው ወሰደው፥ ጣቶቹንም በጆሮቹ አገባ እንትፍም ብሎ መላሱን ዳሰሰ፤",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "፴፬",
+          "source_element_id": "V34",
+          "text": "ወደ ሰማይም አሻቅቦ አይቶ ቃተተና። ኤፍታህ አለው፥ እርሱም ተከፈት ማለት ነው።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "፴፭",
+          "source_element_id": "V35",
+          "text": "ወዲያውም ጆሮቹ ተከፈቱ የመላሱም እስራት ተፈታ አጥርቶም ተናገረ።",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "፴፮",
+          "source_element_id": "V36",
+          "text": "ለማንም አትንገሩ ብሎ አዘዛቸው እነርሱ ግን ባዘዛቸውም መጠን ይልቅ እጅግ አወሩት።",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "፴፯",
+          "source_element_id": "V37",
+          "text": "ያለ መጠንም ተገረሙና። ሁሉን ደኅና አድርጎአል፤ ደንቆሮችም እንዲሰሙ ዲዳዎችም እንዲናገሩ ያደርጋል አሉ።",
+          "unit_order": 37
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 8,
+      "source_chapter_label": "፰",
+      "source_page_title": "መጽሐፍ ቅዱስ የማርቆስ ወንጌል ፰",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "በዚያ ወራት ደግሞ ብዙ ሕዝብ ነበረ የሚበሉትም ስለሌላቸው ደቀ መዛሙርቱን ጠርቶ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ሕዝቡ ከእኔ ጋር እስካሁን ሦስት ቀን ውለዋልና የሚበሉት ስለሌላቸው አዝንላቸዋለሁ፤",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ከእነርሱም አንዳንዶቹ ከሩቅ መጥተዋልና ጦማቸውን ወደ ቤታቸው ባሰናብታቸው በመንገድ ይዝላሉ አላቸው።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "ደቀ መዛሙርቱም። በዚህ በምድረ በዳ እንጀራ ከየት አግኝቶ ሰው እነዚህን ማጥገብ ይችላል? ብለው መለሱለት።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "እርሱም። ስንት እንጀራ አላችሁ? ብሎ ጠየቃቸው፥ እነርሱም። ሰባት አሉት።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ሕዝቡም በምድር እንዲቀመጡ አዘዘ። ሰባቱንም እንጀራ ይዞ አመሰገነ፥ ቈርሶም እንዲያቀርቡላቸው ለደቀ መዛሙርቱ ሰጠ፥ ለሕዝቡም አቀረቡ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ጥቂትም ትንሽ ዓሣ ነበራቸው፤ ባረከውም ይህንም ደግሞ እንዲያቀርቡላቸው አዘዘ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "በሉም ጠገቡም፥ የተረፈውንም ቍርስራሽ ሰባት ቅርጫት አነሡ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "የበሉትም አራት ሺህ ያህል ነበሩ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "አሰናበታቸውም። ወዲያውም ከደቀ መዛሙርቱ ጋር ወደ ታንኳይቱ ገብቶ ወደ ዳልማኑታ አገር መጣ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ፈሪሳውያንም ወጡና ሊፈትኑት ከሰማይ ምልክት ከእርሱ ፈልገው ከእርሱ ጋር ይከራከሩ ጀመር።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "በመንፈሱም እጅግ ቃተተና። ይህ ትውልድ ስለ ምን ምልክት ይፈልጋል? እውነት እላችኋለሁ፥ ለዚህ ትውልድ ምልክት አይሰጠውም አለ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ትቶአቸውም እንደ ገና ወደ ታንኳይቱ ገብቶ ወደ ማዶ ሄደ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "እንጀራ መያዝም ረሱ፥ ለእነርሱም ከአንድ እንጀራ በቀር በታንኳይቱ አልነበራቸውም።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "እርሱም። ተጠንቀቁ፤ ከፈሪሳውያንና ከሄሮድስ እርሾ ተጠበቁ ብሎ አዘዛቸው።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "እርስ በርሳቸውም። እንጀራ ስለሌለን ይሆናል ብለው ተነጋገሩ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ኢየሱስም አውቆ እንዲህ አላቸው። እንጀራ ስለሌላችሁ ስለ ምን ትነጋገራላችሁ? ገና አልተመለከታችሁምን? አላስተዋላችሁምን?",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "ልባችሁስ ደንዝዞአልን? ዓይን ሳላችሁ አታዩምን? ጆሮስ ሳላችሁ አትሰሙምን? ትዝስ አይላችሁምን?",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "አምስቱን እንጀራ ለአምስት ሺህ በቈረስሁ ጊዜ፥ ቍርስራሹ የሞላ ስንት መሶብ አነሣችሁ? እነርሱም። አሥራ ሁለት አሉት።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "ሰባቱን እንጀራስ ለአራት ሺህ በቈረስሁ ጊዜ፥ ቍርስራሹ የሞላ ስንት ቅርጫት አነሣችሁ? እነርሱም። ሰባት አሉት።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "ገና አላስተዋላችሁምን? አላቸው።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ወደ ቤተ ሳይዳም መጡ። ዕውርም አመጡለት፥ እንዲዳስሰውም ለመኑት።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "ዕውሩንም እጁን ይዞ ከመንደር ውጭ አወጣው፥ በዓይኑም ተፍቶበት እጁንም ጭኖበት። አንዳች ታያለህን ብሎ ጠየቀው።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "አሻቅቦም። ሰዎች እንደ ዛፍ ሲመላለሱ አያለሁ አለ።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "ከዚህም በኋላ ደግሞ እጁን በዓይኑ ላይ ጫነበት አጥርቶም አየና ዳነም ከሩቅም ሳይቀር ሁሉን ተመለከተ።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "ወደ ቤቱም ሰደደውና። ወደ መንደሩ አትግባ በመንደሩም ለማንም አንዳች አትናገር አለው።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "ኢየሱስና ደቀ መዛሙርቱም በፊልጶስ ቂሣርያ ወዳሉ መንደሮች ወጡ በመንገድም። ሰዎች እኔ ማን እንደ ሆንሁ ይላሉ? ብሎ ደቀ መዛሙርቱን ጠየቃቸው።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "እነርሱም። መጥምቁ ዮሐንስ፥ ሌሎችም ኤልያስ፥ ሌሎችም ከነቢያት አንዱ ብለው ነገሩት።",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "እናንተስ እኔ ማን እንደ ሆንሁ ትላላችሁ? ብሎ ጠየቃቸው። ጴጥሮስም። አንተ ክርስቶስ ነህ ብሎ መለሰለት።",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "ስለ እርሱም ለማንም እንዳይናገሩ አዘዛቸው።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፩",
+          "source_element_id": "V31",
+          "text": "የሰው ልጅ ብዙ መከራ ሊቀበል፥ ከሽማግሌዎችም ከካህናት አለቆችም ከጻፎችም ሊጣል፥ ሊገደልም ከሦስት ቀንም በኋላ ሊነሣ እንዲገባው ያስተምራቸው ጀመር፤ ቃሉንም ገልጦ ይናገር ነበር።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "፴፪",
+          "source_element_id": "V32",
+          "text": "ጴጥሮስም ወደ እርሱ ወስዶ ይገሥጸው ጀመር።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "፴፫",
+          "source_element_id": "V33",
+          "text": "እርሱ ግን ዘወር አለ ደቀ መዛሙርቱንም አይቶ ጴጥሮስን ገሠጸውና። ወደ ኋላዬ ሂድ፥ አንተ ሰይጣን፤ የሰውን እንጂ የእግዚአብሔርን ነገር አታስብምና አለው።",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "፴፬",
+          "source_element_id": "V34",
+          "text": "ሕዝቡንም ከደቀ መዛሙርቱ ጋር ጠርቶ እንዲህ አላቸው። በኋላዬ ሊመጣ የሚወድ ቢኖር፥ ራሱን ይካድ መስቀሉንም ተሸክሞ ይከተለኝ።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "፴፭",
+          "source_element_id": "V35",
+          "text": "ነፍሱን ሊያድን የሚወድ ሁሉ ያጠፋታልና፥ ስለ እኔና ስለ ወንጌል ነፍሱን የሚያጠፋ ሁሉ ግን ያድናታል።",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "፴፮",
+          "source_element_id": "V36",
+          "text": "ሰው ዓለምን ሁሉ ቢያተርፍ ነፍሱንም ቢያጐድል ምን ይጠቅመዋል?",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "፴፯",
+          "source_element_id": "V37",
+          "text": "ሰውስ ስለ ነፍሱ ቤዛ ምን ይሰጣል?",
+          "unit_order": 37
+        },
+        {
+          "source_marker": "፴፰",
+          "source_element_id": "V38",
+          "text": "በዚህም በዘማዊና በኃጢአተኛ ትውልድ መካከል በእኔና በቃሌ የሚያፍር ሁሉ፥ የሰው ልጅ ደግሞ በአባቱ ክብር ከቅዱሳን መላእክት ጋር በመጣ ጊዜ በእርሱ ያፍርበታል።",
+          "unit_order": 38
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 9,
+      "source_chapter_label": "፱",
+      "source_page_title": "መጽሐፍ ቅዱስ የማርቆስ ወንጌል ፱",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "እውነት እላችኋለሁ፥ በዚህ ከቆሙት ሰዎች የእግዚአብሔር መንግሥት በኃይል ስትመጣ እስኪያዩ ድረስ፥ ሞትን የማይቀምሱ አንዳንዶች አሉ አላቸው።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ከስድስት ቀንም በኋላ ኢየሱስ ጴጥሮስንና ያዕቆብን ዮሐንስንም ይዞ ወደ ረጅም ተራራ ብቻቸውን አወጣቸው። በፊታቸውም ተለወጠ፥ ልብሱም አንጸባረቀ፤",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "አጣቢም በምድር ላይ እንደዚያ ሊያነጣው እስከማይችል በጣም ነጭ ሆነ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "ኤልያስና ሙሴም ታዩአቸው፥ ከኢየሱስም ጋር ይነጋገሩ ነበር።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ጴጥሮስም መልሶ ኢየሱስን። መምህር ሆይ፥ በዚህ መሆን ለእኛ መልካም ነውና አንድ ለአንተ አንድም ለሙሴ አንድም ለኤልያስ ሦስት ዳሶች እንሥራ አለው።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "እጅግ ስለ ፈሩ የሚለውን አያውቅም ነበር።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ደመናም መጥቶ ጋረዳቸው፥ ከደመናውም። የምወደው ልጄ ይህ ነው፥ እርሱን ስሙት የሚል ድምፅ መጣ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ድንገትም ዞረው ሲመለከቱ ከእነርሱ ጋር ከኢየሱስ ብቻ በቀር ማንንም አላዩም።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ከተራራውም ሲወርዱ የሰው ልጅ ከሙታን እስኪነሣ ድረስ ያዩትን ለማንም እንዳይነግሩ አዘዛቸው።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ቃሉንም ይዘው። ከሙታን መነሣት ምንድር ነው? እያሉ እርስ በርሳቸው ተጠያየቁ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "እነርሱም። ኤልያስ አስቀድሞ ሊመጣ እንዲገባው ጻፎች ስለ ምን ይላሉ? ብለው ጠየቁት።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "እርሱም መልሶ። ኤልያስማ አስቀድሞ ይመጣል ሁሉንም ያቀናናል፤ ስለ ሰው ልጅም እንዴት ተብሎ ተጽፎአል? ብዙ መከራ እንዲቀበል እንዲናቅም።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ነገር ግን እላችኋለሁ፥ ኤልያስ ደግሞ መጥቶአል፥ ስለ እርሱም እንደ ተጸፈ የወደዱትን ሁሉ አደረጉበት አላቸው።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ወደ ደቀ መዛሙርቱም በመጣ ጊዜ ብዙ ሕዝብ ሲከብቡአቸው ጻፎችም ከእነርሱ ጋር ሲከራከሩ አየ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "ወዲያውም ሕዝቡ ሁሉ ባዩት ጊዜ ደነገጡ፥ ወደ እርሱም ሮጠው እጅ ነሡት።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "ጻፎችንም። ስለ ምን ከእነርሱ ጋር ትከራከራላችሁ? ብሎ ጠየቃቸው።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ከሕዝቡ አንዱ መልሶ። መምህር ሆይ፥ ዲዳ መንፈስ ያደረበትን ልጄን ወደ አንተ አምጥቼአለሁ፤",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "በያዘውም ስፍራ ሁሉ ይጥለዋል፤ አረፋም ይደፍቃል፥ ጥርሱንም ያፋጫል ይደርቃልም፤ እንዲያወጡለትም ለደቀ መዛሙርትህ ነገርኋቸው፥ አልቻሉምም አለው።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "እርሱም መልሶ። የማታምን ትውልድ ሆይ፥ እስከመቼ ከእናንተ ጋር እኖራለሁ? እስከ መቼስ እታገሣችኋለሁ? ወደ እኔ አምጡት አላቸው።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "ወደ እርሱም አመጡት። እርሱንም ባየ ጊዜ ያ መንፈስ ወዲያው አንፈራገጠው፤ ወደ ምድርም ወድቆ አረፋ እየደፈቀ ተንፈራፈረ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "አባቱንም። ይህ ከያዘው ስንት ዘመን ነው? ብሎ ጠየቀው። እርሱም። ከሕፃንነቱ ጀምሮ ነው፤",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ብዙ ጊዜም ሊያጠፋው ወደ እሳትም ወደ ውኃም ጣለው፤ ቢቻልህ ግን እዘንልን እርዳንም አለው።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "ኢየሱስም። ቢቻልህ ትላለህ፤ ለሚያምን ሁሉ ይቻላል አለው።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "ወዲያውም የብላቴናው አባት ጮኾ። አምናለሁ፤ አለማመኔን እርዳው አለ።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "ኢየሱስም ሕዝቡ እንደ ገና ሲራወጥ አይቶ ርኵሱን መንፈስ ገሠጸና። አንተ ዲዳ ደንቆሮም መንፈስ፥ እኔ አዝሃለሁ፥ ከእርሱ ውጣ እንግዲህም አትግባበት አለው።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "ጮኾም እጅግም አንፈራግጦት ወጣ፤ ብዙዎችም። ሞተ እስኪሉ ድረስ እንደ ሙት ሆነ።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "ኢየሱስ ግን እጁን ይዞ አስነሣው ቆመም።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "ወደ ቤትም ከገባ በኋላ ደቀ መዛሙርቱ። እኛ ልናወጣው ያልቻልን ስለ ምንድር ነው? ብለው ብቻውን ጠየቁት።",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "ይህ ወገን በጸሎትና በጦም ካልሆነ በምንም ሊወጣ አይችልም አላቸው።",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴-፴፪",
+          "source_element_id": "V30",
+          "text": "እነርሱም ነገሩን አላስተዋሉም፥ እንዳይጠይቁትም ፈሩ።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፫",
+          "source_element_id": "V33",
+          "text": "ወደ ቅፍርናሆምም መጣ። በቤትም ሆኖ። በመንገድ እርስ በርሳችሁ ምን ተነጋገራችሁ? ብሎ ጠየቃቸው።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "፴፬",
+          "source_element_id": "V34",
+          "text": "እነርሱ ግን በመንገድ። ከሁሉ የሚበልጥ ማን ይሆን? ተባብለው ነበርና ዝም አሉ።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "፴፭",
+          "source_element_id": "V35",
+          "text": "ተቀምጦም አሥራ ሁለቱን ጠርቶ። ሰው ፊተኛ ሊሆን ቢወድ ከሁሉ በኋላ የሁሉም አገልጋይ ይሁን አላቸው።",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "፴፮",
+          "source_element_id": "V36",
+          "text": "ሕፃንም ይዞ በመካከላቸው አቆመው አቅፎም።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "፴፯",
+          "source_element_id": "V37",
+          "text": "እንደዚህ ካሉ ሕፃናት አንዱን በስሜ የሚቀበል ሁሉ እኔን ይቀበላል፤ የሚቀበለኝም ሁሉ የላከኝን እንጂ እኔን አይቀበልም አላቸው።",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "፴፰",
+          "source_element_id": "V38",
+          "text": "ዮሐንስ መልሶ። መምህር ሆይ፥ አንድ ሰው በስምህ አጋንንትን ሲያወጣ አየነው፥",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "፴፱",
+          "source_element_id": "V39",
+          "text": "ስለማይከተለንም ከለከልነው አለው። ኢየሱስ ግን አለ። በስሜ ተአምር ሠርቶ በቶሎ በእኔ ላይ ክፉ መናገር የሚችል ማንም የለምና አትከልክሉት፤",
+          "unit_order": 37
+        },
+        {
+          "source_marker": "፵",
+          "source_element_id": "V40",
+          "text": "የማይቃወመን እርሱ ከእኛ ጋር ነውና።",
+          "unit_order": 38
+        },
+        {
+          "source_marker": "፵፩",
+          "source_element_id": "V41",
+          "text": "የክርስቶስ ስለ ሆናችሁ በስሜ ጽዋ ውኃ የሚያጠጣችሁ ሁሉ፥ ዋጋው እንዳይጠፋበት እውነት እላችኋለሁ።",
+          "unit_order": 39
+        },
+        {
+          "source_marker": "፵፪",
+          "source_element_id": "V42",
+          "text": "በእኔም ከሚያምኑት ከእነዚህ ከታናናሾቹ አንዱን የሚያሰናክል ሁሉ ትልቅ የወፍጮ ድንጋይ በአንገቱ ታስሮ ወደ ባሕር ቢጣል ይሻለው ነበር።",
+          "unit_order": 40
+        },
+        {
+          "source_marker": "፵፫-፵፱",
+          "source_element_id": "V43",
+          "text": "ሰው ሁሉ በእሳት ይቀመማልና፥ መሥዋዕትም ሁሉ በጨው ይቀመማል።",
+          "unit_order": 41
+        },
+        {
+          "source_marker": "፶",
+          "source_element_id": "V50",
+          "text": "ጨው መልካም ነው፤ ጨው ግን አልጫ ቢሆን በምን ታጣፍጡታላችሁ? በነፍሳችሁ ጨው ይኑርባችሁ፥ እርስ በርሳችሁም ተስማሙ።",
+          "unit_order": 42
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 10,
+      "source_chapter_label": "፲",
+      "source_page_title": "መጽሐፍ ቅዱስ የማርቆስ ወንጌል ፲",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ከዚያም ተነሥቶ በዮርዳኖስ ማዶ ወደ ይሁዳ አገር መጣ፥ ደግሞም ብዙ ሰዎች ወደ እርሱ ተሰበሰቡ እንደ ልማዱም ደግሞ ያስተምራቸው ነበር።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ፈሪሳውያንም ቀርበው። ሰው ሚስቱን ሊፈታ ተፈቅዶለታልን? ብለው ሊፈትኑት ጠየቁት።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "እርሱ ግን መልሶ። ሙሴ ምን አዘዛችሁ? አላቸው።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "እነርሱም። ሙሴስ የፍችዋን ጽሕፈት ጽፎ እንዲፈታት ፈቀደ አሉ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ኢየሱስም መልሶ እንዲህ አላቸው። ስለ ልባችሁ ጥንካሬ ይህችን ትእዛዝ ጻፈላችሁ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ከፍጥረት መጀመሪያ ግን እግዚአብሔር ወንድና ሴት አደረጋቸው፤",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ስለዚህ ሰው አባቱንና እናቱን ይተዋል ከሚስቱም ጋር ይተባበራል፥",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ሁለቱም አንድ ሥጋ ይሆናሉ፤ ስለዚህ አንድ ሥጋ ናቸው እንጂ ወደ ፊት ሁለት አይደሉም።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "እግዚአብሔር ያጣመረውን እንግዲህ ሰው አይለየው።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "በቤትም ደግሞ ደቀ መዛሙርቱ ስለዚህ ነገር ጠየቁት።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "እርሱም። ሚስቱን ፈትቶ ሌላ የሚያገባ ሁሉ በእርስዋ ላይ ያመነዝራል፤",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "እርስዋም ባልዋን ፈትታ ሌላ ብታገባ ታመነዝራለች አላቸው።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "እንዲዳስሳቸውም ሕፃናትን ወደ እርሱ አመጡ፤ ደቀ መዛሙርቱም ያመጡአቸውን ገሠጹአቸው።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ኢየሱስ ግን አይቶ ተቈጣና። ሕፃናትን ወደ እኔ ይመጡ ዘንድ ተዉ አትከልክሉአቸው፤ የእግዚአብሔር መንግሥት እንደነዚህ ላሉት ናትና።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "እውነት እላችኋለሁ፤ የእግዚአብሔርን መንግሥት እንደ ሕፃን የማይቀበላት ሁሉ ከቶ አይገባባትም አላቸው።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "አቀፋቸውም እጁንም ጭኖ ባረካቸው።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "እርሱም በመንገድ ሲወጣ አንድ ሰው ወደ እርሱ ሮጦ ተንበረከከለትና። ቸር መምህር ሆይ፥ የዘላለም ሕይወትን እወርስ ዘንድ ምን ላድርግ? ብሎ ጠየቀው።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "ኢየሱስም። ስለ ምን ቸር ትለኛለህ? ከአንዱ ከእግዚአብሔር በቀር ቸር ማንም የለም።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "ትእዛዛትን ታውቃለህ፤ አታመንዝር፥ አትግደል፥ አትስረቅ፥ በሐሰት አትመስክር፥ አታታልል፥ አባትህንና እናትህን አክብር አለው።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "እርሱም መልሶ። መምህር ሆይ፥ ይህን ሁሉ ከሕፃንነቴ ጀምሬ ጠብቄአለሁ አለው።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "ኢየሱስም ወደ እርሱ ተመልክቶ ወደደውና። አንድ ነገር ጐደለህ፤ ሂድ፥ ያለህን ሁሉ ሽጠህ ለድሆች ስጥ፥ በሰማይም መዝገብ ታገኛለህ፥ መስቀሉንም ተሸክመህ ና፥ ተከተለኝ አለው።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ነገር ግን ስለዚህ ነገር ፊቱ ጠቈረ፥ ብዙ ንብረት ነበረውና እያዘነም ሄደ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "ኢየሱስም ዘወር ብሎ አይቶ ደቀ መዛሙርቱን። ገንዘብ ላላቸው ወደ እግዚአብሔር መንግሥት መግባት እንዴት ጭንቅ ይሆናል አላቸው።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "ደቀ መዛሙርቱም እነዚህን ቃሎች አደነቁ። ኢየሱስም ደግሞ መልሶ። ልጆች ሆይ፥ በገንዘብ ለሚታመኑ ወደ እግዚአብሔር መንግሥት መግባት እንዴት ጭንቅ ነው።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "ባለ ጠጋ ወደ እግዚአብሔር መንግሥት ከሚገባ ግመል በመርፌ ቀዳዳ ቢያልፍ ይቀላል አላቸው።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "እነርሱም ያለ መጠን ተገረሙና እርስ በርሳቸው። እንግዲያ ማን ሊድን ይችላል? ተባባሉ።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "ኢየሱስም ተመለከታቸውና። ይህ በእግዚአብሔር ዘንድ እንጂ በሰው ዘንድ አይቻልም፤ በእግዚአብሔር ዘንድ ሁሉ ይቻላልና አለ።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "ጴጥሮስም። እነሆ፥ እኛ ሁሉን ትተን ተከተልንህ ይለው ጀመር።",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "ኢየሱስም መልሶ እንዲህ አለ። እውነት እላችኋለሁ፥ ስለ እኔና ስለ ወንጌል ቤትን ወይም ወንድሞችን ወይም እኅቶችን ወይም አባትን ወይም እናትን ወይም ሚስትን ወይም ልጆችን ወይም እርሻን የተወ፥",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "አሁን በዚህ ዘመን ከስደት ጋር ቤቶችን ወንድሞችንና እኅቶችንም እናቶችንም ልጆችንም እርሻንም መቶ እጥፍ፥ በሚመጣውም ዓለም የዘላለም ሕይወት የማይቀበል ማንም የለም።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፩",
+          "source_element_id": "V31",
+          "text": "ግን ብዙ ፊተኞች ኋለኞች ኋለኞችም ፊተኞች ይሆናሉ።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "፴፪",
+          "source_element_id": "V32",
+          "text": "ወደ ኢየሩሳሌምም ሊወጡ በመንገድ ነበሩ፥ ኢየሱስም ይቀድማቸው ነበርና ተደነቁ፤ የተከተሉትም ይፈሩ ነበር። ደግሞም አሥራ ሁለቱን ወደ እርሱ አቅርቦ ይደርስበት ዘንድ ያለውን ይነግራቸው ጀመር።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "፴፫",
+          "source_element_id": "V33",
+          "text": "እነሆ፥ ወደ ኢየሩሳሌም እንወጣለን፥ የሰው ልጅም ለካህናት አለቆችና ለጻፎች አልፎ ይሰጣል፥ የሞት ፍርድም ይፈርዱበታል፥ ለአሕዛብም አሳልፈው ይሰጡታል፥",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "፴፬",
+          "source_element_id": "V34",
+          "text": "ይዘብቱበትማል ይተፉበትማል ይገርፉትማል ይገድሉትማል፥ በሦስተኛውም ቀን ይነሣል አላቸው።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "፴፭",
+          "source_element_id": "V35",
+          "text": "የዘብዴዎስ ልጆች ያዕቆብና ዮሐንስም ወደ እርሱ ቀርበው። መምህር ሆይ፥ የምንለምንህን ሁሉ እንድታደርግልን እንወዳለን አሉት።",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "፴፮",
+          "source_element_id": "V36",
+          "text": "እርሱም። ምን ላደርግላችሁ ትወዳላችሁ? አላቸው።",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "፴፯",
+          "source_element_id": "V37",
+          "text": "እነርሱም። በክብርህ ጊዜ አንዳችን በቀኝ አንዳችንም በግራህ መቀመጥን ስጠን አሉት።",
+          "unit_order": 37
+        },
+        {
+          "source_marker": "፴፰",
+          "source_element_id": "V38",
+          "text": "ኢየሱስ ግን። የምትለምኑትን አታውቁም። እኔ የምጠጣውን ጽዋ ልትጠጡ፥ እኔ የምጠመቀውንስ ጥምቀት ልትጠመቁ ትችላላችሁን? አላቸው።",
+          "unit_order": 38
+        },
+        {
+          "source_marker": "፴፱",
+          "source_element_id": "V39",
+          "text": "እነርሱም። እንችላለን አሉት። ኢየሱስም። እኔ የምጠጣውን ጽዋ ትጠጣላችሁ፥ እኔ የምጠመቀውንም ጥምቀት ትጠመቃላችሁ፤",
+          "unit_order": 39
+        },
+        {
+          "source_marker": "፵",
+          "source_element_id": "V40",
+          "text": "በቀኝና በግራ መቀመጥ ግን ለተዘጋጀላቸው ነው እንጂ የምሰጥ እኔ አይደለሁም አላቸው።",
+          "unit_order": 40
+        },
+        {
+          "source_marker": "፵፩",
+          "source_element_id": "V41",
+          "text": "አሥሩም ሰምተው በያዕቆብና በዮሐንስ ይቈጡ ጀመር።",
+          "unit_order": 41
+        },
+        {
+          "source_marker": "፵፪",
+          "source_element_id": "V42",
+          "text": "ኢየሱስም ወደ እርሱ ጠርቶ እንዲህ አላቸው። የአሕዛብ አለቆች ተብሎ የምታስቡት እንዲገዙአቸው ታላላቆቻቸውም በላያቸው እንዲሠለጥኑ ታውቃላችሁ።",
+          "unit_order": 42
+        },
+        {
+          "source_marker": "፵፫",
+          "source_element_id": "V43",
+          "text": "በእናንተስ እንዲህ አይደለም፤ ነገር ግን ማንም ከእናንተ ታላቅ ሊሆን የሚወድ የእናንተ አገልጋይ ይሁን፥",
+          "unit_order": 43
+        },
+        {
+          "source_marker": "፵፬",
+          "source_element_id": "V44",
+          "text": "ከእናንተም ማንም ፊተኛ ሊሆን የሚወድ የሁሉ ባሪያ ይሁን፤",
+          "unit_order": 44
+        },
+        {
+          "source_marker": "፵፭",
+          "source_element_id": "V45",
+          "text": "እንዲሁ የሰው ልጅም ሊያገለግልና ነፍሱን ለብዙዎች ቤዛ ሊሰጥ እንጂ እንዲያገለግሉት አልመጣም።",
+          "unit_order": 45
+        },
+        {
+          "source_marker": "፵፮",
+          "source_element_id": "V46",
+          "text": "ወደ ኢያሪኮም መጡ። ከደቀ መዛሙርቱና ከብዙ ሕዝብ ጋር ከኢያሪኮ ሲወጣ የጤሜዎስ ልጅ ዕውሩ በርጤሜዎስ እየለመነ በመንገድ ዳር ተቀምጦ ነበር።",
+          "unit_order": 46
+        },
+        {
+          "source_marker": "፵፯",
+          "source_element_id": "V47",
+          "text": "የናዝሬቱ ኢየሱስም እንደ ሆነ በሰማ ጊዜ። የዳዊት ልጅ ኢየሱስ ሆይ፥ ማረኝ እያለ ይጮኽ ጀመር።",
+          "unit_order": 47
+        },
+        {
+          "source_marker": "፵፰",
+          "source_element_id": "V48",
+          "text": "ብዙዎችም ዝም እንዲል ገሠጹት፤ እርሱ ግን። የዳዊት ልጅ ሆይ፥ ማረኝ እያለ አብዝቶ ጮኸ።",
+          "unit_order": 48
+        },
+        {
+          "source_marker": "፵፱",
+          "source_element_id": "V49",
+          "text": "ኢየሱስም ቆመና። ጥሩት አለ። ዕውሩንም። አይዞህ፥ ተነሣ፥ ይጠራሃል ብለው ጠሩት።",
+          "unit_order": 49
+        },
+        {
+          "source_marker": "፶",
+          "source_element_id": "V50",
+          "text": "እርሱም እየዘለለ ተነሣና ልብሱን ጥሎ ወደ ኢየሱስ መጣ።",
+          "unit_order": 50
+        },
+        {
+          "source_marker": "፶፩",
+          "source_element_id": "V51",
+          "text": "ኢየሱስም መልሶ። ምን ላደርግልህ ትወዳለህ? አለው። ዕውሩም። መምህር ሆይ፥ አይ ዘንድ አለው።",
+          "unit_order": 51
+        },
+        {
+          "source_marker": "፶፪",
+          "source_element_id": "V52",
+          "text": "ኢየሱስም። ሂድ፤ እምነትህ አድኖሃል አለው። ወዲያውም አየ በመንገድም ተከተለው።",
+          "unit_order": 52
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 11,
+      "source_chapter_label": "፲፩",
+      "source_page_title": "መጽሐፍ ቅዱስ የማርቆስ ወንጌል ፲፩",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ወደ ኢየሩሳሌምም ከደብረ ዘይት አጠገብ ወዳሉቱ ወደ ቤተ ፋጌና ወደ ቢታንያ በቀረቡ ጊዜ፥ ከደቀ መዛሙርቱ ሁለቱን ልኮ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "በፊታችሁ ወዳለችው መንደር ሂዱ፥ ወዲያውም ወደ እርስዋ ገብታችሁ ከሰው ማንም ገና ያልተቀመጠበት ውርንጫ ታስሮ ታገኛላችሁ፤ ፈትታችሁ አምጡልኝ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ማንም። ስለ ምን እንዲህ ታደርጋላችሁ? ቢላችሁ። ለጌታ ያስፈልገዋል በሉት፥ ወዲያውም ደግሞ ወደዚህ ይሰደዋል አላቸው።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "ሄዱም ውርንጫውንም በመንገድ መተላለፊያ በደጅ ውጭ ታስሮ አገኙት፥ ፈቱትም።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "በዚያም ከቆሙት አንዳንዶቹ። ውርንጫውን የምትፈቱት ምን ልታደርጉት ነው አሉአቸው።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "እነርሱም ኢየሱስ እንዳዘዘ አሉአቸው፤ ተዉአቸውም።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ውርንጫውንም ወደ ኢየሱስ አመጡት፥ ልብሳቸውንም በላዩ ጣሉ፥ ተቀመጠበትም።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ብዙ ሰዎችም ልብሳቸውን በመንገድ ላይ አነጠፉ፥ ሌሎችም ከዛፍ ቅጠሎችን እየቈረጡ ያነጥፉ ነበር።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "የሚቀድሙትም የሚከተሉትም። ሆሣዕና፤ በጌታ ስም የሚመጣ የተባረከ ነው፤",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "በጌታ ስም የምትመጣ የአባታችን የዳዊት መንግሥት የተባረከች ናት፤ ሆሣዕና በአርያም እያሉ ይጮኹ ነበር።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ኢየሱስም ወደ ኢየሩሳሌም ወደ መቅደስ ገባ፤ ዘወር ብሎም ሁሉን ከተመለከተ በኋላ፥ ጊዜው መሽቶ ስለ ነበረ ከአሥራ ሁለቱ ጋር ወደ ቢታንያ ወጣ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "በማግሥቱም ከቢታንያ ሲወጡ ተራበ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ቅጠልም ያላት በለስ ከሩቅ አይቶ ምናልባት አንዳች ይገኝባት እንደ ሆነ ብሎ መጣ፥ ነገር ግን የበለስ ወራት አልነበረምና መጥቶ ከቅጠል በቀር ምንም አላገኘባትም።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "መልሶም። ከአሁን ጀምሮ ለዘላለም ማንም ከአንቺ ፍሬ አይብላ አላት። ደቀ መዛሙርቱም ሰሙ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "ወደ ኢየሩሳሌምም መጡ። ወደ መቅደስም ገብቶ በመቅደስ የሚሸጡትንና የሚገዙትን ያወጣ ጀመር፥ የገንዘብ ለዋጮችንም ገበታዎች የርግብ ሻጭዎችንም ወንበሮች ገለበጠ፤",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "ዕቃም ተሸክሞ ማንም በመቅደስ ሊያልፍ አልፈቀደም።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "አስተማራቸውም። ቤቴ ለአሕዛብ ሁሉ የጸሎት ቤት ትባላለች ተብሎ የተጻፈ አይደለምን? እናንተ ግን የወንበዶች ዋሻ አደረጋችኋት አላቸው።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "የካህናት አለቆችም ጻፎችም ሰምተው፥ ሕዝቡ ሁሉ በትምህርቱ ይገረሙ ስለ ነበር ይፈሩት ነበርና እንዴት አድርገው እንዲያጠፉት ፈለጉ።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "ማታ ማታም ከከተማ ወደ ውጭ ይወጣ ነበር።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "ማለዳም ሲያልፉ በለሲቱን ከሥርዋ ደርቃ አዩአት።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "ጴጥሮስም ትዝ ብሎት። መምህር ሆይ፥ እነሆ፥ የረገምሃት በለስ ደርቃለች አለው።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ኢየሱስም መልሶ እንዲህ አላቸው። በእግዚአብሔር እመኑ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "እውነት እላችኋለሁ፥ ማንም ያለው ነገር እንዲደረግለት ቢያምን በልቡ ሳይጠራጠር፥ ይህን ተራራ። ተነቅለህ ወደ ባሕር ተወርወር ቢል ይሆንለታል።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "ስለዚህ እላችኋለሁ፥ የጸለያችሁትን የለመናችሁትንም ሁሉ እንዳገኛችሁት እመኑ፥ ይሆንላችሁማል።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "ለጸሎትም በቆማችሁ ጊዜ፥ በሰማያት ያለው አባታችሁ ደግሞ ኃጢአታችሁን ይቅር እንዲላችሁ፥ በማንም ላይ አንዳች ቢኖርባችሁ ይቅር በሉት።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "እናንተ ግን ይቅር ባትሉ በሰማያት ያለው አባታችሁም ኃጢአታችሁን ይቅር አይላችሁም።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "ደግሞም ወደ ኢየሩሳሌም መጡ። እርሱም በመቅደስ ሲመላለስ፥ የካህናት አለቆችና ጻፎች ሽማግሌዎችም ወደ እርሱ መጥተው።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "እነዚህን በምን ሥልጣን ታደርጋለህ? ወይስ እነዚህን ለማድረግ ይህን ሥልጣን ማን ሰጠህ? አሉት።",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "ኢየሱስም። እኔም አንዲት ነገር እጠይቃችኋለሁ፥ እናንተም መልሱልኝ፥ እኔም በምን ሥልጣን እነዚህን እንዳደርግ እነግራችኋለሁ።",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "የዮሐንስ ጥምቀት ከሰማይ ነበረችን ወይስ ከሰው? መልሱልኝ አላቸው።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፩",
+          "source_element_id": "V31",
+          "text": "እርስ በርሳቸውም ሲነጋገሩ። ከሰማይ ነው ብንል። እንግዲያውስ ስለ ምን አላመናችሁበትም? ይለናል፤",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "፴፪",
+          "source_element_id": "V32",
+          "text": "ነገር ግን። ከሰው ነው እንበልን? አሉ፤ ሁሉ ዮሐንስን በእውነት እንደ ነቢይ ያዩት ነበርና ሕዝቡን ፈሩ።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "፴፫",
+          "source_element_id": "V33",
+          "text": "ለኢየሱስም መልሰው። አናውቅም አሉት ኢየሱስም። እኔም በምን ሥልጣን እነዚህን እንዳደርግ አልነግራችሁም አላቸው።",
+          "unit_order": 33
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 12,
+      "source_chapter_label": "፲፪",
+      "source_page_title": "መጽሐፍ ቅዱስ የማርቆስ ወንጌል ፲፪",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "በምሳሌም ይነግራቸው ጀመር። አንድ ሰው የወይን አትክልት ተከለ፥ ቅጥርም ቀጠረለት፥ መጥመቂያም ማሰለት፥ ግንብም ሠራና ለገበሬዎች አከራይቶ ወደ ሌላ አገር ሄደ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "በጊዜውም ከወይን አትክልት ፍሬ ከገበሬዎቹ እንዲቀበል አንድ ባሪያ ወደ ገበሬዎቹ ላከ፤",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ይዘውም ደበደቡት ባዶውንም ሰደዱት።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "ዳግመኛም ሌላውን ባሪያ ወደ እነርሱ ላከ እርሱንም ወግረው ራሱን አቈሰሉት አዋርደውም ሰደዱት።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ሌላውንም ላከ፤ እርሱንም ገደሉት፥ ከሌሎችም ከብዙዎች አንዳንዱን ደበደቡ አንዳንዱንም ገደሉ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "የሚወደው አንድ ልጅ ገና ነበረው፤ ልጄንስ ያፍሩታል ብሎ እርሱን ከሁሉ በኋላ ወደ እነርሱ ላከ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "እነዚያ ገበሬዎች ግን እርስ በርሳቸው። ወራሹ ይህ ነው፤ ኑ፥ እንግደለው፥ ርስቱም ለኛ ይሆናል ተባባሉ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ይዘውም ገደሉት፥ ከወይኑም አትክልት ወደ ውጭ ጣሉት።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "እንግዲህ የወይኑ አትክልት ጌታ ምን ያደርጋል? ይመጣል ገበሬዎቹንም ያጠፋል፥ የወይኑንም አትክልት ለሌሎች ይሰጣል።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲-፲፪",
+          "source_element_id": "V10",
+          "text": "ምሳሌውንም ስለ እነርሱ እንደ ተናገረ አውቀዋልና ሊይዙት ፈለጉ፥ ነገር ግን ሕዝቡን ፈሩ። ትተውትም ሄዱ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "በንግግርም ሊያጠምዱት ከፈሪሳውያንና ከሄሮድስ ወገን የሆኑትን ወደ እርሱ ላኩ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "መጥተውም። መምህር ሆይ፥ የሰውን ፊት ሳትመለከት በእውነት የእግዚአብሔር መንገድ ታስተምራለህና እውነተኛ እንደ ሆንህ ለማንምም እንዳታደላ እናውቃለን፤ ለቄሣር ግብር መስጠት ተፈቅዶአልን ወይስ አልተፈቀደም? እንስጥን ወይስ አንስጥ? አሉት።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "እርሱ ግን ግብዝነታቸውን አውቆ። ለምን ትፈትኑኛላችሁ? አየው ዘንድ አንድ ዲናር አምጡልኝ አላቸው።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "እነርሱም አመጡለት። ይህች መልክ ጽሕፈቲቱስ የማን ናት? አላቸው፤ እነርሱም። የቄሣር ናት አሉት።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ኢየሱስም መልሶ። የቄሣርን ለቄሣር የእግዚአብሔርንም ለእግዚአብሔር አስረክቡ አላቸው። በእርሱም ተደነቁ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "ትንሣኤ ሙታን የለም የሚሉ ሰዱቃውያን ወደ እርሱ መጥተው ጠየቁት እንዲህም አሉት።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "መምህር ሆይ፥ ሙሴ። የአንድ ሰው ወንድም ሚስቱን ትቶ ልጅ ሳያስቀር ቢሞት፥ ወንድሙ ሚስቱን አግብቶ ለወንድሙ ዘር ይተካ ብሎ ጻፈልን።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "ሰባት ወንድማማቾች ነበሩ፤ ፊተኛውም ሚስት አግብቶ ዘር ሳያስቀር ሞተ፤",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "ሁለተኛውም አገባት፥ ዘርም ሳይተው ሞተ፤ ሦስተኛውም እንዲሁ፤",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ሰባቱም አገቡአት፥ ዘርም አላስቀሩም። ከሁሉም በኋላ ሴቲቱ ደግሞ ሞተች።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "ሰባቱ አግብተዋታልና በትንሣኤ ቀን ሲነሡ ከእነርሱ ለማናቸው ሚስት ትሆናለች?",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "ኢየሱስም መልሶ እንዲህ አላቸው። መጻሕፍትንና የእግዚአብሔርን ኃይል አታውቁምና ስለዚህ የምትስቱ አይደለምን?",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "ከሙታንስ ሲነሡ በሰማያት እንዳሉ መላእክት ይሆናሉ እንጂ አያገቡም፥ አይጋቡምም።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "ስለ ሙታን ግን እንዲነሡ እግዚአብሔር። እኔ የአብርሃም አምላክ የይስሐቅም አምላክ የያዕቆብም አምላክ ነኝ እንዳለው በሙሴ መጽሐፍ በቍጥቋጦው ዘንድ የተጻፈውን አላነበባችሁምን?",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "የሕያዋን አምላክ ነው እንጂ የሙታን አይደለም። እንግዲህ እጅግ ትስታላችሁ።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "ከጻፎችም አንዱ ቀርቦ ሲከራከሩ ሰማና መልካም አድርጎ እንደ መለሰላቸው አስተውሎ። ከሁሉ ፊተኛይቱ ትእዛዝ ማናቸይቱ ናት? ብሎ ጠየቀው።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "ኢየሱስም መልሶ እንዲህ አለው። ከትእዛዛቱ ሁሉ ፊተኛይቱ። እስራኤል ሆይ፥ ስማ፤ ጌታ አምላካችን አንድ ጌታ ነው፥",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "አንተም በፍጹም ልብህ በፍጹምም ነፍስህ በፍጹምም አሳብህ በፍጹምም ኃይልህ ጌታ አምላክህን ውደድ የምትል ናት። ፊተኛይቱ ትእዛዝ ይህች ናት።",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፴፩",
+          "source_element_id": "V31",
+          "text": "ሁለተኛይቱም። ባልንጀራህን እንደ ራስህ ውደድ የምትል እርስዋን የምትመስል ይህች ናት። ከእነዚህ የምትበልጥ ሌላ ትእዛዝ የለችም።",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴፪",
+          "source_element_id": "V32",
+          "text": "ጻፊውም። መልካም ነው፥ መምህር ሆይ፤ አንድ ነው ከእርሱም በቀር ሌላ የለም ብለህ በእውነት ተናገርህ፤",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፫",
+          "source_element_id": "V33",
+          "text": "በፍጹም ልብ በፍጹም አእምሮም በፍጹም ነፍስም በፍጹም ኃይልም እርሱን መውደድ፥ ባልንጀራንም እንደ ራስ መውደድ በሙሉ ከሚቃጠል መሥዋዕትና ከሌላው መሥዋዕት ሁሉ የሚበልጥ ነው አለው።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "፴፬",
+          "source_element_id": "V34",
+          "text": "ኢየሱስም በአእምሮ እንደ መለሰ አይቶ። አንተ ከእግዚአብሔር መንግሥት የራቅህ አይደለህም አለው። ከዚህም በኋላ ማንም ሊጠይቀው አልደፈረም።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "፴፭",
+          "source_element_id": "V35",
+          "text": "ኢየሱስም በመቅደስ ሲያስተምር መልሶ እንዲህ አለ። ጻፎች ክርስቶስ የዳዊት ልጅ ነው እንዴት ይላሉ?",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "፴፮",
+          "source_element_id": "V36",
+          "text": "ዳዊት ራሱ በመንፈስ ቅዱስ። ጌታ ጌታዬን። ጠላቶችህን የእግርህ መረገጫ እስካደርግልህ ድረስ በቀኜ ተቀመጥ አለው አለ።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "፴፯",
+          "source_element_id": "V37",
+          "text": "ዳዊትም ራሱ ጌታ አለው፤ እንዴትስ ልጁ ይሆናል? ብዙ ሕዝብም በደስታ ይሰሙት ነበር።",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "፴፰-፵",
+          "source_element_id": "V38",
+          "text": "የመበለቶችን ቤት የሚበሉ ጸሎታቸውንም በማስረዘም የሚያመካኙ እነዚህ የባሰ ፍርድ ይቀበላሉ።",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "፵፩",
+          "source_element_id": "V41",
+          "text": "ኢየሱስም በመዝገብ አንጻር ተቀምጦ ሕዝቡ በመዝገብ ውስጥ ገንዘብ እንዴት እንዲጥሉ ያይ ነበር፤ ብዙ ባለ ጠጎችም ብዙ ይጥሉ ነበር፤",
+          "unit_order": 37
+        },
+        {
+          "source_marker": "፵፪",
+          "source_element_id": "V42",
+          "text": "አንዲትም ድሀ መበለት መጥታ አንድ ሳንቲም የሚያህሉ ሁለት ናስ ጣለች።",
+          "unit_order": 38
+        },
+        {
+          "source_marker": "፵፫",
+          "source_element_id": "V43",
+          "text": "ደቀ መዛሙርቱንም ጠርቶ። እውነት እላችኋለሁ፥ በመዝገብ ውስጥ ከሚጥሉት ሁሉ ይልቅ ይህች ድሀ መበለት አብልጣ ጣለች፤",
+          "unit_order": 39
+        },
+        {
+          "source_marker": "፵፬",
+          "source_element_id": "V44",
+          "text": "ሁሉ ከትርፋቸው ጥለዋልና፥ ይህች ግን ከጕድለትዋ የነበራትን ሁሉ ትዳርዋን ሁሉ ጣለች አላቸው።",
+          "unit_order": 40
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 13,
+      "source_chapter_label": "፲፫",
+      "source_page_title": "መጽሐፍ ቅዱስ የማርቆስ ወንጌል ፲፫",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "እርሱም ከመቅደስ ሲወጣ ከደቀ መዛሙርቱ አንዱ። መምህር ሆይ፥ እንዴት ያሉ ድንጋይዎችና እንዴት ያሉ ሕንጻዎች እንደ ሆኑ እይ አለው።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ኢየሱስም መልሶ። እነዚህን ታላላቅ ሕንጻዎች ታያለህን? ድንጋይ በድንጋይ ላይ ሳይፈርስ በዚህ አይቀርም አለው።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "በመቅደስም ትይዩ በደብረ ዘይት ተቀምጦ ሳለ፥ ጴጥሮስና ያዕቆብ ዮሐንስም እንድርያስም።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "ንገረን፥ ይህ መቼ ይሆናል? ይህስ ሁሉ ይፈጸም ዘንድ እንዳለው ምልክቱ ምንድር ነው? ብለው ለብቻቸው ጠየቁት።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ኢየሱስም መልሶ እንዲህ ይላቸው ጀመር። ማንም እንዳያስታችሁ ተጠንቀቁ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ብዙዎች። እኔ ነኝ እያሉ በስሜ ይመጣሉና፥ ብዙዎችንም ያስታሉ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ጦርንም የጦርንም ወሬ በሰማችሁ ጊዜ አትደንግጡ፤ ይህ ሊሆን ግድ ነውና፥ ነገር ግን መጨረሻው ገና ነው።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ሕዝብ በሕዝብ ላይ መንግሥትም በመንግሥት ላይ ይነሣልና፤ በልዩ ልዩ ስፍራ የምድር መናወጥ ይሆናል፤ ራብ ይሆናል፤ እነዚህ የምጥ ጣር መጀመሪያ ናቸው።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "እናንተ ግን ለራሳችሁ ተጠንቀቁ፤ ወደ ሸንጎ አሳልፈው ይሰጡአችኋል በምኵራብም ትገረፋላችሁ ምስክርም ይሆንባቸው ዘንድ ስለ እኔ በገዥዎችና በነገሥታት ፊት ትቆማላችሁ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "አስቀድሞም ወንጌል ለአሕዛብ ሁሉ ይሰበክ ዘንድ ይገባል።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ሲጐትቱአችሁና አሳልፈው ሲሰጡአችሁም ምን እንድትናገሩ አስቀድማችሁ አትጨነቁ፥ ዳሩ ግን በዚያች ሰዓት የሚሰጣችሁን ተናገሩ፤ የሚነግረው መንፈስ ቅዱስ ነው እንጂ እናንተ አይደላችሁምና።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ወንድምም ወንድሙን አባትም ልጁን ለሞት አሳልፎ ይሰጣል፥ ልጆችም በወላጆቻቸው ላይ ይነሣሉ። ይገድሉአቸውማል፤",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "በሁሉም ዘንድ ስለ ስሜ የተጠላችሁ ትሆናላችሁ፤ እስከ መጨረሻ የሚጸና ግን እርሱ ይድናል።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ነገር ግን በነቢዩ በዳንኤል የተባለውን የጥፋት ርኵሰት በማይገባው ስፍራ ቆሞ ብታዩ፥ አንባቢው ያስተውል፥ በዚያን ጊዜ በይሁዳ ያሉ ወደ ተራሮች ይሽሹ፥",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "በሰገነትም ያለ ወደ ቤት አይውረድ ከቤቱም አንዳች ይወስድ ዘንድ አይግባ፥",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "በእርሻም ያለ ልብሱን ይወስድ ዘንድ ወደ ኋላው አይመለስ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "በዚያን ወራትም ለርጉዞችና ለሚያጠቡ ወዮላቸው።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "ነገር ግን ሽሽታችሁ በክረምት እንዳይሆን ጸልዩ፤",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "በዚያን ወራት እግዚአብሔር ከፈጠረው ከፍጥረት መጀመሪያ ጀምሮ እስከ አሁን ድረስ ያልሆነ ደግሞም የማይሆን የመከራ ዓይነት ይሆናልና።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "ጌታስ ወራቶቹን ባያሳጥር፥ ሥጋ የለበሰ ሁሉ ባልዳነም፤ ነገር ግን ስለ መረጣቸው ምርጦች ወራቶቹን አሳጠረ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "በዚያን ጊዜም ማንም። እነሆ፥ ክርስቶስ ከዚህ አለ፥ ወይም። እነሆ፥ ከዚያ አለ ቢላችሁ አትመኑ፤",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ሐሰተኞች ክርስቶሶችና ሐሰተኞች ነቢያት ይነሣሉና፥ ቢቻላቸውስ የተመረጡትን እንኳ ያስቱ ዘንድ ምልክትና ድንቅ ያደርጋሉ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "እናንተ ግን ተጠንቀቁ፤ እነሆ፥ አስቀድሜ ሁሉን ነገርኋችሁ።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "በዚያን ወራት ግን ከዚያ መከራ በኋላ ፀሐይ ይጨልማል ጨረቃም ብርሃንዋን አትሰጥም፥",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "ከዋክብትም ከሰማይ ይወድቃሉ፥ የሰማያትም ኃይላት ይናወጣሉ።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "በዚያን ጊዜም የሰው ልጅ በብዙ ኃይልና ክብር በደመና ሲመጣ ያዩታል።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "በዚያን ጊዜም መላእክትን ይልካል ከአራቱ ነፋሳትም ከምድር ዳርቻ እስከ ሰማይ ዳርቻ የተመረጡትን ይሰበስባቸዋል።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "ምሳሌውንም ከበለስ ተማሩ፤ ጫፍዋ ሲለሰልስ ቅጠልዋም ሲያቈጠቍጥ፥ ያን ጊዜ በጋ እንደ ቀረበ ታውቃላችሁ፤",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "እንዲሁ ደግሞ እናንተ ይህን ሁሉ መሆኑን ስታዩ ቀርቦ በደጅ እንደ ሆነ እወቁ።",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "እውነት እላችኋለሁ፥ ይህ ሁሉ እስኪሆን ድረስ ይህ ትውልድ አያልፍም።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፩",
+          "source_element_id": "V31",
+          "text": "ሰማይና ምድር ያልፋሉ ቃሌ ግን አያልፍም።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "፴፪",
+          "source_element_id": "V32",
+          "text": "ስለዚያች ቀን ወይም ስለዚያች ሰዓት ግን የሰማይ መላእክትም ቢሆኑ ልጅም ቢሆን ከአባት በቀር የሚያውቅ የለም።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "፴፫",
+          "source_element_id": "V33",
+          "text": "ጊዜው መቼ እንዲሆን አታውቁምና ተጠንቀቁ፤ ትጉ፤ ጸልዩም።",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "፴፬",
+          "source_element_id": "V34",
+          "text": "ቤቱን ትቶ ወደ ሌላ አገር እንደ ሄደ ሰው ነው፥ ለባሮቹም ሥልጣን ለእያንዳንዱም ሥራውን ሰጥቶ በረኛውን እንዲተጋ አዘዘ።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "፴፭",
+          "source_element_id": "V35",
+          "text": "እንግዲህ በማታ ቢሆን ወይም በእኩለ ሌሊት ወይም ዶሮ ሲጮኽ ወይም በማለዳ ቢሆን ባለቤቱ መቼ እንዲመጣ አታውቁምና",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "፴፮",
+          "source_element_id": "V36",
+          "text": "ድንገት መጥቶ ተኝታችሁ እንዳያገኛችሁ ስለዚህ ትጉ።",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "፴፯",
+          "source_element_id": "V37",
+          "text": "ለእናንተም የምነግራችሁ ለሁሉ እላለሁ፤ ትጉ።",
+          "unit_order": 37
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 14,
+      "source_chapter_label": "፲፬",
+      "source_page_title": "መጽሐፍ ቅዱስ የማርቆስ ወንጌል ፲፬",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ከሁለት ቀን በኋላ ፋሲካና የቂጣ በዓል ነበረ። የካህናት አለቆችም ጻፎችም እንዴት አድርገው በተንኰል እንደሚይዙትና እንደሚገድሉት ይፈልጉ ነበር።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "የሕዝብ ሁከት እንዳይሆን በበዓል አይሁን ይሉ ነበርና።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "እርሱም በቢታንያ በለምጻሙ በስምዖን ቤት በነበረ ጊዜ፥ በማዕድ ተቀምጦ ሳለ፥ አንዲት ሴት ዋጋው እጅግ የከበረ ጥሩ ናርዶስ ሽቱ የመላበት የአልባስጥሮስ ቢልቃጥ ይዛ መጣች፤ ቢልቃጡንም ሰብራ በራሱ ላይ አፈሰሰችው።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "አንዳንዶችም። ይህ የሽቱ ጥፋት ለምንድር ነው?",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ይህ ሽቱ ከሦስት መቶ ዲናር በሚበልጥ ዋጋ ተሽጦ ለድሆች ሊሰጥ ይቻል ነበርና ብለው በራሳቸው ይቈጡ ነበር፤ እርስዋንም ነቀፉአት።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ኢየሱስ ግን እንዲህ አለ። ተዉአት፤ ስለ ምን ታደክሙአታላችሁ? መልካም ሥራ ሠርታልኛለች።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ድሆች ሁልጊዜ ከእናንተ ጋር ይኖራሉና፥ በማናቸውም በወደዳችሁት ጊዜ መልካም ልታደርጉላቸው ትችላላችሁ፥ እኔ ግን ሁልጊዜ ከእናንተ ጋር አልኖርም።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "የተቻላትን አደረገች፤ አስቀድማ ለመቃብሬ ሥጋዬን ቀባችው።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "እውነት እላችኋለሁ፥ ይህ ወንጌል በዓለሙ ሁሉ በሚሰበክበት በማናቸውም ስፍራ፥ እርስዋ ያደረገችው ደግሞ ለእርስዋ መታሰቢያ ሊሆን ይነገራል።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ከአሥራ ሁለቱም አንዱ የአስቆሮቱ ይሁዳ አሳልፎ ሊሰጠው ወደ ካህናት አለቆች ሄደ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ሲሰሙም ደስ አላቸው ብርም ይሰጡት ዘንድ ተስፋ ሰጡት። በሚመች ጊዜም እንዴት አድርጎ አሳልፎ እንዲሰጠው ይፈልግ ነበር።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ፋሲካን በሚያርዱበት በቂጣ በዓል መጀመሪያ ቀን ደቀ መዛሙርቱ። ፋሲካን ትበላ ዘንድ ወዴት ሄደን ልናሰናዳ ትወዳለህ? አሉት።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ከደቀ መዛሙርቱም ሁለት ላከ እንዲህም አላቸው። ወደ ከተማ ሂዱ፥ ማድጋ ውኃ የተሸከመ ሰውም ይገናኛችኋል፤",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ተከተሉት፥ የሚገባበትንም የቤቱን ጌታ። መምህሩ። ከደቀ መዛሙርቴ ጋር ፋሲካን የምበላበት የእንግዳ ቤት ወዴት ነው? ይላል በሉት።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "እርሱም በደርብ ላይ ያለውን የተሰናዳና የተነጠፈ ታላቅ አዳራሽ ያሳያችኋል፤",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "በዚያም አሰናዱልን። ደቀ መዛሙርቱም ወጡ ወደ ከተማም ሄደው እንዳላቸው አገኙ፥ ፋሲካንም አሰናዱ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "በመሸም ጊዜ ከአሥራ ሁለቱ ጋር መጣ።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "ተቀምጠውም ሲበሉ ኢየሱስ። እውነት እላችኋለሁ፥ ከእናንተ አንዱ፥ እርሱም ከእኔ ጋር የሚበላው አሳልፎ ይሰጠኛል አለ።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "እነርሱም ያዝኑ፥ እያንዳንዳቸውም። እኔ እሆንን? ይሉት ጀመር።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "እርሱም መልሶ። ከአሥራ ሁለቱ አንዱ ከእኔ ጋር ወደ ወጭቱ እጁን የሚያጠልቀው ነው።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "የሰው ልጅስ ስለ እርሱ እንደ ተጻፈ ይሄዳል፤ ነገር ግን የሰው ልጅ አልፎ ለሚሰጥበት ለዚያ ሰው ወዮለት፤ ያ ሰው ባልተወለደ ይሻለው ነበር አላቸው።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ሲበሉም ኢየሱስ እንጀራን አንሥቶ ባረከ ቈርሶም ሰጣቸውና። እንካችሁ፤ ይህ ሥጋዬ ነው አለ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "ጽዋንም አንሥቶ አመስግኖም ሰጣቸው፥ ሁሉም ከእርሱ ጠጡ።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "እርሱም። ይህ ስለ ብዙዎች የሚፈስ የአዲስ ኪዳን ደሜ ነው።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "እውነት እላችኋለሁ፥ በእግዚአብሔር መንግሥት ከወይኑ ፍሬ አዲሱን እስከምጠጣበት እስከዚያ ቀን ድረስ ደግሞ አልጠጣውም አላቸው።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "መዝሙርም ከዘመሩ በኋላ ወደ ደብረ ዘይት ወጡ።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "ኢየሱስም። በዚች ሌሊት ሁላችሁ በእኔ ትሰናከላላችሁ፤ እረኛዉን እመታለሁ በጎችም ይበተናሉ የሚል ተጽፎአልና።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "ነገር ግን ከተነሣሁ በኋላ ወደ ገሊላ እቀድማችኋለሁ አላቸው።",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "ጴጥሮስም። ሁሉም ቢሰናከሉ እኔ ግን ከቶ አልሰናከልም አለው።",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "ኢየሱስም። እውነት እልሃለሁ፥ ዛሬ በዚች ሌሊት ዶሮ ሁለት ጊዜ ሳይጮኽ ሦስት ጊዜ ትክደኛለህ አለው።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፩",
+          "source_element_id": "V31",
+          "text": "እርሱም ቃሉን አበርትቶ። ከአንተ ጋር የምሞት እንኳ ቢሆን ከቶ አልክድህም አለ። ሁሉም ደግሞ እንደዚሁ አሉ።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "፴፪",
+          "source_element_id": "V32",
+          "text": "ጌቴሴማኒ ወደምትባልም ስፍራ መጡ፥ ደቀ መዛሙርቱንም። ስጸልይ ሳለሁ፥ በዚህ ተቀመጡ አላቸው።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "፴፫",
+          "source_element_id": "V33",
+          "text": "ጴጥሮስንና ያዕቆብን ዮሐንስንም ከእርሱ ጋር ወሰደ፤ ሊደነግጥም ሊተክዝም ጀመረና።",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "፴፬",
+          "source_element_id": "V34",
+          "text": "ነፍሴ እስከ ሞት ድረስ እጅግ አዘነች፤ በዚህ ቈዩ ትጉም አላቸው።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "፴፭",
+          "source_element_id": "V35",
+          "text": "ጥቂትም ወደ ፊት እልፍ ብሎ በምድርም ወድቆ፥ ይቻልስ ቢሆን ሰዓቲቱ ከእርሱ እንድታልፍ ጸለየና።",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "፴፮",
+          "source_element_id": "V36",
+          "text": "አባ አባት ሆይ፥ ሁሉ ይቻልሃል፤ ይህችን ጽዋ ከእኔ ውሰድ፤ ነገር ግን አንተ የምትወደው እንጂ እኔ የምወደው አይሁን አለ።",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "፴፯",
+          "source_element_id": "V37",
+          "text": "መጣም ተኝተውም አገኛቸው፥ ጴጥሮስንም። ስምዖን ሆይ፥ ተኝተሃልን? አንዲት ሰዓት ስንኳ ልትተጋ አልቻልህምን?",
+          "unit_order": 37
+        },
+        {
+          "source_marker": "፴፰",
+          "source_element_id": "V38",
+          "text": "ወደ ፈተና እንዳትገቡ ትጉ ጸልዩም፤ መንፈስስ ተዘጋጅታለች፥ ሥጋ ግን ደካማ ነው አለው።",
+          "unit_order": 38
+        },
+        {
+          "source_marker": "፴፱",
+          "source_element_id": "V39",
+          "text": "ደግሞም ሄዶ ያንኑ ቃል ጸለየ።",
+          "unit_order": 39
+        },
+        {
+          "source_marker": "፵",
+          "source_element_id": "V40",
+          "text": "ደግሞም መጥቶ ዓይኖቻቸው በእንቅልፍ ከብደው ነበርና ተኝተው አገኛቸው፥ የሚመልሱለትንም አላወቁም።",
+          "unit_order": 40
+        },
+        {
+          "source_marker": "፵፩",
+          "source_element_id": "V41",
+          "text": "ሦስተኛም መጥቶ። እንግዲህስ ተኙ ዕረፉም፤ ይበቃል፤ ሰዓቲቱ ደረሰች፤ እነሆ፥ የሰው ልጅ በኃጢአተኞች እጅ አልፎ ይሰጣል።",
+          "unit_order": 41
+        },
+        {
+          "source_marker": "፵፪",
+          "source_element_id": "V42",
+          "text": "ተነሡ፥ እንሂድ፤ እነሆ፥ አሳልፎ የሚሰጠኝ ቀርቦአል አላቸው።",
+          "unit_order": 42
+        },
+        {
+          "source_marker": "፵፫",
+          "source_element_id": "V43",
+          "text": "ወዲያውም ገና ሲናገር ከአሥራ ሁለቱ አንዱ ይሁዳ መጣ፥ ከእርሱም ጋር ብዙ ሰዎች ሰይፍና ጐመድ ይዘው ከካህናት አለቆችና ከጻፎች ከሽማግሌዎችም ዘንድ መጡ።",
+          "unit_order": 43
+        },
+        {
+          "source_marker": "፵፬",
+          "source_element_id": "V44",
+          "text": "አሳልፎ የሚሰጠውም። የምስመው እርሱ ነው፤ ያዙት ተጠንቅቃችሁም ውሰዱት ብሎ ምልክት ሰጥቶአቸው ነበር።",
+          "unit_order": 44
+        },
+        {
+          "source_marker": "፵፭",
+          "source_element_id": "V45",
+          "text": "መጥቶም ወዲያው ወደ እርሱ ቀረበና። መምህር ሆይ፥ መምህር ሆይ፥ ብሎ ሳመው፤",
+          "unit_order": 45
+        },
+        {
+          "source_marker": "፵፮",
+          "source_element_id": "V46",
+          "text": "እነርሱም እጃቸውን በእርሱ ላይ ጭነው ያዙት።",
+          "unit_order": 46
+        },
+        {
+          "source_marker": "፵፯",
+          "source_element_id": "V47",
+          "text": "በአጠገብ ከቆሙት ግን አንዱ ሰይፉን መዞ የሊቀ ካህናቱን ባሪያ መታ ጆሮውንም ቈረጠ።",
+          "unit_order": 47
+        },
+        {
+          "source_marker": "፵፰",
+          "source_element_id": "V48",
+          "text": "ኢየሱስም መልሶ። ወንበዴ እንደምትይዙ ሰይፍና ጐመድ ይዛችሁ ልትይዙኝ መጣችሁን?",
+          "unit_order": 48
+        },
+        {
+          "source_marker": "፵፱",
+          "source_element_id": "V49",
+          "text": "በመቅደስ ዕለት ዕለት እያስተማርሁ ከእናንተ ጋር ስኖር አልያዛችሁኝም፤ ነገር ግን መጻሕፍት ይፈጸሙ ዘንድ ይህ ሆነ አላቸው።",
+          "unit_order": 49
+        },
+        {
+          "source_marker": "፶",
+          "source_element_id": "V50",
+          "text": "ሁሉም ትተውት ሸሹ።",
+          "unit_order": 50
+        },
+        {
+          "source_marker": "፶፩",
+          "source_element_id": "V51",
+          "text": "ዕርቃኑን በነጠላ የሸፈነ አንድ ጎበዝ ይከተለው ነበር፥",
+          "unit_order": 51
+        },
+        {
+          "source_marker": "፶፪",
+          "source_element_id": "V52",
+          "text": "ጎበዛዝቱም ያዙት፤ እርሱ ግን ነጠላውን ትቶ ዕራቁቱን ሸሸ።",
+          "unit_order": 52
+        },
+        {
+          "source_marker": "፶፫",
+          "source_element_id": "V53",
+          "text": "ኢየሱስንም ወደ ሊቀ ካህናቱ ወሰዱት፥ የካህናት አለቆችም ሁሉ ሽማግሌዎችም ጻፎችም ተሰበሰቡ።",
+          "unit_order": 53
+        },
+        {
+          "source_marker": "፶፬",
+          "source_element_id": "V54",
+          "text": "ጴጥሮስም እስከ ሊቀ ካህናቱ ግቢ ውስጥ በሩቁ ተከተለው፥ ከሎሌዎችም ጋር ተቀምጦ እሳት ይሞቅ ነበር።",
+          "unit_order": 54
+        },
+        {
+          "source_marker": "፶፭",
+          "source_element_id": "V55",
+          "text": "የካህናት አለቆችም ሸንጎውም ሁሉ እንዲገድሉት በኢየሱስ ላይ ምስክር ይፈልጉ ነበር፥ አላገኙምም፤",
+          "unit_order": 55
+        },
+        {
+          "source_marker": "፶፮",
+          "source_element_id": "V56",
+          "text": "ብዙዎች በሐሰት ይመሰክሩበት ነበርና፥ ምስክርነታቸው ግን አልተሰማማም።",
+          "unit_order": 56
+        },
+        {
+          "source_marker": "፶፯-፶፱",
+          "source_element_id": "V57",
+          "text": "ምስክርነታቸውም እንዲሁ እንኳ አልተሰማማም።",
+          "unit_order": 57
+        },
+        {
+          "source_marker": "፷",
+          "source_element_id": "V60",
+          "text": "ሊቀ ካህናቱም በመካከላቸው ተነሥቶ። አንዳች አትመልስምን? እነዚህስ በአንተ ላይ የሚመሰክሩብህ ምንድር ነው? ብሎ ኢየሱስን ጠየቀው።",
+          "unit_order": 58
+        },
+        {
+          "source_marker": "፷፩",
+          "source_element_id": "V61",
+          "text": "እርሱ ግን ዝም አለ አንዳችም አልመለሰም። ደግሞ ሊቀ ካህናቱ ጠየቀውና። የቡሩክ ልጅ ክርስቶስ አንተ ነህን? አለው።",
+          "unit_order": 59
+        },
+        {
+          "source_marker": "፷፪",
+          "source_element_id": "V62",
+          "text": "ኢየሱስም። እኔ ነኝ፤ የሰው ልጅም በኃይል ቀኝ ሲቀመጥ በሰማይም ደመና ሲመጣ ታያላችሁ አለ።",
+          "unit_order": 60
+        },
+        {
+          "source_marker": "፷፫",
+          "source_element_id": "V63",
+          "text": "ሊቀ ካህናቱም ልብሱን ቀደደና። ከእንግዲህ ወዲህ ምስክሮችን ምን ያስፈልገናል?",
+          "unit_order": 61
+        },
+        {
+          "source_marker": "፷፬",
+          "source_element_id": "V64",
+          "text": "ስድቡን ሰማችሁ፤ ምን ይመስላችኋል? አለ። እነርሱም ሁሉ። ሞት ይገባዋል ብለው ፈረዱበት።",
+          "unit_order": 62
+        },
+        {
+          "source_marker": "፷፭",
+          "source_element_id": "V65",
+          "text": "አንዳንዶችም ይተፉበት ፊቱንም ሸፍነው ይጐስሙትና። ትንቢት ተናገር ይሉት ጀመር፤ ሎሌዎችም በጥፊ እየመቱ ወሰዱት።",
+          "unit_order": 63
+        },
+        {
+          "source_marker": "፷፮",
+          "source_element_id": "V66",
+          "text": "ጴጥሮስም በግቢ ውስጥ ወደ ታች ሳለ ከሊቀ ካህናቱ ገረዶች አንዲቱ መጣች፥",
+          "unit_order": 64
+        },
+        {
+          "source_marker": "፷፯",
+          "source_element_id": "V67",
+          "text": "ጴጥሮስም እሳት ሲሞቅ አይታ ተመለከተችውና። አንተ ደግሞ ከናዝሬቱ ከኢየሱስ ጋር ነበርህ አለችው።",
+          "unit_order": 65
+        },
+        {
+          "source_marker": "፷፰",
+          "source_element_id": "V68",
+          "text": "እርሱ ግን። የምትዪውን አላውቅም አላስተውልምም ብሎ ካደ። ወደ ውጭም ወደ ደጅ ወጣ፤ ዶሮም ጮኸ።",
+          "unit_order": 66
+        },
+        {
+          "source_marker": "፷፱",
+          "source_element_id": "V69",
+          "text": "ገረዲቱም አይታው በዚያ ለቆሙት። ይህም ከእነርሱ ወገን ነው ስትል ሁለተኛ ትነግራቸው ጀመር።",
+          "unit_order": 67
+        },
+        {
+          "source_marker": "፸",
+          "source_element_id": "V70",
+          "text": "እርሱም ደግሞ ካደ። ጥቂት ቈይተውም በዚያ የቆሙት ዳግመኛ ጴጥሮስን። የገሊላ ሰው ነህና ከእነርሱ ወገን በእውነት ነህ አሉት።",
+          "unit_order": 68
+        },
+        {
+          "source_marker": "፸፩",
+          "source_element_id": "V71",
+          "text": "እርሱ ግን። ይህን የምትሉትን ሰው አላውቀውም ብሎ ይረገምና ይምል ጀመር። ወዲያውም ዶሮ ሁለተኛ ጮኸ።",
+          "unit_order": 69
+        },
+        {
+          "source_marker": "፸፪",
+          "source_element_id": "V72",
+          "text": "ጴጥሮስንም ኢየሱስ። ዶሮ ሁለት ጊዜ ሳይጮኽ ሦስት ጊዜ ትክደኛለህ ያለው ቃል ትዝ አለው፤ ነገሩንም አስቦ አለቀሰ።",
+          "unit_order": 70
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 15,
+      "source_chapter_label": "፲፭",
+      "source_page_title": "መጽሐፍ ቅዱስ የማርቆስ ወንጌል ፲፭",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ወዲያውም ማለዳ የካህናት አለቆች ከሽማግሌዎችና ከጻፎች ከሸንጎውም ሁሉ ጋር ከተማከሩ በኋላ፥ ኢየሱስን አሳስረው ወሰዱትና ለጲላጦስ አሳልፈው ሰጡት።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ጲላጦስም። አንተ የአይሁድ ንጉሥ ነህን? ብሎ ጠየቀው። እርሱም። አንተ አልህ ብሎ መለሰለት።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "የካህናት አለቆችም ብዙ ያሳጡት ነበር፤ እርሱ ግን ምንም አልመለሰም።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "ጲላጦስም ደግሞ። አንዳች አትመልስምን? እነሆ፥ በስንት ነገር ያሳጡሃል ብሎ ጠየቀው።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ኢየሱስም ከዚያ በኋላ ጲላጦስ እስኪደነቅ ድረስ ምንም አልመለሰም።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "በዚያም በዓል የለመኑትን አንድ እስረኛ ይፈታላቸው ነበር።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "በዓመፅም ነፍስ ከገደሉት ከዓመፀኞች ጋር የታሰረ በርባን የተባለ ነበረ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ሕዝቡም ወጥተው እንደ ልማዱ ያደርግላቸው ዘንድ እየጮኹ ይለምኑት ጀመር።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ጲላጦስም። የአይሁድን ንጉሥ እፈታላችሁ ዘንድ ትወዳላችሁን? ብሎ መለሰላቸው፤",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "የካህናት አለቆች በቅንዓት አሳልፈው እንደ ሰጡት ያውቅ ነበርና።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "የካህናት አለቆች ግን በርባንን በእርሱ ፈንታ ይፈታላቸው ዘንድ ሕዝቡን አወኩአቸው።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ጲላጦስም ዳግመኛ መልሶ። እንግዲህ የአይሁድ ንጉሥ የምትሉትን ምን ላደርገው ትወዳላችሁ? አላቸው።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "እነርሱም ዳግመኛ። ስቀለው እያሉ ጮኹ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ጲላጦስም። ምን ነው? ያደረገው ክፋት ምንድር ነው? አላቸው። እነርሱ ግን። ስቀለው እያሉ ጩኸት አበዙ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "ጲላጦስም የሕዝቡን ፈቃድ ሊያደርግ ወዶ በርባንን ፈታላቸው፥ ኢየሱስንም ገርፎ እንዲሰቀል አሳልፎ ሰጠ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "ወታደሮችም ፕራይቶሪዮን ወደሚባል ግቢ ውስጥ ወሰዱት፥ ጭፍራውንም ሁሉ በአንድነት ጠሩ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ቀይ ልብስም አለበሱት፥ የእሾህ አክሊልም ጎንጉነው ደፉበት፤",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "የአይሁድ ንጉሥ ሆይ፥ ሰላም ለአንተ ይሁን እያሉ እጅ ይነሱት ጀመር፤",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "ራሱንም በመቃ መቱት ተፉበትም፥ ተንበርክከውም ሰገዱለት።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "ከተዘባበቱበትም በኋላ ቀዩን ልብስ ገፈፉት፥ ልብሱንም አለበሱት፥ ሊሰቅሉትም ወሰዱት።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "አንድ መንገድ አላፊም የአሌክስንድሮስና የሩፎስ አባት ስምዖን የተባለ የቀሬና ሰው ከገጠር ሲመጣ መስቀሉን ይሸከም ዘንድ አስገደዱት።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ትርጓሜውም የራስ ቅል ስፍራ ወደሚሆን ጎልጎታ ወደተባለ ስፍራ ወሰዱት።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "ከርቤም የተቀላቀለበትን የወይን ጠጅ እንዲጠጣ ሰጡት፤ እርሱ ግን አልተቀበለም።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "ሰቀሉትም፥ ልብሱንም ማን ማን እንዲወስድ ዕጣ ተጣጥለው ተካፈሉ።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "በሰቀሉትም ጊዜ ሦስት ሰዓት ነበረ።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "የክሱ ጽሕፈትም። የአይሁድ ንጉሥ የሚል ተጽፎ ነበር።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "ከእርሱም ጋር ሁለት ወንበዶች አንዱን በቀኙ አንዱንም በግራው ሰቀሉ።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "መጽሐፍም። ከአመፀኞች ጋር ተቆጠረ ያለው ተፈጸመ።",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "የሚያልፉትም ራሳቸውን እየነቀነቁ ይሰድቡት ነበርና። ዋ፥ ቤተ መቅደስን የምታፈርስ በሦስት ቀንም የምትሠራ፥",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "ከመስቀል ወርደህ ራስህን አድን አሉ።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፩",
+          "source_element_id": "V31",
+          "text": "እንዲሁም የካህናት አለቆች ደግሞ ከጻፎች ጋር እርስ በርሳቸው እየተዘባበቱ። ሌሎችን አዳነ፤ ራሱን ሊያድን አይችልም፤",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "፴፪",
+          "source_element_id": "V32",
+          "text": "አይተን እናምን ዘንድ የእስራኤል ንጉሥ ክርስቶስ አሁን ከመስቀል ይውረድ አሉ። ከእርሱም ጋር የተሰቀሉት ይነቅፉት ነበር።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "፴፫",
+          "source_element_id": "V33",
+          "text": "ስድስት ሰዓትም በሆነ ጊዜ፥ እስከ ዘጠኝ ሰዓት በምድር ሁሉ ላይ ጨለማ ሆነ።",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "፴፬",
+          "source_element_id": "V34",
+          "text": "በዘጠኝ ሰዓትም ኢየሱስ። ኤሎሄ፥ ኤሎሄ፥ ላማ ሰበቅታኒ? ብሎ በታላቅ ድምፅ ጮኸ፤ ትርጓሜውም አምላኬ፥ አምላኬ፥ ለምን ተውኸኝ? ማለት ነው።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "፴፭",
+          "source_element_id": "V35",
+          "text": "በዚያም ከቆሙት ሰዎች ሰምተው። እነሆ፥ ኤልያስን ይጠራል አሉ።",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "፴፮",
+          "source_element_id": "V36",
+          "text": "አንዱም ሮጦ ሆምጣጤ በሰፍነግ ሞላ በመቃም አድርጎ። ተዉ፤ ኤልያስ ሊያወርደው ይመጣ እንደ ሆነ እንይ እያለ አጠጣው።",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "፴፯",
+          "source_element_id": "V37",
+          "text": "ኢየሱስም በታላቅ ድምፅ ጮኸ ነፍሱንም ሰጠ።",
+          "unit_order": 37
+        },
+        {
+          "source_marker": "፴፰",
+          "source_element_id": "V38",
+          "text": "የቤተ መቅደስም መጋረጃ ከላይ እስከ ታች ከሁለት ተቀደደ።",
+          "unit_order": 38
+        },
+        {
+          "source_marker": "፴፱",
+          "source_element_id": "V39",
+          "text": "በዚያም በአንጻሩ የቆመ የመቶ አለቃ እንደዚህ ጮኾ ነፍሱን እንደ ሰጠ ባየ ጊዜ። ይህ ሰው በእውነት የእግዚአብሔር ልጅ ነበረ አለ።",
+          "unit_order": 39
+        },
+        {
+          "source_marker": "፵-፵፪",
+          "source_element_id": "V40",
+          "text": "አሁንም በመሸ ጊዜ የሰንበት ዋዜማ የሆነ የማዘጋጀት ቀን ስለ ነበረ፥ የከበረ አማካሪ የሆነ የአርማትያስ ዮሴፍ መጣ፥",
+          "unit_order": 40
+        },
+        {
+          "source_marker": "፵፫",
+          "source_element_id": "V43",
+          "text": "እርሱም ደግሞ የእግዚአብሔርን መንግሥት ይጠባበቅ ነበር፤ ደፍሮም ወደ ጲላጦስ ገባና የኢየሱስን ሥጋ ለመነው።",
+          "unit_order": 41
+        },
+        {
+          "source_marker": "፵፬",
+          "source_element_id": "V44",
+          "text": "ጲላጦስም አሁኑን እንዴት ሞተ ብሎ ተደነቀ፥ የመቶ አለቃውንም ጠርቶ ከሞተ ቆይቶአልን? ብሎ ጠየቀው፤",
+          "unit_order": 42
+        },
+        {
+          "source_marker": "፵፭",
+          "source_element_id": "V45",
+          "text": "ከመቶ አለቃውም ተረድቶ በድኑን ለዮሴፍ ሰጠው።",
+          "unit_order": 43
+        },
+        {
+          "source_marker": "፵፮",
+          "source_element_id": "V46",
+          "text": "በፍታም ገዝቶ አውርዶም በበፍታ ከፈነው ከዓለትም በተወቀረ መቃብር አኖረው፥ በመቃብሩ ደጃፍም ድንጋይ አንከባለለ።",
+          "unit_order": 44
+        },
+        {
+          "source_marker": "፵፯",
+          "source_element_id": "V47",
+          "text": "መግደላዊትም ማርያም የዮሳም እናት ማርያም ወዴት እንዳኖሩት ይመለከቱ ነበር።",
+          "unit_order": 45
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 16,
+      "source_chapter_label": "፲፮",
+      "source_page_title": "መጽሐፍ ቅዱስ የማርቆስ ወንጌል ፲፮",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ሰንበትም ካለፈ በኋላ መግደላዊት ማርያም የያዕቆብም እናት ማርያም ሰሎሜም መጥተው ሊቀቡት ሽቱ ገዙ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ከሳምንቱም በፊተኛው ቀን እጅግ በማለዳ ፀሐይ ከወጣ በኋላ ወደ መቃብር መጡ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "እርስ በርሳቸውም። ድንጋዩን ከመቃብር ደጃፍ ማን ያንከባልልልናል? ይባባሉ ነበር፤",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "ድንጋዩ እጅግ ትልቅ ነበርና፤ አሻቅበውም አይተው ድንጋዩ ተንከባሎ እንደ ነበር ተመለከቱ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ወደ መቃብሩም ገብተው ነጭ ልብስ የተጎናጸፈ ጎልማሳ በቀኝ በኩል ተቀምጦ አዩና ደነገጡ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "እርሱ ግን። አትደንግጡ፤ የተሰቀለውን የናዝሬቱን ኢየሱስን ትፈልጋላችሁ፤ ተነሥቶአል፥ በዚህ የለም፤ እነሆ እርሱን ያኖሩበት ስፍራ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ነገር ግን ሄዳችሁ ለደቀ መዛሙርቱ ለጴጥሮስም። ወደ ገሊላ ይቀድማችኋል፤ እንደ ነገራችሁ በዚያ ታዩታላችሁ ብላችሁ ንገሩአቸው አላቸው።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "መንቀጥቀጥና መደንገጥ ይዞአቸው ነበርና ወጥተው ከመቃብር ሸሹ፤ ይፈሩ ነበርና ለማንም አንዳች አልነገሩም። እነርሱም ያዘዛቸውን ሁሉ ለጴጥሮስና ከእርሱ ጋር ላሉት በአጭሩ ተናገሩ። ከዚህም በኋላ ኢየሱስ ራሱ ለዘላለም ድኅነት የሆነውን የማይለወጠውን ቅዱስ ወንጌል ከፀሐይ መውጫ እስከ መጥለቂያው ድረስ በእጃቸው ላከው።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ከሳምንቱም በመጀመሪያው ቀን ማልዶ በተነሣ ጊዜ፥ አስቀድሞ ሰባት አጋንንት ላወጣላት ለመግደላዊት ማርያም ታየ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "እርስዋ ሄዳ ከእርሱ ጋር ሆነው ለነበሩት ሲያዝኑና ሲያለቅሱ ሳሉ አወራችላቸው፤",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "እነርሱም ሕያው እንደ ሆነ ለእርስዋም እንደ ታያት ሲሰሙ አላመኑም።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ከዚህም በኋላ ከእነርሱ ለሁለቱ ወደ ባላገር ሲሄዱ በመንገድ በሌላ መልክ ተገለጠ፤",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "እነርሱም ሄደው ለሌሎቹ አወሩ፤ እነዚያንም ደግሞ አላመኑአቸውም።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ኋላም በማዕድ ተቀምጠው ሳሉ ለአሥራ አንዱ ተገለጠ፥ ተነሥቶም ያዩትን ስላላመኑአቸው አለማመናቸውንና የልባቸውን ጥንካሬ ነቀፈ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "እንዲህም አላቸው። ወደ ዓለም ሁሉ ሂዱ ወንጌልንም ለፍጥረት ሁሉ ስበኩ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "ያመነ የተጠመቀም ይድናል፥ ያላመነ ግን ይፈረድበታል።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ያመኑትንም እነዚህ ምልክቶች ይከተሉአቸዋል፤ በስሜ አጋንንትን ያወጣሉ፤ በአዲስ ቋንቋ ይናገራሉ፤ እባቦችን ይይዛሉ፥",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "የሚገድልም ነገር ቢጠጡ አይጎዳቸውም፤ እጃቸውን በድውዮች ላይ ይጭናሉ እነርሱም ይድናሉ።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "ጌታ ኢየሱስም ከእነርሱ ጋር ከተናገረ በኋላ ወደ ሰማይ ዐረገ በእግዚአብሔርም ቀኝ ተቀመጠ።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "እነርሱም ወጥተው በየስፍራው ሁሉ ሰበኩ፥ ጌታም ከእነርሱ ጋር ይሠራ ነበር፥ በሚከተሉትም ምልክቶች ቃሉን ያጸና ነበር።",
+          "unit_order": 20
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "rights_status": "Reuse of this bundled reader is limited to the stated permission; no open or broader license is inferred. Item-specific notice: Copyright © 1962, 2003 United Bible Societies. Language: አማርኛ (Amharic). Amharic NT. Revised Amharic Bible in XML (2003). Printed version by United Bible Societies (© 1962). E-text in transliterated ASCII format by Lapsley/Brooks Foundation (1994). Unicode UTF-8 transformation and XML-tagging by Dirk Röckmann (2003; www.nt-text.net). With kind permission of the Bible Society of Ethiopia. Every non-commercial work using this data in any form must fully include this copyright statement. Every commercial use of parts or the complete data in any form needs written permission of the Bible Society of Ethiopia. Copyright page dated 2014-09-09. Commercial-use and other-use boundary: The source page permits use in non-commercial works only when the complete copyright statement is included with every such work. Commercial use of any part or all of the data requires written permission from the Bible Society of Ethiopia. This is permission-limited reuse, not an open license or a general public-domain claim."
+}

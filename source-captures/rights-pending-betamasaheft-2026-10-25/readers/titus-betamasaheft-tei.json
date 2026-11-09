@@ -1,0 +1,578 @@
+{
+  "reader_id": "titus-betamasaheft-tei",
+  "canon_id": "eotc-nt-17",
+  "text_origin": "source_transcription",
+  "title": "Titus — Geʽez source transcription (Beta maṣāḥǝft TEI)",
+  "display_name": "Titus · Geʽez · provisional title link; exact edition unverified",
+  "language": "Geʽez (Classical Ethiopic)",
+  "language_tag": "gez",
+  "language_assignment_status": "source_declared_inherited_edition_xml_lang",
+  "script_code": "Ethi",
+  "edition": "Beta maṣāḥǝft LIT3527Epistle TEI source snapshot, pinned at Works commit ec53d3f4c5de47e463fa56a8465cf1090316a999",
+  "edition_scope": "The retained TEI file for LIT3527Epistle contains an edition division explicitly tagged xml:lang=\"gez\" and the selected text scope is labeled ‘Text of the EOTC printed Bible.’ Its root xml:lang=\"en\" is retained as a document-default conflict; TEI inheritance assigns the explicit edition-level language to its nested text. The archive links this source provisionally by title to Church-list Titus. This does not identify the exact printed exemplar or prove identity with a current EOTC edition.",
+  "section_label": "Chapter",
+  "unit_label": "TEI line element (all numbered and unnumbered elements)",
+  "source_ids": [
+    "SRC-029",
+    "SRC-269",
+    "SRC-270",
+    "SRC-176"
+  ],
+  "rights_classification": "open_license",
+  "copyright_notice": "The retained Beta maṣāḥǝft LIT3527Epistle TEI file states CC BY-SA 4.0. Attribute Beta maṣāḥǝft, link the source and license, identify this extraction and whitespace normalization, and share adaptations alike. This file-level license does not establish rights in the unidentified printed exemplar or relicense other materials in the archive.",
+  "commercial_use": "The file-level CC BY-SA 4.0 permits sharing and adaptation, including commercially, subject to attribution, indication of changes, and ShareAlike terms. This does not establish rights in the unidentified printed exemplar or alter the website's separate license notice.",
+  "license_id": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "chapter_count": 3,
+  "unit_count": 52,
+  "source_numbered_unit_count": 46,
+  "source_unnumbered_unit_count": 6,
+  "source_empty_unit_count": 0,
+  "chapter_structure_note": "The pinned TEI selected text scope contains 3 ordered chapter divisions and 52 line elements: 46 have source n labels, 6 do not, and 0 are empty. These are source-structure counts, not verse counts or evidence of completeness against the print exemplar. The selected scope contains 6 unnumbered TEI line elements; none is assigned a verse label.",
+  "transcription_note": "The reader extraction includes every TEI line element in the selected text scope in source order, preserves each source n label as a string, and normalizes whitespace for display. An empty TEI line remains an empty unit with an explicit state; no wording or verse label is supplied. Inline TEI markup is flattened in the display text; the unchanged source XML is retained beside the reader.",
+  "editorial_signs_note": "Unnumbered line elements and chapter headings are retained in order and are not relabeled as verses. Source references are retained as metadata. No missing wording, numbering, or translation has been reconstructed.",
+  "verification_status": "Pinned file hash, TEI identity, edition-level Geʽez declaration, file-level license statement, 3 chapter divisions, and all 52 source line elements were checked locally. This validates extraction structure only. The exact print exemplar, textual accuracy, physical-edition completeness, and identity with a current EOTC edition remain unverified. The selected scope contains 6 unnumbered TEI line elements; none is assigned a verse label.",
+  "source_pages": "readers/source/titus/LIT3527Epistle.xml (unchanged pinned TEI source)",
+  "source_snapshot_sha256": "3273f833ac32ddbf2742dab82450e83be9330e22366f9586deed9645617fd031",
+  "additional_notes": "No English translation or parallel text is bundled. The TEI file-level CC BY-SA 4.0 applies to this source file and its adaptation; it does not establish rights in the unidentified printed exemplar. The Church-list title link is provisional. ",
+  "chapters": [
+    {
+      "chapter": 1,
+      "source_chapter_label": "1",
+      "heading": [
+        "ምዕራፍ 1"
+      ],
+      "units": [
+        {
+          "number": 1,
+          "unit_order": 1,
+          "source_marker": null,
+          "source_element_id": null,
+          "source_refs": [],
+          "text": "በእንተ፡ ቲቶ"
+        },
+        {
+          "number": 2,
+          "unit_order": 2,
+          "source_marker": "1",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=1&verse=1"
+          ],
+          "text": "እምጳውሎስ፡ ገብሩ፡ ለእግዚአብሔር፡ ወሐዋርያሁ፡ ለኢየሱስ፡ ክርስቶስ። በሃይማኖቶሙ፡ ለኅሩያኒሁ፡ ለእግዚአብሔር፡ ወአእምሮ፡ ጽድቅ፡ ዘበጽድቁ፡ ለእግዚአብሔር።"
+        },
+        {
+          "number": 3,
+          "unit_order": 3,
+          "source_marker": "2",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=1&verse=2"
+          ],
+          "text": "ወበተስፋ፡ ሕይወት፡ ዘለዓለም፡ ዘአሰፈወ፡ እግዚአብሔር። ዘኢይሔሱ፡ እምፍጥረተ፡ ዓለም።"
+        },
+        {
+          "number": 4,
+          "unit_order": 4,
+          "source_marker": "3",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=1&verse=3"
+          ],
+          "text": "ወአርአየ፡ ቃሎ፡ በዕድሜሁ፡ በስብከተ፡ ዚኣነ፡ ኪያሁ። ወተአመነኒ፡ ሊተ፡ ላዕሌሁ፡ በትእዛዘ፡ እግዚአብሔር፡ መድኀኒነ።"
+        },
+        {
+          "number": 5,
+          "unit_order": 5,
+          "source_marker": "4",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=1&verse=4"
+          ],
+          "text": "ለቲቶ፡ ወልድየ፡ ዘአፈቅር፡ በተፋቅሮ፡ ወበሃይማኖት፡ ሰላም፡ ለከ። ወጸጋ፡ ወሣህል፡ እምኀበ፡ እግዚአብሔር፡ አቡነ፡ ወእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ መድኀኒነ።"
+        },
+        {
+          "number": 6,
+          "unit_order": 6,
+          "source_marker": null,
+          "source_element_id": null,
+          "source_refs": [],
+          "text": "በእንተ፡ ሢመተ፡ ቅስና"
+        },
+        {
+          "number": 7,
+          "unit_order": 7,
+          "source_marker": "5",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=1&verse=5"
+          ],
+          "text": "እስመ፡ እንበይነ፡ ዝንቱ፡ ኀደጉከ፡ ውስተ፡ ቀርጤስ፡ ከመ፡ ታስተራትዕ፡ ዘተርፈ። ወትሢም፡ ቀሲሳነ፡ ለለ፡ አህጉር፡ በከመ፡ አዘዝኩከ።"
+        },
+        {
+          "number": 8,
+          "unit_order": 8,
+          "source_marker": "6",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=1&verse=6"
+          ],
+          "text": "ብእሴ፡ ዘአሐተ፡ ብእሲተ፡ አውሰበ፡ ኅሩየ። ዘኢየሐምይዎ፡ በእኩይ፡ ዘቦ፡ ውሉድ፡ መሃይምናን። ዘኢያስተዋድይዎሙ፡ በምርዓት፡ እለ፡ ኢኮኑ፡ ዝሉፋነ፡ እለ፡ ይትኤዘዙ።"
+        },
+        {
+          "number": 9,
+          "unit_order": 9,
+          "source_marker": "7",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=1&verse=7"
+          ],
+          "text": "ወርቱዕ፡ ይሠየም፡ ጳጳስ፡ ዘአልቦ፡ ሐሜት፡ ዘኢያደሉ፡ ከመ፡ መጋቤ፡ እግዚአብሔር። ዘኢኮነ፡ መዓትመ፡ ዘልቡብ፡ ዘኢያበዝኅ፡ ሰትየ፡ ወይን። ወኢያፈጥን፡ እዴሁ፡ ለዘቢጥ፡ ወዘኢያፈቅር፡ ንዋየ፡ ከንቶ።"
+        },
+        {
+          "number": 10,
+          "unit_order": 10,
+          "source_marker": "8",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=1&verse=8"
+          ],
+          "text": "መፍቀሬ፡ ነግድ፡ ዘሠናይ፡ ምግባሩ፡ ዘአንጽሐ፡ ርእሶ። ጻድቅ፡ ወኄር፡ ወየዋህ፡ መስተዐግሥ፡ ዘያነሐሲ፡ ዘምሁር፡ ቃለ፡ ሃይማኖት።"
+        },
+        {
+          "number": 11,
+          "unit_order": 11,
+          "source_marker": "9",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=1&verse=9"
+          ],
+          "text": "ዘይክል፡ ገሥጾ፡ በትምህርተ፡ ሕይወት፡ ወይዛለፎሙ፡ ለእለ፡ ይተዋሥኡ።"
+        },
+        {
+          "number": 12,
+          "unit_order": 12,
+          "source_marker": null,
+          "source_element_id": null,
+          "source_refs": [],
+          "text": "ሥርዐት፡ በእንተ፡ እለ፡ ኢይትኤዘዙ"
+        },
+        {
+          "number": 13,
+          "unit_order": 13,
+          "source_marker": "10",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=1&verse=10"
+          ],
+          "text": "እስመ፡ ብዙኃን፡ እለ፡ ኢይትኤዘዙ፡ ወነገሮሙኒ፡ ከንቱ። ወያስሕትዎሙ፡ ለጽሉላነ፡ ልብ።"
+        },
+        {
+          "number": 14,
+          "unit_order": 14,
+          "source_marker": "11",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=1&verse=11"
+          ],
+          "text": "ወፈድፋደሰ፡ ለእለ፡ እምአይሁድ፡ እለ፡ ርቱዕ፡ ይፍፅምዎም፡ አፉሆሙ። እስመ፡ እሉ፡ ይገፈትዑ፡ አብያተ፡ ኵሉ። ወይሜሀሩ፡ በዘኢይደሉ፡ በዘይረብሖሙ፡ ኀሳር።"
+        },
+        {
+          "number": 15,
+          "unit_order": 15,
+          "source_marker": "12",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=1&verse=12"
+          ],
+          "text": "ወናሁ፡ ይቤ፡ አሐዱ፡ እምኔሆሙ፡ ነቢዮሙ፡ በእንቲኣሆሙ። እስመ፡ ሰብአ፡ ቀርጤስ፡ መደልዋን፡ ሐሳውያን፡ ዘልፈ፡ አራዊት፡ እኩያን፡ ከርሠ፡ መካን። ወዝንቱ፡ ስምዕ፡ እሙን፡ ላዕሌሆሙ።"
+        },
+        {
+          "number": 16,
+          "unit_order": 16,
+          "source_marker": "13",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=1&verse=13"
+          ],
+          "text": "በእንተ፡ ዝንቱ፡ ተዛለፎሙ፡ ምቱረ፡ ከመ፡ ይጠይቁ፡ በሃይማኖት።"
+        },
+        {
+          "number": 17,
+          "unit_order": 17,
+          "source_marker": "14",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=1&verse=14"
+          ],
+          "text": "ወኢያምጽኡ፡ መሀድምተ፡ ወሥርዐተ፡ ሰብእ፡ ዘይመይጣ፡ ለጽድቅ።"
+        },
+        {
+          "number": 18,
+          "unit_order": 18,
+          "source_marker": "15",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=1&verse=15"
+          ],
+          "text": "እስመ፡ ዘኮነ፡ ኵሉ፡ ንጹሕ፡ ለንጹሓን። ወለርኩሳንሰ፡ እለ፡ ኢየአምኑ፡ አልቦሙ፡ ንጹሕ፡ ምንትኒ።"
+        },
+        {
+          "number": 19,
+          "unit_order": 19,
+          "source_marker": "16",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=1&verse=16"
+          ],
+          "text": "እስመ፡ ርኩስ፡ ኅሊናሆሙ፡ ወበልቦሙ፡ የአምኑ፡ ከመ፡ ዘየአምርዎ፡ ለእግዚአብሔር። ወይክሕድዎ፡ በምግባሮሙ፡ ርኩሳን፡ ወከሓድያን። ወምኑናን፡ በውስተ፡ ኵሉ፡ ምግባረ፡ ሠናይ።"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 2,
+      "source_chapter_label": "2",
+      "heading": [
+        "ምዕራፍ 2"
+      ],
+      "units": [
+        {
+          "number": 1,
+          "unit_order": 1,
+          "source_marker": null,
+          "source_element_id": null,
+          "source_refs": [],
+          "text": "ሥርዐት፡ በእንተ፡ ሕይወተ፡ ክርስቲያን"
+        },
+        {
+          "number": 2,
+          "unit_order": 2,
+          "source_marker": "1",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=2&verse=1"
+          ],
+          "text": "ወአንተሰ፡ ንግር፡ ዘይደሉ፡ ለትምህርተ፡ ሕይወት።"
+        },
+        {
+          "number": 3,
+          "unit_order": 3,
+          "source_marker": "2",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=2&verse=2"
+          ],
+          "text": "ሊቃውንትኒ፡ ይኩኑ፡ ንጹሓነ፡ እምዝሙት፡ ወንቁሓነ፡ ወጠቢባነ። ወኢይናፍቁ፡ በሃይማኖት፡ ይትፋቀሩ፡ ወይለብዉ፡ ወይትዐገሡ።"
+        },
+        {
+          "number": 4,
+          "unit_order": 4,
+          "source_marker": "3",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=2&verse=3"
+          ],
+          "text": "ልሂቃትሂ፡ ከማሁ፡ ይትቀደሳ፡ ወያሠንያ፡ ግዕዞን፡ ኢያስተሐውራ፡ ነገረ። ወኢይትቀነያ፡ ለስቴ፡ ወኢይሰጠያ፡ ውስተ፡ ስካር። ዳእሙ፡ ይገሥጻ፡ ወይምሀራ፡ ሠናየ፡ ትምህርተ፡ ለአንስት፡ ከመ፡ ያንጽሓ፡ ርእሶን።"
+        },
+        {
+          "number": 5,
+          "unit_order": 5,
+          "source_marker": "4",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=2&verse=4"
+          ],
+          "text": "ወንኡሳትሂ፡ ያፍቅራ፡ አምታቲሆን፡ ወውሉዶን።"
+        },
+        {
+          "number": 6,
+          "unit_order": 6,
+          "source_marker": "5",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=2&verse=5"
+          ],
+          "text": "ኢይዘምዋ፡ ወይግበራ፡ ሠናየ፡ ወያሠንያ፡ ግዕዞን፡ ወሥርዐተ፡ ቤቶን። ወይትአዘዛ፡ ለአምታቲሆን፡ ከመ፡ ኢይፅርፍ፡ አሐዱሂ፡ ላዕለ፡ ቃለ፡ እግዚአብሔር፡ በእንቲኣሆን።"
+        },
+        {
+          "number": 7,
+          "unit_order": 7,
+          "source_marker": "6",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=2&verse=6"
+          ],
+          "text": "ወለወራዙትኒ፡ ገሥጾሙ፡ ያንጽሑ፡ ርእሶሙ፡ ወይኩኑ፡ ጠቢባነ።"
+        },
+        {
+          "number": 8,
+          "unit_order": 8,
+          "source_marker": "7",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=2&verse=7"
+          ],
+          "text": "ወኩኖሙ፡ አርአያ፡ ለኵሎሙ፡ በምግባረ፡ ሠናይ።"
+        },
+        {
+          "number": 9,
+          "unit_order": 9,
+          "source_marker": "8",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=2&verse=8"
+          ],
+          "text": "ወይኩን፡ ነገርከ፡ ወትምህርትከ፡ በንጽሕ፡ ወበሥሩዕ፡ ነገር። ዘአልቦ፡ ነውር፡ ዘኢይሜንኖ፡ አሐዱሂ። ከመ፡ ይትኀፈር፡ ጸላኢ፡ ወይኅጣእ፡ ዘይነብብ፡ ላዕሌነ፡ ሕሡመ።"
+        },
+        {
+          "number": 10,
+          "unit_order": 10,
+          "source_marker": "9",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=2&verse=9"
+          ],
+          "text": "ነባሪኒ፡ ይትአዘዙ፡ ለአጋእዝቲሆሙ፡ ወያሥምርዎሙ፡ በኵሉ። ወኢይቅስጡ፡ ወኢይትዋሥኡ፡ በኵሉ።"
+        },
+        {
+          "number": 11,
+          "unit_order": 11,
+          "source_marker": "10",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=2&verse=10"
+          ],
+          "text": "አላ፡ ያሠንዩ፡ በንጹሕ፡ ሃይማኖቶሙ። ከመ፡ ይንአድዎ፡ በኵለሄ፡ ለትምህርተ፡ እግዚአብሔር፡ መድኀኒነ።"
+        },
+        {
+          "number": 12,
+          "unit_order": 12,
+          "source_marker": "11",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=2&verse=11"
+          ],
+          "text": "እስመ፡ ተዐውቀት፡ ጸጋሁ፡ ለእግዚአብሔር፡ በኀበ፡ ኵሉ፡ ሰብእ።"
+        },
+        {
+          "number": 13,
+          "unit_order": 13,
+          "source_marker": "12",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=2&verse=12"
+          ],
+          "text": "ወትሜህረነ፡ ከመ፡ ንትናከራ፡ ለኀጢአት፡ ወለፍትወተ፡ ዓለም። ወንሕየው፡ በጽድቅ፡ ወበንጽሕ፡ ወበተፋቅሮ፡ በዝንቱ፡ ዓለም።"
+        },
+        {
+          "number": 14,
+          "unit_order": 14,
+          "source_marker": "13",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=2&verse=13"
+          ],
+          "text": "እንዘ፡ ንሴፎ፡ አብፅዖ፡ ወምጽአተ፡ ስብሐቲሁ፡ ለአምላክነ፡ ዐቢይ፡ ወመድኀኒነ፡ ኢየሱስ፡ ክርስቶስ።"
+        },
+        {
+          "number": 15,
+          "unit_order": 15,
+          "source_marker": "14",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=2&verse=14"
+          ],
+          "text": "ዘመጠወ፡ ርእሶ፡ በእንቲኣነ፡ ከመ፡ ይቤዝወነ፡ እምኀጢአት። ወያንጽሕ፡ ሎቱ፡ ሕዝበ፡ ሐዲሰ፡ ዘይትቀሐው፡ በምግባረ፡ ሠናይ።"
+        },
+        {
+          "number": 16,
+          "unit_order": 16,
+          "source_marker": "15",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=2&verse=15"
+          ],
+          "text": "ከመ፡ ዝ፡ ንግር፡ ወገሥጽ፡ ወተዛለፍ። እንዘ፡ ታቴሕት፡ ርእሰከ፡ ለኵሉ፡ ወአልቦ፡ ዘያስሕተከ።"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 3,
+      "source_chapter_label": "3",
+      "heading": [
+        "ምዕራፍ 3"
+      ],
+      "units": [
+        {
+          "number": 1,
+          "unit_order": 1,
+          "source_marker": null,
+          "source_element_id": null,
+          "source_refs": [],
+          "text": "በእንተ፡ ግብረ፡ መምህራን"
+        },
+        {
+          "number": 2,
+          "unit_order": 2,
+          "source_marker": "1",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=3&verse=1"
+          ],
+          "text": "ዘክሮሙ፡ ለቀደምት፡ ወለመኳንንት። ከመ፡ ይትአዘዙ፡ በኵሉ፡ ምግባረ፡ ሠናይ፡ ወይኩኑ፡ ጥቡዓነ፡ ቦቱ።"
+        },
+        {
+          "number": 3,
+          "unit_order": 3,
+          "source_marker": "2",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=3&verse=2"
+          ],
+          "text": "ወኢይትቈጥዑ፡ ወኢይትጋአዙ፡ አላ፡ መሓርያነ፡ ወየዋሃነ፡ ይኩኑ፡ ምስለ፡ ኵሉ፡ ሰብእ።"
+        },
+        {
+          "number": 4,
+          "unit_order": 4,
+          "source_marker": "3",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=3&verse=3"
+          ],
+          "text": "እስመ፡ ንሕነሂ፡ ትካት፡ አበድነ፡ ዘእንበለ፡ አእምሮ። ወክሕድነ፡ ወስሕትነ፡ ወተቀነይነ፡ ለፍትወት፡ ወለሐውዝ፡ ዘዘ፡ ዚኣሁ። ወተለውነ፡ እኩየ፡ ወተቃንኦ፡ ወአሕሠምነ፡ ወጸላእነ፡ ቢጸነ።"
+        },
+        {
+          "number": 5,
+          "unit_order": 5,
+          "source_marker": "4",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=3&verse=4"
+          ],
+          "text": "ወአመ፡ አስተርአየ፡ ምሕረቱ፡ ለእግዚአብሔር፡ መፍቀሬ፡ ሰብእ፡ መድኀኒነ።"
+        },
+        {
+          "number": 6,
+          "unit_order": 6,
+          "source_marker": "5",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=3&verse=5"
+          ],
+          "text": "አኮ፡ በምግባረ፡ ጽድቅነ፡ ዳእሙ፡ በምሕረቱ፡ አድኀነነ። በጥምቀተ፡ ዳግም፡ ልደት፡ ወተሐድሶ፡ በመንፈስ፡ ቅዱስ።"
+        },
+        {
+          "number": 7,
+          "unit_order": 7,
+          "source_marker": "6",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=3&verse=6"
+          ],
+          "text": "ዘሦጠ፡ ላዕሌነ፡ በብዕሉ፡ በእንተ፡ ኢየሱስ፡ ክርስቶስ፡ መድኀኒነ።"
+        },
+        {
+          "number": 8,
+          "unit_order": 8,
+          "source_marker": "7",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=3&verse=7"
+          ],
+          "text": "ከመ፡ ንጽደቅ፡ በጸጋሁ፡ ወንረስ፡ ተስፋ፡ ሕይወት፡ ዘለዓለም።"
+        },
+        {
+          "number": 9,
+          "unit_order": 9,
+          "source_marker": "8",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=3&verse=8"
+          ],
+          "text": "እሙን፡ ነገር፡ ወበእንተ፡ ዝ፡ እፈቅድ፡ አነሂ፡ ታጽንዖሙ። ከመ፡ የኀልዩ፡ ተራድኦ፡ በኵሉ፡ ምግባረ፡ ሠናይ፡ እለ፡ ተአመኑ፡ በእግዚአብሔር። ዝኬ፡ ሠናይ፡ ዘይበቊዖ፡ ለሰብእ።"
+        },
+        {
+          "number": 10,
+          "unit_order": 10,
+          "source_marker": "9",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=3&verse=9"
+          ],
+          "text": "ነገረ፡ ጋእዝ፡ ወእበድ፡ ዘይፈጥሩ፡ ወመሐድምተ፡ ወወክሐ፡ ተገሐሦሙ። እስመ፡ ከንቱ፡ ውእቱ፡ ወኢይበቊዕ።"
+        },
+        {
+          "number": 11,
+          "unit_order": 11,
+          "source_marker": "10",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=3&verse=10"
+          ],
+          "text": "ለመስተካሕድ፡ ብእሲ፡ እምከመ፡ ምዕረ፡ ወካዕበ፡ ገሠጽኮ፡ ወአበየ፡ ኀድጎ።"
+        },
+        {
+          "number": 12,
+          "unit_order": 12,
+          "source_marker": "11",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=3&verse=11"
+          ],
+          "text": "ወአእምሮ፡ ከመ፡ ዐላዊ፡ ውእቱ። ዘከማሁ፡ ያስሕት፡ ወያጌጊ፡ ወይረክብ፡ ኵነኔ።"
+        },
+        {
+          "number": 13,
+          "unit_order": 13,
+          "source_marker": null,
+          "source_element_id": null,
+          "source_refs": [],
+          "text": "ማኅተመ፡ መልእክት"
+        },
+        {
+          "number": 14,
+          "unit_order": 14,
+          "source_marker": "12",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=3&verse=12"
+          ],
+          "text": "ወእምከመ፡ ፈነውክዎ፡ ለአርጢሞን፡ ኀቤከ፡ አው፡ ጢኪቆስ። ፍጡነ፡ ነዐ፡ ኀቤየ፡ ሀገረ፡ ናቆጵል፡ እስመ፡ አጥባዕኩ፡ እክርም፡ ህየ።"
+        },
+        {
+          "number": 15,
+          "unit_order": 15,
+          "source_marker": "13",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=3&verse=13"
+          ],
+          "text": "ለዜማስ፡ ጸሓፌ፡ ሀገር፡ ወአጵሎስ፡ ጽሑቀ፡ አክብሮሙ፡ ኢይጸነሱ፡ ምንተኒ።"
+        },
+        {
+          "number": 16,
+          "unit_order": 16,
+          "source_marker": "14",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=3&verse=14"
+          ],
+          "text": "ወእሊኣነሂ፡ ይትመሀሩ፡ ትምህርተ፡ ሠናየ። በዘይቀውሙ፡ ቅዱሳን፡ ውስተ፡ ዘይትፈቀድ፡ ግብር፡ ከመ፡ ኢይኅጥኡ፡ ፍሬ።"
+        },
+        {
+          "number": 17,
+          "unit_order": 17,
+          "source_marker": "15",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Tit&chapter=3&verse=15"
+          ],
+          "text": "አምኁከ፡ ኵሎሙ፡ እለ፡ ምስሌየ። አምኀ፡ ኵሎ፡ ዘያፈቅረነ፡ በሃይማኖት፡ ጸጋ፡ የሀሉ፡ ምስለ፡ ኵልክሙ፡ አሜን።"
+        }
+      ],
+      "notes": []
+    }
+  ]
+}

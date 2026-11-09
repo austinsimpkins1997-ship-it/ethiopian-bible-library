@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "package_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/package/genesis-illustrative-graph",
+  "scope_state": "illustrative_subset",
+  "scope_note": "A schema example with one EOTC canon-list entry and two separately modeled Genesis text layers. This is not a complete canon record or a claim that the two text layers are equivalent. The graph contains no verse-level alignment assertions.",
+  "traditions": [
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "labels": [
+        {
+          "value": "Ethiopian Orthodox Tewahedo Church",
+          "language_tag": "en",
+          "title_type": "preferred"
+        }
+      ],
+      "source_ids": [
+        "SRC-029"
+      ],
+      "notes": "The name and the cited English canon page are recorded as distinct metadata claims."
+    }
+  ],
+  "canons": [
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-english-list-sample",
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "title": {
+        "value": "Church-cited English 81-entry list",
+        "language_tag": "en",
+        "title_type": "preferred"
+      },
+      "entries_scope": "partial_sample",
+      "entries": [
+        {
+          "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon-entry/eotc-genesis-sample",
+          "ordinal": 1,
+          "source_label": "Genesis",
+          "group_label": "Old Testament",
+          "work_assertions": [
+            {
+              "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/genesis-eotc",
+              "state": "asserted_by_source",
+              "evidence_source_ids": [
+                "SRC-029"
+              ],
+              "notes": "The cited English list names Genesis. This assertion does not identify the list's manuscript recension or establish that every Genesis witness is the listed Church edition."
+            }
+          ],
+          "evidence_source_ids": [
+            "SRC-029"
+          ]
+        }
+      ],
+      "source_ids": [
+        "SRC-029"
+      ],
+      "scope_note": "Only entry 1 is represented to illustrate the data model; the source list has 81 entries."
+    }
+  ],
+  "works": [
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/genesis-eotc",
+      "titles": [
+        {
+          "value": "Genesis",
+          "language_tag": "en",
+          "title_type": "preferred"
+        },
+        {
+          "value": "ኦሪት ፡ ዘልደት ።",
+          "language_tag": "gez",
+          "title_type": "original_form"
+        }
+      ],
+      "work_type": "scriptural_work",
+      "source_ids": [
+        "SRC-029",
+        "SRC-034"
+      ]
+    },
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/genesis-lxx",
+      "titles": [
+        {
+          "value": "Genesis in the Greek Septuagint",
+          "language_tag": "en",
+          "title_type": "preferred"
+        }
+      ],
+      "work_type": "scriptural_work",
+      "source_ids": [
+        "SRC-037",
+        "SRC-038"
+      ],
+      "notes": "Kept as a separate work identity from the EOTC Geʽez witness; reader pairing is for navigation and does not assert textual identity."
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/genesis-dillmann-1853-1855",
+      "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/genesis-eotc",
+      "witness_type": "printed_edition",
+      "title": "August Dillmann (ed.), Veteris Testamenti Aethiopici Tomus Primus, sive Octateuchus Aethiopicus",
+      "date_statement": "1853–1855",
+      "repository_or_publisher": "Leipzig edition; digital transcription by Ran HaCohen",
+      "editorial_policy": "Historical critical edition transcription; Dillmann's critical apparatus is not present in the digitized text.",
+      "source_ids": [
+        "SRC-034",
+        "SRC-035",
+        "SRC-036"
+      ]
+    },
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-septuagint-1851-genesis",
+      "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/genesis-lxx",
+      "witness_type": "printed_edition",
+      "title": "The Septuagint Version of the Old Testament: According to the Vatican Text, Translated into English",
+      "date_statement": "1851 translation; locally captured digital text",
+      "repository_or_publisher": "Lancelot Charles Lee Brenton; digital text captured from eBible.org",
+      "identifier": "Brenton Septuagint Genesis digital reader",
+      "editorial_policy": "Historical English wording and source labels are retained. The English is translated from Greek, not from the accompanying Geʽez witness.",
+      "source_ids": [
+        "SRC-037",
+        "SRC-038"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/genesis-geez-dillmann-hacohen",
+      "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/genesis-dillmann-1853-1855",
+      "layer_type": "source_text_transcription",
+      "text_origin": "source_transcription",
+      "language_tag": "gez",
+      "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+      "script_code": "Ethi",
+      "basis_path": [
+        "gez"
+      ],
+      "content_package": {
+        "uri": "readers/genesis-geez.json",
+        "media_type": "application/json",
+        "sha256": "999299ad1b23acc474ecd29c8b2095646239a7cf63ed6bb705a4e5b1030947fb"
+      },
+      "rights_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/rights/genesis-geez-hacohen",
+      "structure_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/structure/genesis-geez",
+      "review_event_ids": [
+        "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/review/genesis-geez-structure",
+        "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/review/genesis-geez-transcription"
+      ],
+      "source_ids": [
+        "SRC-034",
+        "SRC-035",
+        "SRC-036"
+      ],
+      "community_access": {
+        "state": "not_assessed",
+        "statement": "No community or custodian consultation about cultural access conditions is recorded for this illustrative sample. This status neither claims restrictions nor confirms unrestricted cultural permission.",
+        "evidence_source_ids": []
+      },
+      "publication_state": "bundled",
+      "agents": [
+        {
+          "role": "editor",
+          "name": "August Dillmann",
+          "source_ids": [
+            "SRC-034",
+            "SRC-035"
+          ]
+        },
+        {
+          "role": "digitizer",
+          "name": "Ran HaCohen",
+          "source_ids": [
+            "SRC-036"
+          ]
+        }
+      ],
+      "notes": "The historical edition is not claimed as the current official EOTC printed edition."
+    },
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/genesis-brenton-english-1851",
+      "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-septuagint-1851-genesis",
+      "layer_type": "translation",
+      "text_origin": "published_translation",
+      "language_tag": "en",
+      "language_name_as_recorded": "English",
+      "script_code": "Latn",
+      "basis_path": [
+        "grc",
+        "en"
+      ],
+      "content_package": {
+        "uri": "readers/genesis-brenton.json",
+        "media_type": "application/json",
+        "sha256": "369fc6e10fb2dbef681a56e713b1ed0d2ccc9bf550d49fe9768ecd75af5980a0"
+      },
+      "rights_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/rights/genesis-brenton-1851",
+      "structure_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/structure/genesis-brenton",
+      "review_event_ids": [
+        "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/review/genesis-brenton-structure",
+        "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/review/genesis-brenton-accuracy"
+      ],
+      "source_ids": [
+        "SRC-037",
+        "SRC-038"
+      ],
+      "community_access": {
+        "state": "not_assessed",
+        "statement": "No community or custodian consultation about cultural access conditions is recorded for this illustrative sample. This status neither claims restrictions nor confirms unrestricted cultural permission.",
+        "evidence_source_ids": []
+      },
+      "publication_state": "bundled",
+      "agents": [
+        {
+          "role": "translator",
+          "name": "Sir Lancelot Charles Lee Brenton",
+          "source_ids": [
+            "SRC-038"
+          ]
+        }
+      ],
+      "notes": "Historical English companion from Greek Septuagint; not a translation of the Geʽez layer."
+    }
+  ],
+  "structures": [
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/structure/genesis-geez",
+      "layer_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/genesis-geez-dillmann-hacohen",
+      "unit_label": "numbered verse markers",
+      "unit_count": 1526,
+      "extent_state": "complete_for_declared_edition",
+      "extent_basis": "source_inventory",
+      "observed_chapter_count": 50,
+      "missing_or_lacunose_ranges": [],
+      "numbering_policy": "The captured edition's source labels are retained, including discontinuities. This count is not a manuscript-completeness claim.",
+      "source_ids": [
+        "SRC-034",
+        "SRC-035"
+      ]
+    },
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/structure/genesis-brenton",
+      "layer_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/genesis-brenton-english-1851",
+      "unit_label": "English verse labels",
+      "unit_count": 1532,
+      "extent_state": "complete_for_declared_edition",
+      "extent_basis": "source_inventory",
+      "observed_chapter_count": 50,
+      "missing_or_lacunose_ranges": [],
+      "numbering_policy": "Printed labels, including lettered labels, are preserved. Similar labels do not prove equivalence to Geʽez units.",
+      "source_ids": [
+        "SRC-037",
+        "SRC-038"
+      ]
+    }
+  ],
+  "alignments": [],
+  "citations": [
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/citation/genesis-canon-list",
+      "source_id": "SRC-029",
+      "supports_claim": "The cited Church English list includes Genesis at ordinal 1.",
+      "locator": "Old Testament, entry 1",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/citation/genesis-geez-edition",
+      "source_id": "SRC-034",
+      "supports_claim": "Identifies the Dillmann historical Ethiopic Octateuch edition and Genesis text scope.",
+      "locator": "Octateuch edition record",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/citation/genesis-hacohen-rights",
+      "source_id": "SRC-036",
+      "supports_claim": "Digitization attribution and noncommercial permission terms for the Geʽez transcription.",
+      "locator": "Digitizer notice",
+      "checked_at": "2026-10-25"
+    },
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/citation/genesis-brenton-basis",
+      "source_id": "SRC-038",
+      "supports_claim": "Identifies Brenton's 1851 translation as based on the Greek Septuagint and records provider-reported public-domain status.",
+      "locator": "Edition and reuse notice",
+      "checked_at": "2026-10-25"
+    }
+  ],
+  "rights": [
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/rights/genesis-geez-hacohen",
+      "layer_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/genesis-geez-dillmann-hacohen",
+      "status": "permission_limited",
+      "statement": "Noncommercial copying and distribution only when the copyright and permission notices accompany each copy; commercial reuse is not granted.",
+      "rights_holder": "Ran HaCohen",
+      "license_id": null,
+      "attribution_required": true,
+      "territory_or_term_limits": "Commercial rights are not granted by the cited notice.",
+      "distribution_decision": "include_text",
+      "evidence_source_ids": [
+        "SRC-036"
+      ]
+    },
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/rights/genesis-brenton-1851",
+      "layer_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/genesis-brenton-english-1851",
+      "status": "public_domain_claimed",
+      "statement": "eBible.org identifies the 1851 Brenton English translation as public domain. This is a provider-reported status, not a jurisdiction-by-jurisdiction legal determination; the digital package has separate provenance.",
+      "rights_holder": null,
+      "license_id": null,
+      "attribution_required": true,
+      "territory_or_term_limits": "Provider-reported public-domain status only.",
+      "distribution_decision": "include_text",
+      "evidence_source_ids": [
+        "SRC-037",
+        "SRC-038"
+      ]
+    }
+  ],
+  "review_events": [
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/review/genesis-geez-structure",
+      "layer_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/genesis-geez-dillmann-hacohen",
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "The locally archived menu and 50 source pages are present in sequence; observed verse markers are retained.",
+      "method": "automated_validation",
+      "reviewer": null,
+      "reviewed_at": "2026-10-24",
+      "process": "Archive build validation; not an independent collation against print or manuscript.",
+      "evidence_source_ids": [
+        "SRC-034",
+        "SRC-035"
+      ]
+    },
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/review/genesis-geez-transcription",
+      "layer_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/genesis-geez-dillmann-hacohen",
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "No fresh line-by-line collation of the digitized Geʽez wording against the 1853–1855 print edition or manuscript witnesses.",
+      "method": "unknown",
+      "reviewer": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-034",
+        "SRC-036"
+      ]
+    },
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/review/genesis-brenton-structure",
+      "layer_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/genesis-brenton-english-1851",
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "The captured source inventory contains 50 ordered chapter pages and preserves observed labels.",
+      "method": "automated_validation",
+      "reviewer": null,
+      "reviewed_at": "2026-10-24",
+      "process": "Archive build validation; not proof of print-edition completeness.",
+      "evidence_source_ids": [
+        "SRC-037",
+        "SRC-038"
+      ]
+    },
+    {
+      "id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/review/genesis-brenton-accuracy",
+      "layer_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/genesis-brenton-english-1851",
+      "dimension": "translation_accuracy",
+      "state": "unknown",
+      "scope": "No fresh collation against Greek Septuagint editions or Brenton's printed translation.",
+      "method": "unknown",
+      "reviewer": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-037",
+        "SRC-038"
+      ]
+    }
+  ]
+}

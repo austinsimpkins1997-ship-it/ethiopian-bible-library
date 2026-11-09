@@ -1,0 +1,830 @@
+{
+  "reader_id": "dawro-latin-php-research",
+  "research_corpus_id": "dawro-dwrl-2024-php",
+  "canon_id": null,
+  "title": "Philippians — Dawro Bible (DWRLTW / dwrl, Latin script)",
+  "display_name": "Philippians · Dawro · eBible.org (Latin)",
+  "text_origin": "published_translation",
+  "translation_id": "dawro-dwrl-2024",
+  "language": "Dawro",
+  "language_tag": "dwr",
+  "language_assignment_status": "publisher_declared_in_source_page",
+  "script_code": "Latn",
+  "translator": "Not identified on the publisher's edition page.",
+  "contributor": "The Word for the World International",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The publisher's edition page does not identify a source language or relay-language path; neither is inferred.",
+  "edition": "The Holy Bible in the Dawuro language of Ethiopia, Latin script; copyright © 2024; the retained edition page is dated 2025-05-01.",
+  "edition_scope": "One of 66 USFM book members in the publisher's DWRLTW / dwrl package. The publisher labels the work a Holy Bible; the digital module inventory is not a comparison against a print edition and does not establish completeness, translation accuracy, or equivalence to any Ethiopian Orthodox Tewahedo or Eritrean Orthodox canon list. No canon crosswalk is assigned.",
+  "rights_classification": "open_license",
+  "license_id": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "copyright_notice": "Copyright © 2024 The Word for the World International. Source edition: eBible.org, DWRLTW / dwrl, The Holy Bible in the Dawuro language of Ethiopia, Latin script (Dawro, dwr). The publisher identifies The Word for the World International as contributor and states CC BY-SA 4.0 for the translation text. Change made: publisher USFM was parsed into reader JSON; source text and markers were preserved where handled, and original USFM remains bundled for audit. Any source figures/assets not bundled are excluded; the publisher states that picture terms differ. The publisher has not endorsed this archive or its changes.",
+  "commercial_use": "The source-stated CC BY-SA 4.0 permits commercial sharing and adaptation with attribution, a link to the license, indication of changes, and ShareAlike for adaptations. Images and other media have separate terms and are not bundled.",
+  "unit_label": "USFM verse labels observed",
+  "unit_count": 99,
+  "verse_marker_count": 99,
+  "chapter_count": 4,
+  "section_label": "Chapter",
+  "chapter_structure_note": "This source member has 4 consecutive numeric chapter markers, 99 observed verse labels, 9 extracted notes, 12 front-matter elements, 10 unnumbered continuation segments, and USFM markers {'c': 4, 'h': 1, 'id': 1, 'imt1': 1, 'io1': 7, 'iot': 1, 'ip': 3, 'mt1': 1, 'mt2': 2, 'p': 35, 'q1': 7, 'q2': 9, 's1': 11, 'toc1': 1, 'toc2': 1, 'toc3': 1, 'v': 99}. Chapter/verse labels are retained in source order. Counts describe this digital member, not printed completeness, translation accuracy, or a canon match.",
+  "chapter_structure_status": "source_package_parsed_with_limits",
+  "source_numbered_unit_count": 99,
+  "source_unnumbered_unit_count": 10,
+  "book_order_in_source": 49,
+  "source_pages": "readers/source/dawro/dwrl_usfm.zip::56-PHPdwrl.usfm",
+  "source_package_sha256": "babec0c76176e5eaa10f5f7f0b31296bd889802871ee8ab8350866d76f5d080f",
+  "source_snapshot_sha256": "0c0e72c2225b66b6aa0a203cb26c9ae4d30f85186d14440cb07b18ad4210e778",
+  "source_ids": [
+    "SRC-403",
+    "SRC-404",
+    "SRC-405",
+    "SRC-406"
+  ],
+  "rights_status": "CC BY-SA 4.0 for the translation text as stated on the specific 2024 DWRLTW / dwrl edition page; image/media terms are separate.",
+  "verification_status": "The exact source member 56-PHPdwrl.usfm has SHA-256 0c0e72c2225b66b6aa0a203cb26c9ae4d30f85186d14440cb07b18ad4210e778, matching the ZIP's clear-signed checksum list. The list's signature verifies against the package-included key (54D714D76956DA6673DC1EEA5F62009D93505F26); a maintainer page lists the same fingerprint, which is corroboration only and does not independently establish identity, custody, or signing authority. The signature uses legacy DSA-1024/SHA-1. Automated extraction checked every explicit chapter and verse label against this member, retaining the label sequence and represented USFM structure. This establishes local extraction and package integrity, not wording accuracy, community review, translation basis, print completeness, or canon identity.",
+  "transcription_note": "Machine-readable display extraction from the publisher's USFM. Chapter/verse label sequences were compared directly with source lines; the original signed package is retained beside the reader. No independent linguistic proofread or collation was performed.",
+  "editorial_signs_note": "Publisher title labels, verse labels, chapter divisions, headings, notes, front matter, paragraph/poetry markers, continuations, and recognized USFM structure are represented in the extracted reader. The complete original USFM remains available in the bundled ZIP; the reader parser fails on unreviewed structural markers. Source and reader label sequence equality is checked per member.",
+  "front_matter": [
+    {
+      "marker": "imt1",
+      "text": "Geluwaa"
+    },
+    {
+      "marker": "ip",
+      "text": "P'awuloosi Pilip'p'isiyoosa asaw s'aafeedda kiitay s'aafetteeddawe, Mak'idooniyaa gidduwaan de'iyaa Roomen omoodetteedda Pilip'p'isiyoosa geetettiyaa gadiyaan de'iyaa ammaniyaawanttussa. Hawanttu P'awuloosi koyro ammantsiide shiishsheeddawantta. Unttunttu Roome gade yeletaa gido dirawunne k'aykka kare gadeppe yeedda wogaaninne ammanuwaan daroppe ayyiino. P'awuloosa bollan unttunttu daroppe hank'k'etteedda gaasuukka hawaa (Kit. 16:20). Ha kiitay s'aafetteeddawe, hara ammaniyaa oosanchchatuu P'awuloosa k'ofaa p'alk'k'i p'alk'k'iide waayissiyaa wodiyaannanne Pilip'p'isiyoosa ammaniyaawanttu giddon denddeedda worddo timirttiyaa gaasuwaan Aa wozanay daro kayyottiide me\"eedda wodenne k'asho golliyaan I de'iyaa wodiyaanna. Gido shin, P'awuloosi Yesuusi Kiristtoosa minisiide ammaniyaa asaa gideedda diraw, ha kiitaa bollan k'onc'c'iide beettiyaawe nashechchaanne kumentsaa ammanettiyaawaa."
+    },
+    {
+      "marker": "ip",
+      "text": "P'awuloosi ha kiitaa s'aafeedda koyro gaasuu Aa metuwaa wode Aa maaddanaw Pilip'p'isiyoosa ammaniyaa Asay imotaa aw kiitteedda diraw, unttuntta galatanaassa. Aa bollankka unttunttu bollankka dumma dumma metuu gakkeeddawaa gidooppekka, unttunttu s'alana malanne kumentsaa ammanettiide de'ana mala, ha gaketteedda injjiyaan unttuntta mentsetsee. Ayyuwaanne otoruwaa diggiide, Yesuusi Kiristtoosa ashikketetsan unttunttu kumana mala, minisiide unttuntta hassayisseedda. Yesuusi Kiristtoosanna ittippe gideeddawaan unttunttu demmeedda de'uu S'oossaa aad'd'o keekatetsaappe pultteeddawaanne unttunttu ammanuwaan akkeeddawaa gidiyaawaappe attin, Ayihudatuwaa wogatuwaa poliyaawaan beetteeddawaa gidennawaa unttuntta hassayissee. Yesuusi Kiristtoosanna ittuwaa gidiide de'iyaa ubbatoo S'oossay immiyaa sarotetsaabaanne nashechchaabaa unttunttoo s'aafee."
+    },
+    {
+      "marker": "ip",
+      "text": "Ha kiitay erettiyaawe nashechchaa, ammanettiyaawaa, ittippetetsaanne Kiristtinnaa ammanuwaaninne de'uwaan minniide de'iyaawaa geeshshiide bessiyaawaana. Hewaa bollakka gujjiide, P'awuloosi Pilip'p'isiyoosan de'iyaa ammaniyaa asatuwaa siik'iyaa wolk'k'aama siik'uwaa k'onc'c'issee."
+    },
+    {
+      "marker": "iot",
+      "text": "Shemppatuwaa Ubbatoo Imetteedda K'antsa K'ofatuwaa"
+    },
+    {
+      "marker": "io1",
+      "text": "Geluwaa 1:1-11"
+    },
+    {
+      "marker": "io1",
+      "text": "P'awuloosaw de'eedda de'uwaa hanotaa 1:12-26"
+    },
+    {
+      "marker": "io1",
+      "text": "Kiristtinnaa de'uwaa leemisuwaa 1:27—2:18"
+    },
+    {
+      "marker": "io1",
+      "text": "S'imootoosawunne Ep'afiroodiituussaw de'iyaa k'ofaa 2:19-30"
+    },
+    {
+      "marker": "io1",
+      "text": "Ammanuwaa ek'ettiyaawanttuppe naagettana mala odetteeddawaa 3:1—4:9"
+    },
+    {
+      "marker": "io1",
+      "text": "P'awuloosi Pilip'p'isiyoosa ammaniyaawanttoo shiishsheedda galataanne mak'k'uwaa 4:10-20"
+    },
+    {
+      "marker": "io1",
+      "text": "Wurssetsaa k'utiyaa 4:21-23"
+    }
+  ],
+  "source_book_metadata": [
+    {
+      "marker": "h",
+      "text": "Pilip'p'isiyoosa"
+    },
+    {
+      "marker": "toc1",
+      "text": "P'awuloosi pilip'p'isiyoosa Asaw S'aafeedda Kiitaa"
+    },
+    {
+      "marker": "toc2",
+      "text": "Pilip'p'isiyoosa"
+    },
+    {
+      "marker": "toc3",
+      "text": "Pil."
+    },
+    {
+      "marker": "mt2",
+      "text": "P'awuloosi"
+    },
+    {
+      "marker": "mt1",
+      "text": "Pilip'p'isiyoosa Asaw"
+    },
+    {
+      "marker": "mt2",
+      "text": "S'aafeedda Kiitaa"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Nuuni Yesuusi Kiristtoosa oosanchchatuu P'awuloosinne S'imootoosi, Kiristtoosa Yesuusan de'iyaawanttoo, Pilip'p'isiyoosa giyaa katamaan de'iyaa geeshshatoo ubbatoo, ammaniyaawantta kaaletsiyaawanttoonne maaddiyaawanttoo ha dabddaabbiyaa s'aafeetto.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Nu Aawuwaa S'oossaappenne Godaa Yesuusi Kiristtoosappe aad'd'o keekatetsaynne sarotetsay hinttenttoo gido.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "3",
+          "text": "Taani hinttena hassayiyaa wode ubbaan ta S'oossaa galatay.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "P'awuloosi Woosseedda Galataa Woosaa"
+          ]
+        },
+        {
+          "number": "4-5",
+          "text": "Hintte koyiro gallassaappe hanno gakkanaw, mishiraachchuwaa k'aalaa odiyaawaan taana maaddeedda diraw, taani ubbaa wode hinttenttoo ubbaw nashechchan S'oossaa woossay."
+        },
+        {
+          "number": "6",
+          "text": "K'ay hinttenttu giddon lo\"o oosuwaa doommeedda S'oossay, Kiristtoosi Yesuusi simmiyaa gallassay gakkanaw polanawaa eray."
+        },
+        {
+          "number": "7",
+          "text": "Taani hinttenttoo ubbaw hewaadan k'oppanaw bessee; ayaw gooppe, taani hinttena ubbaa wode hassayay. Ha\"i taani k'ashuwaan de'iyaawaaninne wonggalaw mootettiyaawan, k'ay wonggalaa minisa essiyaawaaninne, S'oossay taw kaac'eedda kaac'aa hinttekka taananna gishi akkeeddita.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Ayaw gooppe, taani hinttena ubbatuwaa Kiristtoosi Yesuusappe yiyaa siik'uwaan ay keenaa siik'intto, S'oossay taw markka."
+        },
+        {
+          "number": "9-10",
+          "text": "K'ay taani hinttenttoo S'oossaa woossiyaawe hawaa; lo\"obaa ayaanneekka dooranaw hinttenttu danddayanaadaaninne, k'ay hinttenttu siik'uu tumu eratetsaananne akeeka ubbaanna ittippe gujji gujji dic'c'anaadan, S'oossaa woossay; yaatiide Kiristtoosi simmiyaa gallassan hinttenttu suurenne pokkuu baynnawantta gidana.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "K'ay hinttenttu shemppuukka S'oossaa bonchchoonne galataw Yesuusi Kiristtoosa baggana beettiyaa s'illotetsaa ayfiyaa ayifana."
+        },
+        {
+          "number": "12",
+          "text": "Taanaadan S'oossaa kaalliyaawanttoo, ha taana gakkeeddawe mishiraachchuwaa k'aalay aakkanaadan tumu maaddeeddawaa hinttenttu erana mala koyyay.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "P'awuloosa K'ashuu Wonggalay Aakkanawaa Diggibeenna"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Taani Kiristtoosa diraw k'ashetteeddawaa, kaatiyaa golliyaa naagiyaa ubbatuunne hawaan de'iyaa haratuu ubbatuu eriino."
+        },
+        {
+          "number": "14",
+          "text": "K'ay taani k'ashetteeddawe nu ishatuwaappe dariyaawanttu Godan loytsi ammanettiide, S'oossaa k'aalaa yashshi baynnaan kasewaappe s'aliide odanaadan maaddeedda."
+        },
+        {
+          "number": "15",
+          "text": "Tumuppe ittuu ittuu k'anaatiyaa dirawunne palumiyaa diraw, Kiristtoosawaa odiino; shin haranttu lo\"o amuwaan odiino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "Hawanttu S'oossay taw wonggalaa naagiyaa oosuwaa immeedda diraw, siik'iide k'aalaa odiino."
+        },
+        {
+          "number": "17",
+          "text": "Shin yekkonttu taani k'ashuwaan de'ishshin, ta bolla waayiyaa ahanawaa unttunttoo malatina, barena siik'iyaa wolk'k'aama amuwaan Kiristtoosawaa odinoppe attin, wozanaappe odikkino."
+        },
+        {
+          "number": "18",
+          "text": "Ayinne baawa; malatissiyaa odonne gido woy tumu odonne gido, ay ogiyaaninne Kiristtoosawaa odooppe, taani hewan nashettay. Sintsanawukka k'ay taani nashettana.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Ayaw gooppe, taani hinttenttu woosaaninne Yesuusi Kiristtoosa Ayyaanaappe yiyaa maaduwaan attanawaa eray."
+        },
+        {
+          "number": "20",
+          "text": "Ta wolk'k'aama amuunne S'oossaappe akkana gaade taani nashechchan naagiyaa naaguu ayee gooppe, taani pas'a de'inakka woy hayk'k'inakka yayyenaan, kasewaadan ha\"ikka ta kumentsaa asatetsan Kiristtoosi bonchchettanawaappe attin, taani haray atto ittibankka yeellatennaan attanaassa."
+        },
+        {
+          "number": "21",
+          "text": "Ayaw gooppe, taw de'uu Kiristtoosa; k'ay hayk'uukka taw go\"a."
+        },
+        {
+          "number": "22",
+          "text": "Shin taani pas'a de'iyaawaan daro go\"iyaawaa ootsanawaa gidooppe, hak'awaa dooranentto taw erettenna."
+        },
+        {
+          "number": "23",
+          "text": "Taani ha laa\"u yewatuwaan metootay; ha de'uwaappe shaakettanawunne k'ay Kiristtoosanna ittippe de'anaw amottay; Kiristtoosanna ittippe de'iyaawe ubbaappe aad'd'eedda daro lo\"obaa."
+        },
+        {
+          "number": "24",
+          "text": "Shin taani hayk'k'iyaawaappe hinttenttu diraw pas'a de'iyaawe hinttena daro koshshiyaawaa."
+        },
+        {
+          "number": "25",
+          "text": "Hawe tuma gidiyaawaa taani geeshshaade eray; k'ay ammanuwaan hinttenttu dic'c'anaadaaninne nashettanaadan, taani hinttenanna ubbaanna pas'a de'ana.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "Hewaa diraw, taani hinttenanna laa'entsuwaa yiyaa wode, Kiristtoosa Yesuusanna hintte de'iyaa de'uwaan, tabaan c'eek'ettiyaabay hinttenttoo darana."
+        },
+        {
+          "number": "27",
+          "text": "Gidooppekka, hinttenttu hinttenttu huup'ew Kiristtoosa wonggalaw bessiyaa de'uwaa de'ite; taani hinttena baade woy be'ana d'ayina, hinttenttu itti k'ofaan minniide ek'k'eeddawaanne, k'ay wonggalaa ammanoo itti wozanaa gidiide ittippe baas'etiyaawaa sisana.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "Hintte morkketoo ayankka yayyoppite; hewe unttunttoo unttunttu bashaa d'iishissee; shin S'oossay hinttena s'oonissiyaa diraw, hinttenttoo atotetsaa d'iishissee."
+        },
+        {
+          "number": "29",
+          "text": "Ayaw gooppe, Kiristtoosaw ootsiyaa kaac'ay hinttena gakkeeddawe hinttenttu aan ammanana s'alalaassa gidennaan Aa diraw waayiyaakka akkanaassa."
+        },
+        {
+          "number": "30",
+          "text": "Taani kase baas'etishshin hinttenttu be'eeddawaa mala baas'iinne k'ay ha\"ikka taani baas'etiyaawaa hinttenttu sisiyaawaa malay hinttena gakkeedda."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Sarotaa"
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Kiristtoosan hinttenttu de'iyaa de'uu hinttena wozantsii? Aa siik'uu hinttena mentsetsii? Geeshsha Ayyaanana hinttenttoo ittippetetsay de'ii? Hintte ittuu ittoo keekiiteennee k'arettiitee?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Yaatooppe, hinttenttu k'ofaan, siik'uwaan, wozanaaninne k'ofaa poluwaan ittuwaa gidiide, taana polo nashechchite."
+        },
+        {
+          "number": "3",
+          "text": "Hinttena siik'iyaawaan woy c'eek'ettanaw koyyiyaa mela amuwaan ittibaanne ootsoppite; shin ittuu ittuwaappe d'ok'k'ay yaagiide k'oppennaan, ittuu ittoo hinttenttu huup'iyaa kawushshite."
+        },
+        {
+          "number": "4",
+          "text": "K'ay ittuu ittuwaa go\"iyaawaa koyyanaappe attin, hinttenttu huup'e s'alalaa go\"iyaawaa koyyoppite."
+        },
+        {
+          "number": "5",
+          "text": "Kiristtoosa Yesuusan de'iyaa ha ashikketetsaa k'ofay k'ay hinttenankka de'anaw bessee.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "I ubbaa wode S'oossaa gidiide de'eedda;",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "shin I wolk'k'aan S'oossaa keena gidiyaa maatay de'iyaawaa bessiyaawaadan paydibeenna."
+            }
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Shin I bare sheniyaan ubbabaa aggiide,",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "ayiliyaa med'etaa akkeedda;"
+            },
+            {
+              "source_marker": "q2",
+              "text": "k'ay asaa malatiide k'onc'c'eedda."
+            }
+          ]
+        },
+        {
+          "number": "8",
+          "text": "I barena kawushsheedda;",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "hayk'oo, ubbaa haray atto,"
+            },
+            {
+              "source_marker": "q2",
+              "text": "mask'k'aliyaa bolla hayk'k'anawukka azazetteedda."
+            }
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Hewaa diraw, S'oossay Aa loytsi d'ok'k'u d'ok'k'u ootseedda;",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "k'ay suntsaa ubbaappekka aad'd'iyaa"
+            },
+            {
+              "source_marker": "q2",
+              "text": "d'ok'k'a suntsaa aw immeedda."
+            }
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Hewaa diraw, saluwaaninne sa'aan,",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "sa'aappe garssan de'iyaa ubbay,"
+            },
+            {
+              "source_marker": "q1",
+              "text": "Yesuusa suntsaa bonchchanaw gulbbatana."
+            }
+          ]
+        },
+        {
+          "number": "11",
+          "text": "K'ay Asay ubbay Yesuusi Kiristtoosi Godaa yaagiide,",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "S'oossaa Aawuwaa bonchchoo markkattana."
+            }
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Hewaa diraw, ta dabbatoo, taani hinttenanna de'iyaa wode ubbaan hinttenttu taw azazetteeddawaadan, ha\"i taani hinttenttu matan de'enna wodekka, hinttenttu kasewaappe aatsiide taw azazettanaw bessee; yashshatetsaaninne kokkorssaan hinttenttu atotetsaa polanaw ootsite.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ha Sa'aan De'iyaa Asaw Poo'o Gidiyaawaa"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Ayaw gooppe, S'oossay hinttena barew eeno giissanaadaaninne k'ay I k'oppeeddawaa hinttenttu ootsanaadan hinttenttu giddon ubbaa wode ootsee."
+        },
+        {
+          "number": "14-15",
+          "text": "Geellanne nagaranchcha asaa giddon pokkuu baynnawantta, geeshshatuwaa, S'oossaa naanatuwaadankka pokkuu bayinnawantta gidite; k'ay zuuzummennan woy iitabaa k'oppennaan ubbabaa ootsite. He asaa giddonkka saluwaan poo'iyaa s'oolinttiyaadan poo'iidde,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "de'uwaa mishiraachchuwaa k'aalaa unttunttoo odite; he wode ta daaburaynne ta oosuu mela d'ayibeennawe erettiyaa diraw, Kiristtoosi simmiyaa gallassi taani hinttenan c'eek'ettana."
+        },
+        {
+          "number": "17",
+          "text": "Haray atto hinttenttu ammanuu S'oossaw yarshshiyaa yarshshuwaa bolla ta suutsay ushshaa yarshshuwaadan gukkooppekka, taani nashettay; hinttenanna ubbaanna ittippe nashettay.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Hewaadan hinttekka k'ay nashettanaw bessee; taananna ittippe nashettite."
+        },
+        {
+          "number": "19",
+          "text": "Shin taani hinttenttu de'uwaabaa sisaade nashettanaadan, S'imootoosa hinttekko ellekka yeddanawaa Godaa Yesuusan ammanettay.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "S'imootoosinne Eppafiroditoosi Ootseedda Oosuwaa"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Ayaw gooppe, hinttenttu de'uwaabaw wozanaappe hirggiyaa Aa mala Asay haray ooninne taw baawa."
+        },
+        {
+          "number": "21",
+          "text": "Ayaw gooppe, haratuu ubbatuu barenttu huup'e go\"aa koyyiino; Yesuusi Kiristtoosawaa koyyikkino."
+        },
+        {
+          "number": "22",
+          "text": "Shin na'ay bare aabbu ootsiyaawaadan, S'imootoosi taananna ittippe gidiide, wonggalaa oosuwaa ootseeddawaan, ammanettiyaa asaa gidiyaawaa erisseeddawaa hinttenttu eriita."
+        },
+        {
+          "number": "23",
+          "text": "Hewaa diraw, taani yewuu haniyaawaa be'aade, ellekka Aa hinttekko yeddana gaade k'oppay."
+        },
+        {
+          "number": "24",
+          "text": "Taani ta huup'ew mata wodiyaan hinttekko baanawaa Godan ammanettay."
+        },
+        {
+          "number": "25",
+          "text": "Shin taani ta ishaa Eppafiroditoosa, taananna ittippe ta bagga gidiide ootseeddawaa, oletteeddawaanne, k'ay taana maaddiyaawaan hinttenttoo kiitettiide ootseeddawaa hinttekko kiittanaw koshshiyaawaa k'oppaad.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "Ayaw gooppe, I hinttena ubbaa be'anaw laamotee; k'ay I saketteeddawaa hinttenttu siseedda diraw, bare wozanaan daro metootee."
+        },
+        {
+          "number": "27",
+          "text": "I tumu sakettiide, hayk'k'i atteedda; shin S'oossay aw k'aretteedda; Aa s'alalaw gidennaan kayyuu kayyuwaa bolla gujettennaadan, tawukka k'aretteedda."
+        },
+        {
+          "number": "28",
+          "text": "Simmi hinttenttu laa'entsuwaa Aa be'iide nashettanaadan, tawukka ta wozanaa kayyuu irs's'anaadan, taani ellekka Aa hinttekko yeddana.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "29",
+          "text": "Hewaa diraw, Godan de'iyaa ishaadan, kumentsaa nashechchan Aa mokkite; k'ay Aa malatiyaa asaa ubbaakka bonchchite."
+        },
+        {
+          "number": "30",
+          "text": "Ayaw gooppe, hinttenttu hinttenttu huup'ew taana maaddana danddayenna maaduwaa maaddanaw, Kiristtoosa oosuwaa diraw, bare shemppuwaa sheneko giide, hayk'k'i atteedda."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "7",
+          "marker": "Translator/editor note",
+          "text": "+ Ubbabaa aggiide: I barena mela ootseedda guussaa.",
+          "note_type": "translator_note",
+          "source_reference": "2:7"
+        },
+        {
+          "verse": "10",
+          "marker": "Translator/editor note",
+          "text": "- Isa. 45:23",
+          "note_type": "translator_note",
+          "source_reference": "2:10"
+        },
+        {
+          "verse": "14-15",
+          "marker": "Translator/editor note",
+          "text": "- Zar. 32:5",
+          "note_type": "translator_note",
+          "source_reference": "2:14-15"
+        }
+      ],
+      "heading": [
+        "Kiristtoosi Barena Kawushsheeddawaa Leemisuwaa"
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Wurssetsaan, taanaadan S'oossaa kaalliyaawanttoo, Goday hinttenttoo nashechchaa immo. Taani kase s'aafeeddawaa zaaretsaade s'aafiyaawe taana waayissenna; k'ay he s'aafiyaawe hinttena naagana.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Iitabaa ootsiyaawanttuppe, he kanatuwaa eeshshay de'iyaawanttuppe, k'as's'aray koshshee giyaa asatuwaappe naagettite.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "3",
+          "text": "Ayaw gooppe, nuuni S'oossaa Geeshsha Ayyaanan S'oossaw goyinniyaa dirawunne nu de'uwaan Godaa Kiristtoosa Yesuusan nashettiyaa diraw, tumu k'as's'araa k'as's'aretteeddawantta; asatetsaa bolla oosettiyaawan ammanokko."
+        },
+        {
+          "number": "4",
+          "text": "K'ay taw ta huup'iyankka ta asatetsan ammanettiyaawe de'ee. Ay asaynne bare asatetsan ammanettiyaawe barew de'ee giide k'oppooppe, taani aappe loytsa aad'd'ay.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Taani yelettoodeppe hosppuntsa gallassaan k'as's'arettaad. Taani yeletaan Israa'eeliyaa; Biiniyaama zare; walakay bayinna Ayihuda asaa. Ayihuda higgiyaa naagiyaawaan gidooppe, taani Parisaawe;"
+        },
+        {
+          "number": "6",
+          "text": "Ayihuda ammanoo seelaa gidooppe, taani ammaniyaawantta waayissaaddi; itti uray Muse higgew azazettiide s'illiyaawaa bagga gidooppe, taanan pokkobay beettibeenna."
+        },
+        {
+          "number": "7",
+          "text": "Shin taana go\"iyaa he ubbabaa Kiristtoosa diraw bayeeddawaadan payday.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8-9",
+          "text": "Tumakka, hewanttu s'alalaa gidenna; taani ta Godaa Kiristtoosi Yesuusa eriyaawe ubbabaappe loytsi aad'd'iyaa diraw, ubbabaa taana mulekka go\"ennawaadan payday; taani Aa diraw ubbabaa yegga bashaaddi. Kiristtoosa demmanawunne aanana de'anaw ubbabaa wora oleeddawaadan payday; taani Muse higgew azazettaade demmiyaa ta huup'e s'illotetsay taw baawa. Kiristtoosa ammanina, S'oossay immiyaa s'illotetsay, ammanuwaan S'oossaa matappe yiyaa s'illotetsay taw ha\"i de'ee."
+        },
+        {
+          "number": "10-11",
+          "text": "Taani Kiristtoosanne Aa dendduwaa wolk'k'aa eranaw koyyay; yaataade taani ta huup'ew hayk'uwaappe denddana yaagiyaawaan, Aa waayiyaa aanana waayettanawunne Aa hayk'uwaan Aa malatanaw amottay."
+        },
+        {
+          "number": "12",
+          "text": "Taani ha\"i demma diggaad woy taanan bali baawa giikke. Shin Kiristtoosi Yesuusi taana barew ootseedda woytaa demmana gaade elleellay.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Gakkiyaasaa Gakkanaw Wos's'iyaawaa"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Taanaadan S'oossaa kaalliyaawanttoo, taani hewaa demma diggaad gaade k'oppikke; shin taani ittibaa ootsay; taappe guyyenna de'iyaawaa dogaade sintsan de'iyaawaa oyk'k'anaw wad'ettay."
+        },
+        {
+          "number": "14",
+          "text": "S'oossay Kiristtoosi Yesuusa baggana bolla de'oo s'eesiyaa woytaa akkanaw, ta gakkanaw wos'ay."
+        },
+        {
+          "number": "15",
+          "text": "Simmi nuuni Ayyaanan minneeddawanttu ubbatuu hawaa k'oppanaw bessee; k'ay hintteppe amareedawanttoo ayaaninne dumma k'ofay de'ooppe, hewaakka S'oossay hinttenttoo k'onc'c'issana.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "Gidooppekka, nuuni hanno gakkanaw de'eedda maaraadan, ane sintsaw he maaraa kaalloytte."
+        },
+        {
+          "number": "17",
+          "text": "Taanaadan S'oossaa kaalliyaawanttoo, taani haniyaawaadan hanite. Nuuni hinttenttoo leemisuwaa gideeddo; hewaadan hinttekka nuuni hinttenttoo leemisuwaa gideedda maaraa kaalliyaawantta akeekite.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Ayaw gooppe, taani hewaa hinttenttoo kase c'oratoo odaaddi; k'ay ha\"i laa'entsuwaakka afos's'aadde hinttenttoo oday; Kiristtoosi mask'k'aliyaa bolla misimaariyan d'ishettiide hayk'k'eeddawoo barenttu shemppuu barena morkke ootseedda daro asatuu de'iino."
+        },
+        {
+          "number": "19",
+          "text": "Unttunttu wurssetsay bashshaa; unttunttu uluu unttunttoo S'oossaa; yeellatanaw bessiyaawan unttunttu otorettiino; k'ay ha sa'aabaa s'alalaa k'oppiino."
+        },
+        {
+          "number": "20",
+          "text": "Ayaw gooppe, nu biittay saluwaana; nuuni k'ay saluwaappe yaana nuuna ashshiyaa Godaa Yesuusi Kiristtoosa naageetto."
+        },
+        {
+          "number": "21",
+          "text": "Kiristtoosi ubbabaa bareppe garssan wotsanaw danddayiyaa bare wolk'k'an, nu daaburanchcha asatetsaa laammiide, bare bonchcho asatetsaa malatissiide ootsana."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "5",
+          "marker": "Translator/editor note",
+          "text": "+ Taani yelettoodeppe hosppuntsa gallassaan: Hawe Ayihudiyaa attuma naanay yelettoodeppe hosppuntsa gallassaan k'as's'arettiyaawaa bessee.",
+          "note_type": "translator_note",
+          "source_reference": "3:5"
+        }
+      ],
+      "heading": [
+        "Tumu S'illotetsaa"
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Taanaadan S'oossaa kaalliyaawanttoo, taani siik'iyaawanttoo, laamotiyaawanttoo, taana nashechchiyaawaanttoo, taana d'ok'k'u ootsiyaawanttoo, ta dabbatoo, simmi Godan hinttenttu min ek'k'anaw bessee.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Ewoodenne Sins's'iikee, hinttenttu laa\"uukka k'ofaan ittuwaa gidiide, Godan de'anaadan, taani hinttena zoray.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "3",
+          "text": "K'ay taananna ootsiyaa ammanetteedawoo, neeni ha mac'c'a asatuwaa maaddanaadan, taani neena woossay; ayaw gooppe, unttunttu taanannanne unttunttu suntsay S'oossaa de'uwaa mas'aafan s'aafetteedda K'alemins's'oosanna k'ay taananna ittippe ootsiyaa haratuwaa ubbaanna wonggalaa ubbasaa gatsanaw daabureeddino."
+        },
+        {
+          "number": "4",
+          "text": "Godaanna hinttenttu de'iyaa de'uwaan ubbaa wode nashettite; taani hawaa gujjaadekka gay; nashettite.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Asay ubbay hinttenttu ashikketetsaa ero; Goday matan yaana.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "S'oossaa hinttenttu woossiyaa woosaa ubbaan Aa loytsi galatiidde, hinttena koshshiyaawaa ubbaw woossiteppe attin, ittibawukka hirggoppite."
+        },
+        {
+          "number": "7",
+          "text": "K'ay asaa eratetsaa ubbaappe aad'd'iyaa S'oossaa sarotetsay hinttenttu wozanaanne hinttenttu k'ofaa Godaa Yesuusi Kiristtoosa baggana naagana."
+        },
+        {
+          "number": "8",
+          "text": "Wurssetsaan, taanaadan S'oossaa kaalliyaawanttoo, hinttenttu wozanaan lo\"obaanne galatissiyaawaa k'oppite; tuma gidiyaabaa ubbaa, bonchchissiyaawaa ubbaa, bayizzuwaa gidennabaa ubbaa, geeshshabaa ubbaa, siik'uwaa ubbaa, suure gidiyaabaa ubbaa k'oppite.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Hinttenttu taappe tamaareeddawaa, akkeeddawaa, siseeddawaanne be'eeddawaa ubbaa ootsite; k'ay nuw sarotetsaa immiyaa S'oossay hinttenanna ittippe gidanawaa."
+        },
+        {
+          "number": "10",
+          "text": "Shin daro wodiyaappe guyyiyaan, ha\"i hinttenttu tawaa laa'entsuwaa k'oppanaw doommeedda diraw, taani Godan loytsa nashettay; taw k'oppanaw hinttenttoo injjetennan is's'eeddawaappe attin, taw k'ofaa k'oppiita.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Barew Kiitetteedda Imotaw P'awuloosi Galateeddawaa"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Taani hawaa taana meteedda diraw giikke; ayaw gooppe, taw de'iyaabay taw gidana giyaawaa taani tamaaraad."
+        },
+        {
+          "number": "12",
+          "text": "Taani metootiide wooti de'anentto eray; k'ay durettiide de'iyaawekka ayentto eray; hak'an gidinakka awude gidinakka, taani kaluwaanne koshshaa k'ay pac'aanne palahaa tamaaraad."
+        },
+        {
+          "number": "13",
+          "text": "Kiristtoosi taw immeedda wolk'k'an, ubbabaa ootsanaw taani danddayay."
+        },
+        {
+          "number": "14",
+          "text": "Gidooppekka, hinttenttu ta metuwaa taananna metootiide daro loytseeddita;",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Pilip'p'isiyoosa asaw, wonggalaa mishiraachchuu koyro hintte giddon odetteedda; shin taani Mak'idooniyaappe keseedda wode, taana ammaniyaa hinttenttuppe attin, haray maaddibeennawaa hinttenttu hinttenttu huup'ew eriita; k'ay immiyaabankka akkiyaabankka hintteppe attin, haray taana maaddibeenna."
+        },
+        {
+          "number": "16",
+          "text": "Ayaw gooppe, taana metuu oyk'k'eedda wode, haray atto taani Teselonk'k'en de'ishshinkka taana zaari zaariide maaddeeddita."
+        },
+        {
+          "number": "17",
+          "text": "Taani hinttewaa bolla harabay gujettanawaa koyyiyaawaappe attin, woytaa s'alalaa akkanaw koyyikke."
+        },
+        {
+          "number": "18",
+          "text": "Shin taani hinttenttu immeeddawaa ubbaa akkaad; k'ay taw palahiide gidiyaawe de'ee. Hintte kiitteedda ubbabaa Eppafiroditoosappe akkaad; koshshiyaa ubbay taw de'ee. Hintte taw kiitteedda imuu S'oossaw sawuwaa toshikku giyaanne I dosiyaa, Aa nashechchiyaa yarshshuwaa mala.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "K'ay ta S'oossay bare bonchcho duretetsaa daruwaan Kiristtoosi Yesuusa baggana hinttena koshshiyaawaa ubbaa hinttenttoo immana."
+        },
+        {
+          "number": "20",
+          "text": "Nu S'oossaw, nu Aawoo med'inaappe med'inaa gakkanaw bonchchuu gido. Amen\"i."
+        },
+        {
+          "number": "21",
+          "text": "Kiristtoosi Yesuusawaa gidiyaa S'oossaa asatuwaa ubbatuwaa saro giite. Taananna hawaan de'iyaa ishatuu hinttena saro giino.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Wurssetsa Sarotaa"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "Hawaan de'iyaa S'oossaa asatuwaa ubbatuu, ubbaappekka aatsiide Kaatiyaa K'eesaare golliyaan de'iyaawanttu hinttena saro giino."
+        },
+        {
+          "number": "23",
+          "text": "Nu Godaa Yesuusi Kiristtoosa aad'd'o keekatetsay hinttenanna gido.",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "3",
+          "marker": "Translator/editor note",
+          "text": "+ S'oossaa de'uwaa mas'aafan: S'oossaa asaa suntsay s'aafettiyaa mas'aafaa.",
+          "note_type": "translator_note",
+          "source_reference": "4:3"
+        },
+        {
+          "verse": "11",
+          "marker": "Translator/editor note",
+          "text": "+ Taw de'iyaabay taw gidana: Taw de'iyaabaan taani shemppay, kallay, woppu gay.",
+          "note_type": "translator_note",
+          "source_reference": "4:11"
+        },
+        {
+          "verse": "15",
+          "marker": "Translator/editor note",
+          "text": "- 2 K'or. 11:9",
+          "note_type": "translator_note",
+          "source_reference": "4:15"
+        },
+        {
+          "verse": "16",
+          "marker": "Translator/editor note",
+          "text": "- Kit. 17:1",
+          "note_type": "translator_note",
+          "source_reference": "4:16"
+        },
+        {
+          "verse": "18",
+          "marker": "Translator/editor note",
+          "text": "- Kes. 29:18",
+          "note_type": "translator_note",
+          "source_reference": "4:18"
+        }
+      ],
+      "heading": [
+        "Wurssetsa Zoriyaa"
+      ]
+    }
+  ]
+}

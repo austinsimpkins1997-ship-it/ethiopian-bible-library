@@ -1,0 +1,980 @@
+{
+  "reader_id": "maale-mic-research",
+  "research_corpus_id": "maale-mdytwf-2008-mic",
+  "canon_id": null,
+  "title": "Micah — Maale Bible (MDYTWF / mdyeth, 2008)",
+  "display_name": "Micah · Maale · eBible.org MDYTWF",
+  "text_origin": "published_translation",
+  "translation_id": "maale-mdytwf-2008",
+  "language": "Maale (Male)",
+  "language_tag": "mdy",
+  "language_assignment_status": "publisher_declared_in_source_package",
+  "script_code": "Ethi",
+  "translator": "The Word for the World",
+  "contributor": "Bible Society of Ethiopia",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The inspected eBible.org edition notice identifies translator and contributor but does not identify the source language or any relay-language path; no basis is inferred.",
+  "edition": "The Holy Bible in the Maale language of Ethiopia, using Ethiopic script; copyright © 2008; digital USFM source files dated 2025-05-13.",
+  "edition_scope": "This is one of 66 USFM book members in eBible.org's Maale Bible (MDYTWF / mdyeth) package. The publisher describes the work as a Maale Full Bible; this package inventory contains the conventional 39 OT and 27 NT books, not the EOTC 81-entry canon. No EOTC or Eritrean Orthodox crosswalk is assigned. Counts describe this digital member only.",
+  "rights_classification": "open_license",
+  "license_id": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "copyright_notice": "Copyright © 2008 The Word for the World International and The Bible Society of Ethiopia. Translation by The Word for the World; contributor: Bible Society of Ethiopia. Source: eBible.org Maale Bible (MDYTWF / mdyeth), using Ethiopic script. Text licensed CC BY-SA 4.0. This archive parsed USFM into reader JSON and preserves the original USFM package; Change made: USFM structure was converted to this reader JSON format, and image assets were omitted while their captions, alt text, and source filenames were retained as notes. The conversion does not imply publisher endorsement. Images and other media are excluded because their terms differ.",
+  "commercial_use": "The provider's CC BY-SA 4.0 terms allow commercial reuse subject to attribution, indication of changes, and ShareAlike for adaptations. Images and media have separate terms and are not bundled.",
+  "unit_label": "USFM verse labels observed",
+  "unit_count": 105,
+  "verse_marker_count": 105,
+  "chapter_count": 7,
+  "section_label": "Chapter",
+  "chapter_structure_note": "This selected source member contains 7 consecutive chapter markers, 105 distinct chapter/verse labels, 10 notes, and USFM structural marker counts {'b': 3, 'c': 7, 'h': 1, 'id': 1, 'imt1': 1, 'io1': 6, 'iot': 1, 'ip': 3, 'mt1': 1, 'p': 39, 'q1': 14, 'q2': 21, 'r': 1, 's1': 13, 'toc1': 1, 'toc2': 1, 'toc3': 1, 'v': 105}. Publisher-supplied labels and structural irregularities are retained; counts do not establish completeness against a printed edition or any community's canon.",
+  "chapter_structure_status": "source_package_parsed_with_limits",
+  "source_numbered_unit_count": 105,
+  "source_unnumbered_unit_count": 31,
+  "source_pages": "readers/source/maale/mdyeth_usfm.zip::34-MICmdyeth.usfm",
+  "source_package_sha256": "ba5388a40d72ed451bacff1027627bf5e7d4fdf2f8faa6a4670e378e71e63d55",
+  "source_snapshot_sha256": "41a8dc02d51e0278080b6619bd88fd863e91e4ec4c33542437d2214def615900",
+  "source_ids": [
+    "SRC-363",
+    "SRC-364",
+    "SRC-365"
+  ],
+  "rights_status": "Copyright © 2008 The Word for the World International and The Bible Society of Ethiopia. Translation by The Word for the World; contributor: Bible Society of Ethiopia. Source: eBible.org Maale Bible (MDYTWF / mdyeth), using Ethiopic script. Text licensed CC BY-SA 4.0. This archive parsed USFM into reader JSON and preserves the original USFM package; Change made: USFM structure was converted to this reader JSON format, and image assets were omitted while their captions, alt text, and source filenames were retained as notes. The conversion does not imply publisher endorsement. Images and other media are excluded because their terms differ.",
+  "verification_status": "The locally retained USFM source member 34-MICmdyeth.usfm has SHA-256 41a8dc02d51e0278080b6619bd88fd863e91e4ec4c33542437d2214def615900; its digest matches the SHA-256 list whose OpenPGP signature verifies against included key fingerprint 54D714D76956DA6673DC1EEA5F62009D93505F26 (DSA-1024 (legacy)/SHA-1 (legacy)). The fingerprint matches the maintainer's published page (https://mljohnson.org/gpg.htm); identity and key custody are not independently established. Automated parsing retained the ordered chapter labels, all verse labels, available footnotes/cross-references, visible section headings and source structure markers, and recorded pre-chapter matter. USFM figure assets are excluded because their terms are separate; captions, alt text and source filenames are retained as notes. These checks establish signed-checksum consistency and local source-package structure only, not translation accuracy, completeness against print, local community review, or canon identity.",
+  "transcription_note": "Machine-readable display extraction from the publisher's source USFM; see the retained original USFM member for unrendered formatting and structural details. Wording has not been independently proofread or collated.",
+  "editorial_signs_note": "USFM verse labels, footnotes, cross-references, paragraph/poetry/break markers, and section headings are preserved in reader structure. Figure images are not included; their caption, alt text and source filename are noted under the associated verse when present.",
+  "front_matter": [
+    {
+      "marker": "imt1",
+      "text": "ዓይፆ ካሮ"
+    },
+    {
+      "marker": "ip",
+      "text": "ፆኦሲ ማሊፆ ኬኤዛ ሚኪያሴ ፆኦሲ ማሊፆ ኬኤዛ ዒሲያሴ ናንጌ ዎዶና ዓኣያ ማዓዛ ሾይንታ ዒዛኮ ዾኦሎ ዛሎ ዪሁዳ ካኣቲ ዓጮ ዴማ ዓኣ ፔቴ ዻካ ካታማስኬኖይዳኬ። ፆኦሲ ማሊፆ ኬኤዛ ዓሞፄ ኬዶ ዛሎ ካኣቶ ዓጮ ባይሲንታ ሄላንዳሢ ኬኤዜሢጉዲ ሚኪያሴያኣ ዪሁዳ ካኣቲ ዓጮ ባይሲንታ ሄላንዳሢ ፆኦሲ ማሊሢ ኬኤዜኔ፤ ዬይ ዒ ኬኤዜ ማሊፃ ዴራ ማዻ ሻኣካያ ማዔ ፒዜ ዎጎ ዎቢሲፆሮ ፆኦሲ ዴሮይዳ ሜቶ ዔኪ ዬዓንዳሢ ዛሎ ላቲ ኬኤዜኔ፤ ያዺ ማዔያታቴያ ሚኪያሴ ኬኤዜ ፆኦሲ ማሊፆይዳ ሴካ ቤርቲም ማዓንዳ ዎዛ ዓኣያ ማዔሢ ዔርዛ ሚርጌ ማላታ ዓኣያኬ።"
+    },
+    {
+      "marker": "ip",
+      "text": "ባሼና ኮሺ ዛጊንታኒ ኮይሳ ቤዛ ፆኦሲ ቢታንቶኮ ዴማ ዓኣ ዓጮም ቢያ ኮሺ ማዓንዳሢ (4፡1-4)፥ ዳውቴ ዜርፃፓ ዼኤፒ ካኣቲ ዔቃንዳሢና ዴሮም ኮሹሞ ዒንጋንዳሢ (5፡2-4)፥ ዬያጉዲ ሃሣ ዒስራዔኤሌይዳ ፆኦሲ ማሊፆ ኬኤዛዞንሢ ኬኤዜ ቃኣላ ቢያ ፔቴ ፓይዲዳ ኬኤዚንታ ሃይሴና ኩማያ ማዔሢ ዔርዛያኬ፤ ዬኖ ማሊፆ ዓርቄ ፓይዴላ ሂዚ ጋዓያኬ፦"
+    },
+    {
+      "marker": "ip",
+      "text": "«ዒዚ ኑጊዳፓ ኮዓሢ ኑኡኒ ፒዜ ማዔ ባኣዚ ማዻንዳጉዲ፥ ኮሺ ባኣዚ ማዺሢ ኔ ኮዓንዳጉዲ፥ ፆኦሲና ዎላ ጉቤ ዒናፓ ሼሌዔ ማዒሢና ሃንታንዳጉዲኬ።» (6፡8)"
+    },
+    {
+      "marker": "iot",
+      "text": "ማፃኣፔላ ዱማ ዱማ ዓርቄ ባኮ"
+    },
+    {
+      "marker": "io1",
+      "text": "ናንጊና ናንጋ ጎዳ ፔ ዴሮይዳ ሜቶ ዓጋንዳሢ (1፡1—2፡11)"
+    },
+    {
+      "marker": "io1",
+      "text": "ሃጊ ማዓንዳ ዎዛ (2፡12-13)"
+    },
+    {
+      "marker": "io1",
+      "text": "ፆኦሲ ፑርቶ ሱኡጎንታ ዒዛ ማሊፆ ኬኤዛኔ ጌይ ሉኡቃ ዓሶንታይዳ ፑርታ ባኣዚ ዓጋንዳሢ (3፡1-12)"
+    },
+    {
+      "marker": "io1",
+      "text": "ዒስራዔኤሌ ዓጮ ዓኮይዳ ዓኪ ጌኤሺ ማኣሪ (4፡1—5፡15)"
+    },
+    {
+      "marker": "io1",
+      "text": "ዒስራዔኤሌ ዓሶኮ ዻቢንታ ፔጋዼሢ (6፡1—7፡7)"
+    },
+    {
+      "marker": "io1",
+      "text": "ዴሮኮ ፆኦሲ ባንሢ ማዒፆ (7፡8-20)"
+    }
+  ],
+  "source_book_metadata": [
+    {
+      "marker": "h",
+      "text": "ሚኪያሴ ማፃኣፖ"
+    },
+    {
+      "marker": "toc1",
+      "text": "ፆኦሲ ማሊፆ ኬኤዛ ሚኪያሴ ማፃኣፖ"
+    },
+    {
+      "marker": "toc3",
+      "text": "ሚኪ."
+    },
+    {
+      "marker": "toc2",
+      "text": "ሚኪያሴ ማፃኣፖ"
+    },
+    {
+      "marker": "mt1",
+      "text": "ሚኪያሴ ማፃኣፖ"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ዪሁዳ ዓጮ ካኣታ፥ ዒዮዓታሜንታ ዓካኣዜንታ ሂዚቂያሴንታ ካኣታዼ ዎዶና ሞሬታ ካታሞ ዓሢ ፆኦሲ ማሊፆ ኬኤዛ ሚኪያሴም ሳማሪያና ዬሩሳላሜና ዛሎ ፆኦሲ ፔጋሲ ዻዌያና ዒ ኬኤዜ ቃኣላ ያዺ ጋዓያኬ፦",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ዒንሢ ሃይ ሜሌ ዴራ ቢያ ዋይዙዋቴ!",
+          "source_markers_before": [
+            "s1",
+            "q1"
+          ],
+          "source_headings_before": [
+            "ሳማሪያና ዬሩሳላሜናይዳ ዬኤኪንታንዳ ሜቶ ዬኤፒ"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "ዒንሢ ሳዖይዳ ናንጋ ዓሳ ቢያ ሃያ ዒና ዔኪ ዋይዙዋቴ!"
+            },
+            {
+              "source_marker": "q1",
+              "text": "ናንጊና ናንጋ ጎዳ ፔኤኮ ዱማዼ ጌኤዦ ማኣራፓ"
+            },
+            {
+              "source_marker": "q1",
+              "text": "ዒንሢኮ ማዾ ዒፂ ዒንሢ ዑፃ ማርካዻንዳኔ።"
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "text": "ናንጊና ናንጋ ጎዳ ዒዛኮ ዱማዼ ናንጎ ማኣራፓ ሙካንዳኔ፤",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "ዒዚ ኬዲ ሳዖኮ ዼጌ ዼጌ ማዔ ቤዛ ሃንታንዳኔ።"
+            }
+          ]
+        },
+        {
+          "number": "4",
+          "text": "ዬኖ ዎዶና ሾፒ ታሚ ዓልቂሳሢጉዲ",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "ዋኣሢያ ዼጌ ቤሲዳፓ ሊካ ዎታሢጉዲ"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ዹካ ዒዛኮ ቶኮ ዴማ ዓልቃንዳኔ፤"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ዛራኣ ሾኦኪንታንዳኔ።"
+            }
+          ]
+        },
+        {
+          "number": "5",
+          "text": "ዬይ ቢያ ማዔሢ ያይቆኦቤ ዻቢንቶሮ፥ ዒስራዔኤሌ ማኣሮ ጎሞሮኬ፤ ዒስራዔኤሌ ዴሮ ዻቢሼሢ ዖናዳይ? ሳማሪያ ካታሞቱዋዓዳ? ዪሁዳ ዴራ ሜሌ ፆኦዞ ካኣሽኪ ጎሜ ማዻንዳጉዲ ማሄሢ ዖናዳይ? ዬሩሳላሜቱዋዓዳ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "ዬያሮ ናንጊና ናንጋ ጎዳ፦ «ሳማሪያ ታኣኒ ቦኦሊዳ ማኣሪ ዶዔያኮ ሹቺ ኩሊንቴያጉዲ ማሃንዳኔ፤ ዎይኔ ቱኪንታ ጎሺ ቤሲ ዒዛ ማዓንዳኔ፤ ዬያ ካታሞኮ ዶዔ ሹጮ ዶኦቺ ታኣኒ ኮላሲ ዓርሣንዳኔ፤ ዒዞኮ ዓይፆ ማሂ ማዦና ሹጮዋ ታኣኒ ዶይሳንዳኔ።"
+        },
+        {
+          "number": "7",
+          "text": "ዒዛ ካኣሽካ ሜሌ ፆኦዛ ቢያ ሜቃንዳኔ፤ ዒዞኮ ጌኤዦ ማኣሮም ዞኦዛ ኮኦማ ላኣላ ጪጊሴ ባካ ቢያ ታሚና ሚቺንታንዳኔ፤ ዒዛ ካኣሽካ ሜሌ ፆኦዞዋ ቢያ ታኣኒ ባይዛንዳኔ፤ ሳማሪያ ዬያ ዓርሲ ኮሾና ባኮ ቡኩሴሢ ዞኦዛ ኮኦሚፆ ዛሎ ጪጊሶያ ማሃኒኬ፤ ሃሢያ ዒዞኮ ሞርካ ዞኦዛ ኮኦሚ ዴንቆ ባኮ ዬያና ዴንቆያ ማሃንዳኔ።»"
+        },
+        {
+          "number": "8",
+          "text": "ዬካፓ ሚኪያሴ፦ «ዬያ ዛሎሮ ታኣኒ ‹ዎኦ! ዎኦ!› ጌይ ዬኤካንዳኔ፤ ታኣኒ ዖያያ ማዒፆ ዔርዛኒ ዑሢ ካሎ ማዒ ቶኪ ጉሪ ሃንታንዳኔ፤ ዓዳ ዉኡኮጉዲ ታኣኒ ዖኦላንዳኔ፤ ሃሣ ቱኡቴጉዲያ ዒላታንዳኔ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ዪሁዳይዳ ሄላንዳ ባይሲንታ"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "ሳማሪያኮ ኪፃ ፓፃኒ ዳንዳዓያቱዋሴ፤ ዬይ ሜታ ዪሁዳ ሄሌኔ፤ ታኣኮ ዴራ ቡኪንታ ዬሩሳላሜ ጶኦኮዋ ኬስኪ ሄላያ ማዓንዳኔ» ጌዔኔ።"
+        },
+        {
+          "number": "10",
+          "text": "ጌቴ ጌይንታ ቤዛ ዓኣ ኑኡኮ ሞርኮም ኑና ሄሌ ሜቶ ኬኤዚፖቴ፤ ዒኢካ ፔቴታዖ ዬኤኪፖቴ፤ ቤትዖፔራይዳ ዓኣ ኑ ዒጊኖ ባኣካ ጋዓንቴ ሲላላ ቡምባሊ ቡምባሊ ዬኤኩዋቴ!",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "ዒንሢ ሻፒሬ ዴራ ዑሢ ካሎ፥ ዲዒንቴ ዓሲጉዲ ማዒ ቦርሲንቲ ዒኢና ዖኦኪ ዴንዱዋቴ፤ ፃዒናኣኔ ካታሞይዳ ናንጋ ዓሳ ካታማፓ ኬስካኒ ጫርቃዓኬ፤ ቤትዔፄኤሌ ፔኤሮ ዬኤፒ ቤሲ ማዔሢሮ ዒንሢም ፑኖ ካይዚ ዒዛ ማዓኒ ዳንዳዑዋሴ።"
+        },
+        {
+          "number": "12",
+          "text": "ማሮቴ ካታሞ ዴራ «ኮሺ ባኣዚ ኑኡም ሙካንዳኔ» ጌይ ሃጊ ማዓ ዎዛ ጌሣኔ። ናንጊና ናንጋ ጎዳ ጋዓንቴ ዬሩሳላሜይዳ ባይሲንታ ኬይሴኔ።"
+        },
+        {
+          "number": "13",
+          "text": "ዒንሢ፥ ላኪሼ ዓጮ ዓሳ ሳርጌሎ ዖይቶ ጎቻ ፓራሢ ጊኢጊሹዋቴ፤ ዒስራዔኤሌ ዓሶኮ ጎሜ ማዔ ዓሳ ዒንሢኬ፤ ዬሩሳላሜ ዻቢሼ ዓሳኣ ዒንሢኬ።"
+        },
+        {
+          "number": "14",
+          "text": "ዪሁዳ ዴሬዮቴ! ዒንሢ ዓካሪ ሞሬሼት ጋኣቴ ጌይንታ ካታሞም ዖሎ ሺሚሶ ዒንጎ ባኣዚ ዒንጋንዳኔ፤ ዓክዚቤ ዴራ ዒስራዔኤሌ ካኣቶ ጌሻንዳኔ።"
+        },
+        {
+          "number": "15",
+          "text": "ሜሪሳ ዴሬዮቴ! ዖሊ ዒንሢ ዓርቃንዳ ሞርኬ ዒንሢዳ ዔኪ ታኣኒ ዬዓንዳኔ፤ ዒስራዔኤሌ ዓሶኮ ቦንቺንታ ሱኡጋ ዓዱላሜይዳ ዓኣ ዴኖ ዔታ ዓኣሺንታንዳኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "ዒንሢ ዪሁዳ ዓጮ ዓሳ! ናኣታ ዒንሢኮ ዲዒንቲ ዔውታንዳሢሮ ሃያ፥ ዒንሢ ሾኤ ናኣቶ ዛሎ ዖዪፆ ዔርዛኒ ቶኦኮ ጉኡሊንቱዋቴ፤ ቶኦካ ዒንሢኮ ዓዳ ሃምፑሮ ቶኦኪጉዲ ቲልቤያ ማዖንጎ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "1",
+          "marker": "Translator/editor note",
+          "text": "Source note reference 1፡1. - 2ካኣቶ. ማ 15፡32—16፡20፤ 18፡1—20፡21፤ 2ፆኦሲ. ዓሃኬ 27፡1-7፤ 28፡1—32፡33።",
+          "note_type": "translator_note",
+          "source_reference": "1፡1"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ፑርታ ማዾ ማዻኒ ማሊ ቱካዞንሢና ላሄ ቤዛ ዓኣዖ ጌኔ ማሊ ሱካዞንሢም ባዴዔ! ዬያ ማዻኒ ዔራቶ ዔያቶኮ ዓኣሢሮ ሳዓ ካራዛ ዔያታ ማሊ ቱኬ ባኮ ማዾይዳ ፔኤሻኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ጎሺ ዓርቃኒ ኮዓዖ ሜሌ ዓሲሮ ዎልቄና ዔያታ ዔካኔ፤ ማኣሪ ዔካኒ ኮዓዖዋ ዎልቃዺ ዔካኔ፤ ዓሲ ዔኤቢኬ ጎዑዋዖ ሄርቂ ቆሎ ዔያታ ቡራኔ።"
+        },
+        {
+          "number": "3",
+          "text": "ዬያሮ ናንጊና ናንጋ ጎዳ ሂዚ ጋዓኔ፦ «ሃሢ ታኣኒ ዒንሢዳ ባይሲንታ ዔኪ ዬዓንዳኔ፤ ዬያ ባይሲንታፓ ፔቴታዖ ቶላኒ ዒንሢ ዳንዳዑዋሴ፤ ዬይ ሚርጌና ሜቶ ዎዴ ማዓንዳሢሮ ዖቶርቂ ሃንታኒ ዒንሢ ዳንዳዒንዱዋሴ።"
+        },
+        {
+          "number": "4",
+          "text": "ዬይ ቢያ ማዓ ዎዶና ዓሳ ዒንሢ ኮኦኪንሢ ማሂ ሚኢጪ ዓማላንዳኔ፤ ዒንሢዳ ሄሌ ሜታሢዳፓ ዔቄያና ሂዚ ጌይ ጎኔ ቃያያ ማሊሲ ቃያንዳኔ፦",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "‹ኑኡኒ ጋፒ ባይቄኔ!›"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ናንጊና ናንጋ ጎዳ ኑ ዴሮ ቆሎ ዔኬኔ፤"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ዴኖ ኑኡኮ ኑና ዲዔ ዓሶም ጊሽኬኔ።»"
+            }
+          ]
+        },
+        {
+          "number": "5",
+          "text": "ዬያሮ ናንጊና ናንጋ ጎዳኮ ዴሮ ባኣካ ዒፃ ዓጊ ዴኖ ጊሽካንዳ ዓይጎ ዓሲያ ባኣያ ማዓንዳኔ።",
+          "source_markers_before": [
+            "b",
+            "b",
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "ዔያቶኮ ፆኦሲ ማሊፆ ኬኤዛኔ ጋዓ ሉኡቃ ዓሳ፦ «ሎንሦ ሃይሴ ኬኤዚፖ፤ ዬያጉዴ ዻውሲንቲ ኑና ሄሊንዱዋኣሢሮ ዬያ ባኮ ዛሎ ሎንሦ ኬኤዚፖ» ታና ጋዓኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "ሃሣ ዔያታ፦ «ዒንሢ ያይቆኦቤ ናኣታ! ሃይ ጌይንታኒ ኮይሳያዳ? ናንጊና ናንጋ ጎዳኮ ጊቢ ዳንዳዒፃ ጋፒናኣኮዳ? ሃያ ዒ ማዻያዳ?» ጌይ ዖኦጫኔ፤ ጎኔና ሃንቲፃ ፒዜ ማዔሢም ታኣኮ ቃኣላ ኮሺ ባኣዚ ማዹዋዓዳ?"
+        },
+        {
+          "number": "8",
+          "text": "ናንጊና ናንጋ ጎዳ ሂዚ ጌይ ዔያቶም ማሃንዳኔ፦ «ታኣኮ ዴሮይዳ ሞርኬ ማዒ ዒንሢ ዔቄኔ፤ ዖላፓ ማዒ ጉሙርቂንቲ ዒንሢ ባኣካ ኮሺና ሃንታ ዓሶ ዒንሢ ቡሬኔ፤",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "ታ ዴሮኮ ላኣሎ ዔያቶኮ ኮዦ ማኣሮና ዓኣ ቆሎናፓ ቤልኪሲ ዒንሢ ዳውሴኔ፤ ዔያቶኮ ናኣቶ ዒንሢ ታኣኮ ዓንጆና ቦንቾናፓ ቢያ ዎዴ ዱማሲ ዴይሤኔ።"
+        },
+        {
+          "number": "10",
+          "text": "ዔቁዋቴ፥ ዓኣዹዋቴ፤ ሃይ ቤዛ ዒንሢኮ ጎሞ ዛሎና ዒኢቲ ባይቄሢሮ ሃካፓ ሴካ ሃይካ ኮሺ ዒንሢ ናንጋኒ ዳንዳዑዋሴ።"
+        },
+        {
+          "number": "11",
+          "text": "«ሃይ ዴራ ኮዓሢ ‹ዎይኔ ዑሺና ሜሌ ማሣ ዑሺያኣ ዒንሢም ጎዓንዳኔ› ጌይ ሉኡዙሞና ኬኤዛ ጌሻ ዓሲኬ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "«ዒስራዔኤሌ ዴሬዮቴ! ማራታ ባርቶይዳ፥ ማራቶ ቆልማኣ ሄንቃ ቤዛ ቡኪንታሢጉዲ ዒስራዔኤሌ ዴሮ ባኣካፓ ፒኢጫዺ ዓቴ ዓሶ ፔቴይዳ ታኣኒ ቡኩሳንዳኔ፤ ዓጬሎይዳ ዓሲ ሚርጋንዳኔ።»",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "ሻሂ ካሮ ቡላሢ ቤርታ ቤርታ ዔያቶኮ ኬስኬኔ፤ ዔያታኣ ዒኢና ኬስኪ ዴንዳንዳኔ፤ ናንጊና ናንጋ ጎዳ፥ ዔያቶ ዔኪ ዓኣዻ ካኣታሢ ቤርታ ቤርታ ዓኣዻንዳኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "ማንቆ ዓሶ ሄርቂ ዎይሣ ዓሶ ሄላንዳ ፑርታ ባኣዚ"
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ዬካፓ ታኣኒ ሂዚ ጌዔኔ፦ «ዒንሢ ያይቆኦቤ ናኣቶ ሱኡጋ፥ ዒንሢ ዒስራዔኤሌ ዓሶ ዎይሣ ዓሳ ዋይዙዋቴ! ዒንሢ ፒዜ ዎጌ ዔራንዳያ ኮይሱዋዓዳ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ዒንሢ ጋዓንቴ ኮሺ ባኣዚ ዒፂ፥ ፑርታ ባኣዚ ናሽኬኔ፤ ታ ዴሮኮ ዔጲ ዓኣንቴ ዒልዖ ዒንሢ ሹኬኔ፤ ዔያቶኮ ዓሽኮዋ ሜጌፃፓ ዒንሢ ካሬኔ፤"
+        },
+        {
+          "number": "3",
+          "text": "ታ ዴሮኮ ዓሽኮ ዒንሢ ሙዔኔ፤ ዒልዖዋ ዔያቶኮ ዑፃፓ ዒንሢ ሹኪ ዔቂሴኔ፤ ሜጌፆዋ ቆፂ ዒንሢ ዔያቶኮ ሜንሤኔ፤ ዓሽኪ ሻኣቆ ቦኦቆይዳ ሻኣቂንታሢጉዲ፥ ጊንሣ ሃሣ ዲስቴይዳ ካሣኒ ቲቆሢጉዲ ዒንሢ ዔያቶ ቲቄኔ።"
+        },
+        {
+          "number": "4",
+          "text": "ዔያታ ናንጊና ናንጋ ጎዳ ባንሢ ሜታዺ ዒላታንዳኔ፤ ዒዚ ጋዓንቴ ዔያቶም ዋይዚ ማሃዓኬ፤ ዔያታ ማዼ ፑርቶ ማዻፓ ዔቄያና ዒዚ ዔያቶይዳፓ ፔኤኮ ዓኣፖ ካሮ ሺርሻንዳኔ።»"
+        },
+        {
+          "number": "5",
+          "text": "«ናንጊና ናንጋ ጎዳ ሉኡዙሞና ፆኦሲ ማሊሢ ኬኤዛኔ ጋዓ ዓሶም፦ ዔያታ ዔኤቢ ዴንቃ ባኣዚ ዓኣ ጋዓዛ፥ ‹ኮሺ ዒንሢም ማዓንዳኔ› ጌይ ኬኤዛኔ፤ ጋዓንቴ ዔኤቢ ዔያታ ዴንቁዋ ማዓ ዎዶና፥ ‹ዒንሢዳ ዖልዚ ሙካንዳኔ› ጌይ ዒላቲ ኬኤዚሢና ዴሮ ዔያታ ዻቢሻኔ፤",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "ዬያሮ ዬያ፥ ፆኦሲ ማሊፆ ሉኡዙሞና ኬኤዛ ዓሶም ሮኦራ ዹማንዳኔ፤ ዓቢ ጌሌም ዋንታ ዔያቶም ማዓንዳኔ፤ ሃካፓ ሴካ ፆኦሲ ፔጋሲ ዻዋ ባኣዚ ዔያታ ዛጋዓኬ፤ ሎንሦዋ ዔያታ ኬኤዛዓኬ።"
+        },
+        {
+          "number": "7",
+          "text": "‹ፆኦሲ ፔጋሲ ዻዋ ባኣዚ ኑ ዴንቃኔ፥ ሎንሦ ኑ ኬኤዛኔ› ጋዓ ባካ ቢያ ዔያቶም ጊኢጊንዱዋኣሢሮ ዔያታ ዻውሲንታንዳኔ፤ ናንጊና ናንጋ ጎዳ ዔያቶም ማሂ ኬኤዚንዱዋኣሢሮ ቦርሲንታፓ ዔቄያና ዓኣፖ ካሮ ፔኤኮ ዔያታ ኩቻ ዓርቂ፥ ሳዓ ዛጋንዳኔ።»"
+        },
+        {
+          "number": "8",
+          "text": "ታኣኒ ጋዓንቴ ያይቆኦቤም ዻቢንቶ፤ ዒስራዔኤሌማኣ ጎሞ ኬኤዛንዳጉዲ ናንጊና ናንጋ ጎዳ ዓያና፥ ዎልቄ፥ ፒዙሞንታ ዶዱሞዋ ታኣም ዒንጌኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "ዒንሢ ያይቆኦቤ ማኣሮ ሱኡጋ፥ ዒስራዔኤሌ ማኣሮ ዎይሣ ዓሳ፥ ፒዜ ዎጌ ቶኦቻ ዓሳ፥ ፒዜ ማዔ ባኮ ቢያ ዎቢሻ ዓሳ! ዋይዙዋቴ፤"
+        },
+        {
+          "number": "10",
+          "text": "ዒንሢ ዓሲ ዎዺሢና ፂዮኔ፥ ጌኔ ማዾና ዬሩሳላሜ ማዣ ዓሲኬ።"
+        },
+        {
+          "number": "11",
+          "text": "ካታሜሎኮ ዶኦሪንቴ ዓሳ ዎጋሢ ዴሜና ዔኮ ሚኢሼ ዔኪኬ፤ ቄኤሳኣ ዔኮ ባኣዚ ዔኩዋዖ ዓሶ ዔርዙዋሴ፤ ፆኦሲ ማሊፆ ኬኤዛ ዓሳኣ ሚኢሼ ባኣንቴ ሎንሦ ኬኤዙዋሴ፤ ዬይ ቢያ ማዺንታንቴ ዔያታ፦ «ናንጊና ናንጋ ጎዳ ኑኡና ዎላ ዓኣሢሮ ዓይጎዋ ማዖም ፑርታ ባኣዚ ኑና ሄላዓኬ» ጌይ ናንጊና ናንጋ ጎዳና ዔያታ ሄርሺንታኔ።"
+        },
+        {
+          "number": "12",
+          "text": "ዬያሮ ዒንሢ ማዼ ፑርቶ ባኮሮ ፂዮኔ ዓዳ ጎሺጉዲ ጎሽታንዳኔ፤ ዬሩሳላሜኮዋ ማኣሮ ዶዒፆ ሹጫ ኩላ ማዓንዳኔ፤ ጌኤዦ ማኣራ ማዢንቴ ቤዛኣ ዹሚ ካይዚ ማዓንዳኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "12",
+          "marker": "Translator/editor note",
+          "text": "Source note reference 3፡12. - ዔር. 26፡18።",
+          "note_type": "translator_note",
+          "source_reference": "3፡12"
+        }
+      ],
+      "heading": [
+        "ሚኪያሴ ዒስራዔኤሌ ዓሶ ሱኡጎ ዞሪ ቆዴሢ"
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ጋፒንፆ ዎዶና",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "ናንጊና ናንጋ ጎዳኮ ጌኤዦ ማኣራ ማዢንቴ ዹካ"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ሜሌ ዹኮ ቢያይዳፓ ዑሣ ባሺ ጴዻንዳኔ፤"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ጌሜሮ ጉቤሢዳፓኣ ኮሺ ዼግ ጋዓንዳኔ፤"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ሜርጌ ዴሮ ካኣታ ዒዛ ባንሢ ጎዓንዳኔ።"
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ዬያሮ ዴራ ሚርጌሢ፦",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«ዎጌ ፂዮኔይዳፓ፥ ናንጊና ናንጋ ጎዳኮ ቃኣላ ዬሩሳላሜይዳፓ ጴዻሢሮ"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ሃኒ ሙኩዋቴ፥ ናንጊና ናንጋ ጎዳኮ ዹኮ ኑኡኒ ኬስኮም፤"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ያይቆኦቤ ፆኦሲኮ ጌኤዦ ማኣሪ ኑ ዓኣዾም፤"
+            },
+            {
+              "source_marker": "q1",
+              "text": "ዒዚ ፔ ማሊፆ ኑ ኩንሣንዳጉዲ ኑና ዔርዛንዳኔ፤"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ኑኡኒያ ዒዛ ጎይፆ ዴንዳንዳኔ» ጋዓንዳኔ።"
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "text": "ዒዚ ሚርጌ ሜሌ ዴሮ ባኣካ ዎጋንዳኔ፤",
+          "source_markers_before": [
+            "b",
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "ሃኬና ዑኬናይዳ ዓኣ ዼኤፖ ካኣቶ ባኣካ"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ዓኣ ዱማዺፆ ፔቴ ማሂ ጊኢጊሻንዳኔ፤"
+            },
+            {
+              "source_marker": "q1",
+              "text": "ዬያሮ ዔያታ ፔኤኮ ጬንቾ ዓፓሮ ማራሻ"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ዎርፆዋ ዔያታ ባኣቺ ማሂ ዹይሳንዳኔ።"
+            },
+            {
+              "source_marker": "q1",
+              "text": "ካኣታ ዎሊዳ ዖልዚ ዔቂሳዓኬ፤"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ዬካፓ ዖልዚ ዖሎ ጎይሢ ዔራኒ ኮዓንዳ ዓሲያኣ ባኣሴ።"
+            }
+          ]
+        },
+        {
+          "number": "4",
+          "text": "ፔቴ ፔቴ ዓሳ ፔ ቱኬ ዎይኖና",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "ቤሌሶ ሚፆኮ ሺባ ዴይ ኮሺና ሃውሻንዳኔ፤"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ዔያቶ ዒጊቻንዳ ባኣዚያኣ ባኣሴ፤"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ቢያ ባኮ ዎይሣ ጎዳሢ ዬያ ጌዔኔ።"
+            }
+          ]
+        },
+        {
+          "number": "5",
+          "text": "ሜሌ ዴራ ቢያ ፔኤኮ ሜሌ ሜሌ ፆኦዞ ካኣሽካንዳኔ፤ ኑኡኒ ጋዓንቴ ናንጊና ናንጋ ጎዳ ማዔ ኑ ፆኦዛሢ ካኣሽኪ ናንጋንዳኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "ናንጊና ናንጋ ጎዳ፦ «ዬኖ ኬሎና ዎቦ ዓሶንታ ታኣኒ ሜቶ ዔያቶይዳ ዓጌም ዳውሲንቲ ዴንዲ ሜታኣ ኬዴ ታ ዴሮ ታኣኒ ቡኩሳንዳኔ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ዒስራዔኤሌ ዴሮኮ ዳውሲንቴ ቤዛፓ ማዒፆ"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "ዎቦ ዓሳ ፒኢጫዺ ዓታንዳጉዲ ታ ማሃንዳኔ፤ ዋሊንቲ ዓኣዞንሢያ ዶዲ ዴሬ ታኣኒ ማሃንዳኔ፤ ታኣኒያ ፂዮኔ ዹኮይዳ ዬኖ ኬላፓ ዓርቃዖ ናኣናና ዔያቶ ዑፃ ካኣታዻንዳኔ» ጋዓኔ።"
+        },
+        {
+          "number": "8",
+          "text": "ኔኤኒ ዒዛኮ ቆልሞ ዴዒ ሄንቆ ሴኤላሢዮ! ፂዮኔ ዉዱሮ ናኣቶኮ ጌሜራሢዮ! ኔኤኒ ሚና ዎይሣ ዓጫ ኔኤም ማዓንዳኔ፤ ኔኤኮ ካኣቱሞ ቢታንታኣ ጊንሣ ማዓንዳኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "ሃያይዲ ዼጊዲ ኔኤኒ ዒላታሢ፥ ሾይቺ ዓርቄ ላኣሊጉዲ ኔኤኒ ሜታዻሢ ዓይጎሮዳይ? ኔኤኮ ካኣቲ ባኣሢሮዳ? ሃንጎ ኔኤኮ ዞራ ዓሳ ቢያ ባይቄሢሮዳ?"
+        },
+        {
+          "number": "10",
+          "text": "ዬሩሳላሜ ዴሬዮቴ! ሾይቺ ዓርቄ ላኣሊጉዲ ሜታዹዋቴ፤ ሃሢ ዒንሢ ካታማፓ ዳውሲንቲ ኬስኪ ቦኦላ ዱንኪ ዴዓንዳኔ፥ ባብሎኔ ዓጮዋ ዒንሢ ዴንዳንዳኔ፤ ዒኢካ ናንጊና ናንጋ ጎዳ ዒንሢ ዻቂሻንዳኔ፤ ሞርኮ ኩጫፓኣ ዒንሢ ዒ ዓውሳንዳኔ።"
+        },
+        {
+          "number": "11",
+          "text": "ሃሢ ጋዓንቴ ሚርጌ ሜሌ ዴሬ ዒንሢ ባይዛኒ ቡኪንቲ፦ «ዬሩሳላሜ ዒኢቴያ ማዖንጎ! ኑ ዒዞኮ ሻሂንቲ ባይቂፆ ዛጎም!» ጋዓኔ።"
+        },
+        {
+          "number": "12",
+          "text": "ዬያታ ዴራ ጋዓንቴ ናንጊና ናንጋ ጎዳኮ ማሊፆ ዔሩዋሴ፤ ሺርኪንታ ሃኣኮ ቆይዳይዳ ኩሊንታሢጉዲ ዒዚ ዔያቶ ቡኩሲ ሜታሳኒታሢ ዔያታ ዔሪባኣሴ።"
+        },
+        {
+          "number": "13",
+          "text": "ናንጊና ናንጋ ጎዳ፦ «ዒንሢ ዬሩሳላሜ ዴራ! ዓኣዺጋፓ ዒንሢኮ ሞርኮ ዓዳ ሃኣኮጉዲ ሺርኩዋቴ! ጉራና ዓንጊ፥ ሄርቃ ሹቁላ ሞኦና ዓንጊ ማዔ ጌማይጉዲ ዒንሢ ታኣኒ ዶዲ ማሃንዳኔ፤ ሚርጌ ሜሌ ዴሮኮ ካኣቶ ዒንሢ ጋኣጫንዳኔ፤ ዔያታ ጌኔ ጎይሢና ቡኩሴ ቆልሞንታ ቆሎዋ ቢያ ዓጮ ቢያኮ ጎዳ ማዔ ታና፥ ፆኦሲም ዒንሢ ዔኪ ሺኢሻንዳኔ» ጋዓኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "3",
+          "marker": "Translator/editor note",
+          "text": "Source note reference 4፡3. - ዒዩ. 3፡10።",
+          "note_type": "translator_note",
+          "source_reference": "4፡3"
+        },
+        {
+          "verse": "4",
+          "marker": "Translator/editor note",
+          "text": "Source note reference 4፡4. - ዛካ. 3፡10።",
+          "note_type": "translator_note",
+          "source_reference": "4፡4"
+        }
+      ],
+      "heading": [
+        "ኮሹማ ሚርጋንዳ ፆኦሲ ካኣቱማ ሙካንዳሢ",
+        "(ዒሲ. 2፡1-4)"
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "number": "1",
+          "text": "«ዒንሢ ዬሩሳላሜ ዴራ! ሃሢ ኑኡኒ ሞርኬና ማንጊንቴሢሮ፥ ዒስራዔኤሌ ዓሶ ሱኡጋሢኮዋ ጋንጋራ ኮኦሎና ጳርቂንታኒታሢሮ ዒንሢኮ ዖሎ ዓሶ ፔቴይዳ ጊኢጊሺ ዔቂሱዋሴ።»",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ናንጊና ናንጋ ጎዳ፦ «ኔኤኒ፥ ዔፕራታይዳ ዓኣ ቤኤቴሌሄሜ ካታሜሌ! ዪሁዳ ዓጮይዳ ዓኣ ዻኮ ዻኮ ካታሞይዳፓ ፔቴዞ ኔኤኒ ማዔታቴያ ሙካ ዒዛኮ ሚናኣፓ ዓርቃዖ ናንጊና ናንጋያ ማዔ፥ ዒስራዔኤሌ ዴሮ ዎይሣንዳ ሱኡጌ ታኣም ኬስካንዳኔ» ጋዓኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "3",
+          "text": "ዬያሮ ዒዛኮ ዒንዳ ዒዛ ሾዓንዳ ዎዳ ሄላንዳኣና ናንጊና ናንጋ ጎዳ ዴሮ ፔኤሲ ሃሻንዳኔ፤ ዬካፓ ዳውሲንቲ ዴንዲ ዓኣ፥ ዒዛኮ ዒጊና ማዒ ሙኪ ዔያቶኮ ዒጊኖና ዎላ ሲኢሪንታንዳኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "ዒዚ ሙካ ዎዶና ናንጊና ናንጋ ጎዳፓ ጴዻ ዶዱሞና ዼኤፑሞና ማራቶ ዒዚ ሄንቃንዳኔ፤ ዒዚ ዬያ ማዻንዳሢ ቦንቺንቴ ናንጊና ናንጋ ጎዳ ማዔ ዒዛኮ ፆኦዛሢ ሱንፆናኬ፤ ዼኤፑማ ዒዛኮ ሳዖኮ ጋፖ ሄላንዳኣና ዔርታንዳሢሮ ዒጊና ዒዛኮ ሂርጋ ባኣያ ናንጋንዳኔ።"
+        },
+        {
+          "number": "5",
+          "text": "ዒዚ ዔያቶም ኮሹሞ ዔኪ ሙካንዳኔ።",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "ዓሶኦሬ ዓሳ ኑ ዓጮ ዖሊ ዓርቃኒ ሙኪ፥ ኑኡኮ ዋርዲዮ ኬኤሎ ዲፆ ጊዔቴ ኑኡኮ ካፓ ዓሶ ላንኮና ሳሎ ሱኡጎና ኑ ዔያቶ ዖሊሻንዳኔ።"
+            }
+          ]
+        },
+        {
+          "number": "6",
+          "text": "ናምሩዴ ዓጮ ጌይንታ ዓሶኦሬ ዔያታ ፔኤኮ ዖሎ ዓሶ ዎልቆና ዖሊ ባሺ ዓርቃንዳኔ፤ ዓሶኦሬ ዓሳ ኑኡኮ ዓጮ ዖሊ ባሺ፥ ዛጶና ኑኡኮ ፒንቄቴያ ኑኡኮ ሱኡጋ ዔያቶ ኩጫፓ ኑና ዓውሳንዳኔ።",
+          "source_markers_before": [
+            "s1"
+          ],
+          "source_headings_before": [
+            "ዓውሲሢና ሜቶ ዓጊሢና ዛላ"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "ሃይባፓ ዓቴ ዒስራዔኤሌ ዴራ ሚርጌ ሜሌ ዴሬ ባኣካ ናንጊና ናንጋ ጎዳ ኬይሳ ዖልኬና ማኣቲዳ ዋርቃ ፁቢ ዒርዚናጉዲ ማዓንዳኔ፤ ዔያታ ጉሙርቂ ካፓንዳሢ ዓሲቱዋንቴ ናንጊና ናንጋ ጎዳ ሌሊ ማዓንዳኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "ዬንሢ ሜታሢዳፓ ዓቴ ዒስራዔኤሌ ዴሮንሢ ሚርጌ ዴሮ ሜሌሢ ባኣካ ናንጋኣና ካይዚዳ ቦዖ ኬሚ ናንጋ ዞቢጉዲ ማዓንዳኔ፤ ዬያጉዲ ሃሣ ዔያቶ ዓውሳ ዓሲባኣ ማራቶ ባኣኮ ዔርቱዋንቴ ጌሊ ሜንሢ ሾኦሊ ሙዓ ሃጊ ዔቃ ዞቢጉዲ ማዓንዳኔ።"
+        },
+        {
+          "number": "9",
+          "text": "ዒስራዔኤሌ ዓሳ ፔኤኮ ዶዶ ዎልቆና ሞርኮ ዖሊ ባይዛንዳኔ።"
+        },
+        {
+          "number": "10",
+          "text": "ናንጊና ናንጋ ጎዳ፦ «ቤርታዺ ጋዓንቴ ታኣኒ ፓራሢ ዒንሢ ባኣካፓ ባይዛንዳኔ፤ ሳርጌሎ ዖይቶዋ ጋፒሲ ባይዛንዳኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "ዒንሢኮ ዓጮይዳ ዓኣ ካታሞዋ ታኣኒ ሻሃንዳኔ፤ ዋርዲዮ ቤዞዋ ቢያ ታኣኒ ዶይሳንዳኔ።"
+        },
+        {
+          "number": "12",
+          "text": "ማርሾ ታ ዒንሢኮ ባይዛንዳኔ፤ ዓማቶ ማዒ ማዻ ዓሲያኣ ዒንሢ ባኣካ ጴዻዓኬ።"
+        },
+        {
+          "number": "13",
+          "text": "ዒንሢ ቆኦቂ ኮሼ ሜሌ ፆኦዞንታ ዒንሢ ዚጋ ዻኣቦ ዒንሢ ባኣካፓ ታኣኒ ባይዛንዳኔ፤ ዒንሢ ኩቻ ኮሼ፥ ሜሌ ፆኦዞም ሃካፓ ሴካ ዒንሢ ዚጋዓኬ።"
+        },
+        {
+          "number": "14",
+          "text": "ዓሼራኮ ማላቶዋ ታ ዒንሢ ዓጫፓ ቱጊ ባይዛንዳኔ፤ ዒንሢኮ ካታሞዋ ታኣኒ ሻሃንዳኔ።"
+        },
+        {
+          "number": "15",
+          "text": "ታኣም ዓይሢንቶ ዒፄ ካኣቶ ቢያ ታኣኮ ዼኤፖ ዻጎና ኮሞ ታ ኮፃንዳኔ።»"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "2",
+          "marker": "Translator/editor note",
+          "text": "Source note reference 5፡2. - ማቲ. 2፡6፤ ዮሃ. 7፡42።",
+          "note_type": "translator_note",
+          "source_reference": "5፡2"
+        },
+        {
+          "verse": "6",
+          "marker": "Translator/editor note",
+          "text": "Source note reference 5፡6. - ማዢ. ማፃ 10፡8-11።",
+          "note_type": "translator_note",
+          "source_reference": "5፡6"
+        }
+      ],
+      "heading": [
+        "ቤኤቴሌሄሜይዳፓ ሱኡጌ ኬስካንዳያ ማዒፃ ኬኤዚንቴሢ"
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ናንጊና ናንጋ ጎዳ ዒስራዔኤሌ ዴሮም ጋዓ ባኮ ዋይዙዋቴ፤",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "«ዔቁዋቴ! ዒንሢኮ ዓኣ ማሊፆ ዹኮ ቤርታ ሺኢሹዋቴ! ጌሜራኣ ዒንሢ ጋዓ ባኮ ዋይዞንጎ።"
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ዒንሢ ሃይ ዹካ ናንጊና ናንጋ ጎዳ ፔ ዴሮም ጋዓ ባኮ ዋይዙዋቴ! ሃሣ ዒንሢ ዶዲ ማዔ፥ ሳዖኮ ፃጳኣ ዋይዙዋቴ! ናንጊና ናንጋ ጎዳ ፔኤኮ ዴሮ ዒስራዔኤሌ ዓሶኮ ዻቢንቶ ኬኤዚ ኬኤዚ ጎራኔ።»"
+        },
+        {
+          "number": "3",
+          "text": "ናንጊና ናንጋ ጎዳ፦ «ታ ዴሬዮቴ! ታ ዒንሢ ዎዎዴይ? ታ ዒንሢም ዴኤፂሴ ባካ ዓይጎዳይ? ሂንዳ ታኣም ማሂ ኬኤዙዋቴ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "ጊብፄ ዓጫፓ ታ ዒንሢ ኬሴኔ፤ ዓይላቶ ዓጫፓ ታ ዒንሢ ዓውሴኔ፤ ሙሴንታ ዓኣሮኔንታ ማይራሞንታ ዒንሢም ሱኡጌ ማሂ ታ ዒንጌኔ።"
+        },
+        {
+          "number": "5",
+          "text": "ታ ዴሬዮቴ! ሞዓኣቤ ዓጮ ካኣቲ ባኣላኣቄ ዒንሢ ዎዳኒ ማሌቴ፥ ቢዖኦሬ ናኣዚ ባኣላኣሜያ ማሂ ዒዛም ዎዚ ጌይ ኬኤዜቴ ሂንዳ ማሉዋቴ፤ ፆኦሲ ፂሉሞ ማዾ ዒንሢ ዔራንዳጉዲ ሺፂሜይዳፓ ዔቂ ዒንሢ ጌልጌላ ዓኣዻ ዎዶና ጎይፆይዳ ማዺንቴ ባኮ ቢያ ማሉዋቴ፤ ዬያ ቢያ ዒንሢ ማሊ ጶቂሣያ ማዔቴ ዒንሢ ዓውሳኒ ታኣኒ ማዼ ባኮ ቢያ ዒንሢ ዔራንዳኔ» ጌዔኔ።"
+        },
+        {
+          "number": "6",
+          "text": "ዼኤፖ ፆኦዛሢ ማዔ ናንጊና ናንጋ ጎዳም ዚጋኒ ሙካ ዎዶና ታኣኒ ዓይጎ ዔኪ ሺኢሾንዶይ? ሚቺ ዒንጎ ዒንጊሢ ማዓንዳጉዲ ፔቴ ሌዔ ማዔ ናኣሪ ዔኪ ሙኮንዶ?",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ናንጊና ናንጋ ጎዳ ፔ ዴራፓ ኮዓ ባኮ"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "ዓዴ ማራይ ሺያ፤ ሃንጎ ታጶ ሺያ ዎርዚ ዋኣሢጉዲ ማዔ ሪሚቶ ዛይቶ ቲዦ ዔኪ ታ ዒዛም ሺኢሼቴ ዒዚ ዎዛዻንዳኖ? ሃሣ ታኣኮ ዻቢንቶና ጎሞና ዛሎ ታኣኮ ናኣዚ ቶይዲ ሹኪ ዒዛም ሺኢሾንዶ?"
+        },
+        {
+          "number": "8",
+          "text": "ናንጊና ናንጋ ጎዳ ኮሺ ማዔ ባኮና ዒዚ ኔ ጊዳፓ ኮዓ ባኮ ኔኤም ኬኤዜኔ፤ ዒዚ ኮዓሢ ፒዜ ማዔ ባኣዚ ኔኤኒ ማዻንዳጉዲ፥ ኮሺ ባኣዚ ማዺሢ ኔ ኮዓንዳጉዲ፥ ፆኦሲና ዎላ ጉቤ ዒናፓ ሼሌዔ ማዒሢና ሃንታንዳጉዲኬ።"
+        },
+        {
+          "number": "9",
+          "text": "ናንጊና ናንጋ ጎዳ ዒጊጪሢ ዔራቶኬ፤ ካታሜሎም ዒዚ ሂዚ ጋዓኔ፦ «ዒንሢ ካታሜሎይዳ ቡኬ ዓሳ ዋይዙዋቴ!",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "ዒንሢ ፑርታ ባኣዚ ማዻ ዓሳ! ጌኔ ጎይሢና ዒንሢ ዴንቄ ቆሎንታ ፒዜቱዋ ማኮ ባኮና ዒንሢ ቡኩሲ ዔኬ ሻኣካ ባኮ ታኣኒ ዋላንዳ?"
+        },
+        {
+          "number": "11",
+          "text": "ፒዜ ማዒባኣ ዴኤሡሞ ዔሮ ባኮ ዓርቄ ዓሢ፤ ጊንሣ ሃሣ ፒዜ ማዒባኣ ማኮ ባኮ ዓርቄ ዓሢ ታኣኒ ዛጊ ጊባንዳ?"
+        },
+        {
+          "number": "12",
+          "text": "ዖርጎጮ ዓሳ ዒንሢኮ ዺቢ ጌኔ ማዾ ማዻያኬ፤ ካታሜሎይዳ ናንጋ ዓሳኣ ሉኡዙሞ ጌስታኔ፤ ጌሺያ ዔያታ ጌሻኔ።"
+        },
+        {
+          "number": "13",
+          "text": "ዬያሮ ታኣኒ ዒንሢ ጎሞ ዛሎና ዒንሢ ባይዛኒና ዎዺያኣ ባይዛኒ ዔቄኔ።"
+        },
+        {
+          "number": "14",
+          "text": "ዒንሢ ሙዓንዳኔ፥ ሚሽካዓኬ፤ ናያ ዒንሢኮ ጋፓዓኬ፤ ዒንሢ ቡኩሳንዳኔ፥ ጋዓንቴ ዒንሢም ዴዓዓኬ፤ ዒንሢ ቡኩሴ ቆሎ ዓኣታቴያ ዖልዚና ታኣኒ ባይዛንዳኔ።"
+        },
+        {
+          "number": "15",
+          "text": "ዜርሢ ዒንሢ ዜርቃንዳኔ፥ ጋዓንቴ ሃኣኮ ዒንሢ ቡኩሲ ዔካዓኬ፤ ሪሚቶ ዓኣፖ ሄርቂ ዒንሢ ጩኡጳንዳኔ፥ ዛይቶ ቲዦ ጋዓንቴ ዒንሢ ሙዓዓኬ፤ ዬያጉዲ ሃሣ ዎይኖ ዓኣፖዋ ሄርቃንዳኔ፥ ጋዓንቴ ዒንሢ ዬያ ዑዦ ዑሽካዓኬ።"
+        },
+        {
+          "number": "16",
+          "text": "ዬይ ቢያ ዒንሢ ሄላንዳሢ ካኣቲ ዖምሪኮ ዳምቦ ዒንሢ ኩንሤሥሮና ካኣቲ ዓክዓቤ ዓሳ ማዻ ባኮ ቢያ ዒንሢ ማዼሢሮኬ፤ ዔያቶ ዞሮ ዒንሢ ኩንሤሢሮ ታ ዒንሢ ባይዛንዳኔ፤ ዴሮዋ ታ ዒንሢኮ ዓሲ ቢያ ቶኦቻያ ማሃንዳኔ።»"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "4",
+          "marker": "Translator/editor note",
+          "text": "Source note reference 6፡4. - ኬሲ. ማፃ 4፡10-16፤ 12፡50-51፤ 15፡20።",
+          "note_type": "translator_note",
+          "source_reference": "6፡4"
+        },
+        {
+          "verse": "5",
+          "marker": "Translator/editor note",
+          "text": "Source note reference 6፡5. - ፓይ. ማፃ 22፡2—24፡25፤ ዒያ. 3፡1—4፡19።",
+          "note_type": "translator_note",
+          "source_reference": "6፡5"
+        },
+        {
+          "verse": "16",
+          "marker": "Translator/editor note",
+          "text": "Source note reference 6፡16. - 1ካኣቶ. ማ 16፡23-34፤ 21፡25-26።",
+          "note_type": "translator_note",
+          "source_reference": "6፡16"
+        }
+      ],
+      "heading": [
+        "ናንጊና ናንጋ ጎዳ ዒስራዔኤሌ ዴሮም ጌዔ ባኮ"
+      ]
+    },
+    {
+      "chapter": 7,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ዎይኖንታ ቤሌሶ ዓኣፖንታ ካፂ ማንፂንቴስካፓ ሙዓኒ ኮዓ ዓኣፖ ዴንቃኒ ዳንዳዒባኣ ናይዼ ዓሲጉዲ ታኣኒ ማዔሢሮ ታና ባዴዔ! ታኣኒ ሙዓኒ ዓፃዻ ቤርታዺ ካፄ ቤሌሶ ዓኣፓ ባኣሴ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ሳዖይዳፓ ጉሙርቂንታ ዓሲ ባይቄኔ፤ ፔቴታዖ ፒዜ ዓሲ ባኣሴ፤ ጉቤሢ ዓሲ ዎዻኒ ካታኔ፤ ዎሊም፥ ፔቴይ ባጋሢኮ ጊንፆ ሃንቲ ሃንቲ ፒሮ ፒራኔ።"
+        },
+        {
+          "number": "3",
+          "text": "ኩጫ ዔያቶኮ ፑርታ ባኣዚ ማዺሢ ዔሬያኬ፤ ቢታንታ ዓኣ ዓሶንታ ዎጎ ዎጋ ዓሳኣ ዴሜና ዔኮ ሚኢሼ ዖኦጫኔ፤ ዎልቆሲ ፔ ኮዓ ባኮ ዎልቄና ማማዺሺሳኔ፤ ዬያይዲ ቢያሢ ዎጎ ዎቢሻኔ።"
+        },
+        {
+          "number": "4",
+          "text": "ዔያቶ ባኣካ ሚርጌና ኮሺ ዓሲኬ ጌይንታ ዓሢ ዓዳ ዓንጊሢጉዲኬ፤ ጊንሣ ሃሣ ኮሺ ፒዜ ዓሲኬ ጌይንታሢያኣ ሙጉሮጉዲኬ።",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "ናንጊና ናንጋ ጎዳ ፔኤኮ ማሊፆ ኬኤዛ ዓሶ ዛሎና ላቲ ኬኤዜ ጎይፆና ፔ ዴሮይዳ ሜቶ ዓጋንዳ ዎዴ ሙካንዳኔ፤ ሃይሾ፥ ሃሢ ዔያታ ዓኣ ጎይፃ ዲቃቲ ካራ ባይዚሢዳኬ።"
+            }
+          ]
+        },
+        {
+          "number": "5",
+          "text": "ዓሲ ጉሙርቂፖ፤ ኔኤኮ ዑኬ ማዔ ላጋሢታቴያ ጉሙርቂፖ፤ ኔኤና ዎላ ላሃ ማቾምታዖ ኔ ኬኤዛ ባኮ ዔሪ ኬኤዛንዳያ ኮይሳኔ።"
+        },
+        {
+          "number": "6",
+          "text": "ዬኖ ዎዶና ዓቲንቆ ናዓ ፔኤኮ ዓዶ ቶኦቻንዳኔ፤ ዉዱሮ ናዔላ ፔ ዒንዶ ዑፃ፥ ናኣዚ ማቻኣ ዓሆይዳ ሞርኬ ማዒ ዔቃንዳኔ፤ ዓሲኮ ሞርኬ ማዓንዳሢ ፔኤኮ ማኣሮ ዓሶኬ።"
+        },
+        {
+          "number": "7",
+          "text": "ታኣኒ ጋዓንቴ ናንጊና ናንጋ ጎዳይዳ ሃጋኣ ዎዛ ጌሣንዳኔ፤ ታና ዓውሳ ፆኦዛሢያ ታ ካፓንዳኔ፤ ዒዚ ታኣም ዋይዛንዳኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "ታ ሞርካሢዮ! ታኣኒ ሎኦሜያታቴያ ጊንሣ ታኣኒ ዔቃንዳሢሮ ታ ሎኦሚፆና ዎዛዺፖ፤ ሃሢ ታኣኒ ዹሚዳታቴያ ናንጊና ናንጋ ጎዳ ታኣም ፖዓኔ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ዻቂንታ ናንጊና ናንጋ ጎዳፓ ማዔሢ"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "ታኣኒ ናንጊና ናንጋ ጎዳም ዋይዞ ዒፂ ዻቤሢሮ ዒዚ ታኣም ዔቂ ዎጋንዳያ ሄላንዳኣና ዒዛኮ ጎሪንቶ ጊቢ ታ ዳንዳዓንዳኔ፤ ዒዚ ታና ፖዒ ባንሢ ኬሳንዳኔ፤ ታ ዒዛኮ ፂሉሞ ዛጋንዳኔ።"
+        },
+        {
+          "number": "10",
+          "text": "ታ ሞርካ ዬያ ቢያ ዛጋንዳኔ፤ «ናንጊና ናንጋ ጎዳ ማዔ ኔ ፆኦዛሢ ዎካ ዓኣይ?» ታና ጋዓ ታ ሞርካ ቦርሲንታንዳኔ፤ ታኣኒያ ታ ሞርካ ሎኦማሢ ዛጋንዳኔ፤ ጎይሢ ዓቺዳ ዓኣ ቶርጶጉዲ ዒ ሄርቂንታንቴያ ታኣኒ ዛጋንዳኔ።"
+        },
+        {
+          "number": "11",
+          "text": "ዒንሢ ዬሩሳላሜ ዴራ! ካታሜሎኮ ኬኤሎ ዲፃ ኮሺንታንዳ ዎዴ ሙካንዳኔ፤ ዬኖ ዎዶና ዒንሢ ዎይሣ ዓጫ ዳልጋንዳኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "ዒማና ዴራ ዒንሢኮ ዒንሢ ባንሢ ማዓንዳኔ፤ ዬይያ፦ ዓባ ኬስካ ባንፃ ዓኣ ዓሶኦሬፓ፥ ዾኦሎ ባንፃ ዓኣ ጊብፄፓ፥ ዔፕራፂሴ ዎሮ ዓጮይዳፓ፤ ዬያጉዲ ሃሣ ሃኬፓ ባዚና ዹካና ቲቂ ዔያታ ሙካንዳኔ።"
+        },
+        {
+          "number": "13",
+          "text": "ዓጬላ ጋዓንቴ ዒዞይዳ ናንጋ ዓሶኮ ፑርቱሞፓ ዔቄያና ዓሲ ናንጉዋ ዳውሌ ማዓንዳኔ።"
+        },
+        {
+          "number": "14",
+          "text": "ካዮ ባኣኮይዳ ማኣታ ዋርቂ ዓኣ ቦኦላ ፔኤሮ ናንጋ፥ ኔ ቆልሞ ማዔዞንሢ ኔኤኒ ኔ ቢታንቶና ሄንቄ፤ ዓዳ ሚናኣ ዎዶጉዲ ባኣሳኔና ጌሌዓዴ ዓጮናይዳ ዔያታ ሄንቆንጎ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ናንጊና ናንጋ ጎዳ ዒስራዔኤሌ ዓሶ ሚጪንቴሢ"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "ጊብፄ ዓጫፓ ኔ ኑና ኬሴ ዎዶና ማዼ ጎይፆ ኔ ዎልቆና ማዺንታ ዓኮ ባኮ ኑና ዻዌ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "ዔያታ ዎልቄና ዓኣ ዓሲ ማዔያታቴያ ዬያ ዛጊ ዔያታ ቦርሲንታንዳኔ፤ ዔያታ ፔኤኮ ኩጮና ዻንጎ ዓርቃንዳኔ፤ ዋዮዋ ዔያታ ቱጫንዳኔ።"
+        },
+        {
+          "number": "17",
+          "text": "ሾኦሺንታ ሜሌ ዳዶና ጎቺንቲ ሃንታ ማዢንቶጉዲ ዓጪ ዔያታ ሙዓንዳኔ፤ ዔያታ ፔኤኮ ዋርዲዮ ቤዛፓ ኬስኪ ጎጋይቂ ጎጋይቂ ሙካንዳኔ፤ ዔያታ ዒጊቹሞና ናንጊና ናንጋ ጎዳ ማዔ ኑ ፆኦዛሢ ባንሢ ዬዓንዳኔ።"
+        },
+        {
+          "number": "18",
+          "text": "ጎሜ ዓቶም ጋዓያ፥ ፒኢጫዺ ዓቴ ኔ ዴሮኮ ዻቢንቶ ዓርቁዋያ፥ ኔናጉዴያ ፆኦሲ ዖናዳይ? ማኣሪሢ ኔና ዎዛሳያታሢሮ ዻጋ ኔኤኮ ናኣናና ጋፑዋዖ ዴዓያቱዋሴ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "ኔኤኒ ጊንሣ ሚሚጫንታያኬ፤ ኑኡኮ ዻቢንቶ ኔኤኒ ኔ ቶኮ ዴማ ኬኤሪ ሄርቃኔ፤ ጎሞ ኑኡኮ ቢያ ዼኤፖ ባዞ ዔቶይዳ ኔኤኒ ዓጋኔ።"
+        },
+        {
+          "number": "20",
+          "text": "ኑኡኮ ቤርታኣ ዓዶንሢም ኔኤኒ ጫኣቄ ጎይፆና ዓብራሃሜንታ ያይቆኦቤንታ ዜርፆም ኔኤኮ ጉሙርቂንቲፆና ናንጊና ናንጋ ናሹሞዋ ኔኤኒ ቤኤዛኔ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "6",
+          "marker": "Translator/editor note",
+          "text": "Source note reference 7፡6. - ማቲ. 10፡35-36፤ ሉቃ. 12፡53።",
+          "note_type": "translator_note",
+          "source_reference": "7፡6"
+        }
+      ],
+      "heading": [
+        "ዒስራዔኤሌ ዴሮኮ ፑርቲፆ"
+      ]
+    }
+  ]
+}

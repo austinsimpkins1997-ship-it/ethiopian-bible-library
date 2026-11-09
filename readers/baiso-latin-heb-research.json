@@ -1,0 +1,2936 @@
+{
+  "reader_id": "baiso-latin-heb-research",
+  "research_corpus_id": "bsw-bswl-heb",
+  "canon_id": null,
+  "title": "Hebrews — Baiso New Testament (BSWL, Latin script)",
+  "display_name": "Hebrews · Baiso · Latin script · eBible.org",
+  "text_origin": "published_translation",
+  "translation_id": "bsw-bswl-2024",
+  "language": "Baiso (Bayso)",
+  "language_tag": "bsw",
+  "language_assignment_status": "publisher_declared_in_source_page_and_USFM_package",
+  "script_code": "Latn",
+  "translator": "Not named in the inspected edition page or retained USFM headers",
+  "contributor": "The Word for the World International",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The inspected edition page does not identify the source language or a relay-language path; none is inferred.",
+  "edition": "Baiso NT (Latin); Latin script; Copyright © The Word for the World International (edition record accessed 2026-10-26; the record does not state a year).",
+  "edition_scope": "One of 16 USFM book members actually present in eBible.org edition BSWL (Baiso NT (Latin)). The Latin-script edition omits 11 conventional NT modules in this package; the Ethiopic-script package has 27. These provider/module scopes do not establish equivalence to any Ethiopian or Eritrean Orthodox canon. No canon crosswalk is assigned.",
+  "rights_classification": "open_license",
+  "license_id": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "copyright_notice": "The eBible.org edition record identifies the Baiso language (bsw), The Word for the World International as contributor, and CC BY-SA 4.0 terms for the translation text. This archive converted the retained USFM source into reader JSON; the original package is included. Attribution is retained, changes are identified, and this archive does not imply publisher endorsement. Image terms are separate; no images are bundled.",
+  "commercial_use": "The provider-stated CC BY-SA 4.0 terms allow commercial sharing and adaptations with attribution, change indication, and ShareAlike. Images and other media have separate terms and are not included.",
+  "unit_label": "USFM verse labels observed",
+  "unit_count": 300,
+  "verse_marker_count": 300,
+  "chapter_count": 13,
+  "section_label": "Chapter",
+  "chapter_structure_note": "This source member contains 13 consecutive chapter divisions, 300 distinct source verse labels, 96 notes, 17 front-matter elements, and USFM marker counts {'c': 13, 'h': 1, 'id': 1, 'ili1': 3, 'imt1': 1, 'io1': 10, 'iot': 1, 'ip': 2, 'm': 14, 'mt1': 1, 'p': 87, 'q1': 54, 'q2': 44, 's1': 22, 'toc1': 1, 'toc2': 1, 'toc3': 1, 'v': 300}. Labels and recognized structure are preserved; counts describe extraction from this exact source member only.",
+  "chapter_structure_status": "source_package_parsed_with_limits",
+  "source_numbered_unit_count": 300,
+  "source_unnumbered_unit_count": 80,
+  "source_pages": "readers/source/baiso/bswl_usfm.zip::64-HEBbswl.usfm",
+  "source_package_sha256": "3f06279eccae05b1f12663cf7915109bb37fc1f29e8ad30fe6b22346571c5de5",
+  "source_snapshot_sha256": "17b5ab43f44d99f1ffed53ad064000b444322226a5afbfe054de45d5e16ce236",
+  "source_ids": [
+    "SRC-410",
+    "SRC-411"
+  ],
+  "rights_status": "The eBible.org edition record identifies the Baiso language (bsw), The Word for the World International as contributor, and CC BY-SA 4.0 terms for the translation text. This archive converted the retained USFM source into reader JSON; the original package is included. Attribution is retained, changes are identified, and this archive does not imply publisher endorsement. Image terms are separate; no images are bundled.",
+  "verification_status": "The exact source member 64-HEBbswl.usfm has SHA-256 17b5ab43f44d99f1ffed53ad064000b444322226a5afbfe054de45d5e16ce236, matching the clear-signed member list in the retained ZIP. GnuPG verifies the list against the key included with that ZIP (54D714D76956DA6673DC1EEA5F62009D93505F26); this is tamper evidence, not independent proof of signer identity, custody, or authority. The signature uses legacy DSA-1024/SHA-1. Extraction preserves publisher verse labels, chapter divisions, recognized headings, introduction material, notes, continuations, and other supported USFM structures. These checks do not establish print completeness, wording accuracy, language-community review, translation basis, or Church-canon identity.",
+  "transcription_note": "Display-reader extraction from the publisher's USFM. The exact USFM member and complete signed source package remain locally available; no independent wording proofread or print collation is claimed.",
+  "editorial_signs_note": "The source USFM remains bundled so supported structure, unrendered styles, and extraction decisions can be inspected; this reader is not a replacement for the publisher's original encoding.",
+  "front_matter": [
+    {
+      "marker": "imt1",
+      "text": "Tabano"
+    },
+    {
+      "marker": "ip",
+      "text": "Hikki handdaa kakkons'aafamera ibaaddo iso godiide ammanokkisoo iisin kagabbalamero amaniiluwunye; s'aafiiti Ibirawijjoluun kaɂaddeesisera Yesuusa Kiristoosa karrummiinna kagachchoo mutano kawaa laano tusinya. Hikki amaniil ammanokkisooyi goggoɂarɂarawun ataayisara; hikka kakkofele goorata rummi seed addeesise tusara,"
+    },
+    {
+      "marker": "ili1",
+      "text": "1. Taɂatatero rakkookotti garane karrummii odoon kaɂajajaamaro kalleera Yesuusa jiruu jiroommakki ere kawaayya; Ere kawaa laanoyi ammato ohorkkokki kahegeroolkko, Musekkona erggichchalkko aaloo karooreya."
+    },
+    {
+      "marker": "ili1",
+      "text": "2. Yesuusa ammato ohorkkookokki tuuk'aamolkko aaloo karoore jiruu jiroommakki tuuk'aamo laano Waa issii ayeesera."
+    },
+    {
+      "marker": "ili1",
+      "text": "3. Gara kayesuusane amaniil c'ubbokko, abssikkona goyikko fayyinnara; Yesuusa tuuk'aamolkokki woyichcha laanoyi kaɂibirawwii ibaaddokokki ammano seerana kagiddi jaarsso hoos aani mutaa kagire fayyinna rummi goggolleeroon yelera."
+    },
+    {
+      "marker": "ip",
+      "text": "S'aafiti taɂisiraɂeeli jirtti kaɂaddeesame ibaaddokokki ammano masuussa yelatereyya, (Foolssi. 11) onabbabaraan ammanokkisooyi goggoɂataarawun addeesisara; usumaleenna (Foolssi. 12) ammana Iilɂoɂoottisoo Yesuusaa gutii kaanoyi ammanokkisooyi goggoɂataarawunna maamisitti rakkoonna abboosa goggeenna goggoɂobssiraawun gorssaara, gudisaanna kagorssa haafura sisaa gudisara."
+    },
+    {
+      "marker": "iot",
+      "text": "Raattoo Hikki Mas'aafa Kaɂabera"
+    },
+    {
+      "marker": "io1",
+      "text": "Tabano, Waa Kiristoosaayi mutano 1:1-3"
+    },
+    {
+      "marker": "io1",
+      "text": "Kiristoosa erggichchakko karooran laano 1:4—2:18"
+    },
+    {
+      "marker": "io1",
+      "text": "Kiristoosa Musekkona Iyyaasukko karoore laano 3:1—4:13"
+    },
+    {
+      "marker": "io1",
+      "text": "Tuuk'aamo laano kakiristoosa dubbaankko karooraro laano 4:14—7:28"
+    },
+    {
+      "marker": "io1",
+      "text": "Kakiristoosa haafura ammatokko karooraro laano 8:1—9:22"
+    },
+    {
+      "marker": "io1",
+      "text": "Kakiristoosa jaarssamanokokki jiinaan 9:23—10:39"
+    },
+    {
+      "marker": "io1",
+      "text": "Ammanokokki jiinaan 11:1—12:29"
+    },
+    {
+      "marker": "io1",
+      "text": "Waa geggelaayisano 13:1-19"
+    },
+    {
+      "marker": "io1",
+      "text": "Kac'ufano ebi 13:20-21"
+    },
+    {
+      "marker": "io1",
+      "text": "Gudisano 13:22-25"
+    }
+  ],
+  "source_book_metadata": [
+    {
+      "marker": "h",
+      "text": "Ibraawwii"
+    },
+    {
+      "marker": "toc1",
+      "text": "Kaɂibirawwii Ibaaddo Tos Kafaramero Handdaa"
+    },
+    {
+      "marker": "toc2",
+      "text": "Ibraawwii"
+    },
+    {
+      "marker": "toc3",
+      "text": "Ibr."
+    },
+    {
+      "marker": "mt1",
+      "text": "Kaɂibirawwii Ibaaddo Tos Kafaramero Handdaa"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Horkkooskko kayere Waa raa kamoogganinna goorata kamoogganii gara kahegeroolnne odojoolkkaanuun ayeesere;",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "gidda goɂameen kagachchoo geesii kameen dubba goggoɂeelloon kayelero erekkeessakokki garane noon ayeesera; alami dubba kakkomet't'eera usuuya."
+        },
+        {
+          "number": "3",
+          "text": "Usu kabaja tawaa hank'k'ayise katusaroya; yadaliitteessana Waanne wota taɂekkaattotta, haafurakokki hunnaayi alami dubba isikkise abera, ibaaddo c'ubbokko k'ullooyise abbaabatere daruurii kaɂatii Waakotti merggee hamas's'ee."
+        },
+        {
+          "number": "4",
+          "text": "Usuun kabeera mege kaɂerggichcha megekko karooraro mankkollee maraan, ere kawaa erggichchakko aaloo karooraroya.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ere kawaa erggichchalkko karooraro laano"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Waa duuddo erggichchaal orroo,",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«Ati erekkeetta, ani ku hittaari umulera»"
+            },
+            {
+              "source_marker": "q2",
+              "text": "goorttun"
+            },
+            {
+              "source_marker": "q1",
+              "text": "«Ani odo leerowa, usuna erekkee linnara»"
+            },
+            {
+              "source_marker": "q2",
+              "text": "kakkoonɂamere maayyona laagire."
+            }
+          ]
+        },
+        {
+          "number": "6",
+          "text": "Waa barkki erekkeessa alami tos kakkofarare goorata,",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«Erggichcha kawaa dubba usuun hasagade» amera."
+            }
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Erggichchakokki gara,",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«Erggichchaalnna ambbal aani,"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ohandaaranna lac'a kaɂeleenee aani yelinnara» amara."
+            }
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Erekkeessakokki gara ade;",
+          "source_markers_before": [
+            "m"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«Hedo! Korffinjekka jiruu jiroommakko taa jiruujiroomma geeroon girnnara;"
+            },
+            {
+              "source_marker": "q2",
+              "text": "wononatikkaanna rummii bariisatta;"
+            }
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Ati k'ullumma geelatta; meellaneenna diidatta;",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "Hikkakkotti aalanttii Waa Hedokka ku assaabate;"
+            },
+            {
+              "source_marker": "q2",
+              "text": "Saatilaalttaakko roorise geggeloo tasisatto zayitii kuun shigide» amara."
+            }
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Usumaleenna,",
+          "source_markers_before": [
+            "m"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "Goottakkee! «Ati horaarjje ul met't'iite;"
+            },
+            {
+              "source_marker": "q1",
+              "text": "Daruurjjolnna genettaayi met't'iite;"
+            }
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Iso dubba bayinnaraan;",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "Ati adde girnnatta;"
+            },
+            {
+              "source_marker": "q2",
+              "text": "Iso dubba sarssi aani doɂayinnaran."
+            }
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Gashe aaninna ati duubinnatta;",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "Isona sarssi kaddoɂan sarssi kaɂusubii goggoɂiggilssamaro malee iggilissaminaran."
+            },
+            {
+              "source_marker": "q1",
+              "text": "Ati arggetto atitta,"
+            },
+            {
+              "source_marker": "q2",
+              "text": "Geeskkaawun gachcho laagitto» amara."
+            }
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Waa erggichchaal orroo;",
+          "source_markers_before": [
+            "m"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "«Diinakkaa odonnatikkaa hegelii taa yellooyi"
+            },
+            {
+              "source_marker": "q1",
+              "text": "Merggetteeyi hamas's'ii» kakkoonɂamera maayyona laagiro."
+            }
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Erggichchaal dubba Waa ammani kafayyinnaro ibaaddon handdayin ofaramaraan Waawun ohandaaran ayyaanalyyaan.",
+          "source_markers_before": [
+            "m"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "5",
+          "marker": "Translator/editor note",
+          "text": "- Mez. 2:7; 2 Sam. 7:14; 1 Od. 17:13.",
+          "note_type": "translator_note",
+          "source_reference": "1:5"
+        },
+        {
+          "verse": "6",
+          "marker": "Translator/editor note",
+          "text": "- Ada. 32:43.",
+          "note_type": "translator_note",
+          "source_reference": "1:6"
+        },
+        {
+          "verse": "7",
+          "marker": "Translator/editor note",
+          "text": "- Mez. 104:4.",
+          "note_type": "translator_note",
+          "source_reference": "1:7"
+        },
+        {
+          "verse": "9",
+          "marker": "Translator/editor note",
+          "text": "- Mez. 45:6-7.",
+          "note_type": "translator_note",
+          "source_reference": "1:9"
+        },
+        {
+          "verse": "12",
+          "marker": "Translator/editor note",
+          "text": "- Mez. 102:25-27.",
+          "note_type": "translator_note",
+          "source_reference": "1:12"
+        },
+        {
+          "verse": "13",
+          "marker": "Translator/editor note",
+          "text": "- Mez. 110:1.",
+          "note_type": "translator_note",
+          "source_reference": "1:13"
+        }
+      ],
+      "heading": [
+        "Waa Erekkeessakokki garane ayeesano"
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Haannuun kamaalnnenno ayeeskko fallaaddayinne goggoɂiinnoonkko kamaalnnenno ayesuun aaloo isiɂooratano dootisara.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Erggichchalkokki garane kasegaamera haafura rummi leera; hikka haafurakko kashirmarana hikka haafuraan kaɂajajaamon tadootisatto murroo atatara."
+        },
+        {
+          "number": "3",
+          "text": "Hayya noo hikka kaɂatii fayyinnaan donnaa ollaanno golleene, misii hesiin daanddaanna? Hikka fayyinna noon kasisera Goottaa issiiyya; usukkona kamaalera ibaaddo hikkawa addeesisera."
+        },
+        {
+          "number": "4",
+          "text": "Waa isoon ade malaataal, kasaadisiro ayees, kamooggan baasa felanoyiinna feɂitteessakki malee oddannabameraan Ayyaana K'ulluukki ilaboolkokki garane atotaanokkisoo ataayisera."
+        },
+        {
+          "number": "5",
+          "text": "Waa horenbbaan kaɂemeeyinnaron, hikka gidda noo kakkoɂayeesanno alami erggichcha odonnati goggobarisiroo lakkoyelero.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Yesuusa kafayyinna sooressa laano"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "Usumaleenna k'ulluukki mas'aafajjool banɂe tooyi haa amara;",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«Ati goggok'offitoon ibaaddo meya?"
+            },
+            {
+              "source_marker": "q2",
+              "text": "Ati usuun goggomararttoo ere kaɂibaaddo meya?"
+            }
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Abaraan erggichchalkko yeraasse,",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "Kakkabajjaanna kasommaa kallachcha usu gutii kayite;"
+            },
+            {
+              "source_marker": "q2",
+              "text": "Genetta ofelttetto felo gutii shuumiite;"
+            }
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Dubbana odonnatikkeessa hegelii kayite.»",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "m",
+              "text": "Kameen dubba odonatikkeessakko hegelle kakkokkayite goorata, odonatikkeessakko hegelii ankkayinooni ati kahaassetta ayees koonna laagiro. Ayesuun goɂameen gidda goggogirooyi kameen dubba odonnatikkeessa hegelii kagiro ganaa lakkodeenenne."
+            }
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Gidda ade erggichchalkko goorata kic'c'arun hussintte tagitte, tagoyi rakkoo atatanokotti aalanttii kakkabajjaanna kasommaa kallachcha kakkaatero Yesuusa dinnanna; usuna sino tawaayi no maraan goyera."
+        },
+        {
+          "number": "10",
+          "text": "Kameen dubba usuuyina usuun kamet't'aamera Waa yiis kamooggan kabaja tos keeniin fayyinnakisookki sooressa kalleero Yesuusa rakkoo orromarise roorsanoyi duuddokki goggolleeroon hikki ayees kadootisaro mankkollee maraan Waa felera."
+        },
+        {
+          "number": "11",
+          "text": "Ibaaddo Waawuun kak'ullooyisarana garakkeessane Yesuusaa ok'ullowaaraan odo kookki yiisyaan; hikkakkotti aalanttii usu iso, «Abbilaalttee» ami uumn lakkomullaaro.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Haannuun k'ulluukki mas'aafajjool",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«Megekkaa abbilaaltteewun segiinnara,"
+            },
+            {
+              "source_marker": "q2",
+              "text": "gosa kawaa orroo hiɂitteeyi galatinnara» amara,"
+            }
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Usumaleenna, «Abdditteenna usuu gutii kayinnara» amara,",
+          "source_markers_before": [
+            "m"
+          ],
+          "continuations": [
+            {
+              "source_marker": "m",
+              "text": "Adena, «Hikkima aninna Waa iin kasisera yiinssa hittanii ginna» amara."
+            }
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Haanssun yiiskkeessa soonna iigi kaɂabo ibaaddo mankkoleeraan maraan Yesuusana iso aani ibaaddo lee, hikka kakkoonyelera goyikokki garane goyi gutii odonnati kaɂabo durrisa baasinya;",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Usumaleenna goyi abssatanokkotti aalanttii ulii kakkogiraan gees dubbaayi diyyummaa iminameen ogireenun wodoo liinya."
+        },
+        {
+          "number": "16",
+          "text": "Ogiraan Yesuusa kakkoonɂemetera erggichcha gargaarin anlleennon giraan taɂabraame sannii gargaarinya;"
+        },
+        {
+          "number": "17",
+          "text": "Haannuun kameen dubbaayi abbilaal aani laano mankkodootisaro maraan abbilaal aani lee; hikka kakkoonyelera c'ubbo kaɂibaaddo haheso amin amere Waawun handdayin kaɂabddamena kanenɂeeyisataro tuuk'aamolkokki woyichcha lee."
+        },
+        {
+          "number": "18",
+          "text": "Usu issii c'aafamere rakkoo mankkoɂatatero maraan oc'c'aafamaraan gargaarin daanddaara."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "7",
+          "marker": "Translator/editor note",
+          "text": "+ Fureen toottooyi «genettaakonɂi felooyi shuumite» kaɂamaro lakkoɂadaraan.",
+          "note_type": "translator_note",
+          "source_reference": "2:7"
+        },
+        {
+          "verse": "8",
+          "marker": "Translator/editor note",
+          "text": "- Mez. 8:4-6.",
+          "note_type": "translator_note",
+          "source_reference": "2:8"
+        },
+        {
+          "verse": "12",
+          "marker": "Translator/editor note",
+          "text": "- Mez. 22:22.",
+          "note_type": "translator_note",
+          "source_reference": "2:12"
+        }
+      ],
+      "heading": [
+        "Kaɂatii fayyinna"
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Haannuun isinna addeen uumit tawaayi oɂuumanttettan k'ulluunɂi amaniil! Ammanokkaanun kafaramerona tuuk'aamolkokki woyichcha Yesuusa shaada.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Muse min kawaa dubbaan kaɂabddame goggolleerekki malee Yesuusana usu kashuumero Waawun kaɂabddameye."
+        },
+        {
+          "number": "3",
+          "text": "Min kamadaarara minkko taroortte kabaja goggoɂabo malee Yesuusana Musekko taroortte taɂatii kabaja mankkodootisaro maraan kabajaame."
+        },
+        {
+          "number": "4",
+          "text": "Ogiraan min dubba metemeteeyi kamadaararo ibaaddo aba; kameen dubba kafelera ade Waayya."
+        },
+        {
+          "number": "5",
+          "text": "Horenbbaawun amamiin kadootisaro ayees dubbaan atotaa Muse min kawaa dubbaayi kahandaaro aani kaɂabddameye."
+        },
+        {
+          "number": "6",
+          "text": "Kiristoosa ade min kawaayi kaɂabddame kakkolleera ere aani leegureyye. Minkkeessana nonna; minkkeessa kakkonliinanna kakkoɂabddatanno ayeesinna takkodhaadatanno abddi ataayisayi goɂabanneya."
+        },
+        {
+          "number": "7",
+          "text": "Haannuun Ayyaana K'ulluukki goggoɂamaroo,",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Abddatanawaattikokki gara kasisamero seerisano"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«Hittaari Yaayetteessa gomaaltteen,"
+            }
+          ]
+        },
+        {
+          "number": "8-9",
+          "text": "K'alullattokki ulii odolaalkkisin in goggoc'aaferankki maleenna meellanee iin gutii goggokeerankki malee",
+          "source_markers_before": [
+            "q2"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "isinna wodanattisin taɂajajaamon arooyelatteen;"
+            },
+            {
+              "source_marker": "q1",
+              "text": "Esee iso in c'aafeen; inne wota tamaaggaten;"
+            },
+            {
+              "source_marker": "q2",
+              "text": "Gees afarttamuun ani kafelerona deen» amara Waa."
+            }
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Haannuun ani hasse alattaanii amaraayegure,",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "«Wodanattiso arggetto shirmatta;"
+            },
+            {
+              "source_marker": "q2",
+              "text": "Raakkeenna lakkoɂaddeeseeran ame.»"
+            }
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Adena",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "« ‹Ani tasisinaro tafoolssi banɂettee tos lakkotabnaraan!› ame"
+            },
+            {
+              "source_marker": "q2",
+              "text": "Amaraantteeyi ani ammatera.»"
+            }
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Abbilaalttee! Isin orrokko maayyona arddokki Waakko tafakkisso tameellanna taɂammanoon wodana isinuun goggoginnonkko isiɂoorayeen.",
+          "source_markers_before": [
+            "m"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Ayesuun goɂameen isinkko c'ubbooyi sobamire wodanatteessa taɂajajaamon goggoyelannonkko, «Hittaari» amame kaɂuumamara goorata giraan arggetto isiɂisiɂataayisayen."
+        },
+        {
+          "number": "14",
+          "text": "Horaarjje kaɂabannenno ammanokkaani tagachchoo arri taa geennoon ataayisayi goɂabanne kiristoosane wota oɂeelinnanno linnanna."
+        },
+        {
+          "number": "15",
+          "text": "Hikkina, «Hittaari yaayetteessa kakkomaalttaan goorata",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "abjjolaalkkisin meellane kakkokekkeeseren goorata goggoyeleraan malee wodanattisin taɂajajaamon arooyelatteen» amame goggos'aafamerooya."
+            }
+          ]
+        },
+        {
+          "number": "16",
+          "text": "Golleenna hanɂu yaayetteessa maaleen abbaabateren omeelileren ayyosyyeen? Iso la Muse horehaye k'ajeelisaa ul kagibs's'ikko obeereenyenna?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "Gees afarttam dubba Waa amaraayisaa ogireen ayyosyyeen? Lahanɂu c'ubbo ofeleraanna iso goyereen reeskkiso k'alullattokki ul iyye okkoonheseroyenna?"
+        },
+        {
+          "number": "18",
+          "text": "Adena hanɂu ajajaamano odiideeren kuwaarre, «Isin tafoolssii banɂettee tos lakkotabnattaan» ame usu kakkoonɂammatera ayyosyyeen?"
+        },
+        {
+          "number": "19",
+          "text": "Goorttanun iso tabin kakkowaateraan ammananawaattikkotti aalanttii laano addeesanna."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "3",
+          "marker": "Translator/editor note",
+          "text": "- To. 12:7.",
+          "note_type": "translator_note",
+          "source_reference": "3:3"
+        },
+        {
+          "verse": "7",
+          "marker": "Translator/editor note",
+          "text": "- Mez. 95:7-11.",
+          "note_type": "translator_note",
+          "source_reference": "3:7"
+        }
+      ],
+      "heading": [
+        "Yesuusa Musekko karooraro laano"
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Haanssun Waa tasisinaro tafoolssi banɂe tos tabin no taɂatannenno abddi ganaa tat'aabbatetto mankkolleete maraan isinkko maayyona hitta tafoolssi banɂe tos takkotabro iddilii anhelannon goggohesoonkko no dubbana isiɂooranna.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Wongala isoon goggolallabaameroo noonna lallabaamera; ayesuun goɂameen isoon kalallabaamero haafura ammanooyi atatana mankkowaateen maraan isoon laɂo lakkosise."
+        },
+        {
+          "number": "3",
+          "text": "Feloɂootteessa alami takkomet'amerokko haggaɂabere ogudateeraan golleenna, «Ani tasisaro tafoolssi banɂe tos lakkotabiraan ame amaraayere ammatera» goggoɂameroo giddanna noo kaɂammananna eserraa Waa noon tasisero tafoolssi banɂe tos tabnanna;"
+        },
+        {
+          "number": "4",
+          "text": "Tatodobi arrikotti gara mas'aafa k'ulluukkii banɂe tooyi, «Waa feloɂoottessakko tatodobi arrii foolssate» amame s'aafamera."
+        },
+        {
+          "number": "5",
+          "text": "Usumaleenna hitta banɂee ade",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«Ani isoon tasisinaro tafoolssi banɂe tos suure iso lakkotabnaraan» amara."
+            }
+          ]
+        },
+        {
+          "number": "6",
+          "text": "Hikka wongala horaarjje omaaleeraan ajajaamana waattikko kakkeeyi Waa tasisinaro tafoolssi banɂe tos lakkotabeeran; golleenna eserraa goggotabraawun feɂi kakkoonsisanttetta ibaaddo kookkoo girowa.",
+          "source_markers_before": [
+            "m"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Hikkina t'aye goggoɂamameroo",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«Hittaari yaayetteessa gomaaltteen,"
+            },
+            {
+              "source_marker": "q2",
+              "text": "Wodanattisinii taɂajajaamon arooyelatteen.»"
+            },
+            {
+              "source_marker": "m",
+              "text": "Amaa Waa gees kamooggankko abbaabatere gara kadaawutene kaɂayeesero haafuraa arri «Hittaari» amami goggoɂuumanttoo addeesisera."
+            }
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Iyyaasu gosaan foolssi isoon kasise lii girewa Waa adi, «Hittaari» amaa arri takkaleekokki gara lakkoɂayeesare.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Goorttanun gosa kawaawun taɂayihuudi tafolssi arri aanittitti foolssi ganaa gitta."
+        },
+        {
+          "number": "10",
+          "text": "Waa felokko goggofoolssateroo usumalee Waa tasisinaro foolssi tos katabara felokko foolssatara."
+        },
+        {
+          "number": "11",
+          "text": "Haannuun hassu ibaaddo ajajaamana waattikko kakkeeyi goggoɂiyyeraankki malee maayyona debee seeyire goggoɂiinnoonkko tawaa tafoolssi banɂe tos tabin ataanna."
+        },
+        {
+          "number": "12",
+          "text": "Haafura kawaa arddokkina kafelaroyya; mina lamane enenaan kaɂabo maamisikki shiifakkona roore kaɂenenaateyya, neefona ayyaana, mikitaalnna lefaal kalekalee taa beesiro kagoggoosaroya; wodanaa orroo tagitto k'ofana halchcha k'ok'k'ore kafirddaroya.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Hore tawaakko tagolattetta met't'a toonna laagitto; iltteessaa horee kameen dubba diidaa bee hawɂayi lee kamutaroya; noonna abbaab sisin kakkodaanddanna usu horeeya."
+        },
+        {
+          "number": "14",
+          "text": "Goortta daruurjjol orromare elddee kabeero kaɂatii katuuk'aamol woyichcha mankkoɂabnno maraan hiɂittaanii kaɂatotiinnenno ammanokkaani ataayisayi abanna; katuuk'aamol woyichchana Ere kawaa Yesuusaya.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Yesuusa kaɂatii tuuk'aamolkokki woyichchaya"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Noo kaɂabnna katuuk'aamol woyichcha haranokkaani nenɂeyisayin kadanddeenoon lakkoyo; Yesuusa c'ubbo lakkofelero kuwaarre kameen dubbaayi no aani c'aafamera."
+        },
+        {
+          "number": "16",
+          "text": "Goortta noo shaaga helayiinna gargaarssa noon kakkodootise goorata sino goggohelannon sino kakkohelanno kawaa korffinjje horee abissi kallayi gabbalamiinna."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "3",
+          "marker": "Translator/editor note",
+          "text": "- Mez. 95:11.",
+          "note_type": "translator_note",
+          "source_reference": "4:3"
+        },
+        {
+          "verse": "4",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 2:2.",
+          "note_type": "translator_note",
+          "source_reference": "4:4"
+        },
+        {
+          "verse": "5",
+          "marker": "Translator/editor note",
+          "text": "- Mez. 95:11.",
+          "note_type": "translator_note",
+          "source_reference": "4:5"
+        },
+        {
+          "verse": "7",
+          "marker": "Translator/editor note",
+          "text": "- Mez. 95:7-8.",
+          "note_type": "translator_note",
+          "source_reference": "4:7"
+        },
+        {
+          "verse": "8",
+          "marker": "Translator/editor note",
+          "text": "- Ada. 31:7; Iya. 22:4.",
+          "note_type": "translator_note",
+          "source_reference": "4:8"
+        },
+        {
+          "verse": "10",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 2:2.",
+          "note_type": "translator_note",
+          "source_reference": "4:10"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Katuuk'aamol woyichcha dubba ibaaddo orrokko assaabamere Waanne wota taɂeselsatto haajaayi banɂe taɂibaaddoyi meebaanna jaarsso Waawun sisin shuumamaraan.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Hassu tuuk'aamo woyichchati metekkeessawun harano kaɂabo mankkolleero maraan koonna okasoonna oshiriɂamaraan nenɂeyisayi iso din daanddaara."
+        },
+        {
+          "number": "3",
+          "text": "Usu metekkeessawun haranokokki aalanttii c'ubbokko haheso amamano kahelamissisaro jaarsso sisin kaddootisara gosa kaalaalun anlleennon giraan isiɂoottessanee adereya."
+        },
+        {
+          "number": "4",
+          "text": "Aarooni aani Waayi kaɂuumamero ibaaddo gollee kuwaarre maayyona hitta kabaja issii metekkeessayi lakkohelataro."
+        },
+        {
+          "number": "5",
+          "text": "Usumaleenna Kiristoosa katuuk'aamol woyichcha laanokotti kabaja issii metekkeessayi lakkoɂatatero; ayesuun goɂameen katuuk'aamol woyichcha laanokotti kabaja kakkohelatera,",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«Ati erekkeetta;"
+            },
+            {
+              "source_marker": "q2",
+              "text": "Ani ku hittaari umulera» kaɂamero Waakkoya."
+            }
+          ]
+        },
+        {
+          "number": "6",
+          "text": "K'ulluukki mas'aafaa banɂe takkaleetii Waa;",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«Kamelkes'edek'i tuuk'aamolkokki shuumata aani"
+            },
+            {
+              "source_marker": "q2",
+              "text": "Ati jiruu jiroomman woyichchatta» amara."
+            }
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Yesuusa ibaaddo lee hikka ulii kakkogire goorata goyikko haasin kadaanddaaro Waa tos kaɂatii iyyaanoyinna tanjiin ilmmii ubaa ebi ebaate; isi yeraasatanoyinna kaɂajajaame mankkollee maraan Waa ebikkeessa maale.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Usu maamisii ere kawaa golleenna taɂatatero rakkooyi ajajaamano agaalssate."
+        },
+        {
+          "number": "9",
+          "text": "Duuddokki lee kakkomutare goorata usuun kaɂajajaamaro dubbaan jiruu jiroommakokki fayyinnaan isoon aalantti lee."
+        },
+        {
+          "number": "10",
+          "text": "Usuna Waa kamelkes'edek'i shumata aani tuuk'aamolkokki woyichcha yele shuume."
+        },
+        {
+          "number": "11",
+          "text": "Hitta haajaakokki gara noo kaɂayeesinanna kamooggan ayees gira; ayesuun goɂameen bogi malabaa giraan wudettaamana mankkowaatte maraan isin agaalssisano t'ibara.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ammanokkisoo goggoɂiisonkko kasisamero seerisano"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Gidda gin kakkogitteen goorataayi isin kaɂagaalssisaro lii giratteen; gidda goɂameen haafura kawaa kahoraarjjee agaalssis ibaaddo kakkalee isin kallami goggoɂagaalssisiroon dootisara; hitta aalanttii isinuun odootisaraan eenooyyan kuwaarre kaɂatii babo lakkoyo."
+        },
+        {
+          "number": "13",
+          "text": "Eenoo olaal kat'amara dubba yiis mankkollee maraan k'ullummakokki gara ganaa lakkoɂagaalssatero."
+        },
+        {
+          "number": "14",
+          "text": "Kaɂatii babo kakkoondootisara ade kaɂidanna kameellanna kale beesi addeesin kaɂis's'aamaro kajiinjjiin ibaaddoyya."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "3",
+          "marker": "Translator/editor note",
+          "text": "- Woy. 9:7.",
+          "note_type": "translator_note",
+          "source_reference": "5:3"
+        },
+        {
+          "verse": "4",
+          "marker": "Translator/editor note",
+          "text": "- Biy. 28:1.",
+          "note_type": "translator_note",
+          "source_reference": "5:4"
+        },
+        {
+          "verse": "5",
+          "marker": "Translator/editor note",
+          "text": "- Mez. 2:7.",
+          "note_type": "translator_note",
+          "source_reference": "5:5"
+        },
+        {
+          "verse": "6",
+          "marker": "Translator/editor note",
+          "text": "- Mez. 110:4.",
+          "note_type": "translator_note",
+          "source_reference": "5:6"
+        },
+        {
+          "verse": "7",
+          "marker": "Translator/editor note",
+          "text": "- Mat. 26:36-46; Mar. 14:32-42; Luk'. 22:39-46.",
+          "note_type": "translator_note",
+          "source_reference": "5:7"
+        },
+        {
+          "verse": "13",
+          "marker": "Translator/editor note",
+          "text": "- 1 K'or. 3:2.",
+          "note_type": "translator_note",
+          "source_reference": "5:13"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Goortta Kiristoosa maraan kasisamero kahoraarjjee agaalssis abbaab abbaab keesano iisigunne agaalssis dubamano; goyi tos ogeesaraan felo, c'ubbokko gula galanokkokkina Waa ammananokokki gara abbaabi abbaabi agaalssisaa kahoraarjjee ukum lakkot'aabbinsso.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Usumaleenna t'ink'ata, gene gutii kaano, goyikko kiyaano, kajiruu jiroomma firddakokki agaalssis adi lakkot'aabbinsso."
+        },
+        {
+          "number": "3",
+          "text": "Waa noon feɂi gosise horenbbaan agaalssisii dubamano tos jiinayinanna."
+        },
+        {
+          "number": "4",
+          "text": "Ammanokkisoo kakkaatero ibaaddo c'ubbokko gula galano tos abbaabin lakkodaanddaamaro. Hikka ibaaddon hittakko horenne ifa isoon hank'k'aye gire, kadaruure ilabona k'ammassereen; Ayyaana K'ulluukkikko k'ooba oɂatateeren,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Kaɂidankki haafura kawaanna emeeyin kagiro jiruu jiroommakki k'alaada kawaakokki hunna ok'ammassereen,"
+        },
+        {
+          "number": "6",
+          "text": "Hikka dubbakko abbaabayi ammanokkisoo gokakateen iso metekkisoowun ere kawaa abbaabeen mankkosuwaaran maraanna diidaa beesen mankkoyeraasanan maraan iso c'ubbokko gula galisin lakkodaanddaamaro."
+        },
+        {
+          "number": "7",
+          "text": "Arggetto usuu gutii kaɂubataro idaamo kat'amara akaakiltte kaɂabbaratero ibaaddotin laɂo tasisatta erre Waakko uuso helaatta;",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Eɂeenna k'iinc'c'ona goɂalisse adde laɂo kallayitti laatta; enee k'angaaminnatta; esekko eleenii gubaminnatta."
+        },
+        {
+          "number": "9",
+          "text": "Ani ogeelaataro oottee! Noo isinuun hikka goɂayyeenssena suure fayyinnakkisinun kalleero kaɂidankki ayees gutii giranokkisin no abddatanna.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Waa taɂidan kafirddaaroya; haannuun feloɂoottisin t'ayena leere giddana megekkeessa maraan amaniil gargaarin isin tattusseettan geelanjje lakkoɂillooro."
+        },
+        {
+          "number": "11",
+          "text": "Isin dubba abddii kaɂoorattan ayees taa gene geegissattaanii ataankisin taagachcho geetanii goggotussawun no halchchaanna."
+        },
+        {
+          "number": "12",
+          "text": "No kakkoonhalchchaannana ammanoyinna obssii ataayigunne Waa abddii kasisero ayees kaɂeelnaro ibaaddo aani goggolleetanun kuwaarre laafanɂi goggolleetanun lakkoyo."
+        },
+        {
+          "number": "13",
+          "text": "Waa Abraamen abddi kakkosisare goorata usu kakkoɂammatira usukko karoorara kakkalee maayyona mankkogginnon maraan haa amaa usu issii ammate.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Abddi tawaa taɂabddantte laano"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "«Ogiraan ani ku sommaasayinnara, sanniittaanna moggaasinnara ame Waa ayeese.»"
+        },
+        {
+          "number": "15",
+          "text": "Abraame obssee oorategure Waa abddii usuun katabero ayees helate."
+        },
+        {
+          "number": "16",
+          "text": "Ibaaddo ammato gotabiro metekkeessakko karoore megeeyi ammatara; ayeeskkisoonna ammatooyi ataayisaa isoo t'eɂee tagitto dogamaa dubba baasaran."
+        },
+        {
+          "number": "17",
+          "text": "Hikkamalee murtti tawaa taɂiggilsamoon laano aaloo addeesisin dootegure abddii eelin abddi ammatooyi isoon ataayisera."
+        },
+        {
+          "number": "18",
+          "text": "Hikkamaleenna Waa oɂiggilssamoonna kat'araa kalleenoon ayees lama, hikkina abddina ammato noon sisera; hikka ayees lamakokki garane noo horee taggitto abddi ataayisayi abayin goggodanddeennon kakkoɂiskkanno helayiin usu tos oɂemeennenna noo kaɂatii goggoɂinna helannenna;"
+        },
+        {
+          "number": "19",
+          "text": "Hitti abddi girikkaaniwun kaɂaaɂinoon kaɂabddame markkafa badii taɂaalliisatto marc'c'o aantittitta; Yesuusaa taɂabnna abddi goggolokko rooritte k'ulluukki min tos tabatta."
+        },
+        {
+          "number": "20",
+          "text": "Hikka k'ulluukki min tos Yesuusa kamelkes'edek'i tuuk'aamokokki shuumata aani jiruu jiroomman katuuk'aamol woyichcha lee no maraan t'aye tabe."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "8",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 3:17-18.",
+          "note_type": "translator_note",
+          "source_reference": "6:8"
+        },
+        {
+          "verse": "14",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 22:16-17.",
+          "note_type": "translator_note",
+          "source_reference": "6:14"
+        },
+        {
+          "verse": "19",
+          "marker": "Translator/editor note",
+          "text": "- Woy. 16:2.",
+          "note_type": "translator_note",
+          "source_reference": "6:19"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Melkes'edek'i kasaalemi katamaakokki wonona dubbaankko t'ok'k'i kaɂame tuuk'aamo kawaaye; hikki Melkes'edek'ina, Abraame wonolaal awode abbaabataa giraan raadii eselere sommaasate.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Abraame kaɂabo dubbakko usuun hora sise; Melkes'edek'ikotti fureen tahoree, «Kak'ullummaa wono» kakkalee ade, «Tasaalem katamaakokki wono» haa amano «Kanogoddaa wono» amanoyya."
+        },
+        {
+          "number": "3",
+          "text": "Melkes'edek'i kaɂaddeesame odona Aanna goorttun alattaankokki hidiid lakkoɂabo; geeskkeessawuun horaarjje, girikkeessawunna gachcho lakkoɂabo; hikki Melkes'edek'i ere kawaa aani masuussa ligure jiruu jiroomman tuuk'aamo lii girnnara."
+        },
+        {
+          "number": "4",
+          "text": "Hikki ibaaddoti misikki kaɂatiiyo deyaa; aanii taɂisiraɂeelin odo kalleera Abraame boojee kaɂaaterokko hora beese usuun sise.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Aanɂi tuuk'aamolkonɂi feloo orroo okkameeraan tawoyyole sannii gosakona taɂabraame sanniikko hikkina abbilaalttisokko hora goggoɂaatirawun seeraayi ajajeera."
+        },
+        {
+          "number": "6",
+          "text": "Hassu Melkes'edek'i tawoyyole sannii laana gowaatena ade Abraamekko hora aate; kaɂabddii haafura kakkonsisamere Abraame sommaasate."
+        },
+        {
+          "number": "7",
+          "text": "Kic'c'arkki kanjiinkkikko somma kaɂatayinaro laano hedatano laagiro."
+        },
+        {
+          "number": "8",
+          "text": "Mina toonne hora oɂaataraan ogoyinnaraanyan; mina takkaleenne ade hora kaɂaatara arddokki lii girnnara amame kakkoonɂatotaamera Melkes'edek'iya."
+        },
+        {
+          "number": "9-10",
+          "text": "Goorttanu Melkes'edek'i Abraamene wota kakkoɂeselare goorata woyyuuti Aabbokkeessa Abraamekko ganaa haɂalannoon mankkogire maraan hora aatin kadootisara woyyuuti metekkeessawun Abraamekokki garane hora murera amanoyya."
+        },
+        {
+          "number": "11",
+          "text": "Goorttanun gosaan seera kakkosisamera kawoyyu tuuk'aamo laanokki maleeya; hikka kawoyyul tuuk'aamo likkii laano kahelamaro leenna kaɂaarooni tuuk'aamo laanokokki shumata alleenon Melkes'edek'i tuuk'aamo laanokokki shumata aankkikki kaɂabo kakkalee tuuk'aamo emeetano kadootisoon lii girare.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Felo otuk'aamool goɂiggilssamiraan seerana wota iggilissamano dootisara."
+        },
+        {
+          "number": "13",
+          "text": "Hikki dubba kakkoonsegaamera tuuk'aamoti aanii takkaleekkoyya. Hitta aaniikko maayyona huu kafala tos gabbalame kahandaayera laagiro."
+        },
+        {
+          "number": "14",
+          "text": "Goottakkaani tayihuuda aaniikko laano kaɂaddeesameya; golleenna Muse tuuk'aamolkokki gara ayeesaa giraan tayihuuda aaniikkokki gara kaɂayeesera ayees koonna laagiro."
+        },
+        {
+          "number": "15",
+          "text": "Hikki ayees aaloo muti kakkoɂaddeesaminnara Melkes'edek'i aankkikki kakkalee tuuk'aamo kakkokkee gooratayya;",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Kiristoosa Melkes'edek'i aani tuuk'aamo laano"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "Kiristoosa tuuk'aamo laanokokki shumata kakkoɂatatera girikkeessa meessa kallayikki mankkollee maraanya kuwaarre sannii taɂibaaddokko kaɂemeetero wogaanna seeraayi lakkoyo."
+        },
+        {
+          "number": "17",
+          "text": "«Ati kamelkes'edek'i tuuk'aamo laanokkokki shumata aani jiruu jiroomman tuuk'aamotta» amame k'ulluukki mas'aafaal atotaamera."
+        },
+        {
+          "number": "18",
+          "text": "Usumaleenna kat'awoo ajaja laafana laɂo kallayikki mankkollee maraan hesera;"
+        },
+        {
+          "number": "19",
+          "text": "Seera kamuseeyi koonna likkiikki liin lakkodaanddee; gidda goɂameen noo Waa tos takkogabbalaminna takkaleekko taroortte abddi noon sisanttetta."
+        },
+        {
+          "number": "20-21",
+          "text": "Hittakko horene tuuk'aamo olleeren ammato kallayi tuuk'aamo leeraan;",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«Waa ade Yesuusane ati kamelkes'edek'i shumata"
+            },
+            {
+              "source_marker": "q2",
+              "text": "‹Ati jiruu jiroomman tuuk'aamotta,› ame ammate; lakkogaabbiro; amame usuun osegaameraan ammatone wota tuuk'aamo leera;»"
+            }
+          ]
+        },
+        {
+          "number": "22",
+          "text": "Hinɂa ammatokotti aalanttii Yesuusa oɂidan ohaafura ammatowun noon waabii leera.",
+          "source_markers_before": [
+            "m"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "Tuuk'aamol mankkogowaaro maraan tuuk'aamo koo haɂiggilssamooni feloo gutii jiruu jiroomman girin mankkodanddeenon maraan ohoree tuuk'aamolkonɂi tootoɂoottiso onjiiyyen;",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "Yesuusa ade jiruu jiroomman kagiraro mankkollee maraan tuuk'aamo laanokkeessa kaɂiggilssamoonyya."
+        },
+        {
+          "number": "25",
+          "text": "Haannuun oottessa olleeraawun kakkalee maraan horehayi ayeesano jiruu jiroommaan arddokki lee mankkogiraro maraan garakkeessane Waa tos kaɂemeetaro ibaaddo dubba duuddo fayyiisin daanddaara."
+        },
+        {
+          "number": "26",
+          "text": "Hikka aankkikki k'ulluu, kattuffamoon, kamuc'c'ime, c'ubbaalessalkko woyyuu kallee, daruurkko t'ok'k'i kaɂame katuuk'aamol woyichcha noon dootisara."
+        },
+        {
+          "number": "27",
+          "text": "Usu kakkalee katuuk'aamol woyichchaal aani horaarjje c'ubbokkeessa maraan, abbaabayi c'ubbo kagosa maraan arggetto jaarsso sisin lakkodootisaro; isiɂoottessa jaarsso yelate kakkosisatere goorata hikki ayees kallami takkoɂadamooti yele gudisera."
+        },
+        {
+          "number": "28",
+          "text": "Seera katuuk'aamol woyichcha yele kashuumaara tuffamano kaɂabo ibaaddoyya; seerakko abbaabatere kaɂemeetara kaɂammatoo haafura ade jiruu jiroommaan tuffi kallayikki kalleero ere kawaa shuumera."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "5",
+          "marker": "Translator/editor note",
+          "text": "- To. 18:21.",
+          "note_type": "translator_note",
+          "source_reference": "7:5"
+        },
+        {
+          "verse": "17",
+          "marker": "Translator/editor note",
+          "text": "- Mez. 110:4.",
+          "note_type": "translator_note",
+          "source_reference": "7:17"
+        },
+        {
+          "verse": "20-21",
+          "marker": "Translator/editor note",
+          "text": "- Mez. 110:4.",
+          "note_type": "translator_note",
+          "source_reference": "7:20-21"
+        },
+        {
+          "verse": "27",
+          "marker": "Translator/editor note",
+          "text": "- Woy. 9:7.",
+          "note_type": "translator_note",
+          "source_reference": "7:27"
+        }
+      ],
+      "heading": [
+        "Tuuk'aamoti Melkes'edek'i"
+      ]
+    },
+    {
+      "chapter": 8,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Goortta no kaɂayeesinanno ayeeskko kahoree ayees hikkaya; daruurii kaɂatii kawaakkokki korffinjjeeyi mina tamerggee kahamas'eero hikka aankkikki katuuk'aamol woyichcha no abnna.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Usu kakkohanddaara tarummi dunkkaanii talleetetto k'ulluukki min kawaayiyya; hikka minkokki madaaramano gene taɂibaaddoyi alleenon giraan Goottayiyya."
+        },
+        {
+          "number": "3",
+          "text": "Metemeteeyi tuuk'aamolkokki woyichcha kakkoshuumamara mebaanna jaarsso Waawun sisiinya; haannuun hikki tuuk'aamo kasisinara kooko koo girin dootisara."
+        },
+        {
+          "number": "4",
+          "text": "Seerakokki malee meebaa kasisara tuuk'aamol mankkogiro maraan usu ulii kagiro lii girewa tuuk'aamo lii lakkogirare;"
+        },
+        {
+          "number": "5",
+          "text": "Hikki tuuk'aamol takkohanddaraan dunkkaanii daruurii tagittowun masuussana hoos taalaaltta; hikkina kakkonlleera Waa Musene ati min kakkomadaaratto goorata, «Wodamii gutii ani kuun goggotuserokki malee kameen dubba isiɂoora feli» ame goggoɂajajeerokki maleeya."
+        },
+        {
+          "number": "6",
+          "text": "Gidda ade Yesuusa Waayinna ibaaddonna t'eɂe tabe hiɂi too kayelero kaɂammatoo haafura oddoɂan ammatokko taroorttettona taɂidantti abddi gutii kat'aabbatero mankkolleero maraan usumaleenna usuun osisameeraan felo dubbaankko orooraraanyyan."
+        },
+        {
+          "number": "7",
+          "text": "Ohoree ammato ohaafura otuffamoon lii gireenwa kallami kaɂammatoo haafura lakkodootisare.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Waa gosa gutii otuffamiraan felo girano tusin amere haa amara,",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«Ani kaɂisiraɂeel gosanenna kayihuuda gosane wota"
+            },
+            {
+              "source_marker": "q2",
+              "text": "Ammato oɂusubkokki haafura kakkotabinnara goorata emeeyinnara amara Goottaa.»"
+            }
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Hinɂi ammato ani iso kagibs's'i ulkko genettisoo abere kakkobeesare goorata odojjolaalkkisoone wota otabere ammato aanɂinɂi lakkoyyan; isona hinɂa ammato ohaafurayi ataatana mankkowaateen maraan aninna isokko bagagole, amara Goottaa.",
+          "source_markers_before": [
+            "q1"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "«Goortta ani hittakko abbaabayire kaɂisraɂeel gosane wota",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "ani otabinnara ohaafura ammato hinɂayaan amara Goottaa;"
+            },
+            {
+              "source_marker": "q1",
+              "text": "Ani seerakkee sammuutisini kayinnara;"
+            },
+            {
+              "source_marker": "q2",
+              "text": "Wodanattisooyinna s'aafinara;"
+            },
+            {
+              "source_marker": "q1",
+              "text": "Waakkisoonna linnara,"
+            },
+            {
+              "source_marker": "q2",
+              "text": "Isona gosakkee linnaraan ame."
+            }
+          ]
+        },
+        {
+          "number": "11",
+          "text": "‹Goottaa addeesi› ami ollaatteessanna leere",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "Abbikkeessa maayyona kaɂagaalssisiro lakkodootisaro."
+            },
+            {
+              "source_marker": "q1",
+              "text": "Kic'c'arkko haggaɂabere taa ibaaddo kajiinjjiin geeroo dubbana"
+            },
+            {
+              "source_marker": "q2",
+              "text": "In addeesirowa;"
+            }
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Baaskkisoonna haheso aminara;",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "C'ubbokkisoonna hittakko horenbbaan lakkoshaadinaro.»"
+            }
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Goorttanun «Usubnɂi ammato ohaafura» goɂamiro ohaafura ammato ohoree laɂo osisoon yelera amanoya; haannuun felaa kagirena kaddoɂan kooko dubba kakkobayinnara goorata gabbalamera.",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "1",
+          "marker": "Translator/editor note",
+          "text": "- Mez. 110:1.",
+          "note_type": "translator_note",
+          "source_reference": "8:1"
+        },
+        {
+          "verse": "12",
+          "marker": "Translator/editor note",
+          "text": "- Erm. 31:31-34.",
+          "note_type": "translator_note",
+          "source_reference": "8:12"
+        }
+      ],
+      "heading": [
+        "Yesuusa ammato oɂusubkokki katuuk'aamol woyichcha laano"
+      ]
+    },
+    {
+      "chapter": 9,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Ohoree ammato ohaafura Waa hedoyisatanokokki seeranna kaɂulee k'ulluukki min kawaa abanaaye;",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Kifilii lama kaɂaba min gire. Bollanssona t'arap'eezaa, Waawun kasisamara babo takkogire tahoraarjjee kifilii «K'ullittii» amamatte."
+        },
+        {
+          "number": "3",
+          "text": "Kallami goggolokko orrohayite tagitta taɂorroo kifilii «aaloo k'ullichchaatti» amamatte."
+        },
+        {
+          "number": "4",
+          "text": "Hitta kifilii orroo work'k'iikko kafelamero it'aana kakkoɂiyyoosaraan ese banɂe gire; work'k'ii kakkosarssisamera ammato ohaafurakokki saat'ine esee orroo gire; hikka ammato ohaafurakokki saat'ine orroo manna takkogire tawork'k'ii uulla, hursse taggitte taɂarooni dama, ajaja tomonno kakkos'aafamere t'alp'aakki eɂemo gire."
+        },
+        {
+          "number": "5",
+          "text": "Haafura kaɂammatokokki kataabota saat'ine gutii kagiro c'ubbo haheso kakkoɂamamaro nuub baalalloɂoottisoyi goliseen oɂabaraan okabajaameen Kirubeeli oɂamamaraan met't'ajjolyen; ayesuun goɂameen hikka ayees dubbakokki gara gidda balɂaasi ayeesin lakkodaanddaanno."
+        },
+        {
+          "number": "6",
+          "text": "Kameen dubba hikkamalee kakkoɂekkaaro goorata tuuk'aamol Waawun handdayin arggetto minkko tahoraarjjee kifilii tos tabaraan.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Tallami taɂorroo kifilii tos katabara ade tuuk'aamolkokki woyichcha kaalaalya; katabarana geeskko arri too taalaalya; usuna c'ubbokkeessawunna gosa haɂaddeeson kafelero c'ubboon kasisamaro iigi haɂabooni lakkotabaro."
+        },
+        {
+          "number": "8",
+          "text": "Dunkkaanii tahoree kakkogitto gitakki k'ulluu aaloo k'ulluutti taɂamamatto tos katabsara raa ganaa hamutoon kagiro laano Ayyaana K'ulluukki hikkamalee tusara."
+        },
+        {
+          "number": "9",
+          "text": "Hikkina hikka gooratawun masuussaya; hikkamalee kasisamara meebaanna jaarsso kasisaro ibaaddotikotti sammuuyi kamaalssamaro baaskko suure k'ulloyisin lakkodaanddaaro."
+        },
+        {
+          "number": "10",
+          "text": "Hikki kamooggan ayees kakkoɂusubaayinnara goorata taa emeeroo felooyi gutii kagira kasaree kamutaro wogaalya; isona aamanona t'amanokokki garana kalekaleekki kamuc'c'isaro wogakokki gara kaalaalun kafelameroya."
+        },
+        {
+          "number": "11",
+          "text": "Ayesuun goɂameen Kiristoosa emeetaa kagiro kaɂidan ayesuun katuuk'aamol woyichcha lee mutera; usu takkotabera dunkkaanii tajjinttina duuddottitta; hitti dunkkaanii gene taɂibaaddoyi tafelamoon gittona hikka alamikotti met't'a lakkotto.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Kakiristoosa iigi"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Usu aaloo k'ulluutti taɂamamatto banɂe tos kooyikkii kallami takkoɂadamooyi iigikkeessa abere tabera kuwaarre kaɂoreenenna kakkorjjoolee iigi abe lakkotabero; hikkamalee jiruu jiroomman noon wodoo lee."
+        },
+        {
+          "number": "13",
+          "text": "Kaɂoreenenna kakkorjjoolee iigi jaarssoon tagubanttetto dabbaalokkokki buluulo kabbattoyero ibaaddo gutii goɂarac'c'iraan battinnati kasooyekko muc'c'imeen ok'ullowaaraan gollee,"
+        },
+        {
+          "number": "14",
+          "text": "Jiruu jiroommakki ayyaanakkokki garane isiɂoottessa mulla kallayikki jaarsso yelate Waawuun kasisatera kakiristoosa iigi arddokki Waawuun noo goggohanddayinnoon sammuttaani goyi tos ogeesaraan felokko aaloo no muc'c'isin lakkodaanddaaroya?"
+        },
+        {
+          "number": "15",
+          "text": "Oɂuumameeran hanɂu Waa tasisero abddi jiruu jiroomman rittii goggoɂatanaawun Kiristoosa ammato oɂusubkokki iigii no hiɂi too kayello lee; hikkina kakkonleera usu horaarjje ammato ohaafurakko hegelle leere ibaaddo hidiidikko keesi c'ubbokko fayyiisin mankkogoye maraanya.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "Bazza gogire kabbazzaaterokokki goyi addeesano dootisara;",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "Kabbazza ayees feloo kakkohaara kabbazzaatera kakkogoye goorataya; kabbazzaatera neefone giraan kabbazza ayees laɂo lakkoɂabo."
+        },
+        {
+          "number": "18",
+          "text": "Hikkakkotti aalanttii ohoraarjjee ammato ohaafura suure iigi kallayi oɂataateeraan lakkoyyan."
+        },
+        {
+          "number": "19",
+          "text": "Horaarjje Muse kaseera ajaja dubba gosa dubbaan segee; hikkakko abbaabatere iigi kaɂoreenenna kakkorjjoolee bekene wota ledere kaseera mas'aafanna gosa dubba hisoop'i oɂamamaraan baalalloyinna ogorro oɂidaadikko kafelamero kirrii arac'c'ee;"
+        },
+        {
+          "number": "20",
+          "text": "Kakkonɂarac'c'erana, «Waa isinuun kaɂajajeera ammato ohaafurakokki iigi hikkaya» amereyya."
+        },
+        {
+          "number": "21",
+          "text": "Usumaleenna dunkkaanii orroonna kakkofelataraan huu dubbaa gutii iigi arac'c'ee."
+        },
+        {
+          "number": "22",
+          "text": "Ogiraan seera kamuse malee ayees kic'c'ar kuwaarre kameen dubba iigi muc'c'imara; iigi goɂubannon c'ubbo haheso amamano lakkohelamaro."
+        },
+        {
+          "number": "23",
+          "text": "Goorttanun hikki kadaruuree ayees masuussa kakkoonlleera hikka aankkikki wogaa muc'c'imano dootisare; daruurkko kalleera ayees ade hikkakko karoore jaarssoyi muc'c'imano dootisara.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "Kiristoosa karrummii k'ulluukki min kawaawun masuussa talleetettona gene taɂibaaddoyi tafelanttetto aaloo k'ulluutti banɂe tos lakkotabero; gidda usu no maraan Waayi horee mutin daruur tos bee tabe."
+        },
+        {
+          "number": "25",
+          "text": "Kaɂayihuudi tuuk'aamolkokki woyichcha kakkeessa kalleenon iigi abere gees geesii aaloo k'ulluutti banɂe tos tabe gire; Kiristoosa ade isiɂoottessa jaarsso yelayi sisayin goorata kamooggan lakkotabero."
+        },
+        {
+          "number": "26",
+          "text": "Haa kalleero lii girewa alami takkomet'amerokko haggaɂabire goorata kamooggan rakkoo atayin kadootisaro lii girare; gidda goɂameen geesjjolkotti gachooyi c'ubbo nookko baasin isiɂoottessa jaarsso yelate kookki kallami takkoɂadamooyi mutera."
+        },
+        {
+          "number": "27",
+          "text": "Ibaaddon goyi kooyya; goyikko abbaabaterena firdda gira."
+        },
+        {
+          "number": "28",
+          "text": "Usumaleenna Kiristoosa kamooggankokki c'ubbo baasin goyi koo goyera; adena c'ubbo sidayin alleenon giraan usu oɂoorataran fayyiisin kallami adi emeeyinara."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "3",
+          "marker": "Translator/editor note",
+          "text": "+ Aaloo k'ulluutti banɂe taɂamamatta, k'ulluukki min kawaayi orroo taseedi kifiliitta. Biy. 26:31-36.",
+          "note_type": "translator_note",
+          "source_reference": "9:3"
+        },
+        {
+          "verse": "4",
+          "marker": "Translator/editor note",
+          "text": "- Biy. 30:1-6; 25:10-16; 16:33; To. 17:8-10; Biy. 25:16; Ada. 10:3-5.",
+          "note_type": "translator_note",
+          "source_reference": "9:4"
+        },
+        {
+          "verse": "5",
+          "marker": "Translator/editor note",
+          "text": "- Biy. 25:18-22.",
+          "note_type": "translator_note",
+          "source_reference": "9:5"
+        },
+        {
+          "verse": "6",
+          "marker": "Translator/editor note",
+          "text": "- To. 18:2-8.",
+          "note_type": "translator_note",
+          "source_reference": "9:6"
+        },
+        {
+          "verse": "7",
+          "marker": "Translator/editor note",
+          "text": "- Woy. 16:2-34.",
+          "note_type": "translator_note",
+          "source_reference": "9:7"
+        },
+        {
+          "verse": "11",
+          "marker": "Translator/editor note",
+          "text": "+ Emeetaa ogiraan gutii kaɂamaro kookkoo mas'aafajjol, «gidda ogiraawun» amara.",
+          "note_type": "translator_note",
+          "source_reference": "9:11"
+        },
+        {
+          "verse": "13",
+          "marker": "Translator/editor note",
+          "text": "- Woy. 15:16; To. 19:9,17-19.",
+          "note_type": "translator_note",
+          "source_reference": "9:13"
+        },
+        {
+          "verse": "20",
+          "marker": "Translator/editor note",
+          "text": "- Biy. 24:6-8.",
+          "note_type": "translator_note",
+          "source_reference": "9:20"
+        },
+        {
+          "verse": "21",
+          "marker": "Translator/editor note",
+          "text": "- Woy. 8:15.",
+          "note_type": "translator_note",
+          "source_reference": "9:21"
+        },
+        {
+          "verse": "22",
+          "marker": "Translator/editor note",
+          "text": "- Woy. 17:11.",
+          "note_type": "translator_note",
+          "source_reference": "9:22"
+        }
+      ],
+      "heading": [
+        "Kaɂulee k'ulluukki min kaɂebikokki handdaano"
+      ]
+    },
+    {
+      "chapter": 10,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Seera kamuse horenbbaan kaɂemeeyinaro kaɂidan ayesuun masuussa goorttun hoosiya kuwaarre tarummi middi lakkoɂabanaaye; haannuun gees geesii arggetto kasisamaro jaarssojjool abateeren Waa tos kaɂemeetaro ibbaaddo duuddokki yelin suure lakkodaanddaaro.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Seera kamuse iso duuddonɂi yelin kadanddeero leewa Waa hedoyisayin kaɂemeetaro ibaaddo kallami takkoɂadamooni c'ubbokko mankkomuc'c'imerawunna c'ubbo kallayinɂi aani sammuuttisooyi baas mankkomaalassamaro maraan jaarsso sisano iisi giraneen."
+        },
+        {
+          "number": "3",
+          "text": "Hassu jaarssojjool ade gees geesii iso c'ubbo kashaadisaroyya."
+        },
+        {
+          "number": "4",
+          "text": "Aalanttina kakkorjolnna kaɂoreen iigi c'ubbo baasin lakkodaanddaaro."
+        },
+        {
+          "number": "5",
+          "text": "Haannuun Kiristoosa alami tos takkoɂemeteree haa ame;",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«Jaarssona meebaa ati inkko lakkodoottetto;"
+            },
+            {
+              "source_marker": "q2",
+              "text": "maarkkaa goɂameen iin ekkaassetta;"
+            }
+          ]
+        },
+        {
+          "number": "6",
+          "text": "Kagubataro jaarssona",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "Kac'ubbo haheso amanokokkiin kaɂenɂaamaro jaarssoyi"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ati lakkogeggelaattetto;"
+            }
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Hassu goorata ani",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "‹Hedokkee! Mas'aafa k'ulluukki garakkee goggos'aafameroo"
+            },
+            {
+              "source_marker": "q2",
+              "text": "Feɂittaa gudisin ani emeeyera› » ame."
+            }
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Hanɂu seera kaɂajajaaro goleenna, «Jaarssona meebaa, kagubataro jaarssona c'ubbokko haheso amamano kaɂenɂaamaro jaarsso ati inkko lakkodoottetto; isoonna adde ati lakkogeggelaattetto» ame;",
+          "source_markers_before": [
+            "m"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Debeenna, «Hikkima, ani feɂittaa felin emeeyera» ame; hikkamaleenna kallamikki jaarssokotti banɂee t'aabbisin kahoree jaarsso iggilisera."
+        },
+        {
+          "number": "10",
+          "text": "Hikkaniinna «Feɂii» kaɂamaro haafurakokki malee Yesuusa Kiristoosa sooyi kookkii kallami takkoɂadamooti jaarsso lee isi sisatanokotti aalanttii noo k'ulloyinnenna."
+        },
+        {
+          "number": "11",
+          "text": "Tuuk'aamo metemeteeyi c'ubbo baasin kadanddeenoon aanɂi jaarssojjool arggetto sisaa arri arri aallee handdaaraan.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Kiristoosa ade arggetto kalleero jaarsso koo sise abbaabatere Waa odokotti merggeeyi hamas's'eera."
+        },
+        {
+          "number": "13",
+          "text": "Hittakko horenbbaan diinakkeessa odonnatikkeessaa hegelii taa barinaanii oorara;"
+        },
+        {
+          "number": "14",
+          "text": "Hikkina kakkonlleera hanɂu ok'ulloyeraan jaarsso kookokki garane jiruu jiroomman duuddonɂi mankkoyelero maraanya."
+        },
+        {
+          "number": "15",
+          "text": "Ayyaana K'ulluukki ade hikka ayees noon atotaara; horaarjje,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "«Hanɂu arrijjoolkko abbaabayire",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "Isone wota ani otabinnara ammato ohaafura hinɂayaan amara Goottaa;"
+            },
+            {
+              "source_marker": "q1",
+              "text": "Seerakkee wodanattisooyi kayinnara;"
+            },
+            {
+              "source_marker": "q2",
+              "text": "Sammuuttisooyinna s'aafinara.»"
+            }
+          ]
+        },
+        {
+          "number": "17",
+          "text": "Adena «C'ubbokkisoonna omeellan feloɂoottisoo",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "Hittakko horenbbaan ani lakkoshaadinaro» amara."
+            }
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Haannuun c'ubbo dubba haheso kakkoɂamame goorata c'ubbo haheso amanokokki garaan kasisamara jaarsso hittakko horenbbaan laagiro.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Goorttanu abbilaalttee! Iigi kayesuusakokki garane aaloo k'ulluutti banɂe tos tabin kakkodaanddenno kaɂabddisiro helannenna.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Waa tos gabbalamano kadootisaro laano"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Noo kakkotabnanna goggolokeessayiya; haa amanona sooɂootteessakokki garane noon kabanero kaɂusubkkiinna arddokki kalleero raadiiya."
+        },
+        {
+          "number": "21",
+          "text": "Daruurii kagiro min kawaayi gutii odonnati kaɂabo kanjiinkki tuuk'aamo abnna."
+        },
+        {
+          "number": "22",
+          "text": "Haannuun sammuu orroo kamaalssamaro baas kameellankko goggomuc'c'iminnon wodanattaani muc'c'isayinne, maarkkaani beke omuc'c'imeenii aaligunne, tukkultti wodananna karrummii ammano abayigunne Waa tos gabbalamnno."
+        },
+        {
+          "number": "23",
+          "text": "Kaɂabddii haafura noon kasisera kaɂabddame mankkollee maraan gidda ammaninne kaɂatotiinnanno abddii haggattola anlleennonii ataayisayi abanna."
+        },
+        {
+          "number": "24",
+          "text": "Geelanjjeeyinna felo oɂidanii ataayigunne goggogirnnon koo kakkalee haɂatayiso;"
+        },
+        {
+          "number": "25",
+          "text": "Arggetto raattoo iinsse eselaa isiɂisiɂorroo isiɂisi ataayisanna kuwaarre kookkoo kukkuɂamano goggoɂiseraan malee noo adi kukkuɂamanokkaani lakkoɂiinsso; haa laanakko Goottaa kakkoɂemeeyinnara arri gabbalamano shaadaa hikka ayees aaloo fela."
+        },
+        {
+          "number": "26",
+          "text": "Rummi addeensse giraan abbaabayinne bogi malabaa giraan c'ubbo gofelnne hittakko horenbbaan c'ubbo maraan kasisamara jaarsso koonna laagiro.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "27",
+          "text": "Goortta no kaɂootara ade horenbbaan kalliinnara kaɂabssisaro firddana, kaneebaatara tagubatto taɂabssisso eleentta."
+        },
+        {
+          "number": "28",
+          "text": "Seera kamuse kabbaase gutii ibaaddo lama goorttun seeddo goɂatotee shaaga kallayi goyin murttessaamara."
+        },
+        {
+          "number": "29",
+          "text": "Hayya, ere kawaa kattuffate, kakkok'ullooyero kaɂammatoo haafurakokki iigi kafaanchchoyisarana, kasinoo Ayyaana kahabaarara, misitti hittakko taroortte murroo atayin kadootisaro aani laara!"
+        },
+        {
+          "number": "30",
+          "text": "«Halo biyaano kakkeeyya; ani tadootisatto muraa murinnara» kaɂamera maayyoyo no kanssowa; usumaleenna, «Waa gosakkeessa gutii firddinnara» amara Goottaa."
+        },
+        {
+          "number": "31",
+          "text": "Haannuun arddokki Waakotti genee iyaano aaloo kaɂabssisaroya."
+        },
+        {
+          "number": "32",
+          "text": "Ifa isinuun kakkohank'k'aare goorata rakkoo tammooggan atatteenddeen takkoɂobssitetten hasse tat'awoo arri shaada.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "33",
+          "text": "Arri toottoo ibaaddo horee habaaranttettan; abboosanttettaan; toottoo goɂanttaan isin hikka aankkikki abboosa kakkogeero ibaaddone wota saatilaal mankkoleetettaan maraan rakkoo atatteettan."
+        },
+        {
+          "number": "34",
+          "text": "Isin taɂidanttina tagudannoon durumma daruurii girano mankkokkassaan maraan oshaameeraawun kooko sisa; urrawoɂoottisinna isinkko kakkoɂatamereen goorata obssiiteddeen geggelooyi atatteen."
+        },
+        {
+          "number": "35",
+          "text": "Goortta, kaɂatii barɂaara kakkohelayinattaan kakkoɂabddaattan arooshafatteen."
+        },
+        {
+          "number": "36",
+          "text": "Feɂi tawaa gudisaddeen Waa isinuun sisin kaɂammatoo haafuraayi katabero kooko atayin obssii ooratano dootisara."
+        },
+        {
+          "number": "37",
+          "text": "Aalanttina haa amame s'aafamera,;",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«Emeeyin kagira usu goorata kic'c'arkko abbaabayire emeeyinnara;"
+            },
+            {
+              "source_marker": "q2",
+              "text": "lakkoɂadallaayinaro;"
+            }
+          ]
+        },
+        {
+          "number": "38",
+          "text": "Kakkee kalleera k'ulluukki ibaaddoti ade ammanooyi giri helayinnara;",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "Haar goggale ani usuu"
+            },
+            {
+              "source_marker": "q2",
+              "text": "lakkogeggelaayinaro.»"
+            }
+          ]
+        },
+        {
+          "number": "39",
+          "text": "Noo goɂameen ammanere kafayyaarone wota unanna kuwaarre haar galegure kabaaro ibaaddokotti una lakkonno.",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "7",
+          "marker": "Translator/editor note",
+          "text": "- Mez. 40:6-8.",
+          "note_type": "translator_note",
+          "source_reference": "10:7"
+        },
+        {
+          "verse": "11",
+          "marker": "Translator/editor note",
+          "text": "- Biy. 29:38.",
+          "note_type": "translator_note",
+          "source_reference": "10:11"
+        },
+        {
+          "verse": "17",
+          "marker": "Translator/editor note",
+          "text": "- Erm. 31:34.",
+          "note_type": "translator_note",
+          "source_reference": "10:17"
+        },
+        {
+          "verse": "22",
+          "marker": "Translator/editor note",
+          "text": "- Woy. 8:30; Hiz. 36:25.",
+          "note_type": "translator_note",
+          "source_reference": "10:22"
+        },
+        {
+          "verse": "27",
+          "marker": "Translator/editor note",
+          "text": "- Isa. 26:11.",
+          "note_type": "translator_note",
+          "source_reference": "10:27"
+        },
+        {
+          "verse": "28",
+          "marker": "Translator/editor note",
+          "text": "- Ada. 17:6; 1:15.",
+          "note_type": "translator_note",
+          "source_reference": "10:28"
+        },
+        {
+          "verse": "29",
+          "marker": "Translator/editor note",
+          "text": "- Biy. 24:8.",
+          "note_type": "translator_note",
+          "source_reference": "10:29"
+        },
+        {
+          "verse": "30",
+          "marker": "Translator/editor note",
+          "text": "- Ada. 32:35-36.",
+          "note_type": "translator_note",
+          "source_reference": "10:30"
+        },
+        {
+          "verse": "38",
+          "marker": "Translator/editor note",
+          "text": "- Inb. 2:3-4.",
+          "note_type": "translator_note",
+          "source_reference": "10:38"
+        }
+      ],
+      "heading": [
+        "Jaarsso laano kakiristoosa kallami takkoɂadaamooti"
+      ]
+    },
+    {
+      "chapter": 11,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Ammano amano abddii kaɂooramaro kooko, «Ii rumminaa leerowa» ami atatanoyya; ilɂoo kamutoon kooko kamutaro aani yeli atatanoya.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Waa kahorkkoo ibaaddoon kakkoɂatoteera ammanokokki aalanttiiya."
+        },
+        {
+          "number": "3",
+          "text": "Alami haafura kawaayi met't'aamano kakkoɂaddeesanna ammanooya. Haannuun kamutara kooko dubba kamutoonkko kafelamero laano kanssowa.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "Aabeela kak'aayeeli jaarssokko karoore jaarsso Waawun kasisera ammanoyya; Waa kaɂabeeli jaarsso geggelooyi kakkoɂatatare goorata Aabeela ammanokkeessa k'ulluukki laano atotaame. Aabeela goggoyena ammanokkeessakokki garane giddana ayeesamara.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Heenokka goyi usu goggogeenonkko daruur tos kakkoɂatamera ammanoyiyya; Waa mankkoɂatatero maraan lakkomute; atamanokko t'aye ade Waa geggelaayisanokkeessa atotaamera.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "Ammano kallayi Waa geggelaayisin lakkodaanddaamaro; Waa tos kagabbalamara ibaaddo Waa giranona usu odootatarawun ilabo kasisaro laano ammanatano dootisara."
+        },
+        {
+          "number": "7",
+          "text": "Nohe ganaa ilɂoo kamutoon ayesuun Waa kakkoserisere goorata Nohe Waa abssataa kaminee ibaaddokkeessa haasayiin markkafa kakkofelera ammanoyye; Nohena ammanooyi alami dubba c'ubbaaleessa laano tuse; Nohena ammananooyi tahelamatto k'ullumma eele.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Abraame bigure rittii yelayi taɂatayinaro banɂe goggoseeron kakkoɂuumamere goorata eetirraa seeyinnaro koonna suure goɂaddeesiwaatena seeyin kakkoɂajajaamera ammanoyya.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Usune wota kaɂabddii haafura oɂeelleeraan Yissaak'anena Yayik'oobane wota kaɂabddii ul martti lee dunkkaanii kakkohamas's'eere ammanoyiyye."
+        },
+        {
+          "number": "10",
+          "text": "Hikkana usu kakkoyelera kat'aabbame ukum taɂabtto, Waa taɂekkaaserona tamadaarero katamaa oorataa mankkogire maraanya."
+        },
+        {
+          "number": "11",
+          "text": "Saarana eseen abddi kasisera Waa kaɂabddame laano mankkoɂaddeessette maraan jaarɂomanokko kakkeeyi suure umulin tadanddeennon golleetena fato kakkotootaatto hunna kakkohelattetta ammanooya.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Haannuun kagoyero ibaaddo aani katootamere Abraame kookkoo kadaruuree barraajja aani kamooggaaterena talabu giridee c'eekale aani tatootaamon sannii helantte."
+        },
+        {
+          "number": "13",
+          "text": "Hinɂi dubba ammanooyi goggogireeni goyeen; Waa isoon sisin ammato katabere ayees lakkoɂatateen; ayesuun goɂameen ebbaa deengureen kaɂatateeraan aani yelateen geggelooyi atateen. Ulii gutii marttina usu ulkki ibaaddo laanawaattikkisoo malabateen.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Hikkamalee kaɂayeesara ibbaaddo kakkisoo kalleero ul kaɂooratanan laano addeesise tusara."
+        },
+        {
+          "number": "15",
+          "text": "Hassu iso iiseen kabbeeraan ul kashaaderan leenna eserraa abbaabayin daanddaarenwa."
+        },
+        {
+          "number": "16",
+          "text": "Gidda goɂameen hikkakko karoore daruurii kagiro ul halchcharaan; haannuun Waa isoon katamaa mankkoɂekkaasero maraan, «Hedookkiso» amami uumamin isoo lakkomullaaro."
+        },
+        {
+          "number": "17",
+          "text": "Abraame kakkoc'aafaamere goorata Yissaak'a jaarsso yele Waawun kakkosisera ammanoyya; Hassu kaɂabddii haafura kaɂatatera Abraame erekkeessa koo jaarsso yelinye.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Hayya Waa, «Sanniitta Yissaak'ayi uumaminatta» ame usuun segeere."
+        },
+        {
+          "number": "19",
+          "text": "Waa goyikko keesin kadaanddaaro laano Abraame ammananooyi goyikko kakkeero aani Yissaak'a kallami helate.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Yissaak'a horenbbaan kalliinnaro ayees hedegure Yayik'oobana Eesawu kakkosommaasatera ammanoyya."
+        },
+        {
+          "number": "21",
+          "text": "Yayik'ooba kakkogoyinnara goorata kakkogabbalamare goorata kayoosefi yiis metemeteeyi iso kakkosommaasaterana damakkotti brt't'ee iskkatere kakkosagadere ammanoyya.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "Yoosefa kakkogoyinnara goorata gabbalamaa kakkoɂemeetare goorata kaɂisiraɂeel ibaaddo Gibs's'ikko goggobinaraan usu kaɂayeesere iso lefaal misi yelin dootisaraan ajaja kakkosisera ammanoyiyya.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "Muse oɂumuleeraan Muse kakkoɂalatare goorata middi kaɂidan laano mankkoɂaddeeseren maraan ajaja kawono haɂabssannooni diginni seed kakkosiyamiseeren ammanoyya.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "Musena kakkojiinatare goorata, «Ere taferiɂoonikokki ere» amami uumamin feɂi sisana kakkowaatera ammanooya.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "Haannuun usu c'ubbooyi ohelamaraan ogiddanee geggelokko suure gosa kawaanne wota rakkoo atayin dootate."
+        },
+        {
+          "number": "26",
+          "text": "Usu horenbbaan taɂatayinaro muraa mankkodeero maraan urrawo ogibs's'ikko suure Kiristoosa maraan yeraatano karooraro laano aaloo k'oppee."
+        },
+        {
+          "number": "27",
+          "text": "Usuna engge tawono haɂabssannooni Gibs's'ikko kakkobeera ammanoyya; ilɂoo kamutoon Hedona kaddeero aani lee halchchakkeessayi t'aabbate.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "Yiis barkki lagadin kaɂajajaamere erggichcha kaɂisraɂeel yiis barkki goggogoononkko amaa Muse kafaasikkaa baalana iigi arac'c'aamanokkokki woga kakkofelera ammanoyya."
+        },
+        {
+          "number": "29",
+          "text": "Kaɂisiraɂeel ibaaddo ul kaɂangagee kasesseeteran aani heelanɂi bekekko gama kakkonak'eeraan ammanoyya; kagibs's'i ibaaddo ade hikkamalee liin kakkodootareen goorata iso dubba bekeeyi ennegameen.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "Kaɂisiraɂeel ibaaddo taɂiyyaarkko ali tagimbbe arri todoba maraamurengureen kaɂiyaarkko gimbbe kakkoɂeɂebseeran ammanoyya.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "31",
+          "text": "Tasharmut'aatte Reɂaabi kasalalaro ibaaddo nogoddaa mankkok'op'attetto maraan oɂajajaamoonne wota gowaanokko kakkohessetta ammanoyiyya."
+        },
+        {
+          "number": "32",
+          "text": "Goortta kakkalee ani me amira? Geedonakkotti, Baraak'ikkotti, Samisoonakotti, Yofitahekotti, Daawutekkotti, Saameelakottinna kahegeroolkotti maammakiin goorata iin yeraatara.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "33",
+          "text": "Iso ammanoo Wonolaal awodeeraan; firdda karrummitii gosa bariiseen; isoon tasisantette abddi helateen; taluubaan hiɂi c'ufeen;"
+        },
+        {
+          "number": "34",
+          "text": "Kaɂeleenee hunna baaseen; kaɂenennan shiifakko heseen; laafummattisookko ataan tos iggilissameen; jereen shafayiin oɂatii leeraan; isone wota jereen kashafatare diinakkokki wotaadaral horoorenaan;"
+        },
+        {
+          "number": "35",
+          "text": "Heleeljjool kagoyero fallikkisoo goyikko kee giraan dee. Kuukina hikkakko karoore goyikko kiyaano helayiin hedeengureen rakkoo tammooggankki abboosa atateen; hikka aankkikki shaanokko balchchumma bin lakkodootateen."
+        },
+        {
+          "number": "36",
+          "text": "Kookkoo kakkaleetun k'ac'c'ifamano leen boc'aameen, kuunɂi adeen talukee marc'c'oo shishaameen gureen minkashaano tabeen."
+        },
+        {
+          "number": "37",
+          "text": "Eɂemoo eeggameen, magaaziinna ekka belɂeen, shiifayi goyeen, taɂidaadnna taɂoreen c'ala sarssateenguren kafafeen; hiyyeessalnna ul kaɂibaaddoo ibaaddo leen abboosameen;"
+        },
+        {
+          "number": "38",
+          "text": "Gaadii, wodamii, ulii kagiro lagajjoolnna maddaal maraamureen. Hikka garaayi alami isoon kadootisaro lakkoye."
+        },
+        {
+          "number": "39",
+          "text": "Hikki dubba ammanokkisookokki gara Waa kaɂatoteero golleenna isoon tasisanttetto abddi ganaa lakkohelateeran.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "40",
+          "text": "Waa noon kaɂidan kooko halchcheera, haannuun iso noonne wota kuwaarre kale duuddonɂi liin lakkodaanddaanan."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "3",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 1:1; Mez. 33:9; Yan. 1:3.",
+          "note_type": "translator_note",
+          "source_reference": "11:3"
+        },
+        {
+          "verse": "4",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 4:10.",
+          "note_type": "translator_note",
+          "source_reference": "11:4"
+        },
+        {
+          "verse": "5",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 5:24.",
+          "note_type": "translator_note",
+          "source_reference": "11:5"
+        },
+        {
+          "verse": "7",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 6:22.",
+          "note_type": "translator_note",
+          "source_reference": "11:7"
+        },
+        {
+          "verse": "8",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 12:5.",
+          "note_type": "translator_note",
+          "source_reference": "11:8"
+        },
+        {
+          "verse": "11",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 18:14; 21:2.",
+          "note_type": "translator_note",
+          "source_reference": "11:11"
+        },
+        {
+          "verse": "12",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 15:5; 22:17; 32:12.",
+          "note_type": "translator_note",
+          "source_reference": "11:12"
+        },
+        {
+          "verse": "13",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 33:4; 1 Od. 29:15; Mez. 39:12.",
+          "note_type": "translator_note",
+          "source_reference": "11:13"
+        },
+        {
+          "verse": "17",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 22:14.",
+          "note_type": "translator_note",
+          "source_reference": "11:17"
+        },
+        {
+          "verse": "18",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 21:12.",
+          "note_type": "translator_note",
+          "source_reference": "11:18"
+        },
+        {
+          "verse": "20",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 27:29,40.",
+          "note_type": "translator_note",
+          "source_reference": "11:20"
+        },
+        {
+          "verse": "21",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 47:31—48:20.",
+          "note_type": "translator_note",
+          "source_reference": "11:21"
+        },
+        {
+          "verse": "22",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 50:5; Biy. 13:1.",
+          "note_type": "translator_note",
+          "source_reference": "11:22"
+        },
+        {
+          "verse": "23",
+          "marker": "Translator/editor note",
+          "text": "- Biy. 2:2; 1:22.",
+          "note_type": "translator_note",
+          "source_reference": "11:23"
+        },
+        {
+          "verse": "24",
+          "marker": "Translator/editor note",
+          "text": "- Biy. 2:2.",
+          "note_type": "translator_note",
+          "source_reference": "11:24"
+        },
+        {
+          "verse": "27",
+          "marker": "Translator/editor note",
+          "text": "- Biy. 2:15.",
+          "note_type": "translator_note",
+          "source_reference": "11:27"
+        },
+        {
+          "verse": "28",
+          "marker": "Translator/editor note",
+          "text": "- Biy. 12:30.",
+          "note_type": "translator_note",
+          "source_reference": "11:28"
+        },
+        {
+          "verse": "29",
+          "marker": "Translator/editor note",
+          "text": "- Biy. 14:31.",
+          "note_type": "translator_note",
+          "source_reference": "11:29"
+        },
+        {
+          "verse": "30",
+          "marker": "Translator/editor note",
+          "text": "- Iya. 6:21.",
+          "note_type": "translator_note",
+          "source_reference": "11:30"
+        },
+        {
+          "verse": "31",
+          "marker": "Translator/editor note",
+          "text": "- Iya. 2:21; 6:25.",
+          "note_type": "translator_note",
+          "source_reference": "11:31"
+        },
+        {
+          "verse": "32",
+          "marker": "Translator/editor note",
+          "text": "- Mas. 6:11—8:32; 4:6—5:21; 13:2—16:31; 11:1—12:7; 1 Sam. 1:1; 1 Won. 2:11.",
+          "note_type": "translator_note",
+          "source_reference": "11:32"
+        },
+        {
+          "verse": "33",
+          "marker": "Translator/editor note",
+          "text": "- Dan. 6:27.",
+          "note_type": "translator_note",
+          "source_reference": "11:33"
+        },
+        {
+          "verse": "34",
+          "marker": "Translator/editor note",
+          "text": "- Dan. 3:30.",
+          "note_type": "translator_note",
+          "source_reference": "11:34"
+        },
+        {
+          "verse": "35",
+          "marker": "Translator/editor note",
+          "text": "- 1 Won. 17:4; 2 Won. 2:4.",
+          "note_type": "translator_note",
+          "source_reference": "11:35"
+        },
+        {
+          "verse": "36",
+          "marker": "Translator/editor note",
+          "text": "- 1 Won. 22:26-27; 2 Od. 18:25-26; Erm. 20:2; 37:15.",
+          "note_type": "translator_note",
+          "source_reference": "11:36"
+        },
+        {
+          "verse": "37",
+          "marker": "Translator/editor note",
+          "text": "- 2 Od. 24:21.",
+          "note_type": "translator_note",
+          "source_reference": "11:37"
+        }
+      ],
+      "heading": [
+        "Ammanokokki gara"
+      ]
+    },
+    {
+      "chapter": 12,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Duumanchcha aani no maraamure kaɂabero hikka dubba atojool no mankkoɂabnno maraan sidane aani noon kalleero ayees dubba noo gutii kak'urannaamero c'ubbo baasigunne nookko horene kagiro tiyaanokokki lellaamano obssii tiinno.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "No kakkoontiyaannana ammanokkaani kahaggaɂaberona kagudisero Yesuusa diyaanoyiyya; Usu horetteessaa ogiraan geggelokotti aalanttii masik'alii gutii gowaanokokki yeraan koonna aani hatootinoonii tamask'alii rakkoonna goyi obssee; mergge tawaayinna korffinjje hamas's'ee."
+        },
+        {
+          "number": "3",
+          "text": "Goorttanu ahifannoninna abddi angoosannon hikka dubba usu oneebaatareen c'ubbaalessaal usu neebaataa giraan iso kaɂobsseero Yesuusa diyaa.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "Isin c'ubbo diidanooyi ibaaddo isin taalagadiroo gin lakkoneebatteetten."
+        },
+        {
+          "number": "5",
+          "text": "Waa isin yiiskkeessa aani haa amaa kagorssaatere illootteettaan;",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«Erekkee! Hadisano kagootta arooyerasse;"
+            },
+            {
+              "source_marker": "q2",
+              "text": "usu ku kakkomurrise gooratana abddi aroogoosatte;"
+            }
+          ]
+        },
+        {
+          "number": "6",
+          "text": "Goottaa kageelaatarokkeessa hadisatara;",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "Erekkeessa aani yelate kadiyaataro murrisatara.»"
+            }
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Waa isin yiiskkeessa aani mankkototaataro maraan murroɂoottessa obssaa; odo kamurrisannoon ere ayyoya?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Yiis kalleera dubba taɂatataro murroo isinna goɂatannoon kosichchattaan kuwaarre yiiskkee lakkottaan."
+        },
+        {
+          "number": "9",
+          "text": "Hikkakko kakkalee no dubba kamurrisaro kaɂumulero odolaal abnna, noonna iso kabajaa ginne; hayya, neefo girin kaɂayyaana odokkaanun misii aaloo ajajaamana waatanna!"
+        },
+        {
+          "number": "10",
+          "text": "Iso idane aani leen isiɂoottisowun goggomutee goorata kic'c'aruun no murriseraan, Waa ade k'ullummatteessa ohedeedamanno goggolleennon laɂottaanun no murrisara."
+        },
+        {
+          "number": "11",
+          "text": "Murroo dubba kakkomurrisamanno almmaa ogaddisiraaniyaan kuwaarre ogeggelaayisaraan aani lakkollaaran; haar abbaabatere ade murroo kaɂagaalssiseraan ibaaddoon nogodda takkoɂammaganttetto tak'ullummaa il helamissisaraan."
+        },
+        {
+          "number": "12",
+          "text": "Haannuun oharggaac'eeraan genennoɂoottisinna ohareraan gilbboɂoottisin ataayisayeen.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Gorssana seerisano"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Kaɂeesara goggofayyiroon kuwaarre mikitakko goggoshirmonkko luk'k'aɂoottisinun raa kaɂidan ekkaasayen."
+        },
+        {
+          "number": "14",
+          "text": "K'ullumma kallayi maayona Goottaa din mankkodanddeenon maraan ibaaddo dubbane wota nogoddaa girin kadaanddeten dubba fela; k'ullummatteessaanna girin ataayeen;",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Isinkko maayona sino tawaa goggohank'annonkko isiɂoorayeen; usumaleenna koonna taɂokokaatto il kadubamisira akaakiltte isin orroo goggoɂalannoonkona isin goggot'iboonko kamoogganna isin goggobattoyisonkko isiɂoorayeen."
+        },
+        {
+          "number": "16",
+          "text": "Kasharmmut'aaro goorttun kooyikkii kaɂaaminnaro baboon amere barkkinttetteessa kadaddalero Eesawu aani Waa kaɂabssannon ibaaddo isin orrroo goggoginnonkko isiɂoorayeen."
+        },
+        {
+          "number": "17",
+          "text": "Haar abbaabatere Eesawu somma atayin kakkodootaro goorata hinɂi somma usukko otirameeraan kassaanwa; ootaa hanɂu somma atayi godootatena suure atayin lakkodaanddee. C'ubbokko gula galin iddilii suure lakkohelate."
+        },
+        {
+          "number": "18",
+          "text": "Isin genee kadinamaro goorttun eleenii tagubaatto tasiina wodami tos lakkogeetettaan; iyootte tos, mugud tos, huffo tosna,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Tat'urunbbaa yaaye goorttun kasegaamara haafura takkomaalssamaro tos lakkogeetettaan; hassu haafura kamaalera ibaaddo, «Hittakko horenbbaan kakkalee haafura noon aroosegaamo» amaa taa ebaaranii geeran."
+        },
+        {
+          "number": "20",
+          "text": "Aalanttina «Giddina suure wodami godaddare",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "Eɂemooyi eeggamire hagoye»"
+            },
+            {
+              "source_marker": "m",
+              "text": "Kaɂamara ajaja isoon mankkoɂisilaate maraan oorayin lakkodaanddeen."
+            }
+          ]
+        },
+        {
+          "number": "21",
+          "text": "Esee kaddeero ayeeskko kakkeeyi Muse suure",
+          "source_markers_before": [
+            "m"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«Ani abssayera, harɂeewa» ame."
+            }
+          ]
+        },
+        {
+          "number": "22",
+          "text": "Isin goɂameen tas'iyooni wodami tos gabbalantteettan. Esena arddotti tawaa katamaa talleetetto tadaruuree Iyyerusaalemitta; geggelooyi kakukkumero kamooggan kumaayi katootaamiro erggichchaal tos gabbalantteettan.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "Megekkiso daruurii kakkoons'aafamero, min kawaawun barkki olleeraan amaniilkotti haganaa, dubba gutii kafirddaaro Hedona duuddonɂi olleeraan k'ullooleekotti neefool tos gabbalantteettan."
+        },
+        {
+          "number": "24",
+          "text": "Ammato oɂusubuun t'eɂee aallee kawogarisaro kalleeroo Yesuusa tos, kaɂaabeela iigikko karoore kaɂayeesarona kaɂarac'c'aamero iigi tos gabbalantteettan."
+        },
+        {
+          "number": "25",
+          "text": "Hassu kaɂayeesaro noo lakkoɂatayinnanno goggoɂamoonkko isiɂoottisin oorayeen; hanɂu Waa gara ibaaddonne uluun goɂayeesiro lakkomaalnanno oɂameeraan iso gohesanawaateen, hayya no daruurkko kaɂayeesaro goɂatatanawaanne misii hesiin daanddaanna?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "Hassu goorata yaayetteessa ul aaɂissette; gidda goɂameen, «Ul kaalaal alleenon giraan kooyikkii daruurnna adire aaɂisinara» ame abddi sisera."
+        },
+        {
+          "number": "27",
+          "text": "Hikki, «Kooyikkii adire» kaɂamara haafura katusara kaɂaaɂinoon kooko t'aabbayi goggogirroon kaɂaaɂara goorttun kamet't'aamera kooko baanoya."
+        },
+        {
+          "number": "28",
+          "text": "Goortta noo kaɂaaɂinoon wononnati mankkoɂeelnnanno maraan Waa galatiinna; usu takkogeggelayisso kabajaayinna abssii handdayinna.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "29",
+          "text": "Aalanttina Hedokkaani tagubatto eleen aaniya."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "6",
+          "marker": "Translator/editor note",
+          "text": "- Mas. 3:11-12.",
+          "note_type": "translator_note",
+          "source_reference": "12:6"
+        },
+        {
+          "verse": "8",
+          "marker": "Translator/editor note",
+          "text": "+ Kosichcha amano odo kaɂaddeesamoon ere amanoyya.",
+          "note_type": "translator_note",
+          "source_reference": "12:8"
+        },
+        {
+          "verse": "12",
+          "marker": "Translator/editor note",
+          "text": "- Isa. 35:3.",
+          "note_type": "translator_note",
+          "source_reference": "12:12"
+        },
+        {
+          "verse": "13",
+          "marker": "Translator/editor note",
+          "text": "- Mas. 4:26.",
+          "note_type": "translator_note",
+          "source_reference": "12:13"
+        },
+        {
+          "verse": "15",
+          "marker": "Translator/editor note",
+          "text": "- Ada. 29:18.",
+          "note_type": "translator_note",
+          "source_reference": "12:15"
+        },
+        {
+          "verse": "16",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 25:9-34.",
+          "note_type": "translator_note",
+          "source_reference": "12:16"
+        },
+        {
+          "verse": "17",
+          "marker": "Translator/editor note",
+          "text": "+ Helin lakkodaanddee, amano c'ubbokko gula galin iddilii lakkohelate amanoyya.",
+          "note_type": "translator_note",
+          "source_reference": "12:17"
+        },
+        {
+          "verse": "17",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 27:30-40.",
+          "note_type": "translator_note",
+          "source_reference": "12:17"
+        },
+        {
+          "verse": "19",
+          "marker": "Translator/editor note",
+          "text": "- Biy. 19:16-22; 20:18-21; Ada. 4:11-12; 5:22-27.",
+          "note_type": "translator_note",
+          "source_reference": "12:19"
+        },
+        {
+          "verse": "20",
+          "marker": "Translator/editor note",
+          "text": "- Biy. 19:12-13.",
+          "note_type": "translator_note",
+          "source_reference": "12:20"
+        },
+        {
+          "verse": "21",
+          "marker": "Translator/editor note",
+          "text": "- Ada. 9:19.",
+          "note_type": "translator_note",
+          "source_reference": "12:21"
+        },
+        {
+          "verse": "24",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 4:10.",
+          "note_type": "translator_note",
+          "source_reference": "12:24"
+        },
+        {
+          "verse": "25",
+          "marker": "Translator/editor note",
+          "text": "- Biy. 20:22.",
+          "note_type": "translator_note",
+          "source_reference": "12:25"
+        },
+        {
+          "verse": "26",
+          "marker": "Translator/editor note",
+          "text": "- Hag. 2:6.",
+          "note_type": "translator_note",
+          "source_reference": "12:26"
+        },
+        {
+          "verse": "29",
+          "marker": "Translator/editor note",
+          "text": "- Ada. 4:24.",
+          "note_type": "translator_note",
+          "source_reference": "12:29"
+        }
+      ],
+      "heading": [
+        "Waa yiiskkeessa murrisara"
+      ]
+    },
+    {
+      "chapter": 13,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Arggetto isiɂisirroo taɂabbilaal geelanjje isinuun haggitte;",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Martti k'op'ayiddeen marttisano arooɂillootteen; hikkamalee martti k'op'ataa ibaaddo kookkoo haɂaddeesoonii erggichcha k'op'ateengureen marttiseeran."
+        },
+        {
+          "number": "3",
+          "text": "Isone wota kashaanttettan aani laaddeen min kashaanoyi oshaameeran shaada; isinna iso aani rakkoo kaɂataattan aani laaddeen rakkoo oɂatataraan shaada."
+        },
+        {
+          "number": "4",
+          "text": "Isiɂatatano ibaaddo dubbaa dollee kakkabajaame halleewo; olayimaraanna osharmut'araan Waa mankkofirddinaro maraan oorinna entternna isiɂisii abddatana waattikko kakkeeyi isiɂatatanokkisin aroobattoyisatteen.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Tamaragade geelanjjekko fakkima; isin kaɂabttanwa isinuun halleewo; Waa «Ani ku suure lakkoshafiro, duuddo ku lakkoɂiisiro» amera.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "Haannuun abddii,",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«Goottaa kagarggaararoyya ani lakkoɂabsataro;"
+            },
+            {
+              "source_marker": "q1",
+              "text": "Ibaaddo iin me yelin daanddaara?» amanna."
+            }
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Haafura kawaa horaarjje isinuun osegeeraan min kawaayi horehayeen ogeggeesaraan arooɂillootteen; girikkisoonna feloɂoottisokotti laɂo shaadaa ammanokkisoo abayeen.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Yesuusa Kiristoosa kelena hittaari jiruu jiroomman usu usuya; lakkoɂiggilssamaro."
+        },
+        {
+          "number": "9",
+          "text": "Kaɂaddeesamoon kamooggan martti kallaaro agaalssis aroobbojaantten; wodanattaani kaɂaamo woga ooratano halleenon giraan sinoyi ataatano kaɂidankkiya; hikka kababoo wogaayi debee kasesseetara ibaaddo laɂo toonna lakkoɂatatero."
+        },
+        {
+          "number": "10",
+          "text": "Noo banɂe tafala abnna; golleenna dunkkaanii orroo ohandaaran tuuk'aamol hitta banɂe tafalaa kagiro babo aati aamin isoon feɂi lakkosisamatto.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Ayihuudikokki katuuk'aamol woyichcha c'ubbokko haheso amamano kahelamisaro kagiddi iigi abeenguren aaloo k'ulluutti banɂe tos tabara; usu giddikonɂi soo adeen dunkkaanii tattaanikko sar beeseren eleenii gubaran;"
+        },
+        {
+          "number": "12",
+          "text": "Usumaleenna Yesuusa iigikkeessayi gosa k'ullooyisiin kakkatamaa karakkoo sarre rakkoo atate goye."
+        },
+        {
+          "number": "13",
+          "text": "Noonna dunkkaanii tattaankko sar bigunne usu tos seenno; yeraankkeessana oɂatatanno leenna."
+        },
+        {
+          "number": "14",
+          "text": "Noo ganaa taɂemeeyinnatto katamaa ooratanna kuwaarre ataayi tagirnnatta katamaa hikka ulii noon laakkogitto."
+        },
+        {
+          "number": "15",
+          "text": "Goorttanu Yesuusa Kiristoosakkokki garane kasommaa jaarsso arggetto Waawuun sinsso; hikkina megekkeessa maraan usuun taɂatotaatto hiɂii kasisamaro kasommaa jaarssoyya."
+        },
+        {
+          "number": "16",
+          "text": "Ayees kaɂidan felanona kaɂabttaankko kakkaleetun sisano arooɂillootteen; Waa kageggelaayisara hikka aankkikki jaarssoyya."
+        },
+        {
+          "number": "17",
+          "text": "Isinuun horehayeen ofelaraawun ajajaama; odonnatikkisoyi hegelii gira; iso kakkohoosamaraan odonnati mankkoɂabaan maraan girikkisin maraan ataataraan; isin isoon goɂajajaantteen isona feloɂoottisoo geggelooyi felinnaraan; goorttun iso feloɂoottisoo k'uk'amaa felaraan; hikkina isinuun laɂo kasisiro lakkoyo.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Noon ebaayen; tamuc'c'intte baas takkomaalssamoon sammuu noon girano addeesatanna; raa dubbaayi taɂidantti yadaliiyi girin halchchaanna;",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Hassukkona isin ataayi goggoɂebaattanun ani isin ataayise kaɂebaatara ani isin tos saami goggoɂabbaabaroonya."
+        },
+        {
+          "number": "20",
+          "text": "Kaɂatii idaad kafoofaro Goottakkaani Yesuusa jiruu jiroommakokki kaɂammatoo haafurakokki iigii goyikko kakkeesera kanogoddaa Hedo,",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Kagachchoo ebi"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "Feɂitteessa feloo hayisiin goggodanddeetawun ayees kaɂidankki dubbaa usu isin hamuyiso; No kageggelaayisiro gara kayesuusa kiristoosane no gutii hafelo; Yesuusa Kiristoosan jiruu jiroommakko taa jiruu jiroomma geeroon kabaja halleeto; hamiinɂi."
+        },
+        {
+          "number": "22",
+          "text": "Abbilaalttee! Hikki ani isinuun kas'aafera handdaa kagababban mankkolleero maraan hikka kagorssa haafura obssii goggoɂatattaawun ataayise ebaatara.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Gudisano"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "Abbikkaani T'imotoosa min kashaanokko biyaano isin goggoɂaddeessawun dootara; usu saami hittarraa kakkoɂemeete goorata ani usune wota emeeyire isin dinnara."
+        },
+        {
+          "number": "24",
+          "text": "Horehayeen isin obariisaraawunna k'ulloolee dubbaan nogodda segaa; kaɂit'aaliyaa ulkko emeeten hittanii ogiraan amaniil nogodda isinuun farramaraan.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "Sino isin dubbane wota halleeto; hamiinɂi.",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "2",
+          "marker": "Translator/editor note",
+          "text": "- Met'. 18:1-8; 19:1-3.",
+          "note_type": "translator_note",
+          "source_reference": "13:2"
+        },
+        {
+          "verse": "5",
+          "marker": "Translator/editor note",
+          "text": "- Ada. 31:6,8; Iya. 1:5.",
+          "note_type": "translator_note",
+          "source_reference": "13:5"
+        },
+        {
+          "verse": "6",
+          "marker": "Translator/editor note",
+          "text": "- Mez. 118:6.",
+          "note_type": "translator_note",
+          "source_reference": "13:6"
+        },
+        {
+          "verse": "11",
+          "marker": "Translator/editor note",
+          "text": "- Woy. 16:27.",
+          "note_type": "translator_note",
+          "source_reference": "13:11"
+        }
+      ],
+      "heading": [
+        "Waa kageggelaayisiro handdaano"
+      ]
+    }
+  ]
+}

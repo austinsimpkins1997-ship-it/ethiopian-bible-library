@@ -7,6 +7,7 @@ import json
 import re
 from html.parser import HTMLParser
 from pathlib import Path
+from layer_metadata import sync_layer_checksum
 
 ROOT = Path(__file__).resolve().parent
 SOURCE_DIR = ROOT / "readers" / "source" / "psalms-tau-2015"
@@ -114,6 +115,7 @@ def main() -> None:
             irregular.append({"chapter": chapter["chapter"], "labels": labels})
     reader = {
         "reader_id": "psalms-geez-ludolf-hacohen",
+        "text_origin": "source_transcription",
         "canon_id": "eotc-ot-23",
         "title": "Psalms — Geʽez Ludolf reader",
         "language": "Geʽez (Classical Ethiopic)",
@@ -126,16 +128,20 @@ def main() -> None:
         "edition_scope": "Geʽez Psalter transcription presented by the Tel Aviv University source. This reader follows the site's Rahlfs Septuagint numbering page sequence (151 pages); it is not a critical edition or an independent manuscript collation.",
         "transcription_note": "TAU describes the text as retyped from Ludolf's edition, proofread, and corrected, while warning that new typographical errors may remain. This archive preserves the captured source text and has not independently collated it against the 1701 print or manuscripts.",
         "chapter_structure_note": "151 source pages are preserved as reader chapters. Verse labels are kept as printed in the Rahlfs-numbered pages; gaps and duplicate labels are not normalized. Chapter headings/superscriptions are retained where separable from the verse paragraphs.",
+        "rights_classification": "permission_limited",
         "copyright_notice": "© Ran HaCohen. The digitized Ethiopic text may be copied and distributed for noncommercial purposes only when the copyright and permission notice accompany every copy. Other uses require contacting the copyright owner.",
         "commercial_use": "Not granted by the cited permission notice.",
         "source_pages": "Local capture of all 151 TAU Rahlfs-numbered page URLs; per-page SHA-256 digests are stored below and in the capture manifest.",
         "chapter_count": len(chapters),
+        "unit_count": sum(len(ch["verses"]) for ch in chapters),
+        "unit_label": "Numbered text units (source labels preserved)",
         "verse_marker_count": sum(len(ch["verses"]) for ch in chapters),
         "verification_status": f"Local structural audit: {len(chapters)} ordered pages, {sum(len(ch['verses']) for ch in chapters)} nonempty source-numbered units. Source label irregularities are retained in place. No independent transcription collation; see source limits and capture notice.",
         "numbering_irregularities": irregular,
         "chapters": chapters,
     }
     OUTPUT.write_text(json.dumps(reader, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    sync_layer_checksum(ROOT / "examples" / "psalms-geez-layer.json", OUTPUT)
     print(f"Built {OUTPUT.name}: {len(chapters)} pages, {reader['verse_marker_count']} units, {len(irregular)} numbering-irregular chapters.")
 
 

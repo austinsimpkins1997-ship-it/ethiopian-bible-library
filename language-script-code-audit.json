@@ -1,14 +1,19 @@
 {
-  "audit_date": "2026-10-25",
+  "audit_date": "2026-10-27",
   "scope_note": "This is an authority check for identifiers currently used by this archive, not an exhaustive list of world languages or scripts. A listed code does not prove that a given text or community uses a particular language or script.",
   "language_subtags": {
     "source_id": "SRC-077",
     "registry_file_date": "2026-09-17",
+    "snapshot_sha256": "755fad43283be7b41ebe3c89ad054b6eaf928f404f9c0edb74799e0eab74beb1",
     "codes": [
       "aa",
+      "alw",
       "am",
       "ar",
+      "arb",
+      "arc",
       "bej",
+      "bsw",
       "byn",
       "dlk",
       "dwr",
@@ -17,12 +22,16 @@
       "gez",
       "gmv",
       "grc",
+      "hbo",
       "hdy",
+      "jnj",
       "kun",
+      "ln",
       "mdy",
       "mul",
       "nrb",
       "nus",
+      "oyd",
       "sid",
       "so",
       "ssy",
@@ -42,6 +51,23 @@
     "iana_special_source_id": "SRC-077",
     "iana_special_codes": [
       "Zzzz"
+    ]
+  },
+  "latest_authority_check": {
+    "checked_on": "2026-10-27",
+    "iana_registry_file_date": "2026-09-17",
+    "iana_language_or_extlang_codes_checked": 33,
+    "iana_unregistered_or_deprecated_codes_found": 0,
+    "arb_note": "The current IANA registry has both a language record and an extlang record for arb (Standard Arabic; macrolanguage ar). Both records are current.",
+    "iso_15924_codes_rechecked": [
+      "Arab",
+      "Ethi",
+      "Latn"
+    ],
+    "iana_unknown_script_code_rechecked": "Zzzz",
+    "evidence_source_ids": [
+      "SRC-077",
+      "SRC-078"
     ]
   }
 }

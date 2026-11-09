@@ -1,0 +1,177 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/malachi-geez-lofgren-ghebre-tau",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/malachi-eotc-candidate",
+  "labels": [
+    {
+      "value": "Malachi — Geʽez source transcription",
+      "language_tag": "en",
+      "label_type": "preferred"
+    },
+    {
+      "value": "ዘምልክያስ ፡ ነቢይ ።",
+      "language_tag": "gez",
+      "label_type": "original_form"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-44",
+      "mapping_state": "reviewed_match",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-034",
+        "SRC-161",
+        "SRC-195",
+        "SRC-380",
+        "SRC-384"
+      ],
+      "notes": "Reviewed work/title crosswalk: the Church's numbered list names Malachi; TAU's index uses the Latinized form Malachias and its book-specific page identifies the Ethiopic Book of Malachi. This is a title/work match only; the historical witness, current edition identity, transcription accuracy, and completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Malachi."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/malachi-lofgren-1930-ghebre-tau-2018",
+    "witness_type": "digital_edition",
+    "title": "Löfgren 1930 Ethiopic Malachi; TAU text prepared by Kefela Ghebre (2018)",
+    "date_statement": "Printed edition 1930, pp. 93–103; TAU text version October 2018",
+    "repository_or_publisher": "Tel Aviv University website; text attributed to Kefela Ghebre",
+    "shelfmark_or_edition_id": "Malachi section of Löfgren's seven-prophet edition",
+    "editorial_policy": "TAU identifies its page as the text version of the Löfgren edition, credits Kefela Ghebre as preparer (published with his permission), and Ran HaCohen as proofreader. Four chapter pages and the source notices are retained; print collation, images, and apparatus are excluded.",
+    "source_ids": [
+      "SRC-034",
+      "SRC-036",
+      "SRC-161",
+      "SRC-195"
+    ]
+  },
+  "layer_type": "source_text_transcription",
+  "text_origin": "source_transcription",
+  "language_tag": "gez",
+  "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+  "script_code": "Ethi",
+  "basis_path": [
+    "gez"
+  ],
+  "agents": [
+    {
+      "role": "editor",
+      "name": "Oscar Löfgren",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-161"
+      ]
+    },
+    {
+      "role": "transcriber",
+      "name": "Kefela Ghebre",
+      "authority_or_affiliation": "Credited by TAU; text published there with his permission",
+      "source_ids": [
+        "SRC-161",
+        "SRC-195"
+      ]
+    },
+    {
+      "role": "reviewer",
+      "name": "Ran HaCohen",
+      "authority_or_affiliation": "Credited by TAU as proofreader",
+      "source_ids": [
+        "SRC-161",
+        "SRC-195"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/malachi-geez-lofgren-ghebre-tau.json",
+    "media_type": "application/json",
+    "sha256": "b917b711fce3b5b1f7d957f60c9b9198bdd21849df4e7d09fc62f0c34b828ea6",
+    "format_version": "1"
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 55,
+    "structure_description": "Four retained TAU text pages yield 55 sequential displayed labels with nonempty bodies (14, 17, 18, 6), plus an explicitly unnumbered doxological close on page 4. This establishes only the inventory of the captured TAU pages, not print or manuscript completeness.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "Geʽez content and source punctuation are retained after whitespace normalization. Four source-page files preserve extraction context; the separate unnumbered closing remains attached to the reader as a continuation. Images and critical apparatus are excluded.",
+    "numbering_policy": "Preserve chapter pages 1–4 and displayed labels exactly; keep the actual external target Mal per unit. No verse alignment with the three-chapter Greek-based Brenton companion is inferred."
+  },
+  "rights": {
+    "status": "permission_limited",
+    "statement": "© Ran HaCohen. For the digitized Ethiopic texts, permission to use, copy, and distribute for any NONCOMMERCIAL purpose is granted without fee, provided that the copyright notice Ran HaCohen and this permission notice appear in all copies of the text. For other uses, please contact the copyright owner.",
+    "license_id": null,
+    "rights_holder": "Ran HaCohen (TAU site notice); TAU credits Kefela Ghebre as text preparer",
+    "attribution_required": true,
+    "territory_or_term_limits": "Noncommercial use only with copyright and permission notice attached; other uses require contacting the rights holder. No open license or commercial permission is asserted.",
+    "evidence_source_ids": [
+      "SRC-036",
+      "SRC-161",
+      "SRC-195"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "Reviewed work/title crosswalk: the Church's numbered list names Malachi; TAU's index uses the Latinized form Malachias and its book-specific page identifies the Ethiopic Book of Malachi. This is a title/work match only; the historical witness, current edition identity, transcription accuracy, and completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Malachi. Exact edition identity, textual accuracy, and completeness remain distinct questions.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Comparative inspection of the cited Church-list and source-work records.",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-034",
+        "SRC-161",
+        "SRC-195",
+        "SRC-380",
+        "SRC-384"
+      ],
+      "notes": "Reviewed work/title crosswalk: the Church's numbered list names Malachi; TAU's index uses the Latinized form Malachias and its book-specific page identifies the Ethiopic Book of Malachi. This is a title/work match only; the historical witness, current edition identity, transcription accuracy, and completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Malachi."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "Four retained source pages yield 55 sequential labels in the observed page extents and all links target Mal; unnumbered closing doxology retained.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Malachi capture parser and archive build",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-195"
+      ],
+      "notes": "This is capture-to-reader structural validation only."
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "No collation against Löfgren's print edition, cited manuscripts, image pages, or the current EOTC edition.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-161",
+        "SRC-195"
+      ],
+      "notes": "TAU credits proofreading to Ran HaCohen; this archive has not independently repeated that review."
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "TAU general notice and Malachi information/attribution page retained locally.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Recorded the source's permission and contributor statements.",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-036",
+        "SRC-161",
+        "SRC-195"
+      ],
+      "notes": "Noncommercial use with notices; no commercial/open license."
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "The text has a four-chapter structure in the TAU page set; the separate Brenton Greek-based reader has three chapters. No parallel mapping is asserted."
+}

@@ -1,0 +1,175 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/habakkuk-geez-lofgren-ghebre-tau",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/habakkuk-eotc-candidate",
+  "labels": [
+    {
+      "value": "Habakkuk — Geʽez source transcription",
+      "language_tag": "en",
+      "label_type": "preferred"
+    },
+    {
+      "value": "ዘእንባቆም ፡ ነቢይ ።",
+      "language_tag": "gez",
+      "label_type": "original_form"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-40",
+      "mapping_state": "reviewed_match",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-034",
+        "SRC-157",
+        "SRC-189",
+        "SRC-380",
+        "SRC-384"
+      ],
+      "notes": "Reviewed work/title crosswalk: the Church's numbered list names Habakkuk; TAU's index uses the Latinized form Habacuc and its book page identifies the Ethiopic Book of Habakkuk. This matches the work title only; the historical witness, current edition identity, numbering equivalence, transcription accuracy, and completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Habakkuk."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/habakkuk-lofgren-1930-ghebre-tau-2018",
+    "witness_type": "digital_edition",
+    "title": "Löfgren 1930 Ethiopic Habakkuk; TAU text by Kefela Ghebre, proofread by Ran HaCohen (2018)",
+    "date_statement": "Printed edition 1930, pp. 23–32; TAU information page records text version October 2018",
+    "repository_or_publisher": "Tel Aviv University website; text attributed to Kefela Ghebre",
+    "shelfmark_or_edition_id": "Habakkuk section of Löfgren's seven-prophet edition",
+    "editorial_policy": "TAU says Löfgren's edition was based on Oxford MS Huntington 625 and other manuscripts, and that Kefela Ghebre prepared this text with permission and Ran HaCohen proofread it. The local capture retains three chapter pages and their linked source labels. Print collation, source manuscript inventory, and apparatus are not bundled.",
+    "source_ids": [
+      "SRC-034",
+      "SRC-036",
+      "SRC-157",
+      "SRC-189"
+    ]
+  },
+  "layer_type": "source_text_transcription",
+  "text_origin": "source_transcription",
+  "language_tag": "gez",
+  "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+  "script_code": "Ethi",
+  "basis_path": [
+    "gez"
+  ],
+  "agents": [
+    {
+      "role": "editor",
+      "name": "Oscar Löfgren",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-157"
+      ]
+    },
+    {
+      "role": "transcriber",
+      "name": "Kefela Ghebre",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-157"
+      ]
+    },
+    {
+      "role": "reviewer",
+      "name": "Ran HaCohen",
+      "authority_or_affiliation": "Tel Aviv University website; proofreader of the text",
+      "source_ids": [
+        "SRC-157"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/habakkuk-geez-lofgren-ghebre-tau.json",
+    "media_type": "application/json",
+    "sha256": "d850b0366f6c0df2dbc01778cae6a117eb85ac9fafc7dd710f9d8d577086144d",
+    "format_version": "1"
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 56,
+    "structure_description": "Three captured TAU text pages, corresponding to chapters 1–3 in its index, have sequential displayed linked numbers with extents 17, 20, and 19 (56 total). The chapter-2 links target Nahum, an unresolved source-page anomaly. This is complete only for the three locally retained text pages; no printed-edition or manuscript completeness is claimed.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "HTML whitespace and the separately displayed link labels are normalized; source markers and each link's actual book target remain separate, and visible Ethiopic text and signs are retained. Chapter 2's hyperlinks target Nahum; that anomaly is not silently corrected. Raw HTML is retained. Facsimiles and critical apparatus are excluded.",
+    "numbering_policy": "Preserve source page and displayed linked-number sequence exactly: chapter pages 1–3, labels 1–17, 1–20, and 1–19. Preserve the actual link target book per unit (Hab, Nah, Hab). Do not infer alignment to another witness's numbering."
+  },
+  "rights": {
+    "status": "permission_limited",
+    "statement": "© Ran HaCohen. For the digitized Ethiopic texts, permission to use, copy, and distribute for any NONCOMMERCIAL purpose is granted without fee, provided that the copyright notice Ran HaCohen and this permission notice appear in all copies of the text. For other uses, please contact the copyright owner.",
+    "license_id": null,
+    "rights_holder": "Ran HaCohen (TAU site notice); TAU states Ghebre permitted posting his text on that site",
+    "attribution_required": true,
+    "territory_or_term_limits": "TAU notice grants noncommercial use only with the copyright and permission notice attached; other uses require contacting the rights holder. No open license or commercial permission is claimed.",
+    "evidence_source_ids": [
+      "SRC-036",
+      "SRC-157",
+      "SRC-189"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "Reviewed work/title crosswalk: the Church's numbered list names Habakkuk; TAU's index uses the Latinized form Habacuc and its book page identifies the Ethiopic Book of Habakkuk. This matches the work title only; the historical witness, current edition identity, numbering equivalence, transcription accuracy, and completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Habakkuk. Exact edition identity, textual accuracy, and completeness remain distinct questions.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Comparative inspection of the cited Church-list and source-work records.",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-034",
+        "SRC-157",
+        "SRC-189",
+        "SRC-380",
+        "SRC-384"
+      ],
+      "notes": "Reviewed work/title crosswalk: the Church's numbered list names Habakkuk; TAU's index uses the Latinized form Habacuc and its book page identifies the Ethiopic Book of Habakkuk. This matches the work title only; the historical witness, current edition identity, numbering equivalence, transcription accuracy, and completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Habakkuk."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "Three retained source pages match their manifest checksums and yield sequential displayed labels 1–17, 1–20, and 1–19. The 20 page-2 hyperlink targets are Nahum 2:1–20, unlike the Habakkuk page title/menu.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Habakkuk capture parser and archive build",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-189"
+      ],
+      "notes": "Capture-to-reader structure only; the hyperlink anomaly is preserved, not resolved. Does not establish print or manuscript completeness or cross-witness numbering."
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "No collation against Löfgren's 1930 print, cited manuscripts, image pages, or a current EOTC edition.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-157",
+        "SRC-189"
+      ],
+      "notes": "TAU credits text preparation to Kefela Ghebre and proofreading to Ran HaCohen; this archive has not repeated or independently assessed that review."
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "TAU general reuse notice and Habakkuk information page were captured locally.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Retained the noncommercial notice and the source page's author attribution.",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-036",
+        "SRC-157",
+        "SRC-189"
+      ],
+      "notes": "Noncommercial use with notices only; no open or commercial grant is asserted."
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "This record bundles no English translation. The English title and metadata are not translated text; the reader contains the captured Geʽez source transcription."
+}

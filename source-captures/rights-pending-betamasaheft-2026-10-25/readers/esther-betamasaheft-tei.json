@@ -1,0 +1,2690 @@
+{
+  "reader_id": "esther-betamasaheft-tei",
+  "canon_id": "eotc-ot-19",
+  "text_origin": "source_transcription",
+  "title": "Esther — Geʽez source transcription (Beta maṣāḥǝft TEI)",
+  "display_name": "Esther · Geʽez · provisional title link; exact edition unverified",
+  "language": "Geʽez (Classical Ethiopic)",
+  "language_tag": "gez",
+  "language_assignment_status": "source_declared_inherited_edition_xml_lang",
+  "script_code": "Ethi",
+  "edition": "Beta maṣāḥǝft LIT1362Esther TEI source snapshot, pinned at Works commit ec53d3f4c5de47e463fa56a8465cf1090316a999",
+  "edition_scope": "The retained TEI file for LIT1362Esther contains an edition division explicitly tagged xml:lang=\"gez\" and the selected text scope is labeled ‘Text of the EOTC printed Bible.’ Its root xml:lang=\"en\" is retained as a document-default conflict; TEI inheritance assigns the explicit edition-level language to its nested text. The archive links this source provisionally by title to Church-list Esther. This does not identify the exact printed exemplar or prove identity with a current EOTC edition.",
+  "section_label": "Chapter",
+  "unit_label": "TEI line element (all numbered and unnumbered elements)",
+  "source_ids": [
+    "SRC-029",
+    "SRC-227",
+    "SRC-228",
+    "SRC-176"
+  ],
+  "rights_classification": "open_license",
+  "copyright_notice": "The retained Beta maṣāḥǝft LIT1362Esther TEI file states CC BY-SA 4.0. Attribute Beta maṣāḥǝft, link the source and license, identify this extraction and whitespace normalization, and share adaptations alike. This file-level license does not establish rights in the unidentified printed exemplar or relicense other materials in the archive.",
+  "commercial_use": "The file-level CC BY-SA 4.0 permits sharing and adaptation, including commercially, subject to attribution, indication of changes, and ShareAlike terms. This does not establish rights in the unidentified printed exemplar or alter the website's separate license notice.",
+  "license_id": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "chapter_count": 13,
+  "unit_count": 252,
+  "source_numbered_unit_count": 252,
+  "source_unnumbered_unit_count": 0,
+  "source_empty_unit_count": 0,
+  "chapter_structure_note": "The pinned TEI selected text scope contains 13 ordered chapter divisions and 252 line elements: 252 have source n labels, 0 do not, and 0 are empty. These are source-structure counts, not verse counts or evidence of completeness against the print exemplar. No duplicate or out-of-sequence numbered labels were detected in this TEI chapter inventory.",
+  "transcription_note": "The reader extraction includes every TEI line element in the selected text scope in source order, preserves each source n label as a string, and normalizes whitespace for display. An empty TEI line remains an empty unit with an explicit state; no wording or verse label is supplied. Inline TEI markup is flattened in the display text; the unchanged source XML is retained beside the reader.",
+  "editorial_signs_note": "Unnumbered line elements and chapter headings are retained in order and are not relabeled as verses. Source references are retained as metadata. No missing wording, numbering, or translation has been reconstructed.",
+  "verification_status": "Pinned file hash, TEI identity, edition-level Geʽez declaration, file-level license statement, 13 chapter divisions, and all 252 source line elements were checked locally. This validates extraction structure only. The exact print exemplar, textual accuracy, physical-edition completeness, and identity with a current EOTC edition remain unverified. No duplicate or out-of-sequence numbered labels were detected in this TEI chapter inventory.",
+  "source_pages": "readers/source/esther/LIT1362Esther.xml (unchanged pinned TEI source)",
+  "source_snapshot_sha256": "05bd1bef15988fc2175dcc93c16a8dffcb3078dacc7f9ffdfc515505e43a0903",
+  "additional_notes": "No English translation or parallel text is bundled. The TEI file-level CC BY-SA 4.0 applies to this source file and its adaptation; it does not establish rights in the unidentified printed exemplar. The Church-list title link is provisional. ",
+  "chapters": [
+    {
+      "chapter": 1,
+      "source_chapter_label": "1",
+      "heading": [
+        "Chapter 1"
+      ],
+      "units": [
+        {
+          "number": 1,
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=1&verse=1"
+          ],
+          "text": "በካልእ፡ ዓመት፡ እምዘነግሠ፡ አርጤክስስ፡ ዓቢይ፡ አመ፡ ቀዳሚ፡ ዘኔሳን፡ ርእየ፡ ሕልመ፡ መርዶክዮስ፡ ዘኢያኤሩ፡ ዘሴምዩ፡ ዘቄስዩ፡ እምነገደ፡ ብንያም፡ ብእሲ፡ አይሁዳዊ።"
+        },
+        {
+          "number": 2,
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=1&verse=2"
+          ],
+          "text": "ወይነብር፡ ውስተ፡ ሀገረ፡ ሱሳ፡ ወዓቢይ፡ ብእሲሁ፡ ወይነብር፡ በዓፀደ፡ ቤተ፡ ንጉሥ።"
+        },
+        {
+          "number": 3,
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=1&verse=3"
+          ],
+          "text": "ወእምነ፡ ፄዋ፡ ውእቱ፡ ዘፄወዎ፡ ናቡከደነፆር፡ ንጉሠ፡ ባቢሎን፡ እምነ፡ ኢየሩሳሌም፡ ምስለ፡ ኢኮንያን፡ ንጉሠ፡ ይሁዳ።"
+        },
+        {
+          "number": 4,
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=1&verse=4"
+          ],
+          "text": "ወዝንቱ፡ ውእቱ፡ ሕልሙ፡ ወናሁ፡ ቃል፡ ወሁከት፡ ወድልቅልቅ፡ ወነጐድጓድ፡ ወጒጒዓ፡ ላዕለ፡ ምድር።"
+        },
+        {
+          "number": 5,
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=1&verse=5"
+          ],
+          "text": "ወናሁ፡ ክልኤቱ፡ አክይስት፡ ዓበይት፡ ድልዋን፡ መጽኡ፡ ክልኤሆሙ፡ ይትጋደሉ፡ ወኮነ፡ ቃሎሙ፡ ዓቢየ።"
+        },
+        {
+          "number": 6,
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=1&verse=6"
+          ],
+          "text": "ወበቃለ፡ ዚአሆሙ፡ ተደለዉ፡ አሕዛብ፡ ለፀብዕ፡ ከመ፡ ይጽብዕዎሙ፡ ለሕዝብ፡ ጻድቃን።"
+        },
+        {
+          "number": 7,
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=1&verse=7"
+          ],
+          "text": "ወናሁ፡ ዕለተ፡ ጽልመት፡ ወቆባር፡ ወሥቃይ፡ ወምንዳቤ፡ ወሕማም፡ ወሁከት፡ ዓቢይ፡ ውስተ፡ ምድር።"
+        },
+        {
+          "number": 8,
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=1&verse=8"
+          ],
+          "text": "ወተሀውኩ፡ ጻድቃን፡ ወኵሎሙ፡ ሕዝብ፡ ፈርሁ፡ እምነ፡ እኪቶሙ፡ ወተደለዉ፡ ለተኀጒሎ።"
+        },
+        {
+          "number": 9,
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=1&verse=9"
+          ],
+          "text": "ወጸርሑ፡ ኀበ፡ እግዚአብሔር፡ ወእምነ፡ ጽራሖሙ፡ ኮነ፡ ንስቲት፡ ነቅዕ፡ ዘሕይወት፡ ወነቅዐ፡ ዐቢይ፡ ፈለግ፡ ዘብዙኅ፡ ማዩ።"
+        },
+        {
+          "number": 10,
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=1&verse=10"
+          ],
+          "text": "ወብርሃነ፡ ፀሐይ፡ ሠረቀ፡ ላዕሌሃ፡ ወትሑታን፡ ተለዓሉ፡ ወበልዕዎሙ፡ ለክቡራን።"
+        },
+        {
+          "number": 11,
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=1&verse=11"
+          ],
+          "text": "ወተንሥአ፡ መርዶክዮስ፡ ርኢዮ፡ ዘንተ፡ ሕልመ፡ እስመ፡ እግዚአብሔር፡ ፈቀደ፡ ይግበር፡ ወዐቀቦ፡ ውስተ፡ ልቡ፡ ወፈቀደ፡ ያእምር፡ ኵሎ፡ ነገሮ፡ በሌሊት።"
+        },
+        {
+          "number": 12,
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=1&verse=12"
+          ],
+          "text": "ወነበረ፡ መርዶክዮስ፡ ውስተ፡ ዓፀድ፡ ምስለ፡ ገቦታ፡ ወታራ፡ ክልኤቱ፡ ሕዕዋኒሁ፡ ለንጉሥ፡ እለ፡ የዐቅቡ፡ ዓፀደ፡ ወሀገረ።"
+        },
+        {
+          "number": 13,
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=1&verse=13"
+          ],
+          "text": "ወሰምዐ፡ ምክሮሙ፡ ዘይሔልዩ፡ ወአእመረ፡ ወጠየቀ፡ ከመ፡ አስተዳለዉ፡ ማዕሌተ፡ ይቅትልዎ፡ ለአርጤክስስ፡ ንጉሥ፡ ወነገሮ፡ ለንጉሥ፡ በእንቲአኮሙ።"
+        },
+        {
+          "number": 14,
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=1&verse=14"
+          ],
+          "text": "ወሐተቶሙ፡ ንጉሥ፡ ለክልኤሆሙ፡ ሕጽዋኒሁ፡ ወአምኑ፡ ወተኰነኑ።"
+        },
+        {
+          "number": 15,
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=1&verse=15"
+          ],
+          "text": "ወጸሐፎ፡ ንጉሥ፡ ለዝንቱ፡ ነገር፡ ውስተ፡ ተዝካረ፡ ኖብያት፡ ወመርክድዮስኒ፡ ጸሐፎ።"
+        },
+        {
+          "number": 16,
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=1&verse=16"
+          ],
+          "text": "ወአዘዞ፡ ንጉሥ፡ ለመርዶክዮስ፡ ይፀመድ፡ ውስተ፡ ዓፀድ፡ ወፈተቶ፡ በበይነ፡ ዝንቱ።"
+        },
+        {
+          "number": 17,
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=1&verse=17"
+          ],
+          "text": "ወሐማሰ፡ እስመ፡ ልደቱ፡ አግያዊ፡ ክቡር፡ ውእቱ፡ ወየቀውም፡ ቅድመ፡ ንጉሥ፡ ወይፈቅድ፡ ይግበር፡ እኪተ፡ ላዕለ፡ መርዶክዮስ፡ ወላዕለ፡ ሕዝቡ፡ በእንተ፡ እልክቱ፡ ክልኤቱ፡ ሕፅዋኒሁ፡ ለንጉሥ።"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 2,
+      "source_chapter_label": "2",
+      "heading": [
+        "Chapter 2"
+      ],
+      "units": [
+        {
+          "number": 1,
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=1"
+          ],
+          "text": "ወእምድኅረ፡ ዝንቱ፡ ነገር፡ በመዋዕሊሁ፡ ለአርጤክስስ፡ ወውእቱ፡ አርጤክስስ፡ ዘነግሰ፡ ላዕለ፡ ምእት፡ ዕሥራ፡ ወሰብዓቱ፡ በሐውርት፡ እምነ፡ ብሔረ፡ ህንደኬ፡ እስከ፡ ብሔረ፡ ኢትዮጵያ።"
+        },
+        {
+          "number": 2,
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=2"
+          ],
+          "text": "ወበውእቱ፡ መዋዕል፡ አመ፡ ነግሠ፡ በሱሳ፡ ሀገር፡ በሣልስ፡ ዓም፡ እምዘነግሠ፡ ገብረ፡ በዓለ፡ ለአግብርቲሁ፡ ወለአዕርክቲሁ።"
+        },
+        {
+          "number": 3,
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=3"
+          ],
+          "text": "ወበእንተ፡ እለ፡ ተርፉ፡ አሕዛብ፡ ለፋርስ፡ ወለሜዶን፡ ወለክቡራኒሆሙ፡ ወለመላእክተ፡ ሠራዊት።"
+        },
+        {
+          "number": 4,
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=4"
+          ],
+          "text": "ወእምድኅረ፡ ዝንቱ፡ አርአዮሙ፡ ብዕለ፡ መንግሥቱ፡ ወክብረ፡ ትፍሥሕቱ፡ ወብዕሉ፡ በምእት፡ ወሰማንያ፡ ዕለት።"
+        },
+        {
+          "number": 5,
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=5"
+          ],
+          "text": "ወሶበ፡ ተፈጸመ፡ መዋዕለ፡ መርዓ፡ ገብረ፡ ንጉሥ፡ በዓለ፡ ዳግመ፡ ለአሕዛብ፡ እለ፡ ተርፉ፡ ውስተ፡ ሀገር፡ ወበዓፀደ፡ ንጉሥ፡ ሰዱሰ፡ መዋዕለ፡ ወሰኑየ።"
+        },
+        {
+          "number": 6,
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=6"
+          ],
+          "text": "ወሥርግው፡ በሜላት፡ ወበአጌ፡ ንጹሕ፡ ወዕውድ፡ በሜላት፡ ውስተ፡ አሕባለ፡ ቢሦስ፡ በሕልቀተ፡ ወርቅ፡ ወብሩር፡ ላዕለ፡ አዕማደ፡ እብን፡ ዘጵርንሶ፡ ወዓራታት፡ ዘወርቅ፡ ወዘብሩር፡ ወጽፍጹፍ፡ በእብን፡ ዘኅብረ፡ መረግድ፡ ወበዕንቈ፡ ጴኔኖን፡ ወበእብነ፡ ጳሪኑ፡ ወጥቀ፡ ሠናይ፡ ጸፍጸፉ፡ ዘዘዚአሁ፡ ኅብሩ፡ አሠሩ፡ ወእንተ፡ ዓውዱ፡ ጽጌ፡ ረዳ፡ ሥሩዕ።"
+        },
+        {
+          "number": 7,
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=7"
+          ],
+          "text": "ወጽዋዓትኒ፡ ዘወርቅ፡ ወዘብሩር፡ ወዘዕንቈ፡ አትራቂኖን፡ ወዘቂልቅያን፡ ድልወቱ፡ በሐሳበ፡ ሠለስቱ፡ እልፍ፡ መክሊት፡ ወወይኑ፡ ብዙኅ፡ ወዘሠናይ፡ መዓዛሁ፡ ዘይሰቲ፡ ውእቱ፡ ንጉሥ።"
+        },
+        {
+          "number": 8,
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=8"
+          ],
+          "text": "ወበዓሉሰ፡ አኮ፡ በሕገ፡ ቀዳሚ፡ ዘገብረ፡ አላ፡ በከመ፡ ፈቀደ፡ ውእቱ፡ ንጉሥ፡ አዘዞሙ፡ ለመገብቱ፡ ይግበሩ፡ ፈቃደ፡ ዚአሁ፡ ወፈቃደ፡ ሰብእ።"
+        },
+        {
+          "number": 9,
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=9"
+          ],
+          "text": "ወአስጢንኒ፡ ንግሥት፡ ገብረት፡ በዓለ፡ ለአንስት፡ እለ፡ ውስተ፡ ቤተ፡ መንግሥታ፡ እምኀበ፡ አርጤክስስ፡ ንጉሥ።"
+        },
+        {
+          "number": 10,
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=10"
+          ],
+          "text": "ወበሳብዕት፡ ዕለት፡ ሶበ፡ ተፈሥሐ፡ ንጉሥ፡ ይቤሎሙ፡ ለሐማ፡ ወለባዛና፡ ወለታራ፡ ወለቡላዜ፡ ወለዘትወልታ፡ ወለዘአበጦ፡ ወለተራባ፡ ወለሰብዓቱ፡ ሕጽዋኒሁ፡ ለንጉሥ፡ እለ፡ ይትለአክዎ፡ ከመ፡ ያምጽእዋ፡ ለንግሥት፡ ወያንግሥዋ፡ ወያሠርግውዋ፡ አክሊለ፡ ወያርእይዋ፡ ለኵሎሙ፡ መላእክተ፡ አሕዛብ፡ ሥና፡ እስመ፡ ሠናይት፡ ይእቲ።"
+        },
+        {
+          "number": 11,
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=11"
+          ],
+          "text": "ወአበየት፡ ሰሚዖቶ፡ አስጢን፡ ንግሥት፡ ወኢፈቀደት፡ ትምጻእ፡ ምስለ፡ ሕጽዋኒሁ፡ ወተከዘ፡ ንጉሥ፡ ወተምዐ።"
+        },
+        {
+          "number": 12,
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=12"
+          ],
+          "text": "ወነገሮሙ፡ ለአዕርክቲሁ፡ ዘከመ፡ ትቤ፡ አስጢን፡ ወይቤሎሙ፡ ግበሩ፡ እንከሰ፡ ሕጎ፡ ወኵነኔሁ።"
+        },
+        {
+          "number": 13,
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=13"
+          ],
+          "text": "ወመጽኡ፡ ኀቤሁ፡ አርቂስዮስ፡ ወሰርስቲዮስ፡ ወማሌሲዓር፡ ወመላእክቲሁ፡ ዘፋርስ፡ ወሜዶን፡ እለ፡ ቅሩባን፡ ኀበ፡ ንጉሥ፡ ወእለ፡ ይነብሩ፡ እቱተ፡ ምስለ፡ ንጉሥ።"
+        },
+        {
+          "number": 14,
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=14"
+          ],
+          "text": "ወነገርዎ፡ ለንጉሥ፡ ሕጎሙ፡ ዘከመ፡ ይሬስይዋ፡ ለአስጢን፡ ንግሥት፡ እስመ፡ ኢገብረት፡ በከመ፡ አዘዞሙ፡ ንጉሥ፡ ለሕጽዋን።"
+        },
+        {
+          "number": 15,
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=15"
+          ],
+          "text": "ወይቤሎሙ፡ ሜኬዎስ፡ ለንጉሥ፡ ወለመላእክቲሁ፡ አኮ፡ ላዕለ፡ ንጉሥ፡ ባሕቲቱ፡ ዘአበሰት፡ አስጢን፡ ንግሥት፡ አላ፡ ላዕለ፡ ኵሎሙ፡ መላእክት፡ ወላዕለ፡ መገብተ፡ ንጉሥ።"
+        },
+        {
+          "number": 16,
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=16"
+          ],
+          "text": "ወነገሮሙ፡ ቃላ፡ ለንግሥት፡ ዘከመ፡ አበየቶ፡ ለንጉሥ።"
+        },
+        {
+          "number": 17,
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=17"
+          ],
+          "text": "ወሶበ፡ ዛቲ፡ ዮም፡ አበየቶ፡ ለንጉሥ፡ አርጤክስስ፡ ከማሁ፡ እምዮምኒ፡ አንስቲያሆሙ፡ ለመኳንንተ፡ ፋርስ፡ ወሜዶን፡ ሰሚዖን፡ ዘንተ፡ ኵሎን፡ ዘከመ፡ ተዋሥአቶ፡ ለንጉሥ፡ ከማሁ፡ ይትሀበላ፡ እማንቱኒ፡ አምታቲሆን፡ ወያስታሐቅራ።"
+        },
+        {
+          "number": 18,
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=18"
+          ],
+          "text": "እመሰ፡ ፈቀደ፡ ንጉሥ፡ የአዝዝ፡ በቤተ፡ መንግሥቱ፡ ይጽሐፍዎ፡ ለዝንቱ፡ ሕግ፡ ለፋርስ፡ ወሜዶን፡ ዘከመ፡ ይገብርዋ፡ ለይእቲ፡ ወኢትባእ፡ እንከ፡ ይእቲ፡ ንግሥት፡ ኀቤሁ፡ ወመንግሥታኒ፡ የሀብ፡ ንጉሥ፡ ለካልእት፡ ብእሲት፡ እንተ፡ ትኄይስ።"
+        },
+        {
+          "number": 19,
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=19"
+          ],
+          "text": "ወይስምዕዎ፡ ለዝንቱ፡ ሕግ፡ ዘገብረ፡ ንጉሥ፡ በመንግሥቱ፡ ወእምዝ፡ እንከ፡ ኵሎን፡ አንስት፡ ያከብራ፡ አምታቲሆን፡ ባዕለኒ፡ ወነዳየኒ።"
+        },
+        {
+          "number": 20,
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=20"
+          ],
+          "text": "ወአደሞ፡ ለንጉሥ፡ ዝንቱ፡ ነገር፡ ወለመላእክቲሁ፡ ወገብረ፡ ንጉሥ፡ በከመ፡ ይቤ፡ ሜኬዎስ።"
+        },
+        {
+          "number": 21,
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=2&verse=21"
+          ],
+          "text": "ወለአከ፡ ንጉሥ፡ ውስተ፡ ኵሉ፡ መንግሥቱ፡ ለለበሐውርቲሆሙ፡ በከመ፡ ዝንቱ፡ ቃል፡ ከመ፡ ይፍርሃሆሙ፡ አንስቲያሆሙ፡ በውስተ፡ አብያቲሆሙ።"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 3,
+      "source_chapter_label": "3",
+      "heading": [
+        "Chapter 3"
+      ],
+      "units": [
+        {
+          "number": 1,
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=1"
+          ],
+          "text": "ወእምድኅረ፡ ዝንቱ፡ ነገር፡ ረስዓ፡ ንጉሥ፡ ወኢተዘከራ፡ እንከ፡ ለአስጢን፡ እስመ፡ ይዜክር፡ ላቲ፡ ዘከመ፡ ተዋሥአቶ።"
+        },
+        {
+          "number": 2,
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=2"
+          ],
+          "text": "ወእምድኅረ፡ ኰነና፡ ይቤልዎ፡ ደቁ፡ ለንጉሥ፡ ይኅሥሡ፡ ሎቱ፡ ለንጉሥ፡ አዋልደ፡ ደናግለ፡ እለ፡ ሠናይ፡ ራእዮን።"
+        },
+        {
+          "number": 3,
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=3"
+          ],
+          "text": "ወይሢም፡ ንጉሥ፡ ውስተ፡ ኵሉ፡ በሐውርተ፡ መንግሥቱ፡ መላእከተ፡ ወመሳፍንተ፡ ወይኅረዩ፡ ሎቱ፡ አዋልደ፡ ደናግለ፡ እለ፡ ሠናይ፡ ራእዮን፡ በሱሳ፡ ሀገር፡ በውስተ፡ አብያተ፡ አንስት፡ ወያወፍይዎ፡ ለሕፅወ፡ ንጉሥ፡ ወየሀቦን፡ ቅብዖን፡ ወኵሎ፡ መፍቅዶን።"
+        },
+        {
+          "number": 4,
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=4"
+          ],
+          "text": "ወእንተ፡ አደመቶ፡ እምኔሆን፡ ለንጉሥ፡ ብእሲቱ፡ ይእቲ፡ ወትንግሥ፡ ምስሌሁ፡ ህየንተ፡ አስጢን፡ ወአደሞ፡ ዝንቱ፡ ነገር፡ ለንጉሥ፡ ወገብረ፡ ከማሁ።"
+        },
+        {
+          "number": 5,
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=5"
+          ],
+          "text": "ወሀሎ፡ አሐዱ፡ ብእሲ፡ አይሁዳዊ፡ በውስተ፡ ሱሳ፡ ሀገር፡ ወስሙ፡ መርዶክዮስ፡ ወልደ፡ ኢያኤሩ፡ ዘሴምዩ፡ ዘቄስዩ፡ ዘእምነገደ፡ ብንያም።"
+        },
+        {
+          "number": 6,
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=6"
+          ],
+          "text": "ወተፄወወ፡ እምኢየሩሳሌም፡ ወዘፄወዎ፡ ናቡከደነፆር፡ ንጉሠ፡ ባቢሎን።"
+        },
+        {
+          "number": 7,
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=7"
+          ],
+          "text": "ወቦቱ፡ ወለት፡ እንተ፡ ሐፀና፡ ወለተ፡ አሚናዳብ፡ እኁሁ፡ ለአቡሁ፡ ወስማ፡ አስቴር፡ ወእምድኅረ፡ ወፅአት፡ እምአዝማዲሃ፡ ሐፀና፡ ላቲ፡ ትኩኖ፡ ወለቶ፡ ወይእቲ፡ ወለት፡ ሠናይት፡ ራእያ።"
+        },
+        {
+          "number": 8,
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=8"
+          ],
+          "text": "ወሶበ፡ አዘዘ፡ ንጉሥ፡ አስተጋብኡ፡ ሎቱ፡ ብዙኀተ፡ አዋልደ፡ ውስተ፡ ሱሳ፡ ሀገር፡ ኀበ፡ ጋይ፡ ዓቃቤ፡ አንስት።"
+        },
+        {
+          "number": 9,
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=9"
+          ],
+          "text": "ወአደመቶ፡ ይእቲ፡ ወለት፡ ወረከበት፡ ሞገሰ፡ በቅድሜሁ፡ ወአፍጠነ፡ ውሂቦታ፡ ቅብዐ፡ ወመክፈልተ፡ ወሰቡዐ፡ አዋልደ፡ እለ፡ ይትለአካሃ፡ እምቤተ፡ ንጉሥ፡ ወሠናየ፡ ዓቀባሃ፡ በውስተ፡ ቤተ፡ አንስት።"
+        },
+        {
+          "number": 10,
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=10"
+          ],
+          "text": "ወኢነገረት፡ አስቴር፡ አዝማዲሃ፡ ወኢ፡ ብሔራ፡ እስመ፡ መርዶክዮስ፡ አዘዛ፡ ከመ፡ ኢታይድዕ።"
+        },
+        {
+          "number": 11,
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=11"
+          ],
+          "text": "ወኵሎ፡ አሚረ፡ ይመጽእ፡ መርዶክዮስ፡ ኀበ፡ ዓፀደ፡ አንስት፡ ከመ፡ ይስማዕ፡ ዜናሃ፡ ለአስቴር፡ ዘከመ፡ ሀለወት።"
+        },
+        {
+          "number": 12,
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=12"
+          ],
+          "text": "ወአመ፡ በጽሐ፡ ጊዜሆን፡ ለእልኩ፡ አዋልድ፡ ከመ፡ ይባኣ፡ ኀበ፡ ንጉሥ፡ እስመ፡ መጠነዝ፡ መዋዕለ፡ ይነብራ፡ እንዘ፡ ይትሔረሳ፡ ወይሤነያ፡ ስድስተ፡ አውራኀ፡ እንዘ፡ ይትቀብዓ፡ ቅብዐ፡ ዕፍረት፡ ወስድስተ፡ አውራኀ፡ በአፈዋት፡ ወበቅብዐ፡ አንስት።"
+        },
+        {
+          "number": 13,
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=13"
+          ],
+          "text": "ወእምዝ፡ ሶበ፡ ተፈጸመ፡ ዓሠርቱ፡ ወክልኤቱ፡ አውራኅ፡ ይእተ፡ አሚረ፡ ይበውኣ፡ ኀበ፡ ንጉሥ፡ ወእንተ፡ ውእቱ፡ ፈቀደ፡ ያመጽኡ፡ ሎቱ፡ እምቤተ፡ አንስት።"
+        },
+        {
+          "number": 14,
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=14"
+          ],
+          "text": "ወፍና፡ ሠርክ፡ ትበውእ፡ ወጸቢሖ፡ ትገብእ፡ ቤተ፡ አንስት፡ ኀበ፡ ጋይ፡ ሕፅወ፡ ንጉሥ፡ ዓቃቤ፡ አንስት፡ ወኢትደግም፡ እንከ፡ በዊአ፡ ኀበ፡ ንጉሥ፡ ለእመ፡ ለሊሁ፡ ኢጸውዓ።"
+        },
+        {
+          "number": 15,
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=15"
+          ],
+          "text": "ወአመ፡ በጽሐ፡ መዋዕለ፡ ዕብሬታ፡ ለአስቴር፡ ወለተ፡ አሚናዳብ፡ እኅወ፡ አቡሁ፡ ለመርዶክዮስ፡ ከመ፡ ትባእ፡ ኀበ፡ ንጉሥ፡ ገብረት፡ ኵሎ፡ በከመ፡ አዘዘ፡ ዝክቱ፡ ሕፅው፡ ዓቃቤ፡ አንስት፡ እስመ፡ ባቲ፡ ሞገስ፡ ለአስቴር፡ በኀበ፡ ኵሎሙ፡ እለ፡ ይሬእይዋ።"
+        },
+        {
+          "number": 16,
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=16"
+          ],
+          "text": "ወቦአት፡ አስቴር፡ ኀበ፡ አርጤክስስ፡ ንጉሥ፡ በዓሠርቱ፡ ወክልኤቱ፡ አውራኅ፡ በወርኀ፡ አዳር፡ በሰብዓቱ፡ ዓም፡ ዘመንግሥቱ።"
+        },
+        {
+          "number": 17,
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=17"
+          ],
+          "text": "ወአደመቶ፡ አስቴር፡ ለንጉሥ፡ ወረከበት፡ ሞገሰ፡ ፈድፋደ፡ እምነ፡ ኵሎን፡ ደናግል፡ ወአሠርገዋ፡ እክሊለ፡ አንስት።"
+        },
+        {
+          "number": 18,
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=18"
+          ],
+          "text": "ወገብረ፡ ንጉሥ፡ በዓለ፡ ለአፅርክቲሁ፡ ወለሠራዊቱ፡ ሰቡዐ፡ መዋዕለ፡ ወአዕበዮ፡ ለመርዐ፡ አስቴር፡ ወገብረ፡ ኵሎ፡ ኅዳጋቲሃ፡ ውስተ፡ ኵሉ፡ ደወለ፡ መንግሥቱ።"
+        },
+        {
+          "number": 19,
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=19"
+          ],
+          "text": "ወመርዶክዮስ፡ ይፀመድ፡ ውስተ፡ ዓፀደ፡ ንጉሥ።"
+        },
+        {
+          "number": 20,
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=20"
+          ],
+          "text": "ወአስቴር፡ ኢያይድዐት፡ ብሔራ፡ እስመ፡ ከማሁ፡ አዘዛ፡ ከመ፡ ትፍራህ፡ እግዚአብሔርሃ፡ ወትግበር፡ ትእዛዞ፡ በከመ፡ ሀለወት፡ ምስሌሁ፡ ወአስቴርኒ፡ ኢኃደገት፡ ሕጋ።"
+        },
+        {
+          "number": 21,
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=21"
+          ],
+          "text": "ወተከዙ፡ ሕዕዋኒሁ፡ ለንጉሥ፡ ሊቃነ፡ ዓቀብተ፡ ርእሱ፡ እስመ፡ ዓብየ፡ መርዶክዮስ፡ ወፈቀዱ፡ ይቅትልዎ፡ ለአርጤክስስ፡ ንጉሥ።"
+        },
+        {
+          "number": 22,
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=22"
+          ],
+          "text": "ወሰምዐ፡ መርዶክዮስ፡ ወነገራ፡ ለአስቴር፡ ወይእቲ፡ አይድዓቶ፡ ለንጉሥ፡ ምክሮሙ።"
+        },
+        {
+          "number": 23,
+          "unit_order": 23,
+          "source_marker": "23",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=3&verse=23"
+          ],
+          "text": "ወሶበ፡ ሐተቶሙ፡ ለእልክቱ፡ ክልኤቱ፡ ሕፅዋኒሁ፡ አምኑ፡ ወሰቀሎሙ፡ ወእምዝ፡ አዘዘ፡ ንጉሥ፡ ይጽሐፍዎ፡ ለዝንቱ፡ ውስተ፡ ኖብያተ፡ መንግሥቱ፡ ለተዝካር፡ በእንተ፡ አኰቴተ፡ ለመርዶክዮስ።"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 4,
+      "source_chapter_label": "4",
+      "heading": [
+        "Chapter 4"
+      ],
+      "units": [
+        {
+          "number": 1,
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=1"
+          ],
+          "text": "ወእምድኅረ፡ ዝንቱ፡ አዕበዮ፡ ንጉሥ፡ አርጤክስስ፡ ለሐማ፡ እስመ፡ ልደቱ፡ አግያዊ፡ ወአንበሮ፡ ላዕለ፡ እምኵሎሙ፡ አዕርክቲሁ።"
+        },
+        {
+          "number": 2,
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=2"
+          ],
+          "text": "ወይሰግዱ፡ ሎቱ፡ ኵሎሙ፡ እለ፡ ውስተ፡ ዓፀድ፡ እስመ፡ ከማሁ፡ ይግበሩ፡ አዘዘ፡ ንጉሥ፡ ወመርዶክዮስ፡ ባሕቲቱ፡ ኢይሰግድ፡ ሎቱ።"
+        },
+        {
+          "number": 3,
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=3"
+          ],
+          "text": "ወይቤልዎ፡ እለ፡ ውስተ፡ ዓፀደ፡ ቤተ፡ ንጉሥ፡ አንተ፡ መርዶክዮስ፡ ለምንት፡ ኢትትኤዘዝ፡ ለቃለ፡ ንጉሥ።"
+        },
+        {
+          "number": 4,
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=4"
+          ],
+          "text": "ወኵሎ፡ አሚረ፡ ይብልዎ፡ ከመዝ፡ ወየአቢ፡ ሰሚዖቶሙ፡ ወነገርዎ፡ ለሐማ፡ ከመ፡ የአቢ፡ ትእዛዘ፡ ንጉሥ፡ መርዶክዮስ፡ ወነገርዎ፡ ከመ፡ አይሁዳዊ፡ ውእቱ።"
+        },
+        {
+          "number": 5,
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=5"
+          ],
+          "text": "ወሶበ፡ አእመረ፡ ሐማ፡ ከመ፡ ኢይሰግድ፡ ሎቱ፡ መርዶክዮስ፡ ተምዐ፡ ጥቀ።"
+        },
+        {
+          "number": 6,
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=6"
+          ],
+          "text": "ወፈቀደ፡ ያጥፍኦሙ፡ ለኵሎሙ፡ አይሁድ፡ እለ፡ ደወለ፡ መንግሥቱ፡ ለአርጤክስስ።"
+        },
+        {
+          "number": 7,
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=7"
+          ],
+          "text": "ወገብረ፡ ከመዝ፡ በዓሠርቱ፡ ወክልኤቱ፡ ዓመት፡ እምዘ፡ ነግሠ፡ አርጤክስስ፡ ወአስተዓፀወ፡ ዕለተ፡ እምዕለት፡ ወወርኀ፡ እምወርኅ፡ ከመ፡ ያጥፍኦሙ፡ ለዘመደ፡ መርዶክዮስ፡ በአሐቲ፡ ዕለት፡ ወወረደ፡ ዕፁ፡ ላዕለ፡ ዐሡሩ፡ ወረቡዑ፡ ለሠርቀ፡ ወርኀ፡ አዳር።"
+        },
+        {
+          "number": 8,
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=8"
+          ],
+          "text": "ወነገሮ፡ ለአርጤክስስ፡ ወይቤሎ፡ ሀሎ፡ ሕዝብ፡ ዓላዊ፡ እም፡ ውስተ፡ ኵሉ፡ አሕዛበ፡ መንግሥትከ፡ ወሕጎሙኒ፡ ካልእ፡ እምነ፡ ኵሉ፡ አሕዛብ፡ ወኢይትኤዘዙ፡ ለሕገ፡ ንጉሥ፡ ወኢኮነ፡ ርቱዐ፡ ይኅድጎሙ፡ ንጉሥ።"
+        },
+        {
+          "number": 9,
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=9"
+          ],
+          "text": "እመሰ፡ ፈቀደ፡ ንጉሥ፡ የአዝዝ፡ ያጥፍእዎሙ፡ ወናሁ፡ አነ፡ እጽሕፍ፡ ወአበውእ፡ አልፈ፡ መካልየ፡ ብሩር፡ ለመዝገበ፡ ንጉሥ።"
+        },
+        {
+          "number": 10,
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=10"
+          ],
+          "text": "ወአውፅአ፡ ንጉሥ፡ ሕልቀቶ፡ ወመጠዎ፡ ውስተ፡ እዴሁ፡ ለሐማ፡ ከመ፡ ይኅትም፡ ሶበ፡ ጸሐፈ፡ በእንተ፡ አይሁድ።"
+        },
+        {
+          "number": 11,
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=11"
+          ],
+          "text": "ወይቤሎ፡ ንጉሥ፡ ለሐማ፡ ወርቅሰ፡ ይኩንከ፡ ለከ፡ ሕዝበሰ፡ ግበር፡ ዘከመ፡ ፈቀድከ።"
+        },
+        {
+          "number": 12,
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=12"
+          ],
+          "text": "ወጸውዐ፡ ንጉሥ፡ ጸሐፍተ፡ በቀዳሚ፡ ወርኅ፡ አመ፡ ዓሡሩ፡ ወሠሉሱ፡ ለሠርቅ፡ ወጸሐፉ፡ በከመ፡ አዘዞሙ፡ ሐማ፡ ለመላእክት፡ ወለመሳፍንት፡ ዘኵሉ፡ በሐውርት፡ እምነ፡ ህንደኬ፡ እስከ፡ ኢትዮጵያ፡ ለምእት፡ ዕሥራ፡ ወሰብዓቱ፡ በሐውርት፡ ለለምልክና፡ አሕዛቢሆሙ፡ በበነገረ፡ በሐውርቲሆሙ፡ በቃለ፡ አርጤክስስ፡ ንጉሥ።"
+        },
+        {
+          "number": 13,
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=13"
+          ],
+          "text": "ወፈነወ፡ ምስለ፡ ሐዋርያት፡ ውስተ፡ ደወለ፡ መንግሥቱ፡ ለአርጤክስስ፡ ከመ፡ ያጥፍእዎሙ፡ ለዘመደ፡ አይሁድ፡ በአሐቲ፡ ዕለት፡ በወርኀ፡ አዳር፡ አመ፡ ዓሡሩ፡ ወሰኑዩ፡ ወይበርብርዎሙ፡ ንዋዮሙ።"
+        },
+        {
+          "number": 14,
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=14"
+          ],
+          "text": "ወከመዝ፡ ይብሉ፡ መጻሕፍቲሁ፡ ለንጉሥ፡ አርጤክስስ፡ ዘእምነ፡ ህንደኬ፡ እስከ፡ ኢትዮጵያ፡ ለምእት፡ ዕሥራ፡ ወሰብዓቱ፡ በሐውርት፡ ለመላእክት፡ ወለመሳፍንት፡ ወለሥዩማን፡ ከመዝ፡ ጸሐፈ።"
+        },
+        {
+          "number": 15,
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=15"
+          ],
+          "text": "ወብዙኃነ፡ አሕዛበ፡ ኰኒንየ፡ ወኵሎ፡ በሐውርተ፡ አግሪርየ፡ ፈቀድኩ፡ አኮ፡ በጽንዐ፡ መንግሥትየ፡ ዘአዓቢ፡ ርእስየ፡ አላ፡ በጽምው፡ ወበየዋሃት፡ ለዝሉፉ፡ አስተናቢርየ፡ ኵሎ፡ ዘሊተ፡ ይትኤዘዝ፡ ወይትኴነን፡ ዘእንበለ፡ ድንጋፄ፡ ሠሪዕየ፡ ኵሎ፡ በከመ፡ መንግሥትየ፡ ሥሩፅ፡ ወኅዱእ።"
+        },
+        {
+          "number": 16,
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=16"
+          ],
+          "text": "ወትብጻሕ፡ እስከ፡ አጽናፈ፡ በሐውርት፡ ወእሔድስ፡ ሰላመ፡ ዘእምኀቤየ፡ ወዘእምኀበ፡ ኵሉ፡ ሰብእ፡ ይትፈቅር።"
+        },
+        {
+          "number": 17,
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=17"
+          ],
+          "text": "ወኦሆ፡ ብሂልየ፡ ለመማክርትየ፡ በዘእክል፡ ሠሪዖቶ፡ ለዝንቱ፡ ለዝሉፉ፡ በንጹሕ፡ መጻእኩ፡ አሠኒ፡ በልብየ፡ ዘእንበለ፡ ንስሓ።"
+        },
+        {
+          "number": 18,
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=18"
+          ],
+          "text": "ወበአማን፡ ተልእከ፡ በንጹሕ፡ ዘእምታሕቴየ፡ ሐማ፡ ዘመርሐነ፡ ወአይድዓነ፡ ከመ፡ በኵሉ፡ በሐውርት፡ ወበኵሉ፡ አሕዛብ፡ ዘውስተ፡ ኵሉ፡ ዓለም፡ ተደመረ፡ ሕዝብ፡ ዘእኩይ፡ ሕጉ፡ ወዘኢይትኤዘዝ፡ ለትእዛዘ፡ ንጉሥ፡ ዘልፈ፡ እምነ፡ ኵሉ፡ አሕዛብ፡ ወየእቢ፡ ሥርዓተ፡ ዚአነ፡ ወሕግነ።"
+        },
+        {
+          "number": 19,
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=19"
+          ],
+          "text": "ወረከብናሁ፡ ለዝንቱ፡ ሕዝብ፡ ፍሉጥ፡ እንተ፡ ባሕቲቱ፡ ካልእ፡ ሕጉ፡ እምነ፡ ኵሉ፡ ሰብእ፡ ወዘነኪር፡ ወውሉጥ፡ ወውፁእ፡ እምሕገ፡ ዚአነ፡ ወይገብሩ፡ እኪተ፡ በግእዞሙ፡ ወረሰይዋ፡ ለመንግሥትነ፡ ከመ፡ ወኢምንት።"
+        },
+        {
+          "number": 20,
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=20"
+          ],
+          "text": "ወናሁ፡ አዘዝነ፡ በእንተ፡ ዘጸሐፍነ፡ ለክሙ፡ በመጻሕፍቲሁ፡ ለሐማ፡ ዘተሠይመ፡ ላዕለ፡ ኵሉ፡ ዘውእቱ፡ እምታሕተ፡ አቡነ፡ ከመ፡ ያጥፍእዎሙ፡ ለኰሎሙ፡ ምስለ፡ አንስቲያሆሙ፡ ወደቂቆሙ፡ በመጥባሕተ፡ ፀሮሙ፡ እንዘ፡ ኢትምሕክዎሙ፡ ወኢትምሕርዎሙ፡ አመ፡ ሠርቀ፡ ዐሡሩ፡ ወረቡዑ፡ ለወርኀ፡ አዳር፡ በዛቲ፡ ዓመት።"
+        },
+        {
+          "number": 21,
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=21"
+          ],
+          "text": "ወከመዝ፡ ታወርድዎሙ፡ ለንኡሶሙ፡ ወለዓቢዮሙ፡ ውስተ፡ ሲኦል፡ በአሐቲ፡ ዕለት፡ ወአልቦ፡ ዘታተርፉ፡ እምኔሆሙ፡ ከመ፡ ያዕርፋ፡ እንከ፡ በሐውርቲነ፡ እምነ፡ ግብሮሙ፡ ለዝሉፉ።"
+        },
+        {
+          "number": 22,
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=22"
+          ],
+          "text": "ወአርአይዎሙ፡ በለኆሳስ፡ መጻሕፍቲሁ፡ ወሤመ፡ ውስተ፡ በሐውርቲሆሙ፡ ወአዘዘ፡ ለኵሉ፡ አሕዛብ፡ ከመ፡ ይኩኑ፡ ለውእቱ፡ ዕለት፡ ወይጐጕዑ።"
+        },
+        {
+          "number": 23,
+          "unit_order": 23,
+          "source_marker": "23",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=4&verse=23"
+          ],
+          "text": "በውስተ፡ ሱሳኒ፡ ይግበሩ፡ ከማሁ፡ ንጉሥ፡ ወሐማ፡ ያጸምኡ፡ ወተሀውከት፡ ኵላ፡ ሀገር።"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 5,
+      "source_chapter_label": "5",
+      "heading": [
+        "Chapter 5"
+      ],
+      "units": [
+        {
+          "number": 1,
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=1"
+          ],
+          "text": "ወሶበ፡ አእመረ፡ መርዶክዮስ፡ ዘከመ፡ ኮነ፡ ሰጠጠ፡ አልባሲሁ፡ ወለብሰ፡ ሠቀ፡ ወወደየ፡ ሐመደ፡ ዲበ፡ ርእሱ፡ ወሮፀ፡ ውስተ፡ መርኅበ፡ ሀገር፡ እንዘ፡ ይጸርሕ፡ በዓቢይ፡ ቃል፡ ወይብል፡ ትቀትሉኑ፡ ሕዝበ፡ ዘእንበለ፡ አበሳ።"
+        },
+        {
+          "number": 2,
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=2"
+          ],
+          "text": "ወበጽሐ፡ ኀበ፡ ኆኅተ፡ ንጉሥ፡ ወቆመ፡ እስመ፡ ኢይከውኖ፡ በዊእ፡ ውስተ፡ ዓፀደ፡ ንጉሥ፡ እንዘ፡ ሠቀ፡ ይለብስ፡ ወሐመድ፡ ዲበ፡ ርእሱ።"
+        },
+        {
+          "number": 3,
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=3"
+          ],
+          "text": "ወበኵሉ፡ በሐውርት፡ ኀበ፡ ተፈነዉ፡ መጻሕፍት፡ ኮነ፡ ጽራሕ፡ ወብካይ፡ ወዓቢይ፡ ላህ፡ ወአይሁድሰ፡ ሠቀ፡ ወሐመደ፡ ነጻፉ፡ ኵሎሙ።"
+        },
+        {
+          "number": 4,
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=4"
+          ],
+          "text": "ወቦኡ፡ ሕጽዋኒሃ፡ ወአዋልዲሃ፡ ለንግሥት፡ ወአይድዕዋ፡ ወደንገፀት፡ ሶበ፡ ሰምዓት፡ ዘንተ፡ ወፈነወት፡ አልባሰ፡ ለመርዶክዮስ፡ ዘይለብስ፡ ወከመ፡ ያእትት፡ ሠቀ፡ ወአበየ፡ ኀዲገ፡ ሠቅ።"
+        },
+        {
+          "number": 5,
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=5"
+          ],
+          "text": "ወጸውዓቶ፡ አስቴር፡ ለአክራትዮስ፡ ሕጽው፡ ዘይቀውም፡ ቅድሜሃ፡ ወለአከቶ፡ ይስማዕ፡ ጥዩቀ፡ ነገረ፡ በኀበ፡ መርዶክዮስ።"
+        },
+        {
+          "number": 6,
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=6"
+          ],
+          "text": "ወነገሮ፡ መርዶክዮስ፡ ዘከመ፡ ኮነ፡ ወዘከመ፡ ይቤሎ፡ ሐማ፡ ለንጉሥ፡ እልፈ፡ መካልየ፡ አበውእ፡ ውስተ፡ መዝገቡ፡ ለንጉሥ፡ ከመ፡ ይቅትሎሙ፡ ለአይሁድ።"
+        },
+        {
+          "number": 7,
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=7"
+          ],
+          "text": "ወቃለ፡ ነገረ፡ ለዛቲ፡ መጽሐፍ፡ ዘአንበሩ፡ ውስተ፡ ሱሳ፡ ከመ፡ ይቅትልዎሙ።"
+        },
+        {
+          "number": 8,
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=8"
+          ],
+          "text": "ወወሀባ፡ አርአያሃ፡ ያርእያ፡ ለአስቴር፡ ወይቤሎ፡ በላ፡ ትባእ፡ ኀበ፡ ንጉሥ፡ ወትስአሎ፡ ወታስተብቊዖ፡ በእንተ፡ ሕዝባ፡ ተዘከሪ፡ መዋዕለ፡ ምንዳቤኪ፡ ዘተሐፀንኪ፡ ውስተ፡ እዴየ፡ እስመ፡ ሐማ፡ ዘእምታሕተ፡ ንጉሥ፡ አዘዘ፡ ይቅትለነ፡ ወሰአሊ፡ ኀበ፡ እግዚአብሔር፡ እግዚእ፡ ወንግሪዮ፡ ለንጉሥ፡ ወአድኅንነ፡ እሞት።"
+        },
+        {
+          "number": 9,
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=9"
+          ],
+          "text": "ወቦአ፡ አክራትዮስ፡ ወነገራ፡ ለአስቴር፡ ዘንተ፡ ኵሎ፡ ነገረ።"
+        },
+        {
+          "number": 10,
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=10"
+          ],
+          "text": "ወትቤሎ፡ አስቴር፡ ለአክራትዮስ፡ ሑር፡ ኀበ፡ መርዶክዮስ፡ ወበሎ፡ ኵሉ፡ አሕዛብ፡ የአምራ፡ ለዛቲ፡ መንግሥት፡ ከመ፡ ዘቦአ፡ ኀበ፡ ንጉሥ፡ ውስተ፡ ውሣጤ፡ ዓፀድ፡ እመኒ፡ ብእሲ፡ ወእመኒ፡ ብእሲት፡ ዘኢጸውዕዋ፡ አልቦ፡ ሕይወት፡ እመ፡ ኢለከፎ፡ ንጉሥ፡ በበትሩ፡ እንተ፡ ወርቅ፡ ዳእሙ፡ ውእቱ፡ ዘየሐዩ፡ ወኪያ፡ የኒ፡ ኢጸውዓኒ፡ እባእ፡ ኀበ፡ ንጉሥ፡ ሠሉሰ፡ መዋዕለ፡ ዮም።"
+        },
+        {
+          "number": 11,
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=11"
+          ],
+          "text": "ወአይድዖ፡ አክራትዮስ፡ ለመርዶክዮስ፡ ዘትቤሎ፡ አስቴር።"
+        },
+        {
+          "number": 12,
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=12"
+          ],
+          "text": "ወይቤሎ፡ መርዶክዮስ፡ ለአክራትዮስ፡ ሑር፡ በላ፡ ኢትበሊ፡ አስቴር፡ ከመዝ፡ አሐዩ፡ አነ፡ ባሕቲትየ፡ እምነ፡ ኵሉ፡ አይሁድ፡ በበይነ፡ መንግሥትየ፡ እመ፡ ተጸመምኪ፡ ዮም።"
+        },
+        {
+          "number": 13,
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=13"
+          ],
+          "text": "ለአይሁድሰ፡ እንተ፡ ባዕድኒ፡ ይሤርዎሙ፡ ወኢያድኅኖሙ፡ አንቲሰ፡ ወቤተ፡ አቡኪ፡ ትጠፍኡ፡ ወመኑ፡ የአምሮ፡ ዮጊ፡ ለዝንቱ፡ መዋዕለ፡ ንግሥኪ።"
+        },
+        {
+          "number": 14,
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=14"
+          ],
+          "text": "ወአግብአቶ፡ አስቴር፡ ለዝንቱ፡ ዘመጽአ፡ ኀቤሃ፡ እምኀበ፡ መርዶክዮስ፡ እንዘ፡ ትብል፡ ሑር፡ አስተጋብኦሙ፡ ለአይሁድ፡ እለ፡ ውስተ፡ ሱሳ፡ ወጹሙ፡ ሊተ፡ ወኢትብልዑ፡ ወኢትስተዩ፡ እስከ፡ ሠሉስ፡ ዕለት፡ መዓልተ፡ ወሌሊተ፡ እነኒ፡ ወአዋልድየ፡ ንጸውም፡ ወእምዝ፡ እበውእ፡ ኀበ፡ ንጉሥ፡ ወእመ፡ አኮ፡ እመውት፡ ሞተ።"
+        },
+        {
+          "number": 15,
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=15"
+          ],
+          "text": "ወሖረ፡ መርዶክዮስ፡ ወገብረ፡ ኵሎ፡ ዘአዘዘቶ፡ አስቴር።"
+        },
+        {
+          "number": 16,
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=16"
+          ],
+          "text": "ወሰአለ፡ ኀበ፡ እግዚአብሔር፡ እንዘ፡ ይዜከር፡ ኵሎ፡ ዘገብረ፡ እግዚአብሔር።"
+        },
+        {
+          "number": 17,
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=17"
+          ],
+          "text": "ወይቤ፡ እግዚኦ፡ ንጉሥ፡ ዘኵሎ፡ ትመልክ፡ ዘበሥልጣንከ፡ ኵሎ፡ ገበርከ፡ ወአልቦ፡ ዘይትቃወመከ፡ ለእመ፡ ፈቀድከ፡ ታድኅኖሙ፡ ለእስራኤል።"
+        },
+        {
+          "number": 18,
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=18"
+          ],
+          "text": "እስመ፡ አንተ፡ ገበርከ፡ ሰማየ፡ ወምድረ፡ ወኵሎ፡ መድምመ፡ ዘታሕተ፡ ሰማይ።"
+        },
+        {
+          "number": 19,
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=19"
+          ],
+          "text": "ወእግዚእ፡ አንተ፡ ለኵሉ፡ ወአልቦ፡ ዘይትቃወመከ፡ እግዚኦ።"
+        },
+        {
+          "number": 20,
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=20"
+          ],
+          "text": "ወአንተ፡ ተአምር፡ ኵሎ፡ እግዚኦ፡ ከመ፡ አኮ፡ በአስተሐቅሮ፡ ወአኮ፡ በትዕቢት፡ ወአኮ፡ በአዕብዮ፡ ርእስ፡ ዘገበርክዎ፡ ለዝንቱ፡ አላ፡ ከመ፡ ኢይስግድ፡ ለሐማ፡ ዕቡድ።"
+        },
+        {
+          "number": 21,
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=21"
+          ],
+          "text": "እምአብደርኩ፡ አስዓም፡ እገሪሁ፡ ከመ፡ ይሕየዉ፡ እስራኤል፡ አላ፡ ገበርክዎ፡ ለዝንቱ፡ ከመ፡ ኢይረሲ፡ ክብረ፡ እጓለ፡ እመሕያው፡ ላዕለ፡ እምክብረ፡ እግዚአብሔር፡ ወኢይሰግድ፡ ለመኑሂ፡ ዘእንበለ፡ ለከ፡ እግዚእየ፡ ወኢገበርክዎ፡ በትዕቢት፡ ለዝንቱ።"
+        },
+        {
+          "number": 22,
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=22"
+          ],
+          "text": "ወይእዜኒ፡ እግዚኦ፡ እግዚአብሔር፡ ንጉሥ፡ አምላከ፡ አብርሃም፡ መሀክ፡ ሕዝበከ፡ እስመ፡ ቆሙ፡ ላዕሌነ፡ ያማስኑነ፡ ወፈቀዱ፡ ያጥፍኡ፡ ቀዳሚተ፡ ርስተከ።"
+        },
+        {
+          "number": 23,
+          "unit_order": 23,
+          "source_marker": "23",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=23"
+          ],
+          "text": "ወኢትትዓወር፡ እግዚኦ፡ መክፈልተከ፡ እንተ፡ ቤዘውከ፡ እምነ፡ ምድረ፡ ግብፅ።"
+        },
+        {
+          "number": 24,
+          "unit_order": 24,
+          "source_marker": "24",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=24"
+          ],
+          "text": "ወስማዕ፡ ጸሎተነ፡ ወተሣሃል፡ ሕዝበከ፡ ወሚጦ፡ ለላህነ፡ ውስተ፡ ትፍሥሕት፡ ከመ፡ በሕይወትነ፡ ንሰብሕ፡ ስመከ፡ እግዚኦ፡ ወኢታማስን፡ ተስፋሆሙ፡ ለእለ፡ ይሴፈዉከ።"
+        },
+        {
+          "number": 25,
+          "unit_order": 25,
+          "source_marker": "25",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=25"
+          ],
+          "text": "ወገዓሩ፡ ኵሉ፡ እስራኤል፡ ወጸርሑ፡ በዓቢይ፡ ቃል፡ በኃይሎሙ፡ እስመ፡ በጽሖሙ፡ ሞት፡ ቅድመ፡ አዕይንቲሆሙ።"
+        },
+        {
+          "number": 26,
+          "unit_order": 26,
+          "source_marker": "26",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=26"
+          ],
+          "text": "ወአስቴርኒ፡ አማኅፀነት፡ ነፍሳ፡ ኀበ፡ እግዚአብሔር፡ እስመ፡ ውስተ፡ ፍርሀተ፡ ሞት፡ በጽሐት።"
+        },
+        {
+          "number": 27,
+          "unit_order": 27,
+          "source_marker": "27",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=27"
+          ],
+          "text": "ወአሰሰለት፡ አልባሰ፡ ክብራ፡ ዘትለብሰ፡ ወለብሰት፡ አልባሰ፡ ሕማም፡ ወላህ፡ ወህየንተ፡ መዓዛ፡ ትፍሥሕት፡ መሬተ፡ ወሐመደ፡ መልአት፡ ውስተ፡ ርእሳ፡ ወአሕመመት፡ ሥጋሃ፡ ጥቀ፡ ወውስተ፡ መካን፡ ሠርጓ፡ ዘክብሶ፡ ሥዕርታ፡ ወደየት፡ መሬተ።"
+        },
+        {
+          "number": 28,
+          "unit_order": 28,
+          "source_marker": "28",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=28"
+          ],
+          "text": "ወሰአለት፡ ኀበ፡ እግዚአብሔር፡ አምላከ፡ እስራኤል፡ ወትቤ፡ እግዚኦ፡ አምላክነ፡ አንተ፡ ውእቱ፡ ባሕቲትከ፡ ረዳኢ፡ ርድአኒ፡ ለባሕታዊት፡ ዘአልብየ፡ ረዳኢ፡ ዘእንበሌከ፡ እስመ፡ በጽሐኒ፡ ሞት፡ ውስተ፡ እዴከ።"
+        },
+        {
+          "number": 29,
+          "unit_order": 29,
+          "source_marker": "29",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=29"
+          ],
+          "text": "ወአንሰ፡ ሰማዕኩ፡ እምንእስየ፡ እምኀበ፡ ሕዝበ፡ አበውየ፡ ከመ፡ አንተ፡ እግዚኦ፡ ነሣእኮሙ፡ ለእስራኤል፡ እምነ፡ ኵሉ፡ አሕዛብ፡ ወለአበዊነሂ፡ እምኵሉ፡ አዝማዲሆሙ፡ ከመ፡ ይኩኑ፡ ርስተከ፡ ለዓለም፡ ወይእዜኒ፡ ገበርከ፡ ሎሙ፡ ኵሎ፡ ዘከመ፡ ትቤ።"
+        },
+        {
+          "number": 30,
+          "unit_order": 30,
+          "source_marker": "30",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=30"
+          ],
+          "text": "ወአበስነ፡ በቅድሜከ፡ ወአግባእከነ፡ ውስተ፡ እደ፡ ፀርነ፡ እስመ፡ ሰባሕነ፡ አማልክቲሆሙ፡ ለአሕዛብ፡ ጻድቅ፡ አንተ፡ እግዚኦ።"
+        },
+        {
+          "number": 31,
+          "unit_order": 31,
+          "source_marker": "31",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=31"
+          ],
+          "text": "ወይእዜኒ፡ ኢኃደጉነ፡ በመሪር፡ ቀነዩነ፡ እለ፡ አንሥኡ፡ እደዊሆሙ፡ ዲበ፡ አማልክቲሆሙ።"
+        },
+        {
+          "number": 32,
+          "unit_order": 32,
+          "source_marker": "32",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=32"
+          ],
+          "text": "ከመ፡ ያሰስሉ፡ ሥርዓተ፡ አፉከ፡ ወያማስኑ፡ ርስተከ፡ ወይፈፅሙ፡ አፉሆሙ፡ ለእለ፡ ይሴብሑከ፡ ወያጥፍኡ፡ ሥርዓተ፡ ቤትከ፡ ወምሥዋዒከ።"
+        },
+        {
+          "number": 33,
+          "unit_order": 33,
+          "source_marker": "33",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=33"
+          ],
+          "text": "ወይከሥቱ፡ አፈ፡ አሕዛብ፡ ለአድልዎ፡ ለከንቱ፡ ወይሰብሑ፡ ስሞ፡ ለንጉሥ፡ ዘሥጋ፡ ለዓለም።"
+        },
+        {
+          "number": 34,
+          "unit_order": 34,
+          "source_marker": "34",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=34"
+          ],
+          "text": "ወኢትመጥዎሙ፡ እግዚኦ፡ ለእለ፡ ሀለዉ፡ በዘአቀምከ፡ ወኢይስሐቁነ፡ በድቀትነ፡ አላ፡ ሚጣ፡ ለምክሮሙ፡ ላዕለ፡ ርእሶሙ፡ ወአኅሥሮ፡ ለዘቆመ፡ ላዕሌነ።"
+        },
+        {
+          "number": 35,
+          "unit_order": 35,
+          "source_marker": "35",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=35"
+          ],
+          "text": "ተዘከረነ፡ እግዚኦ፡ በመዋዕለ፡ ምንዳቤነ፡ ወኪያየኒ፡ አፅንዓኒ፡ ንጉሠ፡ አማልክተ፡ ዘአንተ፡ አጽናዕከ፡ ኵሎ፡ ርእሰ።"
+        },
+        {
+          "number": 36,
+          "unit_order": 36,
+          "source_marker": "36",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=36"
+          ],
+          "text": "ወደይ፡ ቃለ፡ ሠናየ፡ ውስተ፡ አፉየ፡ በቅድሜሁ፡ ለአንበሳ፡ ወሚጦ፡ ለልቡ፡ ከመ፡ ይጽብዖ፡ ለዘይጸብዓነ፡ ለዝሉፉ፡ ወለእለ፡ ኀብሩ፡ ምስሌሁ።"
+        },
+        {
+          "number": 37,
+          "unit_order": 37,
+          "source_marker": "37",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=37"
+          ],
+          "text": "ወኪያነሰ፡ አድኅነነ፡ በእዴከ፡ ወርድአኒ፡ ሊተ፡ ለባሕታዊት፡ እንተ፡ አልብየ፡ ረዳኢ፡ መኑሂ፡ ዘእንበሌከ፡ እግዚኦ።"
+        },
+        {
+          "number": 38,
+          "unit_order": 38,
+          "source_marker": "38",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=38"
+          ],
+          "text": "እጸልእ፡ ክብሮሙ፡ ለኃጥአን፡ ወአስቈርር፡ ምስካቦሙ፡ ለቈላፋን፡ ወዘኵሉ፡ ነኪር።"
+        },
+        {
+          "number": 39,
+          "unit_order": 39,
+          "source_marker": "39",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=39"
+          ],
+          "text": "አንተ፡ ተአምር፡ ምንዳቤየ፡ ከመ፡ ኢይኤድመኒ፡ ሠርጐ፡ ክብርየ፡ ዘውስተ፡ ርእስየ፡ ዘቦቱ፡ አስተርኢ፡ በመዋዕለ፡ ክብርየ፡ ወአስቈርሮ፡ ከመ፡ ፀርቀ፡ ትክቶ፡ ወኢይሠረገዎ፡ ለመዋዕለ፡ ዕረፍትየ፡ ወክብርየ።"
+        },
+        {
+          "number": 40,
+          "unit_order": 40,
+          "source_marker": "40",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=40"
+          ],
+          "text": "ወኢበልዓት፡ አመትከ፡ ማእደ፡ ሐማ፡ ወኢያስተኤድማስቴሁ፡ ለንጉሥ፡ ወኢሰተይኩ፡ እምነ፡ ሞጻሕቶሙ።"
+        },
+        {
+          "number": 41,
+          "unit_order": 41,
+          "source_marker": "41",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=41"
+          ],
+          "text": "ወኢተፈሥሐት፡ ቦሙ፡ አመትከ፡ እምአመ፡ ቦእኩ፡ እስከ፡ ይእዜ፡ ዘእንበለ፡ ብከ፡ እግዚኦ፡ አምላከ፡ አብርሃም፡ እግዚኦ፡ ዘኵሎ፡ ትክል።"
+        },
+        {
+          "number": 42,
+          "unit_order": 42,
+          "source_marker": "42",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=5&verse=42"
+          ],
+          "text": "ስማዕ፡ ጸሎቶሙ፡ ለቅቡፃን፡ ወአድኅነነ፡ እምእደ፡ እለ፡ አኅሠሙ፡ ላዕሌነ፡ ወአድኅነኒ፡ ሊተ፡ እምእንተ፡ እፈርህ።"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 6,
+      "source_chapter_label": "6",
+      "heading": [
+        "Chapter 6"
+      ],
+      "units": [
+        {
+          "number": 1,
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=6&verse=1"
+          ],
+          "text": "ወእምዝ፡ አመ፡ ሣልስት፡ ዕለት፡ ሶበ፡ አኅለቀት፡ ጸልዮ፡ አሰሰት፡ አልባሲሃ፡ ወለብሰት፡ አልባሰ፡ ክብራ፡ ወኮነት፡ ግርምተ፡ ወጸውዓቶ፡ ለእግዚአብሔር፡ መድኅን፡ ዘውእቱ፡ ኵሎ፡ ይሬኢ።"
+        },
+        {
+          "number": 2,
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=6&verse=2"
+          ],
+          "text": "ወነሥአት፡ ክልኤ፡ አዋልዲሃ፡ ሰአሐቲሰ፡ ትምሕካ፡ እስመ፡ ታፈቅራ፡ ወካልእታ፡ ትፀውር፡ አልባሲሃ፡ ወትተልዋ፡ ይእቲሰ፡ ተሠነየት፡ በኵሉ፡ ወተሠርገወት፡ ወተረሠየት፡ ወኮነ፡ ገጻ፡ ፍሡሐ፡ ከመ፡ ዘተሐውር፡ ኀበ፡ አዕርክቲሃ፡ ወልባሰ፡ ኅዙን፡ እምፍርሀት፡ ሞት፡ ወቦአት፡ ኵሎ፡ ኆኅተ፡ ወበጽሐት፡ ኀበ፡ ንጉሥ፡ ወውእቱሰ፡ ይነብር፡ ዲበ፡ መንበረ፡ መንግሥቱ።"
+        },
+        {
+          "number": 3,
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=6&verse=3"
+          ],
+          "text": "ወልቡሰ፡ ውእቱ፡ አልባሰ፡ ግርማሁ፡ ወኵለንታሁ፡ በወርቅ፡ ወበዕንቊ፡ ዘብዙኅ፡ ሤጡ፡ ወግሩም፡ ውእቱ፡ ጥቀ፡ ወተመይጠ፡ ገጹ፡ ምስለ፡ ውእቱ፡ ክብሩ፡ ወነጸራ፡ በመዓት፡ ወፈርሀት፡ ንግሥት፡ ወመጽለወት፡ ወተንተነት፡ ወእስመከት፡ ላዕለ፡ ርእሰ፡ ወለታ፡ እንተ፡ ተሐውር፡ ቅድሜሃ።"
+        },
+        {
+          "number": 4,
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=6&verse=4"
+          ],
+          "text": "ወሜጠ፡ እግዚአብሔር፡ መንፈሰ፡ ለንጉሥ፡ ውስተ፡ የዋሃት፡ ወተዓገሣ፡ ወተንሥአ፡ እመንበሩ፡ ወሰሐባ፡ ወአንበራ፡ ውስተ፡ ሕጽኑ፡ ወአኀዘ፡ ይዬውሃ፡ በቃል፡ ሠናይ፡ ወይቤላ፡ ምንተ፡ ኮንኪ፡ አስቴር፡ አነ፡ እኁኪ፡ ከመ፡ ኢትሙቲ፡ እስመ፡ እኩይ፡ ሕገ፡ ብሔርነ።"
+        },
+        {
+          "number": 5,
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=6&verse=5"
+          ],
+          "text": "ወአንሥአ፡ በትሮ፡ እንተ፡ ወርቅ፡ ወአንበረ፡ ውስተ፡ ክሳዳ፡ ወሐቀፋ፡ ወይቤላ፡ ንግርኒ፡ ወትቤሎ፡ ሶበ፡ ርኢኩካ፡ እግዚእየ፡ ከመ፡ መልአከ፡ እግዚአብሔር፡ ደንገፀኒ፡ ልብየ፡ እምፍርሃተ፡ ክብርከኅ፡ እስመ፡ መድምም፡ አንተ፡ እግዚኦ፡ ወገጽከኒ፡ ምሉእ፡ ሞገሰ።"
+        },
+        {
+          "number": 6,
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=6&verse=6"
+          ],
+          "text": "ወእንዘ፡ ትትናገር፡ ደንገፀት፡ ወመጽለወት፡ ወወድቀት፡ በገጸ፡ ወደንገፀ፡ ንጉሥ፡ ወኵሉ፡ ሰብኡ፡ ወአኀዙ፡ ይዬውህዋ።"
+        },
+        {
+          "number": 7,
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=6&verse=7"
+          ],
+          "text": "ወይቤላ፡ ንጉሥ፡ ምንተ፡ ትፈቅዲ፡ አስቴር፡ ወበእንተ፡ ምንት፡ ዘታስተበቊዕኒ፡ እስከ፡ መንፈቀ፡ መንግሥትየ፡ ንሥኢለኪ፡ ይኩንኪ።"
+        },
+        {
+          "number": 8,
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=6&verse=8"
+          ],
+          "text": "ወትቤሎ፡ አስቴር፡ እስመ፡ ዕለተ፡ በዓል፡ ብየ፡ እመሰ፡ ፈቀድከ፡ ንጉሥ፡ ትምጻእ፡ ውስተ፡ በዓልየ፡ ዘእገብር፡ ዮም፡ አንተ፡ ወሐማ።"
+        },
+        {
+          "number": 9,
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=6&verse=9"
+          ],
+          "text": "ወይቤ፡ ንጉሥ፡ ጸውዕዎ፡ ለሐማ፡ ፍጡነ፡ ከመ፡ እግበር፡ ዘትቤለኒ፡ አስቴር፡ ወሖሩ፡ ክልኤሆሙ፡ ውስተ፡ በዓል፡ ዘገብረት፡ አስቴር።"
+        },
+        {
+          "number": 10,
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=6&verse=10"
+          ],
+          "text": "ወበውስተ፡ በዓለወኒ፡ ይቤላ፡ ንጌሥ፡ ለአስቴር፡ ምንተ፡ ትፈቅዲ፡ አስቴር፡ ንግሥት፡ ዘአስተብቋዕክኒ፡ እግበር፡ ለኪ።"
+        },
+        {
+          "number": 11,
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=6&verse=11"
+          ],
+          "text": "ወትቤሎ፡ ስእለትየሰ፡ ዘአስተበቊዓከ፡ አመ፡ ረከብኩ፡ ሞገሰ፡ በቅድመ፡ አዕይንቲከ፡ ኦንጉሥ፡ ከመ፡ ትምጻእ፡ አንተ፡ ወሐማ፡ ጌሠመ፡ ውስተ፡ በዓል፡ ዘአገብር፡ ለክሙ፡ ወጌሠመ፡ እገብሮ።"
+        },
+        {
+          "number": 12,
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=6&verse=12"
+          ],
+          "text": "ወወፅአ፡ ሐማ፡ እምኀበ፡ ፍሡሐ፡ ገጽ፡ እንዘ፡ ይትኀሠይ፡ ወእንዘ፡ ይወዕእ፡ ሶበ፡ ርእዮ፡ ሐማ፡ ለመርዶክዮስ፡ አይሁዳዊ፡ ውስተ፡ ዓፀድ፡ ተምዐ፡ ጥቀ።"
+        },
+        {
+          "number": 13,
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=6&verse=13"
+          ],
+          "text": "ወሖረ፡ ቤቶ፡ ወጸውዖሙ፡ ለአዕርክቲሁ፡ ወለሱዛራ፡ ብእሲቱ።"
+        },
+        {
+          "number": 14,
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=6&verse=14"
+          ],
+          "text": "ወአርአዮሙ፡ ብዕሎ፡ ወክብሮ፡ ወዘከመ፡ አዕበዮ፡ በውስተ፡ መንግሥቱ።"
+        },
+        {
+          "number": 15,
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=6&verse=15"
+          ],
+          "text": "ወይቤሎሙ፡ ሐማ፡ ኢጸውዓት፡ ንግሥት፡ ምስለ፡ ንጉሥ፡ ወኢመነሂ፡ ውስተ፡ በዓል፡ እንበለ፡ ንጉሥ፡ ወኪያየለ፡ ጸውዓተኒ።"
+        },
+        {
+          "number": 16,
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=6&verse=16"
+          ],
+          "text": "ወባሕቱ፡ ሊተሰ፡ ኢይሔውዘኒ፡ ዝንቱ፡ ሶበ፡ ርኢክዎ፡ ለመርዶክዮስ፡ አይሁዳዊ፡ ውስተ፡ ዓፀድ።"
+        },
+        {
+          "number": 17,
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=6&verse=17"
+          ],
+          "text": "ወትቤሎ፡ ሱዛራ፡ ብእሲቱ፡ ወአዕርክቲሁ፡ ሰይግዝሙ፡ ዕፀ፡ ዘሐምሳ፡ መእመት፡ ቆሙ፡ ወበጽባሕ፡ ንግሮ፡ ለንጉሥ፡ ወይሰቀል፡ ቦቱ፡ መርዶክዮስ፡ ወአንተሰ፡ ባእ፡ ውስተ፡ በዓል፡ እስለ፡ ንጉሥ፡ ወተፈሣሕ።"
+        },
+        {
+          "number": 18,
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=6&verse=18"
+          ],
+          "text": "ወአደሞ፡ ለሐማ፡ ዝንቱ፡ ነገር፡ ወአስተዳለወ፡ ዕፀ።"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 7,
+      "source_chapter_label": "7",
+      "heading": [
+        "Chapter 7"
+      ],
+      "units": [
+        {
+          "number": 1,
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=7&verse=1"
+          ],
+          "text": "ወአንፈጸ፡ እግዚአብሔር፡ ንዋመ፡ እምኔሁ፡ ለንጉሥ፡ በይእቲ፡ ሌሊት፡ ወይቤሎ፡ ለጸሐፊሁ፡ ያምጽእ፡ ሎቱ፡ መጻሕፍተ፡ ተዝካር፡ ዘኖብያት፡ ዘመዋዕለ፡ ትካት፡ ወያንብቡ፡ ሎቱ፡ ዘውስተ፡ መጻሕፍት።"
+        },
+        {
+          "number": 2,
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=7&verse=2"
+          ],
+          "text": "ወእምዝ፡ ረከቡ፡ ውስተ፡ መጽሐፍ፡ ኀበ፡ ጸሐፉ፡ በእንተ፡ መርዶክዮስ፡ ዘከመ፡ ዜነዎ፡ ለንጉሥ፡ በእንተ፡ ክልኤቱ፡ ሕፅዋኒሁ፡ ለንጉሥ፡ እለ፡ የዓቅብዎ፡ ለንጉሥ፡ ወፈቀዱ፡ ይቅትልዎ፡ ለአርጤክስስ፡ ንጉሥ።"
+        },
+        {
+          "number": 3,
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=7&verse=3"
+          ],
+          "text": "ወይቤ፡ ንጉሥ፡ ኦይ፡ ክብር፡ ወጸጋ፡ ዘገበርነ፡ ሎቱ፡ ለመርዶክዮስ፡ ወይቤልዎ፡ ደቁ፡ ለንጉሥ፡ አልቦ፡ ዘገበርነ፡ ሎቱ፡ ለመርዶክዮስ፡ እግዚኦ።"
+        },
+        {
+          "number": 4,
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=7&verse=4"
+          ],
+          "text": "ወእንዘ፡ ይትናገር፡ ንጉሥ፡ በእንተ፡ አኰቴቱ፡ ለመርዶክዮስ፡ መጽሐ፡ ሐማ፡ ውስተ፡ ዓፀድ፡ ወይቤ፡ ንጉሥ፡ መኑ፡ ዝዘውስተ፡ ዓፀድ፡ ወይቤልዎ፡ ሐማ።"
+        },
+        {
+          "number": 5,
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=7&verse=5"
+          ],
+          "text": "ወእምዝ፡ ቦአ፡ ሐማ፡ ይንግሮ፡ ለንጉሥ፡ ከመ፡ ይስቅሎ፡ ለመርዶክዮስ፡ ውስተ፡ ዕፅ፡ ዘአስተዳለወ።"
+        },
+        {
+          "number": 6,
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=7&verse=6"
+          ],
+          "text": "ወይቤልዎ፡ ደቁ፡ ለንጉሥ፡ ናሁ፡ ሐማ፡ ይቀውም፡ ውስተ፡ ዓፀድ፡ ወይቤሎሙ፡ ንጉሥ፡ ጸውዕዎ።"
+        },
+        {
+          "number": 7,
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=7&verse=7"
+          ],
+          "text": "ወይቤሎ፡ ንጉሥ፡ ለሐማ፡ ምንተ፡ እግበር፡ ሎቱ፡ ለብእሲ፡ ዘአነ፡ እፈቅድ፡ አክብሮ፡ ወይቤ፡ ሐማ፡ በልቡ፡ መነ፡ ይፈቅድ፡ ንጉሥ፡ ያክብር፡ ዘእንበለ፡ ኪያየ፡ ወይቤሎ፡ ለንጉሥ፡ ለብእሲ፡ ዘይፈቅድ፡ ንጉሥ፡ ያክብሮ፡ ያምጽኡ፡ ሎቱ፡ ደቂቀ፡ ንጉሥ፡ ሜላተ፡ ዘይለብስ፡ ንጉሥ፡ ወፈረሰ፡ ዘይፄዓን፡ ንጉሥ።"
+        },
+        {
+          "number": 8,
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=7&verse=8"
+          ],
+          "text": "ወየሀበዎ፡ ለአሐዱ፡ እምአዕርክቲሁ፡ ለንጉሥ፡ እለ፡ ክቡራን፡ ወያልብስዎ፡ ለውእቱ፡ ብእሲ፡ ዘአክበሮ፡ ንጉሥ፡ ወያጽዕንዎ፡ ዲበ፡ ፈረሱ፡ ወይሰብከ፡ ሎቱ፡ አዋዲ፡ ውስተ፡ መርኅበ፡ ሀገር፡ እንዘ፡ ይብል፡ ከመዝ፡ ይከውን፡ ሎቱ፡ ለብእሲ፡ ዘንጉሥ፡ አክበሮ።"
+        },
+        {
+          "number": 9,
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=7&verse=9"
+          ],
+          "text": "ወይቤሎ፡ ንጉሥ፡ ለሐማ፡ ሠናየ፡ ትቤ፡ ግብር፡ ከማሁ፡ ለመርዶክዮስ፡ አይሁዳዊ፡ ዘይጸመድ፡ ውስተ፡ ዓፀድ፡ ወኢትኅድግ፡ አሐተ፡ ቃለ፡ እምዘነበብከ።"
+        },
+        {
+          "number": 10,
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=7&verse=10"
+          ],
+          "text": "ወነሥአ፡ ሐማ፡ አልባሰ፡ ወፈረሰ፡ ወአልበሶ፡ ለመርዶክዮስ፡ ወአፅዓኖ፡ ዲበ፡ ፈረስ፡ ወአዖዶ፡ ውስተ፡ መርኅበ፡ ሀገር፡ ወሰበከ፡ እንዘ፡ ይብል፡ ከመዝ፡ ይሬሲ፡ ለኵሉ፡ ብእሲ፡ ዘፈቀደ፡ ንጉሥ፡ ያክብሮ።"
+        },
+        {
+          "number": 11,
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=7&verse=11"
+          ],
+          "text": "ወእምዝ፡ ገብአ፡ መርዶክዮስ፡ ውስተ፡ ዓፀድ፡ ወሐማኒ፡ አተወ፡ ቤቶ፡ እንዘ፡ ያቴሕት፡ ርእሶ።"
+        },
+        {
+          "number": 12,
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=7&verse=12"
+          ],
+          "text": "ወነገራ፡ ለሱዛራ፡ ብእሲቱ፡ ወለአርካኒሁ፡ ወይቤልዎ፡ አዕርክቲሁ፡ ወብእሲቱ፡ እመሰ፡ ለመርዶክዮስ፡ ዘእምዘመደ፡ አይሁድ፡ ተትሕትከ፡ ሎቱ፡ ቅድሜሁ፡ ወደቀ፡ ወኢትክል፡ መዊዖቶ፡ እስመ፡ እግዚአብሔር፡ ምስሌሁ።"
+        },
+        {
+          "number": 13,
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=7&verse=13"
+          ],
+          "text": "ወአንጐጒእዎ፡ ለሐማ፡ ውስተ፡ በዓል፡ ዘገብረት፡ አስቴር።"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 8,
+      "source_chapter_label": "8",
+      "heading": [
+        "Chapter 8"
+      ],
+      "units": [
+        {
+          "number": 1,
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=8&verse=1"
+          ],
+          "text": "ወቦኡ፡ ንጉሥ፡ ወሐማ፡ ይምስሑ፡ ምስለ፡ ንግሥት።"
+        },
+        {
+          "number": 2,
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=8&verse=2"
+          ],
+          "text": "ወይቤላ፡ ንጉሥ፡ ለአስቴር፡ አመ፡ ሳኒታ፡ በዓል፡ ምንተ፡ ከንኪ፡ አስቴር፡ ወምንት፡ ውእቱ፡ ዘታስተበቊዕኒ፡ ሶበሰ፡ ፈቀድኪ፡ መንፈቀ፡ መንግሥትየ፡ እምወሀብኩኪ።"
+        },
+        {
+          "number": 3,
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=8&verse=3"
+          ],
+          "text": "ወአውሥአቶ፡ ወትቤሎ፡ እመሰ፡ ረከብኩ፡ ሞገሰ፡ በቅድሜከ፡ ንጉሥ፡ ይትወሀባ፡ ለነፍስየ፡ ስእለታ።"
+        },
+        {
+          "number": 4,
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=8&verse=4"
+          ],
+          "text": "ወለቃልየኒ፡ አስተብቊዖታ፡ እስመ፡ ተሠየጥነ፡ አነ፡ ወሕዝብየ፡ ወኮነ፡ ለሞት፡ ወለተበርብሮ፡ ወለቅንየት፡ ንሕነ፡ ወውሉድነ፡ ወአርመምኩ፡ እስመ፡ ኢይደልዎ፡ ለመስተዋድይ፡ ይባእ፡ ውስተ፡ ዓፀደ፡ ንጉሥ።"
+        },
+        {
+          "number": 5,
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=8&verse=5"
+          ],
+          "text": "ወይቤ፡ ንጉሥ፡ መኑ፡ ውእቱ፡ ዝንቱ፡ ዘተሀበለ፡ ይግበር፡ ዘንተ፡ ግብረ።"
+        },
+        {
+          "number": 6,
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=8&verse=6"
+          ],
+          "text": "ወትቤ፡ አስቴር፡ ብእሲ፡ ጸላኢነ፡ ሐማ፡ ወሶበ፡ ሰምዐ፡ ሐማ፡ ፈርሀ፡ እምነ፡ ንጉሥ፡ ወእምነ፡ ንግሥት።"
+        },
+        {
+          "number": 7,
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=8&verse=7"
+          ],
+          "text": "ወተንሥአ፡ ንጉሥ፡ እምኀበ፡ ይሰቲ፡ ወቦአ፡ ውስተ፡ ገነት፡ ወሐማሰ፡ አስተብቊዓ፡ ለንግሥት፡ እስመ፡ አእመረ፡ ከመ፡ በጽሐቶ፡ እኪት።"
+        },
+        {
+          "number": 8,
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=8&verse=8"
+          ],
+          "text": "ወገብአ፡ ንጉሥ፡ እምነ፡ ገነቱ፡ ወሐማሰ፡ ወድቀ፡ ውስተ፡ ዓራት፡ ወይትጋነይ፡ ላቲ፡ ለንግስት፡ ወይቤሎ፡ ንጉሥ፡ ትትዔገለኒኑ፡ ብእሲትየ፡ በቤትየ፡ ወሶበ፡ ሰብዐ፡ ሐማ፡ ጸልመ፡ ገጹ።"
+        },
+        {
+          "number": 9,
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=8&verse=9"
+          ],
+          "text": "ወይቤሎ፡ ቡግታን፡ አሐዱ፡ እምሕዕዋኒሁ፡ ለንጉሥ፡ ሀለወ፡ ዕፅ፡ ዘአስተዳለዎ፡ ለመርዶክዮስ፡ ዘአይድዐ፡ በእንተ፡ ንጉሥ፡ ዕፅሰ፡ ትኩል፡ ውስተ፡ ቤተ፡ ሐማ፡ ዘሐምሳ፡ በእመት፡ ኑኁ፡ ወይቤ፡ ንጉሥ፡ ይስቅልዎ፡ ቦቱ።"
+        },
+        {
+          "number": 10,
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=8&verse=10"
+          ],
+          "text": "ወሰቀልዎ፡ ዲበ፡ ውእቱ፡ ዕፅ፡ ዘአስተዳለወ፡ ለመርዶክዮስ፡ ወእምዝ፡ ኀደገ፡ ንጉሥ፡ መዓቶ።"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 9,
+      "source_chapter_label": "9",
+      "heading": [
+        "Chapter 9"
+      ],
+      "units": [
+        {
+          "number": 1,
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=9&verse=1"
+          ],
+          "text": "ወበይእቲ፡ ዕለት፡ ጸገዋ፡ ንጉሥ፡ አርጤክስስ፡ ለአስቴር፡ ኵሎ፡ ንዋዮ፡ ለሐማ፡ መስተዋድይ፡ ወፀውዖ፡ ንጉሥ፡ ለመርዶክዮስ፡ ወአይድዓቶ፡ አስቴር፡ ለንጉሥ፡ ከመ፡ በቤቱ፡ ልህቀት።"
+        },
+        {
+          "number": 2,
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=9&verse=2"
+          ],
+          "text": "ወነሥአ፡ ንጉሥ፡ ህልቀቶ፡ እንተ፡ ነሥአ፡ እምእደ፡ ሐማ፡ ወወሀቦ፡ ለመርዶክዮስ፡ ወሤመቶ፡ አስቴር፡ ለመርዶክዮስ፡ ላዕለ፡ ኵሉ፡ ዘሐማ።"
+        },
+        {
+          "number": 3,
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=9&verse=3"
+          ],
+          "text": "ወእምዝ፡ ዳግመ፡ ነበበቶ፡ ለንጉሥ፡ ወአስተብቊዓቶ፡ ወሰገደት፡ ታሕተ፡ እገሪሁ፡ ከመ፡ ይኅድግ፡ ኵሎ፡ እኪተ፡ ዘገብረ፡ ሐማ፡ ላዕለ፡ አይሁድ።"
+        },
+        {
+          "number": 4,
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=9&verse=4"
+          ],
+          "text": "ወአንሥአ፡ ንጉሥ፡ በትሮ፡ ዘወርቅ፡ ወአንበረ፡ ዲበ፡ ርእሳ፡ ለአስቴር፡ ወተንሥአት፡ ወቆመት፡ ቅድመ፡ ንጉሥ።"
+        },
+        {
+          "number": 5,
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=9&verse=5"
+          ],
+          "text": "ወትቤሎ፡ አስቴር፡ ለእመ፡ ትፈቅደኒ፡ ወረከብኩ፡ ሞገሰ፡ በቅድሜሁ፡ ለአክ፡ ያምጽኡ፡ መጽሐፈ፡ ዘጸሐፈ፡ ሐማ፡ ከመይቅትልዎሙ፡ ለአይሁድ፡ ውስተ፡ መንግሥትከ።"
+        },
+        {
+          "number": 6,
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=9&verse=6"
+          ],
+          "text": "ወእፎ፡ እክል፡ ርእዮተ፡ እኪቶሙ፡ ለሕዝብየ፡ ወእፎ፡ እክል፡ ሐይወ፡ እምድኅረ፡ ሞቶሙ፡ ለሕዝብየ።"
+        },
+        {
+          "number": 7,
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=9&verse=7"
+          ],
+          "text": "ወይቤላ፡ ንጉሥ፡ ለአስቴር፡ ናሁ፡ ኵሎ፡ ንዋዮ፡ ለሐማ፡ ወሀብኩኪ፡ ወጸገውኩኪ፡ ወኪያሁ፡ ሰቀልኩ፡ ዲበ፡ ዕፅ፡ እስመ፡ አንሥአ፡ እዴሁ፡ ላዕለ፡ አይሁድ፡ ምንተ፡ ትፈቅዲ፡ ይጽሐፉ።"
+        },
+        {
+          "number": 8,
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=9&verse=8"
+          ],
+          "text": "ንሥኢ፡ ህልቀትየ፡ ወይኅትሙ፡ እንከሰ፡ በማኅተምየ፡ ዘከመ፡ ትፈቅዲ፡ እስመ፡ ኵሉ፡ ዘተጽሕፈ፡ በትእዛዘ፡ ንጉሥ፡ ተኀትመ፡ በማኅተመ፡ ንጉሥ፡ አልቦ፡ ዘየአቢ።"
+        },
+        {
+          "number": 9,
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=9&verse=9"
+          ],
+          "text": "ወጸውዑ፡ ጸሐፍተ፡ በቀዳሚ፡ ወርኀ፡ ኔሳን፡ አመ፡ ዓሠርቱ፡ ወሠለስቱ፡ ዓመት፡ ወጸሐፉ፡ ለአይሁድ፡ ዘከመ፡ አዘዞሙ፡ ንጉሥ፡ ለመንግሥቱ፡ ወለመኳንንቱ፡ ወለመሳፍንቱ፡ እምነ፡ ህንደኬ፡ እስከ፡ ኢትዮጵያ፡ በበበሐውርቲሁ፡ ወበበነገረ፡ ብሔሮሙ።"
+        },
+        {
+          "number": 10,
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=9&verse=10"
+          ],
+          "text": "ወጸሐፉ፡ በቃለ፡ ንጉሥ፡ ወኀተሙ፡ በማኅተሙ፡ ወፈነዉ፡ መጻሕፍቲሁ፡ ምስለ፡ ሐዋርያት።"
+        },
+        {
+          "number": 11,
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=9&verse=11"
+          ],
+          "text": "ወከመዝ፡ አዘዞሙ፡ ይግበሩ፡ በስሙ፡ ለኵሉ፡ አህጉር፡ ወይርድእዎሙ፡ ወይዕቀብዎሙ፡ እምእደ፡ ፀሮሙ፡ ወእምእለ፡ ይቀውሙ፡ ላዕሌሆሙ፡ በከመ፡ ይፈቅዱ፡ እሙንቱ።"
+        },
+        {
+          "number": 12,
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=9&verse=12"
+          ],
+          "text": "በይእቲ፡ ዕለት፡ በኵሉ፡ መንግሥቱ፡ ለአከ፡ አርጤክስስ፡ አመ፡ ዓሡሩ፡ ወሠሉሱ፡ ለወርኀ፡ አዳር፡ ዘዓሠርቱ፡ ወክልኤቱ፡ አውራኅ።"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 10,
+      "source_chapter_label": "10",
+      "heading": [
+        "Chapter 10"
+      ],
+      "units": [
+        {
+          "number": 1,
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=1"
+          ],
+          "text": "ኀበ፡ ተጽሕፋ፡ እማንቱ፡ መጻሕፍተ፡ ንጉሥ፡ ዓቢይ፡ አርጤክስስ፡ ለብሔረ፡ ህንደኬ፡ ወለብሔረ፡ ኢትዮጵያ፡ ለምእት፡ ዕሥራ፡ ወሰብዓቱ፡ በሐውርት፡ ወለመሳፍንት፡ ወለመኳንንት።"
+        },
+        {
+          "number": 2,
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=2"
+          ],
+          "text": "ላዕለ፡ መልእክተ፡ ዚአነ፡ ይግበሩ፡ ትፍሥሕተ፡ ለክሙ፡ ብዙኀን፡ በአፈድፍዶ፡ እለ፡ ይበቊዕዎሙ፡ በአስተምህሮ፡ ወበአፍጥኖ፡ ሢመት፡ አብዝኁ፡ ትዕቢተ።"
+        },
+        {
+          "number": 3,
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=3"
+          ],
+          "text": "ወአኮ፡ ላዕለ፡ እለ፡ ይትኴነኑ፡ ለነ፡ በእንቲአሆሙ፡ ዘይፈቅዱ፡ ያሕስሙ፡ ላዕሌሆሙ፡ ወጽጋቦሙ፡ ኢይክሉ፡ ፀዊረ፡ አላ፡ ላዕለ፡ እለ፡ ይበቊዕዎሙ፡ ይሔልዩ፡ ከመ፡ ይትመየንዎሙ።"
+        },
+        {
+          "number": 4,
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=4"
+          ],
+          "text": "ወአኮ፡ አኰቴተ፡ ሰብእ፡ ዘይክሕዱ፡ ባሕቲቶ፡ ዓዲ፡ ከመ፡ ሐዲሳነ፡ ብዕል፡ ያሌዕሉ፡ ርእሶሙ፡ በትዕቢተ፡ ወለእግዚአብሔር፡ ዘኵሎ፡ ይሬኢ፡ ዘልፈ፡ ወእግዚአብሔር፡ ጸላኤ፡ እኪት፡ ይመስሎሙ፡ ዘያመሥጡ፡ እምኵነኔሁ።"
+        },
+        {
+          "number": 5,
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=5"
+          ],
+          "text": "ወመብዝኅጾሙ፡ ባሕቱ፡ ለብዙኃን፡ እለ፡ ይትኴነኑ፡ ወሥሩዓን፡ እለ፡ ተአመናሆሙ፡ ይትኰነኑ፡ በተአኅዎ፡ ከመ፡ ይትለ፡ አኩነ፡ እሙንቱ፡ ተሳተፉ፡ ላዕለ፡ ደም፡ ንጽሕ፡ ወሠርዑ፡ ላዕሌሆሙ፡ ሕማመ፡ ዕፁበ፡ በሐልዮ፡ እኩይ።"
+        },
+        {
+          "number": 6,
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=6"
+          ],
+          "text": "ወበሐስዎ፡ ምክር፡ ኀይጦሙ፡ መንግሥተ፡ እንተ፡ ትነብር፡ በየዋሃት፡ ወበኅድአት።"
+        },
+        {
+          "number": 7,
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=7"
+          ],
+          "text": "ወባሕቱ፡ በሐልዮ፡ ይከውን፡ ወአኮ፡ ከመ፡ ናፈድፍድ፡ እምነ፡ ዘቅድሜነ፡ ወዘከመ፡ ተወፈይነ፡ ሕጎ፡ ከማሁ፡ ሀለውነ።"
+        },
+        {
+          "number": 8,
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=8"
+          ],
+          "text": "ወእምድኅረ፡ ዝንቱ፡ ባሕቱ፡ ነኃሥሥ፡ ዘተገብረ፡ ዘእንበለ፡ ሕግ፡ እስመ፡ ረከቡ፡ ክብረ፡ ዘኢይደልዎሙ፡ እለ፡ ኢይክሉ፡ ርቱዐ፡ ኰንኖ።"
+        },
+        {
+          "number": 9,
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=9"
+          ],
+          "text": "ወሐላይነ፡ እምድኅረ፡ ዝንቱ፡ በዘትነብር፡ መንግሥትነ፡ እንበለ፡ ሀውክ፡ ወበዘይረትዕ፡ ንብረተ፡ አሕዛብ፡ ወዘሰ፡ ያስተርኢ፡ ዘልፈ፡ ንኴንን፡ በየዋሃት።"
+        },
+        {
+          "number": 10,
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=10"
+          ],
+          "text": "ወከመ፡ ሐማሰ፡ ወልደ፡ አመዶቱ፡ ውፁዕ፡ ውእቱ፡ እምጽድቅ፡ ወእምቅድመ፡ ፋርስ፡ ርኁቀ፡ ኮነ፡ ብዙኀ፡ እምኂሩትነ፡ ወኮነ፡ ነኪረ፡ እንዘ፡ ንቡር፡ ውስቴትነ።"
+        },
+        {
+          "number": 11,
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=11"
+          ],
+          "text": "ረኪቦ፡ ውእቱኒ፡ እንተ፡ ላዕለ፡ ሕዝብ፡ ሢመተ፡ ወምሕረተ፡ ወፈድፋደሰ፡ ሢመተ፡ ረከበ፡ እስከ፡ አቡነ፡ ንብሎ፡ ወመድግመ፡ መንግሥትነ፡ ወምስለ፡ መንበርነ፡ ረኪቦ።"
+        },
+        {
+          "number": 12,
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=12"
+          ],
+          "text": "ዓዲ፡ ኢአከሎ፡ ዝንቱ፡ አላ፡ አዕበየ፡ ተዓብዮ፡ ወሐለየ፡ ያውዕአነ፡ እመንግሥትነ፡ ወይትማልአነ፡ ነፍሰነ።"
+        },
+        {
+          "number": 13,
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=13"
+          ],
+          "text": "ወለመርዶክዮስ፡ ዘበኵሉ፡ ይበቊዓነ፡ ወይፌውሰነ፡ ወያሠልጥ፡ ለነ፡ ወለአስቴርኒ፡ ሱታፌ፡ መንግሥትነ፡ ዘእንበለ፡ ኂስ፡ ምስለ፡ ኵሉ፡ ሕዝቦሙ፡ በብዙኅ፡ ተመይኖ፡ ወበአስተጣዕሞ፡ ነገር፡ ስእነ፡ ያማስኖሙ።"
+        },
+        {
+          "number": 14,
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=14"
+          ],
+          "text": "ወበበይነ፡ ዝንቱ፡ ነገር፡ እስመ፡ በየዋሃት፡ ንነብር፡ ረከብነ፡ መንግሥተ፡ ፋርስ፡ ወውእቱሰ፡ ፈቀደ፡ ያፍልስ፡ በሕገ፡ መቄዶንያ።"
+        },
+        {
+          "number": 15,
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=15"
+          ],
+          "text": "ወንሕነ፡ ባሕቱ፡ ለእለ፡ ፈቀደ፡ ያማስኖሙ፡ ለአይሁድ፡ ረከብናሆሙ፡ ከመ፡ አኮ፡ በእከዮሙ፡ አላ፡ በጽድቅ፡ ንብረተ፡ ሕጎሙ።"
+        },
+        {
+          "number": 16,
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=16"
+          ],
+          "text": "ወአማን፡ ውሉደ፡ እግዚአብሔር፡ ልዑል፡ ወዓቢይ፡ ወሕያው፡ እግዚአብሔር፡ ዘያስተዳሉ፡ ለነ፡ ወለእለ፡ እምቅድሜነ፡ መንግሥተ፡ ወለነኒ፡ በከመ፡ ልብነ።"
+        },
+        {
+          "number": 17,
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=17"
+          ],
+          "text": "ወሠናየ፡ ባሕቱ፡ ትገብሩ፡ ለእመ፡ ኢሰማዕክሙ፡ ትእዛዘ፡ ሐማ፡ ወልደ፡ አመዶቱ፡ ወቃለ፡ መጽሐፍ፡ ዘፈነወ።"
+        },
+        {
+          "number": 18,
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=18"
+          ],
+          "text": "እስመ፡ ለሊሁ፡ ውእቱ፡ ሐለዩ፡ ለዝንቱ፡ ግብር፡ በቅድመ፡ አንቀጸ፡ ሱሳ፡ ሀገር፡ ተፀልበ፡ ምስለ፡ ኵሉ፡ ሰብኡ፡ እስመ፡ ፍዳሁ፡ ዘኵሎ፡ ይመልክ፡ እግዚአብሔር፡ ፍጡነ፡ ፈደዮ፡ ፎነኔሁ።"
+        },
+        {
+          "number": 19,
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=19"
+          ],
+          "text": "ወአርእይዋ፡ ለዛቲ፡ መጽሐፍ፡ ሰፊሐክሙ፡ በኵሉ፡ መካን፡ ገሃደ፡ ወኅድግዎሙ፡ ለአይሁድ፡ ይንበሩ፡ በከመ፡ ሕጎሙ።"
+        },
+        {
+          "number": 20,
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=20"
+          ],
+          "text": "ወርድእዎሙ፡ በመዋዕለ፡ ምንዳቤሆሙ፡ ዘአጠቅዎሙ፡ ቀዲሙ፡ አመ፡ ዓሠሩ፡ ወሠሉሱ፡ ለሠርቀ፡ አዳር፡ ዘዓሠርቱ፡ ወክልኤቱ፡ እውራኅ፡ እምይእቲ፡ ዕለት፡ እስከ፡ ዛቲ፡ ሰዓት።"
+        },
+        {
+          "number": 21,
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=21"
+          ],
+          "text": "ዘእምኵሉ፡ ይጸንዕ፡ እግዚአብሔር፡ ህየንተ፡ ሙስናሆሙ፡ ለሕዝብ፡ ኅሩያኅ፡ ገብረ፡ ሎሙ፡ ትፍሥሕተ።"
+        },
+        {
+          "number": 22,
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=22"
+          ],
+          "text": "ወአንትሙኒ፡ ከመ፡ ስሙይ፡ በበዓላቲክሙ፡ በእሙር፡ ወፍሉጥ፡ ዕለት፡ ግበሩ፡ ከማሁ።"
+        },
+        {
+          "number": 23,
+          "unit_order": 23,
+          "source_marker": "23",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=23"
+          ],
+          "text": "ወይእዜኒ፡ እምድኅረ፡ ዝንቱ፡ ሕይወት፡ ይከውን፡ ለእለ፡ ይፈቅዱ፡ ሠናየ፡ ለፋርስ፡ ወለእለ፡ ኪያነ፡ ይፈቅዱ፡ ይዕልዉ፡ ተዝካረ፡ ሙስናሆሙ።"
+        },
+        {
+          "number": 24,
+          "unit_order": 24,
+          "source_marker": "24",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=24"
+          ],
+          "text": "ወኵሉ፡ ብሔር፡ አው፡ ሀገር፡ በኵለሄ፡ ዘኢገብረ፡ ከመዝ፡ በኲናት፡ ወበእሳት፡ የኀልቅ፡ በመዓት፡ ወአኮ፡ ለሰብእ፡ ባሕቲቶሙ፡ ዘይከውን፡ ሙስና፡ አላ፡ ለአራዊትኒ፡ ወለአዕዋፍኒ፡ ለዝሉፉ፡ ዘይከውን።"
+        },
+        {
+          "number": 25,
+          "unit_order": 25,
+          "source_marker": "25",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=25"
+          ],
+          "text": "ወአርአይዋ፡ ለዛቲ፡ መጽሐፍ፡ ገሃደ፡ ይስፍሕዋ፡ ወያርእይዋ፡ ወይኩን፡ ድልዋነ፡ ኵሎሙ፡ አይሁድ፡ በይእቲ፡ ዕለት፡ ከመ፡ ይቅትሉ፡ ፀሮሙ።"
+        },
+        {
+          "number": 26,
+          "unit_order": 26,
+          "source_marker": "26",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=26"
+          ],
+          "text": "ወወፅኡ፡ እለ፡ ይፄዓኑ፡ አፍራሰ፡ እንዘ፡ ይጔጒኡ፡ ከመ፡ ይግበሩ፡ ትእዛዘ፡ ንጉሥ፡ ወተሠይመ፡ ዝንቱ፡ ትእዛዝ፡ ውስተ፡ ሱሳ፡ ሀገር።"
+        },
+        {
+          "number": 27,
+          "unit_order": 27,
+          "source_marker": "27",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=27"
+          ],
+          "text": "ወወፅአ፡ መርዶክዮስ፡ እንዘ፡ ልቡስ፡ አልባሰ፡ መንግሥት፡ ዘበአክሊለ፡ ወርቅ፡ ወጽንብል፡ ሢራየ፡ ሜላት፡ ወርእዩ፡ እለ፡ ሀለዉ፡ ውስተ፡ ሱሳ፡ ወተፈሥሑ።"
+        },
+        {
+          "number": 28,
+          "unit_order": 28,
+          "source_marker": "28",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=28"
+          ],
+          "text": "ወለአይሁድሰ፡ ኮነ፡ ብርሃን፡ ወትፍሥሕት፡ በበሀገሩ፡ ወበበብሔሩ፡ በኀበ፡ ተሠይመ፡ ውእቱ፡ ትእዛዝ፡ ወኀበ፡ ተረክበ፡ ውእቱ፡ መጽሐፍ፡ ዘፍሥሓ፡ ወዘጽጋብ፡ ለአይሁድ፡ ወዕረፍት፡ ወኀሤት።"
+        },
+        {
+          "number": 29,
+          "unit_order": 29,
+          "source_marker": "29",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=10&verse=29"
+          ],
+          "text": "ወብዙኀን፡ እለ፡ አምኑ፡ አሕዛብ፡ ወእለ፡ ተገዝሩ፡ ወተሐረሙ፡ በእንተ፡ ፍርሀቶሙ፡ ለአይሁድ።"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 11,
+      "source_chapter_label": "11",
+      "heading": [
+        "Chapter 11"
+      ],
+      "units": [
+        {
+          "number": 1,
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=1"
+          ],
+          "text": "እስመ፡ ዓሠርቱ፡ ወክልኤቱ፡ አውራኅ፡ አመ፡ ዓሡሩ፡ ወሠሉሱ፡ ለወርኀ፡ አዳር፡ በጽሐ፡ መጽሐፍ፡ ዘጸሐፈ፡ ንጉሥ።"
+        },
+        {
+          "number": 2,
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=2"
+          ],
+          "text": "በይእቲ፡ ዕለት፡ ተኀጒሉ፡ እለ፡ ቆሙ፡ ላዕለ፡ አይሁድ፡ ወአልቦ፡ እንከ፡ ዘተቃተሎሙ፡ ለአይሁድ፡ እስመ፡ ፈርህዎሙ።"
+        },
+        {
+          "number": 3,
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=3"
+          ],
+          "text": "ወመላእክተ፡ አሕዛብኒ፡ ወመገብትኒ፡ ወጸሐፍትኒ፡ ወዓበይተ፡ ንጉሥኒ፡ ያከብርዎሙ፡ ለአይሁድ፡ በእንተ፡ ፍርሀተ፡ መርዶክዮስ።"
+        },
+        {
+          "number": 4,
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=4"
+          ],
+          "text": "ወይትሔዘቡ፡ እስመ፡ በመጽሐፈ፡ ንጉሥ፡ ተሠይመ፡ በኵሉ፡ መንግሥቱ።"
+        },
+        {
+          "number": 5,
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=5"
+          ],
+          "text": "ወበሱሳ፡ ሀገር፡ ቀተሉ፡ አይሁድ፡ ኃምስተ፡ ምእተ፡ ወሰብዓ፡ ወሠለስተ።"
+        },
+        {
+          "number": 6,
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=6"
+          ],
+          "text": "ወጎራንሂ፡ ወደላፎን፡ ወፋስጋ፡ ወፈርደንታ፡ ወቤርያ፡ ወሰርበካ፡ ወመርሶን፡ ወአሮፍዮን፡ ወኤርሴዎን፡ ወዘቦቲታን፡ ደቂቀ፡ ሐማ፡ ወልደ፡ አመዶቱ፡ ቡግያዊ፡ ጸላኢሆሙ፡ ለአይሁድ፡ ለዐሠርቲሆሙ፡ አኃዝዎሙ፡ ወሰቀልዎሙ፡ ወበርበሩ፡ ንዋዮሙ፡ በይእቲ፡ ዕለት።"
+        },
+        {
+          "number": 7,
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=7"
+          ],
+          "text": "ወዜነውዎ፡ ለንጉሥ፡ ሀኍቈ፡ ሰብእ፡ ዘሞተ፡ በሱሳ፡ ሀገር።"
+        },
+        {
+          "number": 8,
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=8"
+          ],
+          "text": "ወይቤላ፡ ንጉሥ፡ ለአስቴር፡ ቀተሉ፡ አይሁድ፡ በሱሳ፡ ሀገር፡ ኃምስተ፡ ምእተ፡ ወሰብዓ፡ ወሠለስተ፡ እደወ።"
+        },
+        {
+          "number": 9,
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=9"
+          ],
+          "text": "ወእፎ፡ እንጋ፡ ይገብሩ፡ በአድያም፡ ምንተ፡ እንከ፡ ታስተበቊዒ፡ በቅድሜየ፡ እግበር፡ ለኪ።"
+        },
+        {
+          "number": 10,
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=10"
+          ],
+          "text": "ወትቤሎ፡ አስቴር፡ ለንጉሥ፡ ሀቦሙ፡ ለአይሁድ፡ ከማሁ፡ ይግበሩ፡ እንተ፡ ጌሠም፡ ወይስቅሉ፡ ዓሠርቲሆሙ፡ ደቂቀ፡ ሐማ፡ ወአዝዝ፡ ከማሁ፡ ይግበሩ።"
+        },
+        {
+          "number": 11,
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=11"
+          ],
+          "text": "ወአዘዞሙ፡ ለአይሁድ፡ እለ፡ ሀለዉ፡ ውስተ፡ ሀገር፡ ይስቅሉ፡ ሥጋሆሙ፡ ለደቂቀ፡ ሐማ።"
+        },
+        {
+          "number": 12,
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=12"
+          ],
+          "text": "ወተጋብኡ፡ አይሁድ፡ ውስተ፡ ሱሳ፡ ሀገር፡ አመ፡ ዓሡሩ፡ ወረቡዑ፡ ለሠርቀ፡ አዳር፡ ወቀተሉ፡ ሠለስተ፡ ምእተ፡ እደወ፡ ወአልቦ፡ ዘበርበሩ።"
+        },
+        {
+          "number": 13,
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=13"
+          ],
+          "text": "ወእለ፡ ተርፉ፡ አይሁድ፡ እለ፡ ይትቀነዩ፡ ወነገሥትኒ፡ ተጋብኡ፡ እሙንቱ፡ በበይናቲሆሙ፡ ተራድኡ፡ ወባሕቱ፡ አልቦ፡ ዘበርበሩ፡ ወአዕረፉ፡ እምነ፡ ቀትሎሙ፡ ወዘቀተሉሰ፡ አመ፡ ዓሡሩ፡ ወረቡዑ፡ ለሠርቀ፡ አዳር፡ እልፍ፡ ወኃምሳ፡ ምእት፡ ወአልቦ፡ ዘበርበሩ።"
+        },
+        {
+          "number": 14,
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=14"
+          ],
+          "text": "ወአዕረፉ፡ እንከ፡ አመ፡ ዓሡሩ፡ ወረቡዑ፡ ለውእቱ፡ ወርኅ፡ ወረሰማይ፡ ለይእቲ፡ ዕለት፡ በዓለ፡ ከመ፡ ይዕርፉ፡ ምስለ፡ ትፍሥሕት፡ ወጽጋብ።"
+        },
+        {
+          "number": 15,
+          "unit_order": 15,
+          "source_marker": "15",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=15"
+          ],
+          "text": "ወአይሁድሰ፡ እለ፡ ውስተ፡ ሱሳ፡ ሀገር፡ ተጋብኡ፡ አመ፡ ዓሡሩ፡ ወረቡዑ፡ ለሠርቀ፡ አዳር፡ ወኢያዕረፉ፡ ይእተ፡ አሚረ፡ ወአመ፡ ዓሡሩ፡ ወኃሙሱ፡ ገብሩ፡ በዓለ፡ ወትፍሥሕተ።"
+        },
+        {
+          "number": 16,
+          "unit_order": 16,
+          "source_marker": "16",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=16"
+          ],
+          "text": "ወበበይነ፡ ዝንቱ፡ ነገር፡ አይሁድ፡ እለ፡ ተዘርዉ፡ ውስተ፡ ኵሉ፡ በሐውርት፡ ይገብርዋ፡ ሠናይተ፡ ለይእቲ፡ ዕለት፡ አመ፡ ዓሡሩ፡ ወረቡዑ፡ ዘጽጋብ፡ እንዘ፡ ይፌንዉ፡ ፍተ፡ ለቢጾሙ፡ ወለጎሮሙ፡ ወለእለ፡ ይነብሩ፡ ውስተ፡ ደብረ፡ አህጉር፡ ወአመ፡ ዓሡር፡ ወኃምስ፡ ገብሩ፡ ላቲ፡ ትፍሥሕተ፡ ሠናየ፡ እንዘ፡ እሙንቱ፡ ይፌንዉ፡ ክፍለ፡ ለቢጾሙ፡ ወለጎሮሙ።"
+        },
+        {
+          "number": 17,
+          "unit_order": 17,
+          "source_marker": "17",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=17"
+          ],
+          "text": "ወጸሐፎ፡ መርዶክዮስ፡ ለዝንቱ፡ ነገር፡ ውስተ፡ መጽሐፍ፡ ወፈነዎ፡ ለአይሁድ፡ እለ፡ ውስተ፡ መንግሥቱ፡ ለአርጤክስስ፡ ለቅሩባን፡ ወለርኁቃን፡ ከመ፡ ይግበርዎን፡ ለእላንቱ፡ መዋዕል፡ በዓለ፡ አመ፡ ዓሡሩ፡ ወረቡዑ፡ ወአመ፡ ዓሡሩ፡ ወኃሙሱ፡ ለወርኀ፡ አዳር።"
+        },
+        {
+          "number": 18,
+          "unit_order": 18,
+          "source_marker": "18",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=18"
+          ],
+          "text": "እስመ፡ በእማንቱ፡ መዋዕል፡ አዕረፉ፡ አይሁድ፡ እምነ፡ ፀሮሙ፡ ወጸላኢሆሙ፡ በወርኅ፡ ዘቦቱ፡ ገብኡ፡ እምነ፡ ላህ፡ ውስተ፡ ትፍሥሕት፡ ወእምነ፡ ሕማም፡ ውስተ፡ ዕለት፡ ሠናይት፡ ዘውእቱ፡ አዳር፡ ወገብርዎን፡ በኵሉ፡ መዋዕሊሆሙ፡ ከብካበ፡ ወጽጋበ፡ ወይጼግዉ፡ ለምስኪኖሙ፡ ወለዘተአኀዎሙ።"
+        },
+        {
+          "number": 19,
+          "unit_order": 19,
+          "source_marker": "19",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=19"
+          ],
+          "text": "ወተወክፉ፡ አይሁድ፡ በከመ፡ ጸሐፈ፡ ሎሙ፡ መርዶክዮስ።"
+        },
+        {
+          "number": 20,
+          "unit_order": 20,
+          "source_marker": "20",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=20"
+          ],
+          "text": "ዘከመ፡ ቀተሎሙ፡ ሐማ፡ ወልደ፡ አመዶቱ፡ ዘእምነ፡ መቈዶንያ፡ በከመ፡ ሐሰበ፡ ወአስተቃሰመ፡ ለአማስኖቶሙ።"
+        },
+        {
+          "number": 21,
+          "unit_order": 21,
+          "source_marker": "21",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=21"
+          ],
+          "text": "ወዘከመ፡ ቦአ፡ ኀበ፡ ንጉሥ፡ ወሰአሎ፡ ከመ፡ ይስቅሎ፡ ለመርዶክዮስ፡ ወኵሎ፡ ዘሐለየ፡ ከመ፡ ይግበር፡ እኩየ፡ ላዕለ፡ አይሁድ፡ ገብአ፡ ላዕለ፡ ርእሱ፡ ወተሰቅለ፡ ውእቱ፡ ወደቂቁ።"
+        },
+        {
+          "number": 22,
+          "unit_order": 22,
+          "source_marker": "22",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=22"
+          ],
+          "text": "ወበበይነ፡ ዝንቱ፡ ተሰምያ፡ እማንቱ፡ መዋዕል፡ ድኂን፡ በእንተ፡ ዘተዓፅዋ፡ እስመ፡ በነገሮሙ፡ ይሰምይዎን፡ ድኂነ፡ በእንተ፡ ቃለ፡ ዛቲ፡ መጽሐፍ፡ ወበእንተ፡ ኵሉ፡ ዘተረከበ፡ ውስቴታ፡ ወኵሎ፡ ዘኮነ፡ ላዕሌሆሙ።"
+        },
+        {
+          "number": 23,
+          "unit_order": 23,
+          "source_marker": "23",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=23"
+          ],
+          "text": "ወበዘጸሐፉ፡ ተወክፉ፡ አይሁድ፡ ሎሙ፡ ወለዘርኦሙ፡ ወለዘይዴመር፡ ምስሌሆሙ፡ ወከመ፡ ኢይፍልሱ፡ እምዝንቱ፡ ወእላንቱ፡ መዋዕል፡ ተዝካረ፡ ይትገበራ፡ ለዓለመ፡ ዓለም፡ በበአህጉር፡ ወበበበሐውርት፡ ወነገድ።"
+        },
+        {
+          "number": 24,
+          "unit_order": 24,
+          "source_marker": "24",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=24"
+          ],
+          "text": "ወበእማንቱ፡ መዋዕል፡ ይትገበራ፡ ተዝካረ፡ ለዝሉፉ፡ እስመ፡ ቦቶን፡ ድኅኑ፡ ከመ፡ ኢይደምሰስ፡ ተዝካሮሙ፡ ለዓለም።"
+        },
+        {
+          "number": 25,
+          "unit_order": 25,
+          "source_marker": "25",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=25"
+          ],
+          "text": "ወጸሐፈት፡ አስቴር፡ ወለተ፡ አሚናዳብ፡ ወመርዶክዮስ፡ አይሁዳዊ፡ ኵሎ፡ ዘገብሩ፡ ወአጽንዑ፡ መጽሐፈ፡ መድኃኒት።"
+        },
+        {
+          "number": 26,
+          "unit_order": 26,
+          "source_marker": "26",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=26"
+          ],
+          "text": "ወመርዶክዮስ፡ ወአስቴር፡ ንግሥት፡ አሕረምዎን፡ ሎሙ፡ ለርእሶሙ፡ አሜሁ፡ ወመሐሉ፡ በሕይወቶሙ፡ ወበምክሮሙ።"
+        },
+        {
+          "number": 27,
+          "unit_order": 27,
+          "source_marker": "27",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=11&verse=27"
+          ],
+          "text": "ወአስቴርኒ፡ በዋላ፡ ለዓለም፡ ወተጽሕፈ፡ ለዝክር።"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 12,
+      "source_chapter_label": "12",
+      "heading": [
+        "Chapter 12"
+      ],
+      "units": [
+        {
+          "number": 1,
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=12&verse=1"
+          ],
+          "text": "ወጸሐፈ፡ ንጉሥኒ፡ ውስተ፡ መንግሥቱ፡ ለዘበምድር፡ ወለዘበብሔር።"
+        },
+        {
+          "number": 2,
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=12&verse=2"
+          ],
+          "text": "ወላዕለ፡ ጽንዑ፡ ወላዕለ፡ ስብሐቲሁ፡ ወላዕለ፡ ብዕሉ፡ ወክብሩ፡ ወመንግሥቱ፡ ዘታሕቴሁ፡ ናሁ፡ ልኩዕ፡ ውስተ፡ መጽሐፈ፡ ፋርስ፡ ወሜዶን፡ ለተዝካር።"
+        },
+        {
+          "number": 3,
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=12&verse=3"
+          ],
+          "text": "ወመርዶክዮስ፡ ባሕቲቱ፡ የዓቅብ፡ መንግሥተ፡ ንጉሥ፡ አርጤክስስ፡ ዓቢይ፡ ውእቱ፡ ወመንግሥቱኒ፡ ከቡር፡ ውእቱ፡ በኀበ፡ አይሁድ፡ ወይትፈቀድ፡ ወይነግር፡ ንብረታ፡ ለኵሉ፡ ሕዝብ፡ በትውልዶሙ።"
+        },
+        {
+          "number": 4,
+          "unit_order": 4,
+          "source_marker": "4",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=12&verse=4"
+          ],
+          "text": "ወይቤ፡ መርዶክዮስ፡ እምነ፡ እግዚአብሔር፡ ኮነ፡ ዝንቱ፡ ነገር።"
+        },
+        {
+          "number": 5,
+          "unit_order": 5,
+          "source_marker": "5",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=12&verse=5"
+          ],
+          "text": "ተዘከርኩ፡ በእንተ፡ ሕልም፡ ዘርኢኩ፡ በበይነ፡ ዝንቱ፡ ነገር፡ እስመ፡ ኢኀለፈ፡ ዕድሜሁ፡ ለውእቱ፡ ሕልም።"
+        },
+        {
+          "number": 6,
+          "unit_order": 6,
+          "source_marker": "6",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=12&verse=6"
+          ],
+          "text": "እንታክቲ፡ ንስቲት፡ ነቅዐ፡ ማይ፡ እንተኮነት፡ ፈለገ፡ ወኮነ፡ ብርሃነ፡ ፀሐይ፡ ወማይ፡ ብዙኅ፡ አስቴር፡ ይእቲ፡ እንተ፡ አውሰባ፡ ንጉሥ፡ ወረሰያ፡ ንግሥተ።"
+        },
+        {
+          "number": 7,
+          "unit_order": 7,
+          "source_marker": "7",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=12&verse=7"
+          ],
+          "text": "ወእልክቱሰ፡ ክልኤቱ፡ አክይስት፡ አነ፡ ወሐማ፡ ንሕነ።"
+        },
+        {
+          "number": 8,
+          "unit_order": 8,
+          "source_marker": "8",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=12&verse=8"
+          ],
+          "text": "ወአሕዛብኒ፡ እለ፡ ተጋብኡ፡ ከመ፡ ያማስኑ፡ ስሞሙ፡ ለአይሁድ።"
+        },
+        {
+          "number": 9,
+          "unit_order": 9,
+          "source_marker": "9",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=12&verse=9"
+          ],
+          "text": "ወሕዝበ፡ ዚእየ፡ እስራኤል፡ እሙንቱ፡ እለ፡ አውየዉ፡ ኀበ፡ እግዚአብሔር፡ ወድኅኑ፡ ወአድኀኖሙ፡ እግዚአብሔር፡ ለሕዝቡ፡ ወአድኃነነ፡ እግዚአብሔር፡ እምኵሉ፡ እኩይ።"
+        },
+        {
+          "number": 10,
+          "unit_order": 10,
+          "source_marker": "10",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=12&verse=10"
+          ],
+          "text": "ወገብረ፡ እግዚአብሔር፡ ዓቢየ፡ ተአምረ፡ ወመንክረ፡ ወመድምመ፡ ዘኢኮነ፡ ከማሁ፡ በውስተ፡ አሕዛብ።"
+        },
+        {
+          "number": 11,
+          "unit_order": 11,
+          "source_marker": "11",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=12&verse=11"
+          ],
+          "text": "ወበበይነ፡ ዝንቱ፡ ክልኤተ፡ ክፍለ፡ ገብረ፡ አሐዱ፡ ለሕዝበ፡ እግዚአብሔር፡ ወአሐደ፡ ለካልእ፡ አሕዛብ።"
+        },
+        {
+          "number": 12,
+          "unit_order": 12,
+          "source_marker": "12",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=12&verse=12"
+          ],
+          "text": "ወበጽሕ፡ እልክቱ፡ ክልኤቱ፡ ክፍል፡ በሰዓት፡ ወበጊዜ፡ ወበዕለተ፡ ደይን፡ በቅድመ፡ እግዚአብሔር፡ ወላዕለ፡ ኵሉ፡ አሕዛብ።"
+        },
+        {
+          "number": 13,
+          "unit_order": 13,
+          "source_marker": "13",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=12&verse=13"
+          ],
+          "text": "ወተዘከሮሙ፡ እግዚአብሔር፡ ለሕዝቡ፡ ወአንጽሐ፡ ርስቶ።"
+        },
+        {
+          "number": 14,
+          "unit_order": 14,
+          "source_marker": "14",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=12&verse=14"
+          ],
+          "text": "ወኮና፡ እማንቱ፡ መዋዕል፡ በወርኀ፡ አዳር፡ አመ፡ ዓሡሩ፡ ወረቡዑ፡ ወአመ፡ ዐሡሩ፡ ወኃሙሱ፡ ለሠርቀ፡ ውእቱ፡ ወርኅ፡ እንዘ፡ ይትጋብኡ፡ በትፍሥሕት፡ ቅድመ፡ እግዚአብሔር፡ በትውልዶሙ፡ ለዓለም፡ ውስተ፡ እስራኤል፡ ሕዝቡ።"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 13,
+      "source_chapter_label": "13",
+      "heading": [
+        "Chapter 13"
+      ],
+      "units": [
+        {
+          "number": 1,
+          "unit_order": 1,
+          "source_marker": "1",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=13&verse=1"
+          ],
+          "text": "ወአመ፡ ራብዕት፡ ዓመተ፡ መንግሥቱ፡ ለጰጠሎሜዎስ፡ ወቀለዮጳጥራ፡ ካህን፡ አብዶስ፡ እግዚአብሔር፡ ይቤ፡ ርእሰ፡ ካህን፡ ርኢኩ፡ ወይጽሕፍ፡ ካህን፡ ወሌዋዊ።"
+        },
+        {
+          "number": 2,
+          "unit_order": 2,
+          "source_marker": "2",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=13&verse=2"
+          ],
+          "text": "ወጰጠሎሜዎስ፡ ወልዱ፡ ይትወፈይ፡ መጽሐፈ፡ እንተ፡ ባቲ፡ ድኂን፡ እንተ፡ ይቤሎ፡ ሀለወት።"
+        },
+        {
+          "number": 3,
+          "unit_order": 3,
+          "source_marker": "3",
+          "source_element_id": null,
+          "source_refs": [
+            "http://classic.net.bible.org/verse.php?book=Est&chapter=13&verse=3"
+          ],
+          "text": "ወተርጐማ፡ ለሲማኮስ፡ ጰጠሎማዊ፡ ዘእምነ፡ ዘኢየሩሳሌም።"
+        }
+      ],
+      "notes": []
+    }
+  ]
+}

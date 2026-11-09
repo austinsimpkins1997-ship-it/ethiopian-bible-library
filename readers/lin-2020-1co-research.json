@@ -1,0 +1,2589 @@
+{
+  "reader_id": "lin-2020-1co-research",
+  "research_corpus_id": "linbibo-2020-1co",
+  "canon_id": null,
+  "title": "1 Corinthians — Open Lingala Contemporary Bible",
+  "display_name": "1 Corinthians · Lingala · 2020",
+  "text_origin": "published_translation",
+  "translation_id": "linbibo-2020",
+  "language": "Lingála (publisher edition label)",
+  "language_tag": "ln",
+  "language_assignment_status": "The publisher identifies the language as Lingala and uses source code lin; the archive maps that witness to BCP 47 ln. IANA confirms ln as Lingala. Community review of this edition's language variety is not asserted.",
+  "script_code": "Latn",
+  "translator": "No individual translator named in the inspected edition record; Biblica, Inc. is identified as publisher and contributor.",
+  "contributor": "Biblica, Inc.",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The inspected edition record does not state its source language or relay path.",
+  "edition": "Salela na bonsomi Mokanda na Bomoi / Open Lingala Contemporary Bible; publisher code LINBIB / lin; copyright © 2002, 2020 Biblica, Inc.",
+  "edition_scope": "One of 66 conventional USFM modules in the retained publisher package. The English book name is a navigation aid. No Ethiopian or Eritrean Orthodox canon crosswalk is assigned.",
+  "rights_classification": "open_license",
+  "license_id": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "copyright_notice": "Copyright © 2002, 2020 Biblica, Inc. Original work: Salela na bonsomi Mokanda na Bomoi / Open Lingala Contemporary Bible, eBible.org code LINBIB / lin. The inspected source identifies Biblica, Inc. as publisher and contributor; it does not name an individual translator. This reader is a derivative format conversion from USFM to JSON; source-format controls are structured or omitted, whitespace is normalized, and image assets are excluded. The derivative omits the registered Biblica mark, identifies the changes, attributes the original to Biblica, Inc., links https://www.biblica.com and https://open.bible, and is distributed under CC BY-SA 4.0. No endorsement is implied.",
+  "commercial_use": "CC BY-SA 4.0 permits redistribution, including commercially, and adaptation with attribution, change indication, and ShareAlike. The derivative removes the registered mark, includes Biblica attribution and source links, and is distributed under the same license. Image assets are excluded; no endorsement is implied.",
+  "unit_label": "Publisher USFM chapter/verse labels observed",
+  "unit_count": 437,
+  "verse_marker_count": 437,
+  "chapter_count": 16,
+  "section_label": "Chapter",
+  "chapter_structure_note": "The parser found 16 consecutive chapter divisions and 437 distinct source chapter/verse labels. Publisher book headings, source table rows/cells, section headings, paragraph structure, and notes are retained as structured fields; this does not prove print completeness.",
+  "chapter_structure_status": "source_package_parsed_with_limits",
+  "source_numbered_unit_count": 437,
+  "source_unnumbered_unit_count": 28,
+  "source_pages": "readers/source/lin/lin_usfm.zip::52-1COlin.usfm",
+  "source_package_sha256": "a6dba51def1a0835e31be435821abebcc54d17bcb3ca2ce6df73c4aa7fd613b5",
+  "source_snapshot_sha256": "f6a55f08e8191d924019e3280fd072e00815b1b6329cc6010950b9613ebcc1c1",
+  "source_ids": [
+    "SRC-393",
+    "SRC-394",
+    "SRC-395",
+    "SRC-077",
+    "SRC-078"
+  ],
+  "rights_status": "Copyright © 2002, 2020 Biblica, Inc. Original work: Salela na bonsomi Mokanda na Bomoi / Open Lingala Contemporary Bible, eBible.org code LINBIB / lin. The inspected source identifies Biblica, Inc. as publisher and contributor; it does not name an individual translator. This reader is a derivative format conversion from USFM to JSON; source-format controls are structured or omitted, whitespace is normalized, and image assets are excluded. The derivative omits the registered Biblica mark, identifies the changes, attributes the original to Biblica, Inc., links https://www.biblica.com and https://open.bible, and is distributed under CC BY-SA 4.0. No endorsement is implied.",
+  "verification_status": "The 70-member ZIP passed CRC; GnuPG verified its clear-signed SHA-256 list and all 66 USFM member hashes. The signer fingerprint 54D714D76956DA6673DC1EEA5F62009D93505F26 matches the key maintainer's published listing, subject to identity/custody and legacy DSA-1024/SHA-1 limitations. All 437 source verse lines and 0 source table rows match their structured reader text exactly after stripping USFM controls and normalizing whitespace. This is an automated format-conversion comparison, not human proofreading, completeness review, or translation validation.",
+  "transcription_note": "This is a format conversion of the publisher's USFM into reader JSON, not a new translation. USFM markers are structured or removed, whitespace is normalized, and punctuation/word sequence in checked verse lines and table cells is retained. Changes are identified for CC BY-SA 4.0. The registered trademark mark is removed from this derivative as required by the source notice. Original USFM is retained verbatim.",
+  "editorial_signs_note": "Book identity and headings, source table cells, verse labels, section headings, paragraph/poetry/list structure, front matter, and notes are represented in structured fields. The reader exposes source tables in a responsive, horizontally scrollable semantic table. Original USFM remains available for markup inspection; images are excluded under their separate terms.",
+  "front_matter": [],
+  "source_book_metadata": [
+    {
+      "marker": "h",
+      "text": "1 Bakolinto"
+    },
+    {
+      "marker": "toc1",
+      "text": "Mokanda ya liboso epai ya Bakolinto"
+    },
+    {
+      "marker": "toc2",
+      "text": "1 Bakolinto"
+    },
+    {
+      "marker": "toc3",
+      "text": "1Kl"
+    },
+    {
+      "marker": "mt2",
+      "text": "Mokanda ya liboso epai ya"
+    },
+    {
+      "marker": "mt1",
+      "text": "Bakolinto"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Polo oyo abengama mpo na kozala ntoma ya Yesu-Klisto, kolanda mokano ya Nzambe, mpe ndeko mobali Sositeni ;",
+          "source_markers_before": [
+            "m"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Epai ya Lingomba ya Nzambe, oyo ezali kati na Kolinto ;",
+          "source_markers_before": [
+            "b",
+            "mi"
+          ],
+          "continuations": [
+            {
+              "source_marker": "mi",
+              "text": "mpe epai ya bato oyo Nzambe abulisa kati na Yesu-Klisto mpe abenga mpo ete bazala basantu, elongo na bato nyonso oyo, na bisika nyonso, babelelaka Kombo ya Nkolo na biso, Yesu-Klisto, Nkolo na bango mpe Nkolo na biso :"
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "text": "Tika ete ngolu mpe kimia epesamela bino kowuta na Nzambe, Tata na biso, mpe na Nkolo Yesu-Klisto !",
+          "source_markers_before": [
+            "b",
+            "m"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "Nazongisaka tango nyonso matondi epai ya Nzambe na tina na bino, mpo na ngolu na Ye, oyo epesamela bino kati na Yesu-Klisto ;",
+          "source_markers_before": [
+            "b",
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Polo azongisi matondi epai ya Nzambe"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "pamba te, kati na makambo nyonso, botondisamaki na bomengo kati na Klisto, na oyo nyonso etali maloba mpe na oyo etali boyebi,"
+        },
+        {
+          "number": "6",
+          "text": "kolanda ndenge Nzambe azali kokokisa kati na bino litatoli na biso na tina na Klisto."
+        },
+        {
+          "number": "7",
+          "text": "Boye, bozangi ata likabo moko te ya ngolu ya Nzambe, wana bozali kozela na posa makasi komonisama ya Nkolo na biso, Yesu-Klisto."
+        },
+        {
+          "number": "8",
+          "text": "Ezali Ye nde akolendisa mpe bino kino na suka, mpo ete bozala bato bazangi pamela na mokolo ya Nkolo na biso, Yesu-Klisto."
+        },
+        {
+          "number": "9",
+          "text": "Pamba te Nzambe oyo abengaki bino mpo ete bozala moko na Mwana na Ye, Yesu-Klisto, Nkolo na biso, azali Moyengebene."
+        },
+        {
+          "number": "10",
+          "text": "Bandeko, na Kombo ya Nkolo na biso, Yesu-Klisto, nazali kosenga na bino ete bozala na boyokani kati na bino, kasi na bokabwani te ; bozala motema moko mpe makanisi moko.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Bokabwani kati na Lingomba ya Kolinto"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Pamba te, bandeko na ngai, bavandi ya ndako ya Kloe bayebisi ngai ete koswana ezali kati na bino."
+        },
+        {
+          "number": "12",
+          "text": "Tala makambo oyo nalingi koloba : Moko kati na bino azali koloba : « Ngai nazali moto ya Polo ; » mpe mosusu azali koloba : « Ngai nazali moto ya Apolosi ; » mosusu azali koloba : « Ngai nazali moto ya Petelo ; » mpe mosusu azali koloba : « Ngai nazali moto ya Klisto. »"
+        },
+        {
+          "number": "13",
+          "text": "Boni, Klisto azali ya kokabwana ? Ezali Polo nde babakaki na ekulusu mpo na bino ? Ezali na kombo ya Polo nde bozwaki libatisi ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Nazongisaka matondi epai ya Nzambe ete nabatisa moto ata moko te kati na bino, longola kaka Krispisi mpe Gayusi,"
+        },
+        {
+          "number": "15",
+          "text": "mpo ete moko te aloba ete bobatisamaki na kombo na ngai."
+        },
+        {
+          "number": "16",
+          "text": "Solo, nabatisaki mpe libota ya Stefanasi. Longola bato oyo nawuti kotanga, nayebi te soki nabatisa moto mosusu."
+        },
+        {
+          "number": "17",
+          "text": "Pamba te Klisto atindaki ngai te kobatisa bato, kasi atindaki ngai kosakola Sango Malamu. Mpo na yango, nasengeli te kosalela bwanya mpe elobeli malamu ya bomoto, noki te ekulusu ya Klisto ezanga nguya na yango."
+        },
+        {
+          "number": "18",
+          "text": "Pamba te mateya ya ekulusu ezali liboma mpo na bato oyo bazali kobunga, kasi ezali nguya ya Nzambe mpo na biso oyo tobiki ;",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Bwanya ya bato mpe liboma mpo na Nzambe"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "kolanda ndenge ekomama :",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "« Nakobebisa bwanya ya bato ya bwanya,"
+            },
+            {
+              "source_marker": "q2",
+              "text": "mpe nakokomisa mayele ya bato ya mayele bozoba. »"
+            }
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Wapi moto ya bwanya ? Wapi molakisi ya Mobeko ? Wapi moto ya mayele ya tango oyo ? Boni, Nzambe akomisa te bwanya ya mokili liboma ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "Pamba te lokola, kati na bwanya ya Nzambe, mokili etikalaki te koyeba Nzambe na nzela ya bwanya na yango, yango wana Nzambe asepeli kobikisa bandimi na nzela ya mateya oyo emonani lokola liboma."
+        },
+        {
+          "number": "22",
+          "text": "Lokola mpe Bayuda bazali koluka bikamwa, mpe Bagreki, bwanya,"
+        },
+        {
+          "number": "23",
+          "text": "biso, tozali koteya Klisto oyo babakaki na ekulusu : ezali penza libaku mpo na Bayuda, mpe liboma mpo na Bapagano."
+        },
+        {
+          "number": "24",
+          "text": "Nzokande, mpo na bato oyo Nzambe abenga, ezala Bayuda to Bagreki, Klisto azali nguya mpe bwanya ya Nzambe."
+        },
+        {
+          "number": "25",
+          "text": "Pamba te liboma ya Nzambe ezali na bwanya koleka bwanya ya bato, mpe bolembu ya Nzambe ezali makasi koleka makasi ya bato."
+        },
+        {
+          "number": "26",
+          "text": "Bandeko, bokanisa nanu oyo bozalaki tango Nzambe abengaki bino : kati na bino, moke bazalaki bato ya bwanya kolanda emoneli ya bomoto, moke bazalaki bato minene, mpe moke bawutaki na mabota ya lokumu !",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "27",
+          "text": "Kasi, kati na mokili, Nzambe aponaki biloko pamba mpo na koyokisa bato ya bwanya soni, aponaki biloko elemba mpo na koyokisa biloko ya makasi soni."
+        },
+        {
+          "number": "28",
+          "text": "Nzambe aponaki biloko ezanga tina, biloko ya kotiola, biloko oyo ezalaka te, mpo na kokomisa pamba biloko oyo mokili epesaka tina,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "29",
+          "text": "mpo ete moto ata moko te amikumisa liboso ya Nzambe."
+        },
+        {
+          "number": "30",
+          "text": "Ezali mpo na Nzambe nde bozali kati na Yesu-Klisto oyo akomaki, mpo na biso, bwanya kowuta na Nzambe, bosembo, libulisi mpe kokangolama,"
+        },
+        {
+          "number": "31",
+          "text": "mpo ete, kolanda ndenge ekomama,",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "« Tika ete moto oyo alingi komikumisa"
+            },
+            {
+              "source_marker": "q2",
+              "text": "amikumisa kati na Nkolo ! »"
+            }
+          ]
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Ebandeli ya mokanda"
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Yango wana bandeko, tango ngai mpe nayaki epai na bino mpo na kosakola mabombami ya Nzambe, nasalelaki te boyebi makasi ya koloba to ya bwanya.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Pamba te, wana nazalaki elongo na bino, nazwaki mokano ya koluka koyeba likambo mosusu te, longola kaka Yesu-Klisto mpe Yesu-Klisto oyo babakaki na ekulusu."
+        },
+        {
+          "number": "3",
+          "text": "Mpe tango nayaki epai na bino, nazalaki kati na bolembu, na kobanga mpe na kolenga."
+        },
+        {
+          "number": "4",
+          "text": "Maloba mpe mateya na ngai ewutaki te na maloba ya bwanya ya bomoto mpo na kondimisa bino, kasi ewutaki na kotalisama ya Molimo mpe ya nguya,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "mpo ete moboko ya kondima na bino ezala te bwanya ya bomoto, kasi ezala nde nguya ya Nzambe."
+        },
+        {
+          "number": "6",
+          "text": "Nzokande, toteyaka bwanya epai ya Baklisto oyo bakemba na kondima ; mpe bwanya yango ezali ya mokili oyo te to mpe ya bakonzi ya tango oyo te, oyo babongisami mpo na libebi.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Bwanya ya solo na nzela ya Molimo"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Te ! Toteyaka nde mabombami ya bwanya ya Nzambe, bwanya oyo ebombama na miso ya bato ya mokili, bwanya oyo Nzambe abongisa mpo na nkembo na biso, liboso ete akela mokili."
+        },
+        {
+          "number": "8",
+          "text": "Kati na bakonzi ya mokili oyo, moko te asosolaki yango ; pamba te soki basosolaki yango, balingaki te kobaka Nkolo ya nkembo na ekulusu."
+        },
+        {
+          "number": "9",
+          "text": "Kasi, kolanda ndenge ekomama :",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "« Oyo liso etikala nanu komona te,"
+            },
+            {
+              "source_marker": "q2",
+              "text": "oyo litoyi etikala nanu koyoka te,"
+            },
+            {
+              "source_marker": "q1",
+              "text": "mpe oyo moto atikala nanu kokanisa te"
+            },
+            {
+              "source_marker": "q2",
+              "text": "kati na motema na ye,"
+            },
+            {
+              "source_marker": "q1",
+              "text": "yango nde Nzambe abongisi"
+            },
+            {
+              "source_marker": "q2",
+              "text": "mpo na bato oyo balingaka Ye. »"
+            }
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Nzokande, Nzambe atalisaki biso yango na nzela ya Molimo na Ye ; pamba te Molimo ayebaka nyonso, ezala bozindo ya makanisi ya Nzambe.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Nani kati na bato ayebi makanisi ya moto, soki kaka molimo oyo ezali kati na moto yango te ? Ndenge moko mpe moko te ayebi makanisi ya Nzambe, longola kaka Molimo na Ye."
+        },
+        {
+          "number": "12",
+          "text": "Nzokande biso, tozwaki molimo ya mokili te, kasi tozwaki Molimo kowuta na Nzambe, mpo ete tokoka kososola biloko oyo Nzambe apesi biso na nzela ya ngolu."
+        },
+        {
+          "number": "13",
+          "text": "Ezali biloko yango nde tolobelaka, na maloba ya bwanya ya bomoto te kasi na maloba oyo Molimo alakisaka. Boye, tolobelaka makambo ya Molimo na nzela ya maloba oyo Molimo apesaka."
+        },
+        {
+          "number": "14",
+          "text": "Moto oyo azangi Molimo ya Nzambe akoki te koyamba makambo kowuta na Molimo ya Nzambe, pamba te ezali lokola liboma na miso na ye ; akoki mpe te koyeba yango, pamba te basosolaka yango kaka na nzela ya Molimo.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Moto oyo atambolisamaka na Molimo asosolaka makambo nyonso ; kasi ye, bato basosolaka ye te, pamba te ekomama :"
+        },
+        {
+          "number": "16",
+          "text": "« Nani ayebi makanisi ya Nkolo",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "mpo akoka kopesa Ye toli ? »"
+            },
+            {
+              "source_marker": "m",
+              "text": "Nzokande biso, makanisi ya Klisto ezali kati na biso."
+            }
+          ]
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Mateya ya Polo kuna na Kolinto"
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Bandeko, nakokaki te koloba na bino lokola na bato oyo batambolisamaka na Molimo, kasi lokola na bato oyo batambolisamaka kolanda baposa ya nzoto, lokola na bana mike kati na Klisto.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Napesaki bino miliki, kasi bilei ya makasi te, pamba te bolingaki te kokoka kolia yango. Ezala sik’oyo, bokokoka na bino mpe kaka te kolia yango,"
+        },
+        {
+          "number": "3",
+          "text": "pamba te bozali nanu kotambolisama kolanda baposa ya nzoto. Lokola likunya mpe koswana ezali kati na bino, boni, bozali te kotambolisama kolanda baposa ya nzoto ? Bozali kaka kosala lokola moto nyonso te ?"
+        },
+        {
+          "number": "4",
+          "text": "Tango moko azali koloba : « Ngai nazali moto ya Polo, » mpe mosusu : « Ngai nazali moto ya Apolosi, » boni, bozali kaka kosala lokola moto nyonso te ?"
+        },
+        {
+          "number": "5",
+          "text": "Boni, Apolosi azali nani ? Polo mpe azali nani ? Bazali kaka basali oyo, na nzela na bango, bondimelaki Nzambe, kolanda mosala oyo Nkolo apesaki na moko na moko kati na bango.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "Ngai nalonaki, Apolosi asopaki mayi, kasi Nzambe azalaki kokolisa."
+        },
+        {
+          "number": "7",
+          "text": "Ezala moto oyo alonaki to moto oyo asopaki mayi, moko te azali na tina ; ezali kaka Nzambe oyo akolisaka nde azali na tina."
+        },
+        {
+          "number": "8",
+          "text": "Moto oyo aloni mpe moto oyo asopi mayi bazali kaka ndenge moko, mpe moko na moko akozwa lifuti na ye moko kolanda mosala na ye."
+        },
+        {
+          "number": "9",
+          "text": "Pamba te biso, tozali basali elongo na Nzambe ; mpe bino, bozali elanga ya Nzambe, Ndako ya Nzambe."
+        },
+        {
+          "number": "10",
+          "text": "Kolanda ngolu oyo Nzambe apesaki ngai, natongaki moboko lokola mobongisi ya mayele, mpe moto mosusu azali kotonga na likolo na yango. Boye tika ete moko na moko asala keba na lolenge na ye ya kotonga na likolo ya moboko.",
+          "source_markers_before": [
+            "b",
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Pamba te moko te akoki kotonga moboko mosusu, longola kaka oyo esili kotongama, oyo ezali Yesu-Klisto."
+        },
+        {
+          "number": "12",
+          "text": "Nzokande, soki moto asaleli wolo to palata to mabanga ya talo to mabaya to makasa to mpe matiti mpo na kotonga na likolo ya moboko yango,"
+        },
+        {
+          "number": "13",
+          "text": "mokolo ya kosambisama ekomonisa mosala na ye polele ; pamba te ekozala mokolo ya moto, mpe moto ekomeka mosala ya moto na moto."
+        },
+        {
+          "number": "14",
+          "text": "Soki mosala ya moto oyo atongaki na likolo ya moboko eziki te, motongi yango akozwa lifuti."
+        },
+        {
+          "number": "15",
+          "text": "Kasi soki eziki, motongi akozwa eloko te. Ye moko kaka nde akobika, kasi ekozala lokola moto oyo asili kobika na likama ya moto."
+        },
+        {
+          "number": "16",
+          "text": "Boni, boyebi te ete bozali Tempelo ya Nzambe, mpe ete Molimo ya Nzambe avandaka kati na bino ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "Soki moto abebisi Tempelo ya Nzambe, Nzambe mpe akoboma ye ; pamba te Tempelo ya Nzambe ezali bule, bongo bino bozali nde Tempelo yango."
+        },
+        {
+          "number": "18",
+          "text": "Bomikosa te : soki moto moko kati na bino akanisi ete azali na bwanya kati na mokili oyo, tika ete akoma lokola zoba mpo ete akoma penza moto ya bwanya.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Pamba te bwanya ya mokili ezali bozoba na miso ya Nzambe. Kolanda ndenge ekomama : « Akangaka bato ya bwanya kati na mitambo ya mayele mabe na bango ; »"
+        },
+        {
+          "number": "20",
+          "text": "mpe lisusu : « Nkolo ayebi ete makanisi ya bato ya bwanya ezali na tina te, »"
+        },
+        {
+          "number": "21",
+          "text": "yango wana tika ete moko te aluka lokumu kati na bato, pamba te nyonso ezali ya bino :"
+        },
+        {
+          "number": "22",
+          "text": "ezala Polo, Apolosi, Petelo, mokili, bomoi, kufa, tango oyo tozali sik’oyo to tango oyo ezali koya. Nyonso ezali ya bino ;"
+        },
+        {
+          "number": "23",
+          "text": "kasi bino, bozali bato ya Klisto, mpe Klisto azali ya Nzambe."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Mosala ya bateyi ya Sango Malamu"
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Boye, tika ete bato bazwa biso lokola basali ya Klisto mpe lokola bakambi oyo bazwi mokumba ya koyebisa mabombami ya Nzambe.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Nzokande, eloko oyo basengaka epai ya bakambi, ezali ete bazala sembo."
+        },
+        {
+          "number": "3",
+          "text": "Mpo na ngai, nazali komisambisa na likambo moko te. Yango wana, ezala kosambisa na bino to kosambisa ya esambiselo ya bato, elobelaka ngai eloko moko te."
+        },
+        {
+          "number": "4",
+          "text": "Motema na ngai ezali kosambisa ngai ata na likambo moko te ; nzokande, yango te nde ezali kolongisa ngai. Oyo asambisaka ngai, ezali nde Nkolo."
+        },
+        {
+          "number": "5",
+          "text": "Yango wana, bosambisaka te liboso ya tango oyo ekatama ; bozela kino tango Nkolo akoya. Akobimisa na pole makambo oyo ebombama kati na molili, mpe akomonisa na miso ya bato makanisi ya mitema ya bato. Na tango wana, moto na moto akozwa lokumu na ye kowuta na Nzambe."
+        },
+        {
+          "number": "6",
+          "text": "Bandeko, nayebisi bino makambo oyo etali ngai moko mpe oyo etali Apolosi, mpo na bolamu na bino, mpo ete, na ndakisa na biso, boyekola likambo oyo : Bolekaka mondelo te ya makambo oyo ekomama ; mpe mpo ete moko te kati na bino atonda na lolendo na kolanda moko mpe koyina mosusu.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Boni, nani azali kokesenisa yo na bato mosusu ? Eloko nini ozali na yango, oyo bapesa yo te ? Mpe lokola bapesa yo yango, mpo na nini komikumisa lokola nde bapesaki yo yango te ?"
+        },
+        {
+          "number": "8",
+          "text": "Bosili kotondisama na nyonso oyo bozalaka na makanisi ya kozwa ! Bosili penza kokoma bato ya bomengo ! Bobandi kokonza ; bobandi kokonza elongo na biso te !",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Nalingaka ete bobanda penza kokonza, mpo ete biso mpe tokonza elongo na bino !"
+            }
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Pamba te nakanisi ete, biso bantoma, Nzambe atia biso na suka ya molongo lokola bato oyo bakatela bango etumbu ya kufa na libanda ya masano. Mpo na mokili mobimba, mpo na ba-anjelu mpe mpo na bato, Nzambe akomisa biso lokola lisano ya kotala."
+        },
+        {
+          "number": "10",
+          "text": "Biso, likolo ya Klisto, tozali bazoba ; kasi bino, kati na Klisto, bozali bato ya mayele ! Biso, tozali bato na bolembu ; kasi bino, bozali bato makasi ! Bino, bozali kozwa lokumu ; kasi biso, tozali kotiolama !",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Kino sik’oyo, tozali konyokwama na nzala, na posa ya mayi, tozangi bilamba, tozali kobetama, tozali koyengayenga,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "mpe tozali kosala mosala makasi na maboko na biso. Tango bafingaka biso, topambolaka ; tango banyokolaka biso, toyikelaka yango kaka mpiko ;"
+        },
+        {
+          "number": "13",
+          "text": "tango bakoselaka biso makambo mpo na kobebisa lokumu na biso, tozongisaka kaka na maloba ya boboto. Mpe kino sik’oyo, tokomi lokola bosoto ya mokili, mpe lokola lisapo ya bato."
+        },
+        {
+          "number": "14",
+          "text": "Nazali kokoma makambo oyo mpo na koyokisa bino soni te, kasi mpo na kokebisa bino lokola bana na ngai ya bolingo.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Bokonzi ya Polo"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Pamba te, ata soki bozalaki na balakisi nkoto zomi kati na Klisto, kasi bozali na batata ebele te. Ngai nde nazali tata na bino kati na Yesu-Klisto, na nzela ya Sango Malamu."
+        },
+        {
+          "number": "16",
+          "text": "Boye, nabondeli bino : bolanda ndakisa na ngai."
+        },
+        {
+          "number": "17",
+          "text": "Ezali na tina wana nde natindeli bino Timote, mwana na ngai ya bolingo, oyo azali sembo kati na Nkolo ; akolobela bino lisusu banzela na ngai mpo na bomoi kati na Yesu-Klisto, ndenge kaka nateyaka yango bisika nyonso kati na Mangomba nyonso.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Bato mosusu kati na bino bakomi na lofundu, bakanisaka ete nakoya lisusu te epai na bino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Kasi, soki Nkolo alingi, nakoya epai na bino kala mingi te ; mpe nakoyeba kaka te ndenge nini bato yango ya lofundu balobaka, kasi mpe nguya nini bazali na yango."
+        },
+        {
+          "number": "20",
+          "text": "Pamba te Bokonzi ya Nzambe ezali likambo ya maloba te, kasi likambo ya nguya."
+        },
+        {
+          "number": "21",
+          "text": "Bolingi nini ? Naya epai na bino na fimbu to na bolingo mpe na molimo ya boboto ?",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Polo, ntoma ya Klisto"
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Bato bazali koloba bipai nyonso ete pite ezali kosalema kati na bino, pite oyo emonanaka kutu te epai ya Bapagano : mobali moko kati na bino azali kosangisa nzoto na mwasi ya tata na ye.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Mpe bino, bozali lisusu komikumisa na yango ! Nzokande bosengelaki koyoka mawa mpo na yango, mpe kosala ete balongola kati na bino moto oyo azali kosala likambo ya ndenge wana.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "3",
+          "text": "Solo, mpo na ngai, atako nazali elongo na bino te na nzoto, kasi nazali elongo na bino na molimo. Mpe lokola moto oyo azali elongo na bino, na Kombo na Yesu, Nkolo na biso, nasili kokatela moto nyonso oyo azalaki kosala likambo yango etumbu."
+        },
+        {
+          "number": "4",
+          "text": "Boye, tango bokosangana na Kombo na Yesu, Nkolo na biso, nakozala elongo na bino na molimo ; mpe na nguya ya Yesu, Nkolo na biso,"
+        },
+        {
+          "number": "5",
+          "text": "bokaba mobali yango na maboko ya Satana mpo ete nzoto na ye ebeba, mpe molimo na ye ebikisama na mokolo ya Nkolo."
+        },
+        {
+          "number": "6",
+          "text": "Lolendo na bino ezali kitoko te ! Boyebi te ete mwa kisi moke ya mapa evimbisaka potopoto nyonso ya mapa ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Bolongola kati na bino kisi nyonso ya kala ya mapa mpo ete bokoma peto lokola potopoto ya sika ya mapa, ndenge bozali penza. Pamba te Klisto, Mpate na biso ya Pasika, asilaki kopesama lokola mbeka."
+        },
+        {
+          "number": "8",
+          "text": "Yango wana, tosepela feti, na mapa ya bosembo mpe ya bosolo, mapa oyo ezangi kisi, kasi na kisi ya kala te ya mapa, kisi ya kindoki mpe ya makambo mabe."
+        },
+        {
+          "number": "9",
+          "text": "Kati na mokanda oyo nakomelaki bino, nayebisaki bino ete bozala lisanga moko te na bato oyo batambolaka na bomoi ya pite.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Elingi koloba te ete bozala mosika na bato nyonso oyo, kati na mokili oyo, batambolaka na bomoi ya pite to bazali na lokoso ya mbongo to bazali miyibi to basambeli bikeko, pamba te soki ezalaki bongo, wana bosengeli kolongwa na mokili."
+        },
+        {
+          "number": "11",
+          "text": "Kasi nazali nde kokomela bino sik’oyo mpo na koyebisa bino ete bozala lisanga moko te na moto oyo amilobelaka ete azali ndeko Moklisto, kasi atambolaka na bomoi ya pite to azali na lokoso ya mbongo to azali mosambeli bikeko to mofingi bato to molangwi masanga to moyibi. Bosengeli kutu te kolia mesa moko elongo na moto ya lolenge oyo."
+        },
+        {
+          "number": "12",
+          "text": "Boni, mosala na ngai ezali ya kosambisa bato oyo bazali na libanda ya Lingomba ? Boni, ezali bino te nde bosengeli kosambisa bato oyo bazali kati na Lingomba ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Nzambe akosambisa bato oyo bazali na libanda ya Lingomba ; kasi bino, bobengana moto mabe kati na bino."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Bizaleli kati na Lingomba",
+        "Pite kati na Lingomba"
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Soki ndeko moko kati na bino azwi ndeko mosusu likambo, mpo na nini akendaka kofunda yango epai ya Bapagano, na esika ete akende kofunda epai ya basantu ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Boyebi te ete basantu bakosambisa mokili ? Bongo soki bosengeli kosambisa mokili, bozangi penza makoki ya kokata mwa makambo ya mike-mike ?"
+        },
+        {
+          "number": "3",
+          "text": "Boyebi te ete tokosambisa ba-anjelu ? Bongo mpo na nini te makambo ya bomoi oyo ?"
+        },
+        {
+          "number": "4",
+          "text": "Tango bobendanaka na tina na makambo ya bomoi oyo, bozwaka lokola basambisi, bato oyo bazali na tina te na miso ya Lingomba !",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Nazali koloba yango mpo na koyokisa bino soni ! Boni, ezali ata na moto moko te ya bwanya kati na bino, oyo akoki kokata makambo kati na bandeko na ye ?"
+        },
+        {
+          "number": "6",
+          "text": "Kasi mpo na nini ndeko moko akende kofunda ndeko mosusu, mpe asala yango liboso ya Bapagano ?"
+        },
+        {
+          "number": "7",
+          "text": "Solo, awa bozali kofundana bino na bino, boyeba ete bosili komikweyisa. Mpo na nini bondimaka te ete basala bino mabe ? Mpo na nini bondimaka te ete bakosa bino ?"
+        },
+        {
+          "number": "8",
+          "text": "Nzokande, bino, bokosaka mpe bosalaka mabe ; mpe bosalaka yango epai ya bandeko na bino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Boyebi te ete bato mabe bakokota te na Bokonzi ya Nzambe ? Bomikosa te : bato na pite, basambeli bikeko, bato na bikobo, bato oyo balula makambo ya soni, mibali oyo basangisaka nzoto na mibali,"
+        },
+        {
+          "number": "10",
+          "text": "miyibi, bato ya lokoso ya mbongo, balangwi masanga, bato oyo bakoselaka baninga makambo mpo na kobebisa lokumu na bango, ba-oyo babotolaka biloko ya bato, bakokota te na Bokonzi ya Nzambe."
+        },
+        {
+          "number": "11",
+          "text": "Mpe bozalaki ndenge wana, bato mosusu kati na bino. Kasi basukolaki bino, babulisaki bino mpe bakomisaki bino bato ya sembo, na Kombo ya Nkolo Yesu-Klisto mpe na nzela ya Molimo ya Nzambe na biso."
+        },
+        {
+          "number": "12",
+          "text": "Bolobaka : « Nazali na ndingisa ya kosala nyonso, » kasi nyonso ezali na litomba te ; « nazali na ndingisa ya kosala nyonso, » kasi nakomitika te na se ya bokonzi ya eloko songolo ;",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Pite"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "« bilei esalema mpo na libumu, mpe libumu esalema mpo na bilei, » nzokande ezali na mokolo oyo Nzambe akoboma nyonso mibale. Nzoto esalema te mpo na pite, nzoto ezali nde mpo na Nkolo, mpe Nkolo azali mpo na nzoto."
+        },
+        {
+          "number": "14",
+          "text": "Solo, lokola Nzambe asekwisaki Nkolo kati na bakufi, akosekwisa mpe biso, na nguya na Ye."
+        },
+        {
+          "number": "15",
+          "text": "Boyebi te ete banzoto na bino ezali biteni ya nzoto ya Klisto ? Boni, nakoki kozwa biteni ya nzoto ya Klisto mpo na kokomisa yango biteni ya nzoto ya mwasi ya ndumba ? Ata moke te !",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "Boyebi te ete moto oyo asangani na mwasi ya ndumba akomi elongo na ye nzoto moko ? Pamba te elobama : « Bango mibale bakokoma nzoto moko. »",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "Kasi moto oyo asangani na Nkolo azali moko na Ye kati na Molimo."
+        },
+        {
+          "number": "18",
+          "text": "Yango wana, bokima pite. Masumu nyonso mosusu oyo moto akoki kosala ezali na libanda ya nzoto na ye, kasi ye oyo amipesi na kindumba asali masumu mpo na libebi ya nzoto na ye moko."
+        },
+        {
+          "number": "19",
+          "text": "Boyebi te ete nzoto na bino ezali Tempelo ya Molimo Mosantu oyo azali kati na bino, oyo bozwaki kowuta na Nzambe ? Mpe boyebi te ete bozali ya bino moko te ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Bosikolamaki na motuya makasi penza. Boye, bopesa Nzambe nkembo kati na banzoto na bino."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Kofundana kati na Baklisto"
+      ]
+    },
+    {
+      "chapter": 7,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Sik’oyo, nazali kopesa biyano na tina na makambo oyo bokomelaki ngai.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Eleki malamu mpo na mobali ete abala mwasi te."
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Kasi mpo na kokima pite, tika ete mobali nyonso azala na mwasi na ye, mpe mwasi nyonso azala na mobali na ye."
+        },
+        {
+          "number": "3",
+          "text": "Tika ete mobali akokisa posa ya mwasi na ye, mpe tika ete mwasi akokisa posa ya mobali na ye."
+        },
+        {
+          "number": "4",
+          "text": "Pamba te mwasi azali na bokonzi te na nzoto na ye, ezali nde mobali na ye ; ndenge moko mpe, mobali azali na bokonzi te na nzoto na ye, kasi ezali nde mwasi na ye."
+        },
+        {
+          "number": "5",
+          "text": "Bopimelanaka nzoto te, longola kaka soki, na boyokani mpe mpo na mwa tango moke, bolingi tango mosusu komipesa na losambo. Kasi sima na tango yango, bozongela kosangisa nzoto mpo ete Satana akozwa nzela te ya komeka bino likolo ya bozangi makoki ya komikanga."
+        },
+        {
+          "number": "6",
+          "text": "Awa nazali koloba bongo, nazali na ngai kaka kopesa likanisi, kasi mobeko te."
+        },
+        {
+          "number": "7",
+          "text": "Nakokaki kosepela ete mibali nyonso bazala lokola ngai ; nzokande, moto na moto azali na likabo na ye ya ngolu, oyo azwi kowuta na Nzambe : moko azali na likabo oyo, mosusu azali na likabo wana.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Na yango, nazali koloba na bato oyo babali nanu te mpe na basi oyo bakufisa mibali, ete ezali malamu mpo na bango kokoba kozala ya kobala te lokola ngai."
+        },
+        {
+          "number": "9",
+          "text": "Kasi soki bakoki te komikanga, tika ete babala ; pamba te eleki malamu kobala, na esika ya kozika na posa ya nzoto."
+        },
+        {
+          "number": "10",
+          "text": "Epai ya bato oyo babala, nazali kopesa mitindo, ngai te kasi Nkolo : Mwasi asengeli te kokabwana na mobali na ye ;",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "kasi soki akabwani na mobali na ye, asengeli kobala lisusu te to asengeli koyokana na mobali na ye ; mpe mobali asengeli te kobengana mwasi na ye na libala."
+        },
+        {
+          "number": "12",
+          "text": "Epai ya bato mosusu, nazali koloba, Nkolo te kasi ngai : Soki ndeko mobali Moklisto abali mwasi oyo azali mondimi te, bongo mwasi yango andimi kowumela elongo na ye, tika ete abengana mwasi yango te ;",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "soki mpe mwasi azali na mobali oyo azali mondimi te, mpe mobali yango andimi kowumela elongo na ye na libala, tika ete mwasi akabwana te na mobali na ye."
+        },
+        {
+          "number": "14",
+          "text": "Pamba te, mobali oyo azali mondimi te abulisami na nzela ya mwasi na ye, mpe mwasi oyo azali mondimi te abulisami na nzela ya mobali na ye. Soki ezalaki bongo te, bana na bino balingaki kozala mbindo, nzokande bazali bule."
+        },
+        {
+          "number": "15",
+          "text": "Kasi soki ye oyo azali mondimi te alingi koboma libala, tika ete aboma na ye ! Na likambo ya boye, ndeko mobali to ndeko mwasi azali ya kokangama te. Nzambe abenga bino mpo na kobika bomoi kati na kimia."
+        },
+        {
+          "number": "16",
+          "text": "Oyebi nini kati na likambo yango ? Tango mosusu, yo mwasi, okobikisa mobali na yo ! Tango mosusu, yo mobali, okobikisa mwasi na yo !"
+        },
+        {
+          "number": "17",
+          "text": "Lisusu, tika ete moto na moto atambola na lolenge oyo Nkolo abongisela ye, ndenge azalaki tango Nzambe abengaki ye. Yango nde mobeko oyo napesi na Mangomba nyonso."
+        },
+        {
+          "number": "18",
+          "text": "Boni, moto moko azalaki akatama ngenga tango Nzambe abengaki ye ? Tika ete atikala akatama ngenga ! Boni, moto moko azalaki akatama ngenga te tango Nzambe abengaki ye ? Tika ete atikala akatama ngenga te !"
+        },
+        {
+          "number": "19",
+          "text": "Kokatama ngenga to kokatama ngenga te ezali na tina te ; likambo ya tina ezali nde kobatela mibeko ya Nzambe."
+        },
+        {
+          "number": "20",
+          "text": "Tika ete moko na moko atikala ndenge azalaki tango Nzambe abengaki ye !"
+        },
+        {
+          "number": "21",
+          "text": "Boni, ozalaki mowumbu tango Nzambe abengaki yo ? Komitungisa na yango te ! Ezala soki okoki kokoma nsomi, salela nde malamu lolenge na yo."
+        },
+        {
+          "number": "22",
+          "text": "Pamba te moto oyo azalaki mowumbu tango abengamaki mpo na kosalela Nkolo azali mokangolami ya Nkolo ; ndenge moko mpe, moto oyo azalaki nsomi tango Nzambe abengaki ye azali mowumbu ya Klisto."
+        },
+        {
+          "number": "23",
+          "text": "Bosikolamaki na motuya makasi ! Boye, bokoma te bawumbu ya bato."
+        },
+        {
+          "number": "24",
+          "text": "Bandeko, tika ete moko na moko awumela, na miso ya Nzambe ndenge azalaki tango Nzambe abengaki ye !"
+        },
+        {
+          "number": "25",
+          "text": "Mpo na oyo etali baseka, nazali na mobeko te kowuta na Nkolo ; kasi na mawa ya Nkolo, lokola moto oyo bakoki kotiela motema, nazali kopesa likanisi na ngai.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Na tina ya bato oyo babala te"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "Nakanisi ete, mpo na pasi ya tango oyo, ezali malamu mpo na moto kotikala ndenge azali."
+        },
+        {
+          "number": "27",
+          "text": "Ozali na mwasi ? Koluka kokabwana na ye te. Ozali na mwasi te ? Koluka mpe mwasi te."
+        },
+        {
+          "number": "28",
+          "text": "Kasi soki mpe obali, osali lisumu te ; soki moseka abali, asali lisumu te. Nzokande, bato oyo babala bakokutana na pasi mingi kati na bomoi na bango ; mpe ngai, nalingi nde kosunga bino mpo bokutana na pasi yango te."
+        },
+        {
+          "number": "29",
+          "text": "Bandeko na ngai, nazali koloba boye : tango ekomi moke ; kobanda sik’oyo, tika ete mibali oyo bazali na basi bazala lokola nde bazali na basi te ;",
+          "source_markers_before": [
+            "b",
+            "p"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "tika ete bato oyo bazali kolela bazala lokola nde bazali kolela te ; tika ete ba-oyo bazali kosepela bazala lokola nde bazali kosepela te ; tika ete ba-oyo bazali kosomba bazala lokola nde bazali na eloko te ;"
+        },
+        {
+          "number": "31",
+          "text": "tika ete ba-oyo bazali kosalela biloko ya mokili bazala lokola nde bazali kosalela yango te ; pamba te mokili oyo, na lolenge na yango ya sik’oyo, ezali koleka !"
+        },
+        {
+          "number": "32",
+          "text": "Nalingi ete bomitungisaka te. Mobali oyo azali ya kobala te atiaka makanisi na ye kati na makambo ya Nkolo, alukaka ndenge nini kosepelisa Nkolo."
+        },
+        {
+          "number": "33",
+          "text": "Mobali oyo abala atiaka makanisi na ye kati na makambo ya mokili, alukaka ndenge nini kosepelisa mwasi na ye,"
+        },
+        {
+          "number": "34",
+          "text": "mpe motema na ye ezali ya kokabwana. Ndenge moko mpe, mwasi oyo azangi mobali, lokola moseka, atiaka makanisi na ye kati na makambo ya Nkolo mpo ete azala bule kati na nzoto mpe kati na molimo. Kasi mwasi oyo abala atiaka makanisi na ye kati na makambo ya mokili, alukaka ndenge nini kosepelisa mobali na ye."
+        },
+        {
+          "number": "35",
+          "text": "Nazali koloba makambo oyo mpo na bolamu na bino ; ezali te mpo na kotiela bino motambo, kasi ezali nde mpo ete bosala oyo ezali malamu koleka mpe bomipesa mobimba na Nkolo."
+        },
+        {
+          "number": "36",
+          "text": "Soki elenge mobali amoni ete akokoka lisusu te komikanga liboso ya mwasi mobandami na ye na libala, soki akanisi kosangisa na ye nzoto mpe ete asengeli kaka kosala bongo, wana bazali kotambola kati na likanisi ya kobalana, tika ete asala kolanda posa na ye, azali kosala lisumu te. Tika ete babalana !",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "37",
+          "text": "Kasi mobali oyo azwi mokano kati na motema na ye, na kotindikama te mpe na bososoli nyonso, ya kosangisa nzoto te na mwasi mobandami na ye na libala, asali malamu."
+        },
+        {
+          "number": "38",
+          "text": "Boye, mobali oyo abali mwasi mobandami na ye na libala asali malamu, kasi oyo abali ye te asali malamu koleka."
+        },
+        {
+          "number": "39",
+          "text": "Mwasi ya libala azalaka ya kokangama na mobali na ye na tango nyonso oyo mobali yango azali na bomoi. Soki mobali na ye akufi, mwasi akomi nsomi mpo na kobalana na mobali nyonso oyo ye alingi, kasi mobali yango asengeli kozala Moklisto.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "40",
+          "text": "Nzokande, na makanisi na ngai, akozala mwasi ya esengo koleka soki atikali ndenge azali ; mpe nakanisi ete, ngai mpe, nazali na Molimo ya Nzambe."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Biyano na mituna ya bato ya Kolinto",
+        "Na tina na libala"
+      ]
+    },
+    {
+      "chapter": 8,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Mpo na oyo etali misuni ya banyama oyo ebonzami lokola mbeka epai ya banzambe mosusu, toyebi malamu ete biso nyonso tozali na boyebi. Boyebi epesaka lolendo, kasi bolingo elendisaka.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Moto oyo akanisaka ete azali na boyebi ya makambo ayebi nanu eloko te na ndenge esengeli."
+        },
+        {
+          "number": "3",
+          "text": "Kasi moto oyo alingaka Nzambe, Nzambe ayebi ye."
+        },
+        {
+          "number": "4",
+          "text": "Boye, na tina na likambo ya kolia misuni ya banyama oyo ebonzami lokola mbeka epai ya banzambe mosusu, toyebi malamu ete nzambe ya ekeko ezali eloko pamba kati na mokili, mpe ete Nzambe azali kaka se moko."
+        },
+        {
+          "number": "5",
+          "text": "Solo, ezali na bikelamu ebele oyo ebengami banzambe, ezala na likolo to na mabele ; yango nde esalaka ete banzambe mpe bankolo bazala ebele."
+        },
+        {
+          "number": "6",
+          "text": "Kasi mpo na biso, Nzambe azali kaka se moko, Ye nde azali Tata mpe Mokeli na nyonso, mpe biso tozali na bomoi mpo na Ye. Mpe Nkolo azali kaka se moko, Ye nde Yesu-Klisto. Nyonso esalema na nzela na Ye, mpe biso tozali na bomoi mpo na Ye."
+        },
+        {
+          "number": "7",
+          "text": "Nzokande, bato nyonso bazali na boyebi oyo te ; bato mosusu bazali nanu na momesano ya kosambela banzambe ya bikeko kino sik’oyo. Boye wana baliaka misuni ya banyama oyo ebonzami lokola mbeka epai ya banzambe mosusu, bakanisaka ete ezali penza mbeka oyo babonzeli banzambe wana ; mpe mitema na bango, oyo elenda te ekomaka mbindo.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Nzokande, ezali bilei te nde ememaka biso pene ya Nzambe ; soki tolie yango te, tokobungisa eloko moko te ; soki mpe tolie yango, tokozwa eloko moko te."
+        },
+        {
+          "number": "9",
+          "text": "Kasi bosala keba ete bonsomi na bino ekoma libaku te mpo na bato oyo balenda te kati na kondima."
+        },
+        {
+          "number": "10",
+          "text": "Pamba te soki moko kati na bato oyo balenda te kati na kondima amoni yo, yo oyo ozali na boyebi, ozali kolia kati na tempelo ya banzambe ya bikeko, boni, motema na ye ekozanga solo kotindika ye mpe na kolia misuni ya banyama oyo ebonzami lokola mbeka epai ya banzambe mosusu ?"
+        },
+        {
+          "number": "11",
+          "text": "Boye, ndeko oyo alenda te kati na kondima, ye oyo Klisto akufelaki, akopengwa likolo ya boyebi na yo."
+        },
+        {
+          "number": "12",
+          "text": "Tango bozali kobetisa bandeko na bino mabaku na ndenge wana, mpe bozali kozokisa mitema na bango, oyo elenda te, bozali kosala masumu liboso ya Klisto."
+        },
+        {
+          "number": "13",
+          "text": "Yango wana, soki mpo na bilei na ngai, ndeko na ngai azali kokweya na masumu, nakotikala kolia lisusu misuni te mpo ete nazala libaku te, oyo ekokweyisa ye na masumu."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Na tina na misuni mpo na banzambe ya mosusu"
+      ]
+    },
+    {
+      "chapter": 9,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Boni, nazali nsomi te ? Nazali ntoma te ? Namona te Yesu, Nkolo na biso ? Bozali mbuma ya mosala na ngai te kati na Nkolo ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Soki, mpo na bato mosusu, nazali ntoma te, kasi mpo na bino, nazali solo ntoma, pamba te bino bozali kashe ya bontoma na ngai kati na Nkolo."
+        },
+        {
+          "number": "3",
+          "text": "Tala eyano na ngai epai ya bato oyo basambisaka ngai :",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "Boni, tozangi makoki ya kolia mpe ya komela ?"
+        },
+        {
+          "number": "5",
+          "text": "Tozangi makoki ya kotambola elongo na mwasi moklisto, ndenge bantoma mosusu mpe bandeko ya Nkolo mpe Petelo basalaka ?"
+        },
+        {
+          "number": "6",
+          "text": "Boni, ezali kaka ngai mpe Barnabasi nde tosengeli kosala ?"
+        },
+        {
+          "number": "7",
+          "text": "Nani asalaka mosala ya soda na mbongo na ye moko ? Nani alonaka elanga ya vino mpo alia mbuma na yango te ? Nani abatelaka etonga mpo amela miliki na yango te ?"
+        },
+        {
+          "number": "8",
+          "text": "Boni, ezali kaka na bomoto nde nazali koloba bongo ? Boni, mobeko elobi mpe bongo te ?"
+        },
+        {
+          "number": "9",
+          "text": "Solo, ekomama kati na mobeko ya Moyize : « Osengeli te kokanga monoko ya ngombe oyo ezali konika bambuma. » Boni, bokanisi ete Nzambe azalaki nde komitungisa mpo na bangombe ?"
+        },
+        {
+          "number": "10",
+          "text": "Ezali te mpo na biso nde alobaki bongo ? Solo, ezali mpo na biso nde ekomamaki bongo ; pamba te moto oyo azali kotimola asengeli kosala yango na elikya, mpe oyo azali kobeta mbuma asengeli kosala yango na elikya ete akozwa eteni na ye."
+        },
+        {
+          "number": "11",
+          "text": "Boni, soki tolonaki nkona ya molimo kati na bino, ezali penza mabe soki tobuki kati na bino mbuma ya biloko oyo maboko ekoki kosimba ?"
+        },
+        {
+          "number": "12",
+          "text": "Soki bato mosusu bazali kosalela makoki wana ya kozwa biloko epai na bino, tosengeli te, biso, kosalela yango koleka ?",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Nzokande, tosalelaki makoki yango te, tokangaka kaka motema na makambo nyonso, mpo ete tozala epekiselo te liboso ya Sango Malamu ya Klisto."
+            }
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Boyebi te ete bato oyo basalaka kati na Tempelo baliaka bilei kowuta na Tempelo, mpe ete ba-oyo basalaka na etumbelo bazwaka eteni na bango kati na mbeka oyo ebonzami na etumbelo ?"
+        },
+        {
+          "number": "14",
+          "text": "Ndenge moko mpe, Nkolo apesaki mitindo ete bato oyo bateyaka Sango Malamu babika bomoi na bango na nzela ya Sango Malamu."
+        },
+        {
+          "number": "15",
+          "text": "Kasi ngai, nasaleli makoki na ngai ata moke te, mpe ezali te mpo na kosenga yango nde nakomeli bino mokanda oyo ; pamba te nakosepela kutu kokufa na esika ete moto mosusu abebisa tina ya lokumu na ngai."
+        },
+        {
+          "number": "16",
+          "text": "Koteya Sango Malamu ezali likambo oyo ngai nasengeli te komikumisa na yango, pamba te mosala yango epesamelaki ngai na makasi. Mawa na ngai soki nateyi te Sango malamu !"
+        },
+        {
+          "number": "17",
+          "text": "Soki mokano ya koteya ewutaki epai na ngai moko, nalingaki solo kozwa lifuti ; kasi lokola mokano yango ewutaki epai na ngai te, nazali kaka kokokisa mosala oyo epesamelaki ngai."
+        },
+        {
+          "number": "18",
+          "text": "Bongo lifuti na ngai ezali penza nini ? Ezali nde kokaba na ofele Sango Malamu oyo nazali koteya, na kozanga kozwa lifuti oyo Sango Malamu yango epesi ngai."
+        },
+        {
+          "number": "19",
+          "text": "Solo, atako nazali nsomi na miso ya bato nyonso, kasi namikomisa mowumbu ya bato nyonso, mpo ete namema bato ebele koleka epai ya Yesu-Klisto.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Tango nazalaka elongo na Bayuda, nakomaka lokola Moyuda mpo ete namema bango epai ya Klisto ; tango nazalaka elongo na bato oyo bazali na se ya bokonzi ya Mibeko, nakomaka lokola moto oyo azali na se ya bokonzi ya Mibeko, mpo ete namema bango epai ya Klisto, atako ngai moko nazali na se ya bokonzi ya Mibeko te."
+        },
+        {
+          "number": "21",
+          "text": "Tango nazalaka elongo na bato oyo bazali na se ya bokonzi ya Mibeko te, nakomaka mpe lokola moto oyo azali na se ya bokonzi ya Mibeko te, mpo ete namema bango epai ya Klisto ; nzokande natosaka Mibeko ya Nzambe, pamba te natosaka Mibeko ya Klisto."
+        },
+        {
+          "number": "22",
+          "text": "Tango nazalaka elongo na bato oyo balenda te na kondima, nakomaka lokola moto alenda te na kondima, mpo ete namema bango kati na kondima epai ya Klisto. Namikomisaka nyonso epai ya bato nyonso, mpo na kobikisa ndambo ya bato kati na bango."
+        },
+        {
+          "number": "23",
+          "text": "Mpe nasalaka makambo wana nyonso mpo na Sango Malamu, mpo ete ngai mpe nazwa mapamboli na ngai kati na yango.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "Boni, boyebi te ete bato oyo bakimaka mbangu kati na lisano ya kopota mbangu, bango nyonso bapotaka mbangu, kasi moto moko kaka nde azwaka mbano ? Bino mpe bopota mbangu lokola ye, na lolenge ya kozwa mbano."
+        },
+        {
+          "number": "25",
+          "text": "Bato nyonso oyo basalaka masano bamipekisaka makambo ebele ; basalaka bongo mpo na kozwa motole oyo ebebaka ; kasi biso, tosalaka bongo mpo na kozwa motole oyo ebebaka te."
+        },
+        {
+          "number": "26",
+          "text": "Yango wana ngai, nazali kopota mbangu na bozoba te, nazali kobeta makofi bibetabeta te."
+        },
+        {
+          "number": "27",
+          "text": "Kasi nakonzaka nzoto na ngai, nakomisaka yango lokola mowumbu, pamba te nabangaka kozanga mbano sima na ngai koteya bato mosusu."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Polo aboyi kosalela makoki na ye"
+      ]
+    },
+    {
+      "chapter": 10,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Bandeko, nalingi boyeba malamu likambo oyo : Bakoko na biso bazalaki bango nyonso na se ya lipata, bakatisaki bango nyonso ebale monene,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "babatisamaki bango nyonso mpo na Moyize kati na lipata mpe kati na ebale monene,"
+        },
+        {
+          "number": "3",
+          "text": "baliaki bango nyonso bilei ya molimo ya ndenge moko,"
+        },
+        {
+          "number": "4",
+          "text": "mpe bamelaki bango nyonso mayi ya molimo ya ndenge moko ; pamba te bazalaki komela na libanga ya molimo, oyo ezalaki kotambola elongo na bango ; mpe libanga yango ezalaki Klisto."
+        },
+        {
+          "number": "5",
+          "text": "Nzokande, Nzambe asepelaki te na mingi kati na bango ; solo, babomaki bango kati na esobe."
+        },
+        {
+          "number": "6",
+          "text": "Ezali bandakisa mpo na biso, mpo ete tolula makambo mabe te ndenge bango balulaki.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Bozala basambeli ya banzambe ya bikeko te, ndenge bamosusu kati na bango bazalaki, kolanda ndenge ekomama : « Bato bavandaki mpo na kolia mpe mpo na komela, mpe batelemaki mpo na kosakana. »"
+        },
+        {
+          "number": "8",
+          "text": "Tosengeli te kosala pite, ndenge bamosusu kati na bango basalaki ; mpe, na mokolo moko, bato nkoto tuku mibale na misato bakufaki.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Tosengeli mpe te komeka Klisto, ndenge bamosusu kati na bango basalaki ; mpe banyoka ebomaki bango mpo ete eswaki bango.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Boyimaka-yimaka te ndenge bamosusu kati na bango bayimaki-yimaki, mpe anjelu mobebisi abomaki bango.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Makambo wana nyonso ekweyelaki bango mpo ete ezala ndakisa mpo na biso, mpe ekomamaki mpo na kokebisa biso oyo tokomi na tango ya suka.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Yango wana, tika ete moto oyo azali kokanisa ete azali ya kotelema asala keba ete akweya te !"
+        },
+        {
+          "number": "13",
+          "text": "Komekama oyo ekomelaki bino ekomelaka bato nyonso ; mpe Nzambe azali Moyengebene ; akotika te ete bomekama koleka makasi na bino. Kasi na tango ya komekama, akobongisela bino nzela ya kobima na komekama yango, mpe akopesa bino makasi ya kotelemela yango.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Yango wana, balingami na ngai, bokima kosambela banzambe ya bikeko.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Kozala moko te elongo na banzambe ya bikeko"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Nazali koloba na bino lokola na bato ya mayele ; botala bino moko soki makambo oyo nazali koloba ezali malamu to mabe.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "Boni, kopo ya elambo oyo, mpo na yango, tozongisaka matondi epai ya Nzambe, ekomisaka biso te moko na makila ya Klisto ? Lipa oyo tokataka ekomisaka biso te moko na nzoto ya Klisto ?"
+        },
+        {
+          "number": "17",
+          "text": "Lokola lipa ezali kaka moko, biso nyonso tozali kosala nzoto kaka moko atako tozali ebele, pamba te biso nyonso tokabolaka lipa yango kaka moko."
+        },
+        {
+          "number": "18",
+          "text": "Bokanisa nanu Isalaele ! Boni, bato oyo baliaka banyama oyo epesami lokola mbeka bazalaka moko te na etumbelo ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Nalingi koloba nini ? Nalingi koloba ete misuni ya banyama oyo ebonzami lokola mbeka epai ya banzambe mosusu, mpe yango moko nzambe ya ekeko, ezali na tina ?"
+        },
+        {
+          "number": "20",
+          "text": "Te ! Kasi lokola babonzaka bambeka na bango epai ya milimo mabe mpe epai ya oyo ezali Nzambe te, naboyi ete bozala moko na milimo mabe."
+        },
+        {
+          "number": "21",
+          "text": "Bokoki te komela oyo ezali kati na kopo ya Nkolo mpe komela lisusu oyo ezali kati na kopo ya milimo mabe ; bokoki te kolia na mesa ya Nkolo mpe kolia lisusu na mesa ya milimo mabe."
+        },
+        {
+          "number": "22",
+          "text": "Boni, tolingi nde kotumbola zuwa ya Nkolo ? Boni, tozali makasi koleka Ye ?"
+        },
+        {
+          "number": "23",
+          "text": "Bolobaka : « Nazali na ndingisa ya kosala nyonso, » nzokande nyonso ezali na litomba te ; « Nazali na ndingisa ya kosala nyonso, » nzokande nyonso elendisaka te.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Tosala nyonso mpo na lokumu ya Nzambe"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "Tika ete moto moko te aluka bolamu na ye moko kaka, kasi aluka mpe bolamu ya moto mosusu !",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "Boliaka nyonso oyo etekamaka na zando, na komipesa mituna te na tina na yango, noki te bobebisa mitema na bino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "Pamba te mabele mpe nyonso oyo ezali kati na yango ezali ya Nkolo."
+        },
+        {
+          "number": "27",
+          "text": "Soki moto oyo azali mondimi te abengisi yo, mpe ondimi kokende epai na ye, lia nyonso oyo bakopesa yo, na komipesa mituna te, noki te obebisa motema na yo.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "Kasi soki moto moko alobi na yo : « Mosuni oyo ebonzamaki lokola mbeka epai ya nzambe ya ekeko, » kolia yango te, likolo ya moto oyo akebisi yo mpe mpo ete obebisa te motema na yo."
+        },
+        {
+          "number": "29",
+          "text": "Awa, nazali koloba te na tina na motema na yo, kasi na tina na motema ya moto yango, pamba te mpo na nini motema ya moto mosusu elandela bonsomi na ngai ?"
+        },
+        {
+          "number": "30",
+          "text": "Soki naliaka na kozongisa matondi epai ya Nzambe, mpo na nini kopamela ngai na tina na oyo, ngai, nazongiselaka matondi epai ya Nzambe ?"
+        },
+        {
+          "number": "31",
+          "text": "Boye, ezala kolia to komela, nyonso oyo bokoki kozala kosala, bosalaka nyonso mpo na lokumu ya Nzambe.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "32",
+          "text": "Bozalaka libaku te, ezala mpo na Bayuda, mpo na Bagreki to mpo na Lingomba ya Nzambe.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "33",
+          "text": "Yango wana, ngai, kati na makambo nyonso, nasalaka makasi mpo na kosepelisa bato nyonso ; nalukaka litomba na ngai moko te, kasi nalukaka bolamu ya bato ebele, mpo ete babika."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Ndakisa ya botomboki ya Isalaele"
+      ]
+    },
+    {
+      "chapter": 11,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Bolanda ndakisa na ngai, ndenge ngai nalandaka ndakisa ya Klisto.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Nakumisaka bino kati na makambo nyonso, pamba te bokanisaka ngai mpe bopengwaka te kati na malakisi oyo napesaki bino.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Mobali mpe mwasi liboso ya Nkolo"
+          ]
+        },
+        {
+          "number": "3",
+          "text": "Nzokande, nalingi boyeba ete Klisto azali Mokonzi ya mobali nyonso, mobali azali mokonzi ya mwasi, mpe Nzambe azali Mokonzi ya Klisto.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "Mobali nyonso oyo asambelaka to asakolaka, wana moto na ye ezali ya kozipama, ayokisaka Mokonzi na ye soni."
+        },
+        {
+          "number": "5",
+          "text": "Kasi mwasi nyonso oyo asambelaka to asakolaka, wana moto na ye ezali polele, ayokisaka mokonzi na ye soni, pamba te azali lokola mwasi oyo bakokola suki."
+        },
+        {
+          "number": "6",
+          "text": "Mwasi oyo alataka kitambala te na moto na ye asengeli kokokola suki na ye. Kasi soki ezali soni mpo na mwasi kokatisa to kokokola suki, ekoleka malamu mpo na ye kolata kitambala na moto na ye."
+        },
+        {
+          "number": "7",
+          "text": "Mobali asengeli te kolata kitambala, pamba te azali elilingi mpe lokumu ya Nzambe ; kasi mwasi azali lokumu ya mobali.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Pamba te mobali akelama te wuta na mwasi, kasi mwasi akelama wuta na mobali."
+        },
+        {
+          "number": "9",
+          "text": "Mobali akelama te mpo na mwasi, kasi mwasi akelama mpo na mobali."
+        },
+        {
+          "number": "10",
+          "text": "Yango wana, likolo ya ba-anjelu, mwasi asengeli kozala na elembo ya bokonzi na moto na ye."
+        },
+        {
+          "number": "11",
+          "text": "Nzokande, kati na Nkolo, mwasi azali te soki mobali azali te, mpe mobali azali te soki mwasi azali te."
+        },
+        {
+          "number": "12",
+          "text": "Pamba te ndenge mwasi akelamaki wuta na mobali, ndenge mpe mobali abotamaki na nzela ya mwasi. Kasi makambo nyonso ewutaka na Nzambe."
+        },
+        {
+          "number": "13",
+          "text": "Botala nanu bino moko : boni, ezali malamu mpo na mwasi kosambela Nzambe moto polele ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Boni, mokili yango moko eteyaka bino te ete ezali soni mpo na mobali kozala na suki milayi,"
+        },
+        {
+          "number": "15",
+          "text": "kasi ezali nde lokumu mpo na mwasi kozala na suki milayi ? Pamba te suki epesama na mwasi lokola kitambala."
+        },
+        {
+          "number": "16",
+          "text": "Soki moto moko akanisi ete ezali malamu mpo na ye kotia tembe na tina na likambo oyo, biso elongo na Mangomba ya Nzambe tozalaka na ezaleli wana te.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "Kati na malako oyo ezali kolanda, nakokumisa bino te ; pamba te mayangani na bino esungaka bino te mpo bokoma bato ya esengo koleka, kasi ekomisaka bino lisusu bato na pasi makasi.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Bilei ya Nkolo"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Liboso, nazali koyoka ete bozalaka na bokabwani kati na bino, tango boyaka na mayangani ; mpe nazali kondima yango mwa moke.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Solo, bokabwani esengeli kozala kati na bino mpo ete Baklisto ya solo bayebana kati na bino."
+        },
+        {
+          "number": "20",
+          "text": "Boye, tango boyaka na mayangani, ezalaka lisusu te mpo na kolia bilei ya Nkolo ;",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "pamba te emonanaka ete, soki kaka bokomi na mesa, moto na moto awelaka nanu kolia bilei na ye moko ; mpe mpo na yango, bamoko batikalaka na nzala, mpe bamosusu balangwaka."
+        },
+        {
+          "number": "22",
+          "text": "Boni, bozangi bandako oyo kati na yango bokoki kolia mpe komela ? Boni, bosalaka bongo mpo na kotiola Lingomba ya Nzambe mpe kosambwisa bato oyo bazangi bilei ?",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Nini nakoki koloba na bino ? Nakumisa bino ? Na likambo oyo, nakokumisa bino te !"
+            }
+          ]
+        },
+        {
+          "number": "23",
+          "text": "Pamba te, nateyaki bino makambo oyo nazwaki epai ya Nkolo : Nkolo Yesu, na butu oyo batekaki Ye, azwaki lipa ;"
+        },
+        {
+          "number": "24",
+          "text": "mpe, sima na Ye kozongisa matondi epai ya Nzambe, akataki yango mpe alobaki : « Oyo ezali nzoto na Ngai ; epesami mpo na bino ! Bosalaka boye mpo na kokanisa Ngai. »"
+        },
+        {
+          "number": "25",
+          "text": "Ndenge moko mpe, sima na Ye kolia, azwaki kopo mpe alobaki : « Kopo oyo ezali Boyokani ya sika kati na makila na Ngai ! Tango nyonso bokobanda komela yango, bosalaka boye mpo na kokanisa Ngai. »"
+        },
+        {
+          "number": "26",
+          "text": "Boye, tango nyonso bokozala kolia lipa oyo mpe komela kopo oyo, bokozala kosakola kufa ya Nkolo kino akozonga."
+        },
+        {
+          "number": "27",
+          "text": "Yango wana, moto nyonso oyo akolia lipa to akomela kopo ya Nkolo na lolenge oyo ebongi te, akomema ngambo epai ya nzoto mpe makila ya Nkolo.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "Boye tika ete moto nyonso amitala malamu liboso ya kolia lipa mpe komela wuta na kopo !"
+        },
+        {
+          "number": "29",
+          "text": "Pamba te moto oyo azali kolia lipa mpe komela, na kozanga kososola ete ezali nzoto ya Nkolo, azali komikatela etumbu na kolia mpe komela bongo."
+        },
+        {
+          "number": "30",
+          "text": "Yango wana mingi kati na bino bakoma na bolembu mpe na bokono, mpe ebele kati na bino bakufa."
+        },
+        {
+          "number": "31",
+          "text": "Kasi soki tozalaki kososola oyo tozali, tolingaki kozwa etumbu te."
+        },
+        {
+          "number": "32",
+          "text": "Nzokande, Nkolo apesaka biso etumbu mpo na kozongisa biso na nzela, mpo ete tozwa etumbu te elongo na mokili."
+        },
+        {
+          "number": "33",
+          "text": "Boye bandeko na ngai, tango boyaka na mayangani mpo na kolia elongo, bozelanaka.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "34",
+          "text": "Moto nyonso oyo azali na nzala asengeli nanu kolia na ndako na ye, mpo ete mayangani na bino ememela bino etumbu te. Mpe na tina na makambo oyo etikali, nakopesela yango malako tango nakoya."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 12,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Bandeko, nakosepela ete bozala na boyebi na tina na makambo oyo etali makabo ya Molimo.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Boyebi malamu ete tango bozalaki nanu Bapagano, bozalaki komemama mpe kokosama epai ya banzambe ya bikeko oyo elobaka te."
+        },
+        {
+          "number": "3",
+          "text": "Yango wana, nazali koloba na bino ete moto moko te, wana akambami na Molimo ya Nzambe, akoki koloba : « Tika ete Yesu alakelama mabe ! » Mpe moto moko te akoki koloba : « Yesu azali Nkolo, » soki akambami na Molimo Mosantu te."
+        },
+        {
+          "number": "4",
+          "text": "Makabo ezali ya ndenge na ndenge, kasi Molimo azali kaka moko.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Misala ezali ya ndenge na ndenge, kasi Nkolo azali kaka moko."
+        },
+        {
+          "number": "6",
+          "text": "Ezali na lolenge ebele ya kosalela Nkolo, kasi Nzambe azali kaka moko ; mpe ezali Ye nde asalaka nyonso kati na bato nyonso."
+        },
+        {
+          "number": "7",
+          "text": "Nzokande, Molimo amimonisaka epai na moko na moko mpo na bolamu ya bato nyonso.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Epai na moko, Molimo apesi liloba ya bwanya ; epai na mosusu, liloba ya boyebi ;"
+        },
+        {
+          "number": "9",
+          "text": "epai na mosusu kondima ; epai na mosusu, likabo ya kobikisa babeli ;"
+        },
+        {
+          "number": "10",
+          "text": "epai na mosusu, nguya ya kosala bikamwa ; epai na mosusu, likabo ya kosakola ; epai na mosusu, likabo ya kososola milimo ; epai na mosusu, likabo ya koloba nkota ya ndenge na ndenge ; epai na mosusu, likabo ya kolimbola nkota."
+        },
+        {
+          "number": "11",
+          "text": "Ezali Molimo kaka moko nde asalaka misala wana nyonso mpe akabolaka yango epai na moko na moko, ndenge Ye moko alingi."
+        },
+        {
+          "number": "12",
+          "text": "Nzoto ezali kaka moko, kasi ezali na biteni ebele ; mpe atako motango na yango ezali ebele, kasi ezali kosala kaka nzoto moko. Ezali mpe bongo mpo na Klisto.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Biteni ebele kati na nzoto moko"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Solo, biso nyonso tobatisamaki kati na Molimo moko mpo na kosala nzoto moko : ezala Bayuda to Bagreki, ezala bawumbu to bansomi. Mpe epesamelaki biso nyonso komela Molimo wana se moko."
+        },
+        {
+          "number": "14",
+          "text": "Nzoto ezali na eteni moko te, kasi ezali na biteni ebele.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Soki lokolo elobi : « Lokola nazali loboko te, nazali kati na nzoto te ; » boni, ekotika penza kozala eteni ya nzoto mpo elobi bongo ?"
+        },
+        {
+          "number": "16",
+          "text": "Soki mpe litoyi elobi : « Lokola nazali liso te, nazali eteni ya nzoto te ; » boni, ekotika penza kozala eteni ya nzoto mpo elobi bongo ?"
+        },
+        {
+          "number": "17",
+          "text": "Soki nzoto mobimba ezalaki kaka liso, nzoto yango elingaki koyoka ndenge nini ? Soki nzoto mobimba ezalaki kaka litoyi, nzoto yango elingaki koyoka solo ndenge nini ?"
+        },
+        {
+          "number": "18",
+          "text": "Kasi Nzambe atiaki biteni kati na nzoto, mpe amonaki ete ezali malamu mpo na eteni moko na moko kozala na mosala na yango."
+        },
+        {
+          "number": "19",
+          "text": "Soki biteni nyonso ezalaki kaka eteni moko, boni, nzoto elingaki penza kozala nzoto ?"
+        },
+        {
+          "number": "20",
+          "text": "Solo, biteni ezali ebele, kasi nzoto ezali kaka moko.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "Yango wana, liso ekoki te koloba na loboko : « Nazali na posa na yo te ; » moto mpe ekoki te koloba na makolo : « Nazali na posa na bino te. »"
+        },
+        {
+          "number": "22",
+          "text": "Nzokande biteni ya nzoto, oyo emonanaka ete ezali na motuya moke, ezalaka na tina makasi ;",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "biteni oyo tozwaka na lokumu moke kati na nzoto, tobatelaka yango makasi ; mpe biteni oyo toyokaka nkele, yango nde tobongisaka na lolenge malamu,"
+        },
+        {
+          "number": "24",
+          "text": "wana biteni oyo ebetisaka mabaku te ezalaka na posa ya lolenge malamu yango te. Nzambe abongisa nzoto na lolenge ete basengeli kaka kozwaka na lokumu mingi, biteni oyo emonanaka lokola ezanga lokumu :"
+        },
+        {
+          "number": "25",
+          "text": "asalaki bongo mpo ete bokabwani ezala te kati na nzoto, kasi mpo ete biteni na yango esunganaka."
+        },
+        {
+          "number": "26",
+          "text": "Soki eteni moko eyoki pasi, biteni nyonso esengeli koyoka pasi elongo na moko yango ; soki mpe moko kaka nde esepeli, biteni nyonso esengeli kokabola esengo elongo na moko yango."
+        },
+        {
+          "number": "27",
+          "text": "Nzokande bino, bozali nzoto ya Klisto, mpe moko na moko kati na bino azali eteni ya nzoto yango ya Klisto."
+        },
+        {
+          "number": "28",
+          "text": "Mpe kati na Lingomba, Nzambe atiaki : ya liboso, bantoma ; ya mibale, basakoli ; ya misato, balakisi ; mpe na sima, bato oyo bazali na likabo ya kosala bikamwa, ba-oyo bazali na likabo ya kobikisa babeli, ba-oyo bazali na likabo ya kosunga bato, ba-oyo bazali na likabo ya kokamba, mpe ba-oyo bazali na likabo ya koloba nkota ya ndenge na ndenge."
+        },
+        {
+          "number": "29",
+          "text": "Boni, bango nyonso bazali bantoma ? Bango nyonso bazali basakoli ? Bango nyonso bazali balakisi ? Bango nyonso basalaka bikamwa ?"
+        },
+        {
+          "number": "30",
+          "text": "Bango nyonso bazali na likabo ya kobikisa babeli ? Bango nyonso balobaka nkota ya ndenge na ndenge ? Bango nyonso balimbolaka nkota ?"
+        },
+        {
+          "number": "31",
+          "text": "Bozala na posa makasi ya kozala na makabo oyo eleki na monene. Mpo na yango, nakolakisa bino nzela oyo eleki malamu.",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Makabo ya Molimo"
+      ]
+    },
+    {
+      "chapter": 13,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Soki nalobi nkota ya bato to ya ba-anjelu, kasi nazangi bolingo, nazali kaka lokola ngonga oyo ezali kobeta to lokola manzanza oyo ezali kotia makelele.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Soki nazali na likabo ya kosakola, ya kososola mabombami nyonso mpe ya koyeba makambo nyonso ; mpe soki nazali na kondima oyo ekoki kolongola bangomba, kasi nazangi bolingo, nazali pamba."
+        },
+        {
+          "number": "3",
+          "text": "Soki napesi biloko na ngai nyonso epai ya babola, mpe nakabi nzoto na ngai mpo ete batumba yango, kasi nazangi bolingo, nakozwa ata litomba moko te."
+        },
+        {
+          "number": "4",
+          "text": "Bolingo ekangaka motema, bolingo etondi na boboto. Bolingo elulaka te, emikumisaka te, emitondisaka na lolendo te,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "ebebisaka lokumu ya bato mosusu te, elukaka bolamu na yango moko te, esilikaka te, ebosanaka mabe."
+        },
+        {
+          "number": "6",
+          "text": "Bolingo eyokaka mawa liboso ya bozangi bosembo, kasi esepelaka na bosolo."
+        },
+        {
+          "number": "7",
+          "text": "Tango nyonso mpe na makambo nyonso, bolingo elimbisaka, endimaka, ezalaka na elikya, eyikaka mpiko.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Bolingo ekotikala kokufa te. Kasi masakoli ekokatana, nkota ekosila, boyebi ekolimwa."
+        },
+        {
+          "number": "9",
+          "text": "Pamba te toyebaka kaka moke, mpe tosakolaka kaka moke."
+        },
+        {
+          "number": "10",
+          "text": "Kasi tango kokokisama ekokoma, oyo ezali moke ekolimwa."
+        },
+        {
+          "number": "11",
+          "text": "Tango nazalaki mwana moke, nazalaki koloba lokola mwana moke, nazalaki kokanisa lokola mwana moke, mpe nazalaki na mayele lokola ya mwana moke ; kasi tango nakomaki mokolo, natikaki oyo ekoki na mwana moke.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Solo, sik’oyo, tozali komona kaka elilingi, lokola kati na talatala ; kasi mokolo ezali, mokolo oyo tokomona penza ndenge esengeli. Sik’oyo nayebi kaka moke ; kasi mokolo ezali, mokolo oyo nakoyeba penza nyonso, ndenge Nzambe ayebi ngai.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Boye sik’oyo, makambo oyo misato ezali kowumela : kondima, elikya mpe bolingo ; kasi kati na yango, likambo oyo eleki monene ezali nde bolingo.",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Bolingo"
+      ]
+    },
+    {
+      "chapter": 14,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Boye bolukaka liboso bolingo, mpe bozalaka na posa makasi ya makabo ya Molimo, mpe mingi penza likabo ya kosakola.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Pamba te moto oyo alobaka na lokota oyo eyebani te alobaka na Nzambe kasi na bato te. Boye moto moko te asosolaka ye ; nzokande, alobaka mabombami, na bokambami ya Molimo."
+        },
+        {
+          "number": "3",
+          "text": "Kasi moto oyo asakolaka alobaka nde na bato mpo na kokolisa kondima na bango, kolendisa bango mpe kobondisa bango."
+        },
+        {
+          "number": "4",
+          "text": "Moto oyo alobaka na lokota oyo eyebani te alendisaka kaka kondima na ye moko, kasi moto oyo asakolaka alendisaka kondima ya Lingomba mobimba."
+        },
+        {
+          "number": "5",
+          "text": "Nalingi ete bino nyonso bolobaka nkota oyo eyebani te, kasi nalingi mingi koleka ete bino nyonso bosakolaka. Moto oyo azali kosakola azali na tina mingi, koleka moto oyo azali koloba nkota oyo eyebani te, longola kaka soki alimboli nkota yango mpo na kokolisa kondima ya Lingomba."
+        },
+        {
+          "number": "6",
+          "text": "Bandeko na ngai, soki nayei epai na bino mpe nalobi na bino kaka na nkota oyo eyebani te, nakozala litomba nini mpo na bino soki liloba na ngai ememeli bino te ezala emoniseli, boyebi ya sika, lisakoli to malakisi ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Ezali mpe ndenge moko mpo na bibetelo mindule lokola flite to lindanda : soki ezali kobimisa te mingongo ekesana, ndenge nini tokoki kososola mongongo oyo flite to lindanda ezali kobimisa ?"
+        },
+        {
+          "number": "8",
+          "text": "Bongo, soki kelelo ebimisi mongongo oyo esengeli te, nani akomibongisa mpo na etumba ?"
+        },
+        {
+          "number": "9",
+          "text": "Ezali mpe ndenge moko mpo na bino : soki na minoko na bino, bozali kaka koloba makambo oyo bato bazali kososola te, ndenge nini bakoki penza koyeba makambo oyo bozali koloba ? Wana, bokoloba na pamba."
+        },
+        {
+          "number": "10",
+          "text": "Kati na mokili, nkota ezali ya ndenge na ndenge, mpe lokota moko te kati na yango ezangi tina."
+        },
+        {
+          "number": "11",
+          "text": "Nzokande, soki nayebi te ndimbola ya maloba ya lokota oyo moto azali koloba na ngai, nakozala lokola mopaya epai na ye, mpe ye akozala mopaya epai na ngai."
+        },
+        {
+          "number": "12",
+          "text": "Yango wana, bino mpe, lokola bozalaka na posa makasi ya makabo ya Molimo, bolukaka mingi kozala na yango ebele mpo na kokolisa kondima ya Lingomba."
+        },
+        {
+          "number": "13",
+          "text": "Yango wana, tika ete moto oyo alobaka na nkota oyo eyebani te abondela mpo ete azwa makoki ya kolimbola maloba oyo azali koloba.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Pamba te soki nasambeli na nkota oyo eyebani te, molimo na ngai ekozala kosambela, kasi mayele na ngai ekosala te."
+        },
+        {
+          "number": "15",
+          "text": "Boye, nasala nini ? Nakosambela na molimo na ngai, kasi nakosambela mpe na mayele na ngai ; nakoyemba na molimo na ngai, kasi nakoyemba mpe na mayele na ngai."
+        },
+        {
+          "number": "16",
+          "text": "Soki ozali kozongisa matondi epai ya Nzambe kati na molimo na yo, ndenge nini ba-oyo bazali koyoka te bakoki koloba « Amen ! » na losambo na yo ya kozongisa matondi epai ya Nzambe ? Pamba te bayebi te makambo oyo ozali koloba."
+        },
+        {
+          "number": "17",
+          "text": "Ozali kozongisa matondi ya kitoko, kasi moto mosusu azali kokola te kati na kondima."
+        },
+        {
+          "number": "18",
+          "text": "Nazongisaka matondi epai ya Nzambe mpo ete nalobaka nkota oyo eyebani te, koleka bino nyonso.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Kasi kati na Lingomba, nasepelaka koloba maloba mitano oyo bato bakoki kososola mpo na koteya bato mosusu, na esika ete naloba maloba nkoto zomi na nkota oyo eyebani te."
+        },
+        {
+          "number": "20",
+          "text": "Bandeko na ngai, botika kokanisa lokola bana mike ; bozala te lokola bana mike na lolenge na bino ya kososola makambo. Mpo na oyo etali mabe, bozala lokola bana mike ; kasi mpo na oyo etali lolenge ya kososola makambo, bozala mikolo.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "Ekomama boye kati na Mobeko :",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "« Ekozala na nkota ya bapaya,"
+            },
+            {
+              "source_marker": "q2",
+              "text": "na nzela ya nkota oyo eyebani te"
+            },
+            {
+              "source_marker": "q1",
+              "text": "nde nakoloba na bato oyo ;"
+            },
+            {
+              "source_marker": "q2",
+              "text": "kasi atako bongo, bakoyoka ngai te, »"
+            },
+            {
+              "source_marker": "q2",
+              "text": "elobi Nkolo."
+            }
+          ]
+        },
+        {
+          "number": "22",
+          "text": "Yango wana, nkota oyo eyebani te ezali elembo mpo na bato oyo bazali bandimi te, kasi ezali elembo te mpo na bandimi ; nzokande lisakoli ezali elembo mpo na bandimi, kasi ezali elembo te mpo na bato oyo bazali bandimi te.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "Soki Lingomba mobimba esangani esika moko, mpe bato nyonso bazali koloba nkota oyo eyebani te, bongo bato oyo bazali na boyebi moke to bato oyo bazali bandimi te bakoti kuna, boni, bakoloba te ete bozali na liboma ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "Nzokande, soki bato nyonso bazali kosakola, mpe moto oyo azali mondimi te to oyo azali na boyebi moke akoti kuna, boni, akomimona te lokola moto ya masumu ? Akomitungisa te kati na motema na ye ?"
+        },
+        {
+          "number": "25",
+          "text": "Basekele ya motema na ye ekomonisama polele. Bongo, akofukama elongi kino na mabele, akogumbamela Nzambe mpe akoloba : « Solo, Nzambe azali kati na bino. »"
+        },
+        {
+          "number": "26",
+          "text": "Bandeko, toloba lisusu nini ? Tango bosanganaka esika moko, tika ete moko ayemba nzembo, mosusu ateya, mosusu ayebisa makambo oyo Nzambe amonisi ye, mosusu aloba na lokota oyo eyebani te, mpe mosusu alimbola. Nyonso wana esengeli kosalema mpo na kokolisa kondima ya Lingomba.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Mobulu te kati na losambo"
+          ]
+        },
+        {
+          "number": "27",
+          "text": "Soki bato bazali koloba na nkota oyo eyebani te, tika ete bato mibale, suka bato misato, baloba, moko sima na mosusu, mpe esengeli ete moko alimbola yango."
+        },
+        {
+          "number": "28",
+          "text": "Soki moto ya kolimbola maloba yango azali te, wana tika ete ye oyo azali koloba lokota oyo eyebani te akanga monoko kati na Lingomba, mpe aloba epai na ye moko mpe epai ya Nzambe."
+        },
+        {
+          "number": "29",
+          "text": "Mpo na oyo etali basakoli, tika ete mibale to misato basakola, mpe bamosusu baluka kososola malamu makambo oyo bazali koloba.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "Soki moko kati na mayangani azwi emoniseli, wana mosusu azali koloba, moto oyo azali koloba asengeli kokanga monoko."
+        },
+        {
+          "number": "31",
+          "text": "Pamba te bino nyonso bokoki na bino kosakola, kasi bosengeli kosala yango moko sima na mosusu, mpo ete bato nyonso bayekola mpe balendisama."
+        },
+        {
+          "number": "32",
+          "text": "Mosakoli azali na bokonzi likolo ya molimo ya basakoli, oyo ezali kokamba ye."
+        },
+        {
+          "number": "33",
+          "text": "Pamba te Nzambe azali Nzambe ya mobulu te, kasi Nzambe ya kimia.",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Ndenge esalemaka kati na Mangomba nyonso ya basantu,"
+            }
+          ]
+        },
+        {
+          "number": "34",
+          "text": "basi basengeli te koloba kati na mayangani, pamba te bazali na ndingisa te ya koloba. Basengeli nde kotosa ndenge Mobeko etindaka."
+        },
+        {
+          "number": "35",
+          "text": "Soki bazali na posa ya koyeba likambo, tika ete batunaka mibali na bango kati na ndako, pamba te ezali soni mpo na mwasi koloba kati na mayangani."
+        },
+        {
+          "number": "36",
+          "text": "Boni, bokanisi ete Maloba ya Nzambe ewutaki nde epai na bino to ekomaki kaka epai na bino moko ?"
+        },
+        {
+          "number": "37",
+          "text": "Soki moto akanisi ete azali mosakoli to azali na likabo ya Molimo, asengeli koyeba ete makambo oyo nasili kokomela bino ezali nde Mobeko ya Nkolo."
+        },
+        {
+          "number": "38",
+          "text": "Soki ayebi yango te, elingi koloba ete Nzambe mpe ayebi ye te."
+        },
+        {
+          "number": "39",
+          "text": "Yango wana, bandeko na ngai, bozala na posa makasi ya likabo ya kosakola, mpe bopekisa bato te koloba nkota oyo eyebani te."
+        },
+        {
+          "number": "40",
+          "text": "Kasi tika ete makambo nyonso esalema na ndenge oyo esengeli, na mobulu te."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Likabo ya kosakola mpe ya koloba nkota"
+      ]
+    },
+    {
+      "chapter": 15,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Bandeko na ngai, nalingi sik’oyo kozongisa lisusu na makanisi na bino, Sango Malamu oyo nateyaki bino, oyo boyambaki, oyo bomipesi na yango,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "mpe oyo na nzela na yango bosili kobika, soki kaka bosimbi makasi Liloba oyo nateyaki bino ; pamba te soki ezali bongo te, wana bondimelaki na bino kaka pamba."
+        },
+        {
+          "number": "3",
+          "text": "Liboso na nyonso, nateyaki bino mateya oyo ngai moko nazwaki : Klisto akufaki mpo na masumu na biso, kolanda Makomi ;"
+        },
+        {
+          "number": "4",
+          "text": "bakundaki Ye, mpe asekwaki na mokolo ya misato, ndenge Makomi elobaki yango liboso."
+        },
+        {
+          "number": "5",
+          "text": "Amonanaki epai ya Petelo ; sima, epai ya bantoma zomi na mibale."
+        },
+        {
+          "number": "6",
+          "text": "Sima na yango, amonanaki epai ya bandeko koleka nkama mitano na mbala moko ; mpe mingi kati na bango bazali nanu na bomoi kino na tango oyo, kasi bamosusu basila kokufa."
+        },
+        {
+          "number": "7",
+          "text": "Bongo amonanaki epai ya Jake, mpe epai ya bantoma nyonso."
+        },
+        {
+          "number": "8",
+          "text": "Sima na bango nyonso, amonanaki mpe epai na ngai, lokola epai ya mwana matsombe,"
+        },
+        {
+          "number": "9",
+          "text": "pamba te nazali moke penza kati na bantoma ; mpe nakoki kutu te kobengama ntoma, mpo ete nanyokolaki Lingomba ya Nzambe."
+        },
+        {
+          "number": "10",
+          "text": "Kasi na ngolu ya Nzambe, nazali oyo nazali lelo ; mpe ngolu na Ye epai na ngai ezali ya pamba te. Kutu, nasalaki mosala mingi koleka bango nyonso ; nzokande, ezali ngai te, kasi ezali nde ngolu ya Nzambe, oyo ezali elongo na ngai."
+        },
+        {
+          "number": "11",
+          "text": "Na mokuse, ezala ngai to bango, biso nyonso toteyaka kaka Sango Malamu oyo, mpe ezali Sango Malamu yango nde bondimaki."
+        },
+        {
+          "number": "12",
+          "text": "Nzokande, soki toteyaka ete Klisto asekwaki kati na bakufi, ndenge nini bato mosusu kati na bino balobaka ete bakufi bakosekwa te ?",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Lisekwa ya bakufi"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Soki bakufi bakosekwa te, wana Klisto mpe asekwaki te."
+        },
+        {
+          "number": "14",
+          "text": "Mpe soki Klisto asekwaki te, wana mateya na biso ezali na tina te, mpe kondima na bino ezali pamba."
+        },
+        {
+          "number": "15",
+          "text": "Mpe lisusu, soki ezali penza ya solo ete bakufi bakosekwa te, wana tozali batatoli ya lokuta na tina na Nzambe, pamba te totatoli lokuta na tina na Nzambe ete asekwisaki Klisto kati na bakufi. Nzokande soki ezali penza bongo ete bakufi bakosekwa te, wana Nzambe asekwisaki Yesu te."
+        },
+        {
+          "number": "16",
+          "text": "Solo, soki bakufi bakosekwa te, wana Klisto mpe asekwaki te ;"
+        },
+        {
+          "number": "17",
+          "text": "mpe soki Klisto asekwaki te, wana kondima na bino ezali na tina te, bozali nanu kati na masumu na bino,"
+        },
+        {
+          "number": "18",
+          "text": "mpe bato oyo bakufi kati na Klisto babungi mpo na libela."
+        },
+        {
+          "number": "19",
+          "text": "Soki totiaka elikya na Klisto kaka mpo na bomoi oyo, tozali penza bato na mawa koleka bato nyonso."
+        },
+        {
+          "number": "20",
+          "text": "Kasi, solo, Klisto asekwaki kati na bakufi : azali Mosekwi ya liboso kati na bakufi.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "Solo, lokola kufa eyaki na nzela ya moto moko, lisekwa mpe eyaki na nzela ya moto moko ;"
+        },
+        {
+          "number": "22",
+          "text": "ndenge bato nyonso bakufaka kati na Adamu, ndenge wana mpe bato nyonso bakozwa bomoi kati na Klisto ;"
+        },
+        {
+          "number": "23",
+          "text": "kasi moto na moto na tango na ye : Klisto akosekwa moto ya liboso ; sima, tango akoya, bato oyo bazali ya Klisto bakosekwa."
+        },
+        {
+          "number": "24",
+          "text": "Sima na yango nde suka ekoya, tango Klisto akozongisa bokonzi na maboko ya Ye oyo azali Nzambe mpe Tata, sima na Ye kobebisa lokumu nyonso, bokonzi nyonso mpe nguya nyonso."
+        },
+        {
+          "number": "25",
+          "text": "Pamba te Klisto asengeli kokonza kino Nzambe akotia banguna na Ye nyonso na se ya matambe na Ye."
+        },
+        {
+          "number": "26",
+          "text": "Kufa nde ezali monguna ya suka, oyo ekobebisama."
+        },
+        {
+          "number": "27",
+          "text": "Pamba te atiaki biloko nyonso na se ya matambe na Ye. Kasi wana alobi : « Nyonso ezali na se ya bokonzi na Ye, » etalisami polele ete esengeli te kotanga Nzambe oyo atiaki nyonso na se ya bokonzi na Ye."
+        },
+        {
+          "number": "28",
+          "text": "Mpe sima na Nzambe kotia nyonso na se ya bokonzi na Ye, Ye moko Mwana akomitia na se ya bokonzi ya Nzambe oyo atiaki nyonso na se ya bokonzi na Ye, mpo ete Nzambe azala nyonso kati na bato nyonso."
+        },
+        {
+          "number": "29",
+          "text": "Soki lisekwa ezali te, bato oyo bazwaka libatisi mpo na bakufi bakosala nini ? Soki bakufi bakosekwa te, mpo na nini bato bazwaki libatisi mpo na bango ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "Bongo biso, mpo na nini tokutanaka na makama tango nyonso ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "31",
+          "text": "Bandeko na ngai, mokolo na mokolo, nandimaka kokufa, wana namikumisaka na tina na bino kati na Yesu-Klisto, Nkolo na biso."
+        },
+        {
+          "number": "32",
+          "text": "Soki ezali kaka mpo na makambo ya bomoto nde nabundisaki banyama ya zamba kati na Efeso, litomba nini nazwaki ? Soki bakufi bakosekwa te,",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "« wana tika ete tolia mpe tomela,"
+            },
+            {
+              "source_marker": "q2",
+              "text": "pamba te, lobi, tokokufa ! »"
+            }
+          ]
+        },
+        {
+          "number": "33",
+          "text": "Bomikosa te : « Baninga mabe babebisaka bizaleli ya malamu ! »",
+          "source_markers_before": [
+            "m"
+          ]
+        },
+        {
+          "number": "34",
+          "text": "Bozongela makanisi ya malamu na ndenge ekoki mpe botika kosala masumu, pamba te bato mosusu kati na bino bayebi Nzambe te ; nazali koloba yango mpo na koyokisa bino soni."
+        },
+        {
+          "number": "35",
+          "text": "Kasi bato mosusu bakoki kotuna : « Bakufi bakosekwa ndenge nini ? Bakozonga na bomoi na nzoto nini ? »",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Lisekwa ya nzoto"
+          ]
+        },
+        {
+          "number": "36",
+          "text": "Bozangi nde mayele ! Nkona oyo oloni ekoki te kozongela bomoi soki ekufi te."
+        },
+        {
+          "number": "37",
+          "text": "Mpe nkona oyo oloni ezali te nzoto oyo nzete ekozala na yango tango ekobima ; kasi ezali mbuma ya pamba, tango mosusu mbuma ya ble to mbuma mosusu."
+        },
+        {
+          "number": "38",
+          "text": "Kasi ezali Nzambe nde apesaka yango nzoto oyo Ye moko abongisa, mpe apesaka nkona moko na moko nzoto na yango."
+        },
+        {
+          "number": "39",
+          "text": "Bikelamu nyonso ya bomoi ezalaka na lolenge moko te ya nzoto : ezali na bokeseni kati na nzoto ya bato, ya banyama, ya bandeke mpe ya mbisi."
+        },
+        {
+          "number": "40",
+          "text": "Ezali mpe na banzoto ya Likolo mpe na banzoto ya se ; mpe kongenga ya banzoto ya Likolo ekeseni na kongenga ya banzoto ya se :"
+        },
+        {
+          "number": "41",
+          "text": "moyi ezali na kongenga na yango, sanza ezali na kongenga na yango, minzoto mpe ezali na kongenga na yango ; kutu monzoto moko ekeseni na monzoto mosusu na kongenga."
+        },
+        {
+          "number": "42",
+          "text": "Boye, ezali mpe ndenge moko mpo na lisekwa ya bakufi : ekundami nzoto oyo epolaka, kasi ekosekwa nzoto oyo epolaka te ;",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "43",
+          "text": "ekundami nzoto ya soni, kasi ekosekwa nzoto ya lokumu ; ekundami nzoto ya bolembu, kasi ekosekwa nzoto ya nguya ;"
+        },
+        {
+          "number": "44",
+          "text": "ekundami nzoto ya bomoto, kasi ekosekwa nzoto ya molimo. Soki nzoto ya bomoto ezali, nzoto ya molimo mpe ezali."
+        },
+        {
+          "number": "45",
+          "text": "Yango wana ekomama : « Moto ya liboso, Adamu, akomaki ekelamu na bomoi, azalaki na bomoi ya bomoto ; » kasi Adamu ya suka akomaki Molimo oyo apesaka bomoi."
+        },
+        {
+          "number": "46",
+          "text": "Ezali te bomoi ya molimo nde eyaki liboso, ezali nde bomoi ya bomoto ; bomoi ya molimo eyaki na sima."
+        },
+        {
+          "number": "47",
+          "text": "Moto ya liboso asalemaki na putulu ya mabele, azali moto ya mabele ; kasi moto ya mibale awutaka na Likolo."
+        },
+        {
+          "number": "48",
+          "text": "Ndenge moto ya mabele azali, ndenge wana mpe bato ya mabele bazali ; mpe ndenge moto ya Lola azali, ndenge wana mpe bato ya Lola bazali."
+        },
+        {
+          "number": "49",
+          "text": "Mpe lokola tolataki elilingi ya moto ya mabele, tokolata mpe elilingi ya moto ya Lola."
+        },
+        {
+          "number": "50",
+          "text": "Bandeko na ngai, nazali koyebisa bino ete nzoto ya mosuni mpe makila ekoki te kokota na Bokonzi ya Nzambe, mpe oyo epolaka ekoki te kosangana na oyo epolaka te.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "51",
+          "text": "Boyoka, nazali kotalisa bino mabombami : Biso nyonso, tokokufa te ; kasi biso nyonso, tokobongolama,"
+        },
+        {
+          "number": "52",
+          "text": "na mbalakata, noki penza, tango kelelo ya suka ekobeta. Pamba te kelelo ekobeta, bakufi bakosekwa na nzoto oyo epolaka te ; bongo biso, tokobongolama."
+        },
+        {
+          "number": "53",
+          "text": "Solo, oyo epolaka esengeli kolata kozanga kopola, mpe oyo ekufaka esengeli kolata kozanga kokufa."
+        },
+        {
+          "number": "54",
+          "text": "Tango oyo epolaka ekolata kozanga kopola, mpe oyo ekufaka ekolata kozanga kokufa, na tango wana nde Liloba oyo ya Makomi ekokokisama :",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "« Elonga emeli kufa."
+            }
+          ]
+        },
+        {
+          "number": "55",
+          "text": "Oh kufa, wapi elonga na yo ?",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "Oh kufa, wapi nguya na yo ? »"
+            }
+          ]
+        },
+        {
+          "number": "56",
+          "text": "Nguya ya kufa ezali masumu, mpe nguya ya masumu ezali Mibeko.",
+          "source_markers_before": [
+            "m"
+          ]
+        },
+        {
+          "number": "57",
+          "text": "Kasi tika ete Nzambe apesamela matondi, pamba te apesaka biso elonga na nzela ya Nkolo na biso, Yesu-Klisto !"
+        },
+        {
+          "number": "58",
+          "text": "Yango wana, bandeko balingami, botelema ngwi mpe bomitika te ete baningisa bino. Bokendaka tango nyonso liboso kati na mosala ya Nkolo, wana boyebi malamu ete mosala na bino kati na Nkolo ezali ya pamba te.",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Na tina na lisekwa",
+        "Lisekwa ya Klisto"
+      ]
+    },
+    {
+      "chapter": 16,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Mpo na makambo oyo etali makabo ya kokongola mpo na basantu, bosalaka, bino mpe, kolanda mitindo oyo napesaki Mangomba ya Galatia.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Tika ete moko na moko kati na bino, na mokolo ya liboso ya poso, abomba ndambo ya mbongo kati na ndako na ye, kolanda ezweli na ye, mpo ete bazela te kokoma na ngai mpo na kokongola makabo yango."
+        },
+        {
+          "number": "3",
+          "text": "Tango nakoya, nakotinda elongo na mikanda, bato oyo bino moko bokopona, mpo ete bamema makabo na bino kuna na Yelusalemi."
+        },
+        {
+          "number": "4",
+          "text": "Soki ekomonana malamu ete ngai mpe nakende, wana tokokende na bango nzela moko."
+        },
+        {
+          "number": "5",
+          "text": "Sima na ngai kolekela na Masedwane, nakoya kotala bino, pamba te nasengeli kolekela kuna.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Mabongisi ya Polo"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "Tango mosusu, nakovanda mwa mikolo epai na bino to nakolekisa kuna tango ya malili, mpo ete bopesa ngai, bino moko, makoki oyo nasengeli na yango mpo na kokoba mobembo na ngai kino epai nakokende."
+        },
+        {
+          "number": "7",
+          "text": "Na mbala oyo, naboyi komona bino na koleka, pamba te nazali na elikya ya kovanda mwa mikolo elongo na bino, soki Nkolo alingi."
+        },
+        {
+          "number": "8",
+          "text": "Kasi nakotikala awa, na Efeso, kino na mokolo ya Pantekoti,"
+        },
+        {
+          "number": "9",
+          "text": "pamba te nakutani na libaku malamu ya kosakola Sango Malamu, mpe bayini bazali ebele."
+        },
+        {
+          "number": "10",
+          "text": "Soki Timote akomi, bosala nyonso ete azala na kimia kati na bino, pamba te asalaka mosala ya Nkolo, lokola ngai.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Tika ete moto moko te atala ye lokola eloko ya pamba ! Bopesa ye makoki mpo ete asala mobembo ya malamu kino epai na ngai, pamba te nazali kozela ye elongo na bandeko."
+        },
+        {
+          "number": "12",
+          "text": "Mpo na oyo etali Apolosi, ndeko na biso, nalendisaki ye makasi ete aya kotala bino elongo na bandeko, kasi aboyi kosala yango sik’oyo ; akoya kaka tango akokutana na libaku ya malamu.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Bosenzelaka, botelemaka ngwi kati na kondima, boyikaka mpiko, bozalaka makasi.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Mitindo ya suka"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Bosalaka makambo nyonso na bolingo."
+        },
+        {
+          "number": "15",
+          "text": "Bandeko na ngai, nazali lisusu kopesa bino etinda. Boyebi malamu ete Stefanasi mpe libota na ye bazalaki bato ya liboso ya kobongola mitema kati na Akayi, mpe ete bakomaki kosalela basantu.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "Bino mpe, botosaka bato ya ndenge wana mpe moto nyonso oyo asalaka elongo na bango."
+        },
+        {
+          "number": "17",
+          "text": "Nasepeli mingi komona Stefanasi, Fortinatisi mpe Akayikisi ; pamba te esali lokola namoni bino nyonso.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Balendisaki ngai, ndenge basalaka yango mbala na mbala mpo na bino. Boye, boyebaka kondima bato ya boye."
+        },
+        {
+          "number": "19",
+          "text": "Mangomba ya Azia etindeli bino mbote.",
+          "source_markers_before": [
+            "b",
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Bambote"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Akilasi mpe Prisika, elongo na Lingomba oyo esanganaka kati na ndako na bango, bapesi bino mbote mingi kati na Nkolo."
+            }
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Bandeko nyonso batindeli bino mbote. Bopesanaka bino na bino mbote na nzela ya beze ya bule.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "Ezali ngai, Polo, moto nazali kokoma mbote oyo, na loboko na ngai moko.",
+          "source_markers_before": [
+            "b",
+            "p"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "Soki ezali na moto oyo alingaka Nkolo te, tika ete alakelama mabe ! Oh Nkolo, yaka !",
+          "source_markers_before": [
+            "b",
+            "p"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "Tika ete ngolu ya Nkolo Yesu ezala na bino !",
+          "source_markers_before": [
+            "b",
+            "p"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "Bolingo na ngai ezali elongo na bino nyonso kati na Yesu-Klisto. Amen !",
+          "source_markers_before": [
+            "b",
+            "p"
+          ]
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Mituna ya ndenge na ndenge",
+        "Makabo mpo na Lingomba ya Yelusalemi"
+      ]
+    }
+  ]
+}

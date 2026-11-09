@@ -1,0 +1,7 @@
+# 1 Chronicles TEI source audit
+
+Pinned BetaMasaheft/Works `LIT3499Chroni.xml` at commit `ec53d3f4c5de47e463fa56a8465cf1090316a999`. The unchanged source file is 333,120 bytes; SHA-256 `fb040b6b5a821ee81626a8d848de3c6ade85e31c860aacd534425e104c3d46e6`. The title names 1 Chronicles. The document root declares English while the edition division explicitly declares Geʽez (`gez`); the reader follows the edition division and preserves the conflict. The TEI file states CC BY-SA 4.0, while the provider site footer separately states CC BY-NC-SA 4.0; the relationship is unresolved. The TEI source description does not identify the exact print edition or manuscript basis.
+
+The pinned file contains 29 ordered chapter divisions and 950 line elements. Every line is retained in order with its source marker and reference targets. Source label gaps appear in chapters 1, 26 and remain unfilled; line markers are not assumed to be verse numbers. Display whitespace is normalized and inline markup is flattened, while the original TEI is bundled unchanged. These checks verify extraction against this file only, not completeness, accuracy, or alignment with an EOTC printed Bible. This research-only title candidate is excluded from canon-linked reader coverage.
+
+Source: [LIT3499Chroni at pinned commit](https://github.com/BetaMasaheft/Works/blob/ec53d3f4c5de47e463fa56a8465cf1090316a999/3001-4000/LIT3499Chroni.xml) · [Beta maṣāḥǝft work record](https://betamasaheft.awhamburg.de/works/LIT3499Chroni/main) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).

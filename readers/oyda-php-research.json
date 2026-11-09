@@ -1,0 +1,867 @@
+{
+  "reader_id": "oyda-php-research",
+  "research_corpus_id": "oyde-2025-php",
+  "canon_id": null,
+  "title": "Philippians — Oyda New Testament (OYDETW / oyde, 2025)",
+  "display_name": "Philippians · Oyda · eBible.org",
+  "text_origin": "published_translation",
+  "translation_id": "oyde-oydetw-2025",
+  "language": "Oyda",
+  "language_tag": "oyd",
+  "language_assignment_status": "publisher_declared_in_source_package",
+  "script_code": "Ethi",
+  "translator": "The Word for the World International",
+  "contributor": "The Word for the World International",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The publisher's edition record does not state the source language or a relay-language path; none is inferred.",
+  "edition": "The New Testament in the Oyda language of Ethiopia, Ethiopic script; copyright © 2025; source files dated 2025-05-20.",
+  "edition_scope": "One of 27 USFM book members in the source-publisher's Oyda New Testament (Oyde NT Ethiopic, OYDETW / oyde). These are conventional New Testament module identifiers; they do not establish equivalence to any EOTC or Eritrean Orthodox canon list. No canon crosswalk is assigned. Counts describe this source member only.",
+  "rights_classification": "open_license",
+  "license_id": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "copyright_notice": "Copyright © 2025 The Word for the World International. Source: eBible.org, Oyde NT Ethiopic (OYDETW / oyde), Oyda language (oyd), Ethiopic script. The publisher states CC BY-SA 4.0 for the translation text. This archive converted publisher USFM to reader JSON and renders introduction-outline reference markers as their text; the original USFM package remains bundled. These format changes do not imply publisher endorsement.",
+  "commercial_use": "The source-stated CC BY-SA 4.0 terms permit commercial sharing and adaptation with attribution, indication of changes, and ShareAlike for adaptations. No image assets are bundled.",
+  "unit_label": "USFM verse labels observed",
+  "unit_count": 104,
+  "verse_marker_count": 104,
+  "chapter_count": 4,
+  "section_label": "Chapter",
+  "chapter_structure_note": "This source member has 4 consecutive chapter markers, 104 distinct verse labels, 11 source notes, 12 recorded front-matter elements, and USFM markers {'c': 4, 'h': 1, 'id': 1, 'imt1': 1, 'io1': 7, 'iot': 1, 'ip': 3, 'mt1': 1, 'mt2': 1, 'p': 36, 'q1': 6, 'q2': 12, 's1': 10, 'toc1': 1, 'toc2': 1, 'toc3': 1, 'v': 104}. Publisher labels and formatting distinctions are retained in reader structure; counts establish package-to-reader extraction only, not printed completeness or translation accuracy.",
+  "chapter_structure_status": "source_package_parsed_with_limits",
+  "source_numbered_unit_count": 104,
+  "source_unnumbered_unit_count": 12,
+  "source_pages": "readers/source/oyda/oyde_usfm.zip::56-PHPoyde.usfm",
+  "source_package_sha256": "dbd929c9051dc3936cbc7c396d1b013ca265d86ef462763f6e5ad6a05f4c2f2a",
+  "source_snapshot_sha256": "a9d5c0c937bfccfbf13d745778c80dbb68a0f9fb47bdb84eb5312170cadc3fbd",
+  "source_ids": [
+    "SRC-400",
+    "SRC-401",
+    "SRC-402"
+  ],
+  "rights_status": "Copyright © 2025 The Word for the World International. Source: eBible.org, Oyde NT Ethiopic (OYDETW / oyde), Oyda language (oyd), Ethiopic script. The publisher states CC BY-SA 4.0 for the translation text. This archive converted publisher USFM to reader JSON and renders introduction-outline reference markers as their text; the original USFM package remains bundled. These format changes do not imply publisher endorsement.",
+  "verification_status": "The exact member 56-PHPoyde.usfm has SHA-256 a9d5c0c937bfccfbf13d745778c80dbb68a0f9fb47bdb84eb5312170cadc3fbd, matching the clear-signed SHA-256 list in the retained ZIP. GnuPG verifies that list against the package-included key (54D714D76956DA6673DC1EEA5F62009D93505F26); the fingerprint matches the key maintainer's published page (https://mljohnson.org/gpg.htm). This is tamper evidence only: the key is co-distributed, and its identity, custody, and authority are not independently established. The parser retains source verse labels, notes, headings, front matter, continuations, and recognized USFM structure. It does not certify accuracy, completeness, community review, or church-canon identity.",
+  "transcription_note": "Machine-readable display extraction from the publisher's USFM; the exact original member is retained in the source ZIP. No wording was independently proofread or collated.",
+  "editorial_signs_note": "Source USFM chapter and verse labels, headings, paragraph/poetry markers, notes, cross-references, and front matter remain separately represented. Introduction-outline reference markers are shown as their source text in the extracted JSON; the original USFM retains the complete markup.",
+  "front_matter": [
+    {
+      "marker": "imt1",
+      "text": "ገለ"
+    },
+    {
+      "marker": "ip",
+      "text": "ጳዉሎሳ ፍልጵስዩሳ አሱንስ ጻፍደ ኪታ ጻፍንትደ፥ ሮመ ሳአ መቀዶንያ አዉራጃ፥ ፍልጵስዩሳ ሳአ የዘ ዎሳ ኬትስ። ይና ዎሳ ኬታ ጳዉሎሳ አዉሮፓ ሳአ ቲኖ ኤስደ ዎሳ ኬ። ይና ኪታ ጻፍንትደ፥ ጳዉሎሳ አች ኬ የዘ ዎደ መለ አማንዘ ኦቻንቹን ኤዛ እጽደ ዎደን ፍልጵስዩሳ ዎሳ ኬ ደንድደ ዎርዶ ትምርትት ግሾ ኤ ዎዝንታ ጋማ አዛንደ ዎደ። ማቆ የዝን፥ ጳዉሎሳ የሱስ ክርስቶሳ ምን አማንዘ ግሾ Ꮉና ኪተ ቆንጪ በንትዘ፥ ኡፋይስን ኩሙ አማንንተ። ፍልጵስዩሳ የዘ ጋማ አሱን ሮመፓ ድእንቲ ይእደ አስ። ኡን ሮመ ሳአስ ይቅስንታነን ሎይ ካፋነ። ኡንታፓ ፈታይ ፈታይ አማኒ ፋ ጋደ አሱንራ ባይእንትዳ። ይና ባይእታ ኡንታላ አፋ ማን ዳህቱሞ ክእዳ (ሐ። ኦ። 16:20-21)።"
+    },
+    {
+      "marker": "ip",
+      "text": "ጳዉሎሳ Ꮉና ኪቶ ጻፍደ ቲኖ ምክናትታ ኤዛ ማዘ ዎደ ማዶደስ ፍልጵስዩሳ አማንዘ አሱን እሞ ኤስ ዳክደ ግሾ ኡንታና ጋላቶደስ። ኤላን ኡንታላ አፋ ዱማ ዱማ ማ የልደባዝ ማቅኮን ኡን ምንጎደ ፋናን ኩሙ አማንንቲ የሳደ ጋር Ꮉና በንትደ ቃምተ ኡንታና ምንነ። ጬቆን ኡቱራ አሺ፥ የሱስ ክርስቶሳ ዳልጋትተ ኡን ኩሞደ ፋና ምን ኡንታና ቆፍዝዳ። የሱስ ክርስቶሳራ ፈትላ ማቂ ኡን ደንግደ ደኦ ጾዘ አ ኬሃትፋ ኬዝዳኖን አማኖራ ኡን ኤክዳ ፋትን አይሁዱን ዎጋ ፎለራ በንትደባዝ ባይዛኖ ኡንታና ቆፍዛነ። የሱስ ክርስቶሳራ ፈትላ የዘ ኡቡንስ ጾዚ እንግዘ ሳሮን ኡፋይስ ኡንትስ ጻፍዳ።"
+    },
+    {
+      "marker": "ip",
+      "text": "Ꮉና ኪታ ኤርንትደ ኡፋይስ፥ አማንንተ፥ ፈተትን አማኖራ ሚንግ ደኦ ቆንጭዝ ቤዛነ። ይንላ አፋ ጉጂ፥ ጳዉሎሳ ፍልጵስዩሳ ዎሳ ኬቶ ሲቅደ ዳማ ሲቅቶ ቆንጭዛነ።"
+    },
+    {
+      "marker": "iot",
+      "text": "ኣፈ ቆፉን"
+    },
+    {
+      "marker": "io1",
+      "text": "ገለ ቆፋ 1:1-11"
+    },
+    {
+      "marker": "io1",
+      "text": "ጳዉሎሳ Ꮉኒ የዘ የስ 1:12-26"
+    },
+    {
+      "marker": "io1",
+      "text": "አማኖን አዝዘ የስ 1:27—2:18"
+    },
+    {
+      "marker": "io1",
+      "text": "ጢሞትዮሳስን ኤጳፍራድቱስ የዘ ቆፋ 2:19-30"
+    },
+    {
+      "marker": "io1",
+      "text": "ሞርኩንፓን ኢቱንፓ ናግንተ 3:1—4:9"
+    },
+    {
+      "marker": "io1",
+      "text": "ጳዉሎሳን ፍልጵስዩሳ አማንዘ አሱንን 4:10-20"
+    },
+    {
+      "marker": "io1",
+      "text": "ሳሮትን አንጆ 4:21-23"
+    }
+  ],
+  "source_book_metadata": [
+    {
+      "marker": "h",
+      "text": "ፍልጵስዩሳ"
+    },
+    {
+      "marker": "toc1",
+      "text": "ጳዉሎሳ ፍልጵስዩሳ አሱንስ ጻፍደ ኪታ"
+    },
+    {
+      "marker": "toc2",
+      "text": "ፍልጵስዩሳ"
+    },
+    {
+      "marker": "toc3",
+      "text": "ፍልፕ."
+    },
+    {
+      "marker": "mt1",
+      "text": "ጳዉሎሳ ፍልጵስዩሳ አሱንስ"
+    },
+    {
+      "marker": "mt2",
+      "text": "ጻፍደ ኪታ"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ክርስቶስ የሱሳራ ፈቶ ማቅደ ግሾ ጾዘ ባዝ ማቅደ፥ ፍልጵስዩሳ ካታማ የዘ ዎሳ ኬ አህዙንስን ዳቆናተስን ክርስቶሳ የሱሳራ የዘ ጌሹንስ ኡቡንስ። የሱስ ክርስቶሳ አሮ ማቅደ፥ ጳዉሎሳፓን ጢሞትዮሳፓ ዳክንትደ ኪታ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ኑ አዳይ ጾዘፓን ላ የሱስ ክርስቶሳፓ አ ኬሃትን ሳሮት ይንትስ ማቀ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "3",
+          "text": "ታኒ ይንታና ቲርዘ ዎደ ኡባ፥ ታ ጾዝ ጋላታነ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ጳዉሎሳ ጋላታ ዎሳ"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "ታኒ ይን ኡቡንስ ጾዝ ዎስዘ ዎደ ኡፋይሳራ ዎሳነ።"
+        },
+        {
+          "number": "5",
+          "text": "ይን ቲኖ ቃማፓ Ꮉይኖ የሎደስ፥ ዎንገለ ማርክዛነ ታራ ዎላ ማቅደ ግሾ ጾዝ ጋላታነ።"
+        },
+        {
+          "number": "6",
+          "text": "ይን ግዳ ሎኦ ኦቻ አይክደ ጾዘ፥ ክርስቶስ የሱሳ ላምእን ማቂ የእዘ ቃምቶ የሎደስ፥ ፎሎዳኖ ሎይ ኤራነ።"
+        },
+        {
+          "number": "7",
+          "text": "ይን ኡባ ዎደ ታ ዎዝንተ የነ። ታኒ ኡባ ዎደ ይን ግሾ ቆፖደስ ቤዛነ። Ꮉተ ታኒ አቻ የዝተራን አጭንቶዳንፓ ቲኖ ዎንገለ ናጎራን ዎንገለ ምን ኦሄ ጾዚ ታስ እንግደ አ ኬሃትቶ ታራ ግዥንትዳ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "ታኒ ይንታና ኡባ ክርስቶስ የሱሳ ሲቅተ አኮ ፋና ይቅስንትዛኮ ጾዚ ታስ ማርካ።"
+        },
+        {
+          "number": "9",
+          "text": "ይን ሲቅታ ቱሪ ኤራትራን አካኬራ ዎላ ጉጂ ጉጂ ድጮደ ፋና ጾዝ ዎሳነ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "ይነ ይን ሎኦ ባዝ ሻጊ፥ ኤሮደ ፋናን፥ ክርስቶሳ ማቂ የእዘ ቃምተ ጌሹንናን ቦረ ባይዙንና ማቃዳ።"
+        },
+        {
+          "number": "11",
+          "text": "ይን ደእታ ጾዝስ ቦንቾን ጋላታ የሱስ ክርስቶሳ ባጋራ በንትዘ ጽሎት ኣፈ ኩሚ አፎደ ፋና።"
+        },
+        {
+          "number": "12",
+          "text": "ታ እሹን፥ ታና የልደ ዎንገለ ዳልጎደ ፋና ቱሮ ማድዳኖ ይን ኤሮደ ፋና ኮያነ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ጳዉሎሳ አጭንታ ዎንገለ ዳልጎደ ፋና ማድዳ"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "ታኒ ክርስቶሳ ኦችዘ ግሾ አጭንትዳኖ፥ ካት ኬ ናግዙንን መሉን ኡባ ኤራነ።"
+        },
+        {
+          "number": "14",
+          "text": "ታ አጭንቲ ምክናተር ኑ እሹንፓ ጋሙን ላ ሎይ አማንንትዳ። ይኒ ግሾ፥ ጾዘ ቃላ ዣሽሞ ባይዝን ካሰንፓ አ ሚንግ ኦሆደ ፋና ምንትሞ ኡን ደንግዳ።"
+        },
+        {
+          "number": "15",
+          "text": "ማቆ የዝን፥ ፈታይ ፈታይ ቃናተራን ላለራን ክርስቶሳ ባዝ ኦህነ፥ የዝን መሉን ሉለ ዎዝናፓ ኦህነ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "ሉለ ዎዝናፓ ኦህዙን፥ ጾዚ ታስ ዎንገለ ናጎ ኦቻ እንጎዳኖ ኤርዘ ግሾ ሲቆራ ኦህነ።"
+        },
+        {
+          "number": "17",
+          "text": "የዝን Ꮉንኩን ታ አችትላ አፋ መለ ማ ኮኦደባዝ ኡንትስ አዝን ፋና ካፓ ደንዲ ክርስቶአባዝ ኦህነፕ አትን ቱሪ ዎዝናፓ ኦሆስ።"
+        },
+        {
+          "number": "18",
+          "text": "ይና አኮን ይኦስ። ቱሪ ዎዝናፓ ማቅን ዎይ ቱሪ ባይዘ ዎዝናፓ ማቅን ይና ኡባነ ክርስቶሳ ሳባክንታነ። ታና ይና ኡፋይሳነ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "ማህ መለ ታና ኡፋይስዘ ባዝ፥ ታኒ ይን ዎስተን የሱስ ክርስቶሳ አያና ማደራ ዋሎ ኬዝዳኖ ኤርዘ ግሾ ታና ኡፋይሳነ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "ታኒ ፎሎ ታ ኦችተ ዬልማኖ ኡፋይሳራ ናጋነ። የዝን ኡባ ዎደ ኦችዛን ፋና፥ Ꮉተ ታኒ ፋጻ የዝን ዎይ Ꮉይቂን ዣሽትካይዛራ ታ ኩሙ ጋልተ ክርስቶሳ ቦንችንቶዳ ጋእ ምን ኦህነ።"
+        },
+        {
+          "number": "21",
+          "text": "ታስ ደኦ ጋዛና ክርስቶሳስ የዘ፤ ማህ ታ Ꮉይቂኮን ታስ አደ ትርፈ።"
+        },
+        {
+          "number": "22",
+          "text": "የዝን ታ ፋጻ የዝኮ ኣፈ የዘ ኦቻ ኦቾዳ። የዝን ፋጻ የዛንፓን Ꮉይቆፓ አያ ዶሮድ የዛኮ ታስ ኤርንቶስ።"
+        },
+        {
+          "number": "23",
+          "text": "ታኒ Ꮉን ላምኡንፓ አያ ዶሮድ የዛኮ ኡንእንትዳ። Ꮉና ደእትፓ ሻግንት ክርስቶሳራ ዎላ የሳደስ አሙነ፤ ክርስቶሳራ ዎላ የዛና ኡባፓ አ ሎኦ።"
+        },
+        {
+          "number": "24",
+          "text": "የዝን ታኒ ፋጻ የዛና ይንትስ ጋማ ኮሽዘ ባዝ።"
+        },
+        {
+          "number": "25",
+          "text": "ይኖ ታኒ ጌሽ ኤራነ፤ ታኒ፥ ይን አማኖራ ድጮደ ፋናን ኡፋይቶደ ፋና ይንታራ ፋጻ የሳዳ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "ይኒ ግሾ፥ ታኒ ይንታጎ ማቂ የእዘ ዎደ ታ ባጋራ ክርስቶስ የሱሳላ የዘ ጬቅንታ ይንትስ ጋንጎዳ።"
+        },
+        {
+          "number": "27",
+          "text": "ኡባፓ አ፥ ይን ክርስቶሳ ዎንገለስ ቤዝዘ ደኦ የዞተ። ታ ይንታና ብእን ዎይ በአንጽን ይን ፈቲ ቆፋራ ሚንግ ኤቂ፥ መሉን ዎንገለራ አማኖደ ፋና ፈቲ ዎዝናራ ማቂ ፈትላ ቡቱንትዛኖ ታ ስኦዳ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "ይን ሞርኩንስ ዣሽትፐተ። ኡን ይንታራ ኤቅንትዛና ይና ኡንትስ በ ማላ ማቂ፥ ይንትስ ጾዛፓ ማቅደ አቶት ማላ።"
+        },
+        {
+          "number": "29",
+          "text": "ክርስቶሳስ ኦችዘ እሞት ይንትስ እንግንትዳና፥ ይን ኤዛ አማኖደ ፋና ጻላላስ ባይዝን ይን ኤ ግሾ ማ ኤኮደ ፋና።"
+        },
+        {
+          "number": "30",
+          "text": "ይኒ ግሾ፥ Ꮉተ ይን ታራ ዋየ ግሽንትዙንና ማቅዳ፤ ይና ዋይታ Ꮉንፓ ቲኖ ታና የልን ብእዳኖን Ꮉተን ታና የሊተራ የዛኖ ይን ስእተ የነ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "2",
+          "marker": "Translator/editor note",
+          "text": "- ሐዋ. 16:12",
+          "note_type": "translator_note",
+          "source_reference": "1:2"
+        },
+        {
+          "verse": "14",
+          "marker": "Translator/editor note",
+          "text": "- ሐዋ. 28:30",
+          "note_type": "translator_note",
+          "source_reference": "1:14"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ክርስቶሳራ ይን የዘ የስታ ይንታና ሚንነ፤ ማህ ኤ ሲቅታን ይንታና ምንነ። ጌሽ አያናራ ይንትስ ፈተት የነ፤ ይን መሉንስ ዳልጋነን ይቅስንታነ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ይኬ፥ ይን ፈቲ ቆፋራ፥ ፈቲ ሲቆራ፥ ፈቲ ዎዝናራን ፈቲ አያናራ ማቂ ታና ፎሎ ኡፋይሶተ።"
+        },
+        {
+          "number": "3",
+          "text": "ይንታና ካራ ዎይ ጬቅንትዘ ፋሰ አሞራ ፈቲ ባዝን ኦችፐተ። የዝን ይን ፈታይ ፈታይፓ ዳማነ ያጋእ ቆፕካይዛራ ይንታና ካዉሾተ።"
+        },
+        {
+          "number": "4",
+          "text": "ይን ፈታይ ፈታያ፥ መሉንና ማድዘ ባዝ ኮዮተ ፋትን ይንታና ማድዘ ባዝ ጻላላ ኮይፐተ።"
+        },
+        {
+          "number": "5",
+          "text": "ክርስቶስ የሱሳ የዘ ቆፍታ ይን ግዳ የሳደስ ቤዛነ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "ኤስ ኡባ ዎደ ጾዘ Ꮉኖት የነ።",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "ይኖ ማቅኮን፥ ኤዛ ጾዛራ ፈቶ ማህዘ Ꮉኖትቶ፥"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ዎልቃራ ኤኮደስ ኮይካያ።"
+            }
+          ]
+        },
+        {
+          "number": "7",
+          "text": "የዝን፥ ኤ ፋስ የዘ ቦንችቶ ኡባ አሺ፥",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "አሮ ማቅዳ፤ አስ ፋና የልንትዳ፤"
+            },
+            {
+              "source_marker": "q2",
+              "text": "አስ ማቂ ቆንጭዳ።"
+            }
+          ]
+        },
+        {
+          "number": "8",
+          "text": "ኤ ፋና ካዉሽዳ፤",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "Ꮉይቆስ የሎደስ፥"
+            },
+            {
+              "source_marker": "q2",
+              "text": "መለ አቶ የዝን ማስቃላላ አፋ"
+            },
+            {
+              "source_marker": "q2",
+              "text": "Ꮉይቆደስ ኪትንትዳ።"
+            }
+          ]
+        },
+        {
+          "number": "9",
+          "text": "ይኒ ግሾ፥ ጾዚ ኤዛ ጋማ ቅ ቅ ዪዝዳ፤",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "ማህ ሱን ኡባፓ አዘ ዳማ ሱን እንግዳ።"
+            }
+          ]
+        },
+        {
+          "number": "10",
+          "text": "ይኒ ግሾ ሳሎን ሳአ፥",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "ሳአፓ ኦሞራ የዘ ኡባና፥"
+            },
+            {
+              "source_marker": "q2",
+              "text": "የሱሳ ሱንት ቦንቾስ ቡንቅንቶዳ።"
+            }
+          ]
+        },
+        {
+          "number": "11",
+          "text": "አስ ኡባ ፋ እልአንተ፥",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "የሱስ ክርስቶሳ ላ ጋእ፥"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ጾዘ አዳይ ቦንቾስ ማርክዳ።"
+            }
+          ]
+        },
+        {
+          "number": "12",
+          "text": "ታ እሹን፥ ታኒ ይንታራ የዘ ዎደ ኡባ ይን ኪትንትደ ፋና፥ Ꮉተ ታ ይን ካለፓ Ꮉክኮን፥ ቲኖንፓ አ፥ ኪትንቶደስ ቤዛነ። ጾዝስ ዣሽሞራን ጎቀራን ይን አቶትቶ ቤዝዘ ኦቻ ኦቾተ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Ꮉና አላምትስ ፎኦ ማቀ"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "ኤ ኮይዘ ቆፍቶ ኦቾደ ፋናን ኮዮደ ፋና ይን ግዳ ኦችዘ ጾዚ።"
+        },
+        {
+          "number": "14",
+          "text": "አኮ ኦቻን ኦችተራ ዙዝንግካይዛራ ዎይ ላልካይዛራ ኦቾተ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "ዎቦን ናጋራንቾ አሱን ግዳ ቦረ ባይ፥ ጌሹንናን ቦርሶ ባይዘ ጾዘ ናአ ማቆተ። ይን ኡን ግዳ ሳሎ ጾልንቶ ፋና ፎእተራ፥"
+        },
+        {
+          "number": "16",
+          "text": "ደኦ በንትዘ ቃላ አሽካይዛራ ምን አይኪ፤ ይኒ ፋና ታ ዎታን ታ ኦችታ Ꮉሪ አቶሰ ግሾ ክርስቶሳ የእዘ ዎደ ታስ ጬቆ ማቃዳ።"
+        },
+        {
+          "number": "17",
+          "text": "የዝን ይን አማንተን ኦችተ ዣርሾ ጉጂ ታ ሸምፕታ ላንትዛኮን ታና ኡፋይሳነ። ይንትን ታራ ኡፋይቶዳ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "ይኒ ፋና ይንትን ኡፋይት ታናን ኡፋይሶደስ ቤዛነ።"
+        },
+        {
+          "number": "19",
+          "text": "ታኒ ይን የስት ባዝ ስእ ታ ኡፋይቶደ ፋና ጢሞትዮሳ ይንታጎ ኤልሲ ዳኮደ ፋና ላ የሱሳ ታና ማዶዳኖ አማንንታነ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ጢሞትዮሳን ኤጳፍሮድቱሳ"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "ይን የስትስ ዎዝናፓ ቆፕዘ ኤ ጋርዘ አስ መለ ኦንን ባያ።"
+        },
+        {
+          "number": "21",
+          "text": "መሉን ፋና ማድዘ ባዝ ኮያነፕ አትን የሱስ ክርስቶሳ ኮይዘ ባዝ ኦቾስ።"
+        },
+        {
+          "number": "22",
+          "text": "ኤ ታራ ፈትላ ማቂ ናአ ፋ አዳይስ ኦችዛን ፋና ዎንገለ ኦቻ ኦችዳይን አማንንትደ አስ ማቅዛኖ ይን ኤራነ።"
+        },
+        {
+          "number": "23",
+          "text": "ይኒ ግሾ፥ ታ ባዝ ዋያድየዛኮ ብእ ኤልሲ ኤዛ ይንታጎ ዳኮዳ ጋእ ቆፓነ።"
+        },
+        {
+          "number": "24",
+          "text": "ታኒ፥ ታ ኦምተ ኡከ ዎደ ይንታጎ Ꮉንጎዳኖ ላላ አማንንታነ።"
+        },
+        {
+          "number": "25",
+          "text": "ይን ጋራን፥ ታኒ፥ ታ እሻ ኤጳፍሮድቱሳ፥ ታራ ዎላ ታ ባጋ ማቂ ኦችዳያ፥ ኦልንትዳያን፥ ታና ማዶደስ ይንትስ ኪትንትድያ፥ ይንታጎ ኪቶደስ ቆፕዳ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "ኤ ይንታና ኡባ በአደስ ጋማ አሙነ። ማህ ኤ Ꮉርግንትዳኖ ይን ስእደ ግሾ ፋ ዎዝንተ ጋማ ኡንእንታነ።"
+        },
+        {
+          "number": "27",
+          "text": "ኤ ቱሮ Ꮉርግንቲ Ꮉይቆስ ዪእ አትዳ። የዝን ጾዚ ኤዛ ማርዳ። ኤ ጻላላስ ባይዝን አዛኖ አዛኖላ አፋ ጉጁንታመ ፋና፥ ታስን ይቅስንትዳ።"
+        },
+        {
+          "number": "28",
+          "text": "ይኬ፥ ይን ኤዛ ማህ ብእ ኡፋይቶደ ፋና ታስን ታ ዎዝንተ ምችቶ ቶይሳደ ፋና ታ ኤዛ ኤልሲ ይንታጎ ዳኮደስ አሙነ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "29",
+          "text": "ላ አማንዘ ግሾ ኡፋይሳራ ሞኮተ። ማህ ኤ ፋና የዘ አስ ኡባ ቦንቾተ።"
+        },
+        {
+          "number": "30",
+          "text": "ይን ታ ካለ ማቂ ኦቾደስ ዳንዳኦሰ ማደ ማዲ ክርስቶሳ ኦቻ ግሾ ፋ ሸምፕትስ ይቅስንታንጽ Ꮉይቆስ ዪእ አትዳ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "11",
+          "marker": "Translator/editor note",
+          "text": "- ኢሳ. 45:23",
+          "note_type": "translator_note",
+          "source_reference": "2:11"
+        },
+        {
+          "verse": "16",
+          "marker": "Translator/editor note",
+          "text": "- ማሄ 32:5",
+          "note_type": "translator_note",
+          "source_reference": "2:16"
+        },
+        {
+          "verse": "17",
+          "marker": "Translator/editor note",
+          "text": "+ ታ ሱታ ኡሽ ዣርሾ ፋና፦ ፈቲ ፈቲ ዎደ ዣርሾ በሳ ዣርሽንትዘ Ꮉርስ ዣርሾላ አፋ Ꮉ ዎይ ዎይነ ኡሽ ጉሳነ።",
+          "note_type": "translator_note",
+          "source_reference": "2:17"
+        }
+      ],
+      "heading": [
+        "ቱሪ አሽከት"
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ይኬ፥ ታ እሹን፥ ይን ላ ባዝ ማቅደ ግሾ ኡፋይቶተ። ታኒ ቲኖ ጻፍዳን ፋና ማህ ጻፎዳና ታና ዋይስ፥ የዝን ይንታና ባልንተፓ ናጎደስ ዳንዳአነ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ኢታ ባዝ ኦችዘ ካኑንፓን፥ ማህ ጋራዝንቶደስ ቤዛነ ጋዘ ኢታ አሱንፓ ናግንቶተ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "3",
+          "text": "ኑኒ ጾዘ ጌሽ አያናራ ጎይንዘ ግሾን ኑ የስተ ክርስቶስ የሱሳራ ጬቅንትዘ ግሾ ቱሪ ጋራዝንተ ጋራዝንትዱንና። ኑኒ አሳትላ አፋ ኦችንትዘ ባዛላ ጬቅንቶስ።"
+        },
+        {
+          "number": "4",
+          "text": "ታ በንትዘ አሳትላ ጬቅንቶደስ ቤዝኮ ታ ጋማ ባዛራ ጬቅንቶደስ ዳንዳአነ። አኮ አስን ፋ በንትዘ አሳትላ ጬቅንትዘ ባዝ ፋስ የነ ጋእ ቆፕኮ፥ ታኒ ኤፓ ጋማ አ ጬቅንትዘ ባዝ የነ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "ታኒ የልንትደ ኦስፉን ቃማራ ጋራዝንትዳ። ታኒ የልንተራ እስራኤለ፤ ብንያመ ኮች፤ ታኒ ዎርቂንተ ባይዘ አይሁደ አስ። አይሁደ ህገ ናገራ ማቅኮ ታኒ ፋርሳወ።"
+        },
+        {
+          "number": "6",
+          "text": "አይሁደ አማኖ ቅናተራ ማቅኮ ታ ዎሳ ኬ አማንዙንና ባይአነ። ፈቲ አስ ህገ ናጊ ጽልዘባዝ ማቅኮ፥ ታላ ቦረ በንትካያ።"
+        },
+        {
+          "number": "7",
+          "text": "የዝን ዛጋ ታና ማዳነ ጋእ ቆፕደባዝ ኡባ፥ ክርስቶሳ ግሾ ጋእ ማዶሰ ባዝ ማህ ፋይድዳ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "ይኖ ጻላላ ባይዝን ታኒ ታ ላ ክርስቶስ የሱሳ ኤርዛና መለባዝ ኡባፓ ጋማ አዘ ግሾ ይና ኡባኖ ትርፈ ባይዘ ፋና ፋይድዳ። ታኒ ኤ ግሾ ኡባነ ቆህንትዳ። ክርስቶሳ ደንጎደስ ኡባ ባዝ አላ ኦልንትደ ቡረ ፋና ፋይድዳ። ታኒ የሱሳራ ፈቶ ማቅዳ።"
+        },
+        {
+          "number": "9",
+          "text": "ይኖ ዪዛና ህገላ ማቅደ ታ ኦማ ጽሎት አሺ አማኖላ ማቅደ ጾዘ ጽሎት ክርስቶሳ አማኒ ደንጎደስን ኤራ ዎላ ማቃደስ።"
+        },
+        {
+          "number": "10",
+          "text": "ታኒ ክርስቶሳን ኤ ደንዶ ዎልቅቶ ኤሮደስ ኮያነ። ታኒ ኤ ዋይቶ ኤራ ግሽንቶደስ ኤ Ꮉይቅተ ኤ ደንድቶ አሙነ።"
+        },
+        {
+          "number": "11",
+          "text": "ይኒ ጋር፥ Ꮉይቆፓ ደንዲ መዽና ደኦ የሳደስ ኡፋይታነ።"
+        },
+        {
+          "number": "12",
+          "text": "ታኒ Ꮉተ ቆፕደ በስቶ የልዳ ዎይ ታ ግዳ ባላ ባያ ጋኦስ። የዝን ክርስቶስ የሱሳ ታና አይክደ ግሾ ታኒ ታ ቲኖ የዘ ዎይቶ አይኮደስ ዎጻነን ቡቱንታነ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ቆፕደ በስቶ የሎደስ ዎጾተ"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "ታ እሹን፥ ታኒ ይኖ ደንግዳ ጋእ ቆፖስ፥ የዝን ታኒ ፈቲ ባዝ ኦቾዳ። ታፓ ሱባራ የዛኖ ቦቲ ቲኖ የዛኖ አይኮደስ ሼልንቃነ።"
+        },
+        {
+          "number": "14",
+          "text": "ይኒ ግሾ፥ ታኒ ቆፕደ በስቶ የሎደስ ዎጻነ። ጾዘ ክርስቶስ የሱሳ ባጋራ ሳሎ የዘ መዽና ደኦስ ጼግደ ዎይቶ ኤኮደስ ኤልሳነ።"
+        },
+        {
+          "number": "15",
+          "text": "ይኬ፥ ኑኒ አያናራ ሚንግደ ኡቡን Ꮉኖ ቆፖደስ ቤዛነ። ይንታፓ ባጉንስ ዱሙዽዘ ቆፋ የዝኮ፥ ይኖን ጾዚ ይንትስ ቆንጭሳዳ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "ማቅኮን፥ ጾዚ ኑስ ቆንጭዝደ ቱርተ፥ ቲኖ Ꮉማዳ።"
+        },
+        {
+          "number": "17",
+          "text": "ታ እሹን፥ ታና አዞተ፤ ይኒ ፋናን፥ ኑና አዚ ካልዘ መለ አሱንና ቆፒ ቦኦተ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "ታኒ ይኖ ይንትስ ቲኖ ጋማ ቶሄ ኦህዳ፥ የዝን Ꮉተን ማህ አፉራ ኦህነ። ፋ የስተ ክርስቶሳ ማስቃላስ ፋና ሞርከ ማህደ ጋማ አሱን የነ።"
+        },
+        {
+          "number": "19",
+          "text": "ኡን ፎልታ በ፤ ኡን ሳዝታ ኡንትስ ላ። ዬልደስ ቤዝዘ ባዛ ኡን ጬቅንታነ፤ ማህ Ꮉና ሳእትባዝ ጻላላ ቆፓነ።"
+        },
+        {
+          "number": "20",
+          "text": "ኑ ጋድታ ሳሎ። ሳሎፓ ይእ ኑና አሾደስ የዘ ላ የሱስ ክርስቶሳ ናጋነ።"
+        },
+        {
+          "number": "21",
+          "text": "ክርስቶሳ ኡባባዝቶ ፋ አደት ዎልቃፓ ኦሞራ ማሆደስ ዳንዳእዘ ፋ ዎልቃራ ኑ ላቢ አሳትቶ ላሚ ፋ ቦንቾ አሳትቶ አዞደ ፋና ዪሳዳ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "6",
+          "marker": "Translator/editor note",
+          "text": "- ሐዋ. 23:6፤ 26:5፤ ሮመ 11:1",
+          "note_type": "translator_note",
+          "source_reference": "3:6"
+        },
+        {
+          "verse": "7",
+          "marker": "Translator/editor note",
+          "text": "- ሐዋ. 8:3፤ 22:4፤ 26:9-11",
+          "note_type": "translator_note",
+          "source_reference": "3:7"
+        },
+        {
+          "verse": "18",
+          "marker": "Translator/editor note",
+          "text": "- 1 ቆሮ. 4:16፤ 11:1",
+          "note_type": "translator_note",
+          "source_reference": "3:18"
+        }
+      ],
+      "heading": [
+        "ቱሪ ጽሎት"
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ታ እሹን፥ ታ ካዙን፥ ታ አሙዙን፥ ታና ኡፋይስዙንን፥ ታና ጬቅዙን ይኬ ላራ ሚንግ ኤቆተ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ኤዎድን ስንጺካን፥ ይን ላምኡን፥ ፈቲ ቆፋራ ላራ የሳደ ፋና ታ ይንታና ዞራነ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "3",
+          "text": "ታራ ኦችዘ አማንዛዮ፥ ኔኒ Ꮉን ማቹንና ማዶደ ፋና ታ ነና ዎሳነ። Ꮉን ማቹን ታራ፥ ቀለምንጾሳራን ኡን ሱንታ ጾዘ ደኦ ማጻፍተ ጻፍንትደ መሉንራ ዎላ ዎንገለ ኡባ በሳ የልደስ ላቢዳ።"
+        },
+        {
+          "number": "4",
+          "text": "ላራ የዛነ ኡባ ዎደ ኡፋይቶተ። ታኒ ይኖ ጉጂ ኦህነ፤ ኡፋይቶተ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "አስ ኡባ ይን ሎኦትቶ ኤሮ፤ ላ ኡከራ ዮኦዳ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "ጾዝ ይን ዎስዘ ዎደ ኡባ ባዛራ ኤዛ ጋላትተራ፥ ይንታና ቤዝዘ ባዝ ኡባ ዎሶተፕ አትን አኮ ባዝስን ይርግፐተ።"
+        },
+        {
+          "number": "7",
+          "text": "አስ ኤራት ኡባፓ አዘ ጾዘ ሳሮት፥ ይን ዎዝንቶን ይን ቆፍቶ ላ የሱስ ክርስቶሳስ ማቅዳነ ናጎዳ።"
+        },
+        {
+          "number": "8",
+          "text": "ዉርሱተ፥ ታ እሹን፥ ይን ዎዝንተ ሎኦ ባዝን ጋላትዘ ባዝ ቆፖተ። ቱሮ ማቅደ ባዝ ኡባ፥ ቦንቾ ባዝ ኡባ፥ ቆሄ ማቆሰ ባዝ ኡባ፥ ጌሽ ባዝ ኡባ፥ ሲቆባዝ ኡባ ኡፋይስዘ ባዝ ኡባ ቆፖተ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "ይን ታፓ ታማርዳኖ፥ ኤክዳኖ፥ ስእዳኖን ብእዳኖን ኡባ ኦቾተ። ሳሮት እንግዘ ጾዘ ይንታራ ዎላ ማቃዳ።"
+        },
+        {
+          "number": "10",
+          "text": "ጋማ ዎደፓ ሱባ፥ ይን ታ ባዝ ማህ ቆፋ አይክደ ግሾ ታኒ ላ ግዳ ጋማ ኡፋይታነ። ይኖ ጋዛና፥ ታስ ቆፖደስ ይንትስ ዎታንጽደ ግሾፕ አትን ታስ ቆፍቶ አሽካያ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ጳዉሎሳ እንግንትደ እሞትስ ጋላትዳ"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "ታኒ ይኖ ታና ማደ ግሾ ጋኦስ፤ ታስ የዛና ማቃዳ ጋዛኖ ታማርዳ።"
+        },
+        {
+          "number": "12",
+          "text": "ታኒ ማ የዘ የሲን ኤራነ፤ ማህ ዱር የዘ የሲን ኤራነ። አባን ማቅን ማህ አኮ ዎደን ታኒ ምሽን ናየ፥ ፋጨን ኩመን ኡባነ ታስ የዛና ማቃዳ ጋዛኖ ታማርዳ።"
+        },
+        {
+          "number": "13",
+          "text": "ዎልቃ እንግዘ ክርስቶሳራ ኡባ ባዝ ኦቾደስ ዳንዳአነ።"
+        },
+        {
+          "number": "14",
+          "text": "ማቅኮን፥ ይን ታ ማተ ማድዳነ ሎኦ ኦችዳ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "ፍልጵስዩሳ አሱን፥ ዎንገለ ቲኖ ኦሆደስ ታኒ መቀዶንያፓ ከዝዘ ዎደ እንግዘ ባዛን ኤክዘ ባዛ ይን ዎሳ ኬትፋ መለ ዎሳ ኬ ታና ማድካይዛኖ ይን ኤራነ።"
+        },
+        {
+          "number": "16",
+          "text": "ተሰሎንቄ የዘ ዎደን ታና ኮሽዘባዛ ማህ ማህ ማድዳ።"
+        },
+        {
+          "number": "17",
+          "text": "ታኒ፥ ይንታፓ እሞ ኤኮደስ ኮይ ባይዝን እሞፓ የእዘ አንጆ ይን ኤኮደ ፋና።"
+        },
+        {
+          "number": "18",
+          "text": "ታስ ኮሽዛኖን ኮሽዛንፓ አ ይን ታስ ዳክደ እሞቶ ኤጳፍራድቱሳፓ ኤክዳ፤ ይናን ይን እሞታ ጾዚ ኤክዘ ሳዎ ቶንኩ ጋዘ፥ ኤ ካዽዘ፥ ኤ ኡፋይትዘ ዣርሾ ፋና።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "ታ ጾዘ ፋ ዱረትትፓ፥ ቦንቾ ክርስቶስ የሱሳ ባጋራ ይንትስ ኮሽዘ ባዝ ኡባ እንጎዳ።"
+        },
+        {
+          "number": "20",
+          "text": "ኑ አዳይ ጾዘስ መናፓ መዽና የሎደስ ቦንቾ ማቀ። አምንኤ።"
+        },
+        {
+          "number": "21",
+          "text": "ክርስቶስ የሱሳ ባጋራ ጾዘ ባዝ ማቅደ ኡቡንና ሳሮ ጋኦተ። ታራ የዘ እሹን ይንታና ሳሮ ጋነ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ዉርሱ ሳር"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "ጾዝስ ማቅደ አሱን ኡባ፥ ኡባፓ አ ካት ቄሳረ ኬ የዙን ይንታና ሳሮ ጋነ።"
+        },
+        {
+          "number": "23",
+          "text": "ላ የሱስ ክርስቶሳ አ ከሃትታ ይንታራ ማቀ።",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "16",
+          "marker": "Translator/editor note",
+          "text": "- 2 ቆሮ. 11:9",
+          "note_type": "translator_note",
+          "source_reference": "4:16"
+        },
+        {
+          "verse": "17",
+          "marker": "Translator/editor note",
+          "text": "- ሐዋ. 17:1",
+          "note_type": "translator_note",
+          "source_reference": "4:17"
+        },
+        {
+          "verse": "19",
+          "marker": "Translator/editor note",
+          "text": "- ከዘ 29:18",
+          "note_type": "translator_note",
+          "source_reference": "4:19"
+        }
+      ],
+      "heading": [
+        "ዉርሱ ዞረ"
+      ]
+    }
+  ]
+}

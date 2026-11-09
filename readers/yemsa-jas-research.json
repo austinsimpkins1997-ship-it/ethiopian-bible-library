@@ -1,0 +1,707 @@
+{
+  "reader_id": "yemsa-jas-research",
+  "research_corpus_id": "jnje-2025-jas",
+  "canon_id": null,
+  "title": "James — Yemsa New Testament (JNJETW / jnje, 2025)",
+  "display_name": "James · Yemsa · eBible.org",
+  "text_origin": "published_translation",
+  "translation_id": "jnje-jnjetw-2025",
+  "language": "Yemsa",
+  "language_tag": "jnj",
+  "language_assignment_status": "publisher_declared_in_source_package",
+  "script_code": "Ethi",
+  "translator": "Not named in the publisher's edition record or retained USFM headers",
+  "contributor": "The Word for the World International",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The publisher's edition record does not state the source language or a relay-language path; none is inferred.",
+  "edition": "The New Testament in the Yemsa language of Ethiopia, Ethiopic script; copyright © 2025; source files dated 2025-05-06.",
+  "edition_scope": "One of 27 USFM book members in the source-publisher's Yemsa New Testament (Yemsa NT Ethiopic, JNJETW / jnje). These are conventional New Testament module identifiers; they do not establish equivalence to any EOTC or Eritrean Orthodox canon list. No canon crosswalk is assigned. Counts describe this source member only.",
+  "rights_classification": "open_license",
+  "license_id": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "copyright_notice": "Copyright © 2025 The Word for the World International. Source: eBible.org, Yemsa NT Ethiopic (JNJETW / jnje), Yemsa language (jnj), Ethiopic script. The publisher lists The Word for the World International as contributor; no individual translator is named in the inspected edition record or retained USFM headers. The publisher states CC BY-SA 4.0 for the translation text. This archive converted publisher USFM to reader JSON with recognized labels and structures represented in the reader; the original USFM package remains bundled. These format changes do not imply publisher endorsement.",
+  "commercial_use": "The source-stated CC BY-SA 4.0 terms permit commercial sharing and adaptation with attribution, indication of changes, and ShareAlike for adaptations. No image assets are bundled.",
+  "unit_label": "USFM verse labels observed",
+  "unit_count": 107,
+  "verse_marker_count": 107,
+  "chapter_count": 5,
+  "section_label": "Chapter",
+  "chapter_structure_note": "This source member has 5 consecutive chapter markers, 107 distinct verse labels, 1 source notes, 14 recorded front-matter elements, and USFM markers {'c': 5, 'h': 1, 'id': 1, 'imt1': 1, 'io1': 10, 'iot': 1, 'ip': 2, 'mt1': 1, 'p': 21, 's1': 14, 'toc1': 1, 'toc2': 1, 'toc3': 1, 'v': 107}. Publisher labels and formatting distinctions are retained in reader structure; counts establish package-to-reader extraction only, not printed completeness or translation accuracy.",
+  "chapter_structure_status": "source_package_parsed_with_limits",
+  "source_numbered_unit_count": 107,
+  "source_unnumbered_unit_count": 0,
+  "source_pages": "readers/source/yemsa/jnje_usfm.zip::65-JASjnje.usfm",
+  "source_package_sha256": "d21d6e0d4109923945ba5907ce84f177252d22357ed99867d30ae9d35c6f1c83",
+  "source_snapshot_sha256": "10f06d1ff400c361ce74dde677ee48003830ff3fb37f18a635c3e0554b3d8476",
+  "source_ids": [
+    "SRC-407",
+    "SRC-408",
+    "SRC-409"
+  ],
+  "rights_status": "Copyright © 2025 The Word for the World International. Source: eBible.org, Yemsa NT Ethiopic (JNJETW / jnje), Yemsa language (jnj), Ethiopic script. The publisher lists The Word for the World International as contributor; no individual translator is named in the inspected edition record or retained USFM headers. The publisher states CC BY-SA 4.0 for the translation text. This archive converted publisher USFM to reader JSON with recognized labels and structures represented in the reader; the original USFM package remains bundled. These format changes do not imply publisher endorsement.",
+  "verification_status": "The exact member 65-JASjnje.usfm has SHA-256 10f06d1ff400c361ce74dde677ee48003830ff3fb37f18a635c3e0554b3d8476, matching the clear-signed SHA-256 list in the retained ZIP. GnuPG verifies that list against the package-included key (54D714D76956DA6673DC1EEA5F62009D93505F26); the fingerprint matches the key maintainer's published page (https://mljohnson.org/gpg.htm). This is tamper evidence only: the key is co-distributed, and its identity, custody, and authority are not independently established. The parser retains source verse labels, notes, headings, front matter, continuations, and recognized USFM structure. It does not certify accuracy, completeness, community review, or church-canon identity.",
+  "transcription_note": "Machine-readable display extraction from the publisher's USFM; the exact original member is retained in the source ZIP. No wording was independently proofread or collated.",
+  "editorial_signs_note": "Source USFM chapter and verse labels, headings, paragraph/poetry markers, notes, cross-references, and front matter remain separately represented where recognized by the parser. The original USFM remains bundled for auditing markup and parser limits.",
+  "front_matter": [
+    {
+      "marker": "imt1",
+      "text": "ጋችግሩ"
+    },
+    {
+      "marker": "ip",
+      "text": "ሀን ያቆብኒ ዎሲያስ ዎንና ዎንናት ፎኒሲክ ዞንሲያ ስንኒ ሳፋራባ ስሩክ ኤጶ ስንፋት ትቼናስ ደይ ሀን ዳስታክ ሲክቴሬ ፌሴ አሲሬ ሄፔ አሲቴሴሪሲክቶክዋ። ትች ባር ቴችማሶን አምማኖን ዎስቶታ ፌሹኒ ኡግናሶን፤ ክርስታናኒ ሜያ ዎል እርባሲት ፎነዋ አማላነ አሲክ ቾዋሲ ዞንሲያ ስንኒ ዉዛሲክቶኖን አምማ ስና ቤሶባ ፋና ዎላክቱ ማኬዋ። ቱካም ስንኒ ቾዋሴዋ ኦቱም ስንኒ ቾዋሴ፤ ፋታናኒ ቾዋ፤ ማአ አማላኒ ቾዋ፤ ኮናኒ ቾዋ፤ አማንቶነዋ ማአ አማላነ፤ ቴርማኒ ማእነዋ ማጙነ፤ ቴቹምኒ ቾዋ፤ ዎል ፋሶኒ ቾዋ፤ ቤጋንቶነዋ ጋራምነ አሲ ቾዋ፤ ኦሚሳታ ማጝሱኒ ካርኒ ቾዋ፤ ቤጋንቶኒ ቾዋ፥ ፋኪኒ ቾዉነዋ ሺጶነ፤ ክርስታናኒ ሜያ ዛግሶነክ ሾልሲፋ ግድነ አስን እሳርባ እሳርባሲክ ኮትቴቱ ትች።"
+    },
+    {
+      "marker": "ip",
+      "text": "ዎሲያስ ክርስትናኒ ካኒ አማንቶነዋ ዎስቶታ ፌሹኒ ቾዋሶን ማእስራቱ ቤሲፋ።"
+    },
+    {
+      "marker": "iot",
+      "text": "ማፃፋስ ስሩክ ኤጵና ኤጶባስ"
+    },
+    {
+      "marker": "io1",
+      "text": "ጋችግሩ 1:1"
+    },
+    {
+      "marker": "io1",
+      "text": "አማንቶነዋ ቴቹምነ 1:2-8"
+    },
+    {
+      "marker": "io1",
+      "text": "ቱካማነዋ ኦቱምነ 1:9-11"
+    },
+    {
+      "marker": "io1",
+      "text": "ፋታና 1:12-18"
+    },
+    {
+      "marker": "io1",
+      "text": "ሀኦሲ ካማኖን ኦዶነዋ ዛጉነ 1:19-27"
+    },
+    {
+      "marker": "io1",
+      "text": "ኮሩ ዛግቶኖይናማቶ እምቴ ኪቶ 2:1-13"
+    },
+    {
+      "marker": "io1",
+      "text": "አማንቶነዋ ዎስቶነ 2:14-26"
+    },
+    {
+      "marker": "io1",
+      "text": "ክርስታናስናዋ ቴሩምባሴ 3:1-18"
+    },
+    {
+      "marker": "io1",
+      "text": "ክርስታናስናዋ ሀን ዳሴ 4:1—5:6"
+    },
+    {
+      "marker": "io1",
+      "text": "ሾዎ ቴሳ ዉዛክ እምቴ ኪቶ 5:7-20"
+    }
+  ],
+  "source_book_metadata": [
+    {
+      "marker": "h",
+      "text": "ያቆብ"
+    },
+    {
+      "marker": "toc1",
+      "text": "ያቆብኒ ዎሲያ"
+    },
+    {
+      "marker": "toc2",
+      "text": "ያቆብ"
+    },
+    {
+      "marker": "toc3",
+      "text": "ያቆ."
+    },
+    {
+      "marker": "mt1",
+      "text": "ያቆብኒ ዎሲያ"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ዳሲ ብራቶታ ቦክቴሬ ፌሴ አሲሬ ሄፔ አሲቴሴርሲክቶክ ሀኦሲሬዋ ዳምኒ የሱስ ክርስቶስኒ ዎስትኛ ስና ያቆብንኪን ዎስቴ ዎሲያ፤ ናጋ ንቶክ ስንፋውጝዋ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "አይታሳክቶኖ! ሾዎ ቴሳ ፋታና ንቶስታ ካርፋና ካባሲክ ንቶትን ግርሱኒ ዉዛ ዳንትንነ ፋሮን ዛግራ ፋዱትዋ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "አማንቶነዋ ቴቹምነ"
+          ]
+        },
+        {
+          "number": "3",
+          "text": "አማንቶቲሲ ፋታንቶ ፋኪያክ ችምሜ ፎሶን አሩትክዋ።"
+        },
+        {
+          "number": "4",
+          "text": "ፋኪያክ ችምሜ ፎንትስ እሳንነ ዮኡኖይናማቶ ቱም ስንና ፎትክ ዛግር ስኑንጝዋ።"
+        },
+        {
+          "number": "5",
+          "text": "ንቶ ጋነያሲ ቴችማባ ዮእና አሱ ፌፋናነ ኮሩኖይ ጋራማክ እምፋ ሀኦሶን ሺጶዎዋ። ባር ደይ እማናዋ።"
+        },
+        {
+          "number": "6",
+          "text": "ስኑንታኖ ሄፕ ሳፋራባ ፌና ባር ስሩ ቱጋን ኤክ ሀጝ ሾርኬት ኩኒ ባሪኒ አካስነ ፌር ስንና ቦርአ ኤክ ሀጝ ኡኖይ አማንቶክ ሺጶዎዋ።"
+        },
+        {
+          "number": "7-8",
+          "text": "ሄፕ ሳፋራባ ፌና ባር ኡጉንባስታክ ኤክ ሀጝ ሾርኬት የሬፌ ባር ሀኦስኪን እሳ ዉዛነ ዳንኒርነ ፋር ስንና ባሪክ ቤስቶናታዋ።"
+        },
+        {
+          "number": "9",
+          "text": "ፎባሲክ ቱካም ስንነ ፌ አይስ ሀኦስ ባሪን ደን ቴጉኒር ስንና ቦርአ ግሮዎዋ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ቱካም አሱናዋ ኦቱም አሱና"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "ኤሲስማቶ ደይ ፎባሲክ ኦቴሬ ፌ አይስ ሀኦስ ባሪን ዳ ኬስሳናነ ግሮዎዋ"
+        },
+        {
+          "number": "11",
+          "text": "አሱኒ ኦትማ ኩዋኒ ፉርኒማቶ ዎቶኒርዋ፤ አዋ ኪችፋና ካባሲክ ደይ ኩዋሶንናዋ ፉርአሶንና እችንስርዋ፤ ፉርኣስ ዎቴራ ጋዳባስ ደይ ትሽር። ኤሲስማቶቱ ኦቱም አሱ ዎስቶክ ኤክ ሀጝ ይፌት ትሽፌዋ።"
+        },
+        {
+          "number": "12",
+          "text": "ፋታናሶን ፋኪያክ ችማ ባሪክ ዳሚስ አብድኒ ካምባሲማቶ ሀኦሶን ሹነፌ ባሶክ ካኒ አክልሊሶን እማናዋ። ኤስ ባሪ ቦርኣ ፋታና ባሳስታ ካርፋና ካባሲክ ችምሜ ኣትፌ አሱስ ሱስቶዋ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "አሱኒስታ ካርፋ ፋታና"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "ሀኦስ ማጙ ዉዛሲክ ኣነ ፋታንቴፋ፤ ኤሲስማቶ ባር ደይ ኦኒንኑ ማጙ ዉዛ ዛጉናክ ኣነ ፋትታነፋዋ። ኤስ ባሪ ቦርኣ ኦኑ ስንፋናነ ፋታንቴፌና ካባሲክ፦ «ሀኦስ ታን ፋታነዋ» ኡናታዋ።"
+        },
+        {
+          "number": "14",
+          "text": "ስኑንታኖ አሱ ቴትባሲ ማጙ ኤናንቶክ ዛቴሬናዋ ኤሽቴፌና ካባሲክቱ ፋታንቴፌዋ።"
+        },
+        {
+          "number": "15",
+          "text": "ኤስታን ማጙ ኤናንቶባስ ናኔርቴራ ቦርኣሶን ኮኒፋ፤ ቦርኣስ ደይ ድቻ ክቱ ቴሸፋዋ።"
+        },
+        {
+          "number": "16",
+          "text": "ኬሽቴፋና አይታሳክቶኖ፤ ኤሽቶትታዋ።"
+        },
+        {
+          "number": "17",
+          "text": "ማአ እማሴዋ ቱማ ኤባሴ ዙቴራ ደን ሀኦስክጝዋ። ኤስ ባር ደይ ይራራኒማቶ ሻቶኖይ ወደይ ሶልቶባ ፎንቶ ቻሬፍኒ አባ ሲና ሀኦስክጝዋ።"
+        },
+        {
+          "number": "18",
+          "text": "ሀኦስ ቴስቶ ዙታምባሴ አሲ ኡዛ ስናኒክ ባሪ ፍቃዲሲማቶ ፉቶኒ ካምባሲክ እኖትን ታነዋ።"
+        },
+        {
+          "number": "19",
+          "text": "ኬሽቴፋና አይታሳክቶኖ! አሱ እሳርባ እሳርባስ ኦዶክ ታፕቴር ስኖዋ። ዎሎክናዋ ግእቶክና ታፕቶኖር ስኖዋ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኦደኒ ውዛሶን ዎስቶታ ፌሹ"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "ኤሲስ ደይ አሱኒ ግእአስ ሀኦስ ሾሌፋና ኦኮ ስንነ ፎሶን ፎኒክ ኣነ ዛግፋዋ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "ኤስ ባሪ ቦርኣ ኪናሶንናዋ ቱምማ ፋ ማንጉሶንና ዙትራ ንቶስታን ዎክሳት ሀኦስ ንቶ ንብባሲ ኩንሲና ካንትሶን ፋቱክ ችምኒ ካምባሶን ማአ ንባክ ኤጳቶትዋ።"
+        },
+        {
+          "number": "22",
+          "text": "ካምባሶን ኦዴሬ ዎስቶታ ፌሺር ስንትታኖ ቴትኒትሶን ኤሸት ባክ ኦደር ስናትታዋ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "ካምባሶን ኦዴሬ ዎስቶታ ፌሹኖይ አሱ ቴትባሲ ግቶኖን እንካሊሲ ብያ አሱነ ፌርዋ።"
+        },
+        {
+          "number": "24",
+          "text": "ኤስ አሱስ ኣፍባሲ ቢሬ ሀምፋት ጌሬጌሬ ደይ ባር አዉነፌር ስንናማቶ ዳጌፌዋ።"
+        },
+        {
+          "number": "25",
+          "text": "ስኑንታኖ ብርማዱምማ ክሱኒ ዮኡባ ፎንቶ ቱማሶን ጋሳሲሬ ቢሬ ባሪክ ችምሜ ፌ ባር ኦዴሬ ዳጌር ስኖይናማቶ ዎስቶታ ፌሽፌ ባር ዎስቴፌና ዎስቶሲክ ሱስቶዋ።"
+        },
+        {
+          "number": "26",
+          "text": "ቴሩምባሶን ኦድኖይ፦ «ሀኦሶንቱ ሺጴድፋንዋ» ይፌ አሱ ቴትባሶንቱ ኤሽፌዋ። ባሳ ሀኦኒ ሺጶስ ደይ ዋግባ ኣፋዋ።"
+        },
+        {
+          "number": "27",
+          "text": "አባ ሀኦሲ ስና ኪንባ ፎንቶ ሺጶስ ሃኒስዋ፦ «አባ እንቶቤሲ ክትና ናንጎታሲክቶኖን፤ ኤሲስማቶ ደይ ቴጎቤስ ክትና ማሽካሱሲክቶኖን ራኮቤሲሲክ አሪጋሱ፤ ቴትኒሶን ደይ ሀን ዳስታኪ ፋ ኪና ዉዛሲን ኦዳስዋ።»"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "23",
+          "marker": "Translator/editor note",
+          "text": "+ እንካል ኡስ ማስቶድ ኡዋ",
+          "note_type": "translator_note",
+          "source_reference": "1:23"
+        }
+      ],
+      "heading": [
+        "ያቆብኒ ዎሲያ"
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": "1",
+          "text": "አይታሳክቶኖ! ኡልፍንቶ ዳም የሱስ ክርስቶስኒክ አማነር ስንፋትነ አሱኒን ኮሩትታዋ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ኤሴ ሄፕ አሱኒ ሜያ ንቶ ዙቴራ ፋትስታ ዮሶነ፤ እሳይስ ዋርቄኒ ግላ ዬቶናዋ ጋዳ ማያ ማዮ ኦቱም አሱና ሲናና፤ ሄፕሳስ ደይ ኪና ማያ ማዮ ቱካም አሱ ሲናና፤"
+        },
+        {
+          "number": "3",
+          "text": "ጋዳ ማማ ማዮ አሱስን ኡልፍንሱክ፦ «ሀን ቴጋ ድማስታ ያራ ዱዋ» እያት ቱካሚስን ደይ፦ «ነ፤ ኤኬስታ የሮዋ ወደይ ዳ ዎቾናስሲ ዱዋ» ይፌትዋ።"
+        },
+        {
+          "number": "4",
+          "text": "ኤኪን ንቶ ጋነያስሲ አሱኒን ኮሩ ፋናማቶታኖሶ ቤስፋናሪ? ደይ አሱኒን ኮሪሬ ማጝሱ ካርፌ ዳኛነ ፋትርታኖሶ?"
+        },
+        {
+          "number": "5",
+          "text": "ሹንቶ አይታሳክቶኖ! ኦዶትዋ! ሀኦስ ባሮን አማኖክ ኦቱም ስኖነክናዋ ባሮን ሹነፌ ባሶክ አብድክ እምና ባሪ ታቶስሲ ግርሶነክና ሀን ዳስታኪ ፌ ቱካሚስን ኣነ ቴጎዋኖሶ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "ስኑንታኖ ንቶ ቱካሚስን ካሽትር፤ ንቶስታ ራክኮ ካትፌስንናዋ ማጝሱኒ ካርኒ ኬር ታሜፌስ ኦቱምኒ ሜያቴኖሶ?"
+        },
+        {
+          "number": "7",
+          "text": "ንቶ ቴግሴፌት ኡልፍንቶ ክርስቶስኒ ሱናሶን ሜኤሴፌስ ባሶቴኖሶ?"
+        },
+        {
+          "number": "8",
+          "text": "ኮርቶ ማፃፋስሲ፦ «አሱስን ዙትራ ነ፤ ነ ቴታሶን ሹንፋታሲማቶ ሹንዋ» ይስቴራ ትቼናሲማቶ ሀኦሲ ታቶኒ ቱማኖን ኦድፋትነ ማአሮንቱ ዛግትዋ።"
+        },
+        {
+          "number": "9",
+          "text": "ስኑንታኖ አሱኒን ኮርፋትነ ቦርአ ዎስቴትርዋ። ቱማሶን ደይ ኣትኒትሲክ ዋቃስቴትርዋ።"
+        },
+        {
+          "number": "10",
+          "text": "ሀኦሲ ቱማኖን ዙትሬ ኦዳት እሳሮን ዮእጋናነ ዙታምባሴ አሲን ኦድኖር ስንነቱ ፋድቶናዋ።"
+        },
+        {
+          "number": "11",
+          "text": "«ጌርኬሳቲታ» ይ ዳሚስ፦ «ዎሩቲታ» ደይ ይዋ። ጌርኬሳሶን ቤይፋት ዎሪፋትነ ቱማሶን ኣነ ኦደዋ።"
+        },
+        {
+          "number": "12",
+          "text": "ዎሉምኒትሴዋ ዎስቶኒትሴ ብርማዱምማ ክሱኒ ቱማሲ ማጝሱ ካርኒ አሱኒ ሜኒማቶ ስንትዋ።"
+        },
+        {
+          "number": "13",
+          "text": "ሀኦሲ ማጝሱኒ ካርአ ፋክያ ዛጉኖይ አሱሲክ ፋክያ ኣነ ዛግፋዋ። ፋክያስ ደይ ማጝሱኒ ካርኣሶን ሜሬርዋ።"
+        },
+        {
+          "number": "14",
+          "text": "አይታሳክቶኖ! እሳ አሱ፦ «አማንቶና ፋር» እያት ኤስ አማንቶባሶን ዎስቶክ ቤሱ ሻካናነ ባሳ አማንቶስ አዉ ኬእንሪንሶ? አማንቶባስ ባሪን ፋቱክ ችምንሮሶ?",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "አማንቶነዋ ዎስቶነ"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "ማዮነ ማምነዋ ሙሶነ ሙነ ቱሩክሴ አይኒ ሜያ ወደይ ኤትኒ ሜያ ፌሴፋናነ፤"
+        },
+        {
+          "number": "16",
+          "text": "ንቶስን እሳር፦ «ማርኦን ሀሞት፥ ጌያስ ግንቶክ ጉሙን፤ ጋዉት» እያት ሙሶነ ሙ ወደይ አቱቤሲስታ ማዮነ ማማ እማ ሻካናነ ባሶክ አዉ ኬእንሪንሶ?"
+        },
+        {
+          "number": "17",
+          "text": "ኤሲስማቶ ዎስቶባ ፎንቶ አማንቶስ ቴትባሲክ ክቱዋ።"
+        },
+        {
+          "number": "18",
+          "text": "ስኑንታኖ እሳ አሱ፦ «ነ፤ አማንቶነ ፋር፤ ታ፤ ደይ ዎስቶና ፋር፤ አማንቶኔሶን ዎስቶኔስታን ኦር ክስራ ቤሱዋ» ይፌር ፌፋናነ ታ፤ ደይ፦ «አማንቶናሶን ዎስቶናሲክ ቤሱናዋ» ኡናዋ።"
+        },
+        {
+          "number": "19",
+          "text": "ሀኦስ እሳር ስንናማቶ አማነታር፤ ኤስ ባር ደይ ማአር፤ ኪና አያናስኑ ደይ ኤስ ባሮን አማነር፤ ድጌራ ደይ ኮሪክሴር።"
+        },
+        {
+          "number": "20",
+          "text": "ነ፤ ጎዋ አሱ! ዎስቶ ፎንቶ አማንቶስ ኬእኒርነ ፋር ስንና ኔክ ቤስቴፋዎሶ?"
+        },
+        {
+          "number": "21",
+          "text": "አባኒ አብራሀም ናባ ይሳቅኒን ማአ ዛግሬ ሾኣስታ እምና ካባሲክ ዎስቶክ ሀኦሲ ስናክ ኦኮ ስንነ ኣነ ቤስቶዌኖሶ?"
+        },
+        {
+          "number": "22",
+          "text": "ኤስ ባሪ ቦርኣ አማንቶባሴዋ ዎስቶባሴ እሳሪክ ሀምናማቶናዋ አማንቶባሶን ደይ ዎስቶክ ዮኡባ ፎንቶ ዛግሬ ቤሲናማቶ ኣነ ብየትኖሶ?"
+        },
+        {
+          "number": "23",
+          "text": "ማፃፋስሲክ፦ «አብራሀም ሀኦሶን አማነ፤ አማንቶባስ ደይ ኦኮ ስንና ፋድቴ» ይስቴ ባር ኮእዋ። ባር ደይ ሀኦኒ ኮን ስንነ ቴግቴ።"
+        },
+        {
+          "number": "24",
+          "text": "ኤሴ አሱ ኦኮ ስንነ ፋድቶናስ አማንቶ ባር ባሪክ ስኖይናማቶ ዎስቶክኔን ስንናማቶቱ ብያታዋ።"
+        },
+        {
+          "number": "25",
+          "text": "ኤሲስማቶ ጌርኬስፋ ራሀብ ስንፋ አሱስ እስራኤልኒ ኣፎኒ ሜያኖን ኤጳ ኣችራ ኦማ ኡግናክ ኮፍኩባሲክ ዎስቶክ ኦኮ ስንና ኣነ ፋድቶዋኖሶ?"
+        },
+        {
+          "number": "26",
+          "text": "ካ ስሩን ኬስና አሻስ ክቱ ስንናማቶ ዎስቶባ ፎንቶ አማንቶስ ደይ ክቱዋ።"
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "አሱኒን ኮሩ ኣነ ሾልሲፋ"
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": "1",
+          "text": "አይታሳክቶኖ! አስኛ ስና እንኖስታ አካማ ማጝሱኒ ካርአ ዮኒር ስንናማቶ አርሴትር ስንና ቦርአ ንቶስን ሾዎቤሲስ አስኛ ስኖኔታዋ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "እንኖ ዙታምኒሴ ሾዎ ዉዛክ ዳጌኒርዋ። ዎሉምባሲክ ቱሳኦኖር ፌፋናነ ኤስ ባር ቴርማባሶን ኦዳክ ቴትባሶን ሀእሱክ ችማ ዛግ አሱዋ።"
+        },
+        {
+          "number": "3",
+          "text": "ፋዛሲክቶ እኖክ አጃጃምቶናክ ኖኖባስሲ ሉጋማ ጌድፌኒ፤ ኤስታን ፋዛሶን ሾሌኒ ዲማ ዛትፌኒ።"
+        },
+        {
+          "number": "4",
+          "text": "ሜርኬቢሲክቶኖን ደይ ቢትዋ፤ አዉነ ፋሮን አካማ ስንፋናክኑ ደይ አካማ ሁግናባ ፋና ስሩክ ቱግቴር ስንፋናክ ሜርኬቢሶን ካልፌ ባር ኪስኩ ማሪክቱ ባር ሾሌና ዲማ ካልፌዋ።"
+        },
+        {
+          "number": "5",
+          "text": "ኤሲስማቶ ቴርማስ አቱስን ኪስኩ ስንፋት ሾዎ ዉዛ ዛግናር ይቱ ጌእፋዋ። አካማ ቡርኡስ ጋሮ ኪስኩ ጌያክ ኣካክ ኪቼራ ትሽፋናሲማቶ ጋሳሱትዋ።"
+        },
+        {
+          "number": "6",
+          "text": "ቴርማስ ደይ ጌያነ ፋርዋ፤ አቱኒሲ ብልትስን ባር ማጙ ዉዛክ ቱማ ፋ ሀን ዳስነ ፋርዋ። አቱኒሶን ዙትራ ኪንስር። ጌኒ ትርእማሲን ኬስፋ ጌኒማቶ አሱሳ ፎኖን ኪችር፤ ባር ደይ ኪቼር።"
+        },
+        {
+          "number": "7",
+          "text": "ሀን ዳስታ ፋ ጎኞሲኪቶ፥ ካሳ፥ ንባሲክ ዛይፋ ባሬዋ፥ አካስሲ ፋ ቴስቶሴ ዙቴራ ሌጅስቴዋ። ባሪኪቶ ደይ ሌጅስቴ።"
+        },
+        {
+          "number": "8",
+          "text": "ስኑንታኖ ቴሩምማባሶን ሌጅሱናክ ችማር ኦኑ ኣፌዋ። ባር ደይ ኪችራ ዎሪፋ ማርዝ ባሪሲ ቱማ ፋና ቤይሳባ ፎንቶ ማጙ ዉዛዋ።"
+        },
+        {
+          "number": "9",
+          "text": "ባሪክ ዳማ ሀኦሶን ጋላቴፌኒ። ደይ ሀኦሲ ግቶክ ቴስቴ አሱስን ኤርዊፌኒ።"
+        },
+        {
+          "number": "10",
+          "text": "እሳ ኖኖስን ጋላትነዋ ኤርዊነ ኬስፋዎሶ? አይታሳክቶኖ! ኤስ ባር ኤካ ስናናክ ኣነ ሾልስፋዋ።"
+        },
+        {
+          "number": "11",
+          "text": "እሳ ኮርኣስን ማጙ አካነዋ ማአ አካነ ኬሳናክ ችማሮሶ?"
+        },
+        {
+          "number": "12",
+          "text": "አይታሳክቶኖ፥ ባላስኒ እኦስ ቡንኒ ጋና ጋናናክ ችምኒሮሶ? ወደይ ዋይንኒ እኦስ ባላስኒ ጋና ጋናክ ችምኒሮሶ? ኤሲስማቶ ማጙ ኮርኣስን ማአ አካ ኬሳናክ ኣነ ችምፋዋ።"
+        },
+        {
+          "number": "13",
+          "text": "ንቶስን ቴቹም ወደይ ጋሳሱባ ፋና አሱ ኦንሶ? ኤሴ ቴችማክናዋ ሹጳክና ዎስቴና ዎስቶባሶን ማአ ፎባሲክ ቤሱዎዋ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ሳማን እምቴፋ ቴችማስ"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "ስኑንታኖ ማጙ ኮናነዋ ቴትኒ ሹንነ ንብንትስሲ ፋፋናነ ኤስ ቴችማሲክ ቴቶቲታዋ፤ ፉቶስታ ደይ ኤሻቲታዋ።"
+        },
+        {
+          "number": "15",
+          "text": "ኤፋቴና ቴችማ ቤስቴፋናስ ሀን ዳስታንዋ፤ አሱኒኪንናዋ፤ ሴጣናስኪንናታኖ ሀኦስኪንታዋ።"
+        },
+        {
+          "number": "16",
+          "text": "ኮናነዋ ቴትኒ ሹንነ ፋና ድማስታ ናጋኒ ቱርኩነዋ ማጙ ዎስቶነ ዙቴራ ፋርዋ።"
+        },
+        {
+          "number": "17",
+          "text": "ስኑንታኖ ደን ሀኦስኪን ያፋ ቴችማስ ዜምማ ካይማ፥ ደይ ናጋ ሹናር፥ ጋራማ፥ አጃጃሜር፥ ፋኪያ ዛግር፥ ማአ ጋንባ ፋናር፥ ኮሩነዋ ታነ ፌር ኣፌ ኡባ ፎንቶዋ።"
+        },
+        {
+          "number": "18",
+          "text": "ናጋ ሾልሴፌ ባስሶ ናጋ ቡኬሬ ኦኮ ስንኒ ጋናቱ ዙትሴፌዋ።"
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "ቴሩምኒ ኦዳ"
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ንቶ ጋነያሲ ፋ ኔቦሴዋ ፋሶሴ አይን ያሪንሶ? ንብንትሲ ኔቤፋ አሽንትሲ ማጙ ኤናንቶስኪንታኖሶ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "እሳ ዉዝኒ ዳናክ ኤናንቴትር፤ ስኑንታኖ ኣፋ ዳናት ዉዛ። ደይ ኮነትር ፋሴትር፤ ኤስ ባርስታን ደናሎ ደይ አሱኒን ዎሪትር፤ ኣነ ሺጴፌት ስንና ቦርአ ኣፋ ዳናት ዉዛ።"
+        },
+        {
+          "number": "3",
+          "text": "ሺጶኒትስ ማጙ ሳፋራክ አሽንትሶን ግርሱክ ስንና ቦርአ ሺጶኒትሲ ዎልጉኖን ኣፋ ዳናት ዉዛ።"
+        },
+        {
+          "number": "4",
+          "text": "አማናምቶኒት ፎንቶ ንቶኖ! ሀን ዳስታኪ ዉዛሶን ሹና ሀኦሲኔን አነ ፋሶ ስንናማቶ ኣነ አሩዌትኖሶ? ኤሴ ሀን ዳስታኪ ዉዛሶን ሹንፌ ባር ዙቴሬ ሀኦሲ ጉማ ስኒዋ።"
+        },
+        {
+          "number": "5",
+          "text": "ኤኪን ኮርቶ ማፃፋስሲ፦ «ሀኦስ እንኖስሲ ኩንስና ባሪ አያናስ ባሪክ ፎኒክ ማእስራቱ ኮነፋዋ» ይራ ማኬናስ ባክኖሶ?"
+        },
+        {
+          "number": "6",
+          "text": "ኤሲስማቶ ደይ ማፃፋስሲ፦ «ሀኦስ ጌእፌ ባሶትን ኦምቴር፤ ስኑንታኖ ሹጰፌ ባሶክ ኦቱምባሶን እማርዋ» ይፋና ቦርአ ሀኦስ እምፋና ኦትማስ ዙታምባሴ አሲስታን ደናሎዋ።"
+        },
+        {
+          "number": "7",
+          "text": "ኤሴ ሀኦሲክ ሀእኡት፤ ሴጣናሶን ደይ ጉዎት፤ ባር ደይ ንቶስታን ዎካና።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "ሀኦስኪ ታእሶት፤ ባር ደይ ንቶኪ ታእሶና። ንቶ ቦርእኒ ሜያነ! ኩሹንትሶን ካይንኑት፤ ሄፕ ሳፋራንት ፋና ንቶ ንብንትሶን ካይንኑት።"
+        },
+        {
+          "number": "9",
+          "text": "ማእስራ ራካቶት፥ ሱሞት፥ ዋሱት። ምእኒትስ ዋሳክ ሶልቶን፤ ግራንትስ ደይ ሱሞክ ሶልቶን።"
+        },
+        {
+          "number": "10",
+          "text": "ዳሚሳ ስና ቴትኒትሶን ዳ ኤጵት፤ ባር ደይ ንቶትን ደን ቴጉና።"
+        },
+        {
+          "number": "11",
+          "text": "አይታሳክቶኖ! ንቶትና ንቶትና ዎል ሀማቶትታዋ። አይባስን ሜእፌ ባር ወደይ አይባሳታ ማጝሱ ካርፌ ባር ሀኦሲ ቱማኒ ማጙኖንቱ ማኬፌዋ፤ ደይ ቱማስታቱ ማጝሱ ካርፌዋ። ነ ቱማስታ ማጝሱ ካርፋታነ ቱማስታ ማጝሱ ካርአርቱ ስንናታታኖ ቱማሶን ኦዳር ኣፋዋ ስንናታዉዛ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ማጝሱ ካርአቲታ"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "ቱማሶን እምኒሴዋ ማጝሱ ካርኒሴ እሳ ሀኦስዋ። ፉኦክናዋ ትሽኩክና ችምኒስ ደይ ባር ባር ኮእባዋ። ኤኪን አሱሳታ ማጝሱ ካርፌስ ነ ኦንሶ?"
+        },
+        {
+          "number": "13",
+          "text": "ኤሴ ኦዶትዋ፦ «ሀሽ ሀውጙ ወደይ ዎኖ ሀንታን ካብራ እሳ ካታማሲ ሀማኒዋ፤ እሳ ዎግጋ ኤስታ ዲራ ናጋዴራ ቡእሱኒዋ» ይፌት።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ንቶ ቴትኒ ሳፋራኒትስታ ቴቶቲታ"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "ስኑንታኖ ዎኖ ስንኒ ባሮን ኣነ አሪፌትዋ፤ ካንትስ ኣምባንሶ? እሳርጋ ቢስቴፋት ዎል ላ ትሽፋ ፉሩቱስነ ፋትርዋ።"
+        },
+        {
+          "number": "15",
+          "text": "ኤስ ባርስታን ዜምማ፦ «ዳሚሳ ፍቃድ ስንፋናነ ሀን ባሮን ወደይ ኤክ ባሮን ዛጉኒዋ» ኡትክቱ ሾልሲፋዋ።"
+        },
+        {
+          "number": "16",
+          "text": "ስኑንታኖ ንቶ ኤስ ባሮን ሻካቱ ቴትኒትሲክ ጌእፌት ደይ ቴቴፌት፤ ኤስ ኤፋቴና ቴቶስ ማጙዋ።"
+        },
+        {
+          "number": "17",
+          "text": "ኤሴ ማአሮን ዛጉናክ ሾልሱ ስንባሶን አሪፌት ዛጉ ቤይባሲክ ኤስ ባር ባሪክ ቦርአዋ።"
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "ሀን ዳስታኪ ማጙ ዉዛሶን ሹናቲታ"
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ኤሴ ንቶ ኦቱምኒ ሜኖ ኦዶትዋ! አካማ ሻና ንቶስታ ዮኒር ስንና ቦርአ ቻግጋ ዋሱትዋ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ኦቱምኒትስ ዙቴራ ኩፓና፤ ማይኒትሶን ደይ ኮኝማር ሙና።"
+        },
+        {
+          "number": "3",
+          "text": "ዋርቄንትሴዋ ብርንትሴ ደይ ሺራ ማጙናዋ። ባሪ ሽያስ ደይ ንቶስታ ዛላ ሲናናዋ። አሽንትሶን ደይ ጌኒማቶ ኪቹናዋ። ሀን ኮእኒ ዎናሲክቱ ኦትማ ዙቲሴትዋ።"
+        },
+        {
+          "number": "4",
+          "text": "ኤሴ ኦዶትዋ! ፎሽኒትሶን ዙቲ ዎስትኛአሳ ዋጋ ንቶስታ ኩንፋት ቻግድፋዋ። ኤስ ባሶ ቻጋሶን ደይ ዙታምባሴ አሲስታ ሁግናባ ፋና ዳሚስ ኦዴዋ።"
+        },
+        {
+          "number": "5",
+          "text": "ማአ ፎክናዋ ግራክና አቱንትሶን ሹክቶናክ ሆሬራ የሬ ጋቹኒማቶ ኩልሲትዋ።"
+        },
+        {
+          "number": "6",
+          "text": "ንቶትን ቱጋኦኖይ ካይም ማጝሱቤስ ፎንቶ ሜያኖን ማጝሱ ባሶስታ ካርኤቲ ደይ ዎርሴትዋ።"
+        },
+        {
+          "number": "7",
+          "text": "አይታሳክቶኖ! ዳሚስ ዮና ካባኔን ፋኩትዋ። ቡልኛአስ ዳባስ ቤጋኒ እሮሴዋ ዬሹሲ እሮነ አስን ዳንና ማአ ጋና እማናኔን ፋክያክቱ ፎሽባሲ ጋናኖን ኦድፌዋ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ዳሚሳ ዎሌ ዮኖን ፋኪያክ ኦዳ ሾልሲር"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "ዳሚስ ዮና ባር ታእ ስንና ቦርአ ንቶ ደይ ኤሲስማቶ ፋኪራ አብድክ ችምማ ኦድትዋ።"
+        },
+        {
+          "number": "9",
+          "text": "አይታሳክቶኖ! ንቶስታ ማጝሱ ካቶኖይናማቶ ንቶትና ንቶትና ዎል ኡኙሶቲታዋ። ማጝሱ ካርኒ ባር ዮና ዎና ካርእዋ።"
+        },
+        {
+          "number": "10",
+          "text": "አይታሳክቶኖ! ዳሚሳ ሱናክ ማክሴ ራጁኒ ሜያ ሻናሶን ፋኪያክ ኤጴቶክ ቤሶ ስና ባሶትን ቢትዋ።"
+        },
+        {
+          "number": "11",
+          "text": "ኤሲስማቶ ደይ ፋኒያክ ችምሜ ኣታ ባሶትንቱ፦ «ሱስቶዋ» ይፌኒዋ። እዮብ ደይ ኣካክ ፋኪናማቶ ኦደትዋ። ዳሚስ ደይ ኮእባስታ ባሪክ ዛግና ባሮን ቢትዋ። ዳሚስ ፋክር ደይ ኬናሽቴር ስንባሶንቱ ቤስፋዋ።"
+        },
+        {
+          "number": "12",
+          "text": "አይታሳክቶኖ! ዙታምባሴ አሲስታን ደናሎ ደን ሳማክ ወደይ ሀን ዳስታክ ወደይ ኦማ እሳ ዉዛክነ ቴዉትታዋ። ዎሉምኒትስ ኣ ስንፋናነ ኣ፤ እንዳነ ስንፋናነ እንዳነ ስኑንዋ። ኤካ ስና ሻካናነ ንቶስታ ማጝሱ ካቴርዋ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "ንቶ ጋነያሲ ራክኮ ባሳስታ ካርእና አሱ ፌፋናነ ሺጶዎዋ። ግሬት ፌ አሱ ፌፋናነ ባር ሀኦሲክ ጋላትኒ ጋማ ጋሞዎዋ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "ንቶ ጋነያሲን ሜትቴ አሱ ፌፋናነ ቤቴክርስታንኒ ኩርኡኒ ሜያኖን ባርኪ ቴጎዎዋ። ባሶ ደይ ዳሚሳ ሱናክ ዛይት ዎሽሬ ባሪክ ሺጶሶቶዋ።"
+        },
+        {
+          "number": "15",
+          "text": "አማነሬ ሺጶስ ሜታኒስን ፋትርዋ። ዳሚስ ደይ ኤስ ሜሮባስን ባሪን ፋቱናዋ፤ ቦርእባ ፋፋናነ ደይ ባሪክ ፌሹን ኡስቶናዋ።"
+        },
+        {
+          "number": "16",
+          "text": "ንቶትና ንቶትና ዎል ቦርእኒትሶን ሀርሙትዋ። ሜሮንትስን ፋሩትክ እሳይስ ኦሚሲክ ሺጶዎዋ። ኦኮ አሱኒ ሺጶስ ጋንባ ፋር ደይ አካማ ሁግናባ ፋርዋ።"
+        },
+        {
+          "number": "17",
+          "text": "ኤልያስ እንኖነ ፌ አሱዋ፤ እሮ እችኖይናማቶ ዛጊግሬ ሺጴን ኬዝ ዎጋነዋ እሱን አስነ ዳስታክ እሮ ኣነ እቻዋ።"
+        },
+        {
+          "number": "18",
+          "text": "ሄፕሳ ደይ ዎል ሌ ሺጴን ሳማን እሮ ኬሬዋ። ዳስ ደይ ሜያ ካይግዋ።"
+        },
+        {
+          "number": "19",
+          "text": "አይታሳክቶኖ! ንቶስን እሳር ፉቶኒ ኡግናስታን ሻቴፋናነ ኦሚስ ደይ ኤስ አሱስን ዎልግፋናነ፤"
+        },
+        {
+          "number": "20",
+          "text": "ቦርእኛአስን ቦርባስን ዎልግፌ ባር ቦርእኛአሳ ካኖን ክቱስን ፉኤናማቶናዋ አካማ ቦርባሲ ፋኪያኖን ዳናናክ ዛግናማቶና አሩዎዋ።",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "ኦቱምኒ ሜያክ እምቴ ኬኦ"
+      ]
+    }
+  ]
+}

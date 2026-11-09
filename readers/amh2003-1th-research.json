@@ -1,0 +1,550 @@
+{
+  "reader_id": "amh2003-1th-research",
+  "research_corpus_id": "amh2003-1th-research",
+  "publisher_book_code": "1TH",
+  "source_menu_position": 13,
+  "source_title_label": "1ኛ ወደ ተሰሎንቄ ሰዎች",
+  "reader_scope": "research_witness_reviewed_title_match",
+  "title": "1 Thessalonians — Amharic text (1ኛ ወደ ተሰሎንቄ ሰዎች)",
+  "display_name": "1 Thessalonians · Amharic (AMH2003)",
+  "normalized_title_en": "1 Thessalonians",
+  "title_normalization": {
+    "method": "publisher_standard_book_code_lookup",
+    "publisher_book_code": "1TH",
+    "normalized_english_name": "1 Thessalonians",
+    "source_title_label": "1ኛ ወደ ተሰሎንቄ ሰዎች",
+    "is_translation_of_source_label": false,
+    "canon_mapping": "reviewed_work_title_match",
+    "source_ids": [
+      "SRC-029",
+      "SRC-196",
+      "SRC-197",
+      "SRC-198",
+      "SRC-396"
+    ],
+    "note": "Reviewed work/title match for eotc-nt-13 (I Thessalonians): the EOTC's cited 81-entry list names I Thessalonians; the captured publisher menu and page identify this member with standard code 1TH; the official USFM/USX table maps that code to 1 Thessalonians. The Amharic title remains verbatim and is not translated by this normalization. This is a title crosswalk only, not evidence that this edition belongs to or follows the EOTC canon. Evidence: SRC-029, SRC-196, SRC-197, SRC-198, and SRC-396."
+  },
+  "text_origin": "published_translation",
+  "language": "Amharic (አማርኛ)",
+  "language_tag": "am",
+  "language_assignment_status": "publisher_identified_amharic",
+  "script_code": "Ethi",
+  "translation_id": "amh2003eb",
+  "translator": "Translation team not named in the cited copyright page; source notes identify Lapsley/Brooks Foundation e-text (1994) and Dirk Röckmann's UTF-8 conversion/XML tagging (2003).",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The eBible publisher metadata does not document a source-text path. Haile Selassie's 1961 statement describes the 1947–1952 committee's aim as revising the existing Amharic Bible with reference to Hebrew and Greek. A. F. Matthew, a committee member, reports that the 1955 New Testament revision used Nestle's 1904 Greek text, following an Ethiopic reading where the Nestle apparatus listed the same alternative. These are historical statements about the revision process, not proof that this 2003 digital witness reproduces the 1962 print text without change. No collation establishes this reader's book-level lineage, so its path remains unknown.",
+  "edition": "United Bible Societies, Revised Amharic Bible in XML (2003), based on the printed version (1962); Lapsley/Brooks Foundation e-text (1994); Unicode UTF-8 transformation/XML tagging by Dirk Röckmann (2003); eBible.org source files dated 2025-12-12.",
+  "edition_scope": "This is the Amharic New Testament publisher-menu entry 13 under label '1ኛ ወደ ተሰሎንቄ ሰዎች' and standard book code 1TH. The 81-entry catalogue link is provisional and title-level; relation to any particular church canon list or printed exemplar is not established.",
+  "rights_classification": "permission_limited",
+  "copyright_notice": "Copyright © 1962, 2003 United Bible Societies. Language: አማርኛ (Amharic). Amharic NT. Revised Amharic Bible in XML (2003). Printed version by United Bible Societies (© 1962). E-text in transliterated ASCII format by Lapsley/Brooks Foundation (1994). Unicode UTF-8 transformation and XML-tagging by Dirk Röckmann (2003; www.nt-text.net). With kind permission of the Bible Society of Ethiopia. Every non-commercial work using this data in any form must fully include this copyright statement. Every commercial use of parts or the complete data in any form needs written permission of the Bible Society of Ethiopia. Copyright page dated 2014-09-09.",
+  "commercial_use": "The source page permits use in non-commercial works only when the complete copyright statement is included with every such work. Commercial use of any part or all of the data requires written permission from the Bible Society of Ethiopia. This is permission-limited reuse, not an open license or a general public-domain claim.",
+  "license_id": null,
+  "license_url": "https://ebible.org/amh/copyright.htm",
+  "chapter_count": 5,
+  "unit_count": 68,
+  "unit_label": "publisher-displayed Amharic verse marker",
+  "verse_marker_count": 68,
+  "section_label": "Chapter",
+  "chapter_structure_note": "Chapter sequence follows the publisher's linked book index and filename order. The original Ethiopic chapter label is retained alongside the numeric navigation order; verse markers are retained verbatim and are not renumbered. Counts describe captured page structure only.",
+  "transcription_note": "Text was parsed from the retained eBible.org HTML-only page capture. Ethiopic letters and source verse labels are preserved; HTML whitespace is normalized. Page navigation, copyright footer, and any separately parsed apparatus are excluded from verse bodies. This is a structural extraction, not a new translation or independent proofreading.",
+  "editorial_signs_note": "Publisher verse-marker strings and any parsed source notes are retained. No editorial sign is reinterpreted or silently removed from a verse body.",
+  "verification_status": "Structural extraction from the pinned eBible.org AMH2003 / amh capture: this menu entry links to 5 consecutive chapter pages; 68 nonempty verse spans retain their displayed Ethiopic labels; source page hashes are recorded. The standard book-code match to the EOTC list title is reviewed separately; this structural check does not validate translation accuracy, completeness against a printed edition, source language, or exact Church-edition identity.",
+  "source_ids": [
+    "SRC-196",
+    "SRC-197",
+    "SRC-198",
+    "SRC-341",
+    "SRC-342"
+  ],
+  "source_pages": "readers/source/amharic/amh-html-pages.zip; publisher pages index.htm, 1TH.htm, and 5 chapter pages; copyright.htm and copr.htm retained.",
+  "source_snapshot_url": "https://ebible.org/Scriptures/amh_html.zip",
+  "source_snapshot_sha256": "510484e9b6db7844b474ad8bf029c6c11a11b46dc9eeb1afc111659c8ca3d782",
+  "source_extract_sha256": "9242e36204af81cf8b250b90477dc200c32ff191ff62e85fd6f82286bd1b025f",
+  "source_index_hashes": {
+    "index.htm": "3ada4bad891392ff1bb1fb43d849e10cb2a7dcbc446e312bce4d9e8da44801d0",
+    "copyright.htm": "00116dec62afe27147cbecac2acedd017bb859c39fc97c4e7786bbaf10cf6674",
+    "copr.htm": "5845dc40e1f605219b888032566acaf6dfe51028d6602ae75caf7de8f7d23a17"
+  },
+  "source_page_hashes": [
+    {
+      "page": "1TH.htm",
+      "sha256": "a6ebfd4bf69834c87375e7d6cb459cafae48023f4e2e02bc75011fe35bb4bae9"
+    },
+    {
+      "page": "1TH01.htm",
+      "sha256": "011ac31dd299c07cf144309ed960409a40bc72c36f7c9bc00f9b380ba6dcb237"
+    },
+    {
+      "page": "1TH02.htm",
+      "sha256": "ff2623c04606bf4d3911a99b47c9a1e8ad12c1dfeac35b807cc8fb9ec9ce3a6d"
+    },
+    {
+      "page": "1TH03.htm",
+      "sha256": "8fca5c09964eca9c024bf18cf3a8e85a5fa17a32c9d8c3f7cad68249a4e46793"
+    },
+    {
+      "page": "1TH04.htm",
+      "sha256": "c4ae48460c030b0b4b1fc707e65f01c19d94209d94a855f271ca835913bd0e2b"
+    },
+    {
+      "page": "1TH05.htm",
+      "sha256": "cae10058a86eefa4ea9213120416969c364366a943290df9d00f561862605dc4"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "source_chapter_label": "፩",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ተሰሎንቄ ሰዎች ፩",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ጳውሎስና ስልዋኖስ ጢሞቴዎስም፥ በእግዚአብሔር አብ በጌታ በኢየሱስ ክርስቶስም ወደምትሆን ወደ ተሰሎንቄ ሰዎች ቤተ ክርስቲያን፤ ከእግዚአብሔር ከአባታችን ከጌታ ከኢየሱስ ክርስቶስም ጸጋ ሰላምም ለእናንተ ይሁን።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪-፬",
+          "source_element_id": "V2",
+          "text": "በእግዚአብሔር የምትወደዱ ወንድሞች ሆይ፥ እንደ ተመረጣችሁ አውቀናልና።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ወንጌላችን በኃይልና በመንፈስ ቅዱስ በብዙ መረዳትም እንጂ በቃል ብቻ ወደ እናንተ አልመጣምና፤ በእናንተ ዘንድ ስለ እናንተ እንዴት እንደ ነበርን ታውቃላችሁ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ደግሞ እናንተ ቃሉን በብዙ መከራ ከመንፈስ ቅዱስ ደስታ ጋር ተቀብላችሁ፥ እኛንና ጌታን የምትመስሉ ሆናችሁ፤",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ስለዚህም በመቄዶንያና በአካይያ ላሉት ምእመናን ሁሉ ምሳሌ ሆናችሁላቸው።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፰-፲",
+          "source_element_id": "V8",
+          "text": "ከእናንተ ወጥቶ የጌታ ቃል በመቄዶንያና በአካይያ ብቻ አልተሰማምና፥ ነገር ግን ምንም እንድንናገር እስከማያስፈልግ ድረስ፥ በእግዚአብሔር ዘንድ የሚሆን እምነታችሁ በሁሉ ስፍራ ተወርቶአል።",
+          "unit_order": 6
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 2,
+      "source_chapter_label": "፪",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ተሰሎንቄ ሰዎች ፪",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ወንድሞች ሆይ፥ ራሳችሁ ወደ እናንተ መግባታችን ከንቱ እንዳልሆነ ታውቃላችሁና።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ነገር ግን እንደምታውቁት በፊልጵስዩስ አስቀድመን መከራ ተቀብለን ተንገላትተንም፥ በብዙ ገድል የእግዚአብሔርን ወንጌል ለእናንተ እንናገር ዘንድ በአምላካችን ደፈርን።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ልመናችን ከስሕተት ወይም ከርኵሰት ወይም ከተንኰል አልነበረምና፤",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "ነገር ግን ወንጌልን አደራ ይሰጠን ዘንድ እግዚአብሔር የታመንን ሆነን እንዳገኘን መጠን፥ እንዲሁ እንናገራለን፥ ልባችንን የሚመረምር እግዚአብሔርን እንጂ ሰውን ደስ እንደምናሰኝ አይደለም።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "እንደምታውቁ፥ እያቈላመጥን ከቶ አልተናገርንም፥ እግዚአብሔርም እንደሚመሰክር እያመካኘን በመጐምጀት አልሠራንም፤",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "የክርስቶስም ሐዋርያት እንደ መሆናችን ልንከብድባችሁ ስንችል፥ ከእናንተ ቢሆን ወይም ከሌሎች ክብርን ከሰው አልፈለግንም።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ነገር ግን ሞግዚት የራስዋን ልጆች እንደምትከባከብ፥ በመካከላችሁ የዋሆች ሆንን፤",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "እንዲሁም እያፈቀርናችሁ የእግዚአብሔርን ወንጌል ለማካፈል ብቻ ሳይሆን የገዛ ነፍሳችንን ደግሞ እናካፍላችሁ ዘንድ በጎ ፈቃዳችን ነበረ፥ ለእኛ የተወደዳችሁ ሆናችሁ ነበርና።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ወንድሞች ሆይ፥ ድካማችንና ጥረታችን ትዝ ይላችኋልና፤ ከእናንተ በአንዱ ስንኳ እንዳንከብድበት ሌሊትና ቀን እየሠራን፥ የእግዚአብሔርን ወንጌል ለእናንተ ሰበክን።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "በእናንተ በምታምኑ ዘንድ በእንዴት ያለ ቅድስናና ጽድቅ ነቀፋም በሌለበት ኑሮ እንደ ሄድን፥ እናንተና እግዚአብሔር ምስክሮች ናችሁ፤",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩-፲፫",
+          "source_element_id": "V11",
+          "text": "ስለዚህም የመልእክትን ቃል እርሱም የእግዚአብሔር ቃል ከእኛ በተቀበላችሁ ጊዜ፥ በእውነት እንዳለ በእናንተ በምታምኑ ደግሞ እንደሚሠራ እንደ እግዚአብሔር ቃል እንጂ እንደ ሰው ቃል አድርጋችሁ ስላልተቀበላችሁት፥ እኛ ደግሞ እግዚአብሔርን ሳናቋርጥ እናመሰግናለን።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "እናንተ፥ ወንድሞች ሆይ፥ በይሁዳ የሚኖሩትን በክርስቶስ ኢየሱስ ያሉትን የእግዚአብሔርን ማኅበሮች የምትመስሉ ሆናችኋልና፤ እነርሱ ከአይሁድ መከራ እንደ ተቀበሉ፥ እናንተ ደግሞ ያንን መከራ ከአገራችሁ ሰዎች ተቀብላችኋልና።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "እነዚያም ጌታን ኢየሱስን ደግሞ ገደሉ ነቢያትንም እኛንም አሳደዱ፥ እግዚአብሔርንም ደስ አያሰኙም፥ ሰዎችንም ሁሉ ይቃወማሉ፥",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "ሁልጊዜ ኃጢአታቸውን ይፈጽሙ ዘንድ አሕዛብ እንዲድኑ እንዳንናገራቸው ይከለክሉናልና። ነገር ግን ቍጣው ወደ እነርሱ ፈጽሞ ደርሶአል።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "እኛ ግን፥ ወንድሞች ሆይ፥ በልብ ያይደለ ፊት ለፊት ለጥቂት ጊዜ አጥተናችሁ፥ በብዙ ናፍቆት ፊታችሁን ለማየት እጅግ ሞከርን፤",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "ወደ እናንተ ልንመጣ ወደን ነበርና፥ እኔ ጳውሎስም አንድና ሁለት ጊዜ፥ ሰይጣን ግን አዘገየን።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "ተስፋችን ወይስ ደስታችን ወይስ የትምክህታችን አክሊል ማን ነው? በጌታችን በኢየሱስ ፊት በመምጣቱ እናንተ አይደላችሁምን?",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "እናንተ ክብራችን ደስታችንም ናችሁና።",
+          "unit_order": 18
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 3,
+      "source_chapter_label": "፫",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ተሰሎንቄ ሰዎች ፫",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ስለዚህ ወደ ፊት እንታገሥ ዘንድ ባልተቻለን ጊዜ፥ በአቴና ብቻችንን ልንቀር በጎ ፈቃዳችን ሆነ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ስለ እምነታችሁም እንዲያጸናችሁና እንዲመክራችሁ ወንድማችንን የእግዚአብሔርንም አገልጋይ ከእኛ ጋርም አብሮ በክርስቶስ ወንጌል የሚሠራውን ጢሞቴዎስን ላክነው፤",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "በዚህ መከራ ማንም እንዳይናውጥ፥ ለዚህ እንደ ተመረጥን ራሳችሁ ታውቃላችሁና።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "በእውነት ከእናንተ ጋር ሳለን፥ መከራ እንቀበል ዘንድ እንዳለን አስቀድመን እንነግራችሁ ነበር፤ እንዲሁም ደግሞ ሆነ፥ ይህንም ታውቃላችሁ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ስለዚህ እኔ ደግሞ ወደ ፊት እታገሥ ዘንድ ባልተቻለኝ ጊዜ። ፈታኝ ምናልባት ፈትኖአቸዋል ድካማችንም ከንቱ ሆኖአል ብዬ እምነታችሁን ለማወቅ ላክሁ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "አሁን ግን ጢሞቴዎስ ከእናንተ ዘንድ ወደ እኛ መጥቶ ስለ እምነታችሁና ስለ ፍቅራችሁ የምስራች ብሎ በነገረን ጊዜ፥ እኛም እናያችሁ ዘንድ እንደምንናፍቅ ታዩን ዘንድ እየናፈቃችሁ ሁልጊዜ በመልካም እንደምታስቡን በነገረን ጊዜ፥",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ስለዚህ፥ ወንድሞች ሆይ፥ በእምነታችሁ በኩል በችግራችንና በመከራችን ሁሉ ስለ እናንተ ተጽናናን፤",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "እናንተ በጌታ ጸንታችሁ ብትቆሙ፥ አሁን በሕይወት እንኖራለንና።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱-፲፫",
+          "source_element_id": "V9",
+          "text": "አምላካችንና አባታችን ራሱ ጌታችንም ኢየሱስ ክርስቶስ ወደ እናንተ መንገዳችንን ያቅና፤",
+          "unit_order": 9
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 4,
+      "source_chapter_label": "፬",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ተሰሎንቄ ሰዎች ፬",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "እንግዲህ በቀረውስ፥ ወንድሞች ሆይ፥ ልትመላለሱ እግዚአብሔርንም ደስ ልታሰኙ እንዴት እንደሚገባችሁ ከእኛ ዘንድ እንደ ተቀበላችሁ፥ እናንተ ደግሞ እንደምትመላለሱ፥ ከፊት ይልቅ ትበዙ ዘንድ በጌታ በኢየሱስ እንለምናችኋለን እንመክራችሁማለን።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "በጌታ በኢየሱስ የትኛውን ትእዛዝ እንደ ሰጠናችሁ ታውቃላችሁና።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ይህ የእግዚአብሔር ፈቃድ እርሱም መቀደሳችሁ ነውና፤",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬-፮",
+          "source_element_id": "V4",
+          "text": "አስቀድመን ደግሞ እንዳልናችሁና እንደ መሰከርንላችሁ፥ ጌታ ስለዚህ ነገር ሁሉ የሚበቀል ነውና ማንም በዚህ ነገር አይተላለፍ ወንድሙንም አያታልል።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ለርኵሰት ሳይሆን እግዚአብሔር በቅድስና ጠርቶናልና።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "እንግዲህ የሚጥል ሰውን የጣለ አይደለም፥ መንፈስ ቅዱስን በእናንተ እንዲኖር የሰጠውን እግዚአብሔርን ነው እንጂ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "እናንተ ራሳችሁ እርስ በርሳችሁ ልትዋደዱ በእግዚአብሔር ተምራችኋልና ስለ ወንድማማች መዋደድ ማንም ይጽፍላችሁ ዘንድ አያስፈልጋችሁም፤",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፲-፲፫",
+          "source_element_id": "V10",
+          "text": "ነገር ግን፥ ወንድሞች ሆይ፥ ተስፋ እንደሌላቸው እንደ ሌሎች ደግሞ እንዳታዝኑ፥ አንቀላፍተው ስላሉቱ ታውቁ ዘንድ እንወዳለን።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ኢየሱስ እንደ ሞተና እንደ ተነሣ ካመንን፥ እንዲሁም በኢየሱስ ያንቀላፉቱን እግዚአብሔር ከእርሱ ጋር ያመጣቸዋልና።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "በጌታ ቃል የምንላችሁ ይህ ነውና፤ እኛ ሕያዋን ሆነን ጌታ እስኪመጣ ድረስ የምንቀር ያንቀላፉቱን አንቀድምም፤",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "ጌታ ራሱ በትእዛዝ በመላእክትም አለቃ ድምፅ በእግዚአብሔርም መለከት ከሰማይ ይወርዳልና፥ በክርስቶስም የሞቱ አስቀድመው ይነሣሉ፤",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ከዚያም በኋላ እኛ ሕያዋን ሆነን የምንቀረው፥ ጌታን በአየር ለመቀበል ከእነርሱ ጋር በደመና እንነጠቃለን፤ እንዲሁም ሁልጊዜ ከጌታ ጋር እንሆናለን።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "ስለዚህ እርስ በርሳችሁ በዚህ ቃል ተጽናኑ።",
+          "unit_order": 13
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 5,
+      "source_chapter_label": "፭",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ተሰሎንቄ ሰዎች ፭",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ወንድሞች ሆይ፥ ስለ ዘመናትና ስለ ወራት ምንም እንዲጻፍላችሁ አያስፈልጋችሁም፤",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "የጌታ ቀን፥ ሌባ በሌሊት እንደሚመጣ፥ እንዲሁ ይመጣ ዘንድ ራሳችሁ አጥብቃችሁ አውቃችኋልና።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ሰላምና ደኅንነት ነው ሲሉ ያን ጊዜ ምጥ እርጕዝን እንደሚይዛት ጥፋት በድንገት ይመጣባቸዋል ከቶም አያመልጡም።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "እናንተ ግን፥ ወንድሞች ሆይ፥ ቀኑ እንደ ሌባ ይደርስባችሁ ዘንድ በጨለማ አይደላችሁም፥",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ሁላችሁ የብርሃን ልጆች የቀንም ልጆች ናችሁና። እኛ ከሌሊት ወይም ከጨለማ አይደለንም፤",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "እንግዲያስ እንንቃ በመጠንም እንኑር እንጂ እንደ ሌሎች አናንቀላፋ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "የሚያንቀላፉ በሌሊት ያንቀላፋሉና፥ የሚሰክሩም በሌሊት ይሰክራሉና፤",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "እኛ ግን ከቀን ስለ ሆንን፥ የእምነትንና የፍቅርን ጥሩር የመዳንንም ተስፋ እንደ ራስ ቁር እየለበስን በመጠን እንኑር፤",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "እግዚአብሔር ለቍጣ አልመረጠንምና፥ በጌታችን በኢየሱስ ክርስቶስ መዳንን ለማግኘት ነው እንጂ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "የምንነቃም ብንሆን፥ የምናንቀላፋም ብንሆን፥ ከእርሱ ጋር አብረን በሕይወት እንኖር ዘንድ ስለ እኛ ሞተ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ስለዚህ እናንተ ደግሞ እንደምታደርጉ፥ እርስ በርሳችሁ ተመካከሩ አንዱም አንዱም ሌላውን ያንጸው።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪-፲፬",
+          "source_element_id": "V12",
+          "text": "ወንድሞች ሆይ፥ እንመክራችኋለን፤ ያለ ሥርዓት የሚሄዱትን ገሥጹአቸው፤ ድፍረት የሌላቸውን አጽኑአቸው፤ ለደካሞች ትጉላቸው፤ ሰውን ሁሉ ታገሡ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "ማንም ለሌላው በክፉ ፈንታ ክፉ እንዳይመልስ ተጠንቀቁ፥ ነገር ግን ሁልጊዜ እርስ በርሳችሁ ለሁሉም መልካሙን ለማድረግ ትጉ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "ሁልጊዜ ደስ ይበላችሁ፤",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፯-፲፱",
+          "source_element_id": "V17",
+          "text": "መንፈስን አታጥፉ፤",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፳-፳፪",
+          "source_element_id": "V18",
+          "text": "ከማናቸውም ዓይነት ክፉ ነገር ራቁ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "የሰላምም አምላክ ራሱ ሁለንተናችሁን ይቀድስ፤ መንፈሳችሁም ነፍሳችሁም ሥጋችሁም ጌታችን ኢየሱስ ክርስቶስ በመጣ ጊዜ ያለ ነቀፋ ፈጽመው ይጠበቁ።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "የሚጠራችሁ የታመነ ነው፥ እርሱም ደግሞ ያደርገዋል።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "ወንድሞች ሆይ፥ ስለ እኛ ጸልዩ።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "ከወንድሞች ሁሉ ጋር በተቀደሰ አሳሳም ሰላምታ ተሰጣጡ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "ይህ መልእክት ለቅዱሳን ወንድሞች ሁሉ እንዲነበብ በጌታ አምላችኋለሁ።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "የጌታችን የኢየሱስ ክርስቶስ ጸጋ ከእናንተ ጋር ይሁን፤ አሜን።",
+          "unit_order": 22
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "rights_status": "Reuse of this bundled reader is limited to the stated permission; no open or broader license is inferred. Item-specific notice: Copyright © 1962, 2003 United Bible Societies. Language: አማርኛ (Amharic). Amharic NT. Revised Amharic Bible in XML (2003). Printed version by United Bible Societies (© 1962). E-text in transliterated ASCII format by Lapsley/Brooks Foundation (1994). Unicode UTF-8 transformation and XML-tagging by Dirk Röckmann (2003; www.nt-text.net). With kind permission of the Bible Society of Ethiopia. Every non-commercial work using this data in any form must fully include this copyright statement. Every commercial use of parts or the complete data in any form needs written permission of the Bible Society of Ethiopia. Copyright page dated 2014-09-09. Commercial-use and other-use boundary: The source page permits use in non-commercial works only when the complete copyright statement is included with every such work. Commercial use of any part or all of the data requires written permission from the Bible Society of Ethiopia. This is permission-limited reuse, not an open license or a general public-domain claim."
+}

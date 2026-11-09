@@ -1,0 +1,220 @@
+import hashlib
+import json
+import re
+import unittest
+from pathlib import Path
+import xml.etree.ElementTree as ET
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+class OfflineBundleTests(unittest.TestCase):
+    def test_index_embeds_the_complete_local_archive_object(self):
+        html = (ROOT / "index.html").read_text(encoding="utf-8")
+        matches = re.findall(r'<script\s+id="archive-data"\s+type="application/json">(.*?)</script>', html, re.DOTALL)
+        self.assertEqual(len(matches), 1)
+        embedded = json.loads(matches[0])
+        archive = json.loads((ROOT / "archive.json").read_text(encoding="utf-8"))
+        self.assertEqual(embedded, archive)
+        self.assertEqual(sum(bool(reader.get("canon_id")) for reader in embedded["readers"]), 11)
+        research_count = len(embedded["translation_registry"]["research_corpora"])
+        self.assertEqual(sum(bool(reader.get("research_corpus_id")) for reader in embedded["readers"]), research_count)
+        for reader in embedded["readers"]:
+            with self.subTest(reader=reader["reader_id"]):
+                self.assertTrue(reader.get("chapters"))
+                actual_units = 0
+                for chapter in reader["chapters"]:
+                    units = chapter.get("units", chapter.get("verses", []))
+                    self.assertTrue(units)
+                    for unit in units:
+                        if unit.get("text"):
+                            continue
+                        self.assertEqual(unit.get("source_text_state"), "marker_only")
+                        self.assertTrue(any(note.get("verse") == unit.get("number") and note.get("text")
+                                            for note in chapter.get("notes", [])))
+                    actual_units += len(units)
+                self.assertEqual(reader.get("unit_count"), actual_units)
+                if reader.get("research_corpus_id"):
+                    self.assertIsNone(reader.get("canon_id"))
+                    self.assertIn("not counted as an EOTC canon reader", reader["verification_status"])
+                companion = reader.get("parallel_translation")
+                if companion:
+                    companion_units = sum(len(chapter.get("verses", [])) for chapter in companion["chapters"])
+                    self.assertEqual(companion.get("unit_count"), companion_units)
+
+    def test_reader_and_rights_documentation_matches_current_metadata(self):
+        archive = json.loads((ROOT / "archive.json").read_text(encoding="utf-8"))
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        rights = (ROOT / "CONTENT-LICENSES.md").read_text(encoding="utf-8")
+        canon_count = sum(bool(reader.get("canon_id")) for reader in archive["readers"])
+        research_count = sum(bool(reader.get("research_corpus_id")) for reader in archive["readers"])
+        self.assertIn(
+            f"all {len(archive['readers'])} reader records ({canon_count} canon-linked and {research_count} research-only)",
+            readme,
+        )
+        self.assertIn("Geʽez (`gez`), identified by the enclosing TEI text edition", rights)
+        self.assertIn('The root-level `xml:lang="en"` default is retained as a metadata conflict.', rights)
+        self.assertNotIn("Language unresolved (`und`)", rights)
+        self.assertIn("node tests/test_service_worker.js", readme)
+        self.assertIn("local source builders do not fetch source content over the network", readme)
+
+    def test_mark_research_reader_preserves_unlabeled_lines_without_canon_count(self):
+        archive = json.loads((ROOT / "archive.json").read_text(encoding="utf-8"))
+        reader = next(item for item in archive["readers"] if item["reader_id"] == "mark-betamasaheft-tei-research")
+        corpus = next(item for item in archive["translation_registry"]["research_corpora"] if item["reader_id"] == reader["reader_id"])
+        units = [unit for chapter in reader["chapters"] for unit in chapter["units"]]
+        self.assertEqual((len(reader["chapters"]), len(units)), (16, 765))
+        self.assertEqual(sum(unit["source_marker"] is not None for unit in units), 678)
+        self.assertEqual(sum(unit["source_marker"] is None for unit in units), 87)
+        self.assertEqual(reader["language_tag"], "gez")
+        self.assertEqual(reader["language_assignment_status"], "source_declared_inherited_edition_xml_lang")
+        self.assertIn("The root value is retained as a metadata conflict", reader["edition_scope"])
+        self.assertEqual(reader["script_code"], "Ethi")
+        self.assertEqual(reader["unit_count"], 765)
+        self.assertIn("not verified scripture", reader["verification_status"].casefold())
+        self.assertIn("SRC-176", reader["source_ids"])
+        audit = json.loads((ROOT / "readers" / "source" / "mark" / "structure-audit.json").read_text(encoding="utf-8"))
+        self.assertEqual(audit["language_context"]["root_default_xml_lang"], "en")
+        self.assertEqual(audit["language_context"]["edition_scope_xml_lang"], "gez")
+        self.assertEqual(audit["language_context"]["chapter_divisions_in_scope"], 16)
+        self.assertEqual(audit["language_context"]["line_elements_in_scope"], 765)
+        self.assertTrue(audit["language_context"]["all_body_chapters_and_lines_inherit_edition_language"])
+        portable = json.loads((ROOT / "examples" / "portable-text-layers.json").read_text(encoding="utf-8"))
+        layer = next(item for item in portable["records"] if item["record_id"].endswith("/layer/mark-betamasaheft-tei-research"))
+        self.assertEqual((layer["language_tag"], layer["script_code"], layer["basis_path"]), ("gez", "Ethi", ["gez"]))
+        self.assertEqual((layer["coverage"]["extent_state"], layer["coverage"]["unit_count"]), ("unknown", 765))
+        self.assertIn("completeness of the intended printed work is unknown", layer["coverage"]["structure_description"])
+        self.assertEqual(layer["text_origin"], "source_transcription")
+        self.assertEqual(layer["publication_state"], "bundled")
+        self.assertEqual(corpus["canon_mapping_state"], "uncertain")
+        self.assertIsNone(reader.get("canon_id"))
+        self.assertEqual(corpus["license_id"], "CC-BY-SA-4.0")
+        self.assertEqual(corpus["license_url"], "https://creativecommons.org/licenses/by-sa/4.0/")
+        self.assertIn("explicitly declared on the enclosing TEI text edition", corpus["language_description"])
+        self.assertEqual(archive["canon_registry"]["reader_count"], 11)
+        self.assertIn(f"{len(archive['translation_registry']['research_corpora'])} separately scoped related research readers;", archive["translation_registry"]["coverage_statement"])
+        self.assertIn("not linked to or counted as Church-list book coverage", archive["translation_registry"]["coverage_statement"])
+
+    def test_wisdom_ed2_reader_matches_pinned_tei_and_stays_outside_canon_coverage(self):
+        archive = json.loads((ROOT / "archive.json").read_text(encoding="utf-8"))
+        reader = next(item for item in archive["readers"] if item["reader_id"] == "wisdom-solomon-betamasaheft-tei-research")
+        corpus = next(item for item in archive["translation_registry"]["research_corpora"] if item["reader_id"] == reader["reader_id"])
+        source_path = ROOT / "readers" / "source" / "wisdom-of-solomon-LIT2516Wisdom-ed2-only.xml"
+        raw = source_path.read_bytes()
+        self.assertEqual(hashlib.sha256(raw).hexdigest(), reader["source_extract_sha256"])
+        self.assertEqual(reader["source_snapshot_sha256"], "c2e15da4893ba597bbf6afee3fb5ddbeac44c02a317a0b4384b4c2624cea5747")
+        source = ET.fromstring(raw)
+        ns = {"tei": "http://www.tei-c.org/ns/1.0"}
+        xml = "{http://www.w3.org/XML/1998/namespace}"
+        edition = next(element for element in source.iter() if element.get(xml + "id") == "ed2")
+        self.assertFalse(any(element.get(xml + "id") == "ed1" for element in source.iter()))
+        chapters = edition.findall("tei:div[@type='textpart'][@subtype='chapter']", ns)
+        self.assertEqual([item.get("n") for item in chapters], [str(i) for i in range(1, 20)])
+        self.assertEqual(len(chapters), len(reader["chapters"]))
+        for original_chapter, extracted_chapter in zip(chapters, reader["chapters"], strict=True):
+            self.assertEqual(extracted_chapter["source_chapter_label"], original_chapter.get("n"))
+            source_label = original_chapter.find("tei:label", ns)
+            expected_heading = " ".join("".join(source_label.itertext()).split()) if source_label is not None else ""
+            self.assertEqual(extracted_chapter.get("heading", []), [expected_heading] if expected_heading else [])
+            source_lines = original_chapter.findall(".//tei:l", ns)
+            self.assertEqual(len(source_lines), len(extracted_chapter["units"]))
+            for original, extracted in zip(source_lines, extracted_chapter["units"], strict=True):
+                self.assertEqual(extracted["text"], " ".join("".join(original.itertext()).split()))
+                self.assertEqual(extracted["source_marker"], original.get("n"))
+        all_units = [unit for chapter in reader["chapters"] for unit in chapter["units"]]
+        self.assertEqual((reader["chapter_count"], len(all_units)), (19, 463))
+        self.assertEqual(reader["language_tag"], "gez")
+        self.assertEqual(reader["script_code"], "Ethi")
+        self.assertEqual(reader["rights_classification"], corpus["rights_classification"])
+        self.assertEqual(corpus["license_id"], "CC-BY-SA-4.0")
+        self.assertEqual(corpus["candidate_canon_id"], "eotc-ot-26")
+        self.assertEqual(corpus["canon_mapping_state"], "uncertain")
+        self.assertIsNone(reader.get("canon_id"))
+        self.assertIn("not counted as an EOTC canon reader", reader["verification_status"])
+        self.assertIn("completeness", reader["verification_status"].casefold())
+        self.assertIn("excluded from canon-linked coverage", corpus["canon_mapping_note"])
+
+    def test_brenton_job_is_a_separate_published_translation_research_reader(self):
+        archive = json.loads((ROOT / "archive.json").read_text(encoding="utf-8"))
+        reader = next(item for item in archive["readers"] if item["reader_id"] == "job-brenton-lxx-1851-research")
+        corpus = next(item for item in archive["translation_registry"]["research_corpora"] if item["reader_id"] == reader["reader_id"])
+        labels = [verse for chapter in reader["chapters"] for verse in chapter["verses"]]
+        continuations = [segment for chapter in reader["chapters"] for verse in chapter["verses"] for segment in verse.get("continuations", [])]
+        self.assertEqual((len(reader["chapters"]), len(labels), len(continuations)), (42, 1082, 2))
+        self.assertEqual(reader["text_origin"], "published_translation")
+        self.assertEqual((reader["basis_language_tag"], reader["language_tag"], reader["translation_path"]), ("grc", "en", ["grc", "en"]))
+        self.assertIsNone(reader.get("canon_id"))
+        self.assertEqual(corpus["canon_mapping_state"], "uncertain")
+        self.assertIn("not counted as an EOTC canon reader", reader["verification_status"])
+        self.assertIn("SRC-143", reader["source_ids"])
+
+    def test_mark_research_view_matches_each_retained_tei_line_and_chapter_label(self):
+        archive = json.loads((ROOT / "archive.json").read_text(encoding="utf-8"))
+        reader = next(item for item in archive["readers"] if item["reader_id"] == "mark-betamasaheft-tei-research")
+        source = ET.parse(ROOT / "readers" / "source" / "mark" / "LIT2711Mark-original.xml").getroot()
+        ns = {"tei": "http://www.tei-c.org/ns/1.0"}
+        body = source.find(".//tei:body", ns)
+        divisions = body.findall(".//tei:div[@subtype='chapter']", ns)
+        self.assertEqual(len(divisions), len(reader["chapters"]))
+        for division, chapter in zip(divisions, reader["chapters"], strict=True):
+            self.assertEqual(chapter["source_chapter_label"], division.get("n"))
+            source_label = division.find("tei:label", ns)
+            expected_heading = " ".join("".join(source_label.itertext()).split()) if source_label is not None else ""
+            self.assertEqual(chapter.get("heading", []), [expected_heading] if expected_heading else [])
+            source_lines = division.findall(".//tei:l", ns)
+            self.assertEqual(len(source_lines), len(chapter["units"]))
+            for original, extracted in zip(source_lines, chapter["units"], strict=True):
+                expected_text = " ".join("".join(original.itertext()).split())
+                self.assertEqual(extracted["text"], expected_text)
+                self.assertEqual(extracted["source_marker"], original.get("n"))
+                self.assertEqual(extracted["source_refs"], [node.get("target") for node in original.findall(".//tei:ref", ns) if node.get("target")])
+
+    def test_service_worker_caches_the_offline_page_and_fallback(self):
+        service_worker = (ROOT / "sw.js").read_text(encoding="utf-8")
+        self.assertIn("'index.html'", service_worker)
+        self.assertIn("'reader-package.js'", service_worker)
+        self.assertIn("'schemas/reader-package.schema.json'", service_worker)
+        self.assertIn("cache.addAll(APP_FILES)", service_worker)
+        self.assertIn("cache.match(new URL('index.html', SITE_BASE).href)", service_worker)
+        self.assertIn("request.mode === 'navigate'", service_worker)
+        self.assertRegex(
+            service_worker,
+            r"cache\.match\(new URL\('index\.html', SITE_BASE\)\.href\)\)\s*\|\|\s*response",
+        )
+
+    def test_reader_code_never_fetches_text_at_runtime(self):
+        app = (ROOT / "app.js").read_text(encoding="utf-8")
+        self.assertNotRegex(app, r"\bfetch\s*\(|\bXMLHttpRequest\b|\bWebSocket\b")
+        self.assertIn("Related research texts · not canon coverage", app)
+        self.assertIn("Open this research reader", app)
+        self.assertIn("not counted as Church-list book coverage", app)
+        self.assertIn("No canon-linked reader is bundled for this catalogue title", app)
+        self.assertIn("source label absent", app)
+        self.assertIn("Source notes and cross-references", app)
+        self.assertIn("its source note is retained below", app)
+
+    def test_source_builders_use_retained_inputs_without_network_fetches(self):
+        source_files = sorted(
+            path
+            for pattern in ("build_*.py", "audit_*.py", "integrate_*.py")
+            for path in ROOT.glob(pattern)
+        )
+        self.assertTrue(source_files)
+        forbidden_network_calls = r"\b(?:urlopen|urlretrieve|requests\.(?:get|post|put)|httpx\.(?:get|post)|urllib\.request|curl|wget)\b"
+        for path in source_files:
+            with self.subTest(builder=path.name):
+                self.assertNotRegex(path.read_text(encoding="utf-8"), forbidden_network_calls)
+
+    def test_selected_reader_export_is_local_and_has_a_downloadable_schema(self):
+        html = (ROOT / "index.html").read_text(encoding="utf-8")
+        app = (ROOT / "app.js").read_text(encoding="utf-8")
+        schema = json.loads((ROOT / "schemas" / "reader-package.schema.json").read_text(encoding="utf-8"))
+        self.assertIn('id="reader-download"', html)
+        self.assertIn('href="schemas/reader-package.schema.json"', html)
+        self.assertIn("window.ReaderPackage.createReaderPackage", app)
+        self.assertNotRegex(app, r"\bfetch\s*\(")
+        self.assertEqual(schema["$schema"], "https://json-schema.org/draft/2020-12/schema")
+
+
+if __name__ == "__main__":
+    unittest.main()

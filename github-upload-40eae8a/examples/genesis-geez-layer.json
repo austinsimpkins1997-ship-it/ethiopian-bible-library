@@ -1,0 +1,140 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/genesis-geez-dillmann-hacohen",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/genesis-eotc",
+  "labels": [
+    {
+      "value": "Genesis — Geʽez reader",
+      "language_tag": "en",
+      "label_type": "preferred"
+    },
+    {
+      "value": "ኦሪት ፡ ዘልደት ።",
+      "language_tag": "gez",
+      "label_type": "original_form"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-01",
+      "mapping_state": "asserted_by_source",
+      "evidence_source_ids": [
+        "SRC-029"
+      ],
+      "notes": "The Church's English canon list names Genesis. This historical edition is not claimed to be the current official printed edition."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/genesis-dillmann-1853-1855",
+    "witness_type": "printed_edition",
+    "title": "August Dillmann (ed.), Veteris Testamenti Aethiopici Tomus Primus, sive Octateuchus Aethiopicus",
+    "date_statement": "1853–1855",
+    "repository_or_publisher": "Leipzig edition; digital transcription by Ran HaCohen",
+    "shelfmark_or_edition_id": null,
+    "editorial_policy": "Historical critical edition transcription; Dillmann's critical apparatus is not included in the digitized text.",
+    "source_ids": [
+      "SRC-034",
+      "SRC-035",
+      "SRC-036"
+    ]
+  },
+  "layer_type": "source_text_transcription",
+  "language_tag": "gez",
+  "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+  "script_code": "Ethi",
+  "basis_path": [
+    "gez"
+  ],
+  "agents": [
+    {
+      "role": "editor",
+      "name": "August Dillmann",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-034",
+        "SRC-035"
+      ]
+    },
+    {
+      "role": "digitizer",
+      "name": "Ran HaCohen",
+      "authority_or_affiliation": "University of Tel Aviv",
+      "source_ids": [
+        "SRC-036"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/genesis-geez.json",
+    "media_type": "application/json",
+    "sha256": "5648d6dcf49fc5f880fa314f6105f28faaa8306dc7b806505adebd1581fa0b4c",
+    "format_version": "1"
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 1526,
+    "structure_description": "50 source chapters; linked verse markers follow the edition's Septuagint numbering.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "Printed round parentheses, square brackets, and paired asterisks are retained as signs described by the digitizer; the full critical apparatus is absent.",
+    "numbering_policy": "Preserve published labels, including discontinuities; no renumbering or cross-witness equivalence is implied."
+  },
+  "rights": {
+    "status": "permission_limited",
+    "statement": "Noncommercial copy and distribution only with the copyright notice and permission notice accompanying every copy; other uses require contacting the rights holder.",
+    "license_id": null,
+    "rights_holder": "Ran HaCohen",
+    "attribution_required": true,
+    "territory_or_term_limits": "Commercial rights are not granted by the cited notice.",
+    "evidence_source_ids": [
+      "SRC-036"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "Captured digital menu and chapter pages, chapters 1–50, checked in order.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-034",
+        "SRC-035"
+      ],
+      "notes": "Confirms local capture inventory and sequence, not manuscript completeness.",
+      "review_method": "automated_validation",
+      "review_process": "Archive build validation"
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "No fresh collation against Dillmann's print edition or manuscript witnesses.",
+      "reviewer": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-036"
+      ],
+      "notes": "The digitizer reports OCR and proofreading and warns that transcription errors may remain.",
+      "review_method": "unknown",
+      "review_process": null
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "Permission notice for noncommercial reuse of the digitized transcription.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-036"
+      ],
+      "notes": "This is not a grant of commercial rights.",
+      "review_method": "unknown",
+      "review_process": null
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "This example describes the Geʽez layer only. Brenton's English Septuagint companion is a separate translation layer with its own witness, basis path, and rights.",
+  "text_origin": "source_transcription"
+}

@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "source_graph": "examples/archive-graph-registered-layers.json",
+  "layer_count": 768,
+  "review_event_count": 1907,
+  "layers_with_review_events": 768,
+  "events_with_named_reviewer": 0,
+  "translation_traceability": {
+    "translation_layer_count": 745,
+    "basis_path_counts": {
+      "documented": 51,
+      "unknown": 694
+    },
+    "language_script_counts": [
+      {
+        "language_tag": "alw",
+        "script_code": "Ethi",
+        "layer_count": 27,
+        "translation_layer_count": 27,
+        "translations_with_documented_basis": 0,
+        "translations_with_unknown_basis": 27
+      },
+      {
+        "language_tag": "am",
+        "script_code": "Ethi",
+        "layer_count": 27,
+        "translation_layer_count": 27,
+        "translations_with_documented_basis": 0,
+        "translations_with_unknown_basis": 27
+      },
+      {
+        "language_tag": "arb",
+        "script_code": "Arab",
+        "layer_count": 66,
+        "translation_layer_count": 66,
+        "translations_with_documented_basis": 0,
+        "translations_with_unknown_basis": 66
+      },
+      {
+        "language_tag": "bsw",
+        "script_code": "Ethi",
+        "layer_count": 27,
+        "translation_layer_count": 27,
+        "translations_with_documented_basis": 0,
+        "translations_with_unknown_basis": 27
+      },
+      {
+        "language_tag": "bsw",
+        "script_code": "Latn",
+        "layer_count": 16,
+        "translation_layer_count": 16,
+        "translations_with_documented_basis": 0,
+        "translations_with_unknown_basis": 16
+      },
+      {
+        "language_tag": "dwr",
+        "script_code": "Latn",
+        "layer_count": 66,
+        "translation_layer_count": 66,
+        "translations_with_documented_basis": 0,
+        "translations_with_unknown_basis": 66
+      },
+      {
+        "language_tag": "en",
+        "script_code": "Latn",
+        "layer_count": 132,
+        "translation_layer_count": 132,
+        "translations_with_documented_basis": 51,
+        "translations_with_unknown_basis": 81
+      },
+      {
+        "language_tag": "gaz",
+        "script_code": "Latn",
+        "layer_count": 66,
+        "translation_layer_count": 66,
+        "translations_with_documented_basis": 0,
+        "translations_with_unknown_basis": 66
+      },
+      {
+        "language_tag": "gez",
+        "script_code": "Ethi",
+        "layer_count": 23,
+        "translation_layer_count": 0,
+        "translations_with_documented_basis": 0,
+        "translations_with_unknown_basis": 0
+      },
+      {
+        "language_tag": "gmv",
+        "script_code": "Ethi",
+        "layer_count": 66,
+        "translation_layer_count": 66,
+        "translations_with_documented_basis": 0,
+        "translations_with_unknown_basis": 66
+      },
+      {
+        "language_tag": "jnj",
+        "script_code": "Ethi",
+        "layer_count": 27,
+        "translation_layer_count": 27,
+        "translations_with_documented_basis": 0,
+        "translations_with_unknown_basis": 27
+      },
+      {
+        "language_tag": "ln",
+        "script_code": "Latn",
+        "layer_count": 66,
+        "translation_layer_count": 66,
+        "translations_with_documented_basis": 0,
+        "translations_with_unknown_basis": 66
+      },
+      {
+        "language_tag": "mdy",
+        "script_code": "Ethi",
+        "layer_count": 66,
+        "translation_layer_count": 66,
+        "translations_with_documented_basis": 0,
+        "translations_with_unknown_basis": 66
+      },
+      {
+        "language_tag": "oyd",
+        "script_code": "Ethi",
+        "layer_count": 27,
+        "translation_layer_count": 27,
+        "translations_with_documented_basis": 0,
+        "translations_with_unknown_basis": 27
+      },
+      {
+        "language_tag": "so",
+        "script_code": "Latn",
+        "layer_count": 66,
+        "translation_layer_count": 66,
+        "translations_with_documented_basis": 0,
+        "translations_with_unknown_basis": 66
+      }
+    ],
+    "interpretation_limit": "A documented path records what this archive's cited metadata says; it does not independently verify that path or translation accuracy. An unknown path is not inferred from the output language."
+  },
+  "interpretation_limits": [
+    "Counts describe recorded review-event rows, not unique books or independent reviews; a layer may have several events.",
+    "checked_with_limits describes only the scope recorded in that event. It does not establish completeness, accuracy, canon identity, or universal agreement.",
+    "unknown and not_checked are preserved as recorded; missing evidence is not treated as a successful review.",
+    "A missing reviewer name means the record does not identify a reviewer; it does not prove that no person contributed."
+  ],
+  "dimensions": [
+    {
+      "dimension": "alignment",
+      "event_count": 1,
+      "distinct_layer_count": 1,
+      "state_counts": {
+        "not_checked": 1
+      },
+      "method_counts": {
+        "unknown": 1
+      },
+      "events_with_named_reviewer": 0
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "event_count": 99,
+      "distinct_layer_count": 99,
+      "state_counts": {
+        "checked_with_limits": 99
+      },
+      "method_counts": {
+        "automated_validation": 99
+      },
+      "events_with_named_reviewer": 0
+    },
+    {
+      "dimension": "completeness",
+      "event_count": 68,
+      "distinct_layer_count": 68,
+      "state_counts": {
+        "checked_with_limits": 1,
+        "unknown": 67
+      },
+      "method_counts": {
+        "automated_validation": 1,
+        "unknown": 67
+      },
+      "events_with_named_reviewer": 0
+    },
+    {
+      "dimension": "identity",
+      "event_count": 98,
+      "distinct_layer_count": 98,
+      "state_counts": {
+        "checked_with_limits": 98
+      },
+      "method_counts": {
+        "combined_source_and_automated_validation": 12,
+        "source_inspection": 86
+      },
+      "events_with_named_reviewer": 0
+    },
+    {
+      "dimension": "language_identification",
+      "event_count": 66,
+      "distinct_layer_count": 66,
+      "state_counts": {
+        "checked_with_limits": 66
+      },
+      "method_counts": {
+        "source_inspection": 66
+      },
+      "events_with_named_reviewer": 0
+    },
+    {
+      "dimension": "rights",
+      "event_count": 99,
+      "distinct_layer_count": 99,
+      "state_counts": {
+        "checked_with_limits": 99
+      },
+      "method_counts": {
+        "source_inspection": 88,
+        "unknown": 11
+      },
+      "events_with_named_reviewer": 0
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "event_count": 19,
+      "distinct_layer_count": 19,
+      "state_counts": {
+        "unknown": 19
+      },
+      "method_counts": {
+        "unknown": 19
+      },
+      "events_with_named_reviewer": 0
+    },
+    {
+      "dimension": "translation_accuracy",
+      "event_count": 708,
+      "distinct_layer_count": 708,
+      "state_counts": {
+        "unknown": 708
+      },
+      "method_counts": {
+        "source_inspection": 628,
+        "unknown": 80
+      },
+      "events_with_named_reviewer": 0
+    },
+    {
+      "dimension": "unit_boundaries",
+      "event_count": 749,
+      "distinct_layer_count": 749,
+      "state_counts": {
+        "checked_with_limits": 749
+      },
+      "method_counts": {
+        "automated_validation": 749
+      },
+      "events_with_named_reviewer": 0
+    }
+  ]
+}

@@ -1,0 +1,1548 @@
+{
+  "record_type": "source_capture_manifest",
+  "source_edition": "World English Bible British Edition with Deuterocanon (WEBBE), 2020 stable text edition per eBible.org",
+  "reviewed_at": "2026-10-26",
+  "retrieval_url": "https://ebible.org/Scriptures/eng-webbe_usfm.zip",
+  "official_edition_page": "https://ebible.org/find/show.php?id=eng-webbe",
+  "official_rights_notice": "https://ebible.org/eng-webbe/copyright.htm",
+  "official_translation_context": "https://ebible.org/eng-web/webfaq.htm",
+  "package_file": "eng-webbe_usfm.zip",
+  "package_byte_length": 3268424,
+  "package_sha256": "54ec9e6b277c95c20ac173927fa7a976f37d86f0c0a54f132ba9f6666d93b6f6",
+  "package_integrity": {
+    "zip_crc_check": "passed",
+    "co_distributed_signed_hash_list": "all listed ordinary members match the signed SHA-256 values",
+    "signature_verification": "GnuPG reported a good signature from the bundled key for World English Bible editors; key fingerprint 54D714D76956DA6673DC1EEA5F62009D93505F26. The key is co-distributed in the same ZIP; its identity and authority were not independently authenticated. GPG reported trust undefined.",
+    "signature_algorithm_observed": "DSA/SHA-1",
+    "package_sha256_is_pinned_by_builder": true
+  },
+  "inventory_summary": {
+    "zip_members": 87,
+    "scripture_modules": 81,
+    "publisher_prefaces": 1,
+    "publisher_glossaries": 1,
+    "other_support_files": 4,
+    "canonical_scope": "eBible.org module inventory only; not an Ethiopian Orthodox Tewahedo or Eritrean Orthodox canon list",
+    "distinct_daniel_modules": [
+      "DAN",
+      "DAG"
+    ]
+  },
+  "member_inventory": [
+    {
+      "path": "00-FRTeng-webbe.usfm",
+      "byte_length": 9466,
+      "sha256": "f33dd5c7f9d04e3a04a651014ac539ce42244dfd185b763a8e49512be806eff2",
+      "role": "publisher_preface",
+      "source_book_code": "FRT"
+    },
+    {
+      "path": "02-GENeng-webbe.usfm",
+      "byte_length": 885251,
+      "sha256": "e8a921b8877aee8b95531bc57ea031c087aee0f12ac6c2319ab401db7e91ee56",
+      "role": "scripture_module",
+      "source_book_code": "GEN"
+    },
+    {
+      "path": "03-EXOeng-webbe.usfm",
+      "byte_length": 773663,
+      "sha256": "1c32f8cc054920708bfbb05e2a5743ec1ee75bbdac6e6c8fe670196b389cd91c",
+      "role": "scripture_module",
+      "source_book_code": "EXO"
+    },
+    {
+      "path": "04-LEVeng-webbe.usfm",
+      "byte_length": 585980,
+      "sha256": "902c871299184de527be2961faa7f31832e6dc6649419237e1dd64216366d451",
+      "role": "scripture_module",
+      "source_book_code": "LEV"
+    },
+    {
+      "path": "05-NUMeng-webbe.usfm",
+      "byte_length": 780367,
+      "sha256": "85f5b8d005f70161cc749e180597c00d6e203bbbf15c8cef714c8e3fb1615ea7",
+      "role": "scripture_module",
+      "source_book_code": "NUM"
+    },
+    {
+      "path": "06-DEUeng-webbe.usfm",
+      "byte_length": 682167,
+      "sha256": "7e0e7d3b2e66a42f2c161cfc05b642629dfd714d80052d0da85d5f4934c8e3b8",
+      "role": "scripture_module",
+      "source_book_code": "DEU"
+    },
+    {
+      "path": "07-JOSeng-webbe.usfm",
+      "byte_length": 454111,
+      "sha256": "5bfe2df5fce7d6e1e28505ee2f65a370a98e9c0e917dc8f760b35ba4255f15a8",
+      "role": "scripture_module",
+      "source_book_code": "JOS"
+    },
+    {
+      "path": "08-JDGeng-webbe.usfm",
+      "byte_length": 451001,
+      "sha256": "f92db35c39f6282db521114aa154a6c8ef5cbbbc4f118e904e2cdb4024bb8cdf",
+      "role": "scripture_module",
+      "source_book_code": "JDG"
+    },
+    {
+      "path": "09-RUTeng-webbe.usfm",
+      "byte_length": 61486,
+      "sha256": "a3e580d18ce864d500e87f0f53082e842d37df238739ce1b3af02a34f81c298c",
+      "role": "scripture_module",
+      "source_book_code": "RUT"
+    },
+    {
+      "path": "10-1SAeng-webbe.usfm",
+      "byte_length": 593515,
+      "sha256": "0ea3fe410b0f3541a5501293e07c75b2861cdd9688db4c7cbbfad08d0cb4c8a8",
+      "role": "scripture_module",
+      "source_book_code": "1SA"
+    },
+    {
+      "path": "106-GLOeng-webbe.usfm",
+      "byte_length": 19020,
+      "sha256": "8b1dc8193d744264690bc9739926cf06bf3b2b17e218860f59a87048f769d34f",
+      "role": "publisher_glossary",
+      "source_book_code": "GLO"
+    },
+    {
+      "path": "11-2SAeng-webbe.usfm",
+      "byte_length": 482711,
+      "sha256": "9d2360cbb55f40abf03cf6efb12ab610dee6f6b08c5f5465e2a12ca8abc6bfcc",
+      "role": "scripture_module",
+      "source_book_code": "2SA"
+    },
+    {
+      "path": "12-1KIeng-webbe.usfm",
+      "byte_length": 572120,
+      "sha256": "7f99e6088fd6e3ccfd46c670c353e79c3dacd37bf9e0772c68e96ccb187c0d76",
+      "role": "scripture_module",
+      "source_book_code": "1KI"
+    },
+    {
+      "path": "13-2KIeng-webbe.usfm",
+      "byte_length": 558613,
+      "sha256": "7ebed1bb1c9e2709e46e569f72287ddb6af9e54615a73537dc2f1c8ec1fb2b49",
+      "role": "scripture_module",
+      "source_book_code": "2KI"
+    },
+    {
+      "path": "14-1CHeng-webbe.usfm",
+      "byte_length": 470490,
+      "sha256": "b70e3a5ad66387b02265f14cd7c0e6bc4646c4953d68fb2465653d77d78c9828",
+      "role": "scripture_module",
+      "source_book_code": "1CH"
+    },
+    {
+      "path": "15-2CHeng-webbe.usfm",
+      "byte_length": 626391,
+      "sha256": "004607528140bce2da1017d7c8040f7a2a0eac3c6722c9054c497eba7000eec7",
+      "role": "scripture_module",
+      "source_book_code": "2CH"
+    },
+    {
+      "path": "16-EZReng-webbe.usfm",
+      "byte_length": 170689,
+      "sha256": "8369a477963b4f4ed58fb00043a6d6e56c573dc170eea40ee43510a62b1da98b",
+      "role": "scripture_module",
+      "source_book_code": "EZR"
+    },
+    {
+      "path": "17-NEHeng-webbe.usfm",
+      "byte_length": 236643,
+      "sha256": "73a54acd8de9454f571db6fd1abba079d50f7bcb7b69d8a75f3f770fc36add78",
+      "role": "scripture_module",
+      "source_book_code": "NEH"
+    },
+    {
+      "path": "18-ESTeng-webbe.usfm",
+      "byte_length": 138430,
+      "sha256": "fd493cb4bd8b943bfb08d06214218b19df5e61376fbc188f1486ffffdc30d08c",
+      "role": "scripture_module",
+      "source_book_code": "EST"
+    },
+    {
+      "path": "19-JOBeng-webbe.usfm",
+      "byte_length": 434746,
+      "sha256": "072d4ce875d8e528db89092887c3a3960c7758a6ad075ca4d5938897466f2f15",
+      "role": "scripture_module",
+      "source_book_code": "JOB"
+    },
+    {
+      "path": "20-PSAeng-webbe.usfm",
+      "byte_length": 943186,
+      "sha256": "2edb59798f33bda578ee9cdb31024ad87a97e8fdacce58980387d8867e4dde94",
+      "role": "scripture_module",
+      "source_book_code": "PSA"
+    },
+    {
+      "path": "21-PROeng-webbe.usfm",
+      "byte_length": 361649,
+      "sha256": "28784fea233196b7b4a0e80a3d1f430ff3db4eb5be6cded5bd6cf94ce78cce4c",
+      "role": "scripture_module",
+      "source_book_code": "PRO"
+    },
+    {
+      "path": "22-ECCeng-webbe.usfm",
+      "byte_length": 135623,
+      "sha256": "65fd206776b7dc7295e7667b463045fd70e42020902a0044232afb193f38ed08",
+      "role": "scripture_module",
+      "source_book_code": "ECC"
+    },
+    {
+      "path": "23-SNGeng-webbe.usfm",
+      "byte_length": 61704,
+      "sha256": "4d5873d3d070d8de12ba0aca3fc1945f05dc44334a192b2b102eaf3519275d13",
+      "role": "scripture_module",
+      "source_book_code": "SNG"
+    },
+    {
+      "path": "24-ISAeng-webbe.usfm",
+      "byte_length": 904948,
+      "sha256": "2540f080875d55b32ccc9f5781b29729e2699f3774e6a16ed7f51e004d8388a2",
+      "role": "scripture_module",
+      "source_book_code": "ISA"
+    },
+    {
+      "path": "25-JEReng-webbe.usfm",
+      "byte_length": 1054878,
+      "sha256": "34af61f116003a8ae3bfc2c5e481ea824d3824dcbd1f4e49ee15d39d7bffa020",
+      "role": "scripture_module",
+      "source_book_code": "JER"
+    },
+    {
+      "path": "26-LAMeng-webbe.usfm",
+      "byte_length": 87793,
+      "sha256": "5cba0b68b698675e209ba32c8daa473989938ccb4e91da0906f2d96a15faa03c",
+      "role": "scripture_module",
+      "source_book_code": "LAM"
+    },
+    {
+      "path": "27-EZKeng-webbe.usfm",
+      "byte_length": 950513,
+      "sha256": "ce28e08203536fe4c2d00817a7e7e6ccddaaa99f4e869e2636882fee8c8c54f4",
+      "role": "scripture_module",
+      "source_book_code": "EZK"
+    },
+    {
+      "path": "28-DANeng-webbe.usfm",
+      "byte_length": 263062,
+      "sha256": "364eeb83659854964548c8524754eba9efd521b844bfbfb68a067a009b48098e",
+      "role": "scripture_module",
+      "source_book_code": "DAN"
+    },
+    {
+      "path": "29-HOSeng-webbe.usfm",
+      "byte_length": 119555,
+      "sha256": "3ead1d174ddfac537e0b8afa80e6302dc492bb9b38ed0846b1f8ac30c878240d",
+      "role": "scripture_module",
+      "source_book_code": "HOS"
+    },
+    {
+      "path": "30-JOLeng-webbe.usfm",
+      "byte_length": 40179,
+      "sha256": "a2ba87f60d9659fe097160640ed183a09f678800697837c30ef5891d82e136b4",
+      "role": "scripture_module",
+      "source_book_code": "JOL"
+    },
+    {
+      "path": "31-AMOeng-webbe.usfm",
+      "byte_length": 103117,
+      "sha256": "705a094b9269431618213a95b8a59324c3ec62afa0d7c437f2195a0740cf0eab",
+      "role": "scripture_module",
+      "source_book_code": "AMO"
+    },
+    {
+      "path": "32-OBAeng-webbe.usfm",
+      "byte_length": 15848,
+      "sha256": "7674309ad2c317b2e18c3380b88a586d662420f76dd543af654a5b6b1ccf9a4d",
+      "role": "scripture_module",
+      "source_book_code": "OBA"
+    },
+    {
+      "path": "33-JONeng-webbe.usfm",
+      "byte_length": 30751,
+      "sha256": "98d427bdef25808c68472594ca54420963c93d4784d46adbd6f5ac6012d0b977",
+      "role": "scripture_module",
+      "source_book_code": "JON"
+    },
+    {
+      "path": "34-MICeng-webbe.usfm",
+      "byte_length": 74920,
+      "sha256": "9508f2dca14e70d414eab954d92bd52339e51dec19758ded9b6ebec01ac59d73",
+      "role": "scripture_module",
+      "source_book_code": "MIC"
+    },
+    {
+      "path": "35-NAMeng-webbe.usfm",
+      "byte_length": 27344,
+      "sha256": "1ed8f0ec8740902e09504ca2c80e70b142eec8ec665052701223a194a9215bfc",
+      "role": "scripture_module",
+      "source_book_code": "NAM"
+    },
+    {
+      "path": "36-HABeng-webbe.usfm",
+      "byte_length": 34781,
+      "sha256": "94a8c55cd52c2c05ab9ef8d62ee8af20ad77858ba0eceefa0089a1eed6fd0536",
+      "role": "scripture_module",
+      "source_book_code": "HAB"
+    },
+    {
+      "path": "37-ZEPeng-webbe.usfm",
+      "byte_length": 39954,
+      "sha256": "cfb606b64efb3fd28dfeca8faa83694f14b6bdfed3cfbe856ad3daf88d83d255",
+      "role": "scripture_module",
+      "source_book_code": "ZEP"
+    },
+    {
+      "path": "38-HAGeng-webbe.usfm",
+      "byte_length": 27299,
+      "sha256": "84583cd641f5ac679d6a175f08a2495614c603752462b77aab4d7db461f658ec",
+      "role": "scripture_module",
+      "source_book_code": "HAG"
+    },
+    {
+      "path": "39-ZECeng-webbe.usfm",
+      "byte_length": 151371,
+      "sha256": "9897427aa68ee262eb70bc78c7027db47439a3df82ccba374ff2a420674368ff",
+      "role": "scripture_module",
+      "source_book_code": "ZEC"
+    },
+    {
+      "path": "40-MALeng-webbe.usfm",
+      "byte_length": 40066,
+      "sha256": "5d9df0886d94fb0ebe8f7e12da4bcf381cbe1876a1a6568729cb247d2c0c512f",
+      "role": "scripture_module",
+      "source_book_code": "MAL"
+    },
+    {
+      "path": "41-TOBeng-webbe.usfm",
+      "byte_length": 39060,
+      "sha256": "f4759b2f8685e78ff900384027a301b762ea3cc018182844cf36380090a3fbe8",
+      "role": "scripture_module",
+      "source_book_code": "TOB"
+    },
+    {
+      "path": "42-JDTeng-webbe.usfm",
+      "byte_length": 62548,
+      "sha256": "ff6553796800189b2dfb78e7dd106c5beedb9a3dc23e9b89db02ecc78430067a",
+      "role": "scripture_module",
+      "source_book_code": "JDT"
+    },
+    {
+      "path": "43-ESGeng-webbe.usfm",
+      "byte_length": 43951,
+      "sha256": "30c2031469d6d764a837328c829b574bd463d302a795880b2f0e0e57d772773e",
+      "role": "scripture_module",
+      "source_book_code": "ESG"
+    },
+    {
+      "path": "45-WISeng-webbe.usfm",
+      "byte_length": 69748,
+      "sha256": "e88d2d8465b8f75e83c3f0ba5847d5e03e92597a74cfb95e8add7fb44d3c205b",
+      "role": "scripture_module",
+      "source_book_code": "WIS"
+    },
+    {
+      "path": "46-SIReng-webbe.usfm",
+      "byte_length": 178662,
+      "sha256": "c1ba0971b2a8fb400036ce796c547f1a1ff01746d4ae3edb806b3ce0f6165c53",
+      "role": "scripture_module",
+      "source_book_code": "SIR"
+    },
+    {
+      "path": "47-BAReng-webbe.usfm",
+      "byte_length": 28714,
+      "sha256": "664f148c919b64d4eba1b45b4a99c707cb9b200b3567337c4c253a9a60c1e62e",
+      "role": "scripture_module",
+      "source_book_code": "BAR"
+    },
+    {
+      "path": "52-1MAeng-webbe.usfm",
+      "byte_length": 135424,
+      "sha256": "f9565813b7afd8d34e2b7e7003d4a005a000d18bd9c4ef8b07999c3fc8663a90",
+      "role": "scripture_module",
+      "source_book_code": "1MA"
+    },
+    {
+      "path": "53-2MAeng-webbe.usfm",
+      "byte_length": 108004,
+      "sha256": "71e5c2630f64f8c59af641b9d19f36696249954a4d6e423793682df79b6c1f7d",
+      "role": "scripture_module",
+      "source_book_code": "2MA"
+    },
+    {
+      "path": "54-1ESeng-webbe.usfm",
+      "byte_length": 73281,
+      "sha256": "3a448191d254aa1f7500465ca5a7c8ae8dbf6d0caa63f7e17a52bea76f6c52d6",
+      "role": "scripture_module",
+      "source_book_code": "1ES"
+    },
+    {
+      "path": "55-MANeng-webbe.usfm",
+      "byte_length": 3120,
+      "sha256": "139f5f8440b6cb997366f491bc7bc1c9ca70260e1a313a3504820ef3fc4d31fb",
+      "role": "scripture_module",
+      "source_book_code": "MAN"
+    },
+    {
+      "path": "56-PS2eng-webbe.usfm",
+      "byte_length": 1074,
+      "sha256": "d083462e4773c28cedb812c7998e95347901ef3912bd7e380625dec662ea260a",
+      "role": "scripture_module",
+      "source_book_code": "PS2"
+    },
+    {
+      "path": "57-3MAeng-webbe.usfm",
+      "byte_length": 40647,
+      "sha256": "c61c2c58e692c6f79991c572e86c9da55106f0f967455e900979ac63975df54e",
+      "role": "scripture_module",
+      "source_book_code": "3MA"
+    },
+    {
+      "path": "58-2ESeng-webbe.usfm",
+      "byte_length": 131078,
+      "sha256": "4ff3eef77953970aa88b19bb1fc5a4d71cc74295b526d1b389717d5708680ddd",
+      "role": "scripture_module",
+      "source_book_code": "2ES"
+    },
+    {
+      "path": "59-4MAeng-webbe.usfm",
+      "byte_length": 62550,
+      "sha256": "6a1d3c5c146359b07d7e9557b707291c37bb4475cf60627831906dbc95c79acf",
+      "role": "scripture_module",
+      "source_book_code": "4MA"
+    },
+    {
+      "path": "66-DAGeng-webbe.usfm",
+      "byte_length": 88806,
+      "sha256": "283acc84300c82d3ddfafe3acc86ddf2d23f4d40cafe533f0be03223c65e6cb8",
+      "role": "scripture_module",
+      "source_book_code": "DAG"
+    },
+    {
+      "path": "70-MATeng-webbe.usfm",
+      "byte_length": 620651,
+      "sha256": "aed5bf5254cf3bb88ff01cbf43dc4c74141bd9889e55b1c2691765140465f5dc",
+      "role": "scripture_module",
+      "source_book_code": "MAT"
+    },
+    {
+      "path": "71-MRKeng-webbe.usfm",
+      "byte_length": 378472,
+      "sha256": "f9a1aa26dcd19d730b9161561c4966706807fe7bf2e648885a5eba208e0f0d61",
+      "role": "scripture_module",
+      "source_book_code": "MRK"
+    },
+    {
+      "path": "72-LUKeng-webbe.usfm",
+      "byte_length": 650916,
+      "sha256": "ee76d9c483f293dd089305e8609b3fa7d3f99f57a49ef3c1a916473dc98028a9",
+      "role": "scripture_module",
+      "source_book_code": "LUK"
+    },
+    {
+      "path": "73-JHNeng-webbe.usfm",
+      "byte_length": 504701,
+      "sha256": "85159e082f4af8b215e68a797b8622c505a9b5e0a2c69c062088a31bf02d2079",
+      "role": "scripture_module",
+      "source_book_code": "JHN"
+    },
+    {
+      "path": "74-ACTeng-webbe.usfm",
+      "byte_length": 593763,
+      "sha256": "fa11f0e142d51fe658e76a1d2a3a14221dd78b052bd3d36a012e0d9219bf48b1",
+      "role": "scripture_module",
+      "source_book_code": "ACT"
+    },
+    {
+      "path": "75-ROMeng-webbe.usfm",
+      "byte_length": 241768,
+      "sha256": "053eeec4f0f6a4179d1f8626e291077c9da246a364cdea9ed9f865d9eb85ad85",
+      "role": "scripture_module",
+      "source_book_code": "ROM"
+    },
+    {
+      "path": "76-1COeng-webbe.usfm",
+      "byte_length": 237595,
+      "sha256": "db2c9ffcb342e42ae18d78774fa96916c56129f7e2d8c597d95f3695ec133e95",
+      "role": "scripture_module",
+      "source_book_code": "1CO"
+    },
+    {
+      "path": "77-2COeng-webbe.usfm",
+      "byte_length": 154399,
+      "sha256": "0d924f5d9539b883f70034953d344c0c568ae548f7bfb3cc19a524203810eb72",
+      "role": "scripture_module",
+      "source_book_code": "2CO"
+    },
+    {
+      "path": "78-GALeng-webbe.usfm",
+      "byte_length": 80002,
+      "sha256": "c97e7f8c0e30e3afb37684688746a153b115583e9d3aa76db94d844b18bf5604",
+      "role": "scripture_module",
+      "source_book_code": "GAL"
+    },
+    {
+      "path": "79-EPHeng-webbe.usfm",
+      "byte_length": 78562,
+      "sha256": "f0da5ebe6b062cab62478345def376c7d15d1c9806af60c7249c7d6d7146a99f",
+      "role": "scripture_module",
+      "source_book_code": "EPH"
+    },
+    {
+      "path": "80-PHPeng-webbe.usfm",
+      "byte_length": 56551,
+      "sha256": "6d16f2f3e554608affd71d9bdc44fe516491c99dda00657fb58eca693af3311f",
+      "role": "scripture_module",
+      "source_book_code": "PHP"
+    },
+    {
+      "path": "81-COLeng-webbe.usfm",
+      "byte_length": 50774,
+      "sha256": "a347e2911b489d03a8c335c1929870146f22c881e48cd034f7bf3e7d79aada2c",
+      "role": "scripture_module",
+      "source_book_code": "COL"
+    },
+    {
+      "path": "82-1THeng-webbe.usfm",
+      "byte_length": 46764,
+      "sha256": "a8ec28cd38b25eccb5066b442b92efee19819a2322bb8b350e2e7b84638010ae",
+      "role": "scripture_module",
+      "source_book_code": "1TH"
+    },
+    {
+      "path": "83-2THeng-webbe.usfm",
+      "byte_length": 26367,
+      "sha256": "8cd86d64000ac10fc250ed614a3700a9582c892e5eab4e0c0d81ffed7dd70d71",
+      "role": "scripture_module",
+      "source_book_code": "2TH"
+    },
+    {
+      "path": "84-1TIeng-webbe.usfm",
+      "byte_length": 57564,
+      "sha256": "7f322eb36389665b212b794a64bcd8f00b7cbe6a125b24d9b71ca1163abbba5b",
+      "role": "scripture_module",
+      "source_book_code": "1TI"
+    },
+    {
+      "path": "85-2TIeng-webbe.usfm",
+      "byte_length": 40756,
+      "sha256": "ad25a0b16a046ebfde0f65261999057a577bcd90fb8f755f4aa398b43948fb00",
+      "role": "scripture_module",
+      "source_book_code": "2TI"
+    },
+    {
+      "path": "86-TITeng-webbe.usfm",
+      "byte_length": 23110,
+      "sha256": "f63d128ef1b7d58c1d0ff50e1d336a246e5d0b517738d8f4ca19a5b480a13edf",
+      "role": "scripture_module",
+      "source_book_code": "TIT"
+    },
+    {
+      "path": "87-PHMeng-webbe.usfm",
+      "byte_length": 11348,
+      "sha256": "555b09c9685b9784bad0fe11f6079e1bb5a88b10c5151102aea9cf35c5d56054",
+      "role": "scripture_module",
+      "source_book_code": "PHM"
+    },
+    {
+      "path": "88-HEBeng-webbe.usfm",
+      "byte_length": 176296,
+      "sha256": "9d8ce1b86a9ca9917f2dba82676225350f8eb7bed7aa60e76b4dfbcc92ab75fd",
+      "role": "scripture_module",
+      "source_book_code": "HEB"
+    },
+    {
+      "path": "89-JASeng-webbe.usfm",
+      "byte_length": 57648,
+      "sha256": "b0b88cf526224f1d9f90cf428efa694504af3c41bb23a264d2148e28ba10d6c8",
+      "role": "scripture_module",
+      "source_book_code": "JAS"
+    },
+    {
+      "path": "90-1PEeng-webbe.usfm",
+      "byte_length": 61460,
+      "sha256": "315bcdb38087c15d1941ebbe38a4c7de03336072db340fde3a35ffc0fff468b4",
+      "role": "scripture_module",
+      "source_book_code": "1PE"
+    },
+    {
+      "path": "91-2PEeng-webbe.usfm",
+      "byte_length": 38264,
+      "sha256": "9cbaa1e1b61a07e0ad9b5f496c1020d3e4a9794304b8c6aa9a2e83bc80bffc8d",
+      "role": "scripture_module",
+      "source_book_code": "2PE"
+    },
+    {
+      "path": "92-1JNeng-webbe.usfm",
+      "byte_length": 62236,
+      "sha256": "5a707409e340ae98ddddca8e4b01e017e8d03fca2397c91e651d02a8f5177339",
+      "role": "scripture_module",
+      "source_book_code": "1JN"
+    },
+    {
+      "path": "93-2JNeng-webbe.usfm",
+      "byte_length": 7608,
+      "sha256": "ac69a4de9c81ea79aab265ad72cfb01bd8224eddaf1b1cc50380734fb0eefb60",
+      "role": "scripture_module",
+      "source_book_code": "2JN"
+    },
+    {
+      "path": "94-3JNeng-webbe.usfm",
+      "byte_length": 7362,
+      "sha256": "f3a2c9306cdac7c81624230484b629a2d88239838381e71045e45f7c11c84c0b",
+      "role": "scripture_module",
+      "source_book_code": "3JN"
+    },
+    {
+      "path": "95-JUDeng-webbe.usfm",
+      "byte_length": 15185,
+      "sha256": "14c9748715c509c278c5c71b7f589ac43845c695358533b13bf3ae8336df0f25",
+      "role": "scripture_module",
+      "source_book_code": "JUD"
+    },
+    {
+      "path": "96-REVeng-webbe.usfm",
+      "byte_length": 296915,
+      "sha256": "7dc993b6bd91df79ea54a7eac1df3dbb467620d898fd5b24810b555233768055",
+      "role": "scripture_module",
+      "source_book_code": "REV"
+    },
+    {
+      "path": "copr.htm",
+      "byte_length": 3364,
+      "sha256": "d5967e819448926df8479deabb7e3fa748949b8ed90e97d9672317f6d913170d",
+      "role": "publisher_support_file",
+      "source_book_code": null
+    },
+    {
+      "path": "keys.asc",
+      "byte_length": 21585,
+      "sha256": "8659487be35d9a79b8bb41eb68db1e96e9a1933792f683b88e0de50cd3841942",
+      "role": "publisher_support_file",
+      "source_book_code": null
+    },
+    {
+      "path": "signature.txt.asc",
+      "byte_length": 8608,
+      "sha256": "48edef74c554b50255ca924eead10a030f62c1e8e52947aeaad19a2d23e45089",
+      "role": "publisher_support_file",
+      "source_book_code": null
+    },
+    {
+      "path": "gentiumplus.css",
+      "byte_length": 11501,
+      "sha256": "3adda15bba40a70bc8f5513c5e12eff4d4a99994e67277b4ebbb4fa2bc0433f6",
+      "role": "publisher_support_file",
+      "source_book_code": null
+    }
+  ],
+  "limitations": [
+    "The signed bytes and source member hashes establish integrity relative to the bundled key, not independent key identity or translation accuracy.",
+    "The WEBBE reader extracts visible text and selected structure from publisher USFM. Original USFM is retained unchanged in the ZIP.",
+    "Reader normalization strips USFM word/alignment formatting and normalizes whitespace; publisher-added words marked with USFM \\add are bracketed in the display extraction. The normalized extraction is not presented as the official signed WEBBE text.",
+    "The publisher's Deuterocanon/Apocrypha scope is a different tradition-specific list. No EOTC/Eritrean canon crosswalk is assigned to these readers.",
+    "The preface and glossary remain in the source ZIP and are inventoried as non-scripture material, not counted as scripture modules."
+  ],
+  "reader_inventory": [
+    {
+      "code": "GEN",
+      "title": "Genesis",
+      "name": "02-GENeng-webbe.usfm",
+      "chapter_count": 50,
+      "unit_count": 1533,
+      "reader_id": "webbe-2020-gen-research",
+      "research_corpus_id": "webbe-2020-gen",
+      "verse_label_count": 1533,
+      "member_sha256": "e8a921b8877aee8b95531bc57ea031c087aee0f12ac6c2319ab401db7e91ee56"
+    },
+    {
+      "code": "EXO",
+      "title": "Exodus",
+      "name": "03-EXOeng-webbe.usfm",
+      "chapter_count": 40,
+      "unit_count": 1213,
+      "reader_id": "webbe-2020-exo-research",
+      "research_corpus_id": "webbe-2020-exo",
+      "verse_label_count": 1213,
+      "member_sha256": "1c32f8cc054920708bfbb05e2a5743ec1ee75bbdac6e6c8fe670196b389cd91c"
+    },
+    {
+      "code": "LEV",
+      "title": "Leviticus",
+      "name": "04-LEVeng-webbe.usfm",
+      "chapter_count": 27,
+      "unit_count": 859,
+      "reader_id": "webbe-2020-lev-research",
+      "research_corpus_id": "webbe-2020-lev",
+      "verse_label_count": 859,
+      "member_sha256": "902c871299184de527be2961faa7f31832e6dc6649419237e1dd64216366d451"
+    },
+    {
+      "code": "NUM",
+      "title": "Numbers",
+      "name": "05-NUMeng-webbe.usfm",
+      "chapter_count": 36,
+      "unit_count": 1288,
+      "reader_id": "webbe-2020-num-research",
+      "research_corpus_id": "webbe-2020-num",
+      "verse_label_count": 1288,
+      "member_sha256": "85f5b8d005f70161cc749e180597c00d6e203bbbf15c8cef714c8e3fb1615ea7"
+    },
+    {
+      "code": "DEU",
+      "title": "Deuteronomy",
+      "name": "06-DEUeng-webbe.usfm",
+      "chapter_count": 34,
+      "unit_count": 959,
+      "reader_id": "webbe-2020-deu-research",
+      "research_corpus_id": "webbe-2020-deu",
+      "verse_label_count": 959,
+      "member_sha256": "7e0e7d3b2e66a42f2c161cfc05b642629dfd714d80052d0da85d5f4934c8e3b8"
+    },
+    {
+      "code": "JOS",
+      "title": "Joshua",
+      "name": "07-JOSeng-webbe.usfm",
+      "chapter_count": 24,
+      "unit_count": 658,
+      "reader_id": "webbe-2020-jos-research",
+      "research_corpus_id": "webbe-2020-jos",
+      "verse_label_count": 658,
+      "member_sha256": "5bfe2df5fce7d6e1e28505ee2f65a370a98e9c0e917dc8f760b35ba4255f15a8"
+    },
+    {
+      "code": "JDG",
+      "title": "Judges",
+      "name": "08-JDGeng-webbe.usfm",
+      "chapter_count": 21,
+      "unit_count": 618,
+      "reader_id": "webbe-2020-jdg-research",
+      "research_corpus_id": "webbe-2020-jdg",
+      "verse_label_count": 618,
+      "member_sha256": "f92db35c39f6282db521114aa154a6c8ef5cbbbc4f118e904e2cdb4024bb8cdf"
+    },
+    {
+      "code": "RUT",
+      "title": "Ruth",
+      "name": "09-RUTeng-webbe.usfm",
+      "chapter_count": 4,
+      "unit_count": 85,
+      "reader_id": "webbe-2020-rut-research",
+      "research_corpus_id": "webbe-2020-rut",
+      "verse_label_count": 85,
+      "member_sha256": "a3e580d18ce864d500e87f0f53082e842d37df238739ce1b3af02a34f81c298c"
+    },
+    {
+      "code": "1SA",
+      "title": "1 Samuel",
+      "name": "10-1SAeng-webbe.usfm",
+      "chapter_count": 31,
+      "unit_count": 810,
+      "reader_id": "webbe-2020-1sa-research",
+      "research_corpus_id": "webbe-2020-1sa",
+      "verse_label_count": 810,
+      "member_sha256": "0ea3fe410b0f3541a5501293e07c75b2861cdd9688db4c7cbbfad08d0cb4c8a8"
+    },
+    {
+      "code": "2SA",
+      "title": "2 Samuel",
+      "name": "11-2SAeng-webbe.usfm",
+      "chapter_count": 24,
+      "unit_count": 695,
+      "reader_id": "webbe-2020-2sa-research",
+      "research_corpus_id": "webbe-2020-2sa",
+      "verse_label_count": 695,
+      "member_sha256": "9d2360cbb55f40abf03cf6efb12ab610dee6f6b08c5f5465e2a12ca8abc6bfcc"
+    },
+    {
+      "code": "1KI",
+      "title": "1 Kings",
+      "name": "12-1KIeng-webbe.usfm",
+      "chapter_count": 22,
+      "unit_count": 816,
+      "reader_id": "webbe-2020-1ki-research",
+      "research_corpus_id": "webbe-2020-1ki",
+      "verse_label_count": 816,
+      "member_sha256": "7f99e6088fd6e3ccfd46c670c353e79c3dacd37bf9e0772c68e96ccb187c0d76"
+    },
+    {
+      "code": "2KI",
+      "title": "2 Kings",
+      "name": "13-2KIeng-webbe.usfm",
+      "chapter_count": 25,
+      "unit_count": 719,
+      "reader_id": "webbe-2020-2ki-research",
+      "research_corpus_id": "webbe-2020-2ki",
+      "verse_label_count": 719,
+      "member_sha256": "7ebed1bb1c9e2709e46e569f72287ddb6af9e54615a73537dc2f1c8ec1fb2b49"
+    },
+    {
+      "code": "1CH",
+      "title": "1 Chronicles",
+      "name": "14-1CHeng-webbe.usfm",
+      "chapter_count": 29,
+      "unit_count": 942,
+      "reader_id": "webbe-2020-1ch-research",
+      "research_corpus_id": "webbe-2020-1ch",
+      "verse_label_count": 942,
+      "member_sha256": "b70e3a5ad66387b02265f14cd7c0e6bc4646c4953d68fb2465653d77d78c9828"
+    },
+    {
+      "code": "2CH",
+      "title": "2 Chronicles",
+      "name": "15-2CHeng-webbe.usfm",
+      "chapter_count": 36,
+      "unit_count": 822,
+      "reader_id": "webbe-2020-2ch-research",
+      "research_corpus_id": "webbe-2020-2ch",
+      "verse_label_count": 822,
+      "member_sha256": "004607528140bce2da1017d7c8040f7a2a0eac3c6722c9054c497eba7000eec7"
+    },
+    {
+      "code": "EZR",
+      "title": "Ezra",
+      "name": "16-EZReng-webbe.usfm",
+      "chapter_count": 10,
+      "unit_count": 280,
+      "reader_id": "webbe-2020-ezr-research",
+      "research_corpus_id": "webbe-2020-ezr",
+      "verse_label_count": 280,
+      "member_sha256": "8369a477963b4f4ed58fb00043a6d6e56c573dc170eea40ee43510a62b1da98b"
+    },
+    {
+      "code": "NEH",
+      "title": "Nehemiah",
+      "name": "17-NEHeng-webbe.usfm",
+      "chapter_count": 13,
+      "unit_count": 406,
+      "reader_id": "webbe-2020-neh-research",
+      "research_corpus_id": "webbe-2020-neh",
+      "verse_label_count": 406,
+      "member_sha256": "73a54acd8de9454f571db6fd1abba079d50f7bcb7b69d8a75f3f770fc36add78"
+    },
+    {
+      "code": "EST",
+      "title": "Esther",
+      "name": "18-ESTeng-webbe.usfm",
+      "chapter_count": 10,
+      "unit_count": 167,
+      "reader_id": "webbe-2020-est-research",
+      "research_corpus_id": "webbe-2020-est",
+      "verse_label_count": 167,
+      "member_sha256": "fd493cb4bd8b943bfb08d06214218b19df5e61376fbc188f1486ffffdc30d08c"
+    },
+    {
+      "code": "JOB",
+      "title": "Job",
+      "name": "19-JOBeng-webbe.usfm",
+      "chapter_count": 42,
+      "unit_count": 1070,
+      "reader_id": "webbe-2020-job-research",
+      "research_corpus_id": "webbe-2020-job",
+      "verse_label_count": 1070,
+      "member_sha256": "072d4ce875d8e528db89092887c3a3960c7758a6ad075ca4d5938897466f2f15"
+    },
+    {
+      "code": "PSA",
+      "title": "Psalms",
+      "name": "20-PSAeng-webbe.usfm",
+      "chapter_count": 150,
+      "unit_count": 2461,
+      "reader_id": "webbe-2020-psa-research",
+      "research_corpus_id": "webbe-2020-psa",
+      "verse_label_count": 2461,
+      "member_sha256": "2edb59798f33bda578ee9cdb31024ad87a97e8fdacce58980387d8867e4dde94"
+    },
+    {
+      "code": "PRO",
+      "title": "Proverbs",
+      "name": "21-PROeng-webbe.usfm",
+      "chapter_count": 31,
+      "unit_count": 915,
+      "reader_id": "webbe-2020-pro-research",
+      "research_corpus_id": "webbe-2020-pro",
+      "verse_label_count": 915,
+      "member_sha256": "28784fea233196b7b4a0e80a3d1f430ff3db4eb5be6cded5bd6cf94ce78cce4c"
+    },
+    {
+      "code": "ECC",
+      "title": "Ecclesiastes",
+      "name": "22-ECCeng-webbe.usfm",
+      "chapter_count": 12,
+      "unit_count": 222,
+      "reader_id": "webbe-2020-ecc-research",
+      "research_corpus_id": "webbe-2020-ecc",
+      "verse_label_count": 222,
+      "member_sha256": "65fd206776b7dc7295e7667b463045fd70e42020902a0044232afb193f38ed08"
+    },
+    {
+      "code": "SNG",
+      "title": "Song of Solomon",
+      "name": "23-SNGeng-webbe.usfm",
+      "chapter_count": 8,
+      "unit_count": 117,
+      "reader_id": "webbe-2020-sng-research",
+      "research_corpus_id": "webbe-2020-sng",
+      "verse_label_count": 117,
+      "member_sha256": "4d5873d3d070d8de12ba0aca3fc1945f05dc44334a192b2b102eaf3519275d13"
+    },
+    {
+      "code": "ISA",
+      "title": "Isaiah",
+      "name": "24-ISAeng-webbe.usfm",
+      "chapter_count": 66,
+      "unit_count": 1292,
+      "reader_id": "webbe-2020-isa-research",
+      "research_corpus_id": "webbe-2020-isa",
+      "verse_label_count": 1292,
+      "member_sha256": "2540f080875d55b32ccc9f5781b29729e2699f3774e6a16ed7f51e004d8388a2"
+    },
+    {
+      "code": "JER",
+      "title": "Jeremiah",
+      "name": "25-JEReng-webbe.usfm",
+      "chapter_count": 52,
+      "unit_count": 1364,
+      "reader_id": "webbe-2020-jer-research",
+      "research_corpus_id": "webbe-2020-jer",
+      "verse_label_count": 1364,
+      "member_sha256": "34af61f116003a8ae3bfc2c5e481ea824d3824dcbd1f4e49ee15d39d7bffa020"
+    },
+    {
+      "code": "LAM",
+      "title": "Lamentations",
+      "name": "26-LAMeng-webbe.usfm",
+      "chapter_count": 5,
+      "unit_count": 154,
+      "reader_id": "webbe-2020-lam-research",
+      "research_corpus_id": "webbe-2020-lam",
+      "verse_label_count": 154,
+      "member_sha256": "5cba0b68b698675e209ba32c8daa473989938ccb4e91da0906f2d96a15faa03c"
+    },
+    {
+      "code": "EZK",
+      "title": "Ezekiel",
+      "name": "27-EZKeng-webbe.usfm",
+      "chapter_count": 48,
+      "unit_count": 1273,
+      "reader_id": "webbe-2020-ezk-research",
+      "research_corpus_id": "webbe-2020-ezk",
+      "verse_label_count": 1273,
+      "member_sha256": "ce28e08203536fe4c2d00817a7e7e6ccddaaa99f4e869e2636882fee8c8c54f4"
+    },
+    {
+      "code": "DAN",
+      "title": "Daniel",
+      "name": "28-DANeng-webbe.usfm",
+      "chapter_count": 12,
+      "unit_count": 357,
+      "reader_id": "webbe-2020-dan-research",
+      "research_corpus_id": "webbe-2020-dan",
+      "verse_label_count": 357,
+      "member_sha256": "364eeb83659854964548c8524754eba9efd521b844bfbfb68a067a009b48098e"
+    },
+    {
+      "code": "HOS",
+      "title": "Hosea",
+      "name": "29-HOSeng-webbe.usfm",
+      "chapter_count": 14,
+      "unit_count": 197,
+      "reader_id": "webbe-2020-hos-research",
+      "research_corpus_id": "webbe-2020-hos",
+      "verse_label_count": 197,
+      "member_sha256": "3ead1d174ddfac537e0b8afa80e6302dc492bb9b38ed0846b1f8ac30c878240d"
+    },
+    {
+      "code": "JOL",
+      "title": "Joel",
+      "name": "30-JOLeng-webbe.usfm",
+      "chapter_count": 3,
+      "unit_count": 73,
+      "reader_id": "webbe-2020-jol-research",
+      "research_corpus_id": "webbe-2020-jol",
+      "verse_label_count": 73,
+      "member_sha256": "a2ba87f60d9659fe097160640ed183a09f678800697837c30ef5891d82e136b4"
+    },
+    {
+      "code": "AMO",
+      "title": "Amos",
+      "name": "31-AMOeng-webbe.usfm",
+      "chapter_count": 9,
+      "unit_count": 146,
+      "reader_id": "webbe-2020-amo-research",
+      "research_corpus_id": "webbe-2020-amo",
+      "verse_label_count": 146,
+      "member_sha256": "705a094b9269431618213a95b8a59324c3ec62afa0d7c437f2195a0740cf0eab"
+    },
+    {
+      "code": "OBA",
+      "title": "Obadiah",
+      "name": "32-OBAeng-webbe.usfm",
+      "chapter_count": 1,
+      "unit_count": 21,
+      "reader_id": "webbe-2020-oba-research",
+      "research_corpus_id": "webbe-2020-oba",
+      "verse_label_count": 21,
+      "member_sha256": "7674309ad2c317b2e18c3380b88a586d662420f76dd543af654a5b6b1ccf9a4d"
+    },
+    {
+      "code": "JON",
+      "title": "Jonah",
+      "name": "33-JONeng-webbe.usfm",
+      "chapter_count": 4,
+      "unit_count": 48,
+      "reader_id": "webbe-2020-jon-research",
+      "research_corpus_id": "webbe-2020-jon",
+      "verse_label_count": 48,
+      "member_sha256": "98d427bdef25808c68472594ca54420963c93d4784d46adbd6f5ac6012d0b977"
+    },
+    {
+      "code": "MIC",
+      "title": "Micah",
+      "name": "34-MICeng-webbe.usfm",
+      "chapter_count": 7,
+      "unit_count": 105,
+      "reader_id": "webbe-2020-mic-research",
+      "research_corpus_id": "webbe-2020-mic",
+      "verse_label_count": 105,
+      "member_sha256": "9508f2dca14e70d414eab954d92bd52339e51dec19758ded9b6ebec01ac59d73"
+    },
+    {
+      "code": "NAM",
+      "title": "Nahum",
+      "name": "35-NAMeng-webbe.usfm",
+      "chapter_count": 3,
+      "unit_count": 47,
+      "reader_id": "webbe-2020-nam-research",
+      "research_corpus_id": "webbe-2020-nam",
+      "verse_label_count": 47,
+      "member_sha256": "1ed8f0ec8740902e09504ca2c80e70b142eec8ec665052701223a194a9215bfc"
+    },
+    {
+      "code": "HAB",
+      "title": "Habakkuk",
+      "name": "36-HABeng-webbe.usfm",
+      "chapter_count": 3,
+      "unit_count": 56,
+      "reader_id": "webbe-2020-hab-research",
+      "research_corpus_id": "webbe-2020-hab",
+      "verse_label_count": 56,
+      "member_sha256": "94a8c55cd52c2c05ab9ef8d62ee8af20ad77858ba0eceefa0089a1eed6fd0536"
+    },
+    {
+      "code": "ZEP",
+      "title": "Zephaniah",
+      "name": "37-ZEPeng-webbe.usfm",
+      "chapter_count": 3,
+      "unit_count": 53,
+      "reader_id": "webbe-2020-zep-research",
+      "research_corpus_id": "webbe-2020-zep",
+      "verse_label_count": 53,
+      "member_sha256": "cfb606b64efb3fd28dfeca8faa83694f14b6bdfed3cfbe856ad3daf88d83d255"
+    },
+    {
+      "code": "HAG",
+      "title": "Haggai",
+      "name": "38-HAGeng-webbe.usfm",
+      "chapter_count": 2,
+      "unit_count": 38,
+      "reader_id": "webbe-2020-hag-research",
+      "research_corpus_id": "webbe-2020-hag",
+      "verse_label_count": 38,
+      "member_sha256": "84583cd641f5ac679d6a175f08a2495614c603752462b77aab4d7db461f658ec"
+    },
+    {
+      "code": "ZEC",
+      "title": "Zechariah",
+      "name": "39-ZECeng-webbe.usfm",
+      "chapter_count": 14,
+      "unit_count": 211,
+      "reader_id": "webbe-2020-zec-research",
+      "research_corpus_id": "webbe-2020-zec",
+      "verse_label_count": 211,
+      "member_sha256": "9897427aa68ee262eb70bc78c7027db47439a3df82ccba374ff2a420674368ff"
+    },
+    {
+      "code": "MAL",
+      "title": "Malachi",
+      "name": "40-MALeng-webbe.usfm",
+      "chapter_count": 4,
+      "unit_count": 55,
+      "reader_id": "webbe-2020-mal-research",
+      "research_corpus_id": "webbe-2020-mal",
+      "verse_label_count": 55,
+      "member_sha256": "5d9df0886d94fb0ebe8f7e12da4bcf381cbe1876a1a6568729cb247d2c0c512f"
+    },
+    {
+      "code": "TOB",
+      "title": "Tobit",
+      "name": "41-TOBeng-webbe.usfm",
+      "chapter_count": 14,
+      "unit_count": 244,
+      "reader_id": "webbe-2020-tob-research",
+      "research_corpus_id": "webbe-2020-tob",
+      "verse_label_count": 244,
+      "member_sha256": "f4759b2f8685e78ff900384027a301b762ea3cc018182844cf36380090a3fbe8"
+    },
+    {
+      "code": "JDT",
+      "title": "Judith",
+      "name": "42-JDTeng-webbe.usfm",
+      "chapter_count": 16,
+      "unit_count": 339,
+      "reader_id": "webbe-2020-jdt-research",
+      "research_corpus_id": "webbe-2020-jdt",
+      "verse_label_count": 339,
+      "member_sha256": "ff6553796800189b2dfb78e7dd106c5beedb9a3dc23e9b89db02ecc78430067a"
+    },
+    {
+      "code": "ESG",
+      "title": "Esther (Greek)",
+      "name": "43-ESGeng-webbe.usfm",
+      "chapter_count": 10,
+      "unit_count": 205,
+      "reader_id": "webbe-2020-esg-research",
+      "research_corpus_id": "webbe-2020-esg",
+      "verse_label_count": 205,
+      "member_sha256": "30c2031469d6d764a837328c829b574bd463d302a795880b2f0e0e57d772773e"
+    },
+    {
+      "code": "WIS",
+      "title": "Wisdom",
+      "name": "45-WISeng-webbe.usfm",
+      "chapter_count": 19,
+      "unit_count": 436,
+      "reader_id": "webbe-2020-wis-research",
+      "research_corpus_id": "webbe-2020-wis",
+      "verse_label_count": 436,
+      "member_sha256": "e88d2d8465b8f75e83c3f0ba5847d5e03e92597a74cfb95e8add7fb44d3c205b"
+    },
+    {
+      "code": "SIR",
+      "title": "Sirach",
+      "name": "46-SIReng-webbe.usfm",
+      "chapter_count": 51,
+      "unit_count": 1383,
+      "reader_id": "webbe-2020-sir-research",
+      "research_corpus_id": "webbe-2020-sir",
+      "verse_label_count": 1383,
+      "member_sha256": "c1ba0971b2a8fb400036ce796c547f1a1ff01746d4ae3edb806b3ce0f6165c53"
+    },
+    {
+      "code": "BAR",
+      "title": "Baruch",
+      "name": "47-BAReng-webbe.usfm",
+      "chapter_count": 6,
+      "unit_count": 213,
+      "reader_id": "webbe-2020-bar-research",
+      "research_corpus_id": "webbe-2020-bar",
+      "verse_label_count": 213,
+      "member_sha256": "664f148c919b64d4eba1b45b4a99c707cb9b200b3567337c4c253a9a60c1e62e"
+    },
+    {
+      "code": "1MA",
+      "title": "1 Maccabees",
+      "name": "52-1MAeng-webbe.usfm",
+      "chapter_count": 16,
+      "unit_count": 924,
+      "reader_id": "webbe-2020-1ma-research",
+      "research_corpus_id": "webbe-2020-1ma",
+      "verse_label_count": 924,
+      "member_sha256": "f9565813b7afd8d34e2b7e7003d4a005a000d18bd9c4ef8b07999c3fc8663a90"
+    },
+    {
+      "code": "2MA",
+      "title": "2 Maccabees",
+      "name": "53-2MAeng-webbe.usfm",
+      "chapter_count": 15,
+      "unit_count": 555,
+      "reader_id": "webbe-2020-2ma-research",
+      "research_corpus_id": "webbe-2020-2ma",
+      "verse_label_count": 555,
+      "member_sha256": "71e5c2630f64f8c59af641b9d19f36696249954a4d6e423793682df79b6c1f7d"
+    },
+    {
+      "code": "1ES",
+      "title": "1 Esdras",
+      "name": "54-1ESeng-webbe.usfm",
+      "chapter_count": 9,
+      "unit_count": 448,
+      "reader_id": "webbe-2020-1es-research",
+      "research_corpus_id": "webbe-2020-1es",
+      "verse_label_count": 448,
+      "member_sha256": "3a448191d254aa1f7500465ca5a7c8ae8dbf6d0caa63f7e17a52bea76f6c52d6"
+    },
+    {
+      "code": "MAN",
+      "title": "Prayer of Manasses",
+      "name": "55-MANeng-webbe.usfm",
+      "chapter_count": 1,
+      "unit_count": 15,
+      "reader_id": "webbe-2020-man-research",
+      "research_corpus_id": "webbe-2020-man",
+      "verse_label_count": 15,
+      "member_sha256": "139f5f8440b6cb997366f491bc7bc1c9ca70260e1a313a3504820ef3fc4d31fb"
+    },
+    {
+      "code": "PS2",
+      "title": "Psalm 151",
+      "name": "56-PS2eng-webbe.usfm",
+      "chapter_count": 1,
+      "unit_count": 7,
+      "reader_id": "webbe-2020-ps2-research",
+      "research_corpus_id": "webbe-2020-ps2",
+      "verse_label_count": 7,
+      "member_sha256": "d083462e4773c28cedb812c7998e95347901ef3912bd7e380625dec662ea260a"
+    },
+    {
+      "code": "3MA",
+      "title": "3 Maccabees",
+      "name": "57-3MAeng-webbe.usfm",
+      "chapter_count": 7,
+      "unit_count": 228,
+      "reader_id": "webbe-2020-3ma-research",
+      "research_corpus_id": "webbe-2020-3ma",
+      "verse_label_count": 228,
+      "member_sha256": "c61c2c58e692c6f79991c572e86c9da55106f0f967455e900979ac63975df54e"
+    },
+    {
+      "code": "2ES",
+      "title": "2 Esdras",
+      "name": "58-2ESeng-webbe.usfm",
+      "chapter_count": 16,
+      "unit_count": 944,
+      "reader_id": "webbe-2020-2es-research",
+      "research_corpus_id": "webbe-2020-2es",
+      "verse_label_count": 944,
+      "member_sha256": "4ff3eef77953970aa88b19bb1fc5a4d71cc74295b526d1b389717d5708680ddd"
+    },
+    {
+      "code": "4MA",
+      "title": "4 Maccabees",
+      "name": "59-4MAeng-webbe.usfm",
+      "chapter_count": 18,
+      "unit_count": 484,
+      "reader_id": "webbe-2020-4ma-research",
+      "research_corpus_id": "webbe-2020-4ma",
+      "verse_label_count": 484,
+      "member_sha256": "6a1d3c5c146359b07d7e9557b707291c37bb4475cf60627831906dbc95c79acf"
+    },
+    {
+      "code": "DAG",
+      "title": "Daniel (Greek)",
+      "name": "66-DAGeng-webbe.usfm",
+      "chapter_count": 14,
+      "unit_count": 530,
+      "reader_id": "webbe-2020-dag-research",
+      "research_corpus_id": "webbe-2020-dag",
+      "verse_label_count": 530,
+      "member_sha256": "283acc84300c82d3ddfafe3acc86ddf2d23f4d40cafe533f0be03223c65e6cb8"
+    },
+    {
+      "code": "MAT",
+      "title": "Matthew",
+      "name": "70-MATeng-webbe.usfm",
+      "chapter_count": 28,
+      "unit_count": 1071,
+      "reader_id": "webbe-2020-mat-research",
+      "research_corpus_id": "webbe-2020-mat",
+      "verse_label_count": 1071,
+      "member_sha256": "aed5bf5254cf3bb88ff01cbf43dc4c74141bd9889e55b1c2691765140465f5dc"
+    },
+    {
+      "code": "MRK",
+      "title": "Mark",
+      "name": "71-MRKeng-webbe.usfm",
+      "chapter_count": 16,
+      "unit_count": 678,
+      "reader_id": "webbe-2020-mrk-research",
+      "research_corpus_id": "webbe-2020-mrk",
+      "verse_label_count": 678,
+      "member_sha256": "f9a1aa26dcd19d730b9161561c4966706807fe7bf2e648885a5eba208e0f0d61"
+    },
+    {
+      "code": "LUK",
+      "title": "Luke",
+      "name": "72-LUKeng-webbe.usfm",
+      "chapter_count": 24,
+      "unit_count": 1151,
+      "reader_id": "webbe-2020-luk-research",
+      "research_corpus_id": "webbe-2020-luk",
+      "verse_label_count": 1151,
+      "member_sha256": "ee76d9c483f293dd089305e8609b3fa7d3f99f57a49ef3c1a916473dc98028a9"
+    },
+    {
+      "code": "JHN",
+      "title": "John",
+      "name": "73-JHNeng-webbe.usfm",
+      "chapter_count": 21,
+      "unit_count": 879,
+      "reader_id": "webbe-2020-jhn-research",
+      "research_corpus_id": "webbe-2020-jhn",
+      "verse_label_count": 879,
+      "member_sha256": "85159e082f4af8b215e68a797b8622c505a9b5e0a2c69c062088a31bf02d2079"
+    },
+    {
+      "code": "ACT",
+      "title": "Acts",
+      "name": "74-ACTeng-webbe.usfm",
+      "chapter_count": 28,
+      "unit_count": 1007,
+      "reader_id": "webbe-2020-act-research",
+      "research_corpus_id": "webbe-2020-act",
+      "verse_label_count": 1007,
+      "member_sha256": "fa11f0e142d51fe658e76a1d2a3a14221dd78b052bd3d36a012e0d9219bf48b1"
+    },
+    {
+      "code": "ROM",
+      "title": "Romans",
+      "name": "75-ROMeng-webbe.usfm",
+      "chapter_count": 16,
+      "unit_count": 434,
+      "reader_id": "webbe-2020-rom-research",
+      "research_corpus_id": "webbe-2020-rom",
+      "verse_label_count": 434,
+      "member_sha256": "053eeec4f0f6a4179d1f8626e291077c9da246a364cdea9ed9f865d9eb85ad85"
+    },
+    {
+      "code": "1CO",
+      "title": "1 Corinthians",
+      "name": "76-1COeng-webbe.usfm",
+      "chapter_count": 16,
+      "unit_count": 437,
+      "reader_id": "webbe-2020-1co-research",
+      "research_corpus_id": "webbe-2020-1co",
+      "verse_label_count": 437,
+      "member_sha256": "db2c9ffcb342e42ae18d78774fa96916c56129f7e2d8c597d95f3695ec133e95"
+    },
+    {
+      "code": "2CO",
+      "title": "2 Corinthians",
+      "name": "77-2COeng-webbe.usfm",
+      "chapter_count": 13,
+      "unit_count": 257,
+      "reader_id": "webbe-2020-2co-research",
+      "research_corpus_id": "webbe-2020-2co",
+      "verse_label_count": 257,
+      "member_sha256": "0d924f5d9539b883f70034953d344c0c568ae548f7bfb3cc19a524203810eb72"
+    },
+    {
+      "code": "GAL",
+      "title": "Galatians",
+      "name": "78-GALeng-webbe.usfm",
+      "chapter_count": 6,
+      "unit_count": 149,
+      "reader_id": "webbe-2020-gal-research",
+      "research_corpus_id": "webbe-2020-gal",
+      "verse_label_count": 149,
+      "member_sha256": "c97e7f8c0e30e3afb37684688746a153b115583e9d3aa76db94d844b18bf5604"
+    },
+    {
+      "code": "EPH",
+      "title": "Ephesians",
+      "name": "79-EPHeng-webbe.usfm",
+      "chapter_count": 6,
+      "unit_count": 155,
+      "reader_id": "webbe-2020-eph-research",
+      "research_corpus_id": "webbe-2020-eph",
+      "verse_label_count": 155,
+      "member_sha256": "f0da5ebe6b062cab62478345def376c7d15d1c9806af60c7249c7d6d7146a99f"
+    },
+    {
+      "code": "PHP",
+      "title": "Philippians",
+      "name": "80-PHPeng-webbe.usfm",
+      "chapter_count": 4,
+      "unit_count": 104,
+      "reader_id": "webbe-2020-php-research",
+      "research_corpus_id": "webbe-2020-php",
+      "verse_label_count": 104,
+      "member_sha256": "6d16f2f3e554608affd71d9bdc44fe516491c99dda00657fb58eca693af3311f"
+    },
+    {
+      "code": "COL",
+      "title": "Colossians",
+      "name": "81-COLeng-webbe.usfm",
+      "chapter_count": 4,
+      "unit_count": 95,
+      "reader_id": "webbe-2020-col-research",
+      "research_corpus_id": "webbe-2020-col",
+      "verse_label_count": 95,
+      "member_sha256": "a347e2911b489d03a8c335c1929870146f22c881e48cd034f7bf3e7d79aada2c"
+    },
+    {
+      "code": "1TH",
+      "title": "1 Thessalonians",
+      "name": "82-1THeng-webbe.usfm",
+      "chapter_count": 5,
+      "unit_count": 89,
+      "reader_id": "webbe-2020-1th-research",
+      "research_corpus_id": "webbe-2020-1th",
+      "verse_label_count": 89,
+      "member_sha256": "a8ec28cd38b25eccb5066b442b92efee19819a2322bb8b350e2e7b84638010ae"
+    },
+    {
+      "code": "2TH",
+      "title": "2 Thessalonians",
+      "name": "83-2THeng-webbe.usfm",
+      "chapter_count": 3,
+      "unit_count": 47,
+      "reader_id": "webbe-2020-2th-research",
+      "research_corpus_id": "webbe-2020-2th",
+      "verse_label_count": 47,
+      "member_sha256": "8cd86d64000ac10fc250ed614a3700a9582c892e5eab4e0c0d81ffed7dd70d71"
+    },
+    {
+      "code": "1TI",
+      "title": "1 Timothy",
+      "name": "84-1TIeng-webbe.usfm",
+      "chapter_count": 6,
+      "unit_count": 113,
+      "reader_id": "webbe-2020-1ti-research",
+      "research_corpus_id": "webbe-2020-1ti",
+      "verse_label_count": 113,
+      "member_sha256": "7f322eb36389665b212b794a64bcd8f00b7cbe6a125b24d9b71ca1163abbba5b"
+    },
+    {
+      "code": "2TI",
+      "title": "2 Timothy",
+      "name": "85-2TIeng-webbe.usfm",
+      "chapter_count": 4,
+      "unit_count": 83,
+      "reader_id": "webbe-2020-2ti-research",
+      "research_corpus_id": "webbe-2020-2ti",
+      "verse_label_count": 83,
+      "member_sha256": "ad25a0b16a046ebfde0f65261999057a577bcd90fb8f755f4aa398b43948fb00"
+    },
+    {
+      "code": "TIT",
+      "title": "Titus",
+      "name": "86-TITeng-webbe.usfm",
+      "chapter_count": 3,
+      "unit_count": 46,
+      "reader_id": "webbe-2020-tit-research",
+      "research_corpus_id": "webbe-2020-tit",
+      "verse_label_count": 46,
+      "member_sha256": "f63d128ef1b7d58c1d0ff50e1d336a246e5d0b517738d8f4ca19a5b480a13edf"
+    },
+    {
+      "code": "PHM",
+      "title": "Philemon",
+      "name": "87-PHMeng-webbe.usfm",
+      "chapter_count": 1,
+      "unit_count": 25,
+      "reader_id": "webbe-2020-phm-research",
+      "research_corpus_id": "webbe-2020-phm",
+      "verse_label_count": 25,
+      "member_sha256": "555b09c9685b9784bad0fe11f6079e1bb5a88b10c5151102aea9cf35c5d56054"
+    },
+    {
+      "code": "HEB",
+      "title": "Hebrews",
+      "name": "88-HEBeng-webbe.usfm",
+      "chapter_count": 13,
+      "unit_count": 303,
+      "reader_id": "webbe-2020-heb-research",
+      "research_corpus_id": "webbe-2020-heb",
+      "verse_label_count": 303,
+      "member_sha256": "9d8ce1b86a9ca9917f2dba82676225350f8eb7bed7aa60e76b4dfbcc92ab75fd"
+    },
+    {
+      "code": "JAS",
+      "title": "James",
+      "name": "89-JASeng-webbe.usfm",
+      "chapter_count": 5,
+      "unit_count": 108,
+      "reader_id": "webbe-2020-jas-research",
+      "research_corpus_id": "webbe-2020-jas",
+      "verse_label_count": 108,
+      "member_sha256": "b0b88cf526224f1d9f90cf428efa694504af3c41bb23a264d2148e28ba10d6c8"
+    },
+    {
+      "code": "1PE",
+      "title": "1 Peter",
+      "name": "90-1PEeng-webbe.usfm",
+      "chapter_count": 5,
+      "unit_count": 105,
+      "reader_id": "webbe-2020-1pe-research",
+      "research_corpus_id": "webbe-2020-1pe",
+      "verse_label_count": 105,
+      "member_sha256": "315bcdb38087c15d1941ebbe38a4c7de03336072db340fde3a35ffc0fff468b4"
+    },
+    {
+      "code": "2PE",
+      "title": "2 Peter",
+      "name": "91-2PEeng-webbe.usfm",
+      "chapter_count": 3,
+      "unit_count": 61,
+      "reader_id": "webbe-2020-2pe-research",
+      "research_corpus_id": "webbe-2020-2pe",
+      "verse_label_count": 61,
+      "member_sha256": "9cbaa1e1b61a07e0ad9b5f496c1020d3e4a9794304b8c6aa9a2e83bc80bffc8d"
+    },
+    {
+      "code": "1JN",
+      "title": "1 John",
+      "name": "92-1JNeng-webbe.usfm",
+      "chapter_count": 5,
+      "unit_count": 105,
+      "reader_id": "webbe-2020-1jn-research",
+      "research_corpus_id": "webbe-2020-1jn",
+      "verse_label_count": 105,
+      "member_sha256": "5a707409e340ae98ddddca8e4b01e017e8d03fca2397c91e651d02a8f5177339"
+    },
+    {
+      "code": "2JN",
+      "title": "2 John",
+      "name": "93-2JNeng-webbe.usfm",
+      "chapter_count": 1,
+      "unit_count": 13,
+      "reader_id": "webbe-2020-2jn-research",
+      "research_corpus_id": "webbe-2020-2jn",
+      "verse_label_count": 13,
+      "member_sha256": "ac69a4de9c81ea79aab265ad72cfb01bd8224eddaf1b1cc50380734fb0eefb60"
+    },
+    {
+      "code": "3JN",
+      "title": "3 John",
+      "name": "94-3JNeng-webbe.usfm",
+      "chapter_count": 1,
+      "unit_count": 14,
+      "reader_id": "webbe-2020-3jn-research",
+      "research_corpus_id": "webbe-2020-3jn",
+      "verse_label_count": 14,
+      "member_sha256": "f3a2c9306cdac7c81624230484b629a2d88239838381e71045e45f7c11c84c0b"
+    },
+    {
+      "code": "JUD",
+      "title": "Jude",
+      "name": "95-JUDeng-webbe.usfm",
+      "chapter_count": 1,
+      "unit_count": 25,
+      "reader_id": "webbe-2020-jud-research",
+      "research_corpus_id": "webbe-2020-jud",
+      "verse_label_count": 25,
+      "member_sha256": "14c9748715c509c278c5c71b7f589ac43845c695358533b13bf3ae8336df0f25"
+    },
+    {
+      "code": "REV",
+      "title": "Revelation",
+      "name": "96-REVeng-webbe.usfm",
+      "chapter_count": 22,
+      "unit_count": 404,
+      "reader_id": "webbe-2020-rev-research",
+      "research_corpus_id": "webbe-2020-rev",
+      "verse_label_count": 404,
+      "member_sha256": "7dc993b6bd91df79ea54a7eac1df3dbb467620d898fd5b24810b555233768055"
+    }
+  ],
+  "reader_inventory_summary": {
+    "scripture_modules_parsed": 81,
+    "distinct_chapter_divisions": 1402,
+    "source_verse_labels": 38058,
+    "church_canon_mappings_assigned": 0
+  }
+}

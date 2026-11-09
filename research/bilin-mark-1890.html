@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Offline facsimile of the 1890 Bilin Gospel of Mark scan, with documented script and OCR limits.">
+  <title>Bilin (1890) Mark — facsimile | Ethiopian Bible Library</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; line-height: 1.55; color: #172b27; background: #f8f6f0; }
+    * { box-sizing: border-box; }
+    body { margin: 0 auto; padding: 1rem; max-width: 78rem; }
+    main { background: #fff; padding: clamp(1rem, 3vw, 2rem); border: 1px solid #ded8ca; }
+    h1, h2 { font-family: Georgia, serif; line-height: 1.2; }
+    h1 { font-size: clamp(1.6rem, 5vw, 2.6rem); margin: .5rem 0; }
+    .eyebrow { color: #6c5734; font-size: .82rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    .notice { border-left: 4px solid #a96520; background: #fff6e8; padding: .8rem 1rem; margin: 1rem 0; }
+    .actions { display: flex; flex-wrap: wrap; gap: .7rem; margin: 1rem 0; }
+    .actions a { display: inline-block; border: 1px solid #17453a; padding: .55rem .8rem; color: #17453a; font-weight: 650; text-decoration-thickness: .08em; text-underline-offset: .18em; }
+    .scan { width: 100%; height: min(78vh, 66rem); min-height: 28rem; border: 1px solid #bdb5a6; background: #ece8de; }
+    .scan object { width: 100%; height: 100%; }
+    .metadata { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); gap: .5rem 1.4rem; }
+    .metadata p { margin: .25rem 0; }
+    code { overflow-wrap: anywhere; }
+    footer { margin: 1rem 0; font-size: .9rem; }
+    @media (max-width: 38rem) { body { padding: .4rem; } .scan { min-height: 55vh; height: 65vh; } }
+  </style>
+</head>
+<body>
+  <main>
+    <a href="../index.html#sources">← Back to Sources &amp; method</a>
+    <p class="eyebrow">Stored facsimile · no transcription</p>
+    <h1>Bilin (1890) — Gospel of Mark</h1>
+    <p>This page serves the locally stored 80-page scan linked by the Digital Bible Society record. It is a scan of a historical edition, not a verified transcription or a claim about the complete modern Blin Bible.</p>
+
+    <div class="notice" role="note">
+      <strong>Script metadata conflict:</strong> the DBS record labels this item Latin script. The scanned cover and inspected interior pages visibly use Ethiopic script. This observation applies to this scan only; it does not settle script use across Bilin editions.
+    </div>
+    <div class="notice" role="note">
+      <strong>The OCR is not reader text.</strong> Internet Archive's Tesseract settings omit the <code>byn</code> language, mark it invalid, and classify the detected text as Kazakh/Cyrillic. The OCR file is preserved as a diagnostic only.
+    </div>
+    <div class="actions">
+      <a href="../readers/source/bilin-mark-1890/Bilin-1890-Mark.pdf">Open facsimile PDF</a>
+      <a href="../readers/source/bilin-mark-1890/Bilin-1890-Mark.pdf" download>Download facsimile</a>
+      <a href="../readers/source/bilin-mark-1890/Bilin-1890-Mark_djvu.txt">Open raw machine OCR diagnostic</a>
+    </div>
+
+    <section class="scan" aria-label="Scanned 1890 Bilin Gospel of Mark">
+      <object data="../readers/source/bilin-mark-1890/Bilin-1890-Mark.pdf#view=FitH" type="application/pdf" aria-label="80-page Bilin Gospel of Mark scan">
+        <p>Your browser cannot display the PDF inline. Use “Open facsimile PDF” or “Download facsimile” above.</p>
+      </object>
+    </section>
+
+    <section aria-labelledby="record-heading">
+      <h2 id="record-heading">Source record and limits</h2>
+      <div class="metadata">
+        <p><strong>Language tag:</strong> Bilin (byn)</p>
+        <p><strong>Script observed in scan:</strong> Ethiopic (Ethi)</p>
+        <p><strong>Translator named by DBS:</strong> Stefanos, under Leo Reinisch</p>
+        <p><strong>Publisher named by DBS:</strong> British and Foreign Bible Society, Vienna</p>
+        <p><strong>Scan:</strong> 80 pages, 600 ppi; captured unchanged from Internet Archive on 2026-10-25</p>
+        <p><strong>Rights evidence:</strong> DBS / Find a Bible labels the scan Public Domain / OPEN; Internet Archive metadata reports its contributor is unaware of restrictions. These are provider statements, not a worldwide legal determination.</p>
+      </div>
+      <p>No page-by-page completeness check, text collation, translation-basis audit, or Ethiopian/Eritrean Orthodox canon mapping was performed. This facsimile does not add a text reader or a canon-linked book count.</p>
+      <ul>
+        <li><a href="https://arc.dbs.org/data/scripture/BYNEWT/" target="_blank" rel="noopener noreferrer">Digital Bible Society / Find a Bible record</a></li>
+        <li><a href="https://archive.org/details/BYNEWT_DBS_HS" target="_blank" rel="noopener noreferrer">Internet Archive item record</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

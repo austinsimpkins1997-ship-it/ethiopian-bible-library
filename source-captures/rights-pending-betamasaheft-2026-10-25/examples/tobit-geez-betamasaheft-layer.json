@@ -1,0 +1,161 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/tobit-geez-betamasaheft-eotced",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/tobit-betamasaheft-tei-candidate",
+  "labels": [
+    {
+      "value": "Tobit — Geʽez source transcription",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-17",
+      "mapping_state": "uncertain",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-134",
+        "SRC-217",
+        "SRC-218"
+      ],
+      "notes": "The TEI edition note says EOTC printed Bible and declares Geʽez; this supports a candidate link only. Exact Church-list witness identity remains unverified."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/betamasaheft-LIT2473TobitB",
+    "witness_type": "digital_edition",
+    "title": "Beta maṣāḥǝft LIT2473TobitB TEI text",
+    "date_statement": "Text added to the TEI record 2025-06-05; exact print exemplar date not stated",
+    "repository_or_publisher": "Beta maṣāḥǝft, University of Hamburg",
+    "shelfmark_or_edition_id": "LIT2473TobitB; CAe 2473",
+    "editorial_policy": "Provider says the text was digitized from modern Vulgata printed editions and converted to XML; exact exemplar is not identified.",
+    "source_ids": [
+      "SRC-134",
+      "SRC-217",
+      "SRC-218"
+    ]
+  },
+  "layer_type": "source_text_transcription",
+  "text_origin": "source_transcription",
+  "language_tag": "gez",
+  "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+  "script_code": "Ethi",
+  "basis_path": [
+    "gez"
+  ],
+  "agents": [],
+  "content_package": {
+    "uri": "../readers/tobit-geez-betamasaheft-eotced.json",
+    "media_type": "application/json",
+    "sha256": "28901f55618486cc57cb52fd4e043f93a86bd7b2f4f2a6cff41f2f6087efb9e7",
+    "format_version": "1"
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 242,
+    "structure_description": "All 242 numbered line elements in the retained edition division are included across 14 explicit chapters. Completeness against the physical printed source has not been independently checked.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "Whitespace normalized; no line-level inline markup was present. Unchanged TEI retained locally.",
+    "numbering_policy": "Preserve TEI chapter and line labels as observed; archive display order matches those labels. No labels are inferred."
+  },
+  "rights": {
+    "status": "open_license",
+    "statement": "The TEI file declares CC BY-SA 4.0. Attribute Beta maṣāḥǝft, indicate changes, and share adaptations alike. The license does not establish rights in the unidentified printed exemplar.",
+    "license_id": "CC-BY-SA-4.0",
+    "rights_holder": "Beta maṣāḥǝft TEI file; underlying print rights not established",
+    "attribution_required": true,
+    "territory_or_term_limits": "Apply the file-level license to the TEI file and its adaptation only; do not infer rights in the unidentified printed source.",
+    "evidence_source_ids": [
+      "SRC-218"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "TEI work id and title checked; physical exemplar and exact Church-list identity unresolved.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Pinned TEI header and edition inspected",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-134",
+        "SRC-218"
+      ],
+      "notes": "Candidate mapping only."
+    },
+    {
+      "dimension": "language_identification",
+      "state": "checked_with_limits",
+      "scope": "Root xml:lang=en and enclosing edition xml:lang=gez inspected.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "TEI language inheritance and edition division inspected",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-218"
+      ],
+      "notes": "Explicit edition language governs nested text; root default retained as conflict."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "14 ordered chapter divisions and 242 nonempty numbered lines validated against pinned TEI.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "build_tobit_reader.py checksum and TEI structure assertions",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-218"
+      ],
+      "notes": "Structure only; no independent print completeness claim."
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "No collation against the cited Dillmann 1894 pages, another printed exemplar, or manuscripts.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-134",
+        "SRC-218"
+      ],
+      "notes": "Accuracy remains unverified."
+    },
+    {
+      "dimension": "completeness",
+      "state": "unknown",
+      "scope": "Completeness against the physical print edition or manuscript tradition not assessed.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-134",
+        "SRC-218"
+      ],
+      "notes": "All source TEI chapter lines were extracted; physical-edition completeness is unknown."
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "File-level TEI availability licence inspected.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Retained TEI license declaration and separated it from the site footer",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-218"
+      ],
+      "notes": "Underlying print rights not established."
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "No English translation is included. Brenton's English Tobit has a Greek Septuagint basis and is an independent witness; alignment is unverified."
+}

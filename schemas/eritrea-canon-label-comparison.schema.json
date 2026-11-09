@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/schemas/eritrea-canon-label-comparison.schema.json",
+  "title": "Eritrean Diocese and EOTC page-label comparison",
+  "description": "A section-position string comparison of two English lists. It is not a canon or work crosswalk.",
+  "type": "object",
+  "required": ["schema_version", "title", "comparison_method", "scope_note", "source_ids", "source_registry", "eritrea_transcription", "entry_count", "exact_literal_label_matches", "exact_literal_label_differences", "matches_after_nfkc_whitespace_and_case_normalization", "differences_after_nfkc_whitespace_and_case_normalization", "section_counts", "entries"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "title": {"type": "string", "minLength": 1},
+    "comparison_method": {"type": "string", "minLength": 1},
+    "scope_note": {"type": "string", "minLength": 1},
+    "source_ids": {"type": "array", "minItems": 2, "maxItems": 2, "uniqueItems": true, "items": {"type": "string", "pattern": "^SRC-[0-9]{3}$"}},
+    "source_registry": {"const": "archive.json#/sources"},
+    "eritrea_transcription": {"const": "research/eritrea-canon-source-transcription.json"},
+    "entry_count": {"const": 81},
+    "exact_literal_label_matches": {"type": "integer", "minimum": 0, "maximum": 81},
+    "exact_literal_label_differences": {"type": "integer", "minimum": 0, "maximum": 81},
+    "matches_after_nfkc_whitespace_and_case_normalization": {"type": "integer", "minimum": 0, "maximum": 81},
+    "differences_after_nfkc_whitespace_and_case_normalization": {"type": "integer", "minimum": 0, "maximum": 81},
+    "section_counts": {
+      "type": "object",
+      "required": ["Old Testament", "New Testament"],
+      "properties": {
+        "Old Testament": {"$ref": "#/$defs/sectionCount"},
+        "New Testament": {"$ref": "#/$defs/sectionCount"}
+      },
+      "additionalProperties": false
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 81,
+      "maxItems": 81,
+      "items": {
+        "type": "object",
+        "required": ["section", "section_position", "eotc_source_label", "eritrea_diocese_page_label", "exact_literal_label_match", "match_after_nfkc_whitespace_and_case_normalization"],
+        "properties": {
+          "section": {"enum": ["Old Testament", "New Testament"]},
+          "section_position": {"type": "integer", "minimum": 1},
+          "eotc_source_label": {"type": "string", "minLength": 1},
+          "eritrea_diocese_page_label": {"type": "string", "minLength": 1},
+          "exact_literal_label_match": {"type": "boolean"},
+          "match_after_nfkc_whitespace_and_case_normalization": {"type": "boolean"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "$defs": {
+    "sectionCount": {
+      "type": "object",
+      "required": ["entry_count", "exact_literal_label_matches", "matches_after_nfkc_whitespace_and_case_normalization"],
+      "properties": {
+        "entry_count": {"type": "integer", "minimum": 0},
+        "exact_literal_label_matches": {"type": "integer", "minimum": 0},
+        "matches_after_nfkc_whitespace_and_case_normalization": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

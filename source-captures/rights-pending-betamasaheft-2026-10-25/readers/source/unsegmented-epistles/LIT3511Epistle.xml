@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT3511Epistle">
+   <teiHeader xml:base="https://betamasaheft.eu/">
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="t1">Third Epistle of John</title>
+            <title xml:id="t2" xml:lang="gez">መልእክተ፡ ዮሐንስ፡ ሐዋርያ፡ ሣልስት፡</title>
+            <title corresp="#t2" xml:lang="gez" type="normalized">Malʾǝkta Yoḥannǝs ḥawāryā śālʾǝst</title>
+            <title type="short">3 Joh.</title>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. 
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Work of the literatures of Ethiopia and Eritrea</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+         <textClass>
+            <keywords>
+               <term key="ChristianLiterature"/>
+               <term key="NewTestament"/>
+               <term key="Bible"/>
+               <term key="Translation"/>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-07-26">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="MV" when="2017-03-15">Added keywords</change>
+         <change when="2025-06-10" who="ES">added title and text</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:base="https://betamasaheft.eu/">
+      <body>
+         <div type="bibliography">
+            <listRelation>
+               <relation name="saws:formsPartOf" active="LIT3511Epistle" passive="LIT3506CatholicEpis"/>
+            </listRelation>
+            <listBibl type="editions">
+               <bibl>
+                  <ptr target="bm:Uhlig1993Katholischen"/>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="gez">
+            <ab>
+               <l>በእንተ፡ ጋይዮስ፡ እኁነ</l>
+               <l n="1">
+                  <ref target="http://classic.net.bible.org/verse.php?book=3Jo&amp;chapter=1&amp;verse=1"/>እምነ፡ ቀሲስ፡ ለጋይዮስ፡ ለእኁነ፡ ዘአነ፡ አፈቅሮ፡ በጽድቅ።</l>
+               <l n="2">
+                  <ref target="http://classic.net.bible.org/verse.php?book=3Jo&amp;chapter=1&amp;verse=2"/>ኦ፡ እኁየ፡ እስመ፡ አነ፡ በእንተ፡ ኵሉ፡ እጼሊ፡ ለከ። ከመ፡ ትሠራሕ፡ ፍኖትከ፡ ወትሕዮ፡ በዘይኤድማ፡ ለነፍስከ።</l>
+               <l n="3">
+                  <ref target="http://classic.net.bible.org/verse.php?book=3Jo&amp;chapter=1&amp;verse=3"/>ተፈሣሕኩ፡ ጥቀ፡ ሶበ፡ መጽኡ፡ አኀዊነ። ወስምዐ፡ ኮኑ፡ ላዕለ፡ ተፋቅሮትከ፡ ከመ፡ በጽድቅ፡ ተሐውር።</l>
+               <l n="4">
+                  <ref target="http://classic.net.bible.org/verse.php?book=3Jo&amp;chapter=1&amp;verse=4"/>እምዛቲ፡ ትፍሥሕት፡ እንተ፡ ተዐቢ፡ አልብየ። ከመ፡ እስማዕ፡ እንዘ፡ በጽድቅ፡ የሐውሩ፡ ደቂቅየ።</l>
+               <l n="5">
+                  <ref target="http://classic.net.bible.org/verse.php?book=3Jo&amp;chapter=1&amp;verse=5"/>ኦ፡ እኁየ፡ እሙን፡ ግብር፡ ዘገበርከ፡ ለአኀዊነ።</l>
+               <l n="6">
+                  <ref target="http://classic.net.bible.org/verse.php?book=3Jo&amp;chapter=1&amp;verse=6"/>ወከመ፡ ዝንቱ፡ ግብር፡ ለነኪራን። እለ፡ ይከውኑ፡ ለከ፡ ስምዐ፡ ላዕለ፡ ተፋቅሮትከ፡ በቅድመ፡ ቤተ፡ ክርስቲያን። ወዘንተ፡ ግብረ፡ ሠናየ፡ ፈኖከ፡ ቅድሜከ፡ ዘይደሉ፡ ለእግዚአብሔር።</l>
+               <l>በእንተ፡ ተወክፎ፡ ቅዱሳን</l>
+               <l n="7">
+                  <ref target="http://classic.net.bible.org/verse.php?book=3Jo&amp;chapter=1&amp;verse=7"/>እስመ፡ በእንተ፡ ስሙ፡ ወፅኡ፡ ወአልቦ፡ ዘነሥኡ፡ እምነ፡ አሕዛብ።</l>
+               <l n="8">
+                  <ref target="http://classic.net.bible.org/verse.php?book=3Jo&amp;chapter=1&amp;verse=8"/>ወንሕነሰ፡ አኀዊነ፡ ይደልወነ፡ ንትቀበሎሙ፡ ለእለ፡ ከመ፡ ዝ። ከመ፡ ንኩን፡ ሱታፎ፡ ለጽድቅ።</l>
+               <l n="9">
+                  <ref target="http://classic.net.bible.org/verse.php?book=3Jo&amp;chapter=1&amp;verse=9"/>ወጸሐፍኩ፡ ዘንተ፡ ለቤተ፡ ክርስቲያን፡ ወአቅደምኩ። ወባሕቱ፡ ዲዮጥራስስ፡ ዘይፈቅድ፡ ይኩን፡ ሊቀ፡ ላዕሌሆሙ፡ ኢይሰጠወነ።</l>
+               <l n="10">
+                  <ref target="http://classic.net.bible.org/verse.php?book=3Jo&amp;chapter=1&amp;verse=10"/>ወበእንተ፡ ዝንቱ፡ አመ፡ መጻእኩ፡ አነ፡ አዜክር፡ ሎሙ፡ ምግባሮ፡ ዘይገብር። እስመ፡ ኢየአክሎ፡ ዘይነብብ፡ ንባበ፡ እኩየ፡ ላዕሌነ። እስከ፡ ኢይትቄበሎሙ፡ ለአኀዊነ፡ ወለእለኒ፡ ይፈቅዱ፡ ተቀብሎቶሙ፡ ይከልእ። ወያወፅኦሙ፡ ዓዲ፡ እምቤተ፡ ክርስቲያን።</l>
+               <l n="11">
+                  <ref target="http://classic.net.bible.org/verse.php?book=3Jo&amp;chapter=1&amp;verse=11"/>ኦ፡ እኁየ፡ ኢትኩን፡ ከመ፡ ገባሬ፡ እኪት፡ አላ፡ ከመ፡ ገባሬ፡ ሠናይት። እስመ፡ ገባሬ፡ ሠናይት፡ እምእግዚአብሔር፡ ውእቱ። ወገባሬ፡ እኪትሰ፡ ኢይሬእዮ፡ ለእግዚአብሔር።</l>
+               <l n="12">
+                  <ref target="http://classic.net.bible.org/verse.php?book=3Jo&amp;chapter=1&amp;verse=12"/>ወበእንተ፡ ድሜጥሮስኒ፡ ስምዐ፡ ኮነ፡ ኵሉ። ወለሊሃኒ፡ ጽድቅ፡ ስምዐ፡ ኮነት፡ ሎቱ፡ ወንሕነኒ፡ ስምዐ፡ ኮነ፡ ሎቱ። ወተአምሩ፡ ከመ፡ ርትዕት፡ ይእቲ፡ ስምዕነ።</l>
+               <l n="13">
+                  <ref target="http://classic.net.bible.org/verse.php?book=3Jo&amp;chapter=1&amp;verse=13"/>ወብዙኅ፡ ብየ፡ ዘእጽሕፍ፡ ለከ። አላ፡ ኢይፈቀድኩ፡ በማየ፡ ሕመት፡ ወበቀለም፡ እጽሐፍ፡ ለከ።</l>
+               <l n="14">
+                  <ref target="http://classic.net.bible.org/verse.php?book=3Jo&amp;chapter=1&amp;verse=14"/>አላ፡ እትአመን፡ ባሕቱ፡ ከመ፡ ፍጡነ፡ እሬእየከ፡ ወእትናገረከ፡ አፈ፡ በአፍ።</l>
+               <l n="15">
+                  <ref target="http://classic.net.bible.org/verse.php?book=3Jo&amp;chapter=1&amp;verse=15"/>ሰላም፡ ለከ፡ ወይኤምኁከ፡ አኀዊነ፡ ወአምኅ፡ ቢጸነ፡ በበ፡ አስማቲሆሙ።</l>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

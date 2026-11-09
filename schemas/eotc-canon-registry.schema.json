@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/schemas/eotc-canon-registry.schema.json",
+  "title": "Ethiopian Orthodox Tewahedo Church cited English list registry",
+  "description": "Validates a transcription-based 81-entry list record. It does not establish that other canons have identical contents, that a title crosswalk is correct, or that a linked reader is complete or accurate.",
+  "type": "object",
+  "required": ["source_id", "basis", "mapping_caution", "context_source_ids", "scholarly_context", "book_count", "reader_count", "books"],
+  "properties": {
+    "source_id": { "$ref": "#/$defs/sourceId" },
+    "basis": { "type": "string", "minLength": 1 },
+    "mapping_caution": { "type": "string", "minLength": 1 },
+    "context_source_ids": {
+      "description": "Sources cited for the registry's broader scholarly context, not evidence for every individual book mapping.",
+      "$ref": "#/$defs/sourceIds"
+    },
+    "scholarly_context": { "type": "string", "minLength": 1 },
+    "book_count": { "const": 81 },
+    "reader_count": { "type": "integer", "minimum": 0, "maximum": 81 },
+    "books": {
+      "type": "array",
+      "minItems": 81,
+      "maxItems": 81,
+      "items": { "$ref": "#/$defs/book" },
+      "allOf": [
+        {
+          "contains": {
+            "type": "object",
+            "properties": { "section": { "const": "Old Testament" } },
+            "required": ["section"]
+          },
+          "minContains": 46,
+          "maxContains": 46
+        },
+        {
+          "contains": {
+            "type": "object",
+            "properties": { "section": { "const": "New Testament" } },
+            "required": ["section"]
+          },
+          "minContains": 35,
+          "maxContains": 35
+        }
+      ]
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "sourceId": { "type": "string", "pattern": "^SRC-[0-9]{3,}$" },
+    "sourceIds": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/sourceId" },
+      "uniqueItems": true
+    },
+    "book": {
+      "type": "object",
+      "required": ["canon_id", "section", "section_number", "display_name", "source_label", "catalogue_ids", "source_ids", "reader_status", "reader_id", "mapping_note"],
+      "properties": {
+        "canon_id": { "type": "string", "pattern": "^eotc-(?:ot|nt)-[0-9]{2}$" },
+        "section": { "enum": ["Old Testament", "New Testament"] },
+        "section_number": { "type": "integer", "minimum": 1, "maximum": 46 },
+        "display_name": { "type": "string", "minLength": 1 },
+        "source_label": { "type": "string", "minLength": 1 },
+        "catalogue_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "pattern": "^eotc-[0-9]{3}$" },
+          "uniqueItems": true
+        },
+        "source_ids": {
+          "description": "Sources supporting this Church-list label or its stated title/work mapping. Research reader provenance belongs on its corpus, reader, and catalogue records unless it directly supports this specific mapping.",
+          "$ref": "#/$defs/sourceIds"
+        },
+        "mapping_state": { "enum": ["reviewed_match", "asserted_by_source", "uncertain", "related_work", "not_mapped"] },
+        "reader_status": { "type": "string", "minLength": 1 },
+        "reader_id": { "type": ["string", "null"], "minLength": 1 },
+        "mapping_note": { "type": "string", "minLength": 1 }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "reader_id": { "type": "string" } }, "required": ["reader_id"] },
+          "then": { "required": ["mapping_state"], "properties": { "mapping_state": { "const": "reviewed_match" } } }
+        },
+        {
+          "if": { "properties": { "section": { "const": "New Testament" } }, "required": ["section"] },
+          "then": { "properties": { "section_number": { "maximum": 35 }, "canon_id": { "pattern": "^eotc-nt-[0-9]{2}$" } } },
+          "else": { "properties": { "canon_id": { "pattern": "^eotc-ot-[0-9]{2}$" } } }
+        }
+      ],
+      "additionalProperties": false
+    }
+  }
+}

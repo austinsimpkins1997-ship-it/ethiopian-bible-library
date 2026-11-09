@@ -1,0 +1,3053 @@
+{
+  "reader_id": "dawro-latin-neh-research",
+  "research_corpus_id": "dawro-dwrl-2024-neh",
+  "canon_id": null,
+  "title": "Nehemiah — Dawro Bible (DWRLTW / dwrl, Latin script)",
+  "display_name": "Nehemiah · Dawro · eBible.org (Latin)",
+  "text_origin": "published_translation",
+  "translation_id": "dawro-dwrl-2024",
+  "language": "Dawro",
+  "language_tag": "dwr",
+  "language_assignment_status": "publisher_declared_in_source_page",
+  "script_code": "Latn",
+  "translator": "Not identified on the publisher's edition page.",
+  "contributor": "The Word for the World International",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The publisher's edition page does not identify a source language or relay-language path; neither is inferred.",
+  "edition": "The Holy Bible in the Dawuro language of Ethiopia, Latin script; copyright © 2024; the retained edition page is dated 2025-05-01.",
+  "edition_scope": "One of 66 USFM book members in the publisher's DWRLTW / dwrl package. The publisher labels the work a Holy Bible; the digital module inventory is not a comparison against a print edition and does not establish completeness, translation accuracy, or equivalence to any Ethiopian Orthodox Tewahedo or Eritrean Orthodox canon list. No canon crosswalk is assigned.",
+  "rights_classification": "open_license",
+  "license_id": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "copyright_notice": "Copyright © 2024 The Word for the World International. Source edition: eBible.org, DWRLTW / dwrl, The Holy Bible in the Dawuro language of Ethiopia, Latin script (Dawro, dwr). The publisher identifies The Word for the World International as contributor and states CC BY-SA 4.0 for the translation text. Change made: publisher USFM was parsed into reader JSON; source text and markers were preserved where handled, and original USFM remains bundled for audit. Any source figures/assets not bundled are excluded; the publisher states that picture terms differ. The publisher has not endorsed this archive or its changes.",
+  "commercial_use": "The source-stated CC BY-SA 4.0 permits commercial sharing and adaptation with attribution, a link to the license, indication of changes, and ShareAlike for adaptations. Images and other media have separate terms and are not bundled.",
+  "unit_label": "USFM verse labels observed",
+  "unit_count": 404,
+  "verse_marker_count": 404,
+  "chapter_count": 13,
+  "section_label": "Chapter",
+  "chapter_structure_note": "This source member has 13 consecutive numeric chapter markers, 404 observed verse labels, 44 extracted notes, 11 front-matter elements, 40 unnumbered continuation segments, and USFM markers {'c': 13, 'h': 1, 'id': 1, 'ili': 3, 'imt1': 1, 'io1': 4, 'iot': 1, 'ip': 2, 'li1': 35, 'm': 4, 'mr': 2, 'ms1': 2, 'mt1': 1, 'p': 198, 'q1': 1, 'q2': 1, 'r': 3, 's1': 24, 'toc1': 1, 'toc2': 1, 'toc3': 1, 'v': 404}. Chapter/verse labels are retained in source order. Counts describe this digital member, not printed completeness, translation accuracy, or a canon match.",
+  "chapter_structure_status": "source_package_parsed_with_limits",
+  "source_numbered_unit_count": 404,
+  "source_unnumbered_unit_count": 40,
+  "book_order_in_source": 16,
+  "source_pages": "readers/source/dawro/dwrl_usfm.zip::17-NEHdwrl.usfm",
+  "source_package_sha256": "babec0c76176e5eaa10f5f7f0b31296bd889802871ee8ab8350866d76f5d080f",
+  "source_snapshot_sha256": "89dcc164002115f791b6a2497746fbc686870aaa358d8c65cc8705649879b604",
+  "source_ids": [
+    "SRC-403",
+    "SRC-404",
+    "SRC-405",
+    "SRC-406"
+  ],
+  "rights_status": "CC BY-SA 4.0 for the translation text as stated on the specific 2024 DWRLTW / dwrl edition page; image/media terms are separate.",
+  "verification_status": "The exact source member 17-NEHdwrl.usfm has SHA-256 89dcc164002115f791b6a2497746fbc686870aaa358d8c65cc8705649879b604, matching the ZIP's clear-signed checksum list. The list's signature verifies against the package-included key (54D714D76956DA6673DC1EEA5F62009D93505F26); a maintainer page lists the same fingerprint, which is corroboration only and does not independently establish identity, custody, or signing authority. The signature uses legacy DSA-1024/SHA-1. Automated extraction checked every explicit chapter and verse label against this member, retaining the label sequence and represented USFM structure. This establishes local extraction and package integrity, not wording accuracy, community review, translation basis, print completeness, or canon identity.",
+  "transcription_note": "Machine-readable display extraction from the publisher's USFM. Chapter/verse label sequences were compared directly with source lines; the original signed package is retained beside the reader. No independent linguistic proofread or collation was performed.",
+  "editorial_signs_note": "Publisher title labels, verse labels, chapter divisions, headings, notes, front matter, paragraph/poetry markers, continuations, and recognized USFM structure are represented in the extracted reader. The complete original USFM remains available in the bundled ZIP; the reader parser fails on unreviewed structural markers. Source and reader label sequence equality is checked per member.",
+  "front_matter": [
+    {
+      "marker": "imt1",
+      "text": "Geluwaa"
+    },
+    {
+      "marker": "ip",
+      "text": "«Nahimiyaa» giyaa Suntsaa Biletsay Ibraaweetsuwaan «S'oossay Mintsetsee» giyaawaa gidoode, S'oossay bare asaa bare hidootaa k'aalaadan omooduwaappe Zaariide mintsetsiyaawaa bessee. Nahimiyaa Mas'aafaa heezzusan shaakki be'anaw danddayettee:"
+    },
+    {
+      "marker": "ili",
+      "text": "1. Yihudaa biittaa ayissana mala, Parsse kaatii kiitteedda Nahimii kaaletsina, Yerusaalame dirssaa gimbbii ooras's'eeddawaa odiyaa taarikiyaa. Hewaappekka k'ay Nahimii asaa ittippetetsaanne ammanuwaa wogaa ooras's'isseeddawaa."
+    },
+    {
+      "marker": "ili",
+      "text": "2. S'oossaa higgiyaa mas'aafaa Iziri nabbabeeddawaanne asaykka bare nagaraa paas'eeddawaa odiyaa gishuwaa."
+    },
+    {
+      "marker": "ili",
+      "text": "3. Nahimii Yihudaa gadiyaa mooddiyaawaa gidiide ootseedda hara harabatuwaa odiyaa gishuwaa."
+    },
+    {
+      "marker": "ip",
+      "text": "Ha mas'aafan dariide beettiyaa taarikii Nahimii S'oossaa loytsi ammaneedawaanne I S'oossaa woosseedda woosatuwaabaa odiyaa taarikiyaa."
+    },
+    {
+      "marker": "iot",
+      "text": "Shemppatuwaa Ubbatoo Imetteedda K'antsa K'ofatuwaa"
+    },
+    {
+      "marker": "io1",
+      "text": "Nahimii Yerusaalame Simusaa 1:1—2:20"
+    },
+    {
+      "marker": "io1",
+      "text": "Yerusaalame Dirssaa Asay Zaaretsi Gimbbeedda 3:1—7:73"
+    },
+    {
+      "marker": "io1",
+      "text": "Muse Higgii Zaaretsi Nabbabetussaanne K'aalaa C'aak'uwaa Ooras's'isuwaa 8:1—10:39"
+    },
+    {
+      "marker": "io1",
+      "text": "Nahimii Yerusaalamen Ootseedda Laamiyaa 11:1—13:31"
+    }
+  ],
+  "source_book_metadata": [
+    {
+      "marker": "h",
+      "text": "Nahimiyaa"
+    },
+    {
+      "marker": "toc1",
+      "text": "Nahimiyaa Mas'aafaa"
+    },
+    {
+      "marker": "toc2",
+      "text": "Nahimiyaa"
+    },
+    {
+      "marker": "toc3",
+      "text": "Nah."
+    },
+    {
+      "marker": "mt1",
+      "text": "Nahimiyaa Mas'aafaa"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Hakaaliyaa na'aa Nahimiyaa k'aalay hawaa. Ars's'ekissisi Paarise biittan kawutoodeppe laatamantso laytsan, Kisileewa geetettiyaa aginaan, taani Nahimii waanna katamaa gideedda Suusan de'ay.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Ta ishatuwaappe ittuu, Hanaana goossay hara asatuwaana ittippe gidiide, Yihudaappe taakko yeedda; taani omooduwaa bibeenawanttubaanne Yerusaalamebaa unttuntta oochchaad."
+        },
+        {
+          "number": "3",
+          "text": "Unttunttu zaariide, «Omoodduwaan bibeenawanttunne de'uwaan de'iyaawanttu wolk'k'aama metuwaaninne yeellaa giddon de'iino. Yerusaalame gimbbiyaa dirssay koletteedda; k'ay gimbbiyaa dirssaa penggetuukka taman s'uugetteeddino» yaageeddino."
+        },
+        {
+          "number": "4",
+          "text": "Taani hawaa ubbaa siseedda wode uttaade yeekkaad. Daro gallassaa kayyotta s'oomaadde, saluwaa S'oossaa, hawaadan yaagaadde woossaad;",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "«Med'ina Godaw, saluwaa S'oossaw, Wolk'k'aamawunne Bonchchetteedda S'oossaw, dosiyaawanttoonne ne azazuwaa naagiyaawanttoo ne aggena siik'uwaa c'aak'uwa naagiyaa S'oossaw,"
+        },
+        {
+          "number": "6",
+          "text": "taani ne k'oomay k'ay ne k'oomatuwaa gideedda Israa'eeliyaa asaa diraw k'ammanne gallassi neena woossiyaa woosaa ne haytsay siso; ne ayfiikka duge taakko s'eello. Nuuni Israa'eeliyaa Asay ootseedda nagaraa ubbaa new paas'ay; tumukka taaninne ta mayza aawotuu neena naak'k'eeddo."
+        },
+        {
+          "number": "7",
+          "text": "Nuuni ne bollan loytsi iita nagaraa ootseeddo; neeni ne k'oomaa Muse bagganna nuu immeedda azazuwaa, wogaanne higgiyaa naagibeykko."
+        },
+        {
+          "number": "8",
+          "text": "Ne k'oomaa Musew neeni hawaadan yaagaadde odeedda k'aalaa hayyanaa k'oppa; ‹Hinttenoo, Israa'eeliyaa asatoo, hinttenttu taw ammanettennan is's'ooppe, taani hinttentta Ayhuda gidenna biittatuwaan laalana."
+        },
+        {
+          "number": "9",
+          "text": "Shin hinttenttu taakko simmiide, ta azazuwaa naagooppe, hinttenttu haray atto sa'aa gas'aa gakkanaw laalettinttokka, taani hinttenttu taw goynnana mala, taani ta suntsaw dooreedda sa'aw zaaraadde shiishshana› geeddawaa k'oppa."
+        },
+        {
+          "number": "10",
+          "text": "«Hawanttu neeni ne wolk'k'aama wolk'k'aaninne ne mino k'esiyaan woza akkeedda ne k'oomatuwaanne ne asatuwaa.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Abeet Med'etaa Godaw, taani ne k'oomay woossiyaa woosaanne neena bonchchanaw dosiyaa, ne k'oomatuwaa woosaa ne haytsay siso. Taani ne k'oomay hachche ootsanaw koyeeddabay taw ushechchanaadan, kaatiyaa wozanaa shugissaade taana maadda» yaagaad.",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Taani he wode kaatiyaw eessaa tigiyaawaa."
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "8",
+          "marker": "Translator/editor note",
+          "text": "- Wog. 26:33",
+          "note_type": "translator_note",
+          "source_reference": "1:8"
+        },
+        {
+          "verse": "9",
+          "marker": "Translator/editor note",
+          "text": "- Zar. 30:1-5",
+          "note_type": "translator_note",
+          "source_reference": "1:9"
+        }
+      ],
+      "heading": [
+        "Nahimii Yerusaalame Simusaa",
+        "(1:1—2:20)",
+        "Nahimii Yerusaalame Diraw Un\"etti Wooseedda"
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Ars's'ekissisi kaateteedda laatamantso laytsan, Niisaana giyaa aginaan, itti gallassi kaatiyaa sintsan woyniyaa eessay de'iyaawaa akkaade, taani aw immaad. He gallassaappe attina, kase ubbakka kaatiyaa sintsan kayyotta erikke.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Hewaa diraw, kaatii taana, «Neena sakkiyaabay baawa; shin hawaa keeshshaa ayaw kayyottaadii? Hawe ne wozanaa kayyoyyeeddabay itti ayentto de'iyaawaa besse» yaageedda.",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Hewaappe guyye taani loytsa yayya zaaraadde,"
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "text": "«Kaatii med'inaw de'o! Ta mayza aawotuu moogetteedda katamay kolettiide d'ayina, k'ay he katamaa gimbbiyaa dirssaa penggetuukka taman s'uugettikichchina, taani ayaw kayyottikkitaa?» yaagaad."
+        },
+        {
+          "number": "4",
+          "text": "Kaatiikka zaariide, «Yaatina, ha\"i taani new ayaa ootsanaadan koyay?» yaageedda.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Taani saluwaa S'oossaa woossa simmaade,"
+            }
+          ]
+        },
+        {
+          "number": "5",
+          "text": "kaatiyaa hawaadan yaagaad; «Kaatiyaw, Taani neena nashechchiyaawaa gidooppe, k'ay ta oochchiyaawaa neeni immanaw dosooppe, Yihudaa biittaa, ta mayza aawotuu moogetteedda katamaa baade, he katamaa zaaraadde kees's'ana mala, taana yeddaarikkii»."
+        },
+        {
+          "number": "6",
+          "text": "He wode, kaatata Kaatiyaa Ars's'ekisisa ellekka utti de'ishshin, kaatii, «Ne biyaa ogii woyssa wodiyaa akkanawee? K'ay neeni awude simmanii?» yaagiide taana oochcheedda. Taanikka ta simmana wodiyaa aw odaad; kaatii nashettiidde, taana yeddeedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "K'aykka kaatiyaa taani hawaadan yaagaad; «Kaatiyaw, neena nashechchiyaawaa gidooppe, taani Yihudaa gakkanaw, he biittaana aad'aadde baana mala, Efiraas'iisa Shaafaappe away wulliyaa Bagga Biittaa mooddiyaawanttoo dabddaabbii s'aafetto.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "K'ay Geeshsha Golliyaa gimbbiyaa dirssaa penggiyaa giigissanaw, katamaa gimbbiyaa dirssaa diranawunne taani de'iyaa golliyaa kees's'anaw taw mitsaa immana mala, kaatiyaa wora naagiyaa Asaafawukka dabddaabbii s'aafetto» yaagaad. S'oossaa lo\"o kushii taananna de'iyaa diraw, kaatii taani oochcheeddawaa ubbaa immeedda."
+        },
+        {
+          "number": "9",
+          "text": "Kaatii taananna amareeda olaa gadaawatuwaanne paraa asatuwaa yeddeedda; unttunttunna ittippe Efiraas'iisa Shaafaappe away wulliyaa bagga biittaa baade gakkaade, kaatii yeddeedda dabddaabbiyaa he gadiyaa mooddiyaawanttoo immaad.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Shin Beeti-Horoona gade asaa gideedda Sanbbalaas'inne Amoona gadiyaa kaappuwaa gideedda S'oobbii, «Israa'eeliyaa asaw lo\"obaa ootsiyaa Asay yeedda» giyaawaa siseedda wode, loytsi hank'k'eteeddino."
+        },
+        {
+          "number": "11",
+          "text": "Taani Yerusaalame yaade heezzu gallassaa yaan gam\"aad.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Nahimii Yerusaalame Gimbbiyaa Dirssaabaa S'eeleedda"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Gido shin, Yerusaalamew taani ootsanaadan ta S'oossay ta wozanaan wotseedda k'ofaa oonne odabeykke. Hewaappe guyyiyaan, taananna de'iyaa asaappe amareedawantta akkaade, k'amman denddaade baad. He wode taani toggeeddawaappe hara togaa mehii nuw baawa."
+        },
+        {
+          "number": "13",
+          "text": "Taani bilahiyaan denddaade, Zanggaaraa gimbbiyaa dirssaa Penggiyaanna kesaade, Dawiyaa Pulttuwaa geetettiyaa sa'aanna aad'd'a, Pituwaa Oliyaa gimbbiyaa dirssaa Penggiyaa geetettiyaa penggiyaa gakkanaw baaddi. Hewaan koletteedda Yerusaalame gimbbiyaa dirssaanne k'ay tamaan s'uugetteedda gimbbiyaa dirssaa penggetuwaa akeekaade s'eellaaddi."
+        },
+        {
+          "number": "14",
+          "text": "Hewaappe simmaade, Pulttuwaa gimbbiyaa dirssaa Penggiyaakkonne dagatteedda kaatiyaa haatsay de'iyaa sa'aa baad. Gido shin, taani toggeedda togaa mehii aad'd'iyaa ogiyaa demmabeykke."
+        },
+        {
+          "number": "15",
+          "text": "Hewaa diraw, k'amman haatsay goggiyaa kakkaa gidduwaana aad'd'a gimbbiyaa s'eellaad. Hewaappe guyyiyaan, guyye simmaade Zanggaaraa Penggiyaanna katamaa gelaad."
+        },
+        {
+          "number": "16",
+          "text": "Hewan de'iyaa kaappatuwaappe ooninne taani hak'a baaditantto, woy k'ay ayaa ootsaadditanttonne eribeenna. Ayaw gooppe, taani Ayhudatoo, k'eesatoo, bonchchetteedda asatoo, kaappatoonne kiitaa kiitetanaw de'iyaa asaappe oonne ta k'ofaa biro odabeykke.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "Hewaappe guyyiyaan, taani unttunttoo hawaadan yaagaad; «Nuuni ay mala metuwaa gidduwaan de'intto be'iita; ayaw gooppe, Yerusaalame katamay koletteedda; k'ay gimbbiyaa dirssaa penggetuukka taman s'uugetteeddino. Shin hawaappe sintsaw nuuni hawaadan kawushiide de'ennaadan, ane denddiide, Yerusaalame gimbbiyaa dirssaa zaaretsiide gimbboytte» yaagaad."
+        },
+        {
+          "number": "18",
+          "text": "K'ay ta S'oossaa lo\"o kushii taananna de'iyaawaanne kaatii taw odeeddawaa ubbaa unttunttoo odaaddi.",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Unttunttukka, «Ane denddoyttenne zaaretsiide gimbboytte» yaageeddino. Barenttu kushiyaa lo\"o oosoo miniseeddino."
+            }
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Shin Beeti-Horoona gadiyaa asaa gideedda Sanbbalaas'i, Amoona gadiyaa oosanchchaa gideedda S'oobbiinne Araba gadiyaa asaa gideedda Geesheemi hawaa siseedda wode, nu bollan k'iliic'iide miic'c'eeddino. K'ay, «Hawe hinttenttu ootsiyaabay ayee? Woy k'ay kaatiyaa bollan makkalanaw koyiitee?» yaagiide oochcheeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Taani zaaraadde, «Saluwaa S'oossay nuw injjeyana; nuuni Aa k'oomatuu gimbbiyaa doommana. Shin Yerusaalamen de'iyaabaappe hinttentta gakkiyaa gishuwaa gidina, maataa gidina, woy hinttenttu dogettennaadan k'ofissiyaabay hinttenttoo baawa» yaagaad.",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "3",
+          "marker": "Translator/editor note",
+          "text": "- 2 Kat. 25:8-10; 2 Od. 36:19; Erm. 52:12-14",
+          "note_type": "translator_note",
+          "source_reference": "2:3"
+        }
+      ],
+      "heading": [
+        "Nahimiinne Ars's'ekisise Yerusaalamebaa Haasayeeddino"
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Hewaappe guyyiyaan, k'eese ubbatuwaa kaappuu Eliyaashibinne hara k'eesatuu Dorssaa Penggiyaa gimbbiyaa dirssaa zaaretsi gimbbiide, S'oossaw dummayeeddino; sank'k'aakka aatseeddino. Unttunttu S'eetu Adussa maammaanne Hanaani'eela Adussa Maammaa gakkanaw gimbbeedda gimbbiyaa S'oossaw dummayeeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Unttunttu gas'aan de'iyaa sa'aa Iyaarkko Asay gimbbeedda.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Unttunttu gas'aan de'iyaa sa'aa Imira na'ay Zakkuuri gimbbeedda."
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "text": "Hassinaa'a naanay Moliyaa Penggiyaa gimbbiyaa dirssaa gimbbeeddino. Unttunttu pengge mitsaa essiide, sank'k'aakka aatseeddino; k'ay sank'k'aw gorddiyaa mitsaanne mitsaa gelissiyaa kulbbuwaa giigisseeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "Unttunttu gas'aan de'iyaa sa'aa Hak'k'oos'a na'aa gideedda Ooriyoona na'ay Maremooti gimbbeedda.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Aa gas'aan de'iyaa sa'aa Mashezaabeela na'aa Berekiyaa na'ay Mashulaami gimbbeedda."
+            },
+            {
+              "source_marker": "p",
+              "text": "Aa gas'aan de'iyaa sa'aa Ba'aana na'ay S'aadook'e gimbbeedda."
+            }
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Aa gas'aan de'iyaa sa'aa Tak'o\"a katamaa asatuu gimbbeeddino; gido shin, he katamaa kaappatuu barenttoo imetteedda kiitaa is's'eeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "Paaseeha na'ay Yoodaahenne Basoodiyaa na'ay Mashulaami ec'a Penggiyaa gimbbiyaa dirssaa gimbbeeddino. Unttunttu pengge mitsaa essiide, sank'k'aakka aatseeddino; k'ay sank'k'aw gorddiyaa mitsaanne mitsaa gelissiyaa kulbbuwaa giigisseeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Unttunttu gas'aan de'iyaa sa'aa Gabaa'oona katamaa asaa gidiyaa Malaas'eenne Meronoota katamaa asaa gideedda Yadooni gimbbeeddino. K'ay Gabaa'oonanne Mis'ip'p'a katamatuwaa asatuukka unttunttunna ittippe gidiide, Efiraas'iisa Shaafaappe awaay wulliyaa Bagga Biittaa mooddiyaawe de'iyaa golliyaa gakkanaw de'iyaa sa'aa gimbbeeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Work'k'aa tigiyaa Harihaaya na'ay Uuzi'eeli unttunttu gas'aan de'iyaa sa'aa gimbbeedda. K'ay Aa gas'aan de'iyaa sa'aa shittuwaa med'd'iyaa Hanaanii gimbbeedda. Unttunttu laa\"u ittippe Aako Gimbbiyaa geetettiyaa sa'aa gakkanaw, Yerusaalame gimbbiyaa gimbbeeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Unttunttu gas'aan de'iyaa sa'aa Huura na'ay, Yerusaalame woradaa shaakuwaa mooddiyaa Rafaayi gimbbeedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Harumaafa na'ay Yadaayi bare golliyaappe sintsa baggana de'iyaa sa'aa gimbbeedda.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Aa gas'aan de'iyaa sa'aa Hashaabaniyaa na'ay Has's'uushi gimbbeedda."
+            }
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Hariima na'ay Malkkeenne Paahati-Moo'aaba na'ay Hashshuubi Aa gas'aan de'iyaa sa'aanne Ittoonne Adussa Gimbbiyaa gimbbeeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Unttunttu gas'aan de'iyaa sa'aa Halloheesha na'ay, Yerusaalame woradaa laa'entso shaakuwaa mooddiyaa Shaaluuminne Aa mac'c'a naanay gimbbeeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Hanuuninne Zaanoha kataman de'iyaa asatuu ittippe Zanggaaraa Penggiyaa gimbbiyaa dirssaa gimbbeeddino. Unttunttu penggiyaan sank'k'aa aatsiide, sank'k'aw gorddiyaa mitsaanne mitsaa gelissiyaa kulbbuwaa giigisseeddino. K'ay Pituwaa Oliyaa Penggiyaa gimbbiyaa dirssaa gakkanaw, sha\"a wad'aa adussa gimbbiyaa gujjiide gimbbeeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Rekaaba na'ay, Beeti-Hakkareema woradaa mooddiyaa Malkkii Pituwaa Oliyaa Penggiyaa gimbbiyaa dirssaa gimbbeedda. Penggiyaan sank'k'aa aatsiide, sank'k'aw gorddiyaa mitsaanne mitsaa gelissiyaa kulbbuwaa giigisseedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Kolihooza na'ay, Mis'ip'p'a woradaa mooddiyaa Shaaluumi Pulttuwaa Penggiyaa gimbbiyaa dirssaa zaaretsiide gimbbeedda. I penggiyaw s'eeraa giigisseeddawaappe guyyiyaan, sank'k'aa aatseedda; sank'k'aw gorddiyaa mitsaanne mitsaa gelissiyaa kulbbuwaa giigisseedda. Hewaa bollakka k'ay, Shelaaha geetettiyaa dagatteedda haatsay de'iyaa baggana kaatiyaa ataakilttiyaa sa'aappe doommiide, Daawita Katamaappe yeedda atakilttiyaa gakkanaw de'iyaa gimbbiyaa gimbbeedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "Hewaappe kaalliyaawaa Azibuuk'a na'ay, Beetis'uura woradaa shaakuwaa mooddiyaa Nahimii gimbbeedda; I Daawita duufuwaappe sintsa baggana de'iyaa sa'aa gakkanaw, dagatteedda haatsay de'iyaa sa'aa gakkanawunne wolk'k'aamatuwaa golliyaa gakkanaw de'iyaa sa'aa gimbbeedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "Hewaappe kaalliyaawaa Baana na'aa Rehuuma aawotetsaa giddon de'iyaa, Leewatuu gimbbeeddino.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Leewatuu Gimbbiyaa Dirssaa Direeddino"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Unttunttu gas'aan de'iyaa sa'aa K'a'iila woradaa shaakuwaa mooddiyaa Hashaabii bare woradaa suntsan gimbbeedda."
+            }
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Aappe kaalliyaawaa Henadaada na'ay, K'a'iila woradaa laa'entso shaakuwaa mooddiyaa Bawaayinne Aa ishatuu gimbbeeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Unttunttu gas'aan de'iyaa sa'aa Iyyaasu na'ay, Mis'ip'p'a woradaa mooddiyaa Es'eeri gimbbeedda; I olaa miishshaa wotsiyaa golliyaappe sintsa baggana de'iyaa sa'aa gakkanawunne gimbbiyaw zooziyaa gakkanaw de'iyaa sa'aa gimbbeedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Aappe kaalliyaawaa Zabbaaya na'ay Baaruki gimbbiyaa gas'aappe doommi, biide k'eesiyaa ubbatuwaa kaappuwaa Eliyaashiba golliyaa penggiyaa gakkanaw, minotetsan gimbbeedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "Aappe kaalliyaawaa Hak'k'oos'a na'aa gideedda Ooriyoona na'ay Maremooti Eliyaashiba golliyaa penggiyaappe doommi, biide golliyaa wurssetsaa gakkanaw gimbbeedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "Aappe kaalliyaa heera gadiyaan de'iyaa k'eesatuu gimbbeeddino.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "K'eesatuu Gimbbiyaa Dirssaa Direeddino"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "Unttunttuppe kaalliyaawaa Biiniyaamenne Hashshuubi barenttu golliyaa sintsan de'iyaa sa'aa gimbbeeddino.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Unttunttuppe kaalliyaawaa Anaaniyaa na'aa gideedda Ma'iseeya na'ay Azaare bare golliyaa miyyiyaan de'iyaa sa'aa gimbbeedda."
+            }
+          ]
+        },
+        {
+          "number": "24",
+          "text": "Aappe kaalliyaawaa Azaariyaa golliyaappe doommi, biide gimbbii zuuk'eti simmo sa'aa gakkanaw de'iyaa sa'aa Henadaada na'ay Biinuyi gimbbeedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "Uzaaya na'ay Paalaali gimbbiyaa zuuk'eti simmo saappe doommi, biide naagiyaawanttu wochchiyaa maammaappe k'ommo baggana oyk'k'etti kees'eteedda kaatiyaa golliyaa d'ok'k'a gimbbiyaa sintsa gakkanaw de'iyaa sa'aa gimbbeedda.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Aappe kaalliyaawaa Par\"oosha na'ay Padaayinne"
+            }
+          ]
+        },
+        {
+          "number": "26",
+          "text": "Geeshsha Golliyaa k'oomatuu, Ofeelan de'iyaawanttu gimbbeeddino; unttunttu Haatsaa Penggiyaa gimbbiyaa dirssaa sintsanna away doliyaa baggana de'iyaa sa'aanne maammaa gimbbiyaa gakkanaw de'iyaa sa'aa gimbbeeddino."
+        },
+        {
+          "number": "27",
+          "text": "Unttunttuppe kaalliyaawaa Tak'o\"a katamaa Asay gimbbiyaappe sintsan hara baggana de'iyaasaappe biide, Ofeela gimbbiyaa dirssaappe haakki de'iyaa wolk'k'aama maammaa gimbbiyaa gakkanaw de'iyaa sa'aa gimbbeeddino.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Gimbbiyaa Dirssaa Direedda Haraa Asatuwaa"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "Itti itti k'eesatuu kka Paraa Penggiyaa gimbbiyaa dirssaappe k'ommonna de'iyaa barenttu golliyaa sintsanna, huup'issa baggana de'iyaa sa'aa gimbbeeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "29",
+          "text": "Unttunttuppe kaalliyaawaa Imeera na'ay S'aadook'e bare golliyaa sintsan de'iyaa sa'aa gimbbeedda.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Aappe kaalliyaawaa Away doliyaa Penggiyaa naagiyaa Shakaaniyaa na'ay Shamaa'e gimbbeedda."
+            }
+          ]
+        },
+        {
+          "number": "30",
+          "text": "Aappe kaalliyaawaa Sheleemiyaa na'ay Hanaaniinne S'alaafaw usuppuntsa na'aa gideedda Hanuuni gimbbeeddino.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Unttunttuppe kaalliyaawaa Berekiyaa na'ay Mashulaami bare de'iyaa kifiletuwaa sintsan de'iyaa sa'aa gimbbeedda."
+            }
+          ]
+        },
+        {
+          "number": "31",
+          "text": "Aappe kaalliyaawaa S'omoosiyaa gimbbiyaa dirssaa Penggiyaa sintsan de'iyaa Geeshsha Golliyaa k'oomatuunne zal\"anchchatuu golliyaa gakkanaw de'iyaa sa'aa work'k'aa tigiyaa Malkki gimbbeedda. K'aykka I gimbbiyaa gas'an bolla baggana de'iyaa kifiliyaa gakkanaw de'iyaa sa'aakka gimbbeedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "32",
+          "text": "Work'k'aa tigiyaawanttunne zal\"anchchatuu he kifiliyaappe doommiide, Dorssaa Penggiyaa gimbbiyaa dirssaa gakkanaw de'iyaa sa'aa gimbbeeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Yerusaalame Dirssaa Asay Zaaretsi Gimbbeedda",
+        "(3:1—7:73)"
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Nuuni gimbbiyaa dirssaa kiitaa doommeeddawaa Sanbbalaas'i siseedda wode hank'k'uwaa ees's'i kesseedda; k'ay loytsi yilotiide, nuuna k'iliic'eedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Bare laggetuwaanne Samaariyaa olanchchatuu sintsan I hawaadan yaageedda; «Hawanttu, ha patsena Ayhudatuu ayaa ootsiinoo? Katamaa zaaretsiide gimbbanaw koyiinooyye? Yarshshuwaakka yarshshanaw koyiinoo? Oosuwaa itti gallassi wurssanawaa unttunttoo malatiiyye? Gimbbiyaw shuchchaa zaari de'uwaan wotsanaw danddayetti?»"
+        },
+        {
+          "number": "3",
+          "text": "Aa miyyiyaan ek'k'eedda Amoona gadiyaa asaa gideedda S'oobbiikka k'ay hawaadan yaageedda; «Unttunttu k'ay ay gimbbiyaa gimbbanaw danddayiino? Unttunttu gimbbiyaa dirssaa gimbbiyaa bollan worakanay kesinttonne kunddi aggana».",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "Hewaappe guyyiyaan, taani hawaadan yaagaadde woossaad; «Nu S'oossaw, unttunttu nuuna woot woot k'iliic'intto hawaa sisa! Unttunttu nuuna shek'k'iyaa shek'ay unttunttu huup'iyaan simmo. Barenttoo de'iyaa ak'uwaa bonk'k'etti kichchiide, allaga gadiyaan omoodetteedda asaa gidino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Unttunttu naak'uwaa gentsoppa; unttunttu nagaraakka ne sintsaappe mule k'uc'c'oppa. Ayaw gooppe, gimbbiyaa gimbbiyawantta nuuna shek'an kawushsheeddino»."
+        },
+        {
+          "number": "6",
+          "text": "Nuuni gimbbiyaa dirssaa oosuwaa aggenaan ootseeddo. K'ay asaykka oosuwaa minotetsan ootsiyaa diraw, gimbbiyaa dirssaa d'ok'k'atetsay ellekka bakkaa keeshshaa gidi aggeeda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Sanbbalaas'i, S'oobbii, Araba gadiyaa asay, Amoona gadiyaa asaynne Ashidooda katamaa Asay Yerusaalame gimbbiyaa dirssaa kiittay lo\"o hanotetsan oosettiidde de'iyaawaanne koleteedda sa'atuukka baretteeda wode loytsi hank'k'eteeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Hewaappe denddeeddawaan ittippe Yerusaalame yiide nuuna olanawunne shabbirisanaw mak'etteeddinno."
+        },
+        {
+          "number": "9",
+          "text": "Shin nuuni nu S'oossaakko woosseeddo; unttuttuppe denddeeddawaan k'ammanne gallassi naagiyaa naaganchchatuwaakka wotseeddo."
+        },
+        {
+          "number": "10",
+          "text": "He wodiyaan Yihudaa Asay hawaadan yaageeddino; «Tookuwaa tookkiyaawe kasewaappe nuuna labbantsee; k'ay dentsanaw koshshiyaa gimbbiyaappe koletteedda daro shuchchaykka biro de'ee. Yaatina, nuuni hachche ha gimbbiyaa wootiide gimbbanaw danddayeetto?»",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Nu morkketuu, «Nuuni biide unttunttu giddo gakkanaw, unttunttu oosuwaa ootsennaadan te\"anawunne unttuntta wod'ana gakkanaw, unttunttu erikkino» yaageeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Gido shin, Ayhudatuu zaari zaari nuukko yiide, «Unttunttu mule baggana yiide, nuuna olanawantta» yaagiide nuw odeeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Hewaa diraw, nu asaappe mashshaa, tooraanne wonddaafiyaa oyk'k'iide asaa unttunttu zariyaan zariyaan maaraade, kiitay wuribeenna heeraan gimbbiyaappe zokko baggana naaganaadan wotsaad.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Asay shabbiretteeddawaa taani be'eedda wode, dendda ek'k'aade, unttuntta, unttunttu kaaletsiyaawanttanne hara kaappatuwaa ubbaa hawaadan yaagaad; «Nu morkketoo yayyoppite! Goday wolk'k'aamanne hoola geetettiyaawaa gidiyaawaa hassayite. Hewaa diraw, hinttenttu zaretoo, hinttenttu attuma naanaatoo, hinttenttu mac'c'a naanaatoo, hinttenttu machchiyawunne hinttenttu golliyaw olettite» yaagaad."
+        },
+        {
+          "number": "15",
+          "text": "Nu morkketuu nuuna k'ohanaw mak'k'eteeddawaa nuuni ereeddawaa unttunttu siseeddino. K'ay S'oossaykka unttunttu mak'k'uwaa hada kesseeddawaa akeekeeddino.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Hewaappe guyyiyaan, nuuni ubbaykka simmiide, nu gimbbiyaa dirssaa oosuwaa doommeeddo."
+            }
+          ]
+        },
+        {
+          "number": "16",
+          "text": "He wodiyaappe doommiide, ta k'oomatuwaappe bakkay oosuwaa ootsiyaa wode, bakkay tiraan wotsiyaa ola miishshaa mayyiide, tooraa, gonddalliyaanne wonddaafiyaa oyk'k'iide naaganaadan ootsaad. K'ay kaappatuukka Yihudaa asaa ubbaappe guyyenna ek'k'iide mintsetsiino."
+        },
+        {
+          "number": "17",
+          "text": "Gimbbiyaa dirssaa gimbbiyaawanttunne koshshiyaawaa tookkiyaawanttu ubbay itti kushiyan ola miishshaa oyk'k'iide, itti kushiyan oosuwaa ootsino."
+        },
+        {
+          "number": "18",
+          "text": "Gimbbiyaa oosuwaa ootsiyaa ubbay mashshaa bare s'eessan danc'c'i danc'c'i utteedda. Malakataa punniyaawekka ubbaa wode taappe shaaketti erenna."
+        },
+        {
+          "number": "19",
+          "text": "Asaa kaaletsiyaawantta, kaappatuwaanne asaa ubbaa taani hawaadan yaagaad; «Gimbbiyaa dirssaa kiitay wolk'k'aamanne loytsi aaka gidiyaawaappe denddeeddawaan, nuuni ittuu ittuwaappe shaakettiide haakkeeddo.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Hewaa diraw, hinttenttu malakataa punaa sisiyaa wode, I punettiyaa sa'aa taakko haa shiik'ite. Nu S'oossaykka nu diraw olettanawaa»."
+        },
+        {
+          "number": "21",
+          "text": "Oosuwaa wonttumaatsa saluu zo\"iyaa wodiyaappe doommiide, omarssi s'oolinttii kessana gakkanaw ootsiyaa wode ubbaan, baggay ootsiyaa wode, baggay tooraa oyk'k'iide naagiino."
+        },
+        {
+          "number": "22",
+          "text": "He wode taani asaw hawaadan yaagaad; «K'amman nuuna naaganawunne gallassi k'ay kiitaa ootsanaw hinttenttu ubbaykka hinttenttu k'oomatuukka Yerusaalamen ak'ite».",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "Hewaa diraw, taana gidina, ta ishatuwaa gidina, ta k'oomatuwaa gidina, woy k'ay taana naagiyaawantta gidinakka, nuuni ubbaykka nu mayuwaa kessennaan ak'eetto; k'ay nu ola miishshaykka, nuuppe ubbakka shaakettenna."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Gimbbi Shiretti Gimbbetennaadan Digganaw Denddeedda K'ofaa"
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Attumawenne mac'c'awe barenttu zariyaa gideedda Ayhudatuu bollan wolk'k'aama c'abbuwaa kesseeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Unttunttu hawaadan yaageeddino; «Nuuni, nu attuma naanaynne nu mac'c'a naanay c'ora; hewaa diraw, nuuni miide pas'a de'ana mala, nuw katsay koshshee»."
+        },
+        {
+          "number": "3",
+          "text": "Haratuu k'ay, «Nuuna gakkeedda iita koshaappe nuuna ashshiyaa k'umaa demmana giidde, nu goshshay, nu woyniyaa turaa sa'aynne nu keetsay attenan asaw oytseeddo» yaageeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "Haratuukka k'ay hawaadan yaageeddino; «Nu goshshawunne nu woyniyaa turaa saatoo kaatii oochcheedda giiraa c'igganaw miishshaa tal\"iyaa akkeeddo.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Ayhuda zaratuwaanna nuuni itti ashuwaa; nu naanaykka unttunttu naanaa mala. Shin nuuni nu yeleedda naanaa ayiletetsaw aatsiide immanaw giddetteeddo; ubbaa k'ay nu mac'c'a naanatuwaappe ittuu ittuu ayiletetsaw zal\"etteeddino. Gidooppenne, nu goshshaynne nu woyniyaa turaa sa'atuu nuuppe aketti diggo diraw, nuuni ayinne ootsanaw danddayokko»."
+        },
+        {
+          "number": "6",
+          "text": "Unttunttu c'abbuwaanne ha k'aalaa taani siseedda wode, loytsa hank'k'ettaad.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Ootsanawaa ta wozanaan k'oppaade, asaa kaaletsiyaawanttanne kaappatuwaa s'eesaade: «Hinttenttu hinttenttu zaratuwaa yeluwaa c'iggissiyaawan uk'k'unniita» yaagaadde unttuntta mootaaddi.",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "He metuwaabaa haasayiide billanaw wolk'k'aama shiik'uwaa unttunttunna udaad."
+            }
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Hawaadan yaagaaddi; «Ayhuda gidennawanttoo zal\"etteedda Ayhuda zariyaa gideedda nu ishatuwaa wozanaw nuuni nu wolk'k'ay danddayeeddawaa ubbaa ootseeddo. Shin hinttenttu k'ay, hinttenttu ishatuwaa gideedda hinttenttu zariyaa hinttenttoo barentta zal\"ana mala ootsiide de'iita». Kaaletsiyaawanttoo zaariyaa k'aalay d'ayina, c'o\"u yaageeddino."
+        },
+        {
+          "number": "9",
+          "text": "Taani k'aykka hawaadan yaagaad; «Hinttenttu ootsiyaabay likke gidenna; nu morkketuu, Ayhuda gidennawanttu nu bollan k'iliic'enna mala, nu S'oossaw yayyanawunne likke gidiyaabaa ootsanaw hinttenttoo bessennee?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Taani ta huup'iyaw, ta ishatuwaanne ta k'oomatuukka unttunttoo miishshaanne katsaa tal\"eeddo; gido shin, ane unttunttuppe yeluwaa akiyaawaa aggoytte."
+        },
+        {
+          "number": "11",
+          "text": "Unttunttu goshshatuwaa, woyniyaa turaa sa'atuwaa, zayitiyaa wogaratuwaanne golletuwaa ubbaakka unttunttoo hachche zaarite. K'ay miishshan, katsaan, woyniyaa eessan gidina zayitiyaan, hinttenttu unttunttuppe akkeedda s'eetuwaappe itti kushiyaa yeluwaa ubbaa unttunttoo ellekka zaarite»."
+        },
+        {
+          "number": "12",
+          "text": "Unttunttukka zaariide, hawaadan yaageeddino; «Nuuni ubbabaakka unttunttuwaa zaariide, unttunttoo immana; unttuntta ayaanne oochchokko. Neeni gaadde de'iyaawaadan, nuuni ootsana».",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Hewaappe guyye k'eesetuwaa haa taakko s'eegaade, barenttu geedda k'aalaa polana mala, c'aak'k'etsanaadan ootsaad."
+            }
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Hewaappe guyyiyaan, ta mayuwaa k'ok'k'ofaade hawaadan yaagaad; «Ooninne hintteppe bare geedda k'aalaa polennan d'ayooppe, S'oossay Aa hawaadan Aa golliyaappenne Aa ak'uwaappe k'ok'k'ofo; ikka k'ok'k'ofettiide mela atto».",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Shiik'eedda Asay ubbay itti k'aalan, «Amen\"i» yaagiide Med'ina Godaa galateeddino. Asay ubbay bare c'aak'k'eeddawaadan ootseedda."
+            }
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Ars's'ekissisi kaateteedda laatamantso laytsaappe biide, hattamanne laa'entso laytsaa gakkanaw, taani Yihudaa mooddiyaawaa gidaade suntsettaad. He tammanne laa\"u laytsan, taana gidina woy ta ishatuu mooddiyaawoo bessiyaa k'umaa dirgguwaa akkibeykko.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Nahimiyaa Garatetsaa"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Shin taappe kasena mooddiyaawanttu asaw dees'o tookko gidiide, hachche hachche katsawunne woyniyaa ushshaw oytamu s'agaraa biraa c'iggisseeddino. Haray atto ayissiyawanttu k'oomatuukka barenttu asaa bollan godaa malatissiidde gam\"eeddino. Gidooppenne, taani S'oossaw yayyeedda diraw, hewaadan ootsabeykke."
+        },
+        {
+          "number": "16",
+          "text": "Taanatetsaa ubbaa Yerusaalame gimbbiyaa dirssaa oosoo immaaddippe attin, ta huup'ew ay gadiyanne shammabeykke. Ta k'oomatuukka ubbay taananna he kiitaan ittippe gam\"eeddino."
+        },
+        {
+          "number": "17",
+          "text": "Nu heeraan de'iyaa Ayhuda gidennawanttuppe nuukko yeedda Asay baynnan de'ishshin, hachche hachche taananna ta masoofiyan miyaa Ayhudatuunne unttuntta kaaletsiyaawanttu paydu s'eetanne ishatama."
+        },
+        {
+          "number": "18",
+          "text": "Hachche hachche itti booraa, usuppun dooretteedda dorssatuwaanne daro kuttotuwaa shukki shukkiide, asaw shiishshino; k'ay tammu gallassan itti gede daro baatsaa woyniyaa eessaa unttunttoo agiino. Shin asaa bollan de'iyaa tookuu dees'uwaa gidiyaawaa taani eriyaa diraw, gadiyaa mooddiyaawoo bessiyaa k'umaa dirgguwaa oochchabeykke."
+        },
+        {
+          "number": "19",
+          "text": "«Ta S'oossaw, taani ha asaw ootseedda lo\"otetsaa ubbaa k'oppaade, tawukka lo\"otetsaa ootsa» yaagaad.",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "7",
+          "marker": "Translator/editor note",
+          "text": "- Kes. 22:25; Wog. 25:35-37; Zar. 23:19-20",
+          "note_type": "translator_note",
+          "source_reference": "5:7"
+        }
+      ],
+      "heading": [
+        "Hiyyeesatuu Naak'etteenaadan Nahimi Ootseedda"
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Sambbalaas'i, S'oobbii, Araba gadiyaa asaa gidiyaa Gesheeminne hara nu morkketuu nuuni gimbbiyaa dirssaa ootsiidde poleeddawaanne k'ay oosettibeenna pac'a sa'aykka ittuunne attibeenawaa siseeddino. Gido shin, nuuni gimbbiyaa dirssaa penggetuwaan biro sank'k'aa gelissibeykko.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Hewaa unttunttu siseedda wode, Sanbbalaas'inne Gesheemi hawaadan yaagiide, taakko kiitteeddino; «Oona geetettiyaa dembban de'iyaa k'eeri katamatuwaappe ittuwaan yaade nuunanna gaketta». Shin unttunttu ta bolla iitaa ootsanaw mak'etteeddinno."
+        },
+        {
+          "number": "3",
+          "text": "Hewaa diraw, taani unttunttoo hawaadan yaagaadde zaara kiitanchchatuwaa kiittaad; «Taw daro kiitay de'ee; hewaa diraw, taani hinttenttu giyaa sa'aa baanaw danddaykke. Taani duge hinttenttukko biina, kiittay ayaw d'ubettii?»",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "He kiitaa zaari zaari oyddu gede taakko kiitteeddino; shin taani itti mala zaaruwaa unttunttoo immaad."
+        },
+        {
+          "number": "5",
+          "text": "Ichcheshentsuwaan Sambbalaas'i bare k'oomaa bolla dooyaa de'iyaa dabddaabbiyaa taakko kiitteedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "Dabddaabbiikka hawaadan yaagee; «Neeninne ne zariyaa gideedda Ayhudatuu makkalanaw k'oppeeddawaanne hewaappe denddeeddawaan gimbbiyaa dirssaa gimbbiyaawaa shooro gadiyaan de'iyaa Asay ubbay haasayiyaawaa Gesheemi taw odeedda. K'ay neeni neena kaatiyaa kessanaw koyiyaawaanne;"
+        },
+        {
+          "number": "7",
+          "text": "neeni Yihudaa kaatiyaa gidiyaawaa Yerusaalamen awaayana mala, timbbitiyaa odiyaawantta ne wotseeddawaakka I taw odeedda. Ha waariyaa kaatii sisusay attena. Hewaa diraw, taananna gakettaade zorettanaw haaya»."
+        },
+        {
+          "number": "8",
+          "text": "Taanikka, «Ha neeni giyaa yewuwaa ubbay ubbakka tuma gidennawaanne neeni c'oo med'd'eeddawaa» yaagaadde zaaraad.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Nu ootsiyaa kiittay polettenna mala, «Unttunttu kushii oosoo daaburi kichcheedda» yaagiide unttunttu nuuna yashissiidde gam\"eeddino.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Hewaa diraw, «Nu S'oossaw ha\"i taana mintsetsaarkkii» yaagaadde taani woossaad."
+            }
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Hewaappe guyyiyaan, sooppe kessennaadan gorddi wotseedda Mahes'aabi'eela na'aa na'aa Dalaaya na'aa Shamaa'iyaakko baad. I taw hawaadan yaageedda; «Itti k'amma awudentto unttunttu neena wod'anaw yaana de'iyaa diraw, neeninne taani S'oossaa Golliyaa giddo geliide, S'oossaa Geeshsha Golliyaa giddon S'oossaa Geeshsha Golliyaa penggetuwaa gorddiidde gaketoytte».",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Taani hawaadan yaagaadde zaaraad; «Taana malatiyaa Asay bak'atii? Woy k'ay taana malatiyaa Asay Geeshsha Golliyaa giddo geliide, bare shemppuwaa ashshii? Taani hewaa ubbakka ootsikke».",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Ta yewuwaa k'oppiyaa wode, tumukka Aa S'oossay kiitteedda timbbitiyaa odiyaawaa gidennawaanne S'oobbiinne Sanbbalaas'i Aa miishshan shammeedda diraw, ta bolla worddo timbbitiyaa odiyaawaa gidiyaawaa akeekaaddi."
+        },
+        {
+          "number": "13",
+          "text": "I miishshan shametteedda gaasuu taani yayaade, I giyaawaadan ootsaade taani nagaran gelanaaddaana. Yaatina, unttunttu ubbay hewaa siseedda wode, taana kad'isiyaabaa ta bollan demmanaassa."
+        },
+        {
+          "number": "14",
+          "text": "«Ta S'oossaw, S'oobbiinne Sanbbalaas'i ootseeddawaa k'oppa. No'aado geetettiyaa mac'c'a timbbitiyaa odiyaananne hara timbbitiyaa odiyaawanttu ubbay taana yashissanaw unttunttu ootseeddawaa ubbaakka k'oppa» yaagaad.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Gimbbiyaa dirssaa kiitay ishatamanne laa\"u gallassan, Eluula geetettiyaa aginaan laatamanne ichcheshantso gallassan poletteedda.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Gimbbiyaa Dirssaa Oosuu Poletteedda"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "Nu yuushshuwaan de'iyaa kawutetsatuwaa giddon de'iyaa nu morkketuu hewaa siseedda wode yayyeeddinonne yeellateeddino. Ayaw gooppe, hawe kiitay nu S'oossay maaddina oosetteeddawaa akeekeeddino."
+        },
+        {
+          "number": "17",
+          "text": "He wodiyaan Ayhudatuwaa kaaletsiyaawanttu S'oobbiyaw c'ora dabddaabbetuwaa s'aafeeddino; S'oobbi zaariide, unttunttoo s'aafeedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Ayaw gooppe, I Araaha na'aa Shakaaniyaa naatto akkeedda dirawunne Aa na'ay Yahohanaani Berekiyaa na'aa Mashulaama naatto akkeedda diraw, Yihudaappe daratu aanana c'aak'k'eti utteeddino."
+        },
+        {
+          "number": "19",
+          "text": "Unttunttu S'oobbii ootseedda lo\"obaa ubbaa ta sintsan haasayino; k'ay taani giyaawaakka aw odiino. S'oobbiikka taana yashissanaw dabddaabbetuwaa s'aafi yeddee."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Oosuu Oosetti Polettenaadan denddeedda Yewuwaa S'oonuwaa"
+      ]
+    },
+    {
+      "chapter": 7,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Gimbbiyaa kiittay wurina, penggetuwaankka sank'k'ay geleedda. K'ay penggiyaa naagiyaawanttu, mazimuriyaa yes's'iyaawanttunne Leewatuu barenttu kiitaan kiitan geleeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Hewaappe guyyiyaan, Yerusaalame katamaa ayissiyaa maataa ta ishaa Hanaanawunne geessuwaa gadaawaa Hanaaniyaw immaad. Hanaanii hara ubbaappe aad'd'eeda tumanchchanne S'oossaw yayyiyaa asaa."
+        },
+        {
+          "number": "3",
+          "text": "Taani unttuntta hawaadan yaagaadde azazaad; «Wontta away kesiide ho\"ana gakkanaw, Yerusaalame gimbbiyaa penggetuwaa dooyoppite. K'ay omarssi naagiyaawanttu barenttu oosuwaa wurssiide baanaappe kasetiide, penggetuwaa loytsi gorddanaadan ootsite. Hewaa bollakka Yerusaalamen de'iyaa asaappe dooriide, ittuu ittuu kaalaan kaalaan naaganaadaaninne k'ay haratuu barenttu heeraan de'iidde, barenttu golliyaa keeshshaa keeshshaa naaganaadan ootsite» yaagaad."
+        },
+        {
+          "number": "4",
+          "text": "He wode Yerusaalame katamay loytsi aakonne wolk'k'aama; shin Aa giddon de'iyaa asaa paydu loytsi guutsaa. K'ay daro golliikka biro kees'ettibeenna.",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Omooduwaappe Simmeedda Asaa Suntsaa",
+            "(Izr. 2:1-70)"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Hewaappe guyyiyaan, asaa kaaletsiyaawantta, kaappatuwaanne asaa ubbaa shiishshaade unttunttu yeletaa maaran maaran mazggabana mala, S'oossay taana k'ofisseedda. Omooduwaappe kasetiide simmeedda asaa yeletaa maaraa mas'aafaakka demmaad; he mas'aafan s'aafetteeddawe hawaa."
+        },
+        {
+          "number": "6",
+          "text": "Baabloone Kaatii Naabukadanas'oore omoodiide, bare gadiyaa afeedda asaappe guyye barenttu katamaa katamaa Yerusaalamenne Yihudaa simmeedda asatuu hawaappe kaalliyaawantta.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Unttunttu kaappatuu Zarubaabeela, Iyyaasa, Nahimiyaa, Azaariyaa, Ra'aamiyaa, Nahamaana, Marddikiyoosa, Bilishaana, Misppereeta, Bigiwaaya, Nahuumanne Ba'aana.",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Omooduwaappe simmeedda Israa'eeliyaa asaa paydu hawaa."
+            }
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Par\"oosha yaratuu 2,172.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Shafaas'iyaa yaratuu 372.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Araaha yaratuu 652.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Iyyaasunne Iyoo'aaba naanaa gideedda Paahati-Moo'aaba yaratuu 2,818."
+        },
+        {
+          "number": "12",
+          "text": "Elaama yaratuu 1,254.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Zattu yaratuu 845.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Zakkaaya yaratuu 760.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Biinuya yaratuu 648.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "Bebaaya yaratuu 628.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "Azggaada yaratuu 2,322.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Adoonik'aama yaratuu 667.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Bigiwaaya yaratuu 2,067.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Adiina yaratuu 655.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "Hizk'k'iyaasa yaraa gideedda As'eera yaratuu 98.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "Hashuuma yaratuu 328.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "Bes'aaya yaratuu 324.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "Hariifa yaratuu 112.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "Gabaa'oona yaratuu 95.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "Beeteleemenne Nas'oofa katamatuwaa Asay 188.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "27",
+          "text": "Anaatoota katamaa Asay 128.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "Beeti-Azimaawetuwaa katamaa Asay oytamanne laa\"uwaa.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "29",
+          "text": "K'iriyaati-Yi'aariima, Kafiiranne Ba'eroota katamatuwaa Asay 743.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "Raamanne Gebaa'a katamatuwaa Asay 621.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "31",
+          "text": "Mikimaasa katamaa Asay 122.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "32",
+          "text": "Beeteelenne Ay katamatuwaa Asay 123.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "33",
+          "text": "Laa\"entso Nabo geetettiyaa katamaa Asay 52.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "34",
+          "text": "Laa\"entso Elaama yaratuu 1,254.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "35",
+          "text": "Hariima katamaa Asay 320.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "36",
+          "text": "Yaarikko katamaa Asay 345.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "37",
+          "text": "Looda, Hadiidanne Oono katamatuwaa Asay 721.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "38",
+          "text": "Sanaa'a katamaa Asay 3,930.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "39",
+          "text": "Hawaappe kaaliyaawanttu omooduwaappe simmeedda k'eesetuwaa:",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "li1",
+              "text": "Iyyaasu yara gideedda Yadaaya yaratuu 973;"
+            }
+          ]
+        },
+        {
+          "number": "40",
+          "text": "Imeera yaratuu 1,052;",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "41",
+          "text": "Paashihuura yaratuu 1,247;",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "42",
+          "text": "Hariima yaratuu 1,017.",
+          "source_markers_before": [
+            "li1"
+          ]
+        },
+        {
+          "number": "43",
+          "text": "Hawaappe kaaliyaawanttu omooduwaappe simmeedda Leewatuwaa:",
+          "source_markers_before": [
+            "m"
+          ],
+          "continuations": [
+            {
+              "source_marker": "m",
+              "text": "Hodaawiyaa yara gideedda Iyyaasunne K'aadimi'eela yaratuu 74;"
+            }
+          ]
+        },
+        {
+          "number": "44",
+          "text": "Asaafa yara gideedda mazimuriyaa yes's'iyaawanttu 148;"
+        },
+        {
+          "number": "45",
+          "text": "Geeshsha Golliyaa penggiyaa naagiyaa",
+          "continuations": [
+            {
+              "source_marker": "li1",
+              "text": "Shaaluuma, As'eera, S'almmoona, Ak'k'uuba, Has'iis'anne Shobaaya yaratuu 138."
+            }
+          ]
+        },
+        {
+          "number": "46",
+          "text": "Hawanttu omooduwaappe simmiide,",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "Geeshsha Golliyaan ootsiyaa k'oomatuwaa yaratuwaa:"
+            },
+            {
+              "source_marker": "m",
+              "text": "S'iiha yaratuwaa, Hasuufa yaratuwaa, S'abba'oota yaratuwaa,"
+            }
+          ]
+        },
+        {
+          "number": "47",
+          "text": "K'eeroosa yaratuwaa, Sii'a yaratuwaa, Padoona yaratuwaa,"
+        },
+        {
+          "number": "48",
+          "text": "Labaana yaratuwaa, Hagaaba yaratuwaa, Shalmmaaya yaratuwaa,"
+        },
+        {
+          "number": "49",
+          "text": "Hanaana yaratuwaa, Giddeela yaratuwaa, Gahaara yaratuwaa,"
+        },
+        {
+          "number": "50",
+          "text": "Ra'aaya yaratuwaa, Raas'iina yaratuwaa, Nak'oda yaratuwaa,"
+        },
+        {
+          "number": "51",
+          "text": "Gazzaama yaratuwaa, Uuza yaratuwaa, Paaseeha yaratuwaa,"
+        },
+        {
+          "number": "52",
+          "text": "Besaaya yaratuwaa, Me'uniima yaratuwaa, Nafushesiima yaratuwaa,"
+        },
+        {
+          "number": "53",
+          "text": "Baak'ibuuk'a yaratuwaa, Hak'uufa yaratuwaa, Harihuura yaratuwaa,"
+        },
+        {
+          "number": "54",
+          "text": "Baas'iliita yaratuwaa, Mahiida yaratuwaa, Harshsha yaratuwaa,"
+        },
+        {
+          "number": "55",
+          "text": "Bark'k'oosa yaratuwaa, Sisaara yaratuwaa, Temaaha yaratuwaa,"
+        },
+        {
+          "number": "56",
+          "text": "Nas'iiha yaratuwaanne Has'iifa yaratuwaa."
+        },
+        {
+          "number": "57",
+          "text": "Hawaappe kaaliyaawanttu omooduwaappe simmeedda Solomone k'oomatuwaa yaratuwaa:",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "m",
+              "text": "Sos'aaya yaratuwaa, Sofereeta yaratuwaa, Pariida yaratuwaa,"
+            }
+          ]
+        },
+        {
+          "number": "58",
+          "text": "Yaa'ila yaratuwaa, Dark'k'oona yaratuwaa, Giddeela yaratuwaa,"
+        },
+        {
+          "number": "59",
+          "text": "Shafaas'iyaa yaratuwaa, Has's'iila yaratuwaa, Pokereti-Has's'abayma yaratuwaanne Amoona yaratuwaa."
+        },
+        {
+          "number": "60",
+          "text": "Omooduwaappe simmiide, Geeshsha Golliyaan ootsiyaa k'oomatuwaa yaratuunne Solomone k'oomatuwaa yaratuu paydu ubbaanna 392.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "61",
+          "text": "Haratuukka k'ay, Telmmelaaha, Teliharshsha, Karuuba, Adoonanne Imeera geetettiyaa katamatuwaappe Yerusaalame simmeeddino. Shin unttunttu woy unttunttu aawotuu Israa'eeliyaa sheeshsha gidiyaawaa erissanaw danddayibeykkino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "62",
+          "text": "Hewanttu Dalaaya, S'oobbiyaanne Nak'oda yaratuwaa; unttunttu payduukka ubbaanna 642."
+        },
+        {
+          "number": "63",
+          "text": "K'eesetuwaappe k'ay Hobaaya yaratuu, Hak'k'oos'a yaratuunne Barzzillaaya yaratuu Yerusaalame simmeeddino. Hawe Barzzillaaya giyaawe Gala'aade biittaa asaa gideedda Barzzillaaya naatto akkiidde, bare bolluwaa suntsaa akkeedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "64",
+          "text": "Hawanttu barenttu yeletaa s'ap'uwaa eranaw yeletaa mas'aafan koyeeddino, shin demmibeeykkino. Hewaa diraw, unttunttu tunaadan paydettiide, k'eesetetsan ootsennaadan digetteeddino."
+        },
+        {
+          "number": "65",
+          "text": "K'ay Geeshsha Saamatuwaan shaakki pirddiyaa k'eesii denddana gakkanaw, unttunttu geeshsha k'umaappe maanaw danddayennawaa Ayhudatuwaa mooddiyaawe unttunttoo odeedda."
+        },
+        {
+          "number": "66",
+          "text": "Omooduwaappe Yihudaa biittaa simmeedda asaa paydu ubbaanna 42,360.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "67",
+          "text": "Hewaa bollakka k'ay 7,337 attuma k'oomatuunne mac'c'a k'oomatuu mazimuriyaa yes's'iyaa 245 attumawaanne mac'c'a asatuu simmeeddino."
+        },
+        {
+          "number": "68",
+          "text": "Omooduwaappe ubbaanna simmeedda asaa paratuwaa paydu 736; bak'ulotuu 245;"
+        },
+        {
+          "number": "69",
+          "text": "gaalotuu 435; haretuu k'ay 6,720."
+        },
+        {
+          "number": "70",
+          "text": "Yaratuwaa kaappatuwaappe amareedawanttu oosoo imotaa immeeddino. Biittaa mooddiyaawe hosppun kiilo giraame work'k'aa, 50 disttetuwaanne 530 k'eesatuwaa mayotuwaa immeedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "71",
+          "text": "Yaratuwaa kaappatuu 168 kiilo giraame work'k'aanne 1,250 kiilo giraame biraa immeeddino."
+        },
+        {
+          "number": "72",
+          "text": "Atteeda Asay ubbaanna 168 kiilo giraame work'k'aa, 1,100 kiilo giraame biraanne 67 k'eesatuwaa mayotuwaa immeeddino."
+        },
+        {
+          "number": "73",
+          "text": "Hewaappe guyyiyaan k'eesatuu, Leewatuu, penggiyaa naagiyaawanttu, mazimuriyaa yes's'iyaawanttu, asaappe darotuunne Geeshsha Golliyaa k'oomatuu, ubbaanna Israa'eeliyaa ubbay barenttu kataman kataman utteeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "65",
+          "marker": "Translator/editor note",
+          "text": "- Kes. 28:30; Zar. 33:8",
+          "note_type": "translator_note",
+          "source_reference": "7:65"
+        },
+        {
+          "verse": "73",
+          "marker": "Translator/editor note",
+          "text": "- 1 Od. 9:2; Nah. 11:3",
+          "note_type": "translator_note",
+          "source_reference": "7:73"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Laappuntsa aginay gakko wode, Israa'eeliyaa Asay ubbaykka barenttu kataman kataman utteeddino. He aginaan unttunttu ubbaykka ittippe Haatsaa Penggiyaa sintsan de'iyaa dabaaban shiik'k'eeddino. Med'inaa Goday Muse baggana Israa'eeliyaa asaw immeedda Higgiyaa Mas'aafaa ahana mala, s'aafiyaa Izira oochcheeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Yaatina, laappuntsa aginaan koyro gallassan, attumawe mac'c'awe, akeekanaw danddayiyaa Asay ubbay shiik'k'eedda sa'aan Iziri Higgiyaa Mas'aafaa aheedda."
+        },
+        {
+          "number": "3",
+          "text": "Haatsaa Penggiyaa sintsan de'iyaa dabaaban ek'k'iide, attumawoo mac'c'awoo, akeekanaw danddayiyaa asaa ubbaw Higgiyaa Mas'aafaa wonttappe gallassaa seetay gakkanaw nabbabeedda; asaykka loytsi hayzziide siseedda."
+        },
+        {
+          "number": "4",
+          "text": "Iziri ek'k'iide nabbabanaw mitsaappe giigisseedda gutaraa bollan ek'k'eedda. Aappe ushechcha baggana Matiitiyaa, Shamaa'iyaa, Anaaya, Ooriyoona, Hilk'k'iyaanne Ma'iseeya geetettiyaa asatuu ek'k'eeddinno. Haddirssa baggana k'ay Padaaya, Mishaa'eela, Malkkiyaa, Hashuuma, Hashibadanaaha, Zakkaraasanne Mashulaama geetettiyaa asatuu ek'k'eeddinno.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Iziri asaa ubbaappe d'ok'k'iyaa sa'aan ek'k'eedda diraw, ubbaykka Aa loytsiide s'eellishin, unttunttu sintsan Higgiyaa Mas'aafaa dooyeedda. He wode unttunttu ubbay utteedda saappe denddi ek'k'eeddinno.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "Iziri Med'inaa Godaa, wolk'k'aama S'oossaa galateedda. Asay ubbay barenttu kushiyaa pude dentsiide, «Amen\"i, Amen\"i» yaageeddino. K'ay unttunttu som\"i sa'aa bochchana gakkanaw guufanniide, Med'inaa Godaw goynneeddino."
+        },
+        {
+          "number": "7",
+          "text": "Hewaappe guyyiyaan denddiide, barenttu de'iyaa sa'aan ek'k'eeddinno. Iyyaasa, Baana, Sherebiyaa, Yaamiina, Ak'k'uuba, Shabbataaya, Hodiyaa, Ma'iseeya, K'aliis'a, Azaariyaa, Yozabaada, Hanaananne Palaaya geetettiyaa Leewatuu higgiyaa Asay akeekanaadan ootseeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Unttunttu S'oossaa Higgiyaa Mas'aafaappe nabbabiide, k'ay nabbabetteeddawe waagintto, Asay erana mala, bili k'onc'c'isseeddino."
+        },
+        {
+          "number": "9",
+          "text": "Asay higgiyaa k'aalaa siseedda wode, barenttu wozanaan mishettiide yeekkeeddino. Hewaa diraw, biittaa mooddiyaa Nahimii, k'eesenne s'aafiyaa gideedda Izirinne asaw mas'aafaa biliyaa Leewatuu asaa hawaadan yaageeddino; «Ha gallassay Med'inaa Godaw, hinttenttu S'oossaw, geeshsha gallassaa gidiyaa diraw, ittuunne kayyottoppitenne yeekkoppite» yaageeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "K'ay Nahimii gujjiidekka hawaadan yaageedda; «Biite, mod'd'uwaa miite; mal\"iyaawaakka ushite; k'ay baynnawanttookka hinttewaappe shaakki immite. Ayaw gooppe, hachche gallassay nu S'oossaw geeshsha gallassaa. Med'inaa Godaa nashechchay hinttenttoo wolk'k'aa gidiyaa diraw kayyottoppite» yaageedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Leewatuukka k'ay, «Hawe geeshsha gallassaa gidiyaa diraw, kayyottoppite; hayzzite» yaagiide asaa c'o\"u ootseeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Hewaappe guyyiyaan, Asay nashechchaan maanawunne ushanaw k'ay baynnawanttookka de'iyaawaappe shaakki immanaw beeddino. Ayaw gooppe, unttunttu odeedda k'aalaa siseeddinonne akeekeeddino."
+        },
+        {
+          "number": "13",
+          "text": "Aginaw laa'entso gallassi zaratuwaa kaappatuu, k'eesatuu nne Leewatuu higgiyaa k'aalaa unttunttoo birshshana mala, Izirakko yeeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Hewan tamaariidde, laappuntsa aginaan Daasiyaa Baalaa bonchchiyaa wode, Israa'eeliyaa Asay ubbay daasiyaa giddon uttanaadan Med'inaa Goday Muse baggana azazeeddawaa akeekeeddino."
+        },
+        {
+          "number": "15",
+          "text": "Hewaa diraw, katamatuwaa ubbaaninne Yerusaalamen hawaadan yaagiide awaayeeddino; «Deriyaa huup'iyaa kesite; zayitiyaa wogaraappe, woran doliyaa wogaraappe, barsseenetiyaa mitsaappe, zambbaa mitsaappenne haytsay de'iyaa mitsaa ubbaappe higgiyan s'aafetteeddawaadan, daasiyaa daasanaw tashiyaa ahite» yaageeddino."
+        },
+        {
+          "number": "16",
+          "text": "Hewaa diraw, Asay biide mitsaa tashiyaa aheeddino; barenttu golliyaa bollan de'iyaa dembba sa'aan, barenttu gibbiyaan, S'oossaa Geeshsha Golliyaa dabaaban, Haatsaa Penggiyaa dabaabaaninne Efireema Penggiyaa dabaaban daasiyaa daaseeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "Omooduwaappe simmeedda Asay ubbay daasiyaa daaseedda, Aa giddon utteeddino. Neewe na'aa Iyyaasu wodiyaappe doommiide, he gallassay gakkanaw, unttunttu hawaa mala baalaa bonchchi erikkino. Hewaa diraw, ubbaykka loytsi nashetteeddino."
+        },
+        {
+          "number": "18",
+          "text": "Baalay doomettoodeppe biide wurana gakkanaw, hachche hachche Iziri S'oossaa Higgiyaa Mas'aafaappe asaw nabbabeedda. Baalaa laappun gallassaa bonchchowaappe guyyiyaan, hosppuntsa gallassan higgii azaziyaawaadan geeshsha shiik'uwaa ootseeddino."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "14",
+          "marker": "Translator/editor note",
+          "text": "- Wog. 23:33-36, 39-43; Zar. 16:13-15",
+          "note_type": "translator_note",
+          "source_reference": "8:14"
+        }
+      ],
+      "heading": [
+        "Muse Higgii Zaaretsi Nabbabetussaanne // K'aalaa C'aak'k'uwaa Ooras's'usaa",
+        "(8:1—10:39)"
+      ]
+    },
+    {
+      "chapter": 9,
+      "verses": [
+        {
+          "number": "1",
+          "text": "He aginaan laatamanne oyddentso gallassan Israa'eeliyaa Asay s'oomiidde, maak'aa mayiidenne barenttu huup'iyaan baanaa k'oliidde, itti sa'aa shiik'k'eeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Barentta allaga gade asaa ubbaappe shaakkeeddino. Hewaappe guyyiyaan denddi ek'k'iide, unttunttune kase unttunttu aawotuu ootseedda nagaraa ubbaa paas'eeddino."
+        },
+        {
+          "number": "3",
+          "text": "Hewan unttunttu ek'k'ide'ishshin, heezzu saatiyaa gidiyaawaa Med'inaa Godaa unttunttu S'oossaa Higgiyaa Mas'aafay unttunttoo nabbabetteedda. K'ay hara heezzu saatiyaa gidiyaawaa barenttu nagaraa paas'iiddinne Med'inaa Godaw, barenttu S'oossaw, goynniidde gam\"eeddino."
+        },
+        {
+          "number": "4",
+          "text": "Leewatuwaappe amareedawanttu shiik'uwaa bollan kesiide, kooshshaa d'ok'k'u ootsiidde Med'inaa Godaakko, barenttu S'oossaakko, waasseeddino. Hewanttukka Iyyaasa, Baana, K'aadimi'eela, Shabaaniyaa, Buuna, Sherebiyaa, Baananne Kanaana.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Leewatuwaappe Iyyaasu, K'aadimi'eeli, Baani, Hashaabanee, Sherebee Hodee, Shabaanenne Pataahe Israa'eeliyaa asaa hawaadan yaageeddino; «Denddi ek'k'iide, med'inaappe med'inaw de'iyaa Med'inaa Godaa hinttenttu S'oossaa galatite! ubbaappenne saba ubbaa bollanna d'ok'k'u d'ok'k'u geeddanne bonchchetteedda S'oossaa suntsaa sabbite» yaageeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "Hewaappe guyyiyaan, Israa'eeliyaa Asay hawaadan yaagiide woosseeddino; «Med'inaa Godaw, ne s'alalay S'oossaa! Neeni salotuwaanne salotuwaan de'iyaa med'etaa ubbaa, sa'aanne Aa bollan de'iyaa med'etaa ubbaanne Abbatuwaanne unttunttu giddon de'iyaa med'etaa ubbaa med'd'aadda; ubbaw shemppuwaa immaadda. Saluwaa med'etatuu ubbay new goynniino.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Nagaraa Paas'iyaa Woosaa"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "«Neeni Med'etaa Ubbaa Godaa! Neeni Abraama Uura geetettiyaa Kaladaawatuu katamaappe dooraade kessaadda; Aa suntsaakka laammaade, Abrahaama yaagaadde suntsaadda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "I new ammanettiyaa asaa gidiyaawaa be'aade, Kanaanetuu, Hiitetuwaa, Amoorawaanatuwaa, Parzzawaanatuwaa, Yaabusatuwaanne Gerggeesatuwaa gadiyaa Aa zaretoo laata gadiyaa ootsaade immanaw aw k'aalaa c'aak'uwaa gelaadda. Neeni s'illo gidiyaa diraw, ne geedda k'aalaakka polaadda."
+        },
+        {
+          "number": "9",
+          "text": "«Neeni kase nu mayza aawotuwaa Gibs'e gadiyaan gakkeedda tuggaa be'aadda; k'ay Zo'o Abbaa geetettiyaa abbaa matan de'iidde unttunttu, ‹Nuuna maaddaarikkii!› yaagiide waasseedda waasuwaakka sisaadda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Gibs'e kaatii, Aa gadiyaa kaappatuunne he gadiyaa Asay ubbay Israa'eeliyaa asaa bollan otoretteedda diraw, unttunttu bollan malaataanne malalissiyaabaa ootsaadda. Hewaappe denddeedawaan, hachche gakkanaw, ne suntsay bonchchuwaan s'eegettanaadan ootsaadda."
+        },
+        {
+          "number": "11",
+          "text": "Abbaa yaanne haanne shaakkaade, gidduwaana ne asaa mela biittaana pintsaadda. Shin shuchchay c'iimmo haatsaan olina, c'iimmuwaa duge wod'd'iyaawaadan, unttunttu yederssiyaa morkkatuwaa abbaan mitissaade d'ayssaada."
+        },
+        {
+          "number": "12",
+          "text": "Israa'eeliyaa asaa gallassi shaariyaa tuussaan kaaletsaade, k'amma k'ay unttunttu hamettiyaa ogiyaan poo'ana mala, tamaa tuussaa unttunttu sintsan essaade kaaletsaadda."
+        },
+        {
+          "number": "13",
+          "text": "«Neeni saluwaappe wod'd'aade, ne asaa Siinaa Deriyaa bollan haasayissaadda. Suure pirddaanne tuma gideedda higgiyaa k'ay lo\"o wogaanne azazuwaa unttunttoo immaadda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Geeshsha ne Sambbataa unttunttu bonchchana mala, unttuntta tamaarissaadda. Ne k'oomaa Muse baggana unttunttoo azazuwaa, wogaanne higgiyaa immaadda."
+        },
+        {
+          "number": "15",
+          "text": "Unttunttu koshateedda wode saluwaappe k'umaa immaadda; k'ay unttunttu saametteedda wode zaallaappe haatsaa pulttissaadda. Neeni unttunttoo immanaw c'aak'k'eedda gadiyaa geliide laattana mala azazaadda."
+        },
+        {
+          "number": "16",
+          "text": "«Shin nu mayza aawotuu otoretteeddino. Odina sisenna morggiyaa orddo gidiide, new azazettibeykkino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "Azazettenan is's'eeddino; k'ay neeni unttunttoo ootseedda malalissiyaabaa ubbaa hassayibeykkino. Unttunttu morggiyaa orddo gideeddino; k'ay barenttu makkalaappe denddeeddawaan, Gibs'e gadiyaa guyye ayiletetsaw zaariide kaaletsana mala, kaappuwaa barenttoo dooreeddino. Gido shin, neeni atto giyaa S'oossaa; keekanne maariyaawaa. Siik'uwaan kumeeddawaanne hank'k'oo elleellennawaa. Hewaa diraw, ne siik'uu med'inaassa; neeni unttuntta agga beyikka."
+        },
+        {
+          "number": "18",
+          "text": "«Unttunttu maraa malatiyaa eek'aa med'd'iide, ‹Hinttena Gibs'e gadiyaappe kesseedda hinttenttu s'oossay hawaa› yaagiide neena wolk'k'aama shek'k'aa shek'k'ooppekka,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "ne daro maarotetsaa diraw, neeni unttuntta he gadiyaa woran agga beyikka. Unttunttu biyaa ogiyaa kaaletsana mala, gallassi shaariyaa tuussay, k'ay unttunttu ogiyaa poo'issana mala, k'amma tamaa tuussay unttunttuppe haakkibeenna."
+        },
+        {
+          "number": "20",
+          "text": "Unttuntta tamaarissana mala, ne lo\"o Ayaanaa unttunttoo immaadda. Maanaw mannaa unttunttu doonaappe pac'issabeykka; k'ay unttunttu saamookka haatsaa immaadda."
+        },
+        {
+          "number": "21",
+          "text": "Oytamu laytsaa ubbaa unttunttu woran hamettiyaa wode, unttunttoo koshshiyaabaappe ittibaanne d'ayssabaakka. Unttunttu mayuu wuribeenna; unttunttu gediikka gaafibeena."
+        },
+        {
+          "number": "22",
+          "text": "«Barenttu zawaan de'iyaa gas'aa biittatuwaanne kawutetsatuwaa unttunttu s'ooniide oyk'k'anaadan ootsaadda. Sihoona geetettiyaa kaatii mooddiyaa Haseboona gadiyanne Ooga geetettiyaa kaatii mooddiyaa Baasaane gadiyaa unttunttu laatteeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "Unttunttu zeretsatuwaa payduwaa saluwaa s'oolinttiyaadan darissaadda. Kase unttunttu aawaatoo gelissananne laatissana gaade neeni odeedda gadiyaa unttuntta gelissaadda."
+        },
+        {
+          "number": "24",
+          "text": "Unttunttu Kanaane gadiyaa laatteeddino; he gadiyaan de'iyaa Kanaane asaa ubbaa unttunttu sintsan neeni kawushshaadda. Unttunttu Kanaane asaa bollan, unttunttu kaatetuwaa bollaaninne he gadiyaan de'iyaa asaa ubbaa bollan barenttu doseeddawaa ootsana mala, unttunttu kushiyan aatsa immaadda."
+        },
+        {
+          "number": "25",
+          "text": "K'ay unttunttu yuushshuu gimbbetteedda katamatuwaanne aradda biittaa s'ooniide akkeeddino; k'aykka lo\"obay ubbay kumeedda golliyaa, booketteedda haatsaa ollatuwaa, woyniyaa turaa sa'aa, wogaratuwaanne hara ayfiyaa immiyaa daro mitsatuwaa laatteeddino. Hewaappe mi kalliide orddeeddino; ne wolk'k'aama keekatetsan unttunttu nashetteeddino."
+        },
+        {
+          "number": "26",
+          "text": "«Gidooppekka, ne asatuu azazettenan is's'iide, ne bollan makkaleeddino; ne higgiyawukka zokkiiyaa zaareeddino. Neekko unttunttu simmanaadan unttunttoo minisiide odeedda timbbitiyaa odiyaawantta wod'eeddino. Loytsi wolk'k'aama shek'k'aa neena shek'k'eeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "27",
+          "text": "Hewaappe denddeeddawaan unttuntta un\"etsiyaa morkkatuwaa kushiyan aatsa immaadda; morkketuu unttuntta un\"etseedda wode neekko waasseeddino. Unttunttu waasuwaa saluwaan gida sisaadde ne maarotetsaa daruwaadan, unttuntta unttunttu morkkatuwaa kushiyaappe ashshiyaawantta kiittaadda."
+        },
+        {
+          "number": "28",
+          "text": "«Shin unttunttu shemppuwaa demmiide zaaretsiide, ne sintsan nagaraa ootseeddino. Neenikka zaaraadde unttunttu morkkatuwaa kushiyan aatsaade immina, unttunttu morkketuu unttuntta mooddeddino. Shin ha\"ikka unttunttu neekko waassina, unttunttu waasuwaa saluwaan gidaade sisaadda. Ne maarotetsaan unttuntta zaara zaaraadekka ashsha akkaada.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "29",
+          "text": "«Ne higgiyaakko unttunttu simmana mala, neeni unttunttoo minisaade odaadda; shin unttunttu otoretteeddino; ne azazuwaakka is's'eeddo yaageeddino. Asay azazettooppe de'uwaa demmiyaa ne higgiyaa aad'd'eedino; k'ay morggiyaa orddo gidi, new zokkiiyaa zaariide, azazettenan is's'eeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "Gidooppenne, daro laytsaa unttuntta danddayaadda; timbbitiyaa odiyaawanttu baggana ne Ayyaanan unttunttoo minisaade odaadda; shin unttunttu sisibeykkino. Hewaappe denddeeddawaan Ayhuda gidenna kawutetsatuu unttuntta mooddana mala, unttunttu kushiyan aatsa immaadda."
+        },
+        {
+          "number": "31",
+          "text": "Shin neeni keekanne maariyaa S'oossaa gidiyaa diraw, ne wolk'k'aama maarotetsaan unttuntta ubbaanna aggabeykkanne d'ayssabaakka."
+        },
+        {
+          "number": "32",
+          "text": "«Nu S'oossaw, wolk'k'aamaw, wolk'k'aamanne yayetteedda S'oossaw, ne aggena siik'uwaa k'aalaa c'aak'uwaa naagiyaawaa, nu bollan gakkeedda metuu ne sintsan laafabaa malatoppo. Beni Asoore kaatetuwaa wodiyaappe doommiide, hachche gakkanaw, nu bollan, nu kaatetuwaa bollan, nu kaappatuu bollan, nu k'eesatuwaa bollan, nu timbbitiyaa odiyaawanttu bollan, nu mayza aawotuwaa bollaninne ne asaa ubbaa bollan wolk'k'aama metuu gakkeedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "33",
+          "text": "Nuuna gakkeeddawaan ubbaan neeni s'illuwaa. Ayaw gooppe, nuuni neena naak'k'ooppekka neeni ammanettiyaawaa aggabeyikka."
+        },
+        {
+          "number": "34",
+          "text": "Nu kaatetuu, nu kaappatuu, nu k'eesatuu nne nu mayza aawotuu ne higgiyaa naagibeykkino; k'ay neeni unttunttoo immeedda azazuwaanne ne minissa odeeddawaakka sisibeykkino."
+        },
+        {
+          "number": "35",
+          "text": "Neeni unttunttu kawutetsan unttunttoo wolk'k'aama anjjuwaa immaadda; k'ay aakonne mokkiyaa biittaakka unttunttoo immaadda; shin unttunttu new goynnibeykkinonne barenttu iita oosuwaappe simmibeykkino."
+        },
+        {
+          "number": "36",
+          "text": "«Hewaappe denddeeddawaan, nuuni hachche ayiliyaa gidiyaawaa be'a. K'ay hewekka unttunttu Aa ayfiyaanne I immiyaa anjjuwaa ubbaa maana mala, nu mayza aawaatoo neeni immeedda he gadiyaan, nuuni ayiliyaa gideeddo.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "37",
+          "text": "Nu nagaraa diraw, neeni nu bollan dentseedda kaatetuu gadiyaa anjjuwaa ubbaa unttunttu go\"ettiino. K'ay nu bollaaninne nu mehiyaa bollan barenttu koyeeddawaa ootsino; nuunikka wolk'k'aama metuwaa giddon de'eetto» yaageeddino."
+        },
+        {
+          "number": "38",
+          "text": "Haneedda yewuwaa ubbaa diraw, nuuni haasayiide c'aak'k'eedda c'aak'uwaa s'aafeeddo; he nuuni s'aafeedda c'aak'uwa warak'ataa bollan nu kaappatuu, nu Leewatuunne nu k'eesatuu barenttu maatafaa wotseeddino.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Asay Barenttu Mayetteedda // K'aalaa c'aak'uwa Parameedda"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "7",
+          "marker": "Translator/editor note",
+          "text": "- Dom. 11:31; 12:1; 17:5",
+          "note_type": "translator_note",
+          "source_reference": "9:7"
+        },
+        {
+          "verse": "8",
+          "marker": "Translator/editor note",
+          "text": "- Dom. 15:18-21",
+          "note_type": "translator_note",
+          "source_reference": "9:8"
+        },
+        {
+          "verse": "9",
+          "marker": "Translator/editor note",
+          "text": "- Kes. 3:7; 14:10-12",
+          "note_type": "translator_note",
+          "source_reference": "9:9"
+        },
+        {
+          "verse": "10",
+          "marker": "Translator/editor note",
+          "text": "- Kes. 7:8—12:32",
+          "note_type": "translator_note",
+          "source_reference": "9:10"
+        },
+        {
+          "verse": "11",
+          "marker": "Translator/editor note",
+          "text": "- Kes. 14:21-29; 15:4-5",
+          "note_type": "translator_note",
+          "source_reference": "9:11"
+        },
+        {
+          "verse": "12",
+          "marker": "Translator/editor note",
+          "text": "- Kes. 13:21-22",
+          "note_type": "translator_note",
+          "source_reference": "9:12"
+        },
+        {
+          "verse": "13",
+          "marker": "Translator/editor note",
+          "text": "- Kes. 19:18—23:33",
+          "note_type": "translator_note",
+          "source_reference": "9:13"
+        },
+        {
+          "verse": "15",
+          "marker": "Translator/editor note",
+          "text": "- Kes. 16:4-15; 17:1-7; Zar. 1:21",
+          "note_type": "translator_note",
+          "source_reference": "9:15"
+        },
+        {
+          "verse": "16",
+          "marker": "Translator/editor note",
+          "text": "- Pay. 14:1-4; Zar. 1:26-33",
+          "note_type": "translator_note",
+          "source_reference": "9:16"
+        },
+        {
+          "verse": "17",
+          "marker": "Translator/editor note",
+          "text": "- Kes. 34:6; Pay. 14:18",
+          "note_type": "translator_note",
+          "source_reference": "9:17"
+        },
+        {
+          "verse": "18",
+          "marker": "Translator/editor note",
+          "text": "- Kes. 32:1-4",
+          "note_type": "translator_note",
+          "source_reference": "9:18"
+        },
+        {
+          "verse": "19",
+          "marker": "Translator/editor note",
+          "text": "- Zar. 8:2-4",
+          "note_type": "translator_note",
+          "source_reference": "9:19"
+        },
+        {
+          "verse": "22",
+          "marker": "Translator/editor note",
+          "text": "- Pay. 21:21-35",
+          "note_type": "translator_note",
+          "source_reference": "9:22"
+        },
+        {
+          "verse": "23",
+          "marker": "Translator/editor note",
+          "text": "- Dom. 15:5; 22:17; Iya. 3:14-17",
+          "note_type": "translator_note",
+          "source_reference": "9:23"
+        },
+        {
+          "verse": "24",
+          "marker": "Translator/editor note",
+          "text": "- Iya. 11:23",
+          "note_type": "translator_note",
+          "source_reference": "9:24"
+        },
+        {
+          "verse": "25",
+          "marker": "Translator/editor note",
+          "text": "- Zar. 6:10-11",
+          "note_type": "translator_note",
+          "source_reference": "9:25"
+        },
+        {
+          "verse": "26",
+          "marker": "Translator/editor note",
+          "text": "- Dat. 2:11-16",
+          "note_type": "translator_note",
+          "source_reference": "9:26"
+        },
+        {
+          "verse": "29",
+          "marker": "Translator/editor note",
+          "text": "- Wog. 18:5",
+          "note_type": "translator_note",
+          "source_reference": "9:29"
+        },
+        {
+          "verse": "30",
+          "marker": "Translator/editor note",
+          "text": "- 2 Kat. 17:13-18; 2 Od. 36:15-16",
+          "note_type": "translator_note",
+          "source_reference": "9:30"
+        },
+        {
+          "verse": "32",
+          "marker": "Translator/editor note",
+          "text": "- 2 Kat. 15:19, 29; 17:3-6; Izr. 4:2, 10",
+          "note_type": "translator_note",
+          "source_reference": "9:32"
+        }
+      ],
+      "heading": [
+        "Israa'eeliyaa Asay Barenttu Nagaraa Paas'eeddino"
+      ]
+    },
+    {
+      "chapter": 10,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Hawaappe kaalliyaa asatuu he maatafay wod'd'eedda warak'ataa bollan parameeddino. Hewanttukka Hakaaliyaa na'aa gadiyaa mooddiyaa Nahimiyaa; k'eesetuwaappe: Sedek'iyaasa,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Saraaya, Azaariyaa, Ermaasa,"
+        },
+        {
+          "number": "3",
+          "text": "Paashihuura, Amaariyaa, Malkkiyaa,"
+        },
+        {
+          "number": "4",
+          "text": "Has's'uusha, Shabaaniyaa, Malluuka,"
+        },
+        {
+          "number": "5",
+          "text": "Hariima, Maremoota, Obaadiyaa,"
+        },
+        {
+          "number": "6",
+          "text": "Daaneela, Ginnetoona, Baaruka,"
+        },
+        {
+          "number": "7",
+          "text": "Mashulaama, Abiiya, Miyamiina,"
+        },
+        {
+          "number": "8",
+          "text": "Ma'aaziyaa, Bilggaayanne Shamaa'iyaa."
+        },
+        {
+          "number": "9",
+          "text": "Leewatuwaappe: Azaaniyaa na'aa Iyyaasa, Henadaada yara gideedda Biinuya, K'aadimi'eelanne",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "unttunttu ishatuwaa Shabaaniyaa, Hodiyaa, K'aliis'a, Palaaya, Hanaana,"
+        },
+        {
+          "number": "11",
+          "text": "Miika, Rahooba, Hashaabiyaa,"
+        },
+        {
+          "number": "12",
+          "text": "Zakkuura, Sherebiyaa, Shabaaniyaa,"
+        },
+        {
+          "number": "13",
+          "text": "Hodiyaa, Baananne Baniina."
+        },
+        {
+          "number": "14",
+          "text": "K'ay asaa kaaletsiyaawanttuppe: Par\"oosha, Paahati-Moo'aaba, Elaama, Zatta, Baana,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Buuna, Azggaada, Bebaaya,"
+        },
+        {
+          "number": "16",
+          "text": "Adooniyaa, Bigiwaaya, Adiina,"
+        },
+        {
+          "number": "17",
+          "text": "As'eera, Hizk'k'iyaasa, Azuura,"
+        },
+        {
+          "number": "18",
+          "text": "Hodiyaa, Hashuuma, Bes'aaya,"
+        },
+        {
+          "number": "19",
+          "text": "Hariifa, Anatoota, Nebaaya,"
+        },
+        {
+          "number": "20",
+          "text": "Maagippi'aasha, Mashulaama, Heziira,"
+        },
+        {
+          "number": "21",
+          "text": "Mashezaabeela, S'aadook'a, Yadduu'a,"
+        },
+        {
+          "number": "22",
+          "text": "Palaas'iyaa, Hanaana, Anaaya,"
+        },
+        {
+          "number": "23",
+          "text": "Hoshee'a, Hanaaniyaa, Hashshuuba,"
+        },
+        {
+          "number": "24",
+          "text": "Halloheesha, Piiliha, Shobeek'a,"
+        },
+        {
+          "number": "25",
+          "text": "Rehuuma, Hashaabina, Ma'iseeya,"
+        },
+        {
+          "number": "26",
+          "text": "Akiiya, Hanaana, Anaana,"
+        },
+        {
+          "number": "27",
+          "text": "Malluuka, Hariimanne Ba'aana."
+        },
+        {
+          "number": "28",
+          "text": "K'ay atteeda asaykka k'eesatuu, Leewatuu, penggiyaa naagiyaawanttu, mazimuriyaa yes's'iyaawanttu, Geeshsha Golliyaa k'oomatuunne S'oossaa higgiyaw azazettanaw Ayhuda gidennawanttuppe barena shaakkeedda ubbay, k'ay unttunttu machchatuu, unttunttu attuma naanay, unttunttu mac'c'a naanaynne yewuwaa akeekanaw asaa gamma gakkeedda ubbay,",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Israa'eeliyaa Asay C'aak'etteedda // K'aalaa C'aak'uwa"
+          ]
+        },
+        {
+          "number": "29",
+          "text": "barena kaaletsiyaawaana ha c'aak'uwaan mayetteeddino. Hewekka bare k'oomaa Muse baggana S'oossay unttunttoo immeedda higgiyaadan baanaw, Med'inaa Godaa nu S'oossaa azazuwaa, pirddaanne wogaa naaganaassanne ootsanaassa. Hewe d'ayooppe, S'oossay yeddiyaa shek'ay barenttu bolla yaanaadan mayetteeddino."
+        },
+        {
+          "number": "30",
+          "text": "Unttunttu hawaadan yaagiide c'aak'k'eeddino; «Nu mac'c'a naanaa Ayhuda gidenna gadiyaa attuma naanaatoo immokko; k'ay unttunttu mac'c'a naanaakka nu attuma naanaatoo machato ootsiidde akkokko.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "31",
+          "text": "«Ayhuda gidenna gadiyaa asatuu katsaa gidina woy harabaa ayaanne Sambbata gallassi woy hara baala gallassi zal\"anaw ahooppe, unttunttuppe shammokko.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "«Laappuntsa laytsay gakkiyaa wode, nu gadiyaa goshokko; nuuni tal\"eedda ac'uwaa oochchokko."
+            }
+          ]
+        },
+        {
+          "number": "32",
+          "text": "«Geeshsha Golliyaa oosoo ichcheshu giraame dees'iyaa biraa laytsan laytsan aggenaan immana.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "33",
+          "text": "Hewe ayaw gooppe, S'oossaa sintsan wotsiyaa ukitsaassa, hachche hachche yarshshiyaa katsaa yarshshuwaa sa'aa, s'uuggiyaa yarshshoo shukkiyaa mehiyaw, Sambbata gallassan, aginay s'eeriya wodenne laytsan de'iyaa hara baalatuwaan yarshshiyaa yarshshoonne hara geeshsha miishshaa ubbaassa; k'ay Israa'eeliyaa asaa nagaraa atto giissanaw yarshshiyaa yarshshoonne nu S'oossaa Geeshsha Golliyaa oosoo koshshiyaa ubbabaassa."
+        },
+        {
+          "number": "34",
+          "text": "«Nuuni k'eesatoo, Leewatoonne hara asaa ubbaw saamaa yeggeeddo. Ayaw gooppe, higgiyan s'aafetteeddawaadan Med'inaa Godaw, nu S'oossaw, yarshshiyaa sa'aan yarshshuwaa s'uuggiyaa mitsaa nu S'oossaa Geeshsha Golliyaw O yaray ahanaw bessintto eranaassa.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "35",
+          "text": "«Laytsan laytsan nu gadiyaa ayfiyaa koyro gakkiyaawaanne ayfiyaa immiyaa dumma dumma mitsatuwaappe nuuni koyro mas'eedda ayfiyaa ubbaa Med'inaa Godaa Geeshsha Golliyaa aggenaan ahiide immana.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "36",
+          "text": "«Higgiyan s'aafetteeddawaadan nuuni ubbaykka koyro yelettiyaa nu attuma naanaa nu S'oossaa Geeshsha Golliyaan ootsiyaa k'eesetuwaakko ahiide, S'oossaw dummayana; k'ay nu miizzatuu, nu dorssatuunne nu deeshshatuu yeliyaa koyro maraa ubbaakka yaa ahiide, k'eesatoo immana.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "37",
+          "text": "«Nuuni nu gadiyaan doliyaa katsaa ayfiyaa koyruwaa, k'ay nu mitsaa ubbaa ayfiyaa, woyniyaanne zayitiyaa imotaa ootsiidde, nu S'oossaa Geeshsha Golliyaa haa k'eesetuwaakko ahana. K'ay Leewatuu nu katamatuwaan de'iyaa biittaa ubbaa ayfiyaa asiraataa akkiyaawantta gidiyaa diraw, nu biittay ayfeeddawaappe ubbaappe asiraataa unttunttoo immana.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "38",
+          "text": "Leewatuu asiraataa shiishshiyaa wode, Aaroona yara gideedda k'eesatuu unttunttunna ittippe de'anaw besse. Leewatuukka asiraataa shiishshowaappe guyyiyaan, asiraataappe kesseedda asiraataa nu S'oossaa Geeshsha Golliyaa ahiide, shaluwaa wotsiyaa kifiliyaan wotsino."
+        },
+        {
+          "number": "39",
+          "text": "Israa'eeliyaa asaynne Leewatuu katsaa, woyniyaanne wogaraa zayitiyaa imotaa, Geeshsha Golliyaa miishshatuunne Geeshsha Golliyaan ootsiyaa k'eesatuu, penggiyaa naagiyaawanttunne mazimuriyaa yes's'iyaawanttu de'iyaa kifiletuwaa ahiino.",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "«Nuuni nu S'oossaa Geeshsha Golliyaa oosuwaa ubbakka sheneko gookko» yaagiide c'aak'k'eeddino."
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "30",
+          "marker": "Translator/editor note",
+          "text": "- Kes. 34:16; Zar. 7:3",
+          "note_type": "translator_note",
+          "source_reference": "10:30"
+        },
+        {
+          "verse": "31",
+          "marker": "Translator/editor note",
+          "text": "- Kes. 23:10-11; Wog. 25:1-7; Zar. 15:1-2",
+          "note_type": "translator_note",
+          "source_reference": "10:31"
+        },
+        {
+          "verse": "32",
+          "marker": "Translator/editor note",
+          "text": "- Kes. 30:11-16",
+          "note_type": "translator_note",
+          "source_reference": "10:32"
+        },
+        {
+          "verse": "35",
+          "marker": "Translator/editor note",
+          "text": "- Kes. 23:19; 34:26; Zar. 26:2",
+          "note_type": "translator_note",
+          "source_reference": "10:35"
+        },
+        {
+          "verse": "36",
+          "marker": "Translator/editor note",
+          "text": "- Kes. 13:2",
+          "note_type": "translator_note",
+          "source_reference": "10:36"
+        },
+        {
+          "verse": "37",
+          "marker": "Translator/editor note",
+          "text": "- Pay. 18:21",
+          "note_type": "translator_note",
+          "source_reference": "10:37"
+        },
+        {
+          "verse": "38",
+          "marker": "Translator/editor note",
+          "text": "- Pay. 18:26",
+          "note_type": "translator_note",
+          "source_reference": "10:38"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Asaa kaaletsiyaawanttu Yerusaalamen de'eeddino. K'ay hinkko asaappekka tammuwaappe ittuu ittuu geeshsha kataman Yerusaalamen de'ana mala, saamaa yeggiide dooreeddino. Shin hara udduppun kushiyaa Asay barenttu katamatuwaan de'eeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Yerusaalamen de'anaw barenttu sheniyaan mayyeedda asaa ubbaa Asay anjjeedda."
+        },
+        {
+          "number": "3",
+          "text": "Hara katamatuwaan de'iyaa Israa'eeliyaa asay, k'eesatuu, Leewatuu, Geeshsha Golliyaa k'oomatuunne Solomone k'oomatuwaa yaratuu ubbay barenttu kataman kataman de'iyaa gadiyaa oyk'k'iide de'eeddino. Shin hawaappe kaalliide s'aafetteeddawanttu, Yerusaalamen de'anaw yeedda gadiyaa kaaletsiyaawantta.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "Yihudaanne Biiniyaama zariyaappe yeedda kaaletsiyaawanttu Paareesa yara gideedda Ataayanne Sheela yara gideedda Ma'iseeya. Ataayi Ooziyaana na'aa; Ooziyaane Zakkaraasa na'aa; Zakkaraasi Amaariyaa na'aa; Amaari Shafaas'iyaa na'aa; Shafaas'i Malaali'eela na'aa.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Ma'iseeyi Baaruka na'aa; Baaruki Kolihooza na'aa; Kolihoozi Hazaaya na'aa; Hazaayi Adaaya na'aa; Adaayi Yoyaariiba na'aa; Yoyaariibi Zakkaraasa na'aa."
+        },
+        {
+          "number": "6",
+          "text": "Paareesa yaraappe wolk'k'aama gideedda 468 asatuu Yerusaalamen de'eeddino."
+        },
+        {
+          "number": "7-8",
+          "text": "Biiniyaama zariyaappe yeedda kaaletsiyaawanttu Saala, Gabbaayanne Sallaaya. Saalu Mashulaama na'aa; Mashulaami Yo'eeda na'aa; Yo'eedi Padaaya na'aa; Padaayi K'olaaya na'aa; K'olaayi Ma'iseeya na'aa; Ma'iseeyi Iti'eela na'aa; Iti'eeli Yishaa'iyaa na'aa. Mulenna 928 Biiniyaama zaratuu Yerusaalamen de'eeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Ziikira na'ay Yuu'eeli unttunttu kaappuwaa; k'ay Hassanuu'a na'ay Yihuday kataman laa'entso maaragii de'iyaa kaappuwaa."
+        },
+        {
+          "number": "10-11",
+          "text": "K'eesetuwaappe yeedda kaaletsiyaawanttu Yoyaariiba na'aa Yadaaya, Yaakiinanne Saraaya. Saraayi Hilk'k'iyaa na'aa; Hilk'k'ii Mashulaama na'aa; Mashulaami S'aadook'a na'aa; S'aadook'e Maraayoota na'aa; Maraayooti S'oossaa Geeshsha Golliyaa kaappuuwaa gideedda Ahis'uuba yara.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Unttunttunna ittippe S'oossaa Geeshsha Golliyaa oosuwaa ootseeddawanttu ubbaanna 822. K'ay hara kaaletsiyaawe Adaaya; Adaayi Yirohaama na'aa; Yirohaami Palaaliyaa na'aa, Palaalii Amoos'a na'aa; Amoos'i Zakkaraasa na'aa; Zakkaraasi Paashihuura na'aa; Paashihuuri Malkkiyaa na'aa."
+        },
+        {
+          "number": "13",
+          "text": "Adaayaana ittippe de'iyaa Asay ubbaanna 242. K'aykka hara kaaletsiyaawe Amaashasaaya; Amaashasaayi Azaari'eela na'aa; Azaari'eeli Ahizaaya na'aa; Ahizaayi Mashilemoota na'aa; Mashilemooti Imeera na'aa."
+        },
+        {
+          "number": "14",
+          "text": "Amaashasaayaana ittippe de'iyaa olanchchatuu ubbaanna 128. Unttunttu kaappuu Haggidoolima na'aa Zabddi'eela."
+        },
+        {
+          "number": "15",
+          "text": "Leewatuwaappe yeedda kaaletsiyaawanttuppe ittuu Shamaa'iyaa; Shamaa'e Hashshuuba na'aa; Hashshuubi Azirik'aama na'aa; Azirik'aami Hashaabiyaa na'aa; Hashaabii Buuna na'aa.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "K'ay haratuu Shabbataayanne Yozabaada; unttunttu S'oossaa Geeshsha Golliyaappe karenna oosettiyaa oosotoo aawotiyaa Leewatuu kaappatuwaa."
+        },
+        {
+          "number": "17",
+          "text": "K'aykka haray Mataaniyaa; I galataa woosaa woossiyaa wode galataa mazimuriyaa yes's'iyaawanttoo kaappuwaa; I Asaafa yaraappe yeletteedda Zabdda na'aa na'aa, Miika na'aa. Barenana ittippe yes's'iyaawanttu giddon Baak'ibuuk'e laa'entso. K'ay haraykka Abdda; I Shaamu'a na'aa; Shaamu'i Galaala na'aa; Galaali Yidutuuna na'aa."
+        },
+        {
+          "number": "18",
+          "text": "Ubbaanna 284 Leewatuu geeshsha kataman Yerusaalamen de'eeddino."
+        },
+        {
+          "number": "19",
+          "text": "Penggiyaa naagiyaawanttuppe Ak'k'uuba, S'almmoonanne unttunttunna ittippe ootsiyaa hara 172.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Atteeda k'eesatuu, Leewatuunne Israa'eeliyaa Asay ubbay barenttu gadii de'iyaa sa'aan de'iyaa sa'aan dumma dumma Yihudaa katamatuwaan de'eeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "Shin Geeshsha Golliyaa k'oomatuu Yerusaalame kataman itti baggana de'iyaa Ofeela geetettiyaa heeraan de'eeddino. S'iihinne Gishippinne laa\"u unttuntta kaaletsiyaawantta."
+        },
+        {
+          "number": "22",
+          "text": "Yerusaalamen de'iyaa Leewatoo kaappuu Uuza. I Baana na'aa; Baani Hashaabiyaa na'aa; Hashaabii Mataaniyaa na'aa; Mataanii Miika na'aa. Uuzi Geeshsha Golliyaan yes's'iyaawanttoo kaappuwaa gideedda Asaafa yara.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "Unttunttu hachche hachche ootsanabaw kaatiyaappe unttunttoo imetteedda azazuu de'ee."
+        },
+        {
+          "number": "24",
+          "text": "Yihudaa na'aa Zaraaha yaraappe yeletteedda Mashezaabeela na'aa Pataahe Israa'eeliyaa asaa s'eelliyaa ubbabaw unttunttu doonaa gidiide, kaatiyaa matan de'ee.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "Asaappe daratu barenttu goshshaa goshshaa matan de'iyaa k'eeri katamatuwaan de'eeddino. Hewaa diraw, Yihudaa zaratuu K'iriyaati-Arbbaa'an, Diboonan, Yak'abis's'i'eelaaninne hewaa heeraan de'iyaa k'eeri katamatuwaan de'eeddino.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Hara K'eeri Katamatuwaan De'eedda Asaa"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "Unttunttu k'ay Yeshuu'an, Molaadan, Beeti-P'alees'an,"
+        },
+        {
+          "number": "27",
+          "text": "Has'aari-Shu'aalan, Berssaabeehaninne hewaa heeraan de'iyaa k'eeri katamatuwaan,"
+        },
+        {
+          "number": "28",
+          "text": "S'ik'ilaagan, Makoonaaninne hewaa heeraan de'iyaa k'eeri katamatuwaan de'eeddino."
+        },
+        {
+          "number": "29",
+          "text": "K'aykka Enirimmoonan, S'or\"aaninne Yarmmuutanikka de'eeddino."
+        },
+        {
+          "number": "30",
+          "text": "Hewaa s'alalaa gidennaan Zaanohan, Adulaamaninne hewaa heeraan de'iyaa k'eeri katamatuwaaninne Laakishaaninne hewaa heeraan de'iyaa goshshan, k'ay Azeek'aaninne hewaa heeraan de'iyaa k'eeri katamatuwaankka de'eeddino. Hewaa diraw, Yihudaa Asay ubbaanna Berssaabeheppe biide, Hinnooma Zanggaaraa gakkanaw de'iyaa sa'aan de'eeddino."
+        },
+        {
+          "number": "31",
+          "text": "Biiniyaama zaratuu Beeteeleninne hewaa heeraan de'iyaa k'eeri katamatuwaaninne Gebaa'an, Mikimaasan, Aayan,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "32",
+          "text": "Anatootan, Nooban, Anaaniyan,"
+        },
+        {
+          "number": "33",
+          "text": "Has'ooran, Raaman, Gittayman,"
+        },
+        {
+          "number": "34",
+          "text": "Hadiidan, S'abo'iiman, Nabalaas'an"
+        },
+        {
+          "number": "35",
+          "text": "Loodan, Oonooninne Kushiyaa Hiillatuu Zanggaaraa giyaa saankka de'eeddino."
+        },
+        {
+          "number": "36",
+          "text": "Yihudaan de'eedda Leewatuwaappe daratu Biiniyaama asaana ittippe de'anaadan oosetteeddino."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "3",
+          "marker": "Translator/editor note",
+          "text": "- Nah. 7:73",
+          "note_type": "translator_note",
+          "source_reference": "11:3"
+        }
+      ],
+      "heading": [
+        "Nahimii Yerusaalamen Ootseedda Laamiyaa",
+        "(11:1—13:31)",
+        "Yerusaalamen De'iyaa Asaa"
+      ]
+    },
+    {
+      "chapter": 12,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Salaatiyaala na'aa Zarubaabeelananne k'eese ubbatuwaa kaappuwaa Iyyaasunna omooduwaappe simmeedda k'eesatuu hawantta: Saraaya, Ermaasa, Izira,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Amaariyaa, Malluuka, Has's'uusha,"
+        },
+        {
+          "number": "3",
+          "text": "Shakaaniyaa, Rehuuma, Maremoota,"
+        },
+        {
+          "number": "4",
+          "text": "Idda, Ginnetoona, Abiiya,"
+        },
+        {
+          "number": "5",
+          "text": "Miyamiina, Ma'aadiyaa, Bilgga,"
+        },
+        {
+          "number": "6",
+          "text": "Shamaa'iyaa, Yoyaariiba, Yadaaya,"
+        },
+        {
+          "number": "7",
+          "text": "Saala, Amooka, Hilk'k'iyaanne Yadaaya. Hawanttu Iyyaasu laytsan k'eesatoo nne k'eesatuwaa yaratoo kaappuwaa gideeddawantta."
+        },
+        {
+          "number": "8",
+          "text": "Unttunttunna ittippe simmeedda Leewatuu Iyyaasa, Biinuya, K'aadimi'eela, Sherebiyaa, Yihudaanne Mataaniyaa. Mataanii hara barenana ootsiyaawanttuna ittippe galataa mazimuriyaa yes's'iyaawanttoo kaappuwaa.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Unttunttunna ittippe yes's'iyaa Baak'ibuuk'enne Uunnon unttunttuppe sintsanna haa simmi ek'k'iide yes's'iino."
+        },
+        {
+          "number": "10",
+          "text": "Iyyaasu Yoyaak'iima yeleedda; Yoyaak'iimi Eliyaashiba yeleedda; Eliyaashibi Yoyaadaa'a yeleedda;",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Yoyaadaa'i Yoonataana yeleedda; Yoonataani Yadduu'a yeleedda."
+        },
+        {
+          "number": "12",
+          "text": "Yoyaak'iimi k'eese ubbatuwaa kaappuwaa gideedda laytsi, hawaappe kaalliide s'aafetteeddawanttu, k'eesatuwaa yaratuu kaappuwaa gideeddino.",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Saraaya yaraa kaappuu Maraaya."
+            },
+            {
+              "source_marker": "p",
+              "text": "Ermaasa yaraa kaappuu Hanaaniyaa."
+            }
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Izira yaraa kaappuu Mashulaama.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Amaariyaa yaraa kaappuu Yahohanaana."
+            }
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Malluuka yaraa kaappuu Yoonataana.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Shabaaniyaa yaraa kaappuu Yooseefo."
+            }
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Hariima yaraa kaappuu Adiina.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Maraayoota yaraa kaappuu Hilk'k'aaya."
+            }
+          ]
+        },
+        {
+          "number": "16",
+          "text": "Iddo yaraa kaappuu Zakkaraasa.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Ginnetoona yaraa kaappuu Mashulaama."
+            }
+          ]
+        },
+        {
+          "number": "17",
+          "text": "Abiiya yaraa kaappuu Ziikira.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Miniyaaminanne Ma'aadiyaa yaraa kaappuu Pils's'aaya."
+            }
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Bilgga yaraa kaappuu Shaamu'a.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Shamaa'iyaa yaraa kaappuu Yoonataana."
+            }
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Yoyaariiba yaraa kaappuu Matanaaya.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Yadaaya yaraa kaappuu Uuza."
+            }
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Sallaaya yaraa kaappuu K'aallaaya.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Amooka yaraa kaappuu Ebeera."
+            }
+          ]
+        },
+        {
+          "number": "21",
+          "text": "Hilk'k'iyaa yaraa kaappuu Hashaabiyaa.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Yadaaya yaraa kaappuu Nataani'eela."
+            }
+          ]
+        },
+        {
+          "number": "22",
+          "text": "Leewatuu kaappatuu Eliyaashibi, Yoyaadaa'i, Yohanaaninne Yadduu'i k'eese kaappuwaa gideedda dumma dumma laytsan s'aafetteeddino. K'ay k'eesatuu Parsse gadiyaa asaa gideedda Daariyoosi kaateteedda laytsan s'aafetteeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "Gido shin, Leewatuu yaratuu kaappatuu mazggobiyaan s'aafetteeddawe Eliyaashiba na'aa na'aa Yohanaani hayk'k'ana gakkanaw de'iyaa wodiyaa s'alalaana."
+        },
+        {
+          "number": "24",
+          "text": "Leewatuwaa kaaletsiyaawanttu Hashaabiyaa, Sherebiyaanne K'aadimi'eela na'aa Iyyaasa. Unttunttu S'oossaa asaa gideedda Kaatii Daawite azazeeddawaadan, laa\"uwaan shaaketti ek'k'iide, kaalan kaalan S'oossaa bonchchiinonne aw galataa mazimuriyaa yes's'iino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "Geeshsha Golliyaa gimbbiyaa penggiyaa matan kees'etteedda dumma dumma shaluwaa wotsiyaa golliyaa naagiyaawanttu Mataaniyaa, Baak'ibuuk'iyaa, Obaadiyaa, Mashulaama, S'almmoonanne Ak'k'uuba giyaawaantta.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "Hawanttu Yos'edeek'a na'aa na'aa, Iyyaasu na'aa Yoyaak'iimi, gadiyaa mooddiyaa Nahimiinne k'eesenne s'aafiyaa gideedda Iziri de'eedda laytsan ootseeddino."
+        },
+        {
+          "number": "27",
+          "text": "Yerusaalame gimbbii gimbbettiide wureedda baalaa bonchchiyaa wode, Leewatuu barenttu de'iyaasaappe saappe koyettiide, Yerusaalame yeeddino; daalan, diitsaaninne maasink'k'uwaan galataa mazimuriyaa nashechchan yes's'iidde, baalaa bonchcheeddino.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Nahimii Yerusaalame Katamaa // Gimbbiyaa Anjjissiyaa Baalaa Ootseedda"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "Ha baalaa bonchchanaw Leewatuwaa zaratuu, mazimuriyaa yes's'iyaawanttu ubbay barenttu kees's'iide utteedda Yerusaalame yuushshuwaappenne Nas'oofatu gadiyaan de'iyaa k'eeri katamatuwaappe,"
+        },
+        {
+          "number": "29",
+          "text": "Beeti-Gelggalappe, Gebaa'appenne Azimaaweetappe shiik'iide yeeddino."
+        },
+        {
+          "number": "30",
+          "text": "Hewaappe guyyiyaan, k'eesatuu nne Leewatuu barenttu huup'iyaw geeyeeddino; k'ay Asay ubbay, gimbbiyaa penggetuunne gimbbii S'oossaw geeyanaadan ootsiyaa wogaa poleeddino."
+        },
+        {
+          "number": "31",
+          "text": "Taani Yihudaa kaaletsiyaawantta gimbbiyaa bollan shiishshay; k'ay mazimuriyaa yes's'iyaawanttakka laa\"u c'uguwaan shaakkaade S'oossaa galatana mala ootsaaddi. Itti c'uguu gimbbiyaa huup'iyaanna ushechcha simmiide, Pituwaa Oliyaa Penggiyaa bagga beedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "32",
+          "text": "Hoshaayinne Yihudaa kaaletsiyaawanttuppe baggatuu unttuttuppe guyyenna kaalliino."
+        },
+        {
+          "number": "33",
+          "text": "Haratuu k'ay unttunttunna de'iyaawanttu Azaariyaa, Izira, Mashulaama,"
+        },
+        {
+          "number": "34",
+          "text": "Yihudaa, Biiniyaama, Shamaa'iyaa, Ermaasanne"
+        },
+        {
+          "number": "35",
+          "text": "s'urumbbaa oyk'k'iide k'eesetuwaa. K'ay unttunttuppe guyyenna yeeddawe Zakkaraasa; Zakkaraasi Yoonataana na'aa; Yoonataani Shamaa'iyaa na'aa; Shamaa'e Mataaniyaa na'aa; Mataanii Mikaaya na'aa; Mikaayi Zakkuura na'aa; Zakkuuri Asaafa na'aa."
+        },
+        {
+          "number": "36",
+          "text": "Zakkaraasa yara gideedda Shamaa'e, Azaari'eeli, Milalaayi, Gilalaayi, Ma'aayi, Nataani'eeli, Yihudaynne Hanaani S'oossaa asaa gideedda Daawite S'oossaw yes's'iyaa wode go'ettiyaa yetsaa miishshaa ubbaa akkiide, Zakkaraasappe guyyenna kaalleeddino. Unttunttu c'uguwaa kaaletsiyaawenne s'aafiyaawe Izira."
+        },
+        {
+          "number": "37",
+          "text": "Pulttuwaa Penggiyaakko gakkowaappe guyyiyaan, Daawita Katamaakko simmiide, gimbbiyaa bollan de'iyaa s'ekkaa keseeddino; Daawita golle aad'd'iide, katamaappe away doliyaa baggana de'iyaa Haatsaa Penggiyaakko beeddino."
+        },
+        {
+          "number": "38",
+          "text": "Laa\"entso mazimuriyaa yes's'iyaawanttu c'uguu gimbbiyaa huup'iyaa oyk'k'iide, haddirssa simmiide beedda. Taani asaappe baggana ittippe gidaade unttunttuppe guyyenna kaalaad. Itooniyaa adussa Gimbbiyaappe aad'd'iide, Aako Gimbbiyaa geetettiyaa sa'aa gakkeedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "39",
+          "text": "K'ay hewaappekka simmiide, Efireema Penggiyaa, ec'a Penggiyaa, Moliyaa Penggiyaa, Hanaani'eela Adussa Gimbbiyaanne S'eetu Adussa Gimbbiyaa gakkanaasikka beedda. Wurssetsan Dorssaa Penggiyaa mataana biide, Naagiyaawanttu Penggiyaa gakkiide ek'k'eedda."
+        },
+        {
+          "number": "40",
+          "text": "Mazimuriyaan S'oossaa galatiyaa laa\"u c'uguukka S'oossaa Geeshsha Golliyaakko gakkeeddino; k'ay taanikka taananna ittippe de'iyaa kaaletsiyaawaana gakkaad.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "41",
+          "text": "Nuuppe haratuu hawaappe kaalliide s'aafetteedda, s'urumbbaa punniyaa k'eesatuu kka gakkeeddino. Hewanttukka Eliyaak'iima, Ma'iseeya, Miniyaamina, Mikaaya, Eliyoo'enaaya, Zakkaraasanne Hanaaniyaa."
+        },
+        {
+          "number": "42",
+          "text": "Unttunttu kaalliide gakkeeddawanttu Ma'iseeya, Shamaa'iyaa, El\"aazara, Uuza, Yahohanaana, Malkkiyaa, Elaamanne Es'eera. Nuuni ubbay denddi ek'k'owaappe guyyiyaan, mazimuriyaa yes's'iyaawanttu Yiziraahee unttuntta kaaletsina, barenttu kooshshaa d'ok'k'u ootsiide yes's'eeddino."
+        },
+        {
+          "number": "43",
+          "text": "He gallassi daro yarshshuwaa Asay S'oossaw yarshsheedda; ayaw gooppe, S'oossay unttunttu wolk'k'aama nashechchan nashechcheedda; mac'c'a asaykka naanaykka nashetteeddino. Hewaa diraw, Yerusaalame Asay nashetiyaa nashechchay haakuwaan sisetteedda.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "44",
+          "text": "He gallassi Asay immiyaa imotatuwaa, asiraataanne laytsan ka\"iyaa katsaa ayfiyaa koyruwaa shiishshiide, miishshatuwaa wotsiyaa gollen wotsiide, naagiyaa kaappatuwaa dooreeddino. Ha dooreedda asatuu dumma dumma katamatuwaan de'iyaa shoyk'atuwaappe higgii azaziyaawaadan, k'eesatoo nne Leewatoo bessiyaa k'ommuwaa shiishshino. Ayaw gooppe, Yihudaa Asay ubbay k'eesetuwaaninne Leewatuwaan loytsi nashetteeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "45",
+          "text": "Unttunttu S'oossay azazeeddawaa ootseeddino; k'ay geeyiyaa wogaakka poleeddino. Unttunttu s'alalaa gidennaan, mazimuriyaa yes's'iyaawanttunne penggiyaa naagiyaawanttu Daawitenne Aa na'aa Solomone azazeedda oosuwaa poleeddino."
+        },
+        {
+          "number": "46",
+          "text": "Kase Daawitanne Asaafa wodiyaappe doommiidekka mazimuriyaa yes's'iyaawanttu c'uguwaa kaaletsiyaawanttu S'oossaa yetsan galatanawunne bonchchanaw de'iyaawe erettiide de'iyaawaa."
+        },
+        {
+          "number": "47",
+          "text": "Zarubaabeela laytsaaninne Nahimiyaa laytsan Israa'eeliyaa ubbay mazimuriyaa yes's'iyaawanttoonne penggiyaa naagiyaawanttoo bessiyaa k'ommuwaa hachche hachche immeeddino; k'ay Leewatookka unttunttoo dummayeedda k'ommuwaa immeeddino. Leewatuukka k'ay Aaroona yaratuwaa gideedda k'eesatoo unttunttoo dummayeedda k'ommuwaa immeeddino."
+        }
+      ],
+      "notes": [
+        {
+          "verse": "45",
+          "marker": "Translator/editor note",
+          "text": "- 1 Od. 25:1-8; 26:12",
+          "note_type": "translator_note",
+          "source_reference": "12:45"
+        }
+      ],
+      "heading": [
+        "Omooduwaappe Simmeedda K'eesatuwaanne Leewatuwaa Suntsaa"
+      ]
+    },
+    {
+      "chapter": 13,
+      "verses": [
+        {
+          "number": "1",
+          "text": "He gallassi Asay ubbay sisishshin, Muse Mas'aafay nabbabetteedda; he wode unttunttu, «Moo'aabe gadiyaa asaynne Amoona gadiyaa Asay S'oossaa maabaran gaketanaw bessena» giyaa sa'aa mas'aafaa giddon demmeeddino.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Ayaw gooppe, Israa'eeliyaa Asay Gibs'eppe kesiide, Kanaane biyaa wode, Moo'aabanne Amoona gadiyaa Asay unttunttoo katsaanne haatsaa immennan is's'eeddino. Hewaa bollakka k'ay Israa'eeliyaa asaa shek'k'ana mala, Balaamaw shaluwaa immiide shammeeddino. Gido shin, nu S'oossay shek'aa anjjoo laammeedda."
+        },
+        {
+          "number": "3",
+          "text": "Ha higgiyaa Israa'eeliyaa Asay siseedda wode, allaga zariyaa walakay de'iyaa ubbaa Israa'eeliyaappe shaakkeedda."
+        },
+        {
+          "number": "4",
+          "text": "Hewaappe kasetiide, Geeshsha Golliyaan miishshatuwaa wotsiyaa kifiletoo kaappuwaa gideedda Eliyaashibi S'oobbiyaanna dabbotaa med'd'i wotseedda.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Nahimii Bayeedda Wogaa Ooras's'iseedda"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Hewaappe denddeddawaan katsaa imotaa, is'aanaa, Geeshsha Golliyaan de'iyaa dumma dumma miishshatuwaa, katsaappe woyniyaappenne zayitiyaappe Leewatoo, mazimuriyaa yes's'iyaawanttoonne penggiyaa naagiyaawanttoo immiyaa asiraataanne k'eesatoo immiyaa k'ommuwaa wotsiyaa wogga kifiliyaa Eliyaashibi S'oobbii ak'ana mala, aw giigisseedda."
+        },
+        {
+          "number": "6",
+          "text": "Ha ubbabay haniyaa wode taani Yerusaalamen de'ikke. Ayaw gooppe, Ars's'ekisisi Baabloone gadiyaan kaateteedda hattamanne laa'entso laytsan taani simmaade Baabloone gadiyaa kaatiyaakko ba kichchaad. Gido shin, guutsa wodiyaappe guyyiyaan, kaatiyaa oochchaade,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Yerusaalame simmaade yaad. S'oossaa Geeshsha Gollii de'iyaa sa'aan Eliyaashibi S'oobbiyaw ak'iyaa kifiliyaa giigissiide, I ootseedda iitabaa akeekaad."
+        },
+        {
+          "number": "8",
+          "text": "Loytsa hank'k'etaadde, S'oobbiyaa soy shaluwaa ubbaa kifiliyaappe kessaade, kare olaad."
+        },
+        {
+          "number": "9",
+          "text": "Kifiliyaakka k'ay wogaadan geeshshana mala azazaad. S'oossaa Geeshsha Golliyaa miishshatuwaa, katsaa, imotaanne is'aanaa zaaraadde he sa'aa gelissaad."
+        },
+        {
+          "number": "10",
+          "text": "K'ay Asay Leewatoonne mazimuriyaa yes's'iyaawanttoo bessiyaa k'umaw immibeenna diraw, Leewatuunne mazimuriyaa yes's'iyaawanttu ubbay barenttu kiitaa aggiide, goshshaw guyye beeddawaa be'aaddi.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Hewaa diraw, taani kaappatuwaa, «S'oossaa Geeshsha Golliyaa oosuwaa ayaw oli aggeeditee?» yaagaade hank'k'ettaadi. Hewaappe guyyiyaan, unttuntta s'eegaade ubbaakka unttunttu oosoo oosuwaa zaaraad."
+        },
+        {
+          "number": "12",
+          "text": "Yaatina, Yihudaa Asay ubbay katsaappe, woyniyaappenne zayitiyaappe immiyaa asiraataa Geeshsha Golliyaa miishshatuwaa wotsiyaa golliyaa zaariide, ahuwaa doommeedda."
+        },
+        {
+          "number": "13",
+          "text": "Taani k'eesiyaa Sheleemiyaa, s'aafiyaa S'aadook'anne Leewiyaa Padaaya miishshaa wotsiyaa golliyaw kaappuwaa ootsaade suntsaad. K'ay Mataaniyaa na'aa na'aa Zakkuura na'ay Hanaani unttuntta maaddiyaawaa. Hawanttu ubbaykka koshshiyaawaa ubbaa barenttu ishatoo shaakki shaakki immiyaawan ammanettiyaawantta gideeddino."
+        },
+        {
+          "number": "14",
+          "text": "«Ta S'oossaw taana k'oppa; k'ay ne Geeshsha Golliyaa kiittay giigana mala, taani ootseedda lo\"o oosuwaakka dogoppa» yaagaade taani woossaad.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "He wodiyaan taani Yihudaan de'iyaa Asay Sambbata gallassi woyniyaa gum\"ishin be'aaddi; haratuukka k'ay katsaa, woyniyaa eessaa, woyniyaa ayfiyaa, balasiyaa ayfiyaanne hewantta malatiyaabatuwaa barenttu hariyaan c'aaniide, Sambbata gallassan Yerusaalame ahiyaawaa be'aaddi. Hewaa diraw, unttunttu Sambbata gallassan zal\"ennaadan taani unttunttoo minisaade odaaddi.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "Hewaa bollakka k'ay Yerusaalamen de'iyaa S'iiroosa gadiyaa asatuu moliyaanne hara itti itti zal\"e miishshatuwaa ahiide, Sambbatan Yerusaalamen Yihudaa asaw zal\"iino."
+        },
+        {
+          "number": "17",
+          "text": "Hewaa diraw, taani Yihudaa kaaletsiyaawaana hawaadan yaaga walak'ettaad; «Hawaa mala iita oosuwaa ootsiide, Sambbataa ayaw tunissiitee?"
+        },
+        {
+          "number": "18",
+          "text": "S'oossay hawaa mala metuwaa nu bollaaninne nu katamaa bollan aheeddawe, kase hinttenttu aawotuu hewaa mala iitabaa ootsiina gidenneeyye? Ha\"i hinttenttu k'ay Sambbataa tunissiide, Israa'eeliyaa bollan hara hank'k'uwaa ahanaw haniita» yaagaad."
+        },
+        {
+          "number": "19",
+          "text": "Hewaappe guyyiyaan, Sambbata gallassaappe kasetiide de'iyaa gallassaan sa'ay lelem\"iyaa wode, Yerusaalame gimbbiyaa penggetuu gorddettanaadaaninne Sambbatay aad'd'anaw dooyettennaadan taani azazaaddi. K'ay Sambbata gallassaan ay zal\"iyaanne akkiide gelennaadan naagana mala, ta k'oomatuwaappe ittuwaa ittuwaa gimbbiyaa penggiyaan essaaddi.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Hewaa diraw, dumma dumma zal\"e miishshatuwaa ahiyaa zal\"anchchatuu ittuwaappe biide laa\"uwaa gakkanaw, Yerusaalame gimbbiyaappe gas'aa baggana ak'eedino."
+        },
+        {
+          "number": "21",
+          "text": "Shin taani unttuntta hawaadan yaagaadde seeraad; «Gimbbiyaappe gas'ana waananaw ak'iitee? Hinttenttu laa'entso hewaadan ootsooppe, taani wolk'k'ankka hinttentta te\"ana» yaagaad. He gallassaappe guyyiyaan, laa'entso Sambbata gallassi mule yibeykkino."
+        },
+        {
+          "number": "22",
+          "text": "Leewatuu barenttu huup'iyaa geeshshanaadaaninne Sambbata gallassaykka geeshsha gidana mala, gimbbiyaa penggetuwaa naaganaadan taani azazaad.",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "«Ta S'oossaw, ha ubbabaa diraw, neeni taana k'oppa; k'ay ne aggena siik'uwaa diraw, neeni taw k'aretta» yaagaadde woossaad."
+            }
+          ]
+        },
+        {
+          "number": "23",
+          "text": "He wode k'aykka taani Yihudaa attuma asaappe ittuu ittuu machchiyaa Ashddooda, Amoonanne Moo'aabe gadetuwaappe akkeeddawaa be'aaddi.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "Ubbaa k'ay iitabay unttunttu naanatuwaappe baggay Ashddooda gadiyaa woy itti itti hara gadiyaa k'aalan haasayiinoppe attina, barenttu gadiyaa, Yihudaa k'aalan haasayanaw danddaykkino."
+        },
+        {
+          "number": "25",
+          "text": "Taani unttunttunna ooshettaadinne unttuntta shek'k'aad; k'ay unttunttuppe ittuwaa ittuwaa dechchaade, unttunttu huup'iyaa binnaanaa shoddaad. Hewaa s'alalaa gidennaan unttunttu laa'entso barenttu mac'c'a naanaa unttunttu attuma naanaatoo immennaadaaninne unttunttu mac'c'a naanaakka barenttoonne barenttu attuma naanaatoo akkenaadan S'oossaa suntsan c'aak'k'etaad."
+        },
+        {
+          "number": "26",
+          "text": "K'aykka unttuntta hawaadan yaagaad; «Kaatiyaa Solomone nagaraa ootseeddawe allaga gadiyaa mac'c'a asatuwaappe denddeeddawaana gidenneeyye? Solomone mala kaatii hara daro gadiyaa kaatetuwaa giddonkka baawa; S'oossaykka Aa doseedda diraw, Israa'eeliyaa asaa ubbaa bollan kaateyeedda. Gido shin, haray atto aakka allaga gadiyaa mac'c'a asatuu hawaa mala nagaraa oosisseeddino."
+        },
+        {
+          "number": "27",
+          "text": "Yaatina, nuunikka k'ay hinttenttu zoriyaa sisiide, allaga mac'c'a asaa akkiiddenne hewaa mala iitabaa ootsiidde, S'oossaa naak'k'aneeyye?» yaagaad."
+        },
+        {
+          "number": "28",
+          "text": "K'eesiyaa ubbatuwaa kaappuwaa Eliyaashiba naanatuwaappe ittuu Yoyaadaa'a; shin Aa naanatuwaappe ittuu Beeti-Horoona katamaa asaa gidiyaa Sanbbalaas'a naatto akkeedda. Yaatina, taani Aa ta de'iyaa sa'aappe yederssaad.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "29",
+          "text": "«Ta S'oossaw, hawanttu k'eesetetsaa wogaa tunisseeddawaanne neeni k'eesetuwaananne Leewatuwaana wotseedda k'aalaa c'aak'uwaa koleeddawaa be'a» yaagaadde taani woossaad.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "Unttuntta allaga gideedda yewuwaa ubbaappe geeshshowaappe guyyiyaan, k'eesatoonne Leewatoo unttunttu oosuwaa oosuwaa immaaddi.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "31",
+          "text": "K'ay yarshshuwaa s'uuggiyaa mitsaykka wodiyaan wodiyaan yaana malanne asaykka barew ayfeeddawaappe koyro ayfiyaa imotaa ootsiidde ahana mala, wogaa wotsaaddi.",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "«Ta S'oossaw, ne lo\"otetsan taana k'oppa» yaagaade taani woossaaddi."
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "1",
+          "marker": "Translator/editor note",
+          "text": "- Zar. 23:3-5",
+          "note_type": "translator_note",
+          "source_reference": "13:1"
+        },
+        {
+          "verse": "2",
+          "marker": "Translator/editor note",
+          "text": "- Pay. 22:1-6",
+          "note_type": "translator_note",
+          "source_reference": "13:2"
+        },
+        {
+          "verse": "10",
+          "marker": "Translator/editor note",
+          "text": "- Zar. 12:19",
+          "note_type": "translator_note",
+          "source_reference": "13:10"
+        },
+        {
+          "verse": "12",
+          "marker": "Translator/editor note",
+          "text": "- Mil. 3:10",
+          "note_type": "translator_note",
+          "source_reference": "13:12"
+        },
+        {
+          "verse": "15",
+          "marker": "Translator/editor note",
+          "text": "- Kes. 20:8-10; Zar. 5:12-14; Erm. 17:21-22",
+          "note_type": "translator_note",
+          "source_reference": "13:15"
+        },
+        {
+          "verse": "23",
+          "marker": "Translator/editor note",
+          "text": "- Kes. 34:11-16; Zar. 7:1-5",
+          "note_type": "translator_note",
+          "source_reference": "13:23"
+        },
+        {
+          "verse": "26",
+          "marker": "Translator/editor note",
+          "text": "- 2 Sam. 12:24-25; 1 Kat. 11:1-8",
+          "note_type": "translator_note",
+          "source_reference": "13:26"
+        },
+        {
+          "verse": "28",
+          "marker": "Translator/editor note",
+          "text": "- Nah. 4:1",
+          "note_type": "translator_note",
+          "source_reference": "13:28"
+        }
+      ],
+      "heading": [
+        "Israa'eeliyaa Asay Allaga Asaappe Shaaketteedda"
+      ]
+    }
+  ]
+}

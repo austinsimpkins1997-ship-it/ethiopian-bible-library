@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "scope": "Counts describe this built package snapshot; they do not establish completeness or accuracy.",
+  "catalogue_row_count": 90,
+  "source_record_count": 451,
+  "source_rights_class_counts": {
+    "all_rights_reserved": 2,
+    "mixed": 12,
+    "permission_limited": 18,
+    "public_domain_claimed": 13,
+    "unknown": 406
+  },
+  "research_reviewed_title_match_count": 327,
+  "related_work_record_count": 9,
+  "standard_nt_research": {
+    "entry_count": 27,
+    "candidate_reader_record_count": 367,
+    "mapping_state_counts": {
+      "reviewed_match": 297,
+      "uncertain": 70
+    },
+    "language_tag_count": 13,
+    "scope_note": "Bundled standard-New-Testament research modules linked by work/title candidates; not canon-linked coverage, edition equivalence, accuracy, or completeness."
+  },
+  "standard_ot_research": {
+    "entry_count": 40,
+    "candidate_reader_record_count": 307,
+    "module_code_count": 46,
+    "mapping_state_counts": {
+      "reviewed_match": 24,
+      "uncertain": 283
+    },
+    "language_tag_count": 7,
+    "source_ids": [
+      "SRC-029",
+      "SRC-384",
+      "SRC-396"
+    ],
+    "scope_note": "Standard Old Testament USFM module links are research-only: Job and Chronicles modules have reviewed work/title matches based on the Church list and official USFM identifiers; the remaining links are uncertain title candidates. Reviewed title matches do not establish EOTC/Eritrean affiliation, edition identity, textual boundaries, completeness, or accuracy."
+  },
+  "church_list": {
+    "entry_count": 81,
+    "old_testament_entry_count": 46,
+    "new_testament_entry_count": 35,
+    "canon_linked_reader_entry_count": 19,
+    "research_candidate_entry_count": 49,
+    "research_reviewed_title_match_entry_count": 32,
+    "research_source_asserted_title_entry_count": 0,
+    "research_provisional_title_candidate_entry_count": 17,
+    "entries_with_neither_local_reader_count": 13,
+    "reader_mapping_state_counts": {
+      "reviewed_match": 19,
+      "asserted_by_source": 0,
+      "uncertain": 0,
+      "related_work": 0,
+      "not_mapped": 0,
+      "mixed": 0,
+      "unrecorded": 0
+    },
+    "mapping_scope_note": "Mapping state is evidence classification, not a completeness or accuracy score. A reviewed match here means a scoped work/title comparison against cited records, not scholarly peer review, edition identity, text collation, completeness, or accuracy."
+  },
+  "reader_records": {
+    "total": 759,
+    "canon_linked": 19,
+    "research_only": 740,
+    "rights_class_counts": {
+      "open_license": 454,
+      "permission_limited": 116,
+      "public_domain_claimed": 189
+    },
+    "canon_linked_rights_class_counts": {
+      "permission_limited": 19
+    },
+    "scope_note": "Canon links are archive mappings, not certifications of edition identity, completeness, or textual accuracy."
+  },
+  "language_script_profile_count": 28,
+  "language_profile_content_counts": {
+    "with_registered_bundled_layers": 2,
+    "with_bundled_research_readers": 14,
+    "with_any_bundled_text": 14,
+    "bundled_research_language_script_pair_count": 15,
+    "bundled_research_language_script_labels": [
+      "Alaba-K’abeena (Ethiopic script)",
+      "Amharic (አማርኛ) (Ethiopic script)",
+      "Baiso (Bayso) (Ethiopic script)",
+      "Baiso (Bayso) (Latin script)",
+      "Dawro (Latin script)",
+      "English (Latin script)",
+      "Gamo (Gamotso) (Ethiopic script)",
+      "Geʽez (Classical Ethiopic) (Ethiopic script)",
+      "Lingala (Lingála) (Latin script)",
+      "Maale (Male) (Ethiopic script)",
+      "Oyda (Ethiopic script)",
+      "Somali (Soomaali) (Latin script)",
+      "Standard Arabic (Arabic script)",
+      "West Central Oromo (Afaan Oromoo) (Latin script)",
+      "Yemsa (Ethiopic script)"
+    ],
+    "scope_note": "A profile is a language/script metadata record; the total profile count is not a count of languages with bundled text."
+  },
+  "research_translation_provenance": {
+    "text_origin_counts": {
+      "published_translation": 736,
+      "source_transcription": 4
+    },
+    "published_translation_basis_counts": {
+      "established": 42,
+      "unknown": 694
+    },
+    "scope_note": "These are corpus metadata states. An established basis path means cited evidence identifies a source-language path; it does not certify translator workflow, wording accuracy, completeness, or community review. Unknown means the path is not established in this archive, not that no translation exists."
+  },
+  "portable_text_layer_count": 99,
+  "rights_withheld_text_record_count": 42,
+  "unbundled_lead_count": 162
+}

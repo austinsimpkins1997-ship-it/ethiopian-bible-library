@@ -1,0 +1,198 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/obadiah-geez-bachmann-theot",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/obadiah-eotc",
+  "labels": [
+    {
+      "value": "Obadiah — Geʽez source transcription",
+      "language_tag": "en",
+      "label_type": "preferred"
+    },
+    {
+      "value": "ዘዓብድዩ ፡",
+      "language_tag": "gez",
+      "label_type": "original_form"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-37",
+      "mapping_state": "reviewed_match",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-034",
+        "SRC-153",
+        "SRC-186",
+        "SRC-380",
+        "SRC-384"
+      ],
+      "notes": "Reviewed work/title crosswalk: the Church's numbered list names Obadiah; TAU's index uses the Latin form Abdias, and the linked book-specific page identifies the Ethiopic Book of Obadiah. This matches the named biblical work only; Bachmann's 1892 critical edition transcription is not identified as a current EOTC printed edition and its text has not been freshly collated. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Obadiah."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/obadiah-bachmann-1892-theot-2013",
+    "witness_type": "digital_edition",
+    "title": "Bachmann 1892 Ethiopic Obadiah critical edition; THEOT Project text transcription (2013), displayed by TAU",
+    "date_statement": "Printed critical edition 1892; THEOT transcription February 2013; TAU information page dated April 2010",
+    "repository_or_publisher": "Tel Aviv University website; Textual History of the Ethiopic Old Testament (THEOT) Project",
+    "shelfmark_or_edition_id": "Heft I: Der Prophet Obadia",
+    "editorial_policy": "The source transcription follows Bachmann's critical edition. The source page links verse labels to external navigation references; local extraction retains verse labels and raw HTML. Critical apparatus and facsimile images are not included.",
+    "source_ids": [
+      "SRC-034",
+      "SRC-036",
+      "SRC-153",
+      "SRC-186"
+    ]
+  },
+  "layer_type": "source_text_transcription",
+  "text_origin": "source_transcription",
+  "language_tag": "gez",
+  "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+  "script_code": "Ethi",
+  "basis_path": [
+    "gez"
+  ],
+  "agents": [
+    {
+      "role": "editor",
+      "name": "Johannes Bachmann",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-153"
+      ]
+    },
+    {
+      "role": "transcriber",
+      "name": "Samuel Aldridge",
+      "authority_or_affiliation": "THEOT Project",
+      "source_ids": [
+        "SRC-153"
+      ]
+    },
+    {
+      "role": "transcriber",
+      "name": "Jeremy Brown",
+      "authority_or_affiliation": "THEOT Project",
+      "source_ids": [
+        "SRC-153"
+      ]
+    },
+    {
+      "role": "transcriber",
+      "name": "Steve Delamarter",
+      "authority_or_affiliation": "THEOT Project",
+      "source_ids": [
+        "SRC-153"
+      ]
+    },
+    {
+      "role": "transcriber",
+      "name": "Garry Jost",
+      "authority_or_affiliation": "THEOT Project",
+      "source_ids": [
+        "SRC-153"
+      ]
+    },
+    {
+      "role": "transcriber",
+      "name": "Shaun Short",
+      "authority_or_affiliation": "THEOT Project",
+      "source_ids": [
+        "SRC-153"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/obadiah-geez-bachmann-theot.json",
+    "media_type": "application/json",
+    "sha256": "42e322498e5ebdaef859e0d755936f134b01868d0ed72f7c6b9a3f6c972a9829",
+    "format_version": "1"
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 21,
+    "structure_description": "The captured TAU Text option is a single page with 21 sequential source-linked labels for chapter 1, verses 1–21. Complete for this locally captured digital Text page only; not a print-edition or manuscript completeness claim.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "HTML whitespace is normalized; source markers are stored separately; visible Ethiopic punctuation and signs remain. Raw HTML is retained. No critical apparatus or facsimile pages are included.",
+    "numbering_policy": "Preserve the exact source labels 1–21 as strings and integer navigation numbers. They are the source page's labels, not a reviewed alignment to other textual witnesses."
+  },
+  "rights": {
+    "status": "permission_limited",
+    "statement": "© Ran HaCohen. For the digitized Ethiopic texts, permission to use, copy, and distribute for any NONCOMMERCIAL purpose is granted without fee, provided that the copyright notice Ran HaCohen and this permission notice appear in all copies of the text. For other uses, please contact the copyright owner.",
+    "license_id": null,
+    "rights_holder": "Ran HaCohen",
+    "attribution_required": true,
+    "territory_or_term_limits": "Noncommercial purposes only under the source site's notice; other uses require contacting the rights holder. This is not an open license or blanket commercial grant.",
+    "evidence_source_ids": [
+      "SRC-036",
+      "SRC-186"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "Reviewed work/title crosswalk: the Church's numbered list names Obadiah; TAU's index uses the Latin form Abdias, and the linked book-specific page identifies the Ethiopic Book of Obadiah. This matches the named biblical work only; Bachmann's 1892 critical edition transcription is not identified as a current EOTC printed edition and its text has not been freshly collated. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Obadiah. Exact edition identity, textual accuracy, and completeness remain distinct questions.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Comparative inspection of the cited Church-list and source-work records.",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-034",
+        "SRC-153",
+        "SRC-186",
+        "SRC-380",
+        "SRC-384"
+      ],
+      "notes": "Reviewed work/title crosswalk: the Church's numbered list names Obadiah; TAU's index uses the Latin form Abdias, and the linked book-specific page identifies the Ethiopic Book of Obadiah. This matches the named biblical work only; Bachmann's 1892 critical edition transcription is not identified as a current EOTC printed edition and its text has not been freshly collated. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Obadiah."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "Retained source page contains one chapter and 21 sequential linked verse labels; parser output is checked against each source label and raw-page checksum.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Obadiah capture parser and archive build",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-186",
+        "SRC-153"
+      ],
+      "notes": "Source-to-reader extraction and structure only; no independent collation or print completeness claim."
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "No collation against Bachmann's 1892 printed edition, critical notes, image pages, or manuscript witnesses.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-153",
+        "SRC-186"
+      ],
+      "notes": "The source identifies the edition and transcribers; this archive has not checked their wording against the print or manuscripts."
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "TAU general and Obadiah source notices authorize noncommercial reuse with notices attached.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Inspected source notice and retained it in the local capture package.",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-036",
+        "SRC-186"
+      ],
+      "notes": "Commercial reuse is not granted by the notice."
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "This record translates no wording. The English title is metadata; the bundled text layer is Geʽez."
+}

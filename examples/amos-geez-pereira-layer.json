@@ -1,0 +1,170 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/amos-geez-pereira-ghebre-tau",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/amos-pereira-1917-candidate",
+  "labels": [
+    {
+      "value": "Amos — Geʽez source transcription",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-34",
+      "mapping_state": "reviewed_match",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-034",
+        "SRC-151",
+        "SRC-193",
+        "SRC-380",
+        "SRC-384"
+      ],
+      "notes": "Reviewed work/title crosswalk: the Church's numbered list and TAU's Ethiopic index both use Amos, and the TAU book page identifies the Ethiopic Book of Amos. This matches the work title only; Pereira's historical witness is not identified as the current EOTC printed edition and transcription accuracy/completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Amos."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/amos-pereira-1917-ghebre-tau-2009",
+    "witness_type": "digital_edition",
+    "title": "Pereira's 1917 Ethiopic Amos; TAU text prepared by Kefela Ghebre and proofread by Ran HaCohen",
+    "date_statement": "Printed edition 1917; TAU text version November 2009",
+    "repository_or_publisher": "Tel Aviv University website; text credited to Kefela Ghebre",
+    "shelfmark_or_edition_id": "O livro do profeta Amós e a sua versão etiópica",
+    "editorial_policy": "TAU credits Ghebre with preparing the text and says he permitted its publication; HaCohen proofread it. Nine text pages are captured; print collation, images, introduction, and apparatus are not included.",
+    "source_ids": [
+      "SRC-151",
+      "SRC-193"
+    ]
+  },
+  "layer_type": "source_text_transcription",
+  "text_origin": "source_transcription",
+  "language_tag": "gez",
+  "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+  "script_code": "Ethi",
+  "basis_path": [
+    "gez"
+  ],
+  "agents": [
+    {
+      "role": "editor",
+      "name": "F. M. Esteves Pereira",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-151"
+      ]
+    },
+    {
+      "role": "transcriber",
+      "name": "Kefela Ghebre",
+      "authority_or_affiliation": "Credited by Tel Aviv University; text published there with his permission",
+      "source_ids": [
+        "SRC-151",
+        "SRC-193"
+      ]
+    },
+    {
+      "role": "reviewer",
+      "name": "Ran HaCohen",
+      "authority_or_affiliation": "Credited by Tel Aviv University as proofreader",
+      "source_ids": [
+        "SRC-151",
+        "SRC-193"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/amos-geez-pereira-ghebre-tau.json",
+    "media_type": "application/json",
+    "sha256": "7bfa45bafcf79ed15341d1c2d955f72ed745384c6bf7579ef852a83817e0340e",
+    "format_version": "1"
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 146,
+    "structure_description": "Nine menu-listed TAU text pages contain 146 nonempty sequential displayed labels. This covers the captured pages only; it does not establish completeness against Pereira's print edition or manuscripts.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "HTML entities decoded and whitespace normalized; source HTML retained. External target identifier Amo is recorded separately per source unit. Introduction, critical apparatus, images, and Portuguese translation are excluded.",
+    "numbering_policy": "Preserve TAU page numbers 1–9 and each displayed source label; retain linked source target identifier Amo. Do not infer cross-witness numbering or alignment."
+  },
+  "rights": {
+    "status": "permission_limited",
+    "statement": "© Ran HaCohen. For the digitized Ethiopic texts, permission to use, copy, and distribute for any NONCOMMERCIAL purpose is granted without fee, provided that the copyright notice Ran HaCohen and this permission notice appear in all copies of the text. For other uses, please contact the copyright owner.",
+    "license_id": null,
+    "rights_holder": "Ran HaCohen (TAU site notice); TAU credits Kefela Ghebre with preparing the text and permission for posting it",
+    "attribution_required": true,
+    "territory_or_term_limits": "TAU's site-wide notice grants noncommercial use only with required copyright and permission notices; other uses require contacting the rights holder. No open or commercial license is asserted.",
+    "evidence_source_ids": [
+      "SRC-036",
+      "SRC-151",
+      "SRC-193"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "Reviewed work/title crosswalk: the Church's numbered list and TAU's Ethiopic index both use Amos, and the TAU book page identifies the Ethiopic Book of Amos. This matches the work title only; Pereira's historical witness is not identified as the current EOTC printed edition and transcription accuracy/completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Amos. Exact edition identity, textual accuracy, and completeness remain distinct questions.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Comparative inspection of the cited Church-list and source-work records.",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-034",
+        "SRC-151",
+        "SRC-193",
+        "SRC-380",
+        "SRC-384"
+      ],
+      "notes": "Reviewed work/title crosswalk: the Church's numbered list and TAU's Ethiopic index both use Amos, and the TAU book page identifies the Ethiopic Book of Amos. This matches the work title only; Pereira's historical witness is not identified as the current EOTC printed edition and transcription accuracy/completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Amos."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "Nine captured page checksums and sequential displayed labels 1–146 verified; all link targets use Amo.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Amos capture parser and archive build",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-193"
+      ],
+      "notes": "Capture-to-reader structure only; not print or manuscript completeness."
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "No comparison with Pereira's 1917 printed edition, images, introduction, apparatus, manuscripts, or current EOTC text.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-151",
+        "SRC-193"
+      ],
+      "notes": "TAU credits Ghebre with preparation and HaCohen with proofreading; this archive has not independently repeated that review."
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "TAU Amos attribution page and site-wide noncommercial reuse notice captured locally.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Retained attribution, notice and permission terms with source HTML.",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-036",
+        "SRC-151",
+        "SRC-193"
+      ],
+      "notes": "Noncommercial copying/distribution with required notices only; not open or commercial."
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "No English translation is bundled. Canon mapping is a provisional title-level link; witness identity and textual accuracy remain unreviewed."
+}

@@ -1,0 +1,2794 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"https://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head> 
+
+<title>Ethiopic Bible</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1255">
+<link rel="stylesheet" type="text/css" href="front.css">
+<meta name="description" content="The Bible in Ethiopic (Ge'ez), following August Dillmann's edition. Digitized by Ran HaCohen." >
+<meta name="keywords" content="Ethiopic Bible, Ge'ez Bible, Geez Bible, Ge'ez, Geez, Ethiopic, Dillmann, Octateuch, Ran HaCohen" >
+
+<style type="text/css">      
+html, body { padding: 0 0 0; margin: 0 0 0; height:100%; width:100%; overflow: hidden;}
+.square1 { position:absolute; border:0px; width:100%; height:22%; overflow: hidden;}
+#top { top:0;left:0; }
+.square2 { position:absolute; padding-left:10px; padding-top:5px; width:48.75%;height:78%; overflow: auto;}
+#bottom-left { bottom:0; left:0; border-width:3px; border-style:double double none none; border-color:gray;}
+.square3 { position:absolute; padding-left:10px; padding-top:5px; width:48.75%;height:78%; overflow: auto;}
+#bottom-right { bottom:0; right:0; border-width:3px; border-style:double none none double; border-color:gray;}
+</style> 
+
+<SCRIPT TYPE="text/javascript"> 
+
+function dropdown(mySel)
+{
+var myWin, myVal;
+myVal = mySel.options[mySel.selectedIndex].value;
+if(myVal)
+   {
+   if(mySel.form.target)myWin = parent[mySel.form.target];
+   else myWin = window;
+   if (! myWin) return true;
+   myWin.location = myVal;
+   }
+return false;
+}
+<!-- A = Kings; AA = Jubil; AAA = Chronicles -->
+
+function nullOptionsDMA(aMenu){
+var tot=aMenu.options.length
+for (i=0;i<tot;i++)
+{
+aMenu.options[i]=null
+}
+aMenu.options.length=1;
+}
+
+function MySubjectDMA1(aMenu){
+nullOptionsDMA(aMenu)
+with (aMenu){
+//Rewrites the text and values
+options[0]=new Option("1","Regum/RegI 1.html");
+options[1]=new Option("2","Regum/RegI 2.html");
+options[2]=new Option("3","Regum/RegI 3.html");
+options[3]=new Option("4","Regum/RegI 4.html");
+options[4]=new Option("5","Regum/RegI 5.html");
+options[5]=new Option("6","Regum/RegI 6.html");
+options[6]=new Option("7","Regum/RegI 7.html");
+options[7]=new Option("8","Regum/RegI 8.html");
+options[8]=new Option("9","Regum/RegI 9.html");
+options[9]=new Option("10","Regum/RegI 10.html");
+options[10]=new Option("11","Regum/RegI 11.html");
+options[11]=new Option("12","Regum/RegI 12.html");
+options[12]=new Option("13","Regum/RegI 13.html");
+options[13]=new Option("14","Regum/RegI 14.html");
+options[14]=new Option("15","Regum/RegI 15.html");
+options[15]=new Option("16","Regum/RegI 16.html");
+options[16]=new Option("17","Regum/RegI 17.html");
+options[17]=new Option("18","Regum/RegI 18.html");
+options[18]=new Option("19","Regum/RegI 19.html");
+options[19]=new Option("20","Regum/RegI 20.html");
+options[20]=new Option("21","Regum/RegI 21.html");
+options[21]=new Option("22","Regum/RegI 22.html");
+options[22]=new Option("23","Regum/RegI 23.html");
+options[23]=new Option("24","Regum/RegI 24.html");
+options[24]=new Option("25","Regum/RegI 25.html");
+options[25]=new Option("26","Regum/RegI 26.html");
+options[26]=new Option("27","Regum/RegI 27.html");
+options[27]=new Option("28","Regum/RegI 28.html");
+options[28]=new Option("29","Regum/RegI 29.html");
+options[29]=new Option("30","Regum/RegI 30.html");
+options[30]=new Option("31","Regum/RegI 31.html");
+options[0].selected=true
+}}
+
+function MySubjectDMA2(aMenu){
+nullOptionsDMA(aMenu)
+with (aMenu){
+//Rewrites the text and values
+options[0]=new Option("1","Regum/RegII 1.html");
+options[1]=new Option("2","Regum/RegII 2.html");
+options[2]=new Option("3","Regum/RegII 3.html");
+options[3]=new Option("4","Regum/RegII 4.html");
+options[4]=new Option("5","Regum/RegII 5.html");
+options[5]=new Option("6","Regum/RegII 6.html");
+options[6]=new Option("7","Regum/RegII 7.html");
+options[7]=new Option("8","Regum/RegII 8.html");
+options[8]=new Option("9","Regum/RegII 9.html");
+options[9]=new Option("10","Regum/RegII 10.html");
+options[10]=new Option("11","Regum/RegII 11.html");
+options[11]=new Option("12","Regum/RegII 12.html");
+options[12]=new Option("13","Regum/RegII 13.html");
+options[13]=new Option("14","Regum/RegII 14.html");
+options[14]=new Option("15","Regum/RegII 15.html");
+options[15]=new Option("16","Regum/RegII 16.html");
+options[16]=new Option("17","Regum/RegII 17.html");
+options[17]=new Option("18","Regum/RegII 18.html");
+options[18]=new Option("19","Regum/RegII 19.html");
+options[19]=new Option("20","Regum/RegII 20.html");
+options[20]=new Option("21","Regum/RegII 21.html");
+options[21]=new Option("22","Regum/RegII 22.html");
+options[22]=new Option("23","Regum/RegII 23.html");
+options[23]=new Option("24","Regum/RegII 24.html");
+options[0].selected=true
+}}
+
+function MySubjectDMA3(aMenu){
+nullOptionsDMA(aMenu)
+with (aMenu){
+//Rewrites the text and values
+options[0]=new Option("1","Regum/RegIII 1.html");
+options[1]=new Option("2","Regum/RegIII 2.html");
+options[2]=new Option("3a","Regum/RegIII 3a.html");
+options[3]=new Option("3b","Regum/RegIII 3b.html");
+options[4]=new Option("4","Regum/RegIII 4.html");
+options[5]=new Option("5","Regum/RegIII 5.html");
+options[6]=new Option("6","Regum/RegIII 6.html");
+options[7]=new Option("7","Regum/RegIII 7.html");
+options[8]=new Option("8","Regum/RegIII 8.html");
+options[9]=new Option("9","Regum/RegIII 9.html");
+options[10]=new Option("10","Regum/RegIII 10.html");
+options[11]=new Option("11","Regum/RegIII 11.html");
+options[12]=new Option("12","Regum/RegIII 12.html");
+options[13]=new Option("13","Regum/RegIII 13.html");
+options[14]=new Option("14","Regum/RegIII 14.html");
+options[15]=new Option("15","Regum/RegIII 15.html");
+options[16]=new Option("16","Regum/RegIII 16.html");
+options[17]=new Option("17","Regum/RegIII 17.html");
+options[18]=new Option("18","Regum/RegIII 18.html");
+options[19]=new Option("19","Regum/RegIII 19.html");
+options[20]=new Option("21","Regum/RegIII 21.html");
+options[21]=new Option("20","Regum/RegIII 20.html");
+options[22]=new Option("22","Regum/RegIII 22.html");
+options[0].selected=true
+}}
+
+function MySubjectDMA4(aMenu){
+nullOptionsDMA(aMenu)
+with (aMenu){
+//Rewrites the text and values
+options[0]=new Option("1","Regum/RegIV 1.html");
+options[1]=new Option("2","Regum/RegIV 2.html");
+options[2]=new Option("3","Regum/RegIV 3.html");
+options[3]=new Option("4","Regum/RegIV 4.html");
+options[4]=new Option("5","Regum/RegIV 5.html");
+options[5]=new Option("6","Regum/RegIV 6.html");
+options[6]=new Option("7","Regum/RegIV 7.html");
+options[7]=new Option("8","Regum/RegIV 8.html");
+options[8]=new Option("9","Regum/RegIV 9.html");
+options[9]=new Option("10","Regum/RegIV 10.html");
+options[10]=new Option("11","Regum/RegIV 11.html");
+options[11]=new Option("12","Regum/RegIV 12.html");
+options[12]=new Option("13","Regum/RegIV 13.html");
+options[13]=new Option("14","Regum/RegIV 14.html");
+options[14]=new Option("15","Regum/RegIV 15.html");
+options[15]=new Option("16","Regum/RegIV 16.html");
+options[16]=new Option("17","Regum/RegIV 17.html");
+options[17]=new Option("18","Regum/RegIV 18.html");
+options[18]=new Option("19","Regum/RegIV 19.html");
+options[19]=new Option("20","Regum/RegIV 20.html");
+options[20]=new Option("21","Regum/RegIV 21.html");
+options[21]=new Option("22","Regum/RegIV 22.html");
+options[22]=new Option("23","Regum/RegIV 23.html");
+options[23]=new Option("24","Regum/RegIV 24.html");
+options[24]=new Option("25","Regum/RegIV 25.html");
+options[0].selected=true
+}}
+ 
+function changeFilesDMA(){
+aMenu=document.formDoubleMenuDMA.menuSubjectsDMA
+aMenu2=document.formDoubleMenuDMA.menuFilesDMA
+with (aMenu){
+switch (selectedIndex) {
+
+case 0: 
+MySubjectDMA1(aMenu2) 
+aMenu2.options[0].text="1"
+break 
+
+case 1: 
+MySubjectDMA2(aMenu2) 
+aMenu2.options[0].text="1"
+break 
+
+case 2: 
+MySubjectDMA3(aMenu2) 
+aaaMenu2.options[0].text="1"
+break 
+
+case 3: 
+MySubjectDMA4(aMenu2) 
+aMenu2.options[0].text="1"
+break 
+}}
+}
+function goDMA(aMenu){
+if (aMenu.options.value!="none")
+{
+top.location=aMenu.options[aMenu.selectedIndex].value
+}}
+
+function changeFilesDDMMAA(){
+aMenu=document.formDoubleMenuDMA.menuSubjectsDMA
+aMenu2=document.formDoubleMenuDMA.menuFilesDMA
+with (aMenu){
+switch (selectedIndex) {
+
+case 0: 
+MySubjectDMA1(aMenu2) 
+aMenu2.options[0].text="1"
+break 
+
+case 1: 
+MySubjectDMA2(aMenu2) 
+aMenu2.options[0].text="1"
+break 
+
+case 2: 
+MySubjectDMA3(aMenu2) 
+aMenu2.options[0].text="1"
+break 
+
+case 3: 
+MySubjectDMA4(aMenu2) 
+aMenu2.options[0].text="1"
+break 
+
+}}
+aaMenu=document.formDoubleMenuDMAA.menuSubjectsDMAA
+aaMenu2=document.formDoubleMenuDMAA.menuFilesDMAA
+with (aaMenu){
+switch (selectedIndex) {
+
+case 0: 
+MySubjectDMAA1(aaMenu2) 
+aaMenu2.options[0].text="1"
+break 
+
+case 1: 
+MySubjectDMAA2(aaMenu2) 
+aaMenu2.options[0].text="1"
+break 
+}}
+
+aaaMenu=document.formDoubleMenuDMAAA.menuSubjectsDMAAA
+aaaMenu2=document.formDoubleMenuDMAAA.menuFilesDMAAA
+with (aaaMenu){
+switch (selectedIndex) {
+
+case 0: 
+MySubjectDMAAA1(aaaMenu2) 
+aaaMenu2.options[0].text="1"
+break 
+
+case 1: 
+MySubjectDMAAA2(aaaMenu2) 
+aaaMenu2.options[0].text="1"
+break 
+}}
+
+}
+function nullOptionsDMAA(aaMenu){
+var tot=aaMenu.options.length
+for (i=0;i<tot;i++)
+{
+aaMenu.options[i]=null
+}
+aaMenu.options.length=1;
+}
+
+function MySubjectDMAA1(aaMenu){
+nullOptionsDMAA(aaMenu)
+with (aaMenu){
+//Rewrites the text and values
+options[0]=new Option("1","Jubil/Jubilp 1.html");
+options[1]=new Option("2","Jubil/Jubilp 6.html");
+options[2]=new Option("3","Jubil/Jubilp 11.html");
+options[3]=new Option("4","Jubil/Jubilp 15.html");
+options[4]=new Option("5","Jubil/Jubilp 20.html");
+options[5]=new Option("6","Jubil/Jubilp 24.html");
+options[6]=new Option("7","Jubil/Jubilp 29.html");
+options[7]=new Option("8","Jubil/Jubilp 34.html");
+options[8]=new Option("9","Jubil/Jubilp 39.html");
+options[9]=new Option("10","Jubil/Jubilp 40.html");
+options[10]=new Option("11","Jubil/Jubilp 45.html");
+options[11]=new Option("12","Jubil/Jubilp 48.html");
+options[12]=new Option("13","Jubil/Jubilp 52.html");
+options[13]=new Option("14","Jubil/Jubilp 55.html");
+options[14]=new Option("15","Jubil/Jubilp 57.html");
+options[15]=new Option("16","Jubil/Jubilp 61.html");
+options[16]=new Option("17","Jubil/Jubilp 65.html");
+options[17]=new Option("18","Jubil/Jubilp 68.html");
+options[18]=new Option("19","Jubil/Jubilp 70.html");
+options[19]=new Option("20","Jubil/Jubilp 73.html");
+options[20]=new Option("21","Jubil/Jubilp 75.html");
+options[21]=new Option("22","Jubil/Jubilp 79.html");
+options[22]=new Option("23","Jubil/Jubilp 83.html");
+options[23]=new Option("24","Jubil/Jubilp 87.html");
+options[24]=new Option("25","Jubil/Jubilp 91.html");
+options[25]=new Option("26","Jubil/Jubilp 94.html");
+options[26]=new Option("27","Jubil/Jubilp 98.html");
+options[27]=new Option("28","Jubil/Jubilp 101.html");
+options[28]=new Option("29","Jubil/Jubilp 105.html");
+options[29]=new Option("30","Jubil/Jubilp 107.html");
+options[30]=new Option("31","Jubil/Jubilp 111.html");
+options[31]=new Option("32","Jubil/Jubilp 115.html");
+options[32]=new Option("33","Jubil/Jubilp 119.html");
+options[33]=new Option("34","Jubil/Jubilp 122.html");
+options[34]=new Option("35","Jubil/Jubilp 125.html");
+options[35]=new Option("36","Jubil/Jubilp 129.html");
+options[36]=new Option("37","Jubil/Jubilp 132.html");
+options[37]=new Option("38","Jubil/Jubilp 136.html");
+options[38]=new Option("39","Jubil/Jubilp 138.html");
+options[39]=new Option("40","Jubil/Jubilp 140.html");
+options[40]=new Option("41","Jubil/Jubilp 141.html");
+options[41]=new Option("42","Jubil/Jubilp 144.html");
+options[42]=new Option("43","Jubil/Jubilp 147.html");
+options[43]=new Option("44","Jubil/Jubilp 149.html");
+options[44]=new Option("45","Jubil/Jubilp 152.html");
+options[45]=new Option("46","Jubil/Jubilp 154.html");
+options[46]=new Option("47","Jubil/Jubilp 156.html");
+options[47]=new Option("48","Jubil/Jubilp 158.html");
+options[48]=new Option("49","Jubil/Jubilp 160.html");
+options[49]=new Option("50","Jubil/Jubilp 164.html");
+options[0].selected=true
+}}
+
+function MySubjectDMAA2(aaMenu){
+nullOptionsDMAA(aaMenu)
+with (aaMenu){
+//Rewrites the text and values
+options[0]=new Option("1","Jubil/Jubilp 1.html");
+options[1]=new Option("2","Jubil/Jubilp 2.html");
+options[2]=new Option("3","Jubil/Jubilp 3.html");
+options[3]=new Option("4","Jubil/Jubilp 4.html");
+options[4]=new Option("5","Jubil/Jubilp 5.html");
+options[5]=new Option("6","Jubil/Jubilp 6.html");
+options[6]=new Option("7","Jubil/Jubilp 7.html");
+options[7]=new Option("8","Jubil/Jubilp 8.html");
+options[8]=new Option("9","Jubil/Jubilp 9.html");
+options[9]=new Option("10","Jubil/Jubilp 10.html");
+options[10]=new Option("11","Jubil/Jubilp 11.html");
+options[11]=new Option("12","Jubil/Jubilp 12.html");
+options[12]=new Option("13","Jubil/Jubilp 13.html");
+options[13]=new Option("14","Jubil/Jubilp 14.html");
+options[14]=new Option("15","Jubil/Jubilp 15.html");
+options[15]=new Option("16","Jubil/Jubilp 16.html");
+options[16]=new Option("17","Jubil/Jubilp 17.html");
+options[17]=new Option("18","Jubil/Jubilp 18.html");
+options[18]=new Option("19","Jubil/Jubilp 19.html");
+options[19]=new Option("20","Jubil/Jubilp 20.html");
+options[20]=new Option("21","Jubil/Jubilp 21.html");
+options[21]=new Option("22","Jubil/Jubilp 22.html");
+options[22]=new Option("23","Jubil/Jubilp 23.html");
+options[23]=new Option("24","Jubil/Jubilp 24.html");
+options[24]=new Option("25","Jubil/Jubilp 25.html");
+options[25]=new Option("26","Jubil/Jubilp 26.html");
+options[26]=new Option("27","Jubil/Jubilp 27.html");
+options[27]=new Option("28","Jubil/Jubilp 28.html");
+options[28]=new Option("29","Jubil/Jubilp 29.html");
+options[29]=new Option("30","Jubil/Jubilp 30.html");
+options[30]=new Option("31","Jubil/Jubilp 31.html");
+options[31]=new Option("32","Jubil/Jubilp 32.html");
+options[32]=new Option("33","Jubil/Jubilp 33.html");
+options[33]=new Option("34","Jubil/Jubilp 34.html");
+options[34]=new Option("35","Jubil/Jubilp 35.html");
+options[35]=new Option("36","Jubil/Jubilp 36.html");
+options[36]=new Option("37","Jubil/Jubilp 37.html");
+options[37]=new Option("38","Jubil/Jubilp 38.html");
+options[38]=new Option("39","Jubil/Jubilp 39.html");
+options[39]=new Option("40","Jubil/Jubilp 40.html");
+options[40]=new Option("41","Jubil/Jubilp 41.html");
+options[41]=new Option("42","Jubil/Jubilp 42.html");
+options[42]=new Option("43","Jubil/Jubilp 43.html");
+options[43]=new Option("44","Jubil/Jubilp 44.html");
+options[44]=new Option("45","Jubil/Jubilp 45.html");
+options[45]=new Option("46","Jubil/Jubilp 46.html");
+options[46]=new Option("47","Jubil/Jubilp 47.html");
+options[47]=new Option("48","Jubil/Jubilp 48.html");
+options[48]=new Option("49","Jubil/Jubilp 49.html");
+options[49]=new Option("50","Jubil/Jubilp 50.html");
+options[50]=new Option("51","Jubil/Jubilp 51.html");
+options[51]=new Option("52","Jubil/Jubilp 52.html");
+options[52]=new Option("53","Jubil/Jubilp 53.html");
+options[53]=new Option("54","Jubil/Jubilp 54.html");
+options[54]=new Option("55","Jubil/Jubilp 55.html");
+options[55]=new Option("56","Jubil/Jubilp 56.html");
+options[56]=new Option("57","Jubil/Jubilp 57.html");
+options[57]=new Option("58","Jubil/Jubilp 58.html");
+options[58]=new Option("59","Jubil/Jubilp 59.html");
+options[59]=new Option("60","Jubil/Jubilp 60.html");
+options[60]=new Option("61","Jubil/Jubilp 61.html");
+options[61]=new Option("62","Jubil/Jubilp 62.html");
+options[62]=new Option("63","Jubil/Jubilp 63.html");
+options[63]=new Option("64","Jubil/Jubilp 64.html");
+options[64]=new Option("65","Jubil/Jubilp 65.html");
+options[65]=new Option("66","Jubil/Jubilp 66.html");
+options[66]=new Option("67","Jubil/Jubilp 67.html");
+options[67]=new Option("68","Jubil/Jubilp 68.html");
+options[68]=new Option("69","Jubil/Jubilp 69.html");
+options[69]=new Option("70","Jubil/Jubilp 70.html");
+options[70]=new Option("71","Jubil/Jubilp 71.html");
+options[71]=new Option("72","Jubil/Jubilp 72.html");
+options[72]=new Option("73","Jubil/Jubilp 73.html");
+options[73]=new Option("74","Jubil/Jubilp 74.html");
+options[74]=new Option("75","Jubil/Jubilp 75.html");
+options[75]=new Option("76","Jubil/Jubilp 76.html");
+options[76]=new Option("77","Jubil/Jubilp 77.html");
+options[77]=new Option("78","Jubil/Jubilp 78.html");
+options[78]=new Option("79","Jubil/Jubilp 79.html");
+options[79]=new Option("80","Jubil/Jubilp 80.html");
+options[80]=new Option("81","Jubil/Jubilp 81.html");
+options[81]=new Option("82","Jubil/Jubilp 82.html");
+options[82]=new Option("83","Jubil/Jubilp 83.html");
+options[83]=new Option("84","Jubil/Jubilp 84.html");
+options[84]=new Option("85","Jubil/Jubilp 85.html");
+options[85]=new Option("86","Jubil/Jubilp 86.html");
+options[86]=new Option("87","Jubil/Jubilp 87.html");
+options[87]=new Option("88","Jubil/Jubilp 88.html");
+options[88]=new Option("89","Jubil/Jubilp 89.html");
+options[89]=new Option("90","Jubil/Jubilp 90.html");
+options[90]=new Option("91","Jubil/Jubilp 91.html");
+options[91]=new Option("92","Jubil/Jubilp 92.html");
+options[92]=new Option("93","Jubil/Jubilp 93.html");
+options[93]=new Option("94","Jubil/Jubilp 94.html");
+options[94]=new Option("95","Jubil/Jubilp 95.html");
+options[95]=new Option("96","Jubil/Jubilp 96.html");
+options[96]=new Option("97","Jubil/Jubilp 97.html");
+options[97]=new Option("98","Jubil/Jubilp 98.html");
+options[98]=new Option("99","Jubil/Jubilp 99.html");
+options[99]=new Option("100","Jubil/Jubilp 100.html");
+options[100]=new Option("101","Jubil/Jubilp 101.html");
+options[101]=new Option("102","Jubil/Jubilp 102.html");
+options[102]=new Option("103","Jubil/Jubilp 103.html");
+options[103]=new Option("104","Jubil/Jubilp 104.html");
+options[104]=new Option("105","Jubil/Jubilp 105.html");
+options[105]=new Option("106","Jubil/Jubilp 106.html");
+options[106]=new Option("107","Jubil/Jubilp 107.html");
+options[107]=new Option("108","Jubil/Jubilp 108.html");
+options[108]=new Option("109","Jubil/Jubilp 109.html");
+options[109]=new Option("110","Jubil/Jubilp 110.html");
+options[110]=new Option("111","Jubil/Jubilp 111.html");
+options[111]=new Option("112","Jubil/Jubilp 112.html");
+options[112]=new Option("113","Jubil/Jubilp 113.html");
+options[113]=new Option("114","Jubil/Jubilp 114.html");
+options[114]=new Option("115","Jubil/Jubilp 115.html");
+options[115]=new Option("116","Jubil/Jubilp 116.html");
+options[116]=new Option("117","Jubil/Jubilp 117.html");
+options[117]=new Option("118","Jubil/Jubilp 118.html");
+options[118]=new Option("119","Jubil/Jubilp 119.html");
+options[119]=new Option("120","Jubil/Jubilp 120.html");
+options[120]=new Option("121","Jubil/Jubilp 121.html");
+options[121]=new Option("122","Jubil/Jubilp 122.html");
+options[122]=new Option("123","Jubil/Jubilp 123.html");
+options[123]=new Option("124","Jubil/Jubilp 124.html");
+options[124]=new Option("125","Jubil/Jubilp 125.html");
+options[125]=new Option("126","Jubil/Jubilp 126.html");
+options[126]=new Option("127","Jubil/Jubilp 127.html");
+options[127]=new Option("128","Jubil/Jubilp 128.html");
+options[128]=new Option("129","Jubil/Jubilp 129.html");
+options[129]=new Option("130","Jubil/Jubilp 130.html");
+options[130]=new Option("131","Jubil/Jubilp 131.html");
+options[131]=new Option("132","Jubil/Jubilp 132.html");
+options[132]=new Option("133","Jubil/Jubilp 133.html");
+options[133]=new Option("134","Jubil/Jubilp 134.html");
+options[134]=new Option("135","Jubil/Jubilp 135.html");
+options[135]=new Option("136","Jubil/Jubilp 136.html");
+options[136]=new Option("137","Jubil/Jubilp 137.html");
+options[137]=new Option("138","Jubil/Jubilp 138.html");
+options[138]=new Option("139","Jubil/Jubilp 139.html");
+options[139]=new Option("140","Jubil/Jubilp 140.html");
+options[140]=new Option("141","Jubil/Jubilp 141.html");
+options[141]=new Option("142","Jubil/Jubilp 142.html");
+options[142]=new Option("143","Jubil/Jubilp 143.html");
+options[143]=new Option("144","Jubil/Jubilp 144.html");
+options[144]=new Option("145","Jubil/Jubilp 145.html");
+options[145]=new Option("146","Jubil/Jubilp 146.html");
+options[146]=new Option("147","Jubil/Jubilp 147.html");
+options[147]=new Option("148","Jubil/Jubilp 148.html");
+options[148]=new Option("149","Jubil/Jubilp 149.html");
+options[149]=new Option("150","Jubil/Jubilp 150.html");
+options[150]=new Option("151","Jubil/Jubilp 151.html");
+options[151]=new Option("152","Jubil/Jubilp 152.html");
+options[152]=new Option("153","Jubil/Jubilp 153.html");
+options[153]=new Option("154","Jubil/Jubilp 154.html");
+options[154]=new Option("155","Jubil/Jubilp 155.html");
+options[155]=new Option("156","Jubil/Jubilp 156.html");
+options[156]=new Option("157","Jubil/Jubilp 157.html");
+options[157]=new Option("158","Jubil/Jubilp 158.html");
+options[158]=new Option("159","Jubil/Jubilp 159.html");
+options[159]=new Option("160","Jubil/Jubilp 160.html");
+options[160]=new Option("161","Jubil/Jubilp 161.html");
+options[161]=new Option("162","Jubil/Jubilp 162.html");
+options[162]=new Option("163","Jubil/Jubilp 163.html");
+options[163]=new Option("164","Jubil/Jubilp 164.html");
+options[164]=new Option("165","Jubil/Jubilp 165.html");
+options[165]=new Option("166","Jubil/Jubilp 166.html");
+options[0].selected=true
+}}
+ 
+function changeFilesDMAA(){
+aaMenu=document.formDoubleMenuDMAA.menuSubjectsDMAA
+aaMenu2=document.formDoubleMenuDMAA.menuFilesDMAA
+with (aaMenu){
+switch (selectedIndex) {
+
+case 0: 
+MySubjectDMAA1(aaMenu2) 
+aaMenu2.options[0].text="1"
+break 
+
+case 1: 
+MySubjectDMAA2(aaMenu2) 
+aaMenu2.options[0].text="1"
+break 
+
+}}
+}
+
+function goDMAA(aaMenu){
+if (aaMenu.options.value!="none")
+{
+top.location=aaMenu.options[aaMenu.selectedIndex].value
+}}
+
+<!-- Paralipomenon -->
+function nullOptionsDMAAA(aaaMenu){
+var tot=aaaMenu.options.length
+for (i=0;i<tot;i++)
+{
+aaaMenu.options[i]=null
+}
+aaaMenu.options.length=1;
+}
+
+function MySubjectDMAAA1(aaaMenu){
+nullOptionsDMAAA(aaaMenu)
+with (aaaMenu){
+//Rewrites the text and values
+options[0]=new Option("1","Paralipomen/Parap11.html");
+options[1]=new Option("2","Paralipomen/Parap15.html");
+options[2]=new Option("3","Paralipomen/Parap19.html");
+options[3]=new Option("4","Paralipomen/Parap21.html");
+options[4]=new Option("5","Paralipomen/Parap25.html");
+options[5]=new Option("6","Paralipomen/Parap29.html");
+options[6]=new Option("7","Paralipomen/Parap36.html");
+options[7]=new Option("8","Paralipomen/Parap41.html");
+options[8]=new Option("9","Paralipomen/Parap44.html");
+options[9]=new Option("10","Paralipomen/Parap50.html");
+options[10]=new Option("11","Paralipomen/Parap52.html");
+options[11]=new Option("12","Paralipomen/Parap57.html");
+options[12]=new Option("13","Paralipomen/Parap63.html");
+options[13]=new Option("14","Paralipomen/Parap65.html");
+options[14]=new Option("15","Paralipomen/Parap67.html");
+options[15]=new Option("16","Paralipomen/Parap71.html");
+options[16]=new Option("17","Paralipomen/Parap76.html");
+options[17]=new Option("18","Paralipomen/Parap79.html");
+options[18]=new Option("19","Paralipomen/Parap81.html");
+options[19]=new Option("20","Paralipomen/Parap84.html");
+options[20]=new Option("21","Paralipomen/Parap86.html");
+options[21]=new Option("22","Paralipomen/Parap91.html");
+options[22]=new Option("23","Paralipomen/Parap93.html");
+options[23]=new Option("24","Paralipomen/Parap97.html");
+options[24]=new Option("25","Paralipomen/Parap100.html");
+options[25]=new Option("26","Paralipomen/Parap102.html");
+options[26]=new Option("27","Paralipomen/Parap106.html");
+options[27]=new Option("28","Paralipomen/Parap110.html");
+options[28]=new Option("29","Paralipomen/Parap114.html");
+options[0].selected=true
+}}
+
+function MySubjectDMAAA2(aaaMenu){
+nullOptionsDMAAA(aaaMenu)
+with (aaaMenu){
+//Rewrites the text and values
+options[0]=new Option("1","Paralipomen/Parap119.html");
+options[1]=new Option("2","Paralipomen/Parap121.html");
+options[2]=new Option("3","Paralipomen/Parap125.html");
+options[3]=new Option("4","Paralipomen/Parap127.html");
+options[4]=new Option("5","Paralipomen/Parap130.html");
+options[5]=new Option("6","Paralipomen/Parap133.html");
+options[6]=new Option("7","Paralipomen/Parap140.html");
+options[7]=new Option("8","Paralipomen/Parap143.html");
+options[8]=new Option("9","Paralipomen/Parap146.html");
+options[9]=new Option("10","Paralipomen/Parap150.html");
+options[10]=new Option("11","Paralipomen/Parap153.html");
+options[11]=new Option("12","Paralipomen/Parap156.html");
+options[12]=new Option("13","Paralipomen/Parap158.html");
+options[13]=new Option("14","Paralipomen/Parap162.html");
+options[14]=new Option("15","Paralipomen/Parap164.html");
+options[15]=new Option("16","Paralipomen/Parap167.html");
+options[16]=new Option("17","Paralipomen/Parap169.html");
+options[17]=new Option("18","Paralipomen/Parap171.html");
+options[18]=new Option("19","Paralipomen/Parap175.html");
+options[19]=new Option("20","Paralipomen/Parap177.html");
+options[20]=new Option("21","Paralipomen/Parap181.html");
+options[21]=new Option("22","Paralipomen/Parap184.html");
+options[22]=new Option("23","Paralipomen/Parap186.html");
+options[23]=new Option("24","Paralipomen/Parap189.html");
+options[24]=new Option("25","Paralipomen/Parap193.html");
+options[25]=new Option("26","Paralipomen/Parap197.html");
+options[26]=new Option("27","Paralipomen/Parap201.html");
+options[27]=new Option("28","Paralipomen/Parap202.html");
+options[28]=new Option("29","Paralipomen/Parap206.html");
+options[29]=new Option("30","Paralipomen/Parap212.html");
+options[30]=new Option("31","Paralipomen/Parap216.html");
+options[31]=new Option("32","Paralipomen/Parap219.html");
+options[32]=new Option("33","Paralipomen/Parap225.html");
+options[33]=new Option("34","Paralipomen/Parap231.html");
+options[34]=new Option("35","Paralipomen/Parap237.html");
+options[35]=new Option("36","Paralipomen/Parap242.html");
+options[0].selected=true
+}}
+
+ 
+function changeFilesDMAAA(){
+aaaMenu=document.formDoubleMenuDMAAA.menuSubjectsDMAAA
+aaaMenu2=document.formDoubleMenuDMAAA.menuFilesDMAAA
+with (aaaMenu){
+switch (selectedIndex) {
+
+case 0: 
+MySubjectDMAAA1(aaaMenu2) 
+aaaMenu2.options[0].text="1"
+break 
+
+case 1: 
+MySubjectDMAAA2(aaaMenu2) 
+aaaMenu2.options[0].text="1"
+break 
+
+case 2: 
+MySubjectDMAAA2(aaaMenu2) 
+aaaMenu2.options[0].text="1"
+break 
+
+}}
+}
+function goDMAAA(aaaMenu){
+if (aaaMenu.options.value!="none")
+{
+top.location=aaaMenu.options[aaaMenu.selectedIndex].value
+}}
+ 
+//-->
+
+</script>
+
+<link rel="icon" href="BAEfavicon.ico" type="image/x-icon" />
+</HEAD>
+<BODY onLoad="changeFilesDDMMAA()">      
+<!-- =my addition, to initialize both menus -->
+<div class="square1" id="top">
+<table border="0" width="100%">
+   <tr>
+	<td rowspan="4"><IMG SRC="image VT.png" NAME="but" width="180" height="120" BORDER="0" usemap="#books"></td>
+<map name="books">
+  <area shape="rect" coords="0,0,180,55" title="Old Testament" onsubmit="return false;" target="_parent">
+  <area shape="rect" coords="0,55,180,85" title="New Testament" href="NTBiblia.html" target="_parent" onmouseover="document.but.src='image NT.png'" onmouseout="document.but.src='image VT.png'">
+  <area shape="rect" coords="0,85,180,120" title="Lexicon Linguae Aethiopicae" href="Lexicon.html" target="_parent" onmouseover="document.but.src='image Lex.png'" onmouseout="document.but.src='image VT.png'">
+</map>
+	<td rowspan="4" width="62%">
+		<h1 title="The Ethiopic Old Testament         ''      ">B I B L I A</h1>
+		<h2 title="The Ethiopic Old Testament         ''      ">VETERIS TESTAMENTI AETHIOPICA</h2>
+		<h3>Edd<a href="KA/p1.html" style="text-decoration: none">.</a> <a href="https://en.wikipedia.org/wiki/August_Dillmann" title="August Dillmann in Wikipedia" target="new"><span class="h3bold">Augustus Dillmann</span></a> aliique</h3>
+	</td>
+	<td height="50%"><a href="Information.html" target="new">
+           <img width="60" height="60" src="Information.png" title="General Information" border="0" alt=""></a>
+
+	</td>
+	<td rowspan="4"><a href="https://mapmyvisitors.com/web/1c653"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=nPwtxoV7pakza3Z7Skc6ia1M7a2nu8U8nZpbqbu-s_w&cl=ffffff" /></a>
+</a>
+  </td>
+</tr>
+</table>
+</div><div class="square2" id="bottom-left">
+<a href="Octateuch/Information.html" target="new">
+<img width="47" height="47" src="Information.png" alt="" title="Information: The Octateuch" border="0" align="right"></a>
+
+<h4><span title="Octateuch            ">OCTATEUCHUS</span><br>
+<span class="h5">  Digitalizavit <a href="https://www.tau.ac.il/~hacohen" target="new">Ran HaCohen</a></span></h4>
+
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Genesis       ">
+<span class="geez">&#4774;&#4650;&#4725; &#4961; &#4824;&#4621;&#4848;&#4725; &#4962; </span>
+<span class="latin">Genesis </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Octateuch/Genesis 1.html">1
+<OPTION VALUE="Octateuch/Genesis 2.html">2
+<OPTION VALUE="Octateuch/Genesis 3.html">3
+<OPTION VALUE="Octateuch/Genesis 4.html">4
+<OPTION VALUE="Octateuch/Genesis 5.html">5
+<OPTION VALUE="Octateuch/Genesis 6.html">6
+<OPTION VALUE="Octateuch/Genesis 7.html">7
+<OPTION VALUE="Octateuch/Genesis 8.html">8
+<OPTION VALUE="Octateuch/Genesis 9.html">9
+<OPTION VALUE="Octateuch/Genesis 10.html">10
+<OPTION VALUE="Octateuch/Genesis 11.html">11
+<OPTION VALUE="Octateuch/Genesis 12.html">12
+<OPTION VALUE="Octateuch/Genesis 13.html">13
+<OPTION VALUE="Octateuch/Genesis 14.html">14
+<OPTION VALUE="Octateuch/Genesis 15.html">15
+<OPTION VALUE="Octateuch/Genesis 16.html">16
+<OPTION VALUE="Octateuch/Genesis 17.html">17
+<OPTION VALUE="Octateuch/Genesis 18.html">18
+<OPTION VALUE="Octateuch/Genesis 19.html">19
+<OPTION VALUE="Octateuch/Genesis 20.html">20
+<OPTION VALUE="Octateuch/Genesis 21.html">21
+<OPTION VALUE="Octateuch/Genesis 22.html">22
+<OPTION VALUE="Octateuch/Genesis 23.html">23
+<OPTION VALUE="Octateuch/Genesis 24.html">24
+<OPTION VALUE="Octateuch/Genesis 25.html">25
+<OPTION VALUE="Octateuch/Genesis 26.html">26
+<OPTION VALUE="Octateuch/Genesis 27.html">27
+<OPTION VALUE="Octateuch/Genesis 28.html">28
+<OPTION VALUE="Octateuch/Genesis 29.html">29
+<OPTION VALUE="Octateuch/Genesis 30.html">30
+<OPTION VALUE="Octateuch/Genesis 31.html">31
+<OPTION VALUE="Octateuch/Genesis 32.html">32
+<OPTION VALUE="Octateuch/Genesis 33.html">33
+<OPTION VALUE="Octateuch/Genesis 34.html">34
+<OPTION VALUE="Octateuch/Genesis 35.html">35
+<OPTION VALUE="Octateuch/Genesis 36.html">36
+<OPTION VALUE="Octateuch/Genesis 37.html">37
+<OPTION VALUE="Octateuch/Genesis 38.html">38
+<OPTION VALUE="Octateuch/Genesis 39.html">39
+<OPTION VALUE="Octateuch/Genesis 40.html">40
+<OPTION VALUE="Octateuch/Genesis 41.html">41
+<OPTION VALUE="Octateuch/Genesis 42.html">42
+<OPTION VALUE="Octateuch/Genesis 43.html">43
+<OPTION VALUE="Octateuch/Genesis 44.html">44
+<OPTION VALUE="Octateuch/Genesis 45.html">45
+<OPTION VALUE="Octateuch/Genesis 46.html">46
+<OPTION VALUE="Octateuch/Genesis 47.html">47
+<OPTION VALUE="Octateuch/Genesis 48.html">48
+<OPTION VALUE="Octateuch/Genesis 49.html">49
+<OPTION VALUE="Octateuch/Genesis 50.html">50
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Exodus     ">
+<span class="geez">&#4774;&#4650;&#4725; &#4961; &#4824;&#4928;&#4768;&#4725; &#4962; </span>
+<span class="latin">Exodus </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Octateuch/Exodus 1.html">1
+<OPTION VALUE="Octateuch/Exodus 2.html">2
+<OPTION VALUE="Octateuch/Exodus 3.html">3
+<OPTION VALUE="Octateuch/Exodus 4.html">4
+<OPTION VALUE="Octateuch/Exodus 5.html">5
+<OPTION VALUE="Octateuch/Exodus 6.html">6
+<OPTION VALUE="Octateuch/Exodus 7.html">7
+<OPTION VALUE="Octateuch/Exodus 8.html">8
+<OPTION VALUE="Octateuch/Exodus 9.html">9
+<OPTION VALUE="Octateuch/Exodus 10.html">10
+<OPTION VALUE="Octateuch/Exodus 11.html">11
+<OPTION VALUE="Octateuch/Exodus 12.html">12
+<OPTION VALUE="Octateuch/Exodus 13.html">13
+<OPTION VALUE="Octateuch/Exodus 14.html">14
+<OPTION VALUE="Octateuch/Exodus 15.html">15
+<OPTION VALUE="Octateuch/Exodus 16.html">16
+<OPTION VALUE="Octateuch/Exodus 17.html">17
+<OPTION VALUE="Octateuch/Exodus 18.html">18
+<OPTION VALUE="Octateuch/Exodus 19.html">19
+<OPTION VALUE="Octateuch/Exodus 20.html">20
+<OPTION VALUE="Octateuch/Exodus 21.html">21
+<OPTION VALUE="Octateuch/Exodus 22.html">22
+<OPTION VALUE="Octateuch/Exodus 23.html">23
+<OPTION VALUE="Octateuch/Exodus 24.html">24
+<OPTION VALUE="Octateuch/Exodus 25.html">25
+<OPTION VALUE="Octateuch/Exodus 26.html">26
+<OPTION VALUE="Octateuch/Exodus 27.html">27
+<OPTION VALUE="Octateuch/Exodus 28.html">28
+<OPTION VALUE="Octateuch/Exodus 29.html">29
+<OPTION VALUE="Octateuch/Exodus 30.html">30
+<OPTION VALUE="Octateuch/Exodus 31.html">31
+<OPTION VALUE="Octateuch/Exodus 32.html">32
+<OPTION VALUE="Octateuch/Exodus 33.html">33
+<OPTION VALUE="Octateuch/Exodus 34.html">34
+<OPTION VALUE="Octateuch/Exodus 35.html">35
+<OPTION VALUE="Octateuch/Exodus 36.html">36
+<OPTION VALUE="Octateuch/Exodus 37.html">37
+<OPTION VALUE="Octateuch/Exodus 38.html">38
+<OPTION VALUE="Octateuch/Exodus 39.html">39
+<OPTION VALUE="Octateuch/Exodus 40.html">40
+</SELECT>
+ 
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p> 
+
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Leviticus      ">
+<span class="geez">&#4774;&#4650;&#4725; &#4961; &#4824;&#4620;&#4811;&#4813;&#4843;&#4757; &#4962; </span>
+<span class="latin">Leviticus </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Octateuch/Leviticus 1.html">1
+<OPTION VALUE="Octateuch/Leviticus 2.html">2
+<OPTION VALUE="Octateuch/Leviticus 3.html">3
+<OPTION VALUE="Octateuch/Leviticus 4.html">4
+<OPTION VALUE="Octateuch/Leviticus 5.html">5
+<OPTION VALUE="Octateuch/Leviticus 6.html">6
+<OPTION VALUE="Octateuch/Leviticus 7.html">7
+<OPTION VALUE="Octateuch/Leviticus 8.html">8
+<OPTION VALUE="Octateuch/Leviticus 9.html">9
+<OPTION VALUE="Octateuch/Leviticus 10.html">10
+<OPTION VALUE="Octateuch/Leviticus 11.html">11
+<OPTION VALUE="Octateuch/Leviticus 12.html">12
+<OPTION VALUE="Octateuch/Leviticus 13.html">13
+<OPTION VALUE="Octateuch/Leviticus 14.html">14
+<OPTION VALUE="Octateuch/Leviticus 15.html">15
+<OPTION VALUE="Octateuch/Leviticus 16.html">16
+<OPTION VALUE="Octateuch/Leviticus 17.html">17
+<OPTION VALUE="Octateuch/Leviticus 18.html">18
+<OPTION VALUE="Octateuch/Leviticus 19.html">19
+<OPTION VALUE="Octateuch/Leviticus 20.html">20
+<OPTION VALUE="Octateuch/Leviticus 21.html">21
+<OPTION VALUE="Octateuch/Leviticus 22.html">22
+<OPTION VALUE="Octateuch/Leviticus 23.html">23
+<OPTION VALUE="Octateuch/Leviticus 24.html">24
+<OPTION VALUE="Octateuch/Leviticus 25.html">25
+<OPTION VALUE="Octateuch/Leviticus 26.html">26
+<OPTION VALUE="Octateuch/Leviticus 27.html">27
+</SELECT>
+ 
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p> 
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Numbers      ">
+<span class="geez">&#4774;&#4650;&#4725; &#4961; &#4824;&#4749;&#4621;&#4685; &#4962; </span>
+<span class="latin">Numeri </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Octateuch/Numeri 1.html">1
+<OPTION VALUE="Octateuch/Numeri 2.html">2
+<OPTION VALUE="Octateuch/Numeri 3.html">3
+<OPTION VALUE="Octateuch/Numeri 4.html">4
+<OPTION VALUE="Octateuch/Numeri 5.html">5
+<OPTION VALUE="Octateuch/Numeri 6.html">6
+<OPTION VALUE="Octateuch/Numeri 7.html">7
+<OPTION VALUE="Octateuch/Numeri 8.html">8
+<OPTION VALUE="Octateuch/Numeri 9.html">9
+<OPTION VALUE="Octateuch/Numeri 10.html">10
+<OPTION VALUE="Octateuch/Numeri 11.html">11
+<OPTION VALUE="Octateuch/Numeri 12.html">12
+<OPTION VALUE="Octateuch/Numeri 13.html">13
+<OPTION VALUE="Octateuch/Numeri 14.html">14
+<OPTION VALUE="Octateuch/Numeri 15.html">15
+<OPTION VALUE="Octateuch/Numeri 16.html">16
+<OPTION VALUE="Octateuch/Numeri 17.html">17
+<OPTION VALUE="Octateuch/Numeri 18.html">18
+<OPTION VALUE="Octateuch/Numeri 19.html">19
+<OPTION VALUE="Octateuch/Numeri 20.html">20
+<OPTION VALUE="Octateuch/Numeri 21.html">21
+<OPTION VALUE="Octateuch/Numeri 22.html">22
+<OPTION VALUE="Octateuch/Numeri 23.html">23
+<OPTION VALUE="Octateuch/Numeri 24.html">24
+<OPTION VALUE="Octateuch/Numeri 25.html">25
+<OPTION VALUE="Octateuch/Numeri 26.html">26
+<OPTION VALUE="Octateuch/Numeri 27.html">27
+<OPTION VALUE="Octateuch/Numeri 28.html">28
+<OPTION VALUE="Octateuch/Numeri 29.html">29
+<OPTION VALUE="Octateuch/Numeri 30.html">30
+<OPTION VALUE="Octateuch/Numeri 31.html">31
+<OPTION VALUE="Octateuch/Numeri 32.html">32
+<OPTION VALUE="Octateuch/Numeri 33.html">33
+<OPTION VALUE="Octateuch/Numeri 34.html">34
+<OPTION VALUE="Octateuch/Numeri 35.html">35
+<OPTION VALUE="Octateuch/Numeri 36.html">36
+</SELECT>
+ 
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p> 
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Deuteronomy      ">
+<span class="geez">&#4774;&#4650;&#4725; &#4961; &#4824;&#4851;&#4877;&#4637; &#4962; </span>
+<span class="latin">Deuteronomium </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Octateuch/Deuteronomium 1.html">1
+<OPTION VALUE="Octateuch/Deuteronomium 2.html">2
+<OPTION VALUE="Octateuch/Deuteronomium 3.html">3
+<OPTION VALUE="Octateuch/Deuteronomium 4.html">4
+<OPTION VALUE="Octateuch/Deuteronomium 5.html">5
+<OPTION VALUE="Octateuch/Deuteronomium 6.html">6
+<OPTION VALUE="Octateuch/Deuteronomium 7.html">7
+<OPTION VALUE="Octateuch/Deuteronomium 8.html">8
+<OPTION VALUE="Octateuch/Deuteronomium 9.html">9
+<OPTION VALUE="Octateuch/Deuteronomium 10.html">10
+<OPTION VALUE="Octateuch/Deuteronomium 11.html">11
+<OPTION VALUE="Octateuch/Deuteronomium 12.html">12
+<OPTION VALUE="Octateuch/Deuteronomium 13.html">13
+<OPTION VALUE="Octateuch/Deuteronomium 14.html">14
+<OPTION VALUE="Octateuch/Deuteronomium 15.html">15
+<OPTION VALUE="Octateuch/Deuteronomium 16.html">16
+<OPTION VALUE="Octateuch/Deuteronomium 17.html">17
+<OPTION VALUE="Octateuch/Deuteronomium 18.html">18
+<OPTION VALUE="Octateuch/Deuteronomium 19.html">19
+<OPTION VALUE="Octateuch/Deuteronomium 20.html">20
+<OPTION VALUE="Octateuch/Deuteronomium 21.html">21
+<OPTION VALUE="Octateuch/Deuteronomium 22.html">22
+<OPTION VALUE="Octateuch/Deuteronomium 23.html">23
+<OPTION VALUE="Octateuch/Deuteronomium 24.html">24
+<OPTION VALUE="Octateuch/Deuteronomium 25.html">25
+<OPTION VALUE="Octateuch/Deuteronomium 26.html">26
+<OPTION VALUE="Octateuch/Deuteronomium 27.html">27
+<OPTION VALUE="Octateuch/Deuteronomium 28.html">28
+<OPTION VALUE="Octateuch/Deuteronomium 29.html">29
+<OPTION VALUE="Octateuch/Deuteronomium 30.html">30
+<OPTION VALUE="Octateuch/Deuteronomium 31.html">31
+<OPTION VALUE="Octateuch/Deuteronomium 32.html">32
+<OPTION VALUE="Octateuch/Deuteronomium 33.html">33
+<OPTION VALUE="Octateuch/Deuteronomium 34.html">34
+</SELECT>
+ 
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Joshua      ">
+<span class="geez">&#4774;&#4650;&#4725; &#4961; &#4824;&#4770;&#4840;&#4657;&#4661; &#4962; </span>
+<span class="latin">Josua </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Octateuch/Josua 1.html">1
+<OPTION VALUE="Octateuch/Josua 2.html">2
+<OPTION VALUE="Octateuch/Josua 3.html">3
+<OPTION VALUE="Octateuch/Josua 4.html">4
+<OPTION VALUE="Octateuch/Josua 5.html">5
+<OPTION VALUE="Octateuch/Josua 6.html">6
+<OPTION VALUE="Octateuch/Josua 7.html">7
+<OPTION VALUE="Octateuch/Josua 8.html">8
+<OPTION VALUE="Octateuch/Josua 9.html">9
+<OPTION VALUE="Octateuch/Josua 10.html">10
+<OPTION VALUE="Octateuch/Josua 11.html">11
+<OPTION VALUE="Octateuch/Josua 12.html">12
+<OPTION VALUE="Octateuch/Josua 13.html">13
+<OPTION VALUE="Octateuch/Josua 14.html">14
+<OPTION VALUE="Octateuch/Josua 15.html">15
+<OPTION VALUE="Octateuch/Josua 16.html">16
+<OPTION VALUE="Octateuch/Josua 17.html">17
+<OPTION VALUE="Octateuch/Josua 18.html">18
+<OPTION VALUE="Octateuch/Josua 19.html">19
+<OPTION VALUE="Octateuch/Josua 20.html">20
+<OPTION VALUE="Octateuch/Josua 21.html">21
+<OPTION VALUE="Octateuch/Josua 22.html">22
+<OPTION VALUE="Octateuch/Josua 23.html">23
+<OPTION VALUE="Octateuch/Josua 24.html">24
+</SELECT>
+ 
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p> 
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Judges       ">
+<span class="geez">&#4774;&#4650;&#4725; &#4961; &#4824;&#4632;&#4659;&#4941;&#4757;&#4725; &#4962; </span>
+<span class="latin">Judices </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Octateuch/Judices 1.html">1
+<OPTION VALUE="Octateuch/Judices 2.html">2
+<OPTION VALUE="Octateuch/Judices 3.html">3
+<OPTION VALUE="Octateuch/Judices 4.html">4
+<OPTION VALUE="Octateuch/Judices 5.html">5
+<OPTION VALUE="Octateuch/Judices 6.html">6
+<OPTION VALUE="Octateuch/Judices 7.html">7
+<OPTION VALUE="Octateuch/Judices 8.html">8
+<OPTION VALUE="Octateuch/Judices 9.html">9
+<OPTION VALUE="Octateuch/Judices 10.html">10
+<OPTION VALUE="Octateuch/Judices 11.html">11
+<OPTION VALUE="Octateuch/Judices 12.html">12
+<OPTION VALUE="Octateuch/Judices 13.html">13
+<OPTION VALUE="Octateuch/Judices 14.html">14
+<OPTION VALUE="Octateuch/Judices 15.html">15
+<OPTION VALUE="Octateuch/Judices 16.html">16
+<OPTION VALUE="Octateuch/Judices 17.html">17
+<OPTION VALUE="Octateuch/Judices 18.html">18
+<OPTION VALUE="Octateuch/Judices 19.html">19
+<OPTION VALUE="Octateuch/Judices 20.html">20
+<OPTION VALUE="Octateuch/Judices 21.html">21
+</SELECT>
+ 
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p>
+ 
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Ruth    ">
+<span class="geez">&#4774;&#4650;&#4725; &#4961; &#4824;&#4649;&#4725; &#4962; </span>
+<span class="latin">Ruth </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Octateuch/Ruth 1.html">1
+<OPTION VALUE="Octateuch/Ruth 2.html">2
+<OPTION VALUE="Octateuch/Ruth 3.html">3
+<OPTION VALUE="Octateuch/Ruth 4.html">4
+</SELECT>
+ 
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p>
+
+<HR>
+<!-- ###### copy the code below to where you want the menu to appear ###### -->
+<a href="Regum/Information.html" target="new">
+<img width="40" height="40" src="Information.png" alt="" title="Information: Books of Kingdoms" border="0" align="right"></a>
+
+<h4><span title="The Books of Reigns (Samuel & Kings)             ">LIBRI REGUM</span><br>
+<span class="h5">  Digitalizavit <a href="https://www.tau.ac.il/~hacohen" target="new">Ran HaCohen</a></span></h4>
+<form name="formDoubleMenuDMA" Title="The Book of Kings (Samuel & Kings)             " action="">
+<span class="geez">&#4632;&#4925;&#4624;&#4936; &#4961; &#4752;&#4872;&#4645;&#4725; &#4962; </span>
+<span class="latin">Regum </span>
+
+<!-- This menu holds the subjects-->
+
+<select name="menuSubjectsDMA" onChange="changeFilesDMA()">
+
+<option value="">I
+<option value="">II
+<option value="">III
+<option value="">IV
+
+</select>
+
+<!-- this menu holds the files to go-->
+
+<select name="menuFilesDMA" onClick="" >
+<option value="none">
+</select>
+<input type="button" name="submit" value="> > >" onClick="goDMA(menuFilesDMA)">
+</FORM><p></p>
+
+<HR>
+
+<a href="Psalm/Information.html" target="new">
+<img width="40" height="40" src="Information.png" alt="" title="Information: Psalter" border="0" align="right"></a>
+
+<h4><span title="The Book of Psalms      ">PSALTERIUM DAVIDIS </span><span class="h5">Ed. <a href="https://en.wikipedia.org/wiki/Hiob_Ludolf" title="Hiob Ludolf in Wikipedia" target="new">Hiob Ludolf</a></span><br>
+<span class="h5">  Digitalizavit <a href="https://www.tau.ac.il/~hacohen" target="new">Ran HaCohen</a></span></h4>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Psalm      ">
+<span class="geez">&#4632;&#4829;&#4633;&#4651;&#4725; &#4961; &#4824;&#4851;&#4810;&#4725; &#4962; </span>
+<span class="latin">Psalmus</span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Psalm/PsalmNrR 1.html">1
+<OPTION VALUE="Psalm/PsalmNrR 2.html">2
+<OPTION VALUE="Psalm/PsalmNrR 3.html">3
+<OPTION VALUE="Psalm/PsalmNrR 4.html">4
+<OPTION VALUE="Psalm/PsalmNrR 5.html">5
+<OPTION VALUE="Psalm/PsalmNrR 6.html">6
+<OPTION VALUE="Psalm/PsalmNrR 7.html">7
+<OPTION VALUE="Psalm/PsalmNrR 8.html">8
+<OPTION VALUE="Psalm/PsalmNrR 9.html">9
+<OPTION VALUE="Psalm/PsalmNrR 10.html">10
+<OPTION VALUE="Psalm/PsalmNrR 11.html">11
+<OPTION VALUE="Psalm/PsalmNrR 12.html">12
+<OPTION VALUE="Psalm/PsalmNrR 13.html">13
+<OPTION VALUE="Psalm/PsalmNrR 14.html">14
+<OPTION VALUE="Psalm/PsalmNrR 15.html">15
+<OPTION VALUE="Psalm/PsalmNrR 16.html">16
+<OPTION VALUE="Psalm/PsalmNrR 17.html">17
+<OPTION VALUE="Psalm/PsalmNrR 18.html">18
+<OPTION VALUE="Psalm/PsalmNrR 19.html">19
+<OPTION VALUE="Psalm/PsalmNrR 20.html">20
+<OPTION VALUE="Psalm/PsalmNrR 21.html">21
+<OPTION VALUE="Psalm/PsalmNrR 22.html">22
+<OPTION VALUE="Psalm/PsalmNrR 23.html">23
+<OPTION VALUE="Psalm/PsalmNrR 24.html">24
+<OPTION VALUE="Psalm/PsalmNrR 25.html">25
+<OPTION VALUE="Psalm/PsalmNrR 26.html">26
+<OPTION VALUE="Psalm/PsalmNrR 27.html">27
+<OPTION VALUE="Psalm/PsalmNrR 28.html">28
+<OPTION VALUE="Psalm/PsalmNrR 29.html">29
+<OPTION VALUE="Psalm/PsalmNrR 30.html">30
+<OPTION VALUE="Psalm/PsalmNrR 31.html">31
+<OPTION VALUE="Psalm/PsalmNrR 32.html">32
+<OPTION VALUE="Psalm/PsalmNrR 33.html">33
+<OPTION VALUE="Psalm/PsalmNrR 34.html">34
+<OPTION VALUE="Psalm/PsalmNrR 35.html">35
+<OPTION VALUE="Psalm/PsalmNrR 36.html">36
+<OPTION VALUE="Psalm/PsalmNrR 37.html">37
+<OPTION VALUE="Psalm/PsalmNrR 38.html">38
+<OPTION VALUE="Psalm/PsalmNrR 39.html">39
+<OPTION VALUE="Psalm/PsalmNrR 40.html">40
+<OPTION VALUE="Psalm/PsalmNrR 41.html">41
+<OPTION VALUE="Psalm/PsalmNrR 42.html">42
+<OPTION VALUE="Psalm/PsalmNrR 43.html">43
+<OPTION VALUE="Psalm/PsalmNrR 44.html">44
+<OPTION VALUE="Psalm/PsalmNrR 45.html">45
+<OPTION VALUE="Psalm/PsalmNrR 46.html">46
+<OPTION VALUE="Psalm/PsalmNrR 47.html">47
+<OPTION VALUE="Psalm/PsalmNrR 48.html">48
+<OPTION VALUE="Psalm/PsalmNrR 49.html">49
+<OPTION VALUE="Psalm/PsalmNrR 50.html">50
+<OPTION VALUE="Psalm/PsalmNrR 51.html">51
+<OPTION VALUE="Psalm/PsalmNrR 52.html">52
+<OPTION VALUE="Psalm/PsalmNrR 53.html">53
+<OPTION VALUE="Psalm/PsalmNrR 54.html">54
+<OPTION VALUE="Psalm/PsalmNrR 55.html">55
+<OPTION VALUE="Psalm/PsalmNrR 56.html">56
+<OPTION VALUE="Psalm/PsalmNrR 57.html">57
+<OPTION VALUE="Psalm/PsalmNrR 58.html">58
+<OPTION VALUE="Psalm/PsalmNrR 59.html">59
+<OPTION VALUE="Psalm/PsalmNrR 60.html">60
+<OPTION VALUE="Psalm/PsalmNrR 61.html">61
+<OPTION VALUE="Psalm/PsalmNrR 62.html">62
+<OPTION VALUE="Psalm/PsalmNrR 63.html">63
+<OPTION VALUE="Psalm/PsalmNrR 64.html">64
+<OPTION VALUE="Psalm/PsalmNrR 65.html">65
+<OPTION VALUE="Psalm/PsalmNrR 66.html">66
+<OPTION VALUE="Psalm/PsalmNrR 67.html">67
+<OPTION VALUE="Psalm/PsalmNrR 68.html">68
+<OPTION VALUE="Psalm/PsalmNrR 69.html">69
+<OPTION VALUE="Psalm/PsalmNrR 70.html">70
+<OPTION VALUE="Psalm/PsalmNrR 43 71.html">71
+<OPTION VALUE="Psalm/PsalmNrR 43 72.html">72
+<OPTION VALUE="Psalm/PsalmNrR 43 73.html">73
+<OPTION VALUE="Psalm/PsalmNrR 43 74.html">74
+<OPTION VALUE="Psalm/PsalmNrR 43 75.html">75
+<OPTION VALUE="Psalm/PsalmNrR 76.html">76
+<OPTION VALUE="Psalm/PsalmNrR 77.html">77
+<OPTION VALUE="Psalm/PsalmNrR 78.html">78
+<OPTION VALUE="Psalm/PsalmNrR 79.html">79
+<OPTION VALUE="Psalm/PsalmNrR 80.html">80
+<OPTION VALUE="Psalm/PsalmNrR 81.html">81
+<OPTION VALUE="Psalm/PsalmNrR 82.html">82
+<OPTION VALUE="Psalm/PsalmNrR 83.html">83
+<OPTION VALUE="Psalm/PsalmNrR 84.html">84
+<OPTION VALUE="Psalm/PsalmNrR 85.html">85
+<OPTION VALUE="Psalm/PsalmNrR 86.html">86
+<OPTION VALUE="Psalm/PsalmNrR 87.html">87
+<OPTION VALUE="Psalm/PsalmNrR 88.html">88
+<OPTION VALUE="Psalm/PsalmNrR 89.html">89
+<OPTION VALUE="Psalm/PsalmNrR 90.html">90
+<OPTION VALUE="Psalm/PsalmNrR 91.html">91
+<OPTION VALUE="Psalm/PsalmNrR 92.html">92
+<OPTION VALUE="Psalm/PsalmNrR 93.html">93
+<OPTION VALUE="Psalm/PsalmNrR 94.html">94
+<OPTION VALUE="Psalm/PsalmNrR 95.html">95
+<OPTION VALUE="Psalm/PsalmNrR 96.html">96
+<OPTION VALUE="Psalm/PsalmNrR 97.html">97
+<OPTION VALUE="Psalm/PsalmNrR 98.html">98
+<OPTION VALUE="Psalm/PsalmNrR 99.html">99
+<OPTION VALUE="Psalm/PsalmNrR 100.html">100
+<OPTION VALUE="Psalm/PsalmNrR 101.html">101
+<OPTION VALUE="Psalm/PsalmNrR 102.html">102
+<OPTION VALUE="Psalm/PsalmNrR 103.html">103
+<OPTION VALUE="Psalm/PsalmNrR 104.html">104
+<OPTION VALUE="Psalm/PsalmNrR 105.html">105
+<OPTION VALUE="Psalm/PsalmNrR 106.html">106
+<OPTION VALUE="Psalm/PsalmNrR 107.html">107
+<OPTION VALUE="Psalm/PsalmNrR 108.html">108
+<OPTION VALUE="Psalm/PsalmNrR 109.html">109
+<OPTION VALUE="Psalm/PsalmNrR 110.html">110
+<OPTION VALUE="Psalm/PsalmNrR 111.html">111
+<OPTION VALUE="Psalm/PsalmNrR 112.html">112
+<OPTION VALUE="Psalm/PsalmNrR 113.html">113
+<OPTION VALUE="Psalm/PsalmNrR 114.html">114
+<OPTION VALUE="Psalm/PsalmNrR 115.html">115
+<OPTION VALUE="Psalm/PsalmNrR 116.html">116
+<OPTION VALUE="Psalm/PsalmNrR 117.html">117
+<OPTION VALUE="Psalm/PsalmNrR 118.html">118
+<OPTION VALUE="Psalm/PsalmNrR 119.html">119
+<OPTION VALUE="Psalm/PsalmNrR 120.html">120
+<OPTION VALUE="Psalm/PsalmNrR 121.html">121
+<OPTION VALUE="Psalm/PsalmNrR 122.html">122
+<OPTION VALUE="Psalm/PsalmNrR 123.html">123
+<OPTION VALUE="Psalm/PsalmNrR 124.html">124
+<OPTION VALUE="Psalm/PsalmNrR 125.html">125
+<OPTION VALUE="Psalm/PsalmNrR 126.html">126
+<OPTION VALUE="Psalm/PsalmNrR 127.html">127
+<OPTION VALUE="Psalm/PsalmNrR 128.html">128
+<OPTION VALUE="Psalm/PsalmNrR 129.html">129
+<OPTION VALUE="Psalm/PsalmNrR 130.html">130
+<OPTION VALUE="Psalm/PsalmNrR 131.html">131
+<OPTION VALUE="Psalm/PsalmNrR 132.html">132
+<OPTION VALUE="Psalm/PsalmNrR 133.html">133
+<OPTION VALUE="Psalm/PsalmNrR 134.html">134
+<OPTION VALUE="Psalm/PsalmNrR 135.html">135
+<OPTION VALUE="Psalm/PsalmNrR 136.html">136
+<OPTION VALUE="Psalm/PsalmNrR 137.html">137
+<OPTION VALUE="Psalm/PsalmNrR 138.html">138
+<OPTION VALUE="Psalm/PsalmNrR 139.html">139
+<OPTION VALUE="Psalm/PsalmNrR 140.html">140
+<OPTION VALUE="Psalm/PsalmNrR 141.html">141
+<OPTION VALUE="Psalm/PsalmNrR 142.html">142
+<OPTION VALUE="Psalm/PsalmNrR 143.html">143
+<OPTION VALUE="Psalm/PsalmNrR 144.html">144
+<OPTION VALUE="Psalm/PsalmNrR 145.html">145
+<OPTION VALUE="Psalm/PsalmNrR 146.html">146
+<OPTION VALUE="Psalm/PsalmNrR 147.html">147
+<OPTION VALUE="Psalm/PsalmNrR 148.html">148
+<OPTION VALUE="Psalm/PsalmNrR 149.html">149
+<OPTION VALUE="Psalm/PsalmNrR 150.html">150
+<OPTION VALUE="Psalm/PsalmNrR 151.html">151
+
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p>
+<br>
+</div><div class="square3" id="bottom-right">
+
+<!--- WHAT's THIS???
+<script>
+  (function() {
+    var cx = '009872164124907857793:29ve5zgg4du';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+
+--->
+<script>
+  (function() {
+    var cx = '009872164124907857793:29ve5zgg4du';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+<HR><h4><span title="Historical Books">LIBRI HISTORICI</span><br></span></h4>
+<!-- PARALIP -->
+
+<!-- ###### copy the code below to where you want the menu to appear ###### -->
+
+<a href="Paralipomen/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Books of Chronicles" border="0" align="right"></a>
+
+<form name="formDoubleMenuDMAAA" Title="The Books of Chronicles           " action="">
+<span class="geez">&#4629;&#4921;&#4923;&#4752; &#4961; &#4752;&#4872;&#4645;&#4725; &#4962; </span>
+<span class="latin">Paralipomena </span>
+
+<!-- This menu holds the subjects-->
+
+<select name="menuSubjectsDMAAA" onChange="changeFilesDMAAA()">
+<option value="">I
+<option value="">II
+
+</select>
+
+<!-- this menu holds the files to go-->
+
+<select name="menuFilesDMAAA" onClick="" >
+<option value="none">
+</select>
+<input type="button" name="submit" value="> > >" onClick="goDMAAA(menuFilesDMAAA)">
+<span class="editor">Ed. Gr&eacute;baut</span>
+</FORM><p></p>
+<!-- EZRA -->
+
+<a href="Ezra/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Ezra" border="0" align="right"></a>
+
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Ezra and Nehemia            ">
+<span class="geez">&#4824;&#4821;&#4829;&#4651; &#4961; &#4640;&#4616;&#4661;&#4721; &#4962; </span>
+<span class="latin">Ezra </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Ezra/Ezrap 11.html">1
+<OPTION VALUE="Ezra/Ezrap 13.html">2
+<OPTION VALUE="Ezra/Ezrap 17.html">3
+<OPTION VALUE="Ezra/Ezrap 20.html">4
+<OPTION VALUE="Ezra/Ezrap 24.html">5
+<OPTION VALUE="Ezra/Ezrap 27.html">6
+<OPTION VALUE="Ezra/Ezrap 30.html">7
+<OPTION VALUE="Ezra/Ezrap 34.html">8
+<OPTION VALUE="Ezra/Ezrap 39.html">9
+<OPTION VALUE="Ezra/Ezrap 41.html">10
+<OPTION VALUE="Ezra/Ezrap 46.html">11
+<OPTION VALUE="Ezra/Ezrap 48.html">12
+<OPTION VALUE="Ezra/Ezrap 51.html">13
+<OPTION VALUE="Ezra/Ezrap 56.html">14
+<OPTION VALUE="Ezra/Ezrap 59.html">15
+<OPTION VALUE="Ezra/Ezrap 63.html">16
+<OPTION VALUE="Ezra/Ezrap 66.html">17
+<OPTION VALUE="Ezra/Ezrap 71.html">18
+<OPTION VALUE="Ezra/Ezrap 74.html">19
+<OPTION VALUE="Ezra/Ezrap 80.html">20
+<OPTION VALUE="Ezra/Ezrap 84.html">21
+<OPTION VALUE="Ezra/Ezrap 87.html">22
+<OPTION VALUE="Ezra/Ezrap 92.html">23
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. Pereira</span>
+</FORM><p></p>
+<!-- ESTHER -->
+
+<a href="Esther/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Esther" border="0" align="right"></a>
+
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Esther     ">
+<span class="geez">&#4824;&#4768;&#4661;&#4724;&#4653; &#4962; </span>
+<span class="latin">Esther </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Esther/Estherp 15.html">A
+<OPTION VALUE="Esther/Estherp 17.html">1
+<OPTION VALUE="Esther/Estherp 21.html">2
+<OPTION VALUE="Esther/Estherp 24.html">3
+<OPTION VALUE="Esther/Estherp 26.html">B
+<OPTION VALUE="Esther/Estherp 28.html">3
+<OPTION VALUE="Esther/Estherp 29.html">4
+<OPTION VALUE="Esther/Estherp 32.html">C
+<OPTION VALUE="Esther/Estherp 36.html">D
+<OPTION VALUE="Esther/Estherp 38.html">5
+<OPTION VALUE="Esther/Estherp 39.html">6
+<OPTION VALUE="Esther/Estherp 41.html">7
+<OPTION VALUE="Esther/Estherp 43.html">8
+<OPTION VALUE="Esther/Estherp 45.html">E
+<OPTION VALUE="Esther/Estherp 49.html">8
+<OPTION VALUE="Esther/Estherp 50.html">9
+<OPTION VALUE="Esther/Estherp 55.html">10
+<OPTION VALUE="Esther/Estherp 55.html">F
+
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. Pereira</span>
+</FORM><p></p>
+<HR><h4><span title="Didactic Books">LIBRI DIDACTICI</span><br></span></h4>
+<!-- JOB -->
+
+<a href="Job/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Job" border="0" align="right"></a>
+
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Job     ">
+<span class="geez">&#4824;&#4770;&#4846;&#4709; &#4962; </span>
+<span class="latin">Iob </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Job/Jobp 15.html">1
+<OPTION VALUE="Job/Jobp 18.html">2
+<OPTION VALUE="Job/Jobp 20.html">3
+<OPTION VALUE="Job/Jobp 23.html">4
+<OPTION VALUE="Job/Jobp 25.html">5
+<OPTION VALUE="Job/Jobp 28.html">6
+<OPTION VALUE="Job/Jobp 31.html">7
+<OPTION VALUE="Job/Jobp 34.html">8
+<OPTION VALUE="Job/Jobp 36.html">9
+<OPTION VALUE="Job/Jobp 39.html">10
+<OPTION VALUE="Job/Jobp 41.html">11
+<OPTION VALUE="Job/Jobp 43.html">12
+<OPTION VALUE="Job/Jobp 46.html">13
+<OPTION VALUE="Job/Jobp 48.html">14
+<OPTION VALUE="Job/Jobp 51.html">15
+<OPTION VALUE="Job/Jobp 54.html">16
+<OPTION VALUE="Job/Jobp 57.html">17
+<OPTION VALUE="Job/Jobp 58.html">18
+<OPTION VALUE="Job/Jobp 60.html">19
+<OPTION VALUE="Job/Jobp 63.html">20
+<OPTION VALUE="Job/Jobp 66.html">21
+<OPTION VALUE="Job/Jobp 70.html">22
+<OPTION VALUE="Job/Jobp 73.html">23
+<OPTION VALUE="Job/Jobp 74.html">24
+<OPTION VALUE="Job/Jobp 77.html">25
+<OPTION VALUE="Job/Jobp 78.html">26
+<OPTION VALUE="Job/Jobp 79.html">27
+<OPTION VALUE="Job/Jobp 81.html">28
+<OPTION VALUE="Job/Jobp 84.html">29
+<OPTION VALUE="Job/Jobp 87.html">30
+<OPTION VALUE="Job/Jobp 90.html">31
+<OPTION VALUE="Job/Jobp 94.html">32
+<OPTION VALUE="Job/Jobp 97.html">33
+<OPTION VALUE="Job/Jobp 100.html">34
+<OPTION VALUE="Job/Jobp 104.html">35
+<OPTION VALUE="Job/Jobp 105.html">36
+<OPTION VALUE="Job/Jobp 108.html">37
+<OPTION VALUE="Job/Jobp 111.html">38
+<OPTION VALUE="Job/Jobp 115.html">39
+<OPTION VALUE="Job/Jobp 119.html">40
+<OPTION VALUE="Job/Jobp 122.html">41
+<OPTION VALUE="Job/Jobp 124.html">42
+
+</SELECT>
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. Pereira</span>
+</FORM><p></p>
+
+<!-- PROVERBS -->
+
+<span class="geez">&#4637;&#4659;&#4620; &#4962; </span>
+<span class="latin" title="Ecclesiastes     ">Proverbia </span>
+<span class="editor"><a href="https://ora.ox.ac.uk/objects/uuid:e7c60bb3-3fc4-4b10-941f-8065617acbfa" target="new">Ed. Pilkington</a></span></p>
+
+<!-- ECCLESIASTES image -->
+
+<a href="Ecclesiastes/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Ecclesiastes" border="0" align="right"></a>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Proverbs     ">
+<span class="geez">&#4632;&#4781;&#4709;&#4709; &#4962; </span>
+<span class="latin">Ecclesiastes </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Ecclesiastes/Ecc 1.html" selected>Text
+<OPTION VALUE="Ecclesiastes/Ecc 1.html">1
+<OPTION VALUE="Ecclesiastes/Ecc 2.html">2
+<OPTION VALUE="Ecclesiastes/Ecc 3.html">3
+<OPTION VALUE="Ecclesiastes/Ecc 4.html">4
+<OPTION VALUE="Ecclesiastes/Ecc 5.html">5
+<OPTION VALUE="Ecclesiastes/Ecc 6.html">6
+<OPTION VALUE="Ecclesiastes/Ecc 7.html">7
+<OPTION VALUE="Ecclesiastes/Ecc 8.html">8
+<OPTION VALUE="Ecclesiastes/Ecc 9.html">9
+<OPTION VALUE="Ecclesiastes/Ecc 10.html">10
+<OPTION VALUE="Ecclesiastes/Ecc 11.html">11
+<OPTION VALUE="Ecclesiastes/Ecc 12.html">12
+<OPTION VALUE="Ecclesiastes/Ecc p1.html">Image
+<OPTION VALUE="Ecclesiastes/Ecc p1.html">1
+<OPTION VALUE="Ecclesiastes/Ecc p3.html">2
+<OPTION VALUE="Ecclesiastes/Ecc p7.html">3
+<OPTION VALUE="Ecclesiastes/Ecc p9.html">4
+<OPTION VALUE="Ecclesiastes/Ecc p11.html">5
+<OPTION VALUE="Ecclesiastes/Ecc p12.html">6
+<OPTION VALUE="Ecclesiastes/Ecc p13.html">7
+<OPTION VALUE="Ecclesiastes/Ecc p16.html">8
+<OPTION VALUE="Ecclesiastes/Ecc p18.html">9
+<OPTION VALUE="Ecclesiastes/Ecc p20.html">10
+<OPTION VALUE="Ecclesiastes/Ecc p21.html">11
+<OPTION VALUE="Ecclesiastes/Ecc p22.html">12
+
+</SELECT>
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. Mercer</span>
+</FORM><p></p>
+<!-- SONG OF SONGS -->
+
+<a href="Cant/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Song of Songs" border="0" align="right"></a>
+
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Song of Songs           ">
+<span class="geez">&#4632;&#4627;&#4621;&#4840; &#4961; &#4632;&#4627;&#4621;&#4845; &#4962; </span>
+<span class="latin">C.Canticorum</span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Cant/Cant 1.html" selected>Text
+<OPTION VALUE="Cant/Cant 1.html">1
+<OPTION VALUE="Cant/Cant 2.html">2
+<OPTION VALUE="Cant/Cant 3.html">3
+<OPTION VALUE="Cant/Cant 4.html">4
+<OPTION VALUE="Cant/Cant 5.html">5
+<OPTION VALUE="Cant/Cant 6.html">6
+<OPTION VALUE="Cant/Cant 7.html">7
+<OPTION VALUE="Cant/Cant 8.html">8
+<OPTION VALUE="Cant/Cantp6.html">Image
+<OPTION VALUE="Cant/Cantp6.html">Intro
+<OPTION VALUE="Cant/Cantp17.html">1
+<OPTION VALUE="Cant/Cantp19.html">2
+<OPTION VALUE="Cant/Cantp22.html">3
+<OPTION VALUE="Cant/Cantp24.html">4
+<OPTION VALUE="Cant/Cantp26.html">5
+<OPTION VALUE="Cant/Cantp29.html">6
+<OPTION VALUE="Cant/Cantp31.html">7
+<OPTION VALUE="Cant/Cantp34.html">8
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. Gleave</span>
+</FORM><p></p>
+<HR><h4><span title="Prophetic Books       ">LIBRI PROPHETICI</span><br></span></h4>
+<!-- ISAIAH -->
+
+<a href="Jesaia/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Isaiah" border="0" align="right"></a>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Isaiah      ">
+<span class="geez">&#4824;&#4770;&#4659;&#4845;&#4843;&#4661; &#4961; &#4752;&#4706;&#4845; &#4962; </span>
+<span class="latin">Isaia </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Jesaia/Jesp 3.html">1
+<OPTION VALUE="Jesaia/Jesp 5.html">2
+<OPTION VALUE="Jesaia/Jesp 7.html">3
+<OPTION VALUE="Jesaia/Jesp 9.html">4
+<OPTION VALUE="Jesaia/Jesp 9.html">5
+<OPTION VALUE="Jesaia/Jesp 12.html">6
+<OPTION VALUE="Jesaia/Jesp 13.html">7
+<OPTION VALUE="Jesaia/Jesp 15.html">8
+<OPTION VALUE="Jesaia/Jesp 17.html">9
+<OPTION VALUE="Jesaia/Jesp 19.html">10
+<OPTION VALUE="Jesaia/Jesp 22.html">11
+<OPTION VALUE="Jesaia/Jesp 32.html">12
+<OPTION VALUE="Jesaia/Jesp 24.html">13
+<OPTION VALUE="Jesaia/Jesp 26.html">14
+<OPTION VALUE="Jesaia/Jesp 28.html">15
+<OPTION VALUE="Jesaia/Jesp 29.html">16
+<OPTION VALUE="Jesaia/Jesp 30.html">17
+<OPTION VALUE="Jesaia/Jesp 32.html">18
+<OPTION VALUE="Jesaia/Jesp 33.html">19
+<OPTION VALUE="Jesaia/Jesp 35.html">20
+<OPTION VALUE="Jesaia/Jesp 35.html">21
+<OPTION VALUE="Jesaia/Jesp 37.html">22
+<OPTION VALUE="Jesaia/Jesp 39.html">23
+<OPTION VALUE="Jesaia/Jesp 40.html">24
+<OPTION VALUE="Jesaia/Jesp 42.html">25
+<OPTION VALUE="Jesaia/Jesp 43.html">26
+<OPTION VALUE="Jesaia/Jesp 45.html">27
+<OPTION VALUE="Jesaia/Jesp 46.html">28
+<OPTION VALUE="Jesaia/Jesp 49.html">29
+<OPTION VALUE="Jesaia/Jesp 51.html">30
+<OPTION VALUE="Jesaia/Jesp 54.html">31
+<OPTION VALUE="Jesaia/Jesp 55.html">32
+<OPTION VALUE="Jesaia/Jesp 56.html">33
+<OPTION VALUE="Jesaia/Jesp 59.html">34
+<OPTION VALUE="Jesaia/Jesp 60.html">35
+<OPTION VALUE="Jesaia/Jesp 61.html">36
+<OPTION VALUE="Jesaia/Jesp 63.html">37
+<OPTION VALUE="Jesaia/Jesp 66.html">38
+<OPTION VALUE="Jesaia/Jesp 67.html">39
+<OPTION VALUE="Jesaia/Jesp 68.html">40
+<OPTION VALUE="Jesaia/Jesp 70.html">41
+<OPTION VALUE="Jesaia/Jesp 72.html">42
+<OPTION VALUE="Jesaia/Jesp 74.html">43
+<OPTION VALUE="Jesaia/Jesp 76.html">44
+<OPTION VALUE="Jesaia/Jesp 78.html">45
+<OPTION VALUE="Jesaia/Jesp 80.html">46
+<OPTION VALUE="Jesaia/Jesp 81.html">47
+<OPTION VALUE="Jesaia/Jesp 82.html">48
+<OPTION VALUE="Jesaia/Jesp 83.html">49
+<OPTION VALUE="Jesaia/Jesp 86.html">50
+<OPTION VALUE="Jesaia/Jesp 87.html">51
+<OPTION VALUE="Jesaia/Jesp 89.html">52
+<OPTION VALUE="Jesaia/Jesp 90.html">53
+<OPTION VALUE="Jesaia/Jesp 91.html">54
+<OPTION VALUE="Jesaia/Jesp 92.html">55
+<OPTION VALUE="Jesaia/Jesp 93.html">56
+<OPTION VALUE="Jesaia/Jesp 94.html">57
+<OPTION VALUE="Jesaia/Jesp 95.html">58
+<OPTION VALUE="Jesaia/Jesp 96.html">59
+<OPTION VALUE="Jesaia/Jesp 98.html">60
+<OPTION VALUE="Jesaia/Jesp 100.html">61
+<OPTION VALUE="Jesaia/Jesp 101.html">62
+<OPTION VALUE="Jesaia/Jesp 101.html">63
+<OPTION VALUE="Jesaia/Jesp 103.html">64
+<OPTION VALUE="Jesaia/Jesp 103.html">65
+<OPTION VALUE="Jesaia/Jesp 105.html">66
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. Bachmann</span>
+</FORM><p></p>
+<!-- LAMENTATIONS -->
+
+<a href="Klagelieder/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Lamentations" border="0" align="right"></a>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Lamentations     ">
+<span class="geez">&#4656;&#4678;&#4675;&#4808; &#4961; &#4772;&#4653;&#4637;&#4843;&#4661; &#4962; </span>
+<span class="latin">Lamentationes </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Klagelieder/Klagep 7.html">1
+<OPTION VALUE="Klagelieder/Klagep 11.html">2
+<OPTION VALUE="Klagelieder/Klagep 15.html">3
+<OPTION VALUE="Klagelieder/Klagep 18.html">4
+<OPTION VALUE="Klagelieder/Klagep 21.html">5
+
+</SELECT>
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. Bachmann</span>
+</FORM><p></p>
+<!-- DANIEL -->
+
+<a href="Daniel/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Lamentations" border="0" align="right"></a>
+
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Daniel      ">
+<span class="geez">&#4824;&#4851;&#4757;&#4772;&#4621; &#4961; &#4752;&#4706;&#4845; &#4962; </span>
+<span class="latin">Daniel </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Daniel/Danp1.html">Susanna
+<OPTION VALUE="Daniel/Danp8.html" selected>1
+<OPTION VALUE="Daniel/Danp12.html">2
+<OPTION VALUE="Daniel/Danp19.html">3
+<OPTION VALUE="Daniel/Danp32.html">4
+<OPTION VALUE="Daniel/Danp38.html">5
+<OPTION VALUE="Daniel/Danp43.html">6
+<OPTION VALUE="Daniel/Danp48.html">7
+<OPTION VALUE="Daniel/Danp53.html">8
+<OPTION VALUE="Daniel/Danp58.html">9
+<OPTION VALUE="Daniel/Danp64.html">10
+<OPTION VALUE="Daniel/Danp67.html">11
+<OPTION VALUE="Daniel/Danp78.html">12
+<OPTION VALUE="Daniel/Danp80.html">Bel
+</SELECT>
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. L&ouml;fgren</span>
+</FORM><p></p>
+<!-- HOSEA -->
+
+<a href="Hosea/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Hosea" border="0" align="right"></a>
+
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Hosea     ">
+<span class="geez">&#8199;&#8199;&#4824;&#4614;&#4660;&#4821; &#4961; &#4752;&#4706;&#4845; &#4962; </span>
+<span class="latin">Hosea </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Hosea/Hoseapr 8.html">Vorw.
+<OPTION VALUE="Hosea/Hoseapr 9.html">Abk.
+<OPTION VALUE="Hosea/Hoseapr 12.html">Lit.
+<OPTION VALUE="Hosea/Hoseap 1.html">Einl.
+<OPTION VALUE="Hosea/Hoseap 31.html" selected>1
+<OPTION VALUE="Hosea/Hoseap 33.html">2
+<OPTION VALUE="Hosea/Hoseap 37.html">3
+<OPTION VALUE="Hosea/Hoseap 38.html">4
+<OPTION VALUE="Hosea/Hoseap 42.html">5
+<OPTION VALUE="Hosea/Hoseap 44.html">6
+<OPTION VALUE="Hosea/Hoseap 46.html">7
+<OPTION VALUE="Hosea/Hoseap 49.html">8
+<OPTION VALUE="Hosea/Hoseap 52.html">9
+<OPTION VALUE="Hosea/Hoseap 55.html">10
+<OPTION VALUE="Hosea/Hoseap 59.html">11
+<OPTION VALUE="Hosea/Hoseap 61.html">12
+<OPTION VALUE="Hosea/Hoseap 64.html">13
+<OPTION VALUE="Hosea/Hoseap 67.html">14
+<OPTION VALUE="Hosea/Hoseap 70.html">Anhang
+<OPTION VALUE="Hosea/Hoseap 103.html">Anm.
+<OPTION VALUE="Hosea/Hoseap 123.html">Reg.
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. Fuhs</span>
+</FORM><p></p>
+
+<!-- JOEL -->
+
+<a href="Joel/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Joel" border="0" align="right"></a>
+
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Joel     ">
+<span class="geez">&#8199;&#8199;&#4824;&#4770;&#4841;&#4772;&#4621; &#4961; &#4752;&#4706;&#4845; &#4962; </span>
+<span class="latin">Ioel </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Joel/Joel 1.html" selected>Text
+<OPTION VALUE="Joel/Joel 1.html">1
+<OPTION VALUE="Joel/Joel 2.html">2
+<OPTION VALUE="Joel/Joel 3.html">3
+<OPTION VALUE="Joel/Joel 4.html">4
+<OPTION VALUE="Joel/Joelp 1.html">Image
+<OPTION VALUE="Joel/Joelp 1.html">1
+<OPTION VALUE="Joel/Joelp 3.html">2
+<OPTION VALUE="Joel/Joelp 6.html">3
+<OPTION VALUE="Joel/Joelp 6.html">4
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p>
+
+<!-- AMOS -->
+
+<a href="Amos/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Amos" border="0" align="right"></a>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Amos     ">
+<span class="geez">&#8199;&#8199;&#4824;&#4768;&#4638;&#4925; &#4961; &#4752;&#4706;&#4845; &#4962; </span>
+<span class="latin">Amos </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Amos/Amos 1.html">Text
+<OPTION VALUE="Amos/Amos 1.html">1
+<OPTION VALUE="Amos/Amos 2.html">2
+<OPTION VALUE="Amos/Amos 3.html">3
+<OPTION VALUE="Amos/Amos 4.html">4
+<OPTION VALUE="Amos/Amos 5.html">5
+<OPTION VALUE="Amos/Amos 6.html">6
+<OPTION VALUE="Amos/Amos 7.html">7
+<OPTION VALUE="Amos/Amos 8.html">8
+<OPTION VALUE="Amos/Amos 9.html">9
+<OPTION VALUE="Amos/Amosp 17.html">Image
+<OPTION VALUE="Amos/Amosp 10.html">0
+<OPTION VALUE="Amos/Amosp 17.html">1
+<OPTION VALUE="Amos/Amosp 18.html">2
+<OPTION VALUE="Amos/Amosp 20.html">3
+<OPTION VALUE="Amos/Amosp 21.html">4
+<OPTION VALUE="Amos/Amosp 23.html">5
+<OPTION VALUE="Amos/Amosp 25.html">6
+<OPTION VALUE="Amos/Amosp 27.html">7
+<OPTION VALUE="Amos/Amosp 28.html">8
+<OPTION VALUE="Amos/Amosp 30.html">9
+<OPTION VALUE="Amos/Amosp 32.html">+
+
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. Pereira</span>
+</FORM><p></p>
+<a href="Obadia/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Obadiah" border="0" align="right"></a>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Obadiah       ">
+<span class="geez">&#8199;&#8199;&#4824;&#4819;&#4709;&#4853;&#4841; &#4961; &#4752;&#4706;&#4845; &#4962; </span>
+<span class="latin">Abdias </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Obadia/Obadia txt.html">Text
+<OPTION VALUE="Obadia/Obadiap 1.html">1
+<OPTION VALUE="Obadia/Obadiap 5.html">+
+
+</SELECT>
+
+<!-- JONAS image -->
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. Bachmann</span>
+</FORM><p></p>
+<a href="Jona/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Jonah" border="0" align="right"></a>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Jonah     ">
+<span class="geez">&#8199;&#8199;&#4824;&#4846;&#4755;&#4661; &#4961; &#4752;&#4706;&#4845; &#4962; </span>
+<span class="latin">Ionas </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Jona/Jon 1.html" selected>Text
+<OPTION VALUE="Jona/Jon 1.html">1
+<OPTION VALUE="Jona/Jon 2.html">2
+<OPTION VALUE="Jona/Jon 3.html">3
+<OPTION VALUE="Jona/Jon 4.html">4
+<OPTION VALUE="Jona/Jon p1.html">Image
+<OPTION VALUE="Jona/Jon p1.html">1
+<OPTION VALUE="Jona/Jon p3.html">2
+<OPTION VALUE="Jona/Jon p5.html">3
+<OPTION VALUE="Jona/Jon p6.html">4
+
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. L&ouml;fgren</span>
+</FORM><p></p>
+<!-- MICHA -->
+
+<a href="Micha/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Micah" border="0" align="right"></a>
+
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Micah     ">
+<span class="geez">&#8199;&#8199;&#4824;&#4634;&#4781;&#4843;&#4661; &#4961; &#4752;&#4706;&#4845; &#4962; </span>
+<span class="latin">Michaeas </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Micha/Mic 1.html" selected>Text
+<OPTION VALUE="Micha/Mic 1.html">1
+<OPTION VALUE="Micha/Mic 2.html">2
+<OPTION VALUE="Micha/Mic 3.html">3
+<OPTION VALUE="Micha/Mic 4.html">4
+<OPTION VALUE="Micha/Mic 5.html">5
+<OPTION VALUE="Micha/Mic 6.html">6
+<OPTION VALUE="Micha/Mic 7.html">7
+<OPTION VALUE="Micha/Michap 0.html">Vorw.
+<OPTION VALUE="Micha/Michap 1.html">Einl.
+<OPTION VALUE="Micha/Michap 45.html">Image
+<OPTION VALUE="Micha/Michap 45.html">1
+<OPTION VALUE="Micha/Michap 47.html">2
+<OPTION VALUE="Micha/Michap 50.html">3
+<OPTION VALUE="Micha/Michap 52.html">4
+<OPTION VALUE="Micha/Michap 54.html">5
+<OPTION VALUE="Micha/Michap 57.html">6
+<OPTION VALUE="Micha/Michap 59.html">7
+<OPTION VALUE="Micha/Michap 63.html">Komm.
+<OPTION VALUE="Micha/Michap 102.html">Anhang
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. Fuhs</span>
+</FORM><p></p>
+<!-- NAHUM image -->
+
+<a href="Nahum/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Nahum" border="0" align="right"></a>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Nahum     ">
+<span class="geez">&#8199;&#8199;&#4824;&#4755;&#4630;&#4637; &#4961; &#4752;&#4706;&#4845; &#4962; </span>
+<span class="latin">Nahum </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Nahum/Nah 1.html" selected>Text
+<OPTION VALUE="Nahum/Nah 1.html">1
+<OPTION VALUE="Nahum/Nah 2.html">2
+<OPTION VALUE="Nahum/Nah 3.html">3
+<OPTION VALUE="Nahum/Nah p1.html">Image
+<OPTION VALUE="Nahum/Nah p1.html">1
+<OPTION VALUE="Nahum/Nah p3.html">2
+<OPTION VALUE="Nahum/Nah p5.html">3
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. L&ouml;fgren</span>
+</FORM><p></p>
+<!-- HABAKUK image -->
+
+<a href="Habakuk/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Habakkuk" border="0" align="right"></a>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Habakkuk      ">
+<span class="geez">&#8199;&#8199;&#4824;&#4773;&#4757;&#4707;&#4678;&#4637; &#4961; &#4752;&#4706;&#4845; &#4962; </span>
+<span class="latin">Habacuc </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Habakuk/Hab 1.html" selected>Text
+<OPTION VALUE="Habakuk/Hab 1.html">1
+<OPTION VALUE="Habakuk/Hab 2.html">2
+<OPTION VALUE="Habakuk/Hab 3.html">3
+<OPTION VALUE="Habakuk/Hab p1.html">Image
+<OPTION VALUE="Habakuk/Hab p1.html">1
+<OPTION VALUE="Habakuk/Hab p3.html">2
+<OPTION VALUE="Habakuk/Hab p7.html">3
+
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. L&ouml;fgren</span>
+</FORM><p></p>
+
+<a href="Zephanja/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Zephaniah" border="0" align="right"></a>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Zephaniah      ">
+<span class="geez">&#8199;&#8199;&#4824;&#4656;&#4942;&#4757;&#4843;&#4661; &#4961; &#4752;&#4706;&#4845; &#4962; </span>
+<span class="latin">Sophonias </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Zephanja/Zep 1.html" selected>Text
+<OPTION VALUE="Zephanja/Zep 1.html">1
+<OPTION VALUE="Zephanja/Zep 2.html">2
+<OPTION VALUE="Zephanja/Zep 3.html">3
+<OPTION VALUE="Zephanja/Zep p1.html">Image
+<OPTION VALUE="Zephanja/Zep p1.html">1
+<OPTION VALUE="Zephanja/Zep p3.html">2
+<OPTION VALUE="Zephanja/Zep p5.html">3
+
+</SELECT>
+
+<!-- Haggai image -->
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. L&ouml;fgren</span>
+</FORM><p></p>
+<a href="Haggai/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Haggai" border="0" align="right"></a>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Haggai    ">
+<span class="geez">&#8199;&#8199;&#4824;&#4624;&#4876; &#4961; &#4752;&#4706;&#4845; &#4962; </span>
+<span class="latin">Aggaeus </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Haggai/Hag 1.html" selected>Text
+<OPTION VALUE="Haggai/Hag 1.html">1
+<OPTION VALUE="Haggai/Hag 2.html">2
+<OPTION VALUE="Haggai/Hag p1.html">Image
+<OPTION VALUE="Haggai/Hag p1.html">1
+<OPTION VALUE="Haggai/Hag p3.html">2
+
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. L&ouml;fgren</span>
+</FORM><p></p>
+
+<a href="Sacharja/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Sacharja" border="0" align="right"></a>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Zechariah      ">
+<span class="geez">&#8199;&#8199;&#4824;&#4824;&#4779;&#4653;&#4843;&#4661; &#4961; &#4752;&#4706;&#4845; &#4962; </span>
+<span class="latin">Zacharias </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Sacharja/Sac 1.html" selected>Text
+<OPTION VALUE="Sacharja/Sac 1.html">1
+<OPTION VALUE="Sacharja/Sac 2.html">2
+<OPTION VALUE="Sacharja/Sac 3.html">3
+<OPTION VALUE="Sacharja/Sac 4.html">4
+<OPTION VALUE="Sacharja/Sac 5.html">5
+<OPTION VALUE="Sacharja/Sac 6.html">6
+<OPTION VALUE="Sacharja/Sac 7.html">7
+<OPTION VALUE="Sacharja/Sac 8.html">8
+<OPTION VALUE="Sacharja/Sac 9.html">9
+<OPTION VALUE="Sacharja/Sac 10.html">10
+<OPTION VALUE="Sacharja/Sac 11.html">11
+<OPTION VALUE="Sacharja/Sac 12.html">12
+<OPTION VALUE="Sacharja/Sac 13.html">13
+<OPTION VALUE="Sacharja/Sac 14.html">14
+<OPTION VALUE="Sacharja/Sac p1.html">Image
+<OPTION VALUE="Sacharja/Sac p1.html">1
+<OPTION VALUE="Sacharja/Sac p4.html">2
+<OPTION VALUE="Sacharja/Sac p6.html">3
+<OPTION VALUE="Sacharja/Sac p7.html">4
+<OPTION VALUE="Sacharja/Sac p9.html">5
+<OPTION VALUE="Sacharja/Sac p11.html">6
+<OPTION VALUE="Sacharja/Sac p13.html">7
+<OPTION VALUE="Sacharja/Sac p15.html">8
+<OPTION VALUE="Sacharja/Sac p18.html">9
+<OPTION VALUE="Sacharja/Sac p21.html">10
+<OPTION VALUE="Sacharja/Sac p23.html">11
+<OPTION VALUE="Sacharja/Sac p25.html">12
+<OPTION VALUE="Sacharja/Sac p28.html">13
+<OPTION VALUE="Sacharja/Sac p29.html">14
+
+</SELECT>
+
+<!-- Maleachi image -->
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. L&ouml;fgren</span>
+</FORM><p></p>
+<a href="Maleachi/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Malachi" border="0" align="right"></a>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Malachi        ">
+<span class="geez">&#8199;&#8199;&#4824;&#4637;&#4621;&#4781;&#4843;&#4661; &#4961; &#4752;&#4706;&#4845; &#4962; </span>
+<span class="latin">Malachias </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Maleachi/Mal 1.html" selected>Text
+<OPTION VALUE="Maleachi/Mal 1.html">1
+<OPTION VALUE="Maleachi/Mal 2.html">2
+<OPTION VALUE="Maleachi/Mal 3.html">3
+<OPTION VALUE="Maleachi/Mal 4.html">4
+<OPTION VALUE="Maleachi/Mal p1.html">Image
+<OPTION VALUE="Maleachi/Mal p1.html">1
+<OPTION VALUE="Maleachi/Mal p4.html">2
+<OPTION VALUE="Maleachi/Mal p6.html">3
+<OPTION VALUE="Maleachi/Mal p10.html">4
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. L&ouml;fgren</span>
+</FORM><p></p>
+<HR>
+
+<a href="Apocryphi/Information.html" target="new">
+<img width="40" height="40" src="Information.png" alt="" title="Information: Apocryphal Books" border="0" align="right"></a>
+<h4><span title="Apocryphal Books              ">LIBRI APOCRYPHI</span></h4>
+
+
+
+
+</FORM><p></p>
+<a href="Apocryphi/InformationBar.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Baruch and The Letter of Jeremiah" border="0" align="right"></a>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Baruch and The Letter of Jeremiah                  ">
+<span class="geez">&#4824;&#4707;&#4654;&#4781; &#4962; </span>
+<span class="latin">Baruch </span><span class="editor"><span class="latin">et Epistola Jeremiae </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Apocryphi/Bar 1.html" selected>Text
+<OPTION VALUE="Apocryphi/Bar 1.html">1
+<OPTION VALUE="Apocryphi/Bar 2.html">2
+<OPTION VALUE="Apocryphi/Bar 3.html">3
+<OPTION VALUE="Apocryphi/Bar 4.html">4
+<OPTION VALUE="Apocryphi/Bar 5.html">5
+<OPTION VALUE="Apocryphi/EpJ.html">E.J.
+<OPTION VALUE="Apocryphi/Apop 1.html">Image
+<OPTION VALUE="Apocryphi/Apop 1.html">1
+<OPTION VALUE="Apocryphi/Apop 1.html">2
+<OPTION VALUE="Apocryphi/Apop 2.html">3
+<OPTION VALUE="Apocryphi/Apop 3.html">4
+<OPTION VALUE="Apocryphi/Apop 4.html">5
+<OPTION VALUE="Apocryphi/Apop 4.html">E.J.
+<OPTION VALUE="Apocryphi/Apop 6.html">+
+
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p></span>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Tobit      ">
+<span class="geez">&#4824;&#4902;&#4706;&#4725; &#4962; </span>
+<span class="latin">Tobith </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Apocryphi/Apop 11.html">1
+<OPTION VALUE="Apocryphi/Apop 12.html">2
+<OPTION VALUE="Apocryphi/Apop 13.html">3
+<OPTION VALUE="Apocryphi/Apop 14.html">4
+<OPTION VALUE="Apocryphi/Apop 16.html">5
+<OPTION VALUE="Apocryphi/Apop 17.html">6
+<OPTION VALUE="Apocryphi/Apop 18.html">7
+<OPTION VALUE="Apocryphi/Apop 19.html">8
+<OPTION VALUE="Apocryphi/Apop 20.html">9
+<OPTION VALUE="Apocryphi/Apop 20.html">10
+<OPTION VALUE="Apocryphi/Apop 21.html">11
+<OPTION VALUE="Apocryphi/Apop 22.html">12
+<OPTION VALUE="Apocryphi/Apop 23.html">13
+<OPTION VALUE="Apocryphi/Apop 24.html">14
+<OPTION VALUE="Apocryphi/Apop 26.html">+
+
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Judith       ">
+<span class="geez">&#4824;&#4846;&#4850;&#4725; &#4962; </span>
+<span class="latin">Judith </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Apocryphi/Apop 28.html">1
+<OPTION VALUE="Apocryphi/Apop 29.html">2
+<OPTION VALUE="Apocryphi/Apop 31.html">3
+<OPTION VALUE="Apocryphi/Apop 31.html">4
+<OPTION VALUE="Apocryphi/Apop 33.html">5
+<OPTION VALUE="Apocryphi/Apop 34.html">6
+<OPTION VALUE="Apocryphi/Apop 36.html">7
+<OPTION VALUE="Apocryphi/Apop 38.html">8
+<OPTION VALUE="Apocryphi/Apop 40.html">9
+<OPTION VALUE="Apocryphi/Apop 41.html">10
+<OPTION VALUE="Apocryphi/Apop 43.html">11
+<OPTION VALUE="Apocryphi/Apop 45.html">12
+<OPTION VALUE="Apocryphi/Apop 46.html">13
+<OPTION VALUE="Apocryphi/Apop 47.html">14
+<OPTION VALUE="Apocryphi/Apop 49.html">15
+<OPTION VALUE="Apocryphi/Apop 50.html">16
+<OPTION VALUE="Apocryphi/Apop 52.html">+
+
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p>
+
+
+<a href="Apocryphi/InformationSir.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Baruch and The Letter of Jeremiah" border="0" align="right"></a>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Ecclesiasticus (Wisdom of the Son of Sirach)   -    ">
+<span class="geezgreen">&#4901;&#4704;&#4704; &#4961; &#4658;&#4651;&#4781; &#4962; </span>
+<span class="latingreen">Siracida </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Apocryphi/Sir 1.html">Text
+<OPTION VALUE="Apocryphi/Sir 1.html">1
+<OPTION VALUE="Apocryphi/Sir 2.html">2
+<OPTION VALUE="Apocryphi/Sir 3.html">3
+<OPTION VALUE="Apocryphi/Sir 4.html">4
+<OPTION VALUE="Apocryphi/Sir 5.html">5
+<OPTION VALUE="Apocryphi/Sir 6.html">6
+<OPTION VALUE="Apocryphi/Sir 7.html">7
+<OPTION VALUE="Apocryphi/Sir 8.html">8
+<OPTION VALUE="Apocryphi/Sir 9.html">9
+<OPTION VALUE="Apocryphi/Sir 10.html">10
+<OPTION VALUE="Apocryphi/Sir 11.html">11
+<OPTION VALUE="Apocryphi/Sir 12.html">12
+<OPTION VALUE="Apocryphi/Sir 13.html">13
+<OPTION VALUE="Apocryphi/Sir 14.html">14
+<OPTION VALUE="Apocryphi/Sir 15.html">15
+<OPTION VALUE="Apocryphi/Sir 16.html">16
+<OPTION VALUE="Apocryphi/Sir 17.html">17
+<OPTION VALUE="Apocryphi/Sir 18.html">18
+<OPTION VALUE="Apocryphi/Sir 19.html">19
+<OPTION VALUE="Apocryphi/Sir 20.html">20
+<OPTION VALUE="Apocryphi/Sir 21.html">21
+<OPTION VALUE="Apocryphi/Sir 22.html">22
+<OPTION VALUE="Apocryphi/Sir 23.html">23
+<OPTION VALUE="Apocryphi/Sir 24.html">24
+<OPTION VALUE="Apocryphi/Sir 25.html">25
+<OPTION VALUE="Apocryphi/Sir 26.html">26
+<OPTION VALUE="Apocryphi/Sir 27.html">27
+<OPTION VALUE="Apocryphi/Sir 28.html">28
+<OPTION VALUE="Apocryphi/Sir 29.html">29
+<OPTION VALUE="Apocryphi/Sir 30.html">30
+<OPTION VALUE="Apocryphi/Sir 31.html">31
+<OPTION VALUE="Apocryphi/Sir 32.html">32
+<OPTION VALUE="Apocryphi/Sir 33.html">33
+<OPTION VALUE="Apocryphi/Sir 34.html">34
+<OPTION VALUE="Apocryphi/Sir 35.html">35
+<OPTION VALUE="Apocryphi/Sir 36.html">36
+<OPTION VALUE="Apocryphi/Sir 37.html">37
+<OPTION VALUE="Apocryphi/Sir 38.html">38
+<OPTION VALUE="Apocryphi/Sir 39.html">39
+<OPTION VALUE="Apocryphi/Sir 40.html">40
+<OPTION VALUE="Apocryphi/Sir 41.html">41
+<OPTION VALUE="Apocryphi/Sir 42.html">42
+<OPTION VALUE="Apocryphi/Sir 43.html">43
+<OPTION VALUE="Apocryphi/Sir 44.html">44
+<OPTION VALUE="Apocryphi/Sir 45.html">45
+<OPTION VALUE="Apocryphi/Sir 46.html">46
+<OPTION VALUE="Apocryphi/Sir 47.html">47
+<OPTION VALUE="Apocryphi/Sir 48.html">48
+<OPTION VALUE="Apocryphi/Sir 49.html">49
+<OPTION VALUE="Apocryphi/Sir 50.html">50
+<OPTION VALUE="Apocryphi/Sir 51.html">51
+<OPTION VALUE="Apocryphi/Apop 54.html">Image
+<OPTION VALUE="Apocryphi/Apop 54.html">1
+<OPTION VALUE="Apocryphi/Apop 55.html">2
+<OPTION VALUE="Apocryphi/Apop 56.html">3
+<OPTION VALUE="Apocryphi/Apop 57.html">4
+<OPTION VALUE="Apocryphi/Apop 58.html">5
+<OPTION VALUE="Apocryphi/Apop 58.html">6
+<OPTION VALUE="Apocryphi/Apop 60.html">7
+<OPTION VALUE="Apocryphi/Apop 61.html">8
+<OPTION VALUE="Apocryphi/Apop 62.html">9
+<OPTION VALUE="Apocryphi/Apop 63.html">10
+<OPTION VALUE="Apocryphi/Apop 64.html">11
+<OPTION VALUE="Apocryphi/Apop 65.html">12
+<OPTION VALUE="Apocryphi/Apop 66.html">13
+<OPTION VALUE="Apocryphi/Apop 67.html">14
+<OPTION VALUE="Apocryphi/Apop 68.html">15
+<OPTION VALUE="Apocryphi/Apop 69.html">16
+<OPTION VALUE="Apocryphi/Apop 70.html">17
+<OPTION VALUE="Apocryphi/Apop 71.html">18
+<OPTION VALUE="Apocryphi/Apop 72.html">19
+<OPTION VALUE="Apocryphi/Apop 74.html">20
+<OPTION VALUE="Apocryphi/Apop 75.html">21
+<OPTION VALUE="Apocryphi/Apop 76.html">22
+<OPTION VALUE="Apocryphi/Apop 77.html">23
+<OPTION VALUE="Apocryphi/Apop 79.html">24
+<OPTION VALUE="Apocryphi/Apop 80.html">25
+<OPTION VALUE="Apocryphi/Apop 81.html">26
+<OPTION VALUE="Apocryphi/Apop 82.html">27
+<OPTION VALUE="Apocryphi/Apop 83.html">28
+<OPTION VALUE="Apocryphi/Apop 84.html">29
+<OPTION VALUE="Apocryphi/Apop 86.html">30
+<OPTION VALUE="Apocryphi/Apop 87.html">31
+<OPTION VALUE="Apocryphi/Apop 88.html">32
+<OPTION VALUE="Apocryphi/Apop 89.html">33
+<OPTION VALUE="Apocryphi/Apop 90.html">34
+<OPTION VALUE="Apocryphi/Apop 91.html">35
+<OPTION VALUE="Apocryphi/Apop 92.html">36
+<OPTION VALUE="Apocryphi/Apop 93.html">37
+<OPTION VALUE="Apocryphi/Apop 95.html">38
+<OPTION VALUE="Apocryphi/Apop 96.html">39
+<OPTION VALUE="Apocryphi/Apop 98.html">40
+<OPTION VALUE="Apocryphi/Apop 99.html">41
+<OPTION VALUE="Apocryphi/Apop 100.html">42
+<OPTION VALUE="Apocryphi/Apop 102.html">43
+<OPTION VALUE="Apocryphi/Apop 103.html">44
+<OPTION VALUE="Apocryphi/Apop 104.html">45
+<OPTION VALUE="Apocryphi/Apop 106.html">46
+<OPTION VALUE="Apocryphi/Apop 107.html">47
+<OPTION VALUE="Apocryphi/Apop 108.html">48
+<OPTION VALUE="Apocryphi/Apop 109.html">49
+<OPTION VALUE="Apocryphi/Apop 110.html">50
+<OPTION VALUE="Apocryphi/Apop 111.html">51
+<OPTION VALUE="Apocryphi/Apop 113.html">+
+
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p>
+<a href="Apocryphi/InformationSap.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Wisdom of Solomon" border="0" align="right"></a>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Wisdom of Solomon          ">
+<span class="geez">&#4901;&#4704;&#4704; &#4961; &#4656;&#4622;&#4638;&#4757; &#4962; </span>
+<span class="latin">Sapientia Solomonis </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Apocryphi/Sap 1.html" selected>Text
+<OPTION VALUE="Apocryphi/Sap 1.html">1
+<OPTION VALUE="Apocryphi/Sap 2.html">2
+<OPTION VALUE="Apocryphi/Sap 3.html">3
+<OPTION VALUE="Apocryphi/Sap 4.html">4
+<OPTION VALUE="Apocryphi/Sap 5.html">5
+<OPTION VALUE="Apocryphi/Sap 6.html">6
+<OPTION VALUE="Apocryphi/Sap 7.html">7
+<OPTION VALUE="Apocryphi/Sap 8.html">8
+<OPTION VALUE="Apocryphi/Sap 9.html">9
+<OPTION VALUE="Apocryphi/Sap 10.html">10
+<OPTION VALUE="Apocryphi/Sap 11.html">11
+<OPTION VALUE="Apocryphi/Sap 12.html">12
+<OPTION VALUE="Apocryphi/Sap 13.html">13
+<OPTION VALUE="Apocryphi/Sap 14.html">14
+<OPTION VALUE="Apocryphi/Sap 15.html">15
+<OPTION VALUE="Apocryphi/Sap 16.html">16
+<OPTION VALUE="Apocryphi/Sap 17.html">17
+<OPTION VALUE="Apocryphi/Sap 18.html">18
+<OPTION VALUE="Apocryphi/Sap 19.html">19
+<OPTION VALUE="Apocryphi/Apop 118.html">Image
+<OPTION VALUE="Apocryphi/Apop 118.html">1
+<OPTION VALUE="Apocryphi/Apop 119.html">2
+<OPTION VALUE="Apocryphi/Apop 120.html">3
+<OPTION VALUE="Apocryphi/Apop 121.html">4
+<OPTION VALUE="Apocryphi/Apop 122.html">5
+<OPTION VALUE="Apocryphi/Apop 124.html">6
+<OPTION VALUE="Apocryphi/Apop 125.html">7
+<OPTION VALUE="Apocryphi/Apop 127.html">8
+<OPTION VALUE="Apocryphi/Apop 129.html">9
+<OPTION VALUE="Apocryphi/Apop 130.html">10
+<OPTION VALUE="Apocryphi/Apop 131.html">11
+<OPTION VALUE="Apocryphi/Apop 133.html">12
+<OPTION VALUE="Apocryphi/Apop 135.html">13
+<OPTION VALUE="Apocryphi/Apop 137.html">14
+<OPTION VALUE="Apocryphi/Apop 139.html">15
+<OPTION VALUE="Apocryphi/Apop 141.html">16
+<OPTION VALUE="Apocryphi/Apop 143.html">17
+<OPTION VALUE="Apocryphi/Apop 145.html">18
+<OPTION VALUE="Apocryphi/Apop 148.html">19
+<OPTION VALUE="Apocryphi/Apop 150.html">+
+
+</SELECT>
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p> 
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="The Apocalypse of Esdras (2 Esdras)          ">
+<span class="geez">&#4824;&#4821;&#4829;&#4651; &#4961; &#4752;&#4706;&#4845; &#4962; </span>
+<span class="latin">Ezrae Apocalypsis </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Apocryphi/Apop 153.html">1
+<OPTION VALUE="Apocryphi/Apop 155.html">2
+<OPTION VALUE="Apocryphi/Apop 158.html">3
+<OPTION VALUE="Apocryphi/Apop 161.html">4
+<OPTION VALUE="Apocryphi/Apop 164.html">5
+<OPTION VALUE="Apocryphi/Apop 166.html">6
+<OPTION VALUE="Apocryphi/Apop 170.html">7
+<OPTION VALUE="Apocryphi/Apop 172.html">8
+<OPTION VALUE="Apocryphi/Apop 175.html">9
+<OPTION VALUE="Apocryphi/Apop 177.html">10
+<OPTION VALUE="Apocryphi/Apop 181.html">11
+<OPTION VALUE="Apocryphi/Apop 183.html">12
+<OPTION VALUE="Apocryphi/Apop 186.html">13
+<OPTION VALUE="Apocryphi/Apop 189.html">14
+<OPTION VALUE="Apocryphi/Apop 192.html">+
+
+</SELECT>
+ 
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p> 
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Apocryphal Esdras (1 Esdras)             ">
+<span class="geez">&#4824;&#4821;&#4829;&#4651; &#4961; &#4781;&#4621;&#4772;&#4721; &#4962; </span>
+<span class="latin">Ezra Graecus</span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Apocryphi/Apop 194.html">1
+<OPTION VALUE="Apocryphi/Apop 197.html">2
+<OPTION VALUE="Apocryphi/Apop 199.html">3
+<OPTION VALUE="Apocryphi/Apop 200.html">4
+<OPTION VALUE="Apocryphi/Apop 204.html">5
+<OPTION VALUE="Apocryphi/Apop 208.html">6
+<OPTION VALUE="Apocryphi/Apop 210.html">7
+<OPTION VALUE="Apocryphi/Apop 211.html">8
+<OPTION VALUE="Apocryphi/Apop 216.html">9
+<OPTION VALUE="Apocryphi/Apop 219.html">+
+
+</SELECT>
+ 
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p><HR>
+
+
+<a href="Jubil/InformationVdK.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Jubilees (ed. VanderKam)" border="0" align="right"></a>
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Jubilees (ed. VanderKam)       ">
+<span class="geez">&#4632;&#4925;&#4624;&#4936; &#4961; &#4777;&#4939;&#4620; &#4962; </span>
+<span class="latin">Jubilaeorum </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Jubil/Jubil 1.html">1
+<OPTION VALUE="Jubil/Jubil 2.html">2
+<OPTION VALUE="Jubil/Jubil 3.html">3
+<OPTION VALUE="Jubil/Jubil 4.html">4
+<OPTION VALUE="Jubil/Jubil 5.html">5
+<OPTION VALUE="Jubil/Jubil 6.html">6
+<OPTION VALUE="Jubil/Jubil 7.html">7
+<OPTION VALUE="Jubil/Jubil 8.html">8
+<OPTION VALUE="Jubil/Jubil 9.html">9
+<OPTION VALUE="Jubil/Jubil 10.html">10
+<OPTION VALUE="Jubil/Jubil 11.html">11
+<OPTION VALUE="Jubil/Jubil 12.html">12
+<OPTION VALUE="Jubil/Jubil 13.html">13
+<OPTION VALUE="Jubil/Jubil 14.html">14
+<OPTION VALUE="Jubil/Jubil 15.html">15
+<OPTION VALUE="Jubil/Jubil 16.html">16
+<OPTION VALUE="Jubil/Jubil 17.html">17
+<OPTION VALUE="Jubil/Jubil 18.html">18
+<OPTION VALUE="Jubil/Jubil 19.html">19
+<OPTION VALUE="Jubil/Jubil 20.html">20
+<OPTION VALUE="Jubil/Jubil 21.html">21
+<OPTION VALUE="Jubil/Jubil 22.html">22
+<OPTION VALUE="Jubil/Jubil 23.html">23
+<OPTION VALUE="Jubil/Jubil 24.html">24
+<OPTION VALUE="Jubil/Jubil 25.html">25
+<OPTION VALUE="Jubil/Jubil 26.html">26
+<OPTION VALUE="Jubil/Jubil 27.html">27
+<OPTION VALUE="Jubil/Jubil 28.html">28
+<OPTION VALUE="Jubil/Jubil 29.html">29
+<OPTION VALUE="Jubil/Jubil 30.html">30
+<OPTION VALUE="Jubil/Jubil 31.html">31
+<OPTION VALUE="Jubil/Jubil 32.html">32
+<OPTION VALUE="Jubil/Jubil 33.html">33
+<OPTION VALUE="Jubil/Jubil 34.html">34
+<OPTION VALUE="Jubil/Jubil 35.html">35
+<OPTION VALUE="Jubil/Jubil 36.html">36
+<OPTION VALUE="Jubil/Jubil 37.html">37
+<OPTION VALUE="Jubil/Jubil 38.html">38
+<OPTION VALUE="Jubil/Jubil 39.html">39
+<OPTION VALUE="Jubil/Jubil 40.html">40
+<OPTION VALUE="Jubil/Jubil 41.html">41
+<OPTION VALUE="Jubil/Jubil 42.html">42
+<OPTION VALUE="Jubil/Jubil 43.html">43
+<OPTION VALUE="Jubil/Jubil 44.html">44
+<OPTION VALUE="Jubil/Jubil 45.html">45
+<OPTION VALUE="Jubil/Jubil 46.html">46
+<OPTION VALUE="Jubil/Jubil 47.html">47
+<OPTION VALUE="Jubil/Jubil 48.html">48
+<OPTION VALUE="Jubil/Jubil 49.html">49
+<OPTION VALUE="Jubil/Jubil 50.html">50
+
+
+</SELECT>
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editor">Ed. VanderKam</span>
+</FORM><p></p>
+
+
+<a href="Jubil/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Jubilees (ed. Dillmann)" border="0" align="right"></a>
+
+<form name="formDoubleMenuDMAA" Title="Jubilees (ed. Dillmann)       " action="">
+<span class="geezgrey">&#4632;&#4925;&#4624;&#4936; &#4961; &#4777;&#4939;&#4620; &#4962; </span>
+<span class="latingrey">Jubilaeorum </span>
+<!-- This menu holds the subjects-->
+
+<select name="menuSubjectsDMAA" onChange="changeFilesDMAA()">
+
+<option value="">c.
+<option value="">p.
+</select>
+
+<!-- this menu holds the files to go-->
+
+<select name="menuFilesDMAA" onClick="" >
+<option value="none">
+</select>
+<input type="button" name="submit" value="> > >" onClick="goDMAA(menuFilesDMAA)">
+</FORM><p></p>
+
+<a href="Baruch/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: 4 Baruch" border="0" align="right"></a>
+
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="4 Baruch              ">
+<span class="geez">&#4720;&#4648;&#4936; &#4961; &#4752;&#4872;&#4653; &#4961; &#4824;&#4707;&#4654;&#4781; &#4962; </span>
+<span class="latin">4 Baruch </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Baruch/Baruch txt.html">Text
+<OPTION VALUE="Baruch/Baruch 1.html">Image
+<OPTION VALUE="Baruch/Baruch 1.html">p.1
+<OPTION VALUE="Baruch/Baruch 2.html">p.2
+<OPTION VALUE="Baruch/Baruch 3.html">p.3
+<OPTION VALUE="Baruch/Baruch 4.html">p.4
+<OPTION VALUE="Baruch/Baruch 5.html">p.5
+<OPTION VALUE="Baruch/Baruch 6.html">p.6
+<OPTION VALUE="Baruch/Baruch 7.html">p.7
+<OPTION VALUE="Baruch/Baruch 8.html">p.8
+<OPTION VALUE="Baruch/Baruch 9.html">p.9
+<OPTION VALUE="Baruch/Baruch 10.html">p.10
+<OPTION VALUE="Baruch/Baruch 11.html">p.11
+<OPTION VALUE="Baruch/Baruch 12.html">p.12
+<OPTION VALUE="Baruch/Baruch 13.html">p.13
+<OPTION VALUE="Baruch/Baruch 14.html">p.14
+<OPTION VALUE="Baruch/Baruch 15.html">p.15
+<OPTION VALUE="Baruch/Baruch 16.html">+
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p>
+
+<a href="Henoch/InformationDill.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Enoch (ed. Dillmann)" border="0" align="right"></a>
+
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Enoch (ed. Dillmann)     ">
+<span class="geezgrey">&#4632;&#4925;&#4624;&#4936; &#4961; &#4612;&#4758;&#4781; &#4962; </span>
+<span class="latingrey">Henoch</span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Henoch/Henoch 1.html">Text
+<OPTION VALUE="Henoch/Henoch 1.html">1
+<OPTION VALUE="Henoch/Henoch 2.html">2
+<OPTION VALUE="Henoch/Henoch 3.html">3
+<OPTION VALUE="Henoch/Henoch 4.html">4
+<OPTION VALUE="Henoch/Henoch 5.html">5
+<OPTION VALUE="Henoch/Henoch 6.html">6
+<OPTION VALUE="Henoch/Henoch 7.html">7
+<OPTION VALUE="Henoch/Henoch 8.html">8
+<OPTION VALUE="Henoch/Henoch 9.html">9
+<OPTION VALUE="Henoch/Henoch 10.html">10
+<OPTION VALUE="Henoch/Henoch 11.html">11
+<OPTION VALUE="Henoch/Henoch 12.html">12
+<OPTION VALUE="Henoch/Henoch 13.html">13
+<OPTION VALUE="Henoch/Henoch 14.html">14
+<OPTION VALUE="Henoch/Henoch 15.html">15
+<OPTION VALUE="Henoch/Henoch 16.html">16
+<OPTION VALUE="Henoch/Henoch 17.html">17
+<OPTION VALUE="Henoch/Henoch 18.html">18
+<OPTION VALUE="Henoch/Henoch 19.html">19
+<OPTION VALUE="Henoch/Henoch 20.html">20
+<OPTION VALUE="Henoch/Henoch 21.html">21
+<OPTION VALUE="Henoch/Henoch 22.html">22
+<OPTION VALUE="Henoch/Henoch 23.html">23
+<OPTION VALUE="Henoch/Henoch 24.html">24
+<OPTION VALUE="Henoch/Henoch 25.html">25
+<OPTION VALUE="Henoch/Henoch 26.html">26
+<OPTION VALUE="Henoch/Henoch 27.html">27
+<OPTION VALUE="Henoch/Henoch 28.html">28
+<OPTION VALUE="Henoch/Henoch 29.html">29
+<OPTION VALUE="Henoch/Henoch 30.html">30
+<OPTION VALUE="Henoch/Henoch 31.html">31
+<OPTION VALUE="Henoch/Henoch 32.html">32
+<OPTION VALUE="Henoch/Henoch 33.html">33
+<OPTION VALUE="Henoch/Henoch 34.html">34
+<OPTION VALUE="Henoch/Henoch 35.html">35
+<OPTION VALUE="Henoch/Henoch 36.html">36
+<OPTION VALUE="Henoch/Henoch 37.html">37
+<OPTION VALUE="Henoch/Henoch 38.html">38
+<OPTION VALUE="Henoch/Henoch 39.html">39
+<OPTION VALUE="Henoch/Henoch 40.html">40
+<OPTION VALUE="Henoch/Henoch 41.html">41
+<OPTION VALUE="Henoch/Henoch 42.html">42
+<OPTION VALUE="Henoch/Henoch 43.html">43
+<OPTION VALUE="Henoch/Henoch 44.html">44
+<OPTION VALUE="Henoch/Henoch 45.html">45
+<OPTION VALUE="Henoch/Henoch 46.html">46
+<OPTION VALUE="Henoch/Henoch 47.html">47
+<OPTION VALUE="Henoch/Henoch 48.html">48
+<OPTION VALUE="Henoch/Henoch 49.html">49
+<OPTION VALUE="Henoch/Henoch 50.html">50
+<OPTION VALUE="Henoch/Henoch 51.html">51
+<OPTION VALUE="Henoch/Henoch 52.html">52
+<OPTION VALUE="Henoch/Henoch 53.html">53
+<OPTION VALUE="Henoch/Henoch 54.html">54
+<OPTION VALUE="Henoch/Henoch 55.html">55
+<OPTION VALUE="Henoch/Henoch 56.html">56
+<OPTION VALUE="Henoch/Henoch 57.html">57
+<OPTION VALUE="Henoch/Henoch 58.html">58
+<OPTION VALUE="Henoch/Henoch 59.html">59
+<OPTION VALUE="Henoch/Henoch 60.html">60
+<OPTION VALUE="Henoch/Henoch 61.html">61
+<OPTION VALUE="Henoch/Henoch 62.html">62
+<OPTION VALUE="Henoch/Henoch 63.html">63
+<OPTION VALUE="Henoch/Henoch 64.html">64
+<OPTION VALUE="Henoch/Henoch 65.html">65
+<OPTION VALUE="Henoch/Henoch 66.html">66
+<OPTION VALUE="Henoch/Henoch 67.html">67
+<OPTION VALUE="Henoch/Henoch 68.html">68
+<OPTION VALUE="Henoch/Henoch 69.html">69
+<OPTION VALUE="Henoch/Henoch 70.html">70
+<OPTION VALUE="Henoch/Henoch 71.html">71
+<OPTION VALUE="Henoch/Henoch 72.html">72
+<OPTION VALUE="Henoch/Henoch 73.html">73
+<OPTION VALUE="Henoch/Henoch 74.html">74
+<OPTION VALUE="Henoch/Henoch 75.html">75
+<OPTION VALUE="Henoch/Henoch 76.html">76
+<OPTION VALUE="Henoch/Henoch 77.html">77
+<OPTION VALUE="Henoch/Henoch 78.html">78
+<OPTION VALUE="Henoch/Henoch 79.html">79
+<OPTION VALUE="Henoch/Henoch 80.html">80
+<OPTION VALUE="Henoch/Henoch 81.html">81
+<OPTION VALUE="Henoch/Henoch 82.html">82
+<OPTION VALUE="Henoch/Henoch 83.html">83
+<OPTION VALUE="Henoch/Henoch 84.html">84
+<OPTION VALUE="Henoch/Henoch 85.html">85
+<OPTION VALUE="Henoch/Henoch 86.html">86
+<OPTION VALUE="Henoch/Henoch 87.html">87
+<OPTION VALUE="Henoch/Henoch 88.html">88
+<OPTION VALUE="Henoch/Henoch 89.html">89
+<OPTION VALUE="Henoch/Henoch 90.html">90
+<OPTION VALUE="Henoch/Henoch 91.html">91
+<OPTION VALUE="Henoch/Henoch 92.html">92
+<OPTION VALUE="Henoch/Henoch 93.html">93
+<OPTION VALUE="Henoch/Henoch 94.html">94
+<OPTION VALUE="Henoch/Henoch 95.html">95
+<OPTION VALUE="Henoch/Henoch 96.html">96
+<OPTION VALUE="Henoch/Henoch 97.html">97
+<OPTION VALUE="Henoch/Henoch 98.html">98
+<OPTION VALUE="Henoch/Henoch 99.html">99
+<OPTION VALUE="Henoch/Henoch 100.html">100
+<OPTION VALUE="Henoch/Henoch 101.html">101
+<OPTION VALUE="Henoch/Henoch 102.html">102
+<OPTION VALUE="Henoch/Henoch 103.html">103
+<OPTION VALUE="Henoch/Henoch 104.html">104
+<OPTION VALUE="Henoch/Henoch 105.html">105
+<OPTION VALUE="Henoch/Henoch 106.html">106
+<OPTION VALUE="Henoch/Henoch 107.html">107
+<OPTION VALUE="Henoch/Henoch 108.html">108
+
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+</FORM><p></p>
+
+<a href="Henoch/InformationFlem.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Enoch (ed. Flemming)" border="0" align="right"></a>
+
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Enoch (ed. Flemming)     ">
+<span class="geezgrey">&#4632;&#4925;&#4624;&#4936; &#4961; &#4612;&#4758;&#4781; &#4962; </span>
+<span class="latingrey">Henoch </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Henoch/Henochp 1.html">1
+<OPTION VALUE="Henoch/Henochp 2.html">2
+<OPTION VALUE="Henoch/Henochp 2.html">3
+<OPTION VALUE="Henoch/Henochp 3.html">4
+<OPTION VALUE="Henoch/Henochp 3.html">5
+<OPTION VALUE="Henoch/Henochp 5.html">6
+<OPTION VALUE="Henoch/Henochp 6.html">7
+<OPTION VALUE="Henoch/Henochp 7.html">8
+<OPTION VALUE="Henoch/Henochp 8.html">9
+<OPTION VALUE="Henoch/Henochp 10.html">10
+<OPTION VALUE="Henoch/Henochp 13.html">11
+<OPTION VALUE="Henoch/Henochp 13.html">12
+<OPTION VALUE="Henoch/Henochp 14.html">13
+<OPTION VALUE="Henoch/Henochp 15.html">14
+<OPTION VALUE="Henoch/Henochp 19.html">15
+<OPTION VALUE="Henoch/Henochp 21.html">16
+<OPTION VALUE="Henoch/Henochp 22.html">17
+<OPTION VALUE="Henoch/Henochp 22.html">18
+<OPTION VALUE="Henoch/Henochp 24.html">19
+<OPTION VALUE="Henoch/Henochp 25.html">20
+<OPTION VALUE="Henoch/Henochp 26.html">21
+<OPTION VALUE="Henoch/Henochp 27.html">22
+<OPTION VALUE="Henoch/Henochp 30.html">23
+<OPTION VALUE="Henoch/Henochp 30.html">24
+<OPTION VALUE="Henoch/Henochp 31.html">25
+<OPTION VALUE="Henoch/Henochp 32.html">26
+<OPTION VALUE="Henoch/Henochp 33.html">27
+<OPTION VALUE="Henoch/Henochp 34.html">28
+<OPTION VALUE="Henoch/Henochp 34.html">29
+<OPTION VALUE="Henoch/Henochp 35.html">30
+<OPTION VALUE="Henoch/Henochp 35.html">31
+<OPTION VALUE="Henoch/Henochp 36.html">32
+<OPTION VALUE="Henoch/Henochp 37.html">33
+<OPTION VALUE="Henoch/Henochp 38.html">34
+<OPTION VALUE="Henoch/Henochp 38.html">35
+<OPTION VALUE="Henoch/Henochp 38.html">36
+<OPTION VALUE="Henoch/Henochp 39.html">37
+<OPTION VALUE="Henoch/Henochp 40.html">38
+<OPTION VALUE="Henoch/Henochp 41.html">39
+<OPTION VALUE="Henoch/Henochp 43.html">40
+<OPTION VALUE="Henoch/Henochp 45.html">41
+<OPTION VALUE="Henoch/Henochp 46.html">42
+<OPTION VALUE="Henoch/Henochp 47.html">43
+<OPTION VALUE="Henoch/Henochp 47.html">44
+<OPTION VALUE="Henoch/Henochp 48.html">45
+<OPTION VALUE="Henoch/Henochp 48.html">46
+<OPTION VALUE="Henoch/Henochp 50.html">47
+<OPTION VALUE="Henoch/Henochp 51.html">48
+<OPTION VALUE="Henoch/Henochp 53.html">49
+<OPTION VALUE="Henoch/Henochp 53.html">50
+<OPTION VALUE="Henoch/Henochp 54.html">51
+<OPTION VALUE="Henoch/Henochp 55.html">52
+<OPTION VALUE="Henoch/Henochp 56.html">53
+<OPTION VALUE="Henoch/Henochp 57.html">54
+<OPTION VALUE="Henoch/Henochp 59.html">55
+<OPTION VALUE="Henoch/Henochp 59.html">56
+<OPTION VALUE="Henoch/Henochp 61.html">57
+<OPTION VALUE="Henoch/Henochp 62.html">58
+<OPTION VALUE="Henoch/Henochp 62.html">59
+<OPTION VALUE="Henoch/Henochp 63.html">60
+<OPTION VALUE="Henoch/Henochp 68.html">61
+<OPTION VALUE="Henoch/Henochp 71.html">62
+<OPTION VALUE="Henoch/Henochp 74.html">63
+<OPTION VALUE="Henoch/Henochp 76.html">64
+<OPTION VALUE="Henoch/Henochp 76.html">65
+<OPTION VALUE="Henoch/Henochp 78.html">66
+<OPTION VALUE="Henoch/Henochp 78.html">67
+<OPTION VALUE="Henoch/Henochp 80.html">68
+<OPTION VALUE="Henoch/Henochp 81.html">69
+<OPTION VALUE="Henoch/Henochp 86.html">70
+<OPTION VALUE="Henoch/Henochp 87.html">71
+<OPTION VALUE="Henoch/Henochp 89.html">72
+<OPTION VALUE="Henoch/Henochp 95.html">73
+<OPTION VALUE="Henoch/Henochp 96.html">74
+<OPTION VALUE="Henoch/Henochp 99.html">75
+<OPTION VALUE="Henoch/Henochp 101.html">76
+<OPTION VALUE="Henoch/Henochp 103.html">77
+<OPTION VALUE="Henoch/Henochp 104.html">78
+<OPTION VALUE="Henoch/Henochp 107.html">79
+<OPTION VALUE="Henoch/Henochp 108.html">80
+<OPTION VALUE="Henoch/Henochp 109.html">81
+<OPTION VALUE="Henoch/Henochp 110.html">82
+<OPTION VALUE="Henoch/Henochp 115.html">83
+<OPTION VALUE="Henoch/Henochp 116.html">84
+<OPTION VALUE="Henoch/Henochp 118.html">85
+<OPTION VALUE="Henoch/Henochp 119.html">86
+<OPTION VALUE="Henoch/Henochp 120.html">87
+<OPTION VALUE="Henoch/Henochp 121.html">88
+<OPTION VALUE="Henoch/Henochp 121.html">89
+<OPTION VALUE="Henoch/Henochp 134.html">90
+<OPTION VALUE="Henoch/Henochp 141.html">91
+<OPTION VALUE="Henoch/Henochp 144.html">92
+<OPTION VALUE="Henoch/Henochp 144.html">93
+<OPTION VALUE="Henoch/Henochp 147.html">94
+<OPTION VALUE="Henoch/Henochp 148.html">95
+<OPTION VALUE="Henoch/Henochp 149.html">96
+<OPTION VALUE="Henoch/Henochp 150.html">97
+<OPTION VALUE="Henoch/Henochp 151.html">98
+<OPTION VALUE="Henoch/Henochp 153.html">99
+<OPTION VALUE="Henoch/Henochp 156.html">100
+<OPTION VALUE="Henoch/Henochp 159.html">101
+<OPTION VALUE="Henoch/Henochp 159.html">102
+<OPTION VALUE="Henoch/Henochp 160.html">103
+<OPTION VALUE="Henoch/Henochp 163.html">104
+<OPTION VALUE="Henoch/Henochp 165.html">105
+<OPTION VALUE="Henoch/Henochp 166.html">106
+<OPTION VALUE="Henoch/Henochp 169.html">107
+<OPTION VALUE="Henoch/Henochp 169.html">108
+
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editorgrey">Ed. Flemming</span>
+</FORM><p></p>
+<a href="Henoch/InformationCharles.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Enoch (ed. Charles)" border="0" align="right"></a>
+
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Enoch (ed. Charles)     ">
+<span class="geezgrey">&#4632;&#4925;&#4624;&#4936; &#4961; &#4612;&#4758;&#4781; &#4962; </span>
+<span class="latingrey">Henoch </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="Henoch/Henochchp 2.html">1
+<OPTION VALUE="Henoch/Henochchp 6.html">2
+<OPTION VALUE="Henoch/Henochchp 7.html">3
+<OPTION VALUE="Henoch/Henochchp 8.html">4
+<OPTION VALUE="Henoch/Henochchp 8.html">5
+<OPTION VALUE="Henoch/Henochchp 12.html">6
+<OPTION VALUE="Henoch/Henochchp 14.html">7
+<OPTION VALUE="Henoch/Henochchp 16.html">8
+<OPTION VALUE="Henoch/Henochchp 18.html">9
+<OPTION VALUE="Henoch/Henochchp 24.html">10
+<OPTION VALUE="Henoch/Henochchp 30.html">11
+<OPTION VALUE="Henoch/Henochchp 30.html">12
+<OPTION VALUE="Henoch/Henochchp 32.html">13
+<OPTION VALUE="Henoch/Henochchp 34.html">14
+<OPTION VALUE="Henoch/Henochchp 40.html">15
+<OPTION VALUE="Henoch/Henochchp 44.html">16
+<OPTION VALUE="Henoch/Henochchp 46.html">17
+<OPTION VALUE="Henoch/Henochchp 48.html">18
+<OPTION VALUE="Henoch/Henochchp 50.html">19
+<OPTION VALUE="Henoch/Henochchp 52.html">20
+<OPTION VALUE="Henoch/Henochchp 53.html">21
+<OPTION VALUE="Henoch/Henochchp 56.html">22
+<OPTION VALUE="Henoch/Henochchp 60.html">23
+<OPTION VALUE="Henoch/Henochchp 60.html">24
+<OPTION VALUE="Henoch/Henochchp 62.html">25
+<OPTION VALUE="Henoch/Henochchp 64.html">26
+<OPTION VALUE="Henoch/Henochchp 66.html">27
+<OPTION VALUE="Henoch/Henochchp 66.html">28
+<OPTION VALUE="Henoch/Henochchp 68.html">29
+<OPTION VALUE="Henoch/Henochchp 70.html">30
+<OPTION VALUE="Henoch/Henochchp 70.html">31
+<OPTION VALUE="Henoch/Henochchp 70.html">32
+<OPTION VALUE="Henoch/Henochchp 74.html">33
+<OPTION VALUE="Henoch/Henochchp 74.html">34
+<OPTION VALUE="Henoch/Henochchp 76.html">35
+<OPTION VALUE="Henoch/Henochchp 76.html">36
+<OPTION VALUE="Henoch/Henochchp 76.html">37
+<OPTION VALUE="Henoch/Henochchp 77.html">38
+<OPTION VALUE="Henoch/Henochchp 78.html">39
+<OPTION VALUE="Henoch/Henochchp 80.html">40
+<OPTION VALUE="Henoch/Henochchp 81.html">41
+<OPTION VALUE="Henoch/Henochchp 83.html">42
+<OPTION VALUE="Henoch/Henochchp 84.html">43
+<OPTION VALUE="Henoch/Henochchp 84.html">44
+<OPTION VALUE="Henoch/Henochchp 85.html">45
+<OPTION VALUE="Henoch/Henochchp 86.html">46
+<OPTION VALUE="Henoch/Henochchp 88.html">47
+<OPTION VALUE="Henoch/Henochchp 90.html">48
+<OPTION VALUE="Henoch/Henochchp 92.html">49
+<OPTION VALUE="Henoch/Henochchp 92.html">50
+<OPTION VALUE="Henoch/Henochchp 93.html">51
+<OPTION VALUE="Henoch/Henochchp 94.html">52
+<OPTION VALUE="Henoch/Henochchp 96.html">53
+<OPTION VALUE="Henoch/Henochchp 97.html">54
+<OPTION VALUE="Henoch/Henochchp 99.html">55
+<OPTION VALUE="Henoch/Henochchp 100.html">56
+<OPTION VALUE="Henoch/Henochchp 102.html">57
+<OPTION VALUE="Henoch/Henochchp 103.html">58
+<OPTION VALUE="Henoch/Henochchp 103.html">59
+<OPTION VALUE="Henoch/Henochchp 104.html">60
+<OPTION VALUE="Henoch/Henochchp 108.html">61
+<OPTION VALUE="Henoch/Henochchp 112.html">62
+<OPTION VALUE="Henoch/Henochchp 114.html">63
+<OPTION VALUE="Henoch/Henochchp 117.html">64
+<OPTION VALUE="Henoch/Henochchp 117.html">65
+<OPTION VALUE="Henoch/Henochchp 118.html">66
+<OPTION VALUE="Henoch/Henochchp 119.html">67
+<OPTION VALUE="Henoch/Henochchp 121.html">68
+<OPTION VALUE="Henoch/Henochchp 122.html">69
+<OPTION VALUE="Henoch/Henochchp 127.html">70
+<OPTION VALUE="Henoch/Henochchp 128.html">71
+<OPTION VALUE="Henoch/Henochchp 131.html">72
+<OPTION VALUE="Henoch/Henochchp 137.html">73
+<OPTION VALUE="Henoch/Henochchp 139.html">74
+<OPTION VALUE="Henoch/Henochchp 142.html">75
+<OPTION VALUE="Henoch/Henochchp 144.html">76
+<OPTION VALUE="Henoch/Henochchp 146.html">77
+<OPTION VALUE="Henoch/Henochchp 148.html">78
+<OPTION VALUE="Henoch/Henochchp 151.html">79
+<OPTION VALUE="Henoch/Henochchp 152.html">80
+<OPTION VALUE="Henoch/Henochchp 153.html">81
+<OPTION VALUE="Henoch/Henochchp 155.html">82
+<OPTION VALUE="Henoch/Henochchp 159.html">83
+<OPTION VALUE="Henoch/Henochchp 161.html">84
+<OPTION VALUE="Henoch/Henochchp 163.html">85
+<OPTION VALUE="Henoch/Henochchp 164.html">86
+<OPTION VALUE="Henoch/Henochchp 166.html">87
+<OPTION VALUE="Henoch/Henochchp 166.html">88
+<OPTION VALUE="Henoch/Henochchp 167.html">89
+<OPTION VALUE="Henoch/Henochchp 181.html">90
+<OPTION VALUE="Henoch/Henochchp 189.html">91
+<OPTION VALUE="Henoch/Henochchp 193.html">92
+<OPTION VALUE="Henoch/Henochchp 194.html">93
+<OPTION VALUE="Henoch/Henochchp 197.html">94
+<OPTION VALUE="Henoch/Henochchp 199.html">95
+<OPTION VALUE="Henoch/Henochchp 200.html">96
+<OPTION VALUE="Henoch/Henochchp 201.html">97
+<OPTION VALUE="Henoch/Henochchp 203.html">98
+<OPTION VALUE="Henoch/Henochchp 205.html">99
+<OPTION VALUE="Henoch/Henochchp 208.html">100
+<OPTION VALUE="Henoch/Henochchp 210.html">101
+<OPTION VALUE="Henoch/Henochchp 212.html">102
+<OPTION VALUE="Henoch/Henochchp 213.html">103
+<OPTION VALUE="Henoch/Henochchp 216.html">104
+<OPTION VALUE="Henoch/Henochchp 219.html">105
+<OPTION VALUE="Henoch/Henochchp 219.html">106
+<OPTION VALUE="Henoch/Henochchp 222.html">107
+<OPTION VALUE="Henoch/Henochchp 223.html">108
+
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editorgrey">Ed. Charles</span>
+</FORM><p></p>
+<a href="AscJes/Information.html" target="new">
+<img width="30" height="30" src="Information.png" alt="" title="Information: Ascension of Isaiah" border="0" align="right"></a>
+
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return top.dropdown(this.gourl)" title="Ascension of Isaiah            ">
+<span class="geezgrey">&#4816;&#4653;&#4872;&#4720; &#4961; &#4770;&#4659;&#4845;&#4843;&#4661; &#4962; </span>
+<span class="latingrey">Ascensio Isaiae </span>
+<SELECT NAME="gourl">
+<OPTION VALUE="AscJes/AscJesp 1.html">1
+<OPTION VALUE="AscJes/AscJesp 2.html">2
+<OPTION VALUE="AscJes/AscJesp 6.html">3
+<OPTION VALUE="AscJes/AscJesp 13.html">4
+<OPTION VALUE="AscJes/AscJesp 15.html">5
+<OPTION VALUE="AscJes/AscJesp 16.html">6
+<OPTION VALUE="AscJes/AscJesp 20.html">7
+<OPTION VALUE="AscJes/AscJesp 31.html">8
+<OPTION VALUE="AscJes/AscJesp 36.html">9
+<OPTION VALUE="AscJes/AscJesp 45.html">10
+<OPTION VALUE="AscJes/AscJesp 51.html">11
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="> > >">
+<span class="editorgrey">Ed. Charles</span>
+</FORM><p></p>
+<br>
+
+</div>
+</body>
+</html> 

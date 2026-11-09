@@ -1,0 +1,19 @@
+# Mark TEI source snapshot and structural audit
+
+## Provenance and rights
+
+- Work record: [Beta maṣāḥǝft LIT2711Mark](https://betamasaheft.awhamburg.de/works/LIT2711Mark/main).
+- Captured endpoint: [Beta maṣāḥǝft raw TEI API](https://betamasaheft.eu/api/LIT2711Mark/tei), retrieved 2026-10-25.
+- Local snapshot: `LIT2711Mark-original.xml` (345,126 bytes; SHA-256 `1c3682594d26bcedc425431913575a446d0cd508c78457abffae74bf7c2bfced`).
+- The TEI file states CC BY-SA 4.0. Attribute Beta maṣāḥǝft and its named contributors, identify this source snapshot and any changes, and share adaptations under CC BY-SA 4.0. See the [University of Hamburg data-license note](https://www.fdm.uni-hamburg.de/en/uhh-data-notes/data-notes/issue-2020/dano-01-001.html). The Beta maṣāḥǝft website footer has a separate site-level license; it is not substituted for the file-level license.
+- The TEI says the text was digitized from modern Vulgata printed editions and converted to XML by the Beta maṣāḥǝft team. The work record credits the project contributors and a 2025 text addition. The exact printed exemplar and its date are not identified.
+
+## What the local audit establishes
+
+Run `python audit_mark_tei.py` to regenerate `structure-audit.json`. The audit pins the snapshot hash and confirms the TEI work ID and explicit file-level license. It records the chapter labels in their observed order, and reports numbered `<l>` labels, nondecimal labels, duplicates, numeric gaps within the observed range, and whether the observed numeric run is contiguous. It does not require a conventional sequence or manufacture missing labels. This snapshot has 16 chapter divisions labeled 1–16, 765 line elements, 678 numbered and 87 unnumbered. Chapter 9 has numbered labels 1–48 in this snapshot. These are measured source counts, not a completeness claim.
+
+The 87 unnumbered elements remain in the original TEI and are counted in the report, but their editorial function has not been determined. The captured XML root has `xml:lang="en"`, while the enclosing `<div type="edition">` explicitly has `xml:lang="gez"`. This edition division contains all 16 chapter divisions and all 765 line elements; no language overrides occur inside those line elements. The TEI P5 Guidelines specify that `xml:lang` is inherited from enclosing elements, so `gez` applies to the text lines. The root's English value is retained as a document-default conflict, not used to override the edition-level declaration.
+
+## Limits and reader status
+
+This is a deterministic structure check, not a collation against print or manuscript witnesses. It does not establish textual accuracy, completeness against the physical edition, verse equivalence, current EOTC edition identity, or canon crosswalk. The work's manuscript-attestation counts are catalogue relations, not evidence of collation. A separately generated display reader at `readers/mark-research-tei.json` preserves all 765 line elements in source order, including the 87 without `n` labels. It gives each line an archive navigation index while retaining the original source label separately; it does not invent source verse labels. Inline TEI markup is flattened and whitespace is normalized in the display extraction, and the unchanged source XML remains available alongside it. The reader labels the text Geʽez (`gez`) based on the explicit language attribute on its enclosing edition division and the TEI inheritance rule; it also records the root's English default so readers can inspect the discrepancy. This language identification does not establish accuracy or completeness. The research reader has no canon ID, is not claimed as a verified EOTC Mark edition, and does not raise the 81-entry canon reader count. Its accuracy, physical-edition completeness, exact exemplar, and edition relationship remain unknown.

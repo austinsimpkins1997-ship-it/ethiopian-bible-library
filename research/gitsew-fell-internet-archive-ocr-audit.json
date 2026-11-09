@@ -1,0 +1,16 @@
+{
+  "record_id": "gitsew-fell-internet-archive-ocr-audit",
+  "source_id": "SRC-029",
+  "source_path": "readers/source/gitsew/Canones-Apostolorum-Aethiopice-Fell-1871.pdf",
+  "ocr_url": "https://archive.org/download/canonesapostolor00unse/canonesapostolor00unse_djvu.txt",
+  "ocr_service": "Internet Archive DjVu text derivative for item canonesapostolor00unse",
+  "checked_date": "2026-10-27",
+  "downloaded_bytes": 80982,
+  "downloaded_sha256": "4cde5ca66251e67dcf2be29135097f305c6050e1330ed31c5d07cdfe879f33c9",
+  "observed_characters": 78933,
+  "ethiopic_unicode_codepoints": 0,
+  "canon_xx_sample": "The OCR labels an apparatus block 'Can. XX.' but renders its Ethiopic word content as unrelated Latin-looking glyph sequences and replacement characters.",
+  "status": "rejected_as_geez_transcription",
+  "decision": "Not bundled or used to transcribe or translate the Ethiopic passage. The Latin transcription continues to be checked visually against the PDF scan; the Geʽez wording remains uncollated.",
+  "limitation": "The OCR output is a derivative of the same Internet Archive digitization, not an independent textual witness. Zero Ethiopic Unicode code points in the returned OCR are direct evidence that it is not a usable Unicode Geʽez transcription."
+}

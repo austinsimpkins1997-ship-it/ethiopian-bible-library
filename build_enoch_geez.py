@@ -19,6 +19,7 @@ PARENT_SHA256 = "61dd5b372894e54c10f661740d0dd3fbfbfaeef4c99c55690eed4b4aae03f6d
 
 
 def main() -> None:
+    raise RuntimeError("Publication blocked: 1 Enoch scripture text is withheld pending Beta maṣāḥǝft rights clarification.")
     raw = SOURCE.read_bytes()
     root = ET.fromstring(raw)
     editions = root.findall('.//tei:div[@type="edition"]', NS)
@@ -62,6 +63,7 @@ def main() -> None:
 
     OUTPUT.write_text(json.dumps({
         "reader_id": "enoch-geez-eotc",
+        "text_origin": "source_transcription",
         "canon_id": "eotc-ot-14",
         "title": "1 Enoch — Geʽez EOTC printed-edition transcription",
         "language": "Geʽez (Classical Ethiopic)",
@@ -76,8 +78,12 @@ def main() -> None:
         "parent_source_sha256": PARENT_SHA256,
         "source_path": "readers/source/enoch/LIT1340EnochE-EOTCed.xml",
         "chapter_count": len(chapters),
+        "unit_count": total_lines,
         "verse_marker_count": total_lines,
         "verification_status": "Parsed offline from the locally stored EOTCed-only TEI extract. Structural checks confirm chapters 1–108 in order, 1,058 nonempty labeled lines, increasing source markers within each chapter, and the documented chapter 21 starting marker 2. The 1,058 count matches Source Text’s displayed count, but its hosted text was not compared line by line. No independent printed-page or manuscript collation was performed, and the exact print exemplar is not identified.",
+        "rights_classification": "open_license",
+        "license_id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "copyright_notice": "CC BY-SA 4.0 as stated in the Beta maṣāḥǝft TEI file and the Source Text edition record. Attribute Beta maṣāḥǝft and identify this as an EOTCed-only extract; adaptations must be shared under the same license and changes indicated. The separate Edition 1 noncommercial/no-sale notice does not apply to this extract, which contains no Edition 1 text.",
         "commercial_use": "Permitted under CC BY-SA 4.0 with attribution and ShareAlike terms for the selected EOTCed text; this does not grant rights to other editions or source-site presentation.",
         "chapters": chapters,

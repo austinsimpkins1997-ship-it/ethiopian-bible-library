@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/schemas/didascalia-heading-audit.schema.json",
+  "title": "Harden 1920 Didascalia chapter heading audit",
+  "description": "A bounded, edition-specific visual collation of OCR-detected chapter headings; this schema does not imply text completeness or Church-list identity.",
+  "type": "object",
+  "required": ["schema_version", "record_id", "title", "source_ids", "ocr_xml_path", "ocr_xml_sha256", "scan_item_url", "scan_pdf_page_count_reported", "chapter_heading_count", "visually_collated_heading_count", "visually_collated_scan_pdf_pages", "ocr_correction_count", "entries", "scope_note", "body_text_proofread", "scan_completeness_reviewed", "church_list_identity_verified"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "record_id": { "const": "didascalia-harden1920-chapter-heading-audit" },
+    "title": { "type": "string", "minLength": 1 },
+    "source_ids": { "type": "array", "items": { "type": "string", "pattern": "^SRC-[0-9]+$" }, "minItems": 2 },
+    "ocr_xml_path": { "type": "string", "const": "readers/source/didascalia-harden1920/djvu.xml" },
+    "ocr_xml_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "scan_item_url": { "type": "string", "format": "uri" },
+    "scan_pdf_page_count_reported": { "type": "integer", "minimum": 1 },
+    "chapter_heading_count": { "const": 43 },
+    "visually_collated_heading_count": { "const": 43 },
+    "visually_collated_scan_pdf_pages": { "type": "array", "items": { "type": "integer", "minimum": 1 }, "minItems": 1, "uniqueItems": true },
+    "ocr_correction_count": { "const": 2 },
+    "entries": {
+      "type": "array",
+      "minItems": 43,
+      "maxItems": 43,
+      "items": {
+        "type": "object",
+        "required": ["chapter_number", "visually_confirmed_label", "scan_pdf_page", "ocr_label", "ocr_matches_scan", "correction_note"],
+        "properties": {
+          "chapter_number": { "type": "integer", "minimum": 1, "maximum": 43 },
+          "visually_confirmed_label": { "type": "string", "pattern": "^[IVXLCDM]+$" },
+          "scan_pdf_page": { "type": "integer", "minimum": 1 },
+          "ocr_label": { "type": "string", "pattern": "^[IVXLCDMivxlcdm]+$" },
+          "ocr_matches_scan": { "type": "boolean" },
+          "correction_note": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "scope_note": { "type": "string", "minLength": 1 },
+    "body_text_proofread": { "const": false },
+    "scan_completeness_reviewed": { "const": false },
+    "church_list_identity_verified": { "const": false }
+  },
+  "additionalProperties": false
+}

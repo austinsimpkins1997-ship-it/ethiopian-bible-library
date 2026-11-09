@@ -1,0 +1,60 @@
+{
+  "title": "Internet Archive Tesseract OCR files for J. M. Harden, The Ethiopic Didascalia (1920)",
+  "provider": "Internet Archive; scanned from Cornell University Library copy",
+  "item_identifier": "cu31924096083336",
+  "item_url": "https://archive.org/details/cu31924096083336",
+  "metadata_api_url": "https://archive.org/metadata/cu31924096083336",
+  "retrieved_on": "2026-10-26",
+  "edition": {
+    "title": "The Ethiopic Didascalia",
+    "creator_as_catalogued": "Harden, J. M. (John Mason), 1871-1931",
+    "publication_year": "1920",
+    "publisher": "Society for Promoting Christian Knowledge; Macmillan",
+    "catalogued_language": "English",
+    "reported_image_count": 238
+  },
+  "provider_checksums_verified": {
+    "metadata_source": "Internet Archive metadata API",
+    "fields": [
+      "md5",
+      "sha1"
+    ]
+  },
+  "rights_classification": "public_domain_claimed",
+  "rights_scope": "The scan front matter says there are no known copyright restrictions in the United States; this is not an explicit open license or a worldwide legal determination.",
+  "ocr_description": "Raw Tesseract OCR text and XML from the Internet Archive derivative; not proofread or corrected, and not a verified reader transcription.",
+  "observed_limits": {
+    "xml_page_object_count": 238,
+    "unicode_geez_codepoints": 0,
+    "complete_text_audit": false,
+    "chapter_boundary_audit": false
+  },
+  "capture_method": "The IA metadata JSON and source OCR derivatives are preserved locally; file MD5 and SHA-1 values match the provider metadata, and local SHA-256 values and byte lengths are recorded.",
+  "not_claimed": [
+    "accuracy of OCR",
+    "complete chapter-boundary audit",
+    "translation accuracy",
+    "exact identity with the EOTC Church-list Didascalia",
+    "worldwide rights clearance"
+  ],
+  "files": [
+    {
+      "path": "djvu.txt",
+      "byte_length": 451998,
+      "md5": "9109a38ead1a0a9ca096a8f6a9cad897",
+      "sha1": "ea770a3f2a4f3351054e5abbe1c1e79988d51777",
+      "sha256": "b1c8e1fe5a2072457bcef927e0ab3442efd499e8bceb79a9bfce1f89fe947e25",
+      "provider_md5": "9109a38ead1a0a9ca096a8f6a9cad897",
+      "provider_sha1": "ea770a3f2a4f3351054e5abbe1c1e79988d51777"
+    },
+    {
+      "path": "djvu.xml",
+      "byte_length": 6434264,
+      "md5": "57964e65f5989384d24101f392c629be",
+      "sha1": "e97e707b3051a7caf7f52cce06651fa4ba08ca01",
+      "sha256": "b4719ac4df5afd96db16c3fae298179a290d630f3ad63fee7eb3f6cfd1a13008",
+      "provider_md5": "57964e65f5989384d24101f392c629be",
+      "provider_sha1": "e97e707b3051a7caf7f52cce06651fa4ba08ca01"
+    }
+  ]
+}

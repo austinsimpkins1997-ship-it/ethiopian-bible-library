@@ -1,0 +1,608 @@
+{
+  "source_id": "SRC-391",
+  "source_url": "https://ebible.org/Scriptures/som_usfm.zip",
+  "retrieved_at": "2026-10-26",
+  "source_archive_sha256": "9ac3b1e08d708cd2e98d4095dc74031839f183bbc149ecf0f9b200b36ff606d1",
+  "method": "For each of 66 retained USFM members, compare ordered source \\v labels and verse text against the corresponding reader JSON. Remove USFM format controls and separately delimited footnote/cross-reference/figure markup; normalize whitespace only. Keep punctuation, spelling, and word sequence exact.",
+  "scope_limitations": "This audit covers text on labeled source verse lines only. Notes, headings, front matter, paragraph continuations, chapter boundaries, printed completeness, translation accuracy, and human review are not established by this comparison. The original USFM is retained for inspection.",
+  "book_count": 66,
+  "source_verse_line_count": 31103,
+  "matched_reader_verse_count": 31103,
+  "mismatch_count": 0,
+  "books": [
+    {
+      "usfm_id": "GEN",
+      "path": "02-GENsom.usfm",
+      "source_verse_lines": 1533,
+      "matched_reader_verses": 1533,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "b369d294e838e46c27cf3592681be784b4d71ad9cfef72a38d6057a28032abaa",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "EXO",
+      "path": "03-EXOsom.usfm",
+      "source_verse_lines": 1213,
+      "matched_reader_verses": 1213,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "47846f82bf0d66ee8eb15f392a7af6e4ad87d2907c6f9aead25672eef86fd91b",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "LEV",
+      "path": "04-LEVsom.usfm",
+      "source_verse_lines": 859,
+      "matched_reader_verses": 859,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "d6b6d10b8a2714422ba4f12e14c698465e071e570fd7a2dd1f0ef9f88b4d3947",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "NUM",
+      "path": "05-NUMsom.usfm",
+      "source_verse_lines": 1288,
+      "matched_reader_verses": 1288,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "60f2e326d9f93503714d6259185352d6e424b3806ecf6b9d3208d890ce637fbb",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "DEU",
+      "path": "06-DEUsom.usfm",
+      "source_verse_lines": 959,
+      "matched_reader_verses": 959,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "5f0f660afef015992bdf0d3ea6203abecc2bf5cec5b5fe4219c263612a5303a5",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "JOS",
+      "path": "07-JOSsom.usfm",
+      "source_verse_lines": 658,
+      "matched_reader_verses": 658,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "818bcb193e3553f0dea5bb02c5c90141ead94191465c648033f81b1405122d9a",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "JDG",
+      "path": "08-JDGsom.usfm",
+      "source_verse_lines": 618,
+      "matched_reader_verses": 618,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "80bdad25745aebbbfed365b37e74ccd9ca7b499046da072c50d6c18959c6b381",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "RUT",
+      "path": "09-RUTsom.usfm",
+      "source_verse_lines": 85,
+      "matched_reader_verses": 85,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "93e11ddb243161bbc6cab8dc5cdfb667ca8880703b06f92bfa418d605c20a4b8",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "1SA",
+      "path": "10-1SAsom.usfm",
+      "source_verse_lines": 810,
+      "matched_reader_verses": 810,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "a887b981f7dc4d1eb356e96841045c08681a804111ce066655313f14924a6dd9",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "2SA",
+      "path": "11-2SAsom.usfm",
+      "source_verse_lines": 695,
+      "matched_reader_verses": 695,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "f955e8d20c0ea73038778b7db310382d065ebe406b7f33f74e70233554e8ac0f",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "1KI",
+      "path": "12-1KIsom.usfm",
+      "source_verse_lines": 816,
+      "matched_reader_verses": 816,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "848ec7ac1e5d70e956e70eb077b34239b799ae806744c80d8dfdd19f75a10c79",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "2KI",
+      "path": "13-2KIsom.usfm",
+      "source_verse_lines": 719,
+      "matched_reader_verses": 719,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "d93e0c0e294f98a8b0928df467dd079f498a70496d9f0cfed1d4f9da00ad4718",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "1CH",
+      "path": "14-1CHsom.usfm",
+      "source_verse_lines": 942,
+      "matched_reader_verses": 942,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "bde5dd6fa9243d38cc2acf6bcd72babf8874daa913e2d763a34777bb5c7c77d3",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "2CH",
+      "path": "15-2CHsom.usfm",
+      "source_verse_lines": 822,
+      "matched_reader_verses": 822,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "acd22b0334bcd1047af5276b2de80529321bb596f0ca2a303d125fcef7964870",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "EZR",
+      "path": "16-EZRsom.usfm",
+      "source_verse_lines": 280,
+      "matched_reader_verses": 280,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "26cc9166fae05c407ed3309492b91f55dfebc7f47870fef7d505d8a123be1b6e",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "NEH",
+      "path": "17-NEHsom.usfm",
+      "source_verse_lines": 406,
+      "matched_reader_verses": 406,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "3ec8376024053feae450eb4777de2846ea655a7249fe3f19ae1def8dcdec36c7",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "EST",
+      "path": "18-ESTsom.usfm",
+      "source_verse_lines": 167,
+      "matched_reader_verses": 167,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "5315d88b630a2096baa6cc8e04c303442b0a7a1199a7e2500db433897a7d28d1",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "JOB",
+      "path": "19-JOBsom.usfm",
+      "source_verse_lines": 1070,
+      "matched_reader_verses": 1070,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "c2f9b3551a351fe04237e17dff9fc39c057e93dcb410efe43358c377ec37e062",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "PSA",
+      "path": "20-PSAsom.usfm",
+      "source_verse_lines": 2461,
+      "matched_reader_verses": 2461,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "4c4a7692a155e52267b25b55b318966adcd3e6319b7cb0791db44c7df5320fc9",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "PRO",
+      "path": "21-PROsom.usfm",
+      "source_verse_lines": 915,
+      "matched_reader_verses": 915,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "18523fc6cb9705615d451f26758ad8a0b61e4c080bac1374cbc41baf115a8c46",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "ECC",
+      "path": "22-ECCsom.usfm",
+      "source_verse_lines": 222,
+      "matched_reader_verses": 222,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "fdfde583d5f8fbd5a59227e25f9c2cb1f29042c705caed5a7bf409a14d17291f",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "SNG",
+      "path": "23-SNGsom.usfm",
+      "source_verse_lines": 117,
+      "matched_reader_verses": 117,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "51e7a58f4e8027faabc1239101e0121598dbd7eddca5b9e3af7936d093645f93",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "ISA",
+      "path": "24-ISAsom.usfm",
+      "source_verse_lines": 1292,
+      "matched_reader_verses": 1292,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "502a9ea217b7cfb5ab5c09c5b438196eb6d71fddc6a6d4b61b10dedfc3decdb8",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "JER",
+      "path": "25-JERsom.usfm",
+      "source_verse_lines": 1364,
+      "matched_reader_verses": 1364,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "78db40186450f88f6529698d36f37a75c2cc4c612568717459d43ad23582b981",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "LAM",
+      "path": "26-LAMsom.usfm",
+      "source_verse_lines": 154,
+      "matched_reader_verses": 154,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "468754716394302333edf7c4bb73b206bea59b3bee587edeaaf21b5afbfd1404",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "EZK",
+      "path": "27-EZKsom.usfm",
+      "source_verse_lines": 1273,
+      "matched_reader_verses": 1273,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "e7cc901c4d0e18a447aeec6445c9dc34225672a722ded37cfdb4a513cd23f84d",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "DAN",
+      "path": "28-DANsom.usfm",
+      "source_verse_lines": 357,
+      "matched_reader_verses": 357,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "5fdb7d4bafa6aee1b0b5a40832bb8ad0fc365ba8faf73c40e7aaff81d1b17fd9",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "HOS",
+      "path": "29-HOSsom.usfm",
+      "source_verse_lines": 197,
+      "matched_reader_verses": 197,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "50018ccefc20ba9179a49f896d129d7e172a28c415a8c71bc9563353a85a5096",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "JOL",
+      "path": "30-JOLsom.usfm",
+      "source_verse_lines": 73,
+      "matched_reader_verses": 73,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "350f7b107e20c5ca5d98e489f56782c5795f2561ec309912a04c2f2d15cedf68",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "AMO",
+      "path": "31-AMOsom.usfm",
+      "source_verse_lines": 146,
+      "matched_reader_verses": 146,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "5ba3692e5bc7a3baf1f39608537e16e19dd5f6bf2cac1bc3c88b293d5d02009d",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "OBA",
+      "path": "32-OBAsom.usfm",
+      "source_verse_lines": 21,
+      "matched_reader_verses": 21,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "368506975a15eed0edc79c70f2bcaa8185fc5d29495509938e53e06a45c64cdb",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "JON",
+      "path": "33-JONsom.usfm",
+      "source_verse_lines": 48,
+      "matched_reader_verses": 48,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "8d726491458bc700cf29c17e0d6143315554d048ed7bfd2b1b62a2eacb15ff97",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "MIC",
+      "path": "34-MICsom.usfm",
+      "source_verse_lines": 105,
+      "matched_reader_verses": 105,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "bdce423c182928d3facf51028809ef95bdccf11a56fb07e260af6906e94f7599",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "NAM",
+      "path": "35-NAMsom.usfm",
+      "source_verse_lines": 47,
+      "matched_reader_verses": 47,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "8f9832bb12b422bdd070392e954519f2834827b84bad75a3e7bfe7b98b620ceb",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "HAB",
+      "path": "36-HABsom.usfm",
+      "source_verse_lines": 56,
+      "matched_reader_verses": 56,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "71b3d947d939597d67a245cc9c689780fa2681ea5323a8847734e3e9e0ec35de",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "ZEP",
+      "path": "37-ZEPsom.usfm",
+      "source_verse_lines": 53,
+      "matched_reader_verses": 53,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "34f26390f80d46d90447d91687347aebdb48a092ea83157a488256169c4edc25",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "HAG",
+      "path": "38-HAGsom.usfm",
+      "source_verse_lines": 38,
+      "matched_reader_verses": 38,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "930adc22075c8d80932124ca352d2db1860bffc0d2497ec65e641c7b8badd9f3",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "ZEC",
+      "path": "39-ZECsom.usfm",
+      "source_verse_lines": 211,
+      "matched_reader_verses": 211,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "ce0779fa593e8c6b3644369f84288108d375b0a8faa18315f23d8dea623e0d29",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "MAL",
+      "path": "40-MALsom.usfm",
+      "source_verse_lines": 55,
+      "matched_reader_verses": 55,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "77a8b82c2c8e097f5ba708b92d3fa36e2434f3642e7596ee8e111371b29f37f9",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "MAT",
+      "path": "46-MATsom.usfm",
+      "source_verse_lines": 1071,
+      "matched_reader_verses": 1071,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "fb0390f845bf25d7a4e618b385218200671606ca042968d8a02b18fe0da9d0e4",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "MRK",
+      "path": "47-MRKsom.usfm",
+      "source_verse_lines": 678,
+      "matched_reader_verses": 678,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "1e15d7b1da9600085f7640e9c09cbb7d9bfe250e29a6dafce124de85498ddffe",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "LUK",
+      "path": "48-LUKsom.usfm",
+      "source_verse_lines": 1151,
+      "matched_reader_verses": 1151,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "e44107c73b1346ddfb256db10bd230ee02c784421b947109c36cb21c5f9fc89a",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "JHN",
+      "path": "49-JHNsom.usfm",
+      "source_verse_lines": 879,
+      "matched_reader_verses": 879,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "4d2cd97e8072b044c5f003668c1a55b0a96c2be47eb392b4b1ca82c2056f6e8d",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "ACT",
+      "path": "74-ACTsom.usfm",
+      "source_verse_lines": 1007,
+      "matched_reader_verses": 1007,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "52367f0dcbcdc16d4e23fbf24cc07d74dd631f11d35ae06711c3440e9828fa1a",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "ROM",
+      "path": "51-ROMsom.usfm",
+      "source_verse_lines": 433,
+      "matched_reader_verses": 433,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "86be67962a1ada825e3a9bd8491544c34bb8239531366d279f7b03808dcdf3b5",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "1CO",
+      "path": "52-1COsom.usfm",
+      "source_verse_lines": 437,
+      "matched_reader_verses": 437,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "3ab69fc38188c70cd874cbbc6228288b4616923de0d93ef27a215abea40ca2d8",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "2CO",
+      "path": "53-2COsom.usfm",
+      "source_verse_lines": 257,
+      "matched_reader_verses": 257,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "fc4c701702199c0418e933464ef6d1fb8246ec5676d13514929710f7f6431fd9",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "GAL",
+      "path": "54-GALsom.usfm",
+      "source_verse_lines": 149,
+      "matched_reader_verses": 149,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "846defbaca2eef4645fa67aaffb4abeaeaf6bf9c9549c4eed4537f2fde68ae9b",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "EPH",
+      "path": "55-EPHsom.usfm",
+      "source_verse_lines": 155,
+      "matched_reader_verses": 155,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "1222953005c2013f8b5b51b2c74adcc1ca1a42a3a3166b083f9d3d90e2e4bdc9",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "PHP",
+      "path": "56-PHPsom.usfm",
+      "source_verse_lines": 104,
+      "matched_reader_verses": 104,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "816cf2691d7dacec07f3dcbcca9e9473a1ccaf3ac4e2d7f3d10f5abfee95036e",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "COL",
+      "path": "57-COLsom.usfm",
+      "source_verse_lines": 95,
+      "matched_reader_verses": 95,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "2c27a9ec3bf9a9ffa58f9776922dc0170f787e8013ce0a3b033d4fe8338aa336",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "1TH",
+      "path": "58-1THsom.usfm",
+      "source_verse_lines": 89,
+      "matched_reader_verses": 89,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "7fd5fa999175a1c02bb36b89d1689d8ed4f62df24e959302a3bb341a0cefb60a",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "2TH",
+      "path": "59-2THsom.usfm",
+      "source_verse_lines": 47,
+      "matched_reader_verses": 47,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "157820c50d830d1dd736c7dbd3e8b51cd125f0212c315d483545955e78b1fc88",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "1TI",
+      "path": "60-1TIsom.usfm",
+      "source_verse_lines": 113,
+      "matched_reader_verses": 113,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "708445b4520907864fa97277f9422decc425f7191eeb88f012b76d344dfaaf50",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "2TI",
+      "path": "61-2TIsom.usfm",
+      "source_verse_lines": 83,
+      "matched_reader_verses": 83,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "d94c6ff86061974ecd84b1c3f634f147aae1aa0aa6d5a501386624bbd548f1ea",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "TIT",
+      "path": "62-TITsom.usfm",
+      "source_verse_lines": 46,
+      "matched_reader_verses": 46,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "04b2af784ec72969585830b81b2fd2988613f06e95c87d380824f58a5a651224",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "PHM",
+      "path": "63-PHMsom.usfm",
+      "source_verse_lines": 25,
+      "matched_reader_verses": 25,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "53adb03aecf271a69ff541bc97de5e3ddc968f04032e5014ee0f0028b0de9d63",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "HEB",
+      "path": "64-HEBsom.usfm",
+      "source_verse_lines": 303,
+      "matched_reader_verses": 303,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "83ab8f38a80d4fcfd51c3414b3ad0cb4aa3bd77b44e4d62faac568810bc3d704",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "JAS",
+      "path": "65-JASsom.usfm",
+      "source_verse_lines": 108,
+      "matched_reader_verses": 108,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "97c9adf30f03fd5c9de1c4de529667560e463f0f6240fdff1086dce0a8c87915",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "1PE",
+      "path": "90-1PEsom.usfm",
+      "source_verse_lines": 105,
+      "matched_reader_verses": 105,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "949b5437d28486a8d9615abe0cc697d764f2ca840f95dfbe9bc851adf4fc8d5c",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "2PE",
+      "path": "67-2PEsom.usfm",
+      "source_verse_lines": 61,
+      "matched_reader_verses": 61,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "2593cce57cd0f421c2435955c63f4501f21185954be81a5665bfb7e7ea90805f",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "1JN",
+      "path": "68-1JNsom.usfm",
+      "source_verse_lines": 105,
+      "matched_reader_verses": 105,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "547faf367792d5be1e4ee4fc0723d2f3aa3259d385fcbd0d11130a9ccee85905",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "2JN",
+      "path": "69-2JNsom.usfm",
+      "source_verse_lines": 13,
+      "matched_reader_verses": 13,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "85fb4444ab99c4a12624261c049894c27a6a8bee642914523d8b4f0ccd2eacc6",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "3JN",
+      "path": "94-3JNsom.usfm",
+      "source_verse_lines": 15,
+      "matched_reader_verses": 15,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "547352c2ab43878f7e6a9e5a753cd3172527c9c243c1f8982830ffda4d3034a4",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "JUD",
+      "path": "71-JUDsom.usfm",
+      "source_verse_lines": 25,
+      "matched_reader_verses": 25,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "11468930086d02ddad30c238ed473e09fde1b0648ca089aa97d38e32f8c0e89c",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    },
+    {
+      "usfm_id": "REV",
+      "path": "72-REVsom.usfm",
+      "source_verse_lines": 404,
+      "matched_reader_verses": 404,
+      "mismatches": 0,
+      "normalized_verse_body_sha256": "46d53f99fb1cb6f07d008b8caf8e6356d1d70a8977ed02f482f0c4001f992040",
+      "comparison": "Ordered source verse labels and text compared exactly after removing USFM formatting controls, note/figure markup, and normalizing whitespace. Wording and punctuation otherwise remain unchanged."
+    }
+  ]
+}

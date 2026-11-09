@@ -74,6 +74,7 @@ def main() -> None:
     chapters = [parse_chapter(chapter) for chapter in range(1, 51)]
     companion = {
         "translation_id": "genesis-english-brenton-lxx-1851",
+        "text_origin": "published_translation",
         "title": "English companion — Brenton Septuagint (1851)",
         "language": "English",
         "language_tag": "en",
@@ -83,9 +84,12 @@ def main() -> None:
         "translation_method": "Historical translation from Greek Septuagint; not directly from the bundled Geʽez transcription.",
         "edition": "The Septuagint Version of the Old Testament: According to the Vatican Text, Translated into English (1851).",
         "translation_basis": "Translated from Greek Septuagint, not directly from the bundled Geʽez transcription. It is supplied as an English companion witness, not a replacement, direct translation, or proof that every wording aligns with the Ethiopic text.",
+        "rights_classification": "public_domain_claimed",
         "text_notice": "The Brenton translation is public domain. This archive preserves its historical wording, spelling, verse labels (including lettered labels), and translator/editor notes. Its English is 19th-century and may not read like contemporary English.",
         "source_ids": ["SRC-037", "SRC-038"],
         "chapter_count": len(chapters),
+        "unit_count": sum(len(chapter["verses"]) for chapter in chapters),
+        "unit_label": "Printed English verse labels",
         "verse_label_count": sum(len(chapter["verses"]) for chapter in chapters),
         "verification_status": "Bundled from the complete 50 chapter pages identified as Brenton's 1851 English Septuagint at eBible.org. Chapter identity, ordered labels, nonempty verse text, notes, and source captures are checked locally. This is not an independent collation against Brenton's printed 1851 edition or a Geʽez-to-English translation.",
         "chapters": chapters,

@@ -1,0 +1,191 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/genesis-geez-dillmann-hacohen",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/genesis-eotc",
+  "labels": [
+    {
+      "value": "Genesis — Geʽez reader",
+      "language_tag": "en",
+      "label_type": "preferred"
+    },
+    {
+      "value": "ኦሪት ፡ ዘልደት ።",
+      "language_tag": "gez",
+      "label_type": "original_form"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-01",
+      "mapping_state": "reviewed_match",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-034",
+        "SRC-035",
+        "SRC-384"
+      ],
+      "notes": "Reviewed title/work-level crosswalk: the Church's numbered canon list names Genesis, and TAU's Ethiopic Bible index independently lists Genesis in Ethiopic and English under its Octateuch. This matches the named biblical work only; it does not establish that Dillmann's 1853–1855 edition is the current Church text, or verify the transcription's wording, textual completeness, or manuscript/edition identity. Standard USFM title-candidate research readers are catalogued for Genesis."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/genesis-dillmann-1853-1855",
+    "witness_type": "printed_edition",
+    "title": "August Dillmann (ed.), Veteris Testamenti Aethiopici Tomus Primus, sive Octateuchus Aethiopicus",
+    "date_statement": "1853–1855",
+    "repository_or_publisher": "Leipzig edition; digital transcription by Ran HaCohen",
+    "shelfmark_or_edition_id": null,
+    "editorial_policy": "Historical critical edition transcription; Dillmann's critical apparatus is not included in the digitized text.",
+    "source_ids": [
+      "SRC-034",
+      "SRC-035",
+      "SRC-036"
+    ]
+  },
+  "layer_type": "source_text_transcription",
+  "language_tag": "gez",
+  "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+  "script_code": "Ethi",
+  "basis_path": [
+    "gez"
+  ],
+  "agents": [
+    {
+      "role": "editor",
+      "name": "August Dillmann",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-034",
+        "SRC-035"
+      ]
+    },
+    {
+      "role": "digitizer",
+      "name": "Ran HaCohen",
+      "authority_or_affiliation": "University of Tel Aviv",
+      "source_ids": [
+        "SRC-036"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/genesis-geez.json",
+    "media_type": "application/json",
+    "sha256": "999299ad1b23acc474ecd29c8b2095646239a7cf63ed6bb705a4e5b1030947fb",
+    "format_version": "1"
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 1526,
+    "structure_description": "50 source chapters; linked verse markers follow the edition's Septuagint numbering.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "Printed round parentheses, square brackets, and paired asterisks are retained as signs described by the digitizer; the full critical apparatus is absent.",
+    "numbering_policy": "Preserve published labels, including discontinuities; no renumbering or cross-witness equivalence is implied."
+  },
+  "rights": {
+    "status": "permission_limited",
+    "statement": "Noncommercial copy and distribution only with the copyright notice and permission notice accompanying every copy; other uses require contacting the rights holder.",
+    "license_id": null,
+    "rights_holder": "Ran HaCohen",
+    "attribution_required": true,
+    "territory_or_term_limits": "Commercial rights are not granted by the cited notice.",
+    "evidence_source_ids": [
+      "SRC-036"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "Reviewed title/work-level crosswalk: the Church's numbered canon list names Genesis, and TAU's Ethiopic Bible index independently lists Genesis in Ethiopic and English under its Octateuch. This matches the named biblical work only; it does not establish that Dillmann's 1853–1855 edition is the current Church text, or verify the transcription's wording, textual completeness, or manuscript/edition identity. Standard USFM title-candidate research readers are catalogued for Genesis. Exact edition identity, textual accuracy, and completeness remain distinct questions.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Comparative inspection of the cited Church-list and source-work records.",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-034",
+        "SRC-035",
+        "SRC-077",
+        "SRC-078",
+        "SRC-168",
+        "SRC-169",
+        "SRC-178",
+        "SRC-196",
+        "SRC-329",
+        "SRC-330",
+        "SRC-335",
+        "SRC-340",
+        "SRC-363",
+        "SRC-364",
+        "SRC-365",
+        "SRC-384",
+        "SRC-387",
+        "SRC-388",
+        "SRC-389",
+        "SRC-390",
+        "SRC-391",
+        "SRC-392",
+        "SRC-393",
+        "SRC-394",
+        "SRC-395",
+        "SRC-396",
+        "SRC-403",
+        "SRC-404",
+        "SRC-405",
+        "SRC-406",
+        "SRC-425",
+        "SRC-426",
+        "SRC-427",
+        "SRC-428",
+        "SRC-435"
+      ],
+      "notes": "This bounded title comparison is not a review of current-edition identity, recension, transcription accuracy, completeness, or verse alignment. Reviewed title/work-level crosswalk: the Church's numbered canon list names Genesis, and TAU's Ethiopic Bible index independently lists Genesis in Ethiopic and English under its Octateuch. This matches the named biblical work only; it does not establish that Dillmann's 1853–1855 edition is the current Church text, or verify the transcription's wording, textual completeness, or manuscript/edition identity. Reviewed title/work-level crosswalk: the Church's numbered canon list names Genesis, and TAU's Ethiopic Bible index independently lists Genesis in Ethiopic and English under its Octateuch. This matches the named biblical work only; it does not establish that Dillmann's 1853–1855 edition is the current Church text, or verify the transcription's wording, textual completeness, or manuscript/edition identity. Standard USFM title-candidate research readers are catalogued for Genesis."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "Captured digital menu and chapter pages, chapters 1–50, checked in order.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-034",
+        "SRC-035"
+      ],
+      "notes": "Confirms local capture inventory and sequence, not manuscript completeness.",
+      "review_method": "automated_validation",
+      "review_process": "Archive build validation"
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "No fresh collation against Dillmann's print edition or manuscript witnesses.",
+      "reviewer": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-036"
+      ],
+      "notes": "The digitizer reports OCR and proofreading and warns that transcription errors may remain.",
+      "review_method": "unknown",
+      "review_process": null
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "Permission notice for noncommercial reuse of the digitized transcription.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-036"
+      ],
+      "notes": "This is not a grant of commercial rights.",
+      "review_method": "unknown",
+      "review_process": null
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "This example describes the Geʽez layer only. Brenton's English Septuagint companion is a separate translation layer with its own witness, basis path, and rights.",
+  "text_origin": "source_transcription"
+}

@@ -1,0 +1,167 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/joel-english-brenton-lxx-1851",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/joel-lxx",
+  "labels": [
+    {
+      "value": "English companion — Brenton Septuagint (1851), Joel",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-36",
+      "mapping_state": "uncertain",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-038",
+        "SRC-142"
+      ],
+      "notes": "The Church-list title and the eBible.org member title both identify Joel; this establishes a title-level candidate only. Brenton is an English translation of the Greek Septuagint, not a translation from the bundled Geʽez text. This record does not establish EOTC edition identity, recension, textual alignment, or completeness."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-lxx-joel-1851",
+    "witness_type": "digital_edition",
+    "title": "Joel — Brenton Septuagint English (1851)",
+    "date_statement": "Translation published 1851; USFM source package provided by eBible.org",
+    "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital text distributed by eBible.org",
+    "shelfmark_or_edition_id": "30-JOLeng-Brenton.usfm",
+    "editorial_policy": "USFM verse labels, paragraph starts, translator-supplied words, and source footnotes/cross-references are retained in the reader package. Translator-supplied words use visible archival brackets; source labels are not renumbered.",
+    "source_ids": [
+      "SRC-029",
+      "SRC-038",
+      "SRC-142"
+    ]
+  },
+  "layer_type": "translation",
+  "text_origin": "published_translation",
+  "language_tag": "en",
+  "language_name_as_recorded": "English",
+  "script_code": "Latn",
+  "basis_path": [
+    "grc",
+    "en"
+  ],
+  "agents": [
+    {
+      "role": "translator",
+      "name": "Sir Lancelot Charles Lee Brenton",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-038"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/brenton-lxx-jol-research.json",
+    "media_type": "application/json",
+    "sha256": "79151d4c176e44f64e7cf5a9ab0116d35fc5dd5a2d38427f3c340e930c31368a",
+    "format_version": "1",
+    "json_pointer": ""
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 73,
+    "structure_description": "The locally archived eBible.org USFM member 30-JOLeng-Brenton.usfm contains 4 ordered chapter divisions, 73 source verse labels, and 0 unnumbered continuation segment(s). These are counts of this digital member, not proof of the printed edition's completeness.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "27 footnotes/cross-references and 0 unnumbered continuation segment(s) are retained. Translator-supplied words are shown in visible archival brackets; the reader keeps source labels as printed in the USFM member.",
+    "numbering_policy": "The 4 chapter divisions and source verse labels from the named USFM member are retained. No labels are synthesized. Equal labels are navigation aids only and do not establish alignment to a Geʽez text or another witness."
+  },
+  "rights": {
+    "status": "public_domain_claimed",
+    "statement": "eBible.org's source notice identifies Brenton's 1851 English translation as public domain. The archive records this provider claim; it is not a worldwide legal determination and does not apply to other text layers or eBible.org page design.",
+    "license_id": null,
+    "rights_holder": null,
+    "attribution_required": true,
+    "territory_or_term_limits": "Provider-reported public-domain status; no jurisdiction-by-jurisdiction determination is claimed.",
+    "evidence_source_ids": [
+      "SRC-029",
+      "SRC-038",
+      "SRC-142"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "The archived eBible.org USFM member identifies this as Brenton English Septuagint Joel; no printed witness was collated.",
+      "reviewer": null,
+      "review_method": "combined_source_and_automated_validation",
+      "review_process": "Archived package metadata and local member/header audit",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-038",
+        "SRC-142"
+      ],
+      "notes": "The provider's title and attribution are recorded; exact identity to every detail of the 1851 print edition remains unchecked."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "All 4 chapter markers in the identified USFM member are ordered.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Brenton USFM archive parser and integrity tests",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-038",
+        "SRC-142"
+      ],
+      "notes": "Checks the archived digital source member, not completeness against the printed edition."
+    },
+    {
+      "dimension": "unit_boundaries",
+      "state": "checked_with_limits",
+      "scope": "The selected member contains 73 verse labels and 0 continuation segment(s); 27 footnotes/cross-references are retained.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Brenton USFM parser and integrity tests",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-038",
+        "SRC-142"
+      ],
+      "notes": "Structural source-package check only; not an independent textual or translation review."
+    },
+    {
+      "dimension": "translation_accuracy",
+      "state": "unknown",
+      "scope": "No independent review against the Greek Septuagint or Brenton's printed 1851 edition for Joel.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-038",
+        "SRC-142"
+      ],
+      "notes": "This English witness was translated from Greek, not from the bundled Geʽez text; label pairing is for navigation only."
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "eBible.org source notice for Brenton's 1851 English translation; provider claim only, not a worldwide legal determination.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Provider copyright notice and source package metadata",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-038",
+        "SRC-142"
+      ],
+      "notes": "Provider-reported status; no international rights survey is claimed."
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "This is a separately registered historical English translation of the Greek Septuagint. It is bundled as an English research companion to the Joel Geʽez reading experience; it is not a Geʽez-to-English translation, a verified alignment, or an identified current EOTC edition. Local package checks establish only source-member extraction structure, not translation accuracy or printed-edition completeness. The title-level relationship to the Church list remains uncertain."
+}

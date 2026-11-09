@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-28",
+  "scope": "A snapshot of the rights categories recorded on source and reader records in this built package. These counts are not a legal opinion or a worldwide rights determination.",
+  "sources": {
+    "record_count": 451,
+    "rights_class_counts": {
+      "open_license": 0,
+      "public_domain_claimed": 13,
+      "permission_limited": 18,
+      "all_rights_reserved": 2,
+      "mixed": 12,
+      "unknown": 406
+    },
+    "rights_basis_record_count": 451,
+    "interpretation": "A source record may describe a catalogue, bibliography, webpage, scan, or text. Its category does not grant reuse rights to any linked reader or media."
+  },
+  "readers": {
+    "record_count": 759,
+    "canon_linked_record_count": 19,
+    "research_only_record_count": 740,
+    "rights_class_counts": {
+      "open_license": 454,
+      "public_domain_claimed": 189,
+      "permission_limited": 116,
+      "all_rights_reserved": 0,
+      "mixed": 0,
+      "unknown": 0
+    },
+    "canon_linked_rights_class_counts": {
+      "open_license": 0,
+      "public_domain_claimed": 0,
+      "permission_limited": 19,
+      "all_rights_reserved": 0,
+      "mixed": 0,
+      "unknown": 0
+    },
+    "research_only_rights_class_counts": {
+      "open_license": 454,
+      "public_domain_claimed": 189,
+      "permission_limited": 97,
+      "all_rights_reserved": 0,
+      "mixed": 0,
+      "unknown": 0
+    },
+    "open_license_terms": [
+      {
+        "license_id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "reader_record_count": 454
+      }
+    ],
+    "interpretation": "Reader categories describe the rights evidence recorded for each bundled text layer. Consult its exact notice and linked sources before reuse; archive canon links do not establish rights, edition identity, completeness, or accuracy."
+  },
+  "classification_limits": {
+    "open_license": "A license is stated in the record; its exact terms and scope still control.",
+    "public_domain_claimed": "A source or record claims public-domain status; the archive has not established a worldwide legal conclusion.",
+    "permission_limited": "Use is recorded with permission or other specific limits; follow the detailed notice.",
+    "all_rights_reserved": "The source records an all-rights-reserved notice; no broader permission is inferred.",
+    "mixed": "The record contains differing rights statements, jurisdictions, or components that must remain distinct.",
+    "unknown": "The record does not establish reuse terms. Unknown is neither permission nor a finding that reuse is forbidden."
+  },
+  "interpretation_limits": [
+    "A source-record count is not a count of works, translations, or reader texts.",
+    "A reader-record count is not a count of unique books or complete editions; several records may describe separate language or edition layers.",
+    "An open-source software license or metadata license does not relicense scripture, translations, scans, images, or other third-party content."
+  ]
+}

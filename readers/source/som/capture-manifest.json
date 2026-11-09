@@ -1,0 +1,26 @@
+{
+  "source_name": "eBible.org Somali Bible (SOMSIM / som) USFM archive",
+  "source_url": "https://ebible.org/Scriptures/som_usfm.zip",
+  "edition_record_url": "https://ebible.org/find/details.php?id=som",
+  "copyright_notice_url": "https://ebible.org/som/copyright.htm",
+  "retrieved_at": "2026-10-26",
+  "local_files": {
+    "source_package": "readers/source/som/som_usfm.zip",
+    "edition_record": "readers/source/som/details.html",
+    "copyright_notice": "readers/source/som/copyright.html"
+  },
+  "source_package_sha256": "9ac3b1e08d708cd2e98d4095dc74031839f183bbc149ecf0f9b200b36ff606d1",
+  "source_package_bytes": 1569561,
+  "source_page_capture_status": "Captured publisher edition and copyright pages; original publisher USFM package retained without modification.",
+  "scope_note": "The provider's license notice includes CC BY-NC-ND 3.0 and 4.0 references and expressly permits format conversion only if scripture words and punctuation remain unchanged. This capture does not establish print completeness, textual accuracy, or canon equivalence.",
+  "verified_manifest_path": "research/som-usfm-source-manifest.json",
+  "signature_verification": {
+    "valid": true,
+    "signer_fingerprint": "54D714D76956DA6673DC1EEA5F62009D93505F26",
+    "fingerprint_reference": "https://mljohnson.org/gpg.htm",
+    "signing_key_algorithm": "DSA-1024 (legacy)",
+    "signature_hash_algorithm": "SHA-1 (legacy)",
+    "identity_limit": "The signature verifies using the included key, and its fingerprint matches the key maintainer's published listing. This does not independently establish identity, custody, or signing authority; legacy DSA-1024/SHA-1 limits apply."
+  },
+  "content_scope": "CRC, signed member hashes, IDs, consecutive chapters, unique labels, and native book metadata were checked. These checks do not prove text completeness or accuracy. The source notice permits porting formats only if wording and punctuation remain unchanged; two CC license version references in the notice are disclosed."
+}

@@ -1,0 +1,634 @@
+{
+  "record_id": "genesis-1-divine-person-lens",
+  "schema_version": 2,
+  "status": "Counts describe these stored chapter witnesses only. Editorial speech boundaries are not independently reviewed; the Geʽez grammatical-person measurement is unassessed.",
+  "scope": {
+    "unit": {
+      "unit_type": "chapter",
+      "chapter": 1
+    },
+    "witnesses": [
+      {
+        "witness_id": "genesis-geez-dillmann-hacohen",
+        "role": "source_text",
+        "language_tag": "gez",
+        "source_ids": [
+          "SRC-034",
+          "SRC-035",
+          "SRC-036",
+          "SRC-037",
+          "SRC-038",
+          "SRC-029"
+        ],
+        "stored_verse_count": 31,
+        "text_sha256": "ad8cd109ae6241fc6330ee4762deca3d4187c89f2719d3887a5d3c315646abd7"
+      },
+      {
+        "witness_id": "genesis-english-brenton-lxx-1851",
+        "role": "translation_companion",
+        "language_tag": "en",
+        "source_ids": [
+          "SRC-037",
+          "SRC-038"
+        ],
+        "stored_verse_count": 31,
+        "text_sha256": "375764e1358a1715cc5a07786ce82537539dde432a1de8289a431cb4952e8f77"
+      }
+    ]
+  },
+  "measurements": [
+    {
+      "measurement_id": "english-first-person-forms-in-attributed-divine-speech",
+      "witness_id": "genesis-english-brenton-lxx-1851",
+      "language_tag": "en",
+      "feature": "First-person pronoun tokens in manually delimited speech attributed to God",
+      "state": "measured",
+      "count": 3,
+      "count_unit": "token",
+      "operational_definition": "Exact English first-person pronoun tokens in the manually delimited speech excerpts; this is not a count of first-person verbs.",
+      "evidence_source_ids": [
+        "SRC-037",
+        "SRC-038"
+      ],
+      "breakdowns": [
+        {
+          "dimension": "token",
+          "values": [
+            {
+              "value": "i",
+              "count": 1
+            },
+            {
+              "value": "our",
+              "count": 1
+            },
+            {
+              "value": "us",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "excerpts": [
+        {
+          "unit_label": "3",
+          "text": "Let there be light"
+        },
+        {
+          "unit_label": "6",
+          "text": "Let there be a firmament in the midst of the water, and let it be a division between water and water,"
+        },
+        {
+          "unit_label": "9",
+          "text": "Let the water which is under the heaven be collected into one 〔‡〕place, and let the dry land appear,"
+        },
+        {
+          "unit_label": "11",
+          "text": "Let the earth bring forth the herb of grass 〔**〕bearing seed according to its kind 〔‡‡〕and according to its likeness, and the fruit-tree bearing fruit whose seed is in it, according to its kind on the earth,"
+        },
+        {
+          "unit_label": "14",
+          "text": "Let there be lights in the firmament of the heaven 〔‡‡〕to give light upon the earth, to divide between day and night, and let them be for signs and for seasons and for days and for years."
+        },
+        {
+          "unit_label": "15",
+          "text": "And let them be for light in the firmament of the heaven, so as to shine upon the earth,"
+        },
+        {
+          "unit_label": "20",
+          "text": "Let the waters bring forth reptiles 〔§§〕having life, and winged creatures flying above the earth in the firmament of heaven,"
+        },
+        {
+          "unit_label": "22",
+          "text": "Increase and multiply and fill the waters in the seas, and let the creatures that fly be multiplied on the earth."
+        },
+        {
+          "unit_label": "24",
+          "text": "Let the earth bring forth the living 〔‡‡‡〕creature according to its kind, quadrupeds and reptiles and wild beasts of the earth according to their kind,"
+        },
+        {
+          "unit_label": "26",
+          "text": "Let us make man according to our image and likeness, and let them have dominion over the fish of the sea, and over the flying creatures of heaven, and over the cattle and all the earth, and over all the reptiles that creep on the earth."
+        },
+        {
+          "unit_label": "28",
+          "text": "Increase and multiply, and fill the earth and subdue it, and have dominion over the fish of the seas and flying creatures of heaven, and all the cattle and all the earth, and all the reptiles that creep on the earth."
+        },
+        {
+          "unit_label": "29",
+          "text": "Behold I have given to you every seed-bearing herb sowing seed which is upon all the earth, and every tree which has in itself the fruit of seed that is sown, to you it shall be for food."
+        },
+        {
+          "unit_label": "30",
+          "text": "And to all the wild beasts of the earth, and to all the flying creatures of heaven, and to every reptile creeping on the earth, which has in itself the 〔§§§〕breath of life, even every green plant for food;"
+        }
+      ],
+      "speaker_attribution": {
+        "statement": "Editorial segmentation of speech introduced by ‘And God said’ or ‘God blessed them, saying’; verse continuations are included only where specified.",
+        "review_state": "not_independently_reviewed"
+      }
+    },
+    {
+      "measurement_id": "english-explicit-noun-god",
+      "witness_id": "genesis-english-brenton-lxx-1851",
+      "language_tag": "en",
+      "feature": "Case-insensitive whole-word occurrences of the noun God",
+      "state": "measured",
+      "count": 33,
+      "count_unit": "occurrence",
+      "operational_definition": "Case-insensitive whole-word occurrences of the noun ‘God’ in all stored English verse texts; excludes pronouns and theological inference.",
+      "evidence_source_ids": [
+        "SRC-037",
+        "SRC-038"
+      ],
+      "breakdowns": [
+        {
+          "dimension": "verse",
+          "values": [
+            {
+              "value": "1",
+              "count": 1
+            },
+            {
+              "value": "2",
+              "count": 1
+            },
+            {
+              "value": "3",
+              "count": 1
+            },
+            {
+              "value": "4",
+              "count": 2
+            },
+            {
+              "value": "5",
+              "count": 1
+            },
+            {
+              "value": "6",
+              "count": 1
+            },
+            {
+              "value": "7",
+              "count": 2
+            },
+            {
+              "value": "8",
+              "count": 2
+            },
+            {
+              "value": "9",
+              "count": 1
+            },
+            {
+              "value": "10",
+              "count": 2
+            },
+            {
+              "value": "11",
+              "count": 1
+            },
+            {
+              "value": "12",
+              "count": 1
+            },
+            {
+              "value": "14",
+              "count": 1
+            },
+            {
+              "value": "16",
+              "count": 1
+            },
+            {
+              "value": "17",
+              "count": 1
+            },
+            {
+              "value": "18",
+              "count": 1
+            },
+            {
+              "value": "20",
+              "count": 1
+            },
+            {
+              "value": "21",
+              "count": 2
+            },
+            {
+              "value": "22",
+              "count": 1
+            },
+            {
+              "value": "24",
+              "count": 1
+            },
+            {
+              "value": "25",
+              "count": 2
+            },
+            {
+              "value": "26",
+              "count": 1
+            },
+            {
+              "value": "27",
+              "count": 2
+            },
+            {
+              "value": "28",
+              "count": 1
+            },
+            {
+              "value": "29",
+              "count": 1
+            },
+            {
+              "value": "31",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "measurement_id": "english-third-person-narrator-noun-god",
+      "witness_id": "genesis-english-brenton-lxx-1851",
+      "language_tag": "en",
+      "feature": "Explicit noun ‘God’ in narrative text outside editorially delimited divine-speech excerpts",
+      "state": "measured",
+      "count": 33,
+      "count_unit": "occurrence",
+      "operational_definition": "Case-insensitive whole-word occurrences of ‘God’ in the 31 stored English verse texts, minus occurrences inside the exact manually delimited speech excerpts recorded in this lens. This is a lexical proxy for narrative third-person reference, not a count of third-person pronouns or verbs.",
+      "evidence_source_ids": [
+        "SRC-037",
+        "SRC-038"
+      ],
+      "breakdowns": [
+        {
+          "dimension": "verse",
+          "values": [
+            {
+              "value": "1",
+              "count": 1
+            },
+            {
+              "value": "2",
+              "count": 1
+            },
+            {
+              "value": "3",
+              "count": 1
+            },
+            {
+              "value": "4",
+              "count": 2
+            },
+            {
+              "value": "5",
+              "count": 1
+            },
+            {
+              "value": "6",
+              "count": 1
+            },
+            {
+              "value": "7",
+              "count": 2
+            },
+            {
+              "value": "8",
+              "count": 2
+            },
+            {
+              "value": "9",
+              "count": 1
+            },
+            {
+              "value": "10",
+              "count": 2
+            },
+            {
+              "value": "11",
+              "count": 1
+            },
+            {
+              "value": "12",
+              "count": 1
+            },
+            {
+              "value": "14",
+              "count": 1
+            },
+            {
+              "value": "16",
+              "count": 1
+            },
+            {
+              "value": "17",
+              "count": 1
+            },
+            {
+              "value": "18",
+              "count": 1
+            },
+            {
+              "value": "20",
+              "count": 1
+            },
+            {
+              "value": "21",
+              "count": 2
+            },
+            {
+              "value": "22",
+              "count": 1
+            },
+            {
+              "value": "24",
+              "count": 1
+            },
+            {
+              "value": "25",
+              "count": 2
+            },
+            {
+              "value": "26",
+              "count": 1
+            },
+            {
+              "value": "27",
+              "count": 2
+            },
+            {
+              "value": "28",
+              "count": 1
+            },
+            {
+              "value": "29",
+              "count": 1
+            },
+            {
+              "value": "31",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "speaker_attribution": {
+        "statement": "The same editorial speech spans used for the first-person count are excluded; the boundaries are not independently reviewed.",
+        "review_state": "not_independently_reviewed"
+      }
+    },
+    {
+      "measurement_id": "english-third-person-pronoun-god-reference",
+      "witness_id": "genesis-english-brenton-lxx-1851",
+      "language_tag": "en",
+      "feature": "Third-person subject pronoun ‘he’ manually attributed to God in narrator clauses",
+      "state": "measured",
+      "count": 5,
+      "count_unit": "token",
+      "operational_definition": "Exact whole-word ‘he’ tokens in the listed narrator phrases, with God manually identified as antecedent. Only these five checked tokens are counted; this is not a chapter-wide count of every third-person form or a count of all references to God.",
+      "evidence_source_ids": [
+        "SRC-037",
+        "SRC-038"
+      ],
+      "breakdowns": [
+        {
+          "dimension": "verse",
+          "values": [
+            {
+              "value": "5",
+              "count": 1
+            },
+            {
+              "value": "10",
+              "count": 1
+            },
+            {
+              "value": "27",
+              "count": 2
+            },
+            {
+              "value": "31",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "excerpts": [
+        {
+          "unit_label": "5",
+          "text": "he called Night"
+        },
+        {
+          "unit_label": "10",
+          "text": "he called Seas"
+        },
+        {
+          "unit_label": "27",
+          "text": "he made him"
+        },
+        {
+          "unit_label": "27",
+          "text": "he made them"
+        },
+        {
+          "unit_label": "31",
+          "text": "he had made"
+        }
+      ],
+      "speaker_attribution": {
+        "statement": "Each phrase is manually selected from Brenton's narrator text; the pronoun's antecedent attribution is editorial.",
+        "review_state": "not_independently_reviewed"
+      }
+    },
+    {
+      "measurement_id": "geez-exact-string-lexical-occurrences",
+      "witness_id": "genesis-geez-dillmann-hacohen",
+      "language_tag": "gez",
+      "feature": "Exact Unicode string occurrences: እግዚአብሔር",
+      "observed_value": "እግዚአብሔር",
+      "state": "measured",
+      "count": 33,
+      "count_unit": "occurrence",
+      "operational_definition": "Exact Unicode string occurrences in the stored Geʽez verse texts; not a grammatical-person count or a claim of translation equivalence.",
+      "evidence_source_ids": [
+        "SRC-034",
+        "SRC-035",
+        "SRC-036",
+        "SRC-037",
+        "SRC-038",
+        "SRC-029"
+      ],
+      "breakdowns": [
+        {
+          "dimension": "verse",
+          "values": [
+            {
+              "value": "1",
+              "count": 1
+            },
+            {
+              "value": "2",
+              "count": 1
+            },
+            {
+              "value": "3",
+              "count": 1
+            },
+            {
+              "value": "4",
+              "count": 2
+            },
+            {
+              "value": "5",
+              "count": 1
+            },
+            {
+              "value": "6",
+              "count": 1
+            },
+            {
+              "value": "7",
+              "count": 2
+            },
+            {
+              "value": "8",
+              "count": 2
+            },
+            {
+              "value": "9",
+              "count": 1
+            },
+            {
+              "value": "10",
+              "count": 2
+            },
+            {
+              "value": "11",
+              "count": 1
+            },
+            {
+              "value": "12",
+              "count": 1
+            },
+            {
+              "value": "14",
+              "count": 1
+            },
+            {
+              "value": "16",
+              "count": 1
+            },
+            {
+              "value": "17",
+              "count": 1
+            },
+            {
+              "value": "18",
+              "count": 1
+            },
+            {
+              "value": "20",
+              "count": 1
+            },
+            {
+              "value": "21",
+              "count": 2
+            },
+            {
+              "value": "22",
+              "count": 1
+            },
+            {
+              "value": "24",
+              "count": 1
+            },
+            {
+              "value": "25",
+              "count": 2
+            },
+            {
+              "value": "26",
+              "count": 1
+            },
+            {
+              "value": "27",
+              "count": 2
+            },
+            {
+              "value": "28",
+              "count": 1
+            },
+            {
+              "value": "29",
+              "count": 1
+            },
+            {
+              "value": "31",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "measurement_id": "geez-first-person-grammatical-forms",
+      "witness_id": "genesis-geez-dillmann-hacohen",
+      "language_tag": "gez",
+      "feature": "First-person grammatical forms in speech attributed to God",
+      "state": "unassessed",
+      "count": null,
+      "count_unit": "grammatical_form",
+      "operational_definition": "A language-specific morphological and speaker-attribution analysis covering this chapter; no Geʽez grammatical-person count is reported.",
+      "evidence_source_ids": [
+        "SRC-034",
+        "SRC-035",
+        "SRC-036",
+        "SRC-037",
+        "SRC-038",
+        "SRC-029"
+      ],
+      "reason_for_state": "No chapter-wide Geʽez morphology and independently reviewed speech-attribution method has been applied. Unassessed is not zero."
+    },
+    {
+      "measurement_id": "english-second-person-audience-reference-in-attributed-speech",
+      "witness_id": "genesis-english-brenton-lxx-1851",
+      "language_tag": "en",
+      "feature": "Second-person audience-reference tokens in the same attributed speech excerpts",
+      "state": "measured",
+      "count": 2,
+      "count_unit": "token",
+      "operational_definition": "Exact whole-word ‘you’ in the manually delimited speech excerpts; these are audience references, not self-reference by God.",
+      "evidence_source_ids": [
+        "SRC-037",
+        "SRC-038"
+      ],
+      "breakdowns": [
+        {
+          "dimension": "verse",
+          "values": [
+            {
+              "value": "29",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "speaker_attribution": {
+        "statement": "Uses the same editorial speech spans as the first-person count.",
+        "review_state": "not_independently_reviewed"
+      }
+    }
+  ],
+  "interpretive_limits": [
+    "Brenton is a historical English translation from the Greek Septuagint, not a direct translation from this Geʽez witness.",
+    "Matching lexical counts do not establish word-for-word correspondence or translation equivalence.",
+    "The English speaker spans are editorial; the count makes no theological claim about the plural in ‘us’ or ‘our’.",
+    "The English third-person pronoun count includes only the five listed ‘he’ tokens manually attributed to God; other pronouns and all Geʽez grammatical forms remain outside that measurement.",
+    "A Geʽez first-person grammatical count remains unassessed, not zero, pending a Genesis-covering morphology and independently reviewed speech-attribution method."
+  ]
+}

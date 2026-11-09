@@ -1,0 +1,176 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/haggai-geez-lofgren-ghebre-tau",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/haggai-eotc-candidate",
+  "labels": [
+    {
+      "value": "Haggai — Geʽez source transcription",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-42",
+      "mapping_state": "reviewed_match",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-034",
+        "SRC-157",
+        "SRC-160",
+        "SRC-191",
+        "SRC-380",
+        "SRC-384"
+      ],
+      "notes": "Reviewed work/title crosswalk: the Church's numbered list names Haggai; TAU's index uses the Latinized form Aggaeus and its book page identifies the Ethiopic Book of Haggai. This matches the work title only; the historical witness is not identified as the current EOTC printed edition and accuracy/completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Haggai."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/haggai-lofgren-1930-ghebre-tau-2018",
+    "witness_type": "digital_edition",
+    "title": "Löfgren 1930 Ethiopic Haggai; TAU text prepared by Kefela Ghebre and proofread by Ran HaCohen (October 2018)",
+    "date_statement": "Printed edition 1930, pp. 47–53; TAU information page records text version October 2018",
+    "repository_or_publisher": "Tel Aviv University website; text attributed to Kefela Ghebre",
+    "shelfmark_or_edition_id": "Haggai section of Löfgren's seven-prophet edition",
+    "editorial_policy": "TAU says Löfgren's edition was based on Oxford MS Huntington 625 and other manuscripts, and that Kefela Ghebre prepared the text with permission and Ran HaCohen proofread it. The local capture retains two chapter pages and their linked source labels. Print collation, source manuscript inventory, and apparatus are not bundled.",
+    "source_ids": [
+      "SRC-034",
+      "SRC-036",
+      "SRC-157",
+      "SRC-160",
+      "SRC-191"
+    ]
+  },
+  "layer_type": "source_text_transcription",
+  "text_origin": "source_transcription",
+  "language_tag": "gez",
+  "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+  "script_code": "Ethi",
+  "basis_path": [
+    "gez"
+  ],
+  "agents": [
+    {
+      "role": "editor",
+      "name": "Oscar Löfgren",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-157"
+      ]
+    },
+    {
+      "role": "transcriber",
+      "name": "Kefela Ghebre",
+      "authority_or_affiliation": "Tel Aviv University website; credited preparer",
+      "source_ids": [
+        "SRC-191"
+      ]
+    },
+    {
+      "role": "reviewer",
+      "name": "Ran HaCohen",
+      "authority_or_affiliation": "Tel Aviv University website; credited proofreader",
+      "source_ids": [
+        "SRC-191"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/haggai-geez-lofgren-ghebre-tau.json",
+    "media_type": "application/json",
+    "sha256": "650b7ce9e0b51d22c85f4d7150888c5abd9943a3358a9d37b9c3117ddd00785d",
+    "format_version": "1"
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 37,
+    "structure_description": "Two captured TAU text pages, corresponding to chapters 1–2 in its index, have sequential displayed linked numbers with extents 14 and 23 (37 total). This is complete only for the two locally retained text pages; no printed-edition or manuscript completeness is claimed.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "HTML whitespace and the separately displayed link labels are normalized; source markers and each link's actual book target remain separate, and visible Ethiopic text and signs are retained. Raw HTML is retained. Facsimiles and critical apparatus are excluded.",
+    "numbering_policy": "Preserve source page and displayed linked-number sequence exactly: chapter pages 1–2, labels 1–14 and 1–23. Preserve the actual link target book per unit (Haggai). Do not infer alignment to another witness's numbering."
+  },
+  "rights": {
+    "status": "permission_limited",
+    "statement": "© Ran HaCohen. For the digitized Ethiopic texts, permission to use, copy, and distribute for any NONCOMMERCIAL purpose is granted without fee, provided that the copyright notice Ran HaCohen and this permission notice appear in all copies of the text. For other uses, please contact the copyright owner.",
+    "license_id": null,
+    "rights_holder": "Ran HaCohen (TAU site notice); Kefela Ghebre permitted TAU publication of his text",
+    "attribution_required": true,
+    "territory_or_term_limits": "TAU notice grants noncommercial use only with the copyright and permission notice attached; other uses require contacting the rights holder. No open license or commercial permission is claimed.",
+    "evidence_source_ids": [
+      "SRC-036",
+      "SRC-157",
+      "SRC-160",
+      "SRC-191"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "Reviewed work/title crosswalk: the Church's numbered list names Haggai; TAU's index uses the Latinized form Aggaeus and its book page identifies the Ethiopic Book of Haggai. This matches the work title only; the historical witness is not identified as the current EOTC printed edition and accuracy/completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Haggai. Exact edition identity, textual accuracy, and completeness remain distinct questions.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Comparative inspection of the cited Church-list and source-work records.",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-034",
+        "SRC-157",
+        "SRC-160",
+        "SRC-191",
+        "SRC-380",
+        "SRC-384"
+      ],
+      "notes": "Reviewed work/title crosswalk: the Church's numbered list names Haggai; TAU's index uses the Latinized form Aggaeus and its book page identifies the Ethiopic Book of Haggai. This matches the work title only; the historical witness is not identified as the current EOTC printed edition and accuracy/completeness remain unverified. British Library Add MS 16189's catalog lists the Twelve Prophets in this Ge'ez codex at folios 42v–64v and names a starting folio for each. This is manuscript-catalog evidence only; it does not verify a transcription, complete book boundaries, or identity with a particular current Church edition. Standard USFM title-candidate research readers are catalogued for Haggai."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "Two retained source pages match their manifest checksums and yield sequential displayed labels 1–14 and 1–23. All 37 source links target the chapter corresponding to the page title and TAU menu.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Haggai capture parser and archive build",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-191"
+      ],
+      "notes": "Capture-to-reader structure only. Does not establish print or manuscript completeness or cross-witness numbering."
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "No collation against Löfgren's 1930 print, cited manuscripts, image pages, or a current EOTC edition.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-157",
+        "SRC-160",
+        "SRC-191"
+      ],
+      "notes": "TAU credits Kefela Ghebre with text preparation and Ran HaCohen with proofreading; this archive has not repeated or independently assessed that review."
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "TAU general reuse notice and Haggai information page were captured locally.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Retained the noncommercial notice and the source page's author attribution.",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-036",
+        "SRC-157",
+        "SRC-160",
+        "SRC-191"
+      ],
+      "notes": "Noncommercial use with notices only; no open or commercial grant is asserted."
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "This record bundles no English translation. The English title and metadata are not translated text; the reader contains the captured Geʽez source transcription."
+}

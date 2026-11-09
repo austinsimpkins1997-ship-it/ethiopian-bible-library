@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/schemas/related-text.schema.json",
+  "title": "Related-work catalogue record",
+  "description": "A cited related-work lead, not a canon assertion. rights_classification and rights_status describe the rights state of the identified related text/edition scope; unknown is required when no specific edition or permission is established.",
+  "type": "object",
+  "required": [
+    "related_id",
+    "title",
+    "also_known_as",
+    "category",
+    "not_canonical_note",
+    "description",
+    "source_ids",
+    "text_status",
+    "rights_classification",
+    "rights_status"
+  ],
+  "properties": {
+    "related_id": {
+      "type": "string",
+      "pattern": "^REL-[0-9]{3,}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "also_known_as": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "not_canonical_note": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^SRC-[0-9]{3,}$"
+      },
+      "uniqueItems": true
+    },
+    "text_status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rights_classification": {
+      "enum": [
+        "public_domain_claimed",
+        "open_license",
+        "permission_limited",
+        "all_rights_reserved",
+        "unknown",
+        "mixed"
+      ]
+    },
+    "rights_status": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

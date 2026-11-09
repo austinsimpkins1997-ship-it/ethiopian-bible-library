@@ -1,0 +1,183 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/mark-betamasaheft-tei-research",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/mark-betamasaheft-lit2711",
+  "labels": [
+    {
+      "value": "Gospel of Mark (LIT2711Mark) — Geʽez research transcription; canon link unresolved",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-nt-02",
+      "mapping_state": "uncertain",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-083",
+        "SRC-084",
+        "SRC-091",
+        "SRC-092",
+        "SRC-176"
+      ],
+      "notes": "The TEI identifies a Mark work and declares Geʽez for its text edition, but the exact Church-list work/edition crosswalk, completeness, and relation to a current EOTC edition are unresolved. This is a related research transcription, not a canon-linked reader."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/betamasaheft-lith2711-mark-tei",
+    "witness_type": "transcription",
+    "title": "Beta maṣāḥǝft TEI record LIT2711Mark, captured 2026-10-25",
+    "date_statement": "Local snapshot captured 2026-10-25; exact printed exemplar not identified",
+    "repository_or_publisher": "Beta maṣāḥǝft project",
+    "shelfmark_or_edition_id": "LIT2711Mark",
+    "editorial_policy": "The source TEI is retained unchanged. The reader flattens inline markup and normalizes whitespace; chapter labels, line order, source n labels when present, and source references are preserved in the extracted data. Unnumbered line elements are not assigned verse labels.",
+    "source_ids": [
+      "SRC-083",
+      "SRC-084",
+      "SRC-091",
+      "SRC-092",
+      "SRC-176"
+    ]
+  },
+  "layer_type": "source_text_transcription",
+  "text_origin": "source_transcription",
+  "language_tag": "gez",
+  "language_name_as_recorded": "gez",
+  "script_code": "Ethi",
+  "basis_path": [
+    "gez"
+  ],
+  "agents": [],
+  "content_package": {
+    "uri": "../readers/mark-research-tei.json",
+    "media_type": "application/json",
+    "sha256": "3aa851899383b9272df7315bb29371af50413f07d700229717034de85d31a499",
+    "format_version": "1",
+    "json_pointer": ""
+  },
+  "coverage": {
+    "extent_state": "unknown",
+    "extent_basis": "source_inventory",
+    "unit_count": 765,
+    "structure_description": "The retained TEI snapshot contains 16 ordered chapter divisions and 765 line elements: 678 have source n labels and 87 do not. This counts elements in the snapshot; the completeness of the intended printed work is unknown.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "The flattened reader preserves source line markers, inline reference targets, and an archive display order separately. It does not interpret unnumbered lines or reconstruct omitted wording; consult the unchanged source TEI for inline markup.",
+    "numbering_policy": "Retain each source n label exactly when present. Do not assign source verse numbers to the 87 unnumbered line elements; display sequence numbers are navigation indexes only."
+  },
+  "rights": {
+    "status": "open_license",
+    "statement": "The item-level TEI file explicitly states CC BY-SA 4.0. This reader is an adaptation that flattens inline TEI markup and normalizes whitespace; attribute Beta maṣāḥǝft and the file credits, indicate changes, link https://creativecommons.org/licenses/by-sa/4.0/, and distribute adaptations under the same terms. The separate website footer license does not replace the source-file license.",
+    "license_id": "CC-BY-SA-4.0",
+    "rights_holder": null,
+    "attribution_required": true,
+    "territory_or_term_limits": "The file-level license applies to the cited TEI file and its adaptations, not every Mark edition or the whole website.",
+    "evidence_source_ids": [
+      "SRC-092"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "Pinned TEI xml:id is LIT2711Mark; exact print exemplar and current EOTC edition are unidentified.",
+      "reviewer": null,
+      "review_method": "combined_source_and_automated_validation",
+      "review_process": "Pinned TEI identity check and source metadata audit",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-083",
+        "SRC-091"
+      ],
+      "notes": "A related Mark work is identified; it is not a verified edition-level match."
+    },
+    {
+      "dimension": "language_identification",
+      "state": "checked_with_limits",
+      "scope": "The work record identifies Geʽez; the enclosing TEI edition declares xml:lang=gez for all 16 chapters and 765 extracted line elements. The document root declares xml:lang=en as its default.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Comparison of the official work record, retained TEI edition scope, and TEI P5 xml:lang inheritance guidance",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-083",
+        "SRC-091",
+        "SRC-092",
+        "SRC-176"
+      ],
+      "notes": "The reader uses gez for the explicitly tagged edition while preserving the conflicting root default. This resolves the text-language label only; it does not establish textual accuracy, exact exemplar, completeness, or canon mapping."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "All 16 chapter divisions are ordered 1–16 in the retained TEI snapshot.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "audit_mark_tei.py and build_mark_research_reader.py",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-091"
+      ],
+      "notes": "Structural sequence only; not evidence of the completeness of a printed edition."
+    },
+    {
+      "dimension": "unit_boundaries",
+      "state": "checked_with_limits",
+      "scope": "All 765 TEI line elements are retained in order; 678 carry source labels and 87 do not.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "TEI line-element audit and reader extraction comparison",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-091",
+        "SRC-092"
+      ],
+      "notes": "The 765 units are TEI line elements, not a verse count."
+    },
+    {
+      "dimension": "completeness",
+      "state": "unknown",
+      "scope": "No comparison against the exact printed exemplar was possible because it is unidentified.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-083",
+        "SRC-091"
+      ],
+      "notes": "The count describes the retained TEI only."
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "No independent collation against print or manuscript witnesses was performed.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-091",
+        "SRC-092"
+      ],
+      "notes": "Automated structural checks do not establish textual accuracy."
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "The original TEI file's explicit CC BY-SA 4.0 notice and conditions for adaptations.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Inspection of the retained TEI license statement",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-092"
+      ],
+      "notes": "This does not apply the TEI license to the entire website or unrelated editions."
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "The language tag gez follows the inherited xml:lang on the text edition; the root xml:lang=en remains noted as a conflicting document default. Ethi records the text script separately. This is not verified scripture or an EOTC edition match. No missing wording or viewpoints are generated."
+}

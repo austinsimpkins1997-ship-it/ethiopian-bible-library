@@ -1,0 +1,5306 @@
+{
+  "reader_id": "alaba-kabeena-mrk-research",
+  "research_corpus_id": "alw-2025-mrk",
+  "canon_id": null,
+  "title": "Mark — Alaba-K’abeena New Testament (ALWWTW / alw, 2025)",
+  "display_name": "Mark · Alaba-K’abeena · eBible.org",
+  "text_origin": "published_translation",
+  "translation_id": "alw-alwwtw-2025",
+  "language": "Alaba-K’abeena",
+  "language_tag": "alw",
+  "language_assignment_status": "publisher_declared_in_edition_page_and_USFM_package",
+  "script_code": "Ethi",
+  "translator": "Not named in the inspected edition page or retained USFM headers",
+  "contributor": "The Word for the World International",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The inspected edition page does not identify a source language or relay-language path; none is inferred.",
+  "edition": "Alaba-K’abeena: ሃዕሮ ወኣድ መጻፈ (New Testament), ALWWTW / alw; copyright © 2025.",
+  "edition_scope": "One of 27 conventional New Testament USFM book modules in the provider's ALWWTW / alw edition. A reviewed work/title crosswalk links USFM MRK to the EOTC list title Mark (eotc-nt-02) using the official Church list and USFM code table (SRC-029 and SRC-396). This reader remains a separate research translation; the crosswalk does not establish EOTC or Eritrean edition identity, tradition affiliation, translation accuracy, or completeness.",
+  "rights_classification": "open_license",
+  "license_id": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "copyright_notice": "Copyright © 2025 The Word for the World International. Source: eBible.org Alaba-K’abeena NT (ALWWTW / alw), language tag alw. The edition page names The Word for the World International as contributor, and states CC BY-SA 4.0 for translation text. This archive converted the retained USFM to reader JSON, preserves source labels and supported structure, and identifies the conversion as a change; no publisher endorsement is implied. Images have separate terms and are not included.",
+  "commercial_use": "The source-stated CC BY-SA 4.0 terms permit commercial sharing and adaptations with attribution, indication of changes, and ShareAlike. Images and other media have separate terms and are not bundled.",
+  "unit_label": "USFM verse labels observed",
+  "unit_count": 669,
+  "verse_marker_count": 669,
+  "chapter_count": 16,
+  "section_label": "Chapter",
+  "chapter_structure_note": "This member has 16 consecutive chapter divisions, 669 distinct source verse labels, 122 notes, 11 front-matter elements, and USFM marker counts {'c': 16, 'h': 1, 'id': 1, 'ie': 1, 'imt1': 1, 'io1': 6, 'iot': 1, 'ip': 3, 'm': 4, 'mt1': 1, 'mt2': 1, 'p': 291, 'q1': 10, 'q2': 11, 'r': 91, 's1': 95, 'toc1': 1, 'toc2': 1, 'toc3': 1, 'v': 669}. Counts describe extraction from this exact source member only.",
+  "chapter_structure_status": "source_package_parsed_with_limits",
+  "source_numbered_unit_count": 669,
+  "source_unnumbered_unit_count": 30,
+  "source_pages": "readers/source/alaba-kabeena/alw_usfm.zip::47-MRKalw.usfm",
+  "source_package_sha256": "57ba620cf2a288d02cdfc5fa61caa92d682423d383c19c9626ffea007437542a",
+  "source_snapshot_sha256": "50c2319e88892dac9fcd09b2503efa31606cc111f53e15bfce7529e62c18ff00",
+  "source_ids": [
+    "SRC-414",
+    "SRC-415"
+  ],
+  "rights_status": "Copyright © 2025 The Word for the World International. Source: eBible.org Alaba-K’abeena NT (ALWWTW / alw), language tag alw. The edition page names The Word for the World International as contributor, and states CC BY-SA 4.0 for translation text. This archive converted the retained USFM to reader JSON, preserves source labels and supported structure, and identifies the conversion as a change; no publisher endorsement is implied. Images have separate terms and are not included.",
+  "verification_status": "The exact source member 47-MRKalw.usfm has SHA-256 50c2319e88892dac9fcd09b2503efa31606cc111f53e15bfce7529e62c18ff00, matching the signed file list in the retained ZIP. GnuPG verifies that list against the co-distributed key (54D714D76956DA6673DC1EEA5F62009D93505F26); the fingerprint also appears on the key maintainer's published page, which is not independent proof of identity, custody, or signing authority. The signature uses legacy DSA-1024/SHA-1. Reader structure is regenerated from the exact retained USFM member and retains its source chapter and verse labels, recognized headings, introduction matter, notes, and supported structural markers. These checks do not establish translation accuracy, print completeness, source-language basis, local community review, or Church-canon identity.",
+  "transcription_note": "Display-reader extraction from publisher USFM. The exact USFM member remains in the retained source ZIP; no independent wording proofread or print collation is claimed.",
+  "editorial_signs_note": "Publisher USFM remains bundled so its original markup and reader extraction can be inspected. This reader does not replace the source encoding.",
+  "front_matter": [
+    {
+      "marker": "imt1",
+      "text": "ኣጉስ"
+    },
+    {
+      "marker": "ip",
+      "text": "ማርቆስ እንጂሉ «ኩን መገን ቤቲ መሲህ ኢስ ተሽት ላገ ዎኔሃን» የን ጀመረኖ፤ ከን እንጂል ኣዜን ኢስ ሆጎለከ ሹምነቱ ዮስ መንቹ እክ ሆንጠኮኡ፤ ሹምነቱስ ትምርቲንከሲ ሩሃንይ አሌን ዮስ ዎልቃንለከ መን ጩብ ፈቁን ዮንከስ ለልዮኡ። ኢስ «መነ ጩብ ሮስማች ነጠ ፉሾተ ነብሳኤ ህግሽ ኣሶተ አሜቾም መንችሃ ቤቱ» ይ ገዉንኩስ ጠወዕዮኡ።"
+    },
+    {
+      "marker": "ip",
+      "text": "ማርቆስ ኢስ ሄሱተ ሆንጠህሾሁ ጌጥዬለከ ዎልቀተ ዊሞ ዎቄን እሀን ጠረኝሾንኩ ኢስ ላጋንለከ ትምርቴንከስ እሁዕነ አዕዮ አጀብሲሰኖ ጠዊንት እቅ። ጠመቃንቾ ያህይ ሄሱተ ኢስ ጠመቀሙስለከ ፌተነሙስ ገበንቹ ኣጉ አዕዮች ኤተሮን ከተቦሁ ኢስ ተማርስለከ ፈይስ ክድመተ ሂር ኩለኖ። ወክቲች ኤተሮን ኢስ አሳበት ኢሰ ዎዕኔች አበ ደገን መርቶ ቁድሬን ኢሰ ግባእሩ በትስ ግበንስ መርቶኡ። ጎፍሜ ፎሎጭ አሌን ኢስ ጎፍሜ ሳምንት ኣዜን እኮ ጠውተኔሃ በትሽ ሰቀለሙስለከ ኬኡስ ኩልታእራን።"
+    },
+    {
+      "marker": "ip",
+      "text": "እንጂል ጎፍሞን ቀቦን ለልቶ ለሙ ክፍሉ መት-መቶ ከተበንቶ መጻፋን ጠለዕል ሄኣእራን።"
+    },
+    {
+      "marker": "iot",
+      "text": "መጻፉስ አፎሃ"
+    },
+    {
+      "marker": "io1",
+      "text": "እንጂልስ ዎኔሃ (1፥1-13)"
+    },
+    {
+      "marker": "io1",
+      "text": "ኢስ ክድመስ ገሊላን ጀመሩስ (1፥14—9፥50)"
+    },
+    {
+      "marker": "io1",
+      "text": "ዬሩሳሌማን ካደሙስ (10፥1-52)"
+    },
+    {
+      "marker": "io1",
+      "text": "ዬሩሳሌማንለከ አዝጋጌንከስ ጎፍሜ ሳምንተ (11፥1—15፥47)"
+    },
+    {
+      "marker": "io1",
+      "text": "ቀርቹ ሬሆች ኬኡስ (16፥1-8)"
+    },
+    {
+      "marker": "io1",
+      "text": "ሬሆች ኬዕዮ ቀርቹ ለሉስለከ ሰማ ኦሮኡስ (16፥9-20)"
+    }
+  ],
+  "source_book_metadata": [
+    {
+      "marker": "h",
+      "text": "ማርቆሴ እንጂለ"
+    },
+    {
+      "marker": "toc1",
+      "text": "ማርቆስ ከተቦ ቀርችኔ መሲህ ኢስ እንጂለ"
+    },
+    {
+      "marker": "toc2",
+      "text": "ማርቆስ እንጂለ"
+    },
+    {
+      "marker": "toc3",
+      "text": "ማር."
+    },
+    {
+      "marker": "mt1",
+      "text": "ማርቆስ ከተቦሃ"
+    },
+    {
+      "marker": "mt2",
+      "text": "ቀርችኔ መሲህ ኢስ እንጂለ"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ኩን መገን ቤቲ መሲህ ኢስ እንጂሊሃ ዎኔሃን።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ነብዬቾ እስያሴን",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«መገኑ ‹አን ወዕቃክ ቅጥአአኖ"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ሶቀማንቹኤ ብሬንከክ ሄጭ ሶሃም› ዬእ።"
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "text": "ሁኩንን፦",
+          "source_markers_before": [
+            "m"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "‹ቀርች ወቃሃ ቅጥአዕዬ፤"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ጭርቴን ጌጥ አዕዬ› የን"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ኡለ ኡድማን ላገስ ጎት አዕይ ያረኖ መንች ላገተ»"
+            },
+            {
+              "source_marker": "m",
+              "text": "የመም ከተበሞጋት።"
+            }
+          ]
+        },
+        {
+          "number": "4",
+          "text": "ህካን እኮቤቺሃ ጠመቃንቹ ያህይ «ጩብክዕኔ ፈቁን የመሞተ ቶበቴን ጠመቀሜ» የን አዋጀን ኡለ ኡድመ አሜቾ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "ይሁድ ባዶንለከ ዬሩሳሌም ከተማን ሄዕዮ መኑ ጉዕሙንኩ አሜት ጩብሰ ቶበተን ዮርዳኖስ ዛዘኖ ዋን ጠመቀኖሳት እቅ።"
+        },
+        {
+          "number": "6",
+          "text": "ህትን ያህይ ጋሜል ኦርዛች ደዴማ ኦድኑተ ኦደዕይ ረመዞንከስ ጠፍራ ቆዕረኖ እቅ፤ እስን ከንቸፈሩሃ፥ ኡድም ዳመ መለቡሃ እተኖ እቅ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "እስን «አን ሙግይ ጫዕመስ ወደሩ ሂሮተ በቀዕባሁ ኢች በተአኖሁ ኢች ኤተሪን አሜተኖ፤"
+        },
+        {
+          "number": "8",
+          "text": "ህትን አን ዊን ጠመቆንክዕኔ፤ ጠዉ እኮጎሬ እስ ጠሊለ አያኒን ጠመቀኖህዕኔ» የን አዋጀኖ እቅ።"
+        },
+        {
+          "number": "9",
+          "text": "ህከ ወክት ኢስ ገሊል ባዶን ሄዕዮ ናዝሬት ከተሚች አሜቻን ያህይ ዮርዳኖስ ዛዘኖ ዋን ጠመቆስ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ጠመቀሙስለከ ፌተነሙስ",
+            "(ማቶ. 3፥13-17፤ 4፥1-11፤ ሉቃ. 3፥21-22፤ 4፥1-13)"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "ወክትንከስ ኢስ ዊች ፉሎ ወክት ሰሞ ፊልተዕይ ፈንተዕያን ጠሊሉ አያኑ ሀንደዕሬገ እክ እስ አሌን ድረንስ ለዕዮ።"
+        },
+        {
+          "number": "11",
+          "text": "ህከ ወክት «ኢታንኬ ቤቱኤ አቴት ኪን ተሽ የኖኤ» ይታ ላገት ሰሜች አሜቶኡ።"
+        },
+        {
+          "number": "12",
+          "text": "ወክትንከስ መገን አያኑ ኢሰ ኡለ ኡድመ ኦሮአኖገ አዕዮስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "ህከን ኡለ ኡድማን ሸይጣኑ ኢሰ ፌተኖተ አጰመን ሸይሉ በር ኢስ አብል ቡሳዊን ሜጡበ ዱንኬእ፤ ሰሜ መላይከንት ካደንቶስ።"
+        },
+        {
+          "number": "14",
+          "text": "ያህይ ኡሱሬማች ኤተሮን ኢስ መገን ተሽት ላገተ አዋጀን ገሊለተ አሜቾ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ተማርስ ሆጉተ ገሊላን ጀመሩስ",
+            "(ማቶ. 4፥14-17፤ ሉቃ. 4፥14-15)"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "እስን «ዘማኑ ጎፎኡ፤ መገን ዎምነቱ ሆንጠኮቤቺሃ ጩብችክዕኔ ፈንቀልቴን ተሽት ላጋን አመዕንዬ» የኖት እቅ።"
+        },
+        {
+          "number": "16",
+          "text": "ኢስን «ገሊለ» ዬኖ ባር መዴን ህገን ስሞንለከ አመስቤቱ እንድርያሴን ቁርጩሜተ ዎሻዳእራ እኮቤቺሃ ዎሻደሳ ባር አሌን ኡጅተን ለዕዮሰ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ቁርጩሜተ ዎሻዳ ሾሉ መነ ገኡስ",
+            "(ማቶ. 4፥18-22፤ ሉቃ. 5፥1-11)"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "እሰንተ ኢስ «ኤሳሃ አዎኜ፤ አዕኑ ቁርጩሜተ ዎሻዴነንተገን መነ መገን አደ ኤቤነንተረ ኣሳንክዕኔ» ዬሰ።"
+        },
+        {
+          "number": "18",
+          "text": "ወክትንከስ ወሻደሰ ኡጅት አዎንቶስ።"
+        },
+        {
+          "number": "19",
+          "text": "ኢስ ህከንቤቺች ቀውተ ህጎገን ዘብዴዎሴ ኦሱት ያቁቢለከ ያህይ ጀልብሰ አሌን አፉዕልት ወሻደሰ መክሰን ለዕዮ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "ኢስን ወክትንከስ ገኤሰ፤ እሰን ያቁብ ያህይ አነሰ ዘብድዎሴለከ አኒሃሰ ሆጉተ አአኖ መነሃ ጀልብ ኣዜን አጉርት ኢሰ አዎንቶስ።"
+        },
+        {
+          "number": "21",
+          "text": "ኢስ አሳባንተስን «ቅፍርናሆመ» ዬኖ ከተመ አሜች አበ በሬን ጭምት ምኒ ኣግ ተማርሱ ጀመሮ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ዱሩ አፎስ መንቹ ፈዩስ",
+            "(ሉቃ. 4፥31-37)"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "ኢስ ሕገ ተማርስታሀኑኡገ እሁዕነ ሎሩ ሹምነቱ ዮስ መንችገ ተማርሰኖሃ ለእ ህከኔ ሄዕዮ መኑ ሞጮጭት ትምርቴንከስ አበ አጀብሲጭቶኡ።"
+        },
+        {
+          "number": "23-24",
+          "text": "ጭምትሰ ምናንን መቱ ዶሮረኖ አያኑ አፎስ መንቹ ሄዕዮ እቅ፤ እስን «ናዝሬት ኢሰ! ኔሳለከ ኬሳሃ ም ደቀንሹ ዮኔ? ቤሶኔተ አሜትንዶ? አት አዬት ጎሬ አን ደጋንኬ፤ አት መገንያ ጠሊለ» የን ሎረ ላጋን ያሮ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "ጠዉ እኮጎሬ ኢስን «ጨለይት እሲች ፉል» ይ ሻቆስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "ሁኩ ዶሮረኖ አያኑ ህከ መንቹ መቱ ጌሰ ከጣቀንሴሲች ኤተሮን ሎረ ላጋን ያረን እሲችን ፉሎ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "27",
+          "text": "ህከኔ ሄዕዮ መኑ ጉዕሙንኩ «ኩን መርቾሃን? ዶሮርታ ዱራከተ ሹምነቲንከስ ተማርስሃን አዘዘንታስ» ይተን አጀብሲጭት መቱ መቱሰ ጠዕምቶኡ።"
+        },
+        {
+          "number": "28",
+          "text": "ህከ ወክትንከ ዱዱቡስ ገሊላ ባዶን ጉዕማንን ሞጮጨሞ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "29",
+          "text": "ህከኒች ኤተሮን ኢስ ያቁብንለከ ያህይን ሜጡበ ጭምት ምኒች ፉል ሲሞኔለከ እንድርያሴ ምኒ ኣጎ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ልግብ ጥዘናመተ ፈይሱስ",
+            "(ማቶ. 8፥14-17፤ ሉቃ. 4፥38-41)"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "ህከኔን ስሞኔ በሉት ፋረ ደሙሜን አበ ጥዝ ኦሰኦ እቅ፤ እሴ ጥዞገ ወክትንከስ ኢሲሃ ኩለሞስ።"
+        },
+        {
+          "number": "31",
+          "text": "ኢስን አንገሴ አፍ ኬሻንሴ ፋረ ደሙሜ ጥዘናችሴ ፈይቶኡ፤ እሴን ኬእ እሰንተ ካደንቶሰ።"
+        },
+        {
+          "number": "32",
+          "text": "ህከ በር አሩ ኣገን ሀዎርዮ ወክቴን መኑ ጥዘናመተለከ ሩሃንዪን አፈንቶረ ጉዕመንከ ኢስበ ኤባኢት እቅ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "33",
+          "text": "ከተምስ መኑ ጉዕሙንኩ ህከን ኡሮን ጭምይቶኡ።"
+        },
+        {
+          "number": "34",
+          "text": "ኢስን ልግብ መነ አደደ ጥዘናች ፈይሾ፤ ልግብ ሩሃንየንከ ፉሼእ፤ ልግቡ ሩሃንዩንኩ ኢስ አዬት ጎር ደጎስቤቺሃ ኢስ ጠወኦተ ፈቀጆሰበ እቅ።"
+        },
+        {
+          "number": "35",
+          "text": "ኢስ ሶዞተ ሆንጠኮ ወክቴን ኬዕይ መኑ ዮበእቤቹ መር ህከን ቤቾን ዱአ አዕዮ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ገሊላን ተማርሱስ",
+            "(ሉቃ. 4፥42-44)"
+          ]
+        },
+        {
+          "number": "36",
+          "text": "ጠዉ እኮጎሬ ስሞንለከ እሲን ሜጡበ ሄኦእሩ ኢሰ ሀሶተ ፉልቶኡ።"
+        },
+        {
+          "number": "37",
+          "text": "እሰን ደጎስ ወክት «መኑ ጉዕሙንኩ ኬሳሃ ሀሰኖሄት» ይቶስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "38",
+          "text": "ኢስን «ወዕናንከ አሜቾሚሁ ተማርሶተ እኮቤቺሃ ግደኖ ዮ ቀእተ መርን ህከኔ ተማርስኖ» ዬሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "39",
+          "text": "ህካን እኮቤቺሃ ጭምትሰ ምናን ዱዱብሰንለከ ሩሃንየ ፉሸን ገሊለ ባዶን ዮ ጉዕመ ቤቹንከ ፈንቀላመኖ እቅ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "40",
+          "text": "ጎግ አል ጥዘነተ ጥዦ መንቹ ኢስበ አሜች ሎከስ አሌን ኡብ «ኢትቶንቴኤ ጎሬ ፈይሶኤተ አታልታንት» ይ ኡጬስ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ጎግ አል ጥዘነተ ፈይሱስ",
+            "(ማቶ. 8፥1-4፤ ሉቃ. 5፥12-17)"
+          ]
+        },
+        {
+          "number": "41",
+          "text": "ኢስን አበ መረርስጭ አንገስ አሌስ አዕይ «ፈቀጆም ፈይ» ዬእ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "42",
+          "text": "ወክትንከስ ጎግ አል ጥዘነት ገፈርታንስ ፈዬእ።"
+        },
+        {
+          "number": "43-44",
+          "text": "ኢስን ህከ መንቹ «ከ ጠወሃ አዬሃ ጠወኣንትበእገ አገዕር፤ ጠዉ እኮጎሬ ሎረ ቂስችበ መርት ጅስመክ ለሊስ፤ መሰንትስ አት ነጠ እክ ፈይቶንትገ መኑ ደጎተ ሙስ አዘዦገን መገኒሃ ክትም ሆንጠህስ» ይ አዘዦስ።"
+        },
+        {
+          "number": "45",
+          "text": "ጠዉ እኮጎሬ ሁኩ መንቹ ጠወስ ወክትንከስ መኒሃ ጠወኡ ጀመሮ፤ ህከን መንች መሳን ኢስ ከተማን ለል ፈንቀላሞተ አታሉ ሆጎቤቺሃ ከተሚች አብሌን መኑ ዮበእቤቾን ሄአኖ እቅ፤ ህካን እኮቤቺሃ መኑ እስዮቤቹ ጉዕመ ቤቺችን አሜተኖ እቅ።",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "1",
+          "marker": "Translator/editor note",
+          "text": "+ መት-መቱ ክታበት «መገን ቤቱ» ይታ ላገተ በርግታበአ።",
+          "note_type": "translator_note",
+          "source_reference": "1:1"
+        },
+        {
+          "verse": "2",
+          "marker": "Translator/editor note",
+          "text": "- ሚክ. 3፥1።",
+          "note_type": "translator_note",
+          "source_reference": "1:2"
+        },
+        {
+          "verse": "3",
+          "marker": "Translator/editor note",
+          "text": "- ኢሳ. 40፥3።",
+          "note_type": "translator_note",
+          "source_reference": "1:3"
+        },
+        {
+          "verse": "6",
+          "marker": "Translator/editor note",
+          "text": "- 2 ነገ. 1፥8።",
+          "note_type": "translator_note",
+          "source_reference": "1:6"
+        },
+        {
+          "verse": "11",
+          "marker": "Translator/editor note",
+          "text": "- ክል. 22፥2፤ መዝ. 2፥7፤ ኢሳ. 2፥1፤ ማቶ. 3፥17፤ 12፥18፤ ማር. 9፥7፤ ሉቃ. 3፥22።",
+          "note_type": "translator_note",
+          "source_reference": "1:11"
+        },
+        {
+          "verse": "15",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 3፥2።",
+          "note_type": "translator_note",
+          "source_reference": "1:15"
+        },
+        {
+          "verse": "21",
+          "marker": "Translator/editor note",
+          "text": "+ ጭምት ምኒ፦ የኖሁ አይሁድ መኑ ዱአ አታእሃ ምኒ።",
+          "note_type": "translator_note",
+          "source_reference": "1:21"
+        },
+        {
+          "verse": "22",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 7፥28።",
+          "note_type": "translator_note",
+          "source_reference": "1:22"
+        },
+        {
+          "verse": "39",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 4፥23፤ 9፥35።",
+          "note_type": "translator_note",
+          "source_reference": "1:39"
+        },
+        {
+          "verse": "43-44",
+          "marker": "Translator/editor note",
+          "text": "- ሌዌ 4፥1-32።",
+          "note_type": "translator_note",
+          "source_reference": "1:43-44"
+        }
+      ],
+      "heading": [
+        "ጠመቃንቹ ያህይ አዋጄገ",
+        "(ማቶ. 3፥1-12፤ ሉቃ. 3፥1-18፤ ያህ. 1፥19-28)"
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ቀዎ በሬች ኤተሮን ኢስ ቅፍርናሆም ከተመ ፈንቀል አሜቾ፤ ህከን ቤቾን «ኢስ ምኔን ዮኡ» ዬኖ ዱዱቡ ሞጮጨሞ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ህከ ወክት ልግቡ መኑ ኢስ ዮ ምኒ ኡሩት ሩክታኢሃ ኢለ ጭምዬእ፤ ህከኔን ኢስ መገን ላገተ ተማርሰኖሳት እቅ።"
+        },
+        {
+          "number": "3",
+          "text": "ህከ ወክት መቱ ናፈ መንቹ ሾሉ መኑ እጅት ኤቦኡ።"
+        },
+        {
+          "number": "4",
+          "text": "ጠዉ እኮጎሬ መኑ በተዕዮቤቺሃ ህከ ናፈ መንቹ ኢስበ ሆንጠህሶተ ቤቹ ሩኬሰቤቺሃ ኢስ ዮ አዲን ምኒ እልተ ፈንት ናፈ ኦሰዕዮ ዴስንከስን ድርሶኡ።"
+        },
+        {
+          "number": "5",
+          "text": "ኢስን አመዕነቱሰ ለዕይ ናፈ መንቹ «ኢ ጩሌ ጩቡክ ፈቁን የማሞሄ» ዬስ።"
+        },
+        {
+          "number": "6-7",
+          "text": "ህከኔ አፉዕልቶ ሕግ አስተማራች መት-መቱሰ ቀልቤንከሰ «ኩ መንቹ ሚሃት ህትኔ ቦሮር ላገተ መገን አሌን ጠወአኖሁ? ሜጡወ መገን ቤሉ ጩብ አጉሮተ አታለኖሁ አዬት?» ይት ሰውይቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "ወክትንከስ ኢስ ቀልብሰ ጠወ አያኒንከስ ደግ «ሚሃት ቀልቤንከክዕኔ ካን ሰውይቴነንታሁ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "ናፈ መንቹ ‹ጩቡክ አጉረሞሄ› ዪቺለከ ‹ኬእ ዴሰክ እጅት ኦሮእ› ዪቺ ሀኩንስ ቆሀኖ?"
+        },
+        {
+          "number": "10",
+          "text": "ጠው እኮጎሬ መንች ቤቱ ኡለ አሌን ጩብ ፈቁን ዮተ ሹምነቱ ዮሲሃ እሁስ ደጌ» ይ ናፈ መንቹ"
+        },
+        {
+          "number": "11",
+          "text": "«ኬእ ዴሰክ እጅት ምንክ ኦሮእ ያንኬ» ዬስ።"
+        },
+        {
+          "number": "12",
+          "text": "ናፉንኩ ወክትንከስ ዴሰ እጅ መን ብሬን ፉሎ፤ ህካን እኮቤቺሃ መኑ ጉዕሙንኩ አጀብሲጭ «ህትኔ ጠወ ሆሮን ለዕኖምበአ» ይት መገኑ ገለትጭቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "ኢስ ፈንቀል ገሊለ ባር መድ ኦሮዕዮ፤ ልግቡ መኑ እስበ አሜታን ተማርሴሰ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ማቶሴ ዬኖ ሌዊ ገኡስ",
+            "(ማቶ. 9፥9-13፤ ሉቃ. 5፥27-32)"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "ህከን አዲን ህገን እሊፍዮሴ ቤቱ ሌው ቀረጠ ሙረን ለዕይ «አዎኔኤ» ዬስ፤ እስን ኬዕይ አዎኞስ።"
+        },
+        {
+          "number": "15",
+          "text": "ህከ ወክት ኢሰ አዎኞ መኒች ልግቡሰ ቀረጠ ሙርታሀኑኡንለከ ጩበኛኖን ጉዕሙንኩ ኢሲንለከ አሳባን ሜጡበ እክ ሌዌ ምኔን እቸተ እታኢት እቅ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "ፈሪሳዌ አዲች ሕግ አስተማረት ኢስ ቀረጠ ሙርታሀኑኡንለከ ጩበኛኖን ሜጡበ እተን ለእ «ጩበኛኖንለከ ቀረጠ ሙርታሀኑኡን እተኖሁ ሚሃት» ይት አሳበስ ጠዕምቶሰ።"
+        },
+        {
+          "number": "17",
+          "text": "ኢስን ህካን ሞጮጭ «ሀኪሙ ሀስሰኖሁ ጥዘናማታት ቤሉ ፈየ መኒሃበአ፤ አን አሜቾሚሁ ጠሊላኑተ እሁዕነ ጩበኛኑተ ገኦታት» ዬሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "ጠመቃንቹ ያህይ አዎንታእሩለከ ፈርሳውት ሶመንታ እቅ፤ ህካን እኮቤቺሃ መቱ-መቱ መኑ ኢስበ አሜት «ጠመቃንቾ ያህይለከ ፈርሳዊተ አዎንታእሩ ሶመንታ፤ ጠዉ እኮጎሬ ኪ አሳበት ሶመንታበኢሁ ሚሃት?» ይት ጠዕምቶኡ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ሶመንተኔሃ ኢሰ ጠዕሜመገ",
+            "(ማቶ. 9፥14-17፤ ሉቃ. 5፥33-39)"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "ህከ ወክት ኢስን ኢዜቹ እሳን ሜጡበ ሄአን ጃለስ ሶመንቶተ ሀስሰኖሰንዶ? ሀስሰኖሰበአ፤ እዜቹ እሳን ሜጡበ ሄዕዮገ ሶመንታበአ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "ጠዉ እኮጎሬ «እዜቹ እሳች ኣኤኖ በሩ አሜተኖ፤ እሰን ህከ ወክት ሶመንታአ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "«ኑባጵቶ ኦድኖን ሃዕሮ ቃፈተ ቃፈኖሁ ዮበአ፤ ጠዉ እኮጎሬ ህካን አዕዮ ጎሬ ሃዕሮ ቃፈት ኑባጵቶ ኦድኑተ ሁዙዝ ፍልታአ፤ ሁኩ ፍልተዕዮ ቤቹንኩ ወዕኔች ባሰ እሀኖ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "ህትን ኑባቾ ሆቆማዶን ሃዕሮ ቃርቡተ ፉሸኖሁ ዮበአ፤ ህካን አኤመ ጎሬ ቃርቡት ሆቆማዱ ፊልታአ፤ ህትን ቃርቡንት ዱንተኣአ፤ ሆቆማዱንኩ ፊልተአኖ፤ ጠዉ እኮጎሬ ሃዕሮ ቃርቡተ ሃዕሮ ሆቆማዶን ዎሩ ሀሲሰኖ» ዬሰ።"
+        },
+        {
+          "number": "23",
+          "text": "አበ በሬን ኢሰ አዎንታእሩ አለስ ዉጠ በሊን ህገን አዎንታእሩ አለስ ሀማሙተ ተንቅሱ ጃመርቶኡ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "አበ በሬተኔሃ ሆንጠኮ ጠዕምቱተ",
+            "(ማቶ. 12፥1-8፤ ሉቃ. 6፥1-5)"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "ህከ ወክት ፈርሳውት ኢሰ «ከ ለእ! ኬሳሃ አዎንታእሩ አበ በሬን አኡ ፈቀዴንባሃ ሚሃት አታኢሁ?» ይት ጠዕምቶኡ።"
+        },
+        {
+          "number": "25-26",
+          "text": "ኢስን « ‹ኣብያተሬ› ዬኖ መንቹ ሎረ ቂስቹ እክ ሄዕዮ ወክት ደዉድለከ ደዉዴን ሜጡበ ሄኦ መኑ ጎሩ አፋንሰ ኦርጨቀንቶ ወክት ደዉድ ዱእ ምኒ ኣግ ሎረ ቂስ ቤሉ ዎሉ መኑ እቱ ፈቀደሞበእ መገን የመንቶ ዳቡተ እቾገለከ እሲን ሜጡበ ዮ መኒሃ ኣሴጋ አነበቤንታበእንዶ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "27",
+          "text": "ህትን አበ በሩ መኒሃ ከለቀሞ ቤሉ መኑ አበ በሬተ ከለቀሞበአ።"
+        },
+        {
+          "number": "28",
+          "text": "ህካን እኮቤቺሃ መንች ቤቱ አበ በሬተ ቀርቾሃ» ዬእ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "5",
+          "marker": "Source illustration omitted",
+          "text": "Source illustration omitted (image reuse terms not established). Caption: አይሁድ ፉቅ ሚኒ. Alt text: Single story flat-roofed house. Source asset: LB00234B.tif.",
+          "note_type": "source_asset_omitted",
+          "source_reference": null
+        },
+        {
+          "verse": "23",
+          "marker": "Translator/editor note",
+          "text": "- ዘዳ. 23፥25።",
+          "note_type": "translator_note",
+          "source_reference": "2:23"
+        },
+        {
+          "verse": "25-26",
+          "marker": "Translator/editor note",
+          "text": "- ሌዌ 24፥9።",
+          "note_type": "translator_note",
+          "source_reference": "2:25-26"
+        }
+      ],
+      "heading": [
+        "ኢስ ናፈ መንቹ ፈይሱስ",
+        "(ማቶ. 9፥1-8፤ ሉቃ. 5፥17-26)"
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ለንኪሃ ኢስ ጭምት ምኒ ኣጎ፤ ህከኔን አንገተ ናፉ መንቹ ሄዕዮ እቅ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ጠዉ እኮጎሬ ኢሰ ከሰሶተ ሀሶ መኑ «አበ በሬን ፈይሰኖ ጎሬ ለዕናም» ይት አገርታኢት እቅ።"
+        },
+        {
+          "number": "3",
+          "text": "ኢስን ህከ አንገተ ናፈ መንቹ «አም ከን በላን ኡር» ዬስ።"
+        },
+        {
+          "number": "4",
+          "text": "ህከኒች ኤተሮን ኢስ «አበ በሬን ጡመ ህከረንገ ሂለ አኡ ፈቀደሞኡ? ፎል ጡምሱንዶ ህከረንገ ፎል ቤሱ?» ይ ጠዕሜሰ፤ ጠዉ እኮጎሬ እሰ ጨለ ይቶኡ።"
+        },
+        {
+          "number": "5",
+          "text": "ኢስን ቀልብሰ ዱድመተ ለዕይ አበ ሻዥ መዴስ ዮ መነ ኡሙዕሬን ለዕይ ህከ አንገተ ናፈ መንቹ «አንገክ ሂር» ዬስ፤ እስን አንገተ ሂሮ ወክት አንገስ ፈይቶኡ።"
+        },
+        {
+          "number": "6",
+          "text": "ወክትንከስ ፈሪሳውት ጭምት ምኒች ፉልት ኢሰ ሀት አት ሽቶተ አታልታ ጎሬ ሄሮድሴን ሜጡበ ዮ መኒን አማዕለንቶኡ።"
+        },
+        {
+          "number": "7-8",
+          "text": "ኢስ አሳባንተስን ሜጡበ ገሊለ ባርበ ኦሮዕዮ፤ ኢስ አዕዮ አጀብሲሰኖ ጠወ ሞጮጭቶ ወክት ልግቡ መኑ አዎኞስ፤ አዎንቶስሩንኩ ገሊል ባዲች፥ ይሁድ ባዲች፥ ኤዶምየ ባዲች፥ ዮርዳኖስ ዉድ አዲን ዮ ባዲች፥ ህትን ዬሩሰሌም ከተሚች፥ ጢሮስ ከተሚችለከ ስዶን ከተሚች አሜቶዕረ እቅ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኡመቱ ባር መዴን ኢስበ ጭምይቶገ"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "መኑ በተዕዮቤቺሃ ሀንበዕለመን ሃሙ ከመኖስበእገ ጀልበ ቅጥአቶተ አዎናኑስ ኣዘዦ።"
+        },
+        {
+          "number": "10",
+          "text": "ልግብ መነ ጥዘናች ፈይሾቤቺሃ ጥዘናን ኦርጨቀንታሩ ጉዕሙንኩ አንጋን አፎስተ ሀንበዕለንታ እቅ።"
+        },
+        {
+          "number": "11",
+          "text": "ዶሮርታ አያናከት እሱ ለኦ ወክት ብሬስ ኡብ «አት መገንያ ቤቱ» ይተን ያርታ እቅ።"
+        },
+        {
+          "number": "12",
+          "text": "ጠዉ እኮጎሬ ኢስ ገዉስ አዬት ጎሬ ኩልታበእገ ጠረኝሽ አዘዦሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "ኢስ ቆተ አል ፉሎ ወክት እስ ሀሾሰረ እስበ ገኤእ፤ እሰን እስበ አሜቶኡ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ቶነ ለሙ አሳበተ መጠሩስ",
+            "(ማቶ. 10፥1-4፤ ሉቃ. 6፥12-16)"
+          ]
+        },
+        {
+          "number": "14-15",
+          "text": "እሰን እስን ሜጡበ ሄኦታ፥ ተሽት ላገተ ተማርስቶተ ሶሆሰተለከ ሩሃንየ ፉሽታ ሹምነቱ ኣሶተ ቶና ለሙንከሰ መጠር አሳበተ ይ ሱዕምሾሰ።"
+        },
+        {
+          "number": "16",
+          "text": "እሰን መጠሮሰ ቶነ ለሙንኩ አሳበት ከኑኡታን «ጴጥሮሴ» ይ ሱዕመ ፉሼ ስሞኒ፥",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "«ቦአርኔጌስ» ህከረንገ «ጉገኛ ኦሱተ» ይ ሱዕምሾሰ ዘብዴዎሴ ኦሱት ያቁባትለከ ያህይት፥"
+        },
+        {
+          "number": "18",
+          "text": "እንድርያሴት፥ ፍልጶሴት፥ ባርቶሎሞሴት፥ ማቶሴት፥ ቶማሴት፥ እልፍዮሴ ቤቱ ያቁባት፥ ታዶሴት፥ ባዱስ ኢተኖ ስሞኔት፥"
+        },
+        {
+          "number": "19",
+          "text": "ኢሰ ህግሽ ኣሴ አስቆሮቶ ይሁዳቲ እቅ።"
+        },
+        {
+          "number": "20",
+          "text": "ኢስ ምኒ ኦሮዕያን ልግቡ መኑ ለንኪሃ ጭምይት አሜቶኡ፤ ህካን እኮቤቺሃ ኢስለከ አሳበት እቸተ እታ ወክቱ ዮሰበአ እቅ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢሰለከ ብዔልዘቡለ",
+            "(ማቶ. 12፥22-32፤ ሉቃ. 11፥14-23፤ 12፥10)"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "«ኢስ በርገጎኡ» ዬኖሃ እሉስ ሞጮጭቶ ወክት እሱ አፎተ አሜቶኡ።"
+        },
+        {
+          "number": "22",
+          "text": "ዬሩሳሌሚች አሜቶ ሕግ አስተማረት «እሱ ብዔልዘቡል አፎስ፤ እስ ሩሃንየ ፉሸኖሁ ህከን ሩሃንይ ዎመ ብዔልዘቡል ወልቃኒት» ይታ እቅ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "ኢስን እሰንተ እስበ ገእ ምሳሌን «ሼይጣኑ ሀት አዕይ ሼይጣን ፉሾተ አታለኖ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "መቱ ዎሙ ገሸኖ መኑ ገገዉንኩስን አደ እክ ብተመኖሃ እኮች ሁኩ ዎሙ ሀት እክ ጠረኝ ኡሮተ አታለኖ?"
+        },
+        {
+          "number": "25",
+          "text": "ህትን መቶ ምኔን ሄአኖ መኑ ብተንት ሀት እክ ጠረኝት ሄኦተ አታልታአ?"
+        },
+        {
+          "number": "26",
+          "text": "ህካን እኮች ሼይጣኑ ገገዉስ አደ እክ ብተመኖሃ እኮች በአኖ ቤሉ ጠረኝ ሄኦተ አታለኖበአ።"
+        },
+        {
+          "number": "27",
+          "text": "«ህትን መቶ ጠረኘ መንች ምኒ ኣጌን ቦጎኖተ ሄጬን ህከ ጠረኘ መንቹ ኡሱሮኑዕነ ምንስ ኣጌን ቦጎኖተ አታሌኖበአ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "ሀንቅንከ ያንክዕኔ፤ ኡመቱ አታ ጩቡለከ ጠወኣ ቦሮር ላገት ጉዕሙንኩ ፈቁን የመመኖሰ።"
+        },
+        {
+          "number": "29",
+          "text": "ጠዉ እኮጎሬ ጠሊለ አያን አሌን ቦሮር ላገተ ጠወአኖሀን አሌን ጉዕማንን ዘላለሚሃ መገን ኡሙዕርት አሌስ እካ ቤሉ ጩቡስ ማረመኖስበአ» ዬሰ።"
+        },
+        {
+          "number": "30",
+          "text": "ኢስ ህካን ጠወዕዮሁ «ዱሩ አፎስ» ይቶ መሳኒት እቅ።"
+        },
+        {
+          "number": "31",
+          "text": "ኢስ አመትለከ አመስኦሱት አሜት አብሌን ኡርት እስበ መነ ሶክ ገእሲሶስ፤",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ አመተለከ አመስ ኦሱተ",
+            "(ማቶ. 12፥46-50፤ ሉቃ. 8፥19-21)"
+          ]
+        },
+        {
+          "number": "32",
+          "text": "ኢስ መዴን ልግቡ መኑ አፉዕልዮ እቅ፤ እሰን «አመክለከ አመክ ኦሱት አብሌን ኡርት ኬሳሃ ሀሳሄት» ይት ኩልቶስ።"
+        },
+        {
+          "number": "33",
+          "text": "እስን «አመኤለከ አመኤ ኦሱት አዬኤታን?» ይ መስለ ፈንቀሼሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "34",
+          "text": "ኢስን መዴስ አፉዕልቶሀኑ አደ ለአን «አመኤለከ አመኤ ኦሱት ከኑኡታን።"
+        },
+        {
+          "number": "35",
+          "text": "መገን ሰውት አአኖ አዪሁ እኮጎር ኤሳሃ አመዕያ ቤቱ፥ አመኤተ ቤቱለከ አመተኤ» ዬእ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "9",
+          "marker": "Translator/editor note",
+          "text": "- ማር. 4፥1፤ ሉቃ. 5፥1-3።",
+          "note_type": "translator_note",
+          "source_reference": "3:9"
+        },
+        {
+          "verse": "23",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 9፥34፤ 10፥25።",
+          "note_type": "translator_note",
+          "source_reference": "3:23"
+        },
+        {
+          "verse": "29",
+          "marker": "Translator/editor note",
+          "text": "- ሉቃ. 12፥10።",
+          "note_type": "translator_note",
+          "source_reference": "3:29"
+        }
+      ],
+      "heading": [
+        "ኢስ አንገተ ናፈ መንቹ ፈይሱስ",
+        "(ማቶ. 12፥9-14፤ ሉቃ. 6፥6-11)"
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ኢስ ለንኪሃ ገሊለ ባር መዴን ተማርሱ ጀመሮ፤ ልግቡ መኑ እስቤቾን ጭምይታን እስ ባር አሌን ዮ ጀልባን ኣግ አፉዕሌእ፤ ህትን ልግቡ መኑ ባር መዴን ሄዕዮ እቅ፤",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ህከኔን ኢስ ምሳሌን ልግብርቹ ተማርሰኖት እቅ፤ ተማርሰንን"
+        },
+        {
+          "number": "3",
+          "text": "«ሞጮጭዬ! መቱ አቡራንቹ ዜሬተ አፍ ዉጦተ ፉሎ።"
+        },
+        {
+          "number": "4",
+          "text": "ዜሬተ ዉጠንን መት-መቱስ ዎቄ አሌን ኡባን ጪኡት ኣሜት እቶኡ።"
+        },
+        {
+          "number": "5",
+          "text": "ህትን ዎሉ ዜሬቱ ልግቡ ትቡ ዮበእቤቾን ክን ኣሌን ኡብ ደዕልን ሙቾ፤ መሰንትስ ቤቾንከስ ኣዝ ኢለ ልግቡ ትቡ ዮበአ እቅ።"
+        },
+        {
+          "number": "6",
+          "text": "ሁኩንን አሩ ፉል ቀሾረ ቆሮ፤ ህትን ሙቾንኩ ጠጱ ዮስበእቤቺሃ ሞሎ።"
+        },
+        {
+          "number": "7",
+          "text": "ዎሉስ ዜሬቱ ኡቱ ጭምዬ በላን ኡቦ፤ ኡቱንኩ ነጵ ለንግ አፎስቤቺሃ አቶተ አቶቱዕነ ፈቆ።"
+        },
+        {
+          "number": "8",
+          "text": "ህትን ዎሉስ ዜሬቱ ጡመ ኡላን ኡብ ሙቾ፤ ሙቾንኩ ነጵ አቶተ አቶቾ፤ ሁኩንን መቱስ ሰጁ ዎሉስንገ ሌሃዉ ፈቆሲሁ ጥብተ አቶቾ» ዬእ።"
+        },
+        {
+          "number": "9",
+          "text": "ኢስን «ሞጮጭታ መጨት ዮሲሁ ሞጮጩን!» ዬእ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "ኢስ ሜጥሀስ ሄዕዮ ወክት መዴንከስ ሄኦ መኑለከ ቶና ለሙንኩ አሳበት ሜጡበ ምሳሌስ ፍሳረተ ጠዕምቶስ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ምሳሌን ሚሃ ጠወዕዮ ጎር",
+            "(ማቶ. 13፥10-17፤ ሉቃ. 8፥9-10)"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "እስን «ክዕኔሃ መገን ዎምነትስ ምስጥር ደጎኖተ ኣሰሞህዕኔ፤ ጠዉ እኮጎሬ አብሌን ዮሀኑኡተ ጉዕሙ ጠዉንኩ ምሳሌን ኩለመኖሰ።"
+        },
+        {
+          "number": "12",
+          "text": "ህካን እኮቤቺሃ",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "« ‹እሰ መገን አደ ፈንቀልቶ እቃ"
+            },
+            {
+              "source_marker": "q2",
+              "text": "መገኑ ጩብሰ አጉረኖሰ እቅ፤"
+            },
+            {
+              "source_marker": "q1",
+              "text": "ጠው እኮጎሬ እሰን ለአን ለኦኢሃ ደጋበአ፤"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ህትን ሞጮጭተን ሰዉ ይት ኣእታበአ› » ዬሰ።"
+            }
+          ]
+        },
+        {
+          "number": "13",
+          "text": "ኢስን «ክዕኔሃ ት ምሳልት ኣጎህዕኔበእንዶ? ህከረ ዎልት ምሳልተ ሀት አቴን አጥራመቶኖተ አታልቴነን?",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ዉጣንች ምሳሌ ፍሳረተ",
+            "(ማቶ. 13፥18-23፤ ሉቃ. 8፥11-15)"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "ዉጠኖሁ መገን ላገተ ኩለኖሃን።"
+        },
+        {
+          "number": "15",
+          "text": "ሁኩ ዎቄ ገበላን ኡቦ ዜሬቱ ለሊሰኖሁ ላገስ ሞጮጨኑሃ መነ፤ እሰን ሞጮጭቶ መገን ላገተ ሼይጣኑ አሜች ቀልብችሰ መጭ መሰኖ።"
+        },
+        {
+          "number": "16",
+          "text": "ህትን ሁኩ ክን አሌን ኡቦ ዜሬቱ መገን ላገት ኩለንታ ወክት ተሽቲን ደዕል ቶገኖ መነ አጉደኖ።"
+        },
+        {
+          "number": "17",
+          "text": "ጠዉ እኮጎሬ እሰን ወክትሃሲት ቤሉ ጠጱ ዮሰበእቤቺሃ ጠረኝት ኡርታበአ፤ ህከን ላገ መሳን መት ኦሪሸት ህከረንገ ቶቸሙ አሜቾ ወክት ደዕልት ቆዕልት ኡባአ።"
+        },
+        {
+          "number": "18",
+          "text": "ህትን ዎሉንገ ጭምዬ ኡት በላን ኡቦ ዜሬትጋት፤ እሰን ላገስ ሞጮጭታእሃ መነ፤"
+        },
+        {
+          "number": "19",
+          "text": "ጠዉ እኮጎሬ ከን ኣዱንያ አል ሻዘነት፥ ዱንያተ ኢቱሁ ዎሉ ልግብርቹ ሄዕላቱ ቀልብሰ ኣዝ ኣግ ህከ መገን ላገተ ለንግ አፋን አቶቱዕነ ፈቆኡ።"
+        },
+        {
+          "number": "20",
+          "text": "ጠዉ እኮጎሬ ጡመ ኡላን ዉጠሞ ዜሬቱ ለሊሰኖሁ መገን ለገተ ሞጮጭት ቶጋእሃ መነ፤ ሁኩ መኑንኩ መቱስ ሰጁ መቱንገ ሌሃዉ ዎሉንገ ጥብተ አቶተኖ» ዬእ።"
+        },
+        {
+          "number": "21",
+          "text": "ለንኪሃ ኢስ ፈንቀሽ «መኑ ኩራዘ አፍሲሽ ሰቀሌኖ ቤቾን አፉሹ አጉር ዛሌ ኣዜን ህከረንገ ሀንሸሪች ዎሮን አፉሸኖንዶ?",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "መብራቱ ለሊሰኖሁ ኑር ኣሲሃ እሁስ",
+            "(ሉቃ. 8፥16-18)"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "ህትን ሀኩ ማጠሞርቹ ለሉዕነ ህትን እፍሰሞርቹ ፈንተኡዕናን ፈቀኖበአ።"
+        },
+        {
+          "number": "23",
+          "text": "ሞጮጭታ መጨት ዮሲሁ ዮ ጎሬ ሞጮጩን» ዬሰ።"
+        },
+        {
+          "number": "24",
+          "text": "ኢስን «ሞጮጭቴነንታሃ ጉዕመንከ አገዕርዬ፤ አዕኑ ዎሎ መናን ፈረዴንተገን ክዕኔ አሌን ፈረደመኖ፤ በትሽን በርገመኖህዕኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "ዮስሀኒሃ ኣሰመኖስ፤ ጠዉ እኮጎሬ ዮስበእሀኒች ሁኩ ዮሲንኩ ኣአመኖስ» ዬእ።"
+        },
+        {
+          "number": "26",
+          "text": "ህከኒች ኤተሮን ኢስ «መገን ዎምነቱ ኡለ አሌን ዜሬተ ዉጦተ ፉሎ መንቹ አጉደኖ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ዜሬት ነጵ ምሳልተ"
+          ]
+        },
+        {
+          "number": "27",
+          "text": "ሁኩ ዜሬተ ዉጮ መንቹንኩ ሀንከዕርተ ኦሰአኖ፤ ሶዦ ወክት ኦሶች ኬአኖ፤ ሁኩ ዉጠሞ ዜሬቱ ሀት እሀኖጎሬ ዳጎኑዕናን ሙች ነጰኖ።"
+        },
+        {
+          "number": "28",
+          "text": "ኡለት ገይንትሴ ህከ ሙተ ነስታአ፤ ህከኒች ኤተሮን ሀበረ ኤበኖገ አታአ፤ ህከ ሀበረ ነስቶች ኤተሮን አቶተ አቶተኖገ አታአ።"
+        },
+        {
+          "number": "29",
+          "text": "ዉጠት ኢልቶ ወክት ወክቱስ ዉጠተ ጭም አኤኖ ወክት እኮቤቺሃ መንቹስ ዘዘረተ ቅጥ አዕይ ምደኖ» ዬእ።"
+        },
+        {
+          "number": "30",
+          "text": "ኢስን «መገን ዎምነቱ መርቺን ቅጥ አዕናም? ህትን መ ምሳሌን ሂርን ጠወዕናም?",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ዎንጌ ዜሬት ምሳልተ",
+            "(ማቶ. 13፥31-34፤ ሉቃ. 13፥18-19)"
+          ]
+        },
+        {
+          "number": "31",
+          "text": "መገን ጄነቱ ዎንጌ እልተ አጉዳአ፤ እሴን ዉጠንታ ወክት ኡለ አሌን ዮ ዜሬቲች ጉዕሚችን በትስ ቀዎታን።"
+        },
+        {
+          "number": "32",
+          "text": "ጠዉ እኮጎሬ ሁኩ ዜሬቱንኩ ዉጠሞች ኤተሮን ነጵ ጋሮን ካሴመሀኒች ጉዕሚችን በተአኖሃ አሀኖ፤ ቅራዕሩ ሀመ ነሰኖ፤ ህካን እኮቤቺሃ ሰሜ ጪኡት ምኒ መክስ እስ አሌን ሄኣኣ» ዬሰ።"
+        },
+        {
+          "number": "33",
+          "text": "ኢስን መኑ ሰውዩ አታልታገ ካን አጉዳ ልግቤ ምሳሌን ላገስ ኩለኖሳት እቅ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "34",
+          "text": "እስን ምሳልት ዮበኢሃ መቱርቹሃ ጠወዕዮሰበአ፤ ጠዉ እኮጎሬ እስን አሳባን ሀለኘሰ ሄኦ ወክቴን ጉዕመርቹንከ ሂር ኩለኖሰ እቅ።"
+        },
+        {
+          "number": "35",
+          "text": "ህከ በር ሀዎሬ ወክት ኢስ አሳበስ «ከን ሎረ ዊች ዉድ አደ ቶልኖ» ዬሰ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ዊ ሁለ ጨለ አኡስ",
+            "(ማቶ. 8፥23-27፤ ሉቃ. 8፥22-25)"
+          ]
+        },
+        {
+          "number": "36",
+          "text": "እሰን ህከኔ ዮ መነ አጉርት ኢስ ዮ ጀልባን ኣግ ኢሰ ኣእት መርቶኡ፤ ህከ ወክትንከ ዎሉ ጀልቡ እሳን ሜጡበ ሄዕዮ እቅ።"
+        },
+        {
+          "number": "37",
+          "text": "ድንገቴን ጠረኙ ቦብሩ ዊ አሌን ኬዕዮ፤ ዊ ሁሉንኩ ጀልበ ካጰለከ ከበ ሀንበለን ዊ ጀልብ ኣዜን ዊሞተ እኮ።"
+        },
+        {
+          "number": "38",
+          "text": "ህከ ወክትንከ ኢስ ጀልብ ኣዜን ኤተር አዲን ቦርከዕይ ግሾ እቅ፤ አሳበስ እሱ ግሰኛች በቅአት «አስተማርቾ! ነኡ በዕነን አት ሀት ጨለ ይቶንት?» ይቶስ።"
+        },
+        {
+          "number": "39",
+          "text": "እስን ኬዕይ ቦብረንከ ሻቆ፤ ዊ ሁለንከ «ጨለይ» ዬእ፤ ቦብሩንኩ አጉሮ፤ አበንከ ጨለ ዬእ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "40",
+          "text": "ኢስን «ሚሃት ዋጅቴነንታሁ? ቴሁ አመዕነቱ ዮህዕኔበእንዶ?» ዬሰ።"
+        },
+        {
+          "number": "41",
+          "text": "እሰን አበ ዋጅት መት-መቱሰ «ጠረኙ ቦብሩለከ ዊ ሁሉ አዘዘመኖሲሁ ኩን ሀትናሙወ መንቹ?» የቀንቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "1",
+          "marker": "Translator/editor note",
+          "text": "- ሉቃ. 5፥1-3።",
+          "note_type": "translator_note",
+          "source_reference": "4:1"
+        },
+        {
+          "verse": "12",
+          "marker": "Translator/editor note",
+          "text": "- ኢሳ. 6፥9-10።",
+          "note_type": "translator_note",
+          "source_reference": "4:12"
+        },
+        {
+          "verse": "21",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 5፥15፤ ሉቃ. 11፥33።",
+          "note_type": "translator_note",
+          "source_reference": "4:21"
+        },
+        {
+          "verse": "22",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 10፥26፤ ሉቃ. 12፥2።",
+          "note_type": "translator_note",
+          "source_reference": "4:22"
+        },
+        {
+          "verse": "24",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 7፥2፤ ሉቃ. 6፥38።",
+          "note_type": "translator_note",
+          "source_reference": "4:24"
+        },
+        {
+          "verse": "25",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 13፥12፤ 25፥29፤ ሉቃ. 19፥26።",
+          "note_type": "translator_note",
+          "source_reference": "4:25"
+        },
+        {
+          "verse": "29",
+          "marker": "Translator/editor note",
+          "text": "- ኢዩ. 3፥13።",
+          "note_type": "translator_note",
+          "source_reference": "4:29"
+        }
+      ],
+      "heading": [
+        "ዉጣንች ምሳልተ",
+        "(ማቶ. 13፥10-17፤ ሉቃ. 8፥4-8)"
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ህከኒች ኤተሮን ኢስ አሳባንተስን ገሊለ ባረ ቶልት «ጌርጌሴኖነ» ዬኖ ባዱ ኢልቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ኢስ ጀልቢች ፉሎገን ዶሮረኖ አያኑ አፋንስ ሎደቤቾን ሄአኖ መንቹ ወክትንከስ ህከን አዲች ፉል ደቀሞስ።"
+        },
+        {
+          "number": "3",
+          "text": "ሁኩ መንቹንኩ ሎደ ኣዜን ሄአኖ እቅ፤ ህከ ወክት አዪሁ እሱ ሰንሰለቲን ኡሱሮተ አታለኖበአ እቅ።"
+        },
+        {
+          "number": "4",
+          "text": "ልግብ ወክት አንገስለከ ሎከስ ኡሱሬኖ ወክት እስ ህካን ጉዕመንከስ ሙረንሰኖ እቅ፤ ህካን እኮቤቺሃ አዪሁ እሱ አፍ ኡሱሮተ አታለኖበአ።"
+        },
+        {
+          "number": "5",
+          "text": "ህትን እስ ጉዕመ ወክት ሀዎሩተለከ በራሃ ሎዱለከ ቆተቲ ዮቤቾን ዘሀን አልስ ክኒን ሀንፈጠን ያረኖ እቅ።"
+        },
+        {
+          "number": "6",
+          "text": "እስን ኢሰ ቄዕራሻን ለዕዮ ወክት ደጉጅ አሜች ብሬስ ጉልጵ ሰገጆ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "ህትን ሎረ ላጋን ያረን «አት ጉዕሚችን ሎረ መገን ቤቶ ኢሰ! ኤሳለከ ኬሳሃ ም ደቀንሹ ዮኔ? አን ኪች መገኖን መገኝዮንኬ ቤሶቴኤ» ዬእ።"
+        },
+        {
+          "number": "8",
+          "text": "ህት ዮተ አታሎንኩ ኢስ «ኩ ዶሮርታንት ዱሩ ከን መንቺች ፉል» ይ አዘዦቤቺሃት እቅ።"
+        },
+        {
+          "number": "9",
+          "text": "ኢስን ሱዕሙክ አዬት? ይ ጠዕሜስ፤ እስን «ናኡ ልግብ እንኮምቤቺሃ ሱዕሙኤ ሌጌዎኔት» ይ ፈንቀሼእ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "እስን ህከን ባዲች ፉሽ ሸረኖሰበእገ ኢሰ ጠረኝሽ ኡጬስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "ህከን ቆሮ መዴን ልግቡ ቦኬ መሰረት ዘግ ይት እታኢት እቅ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "ሁኩ ዶሮረኖ አያኑንኩ «ሀዕይ ህከን ቦኬ መሰራን ኣንጋምገ አእኔ» ይት ኢሰ ኡጭቶስ።"
+        },
+        {
+          "number": "13",
+          "text": "ኢስ «መርቴን ኣጌ» ዬሰ፤ ሁኩ ዶሮረኖ አያኑ ህከን መንቺች ፉልት ቦኬ መሰራን ኣጎኡ፤ ህከኒች ኤተሮን ለምተ ኩምተ እካ ቦኬ መሰረት ቆሮ መዲች ደጉደን ሎረ ባራን ኣአንቶኡ።"
+        },
+        {
+          "number": "14",
+          "text": "ህከን ቦኬ ዜማኑት ሁንት ከተማንለከ ህከን ባዶን ሄአኖ መኒሃ ጠወስ ኩልቶኡ፤ መኑንኩ እኮ ጠወ ለኦተ አሜቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "እሰን ኢስበ አሜት ዶሮረኖ አያኑ አፎስሃ፥ ሌጌዎንን ሄዕዮስ መንቹ ፈይ ኦድኑተ ኦደዕይ አፉዕልያን ለኦ ወክት ጉዕሙንኩሰ ዋጅቶኡ።"
+        },
+        {
+          "number": "16",
+          "text": "ኢስ ዶሮረኖ አያነ ህከን መንቺች ፉሸንለከ ዶሮረኖ አያኑንኩ ቦኬን ኣገን ወዕና ህከን ቤቾን ሄእ ለኦሩ እኮ ጠወ ጉዕመንከ መኒሃ ኩልቶኡ።"
+        },
+        {
+          "number": "17",
+          "text": "ህካን እኮቤቺሃ ህከን ባድ መኑ ኢስ ህከን ባዲች ፉል ኦሮአኖገ ኡጭቶስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "ኢስ ጀልባን ኣገን ሩሃንዩ አፋንስ ፈዬ መንቹ ኢሰ «አን ኪን ሜጡበ ኦሮኣም» ይ ኡጨስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "ጠዉ እኮጎሬ ኢስ «ኢን ሜጡበ መርታንትበአ፤ ምንክ መርት ቀርቹ ሄንከ ሎረ ጠወ አዕዮሄ ጎሬ ህትን ሀት አዕይ ፈይሾሄጎሬ ምንክ መኒሃለከ እልሀክ ጠወእ» ዬስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "ሁኩ መንቹ ኢስ አዕዮስ ጠወ «ቶኑ ከተመ» ዬኖ ባዶን ጉዕማንን አዋጁ ጃመሮ፤ ጠወስ ሞጮጭቶ መኑ ጉዕሙንኩ አጀብሲጭቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "ኢስ ጀልባን ኣግ ባር ዉድ አደ ፈንቀል ቶሎገን ልግቡ መኑ እስ መዴን ጭምዬእ፤ ህከ ወክት ኢስ ባር መዴን ሄዕዮ እቅ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢያኢሮሴ ጩልተለከ ኢስ ኦድኑተ ኡልቶ መንቹተ",
+            "(ማቶ. 9፥18-26፤ ሉቃ. 8፥40-56)"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "ህከኔ ጭምት ምኒ ገሽታሀኑኡች መቱስ «ኢያኢሮሴ» ዬኖ መንቹ አሜች ኢሰ ለዕዮ ወክት ሎከስ አሌን ኡብ"
+        },
+        {
+          "number": "23",
+          "text": "«ኢ ቀዉት ጩልኤ አበ ጥዞኡ፤ አት አሜት ጡምቶተለከ ፎልን ሄኦተ እሴ አሌን አንገክ አእ» ይ ኢሰ ጠረኝሽ ኡጨእ።"
+        },
+        {
+          "number": "24",
+          "text": "ኢስን እሲን ሜጡበ ኦሮዕዮ፤ ህከ ወክት ልግቡ መኑ ኢሰ አዎነን ከን አዲንለከ ካጵ አዲን ሀንበዕለንተን ሃሙ ከንት ጨነቃሲት እቅ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "ህከን መን በላን ቶነ ለሞ ዘማን ጌሰ ቄጉ ዱንተአንሴ ኦርጨቀንተን ሄኣ መት መንቹት ሄኦ እቅ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "እሴን ሐኪሚች ሐኪመ ልግብ ወክት ፈንቀላንት ዱንያሴ ጉዕመንከ ሹልቶ እቅ፤ ጠዉ እኮጎሬ ባሾሴ ቤሉ መቱርቹሃ ደግለሎሴበአ እቅ።"
+        },
+        {
+          "number": "27-28",
+          "text": "እሴን መኑ ኢስተኔሃ ጠወአኖ ዱዱቡ ሞጮጭቶቤቺሃ ሀንበዕለመኖ መን በሊን ኤተር አዲን አሜት ኦድኑስ ኡልቶኡ፤ ህካን አቶኢሁ ቀልቤንከሴ «አን እስ ኦድኑተ ኡሎም እቃ ፈያም» ይታ አመዕነቱ ሄዕዮሴ እቅ።"
+        },
+        {
+          "number": "29",
+          "text": "ህከ ወክትንከ ቄጉ ዱንተኡ አጉሮሴ፤ እሴን ጥዘናችሴ ፈዩሴ ጅስሚንከሴ ደጎኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "ኢስን ወልቀት እሲች ፉልቶገ ደጎቤቺሃ መን አደ ዘህ ለዕይ «አዬት ኦድኑእ ኡሎሁ?» ይ ጠዕሜሰ።"
+        },
+        {
+          "number": "31",
+          "text": "አሳበስ «አት ኬንኩ መኑ ሀንበዕለመን አዎነኖሄ ለአን ሀት ‹አዬት ኡሎኤሁ› ይተን» ይቶስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "32",
+          "text": "ጠዉ እኮጎሬ ኢስ ህካን አዕዮሁ አዬት ጎሬ ለኦተ ዘህ ለዕዮ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "33",
+          "text": "ህት መንቹት እኮ ጠወ ደጎቤቺሃ ዋጅት ሁጠን ሎከስ ኡብ ክዝቡዕነ ሀንቅ እኮ ጠወ ጉዕመንከ ኩልቶኡ።"
+        },
+        {
+          "number": "34",
+          "text": "ኢስን እሴተ «ኢ ቤቶ አመዕነቱክ ፋይሾሄ ወገሬቲን መር፤ ጥዘናችክ ፈይ» ዬሴ።"
+        },
+        {
+          "number": "35",
+          "text": "ኢስ ህካን ጠወአን ሄዕዮገን ጭምት ምኒ ሀለቅች ምኒች ሶቀንት አሜቶ መናከት ጭምት ምኒ ሀለቅቹ «ጩልክ ሬቶኡ፤ ቴሱ አስተማርቹ ሚሃት ኦርሳንትሲሁ?» ይቶስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "36",
+          "text": "ጠዉ እኮጎሬ ኢስ እሰ ይታ ጠወ ሞጮጭ ጭምት ምኒ ሀለቅቹ «አመዕን ቤሉ ዋጅቶት» ዬስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "37",
+          "text": "ህትን ኢስ ጴጥሮሴችለከ ያቁቢች፥ ያቁብ አመቤቱ ያህይ ቤሉ አዪሁ አዎኖስተ ፈቀጆበአ።"
+        },
+        {
+          "number": "38",
+          "text": "ኢስን ጭምት ምኒ ሀለቅች ኢያኢሮሴ ምኒ ኢሌ ወክት ህከን ምኔን መኑ ያረንለከ ኦአን ጨንጭተን ለዕዮ።"
+        },
+        {
+          "number": "39",
+          "text": "ኢስን ምኒ ኣግ «ሚሃት ያርቴነንታሁለከ ኦኤነንታሁ? ጩልት ግሶ ቤሉ ሬቶበአ» ዬሰ።"
+        },
+        {
+          "number": "40",
+          "text": "እሰን እሶን አበ ኦሰዕልቶኡ፤ ጠዉ እኮጎሬ እሰንተ አብል ፉሽ ጩሌ አነለከ አመተ እሲን ሜጡበ ሄኦእረ አዎንስ ጩልት ዮ ቤቹ ኣጎ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "41",
+          "text": "ኢስን ህተን ጩሌ አንገተ አፍ «ጣሊታ ቁሚ!» ዬሴ፤ ፍሳረስ «ቴ ጩሌ ኬእ» ዩሃን።"
+        },
+        {
+          "number": "42",
+          "text": "ጩልንት ቶነ ለሞ ዘማንተ ጩል እቅ፤ ወክትንከስ ኡርት ከበለከ ካጰ እከን ፈንቀላንቶኡ፤ ህከኔ ሄኦ መኑ ከ ጠወ ለኦ ወክት አጀብሲጭቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "43",
+          "text": "ህከ ወክት ኢስ ከ ጠወ አዬሃ ጠወኣበእገ ጠረኝሽ ኩል «ጩሌተ እታኢሃ ኣስዬ» ዬሰ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "9",
+          "marker": "Translator/editor note",
+          "text": "+ ሌጌዎኔ፦ ዩ ጎጎተ ህከረንገ ልግብ ዩሃን።",
+          "note_type": "translator_note",
+          "source_reference": "5:9"
+        }
+      ],
+      "heading": [
+        "ኢስ ዱሪን አፈንቶ ለሙ መነ ፈይሱስ",
+        "(ማቶ. 8፥28-34፤ ሉቃ. 8፥26-39)"
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ኢስ ህከንቤቺች ፉል ገይስ ባዱ አሳባንተስን ሜጡበ አሜቾ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ህከኔን ኢስ አበ በሬን ጭምት ምኔን ተማርሱ ጀመሮ፤ ህከኔ እስ ተማርሰኖሃ ሞጮጭቶ ኡመቱ አበ አጀብሲጭት ገገዉንኩሰን «ኩ መንቹ ከ ጠወሃ ጉዕመንከ ሀከኔ ደኤእ? ሀትኔ ሀይመት ኣሰንቶስ? ህትኔ አጀብሲሰኖ ጠወ አአኖሁ ሀትጎታን?» ይተን አጀብሲጭታ እቅ።"
+        },
+        {
+          "number": "3",
+          "text": "ህከኒች ኤተሮን «እስ ማይረመ ቤቱ አነጤቾሃበእንዶ? ያቁቤሃ፥ ዮሳ፥ ይሁዲለከ ስምዖኔሃ አመ ቤቱበእንዶ? ሜኣ አመስ ኦሱንት ከኔ ኒን ሜጡበ ዮእረበእንዶ?» ይተን ህንቅ ቶጉዕናንስ ፈቆኡ።"
+        },
+        {
+          "number": "4",
+          "text": "እኮጎሬ ኢስ እሰንተ «ነቢዬቹ ዎሎ ባዶን ኬዕምሴኖስ፤ ጠዉ እኮጎሬ ገይስ ባድ መኑሁ፥ ገይስ እሉለከ ገይስ ምኒ መኑ ህንቀኖስ» ዬእ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "ህከኔ ሄኦ ቀዎ ጥዘናመ አሌን አንገተ አዕይ ፈይስቤሉ ዎሉ አጀብሲሰኖ ጠወሃ አኦተ አታሎበአ፤",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "ጠዉ እኮጎሬ ኡመቱ አመዕንቱዕነ ፈቆቤቺሃ አበ ቦሮረንቶኡ፤ ህከኒች ኤተሮን ኢስ ቀኤች ቀእተ ዘሀን ተማርሰኖ እቅ።"
+        },
+        {
+          "number": "7",
+          "text": "እስን ቶነ ለሙንከ አሳበተ እስበ ገእ ለሙ ለሙ አዕይ ዶሮረኖ ዱር ፉሽታ ሹምነቱ ኣስ ሶኮሰ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ቶና ለሙንኩ አሳበት ተማርሲሃ ሶሀሙሰ",
+            "(ማቶ. 10፥5-15፤ ሉቃ. 9፥1-6)"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "እስን እሰንተ «ዎቃ ሃንተን በርት ቤሉ እቴኖሃ እኮ ኢቶንከሰ ብረለከ ከረጥትተ አፋበእገ አዘዦሰ።"
+        },
+        {
+          "number": "9",
+          "text": "ሎካንከክዕኔ ጫዕመተ ወዕርዬ ቤሉ ለሙ ዎልት ኦድኑተ ኦደኦኖቼ» ዬሰ።"
+        },
+        {
+          "number": "10",
+          "text": "ህትን እስ «አዕኑ መርቴነንተ ቤቾን መቱ ምኒ ኣጌነንተ ወክት ህከ ቤቹ አጉርቴን ፉልቶኖተ ኢለ ህከን ምኔን አገሬ።"
+        },
+        {
+          "number": "11",
+          "text": "መርቴንተ ቤቾን ጉዕማንን ‹ሀበይ ወገሬቲን አሜቴን› ዬን ቶጉለከ ሞጮጩ ግቤመህዕኔጎሬ አዕኑ ሎከክዕኔ ትበ ህከኔ ግግሽቴን አጉርቴን ፉሌ፤ ሁኩ ትቡንኩ እሳሃ እማኘ እሀኖ» ይ ኩሎሰ።"
+        },
+        {
+          "number": "12",
+          "text": "እሰን መርት መኑ ጩብችሰ ፈንቀልት ቶበታገ ዱዱብስቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "ህትን እሰን ልግብ ሩሃንየ ፉሽቶኡ፤ ጥዘናመ አሌን ዘይተ ቡርተን ልግብ ጥዘናመተ ፈይሶኡ።"
+        },
+        {
+          "number": "14",
+          "text": "ኢስ ሱዕሙ ጉዕመ ባዶንን ደገሞቤቺሃ ዎሙ ሄሮድስ እስተኔሃ ሞጮጬእ፤ ህትን መት-መቱ መኑ «ጠመቃንቹ ያህይ ሬሆች ኬዕዮኡ፤ ህካን እኮቤቺሃ ከ አጀብሲሰኖ ጠወ አአኖ ወልቀተ ደኤእ» ይታ እቅ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ጠመቃንቹ ያህይ ሼመስገ",
+            "(ማቶ. 14፥1-12፤ ሉቃ. 9፥7-9)"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "ዎሉ መኑ «እልያሴት» ይታኢት እቅ፤ ህትን ፈቆ መኑ «ሄጭት ሄኦ ነቢያኖች መትስጋት» ይታ እቅ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "ጠዉ እኮጎሬ ሄሮድስ ህካን ጉዕመንከ ሞጮጭ «አን ጎበስ ሙርሲሾም ጠመቃንቹ ያህይ ሬሆች ኬዕዮኡ» ዬእ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "17-18",
+          "text": "ሄሮድስ አመስ ቤት ፍልጶሴ ጫተ ሄሮድያደ ኣኤቤቺሃ ያህይ «አመክ ቤት ጫተ አኡ ኬሳሃ ፈቀደሞሄበአ!» ይ ጠወዕዮቤቺሃ ሄሮድስ ሶክ አፍሲሽ ያህይ ኡሱርሲሾ እቅ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "ህካን እኮቤቺሃ ሄሮድያዳ ያህይን ገዱተ አፍ ሽሲሶስተ ሀሳኢት እቅ፤ ጠዉ እኮጎሬ ሽሲሶስተ አታልቶበአ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "መሰንትስ ያህይ ፈየ መንቹለከ ጠሊለ መገን መንቹ እሁስ ሄሮድስ ደገኖቤቺሃ ዋጅ አገረኖስ እቅ፤ ህትን እስን ያህይ ጠወአኖ ጠወ ሞጮጬ ወክት ባበኖ እቅ፤ ጠዉ እኮጎሬ ሙንደዕይ ሞጮጨኖስ እቅ።"
+        },
+        {
+          "number": "21",
+          "text": "ሄሮድስን እለሞ በሬ ከበጃት ከበጂሃ ባድ ገሻኑተለከ ገሊለ ሎርሎረ መነ ጉዕመንከ ድግሰ ድግሽ ገኤእ፤ ሁኩ በሩ ሄሮድያደ ያህይ ሽሲሶስተ መኩተ እኮሴ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "ህከ በርንከ ሄሮድያዳ ቤቱት መኑ ጭምዬ ምኒ ኣግ ቦሎቸ ከደን ሄሮድሴለከ እሲን ሜጡበ ሄዕዮ ኮሀ ሙንዲሲሶኡ፤ ህካን እኮቤቺሃ ዎሙ ህተ ጩልተ «አት ኢትታንት ጉዕመንከ ጠዕሜኤ፤ ኣሳንኬ» ዬሴ።"
+        },
+        {
+          "number": "23",
+          "text": "«ሆሮ ዎምነትኤ ደሩ እኮጎሬ አት ይቶንቲሃ ጉዕመንከ ኣሳንኬ» ይ ጤሌዕሌእ።"
+        },
+        {
+          "number": "24",
+          "text": "እሴን አመሴቤቹ መርት «መ ኣሴኤ ዩ?» ይት አመሴ ጠዕምቶ ወክት « ‹ጠመቃንቾ ያህይ ቡዕለ ኣሴኤ› ይ» ይቶሴ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "ጩልንት ደዕልት ወምበ ኣግ «ጠመቃንቾ ያህይ ቡዕለ ሳናን አኤን ቴሱ ኣሶኖኤተ ሀሳም» ይቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "ዎሙ ህከን ጠዋን አበ ሻዦ፤ እሁን ቤሉ ጤሌዕሌቤቺሃለከ እሲን ሜጡበ ሄኦ ኮህተኔሃ ጠዕምቶኢሀ ከሞተ ሀሾበአ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "27",
+          "text": "ህካን እኮቤቺሃ ህከ ወክት ዎሙ ወታደሪች መቱ ያህይ ቡዕለ ሙር ኤበኖገ ኡሱር ምኒ ሶኮ፤ ወታደርቹንኩ ኡሱር ምኒ መር ያህይ ቡዕለ ሙሮ።"
+        },
+        {
+          "number": "28",
+          "text": "ሙር ኤቦ ቡዕለንከ ጩሌተ ሳናን አዕይ ኣሴሴ። ጩልንት መስት አማተሴ ኣቶኡ።"
+        },
+        {
+          "number": "29",
+          "text": "ያህይ አዎንታእሩ ህከን ሞጮጭት ኡሱር ምኒ አሜት ጀናዘስ መስት ሞጎኡ።"
+        },
+        {
+          "number": "30",
+          "text": "ሶቀማኑት ሶሀንቶ አዲች ፈንቀልት ኢስ ብሬን ጭምይቶኡ፤ ተማርስቶኢሃለከ አቶኢሃ ጉዕመንከ እሲሃ ኩልቶኡ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ኦንቶ ኩሜ መኒሃ እትሱስ",
+            "(ማቶ. 14፥13-21፤ ሉቃ. 9፥10-17፤ ያህ. 6፥1-14)"
+          ]
+        },
+        {
+          "number": "31",
+          "text": "ኢስን እሰንተ «አዕኑ ሜጥሃክዕኔ መርቴን መኑ ዮበእቤቾን ቀዉ ጌሰ ፎሎጭዬ ዬሰ» ህካን ዬኢሁ እስበ አሜተኖሁለከ መረኖሁ ልግብ እኮቤቺሃ እቸተ እታ ወክቱ ዮሰበእቤቺሃት እቅ።"
+        },
+        {
+          "number": "32",
+          "text": "ህካን እኮቤቺሃ እሰ ሜጥሀሰ ጀልባን ኣግ መኑ ዮበእቤቹ መርቶኡ።"
+        },
+        {
+          "number": "33",
+          "text": "ጠዉ እኮጎሬ እሰ መርተንን ልግቡ መኑ ለዕይ እሰተ እሁሰ ደግ ከተሚች ጉዕሚችን ደዕልት ፉልት ሎካን ደጉደን ሄጭት ቤቹስ ኢልቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "34",
+          "text": "ህከን ቤቾን ኢስ ጀልቢች ድረን ልግብ መነ ለዕዮ፤ መኑንኩ ዜማንቹ ዮሰበእ ሆለገ እካን ለዕይ አበ መረርሲጬሰ፤ ህከኔን ልግብ ጠወ ተማርሱ ጀመሮ።"
+        },
+        {
+          "number": "35",
+          "text": "ህከኔን ኡለት ሀዎርቶቤቺሃ አሳበስ እስበ ሆንጠክ «ዮም ቤቹ ኡድመሃን፤ ወክቱስ ሀዎርዮኡ፤"
+        },
+        {
+          "number": "36",
+          "text": "ህካን እኮቤቺሃ እታኢሁ ዮሰበእቤቺሃለከ ከን ቀኤን ዮ ገጠረለከ ኦሎሃ መርት እቸተ ገይሃሰ ህዕርታገ ከ መነ ህርሲስ» ይቶኡ።"
+        },
+        {
+          "number": "37",
+          "text": "ጠዉ እኮጎሬ ኢስ እሰንተ «ኩ መኑ እታኢሃ አዕኑ ኣስዬሰ» ዬሰ፤ እሰን «ህካን እኮች እታኢሃ ለሜ ጥቤ ዲናሪን ህዕርን ኣስኖሰንዶ?» ይቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "38",
+          "text": "ኢስን ፈንቀሽ «ህንዴ ሄንኩ ጣብቱ ዮህዕኔጎሬ መርቴን ለእዬ» ዬሰ፤ እሰን መርት ለእ «ኦንቱ ጣብቱለከ ለምት ቁርጩሜት ዮኔ» ይቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "39",
+          "text": "ኢስን አሳበስ መነ ለቶ ህጤ አሌን ቤቾን ቤቾን አፉሽታገ አዘዦሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "40",
+          "text": "ህካን እኮቤቺሃ መኑስ መት መቶ ቤቾን ጥብተ ጥብተ ህትን መት-መቶ ቤቾን ኦንታሁ ኦንታሁ እክ አፉዕልቶኡ።"
+        },
+        {
+          "number": "41",
+          "text": "ኢስን ኦንቱ ጣብታለከ ለም ቁርጩሜተ ኣእ ሰማ ዋሽ ለዕይ መገኑ ገለትጬእ፤ ህከኒች ኤተሮን ጣብተንከ ቢጭ መኒሃ ሆንጠህሶተ አዎንታሀኑኡተ ኣሴእ፤ ህትን ለም ቁርጩሜተ መኒሃ ጉዕሚንከ ቤኮ።"
+        },
+        {
+          "number": "42",
+          "text": "መኑ ጉዕሙንኩ እች ዱቦ።"
+        },
+        {
+          "number": "43",
+          "text": "አሳበንት መን ብሬች ፈቆ ፉርፉሩለከ ቁርጩሜች ፈቆሃ ቶነ ለሙ ሳጠራ ዊሞሃ ኬሶኡ።"
+        },
+        {
+          "number": "44",
+          "text": "እቸተ እቾ ጎን ዎሊንሹ ኦንቶ ኩሜ መነ እቅ።"
+        },
+        {
+          "number": "45",
+          "text": "ህከ ወክት ኢስ መነ ህርሲሰን አሳበስ ጀልባን ኣግ ዉድ አደ «ቤተ ሳይዳ» ዬኖቤቹ እሱ ሄጭት መርቶተ አዘዦሰ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ባር አሌን ሃሙስ",
+            "(ማቶ. 14፥22-33፤ ያህ. 6፥15-21)"
+          ]
+        },
+        {
+          "number": "46",
+          "text": "እስ መነ ህርሲሾች ኤተሮን ዱአ አኦተ ቆተ አል ፉሎ።"
+        },
+        {
+          "number": "47",
+          "text": "ኡለት ሀዎርቶ ወክት ጀልቡንኩ ባር በላን ሄዕዮ እቅ፤ ጠዉ እኮጎሬ ኢስ ሜጥሀስ ኡለ አሌን ሄዕዮ እቅ።"
+        },
+        {
+          "number": "48",
+          "text": "አሳበስ ብሬን ዊ አሌን ጠረኙ ቦብሩ ኬዕይ ጀልበ ብሬ አደ ዋሽ ሃሙ ከማን ኦርጨቀንተንን ኢስ ለዕዮሰ፤ ሁኩንን ሆንሲች ቶና ለሞ ሳኣት ጌሳን ባር ኣሌን ሃመን እሰ አዲን አሜች አጉር ህጎታት እቅ።"
+        },
+        {
+          "number": "49",
+          "text": "ጠዉ እኮጎሬ እስ ባር አሌን ሃመን ለእ ሀብዙላት አጉጃንሰ ያርቶኡ።"
+        },
+        {
+          "number": "50",
+          "text": "ጉዕሙንኩ ለኦስ ወክት ህልቆኡ፤",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "ህከ ወክት ኢስ «ጠረኝዬ! አኔት! ዋጅቶኖቼ!» ዬሰ።"
+            }
+          ]
+        },
+        {
+          "number": "51",
+          "text": "እስን ጀልብ ኣዝ እሰበ ኣጎ ወክት ቦብሩንኩ አጉሮ፤ አሳበስ ህከን ጠዋን አበ አጀብሲጭቶኡ።"
+        },
+        {
+          "number": "52",
+          "text": "እሰ ቀልቡንኩ ዱጆሁ ወዕና ኢስ ኦንቶ ኩሜ መኒሃ ኦንቱ ጣብተ እትሾ ጠወ ሰውዩ ሆጎቤቺሃት እቅ።"
+        },
+        {
+          "number": "53",
+          "text": "ባሪች ቶልት «ጌንሴሬጠ» ዬኖ ባዱ ኢልቶኡ፤ ጀልበንከ ዊ አሊች ኡለ መድ ሆንጠህስ ኡሱርቶኡ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ጌንሴሬጣን ጥዘናመተ ፈይሱስ",
+            "(ማቶ. 14፥34-36)"
+          ]
+        },
+        {
+          "number": "54",
+          "text": "እሰ ጀልቢች ፉልቶገን ኢሰ እሁስ መኑ ደጎ።"
+        },
+        {
+          "number": "55",
+          "text": "ህካን እኮቤቺሃ መኑ ህከን ቀኤን ሄዕዮ ኦሎ ጉዕመንከ ደጉደን መርት ኢስ ዮኡ ዬመ ቤቹ ጥዘናመተ ዴሲን እጅት ኤባኢት እቅ።"
+        },
+        {
+          "number": "56",
+          "text": "ኢስ ኦሮዕዮ ቤቹ ጉዕመንከ ቀኤች፥ ከተሚችለከ ገጠሪች ጥዘናመተ ጉዕመንከ በነቻን ኢስ መድ ሆንጠህሰን ኦድኖስ ሰኑተ ኡልቶተ ኡጭታኢት እቅ፤ ህትን ኢስ ኦድኖ ሰኑተ ኡልቶእሩ ጉዕሙንኩ ጥዘናችሰ ፈይታኢት እቅ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "4",
+          "marker": "Translator/editor note",
+          "text": "- ያህ. 4፥44።",
+          "note_type": "translator_note",
+          "source_reference": "6:4"
+        },
+        {
+          "verse": "8",
+          "marker": "Translator/editor note",
+          "text": "- ሉቃ. 10፥4-11።",
+          "note_type": "translator_note",
+          "source_reference": "6:8"
+        },
+        {
+          "verse": "11",
+          "marker": "Translator/editor note",
+          "text": "+ ግዕዝ ሃዕሮ ወኣድ ላገት 1947 ማርቶ ዘማኔን ከተበሞሁ አማረኝ ጠሊሉ መጻፉ ከኒች ዎሮ አዲን ከተበሞሃ በርገኖ። «ሀንቅንከ ያንክዕኔ፤ ህከን ከተም ፍርዲች ሶዶምለከ ጎሞር ከተሚሃ ፍርድ በር ቆሀኖሰ።» ጠዉ እኮጎሬ ኩ ሰውቱ እኮስ ግሪክ መጻፍ ኣዜኒ ደገመኖበአ።",
+          "note_type": "translator_note",
+          "source_reference": "6:11"
+        },
+        {
+          "verse": "13",
+          "marker": "Translator/editor note",
+          "text": "- ያቁ. 5፥14።",
+          "note_type": "translator_note",
+          "source_reference": "6:13"
+        },
+        {
+          "verse": "15",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 16፥14፤ ማር. 8፥28፤ ሉቃ. 9፥19።",
+          "note_type": "translator_note",
+          "source_reference": "6:15"
+        },
+        {
+          "verse": "17-18",
+          "marker": "Translator/editor note",
+          "text": "- ሉቃ. 3፥9-20።",
+          "note_type": "translator_note",
+          "source_reference": "6:17-18"
+        },
+        {
+          "verse": "34",
+          "marker": "Translator/editor note",
+          "text": "- ዘኁ. 27፥17፤ 1 ነገ. 22፥17፤ 2 ዱዱ. 18፥16፤ ሕዝ. 34፥5፤ ማቶ. 9፥36።",
+          "note_type": "translator_note",
+          "source_reference": "6:34"
+        },
+        {
+          "verse": "37",
+          "marker": "Translator/editor note",
+          "text": "+ መቱ ዲናሩ፦ መቶ በሬ ሆጉተ አኤን ደኤኖ ዋግሃ ጌሰ።",
+          "note_type": "translator_note",
+          "source_reference": "6:37"
+        }
+      ],
+      "heading": [
+        "ናዝሬት መኑ ኢሰ ቶጉ ግቡሰ",
+        "(ማቶ. 13፥53-58፤ ሉቃ. 4፥16-30)"
+      ]
+    },
+    {
+      "chapter": 7,
+      "verses": [
+        {
+          "number": "1",
+          "text": "መት-መቱ ፈርሳውትለከ ዬሩሳሌሚች አሜቶ ሕግ አስተማረት ኢስበ አሜት ጭምይቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "እሰን ኢስ አሳበት መት-መቱሰ አንገሰ ነጠ አቱዕነ ዩ ኣዕልቱዕነ ጣብተ እተን ለኦኡ።"
+        },
+        {
+          "number": "3",
+          "text": "ፈርሳውትለከ ኣይሁዱ ጉዕሙንኩ ባልቅ ዎገ አገርቶተ አንገሰ ኣዕልቱዕናን እታበአ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "ህትን ጌቤች ፈንቀልት አሜታ ወክት ሄጭት ኣዕልቱዕናን እታበአ፤ ኩባየለከ ጆከ፥ ናስ ምዳኑተለከ መዕነተ፥ ልግብ ህትኔ ዎገ አገርታአ እቅ።"
+        },
+        {
+          "number": "5",
+          "text": "ህካን እኮቤቺሃ ፈርሳውትለከ ሕግ አስተማረቲ ኢሰ «አሳበክ ባልቅ ዎገ አገሩ ግብ አንገሰ ኣዕልቱዕናን ጣብተ እታኢሁ ሚሃት?» ይት ጠዕምቶስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "ጠዉ እኮጎሬ ኢስ እሳንከ ፈንቀሽ «ክዕኔተኔሃ ራጎገን አዕኑ ኩ ለዕዬኔ ይቴነንተሀኑኡተ ነቢዬቹ እስያስ ጠወዕዮገን",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "« ‹ኩ መኑ አፎንከስ ኬዕምሰኖኤት ቤሉ"
+            },
+            {
+              "source_marker": "q2",
+              "text": "ቀልቡስ ኢች አበ ቄዕርዮእሃን!"
+            }
+          ]
+        },
+        {
+          "number": "7",
+          "text": "መሰንትስ መን ትዛዝ ተማርስተን ኤሳሃ ህትን ሰገዳኤት›",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "m",
+              "text": "የመም ከተበሞ ራጉ ሀንቅሃን።"
+            }
+          ]
+        },
+        {
+          "number": "8",
+          "text": "አዕኑ መገን ትዛዝ አጉርቴን መን ዎገ ጠረኝሴን አገርቴንታአ» ዬሰ።",
+          "source_markers_before": [
+            "q1"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "ህትን ኢስ እሰንተ «አዕኑ ክዕኔ ዎገ አገርቶኖተ መገን ትዛዝ አጉርቴንታአ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "ሙስ ‹አነክለከ አመክ ከበጅ፤ ህትን አዪሁ አንስ ህከረንገ አመስ አሌን ሂለ ጠወ ጠወአኖኦሁ ሬሁን› ይ አዘዦ።"
+        },
+        {
+          "number": "11",
+          "text": "ጠዉ እኮጎሬ አዕኑ መቱ መንቹ አነስ ህከረንገ አመስ ‹አኒሃስለከ አማተስ አኡ ሀስሰኖ ጠወ ጉዕመንከ መገኒሃ ኣስዮም› ዬህዕኔጎሬ"
+        },
+        {
+          "number": "12",
+          "text": "አነስ ህከረንገ አመስ ደግለሎበአ ዬን ጠዕሜኖስበአ።"
+        },
+        {
+          "number": "13",
+          "text": "ከን ሃሌን ገይክዕኔ ዎገ አገርቶኖተ መገን ላገተ ድጅቴነንታት፤ ህትን አዕኑ ህትኔ ልግብ ጠወ አቴነንታት» ዬሰ።"
+        },
+        {
+          "number": "14",
+          "text": "ኢስ ለንኪሃ ኡመትስ እስበ ገእ «አዕኑ ጉዕሙንኩክዕኔ አን ጠወአንክዕኔ ጠወ አጥራመቴን ቶጌ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "መነ ንጃስሰኖ ጠወ",
+            "(ማቶ. 15፥10-20)"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "መንቹ ንጃስሰኖሁ ኣዚች ፉለኖሃ ጠወ ቤሉ አብሊች ኣዝ ኣገኖሁ መነ ንጃስሰኖበአ»"
+        },
+        {
+          "number": "16",
+          "text": "[ሞጮጭታ መጨት ዮሲሁ አዪሁ ሞጮጩን] ዬእ።"
+        },
+        {
+          "number": "17",
+          "text": "ኢስ ኡመት አጉር ምኒ ኣጎ ወክት አሳበስ እስ ተማርሴ ምሳሌተኔሃ ሂር ኩሎሰተ ጠዕምቶስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "ኢስ እሰንተ «አዕኑ ቴሁ ካን አጥራመቴን ቶጌነንተበእንዶ? አብሊች መን ጎደባን ኣገኖሁ ንጃስሰኖበእገ ደጌነንተበእንዶ?"
+        },
+        {
+          "number": "19",
+          "text": "መሰንትስ አፌች ጎደባን ኣግ ሹመተ እክ ፉለኖሀን ቤሉ ቀልብበ ኦሮአኖበአ» ዬሰ፤ ኢስ ህካን ዩስ እቸት ጉዕሙንኩ ነጠ ዩሃንስ።"
+        },
+        {
+          "number": "20",
+          "text": "ለንኪሃ ኢስ «መነ ንጃስሰኖሁ መን ቀልቢች ፉለኖሃን።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "ሁኩንን ሂሉ ሰውቱ፥ ሞጉ፥ ዝነት፥ መነ ሹ፥"
+        },
+        {
+          "number": "22",
+          "text": "ጎራምመት፥ ሂለተ ሆጉተ አኡ፥ ጣንሱሁ፥ ሀሶገ እሁ፥ ምቀኞመት፥ ሄምት፥ ቦኑለከ ዋንክዕሉሁ"
+        },
+        {
+          "number": "23",
+          "text": "ኩን ጉዕሙንኩ ሂሉ ጠዉ መን ቀልቢች ፉለኖ፤ እስን መነ ንጃስሰኖሃን» ዬእ።"
+        },
+        {
+          "number": "24",
+          "text": "ኢስ ህከንቤቺች ኬዕይ ህከ ጢሮስ ባዱ ኦሮዕዮ፤ ህከኔን መቱ ምኒ ኣግ ህከኔ ሄኡስ አዪሁ ሞጮጨኖበእገ ሀሾ፤ ጠዉ እኮጎሬ ህከኔ ማጠሞተ አታሎበአ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "መቴ መንቾ አመዕነቱ",
+            "(ማቶ. 15፥21-28)"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "ዶሮረኖ አያኑ አፋንሴ ጥዞ ጩልት ዮሴ መንቹት ኢስ ዱዱቡ ሞጮጭቶ ወክት እስበ አሜት ሎከስ ኡቦኡ።"
+        },
+        {
+          "number": "26",
+          "text": "መንቹንት ሲሮ ባዶን ፊንቃዌ አዲች ከለቀንቶእተ ግርካዊቾተ እቅ፤ እሴን ጩሌችሴ ዶሮረኖ ዱር ፉሾተ ኢሰ ኡጭቶስ።"
+        },
+        {
+          "number": "27",
+          "text": "ጠዉ እኮጎሬ ኢስ ህተን መንቾተ «ኦሶ እቸተ ዉሻተ ኣሱ ሀስሰኖበአ፤ ሄጭት ኦሱት እት ዱቡ ሀስሰኖ» ዬሴ።"
+        },
+        {
+          "number": "28",
+          "text": "ህት መንቹት ፈንቀሽት «ቀርቾ ሁኩን ሀንቅሃን፤ ጠዉ እኮጎሬ ዉሸት ኦሱት እቶ ቁኒች ኡቦ ፉርፉሩ እታአ» ይቶስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "29",
+          "text": "ህካን እኮቤቺሃ ኢስ «ካን ጠወኦንተክ ጩሌችክ ዶሮረኖ አያኑ ፉሎኡ፤ ቴሱ ምንክ መር» ዬሴ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "እሴን ምንሴ ፈንቀልት መርቶ ወክት ጩሌችሴ ዶሮረኖ አያኑ ፉላን መዕነ አሌን ኦሰአን ደጎሴ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "31",
+          "text": "ህትን ጢሮስ ባዲች ፉል ስዶን አዲን «ቶኑ ከተመ» ዬኖ ባዲን ህግ ገሊለ ባርበ አሜቾ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ዶንቀለከ ዱደ መንቹ ፈይሱስ"
+          ]
+        },
+        {
+          "number": "32",
+          "text": "ህከኔን መኑ መቱ ዶንቃለከ ዶንቀ እኮ መንቹ ኢስበ ኤቦኡ፤ እሰን ኢሰ ህከን መንች አሌን አንገስ አኦተ ኡጭቶስ።"
+        },
+        {
+          "number": "33",
+          "text": "ኢስ ህከ መንቹ መኒች አደ አዕይ ሜጥሀስ እሱ መስ ዙሩዕማስ ህከን መንች መጫን ኣግሾ፤ ህትን ኢስ አንጀስ ቱይ ህከን መንች አረብተ አንጋንከስ ሀጣዌእ።"
+        },
+        {
+          "number": "34",
+          "text": "ኢስ ሰማ ዋሽ ኦሎሽ ቀልቤስ ሻዥ ህከ መንቹ «ኤፍታህ!» ዬስ፤ ፍሳረንትስ «ሂርተእ» ዩሃን።"
+        },
+        {
+          "number": "35",
+          "text": "ህከ ወክትንከ መጨስ ፈንተኦኡ፤ ህትን አረብስ ሂርተኣን ጠሊሽ ጠወዕዮ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "36",
+          "text": "ኢስን መኑ ህከ ጠወ አዬሃ ኩልታበእገ አዘዦሰ፤ እሁን ቤሉ ጠወኣበእገ ኩሎሰ ጌሰንከ ልግቤ መኒሃ ኩልቶኡ።"
+        },
+        {
+          "number": "37",
+          "text": "እሰን አበ አጀብሲጭት «ጉዕመንከ ጠወ ጡመገ አዕዮ፤ ዶንቃኑት ሞጮጭታገለከ ዱዳኑት ጠወኣገ አአኖ» ይቶኡ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "7",
+          "marker": "Translator/editor note",
+          "text": "- ኢሳ. 29፥13።",
+          "note_type": "translator_note",
+          "source_reference": "7:7"
+        },
+        {
+          "verse": "10",
+          "marker": "Translator/editor note",
+          "text": "- ፉል. 20፥12፤ 21፥17፤ ሌዌ 20፥9፤ ዘዳ. 5፥16።",
+          "note_type": "translator_note",
+          "source_reference": "7:10"
+        },
+        {
+          "verse": "16",
+          "marker": "Translator/editor note",
+          "text": "+ ህትን ሞጮጭታ መጨት ዮሲሁ ዮ ጎሬ አዪሁ ሞጮጩን፦ የኖሃ ከ ዎልንሸ መት-መቱ ሉህ ክታበት ወሊንሽ 16 በርግታበአ፤ ላገስ 4፥23 ዮኢሃ አጉደኖ",
+          "note_type": "translator_note",
+          "source_reference": "7:16"
+        }
+      ],
+      "heading": [
+        "አናኖ ዎገ",
+        "(ማቶ. 15፥1-9)"
+      ]
+    },
+    {
+      "chapter": 8,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ህከን ታቦን ልግቡ መኑ ጭምዬእ፤ ህከን መኒሃ እታኢሁ ዮሰበአ እቅ፤ ህካን እኮቤቺሃ ኢስ አሳበስ እስበ ገእ",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "«ኩ መኑ ኢን ሜጡበ ሰሱ በር አገርቶኡ፤ እሳንከ እታኢሁ ዮሰበእቤቺሃ አን አበ መረርሲጫንሰ።"
+        },
+        {
+          "number": "3",
+          "text": "ህት ጎራይቶገን ምንሰ መርታገ አዕዮንሰ ጎሬ ዎቃን አበ ሆጋአ፤ ህትን እሳችን መት-መቱሰ ቄዕራሺች አሜቶእራን» ዬሰ።"
+        },
+        {
+          "number": "4",
+          "text": "አሳበስ ፈንቀሽት «ህከረ ከን ኡለ ኡድማን ኬንከ መኒሃ እታኢሃ አይ ኣሶተ አታለኖ?» ይቶስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "ኢስ አሳበስ ፈንቀሽ «ሄንኩ ጣብቱ ዮህዕኔ?» ይ ጠዕሜሰ፤",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "እሰን ፈንቀሽት «ለመሉ ጣብቱ ዮኔ» ይቶስ።"
+            }
+          ]
+        },
+        {
+          "number": "6",
+          "text": "ህከ ወክት ኢስ መኑ ኡለ አሌን አፉዕለኖገ አዘዦ፤ ለመለንከ ጣብተ ኣእ መገኑ ገለትጭ ቢጥ መኒሃ ሆንጠህሶተ አሳባተስ ኣሴእ፤ እሰን መኒሃ ሆንጠህሶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "ህትን ቀዉት ቁርጩሜት ዮሰ እቅ፤ እሴንተ ኬሽ ኣእ መገኑ ገለትጭ አሳበስ መኒሃ ሆንጠህሶተ ኣሴእ።"
+        },
+        {
+          "number": "8",
+          "text": "መኑንኩ እት ዱባን ፈቆሃ አሳበስ ለመለ መሶበ ዊመ ፉርፉሩ ኬሶኡ።"
+        },
+        {
+          "number": "9",
+          "text": "ህካን እቾ መን ዎሊንሹ ሾሌ ኩሜሃ ጌሰ እቅ፤ እሰንተ ኢስ ህርስሾሰ።"
+        },
+        {
+          "number": "10",
+          "text": "ህከ መነ ህርሲሾች ኤተሮን ኢስ አሳባንን ሜጡበ እክ ጀልባን ኣግ «ደልማኑተ» ዬኖ ባዱ ኦሮዕዮ።"
+        },
+        {
+          "number": "11",
+          "text": "ፈርሳውት ኢስበ አሜት ሉሲሶተ «ሰሜች አጀብሲሰኖ ጠወ ለሊስኔ» ይት ኦዱ ጀመርቶኡ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "አጀብሲሰኖ ጠወ ለኢሃ ሆንጠኮ ጠዕምቱተ",
+            "(ማቶ. 16፥1-4)"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "ህከ ወክት ኢስ ቀልቤስ ሻዥ «ከን ዘማን መኑ አጀብሲሰኖ ጠወ ሚሃ ሀሰኖት? ሀንቅንከ ያንክዕኔ፤ ከን ክልቀቲሃ አጀብሲሰኖ ጠዉ ኣሰመኖስበአ» ዬሰ።"
+        },
+        {
+          "number": "13",
+          "text": "እሰንተ አጉር ጀልባን ኣግ ዉድ አደ ቶሎ።"
+        },
+        {
+          "number": "14",
+          "text": "አሳበት እሀኖሰ ጌሰ ጣብተ አፉዕናን ሀብ መቱ ጣብታ አፍ ጀልብ ኣዜን ሄኦ እቅ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ፈርሳዌለከ ሄሮድሴ ራጭተ",
+            "(ማቶ. 16፥5-12)"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "ኢስን እሰንተ «ፈርሳዌለከ ሄሮድሴ ራጭቲች ጠረኝቴን አገዕርዬ» ይ አዘዦሰ።"
+        },
+        {
+          "number": "16",
+          "text": "ህከ ወክት ገገዉንኩሰን «ህት ዩስ እቴኖሃ አንፉዕናን አሜንቶምቤቺሃት» ይት ገገዉንኩሰን ጠወኦኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "ኢስን ሰውትሰ ደግ « ‹እቴኖሁ ዮኔበእቤቺሃት› ይቴን ሚሃት ሰውይቴነንታት? ቴሶ ኢለ መቱርቹሃ ደጌነንተበዕንዶ? ህከረንገ ኣገኖህዕኔበዕንዶ? ህትን ቀልቡክዕኔ ቴሶ ኢለ ዱጆዕትንዶ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "እልት ሄኦህዕኔገን ለኤነንተበእንዶ? ህትን መጨት ዮህዕኔገን ሞጮጭቴነንተበእንዶ? ሀት ሆሮን ሰውይቴነንተበአ?"
+        },
+        {
+          "number": "19",
+          "text": "አን ኦንቶ ኩሜ መኒሃ ኦንቱ ጣብተ ቢጭ ኣሰን ፈቆ ፉርፉሩ ሄንከ መሶበ ኬሴን?» ዬሰ፤ እሰን «ቶነ ለሞ መሶበ ዊመ» ይት ፈንቀሽቶኡ።"
+        },
+        {
+          "number": "20",
+          "text": "ህትን ኢስ «ለመለ ጣብተ ሾሌ ኩሜ መኒሃ ቢጭ ኣሴምሀኒች ፈቆ ፉርፉሩ ሄንከ መሶበ ኬሴን?» ዬሰ፤ እሰን «ለመለ መሶበ ዊመ» ይቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "ህካን እኮቤቺሃ ኢስ ፈንቀሽ እሰንተ «ቴሁ አጥራመቴነንተበእንዶ?» ይ ጠዕሜሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "ኢስ አሳበት «ቤተ ሰይዳ» ዬኖቤቹ ኢልቶ ወክት መኑ መቱ ቆቀ መንቹ ኢስበ ኤብ አንገስ አሌስ አኦተ ኡጭቶስ።",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ቤተ ሳይዳን ቆቀ መንቹ ፈይሱስ"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "እስን ህከ ቆቀ መንቹ አንገስ አፍ አዎንስ ቀኤች አብል ፉሼስ፤ ኢስን ህከን መንች እሌን አንጀ ቱይ እልስ አንጋን ሀጣው «ለአንትርቹ ዮዕንዶ» ይ ጠዕሜስ።"
+        },
+        {
+          "number": "24",
+          "text": "ሁኩ ቆቁንኩ ጌጥ ይ «ኤ! መነ ለኣሚት፤ ጠዉ እኮጎሬ ሃመኖ ሀቀ አጉደኖኤት» ዬእ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "ለንኪሃ ኢስ ህከን መንች እሌን አንገስ አዕዮ፤ ህከ ወክት መንቹስ አጥራመች ለዕዮ፤ ህትን ፈይ ጉዕመርቹንከ አጥራመች ለኡ ጀመሮ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "ህከኒች ኤተሮን ህከ መንቹ ኢስ «ከ ቀእተ ኣጎት አዬሃ ከ ጠወ ጠወኦት» ዬስ።"
+        },
+        {
+          "number": "27",
+          "text": "ኢስለከ አሳበስ «ፍልጶስ ቄሳረ» ዬኖ ባዶን ዮ ቀእተ መርታኢት እቅ፤ ዎቄ አሌን ሄኦገን ኢስ አሳበስ «መኑ ኤሳሃ አዬት የኖኤሁ?» ይ ጠዕሜሰ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ቡረሞሃ እሁስ ጴጥሮስ ጠወኡስ",
+            "(ማቶ. 16፥13-20፤ ሉቃ. 9፥18-21)"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "አሳበስ ፈንቀሽት «መት-መቱ መኑ ‹ጠመቃንቾ ያህዪት› የኖሄት፤ ዎሉሰንገ ‹ነብዬቹወ እልያሴት› የኖሄት፤ ህትን ዎሉ መኑ ‹ነብያኖች መቱሃስ› የኖሄት» ይቶስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "29",
+          "text": "ኢስ ፈንቀሽ «አዕኑ ኤሳሃ አዬት ይቴነንታት?» ይ ጠዕሜሰ፤ ጴጥሮስን «አት መሲሂት» ዬስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "ህከ ወክት ኢስ እሰንተ «አዕኑ ኢተኔሃ አዬሃ ጠወኦኖቼ» ይ ጠረኝሽ አዘዦሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "31",
+          "text": "ኢስ አሳባተስ «መንች ቤቱ ልግብ ኦርሸተ ቶጉ ሀስሰኖስ፤ ህትን ባድ ባልቀት፥ ቂሳከ አዎንሳኑትለከ ሕግ አስተማረት ቶጉ ግብ ሽታስ፤ ጠዉ እኮጎሬ እስ ሰቅ በሬን ሬሆች ኬአኖ» የን ተማርሱ ጀመሮ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ሬሁስለከ ኬኡስ ሄጭ ጠወኡስ",
+            "(ማቶ. 16፥21-28፤ ሉቃ. 9፥22-27)"
+          ]
+        },
+        {
+          "number": "32",
+          "text": "ኢስ ህከ ጠወ ኣገኖሰገ ኩሎሰ፤ ህከ ወክት ጴጥሮስ ኢሰ መድ ዋሽ ኡሙዕሬስ።"
+        },
+        {
+          "number": "33",
+          "text": "ጠዉ እኮጎሬ ኢስ ኤተሩ ፈንቀል አሳበስ ለአን ጴጥሮሴ «አት ሸይጣንቹ ኢች ካጳ ቄዕር፤ አት መን ሰዉት ቤሉ መገን ሰዉት ደጋንትበአ» ይ ሻቆስ።"
+        },
+        {
+          "number": "34",
+          "text": "ህከኒች ኤተሮን ኢስ ልግብ መነ አሳባንተስን ሜጡበ እስበ ገእ «ኤሳሃ አዎኖተ ኢተኖሁ ዮ ጎሬ ገይስተኔሃ ሰውዩ አጉር መስቀለስ እጅ አዎኑዕኔ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "መሲህ አዎኑ ዋጋ ባትሲሰኖሃ እሁስ",
+            "(ማቶ. 10፥38-39፤ 16፥24-28፤ ሉቃ. 9፥23-27፤ 14፥25-27)"
+          ]
+        },
+        {
+          "number": "35",
+          "text": "ነብሳስ ጡምሶተ ሀሰኖሁ ጉዕሙንኩ ነብሳስ ቤሰኖ፤ ኢተኔሃለከ ተሽት ላገተኔሃ ነብሳስ ህግሽ ኣሰኖሁ ነብሳስ ጡምሰኖ።"
+        },
+        {
+          "number": "36",
+          "text": "አዪሁ ኣዱንያ አሌን ዮኢሃ ጉዕመንከ ደእ ነብሳስ ቤሾ ጎሬ መ ደግለለኖስ?"
+        },
+        {
+          "number": "37",
+          "text": "ህትን መንቹ ነብሴስ ወጥ መ ባቶተ አታለኖ።"
+        },
+        {
+          "number": "38",
+          "text": "ከን ጩበኛኖንለከ ለገአኖ ክልቀት ብሬን ኢንለከ ኢ ላጋን ሙለኖ መንች ቤቱ አንስ ኬዕምኚን ጠሊላኖ መላይካን ሜጡበ አሜተኖ ወክት እሲን ሙለኖ» ዬሰ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "11",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 12፥38፤ ሉቃ. 11፥16።",
+          "note_type": "translator_note",
+          "source_reference": "8:11"
+        },
+        {
+          "verse": "12",
+          "marker": "Translator/editor note",
+          "text": "- 12፥39፤ ሉቃ. 11፥29።",
+          "note_type": "translator_note",
+          "source_reference": "8:12"
+        },
+        {
+          "verse": "15",
+          "marker": "Translator/editor note",
+          "text": "- ሉቃ. 12፥1።",
+          "note_type": "translator_note",
+          "source_reference": "8:15"
+        },
+        {
+          "verse": "18",
+          "marker": "Translator/editor note",
+          "text": "- ኤር. 5፥21፤ ሕዝ. 12፥2፤ ማር. 4፥12።",
+          "note_type": "translator_note",
+          "source_reference": "8:18"
+        },
+        {
+          "verse": "26",
+          "marker": "Translator/editor note",
+          "text": "+ ከ ቀእተ ኣጎት፦ የኖሃ ከ ጠወ አዬሃ ጠወኦት የኖ።",
+          "note_type": "translator_note",
+          "source_reference": "8:26"
+        },
+        {
+          "verse": "28",
+          "marker": "Translator/editor note",
+          "text": "- ማር. 6፥14-15፤ ሉቃ. 9፥7-8።",
+          "note_type": "translator_note",
+          "source_reference": "8:28"
+        },
+        {
+          "verse": "29",
+          "marker": "Translator/editor note",
+          "text": "- ያህ. 6፥68-69።",
+          "note_type": "translator_note",
+          "source_reference": "8:29"
+        },
+        {
+          "verse": "34",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 10፥38፤ ሉቃ. 14፥27።",
+          "note_type": "translator_note",
+          "source_reference": "8:34"
+        },
+        {
+          "verse": "35",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 10፥39፤ ሉቃ. 17፥33፤ ያህ. 12፥25።",
+          "note_type": "translator_note",
+          "source_reference": "8:35"
+        }
+      ],
+      "heading": [
+        "ኢስ ሾሌ ኩሜ መኒሃ እትሱስ",
+        "(ማቶ. 15፥32-39)"
+      ]
+    },
+    {
+      "chapter": 9,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ህከኒች ኤተሮን ኢስ «ሀንቅንከ ያንክዕኔ፤ ቴሱ ከኔ ኡርቶ መን በሊች መት-መቱሰ መገን ዎምነቱ ሎረ ወልቃን ገሸኖ ወክት ለኦተ ኢለ ሬታበእሩ ዮኡ» ዬሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ሌሆ በሬች ኤተሮን ኢስ ጴጥሮሴ፥ ያቁበለከ ያህይ ሰሱንከሰ ኣእ ሎረ ቆተ አል ፉሎ፤ ህከኔን ኢስ ደኑ ብሬሰን ዶረሞ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "3",
+          "text": "ኢስ ኦድኑት ኣዱንያ አሌን አዪሁ ሜጭ ዋቅ አዕይ ዋጁ አአኖበእ ጌሰ ዋቅይት በለቆኡ።"
+        },
+        {
+          "number": "4",
+          "text": "ህከ ወክት እልያስለከ ሙስ አሜት ኢሲን ሜጡበ ጠወአንን ሰሱንኩ አሳበት ለኦስ።"
+        },
+        {
+          "number": "5",
+          "text": "ጴጥሮስ ኢሰ «አስተማርቾ! ከኔ ሄኡ ኔሳሃ አበ ጡመሃን፤ ህካን እኮቤቺሃ መቱ ኬሳሃ፥ መቱ ሙሲሃለከ መቱንገ እልያሴሃ ዳሰ እጃርኖ» ዬእ።"
+        },
+        {
+          "number": "6",
+          "text": "ህከ ወክት ሰሱንኩ አሳበት አበ ዋጅቶቤቺሃ ጴጥሮስ ጠወአኖሃ ደገኖበአ እቅ።"
+        },
+        {
+          "number": "7",
+          "text": "ጎመንት አሜት ቴልታን ጎማች ኣዚን «ኢታም ቤቱኤ ከኒት፤ እሱንከ ሞጮጭዬ» ይታ ላገተ ሞጮጨንቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "ወክትንከስ ሰሱንኩ አሳበት አደሰ ዘህት ለኣ ወክት እሳን ሜጡበ ኢስ ቤሉ አዪሁ ዮበአ እቅ።"
+        },
+        {
+          "number": "9",
+          "text": "ቆተ አሊች ድርተን ኢስ «መንች ቤቱ ሬሆች ኬኦተ ኢለ ከ ለኤንተ ጠወ አዬሃ ጠወኦኖቼ» ይ አዘዦሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "እስን ዬሰ ጠወ ቀልቤሰ አፍ «ኩ ‹ሬሆች ኬኡ› ዩ መ ዩሀን» ይት ጠዕምቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "እሰን ኢሰ «ሕግ አስተማረት ‹ሄጭ አሜቱ ሀስሰኖሲሁ እልያሴት› ይታኢሁ ሚሃት?» ይት ጠዕምቶስ።"
+        },
+        {
+          "number": "12",
+          "text": "እስን «ሁኩን ሀንቅሃን፤ እልያስ ሄጭ አሜች ጉዕመርቹንከ መክሰኖ፤ ጠዉ እኮጎሬ መንች ቤቱ አበ ኦርሸተ ቶገኖገለከ ህንቀመኖሃ እሁስ ጠሊለ መጻፋን ከተበሞሁ ሀትጎታን?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "ጠዉ እኮጎሬ አን ያንክዕኔ፤ እልያስ ሄጭ አሜቾኡ፤ እስተኔንከ ጠሊለ መጻፋን ከተበሞገን መኑ ሀሶገ አቶስ» ዬሰ።"
+        },
+        {
+          "number": "14",
+          "text": "ኢስለከ እሲን ሜጡበ ሄኦ ሰሱንኩ አሳበስ ፈንቀልት አሜቶ ወክት ልግቡ መኑ ፈቆ አሳባን ጭምይሃን ህከኔን መት-መቱ ሕግ አስተማረት ኢስ አሳባን ኦዳኢት እቅ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ዱሩ አፎስ ጩል ኢስ ፈይሱስ",
+            "(ማቶ. 17፥14-21፤ ሉቃ. 9፥37-43)"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "መኑ ጉዕሙንኩ ኢሰ ለኦ ወክት አበ አጀብሲጭቶኡ፤ ህትን እስበ ደጉድ መርት ዝያርቶስ።"
+        },
+        {
+          "number": "16",
+          "text": "ኢስን አሳበስ «መ ጠዋኒት ኦዴነንታሁ?» ይ ጠዕሜሰ።"
+        },
+        {
+          "number": "17",
+          "text": "ህከን ልግብያ ኡመቲች መቱ መንቹ «አስተማርቾ! ዱሩ አፍ ጠወኡ ከሞ ጩልኤ ኪቤቹ ኤቦም።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "ሁኩ ዱሩ ኬዕዮስ ወክት ኡጀኖስ፤ ህትን አፌን ሁንብ ኩፍ አአን እንኩተ እጥሲሰኖ፤ አልስ ክቺች አዕይ ሞሸኖስ፤ ህካን እኮቤቺሃ ህከ ዶሮረኖ አያነ ፉሽቶተ አሳበክ ጠዕምዮም እቅ፤ ጠዉ እኮጎሬ እሰ ፉሽቶተ አታልቶበአ» ዬእ።"
+        },
+        {
+          "number": "19",
+          "text": "ኢስ እሰንተ «አዕኑ አመዕነቱ ዮህዕኔበእ መኑ፤ ሄንከ በር ኢለ ክዕኔን ሜጡበ ሄኣም? ሀከ በር ኢለ አታላንክዕኔ? ህንዴ ጩል ኢበ ኤቤ» ዬሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "እሰን ጩል እስበ ኤቦኡ፤ ሁኩ ዶሮረኖ ዱሩ ኢሰ ለዕዮ ወክት ጩል ኡለ አሌን ኡጅ ከጣቀንሴስ፤ ጩሉንኩ ኡለ አሌን ኮሎንኮዕለን አፎንከስ ሁንብ ኩፍ አኡ ጀመሮ።"
+        },
+        {
+          "number": "21",
+          "text": "ኢሲን ህከን ጩል አነ «ኩ ጥዘነት አፎሲች ሄንከ ዘማን እኮስ?» ይ ጠዕሜስ፤ እስን ፈንቀሽ «ኦስማችስ ኬሺት።"
+        },
+        {
+          "number": "22",
+          "text": "ኩ ዶሮረኖ ዱሩ ሾተ ሀሽ ልግብ ወክት ጊራንለከ ዋን ኡጀኖስ፤ ጠዉ እኮጎሬ መቱርቹ አኡ አታልታንት ጎር መረርሲጭኔ! ሀዕልኔሁ» ዬእ።"
+        },
+        {
+          "number": "23",
+          "text": "ኢስን «ሀት አታልታንት ጎሬ ይታንቴኤት? አመዕነኖሀኒሃ ጉዕሙርቹንኩ አታለመኖስ» ዬስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "ህከ ወክት ጩል አኑ ኢሰ «አመዕኑ አመዕናም፤ ጠዉ እኮጎሬ አመዕኑ ሆጋም ጠዊሃ ጉዕሚንከስ ቴሁ አት ሀዕሌኤ!» የን ያሮ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "ኢስን መኑ ደጉደን አሜተኖገ ለዕዮ ወክት ህከ ዶሮረኖ ዱር «አት ዱዱለከ ዶንቁ ዱሩ ከን ጩሊች ፉልት ለንኪ እስበ ፈንቀልት አሜታንትበእገ አዘዦንኬ» ይ ሻቆስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "ሁኩ ዶሮረኖ ዱሩ ሎረ ላጋን ያር ጩል መቱ ጌሰ ኡጅ ከጣቀንሴሲች ኤተሮን ፉሎ፤ ህከ ወክት ጩሉስ ደሜቤቺሃ መኑ «ሬዮ» ይ ሰውዬእ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "27",
+          "text": "ጠዉ እኮጎሬ ኢስ ጩል አንገተ አፍ ኬሻንስ ኬዕይ ኡሬእ።"
+        },
+        {
+          "number": "28",
+          "text": "ኢስ ምኒ ኣጎ ወክት አሳበስ «ነኡ ከ ዶሮረኖ ዱር ፉሽኖተ አታልናምበኢሁ ሚሃት?» ይት ሜጡስ ጠዕምቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "29",
+          "text": "ኢስን እሰንተ «ህትናሙርቹ ዱኢንለከ ሶመኒን እህባች ዎሎርቺን ሆሮን ፉሎተ አታለኖበአ» ይ ፈንቀሼሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "ኢስለከ አሳበስ ህከ ቤቹ ጌኝአት ገሊለ አዲን ህጎኡ፤ ኢስ ዮቤቹንከ አዪሁ ደጎተ ሀሾበ እቅ፤",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ሬሁስለከ ሬሆች ኬኡስ ለንኪሃ ጠወኡስ",
+            "(ማቶ. 17፥22-23፤ ሉቃ. 9፥43-45)"
+          ]
+        },
+        {
+          "number": "31",
+          "text": "ሁኩን እኮሁ ኢስ አሳበስ «መንች ቤቱ መን አንጋን ህግሴን ኣሴኖስ፤ እሰን ሽታስ፤ ጠዉ እኮጎሬ ሬሆች ሰቅ በር ኬአኖ» የን ተማርሴሰ።"
+        },
+        {
+          "number": "32",
+          "text": "አሳበስ ኩ ጠዉ ኣጎሰበአ፤ ጠዉ እኮጎሬ ጠዕምቶስተ ዋጅቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "33",
+          "text": "ኢስለከ አሳበስ ቅፍርናሆም ከተመ አሜቶኡ፤ ኢስ ምኒ ኣጎች ኤተሮን አሳበስ «ዎቃን ሄኤንተ ወክት ኦዴነንተ ጠዉ መርቹሃን?» ይ ጠዕሜሰ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ጉዕሚችን በተአኖሁ አዬት?",
+            "(ማቶ. 18፥1-5፤ ሉቃ. 9፥46-48)"
+          ]
+        },
+        {
+          "number": "34",
+          "text": "ጠዉ እኮጎሬ እሰ ዎቃን «ጉዕሚችኔ በተአኖሁ አዬት?» የቀንቶቤቺሃ መስለ ኣቶስበአ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "35",
+          "text": "እስን አፉዕሌኢች ኤተሮን ቶነ ለሙንከ አሳበስ እስበ ገእ «ዎኔሃ እሆተ ሀሰኖሁ ጉዕሙንኩ ጉዕሚንከ ካድመለከ ጉዕሚችን ቀዉ እሁ ሀስሰኖስ» ዬሰ።"
+        },
+        {
+          "number": "36",
+          "text": "መቱ ቀዉ ጩል ኤብ በላንከሰ ኡርሾ፤ ህከ ጩልንከ ሀንቀፍ"
+        },
+        {
+          "number": "37",
+          "text": "«ከን ጩልገ ዮኢሃ ሱዕሚንከኤ ቶገኖሁ ኤሳሃ ቶገኖኤ፤ ኤሳሃ ቶገኖሁ ጉዕሙንኩ ጠለዕል ኤሳሃ ቶጉ እሁዕነ ኤሳሃ ሶኮንከ ሜጡበ ቶገኖ» ዬሰ።"
+        },
+        {
+          "number": "38",
+          "text": "ጠዉ እኮጎሬ ያህይን ኢሲሃ ፈንቀሽ «አስተማርቾ መቱ መንቹ ሱዕሚንከክ ሩሃንየ ፉሸን ለዕን ኒን ሜጡበ እክ አዎንበኔቤቺሃ ከሞንስ» ዬስ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ግብበኔሁ ጉዕሙንኩ ኒንት።",
+            "(ሉቃ. 9፥49-50)"
+          ]
+        },
+        {
+          "number": "39",
+          "text": "ጠዉ እኮጎሬ ኢስ «ሱዕሚንከኤ አጀብሲሰኖ ጠወ አአን ወክትንከስ ኢ አሌን ሂለርቹ ጠወአኖሁ ዮበእቤቺሃ አጉሬ፤ ከንቶኖቼስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "40",
+          "text": "መሰንትስ ኒን ሀንበዕለምባሁ ጉዕሙንኩ ኒንት።"
+        },
+        {
+          "number": "41",
+          "text": "ሀንቅንከ ያንክዕኔ፤ መሲህሃ እኬንተቤቺሃ ሱዕሚንከኤ መቶ ቡርጩቆ ዋሃ አጎተ ኣሰኖሁ አዪሁ ወጥስ ደአኖ» ዬሰ።"
+        },
+        {
+          "number": "42",
+          "text": "ኢስ «ኢን አመዕንቶ ከን ማዕናኖች መቱስ ሉሲሰኖ መንቹ ሎረ ሪትም ክኑ ጎባንከስ ኡሱሬን ባራን ቶረሙስ ቆሀኖ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "መነ ሉስሲች ገዉ አገዕሩ",
+            "(ማቶ. 18፥6-9፤ ሉቃ. 17፥1-2)"
+          ]
+        },
+        {
+          "number": "43",
+          "text": "ህካን እኮቤቺሃ አንገክ ሉሲሳሄትጎሬ ሙርት ኡጅ፤ መሰንትስ ለምት አንገት ሄኣንኬ አዛቤን ዘላለሚሃ ጠዕትበ ጊራን ኣጊች አንገክ ሙርተኣን ነብሴን ሄኤን ሄኡ ደኡ ቆሀኖ።"
+        },
+        {
+          "number": "44",
+          "text": "ህከን ቤቾን እሰተ እታ ዘቡዕሉት ሬታበአ፤ ህትን ጊረሲ ሆሮ ጠእታበአ።"
+        },
+        {
+          "number": "45",
+          "text": "ህትን ሎከክ ሉሲሳሄትጎሬ ሙርት ኡጅ፤ ለም ሎከት ሄኣንኬ አዛቤን ዘላለሚሃ ጠዕትበ ጊራን ቶሬኖሄሀኒች ድኑ እክ ነብሴን ሄኡ ደኡ ቆሀኖሄ።"
+        },
+        {
+          "number": "46",
+          "text": "ህከን ቤቾን እሰተ እታ ዘቡዕሉት ሬታበአ፤ ህትን ጊረሲ ሆሮ ጠእታበአ።"
+        },
+        {
+          "number": "47",
+          "text": "ህትን እልክ ሉሲሳሄትጎሬ ፉሽት ኡጅ፤ መሰንትስ ለም እልት ሄኣንኬ ዘላለሚሃ ጠእትቡ ጊራን ቶሬኖሄሀኒች መት እላሙ እክ መገን ዎምነቴን ሄኡ ቆሀኖሄ።"
+        },
+        {
+          "number": "48",
+          "text": "ህከን አዛቤን እሰተ እታ ዘቡዕሉት ሆሮን ሬታበአ፤ ህትን ጊረንት ሆሮን ጠእታበአ።"
+        },
+        {
+          "number": "49",
+          "text": "«ክትሙ መጥኔን ነጠ እሀኖ ሀንገን",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "50",
+          "text": "መጥንት ጡመተ፤ እሁን ቤሉ መጥንት እሁሴ ጤእባች ሀት አቴን ጤኣገ አቴነን? ክዕኔንከ መጥኔ ጤዕንሹ ሄኡንክዕኔ፤ ገገዉንኩክዕኔ ኢተቀንቴን ወገሬቲን ሄዕዬ» ዬሰ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "2",
+          "marker": "Translator/editor note",
+          "text": "- 2 ጴጥ. 1፥17-18።",
+          "note_type": "translator_note",
+          "source_reference": "9:2"
+        },
+        {
+          "verse": "7",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 3፥17፤ ማር. 1፥11፤ ሉቃ. 3፥22።",
+          "note_type": "translator_note",
+          "source_reference": "9:7"
+        },
+        {
+          "verse": "11",
+          "marker": "Translator/editor note",
+          "text": "- ሚል. 4፥5፤ ማቶ. 11፥14።",
+          "note_type": "translator_note",
+          "source_reference": "9:11"
+        },
+        {
+          "verse": "34",
+          "marker": "Translator/editor note",
+          "text": "- ሉቃ. 22፥24።",
+          "note_type": "translator_note",
+          "source_reference": "9:34"
+        },
+        {
+          "verse": "35",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 20፥26-27፤ 23፥11፤ ማር. 10፥43-44፤ ሉቃ. 22፥26።",
+          "note_type": "translator_note",
+          "source_reference": "9:35"
+        },
+        {
+          "verse": "37",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 10፥40፤ ሉቃ. 10፥16፤ ያህ. 13፥20።",
+          "note_type": "translator_note",
+          "source_reference": "9:37"
+        },
+        {
+          "verse": "40",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 12፥30፤ ሉቃ. 11፥23።",
+          "note_type": "translator_note",
+          "source_reference": "9:40"
+        },
+        {
+          "verse": "41",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 10፥42።",
+          "note_type": "translator_note",
+          "source_reference": "9:41"
+        },
+        {
+          "verse": "44",
+          "marker": "Translator/editor note",
+          "text": "+ አዛቡ ዘቡዕሉት ሬታበኢሁለከ ጊረስ ጠዕታበኢሃ ቤቹ፦ መት-መቱ ሉህ ክታበት ዎሊንሽ 44 ዮኢሃ በርግታበአ። ላገንትስ ዎሊንሽ 48 ዮኢሃ አጉዳአ",
+          "note_type": "translator_note",
+          "source_reference": "9:44"
+        },
+        {
+          "verse": "44",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 5፥30።",
+          "note_type": "translator_note",
+          "source_reference": "9:44"
+        },
+        {
+          "verse": "47",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 5፥29።",
+          "note_type": "translator_note",
+          "source_reference": "9:47"
+        },
+        {
+          "verse": "48",
+          "marker": "Translator/editor note",
+          "text": "- ኢሳ. 66፥24።",
+          "note_type": "translator_note",
+          "source_reference": "9:48"
+        },
+        {
+          "verse": "49",
+          "marker": "Translator/editor note",
+          "text": "+ መጥንትለከ ጊረት ሀት እክ ነጠ እካገ፦ ሌዌ 2፥13 ሚል. 3፥2-3 ፊል. 3፥17 ዮኢሃ ለኡ ሀስሰኖ።",
+          "note_type": "translator_note",
+          "source_reference": "9:49"
+        },
+        {
+          "verse": "50",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 5፥13፤ ሉቃ. 14፥34-35።",
+          "note_type": "translator_note",
+          "source_reference": "9:50"
+        }
+      ],
+      "heading": [
+        "ኢስ ደኑ ዶረሙስ",
+        "(ማቶ. 17፥1-13፤ ሉቃ. 9፥28-36)"
+      ]
+    },
+    {
+      "chapter": 10,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ኢስ ህከንቤቺች ኬዕይ ይሁድ ባዱ ህግ ዮርዳኖስ ዛዘኖ ዊች ገርብ አዲን ቶል ኦሮዕዮ፤ ልግቡ መኑ ለንኪሃ እስበ ጭምይታን ወዕና ሮሾገን ተማርሰኖሳት እቅ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ፈርሳዌች መት-መቱሰ ኢሰ ሉሲሶተ ሀስ አሜት «መቱ መንቹ ጫስ ገፈሮተ ሕግን ፈቀደመኖስንዶ?» ይት ጠዕምቶስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "3",
+          "text": "ኢስን ፈንቀሽ «ሙስ ከን ጠዊሃ መ አዘዦህዕኔ?» ዬሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "እሰን «ሙስ ‹እሴንከ ንከሴ ሂር ሸሩን› ይ አዘዦኔ» ይቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "እኮጎሬ ኢስ እሳሃ ፈንቀሽ «ሙስዕኑ ከ ትዛዝ ከተቦተ አታሎሁ ቀልቡክዕኔ ዱጃን ሞጮጭቴነንተበእቤቺሃት ዬሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "ጠዉ እኮጎሬ መገኑ ወዕና ክልቀት ከለቆ ወክት ለባለከ ሜኣተ አዕይ ከለቆ።"
+        },
+        {
+          "number": "7",
+          "text": "ህካን እኮቤቺሃ መኑ አነስለከ አመስ አጉረኖ ምንስ አማን ሜጡ እሀኖ።"
+        },
+        {
+          "number": "8",
+          "text": "ህትን ለሙንኩሰ ሜጡ ጅስመ እካኣ፤ ህከኒች ኤተሮን እሰ ሜጡ ጅስመ እካ ቤሉ ለሙ ጅስመ እካበአ።"
+        },
+        {
+          "number": "9",
+          "text": "ህካን እኮቤቺሃ መገኑ ሜጡ አዕዮሃ መኑ መለሉንከሰ» ዬእ።"
+        },
+        {
+          "number": "10",
+          "text": "እሰን ምኒ ፈንቀልት አሜቶ ወክት አሳበስ ህከን ጠውተኔሃ ፈንቀልት ኢሰ ጠዕምቶስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "እስን «ጫስ ገፈር ዎሉ ሜንቱ ኣአኖሁ ጉዕሙንኩ እሴ አሌን ዝነተ አዕዮኡ።"
+        },
+        {
+          "number": "12",
+          "text": "ህትን ምንሴ መንቺች ፉልት ዎሉ ጎነ ኣግሶ ጎሬ እሴሁ ዝነተ አቶኡ ዩሃን» ዬእ።"
+        },
+        {
+          "number": "13",
+          "text": "መት-መቱ መኑ እለሰ አሌን አንገተ አዕይ ማሰኦሰተ ኢስበ ኤቦኡ፤ ጠዉ እኮጎሬ አሳበስ ህከ ኦሱተ ኤቦ መነ ሻቆኡ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ኦሱተ ማሰዕዮገ",
+            "(ማቶ. 19፥13-15፤ ሉቃ. 18፥15-17)"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "ኢስን ህካን ለዕዮ ወክት አሳበስ ኡሙዕር «መገን ዎምነቱ ከኑኡገ ዮሀኑኡተ እኮቤቺሃ ኦሱት ኢበ አሜቱን ከንቶኖቼ» ዬሰ።"
+        },
+        {
+          "number": "15",
+          "text": "ኢስ «ሀንቅንከ ያንክኔ፤ መገን ዎምነቱ ኦሶገ እክ ቶግባሁ መገን ዎምነቱ ኣጎተ ሆሮ አታለኖበአ» ዬእ።"
+        },
+        {
+          "number": "16",
+          "text": "ህከኒች ኤተሮን ኦሱተ ሀንቀፍ አንገስ አሌሰ አዕይ ማሰዕዮሰ።"
+        },
+        {
+          "number": "17",
+          "text": "ኢስ ህከን አዲች ፉል ሃመን ሄዕዮገን መቱ መንቹ እስበ ደጉደን አሜች ብሬስ ጉሉጵ «መረርሲጭታንት አስተማርቾ! ጉዕመ ዘማን ሄኡ ደኦተ መ አኡ ሀስሰኖኤ?» ይ ጠዕሜስ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ዱንያ አል ቀባጡተለከ መገን ዎምነቱ",
+            "(ማቶ. 19፥16-30፤ ሉቃ. 18፥18-30)"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "ኢስን ፈንቀሽ «ሚሃት መረርሲጫንቾ ይታንቴኤሁ? ሜጦ መገን ቤሉ መረርሲጫንቹ አዪሁ ዮበአ።"
+        },
+        {
+          "number": "19",
+          "text": "ትዛዝ ደጋንት፤ ትዛዙንኩ ‹ሽቶት፥ ዝነተ አቶት፥ ሞግቶት፥ ጩብ መሰከርቶት፥ ጣንስቶት፥ አነክለከ አመክ ከበጅ› የኖሃን» ዬስ።"
+        },
+        {
+          "number": "20",
+          "text": "ሁኩ መንቹንኩ ፈንቀሽ «አስተማርቾ! አን ከ ትዛዝ ጉዕመንከ ኦስማችኤ ኬሽ አገሮም» ዬእ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "ኢስን ህከ መንቹ ለዕይ እሱንከ ኢቴስ፤ «መቱ ጠዉ ጠለዕሉ ፈቆሄ፤ እስን መርት ዮሄ ዱንያክ ጉዕመንከ ህርት ብረስ ቡጥቻኖተ ኣስ፤ አት ሰማን ጭምይቶ ዱንያተ ደእታንት፤ ህከኒች ኤተሮን አሜት ኤሳሃ አዎንት ኢች ተማር» ዬስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "መንቹንኩ ከ ጠወ ሞጮጬ ወክት ልግቡ ዱንያት ዮስቤቺሃ ሚንተ በዕይ ሻዘን ኦሮዕዮ።"
+        },
+        {
+          "number": "23",
+          "text": "ህከ ወክት ኢስ አሳበስ ዘህ ለዕይ «ቀባጣሙ መኑ መገን ዎምነቱ ኣጉ ሀትኔታ ኦርሸ» ዬሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "አሳበስ ላጋንተስ አጀብሲጭቶኡ። ኢስን ፈንቀሽ «ኢ ኦሶ መገን ዎምነቱ ኣጉ ሀት ኦርሰኖሃን?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "ቀባጣሙ መገን ዎምነቱ ኣገኖ ዪች ጋሜሉ መርፌ ጠላዕላን ህገኖ ዩ ቆሀኖ» ዬሰ።"
+        },
+        {
+          "number": "26",
+          "text": "ህከን ጠዋን አሳበስ አበ አጀብሲጭት ገገዉንኩሰን «ከን ሃሌን አይ ጡሞተ አታለኖ?» የቀንቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "27",
+          "text": "ኢስን እሰ አደ ለዕይ «መኒሃ አታለምቡ መገኒሃ አታለመኖ፤ መሰንትስ መገኒሃ ጉዕሙርቹንኩ አታለመኖስ» ዬሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "ጴጥሮስን «ነኡ ጉዕመርቹንከ አጉርን አዎኖንኬ» ዬእ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "29",
+          "text": "ኢስን «ሀንቅንከ ያንክዕኔ፤ ኢተኔሃለከ እንጂልተኔሃ ምንስለከ አመስ ኦሱተ፥ ላባኑተለከ ሜኣኑተ፥ አመስለከ አነስ፥ እለስለከ ኡለስ አጉረኖሁ በትሽ አበ ደአኖ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "ከን ዘማኔን ሆሮ ምንስለከ አመስ ኦሱታ፥ አማኑስለከ እለስ፥ ኡለስ አመዕነትተኔሃ ያየም ኦርጨቀሞጎሬ ጥቤ ለሙ አፎ ደአኖ፤ ህትን አሜተኖ ኣኬሩ ዘማኔን ጉዕማን ጎፍበ ሄኡ ደአኖ።"
+        },
+        {
+          "number": "31",
+          "text": "ጠዉ እኮጎሬ ልግቡ ብሬሩ ኤተርረ ህትን ልግቡ ኤተርሩ ብሬረ እካአ» ዬሰ።"
+        },
+        {
+          "number": "32",
+          "text": "ኢስለከ አሳበስ ዬሩሳሌመ መሰኖ ዎቃን ሜጡበ ሄኦገን ኢስ እሰ ብሬን ሃመኖ እቅ፤ አሳበስ አጀብሲጭቶኡ፤ ህትን ኤተርስ አዲን አዎንተን ሄኦ መኑ ዋጅቶ እቅ፤ ኢስ ቶነ ለሙንከ አሳበስ ለንኪሃ እስበ ሆንጠህሽ ኢልታሰ ኦርሸተ ኩሎሰ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ሬሆስተኔሃ ሰቅ ወክት ጠወኡስ",
+            "(ማቶ. 20፥17-19፤ ሉቃ. 18፥31-34)"
+          ]
+        },
+        {
+          "number": "33",
+          "text": "ኢስን እሰንተ «ሁኩዕኑን! ቴሱ ዬሩሳሌመ መርናሚት፤ ህከንቤቾንን መንች ቤቱ ቂስ አዎንሳኖተለከ ሕግ አስተማረተ ህግሴን ኣሴኖስ፤ እሰን ሬሆ ፍርደ ፈረድ አይሁደ እህበ መኒሃ ህግስ ኣታአ።"
+        },
+        {
+          "number": "34",
+          "text": "እሰን ቀለዳስ፤ አንጀ ቱ ይታስ፤ ኦልታስ፤ ሽታስ፤ ጠዉ እኮጎሬ እስ ሰቅ በር ሬሆች ኬአኖ» ዬሰ።"
+        },
+        {
+          "number": "35",
+          "text": "ዜብዴዎሴ ኦሱት ያቁብለከ ያህይ ኢስበ ሆንጠክ «አስተማርቾ! ኡጭናንኬ ጉዕመርቹንከ ኣቶኔተ ሀንሳም» ይቶኡ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ያቁብለከ ያህይ ኡጭቱተ",
+            "(ማቶ. 20፥20-28)"
+          ]
+        },
+        {
+          "number": "36",
+          "text": "ኢስን «መ አኦህዕኔተ ኢትቴነን?» ዬሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "37",
+          "text": "እሰን «ኬዕምኝክ ዎምነቴን መቱኔ መኬ አዲን መቱኔ ጉረ አዲን አፉዕልናምገ አእኔ» ይቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "38",
+          "text": "ጠዉ እኮጎሬ ኢስ እሰንተ «ኡጭቴነንታሃ ደጌነንተበአ፤ አን ቶጋም ኦርሸ ጠበትተ ቶጎኖተ አታልቴነንንዶ? ህትን አን ጠመቀማም ጥምቀት ጠመቀሙ አታልቴነንንዶ?» ዬሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "39",
+          "text": "እሰን ፈንቀሽት «ኤ አታልናም» ይቶኡ፤ ህትን ኢስ ፈንቀሽ «አን ቶጋም ኦርሸ ጠበቴሃ አዕኑ ቶጎኖተ አታልቴነንተ፤ ህትን አን ጠመቀማም ጥምቀት ጠመቀንቴነንተ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "40",
+          "text": "እኮጎሬ ኢ መኬ አዲንለከ ጉረ አዲን አፉዕሌኖገ አኣሚሁ አኔበአ፤ ጠዉ እኮጎሬ ሁኩ ቤቹ መገኑ ቅጥ አዕዮሰሀኑኡሃ ኣሰመኖሃን» ዬሰ።"
+        },
+        {
+          "number": "41",
+          "text": "ፈቆ ቶኑንኩ አሳበት ህካን ሞጮጭቶ ወክት ያቁበለከ ያህይ ኡሙዕርቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "42",
+          "text": "ህከ ወክት ኢስ እሰንተ እስበ ገእ «አይሁደ እህበ ኡመቲሃ ዬን ገኤኖሰገለከ አዎንሳኑሰን እሰ አሌን ሹምነቱ ዮሳሃ እሁስ ደጌነንተ።"
+        },
+        {
+          "number": "43",
+          "text": "ጠዉ እኮጎሬ ክዕኔቤቾን ህት እሁ ሀስሰኖበአ፤ አዪሁ ክዕኔ በላን ሎረ እሆተ ኢተኖሁ ሄዕዮ ጎሬ ክዕኔንከ ካዲንቹ እሁ ሀስሰኖስ።"
+        },
+        {
+          "number": "44",
+          "text": "ህትን ክዕኔ በላን ዎኔሃ እሆተ ሀሰኖሁ ጉዕሚንከክዕኔ ሮስቹ እሁን።"
+        },
+        {
+          "number": "45",
+          "text": "ህትን መንች ቤቱ ካደሞተለከ ነብሳስ ልግብያ መኒሃ ዎዥ ኣሶተ አሜቾ ቤሉ እስ ካደሞኖስተ አሜቾበአ» ዬሰ።"
+        },
+        {
+          "number": "46",
+          "text": "ህከኒች ኤተሮን እሰን ኢያርኮ ከተመ አሜቶኡ፤ ኢስ አሳበስ ልግብያ መኒን ሜጡበ ኢያርኮ ከተሚች ፉለንን ጤሞሴ ቤቱ «በርጤሞሴ» ዬኖ ቆቁ ዎቄ መዴን አፉዕል ኡጨኖት እቅ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ እልተ ቆቀ በርጤሞሴ ፈይሱስ",
+            "(ማቶ. 20፥29-34፤ ሉቃ. 18፥35-43)"
+          ]
+        },
+        {
+          "number": "47",
+          "text": "ህከን አዲን ህገኖሁ ነዝሬት ኢሰ እሁስ ሞጮጬ ወክት «ደዉዴ ቤቶ ኢሰ! ሀዕይ መረርሲጬኤ» የን ያሩ ጀመሮ።"
+        },
+        {
+          "number": "48",
+          "text": "ኢሰ አዎንተን ሄኦ መኑ «ጨለይ» ይት ኡሙዕርቶስ፤ ጠዉ እኮጎሬ እስ «ደዉዴ ቤቶ ሀዕይ መረርሲጬኤ» የን ወዕኔች በትሽ ያሮ።"
+        },
+        {
+          "number": "49",
+          "text": "ኢስን ኡር «ገእዬስ» ዬእ፤ እሰን ህከ ቆቀ መንቹ «ቴ ጠረኝ ኬእ፤ ኢስ ገአኖሄት» ይት ገእቶስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "50",
+          "text": "እስን ኦደዕዮ ኦድኑስ ኡጅ ኡር ኮርጀን ኬዕይ ኢስበ አሜቾ።"
+        },
+        {
+          "number": "51",
+          "text": "ኢስን «መ አኦሄተ ሀሰን?» ይ ጠዕሜስ።",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "ሁኩ ቆቁንኩ መንቹ «አስተማርቾ! ሀዕይ እልኤ ለኣገ አኤኤ» ዬስ።"
+            }
+          ]
+        },
+        {
+          "number": "52",
+          "text": "ኢስን «ቴ ኦሮእ፤ አመዕነቱክ ፈይሾሄ» ዬስ፤",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "ወክትንከስ እልስ ፈንተኣን ለዕይ ኢሰ አዎኞ።"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "4",
+          "marker": "Translator/editor note",
+          "text": "- ዘዳ. 24፥1-4፤ ማቶ. 5፥31።",
+          "note_type": "translator_note",
+          "source_reference": "10:4"
+        },
+        {
+          "verse": "6",
+          "marker": "Translator/editor note",
+          "text": "- ክል. 1፥27፤ 5፥2።",
+          "note_type": "translator_note",
+          "source_reference": "10:6"
+        },
+        {
+          "verse": "8",
+          "marker": "Translator/editor note",
+          "text": "- ክል. 2፥24።",
+          "note_type": "translator_note",
+          "source_reference": "10:8"
+        },
+        {
+          "verse": "11",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 5፥32፤ 1 ቆሮ. 7፥10-11።",
+          "note_type": "translator_note",
+          "source_reference": "10:11"
+        },
+        {
+          "verse": "15",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 18፥3።",
+          "note_type": "translator_note",
+          "source_reference": "10:15"
+        },
+        {
+          "verse": "19",
+          "marker": "Translator/editor note",
+          "text": "- ፉል. 20፥12-16፤ ዘዳ. 5፥16-20።",
+          "note_type": "translator_note",
+          "source_reference": "10:19"
+        },
+        {
+          "verse": "31",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 20፥16።",
+          "note_type": "translator_note",
+          "source_reference": "10:31"
+        },
+        {
+          "verse": "38",
+          "marker": "Translator/editor note",
+          "text": "- ሉቃ. 12፥50።",
+          "note_type": "translator_note",
+          "source_reference": "10:38"
+        },
+        {
+          "verse": "42",
+          "marker": "Translator/editor note",
+          "text": "- ሉቃ. 22፥25-26።",
+          "note_type": "translator_note",
+          "source_reference": "10:42"
+        },
+        {
+          "verse": "43",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 23፥11፤ ማር. 9፥35፤ ሉቃ. 22፥60።",
+          "note_type": "translator_note",
+          "source_reference": "10:43"
+        }
+      ],
+      "heading": [
+        "ኢስ ጎጆሃ እህተኔሃ ተማርሱስ",
+        "(ማቶ. 19፥1-12፤ ሉቃ. 16፥18)"
+      ]
+    },
+    {
+      "chapter": 11,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ኢስለከ አሳበስ ዬሩሳሌመ ሆንጠኮ ወክት ቤተ ፋጌለከ ቢታን ከተም አዲን ዘይት ሀቁ ነጰኖ ቆተበ ኢልቶኡ፤ ህከንቤቺች ኢስ አሳባች ለሙሰ",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "«ብሬ አዲን ዮ ቀዕየተ መሬ፤ ህከ ቤቹ እልቴንተ ወክት አዪሁ ሆሮን ቆጶበእ ወተረ ኡሱረሞሃ ደጌነንተ፤ እሱንከ ሂርቴን ኤቤኤ።"
+        },
+        {
+          "number": "3",
+          "text": "አይደጎ አዪሁ ‹ካን ሚሃ አቴነንታት?› ዬህዕኔጎሬ ‹ቀርቹ ሀሾቤቺሃት፤ እስን ደዕል ፈንቀሽ ሶሀኖህዕኔ› ይዬ» ይ ሶኮሰ።"
+        },
+        {
+          "number": "4",
+          "text": "እሰን መርት ዎተሩስ ዎቄ መዴን ኡሮ ቀፈቴን አሱረሞሃ ደግ ህርቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "ህከ ወክት ህከኔ ኡሬ መኒች መት-መቱሰ «ከ ዎተረ ሂርቴነንታሁ ሚሃት?» ይት ጠዕምቶሰ።"
+        },
+        {
+          "number": "6",
+          "text": "እሰን ኢስ እሳሃ ዬገን ይት ኩልቶኡ፤ ሁኩ መኑንኩ «መስዬ» ይቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "አሳበስ ዎተረ ኢስበ ኤብ ኦድኑሰ ዎተር ጉጅ አሌን አታን ኢስ ቆጶ።"
+        },
+        {
+          "number": "8",
+          "text": "ልግቡ መኑ ኦድኑሰ ዎቃን ዌሳኢት እቅ፤ ዎሉሰንገ ቆጢች ሀቅ ሀበረ ተንቅሰን ዌሳእት እቅ።"
+        },
+        {
+          "number": "9",
+          "text": "ብሬ አዲን ሃንተን ሄኦእሩለከ ኤተር አዲን አዎንተን ሄኦ ጉዕሙንኩ «መገኒሃ ኬዕምኙ እሁን! ቀርች ሱዕሚን አሜተኖሁ ማሰአሞሃን።"
+        },
+        {
+          "number": "10",
+          "text": "አሜተኖ አንኔ ደዉዴ ዎምነቱ ማሰአሞሃን፤ መገኒሃ ኬዕምኙ አሌ ሰማን እሁን» ይተን ሎረ ላጋን ገለትጭታኢት እቅ።"
+        },
+        {
+          "number": "11",
+          "text": "ኢስ ዬሩሳሌመ ኢሌ ወክት ዱአ አኤኖ ምኒ ኣጎ፤ እስን ህከኔ ዮ ጉዕመርቹንከ ለዕዮ፤ ጠዉ እኮጎሬ ኡለት ሀዎርቶቤቺሃ ቶነ ለሞንከ አሳባን ቢታን ከተመ ኦሮዕዮ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "ለንክ በር ቢታን ከተሚች አሜተንን ኢሰ ጎሩ አፎስ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ቦሮሮ ኦዴቹተ",
+            "(ማቶ. 21፥18-19)"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "እስን ሀበረ ለቶ ኦድ ሀቁቹተ ቄዕራሻን ለዕይ «አይደጎ ላልቹ ዮሴ ጎሬ» ይ እሴበ ኦሮዕዮ፤ ጠዉ እኮጎሬ ህከ ኦድ ሀቁቾበ ሆንጠኮ ወክት ኦዱ ላለኖ ወክቱ ኢልዮበእቤቺሃ ሀበር ቤሉ ላልቹ ዮሴበ እቅ።"
+        },
+        {
+          "number": "14",
+          "text": "ህካን እኮቤቺሃ ኢስ ኦድ ሀቁቹተ «አዪሁ ከኒች ኤተሮን ኪች ላልቹ እቱንከ» ዬሴ። ህካን ጠወአንን አሳበንት ሞጮጭቶኡ።"
+        },
+        {
+          "number": "15",
+          "text": "እሰን ዬሩሳሌመ ኢልቶ ወክት ኢስ ዱአ አኤኖ ምኒ ኣግ ምንስ ኣዜን ህርታእረለከ ህዕርታእረ ፉሼእ፤ ብረ ዶርተ መን ጠረጴዘተለከ ሀንደዕርተ ህርታ መን ቦርጭመተ ገለበጮ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ዱአ አኤኖ ምናን ጌባ አታእረ ፉሹስ",
+            "(ማቶ. 21፥12-17፤ ሉቃ. 19፥45-48፤ ያህ. 2፥13-22)"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "ኢስ አዪሁ ዱአ አኤኖ ምኒ ግቤ ኣዚን መቱርቹሃ እጅ ህገኖበእገ አዘዦ።"
+        },
+        {
+          "number": "17",
+          "text": "ህትን ኢስ እሳሃ « ‹ምኑኤ ኡመቱ ጉዕሙንኩ መገኑ ኡጨኑወ ምኒ› የመም ጠሊለ መጻፋን ከተበሞበእንዶ? እኮጎሬ አዕኑ ሽፍጥ ቆጠ አቴንታአ» ይ ተማርሴሰ።"
+        },
+        {
+          "number": "18",
+          "text": "ቂስ ሀለቀትለከ ሕግ አስተማረት ህካን የን ሞጮጭቶ ወክት እሱ ሽታ ዎቃሃ ሀሶኡ፤ እኮጎሬ እስ ተማርሰን መኑ ጉዕሙንኩ ትምርቴንከስ አጀብሲጬቤቺሃ ዋጅቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "ኢስለከ አሳበስ ኡለት ሀዎርቶ ወክት ከተሚች አብል ፉልቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "እሰን ለንክ በር ሱጵተ ዎቄን ህገን ኦድ ሀቁቹት ጠጰሴ ኢለ ሞልቶኢሃ ለኦኡ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኦድ ሀቁቾች ደገሞ ትምርት",
+            "(ማቶ. 21፥20-22)"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "ጴጥሮስን ጠወስ ሰውይ ኢሰ «አስተማርቾ ከለእ! አት ቦሮርቶንትሴ ኦድ ሀቁቹት ሞልቶኡ» ዬእ።"
+        },
+        {
+          "number": "22",
+          "text": "ኢስን እሰንተ «መገኖን አመዕንዬ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "ሀንቅንከ ያንክዕኔ፤ አዪሁ ቀልቤንከስ ሸኩዕናን ዬኢሁ ጉዕሙንኩ እሀኖገ አመዕን ከ ቆተተ ‹ከንቢች ኬእ ባራን ኡብ› ዬጎሬ እሀኖስ።"
+        },
+        {
+          "number": "24",
+          "text": "ህካን እኮቤቺሃ አን ኩላንክዕኔ፤ አዕኑ መገኑ ኡጭቴነንተርቹ ጉዕሙንኩ ክዕኔሃ ኣሰመኖህዕኔገ አመዕንቴንተጎሬ ክዕኔሃ ኣሰመኖህዕኔ።"
+        },
+        {
+          "number": "25",
+          "text": "አዕኑ ዱአ አኢሃ ኡርቴነንተ ወክት አዬ አሌኒ አፌንተ ገዱተ አጉሬ፤ ህካን እኮቤቺሃ ሰማን ዮ አኑክዕኔ ጩብክዕኔ አጉረኖህዕኔ።"
+        },
+        {
+          "number": "26",
+          "text": "ጠዉ እኮጎሬ አዕኑ መኑ በደሎህዕኔሃ አጉርቴንበጎሬ ሰማን ዮ አኑክዕኔ ክዕኔ ብድልሃ አጉረኖበአ» ዬሰ።"
+        },
+        {
+          "number": "27",
+          "text": "ኢስለከ አሳበስ ለንኪሃ ዬሩሳሌመ መርቶኡ፤ ህከኔ ኢስ ዱአ አኤኖ ምኔን ፈንቀላመን ቂስ አዎንሳኑት፥ ሕግ አስተማረትለከ ባድ ባልቀት እስበ አሜት",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢሰ መ ሹምነቲን አአኖጎሬ ጠዕሜመገ",
+            "(ማቶ. 21፥23-27፤ ሉቃ. 20፥1-8)"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "«ከ ጠወ አታንቲሁ መ ሹምነቲንት? ህከረንገ ካን አታንት ወልቀተ ኣሴሄሁ አዬት?» ይት ጠዕምቶስ።"
+        },
+        {
+          "number": "29",
+          "text": "ኢስን እሳንከ ፈንቀሽ «አን መቱ ጠወ ጠዕማንክዕኔ፤ አዕኑ አን ጠዕሜምርቹ ፈንቀሽቴንተጎሬ አን መ ወልቃን ከ ጠወ አኣሚት ጎሬ ኩላንክዕኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "ህንዴ ኩሌኤ፤ ያህይ ጠመቀኖ ጥምቀቱ መገኒችትንዶ ህከረንገ መኒችት?» ዬሰ።"
+        },
+        {
+          "number": "31",
+          "text": "ህከ ወክትንከ እሰን «መ ይኑ?» ይት ገገዉንኩሰን አማዕለንት « ‹መገኒችት› ይኖምጎሬ ‹ሚሃ ያህይን አመዕንቴነንተበአ?› የኖኔ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "32",
+          "text": "‹መኒችት› ይኑንዶ?» ይቶኡ፤ ህካን ይታበእገ ኡመቱ ጉዕሙንኩ ያህይ «ነብዬቹወ» የኖቤቺሃ መነ ዋጅቶኡ።"
+        },
+        {
+          "number": "33",
+          "text": "ህካን እኮቤቺሃ እሰን ኢስሃ «ነኡ ደንጋምበአ» ይት ፈንቀሽቶኡ፤ ኢስን እሰንተ «አን ካን መ ወልቃን አኣሚት ጎሬ ኩላንክዕኔበአ» ዬሰ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "9",
+          "marker": "Translator/editor note",
+          "text": "- መዝ. 118፥25-26።",
+          "note_type": "translator_note",
+          "source_reference": "11:9"
+        },
+        {
+          "verse": "17",
+          "marker": "Translator/editor note",
+          "text": "- ኢሳ. 56፥7፤ ኤር. 7፥11።",
+          "note_type": "translator_note",
+          "source_reference": "11:17"
+        },
+        {
+          "verse": "23",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 17፥20፤ 1 ቆሮ. 13፥2።",
+          "note_type": "translator_note",
+          "source_reference": "11:23"
+        },
+        {
+          "verse": "25",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 6፥14-15።",
+          "note_type": "translator_note",
+          "source_reference": "11:25"
+        },
+        {
+          "verse": "26",
+          "marker": "Translator/editor note",
+          "text": "+ መት-መቱ ሉህ ክታበት ዎሊንሽ 26 ዮኢሃ በርግታበአ፤ ላገስ ማቶ. 6፥15 ዮኢሃ አጉደኖ።",
+          "note_type": "translator_note",
+          "source_reference": "11:26"
+        }
+      ],
+      "heading": [
+        "ኢስ ሎረ ኬዕምኚን ዬሩሳሌመ ኣጉስ",
+        "(ማቶ. 21፥1-11፤ ሉቃ. 19፥28-40፤ ያህ. 12፥12-19)"
+      ]
+    },
+    {
+      "chapter": 12,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ኢስ እሳንከ ማቆን መቱ ወክት መቱ መንቹ ወይነ ዬኖ ላልቹ ካሾ፤ ህከቤቹንከ ዘህሽ ኦች ላልቹስ ጩንሼኖ ኤሎ እም ወይነ አገረኖሀኒሃ ሀንሸሩ እጃር መክሾ፤ ህከኒች ኤተሮን ሁኩ መንቹ ወይነስ ቀባኖተ ኣስ ቄዕራሸ ባዱ ኦሮዕዮ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ወይኑስ ላለኖ ወክት ካድንቹስ መር ላልቺችስ ኤቦተ ቀባኖበ ሶኮ።"
+        },
+        {
+          "number": "3",
+          "text": "እሰን ህከ ሶሄመ ካድንቹ አፍ ኦልት መቱርቹሃ ኣቱዕናን ኦነስ ሸርቶኡ።"
+        },
+        {
+          "number": "4",
+          "text": "ለንኪሃ ወይንስ አኑ ዎሉ ካድንቹ ሶኮ፤ ቀባኑስ ህከ ካድንቹ ቡዕለስ ፍልት ጡላይስ ሆፍስስ ሸርቶኡ።"
+        },
+        {
+          "number": "5",
+          "text": "ህትን ወይንስ አኑ ዎሉስ ሶኮረ ሽቶኡ፤ ህትን ልግብ መነ ሶኮረ መት-መቱሰ ዎቃርቶኡ፤ ዎሉሰንገ ሽቶኡ።"
+        },
+        {
+          "number": "6",
+          "text": "ቴሁ መንቺሀስ ፈቆሁ ኢተኖ ቤቱስ ሶኋን፤ ህካን እኮቤቺሃ «ኢ ቤቱ ከበጅታስ» ይ ሰውይ ኤተሮን ቤቱስ ቀባኖስበ ሶኮ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "ጠዉ እኮጎሬ ሁኩ ቀባኑት ገገዉንኩሰን «ከለዕዬ! ኡለስ ረገአኖሁ ከኒት፤ ህካን እኮቤቺሃ አሜ እሱ ሽኖ፤ ነኡ ኡለስ ረገዕናም» የቀንቶኡ።"
+        },
+        {
+          "number": "8",
+          "text": "እሰን እሱ አፍ ሽት ወይን አቡረ ኣዚች አብል ፉሽት ቶርቶኡ።"
+        },
+        {
+          "number": "9",
+          "text": "ህካን እኮቤቺሃ ሁኩ ወይንስ አኑ መ አአኖ? አሜች ህከ ቀባኑስ ሽ ወይነስ ዎሎ መኒሃ ኣሰኖ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "ጠሊለ መጻፋን",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "«ግንበኛኑት ህንቆ ክኑ"
+            },
+            {
+              "source_marker": "q2",
+              "text": "እስ ሙረበ ቡዕል ክኑ እኮ።"
+            }
+          ]
+        },
+        {
+          "number": "11",
+          "text": "ሁኩንን ቀርችተ ሆጉ፤",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "ሁኩ ሆጉንት እሌተኔ አጀብሲሳእታን"
+            },
+            {
+              "source_marker": "q2",
+              "text": "የመም ከተበሞሃ አነበቤንታበእንዶ?» ዬእ።"
+            }
+          ]
+        },
+        {
+          "number": "12",
+          "text": "አይሁድ ሀለቀት ኢስ ጠወዕዮ ምሳልተ እሰንተ ለአኖሃ እሁስ ደጎቤቺሃ አፎተ ሀሶ እቅ፤ ጠዉ እኮጎሬ ኡመት ዋጅቶቤቺሃ አጉርት መርቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "ጠወአኖ ጠዊን ሉሲሶተ መት-መቱ ፈርሳውትለከ ሄሮድሴሃ እሉ እሀኖ መነ ኢስበ ሶኮኡ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ግብር ባቲሃ ኢሰ ጠዕሜመገ",
+            "(ማቶ. 22፥15-22፤ ሉቃ. 20፥20-26)"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "እሰን እስበ አሜት «አስተማርቾ! መቱ አደ ጎልቱዕናን ሀንቅ መገን ዎቃሃ ተማርሲታንትሃን፤ አት ሀንቅ አታንቲሃ እሁክ ደንጋም፤ ሮም ዎሚሃ ግብር ባቱ ገበአኑሃንዶ ገበእበሃን? ግብር ባንቱንዶ ህከረንገ ባንቱንከ?» ይቶኡ።"
+        },
+        {
+          "number": "15",
+          "text": "ኢስን እሰ ሂለ ጠወ ደግ «ሚሃ ሉስሶኖኤተ ሀሴነንታት? ህንዴ ዲናረ ኤቤ ለኣም» ዬሰ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "እሰን መቱ ዲናረ ኤቦኡ፤ እስን እሰንተ «ከን ዲናር አሌን ዮ ፎቱትለከ ከተበሞ ሱዕሙሁ አዬሃን?» ዬሰ፤",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "እሰን «ቄሳርየ» ይቶኡ።"
+            }
+          ]
+        },
+        {
+          "number": "17",
+          "text": "ኢስን ፈንቀሽ «ህካን እኮች ዎሚሃ ዎሚንከ ህትን መገኒሃ መገኒንከ ኣስዬ» ዬሰ፤ እሰን ጠዋንከስ አጀብሲጭቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "«ሬዮ መኑ ሬሆች ኬአኖበአ» ይታ ሰዱቃውት ኢስበ አሜት፤",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ሬዮ መኑ ኬእሃስ ሆንጠኮ ጠዕምቱተ",
+            "(ማቶ. 22፥23-33፤ ሉቃ. 20፥27-40)"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "«አስተማርቾ! ሙስ ‹መቱ መንቹ እለተ እሉዕናን ሬዮ ጎሬ ህከን ሬዮ መንች አመስቤቱ ጫስ ረገዕይ ህከን ሬዮ መንቺሃ እለተ እሉን› ይ ከተቦኔ።"
+        },
+        {
+          "number": "20",
+          "text": "መቱ ወክት ለመሉ አመኦሱት ሄኦ እቅ፤ እሳችን ሀንገፉስ ጫተ ኤብ እለተ እሉዕናን ሬዮ።"
+        },
+        {
+          "number": "21",
+          "text": "ህትን ለንክሁ ህተ ጫተ ረገዕይ እሉዕነ ሬዮ፤ ሰቂሁ ህትን እኮ።"
+        },
+        {
+          "number": "22",
+          "text": "ከን ሃሌን ለመሉንኩ ህተ ጫተ ረገእ እልቱዕናን ሬቶኡ፤ ህከኒች ኤተሮን ጫንትስ ሬቶኡ።"
+        },
+        {
+          "number": "23",
+          "text": "ህካን እኮቤቺሃ ለመሉንኩ አመኦሱት ተሪን ተሪን ረገኦሴቤቺሃ ሬዮ መኑ ሬሆች ኬአኖ በር ህት ጫት አዬተ እካአ?» ይት ጠዕምቶኡ።"
+        },
+        {
+          "number": "24",
+          "text": "ኢስን እሳንከ ፈንቀሽ «አዕኑ ህት ሉሴነንታሁ ጠሊለ መጻፈተለከ መገን ዎልቀተ ደጉ ሆጌንተቤቺሃትበእንዶ?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "ሁኩ ሬቶ መኑ ሬሆች ኬኣ ወክት መላይከገ እካ ቤሉ ኣኢታበኢሁ፤ ኣአቀንታበኢሁ።"
+        },
+        {
+          "number": "26",
+          "text": "ጠዉ እኮጎሬ ሬቶሀኑኡተ ኬእተኔሃ መገኑ ቡበኖ ሽፎ ኣዜን ሙሰ ‹አን እብራሂሚሃ፥ ኢሳቅለከ ያቁብሃ መገኑ› የኖሃ ጠሊለ መጻፊች አነበቤንታበእንዶ?"
+        },
+        {
+          "number": "27",
+          "text": "ህካን እኮቤቺሃ መገኑ ፎሉ ዮ መኒሃ መገኑዋ ቤሉ ሬዮ መኒሃ መገኑሃበአ፤ ጠዉ እኮጎሬ አዕኑ ሉሴነንታት» ዬእ።"
+        },
+        {
+          "number": "28",
+          "text": "ህከን ቤቾን ሕግ አስተማራች መቱ ኦደንታኢሃ ሞጮጨኖት እቅ፤ እስን ኢስ ሁኩ ሬዮ መኑ ኬአኖበአ ይታ ሰዱቃዌተ ጡመገ ፈንቀሼገ ለዕይ ኢስበ ሆንጠክ «ትዛዚች ጉዕሚችን በተአኖ ሎረሃን?» ይ ጠዕሜእ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ጉዕሚችን በተአኖ ትዛዝ",
+            "(ማቶ. 22፥34-40፤ ሉቃ. 10፥25-28)"
+          ]
+        },
+        {
+          "number": "29",
+          "text": "ኢስን እሲሃ ፈንቀሽ «ጉዕሚችን በተአኖ ትዛዝ ‹እስራኤል መኑ ሞጮጭዬ! ቀርቹ መገኑኔ ሜጦሃ ቀርቹ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "አቲሁ ቀርቹ መገኑክ ዊመ ቀልብንከክ፥ ዊመ ነብሴንከክ፥ ዊመ ሰውቲንከክለከ ዊመ ወልቃንከኪ ኢት› የኖሃን።"
+        },
+        {
+          "number": "31",
+          "text": "ህትን ካን አጉደኖ ለንክ ትዛዙ ‹ዎሉ መነ ገይክገ አት ኢት› የኖሃን፤ ከን ለሞ ትዛዚች በተአኖ ዎሉ ትዛዙ ዮበአ» ይ መስለ ፈንቀሼእ።"
+        },
+        {
+          "number": "32",
+          "text": "ሁኩ ሕግ አስተማርቹንኩ «አስተማርቾ! ጡመሃን! ‹መገኑ ሜጥቹሃን፤ እስ ቤሉ ዎሉ መገኑ ዮበአ› ይት ጠወኦንቲሁ ሀንቅሃን።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "33",
+          "text": "ህካን እኮቤቺሃ መኑ ዊመ ቀልብንከስ፥ ዊመ ሰውትንከስ፥ ዊመ ወልቃንከስ መገኑ ኢቱ ሀስሰኖስ፤ ህትን ዎሉ መነ ገይስገ ኢቱ ሀስሰኖስ፤ ጭንጭ ክትመለከ ዎሉ ክትመ ጉዕመንከ መገኒሃ ኣሲች ከ ለሙ ትዛዝ አገዕሩ በተአኖ» ዬእ።"
+        },
+        {
+          "number": "34",
+          "text": "ኢስን ሁኩ ሕግ አስተማርቹ ሀይማንከስ ፈንቀሼገ ለዕይ «አት መገን ዎምነቲች ቄዕርትበሃን» ዬስ፤ ህከኒች ኤተሮን ኢሰ ጠዕሞተ መለሎሁ አዪሁ ዮበአ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "35",
+          "text": "ኢስ ዱእ ምኔን ተማርሰን «ሕግ አስተማረት ‹ፌሳንቹ መሲህ ደዉዴሃ ቤቱ› ምሀ ይታአ? ይ ጠዕሜሰ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "መሲህተኔሃ ሆንጠኮ ጠዕምቱተ",
+            "(ማቶ. 22፥41-46፤ ሉቃ. 20፥41-46)"
+          ]
+        },
+        {
+          "number": "36",
+          "text": "ዳዉድ ገዉንኩስ መሲህተኔሃ መገን ጠሊሉ አያኑ አዎንሴሃንስ",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "« ‹መገኑ ኢ ቀርቺሃ"
+            },
+            {
+              "source_marker": "q2",
+              "text": "አን ባለጋራክ ሎካችክ ዎሮን አኦሄተ ኢለሬተ"
+            },
+            {
+              "source_marker": "q2",
+              "text": "መኬኤ አዲን አፉዕል ዬእ› ይዮስ።"
+            }
+          ]
+        },
+        {
+          "number": "37",
+          "text": "ዳዉድ ገዉንኩስ ‹ቀርቾ› ይ ገኤሲች መሲህ ሀት እክ ደዉዴ ቤቱ እሀኖ?» ህከኔን ልግቡ መኑ ኢስ ጠወአኖሃ ተሽቲን ሞጮጭታኢት እቅ።",
+          "source_markers_before": [
+            "m"
+          ]
+        },
+        {
+          "number": "38",
+          "text": "ኢስ ተማርሰን እሰንተ «ሕግ አስተማራች አገዕርዬ፤ እሰ ቅራዕሩ ኦድኑተ ኦደእ ሃንተን ጌቤ ኣዜን ኬዕምኚን ጠዉሲሶኖሰተ ኢትታአ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ሕግ አስተማረተለከ ፈርሳውያኑት ዎቀሰንቶገ",
+            "(ማቶ. 23፥1-36፤ ሉቃ. 20፥45-47)"
+          ]
+        },
+        {
+          "number": "39",
+          "text": "እሰን ጭምት ምናን ኬዕምኝ ቦርጭማን አፉዕሉለከ ድግሳኒን ኬዕምኝ ቤቾን አፉዕሉ ኢትታአ።"
+        },
+        {
+          "number": "40",
+          "text": "አመሰልት ቅራርስት ዱአ አተን ምንሰ አኑ ሬዮ ሜንቱ ጣንስተን እታአ፤ ህካን እኮቤቺሃ እሳሃ በተአኖ ፍርዱ አሌሰ እሀኖ» ዬእ።"
+        },
+        {
+          "number": "41",
+          "text": "ኢስ ዱአ አኤኖ ምኔን ሰደቀ ብረ ዎሬኖ ቀዎ ሳጥን መዴን ኣፉዕል ኡመቱ ብረ ኣሰኖሃ ለአኖት እቅ፤ ህከኔን ልግቡ ቀባጣሙ መኑ ልግብ ብረ ኣሰኖት እቅ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ምንሴ አኑ ሬዮ መንቾ ኣስቱተ",
+            "(ሉቃ. 21፥1-4)"
+          ]
+        },
+        {
+          "number": "42",
+          "text": "ህከ ወክት መት ቡጥቹት ምንሴ አኑ ሬዮ መንቹት አሜት ለሙ ሳንትበ እሀኖ ናስ ብረ ኣቶኡ።"
+        },
+        {
+          "number": "43",
+          "text": "ኢስ አሳበስ እስበ ገእ «ሀንቅንከ ያንክዕኔ፤ ከን ሳጥን ኣዜን ብረ ዎርቶሀኑኡች ጉዕሚችን ምንሴ አኑ ሬዮ ቡጥቹት መንቹት በትስ ኣቶኡ።"
+        },
+        {
+          "number": "44",
+          "text": "መሰንትስ ዎሉ ጉዕሙንኩ ኣቶኢሁ ዮሰ ቀባጦች ፈቆሰሃን፤ ጠዉ እኮጎሬ ት ቡጥቹት መቱርቹሃ ፌሱዕናን ዮሴሃ ጉዕመንከ ኣቶኡ» ዬሰ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "5",
+          "marker": "Source illustration omitted",
+          "text": "Source illustration omitted (image reuse terms not established). Caption: ወይነ ጩንሼኖቤቹ. Alt text: Woman with child bringing grapes to wine press. Source asset: LB00106B.tif.",
+          "note_type": "source_asset_omitted",
+          "source_reference": null
+        },
+        {
+          "verse": "10",
+          "marker": "Translator/editor note",
+          "text": "- መዝ. 118፥22-23።",
+          "note_type": "translator_note",
+          "source_reference": "12:10"
+        },
+        {
+          "verse": "18",
+          "marker": "Translator/editor note",
+          "text": "- ሶቀ. 23፥8።",
+          "note_type": "translator_note",
+          "source_reference": "12:18"
+        },
+        {
+          "verse": "19",
+          "marker": "Translator/editor note",
+          "text": "- ዘዳ. 25፥5።",
+          "note_type": "translator_note",
+          "source_reference": "12:19"
+        },
+        {
+          "verse": "26",
+          "marker": "Translator/editor note",
+          "text": "- ፉል. 3፥6።",
+          "note_type": "translator_note",
+          "source_reference": "12:26"
+        },
+        {
+          "verse": "28",
+          "marker": "Translator/editor note",
+          "text": "- ሉቃ. 10፥25-28።",
+          "note_type": "translator_note",
+          "source_reference": "12:28"
+        },
+        {
+          "verse": "30",
+          "marker": "Translator/editor note",
+          "text": "- ዘዳ. 6፥4-5።",
+          "note_type": "translator_note",
+          "source_reference": "12:30"
+        },
+        {
+          "verse": "31",
+          "marker": "Translator/editor note",
+          "text": "- ሌዌ 19፥18።",
+          "note_type": "translator_note",
+          "source_reference": "12:31"
+        },
+        {
+          "verse": "32",
+          "marker": "Translator/editor note",
+          "text": "- ዘዳ. 4፥35።",
+          "note_type": "translator_note",
+          "source_reference": "12:32"
+        },
+        {
+          "verse": "33",
+          "marker": "Translator/editor note",
+          "text": "- ሆሴ. 6፥6።",
+          "note_type": "translator_note",
+          "source_reference": "12:33"
+        },
+        {
+          "verse": "36",
+          "marker": "Translator/editor note",
+          "text": "- መዝ. 110፥1።",
+          "note_type": "translator_note",
+          "source_reference": "12:36"
+        }
+      ],
+      "heading": [
+        "ወይን ላሉተ አገርታ መንተኔሃ",
+        "(ማቶ. 21፥33-46፤ ሉቃ. 20፥9-19)"
+      ]
+    },
+    {
+      "chapter": 13,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ኢስ ዱእ ምኒች ፉለንን አሳባች መቱ «አስተማርቾ! ከ አጀብሲሰኖ ዱእ ምኒ ክኑለከ ግምብ ምነታ ለእ» ዬእ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ኢስ «ከ ሎረ ምኒ ለኣንቲትንዶ? ኩ ክኑ ድጀሙዕናን መቱ ክኑ መቶ ክን አሌን ግምበሞገ ፈቀኖበአ» ይ ፈንቀሼእ።"
+        },
+        {
+          "number": "3",
+          "text": "ኢስ ዱአ አኤኖ ምኒች ብሬ አዲን ዘይት ሀቁ ነጰኖ ቆተ አሌን አፉዕልዮሀኔን ጴጥሮስ፥ ያቁቢ፥ ያህይለከ እንድራስ ሜጡበ ኢስበ መርት",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "አኬሩ ዘማን መላተ",
+            "(ማቶ. 24፥3-14፤ ሉቃ. 21፥7-19)"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "«ኩን እሀኖሁ መ ወክትዪት? ህትን ሁኩ ጠዉ ጉዕሙንኩ እሆተ ሆንጠኮ ወክት መላስ መሃጎር ኩልኔ» ይት ጠዕምቶስ።"
+        },
+        {
+          "number": "5",
+          "text": "ኢስ እሰንተ «አዪሁ ሉስሰኖህዕኔበእገ አገዕርዬ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "ልግቡ መኑ ‹አን መሲህት› ይተን ኢ ሱዕሚን አሜት ልግብ መነ ሉሲሳአ።"
+        },
+        {
+          "number": "7",
+          "text": "አዕኑ በገዝ ዱዱቡለከ በገዙሃ ሞጮጭቴነንተ ወክት ህልቆኖቼ፤ ሁኩን ሆሮ እሁዕነ ፈቀኖበአ፤ ጠዉ እኮጎሬ ሁኩንን ኣዱንያ ጎፊሃ መጨረሸስበአ።"
+        },
+        {
+          "number": "8",
+          "text": "ህካን እኮቤቺሃ መኑ መን አሌን ዎሙ ዎም አሌን ኬአኖ፤ ህትን አደደ ቤቾን ኡለ ሌንቄቁለከ ጎሩ እሀኖ፤ እኮጎሬ ሁኩን ኒጠና ኦርሻተ ወኔሃን።"
+        },
+        {
+          "number": "9",
+          "text": "«መኑ አፍ ዳኛኖተ ኣሰኖህዕኔ፤ ህትን ጭምት ምኔን ዎቀርታህዕኔ፤ ህካን እኮቤቺሃ አዕኑ ገዉክዕኔ አገዕርዬ፤ ኢ ሱዕምተኔሃ ምስክር እኮኖተ ሹመለከ ዎመ ብሬን ፍርዲሃ ኡርቴነንተ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "ሄጭ ተሽት ላገት ኡመቲሃ ጉዕሚንከ ዱዱብሰሙ ሀስሰኖ።"
+        },
+        {
+          "number": "11",
+          "text": "መኑ አፍ ዳኛኖበ ሆንጠህሰኖህዕኔ ወክት ‹መ ይናም?› ህከረንገ መ ጠወዕናም?» ይቴነን ጨነቀንቶኖቼ፤ እኮጎሬ ህከ ወክት ኣሰንታህዕኔ ላገተ ጠወዕዬ፤ መሰንትስ ህከ ወክት ጠወአኖሁ ጠሊለ አያነ ቤሉ አዕኖበአ።"
+        },
+        {
+          "number": "12",
+          "text": "ህከ ወክት አመቤቱ አመስቤቱ፥ አኑሁ ቤቱስ ሾኖተ ህግሽ ኣሰኖ፤ ህትን ኦሱት አንለከ አመ አሌን ዲኖማን ኬእ ሽታሰ።"
+        },
+        {
+          "number": "13",
+          "text": "ኢ ሱዕምተኔሃ ጉዕሙንኩ መኑ ግበኖህዕኔ፤ ጠዉ እኮጎሬ መጨረሸ ኢለ አደቢን አታዕለኖሁ ጡመኖ።"
+        },
+        {
+          "number": "14",
+          "text": "ኮፍየኖ ሂሉርቹ እሁ ገበእበቤቾን እሀኖሃ ለኤነንተ፤ ህከ ወክት ህካን አነበበኖሁ ሰውዩን፤ ህካን እኮቤቺሃ ይሁድ ባዶን ዮ መኑ ቆተተ ሁንቱን።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ጨነቃ ኦርሸተ",
+            "(ማቶ. 24፥15-28፤ ሉቃ. 21፥20-24)"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "ምኒ እሌ አሌን ዮ መንቹ ምኒች መቱርቹ ኣኣም የን ድረን ወክት ቤሱንከ።"
+        },
+        {
+          "number": "16",
+          "text": "ህትን አቡረ ቤቾን ዮኢሁ ኦድኑስ ኣኦተ ኤተሩ ዋል ምንስ ፈንቀሉንከ።"
+        },
+        {
+          "number": "17",
+          "text": "ህከ ወክት ላፈ ሜንቲሃለከ ቀንስታ ሜንቲሃ ኦርሸት በተኣሰ።"
+        },
+        {
+          "number": "18",
+          "text": "ሁኩን ጉዕሙንኩ ከርሜን እሀኖበዕገ ዱአ አዕዬ።"
+        },
+        {
+          "number": "19",
+          "text": "ህከ ወክት መገኑ ክልቀት ከለቆች ከበሬ ኢለ እኮበእ ኦርሸት እካአ፤ ህትን ህትኔ ጭንቀት ከ ኤተሩ እካበአ።"
+        },
+        {
+          "number": "20",
+          "text": "ቀርቹ ህከ በራከተ ገቦትሾበዕቃኔተ መኑ ጉዕሙንኩ ጡመኖበአ እቅ፤ ጠዉ እኮጎሬ እስ መጠሮ መንተኔሃ በራከስ ገበንቹ አአኖ።"
+        },
+        {
+          "number": "21",
+          "text": "ህከ ወክት አዪሁ «መሲህ ሁኩዕኑን ከበ ዮኡ» ህከረንገ «ሁኩዕኑን ካጳ ዮኡ» ዬህዕኔጎሬ አመዕንቶኖቼ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "ክዝብ መሲሁለከ ክዝብ ነብያኑት አሜታአ፤ እሰን አታለሞሰ ጎሬ መገኑ መጠሮ መነ ሉሲሶተ አጀብሲሰኖ ጠወ አታአ።"
+        },
+        {
+          "number": "23",
+          "text": "እኮጎሬ ኩ ጠዉ እሆተ ሄጭ ጉዕመርቹንከ ኩሎንክዕኔቤቺሃ አገዕርዬ።"
+        },
+        {
+          "number": "24",
+          "text": "ህከ ወክት ኦርሻች ኤተሮን አርቹት ቱንስቹ እካአ፤ ህትን አገንቹ ለሊሰኖበአ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "መሲህ ፈንቀል አሜቱስ",
+            "(ማቶ. 24፥29-31፤ ሉቃ. 21፥25-28)"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "ቤዜት ሰሜች ኡባአ፤ ህትን ሰማን ዮ ዎልቀት ጉዕሙርቹንኩ ሌንቄቀኖ።"
+        },
+        {
+          "number": "26",
+          "text": "ህከኒች ኤተሮን እሰን መንች ቤቱ ሎረ ወልቃንለከ ኬዕምኝን ጎመ ኣዚን አሜተን ለኣአ።"
+        },
+        {
+          "number": "27",
+          "text": "ህከኒች ኤተሮን እስ መላይከተ ሶክ ሾሎንከ አዲን ሰሜች ዎሮን ኡለ ዳንጊች ዳንገ ኢለ መገኑ መጠሮ መነ ጭምአአኖ።"
+        },
+        {
+          "number": "28",
+          "text": "ኦድ ሀቁቾ ምሳልት ተማርስቱንክዕኔ፤ ሀሙንኩሴ ቀንሰንለከ ሀበረ ኤብ ለተኖ ወክት ሀጎ ሆንጠሁስ ደጌነንተ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ቀርቹ አሜተኖገ ለሊሰ ኦድ ሀቁቾ ምሳልተ",
+            "(ማቶ. 24፥32-35፤ ሉቃ. 21፥29-33)"
+          ]
+        },
+        {
+          "number": "29",
+          "text": "ህትን አዕኑ ሁኩ ጉዕሙንኩ ጠዉ እሀን ለኤንተ ወክት ኡሮን ሆንጠኮሃ እሁስ ደጌ።"
+        },
+        {
+          "number": "30",
+          "text": "ሀንቅንከ ያንክዕኔ፤ ከን ዘማን መኑ ኩ ጠዉ እሁዕነ ሄጭ ህገኖበአ።"
+        },
+        {
+          "number": "31",
+          "text": "ሰሞሁለከ ኡለት ህጋአ፤ ጠዉ እኮጎሬ ላገኤ ሆሮን ህጋበአ።"
+        },
+        {
+          "number": "32",
+          "text": "ህከ በርለከ ህከ ወክት መገን ቤሉ አዪሁ ደጎተ አታለኖበአ፤ ህትን ሆሮን ሰሜ መላይከትለከ ቤቱሁ ደገኖበአ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ቀርቹ አሜተኖ በር አዪሁ ደገኖበአ",
+            "(ማቶ. 24፥36-44)"
+          ]
+        },
+        {
+          "number": "33",
+          "text": "አዕኑ ወክቱስ መ ወክት እሀኖጎሬ ደጌነንተበእቤቺሃ ጠረኝቴን አገዕርዬ።"
+        },
+        {
+          "number": "34",
+          "text": "ሁኩንን መቱ ዎቃ ሃመኖ መንቹ አጉደኖ፤ እስን ምንስ አጉር ሃመን ካዲመስ እስገ እክ ሆጉተ አታገ መት-መትሃሰ ሆጉተ ኣሴእ፤ ህትን አገራንቹንከ ጠረኝት አገር ይ አዘዦ።"
+        },
+        {
+          "number": "35",
+          "text": "ህካን እኮቤቺሃ ምንስ አኑ መ ወክት አሜተኖጎሬ ደጌነንተበእቤቺሃ ጠረኝቴን አገዕርዬ፤ መሰንትስ እስ ሀዎሩተ ህከረንገ ሀንከዕሬ በላን ህከረንገ ሀንጠቦ ወደን ህከረንገ ሱጵተ አሜቱስ ደጌነንተበአ።"
+        },
+        {
+          "number": "36",
+          "text": "ህካን እኮቤቺሃ ድንገቴን ኦሳኤናን አሜተኖበዕገ ጠረኝቴን አገርዕዬ።"
+        },
+        {
+          "number": "37",
+          "text": "«ክዕኔሃ ኩሎምገን ዎሎ መኒሃ ጉዕሚንከ ጠረኝቴን አገዕርዬ! ያም» ይ ተማርሴእ።",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "9",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 10፥17-20።",
+          "note_type": "translator_note",
+          "source_reference": "13:9"
+        },
+        {
+          "verse": "13",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 10፥22።",
+          "note_type": "translator_note",
+          "source_reference": "13:13"
+        },
+        {
+          "verse": "14",
+          "marker": "Translator/editor note",
+          "text": "+ አነበበኖሁ ሰውዩን፦ ዬኢሁ ኢሰ እሁዕነ ማርቆሴህት።",
+          "note_type": "translator_note",
+          "source_reference": "13:14"
+        },
+        {
+          "verse": "14",
+          "marker": "Translator/editor note",
+          "text": "- ዳን. 9፥27፤ 11፥31፤ 12፥11።",
+          "note_type": "translator_note",
+          "source_reference": "13:14"
+        },
+        {
+          "verse": "15",
+          "marker": "Translator/editor note",
+          "text": "- ሉቃ. 17፥31።",
+          "note_type": "translator_note",
+          "source_reference": "13:15"
+        },
+        {
+          "verse": "19",
+          "marker": "Translator/editor note",
+          "text": "- ዳን. 12፥1፤ መና. 7፥14።",
+          "note_type": "translator_note",
+          "source_reference": "13:19"
+        },
+        {
+          "verse": "25",
+          "marker": "Translator/editor note",
+          "text": "- ኢሳ. 34፥4፤ አዩ. 2፥10፤ መና. 6፥13።",
+          "note_type": "translator_note",
+          "source_reference": "13:25"
+        },
+        {
+          "verse": "26",
+          "marker": "Translator/editor note",
+          "text": "- ዳን. 7፥13፤ መና. 1፥7።",
+          "note_type": "translator_note",
+          "source_reference": "13:26"
+        },
+        {
+          "verse": "32",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 24፥36።",
+          "note_type": "translator_note",
+          "source_reference": "13:32"
+        },
+        {
+          "verse": "34",
+          "marker": "Translator/editor note",
+          "text": "- ሉቃ. 12፥36-38።",
+          "note_type": "translator_note",
+          "source_reference": "13:34"
+        }
+      ],
+      "heading": [
+        "ዱእ ምኑ ድጀመኖገ ኢስ ራጎገ",
+        "(ማቶ. 24፥1-44፤ ሉቃ. 21፥5-33)"
+      ]
+    },
+    {
+      "chapter": 14,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ሻሽገለከ ራጭቱ ዮበኢሃ ጨልሰሞ እቸተ እቴነን ከበጄኖ ከበጀ በሪሃ ለሙ በሩ ፈቆስ እቅ፤ ቂስ አዎንሳኑትለከ ሕግ አስተማረት ኢሰ መኑ ደጉዕነ አፍ ሽቶተ እሳሃ ቆሀኖ ዎቃሃ ሀሳኢት እቅ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ጠዉ እኮጎሬ እሰን «ከን ከበጀ በሬን አፎኑንከ፤ መሰንትስ መኑ ብተተ ኬሰኖ» ይቶኡ።"
+        },
+        {
+          "number": "3",
+          "text": "ጎግ አሌን ፉልታ ጥዘነት አፎስ «ስሞኔ» ዬኖ መንች ምኔን ብታን ከተማን ኢስ ማዳን አፉዕልዮ እቅ፤ ህከ ወክት መት መንቹት «አልባስጥሮሰ» ዬኖ ክኒች መክሴመ ብልቃጣን «ናርዶሰ» ዬኖ ሽቱት ዊንቶኢሃ አፍ አሜቶኡ፤ ሽቱስን አበ ጤአተ እቅ፤ እሴን ብልቃጥ እፈ ብጥ ሽቱስ ኢስ ቡዕላን ዱንቶኡ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢሲሃ ሽቱተ ቡርቶ መንቹተ",
+            "(ማቶ. 26፥6-13፤ ያህ. 12፥1-8)"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "ህከኔ ሄዕዮ መኒች መት-መቱሰ ኡሙዕርት «ኩ ሽቱት ተሳን በኣኢሁ ሚሃት?"
+        },
+        {
+          "number": "5",
+          "text": "ኩ ሽቱት ሰሴ ጥቤ ዲናረ ህሬን ብረስ ቡጥቻኖተ ኣሴመ እቃን ጡመሃበእንዶ?» ይተን መንቹተ ቀነጦሴ።"
+        },
+        {
+          "number": "6",
+          "text": "ጠው እኮጎሬ ኢስን «እሴተ ሚሃት ኦርሴነንተሴሁ? አጉሬሴ፤ እሴ ኤሳሃ ጡመርቹ አቶኤ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "ቡጥቻኑት ጉዕመ ወክትንከ ክዕኔን ሜጡበ ሄኣቤቺሃ ሀሴንተ ወክት ሀዕልቶኖሰተ አታልቴነንተ፤ ጠዉ እኮጎሬ አን ክዕኔን ጉዕመ ወክት ከኔ ሄኣምበአ።"
+        },
+        {
+          "number": "8",
+          "text": "እሴ አቶተ አታልቶኢሃ አቶኤ፤ አን ሞገሙዕናን ሄጭት አሌንከኤ ሽቱተ ቡርቶኤ።"
+        },
+        {
+          "number": "9",
+          "text": "ሀንቅንከ ያንክዕኔ፤ ኡለ አሌን ተሽት ላገተ ዱዱብሴኖ ቤቾን ጉዕማንን እሴ አቶርቹ እሴተ ቃጎኖተ ኩለመኖሴ» ዬሰ።"
+        },
+        {
+          "number": "10",
+          "text": "ህከኒች ኤተሮን ቶነ ለሞንከ አሳባች መቱስ አስቆሮንቶ ይሁድ ኢሰ ህግሽ ኣሶተ ቂስ አዎንሳኖቤቹ ኦሮዕዮ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ይሁድ ኢሰ ህግሽ ኣሶተ አማዕለሙስ",
+            "(ማቶ. 26፥14-16፤ ሉቃ. 22፥3-6)"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "እሰን ህካን ሞጮጭቶ ወክት ሙንደእ እሲሃ ብረ ኣቶተ ላገተ ኣጎኡ፤ ይሁድን ህከን ወክቲች ኬሽ ኢሰ ህግሽ ኣሶሰተ ጡመ ወክት ሀሰኖት እቅ።"
+        },
+        {
+          "number": "12",
+          "text": "ሻሽግ ሆልቹ ጎራጤን ጦሮሹ እቴነን ከበጄኖ ከበጀ ዎኔ በሬን አሳበስ ኢስበ አሜት «ሻሽግ ሁርባት እቶተ ሀከቤቹ መርን ቅጥ አዕኖሄተ ሀሰን?» ይት ጠዕምቶስ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ሻሽግ ሁርባት አሳባንተስን እቱስ",
+            "(ማቶ. 26፥17-25፤ ሉቃ. 22፥7-14፤ 21፥23፤ ያህ. 13፥21-30)"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "እስን አሳባችስ ለሙሰ «ከተመ መርቴን ዊ ኮሩ እጄ መንቺን ደቀንቴንስ ህከ መንቹንከ አዎኜ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "እስ ኣገኖ ምኒ መርቴን ምንስ አነ ‹አስተማርቹ አሳባንን ሻሽግ ሁርባት እታም ኮህ ምኑ ሀከንቤቾንት? የኖት› ይዬ ይ ሶኮሰ።"
+        },
+        {
+          "number": "15",
+          "text": "እስን ሎረ አልባዕሎ ፉቅ ምኔን ሀስሰኖህዕኔርቹ ጉዕሙንኩ ቅጠሞኢሃ ለሊሰኖህኔ፤ ህከን ቤቾን ቅጥአዕዬ» ዬሰ።"
+        },
+        {
+          "number": "16",
+          "text": "ለሙንኩ አሳበንት ህከንቤቺች ፉልት ከተመ መርቶኡ፤ እሳንከ ኢስ ዬገን ጉዕሙርቹንኩ እኮ፤ ህካን እኮቤቺሃ እሰን ሻሽግ ሁርባት ህከን ቤቾን ቅጥአቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "ኡለት ሀዎርቶ ወክት ኢስ ቶና ለሞንከ አሳባን ሜጡበ አሜቾ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "ህከን ቤቾን ጉዕሙንኩሰ ማዳን አፉዕልት እተንን ኢስ «ሀንቅንከ ያንክዕኔ፤ ክዕኔች መቱ ኢን ከኔ ቴሱ ሁርባት እተኖሁ ኤሳሃ ህግሽ ኣሰኖ» ዬሰ።"
+        },
+        {
+          "number": "19",
+          "text": "እሰን ህከ ወክት አበ ሻዝ ተሪን ተሪን ኢሰ «አኔትንዶ?» ይተን ጠዕምቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "ኢስን ፈንቀሽ «ህካን አአኖሁ ቶነ ለሚችክዕኔ መቱሃስ፤ እስን ኢን ሜጡበ ብጥራን አንገተ ወር እተኖሃን።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "መንች ቤቱዕኑ እስተኔሃ ከተበሞገን ሬሁዕናን ፈቀኖበአ፤ ጠው እኮጎሬ መንች ቤቱ ህግሽ ኣሰኖሀኒሃ ቆሀኖስ፤ ሁኩ መንቹ ሄጭ ከለቀሞበእቀ ቆሀኖስ እቅ» ዬእ።"
+        },
+        {
+          "number": "22",
+          "text": "እሰን ሜጡበ እተንን ኢስ ጦሮሹ ኬሽ ዱአ አዕይ ብጭ አሳባተ «ሂዕዬ፤ ኩን ማላኤ» ይ ኣሴሰ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ጠሊለ ቁርባን ሴራ",
+            "(ማቶ. 26፥26-30፤ ሉቃ. 22፥14-20፤ 1 ቆሮ. 11፥23-25)"
+          ]
+        },
+        {
+          "number": "23",
+          "text": "ጠበቴሃ ኬሽ ዱአ አዕይ አሳባተስ ኣሴእ፤ ጉዕሙንኩሰ ህከን ጠበቴች አጎኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "ህትን ኢስ እሳሃ «ኩን ልግብያ መኒሃ ዱንተአኖሃ ወኣድ ቄጓኤ።"
+        },
+        {
+          "number": "25",
+          "text": "ሀንቅንከ ያንክዕኔ፤ መገን ዎምነቴን ሃዕሮ ሃሌን አጋሚሃ ኢለ ከን ወይን ላልቺች ጩንሸሞሃ ለንኪሃ አጋምበአ» ዬሰ።"
+        },
+        {
+          "number": "26",
+          "text": "ህከኒች ኤተሮን መዝሙረ ዘመርት ዘይት ሀቁ ነጰኖ ቆተተ ፉልቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "27",
+          "text": "ኢስን አሳባስ « ‹ዜማንቹ ዎቀር ሻም፤ ሆለንትስ ብን ይታአ› የመም ከተበሞቤቺሃ ጉዕሙንኩክዕኔ ኤሳሃ ለገኤን አጉርቴን ሁንቴነንተ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ጴጥሮስ ለገአኖስገ ኢስ ሄጭ ጠወኡስ",
+            "(ማቶ. 26፥31-35፤ ሉቃ. 22፥31-34፤ ያህ. 13፥36-38)"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "ጠዉ እኮጎሬ ሬሆች ኬዕዮሚች ኤተሮን ገሊለተ ክዕኔተ ሄጭ መራም» ዬሰ።"
+        },
+        {
+          "number": "29",
+          "text": "ህከ ወክት ጴጥሮስ ፈንቀሽ «ዎሉ መኑ ጉዕሙንኩ ለገዕዮሄ ጎሬ አን ሆሮን ለገኣንኬበአ» ዬእ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "ኢስን ጴጥሮሴ ፈንቀሽ «ሀንቅንከ ያንኬ፤ ከበሬ ሀንከዕርተ ሀንጠቦ ለሞረ ወዱዕናን ሄጭት ሰሶረ ለገኣንቴኤ» ዬእ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "31",
+          "text": "ጠው እኮጎሬ ጴጥሮስ «አን ኪን ሜጡበ ሬሀም ጎሬሁ ለገኣንኬበአ» የን ጠረኝሽ ጠወዕዮ፤",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "ፈቆ አሳበንት ጉዕሙንኩ ህትን ይቶኡ።"
+            }
+          ]
+        },
+        {
+          "number": "32",
+          "text": "ህከኒች ኤተሮን «ጌቴሴማኔ» ዬኖቤቹ መርቶኡ፤ ህከን ቤቾን ኢስ አሳባንተስን «አን ዱአ አኦተ ኢለ ከንቤቾን አገሬ» ዬሰ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ጌቴሴማኔን ዱአ አኡስ",
+            "(ማቶ. 26፥36-46፤ ሉቃ. 22፥39-46)"
+          ]
+        },
+        {
+          "number": "33",
+          "text": "እስን ጴጥሮሴ፥ ያቁበለከ ያህይ አዎንስ ኦሮዕዮ፤ ህከን ቤቾን እስን አበ ሻዘን ጨነቀሙ ጀመሮ።"
+        },
+        {
+          "number": "34",
+          "text": "እሳንከ «ነብሴቹኤ ሬቶተ ኢለ አበ ሻዞኡ፤ አዕኑ ከኔ ግሶኑዕናን አገሬ» ዬሰ።"
+        },
+        {
+          "number": "35",
+          "text": "እሳችን ቀው ቄዕር ኦሮዕዮ፤ ሚኔንከስ ኡላን ጎምብሰም ኡብ አታለመኖሄ ጎሬ ሁኩ ኦርሸ ወክቱ እሲች ህጎተ ዱአ አዕዮ።"
+        },
+        {
+          "number": "36",
+          "text": "እስን «ኢ አነ! ጉዕሙርቹንኩ አታለመኖሄ፤ ከ ኦርሸ ጠበቴሃ ኢች መስ፤ ጠዉ እኮጎሬ አን ዬምገ እሁዕነ አት ኢትቶንትገ እሁን?» ይ ዱአ አዕዮ።"
+        },
+        {
+          "number": "37",
+          "text": "ህከኒች ኤተሮን ሰሶንከ አሳበስበ ፈንቀል አሜተኖ ወክት እሰን ግሶ እቅ፤ ህካን እኮቤቺሃ ጴጥሮሴ «ስሞኔ! ግሶንትዶ? ሆሮን መቱ ሳኣቲሃ በቅ ይት አገሩ አታልቶንትበዕንዶ?» ዬስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "38",
+          "text": "ህትን «ፌተናን ኣጌነንተበእገ ጠራኝቴን ዱአ አዕዬ፤ አያኑ ቅጥ ይዮኡ፤ ጠዉ እኮጎሬ ማሉ ላፈሃን» ዬእ።"
+        },
+        {
+          "number": "39",
+          "text": "ለንኪሃ ኦሮዕይ ወዕና ጠወዕዮ ላገንተ ጠወአን ዱአ አዕዮ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "40",
+          "text": "ህከኒች ኤተሮን አሳበስበ ፈንቀል አሜተኖ ወክት ግሰኛት ኬዕምታንሰ ግሶ እቅ፤ ጠዕመኖ ወክትንከ ፈንቀሽቶተ አታልቶበአ እቅ።"
+        },
+        {
+          "number": "41",
+          "text": "ለንኪሃ እሰበ ፈንቀል አሜች «ቴሁ ግሴንተገለከ ፎሎጭቴንተገን ዮንተንዶ? ቴሱ እሀኖ፤ ወክቱ ኢልዮኡ፤ መንች ቤቱ ጩበኛኖ አንጋን ህግሴን ኣሴኖ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "42",
+          "text": "ቴሱ ኬዕዬ መርኖ፤ ኤሳሃ ህግሽ ኣሰኖኤሁ ሁኩዕኑ ሆንጠኮኡ» ዬእ።"
+        },
+        {
+          "number": "43",
+          "text": "ወክትንከስ ኢስ ካን ጠወአን ሄዕዮገን ቶነ ለምችሰ መቱስ «ይሁደ» ዬኖሁ አሜቾ፤ እሲን ሜጡበ በርተለከ ብሰ አፎ ልግቡ መኑ ሄዕዮ እቅ፤ እሰን ቂስ አዎንሳኑትለከ ሕግ አስተማረት ባድ ባልቃች ሶሀንቶእረ እቅ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢሰ ህግሴን አሴመገለከ አፌመገ",
+            "(ማቶ. 26፥47-56፤ ሉቃ. 22፥47-53፤ ያህ. 18፥3-12)"
+          ]
+        },
+        {
+          "number": "44",
+          "text": "ህግሽ ኣሰኖ ይሁድን እሰንተ አዕኑ «አን ሱንቃንሲሃ ጠረኝሴን አፌን መስዬ» ይ መላተ ኩሎሰ እቅ።"
+        },
+        {
+          "number": "45",
+          "text": "ወክትንከስ ይሁድ ደዕል አሜች ኢስበ ሆንጠክ «አስተማርቾ!» ይ ሱንቄስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "46",
+          "text": "ህከኒች ኤተሮን ሁኩ መኑ ኢሰ አፎኡ።"
+        },
+        {
+          "number": "47",
+          "text": "መዴንከስ ኡርቶሀኑኡች መቱስ ብሰ ኮብ ኣዚች ፉሽ ሎረ ቂስች ካዲንቹ መጨስ ሙሮ።"
+        },
+        {
+          "number": "48",
+          "text": "ህከ ወክት ኢስ «ብሰለከ በርተ አፌን አሜቴንታሁ ሽፍጥገ አፎኖኤታትንዶ?"
+        },
+        {
+          "number": "49",
+          "text": "ጉዕመንከ በር ዱእ ምኔን ተማርሰን ክዕኔን ሜጡበ ሄአን አፌንታኤበ እቅ፤ ጠዉ እኮጎሬ ኩን እኮሁ ጠሊለ መጻፋን ከተበሞሁ ዊሞታት» ዬሰ።"
+        },
+        {
+          "number": "50",
+          "text": "አሳበስ ጉዕሙንኩ እሱ አጉርት ሁንቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "51",
+          "text": "ነጠለ ኦደዕዮ መቱ ዎደልቹ አዎነኖሲት እቅ፤ እሱንከ ሁኩ መኑ አፎኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "52",
+          "text": "አፎስ ወክት ነጠለስ ኡጅ ከልስ ሁኝ ፉሸኤእ።"
+        },
+        {
+          "number": "53",
+          "text": "ህትን ኢሰ ሎረ ቂሲች ምኒ መስቶስ፤ ህከን ቤቾን ቂስ አዎንሳኑት፥ ባድ ባልቀትለከ ሕግ አስተማረት ጉዕሙንኩ ጭምይቶኡ እቅ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢሰ ይሁድ ፍርድ ኦገትበ መሴመስገ",
+            "(ማቶ. 26፥57-68፤ ሉቃ. 22፥54-55፤ 63-71፤ ያህ. 18፥13-14፤19-24)"
+          ]
+        },
+        {
+          "number": "54",
+          "text": "ጴጥሮስን ኢሰ ቂስ አዎንሳንች ምኒ ኡሮ ብትም ኣዝ ኢለ ቄዕራሻን አዎነኖሲት እቅ፤ ህከኔን እስ ዘበኝን ሜጡበ ጊረተ ኢብጨኖት።"
+        },
+        {
+          "number": "55",
+          "text": "ቂስ አዎንሳኑትለከ ኦገት ደኛኑት ጉዕሙንኩ ኢሰ ሽሲሶተ ምስክር ሀሳኢት እቅ፤ ጠዉ እኮጎሬ መቱርቹሃ ደጎበአ።"
+        },
+        {
+          "number": "56",
+          "text": "መሰንትስ ልግቡ ክዝብ ምስክሩ ልግብ ጠወ አሌስ መሰከርቶ እቅ፤ እኮጎሬ አሌስ መሰከርቶ ላገት አደደ እኮኡ።"
+        },
+        {
+          "number": "57-58",
+          "text": "መቱ-መቱ መኑ ኬእ « ‹አን ከን መን አንጋን እጃረሞ ዱእ ምኒ ድጅ ዎሉ መን አንጋን እጀረሞበኢሃ ሰሶ በሬች ኤተሮን እጃራም› የን ሞጮጭኖም» ይተን ክዝብ ኢስ አሌን መሰከርቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "59",
+          "text": "ህት ይቶ ጎሬሁ ምስክሩ ጠወዕዮ ላገት ሜጡ እኮበአ።"
+        },
+        {
+          "number": "60",
+          "text": "ሎሩ ቂስቹንኩ ብሬንከሰ ኡር ኢሰ «ጠወአንትርቹ ዮበእንዶ? ኩ መኑ ኪ አሌን መሰከርታኢሁ መርቹሃን?» ይ ጠዕሜእ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "61",
+          "text": "ጠዉ እኮጎሬ ኢስ መቱርቹሃ ጠወኡናን ጨለ ዬእ፤ ሎሩ ቂስቹንኩ ኢሰ ፈንቀሽ «ማሰአሞ መገን ቤቱ መሲሁ አቴትንዶ?» ይ ጠዕሜስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "62",
+          "text": "ኢስን «ኤ አኔት፤ መንች ቤቱ ጉዕመንከ አታለኖ መገን መኬ አዲን አፉዕል ሰሜ ጎማን አሜተን ለኤነንተ» ዬእ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "63",
+          "text": "ሎሩ ቂስቹንኩ ኦድኑስ ፊል «ዎሉ ምስክሩ ሚሃ ሀስሰኖኔ?"
+        },
+        {
+          "number": "64",
+          "text": "አዕኑ እስ ቦሮር ላገተ መገን አሌን ጠወአን ሞጮጭቴንታአ፤ ህካን እኮቤቺሃ ኩ ጠዉ ክዕኔሃ መ አጉደኖህዕኔ?» ዬእ፤ ህከ ወክት እሰ ጉዕሙንኩሰ መቴ ላጋን «ሬሁት ገበኣስ» ይት ፈረዶኡ።"
+        },
+        {
+          "number": "65",
+          "text": "መት-መቱ መኑ አሌስ አንጀ ቱ ዩ ጀመርቶኡ፤ እልስ ኦድኖን ድብ ኡሱርት መጫለ ዎቀርተን «ህንዴ አዬት ዎቀሮሄሁ? ደግ! ራገ ጠወእ» ይታሲት እቅ፤ ህትን አገርታሩንኩ ኦልተን መስቶስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "66",
+          "text": "ጴጥሮስን ቂስ አዎንሳንች ምኒ ዎሮ አዲን ግቤ ኣዜን ሄዕዮገን ቂስ አዎንሳንች መት ገረድቹት አሜቶኡ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ጴጥሮስ ኢሰ ለገኡስ",
+            "(ማቶ. 26፥69-75፤ ሉቃ. 22፥56-62፤ ያህ. 18፥15-18-25-27)"
+          ]
+        },
+        {
+          "number": "67",
+          "text": "እሴን ጴጥሮስ ጊረተ ኢብጨን ቱክ ይት ለእ እሱ «አት ነዝሬት ኢስን ሜጡበ ሄኦንት እቅ» ይቶስ።"
+        },
+        {
+          "number": "68",
+          "text": "ጠዉ እኮጎሬ ጴጥሮስ «አን ደጋንስበአ፤ አት ይታንትንኩ ኣጎኤበአ» ይ ለገዕዮ፤ ህካን ይ አብል ፉሎገን ሀንጠቦ ዎጆ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "69",
+          "text": "ህት ገረዴቹንት ጴጥሮሴ ለእ ህከኔ ኡሬ መኒሃ «ኩን እሳች መቱሃስ» ይቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "70",
+          "text": "ጠዉ እኮጎሬ እስ ቴሁ ለገዕዮ፤ ህትን ቀዉ ጌሰ አገርት ህከኔ ኡርቶ መኑ «አት ገሊለ መንቹ እኮንትቤቺሃ ሀንቅንከ አት እሳች መቱሃስ» ይቶስ።"
+        },
+        {
+          "number": "71",
+          "text": "ጠዉ እኮጎሬ ጴጥሮስ «አዕኑ ከ ይቴነንተ መንቹ ደጋንስበአ» የን ገውስ ቦሮሩለከ ጤሌዕሉ ጀመሮ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "72",
+          "text": "ህከ ወክት ሀንጠቦ ለንኪሃ ዎጆ፤ ጴጥሮስን «ሀንጠቦ ለሞረ ወዱዕነ አት ኤሳሃ ሰሶራ ለገኣንት» ዬ ኢስ ጠወዕዮ ጠወ ሰዉ ይ ቡብ ኦዕዮ።",
+          "source_markers_before": [
+            "p"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "verse": "1",
+          "marker": "Translator/editor note",
+          "text": "- ዘዳ. 12፥1-7።",
+          "note_type": "translator_note",
+          "source_reference": "14:1"
+        },
+        {
+          "verse": "3",
+          "marker": "Translator/editor note",
+          "text": "- ሉቃ. 7፥37-38።",
+          "note_type": "translator_note",
+          "source_reference": "14:3"
+        },
+        {
+          "verse": "5",
+          "marker": "Source illustration omitted",
+          "text": "Source illustration omitted (image reuse terms not established). Caption: አልባስጥሮስ ብልቃጠ. Alt text: Alabaster jars. Source asset: HK00142B.tif.",
+          "note_type": "source_asset_omitted",
+          "source_reference": null
+        },
+        {
+          "verse": "7",
+          "marker": "Translator/editor note",
+          "text": "- ዘዳ. 15፥11።",
+          "note_type": "translator_note",
+          "source_reference": "14:7"
+        },
+        {
+          "verse": "18",
+          "marker": "Translator/editor note",
+          "text": "- መዝ. 41፥9።",
+          "note_type": "translator_note",
+          "source_reference": "14:18"
+        },
+        {
+          "verse": "24",
+          "marker": "Translator/editor note",
+          "text": "- ፉል. 24፥8፤ ኤር. 31፥31-34።",
+          "note_type": "translator_note",
+          "source_reference": "14:24"
+        },
+        {
+          "verse": "27",
+          "marker": "Translator/editor note",
+          "text": "- ዘካ. 13፥7።",
+          "note_type": "translator_note",
+          "source_reference": "14:27"
+        },
+        {
+          "verse": "28",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 28፥16።",
+          "note_type": "translator_note",
+          "source_reference": "14:28"
+        },
+        {
+          "verse": "49",
+          "marker": "Translator/editor note",
+          "text": "- ሉቃ. 19፥47፤ 21፥37።",
+          "note_type": "translator_note",
+          "source_reference": "14:49"
+        },
+        {
+          "verse": "57-58",
+          "marker": "Translator/editor note",
+          "text": "- ያህ. 2፥19።",
+          "note_type": "translator_note",
+          "source_reference": "14:57-58"
+        },
+        {
+          "verse": "62",
+          "marker": "Translator/editor note",
+          "text": "- ዳን. 7፥3።",
+          "note_type": "translator_note",
+          "source_reference": "14:62"
+        },
+        {
+          "verse": "64",
+          "marker": "Translator/editor note",
+          "text": "- ሌዌ 24፥6።",
+          "note_type": "translator_note",
+          "source_reference": "14:64"
+        }
+      ],
+      "heading": [
+        "ኢስ አሌን አድመ አኤመገ",
+        "(ማቶ. 26፥1-5፤ 22፥1-2፤ ያህ. 11፥45-53)"
+      ]
+    },
+    {
+      "chapter": 15,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ገስመ ሱጵተ ቂስ አዎንሳኑት፥ ባድ ባልቀትለከ ሕግ አስተማረት ኦገት ደኛኖን ሜጡበ ጉዕሙንኩ ደቀንት አማዕለንቶኡ፤ ህከኒች ኤተሮን ኢሰ ኡሱርት መስት ገሻንቾ ጵላጦሴሃ ህግስ ኣቶስ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "ጵላጦስን ኢሰ «አት አይሁድያ ዎመንዶ?» ይ ጠዕሜስ።",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "ኢስን ፈንቀሽ «አት ይቶንትጋንት» ዬስ።"
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "text": "ህትን ቂስ አዎንሳኑት ኢሰ አበ ጠዊን ኦዳሲት እቅ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "4",
+          "text": "ጠዉ እኮጎሬ ጵላጦስ ኢሰ «ሄንከ ጠዊን ኦደሄት ከ ለእ! ከን መኒሃ መቱርቹሃ ፈንቀሽታንትበዕንዶ?» ይ ለንኪሃ ጠዕሜስ።"
+        },
+        {
+          "number": "5",
+          "text": "ጵላጦስ አበ አጀብሲጮተ ኢለ ኢስ መቱርቹሃ ፈንቀሽዮበአ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "ጵላጦስ ዘማን ዘማኔ አይሁድ ሻሽግ ከበጀ ወክት ሂሮኖተ መኑ ሀሶኢሃ ኡሱሬመ መኒች መቱ መንቹ ሂረኖ እቅ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ አሌን ሬሆ ፍርደ ፈረዴመስገ",
+            "(ማቶ. 27፥15-26፤ ሉቃ. 23፥13-25፤ ያህ. 18፥39-40፤ 19፥1-16)"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "ህከ ወክት ዎምነቱክ ግብ መነ ሽት ኡሱረንቶ መን በሊች «ባርባኔ» ዬኖ መንቹ ሄዕዮ እቅ።"
+        },
+        {
+          "number": "8",
+          "text": "መኑንኩ ጵላጦሴበ አሜት ሮሾገን መቱ መንቹ ሂሮተ ጠዕምቶስ።"
+        },
+        {
+          "number": "9",
+          "text": "እስን «አይሁድ ዎመ ሂሮህዕኔተ እትቴነንንዶ?» ይ ጠዕሜሰ።"
+        },
+        {
+          "number": "10",
+          "text": "ህካን ዬኢሁ ቂስ አዎንሳኑት ኢሰ ህግስ ኣቶኢሁ ጢቄን እሁስ ደጎቤቺሃት እቅ።"
+        },
+        {
+          "number": "11",
+          "text": "ጠዉ እኮጎሬ ቂስ አዎንሳኑት «ባርባን ሂረሙኔ ቤሉ ኢስ ሂረሙንከ» ይት መኑ ጵላጦሴ ጠዕመኖገ መነ ኬሰንስቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "ጵላጦስ ለንኪሃ ፈንቀሽ «ህካን እኮች ከ አዕኑ ‹አይሁድ ዎመ› ይቴነንታሃ መ አኡ?» ይ ጠዕሜእ።"
+        },
+        {
+          "number": "13",
+          "text": "እሰን «ሰቀል» ይተን ላገሰ ጎት አት ጨንጭቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "ጵላጦስን «ሚሃት? እስ አዕዮ ሂሉርቹ መርቹሃን?» ዬሰ፤",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "ጠዉ እኮጎሬ እሰን «ሰቀል» ይተን ወዕኔች በትስ ጨንጭቶኡ።"
+            }
+          ]
+        },
+        {
+          "number": "15",
+          "text": "ጵላጦስ መነ ሙንዲሲሶተ ይ ባርባኔ ሂር ገፈሮ፤ ህከኒች ኤተሮን ኢሰ ገረፍ ሰቀልቶተ ህግሽ ኣሴእ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "ሮም ዎታደሩ ኢሰ ጵላጦሴ ግብተ መስቶኡ፤ ፈቆ ወታደረ ጉዕመንከ ገእቶኡ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ወታደሩ ኢሳን ቀለዱሰ",
+            "(ማቶ. 27፥27-31፤ ያህ. 19፥2-3)"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "ሰመ አጉደኖ ብሸ ኦድኑተ ኢሲሃ ኦዲስ ኡት አክሊለ መክስ ቡዕለስ አቶኡ።"
+        },
+        {
+          "number": "18",
+          "text": "ህካን አቶች ኤተሮን «አይሁድ ዎመ! ወገሬቱ ኬሳሃ እሆሄ!» ይተን ቀለዳሲት እቅ።"
+        },
+        {
+          "number": "19",
+          "text": "እሰን ሾምቦቆን ቡዕለስ ዎቀርተን አንጀ አሌስ ቱ ይታኢት እቅ፤ ህትን እሰን ቀለደን ብሬስ ጉሉጵት ሰገዶስ።"
+        },
+        {
+          "number": "20",
+          "text": "እሰን እሲን ቀለዶች ኤተሮን ህከ ሰመ አጉደኖ ቢሸ ኦድኑተ ፉሽት ገይስ ኦድኑተ ኦድስ ሰቀልቶስተ ኣእት መርቶኡ።"
+        },
+        {
+          "number": "21",
+          "text": "መርተንን እስክንድርለከ ሩፎሴ አኑ ቀሬን ባድ «ስሞኔ» ዬኖ መንቹ ገጠሪች ከተመ አሜተን ደቀንት ኢስ መስቀለ እጆተ ግዳጅሶስ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ሰቀለሙስ",
+            "(ማቶ. 27፥32-44፤ ሉቃ. 23፥26-43፤ ያህ. 19፥17-27)"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "እሰን ኢሰ «ጎልጎተ» ዬኖቤቹ መስቶስ፤ «ጎልጎተ» ዩ ቡዕል ቁላሃ ዩሃን።"
+        },
+        {
+          "number": "23",
+          "text": "እሰን ኢሲሃ «ከርቤተ» ዬኖ ዘቢን ልቀለቀሞ ወይን ጠጀ አጎተ ኣቶስ፤ ጠው እኮጎሬ ኢስ አጎበአ።"
+        },
+        {
+          "number": "24",
+          "text": "ህከኒች ኤተሮን እሱ ሰቀልቶኡ፤ ህትን ሀኩንስ አዬሃ ኢለኖ ጎሬ ደጎተ ኦድኑስ እጠ ኡጅት ቤቀንቶኡ።"
+        },
+        {
+          "number": "25",
+          "text": "እሰን ኢሰ ሰቀልቶ ወክቱ ገስሜ ሰሶሃ ሳኣት እቅ።"
+        },
+        {
+          "number": "26",
+          "text": "ህትን ወንጀልስ ለልሶተ «አይሁድ ዎመ» የኖ ከተበሞ እቅ።"
+        },
+        {
+          "number": "27",
+          "text": "እሰን ኢሲን ሜጡበ ለሙ ሽፍጠ መቱ መኬ አዲን መቱስ ጉረ አዲን ሰቀልቶኡ።"
+        },
+        {
+          "number": "28",
+          "text": "[ከን ሃሌን «ሾከ መኒን ዎለአሞ» የመሞ ራግ ላገት ዊንቶኡ።]"
+        },
+        {
+          "number": "29",
+          "text": "እስ መዲን ህገኖ መኑ እሱ ህንቅ ቡዕለሰ ሌንቄቅሰን «ለዕዬስ! አት ዱእ ምኒ ድጅት ሰሶ በሬን እጃርታንቲሁ!",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "ህንዴ ቴሱ መስቀሊች ድርት ገውክ ፌስ» ይታሲት እቅ።"
+        },
+        {
+          "number": "31",
+          "text": "ህትን ቂስ አዎንሳኑትለከ ሕግ አስተማረት ገገዉንኩሰን «እስ ዎሉ መነ ፌሾኡ፤ እኮጎሬ ገውስ ፌሶተ አታሎበአ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "32",
+          "text": "እስ ፌሳንቹ መሲሁ እስራኤል ዎመ እኮጎሬ ህንዴ ቴሱ ከን መስቀሊች ድሩን፤ ነኡን ለዕን አመዕንናም» ይተን ህንቃሲት እቅ፤",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "ህትን እሲን ሰቀለንቶእሩ ህትን ይተን ቦሮርታሲት እቅ።"
+            }
+          ]
+        },
+        {
+          "number": "33",
+          "text": "ህከ በር ሌሆ ሳቲች ኬሽ ሆንሱ ሳት ኢለ ኡለ አሌን ጉዕማንን ቱንስቹ እኮ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ሬሁስ",
+            "(ማቶ. 27፥45-56፤ ሉቃ. 23፥44-49፤ ያህ. 19፥28-30)"
+          ]
+        },
+        {
+          "number": "34",
+          "text": "ሆንሱ ሳት እኮ ወክት ኢስ «ኤሎሄ! ኤሎሄ! ላማ ሰበቅታኒ» ይ ሎረ ላጋን ያሮ፤ ፍሳረንትስ «ኢ መገኖ! ኢ መገኖ! ሚሃ አጉርቴኤ» ዩሃን።"
+        },
+        {
+          "number": "35",
+          "text": "ህከኔ ኡርቶ መኒች መት-መቱሰ እስ ያረኖሃ ሞጮጭት «እልያሴ ገአኖት» ይቶኡ፤",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "36",
+          "text": "እሳችን መቱስ ደጉጅ መር ሆለጮ ወይነ ጠጀ ሰፍነገ ዬኖሀኒን ዊንሽ ጬፍ ሾንቦቆ ሰኖን አዕይ ኢሲሃ ኣስ «ህንዴ አገሬ፤ እልያስ አሜች ድርሰኖስ ጎር ለዕናም» ዬእ።"
+        },
+        {
+          "number": "37",
+          "text": "ህከኒች ኤተሮን ኢስ ሎረ ላጋን ያር ሬዮ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "38",
+          "text": "ህከ ወክት ዱእ ምኒ መጋረጁ አሌች ወሮ ኢለ ለሙበ እክ ፊልተዕዮ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "39",
+          "text": "ኢስ ሰቀለሞ መስቀል ብሬን ኡርዮ መቱ ጥቤ ሀለቅቹ ኢስ እክ ሬዮገ ለዕይ «ሀንቅንከ ኩን መገንያ ቤቱ እቅ» ዬእ።"
+        },
+        {
+          "number": "40",
+          "text": "ቄዕራሻን ኡርት ለአን ሄኦ መት-መቱ ሜንቱ ህከኔ ሄኦ እቅ፤ እሰ በላን መግደል ከተም መርየማ፥ ማዕነ ያቆቤለከ ዮሲ አመት መርየማ፥ ሰሎሚ ሄኦ እቅ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ጎልጎታን ሄኦ ሜንቱ",
+            "(ማቶ. 27፥55-56፤ ያህ. 19፥25-27)"
+          ]
+        },
+        {
+          "number": "41",
+          "text": "እሰን ኢስ ገሊላን ሄዕዮ ወክት አዎንተን ካደንታስረ እቅ፤ ህትን ኢሲን ሜጡበ የሩሳሌመ አሜቶ ልግቡ ሜንቱ ሄኦ እቅ።"
+        },
+        {
+          "number": "42",
+          "text": "በሩስ ተቃጠቤኖ በር እኮቤቺሃ ሀዎሬ ወክት ፎሎጭ በሬች ብርተ እኮ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ሞገሙስ",
+            "(ማቶ. 27፥57-61፤ ሉቃ. 23፥50-56፤ ያህ. 19፥38-42)"
+          ]
+        },
+        {
+          "number": "43",
+          "text": "አይሁድ ኦገት ደኛኖች መቱ ጡመገ ኤንኬዕነሞ አርማትያስ ከተም ዩሱፍ መገን ዎምነቱ ተቢሴን አገዕረኖሁ ጵላጦሴበ መር መለል ኢስ ጀናዘተ ኣሶኖስተ ኡጨእ።"
+        },
+        {
+          "number": "44",
+          "text": "ጠው እኮጎሬ ጵላጦስ «ሀት ደዕል ሬዮ?» ይ አጀብሲጭ ጥቤ ሀለቅቹ ገእ «ሀንቅንከ ሬዮች ዱንክዮእንዶ?» ይ ጠዕሜእ።"
+        },
+        {
+          "number": "45",
+          "text": "እስን ኢስ ሬሁስ ጥቤ ሀለቅቹ ሞጮጬች ኤተሮን ጀናዘስ ዩሱፍ መሰኖገ ፈቀጆስ።"
+        },
+        {
+          "number": "46",
+          "text": "ዩሱፍን ሃዕሮ ከፈን ኦድኑተ ህዕር ኢስ ጀናዘተ መስቀል አሊች ድሪሽ ከፈኞ፤ ህከኒች ኤተሮን ክኒች ሸሄን መክሴመ ሎድ ኣዜን አፉሼእ፤ ሎረ ክኑ ኮሎንኮዕልሽ ኤብ ሎድስ ኡሩተ ጡፎ።"
+        },
+        {
+          "number": "47",
+          "text": "መግደል ከተም መርየመለከ ዮሳ አመት መርየማ ኢስ ጀናዘተ ሀከኔ አፉሼኖ ጎሬ ለኣኢት እቅ።"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "21",
+          "marker": "Translator/editor note",
+          "text": "- ሮሜ 16፥3።",
+          "note_type": "translator_note",
+          "source_reference": "15:21"
+        },
+        {
+          "verse": "24",
+          "marker": "Translator/editor note",
+          "text": "- መዝ. 22፥18።",
+          "note_type": "translator_note",
+          "source_reference": "15:24"
+        },
+        {
+          "verse": "28",
+          "marker": "Translator/editor note",
+          "text": "- ኢሳ. 53፥12።",
+          "note_type": "translator_note",
+          "source_reference": "15:28"
+        },
+        {
+          "verse": "28",
+          "marker": "Translator/editor note",
+          "text": "+ መት-መቱ ሉህ ክታበት ወሊንሽ 28 በርግታበአ፤ ላገንትስ ሉቃስ 22፥37 ዮኢሃ አጉደኖ።",
+          "note_type": "translator_note",
+          "source_reference": "15:28"
+        },
+        {
+          "verse": "28",
+          "marker": "Source illustration omitted",
+          "text": "Source illustration omitted (image reuse terms not established). Caption: ከርቤ ሀቃ. Alt text: Myrrh bush, man tapping myrrh, jars, bowl. Source asset: BK00119B.tif.",
+          "note_type": "source_asset_omitted",
+          "source_reference": null
+        },
+        {
+          "verse": "29",
+          "marker": "Translator/editor note",
+          "text": "- መዝ. 22፥7፤ 109፥25፤ ማር. 14፥58፤ ያህ. 2፥19።",
+          "note_type": "translator_note",
+          "source_reference": "15:29"
+        },
+        {
+          "verse": "34",
+          "marker": "Translator/editor note",
+          "text": "- መዝ. 22፥1።",
+          "note_type": "translator_note",
+          "source_reference": "15:34"
+        },
+        {
+          "verse": "36",
+          "marker": "Translator/editor note",
+          "text": "+ ሰፍነገ፦ ዩ ኳሰ አጉደኖርቹ እክ ባር ኣዜን ሙተኖ ሙተ፥ ዊሙ አሉስ እልት ዮሲሃለከ ዋሃ ሙጭ አፈኖሃ ባር ኡንጉዳይተ አጉደኖሃን።",
+          "note_type": "translator_note",
+          "source_reference": "15:36"
+        },
+        {
+          "verse": "36",
+          "marker": "Translator/editor note",
+          "text": "- መዝ. 69፥21።",
+          "note_type": "translator_note",
+          "source_reference": "15:36"
+        },
+        {
+          "verse": "38",
+          "marker": "Translator/editor note",
+          "text": "- ፉል. 26፥1-33።",
+          "note_type": "translator_note",
+          "source_reference": "15:38"
+        },
+        {
+          "verse": "41",
+          "marker": "Translator/editor note",
+          "text": "- ሉቃ. 8፥2-3።",
+          "note_type": "translator_note",
+          "source_reference": "15:41"
+        }
+      ],
+      "heading": [
+        "ኢሰ ጵላጦሴበ መሴመገ",
+        "(ማቶ. 27፥1-2፤11-14፤ ሉቃ. 23፥1-5፤ ያህ. 18፥28-38)"
+      ]
+    },
+    {
+      "chapter": 16,
+      "verses": [
+        {
+          "number": "1",
+          "text": "ፎሎጭ በሩ ህጎች ኤተሮን መግደል ከተም መርየማ፥ ያቁብ አመት መርየመለከ ሰሎሚ ኢስ ጀናዛን ቡርቶተ ሽቱተ ህዕርቶኡ።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "አበ በር ገስመ ሱጴን አሩ ፉለንን ሎድበ መርቶኡ።"
+        },
+        {
+          "number": "3",
+          "text": "ገገዉንኩሰ «አይ ሎድ ኡሮች ክኑ ኮሎንኮልሽ ፈነኖኔ?» ይተን ጠወአን ሃንታኢት እቅ።"
+        },
+        {
+          "number": "4",
+          "text": "ህካን ይቶኢንኩ ክኑስ ሎረ እኮቤቺሃት፤ እሰን ህት ይተን ሎድበ ኦሎስ ለኣ ወክት ክኑስ ሎድ ኡሮች መቱ አደ ዋል ኮሎንኮዕልዮ እቅ።"
+        },
+        {
+          "number": "5",
+          "text": "ህትን ሎድ ኣዝ ኣጎ ወክት ዋጁ ኦድኑተ ኦደዕዮ ወደልቹ መኬ አዲን አፉዕሌኢሃ ለኦቤቺሃ ህልቆኡ።"
+        },
+        {
+          "number": "6",
+          "text": "ጠው እኮጎሬ እስ እሰንተ «ህልቆኖቼ፤ አዕኑ ሀሴነንታሁ ሰቀሌመ ናዝሬት ኢሰ እሁስ አን ደጋም፤ እስ ሬሆች ኬዕዮኡ፤ ከንቤቾን ዮበአ፤ ከለዕዬ! እሱ ሞጌማ ቤቹንኩ ኩዕኑን።",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "ቴሱ መርቴን አሳባተለከ ጴጥሮሴሃ ‹ከኒች ብርተ እስ ዬህዕኔገን ክዕኔንተ ሄጭ ገሊለ መረኖ፤ ህከኔን ለኤነንተስ› ይቴን ኩሌ» ዬሰ።"
+        },
+        {
+          "number": "8",
+          "text": "ሁኩ ሜንቱንኩ ዋጅት ሁጠን ሎድቢች ፉልት ሁንቶኡ፤ እሰን አበ ዋጅቶቤቺሃ መቱርቹሃ መቶ መንቺሃ ጠወኦበ እቅ።",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "["
+            }
+          ]
+        },
+        {
+          "number": "9",
+          "text": "ኢስ አበ በር ገስመ ሱጵተ ሬሆች ኬዕዮች ኤተሮን ወዕና ለመሉ ሩሃንዩ ፉሎሴ መግደል መርየማን ሄጭ ደቀሞ።",
+          "source_markers_before": [
+            "s1",
+            "r"
+          ],
+          "source_headings_before": [
+            "ኢስ መግደል ከተም መርየማሃ ለሉስ",
+            "(ማቶ. 28፥9-10፤ ያህ. 20፥11-18)"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "እሴን መርት ሻዘናንለከ አልፋቴን ሄኦ አሳባተስ ኩልቶኡ።"
+        },
+        {
+          "number": "11",
+          "text": "እሴን «ኢስ ሬሆች ኬዕዮኡ እስን ፎሊን ዮኡ፤ አንን እሌንከኤ ለዕዮም» ይት ኩልቶሰ፤ ጠዉ እኮጎሬ እሰ ጠወስ አመዕንቶበአ።"
+        },
+        {
+          "number": "12",
+          "text": "ህከኒች ኤተሮን ኢስ ከተሚች ገጠረ መርተን ሄኦ ለሞንከ አሳባንተ ዎሎ ደኒን ለሌእ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ለሞ አሳባተስ ለሉስ",
+            "(ማቶ. 28፥16-20፤ ሉቃ. 24፥13-35)"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "እሰን ፈንቀልት መርት ፈቆ አሳባተ ኩልቶኡ፤ ጠዉ እኮጎሬ እሰንተ አመዕንቶበአ።"
+        },
+        {
+          "number": "14",
+          "text": "ህከኒች ኤተሮን ቶነ መቶንከ አሳባተስ ማድ አሌን እተን ሄኦገን ኢስ ለሌሰ፤ እስን «ኢስ ሬሆች ኬዕይ ፎልን ዮኡ፤ ነኡን ለዕኖም» ይቶ ጠወ ቀልቡሰ ዱጃን አመዕኑ ሆጎቤቺሃ ዎቀሾሰ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ቶነ መቶንከ አሳባተስ ለሉስ",
+            "(ማቶ. 28፥16-20፤ ሉቃ. 24፥36-49፤ ያህ. 20፥19-23፤ ሶቀ. 1፥6-8)"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "ኢስን «ጉዕማንከ ኣዱንያ አል ባዱ መሬ፤ መኒሃ ጉዕሚንከ ተሽት ላገተ ተማርስዬ፤"
+        },
+        {
+          "number": "16",
+          "text": "አመዕን ጠመቀሞሁ ፈቀኖ፤ እኮጎሬ አመዕንበሀኒሃ ፈረደመኖስ።"
+        },
+        {
+          "number": "17",
+          "text": "ኢን አመዕንቶሀኑኡተ ጉዕሚንከ አጀብሲሰኖ ጠወ አታ ወልቀት ኣሰንታሰ፤ ኢ ሱዕሚን ሩሃንየ ፉሽታአ፤ ህትን ወዕና ጠወእበ ሃዕሮ ላጋን ጠወኣአ።"
+        },
+        {
+          "number": "18",
+          "text": "ወሪቹንከ አፎእቀ ህከረንገ ሸኖ ዘቡ አጎእቀ ምረኖሰበአ፤ እሰን ጥዘናመ አሌን አንገተ አቶእቃ ጥዘናችሰ ፈይታአ» ዬእ።"
+        },
+        {
+          "number": "19",
+          "text": "ህካን ቀርቹ ኢስ ጠወዕይ ሹሎች ኤተሮን መገኑ ሰማሃ መሴሃንስ መገን መኬ አዲን አፉዕሌእ።",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "ኢስ ሰማሃ ኦሮኡስ",
+            "(ሉቃ. 24፥50-53፤ ሶቀ. 1፥9-11)"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "አሳበንት ጉዕመ ቤቹንከ መርት ተሽት ላገተ ተማርስቶኡ፤ ቀርቹንኩ እሳን ሜጡበ አአኖት እቅ፤ አጀብሲሰኖ ጠወ አታ ወልቀተ ኣሲን ተማርስታ ጠዉ ሀንቅ እሁስ ሆጎን ለሊሰኖት እቅ።]"
+        }
+      ],
+      "notes": [
+        {
+          "verse": "7",
+          "marker": "Translator/editor note",
+          "text": "- ማቶ. 26፥32፤ ማር. 14፥28።",
+          "note_type": "translator_note",
+          "source_reference": "16:7"
+        },
+        {
+          "verse": "8",
+          "marker": "Translator/editor note",
+          "text": "+ መት-መቶ ሄጭት ሄኦ መጻፋን ከን ፎሎጮን ዎሊንሽ ሄዜት አሌን ዮ ላገት በርገንቶኡ።፦ ሜንቱ ጴጥሮሴለከ ጃለስበ መርት መላይኬቹ ኩሎሰ ጠወ ጉዕመንከ ጠወኦኡ፤ ህከኒች ኤተሮን ኢስ ገዉንኩስ ዘላለሚሃ ጡሙ እኮ ዶረሞበእ ጠሊለ እንጂለ ሸርቂች ኬሽ ገርበ ኢለ አዎንታስሀኑኡ መሳን ሶኮ።",
+          "note_type": "translator_note",
+          "source_reference": "16:8"
+        },
+        {
+          "verse": "section-heading",
+          "marker": "Translator/editor note",
+          "text": "Source note reference 16:8. + ሄጭት ሄኦ መት-መቱ ሉህ ክታበት ዎሊንሽ 9-20 ኢለ ዮኢሃ በርግታበአ።",
+          "note_type": "translator_note",
+          "source_reference": "16:8"
+        },
+        {
+          "verse": "15",
+          "marker": "Translator/editor note",
+          "text": "- ሶቀ. 1፥8።",
+          "note_type": "translator_note",
+          "source_reference": "16:15"
+        },
+        {
+          "verse": "19",
+          "marker": "Translator/editor note",
+          "text": "- ሶቀ. 1፥9-11።",
+          "note_type": "translator_note",
+          "source_reference": "16:19"
+        }
+      ],
+      "heading": [
+        "ኢስ ሬሆች ኬኡስ",
+        "(ማቶ. 28፥1-8፤ ሉቃ. 24፥1-12፤ ያህ. 20፥1-10)"
+      ]
+    }
+  ]
+}

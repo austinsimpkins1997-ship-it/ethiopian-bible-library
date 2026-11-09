@@ -1,0 +1,195 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/exodus-brenton-english-1851",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/exodus-lxx",
+  "labels": [
+    {
+      "value": "English companion — Brenton Septuagint (1851), Exodus",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-02",
+      "mapping_state": "related_work",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-074",
+        "SRC-075"
+      ],
+      "notes": "The EOTC list includes Exodus. This Brenton English rendering is a Greek-Septuagint-based related witness, not a translation from or replacement for the distinct Geʽez transcription."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-lxx-exodus-1851",
+    "witness_type": "printed_edition",
+    "title": "Brenton English Septuagint, Exodus (1851)",
+    "date_statement": "1851",
+    "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; English page extracts from eBible.org",
+    "shelfmark_or_edition_id": null,
+    "editorial_policy": "Historical English wording and source labels are retained, including lettered verse labels and translator/editor notes.",
+    "source_ids": [
+      "SRC-038",
+      "SRC-074",
+      "SRC-075",
+      "SRC-076"
+    ]
+  },
+  "layer_type": "translation",
+  "language_tag": "en",
+  "language_name_as_recorded": "English",
+  "script_code": "Latn",
+  "basis_path": [
+    "grc",
+    "en"
+  ],
+  "agents": [
+    {
+      "role": "translator",
+      "name": "Sir Lancelot Charles Lee Brenton",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-038",
+        "SRC-074"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/exodus-geez.json",
+    "media_type": "application/json",
+    "sha256": "89b7045f45fdbbcbd0c114286f7e881f54cc2ea3682410ab6163b90f030cdea8",
+    "format_version": "1",
+    "json_pointer": "/parallel_translation"
+  },
+  "coverage": {
+    "extent_state": "unknown",
+    "extent_basis": "source_inventory",
+    "unit_count": 1160,
+    "structure_description": "40 ordered browser-visible chapter-page extracts and their nonempty numbered labels are stored. The count describes extracted units, not confirmed verse completeness.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "Extracted translator notes are retained as a separate notes array; in-text note markers are preserved.",
+    "numbering_policy": "Source labels and observed gaps are preserved. Labels do not prove verse alignment with the Geʽez layer."
+  },
+  "rights": {
+    "status": "public_domain_claimed",
+    "statement": "The cited eBible.org source identifies Brenton's 1851 English translation as public domain. This claim is separate from rights in the Geʽez transcription and any source website presentation.",
+    "license_id": null,
+    "rights_holder": null,
+    "attribution_required": true,
+    "territory_or_term_limits": "Public-domain status is recorded for this historical English translation; it does not clear other editions or layers.",
+    "evidence_source_ids": [
+      "SRC-038",
+      "SRC-074"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "Page headings identify Brenton English Septuagint, Exodus; no printed witness was inspected.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-038",
+        "SRC-074",
+        "SRC-075",
+        "SRC-076"
+      ],
+      "notes": "Edition identity follows the cited eBible record; exact print exemplar is not checked.",
+      "review_method": "source_inspection",
+      "review_process": "Cited source metadata inspection"
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "All 40 capture manifest entries and extracted page headings are in chapter order.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-075",
+        "SRC-076"
+      ],
+      "notes": "Confirms stored page inventory, not completeness of the source edition.",
+      "review_method": "automated_validation",
+      "review_process": "Archive structural validation"
+    },
+    {
+      "dimension": "unit_boundaries",
+      "state": "checked_with_limits",
+      "scope": "Nonempty numbered units parsed from the 40 extracts; source labels and gaps are retained.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-075",
+        "SRC-076"
+      ],
+      "notes": "Extraction wording and exact boundary fidelity against original page responses have not been checked.",
+      "review_method": "automated_validation",
+      "review_process": "Archive structural validation"
+    },
+    {
+      "dimension": "completeness",
+      "state": "unknown",
+      "scope": "No completeness review against source pages or the printed edition.",
+      "reviewer": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-074",
+        "SRC-075",
+        "SRC-076"
+      ],
+      "notes": "A captured page inventory is not proof that every word or note was extracted.",
+      "review_method": "unknown",
+      "review_process": null
+    },
+    {
+      "dimension": "translation_accuracy",
+      "state": "unknown",
+      "scope": "No review against the Greek Septuagint or printed English edition.",
+      "reviewer": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-038",
+        "SRC-074"
+      ],
+      "notes": "This is the identified published English translation, but this archive has not checked translation accuracy.",
+      "review_method": "unknown",
+      "review_process": null
+    },
+    {
+      "dimension": "alignment",
+      "state": "not_checked",
+      "scope": "No verse-by-verse alignment check against the Geʽez transcription.",
+      "reviewer": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-034",
+        "SRC-035",
+        "SRC-061",
+        "SRC-075"
+      ],
+      "notes": "Shared labels are navigation aids only.",
+      "review_method": "unknown",
+      "review_process": null
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "English translation reuse notice only.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-038"
+      ],
+      "notes": "Public-domain claim applies to Brenton English, not the separately permission-limited Geʽez transcription.",
+      "review_method": "source_inspection",
+      "review_process": "Cited source metadata inspection"
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "Research reader built from 40 checksum-matched browser-visible page extracts. Chapter headings, order, source URLs, nonempty labels and note capture are structurally checked. The wording has not been collated against the live pages or Brenton's printed edition; text completeness, translation accuracy, and alignment with Geʽez remain unknown. This layer is not labeled verified scripture. Browser-visible extraction, not generated translation.",
+  "text_origin": "published_translation"
+}

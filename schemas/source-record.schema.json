@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/schemas/source-record.schema.json",
+  "title": "Source and evidence record",
+  "description": "Shape contract for a cited source. The rights fields describe the identified source/resource record; they do not automatically determine rights in scripture text, transcriptions, images, media, or adjacent records. Unknown is a valid explicit assessment state.",
+  "type": "object",
+  "required": [
+    "source_id",
+    "source_name",
+    "url",
+    "inspection_and_limitations",
+    "archive_status",
+    "rights_classification",
+    "rights_status",
+    "rights_basis"
+  ],
+  "properties": {
+    "source_id": {
+      "type": "string",
+      "pattern": "^SRC-[0-9]{3}$"
+    },
+    "source_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "url": {
+      "type": "string",
+      "minLength": 1
+    },
+    "inspection_and_limitations": {
+      "type": "string",
+      "minLength": 1,
+      "description": "What was inspected and what that evidence does not establish."
+    },
+    "archive_status": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Local capture or evidence status, not a claim of textual accuracy."
+    },
+    "rights_classification": {
+      "enum": [
+        "public_domain_claimed",
+        "open_license",
+        "permission_limited",
+        "all_rights_reserved",
+        "unknown",
+        "mixed"
+      ]
+    },
+    "rights_status": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Source-specific rights evidence and limits; distinguish this source from any bundled text/media rights."
+    },
+    "rights_basis": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Evidence status supporting the source-level classification; unknown records must state what rights evidence was not established."
+    },
+    "license_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "license_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "local_metadata_url": {
+      "type": "string",
+      "minLength": 1
+    },
+    "local_rights_copy_url": {
+      "type": "string",
+      "minLength": 1
+    },
+    "local_capture_manifest_url": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Relative local path to the capture manifest authenticating a retained source snapshot."
+    },
+    "local_snapshot_path": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Relative local path to byte-preserved captured source bytes; render as download-only."
+    },
+    "local_snapshot_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "local_snapshot_status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "local_snapshot_note": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": true,
+  "allOf": [
+    {
+      "if": {
+        "required": [
+          "local_snapshot_path"
+        ]
+      },
+      "then": {
+        "required": [
+          "local_snapshot_sha256",
+          "local_snapshot_status",
+          "local_snapshot_note"
+        ]
+      }
+    }
+  ]
+}

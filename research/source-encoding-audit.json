@@ -1,0 +1,76 @@
+{
+  "title": "Encoding and sanitized display-copy audit for local source metadata pages",
+  "scope_note": "These are metadata pages, not scripture witnesses. Raw source bytes remain unchanged. Readable copies are transformed UTF-8 derivatives with active content blocked and removed; the copy is not the original page.",
+  "records": [
+    {
+      "source_id": "SRC-151",
+      "manifest": "readers/source/amos-tau-2009/SOURCE-CAPTURE.json",
+      "original": "readers/source/amos-tau-2009/amos-information.html",
+      "readable": "readers/source/amos-tau-2009/amos-information.utf8.html",
+      "source_url": "https://www.tau.ac.il/~hacohen/Amos/Information.html",
+      "captured_at": "2026-10-25T17:43:43Z",
+      "declared_encoding": "windows-1252",
+      "original_size_bytes": 4168,
+      "original_sha256": "ee76511f079ee9b881b05ed1178d528a867c63a845ec0cb94ee95f78125ee9b5",
+      "readable_size_bytes": 4456,
+      "readable_sha256": "9d9981527c64ae923056344b5813909342707189f2bc0541b9800ce1d52c6e54",
+      "bytes_valid_utf8": false
+    },
+    {
+      "source_id": "SRC-153",
+      "manifest": "readers/source/obadiah-tau-2010/SOURCE-CAPTURE.json",
+      "original": "readers/source/obadiah-tau-2010/obadiah-information.html",
+      "readable": "readers/source/obadiah-tau-2010/obadiah-information.utf8.html",
+      "source_url": "https://www.tau.ac.il/~hacohen/Obadia/Information.html",
+      "captured_at": "2026-10-25T16:46:37Z",
+      "declared_encoding": "windows-1252",
+      "original_size_bytes": 4264,
+      "original_sha256": "72fea229214b2b5920a4b4431f0ecd36cdf7d2964d5ca79549e1ec1f90d51a24",
+      "readable_size_bytes": 4975,
+      "readable_sha256": "3b91d785d7b3f8132d16b217fd7698851823f7715de1900cc55c7753e56fdfdf",
+      "bytes_valid_utf8": false
+    },
+    {
+      "source_id": "SRC-098",
+      "manifest": "readers/source/sirach-tau-2026/SOURCE-CAPTURE.json",
+      "original": "readers/source/sirach-tau-2026/apocryphi-information.html",
+      "readable": "readers/source/sirach-tau-2026/apocryphi-information.utf8.html",
+      "source_url": "https://www.tau.ac.il/~hacohen/Apocryphi/Information.html",
+      "captured_at": "2026-10-25T23:36:24Z",
+      "declared_encoding": "windows-1252",
+      "original_size_bytes": 4714,
+      "original_sha256": "2b31e3270572d9e124a8f7a2856d7a2f683a0a07b5a5e269166e9562602327b3",
+      "readable_size_bytes": 5014,
+      "readable_sha256": "6e7cbcec1ea8e8aaf1ac4c1ef14aaf5cae2c1108d7d5c4c487e20ddd38e63105",
+      "bytes_valid_utf8": false
+    },
+    {
+      "source_id": "SRC-318",
+      "manifest": "readers/source/sirach-tau-2026/SOURCE-CAPTURE.json",
+      "original": "readers/source/sirach-tau-2026/sirach-information.html",
+      "readable": "readers/source/sirach-tau-2026/sirach-information.utf8.html",
+      "source_url": "https://www.tau.ac.il/~hacohen/Apocryphi/InformationSir.html",
+      "captured_at": "2026-10-25T23:36:24Z",
+      "declared_encoding": "windows-1252",
+      "original_size_bytes": 2669,
+      "original_sha256": "582bfd1ef74e41bb49ad53e254c97824685a0b15ac24d86c7e15f25c26b2c745",
+      "readable_size_bytes": 2951,
+      "readable_sha256": "83564027bf41bbf4118455288017e46c20bdcb929bcfe4c3da7cac6e1cb18dd7",
+      "bytes_valid_utf8": true
+    },
+    {
+      "source_id": "SRC-081",
+      "manifest": "readers/source/tau-platt-nt-menu/SOURCE-CAPTURE.json",
+      "original": "readers/source/tau-platt-nt-menu/nt-information.html",
+      "readable": "readers/source/tau-platt-nt-menu/nt-information.utf8.html",
+      "source_url": "https://www.tau.ac.il/~hacohen/NT/Information.html",
+      "captured_at": "2026-10-26T10:14:24Z",
+      "declared_encoding": "windows-1252",
+      "original_size_bytes": 4341,
+      "original_sha256": "46bd3c115249e95d23034da714e3d6db62d5d10ac427896f96bb4d5cb6a1576f",
+      "readable_size_bytes": 4623,
+      "readable_sha256": "4378f94f33510c3fca21e765e0e4447cc4085155e2756f3de292d732cd5e82cd",
+      "bytes_valid_utf8": false
+    }
+  ]
+}

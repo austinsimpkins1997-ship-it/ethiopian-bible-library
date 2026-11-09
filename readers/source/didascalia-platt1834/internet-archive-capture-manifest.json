@@ -1,0 +1,56 @@
+{
+  "title": "Internet Archive ABBYY OCR files for Platt, The Ethiopic Didascalia (1834)",
+  "provider": "Internet Archive; item contributed by University of California Libraries",
+  "item_identifier": "ethiopicdidascal00platrich",
+  "item_url": "https://archive.org/details/ethiopicdidascal00platrich",
+  "metadata_api_url": "https://archive.org/metadata/ethiopicdidascal00platrich",
+  "retrieved_on": "2026-10-26",
+  "files": [
+    {
+      "path": "internet-archive-djvu.txt",
+      "byte_length": 554272,
+      "md5": "2fec06ab0b1784f966c997866bee006a",
+      "sha1": "f185f5338c9021ceea77663f0af48784217be673",
+      "sha256": "8a03aefd556e34108aed2dadc676a30252bba0880b921d23df0f4fa59a6aaf13"
+    },
+    {
+      "path": "internet-archive-djvu.xml",
+      "byte_length": 6805408,
+      "md5": "cfd2f2b1dbf894666401581f61b48a5b",
+      "sha1": "673763118d527d7f6566850f9cb5e16e2b948662",
+      "sha256": "59c69be2c8eaacdc29cb8a6840099089343d235a2b5425e982009d7e3cdd9965"
+    }
+  ],
+  "provider_checksums_verified": {
+    "metadata_source": "Internet Archive metadata API",
+    "fields": [
+      "md5",
+      "sha1"
+    ]
+  },
+  "reported_publication_date": "1834",
+  "reported_copyright_region": "US",
+  "provider_copyright_evidence": "Internet Archive item page reports no visible copyright notice and stated date 1834; its page displays “Possible copyright status: NOT_IN_COPYRIGHT”. No explicit license URL is supplied by the metadata API.",
+  "rights_classification": "public_domain_claimed",
+  "rights_scope": "Claim limited to the underlying 1834 publication in the United States based on the provider record; this is not an open-license claim or a worldwide legal determination. Review jurisdiction-specific rules before reuse.",
+  "ocr_description": "ABBYY OCR derivative files from the Internet Archive item; unreviewed raw research data, not an edited or verified transcription.",
+  "observed_limits": {
+    "internet_archive_page_count": 190,
+    "xml_page_object_count": 186,
+    "plain_text_form_feed_count": 0,
+    "ethiopic_unicode_codepoint_count": 0,
+    "plain_text_has_page_boundaries": false,
+    "language_metadata": "The item metadata lists English; the text OCR contains no Ethiopic Unicode codepoints. This does not establish that the underlying book lacks Ethiopic text."
+  },
+  "capture_method": "The two original IA djvu OCR download files were retained byte-for-byte. Their MD5 and SHA-1 values were checked against the item metadata API; local SHA-256 values and lengths are recorded here.",
+  "not_claimed": [
+    "complete page coverage",
+    "accurate OCR",
+    "a Geʽez transcription",
+    "reader text",
+    "chapter or verse boundaries",
+    "an exact crosswalk to the EOTC Church-list Didascalia",
+    "a verified translation"
+  ],
+  "coverage_effect": "None. This capture is not a reader and does not count toward canon-linked coverage."
+}

@@ -1,0 +1,354 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/schemas/text-layer.schema.json",
+  "title": "Global scripture archive text-layer record",
+  "description": "A portable record for one identified textual layer. This schema does not certify its historical identity, completeness, translation quality, or legal status.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "record_id",
+    "work_id",
+    "tradition_assertions",
+    "witness",
+    "layer_type",
+    "text_origin",
+    "language_tag",
+    "script_code",
+    "basis_path",
+    "agents",
+    "content_package",
+    "coverage",
+    "rights",
+    "review_dimensions",
+    "publication_state"
+  ],
+  "properties": {
+    "schema_version": { "const": 2 },
+    "record_id": { "$ref": "#/$defs/id" },
+    "work_id": { "$ref": "#/$defs/id" },
+    "labels": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/label" },
+      "default": []
+    },
+    "tradition_assertions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["tradition_id", "canon_id", "mapping_state", "evidence_source_ids"],
+        "properties": {
+          "tradition_id": { "$ref": "#/$defs/id" },
+          "canon_id": { "$ref": "#/$defs/id" },
+          "mapping_state": { "enum": ["asserted_by_source", "reviewed_match", "related_work", "uncertain", "not_mapped"] },
+          "evidence_source_ids": { "$ref": "#/$defs/sourceIds" },
+          "notes": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "witness": {
+      "type": "object",
+      "required": ["witness_id", "witness_type", "title", "source_ids"],
+      "properties": {
+        "witness_id": { "$ref": "#/$defs/id" },
+        "witness_type": { "enum": ["manuscript", "printed_edition", "digital_edition", "transcription", "composite", "unknown"] },
+        "title": { "type": "string", "minLength": 1 },
+        "date_statement": { "type": ["string", "null"] },
+        "repository_or_publisher": { "type": ["string", "null"] },
+        "shelfmark_or_edition_id": { "type": ["string", "null"] },
+        "editorial_policy": { "type": ["string", "null"] },
+        "source_ids": { "$ref": "#/$defs/sourceIds" }
+      },
+      "additionalProperties": false
+    },
+    "layer_type": {
+      "enum": ["diplomatic_transcription", "source_text_transcription", "normalized_text", "transliteration", "translation", "paraphrase", "commentary", "other"]
+    },
+    "text_origin": {
+      "enum": ["source_transcription", "published_translation", "machine_generated_draft", "human_composition", "unknown"],
+      "description": "Declares where the wording came from. Machine-generated drafts and unknown origins may be recorded for research, but must not be presented as bundled scripture."
+    },
+    "language_tag": {
+      "type": "string",
+      "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$",
+      "description": "A BCP 47 language tag. Syntax matching is not a substitute for checking the current IANA registry."
+    },
+    "language_name_as_recorded": { "type": ["string", "null"] },
+    "script_code": {
+      "type": "string",
+      "pattern": "^[A-Z][a-z]{3}$",
+      "description": "An ISO 15924 script code where identified."
+    },
+    "basis_path": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" }
+        }
+      ],
+      "description": "Ordered BCP 47 path through source and any relay languages to this layer; null when not established. For a transcription with identified language, use that language as a one-element array. If language identification is unresolved, set language_tag to und and basis_path to null."
+    },
+    "basis_path_status": {
+      "enum": ["established", "unknown"],
+      "description": "Required when a translation's basis_path is null. Use unknown only when the source and any relay languages have not been established; do not infer a language from the output text."
+    },
+    "agents": {
+      "type": "array",
+      "description": "Attribute only named people or organizations whose role in this textual layer is supported by the cited evidence. An empty array is valid when the source names no contributor, or when a file-level credit cannot be tied to this specific layer. Do not infer or invent translators, editors, or reviewers.",
+      "items": {
+        "type": "object",
+        "required": ["role", "name", "source_ids"],
+        "properties": {
+          "role": { "enum": ["author", "translator", "editor", "transcriber", "digitizer", "reviewer", "publisher", "community_steward", "software"] },
+          "name": { "type": "string", "minLength": 1 },
+          "authority_or_affiliation": { "type": ["string", "null"] },
+          "source_ids": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1, "uniqueItems": true }
+        },
+        "additionalProperties": false
+      }
+    },
+    "content_package": {
+      "type": "object",
+      "required": ["uri", "media_type", "sha256"],
+      "properties": {
+        "uri": { "type": "string", "format": "uri-reference", "minLength": 1 },
+        "media_type": { "type": "string", "pattern": "^[A-Za-z0-9!#$&^_.+-]+/[A-Za-z0-9!#$&^_.+-]+$" },
+        "sha256": { "type": "string", "pattern": "^[a-fA-F0-9]{64}$" },
+        "format_version": { "type": ["string", "null"] },
+        "json_pointer": { "type": "string", "pattern": "^(?:/(?:[^~/]|~[01])*)*$", "description": "Optional RFC 6901 pointer selecting this layer within a JSON package; the checksum covers the entire file." }
+      },
+      "additionalProperties": false
+    },
+    "coverage": {
+      "type": "object",
+      "required": ["extent_state", "extent_basis", "unit_count"],
+      "properties": {
+        "extent_state": { "enum": ["complete_for_declared_edition", "partial", "unknown"] },
+        "extent_basis": { "enum": ["edition_contents_statement", "source_inventory", "independent_collation", "unknown"] },
+        "unit_count": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "description": "Count of text units actually inventoried in the packaged scope when established. Zero means the stated scope was checked and no units were found; null means no count was established. This count does not prove the edition is complete."
+        },
+        "structure_description": {
+          "type": ["string", "null"],
+          "description": "Observed structure or the bounded scope surveyed. Required as a nonempty scope description when unit_count is zero."
+        },
+        "missing_or_lacunose_ranges": { "type": "array", "items": { "type": "string" }, "default": [] },
+        "supplements_and_editorial_signs": { "type": ["string", "null"] },
+        "numbering_policy": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "rights": {
+      "type": "object",
+      "required": ["status", "statement"],
+      "properties": {
+        "status": { "enum": ["public_domain_claimed", "open_license", "permission_limited", "all_rights_reserved", "unknown", "mixed"] },
+        "statement": { "type": "string", "minLength": 1 },
+        "license_id": { "type": ["string", "null"] },
+        "rights_holder": { "type": ["string", "null"] },
+        "attribution_required": { "type": "boolean" },
+        "territory_or_term_limits": { "type": ["string", "null"] },
+        "evidence_source_ids": { "$ref": "#/$defs/sourceIds" }
+      },
+      "additionalProperties": false
+    },
+    "review_dimensions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["dimension", "state", "scope", "review_method", "evidence_source_ids"],
+        "properties": {
+          "dimension": { "enum": ["identity", "transcription_accuracy", "translation_accuracy", "chapter_or_section_sequence", "unit_boundaries", "completeness", "alignment", "rights", "language_identification", "community_review", "other"] },
+          "state": { "enum": ["not_checked", "in_progress", "checked_with_limits", "reviewed", "disputed", "unknown"] },
+          "scope": { "type": "string", "minLength": 1 },
+          "reviewer": { "type": ["string", "null"], "description": "Named person who performed the review, if recorded. Do not put a tool or generic process name here." },
+          "review_method": {
+            "enum": ["automated_validation", "source_inspection", "human_review", "scholarly_review", "community_review", "combined_source_and_automated_validation", "unknown"],
+            "description": "How this bounded review was performed. Automated structure checks do not establish textual accuracy or human scholarly review."
+          },
+          "review_process": { "type": ["string", "null"], "description": "Named automated check or documented review process; keep the named person in reviewer." },
+          "reviewed_at": { "type": ["string", "null"], "format": "date" },
+          "evidence_source_ids": { "$ref": "#/$defs/sourceIds" },
+          "notes": { "type": ["string", "null"] }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "review_method": { "enum": ["automated_validation", "combined_source_and_automated_validation"] } }, "required": ["review_method"] },
+            "then": { "required": ["review_process"], "properties": { "review_process": { "type": "string", "minLength": 1 }, "reviewer": { "type": "null" } } }
+          },
+          {
+            "if": { "properties": { "state": { "const": "reviewed" } }, "required": ["state"] },
+            "then": { "required": ["review_method", "reviewer", "reviewed_at"], "properties": { "review_method": { "enum": ["human_review", "scholarly_review", "community_review"] }, "reviewer": { "type": "string", "minLength": 1 }, "reviewed_at": { "type": "string", "format": "date" } } }
+          }
+        ],
+        "additionalProperties": false
+      }
+    },
+    "publication_state": { "enum": ["metadata_only", "bundled", "withdrawn"] },
+    "community_access_note": { "type": ["string", "null"] },
+    "additional_notes": { "type": "string" }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "layer_type": { "enum": ["source_text_transcription", "diplomatic_transcription"] } },
+        "required": ["layer_type"]
+      },
+      "then": { "properties": { "text_origin": { "const": "source_transcription" } } }
+    },
+    {
+      "if": {
+        "properties": { "layer_type": { "const": "translation" } },
+        "required": ["layer_type"]
+      },
+      "then": { "properties": { "text_origin": { "enum": ["published_translation", "machine_generated_draft"] } } }
+    },
+    {
+      "if": {
+        "properties": { "publication_state": { "const": "bundled" } },
+        "required": ["publication_state"]
+      },
+      "then": { "properties": { "text_origin": { "not": { "enum": ["machine_generated_draft", "unknown"] } } } }
+    },
+    {
+      "if": {
+        "properties": { "publication_state": { "const": "bundled" } },
+        "required": ["publication_state"]
+      },
+      "then": {
+        "properties": {
+          "rights": {
+            "properties": {
+              "status": { "enum": ["public_domain_claimed", "open_license", "permission_limited"] },
+              "evidence_source_ids": { "type": "array", "minItems": 1 }
+            },
+            "required": ["status", "evidence_source_ids"]
+          }
+        },
+        "required": ["rights"]
+      }
+    },
+    {
+      "if": {
+        "properties": { "rights": { "properties": { "status": { "const": "open_license" } }, "required": ["status"] } },
+        "required": ["rights"]
+      },
+      "then": {
+        "properties": { "rights": { "properties": { "license_id": { "type": "string", "minLength": 1 } }, "required": ["license_id"] } }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "coverage": {
+            "properties": { "unit_count": { "const": 0 } },
+            "required": ["unit_count"]
+          }
+        },
+        "required": ["coverage"]
+      },
+      "then": {
+        "properties": {
+          "coverage": {
+            "properties": {
+              "extent_state": { "enum": ["complete_for_declared_edition", "partial"] },
+              "extent_basis": { "enum": ["source_inventory", "independent_collation"] },
+              "structure_description": { "type": "string", "minLength": 1 }
+            },
+            "required": ["structure_description"]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "layer_type": { "const": "translation" },
+          "basis_path": { "type": "null" }
+        },
+        "required": ["layer_type", "basis_path"]
+      },
+      "then": {
+        "properties": {
+          "basis_path_status": { "const": "unknown" },
+          "review_dimensions": {
+            "contains": {
+              "type": "object",
+              "properties": {
+                "dimension": { "const": "translation_accuracy" },
+                "state": { "const": "unknown" }
+              },
+              "required": ["dimension", "state"]
+            }
+          }
+        },
+        "required": ["basis_path_status", "review_dimensions"]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "layer_type": { "const": "translation" },
+          "basis_path": { "type": "array" }
+        },
+        "required": ["layer_type", "basis_path"]
+      },
+      "then": {
+        "properties": {
+          "basis_path_status": { "enum": ["established"] }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "publication_state": { "const": "bundled" },
+          "layer_type": { "enum": ["source_text_transcription", "diplomatic_transcription"] },
+          "language_tag": { "const": "und" }
+        },
+        "required": ["publication_state", "layer_type", "language_tag"]
+      },
+      "then": { "properties": { "basis_path": { "type": "null" } } }
+    },
+    {
+      "if": {
+        "properties": {
+          "publication_state": { "const": "bundled" },
+          "layer_type": { "enum": ["source_text_transcription", "diplomatic_transcription"] },
+          "language_tag": { "not": { "const": "und" } }
+        },
+        "required": ["publication_state", "layer_type", "language_tag"]
+      },
+      "then": { "properties": { "basis_path": { "type": "array", "minItems": 1 } } }
+    }
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "id": {
+      "type": "string",
+      "format": "uri",
+      "minLength": 1,
+      "description": "A persistent IRI, preferably under a project or community-controlled namespace. Do not use mutable display titles as identifiers."
+    },
+    "label": {
+      "type": "object",
+      "required": ["value", "language_tag", "label_type"],
+      "properties": {
+        "value": { "type": "string", "minLength": 1 },
+        "language_tag": { "type": "string", "pattern": "^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$" },
+        "label_type": { "enum": ["preferred", "alternate", "transliterated", "original_form", "community_name"] },
+        "attribution": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "sourceIds": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    }
+  }
+}

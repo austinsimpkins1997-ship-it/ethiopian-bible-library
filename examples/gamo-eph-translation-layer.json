@@ -1,0 +1,172 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/gamo-gmvetw-translation-eph",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/gamo-gmvetw-menu-entry-eph",
+  "labels": [
+    {
+      "value": "ኤፌሶኔ ኣሳስ",
+      "language_tag": "gmv",
+      "label_type": "original_form"
+    }
+  ],
+  "tradition_assertions": [],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/gamo-gmvetw-eph",
+    "witness_type": "digital_edition",
+    "title": "eBible.org Gamo Bible (GMVETW / gmve), publisher entry EPH: ኤፌሶኔ ኣሳስ",
+    "date_statement": "Source files dated 2025-05-03; mobile HTML package generated 2026-10-20, as recorded by the provider.",
+    "repository_or_publisher": "The Word for the World International; digital edition distributed by eBible.org",
+    "shelfmark_or_edition_id": "GMVETW / gmve; publisher book code EPH",
+    "editorial_policy": "Text was extracted from the captured publisher HTML into JSON. The displayed text normalizes HTML whitespace and line breaks; source marker labels are retained. Publisher cross-reference notes are preserved in chapter notes. Images, fonts, and CSS are excluded because the publisher says pictures have separate terms. The captured HTML-only source archive is retained alongside this reader.",
+    "source_ids": [
+      "SRC-168",
+      "SRC-169",
+      "SRC-178"
+    ]
+  },
+  "layer_type": "translation",
+  "text_origin": "published_translation",
+  "language_tag": "gmv",
+  "language_name_as_recorded": "Gamo (Gamotso)",
+  "script_code": "Ethi",
+  "basis_path": null,
+  "basis_path_status": "unknown",
+  "agents": [
+    {
+      "role": "publisher",
+      "name": "The Word for the World International",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-168"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/gamo-eph-research.json",
+    "media_type": "application/json",
+    "sha256": "5518d38219a116357848f30beb7741309383a9c6061f8dcf599b3c864316ba53",
+    "format_version": "1"
+  },
+  "coverage": {
+    "extent_state": "unknown",
+    "extent_basis": "source_inventory",
+    "unit_count": 152,
+    "structure_description": "The local extraction contains 6 consecutive chapter pages linked from the captured publisher package and 152 nonempty source spans. These are counts of the captured digital scope only; completeness against a print edition, manuscript, or other canonical list is not established.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "The reader preserves publisher verse labels and captured cross-reference note text. It does not reconstruct missing apparatus or independently interpret editorial conventions.",
+    "numbering_policy": "Publisher chapter and verse labels are retained as strings, including combined labels; no renumbering or cross-witness equivalence is implied."
+  },
+  "rights": {
+    "status": "open_license",
+    "statement": "Copyright © 2024 The Word for the World International; contributor: The Word for the World Northern Africa. Source: eBible.org, Gamo Bible GMVETW / gmve, Ethiopic script. The provider identifies CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/), requiring attribution, an indication of changes, and share-alike distribution of adaptations. This archive converted publisher HTML structure to JSON and normalized HTML whitespace for display; source labels are retained, and these changes do not imply publisher endorsement. The provider states that images have separate terms; this text-only layer excludes images, fonts, and CSS. The license does not apply to other archive content.",
+    "license_id": "CC-BY-SA-4.0",
+    "rights_holder": "The Word for the World International",
+    "attribution_required": true,
+    "territory_or_term_limits": "No separate territory restriction was recorded in the cited license notice; this archive makes no independent worldwide legal determination.",
+    "evidence_source_ids": [
+      "SRC-168",
+      "SRC-178"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "Provider edition identifier GMVETW / gmve and publisher menu code EPH; exact identity to a print witness is not established.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Review of the retained publisher metadata and locally captured HTML package.",
+      "reviewed_at": "2026-10-26",
+      "evidence_source_ids": [
+        "SRC-168",
+        "SRC-178"
+      ],
+      "notes": "Publisher-code crosswalk candidates are kept in the research corpus and do not assert canon affiliation."
+    },
+    {
+      "dimension": "language_identification",
+      "state": "checked_with_limits",
+      "scope": "The edition record identifies Gamo/Gamotso (gmv) and Ethiopic script (Ethi).",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Review of the provider edition metadata and reader language fields.",
+      "reviewed_at": "2026-10-26",
+      "evidence_source_ids": [
+        "SRC-168",
+        "SRC-178"
+      ],
+      "notes": "This identifies the publisher-declared language and script; it is not an independent linguistic review."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "Structural extraction from the captured eBible.org GMVETW / gmve HTML snapshot: this menu entry links to 6 consecutive chapter pages; 152 nonempty verse spans retain their displayed labels; each source chapter page hash is recorded. For this standard New Testament entry, the publisher title/code, the official USFM code table, and the Church's explicitly listed title support a reviewed work/title crosswalk. This does not verify translation accuracy, printed or manuscript completeness, edition identity, tradition affiliation, or translation basis; this remains a Gamo research witness, not a verified EOTC text.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "build_gamo_research_readers.py validates the captured publisher index and linked chapter pages.",
+      "reviewed_at": "2026-10-26",
+      "evidence_source_ids": [
+        "SRC-178"
+      ],
+      "notes": "Confirms extraction from the retained HTML package, not completeness against print or manuscript witnesses."
+    },
+    {
+      "dimension": "unit_boundaries",
+      "state": "checked_with_limits",
+      "scope": "152 nonempty spans and their displayed source labels in the captured 6-chapter sequence.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Gamo HTML extraction and local package validation.",
+      "reviewed_at": "2026-10-26",
+      "evidence_source_ids": [
+        "SRC-178"
+      ],
+      "notes": "Structural extraction only; no verse alignment or wording accuracy is claimed."
+    },
+    {
+      "dimension": "translation_accuracy",
+      "state": "unknown",
+      "scope": "No independent translation review or collation was performed; the source and any relay-language path are not identified by the cited edition record.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-168",
+        "SRC-178"
+      ],
+      "notes": "This layer is the publisher-linked Gamo/Gamotso (gmv) text under menu code EPH. The source or relay-language path is not identified in the cited edition record and is not inferred."
+    },
+    {
+      "dimension": "completeness",
+      "state": "unknown",
+      "scope": "Completeness beyond the locally captured linked digital pages has not been established.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-168",
+        "SRC-178"
+      ],
+      "notes": "Observed chapter and span counts do not establish completeness against a print edition, manuscript, or church canon."
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "Provider's CC BY-SA 4.0 notice for text; excluded image assets have separate terms.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Review of the provider edition page, reuse notice, and retained text-only source package.",
+      "reviewed_at": "2026-10-26",
+      "evidence_source_ids": [
+        "SRC-168",
+        "SRC-178"
+      ],
+      "notes": "Source-derived text is shared under the stated license; no license is asserted for the site or excluded media."
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "This is a source-derived Gamo research translation layer. It has no canon or tradition assertion. The separate Gamo research corpus records provisional title-code candidates; those candidates do not establish Ethiopian Orthodox affiliation or canon coverage. The unknown translation basis remains explicit."
+}

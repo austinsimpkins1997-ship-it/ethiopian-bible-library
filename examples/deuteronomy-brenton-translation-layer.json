@@ -1,0 +1,157 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/deuteronomy-english-brenton-lxx-1851",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/deuteronomy-lxx",
+  "labels": [
+    {
+      "value": "English companion — Brenton Septuagint (1851), Deuteronomy",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-05",
+      "mapping_state": "related_work",
+      "evidence_source_ids": [
+        "SRC-038",
+        "SRC-142"
+      ],
+      "notes": "The EOTC catalogue lists a book with this title. Brenton's text is an English translation of the Greek Septuagint; this record does not claim it is the same textual witness, an EOTC edition, or a translation from the bundled Geʽez text."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-lxx-deuteronomy-1851",
+    "witness_type": "digital_edition",
+    "title": "English companion — Brenton Septuagint (1851), Deuteronomy",
+    "date_statement": "Translation published 1851; USFM source package provided by eBible.org",
+    "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital text distributed by eBible.org",
+    "shelfmark_or_edition_id": "06-DEUeng-Brenton.usfm",
+    "editorial_policy": "USFM verse labels, footnotes, cross-references, paragraph starts (\\p), descriptive-title markers (\\d), and translator-supplied-word markers are retained. USFM formatting markers for small capitals are flattened to plain text; \\add words are wrapped in visible archival brackets.",
+    "source_ids": [
+      "SRC-038",
+      "SRC-142"
+    ]
+  },
+  "layer_type": "translation",
+  "text_origin": "published_translation",
+  "language_tag": "en",
+  "language_name_as_recorded": "English",
+  "script_code": "Latn",
+  "basis_path": [
+    "grc",
+    "en"
+  ],
+  "agents": [
+    {
+      "role": "translator",
+      "name": "Sir Lancelot Charles Lee Brenton",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-038"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/deuteronomy-geez.json",
+    "media_type": "application/json",
+    "sha256": "f1fe65916b8d30a1221fb8978ac5fd173f09e4f9eef05dedf6225f77f28583e8",
+    "format_version": "1",
+    "json_pointer": "/parallel_translation"
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 958,
+    "structure_description": "The archived eBible.org USFM member contains 34 ordered chapters, 958 numbered labels, and 0 preserved unnumbered continuation segments; this is a count of the selected digital source package, not proof of printed-edition completeness.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "155 footnotes and cross-references retained. The USFM \\add marker for translator-supplied words is rendered as visible ⟦brackets⟧; source \\p paragraph starts and \\d descriptive-title markers are retained before source-labeled units, and inline unnumbered \\p text is stored separately as continuation segments on the preceding verse; small-cap formatting is flattened to plain text.",
+    "numbering_policy": "Source chapter and verse labels are retained as strings. Shared labels pair witnesses for navigation only; verse-level alignment with the Geʽez text has not been established."
+  },
+  "rights": {
+    "status": "public_domain_claimed",
+    "statement": "eBible.org's source notice identifies Brenton's 1851 English translation as public domain. The archive records this provider claim; it is not a worldwide legal determination and does not apply to other text layers or eBible.org page design.",
+    "license_id": null,
+    "rights_holder": null,
+    "attribution_required": true,
+    "territory_or_term_limits": "Provider-reported public-domain status; no jurisdiction-by-jurisdiction determination is claimed.",
+    "evidence_source_ids": [
+      "SRC-038",
+      "SRC-142"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "eBible.org USFM member identifies this as Brenton English Septuagint Deuteronomy; no printed witness was collated.",
+      "reviewer": null,
+      "review_method": "combined_source_and_automated_validation",
+      "review_process": "Archived package metadata and local member/header audit",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-038",
+        "SRC-142"
+      ],
+      "notes": "The provider's title and attribution are recorded; exact identity to every detail of the 1851 print edition remains unchecked."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "All 34 chapter markers in the identified USFM member are ordered 1–34.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Brenton USFM archive parser and integrity tests",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-142"
+      ],
+      "notes": "Checks the archived digital source member, not completeness against the printed edition."
+    },
+    {
+      "dimension": "unit_boundaries",
+      "state": "checked_with_limits",
+      "scope": "All 958 verse markers and 0 unnumbered continuation segments are parsed with nonempty text; 155 footnotes/cross-references and structural markers {'p': 202, 'nb': 3} are retained.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Brenton USFM parser and integrity tests",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-142"
+      ],
+      "notes": "Structural source-package check only; not an independent textual or translation review."
+    },
+    {
+      "dimension": "translation_accuracy",
+      "state": "unknown",
+      "scope": "No independent review against the Greek Septuagint or Brenton's printed 1851 edition.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-038",
+        "SRC-142"
+      ],
+      "notes": "This is not a direct translation from the bundled Geʽez text."
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "eBible.org's public-domain notice for Brenton's 1851 English translation.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Provider copyright notice and source package metadata",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-038",
+        "SRC-142"
+      ],
+      "notes": "Provider-reported status; no international rights survey is claimed."
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "A historical Greek-to-English Septuagint translation is paired with the distinct Geʽez source transcription for comparison. It is not an EOTC edition claim, a direct Geʽez translation, or a verified alignment. Local parser checks do not establish wording accuracy or printed-edition completeness."
+}

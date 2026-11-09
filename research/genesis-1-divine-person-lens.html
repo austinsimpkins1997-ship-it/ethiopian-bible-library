@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123b31">
+  <title>Genesis 1: a first- and third-person lexical lens — Ethiopian Bible Library</title>
+  <style>
+    :root{color-scheme:light;--ink:#173d36;--muted:#52645f;--line:#e3ddd1;--paper:#fcfaf5;--gold:#ad8240;--white:#fff}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:#27332f;font:16px/1.65 system-ui,sans-serif}main{max-width:980px;margin:auto;padding:clamp(20px,5vw,56px) clamp(16px,4vw,36px) 72px}h1,h2{font-family:Georgia,serif;color:var(--ink);line-height:1.2}h1{font-size:clamp(2rem,6vw,3.2rem);max-width:20ch}h2{font-size:1.5rem;margin-top:2.2rem}.kicker{color:var(--gold);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.78rem}.lede{font-size:1.12rem;max-width:72ch;color:var(--muted)}.notice{border-left:4px solid var(--gold);padding:14px 18px;background:#f3eee3;margin:24px 0}.table-wrap{overflow-x:auto;border:1px solid var(--line);background:var(--white)}table{width:100%;border-collapse:collapse;min-width:700px}th,td{padding:13px 15px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}th{background:#f3eee3;color:var(--ink)}td:nth-child(2){white-space:nowrap;font-variant-numeric:tabular-nums;font-weight:700;color:var(--ink)}tr:last-child td{border-bottom:0}a{color:#155d4d;text-underline-offset:.15em}li{margin:.5em 0}.actions{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}.actions a{display:inline-block;padding:10px 14px;border:1px solid var(--line);background:white}.small{color:var(--muted);font-size:.94rem}code{overflow-wrap:anywhere}footer{border-top:1px solid var(--line);margin-top:36px;padding-top:18px;color:var(--muted)}
+  </style>
+</head>
+<body>
+<main>
+  <p class="kicker">Input → output · scoped textual lens</p>
+  <h1>Genesis 1: first- and third-person references</h1>
+  <p class="lede">A manually bounded lexical pilot over the archive’s stored English companion and Geʽez chapter text. These figures describe counted strings under stated rules; they are not a theological conclusion, a count across Genesis, or a universal-language translation.</p>
+
+  <div class="notice"><strong>Read the language boundary first.</strong> The English observations below do not describe Geʽez grammar. The Geʽez divine-name total is an exact-string count only. A Geʽez first-person verb count remains unassessed because the archive has not validated a morphology and speaker-attribution method for this chapter.</div>
+
+  <h2>Observed counts</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Lens</th><th>Count</th><th>What was counted</th></tr></thead>
+    <tbody>
+      <tr><td>English first-person self-reference in words manually attributed to God</td><td>3</td><td>Exact tokens: <em>I</em> (1), <em>us</em> (1), and <em>our</em> (1). “Us” and “our” occur in Genesis 1:26; “I” occurs in 1:29.</td></tr>
+      <tr><td>English narrator reference by the noun “God”</td><td>33</td><td>Case-insensitive whole-word occurrences outside the selected speech excerpts. This lexical proxy is not a count of third-person pronouns or verbs.</td></tr>
+      <tr><td>English subject pronoun “he” manually attributed to God</td><td>5</td><td>Occurrences in selected clauses at 1:5, 1:10, twice in 1:27, and 1:31. “Him” in 1:27 refers to the human and is excluded.</td></tr>
+      <tr><td>Exact Geʽez string <code>እግዚአብሔር</code> in the stored chapter</td><td>33</td><td>Exact string occurrences across 31 stored Geʽez verse texts. This does not count Geʽez grammatical person or all names/titles for God.</td></tr>
+      <tr><td>English second-person audience reference inside attributed speech</td><td>2</td><td>“You” appears twice in 1:29 and is addressed to humans; it is not God referring to God.</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Text witnesses and reproducibility</h2>
+  <p>The lens names its witnesses so the counts can be checked against the exact stored material. Both witnesses provide 31 Genesis 1 verse strings; matching labels alone do not make them equivalent editions.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Witness</th><th>Role and edition</th><th>Language</th><th>Chapter strings</th><th>Recorded text SHA-256</th><th>Stored reader</th></tr></thead>
+    <tbody>
+      <tr><td><code>genesis-geez-dillmann-hacohen</code></td><td>Source transcription from August Dillmann’s 1853–1855 Ethiopic Octateuch, digitized and transcribed by Ran HaCohen.</td><td><code>gez</code></td><td>31</td><td><code>ad8cd109ae6241fc6330ee4762deca3d4187c89f2719d3887a5d3c315646abd7</code></td><td><a href="../readers/genesis-geez.json">Geʽez reader package</a></td></tr>
+      <tr><td><code>genesis-english-brenton-lxx-1851</code></td><td>English companion: Sir Lancelot Charles Lee Brenton’s 1851 English Septuagint.</td><td><code>en</code></td><td>31</td><td><code>375764e1358a1715cc5a07786ce82537539dde432a1de8289a431cb4952e8f77</code></td><td><a href="../readers/genesis-brenton.json">English reader package</a></td></tr>
+    </tbody>
+  </table></div>
+  <p class="small">These fingerprints are copied from the lens JSON’s witness records. The cited sources are SRC-029 and SRC-034 through SRC-038; open the <a href="../index.html#sources">source catalogue</a> to review their bibliographic and rights notes. Reader-level checks establish local extraction structure, not textual accuracy or edition equivalence.</p>
+
+  <h2>Interpretive limits</h2>
+  <ul>
+    <li>The three English first-person forms are counted as grammar only. This record does not decide the theological meaning of “us” or “our.”</li>
+    <li>Attributing exact speech excerpts to God is an editorial judgment and is marked unreviewed in the machine-readable record.</li>
+    <li>The stored English witness is a specific companion text. Different English editions may use different words; this is not a language-neutral count.</li>
+    <li>The Geʽez first-person total is <strong>unassessed, not zero</strong>. Searching for independent pronouns would miss person marking carried by verbs.</li>
+    <li>Matching verse labels do not establish translation equivalence. No machine-generated wording is presented as scripture.</li>
+  </ul>
+
+  <div class="actions">
+    <a href="genesis-1-divine-person-lens.json">Machine-readable measurement record</a>
+    <a href="genesis-1-divine-person-lens.md">Full method and evidence notes</a>
+    <a href="geez-morphology-resource-review.md">Geʽez morphology resource review</a>
+    <a href="../index.html#sources">Source catalogue</a>
+  </div>
+  <p class="small">The witness and source identifiers, excerpt boundaries, lexical rules, per-verse counts, and fingerprints are retained in the JSON record. Consult sources SRC-029 and SRC-034 through SRC-038 there. A source citation supports traceability; it does not certify completeness, translation accuracy, or reuse rights.</p>
+  <footer><a href="../index.html#studies">Back to Study Connections</a> · <a href="../index.html#library">Open the library</a></footer>
+</main>
+</body>
+</html>

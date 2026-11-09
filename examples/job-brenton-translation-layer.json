@@ -1,0 +1,177 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/job-english-brenton-lxx-1851",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/job-brenton-lxx-1851",
+  "labels": [
+    {
+      "value": "English companion — Brenton Septuagint (1851), Job",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-22",
+      "mapping_state": "uncertain",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-146"
+      ],
+      "notes": "The EOTC English list has a Job entry and eBible.org identifies this digital text as Brenton's Greek Septuagint Job. The relationship is a title-level candidate only; it does not establish identity with a Geʽez witness or current Church edition."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-lxx-job-brenton-lxx-1851-1851",
+    "witness_type": "digital_edition",
+    "title": "Job — Brenton Septuagint English (1851)",
+    "date_statement": "Translation published 1851; USFM source package provided by eBible.org",
+    "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital text distributed by eBible.org",
+    "shelfmark_or_edition_id": "19-JOBeng-Brenton.usfm",
+    "editorial_policy": "USFM \\add translator-supplied words are displayed in visible archival brackets. Footnotes, cross-references, paragraph starts, descriptive titles, and unnumbered continuation segments are preserved as separate structural data.",
+    "source_ids": [
+      "SRC-029",
+      "SRC-038",
+      "SRC-142",
+      "SRC-143",
+      "SRC-146"
+    ]
+  },
+  "layer_type": "translation",
+  "text_origin": "published_translation",
+  "language_tag": "en",
+  "language_name_as_recorded": "English",
+  "script_code": "Latn",
+  "basis_path": [
+    "grc",
+    "en"
+  ],
+  "agents": [
+    {
+      "role": "translator",
+      "name": "Sir Lancelot Charles Lee Brenton",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-038"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/job-brenton-lxx-1851.json",
+    "media_type": "application/json",
+    "sha256": "cf5786d65d89283810ccf1c9d29055a18ca980ec3ce2e376a82d05b163366a54",
+    "format_version": "1",
+    "json_pointer": ""
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 1082,
+    "structure_description": "The archived eBible.org USFM member contains 42 ordered chapter divisions, 1,082 numbered labels, and two unnumbered continuation segments. These are counts from the selected digital member, not proof of printed-edition completeness.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "Footnotes, cross-references, paragraph starts, descriptive titles, translator-added words in visible archival brackets, and two unnumbered continuation segments are preserved.",
+    "numbering_policy": "Source chapter and verse labels are preserved as strings, including appended letters. No missing label is synthesized; label matches do not establish alignment to a Geʽez text."
+  },
+  "rights": {
+    "status": "public_domain_claimed",
+    "statement": "eBible.org's source notice identifies Brenton's 1851 English translation as public domain. The archive records this provider claim; it is not a worldwide legal determination and does not apply to other text layers or eBible.org page design.",
+    "license_id": null,
+    "rights_holder": null,
+    "attribution_required": true,
+    "territory_or_term_limits": "Provider-reported public-domain status; no jurisdiction-by-jurisdiction determination is claimed.",
+    "evidence_source_ids": [
+      "SRC-038",
+      "SRC-142"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "eBible.org USFM member identifies this as Brenton English Septuagint Job; no printed witness was collated.",
+      "reviewer": null,
+      "review_method": "combined_source_and_automated_validation",
+      "review_process": "Archived package metadata and local member/header audit",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-038",
+        "SRC-142",
+        "SRC-143",
+        "SRC-146"
+      ],
+      "notes": "The provider's title and attribution are recorded; exact identity to every detail of the 1851 print edition remains unchecked."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "All 42 chapter markers in the identified USFM member are ordered 1–42.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Brenton USFM archive parser and integrity tests",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-038",
+        "SRC-142",
+        "SRC-143",
+        "SRC-146"
+      ],
+      "notes": "Checks the archived digital source member, not completeness against the printed edition."
+    },
+    {
+      "dimension": "unit_boundaries",
+      "state": "checked_with_limits",
+      "scope": "All 1082 verse markers and 2 unnumbered continuation segments are parsed with nonempty text; 0 footnotes/cross-references and structural markers {'p': 217, 'p_inline_text_segments': 2} are retained.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Brenton USFM parser and integrity tests",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-038",
+        "SRC-142",
+        "SRC-143",
+        "SRC-146"
+      ],
+      "notes": "Structural source-package check only; not an independent textual or translation review."
+    },
+    {
+      "dimension": "translation_accuracy",
+      "state": "unknown",
+      "scope": "No independent review against the Greek Septuagint or Brenton's printed 1851 edition.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-038",
+        "SRC-142",
+        "SRC-143",
+        "SRC-146"
+      ],
+      "notes": "This is not a direct translation from the bundled Geʽez text."
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "eBible.org's public-domain notice for Brenton's 1851 English translation.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Provider copyright notice and source package metadata",
+      "reviewed_at": "2026-10-25",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-038",
+        "SRC-142",
+        "SRC-143",
+        "SRC-146"
+      ],
+      "notes": "Provider-reported status; no international rights survey is claimed."
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "A local parser checked the archived member checksum, 42 ordered chapters, 1082 nonempty verse labels, 2 preserved continuation segments, and source markup. This confirms extraction structure only. No independent collation against the printed edition or Greek Septuagint was performed; wording accuracy, print-edition completeness, and the exact relationship to the Ethiopian Orthodox Church list remain unverified. It is not a canon-linked EOTC reader and is not counted as an EOTC canon reader or toward canon reader coverage."
+}

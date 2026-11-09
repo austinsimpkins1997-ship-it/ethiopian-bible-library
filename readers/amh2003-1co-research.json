@@ -1,0 +1,2751 @@
+{
+  "reader_id": "amh2003-1co-research",
+  "research_corpus_id": "amh2003-1co-research",
+  "publisher_book_code": "1CO",
+  "source_menu_position": 7,
+  "source_title_label": "1ኛ ወደ ቆሮንቶስ ሰዎች",
+  "reader_scope": "research_witness_reviewed_title_match",
+  "title": "1 Corinthians — Amharic text (1ኛ ወደ ቆሮንቶስ ሰዎች)",
+  "display_name": "1 Corinthians · Amharic (AMH2003)",
+  "normalized_title_en": "1 Corinthians",
+  "title_normalization": {
+    "method": "publisher_standard_book_code_lookup",
+    "publisher_book_code": "1CO",
+    "normalized_english_name": "1 Corinthians",
+    "source_title_label": "1ኛ ወደ ቆሮንቶስ ሰዎች",
+    "is_translation_of_source_label": false,
+    "canon_mapping": "reviewed_work_title_match",
+    "source_ids": [
+      "SRC-029",
+      "SRC-196",
+      "SRC-197",
+      "SRC-198",
+      "SRC-396"
+    ],
+    "note": "Reviewed work/title match for eotc-nt-07 (I Corinthians): the EOTC's cited 81-entry list names I Corinthians; the captured publisher menu and page identify this member with standard code 1CO; the official USFM/USX table maps that code to 1 Corinthians. The Amharic title remains verbatim and is not translated by this normalization. This is a title crosswalk only, not evidence that this edition belongs to or follows the EOTC canon. Evidence: SRC-029, SRC-196, SRC-197, SRC-198, and SRC-396."
+  },
+  "text_origin": "published_translation",
+  "language": "Amharic (አማርኛ)",
+  "language_tag": "am",
+  "language_assignment_status": "publisher_identified_amharic",
+  "script_code": "Ethi",
+  "translation_id": "amh2003eb",
+  "translator": "Translation team not named in the cited copyright page; source notes identify Lapsley/Brooks Foundation e-text (1994) and Dirk Röckmann's UTF-8 conversion/XML tagging (2003).",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The eBible publisher metadata does not document a source-text path. Haile Selassie's 1961 statement describes the 1947–1952 committee's aim as revising the existing Amharic Bible with reference to Hebrew and Greek. A. F. Matthew, a committee member, reports that the 1955 New Testament revision used Nestle's 1904 Greek text, following an Ethiopic reading where the Nestle apparatus listed the same alternative. These are historical statements about the revision process, not proof that this 2003 digital witness reproduces the 1962 print text without change. No collation establishes this reader's book-level lineage, so its path remains unknown.",
+  "edition": "United Bible Societies, Revised Amharic Bible in XML (2003), based on the printed version (1962); Lapsley/Brooks Foundation e-text (1994); Unicode UTF-8 transformation/XML tagging by Dirk Röckmann (2003); eBible.org source files dated 2025-12-12.",
+  "edition_scope": "This is the Amharic New Testament publisher-menu entry 7 under label '1ኛ ወደ ቆሮንቶስ ሰዎች' and standard book code 1CO. The 81-entry catalogue link is provisional and title-level; relation to any particular church canon list or printed exemplar is not established.",
+  "rights_classification": "permission_limited",
+  "copyright_notice": "Copyright © 1962, 2003 United Bible Societies. Language: አማርኛ (Amharic). Amharic NT. Revised Amharic Bible in XML (2003). Printed version by United Bible Societies (© 1962). E-text in transliterated ASCII format by Lapsley/Brooks Foundation (1994). Unicode UTF-8 transformation and XML-tagging by Dirk Röckmann (2003; www.nt-text.net). With kind permission of the Bible Society of Ethiopia. Every non-commercial work using this data in any form must fully include this copyright statement. Every commercial use of parts or the complete data in any form needs written permission of the Bible Society of Ethiopia. Copyright page dated 2014-09-09.",
+  "commercial_use": "The source page permits use in non-commercial works only when the complete copyright statement is included with every such work. Commercial use of any part or all of the data requires written permission from the Bible Society of Ethiopia. This is permission-limited reuse, not an open license or a general public-domain claim.",
+  "license_id": null,
+  "license_url": "https://ebible.org/amh/copyright.htm",
+  "chapter_count": 16,
+  "unit_count": 411,
+  "unit_label": "publisher-displayed Amharic verse marker",
+  "verse_marker_count": 411,
+  "section_label": "Chapter",
+  "chapter_structure_note": "Chapter sequence follows the publisher's linked book index and filename order. The original Ethiopic chapter label is retained alongside the numeric navigation order; verse markers are retained verbatim and are not renumbered. Counts describe captured page structure only.",
+  "transcription_note": "Text was parsed from the retained eBible.org HTML-only page capture. Ethiopic letters and source verse labels are preserved; HTML whitespace is normalized. Page navigation, copyright footer, and any separately parsed apparatus are excluded from verse bodies. This is a structural extraction, not a new translation or independent proofreading.",
+  "editorial_signs_note": "Publisher verse-marker strings and any parsed source notes are retained. No editorial sign is reinterpreted or silently removed from a verse body.",
+  "verification_status": "Structural extraction from the pinned eBible.org AMH2003 / amh capture: this menu entry links to 16 consecutive chapter pages; 411 nonempty verse spans retain their displayed Ethiopic labels; source page hashes are recorded. The standard book-code match to the EOTC list title is reviewed separately; this structural check does not validate translation accuracy, completeness against a printed edition, source language, or exact Church-edition identity.",
+  "source_ids": [
+    "SRC-196",
+    "SRC-197",
+    "SRC-198",
+    "SRC-341",
+    "SRC-342"
+  ],
+  "source_pages": "readers/source/amharic/amh-html-pages.zip; publisher pages index.htm, 1CO.htm, and 16 chapter pages; copyright.htm and copr.htm retained.",
+  "source_snapshot_url": "https://ebible.org/Scriptures/amh_html.zip",
+  "source_snapshot_sha256": "510484e9b6db7844b474ad8bf029c6c11a11b46dc9eeb1afc111659c8ca3d782",
+  "source_extract_sha256": "9242e36204af81cf8b250b90477dc200c32ff191ff62e85fd6f82286bd1b025f",
+  "source_index_hashes": {
+    "index.htm": "3ada4bad891392ff1bb1fb43d849e10cb2a7dcbc446e312bce4d9e8da44801d0",
+    "copyright.htm": "00116dec62afe27147cbecac2acedd017bb859c39fc97c4e7786bbaf10cf6674",
+    "copr.htm": "5845dc40e1f605219b888032566acaf6dfe51028d6602ae75caf7de8f7d23a17"
+  },
+  "source_page_hashes": [
+    {
+      "page": "1CO.htm",
+      "sha256": "c755498bd403424a7f1ffe60a89746c4261c07189fcf41ab1510c6b8850485e3"
+    },
+    {
+      "page": "1CO01.htm",
+      "sha256": "5c2148a510178578f460b07455860819c4b0ded77c491008a7c85fdc7221a475"
+    },
+    {
+      "page": "1CO02.htm",
+      "sha256": "3639bec03516faec3096e71125a56bc702d082aac32769a1aa0b38bb7a1f9293"
+    },
+    {
+      "page": "1CO03.htm",
+      "sha256": "28350de6133a637b53fdc1f13bde4a64200446f5305c9e325e69f179f78e6ed2"
+    },
+    {
+      "page": "1CO04.htm",
+      "sha256": "5e0240db3a2cb30111043ccb3799a693a3e4da8e1e195e6d6fa42f338da00109"
+    },
+    {
+      "page": "1CO05.htm",
+      "sha256": "d1596b4a53d6004a7fcb4c96bf8aeda96c1d21849a3e457d4faa915327dddf19"
+    },
+    {
+      "page": "1CO06.htm",
+      "sha256": "828553ef5d4cb65fb0de79537c5334e17b264066b49b241edd71a5e202cb4667"
+    },
+    {
+      "page": "1CO07.htm",
+      "sha256": "376245cf668fc04a926b6d93d5a60dd734a11dbe072941057b1959eeb5abc09c"
+    },
+    {
+      "page": "1CO08.htm",
+      "sha256": "74a032a9d48ccc7617ae9256e02866283de983595e3bd858d1caf368d6acf618"
+    },
+    {
+      "page": "1CO09.htm",
+      "sha256": "52c71a7995b4c7b803e028ed3310ec819d47a58748213bdbb53919216d2706af"
+    },
+    {
+      "page": "1CO10.htm",
+      "sha256": "83239e15ff85d1d5cb17047b0161796bc8b0d3768c4ceffce904e820a58bb9e9"
+    },
+    {
+      "page": "1CO11.htm",
+      "sha256": "dd1d54a55d1816944f48bcb90d23639bfa77a977822a6a5bdfcdfe4efb16c8c8"
+    },
+    {
+      "page": "1CO12.htm",
+      "sha256": "1510fa8f9dbde1ac700fec169aff139ab52a5ed4ecf0ebd86980e8407d5bd526"
+    },
+    {
+      "page": "1CO13.htm",
+      "sha256": "9892de6ce665ab2e13c154489ef0f3bb64284179311404e3d95ab1860add0d1c"
+    },
+    {
+      "page": "1CO14.htm",
+      "sha256": "cac84de73752f8fb23b40cdcfa3cb1d9f5602170882bb5fcdb50065670718d41"
+    },
+    {
+      "page": "1CO15.htm",
+      "sha256": "2b9221b39dfb230644288769db29535606c2d870e24de2dfa31fe798f32e51f6"
+    },
+    {
+      "page": "1CO16.htm",
+      "sha256": "d14dfee3403a3a377d42cce3a3ddcdd83d4b540264b416f42da5cb5d87888f13"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "source_chapter_label": "፩",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ቆሮንቶስ ሰዎች ፩",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "በእግዚአብሔር ፈቃድ የኢየሱስ ክርስቶስ ሐዋርያ ሊሆን የተጠራ ጳውሎስ ወንድሙም ሶስቴንስ፥",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "በቆሮንቶስ ላለች ለእግዚአብሔር ቤተ ክርስቲያን፥ በክርስቶስ ኢየሱስ ለተቀደሱት፥ የእነርሱና የእኛ ጌታ የሆነውን የጌታችንን የኢየሱስ ክርስቶስን ስም በየስፍራው ከሚጠሩት ሁሉ ጋር ቅዱሳን ለመሆን ለተጠሩት፤",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ከእግዚአብሔር ከአባታችን ከጌታም ከኢየሱስ ክርስቶስ ጸጋና ሰላም ለእናንተ ይሁን።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "በክርስቶስ ኢየሱስ ስላመናችሁ በተሰጣችሁ በእግዚአብሔር ጸጋ ምክንያት ሁልጊዜ ስለ እናንተ አምላክን አመሰግናለሁ፤",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭-፯",
+          "source_element_id": "V5",
+          "text": "እንደዚህ የጌታችንን የኢየሱስ ክርስቶስን መገለጥ ስትጠባበቁ አንድ የጸጋ ስጦታ እንኳ አይጎድልባችሁም፤",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "እርሱም ደግሞ በጌታችን በኢየሱስ ክርስቶስ ቀን ያለ ነቀፋ እንድትሆኑ እስከ ፍጻሜ ድረስ ያጸናችኋል።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ወደ ልጁ ወደ ጌታችን ወደ ኢየሱስ ክርስቶስ ኅብረት የጠራችሁ እግዚአብሔር የታመነ ነው።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ነገር ግን፥ ወንድሞች ሆይ፥ ሁላችሁ አንድ ንግግር እንድትናገሩ በአንድ ልብና በአንድ አሳብም የተባበራችሁ እንድትሆኑ እንጂ መለያየት በመካከላችሁ እንዳይሆን በጌታችን በኢየሱስ ክርስቶስ ስም እለምናችኋለሁ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ወንድሞቼ ሆይ፥ በመካከላችሁ ክርክር እንዳለ ስለ እናንተ የቀሎዔ ቤተ ሰዎች አስታውቀውኛልና።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ይህንም እላለሁ። እያንዳንዳችሁ። እኔ የጳውሎስ ነኝ፥ እኔስ የአጵሎስ ነኝ፥ እኔ ግን የኬፋ ነኝ፥ እኔስ የክርስቶስ ነኝ ትላላችሁ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ክርስቶስ ተከፍሎአልን? ጳውሎስስ ስለ እናንተ ተሰቀለን? ወይስ በጳውሎስ ስም ተጠመቃችሁን?",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፬-፲፮",
+          "source_element_id": "V14",
+          "text": "የእስጢፋኖስንም ቤተ ሰዎች ደግሞ አጥምቄአለሁ፤ ጨምሬ ሌላ አጥምቄ እንደ ሆነ አላውቅም።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ለማጥመቅ ክርስቶስ አልላከኝምና፥ ወንጌልን ልሰብክ እንጂ፤ የክርስቶስ መስቀል ከንቱ እንዳይሆን በቃል ጥበብ አይደለም።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "የመስቀሉ ቃል ለሚጠፉት ሞኝነት፥ ለእኛ ለምንድን ግን የእግዚአብሔር ኃይል ነውና።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "የጥበበኞችን ጥበብ አጠፋለሁ የአስተዋዮችንም ማስተዋል እጥላለሁ ተብሎ ተጽፎአልና።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "ጥበበኛ የት አለ? ጻፊስ የት አለ? የዚች ዓለም መርማሪስ የት አለ? እግዚአብሔር የዚችን ዓለም ጥበብ ሞኝነት እንዲሆን አላደረገምን?",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "በእግዚአብሔር ጥበብ ምክንያት ዓለም እግዚአብሔርን በጥበብዋ ስላላወቀች፥ በስብከት ሞኝነት የሚያምኑትን ሊያድን የእግዚአብሔር በጎ ፈቃድ ሆኖአልና።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "መቼም አይሁድ ምልክትን ይለምናሉ የግሪክ ሰዎችም ጥበብን ይሻሉ፥",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "እኛ ግን የተሰቀለውን ክርስቶስን እንሰብካለን፤ ይህም ለአይሁድ ማሰናከያ ለአሕዛብም ሞኝነት ነው፥",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "ለተጠሩት ግን፥ አይሁድ ቢሆኑ የግሪክ ሰዎችም ቢሆኑ፥ የእግዚአብሔር ኃይልና የእግዚአብሔር ጥበብ የሆነው ክርስቶስ ነው።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "ከሰው ይልቅ የእግዚአብሔር ሞኝነት ይጠበባልና፥ የእግዚአብሔርም ድካም ከሰው ይልቅ ይበረታልና።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "ወንድሞች ሆይ፥ መጠራታችሁን ተመልከቱ፤ እንደ ሰው ጥበብ ጥበበኞች የሆኑ ብዙዎች፥ ኀያላን የሆኑ ብዙዎች፥ ባላባቶች የሆኑ ብዙዎች አልተጠሩም።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "ነገር ግን እግዚአብሔር ጥበበኞችን እንዲያሳፍር የዓለምን ሞኝ ነገር መረጠ፤ ብርቱንም ነገር እንዲያሳፍር እግዚአብሔር የዓለምን ደካማ ነገር መረጠ፤",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "እግዚአብሔርም የሆነውን ነገር እንዲያጠፋ የዓለምን ምናምንቴ ነገር የተናቀውንም ነገር ያልሆነውንም ነገር መረጠ፥",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፱-፴፩",
+          "source_element_id": "V29",
+          "text": "ሥጋን የለበሰ ሁሉ በእግዚአብሔር ፊት እንዳይመካ።",
+          "unit_order": 25
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 2,
+      "source_chapter_label": "፪",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ቆሮንቶስ ሰዎች ፪",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "እኔም፥ ወንድሞች ሆይ፥ ወደ እናንተ በመጣሁ ጊዜ በቃልና በጥበብ ብልጫ ለእግዚአብሔር ምስክርነቴን ለእናንተ እየነገርሁ አልመጣሁም።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "በመካከላችሁ ሳለሁ ከኢየሱስ ክርስቶስ በቀር እርሱም እንደተሰቀለ ሌላ ነገር እንዳላውቅ ቆርጬ ነበርና።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "እኔም በድካምና በፍርሃት በብዙ መንቀጥቀጥም በእናንተ ዘንድ ነበርሁ፤",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬-፮",
+          "source_element_id": "V4",
+          "text": "በበሰሉት መካከል ግን ጥበብን እንናገራለን፥ ነገር ግን የዚችን ዓለም ጥበብ አይደለም የሚሻሩትንም የዚችን ዓለም ገዦች ጥበብ አይደለም፤",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ነገር ግን እግዚአብሔር አስቀድሞ ከዘመናት በፊት ለክብራችን የወሰነውን፥ ተሰውሮም የነበረውን የእግዚአብሔርን ጥበብ በምሥጢር እንናገራለን።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ከዚችም ዓለም ገዦች አንዱ እንኳ ይህን ጥበብ አላወቀም፤ አውቀውስ ቢሆኑ የክብርን ጌታ ባልሰቀሉትም ነበር፤",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ነገር ግን። ዓይን ያላየችው ጆሮም ያልሰማው በሰውም ልብ ያልታሰበው እግዚአብሔር ለሚወዱት ያዘጋጀው ተብሎ እንድተጻፈ፥ እንዲህ እንናገራለን።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "መንፈስም የእግዚአብሔርን ጥልቅ ነገር ስንኳ ሳይቀር ሁሉን ይመረምራልና ለእኛ እግዚአብሔር በመንፈሱ በኩል ገለጠው።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "በእርሱ ውስጥ ካለው ከሰው መንፈስ በቀር ለሰው ያለውን የሚያውቅ ሰው ማን ነው? እንዲሁም ደግሞ ከእግዚአብሔር መንፈስ በቀር ለእግዚአብሔር ያለውን ማንም አያውቅም።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "እኛ ግን ከእግዚአብሔር እንዲያው የተሰጠንን እናውቅ ዘንድ ከእግዚአብሔር የሆነውን መንፈስ እንጂ የዓለምን መንፈስ አልተቀበልንም።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "መንፈሳዊውን ነገር ከመንፈሳዊው ነገር ጋር አስተያይተን መንፈስ በሚያስተምረን ቃል ይህን ደግሞ እንናገራለን እንጂ የሰው ጥበብ በሚያስተምረን ቃል አይደለም።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ለፍጥረታዊ ሰው የእግዚአብሔር መንፈስ ነገር ሞኝነት ነውና አይቀበለውም፤ በመንፈስም የሚመረመር ስለ ሆነ ሊያውቀው አይችልም።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "መንፈሳዊ ሰው ግን ሁሉን ይመረምራል ራሱ ግን በማንም አይመረመርም።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "እንዲያስተምረው የጌታን ልብ ማን አውቆት ነው? እኛ ግን የክርስቶስ ልብ አለን።",
+          "unit_order": 14
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 3,
+      "source_chapter_label": "፫",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ቆሮንቶስ ሰዎች ፫",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "እኔም፥ ወንድሞች ሆይ፥ የሥጋ እንደ መሆናችሁ፥ በክርስቶስም ሕፃናት እንደ መሆናችሁ እንጂ መንፈሳውያን እንደ መሆናችሁ ልናገራችሁ አልቻልሁም።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ገና ጽኑ መብል ለመብላት አትችሉም ነበርና ወተት ጋትኋችሁ፤",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ገና ሥጋውያን ናችሁና እስከ አሁን ድረስ ገና አትችሉም። ቅናትና ክርክር ስለሚገኝባችሁ ሥጋውያን መሆናችሁ አይደላችሁምን? እንደ ሰው ልማድስ አትመላለሱምን?",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "አንዱ። እኔ የጳውሎስ ነኝ፥ ሁለተኛውም። እኔ የአጵሎስ ነኝ ቢል ሰዎች ብቻ መሆናችሁ አይደለምን?",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "አጵሎስ እንግዲህ ምንድር ነው? ጳውሎስስ ምንድር ነው? በእነርሱ እጅ ያመናችሁ አገልጋዮች ናቸው፤ ለእያንዳንዳቸውም ጌታ እንደ ሰጣቸው ያገለግላሉ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "እኔ ተከልሁ አጵሎስም አጠጣ ነገር ግን እግዚአብሔር ያሳድግ ነበር፤",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "እንግዲያስ የሚያሳድግ እግዚአብሔር እንጂ የሚተክል ቢሆን ወይም የሚያጠጣ ቢሆን አንዳች አይደለም።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "የሚተክልና የሚያጠጣ አንድ ናቸው፥ ነገር ግን እያንዳንዱ እንደ ራሱ ድካም መጠን የራሱን ደመወዝ ይቀበላል።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "የእግዚአብሔር እርሻ ናችሁ፤ የእግዚአብሔር ሕንፃ ናችሁ፤ ከእርሱ ጋር አብረን የምንሠራ ነንና።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "የእግዚአብሔር ጸጋ እንደ ተሰጠኝ መጠን እንደ ብልሃተኛ የአናጺ አለቃ መሠረትን መሠረትሁ፥ ሌላውም በላዩ ያንጻል። እያንዳንዱ ግን በእርሱ ላይ እንዴት እንዲያንጽ ይጠንቀቅ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ከተመሠረተው በቀር ማንም ሌላ መሠረት ሊመሠርት አይችልምና፥ እርሱም ኢየሱስ ክርስቶስ ነው።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ማንም ግን በዚህ መሠረት ላይ በወርቅ ቢሆን በብርም በከበረ ድንጋይም በእንጨትም በሣርም ወይም በአገዳ ቢያንጽ፥ የእያንዳንዱ ሥራ ይገለጣል፤",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "በእሳት ስለሚገለጥ ያ ቀን ያሳያልና፥ የእያንዳንዱም ሥራ እንዴት መሆኑን እሳቱ ይፈትነዋል።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ማንም በእርሱ ላይ ያነጸው ሥራ ቢጸናለት ደመወዙን ይቀበላል፤",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "የማንም ሥራ የተቃጠለበት ቢሆን ይጎዳበታል፥ እርሱ ራሱ ግን ይድናል ነገር ግን በእሳት እንደሚድን ይሆናል።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "የእግዚአብሔር ቤተ መቅደስ እንደ ሆናችሁ የእግዚአብሔርም መንፈስ እንዲኖርባችሁ አታውቁምን?",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ማንም የእግዚአብሔርን ቤተ መቅደስ ቢያፈርስ እግዚአብሔር እርሱን ያፈርሰዋል፤ የእግዚአብሔር ቤተ መቅደስ ቅዱስ ነውና፥ ያውም እናንተ ናችሁ።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "ማንም ራሱን አያታልል፤ ከእናንተ ማንም በዚች ዓለም ጥበበኛ የሆነ ቢመስለው ጥበበኛ ይሆን ዘንድ ሞኝ ይሁን።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱-፳፩",
+          "source_element_id": "V19",
+          "text": "ስለዚህም ማንም በሰው አይመካ። ነገር ሁሉ የእናንተ ነውና፤",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ጳውሎስ ቢሆን አጵሎስም ቢሆን ኬፋም ቢሆን ዓለምም ቢሆን ሕይወትም ቢሆን ሞትም ቢሆን ያለውም ቢሆን የሚመጣውም ቢሆን፥",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "ሁሉ የእናንተ ነው፥ እናንተም የክርስቶስ ናችሁ ክርስቶስም የእግዚአብሔር ነው።",
+          "unit_order": 21
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 4,
+      "source_chapter_label": "፬",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ቆሮንቶስ ሰዎች ፬",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "እንዲሁ ሰው እኛን እንደ ክርስቶስ ሎሌዎችና እንደ እግዚአብሔር ምሥጢር መጋቢዎች ይቍጠረን።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "እንደዚህም ሲሆን፥ በመጋቢዎች ዘንድ የታመነ ሆኖ መገኘት ይፈለጋል።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ነገር ግን በእናንተ ዘንድ ወይም በሌላ ሰው ዘንድ ብፈረድ ለእኔ ምንም አይደለም፤ እኔም በራሴ እንኳ አልፈርድም፤",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "በራሴ ላይ ምንም አላውቅምና፥ ነገር ግን በዚህ አልጸድቅም፤ እኔን የሚፈርድ ግን ጌታ ነው።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ስለዚህም በጨለማ የተሰወረውን ደግሞ ወደ ብርሃን የሚያወጣ የልብንም ምክር የሚገልጥ ጌታ እስኪመጣ ድረስ ጊዜው ሳይደርስ አንዳች አትፍረዱ፤ በዚያን ጊዜም ለእያንዳንዱ ምስጋናው ከእግዚአብሔር ዘንድ ይሆናል።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ወንድሞች ሆይ፥ ስለ አንዱ በአንዱ ላይ አንዳችሁም እንዳይታበዩ። ከተጻፈው አትለፍ የሚለውን በእኛ ትማሩ ዘንድ፥ ይህን በእናንተ ምክንያት ስለ ራሴና ስለ አጵሎስ እንደ ምሳሌ ተናገርሁ።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "አንተ እንድትበልጥ ማን አድርጎሃል? ያልተቀበልኸውስ ምን አለህ? የተቀበልህ ከሆንህ ግን እንዳልተቀበልህ የምትመካ ስለ ምንድር ነው?",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "አሁን ጠግባችኋል፤ አሁንስ ባለ ጠጎች ሆናችኋል፤ ያለ እኛ ነግሣችኋል፤ እኛ ደግሞ ከእናንተ ጋር እንድንነግሥ ብትነግሡ መልካም ይሆን ነበር።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ለዓለም ለመላእክትም ለሰዎችም መጫወቻ ሆነናልና፤ እግዚአብሔር እኛን ሐዋርያቱን ሞት እንደ ተፈረደባቸው ሰዎች ከሁሉ ይልቅ የኋለኞች እንዳደረገን ይመስለኛልና።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "እኛ ስለ ክርስቶስ ሞኞች ነን እናንተ ግን በክርስቶስ ልባሞች ናችሁ፤ እኛ ደካሞች ነን እናንተ ግን ኃይለኞች ናችሁ፤ እናንተ የከበራችሁ ናችሁ እኛ ግን የተዋረድን ነን።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "እስከዚህ ሰዓት ድረስ እንራባለን፥ እንጠማለን፥ እንራቆታለን፥ እንጐሰማለን፥ እንንከራተታለን፥",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "በገዛ እጃችን እየሠራን እንደክማለን፤ ሲሰድቡን እንመርቃለን፥ ሲያሳድዱን እንታገሣለን፥ ክፉ ሲናገሩን እንማልዳለን፤",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "እስከ አሁን ድረስ የዓለም ጥራጊ የሁሉም ጉድፍ ሆነናል።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "እንደምወዳችሁ ልጆቼ አድርጌ ልገሥጻችሁ እንጂ ላሳፍራችሁ ይህን አልጽፍም።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "በክርስቶስ አእላፍ ሞግዚቶች ቢኖሩአችሁ ብዙ አባቶች የሉአችሁም እኔ በክርስቶስ ኢየሱስ በወንጌል ወልጄአችኋለሁና።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "እንግዲህ እኔን የምትመስሉ ሁኑ ብዬ እለምናችኋለሁ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ስለዚህ የምወደውንና የታመነውን በጌታ ልጄ የሆነውን ጢሞቴዎስን ልኬላችኋለሁ፥ እኔም በየስፍራው በአብያተ ክርስቲያናት ሁሉ እንደማስተምር በክርስቶስ ኢየሱስ የሚሆነውን መንገዴን እርሱ ያሳስባችኋል።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "አንዳንዱ ግን ወደ እናንተ የማልመጣ እየመሰላቸው የታበዩ አሉ፤",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "ነገር ግን ጌታ ቢፈቅድ ፈጥኜ ወደ እናንተ እመጣለሁ፥ የትዕቢተኞችንም ኃይል አውቃለሁ እንጂ ቃላቸውን አይደለም፤",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "የእግዚአብሔር መንግሥት በኃይል ነው እንጂ በቃል አይደለምና።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "ምን ትወዳላችሁ? በበትር ወይስ በፍቅርና በየውሃት መንፈስ ልምጣባችሁን?",
+          "unit_order": 21
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 5,
+      "source_chapter_label": "፭",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ቆሮንቶስ ሰዎች ፭",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "በአጭር ቃል በእናንተ መካከል ዝሙት እንዳለ ይወራል የዚያም ዓይነት ዝሙት በአሕዛብስ እንኳ የማይገኝ ነው፥ የአባቱን ሚስት ያገባ ሰው ይኖራልና።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "እናንተም ታብያችኋል፤ ይልቅስ እንድታዝኑ አይገባችሁምን? ይህን ሥራ የሠራው ከመካከላችሁ ይወገድ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫-፭",
+          "source_element_id": "V3",
+          "text": "መንፈሱ በጌታ በኢየሱስ ቀን ትድን ዘንድ እንደዚህ ያለው ለሥጋው ጥፋት ለሰይጣን እንዲሰጥ ፍርዴ ነው።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "መመካታችሁ መልካም አይደለም። ጥቂት እርሾ ሊጡን ሁሉ እንዲያቦካ አታውቁምን?",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "እንግዲህ ያለ እርሾ እንዳላችሁ አዲሱን ሊጥ ትሆኑ ዘንድ አሮጌውን እርሾ አስወግዱ። ፋሲካችን ክርስቶስ ታርዶአልና፤",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ስለዚህ በቅንነትና በእውነት ቂጣ በዓልን እናድርግ እንጂ በአሮጌ እርሾ በክፋትና በግፍ እርሾም አይደለም።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ከሴሰኞች ጋር እንዳትተባበሩ በመልእክቴ ጻፍሁላችሁ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "በጠቅላላው የዚህን ዓለም ሴሰኞችን፥ ወይም ገንዘብን የሚመኙትን ነጣቂዎችንም፥ ወይም ጣዖትን የሚያመልኩትን አላልሁም፤ ይህስ ቢሆን ከዓለም ልትወጡ ይገባችሁ ነበር።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "አሁን ግን ወንድሞች ከሚባሉት አንዱ ሴሰኛ ወይም ገንዘብን የሚመኝ ወይም ጣዖትን የሚያመልክ ወይም ተሳዳቢ ወይም ሰካር ወይም ነጣቂ ቢሆን ከእርሱ ጋር እንዳትተባበሩ እጽፍላችኋለሁ፤ እንደነዚህ ካለው ጋር መብል እንኳን አትብሉ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "በውጭ ባሉ ሰዎች ላይ መፍረድ ምን አግዶኝ? በውስጥ ባሉ ሰዎች ላይ እናንተ አትፈርዱምን?",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "በውጭ ባሉቱ ግን እግዚአብሔር ይፈርድባቸዋል። ክፉውን ከመካከላችሁ አውጡት።",
+          "unit_order": 11
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 6,
+      "source_chapter_label": "፮",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ቆሮንቶስ ሰዎች ፮",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ከእናንተ አንዱ ከባልንጀራው ጋር ሙግት ቢኖረው በቅዱሳን ፊት በመፋረድ ፋንታ በዓመፀኞች ፊት ሊፋረድ ይደፍራልን?",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ቅዱሳን በዓለም ላይ እንዲፈርዱ አታውቁምን? በዓለምስ ላይ ብትፈርዱ ከሁሉ ይልቅ ትንሽ ስለሚሆን ነገር ልትፈርዱ አትበቁምን?",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "የትዳር ጉዳይ ይቅርና በመላእክት እንኳ እንድንፈርድ አታውቁምን?",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "እንግዲህ ስለ ትዳር ጉዳይ የፍርድ ቤት ቢያስፈልጋችሁ በቤተ ክርስቲያን የተናቁትን ሰዎች ፈራጆች አድርጋችሁ ታስቀምጣላችሁን?",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "አሳፍራችሁ ዘንድ ይህን እላለሁ። እንደዚህ ነውን? በወንድሞች መካከል ሽማግሌ ሊሆን የሚችል አንድ አስተዋይ ሰው በእናንተ ዘንድ አይገኝምን?",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ነገር ግን ወንድም ወንድሙን ይከሳል፥ ይህም በማያምኑ ፊት ይደረጋልን?",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "እንግዲህ ፈጽሞ የእርስ በርስ ሙግት እንዳለባችሁ በእናንተ ጉድለት ነው። ብትበደሉ አይሻልምን? ብትታለሉስ አይሻልምን?",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ነገር ግን እናንተ ትበድላላችሁ ታታልሉማላችሁ፥ ያውም ወንድሞቻችሁን።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ወይስ ዓመፀኞች የእግዚአብሔርን መንግሥት እንዳይወርሱ አታውቁምን? አትሳቱ፤ ሴሰኞች ቢሆን ወይም ጣዖትን የሚያመልኩ ወይም አመንዝሮች ወይም ቀላጮች ወይም ከወንድ ጋር ዝሙት የሚሠሩ",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ወይም ሌቦች ወይም ገንዘብን የሚመኙ ወይም ሰካሮች ወይም ተሳዳቢዎች ወይም ነጣቂዎች የእግዚአብሔርን መንግሥት አይወርሱም።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ከእናንተም አንዳንዶቹ እንደ እነዚህ ነበራችሁ፤ ነገር ግን በጌታ በኢየሱስ ክርስቶስ ስም በአምላካችንም መንፈስ ታጥባችኋል፥ ተቀድሳችኋል፥ ጸድቃችኋል።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ሁሉ ተፈቅዶልኛል፥ ሁሉ ግን አይጠቅምም። ሁሉ ተፈቅዶልኛል፥ በእኔ ላይ ግን አንድ ነገር እንኳ አይሠለጥንብኝም።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "መብል ለሆድ ነው፥ ሆድም ለመብል ነው፤ እግዚአብሔር ግን ይህንም ያንም ያጠፋቸዋል። ሥጋ ግን ለጌታ ነው እንጂ ለዝሙት አይደለም፤ ጌታም ለሥጋ ነው፤",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "እግዚአብሔርም ጌታንም አስነሣ እኛንም በኃይሉ ያስነሣናል።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "ሥጋችሁ የክርስቶስ ብልቶች እንደ ሆነ አታውቁምን? እንግዲህ የክርስቶስን ብልቶች ወስጄ የጋለሞታ ብልቶች ላድርጋቸውን? አይገባም።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "ወይስ ከጋለሞታ ጋር የሚተባበር አንድ ሥጋ እንዲሆን አታውቁምን? ሁለቱ አንድ ሥጋ ይሆናሉ ተብሎአልና።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ከጌታ ጋር የሚተባበር ግን አንድ መንፈስ ነው።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰-፳",
+          "source_element_id": "V18",
+          "text": "ከዝሙት ሽሹ። ሰው የሚያደርገው ኃጢአት ሁሉ ከሥጋ ውጭ ነው፤ ዝሙትን የሚሠራ ግን በገዛ ሥጋው ላይ ኃጢአትን ይሠራል።",
+          "unit_order": 18
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 7,
+      "source_chapter_label": "፯",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ቆሮንቶስ ሰዎች ፯",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ስለ ጻፋችሁልኝስ ነገር፥ ከሴት ጋር አለመገናኘት ለሰው መልካም ነው።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ነገር ግን ስለ ዝሙት ጠንቅ ለእያንዳንዱ ለራሱ ሚስት ትኑረው ለእያንዳንዲቱ ደግሞ ለራስዋ ባል ይኑራት።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ባል ለሚስቱ የሚገባትን ያድርግላት፥ እንደዚሁም ደግሞ ሚስቲቱ ለባልዋ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "ሚስት በገዛ ሥጋዋ ላይ ሥልጣን የላትም፥ ሥልጣን ለባልዋ ነው እንጂ፤ እንዲሁም ደግሞ ባል በገዛ ሥጋው ላይ ሥልጣን የለውም፥ ሥልጣን ለሚስቱ ነው እንጂ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ለጸሎት ትተጉ ዘንድ ተስማምታችሁ ለጊዜው ካልሆነ በቀር፥ እርስ በርሳችሁ አትከላከሉ፤ ራሳችሁን ስለ አለመግዛት ሰይጣን እንዳይፈታተናችሁ ደግሞ አብራችሁ ሁኑ።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ዳሩ ግን ይህን እንደ ፈቃድ እላለሁ እንጂ እንደ ትእዛዝ አይደለም።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ሰው ሁሉ እንደ እኔ ሊሆን እወዳለሁና፤ ነገር ግን እያንዳንዱ ከእግዚአብሔር ለራሱ የጸጋ ስጦታ አለው፥ አንዱ እንደዚህ ሁለተኛውም እንደዚያ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ላላገቡና ለመበለቶች ግን እላለሁ። እንደ እኔ ቢኖሩ ለእነርሱ መልካም ነው፤",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ነገር ግን በምኞት ከመቃጠል መጋባት ይሻላልና ራሳቸውን መግዛት ባይችሉ ያግቡ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲-፲፪",
+          "source_element_id": "V10",
+          "text": "ሌሎችንም እኔ እላለሁ፥ ጌታም አይደለም፤ ከወንድሞች ወገን ያላመነች ሚስት ያለችው ቢኖር እርስዋም ከእርሱ ጋር ልትቀመጥ ብትስማማ፥ አይተዋት፤",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ያላመነ ባል ያላት ሚስትም ብትኖር ይህ ከእርስዋ ጋር ሊቀመጥ ቢስማማ፥ አትተወው።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ያላመነ ባል በሚስቱ ተቀድሶአልና፥ ያላመነችም ሚስት በባልዋ ተቀድሳለች፤ አለዚያ ልጆቻችሁ ርኵሳን ናቸው፤ አሁን ግን የተቀደሱ ናቸው።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "የማያምን ግን ቢለይ ይለይ፤ ወንድም ቢሆን ወይም እኅት እንዲህ በሚመስል ነገር አይገዙም፤ እግዚአብሔር ግን በሰላም ጠርቶናል።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "አንቺ ሴት፥ ባልሽን ታድኚ እንደ ሆንሽ ምን ታውቂአለሽ? ወይስ አንተ ሰው፥ ሚስትህን ታድን እንደ ሆንህ ምን ታውቃለህ?",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ብቻ ለእያንዳንዱ እግዚአብሔር እንደ ከፈለለት እያንዳንዱም እግዚአብሔር እንደ ጠራው እንዲሁ ይመላለስ። እንዲሁም በአብያተ ክርስቲያናት ሁሉ እደነግጋለሁ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "ማንም ተገርዞ ሳለ ተጠርቶ እንደ ሆነ፥ ወደ አለመገረዝ አይመለስ፤ ማንም ሳይገረዝ ተጠርቶ እንደ ሆነ አይገረዝ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "መገረዝ ቢሆን አለመገረዝም ቢሆን ከንቱ ነው፥ የእግዚአብሔርን ትእዛዝ መጠበቅ ነው እንጂ።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "እያንዳንዱ በተጠራበት መጠራት እንደዚሁ ይኑር።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "ባሪያ ሆነህ ተጠርተህ እንደ ሆነ አይገድህም፤ አርነት ልትወጣ ቢቻልህ ግን አርነትን ተቀበል።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ባሪያ ሆኖ በጌታ የተጠራ የጌታ ነጻ ነውና፤ እንዲሁም ነጻ ሆኖ የተጠራ የክርስቶስ ባሪያ ነው።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "በዋጋ ተገዝታችኋል፤ የሰው ባሪያዎች አትሁኑ።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "ወንድሞች ሆይ፥ እያንዳንዱ በተጠራበት እንደዚሁ ሆኖ በእግዚአብሔር ዘንድ ይኑር።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "ስለ ደናግልም የጌታ ትእዛዝ የለኝም፥ ነገር ግን የታመንሁ እሆን ዘንድ ከጌታ ምሕረትን የተቀበልሁ እንደ መሆኔ ምክር እመክራለሁ።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "እንግዲህ ስለ አሁኑ ችግር ይህ መልካም ይመስለኛል፤ ሰው እንዲህ ሆኖ ቢኖር መልካም ነው።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "በሚስት ታስረህ እንደ ሆንህ መፋታትን አትሻ፤ በሚስት አልታሰርህ እንደ ሆንህ ሚስትን አትሻ።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "ብታገባ ግን ኃጢአት አትሠራም ድንግሊቱም ብታገባ ኃጢአት አትሠራም፤ ነገር ግን እንዲህ በሚያደርጉ በሥጋቸው ላይ መከራ ይሆንባቸዋል፥ እኔም እራራላችሁ ነበር።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "ዳሩ ግን፥ ወንድሞች ሆይ፥ ይህን እናገራለሁ፤ ዘመኑ አጭር ሆኖአል፤ ከእንግዲህ ወዲህ ሚስቶች ያሉአቸው እንደሌላቸው ይሁኑ፥",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "የሚያለቅሱም እንደማያለቅሱ፥ ደስ የሚላቸውም ደስ እንደማይላቸው፥",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፴፩",
+          "source_element_id": "V31",
+          "text": "የሚገዙም ምንም እንደሌላቸው፥ በዚችም ዓለም የሚጠቀሙ በሙሉ እንደማይጠቀሙባት ይሁኑ፤ የዚች ዓለም መልክ አላፊ ነውና።",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴፪",
+          "source_element_id": "V32",
+          "text": "ነገር ግን ያለ አሳብ ልትኖሩ እወዳለሁ። ያላገባው ጌታን እንዴት ደስ እንዲያሰኘው የጌታን ነገር ያስባል፤",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፫",
+          "source_element_id": "V33",
+          "text": "ያገባው ግን ሚስቱን እንዴት ደስ እንዲያሰኛት የዓለምን ነገር ያስባል፥ ልቡም ተከፍሎአል።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "፴፬",
+          "source_element_id": "V34",
+          "text": "ያልተጋባች ሴትና ድንግል በሥጋም በነፍስም እንዲቀደሱ የጌታን ነገር ያስባሉ፤ የተጋባች ግን ባልዋን እንዴት ደስ እንድታሰኘው የዓለምን ነገር ታስባለች።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "፴፭",
+          "source_element_id": "V35",
+          "text": "ይህንም ለራሳችሁ ጥቅም እላለሁ፤ በአገባብ እንድትኖሩ ሳትባክኑም በጌታ እንድትጸኑ ነው እንጂ ላጠምዳችሁ ብዬ አይደለም።",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "፴፮",
+          "source_element_id": "V36",
+          "text": "ዳሩ ግን ማግባት ወደሚገባው ዕድሜ በደረሰ ጊዜ ስለ ድንግልናው ያፈረ ሰው ቢኖር፥ የወደደውን ያድርግ፤ ኃጢአት የለበትም፤ ይጋቡ።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "፴፯",
+          "source_element_id": "V37",
+          "text": "ሳይናወጥ በልቡ የጸና ግን ግድ የለበትም፥ የወደደውን እንዲያደርግ ተፈቅዶለታል፤ ድንግልናውንም በልቡ ይጠብቅ ዘንድ ቢጸና፥ መልካም አደረገ።",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "፴፰",
+          "source_element_id": "V38",
+          "text": "እንዲሁም ድንግልን ያገባ መልካም አደረገ ያላገባም የተሻለ አደረገ።",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "፴፱",
+          "source_element_id": "V39",
+          "text": "ሴት ባልዋ በሕይወት ሳለ የታሰረች ናት፤ ባልዋ ቢሞት ግን በጌታ ይሁን እንጂ የወደደችውን ልታገባ ነጻነት አላት።",
+          "unit_order": 37
+        },
+        {
+          "source_marker": "፵",
+          "source_element_id": "V40",
+          "text": "እንደ ምክሬ ግን እንዳለች ብትኖር ደስተኛ ናት፤ እኔም ደግሞ የእግዚአብሔር መንፈስ በእኔ ያለ ይመስለኛል።",
+          "unit_order": 38
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 8,
+      "source_chapter_label": "፰",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ቆሮንቶስ ሰዎች ፰",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ለጣዖት ስለ ተሠዋ ሥጋም፥ ሁላችን እውቀት እንዳለን እናውቃለን። እውቀት ያስታብያል ፍቅር ግን ያንጻል።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ማንም አንዳች የሚያውቅ ቢመስለው ሊያውቅ እንደሚገባው ገና አላወቀም፤",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ማንም ግን እግዚአብሔርን ቢወድ እርሱ በእርሱ ዘንድ የታወቀ ነው።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "እንግዲህ ለጣዖት የተሠዋውን ሥጋ ስለ መብላት፥ ጣዖት ሁሉ በዓለም ከንቱ እንደ ሆነ ከአንዱም በቀር ማንም አምላክ እንደሌለ እናውቃለን።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "መቼም ብዙ አማልክትና ብዙ ጌቶች አሉ፤ ነገር ግን በሰማይ ሆነ በምድርም ሆነ አማልክት የተባሉ ምንም ቢኖሩ፥",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ለእኛስ ነገር ሁሉ ከእርሱ የሆነ እኛም ለእርሱ የሆንን አንድ አምላክ አብ አለን፥ ነገር ሁሉም በእርሱ በኩል የሆነ እኛም በእርሱ በኩል የሆንን አንድ ጌታ ኢየሱስ ክርስቶስ አለን።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ነገር ግን ይህ እውቀት በሁሉ ዘንድ አይገኝም፤ አንዳንዶች ግን ጣዖትን እስከ አሁን ድረስ ስለ ለመዱ። ለጣዖት የተሠዋ ነው ብለው ይበላሉና ሕሊናቸው ደካማ ስለ ሆነ ይረክሳል።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "መብል ግን ወደ እግዚአብሔር አያቀርበንም፤ ባንበላም ምንም አይጎድለንም ብንበላም ምንም አይተርፈንም።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ዳሩ ግን ይህ መብታችሁ ለደካሞች ዕንቅፋት እንዳይሆንባቸው ተጠንቀቁ።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "አንተ እውቀት ያለህ በጣዖት ቤት በማዕድ ስትቀመጥ አንድ ሰው ቢያይህ፥ ደካማ ሰው ቢሆን ለጣዖት የተሠዋውን ለመብላት ሕሊናው አይታነጽበትምን?",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "በአንተ እውቀትም ይህ ደካማ ይጠፋል፥ እርሱም ክርስቶስ የሞተለት ወንድም ነው።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "እንዲህም ወንድሞችን እየበደላችሁ ደካማም የሆነውን ሕሊናቸውን እያቆሰላችሁ ክርስቶስን ትበድላላችሁ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ስለዚህም መብል ወንድሜን የሚያሰናክለው ከሆነ፥ ወንድሜን እንዳላሰናክለው ለዘላለም ከቶ ሥጋ አልበላም።",
+          "unit_order": 13
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 9,
+      "source_chapter_label": "፱",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ቆሮንቶስ ሰዎች ፱",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "እኔ ነጻ አይደለሁምን? ሐዋርያስ አይደለሁምን? ጌታችንን ኢየሱስ ክርስቶስንስ አላየሁትምን? እናንተስ በጌታ ሥራዬ አይደላችሁምን?",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "የሐዋርያነቴ ማኅተም በጌታ እናንተ ናችሁና ለሌሎች ሐዋርያ ባልሆን ለእናንተስ ምንም ቢሆን ሐዋርያ ነኝ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫-፭",
+          "source_element_id": "V3",
+          "text": "እንደ ሌሎቹ ሐዋርያትና እንደ ጌታ ወንድሞች እንደ ኬፋም፥ እኅት ሚስታችንን ይዘን ልንዞር መብት የለንምን?",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ወይስ ሥራን ለመተው መብት የሌለን እኔና በርናባስ ብቻ ነን?",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ከቶ በገዛ ገንዘቡ በወታደርነት የሚያገለግል ማን ነው? ወይስ ወይን ተክሎ ፍሬውን የማይበላ ማን ነው? ወይስ መንጋ እየጠበቀ ከመንጋው ወተት የማይጠጣ ማን ነው?",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ይህን በሰው ሥልጣን ብቻ እላለሁን?",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ሕግስ ደግሞ ያን አይልምን? የሚያበራየውን በሬ አፉን አትሰር ተብሎ በሙሴ ሕግ ተጽፎአልና። እግዚአብሔርስ ስለ በሬዎች ይገደዋልን?",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ይህን የሚለው ፈጽሞ ስለ እኛ አይደለምን? የሚያርስ በተስፋ ሊያርስ የሚያበራይም እንዲካፈል በተስፋ ሊያበራይ ስለሚገባው በእውነት ስለ እኛ ተጽፎአል።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "እኛ መንፈሳዊን ነገር የዘራንላችሁ ከሆንን የእናንተን የሥጋዊን ነገር እኛ ብናጭድ ትልቅ ነገር ነውን?",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ሌሎች በእናንተ ላይ ይህን መብት የሚካፈሉ ከሆኑ እኛማ ይልቁን እንዴታ? ነገር ግን የክርስቶስን ወንጌል እንዳንከለክል በሁሉ እንታገሣለን እንጂ በዚህ መብት አልተጠቀምንም።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "በመቅደስ ነገር የሚያገለግሉ ከመቅደስ የሆነውን ነገርን እንዲመገቡ፥ በመሠዊያውም የሚጸኑ ከመሠዊያው እንዲካፈሉ አታውቁምን?",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "እንዲሁ ደግሞ ወንጌልን የሚሰብኩ ከወንጌል ቀለብ እንዲቀበሉ ጌታ ደንግጎአል።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "እኔ ግን ከእነዚህ ሁሉ ምንም አልተጠቀምሁም። እንዲህ እንዲሆንልኝ ይህን አልጽፍም፤ ማንም ትምክህቴን ከንቱ ከሚያደርግብኝ ሞት ይሻለኛልና።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "ወንጌልን ብሰብክ እንኳ የምመካበት የለኝም፤ ግድ ደርሶብኝ ነውና፤ ወንጌልንም ባልሰብክ ወዮልኝ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ይህን በፈቃዴ ባደርገው ደመወዝ አለኝና፤ ያለ ፈቃዴ ግን ባደርገው መጋቢነት በአደራ ተሰጥቶኛል።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "እንግዲህ ደመወዜ ምንድር ነው? ወንጌልን እየሰበክሁ በወንጌል ካለኝ መብት በሙሉ እንዳልጠቀም ወንጌልን ያለ ዋጋ ብናገር ነው።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "ከሰው ሁሉ አርነት የወጣሁ ስሆን የሚበልጡትን እንድጠቅም እንደ ባሪያ ራሴን ለሁሉ አስገዛለሁ።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "አይሁድንም እጠቅም ዘንድ ከአይሁድ ጋር እንደ አይሁዳዊ ሆንሁ፤ ከሕግ በታች ያሉትን እጠቅም ዘንድ፥ እኔ ራሴ ከሕግ በታች ሳልሆን፥ ከሕግ በታች ላሉት ከሕግ በታች እንዳለሁ ሆንሁ፤",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "ሕግ የሌላቸውን እጠቅም ዘንድ፥ ያለ እግዚአብሔር ህግ ሳልኖር ነገር ግን በክርስቶስ ሕግ በታች ሳለሁ፥ ሕግ ለሌላቸው ሕግ እንደ ሌለኝ ሆንሁ፤",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ደካሞችን እጠቅም ዘንድ ለደካሞች እንደ ደካማ ሆንሁ፤ በሁሉ መንገድ አንዳንዶችን አድን ዘንድ፥ ከሁሉ ጋር በሁሉ ነገር እንደ እነርሱ ሆንሁ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "በወንጌልም ማኅበረተኛ እሆን ዘንድ ስለ ወንጌል ሁሉን አደርጋለሁ።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "በእሽቅድምድም ስፍራ የሚሮጡት፥ ሁሉ እንዲሮጡ ነገር ግን አንዱ ብቻ ዋጋውን እንዲቀበል አታውቁምን? እንዲሁም ታገኙ ዘንድ ሩጡ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "የሚታገልም ሁሉ በነገር ሁሉ ሰውነቱን ይገዛል፤ እነዚያም የሚጠፋውን አክሊል ሊያገኙ ነው፥ እኛ ግን የማይጠፋውን።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "ስለዚህ እኔ ያለ አሳብ እንደሚሮጥ ሁሉ እንዲሁ አልሮጥም፥ ነፋስን እንደሚጎስም ሁሉ እንዲሁ አልጋደልም፤",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "ነገር ግን ለሌሎች ከሰበክሁ በኋላ ራሴ የተጣልሁ እንዳልሆን ሥጋዬን እየጎሰምሁ አስገዛዋለሁ።",
+          "unit_order": 25
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 10,
+      "source_chapter_label": "፲",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ቆሮንቶስ ሰዎች ፲",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ወንድሞች ሆይ፥ ይህን ታውቁ ዘንድ እወዳለሁ። አባቶቻችን ሁሉ ከደመና በታች ነበሩ ሁሉም በባሕር መካከል ተሻገሩ፤",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ሁሉም ሙሴን ይተባበሩ ዘንድ በደመናና በባሕር ተጠመቁ፤",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ሁሉም ያን መንፈሳዊ መብል በሉ ሁሉም ያን መንፈሳዊ መጠጥ ጠጡ፤",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "ይከተላቸው ከነበረው ከመንፈሳዊ ዓለት ጠጥተዋልና፥ ያም ዓለት ክርስቶስ ነበረ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "እግዚአብሔር ግን ከእነርሱ በሚበዙት ደስ አላለውም፥ በምድረ በዳ ወድቀዋልና።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "እነዚህም ክፉ ነገር እንደ ተመኙ እኛ ደግሞ እንዳንመኝ ይህ ምሳሌ ሆነልን።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ሕዝብም ሊበሉ ሊጠጡም ተቀመጡ ሊዘፍኑም ተነሡ ተብሎ እንደ ተጻፈ ከእነርሱ አንዳንዶቹ እንዳደረጉት ጣዖትን የምታመልኩ አትሁኑ።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ከእነርሱም አንዳንዶቹ እንደ ሴሰኑ በአንድ ቀንም ሁለት እልፍ ከሦስት ሺህ እንደ ወደቁ አንሴስን።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ከእነርሱም አንዳንዶቹ ጌታን እንደ ተፈታተኑት በእባቦቹም እንደ ጠፉ ጌታን አንፈታተን።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ከእነርሱም አንዳንዶቹ እንዳንጎራጎሩ በሚያጠፋውም እንደ ጠፉ አታንጐርጕሩ።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ይህም ሁሉ እንደ ምሳሌ ሆነባቸው፥ እኛንም የዘመናት መጨረሻ የደረሰብንን ሊገሥጸን ተጻፈ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ስለዚህ እንደ ቆመ የሚመስለው እንዳይወድቅ ይጠንቀቅ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ለሰው ሁሉ ከሚሆነው በቀር ምንም ፈተና አልደረሰባችሁም፤ ነገር ግን ከሚቻላችሁ መጠን ይልቅ ትፈተኑ ዘንድ የማይፈቅድ እግዚአብሔር የታመነ ነው፥ ትታገሡም ዘንድ እንድትችሉ ከፈተናው ጋር መውጫውን ደግሞ ያደርግላችኋል።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ስለዚህ፥ ወዳጆቼ ሆይ፥ ጣዖትን ከማምለክ ሽሹ።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "ልባሞች እንደ መሆናችሁ እላለሁ፤ በምለው ነገር እናንተ ፍረዱ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "የምንባርከው የበረከት ጽዋ ከክርስቶስ ደም ጋር ኅብረት ያለው አይደለምን? የምንቆርሰውስ እንጀራ ከክርስቶስ ሥጋ ጋር ኅብረት ያለው አይደለምን?",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "አንድ እንጀራ ስለ ሆነ፥ እኛ ብዙዎች ስንሆን አንድ ሥጋ ነን፤ ሁላችን ያን አንዱን እንጀራ እንካፈላለንና።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "በሥጋ የሆነውን እስራኤል ተመልከቱ፤ መሥዋዕቱን የሚበሉ የመሠዊያው ማኅበረተኞች አይደሉምን?",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "እንግዲህ ምን እላለሁ? ለጣዖት የተሠዋ ምናምን ነው እላለሁን? ወይስ ጣዖት ምናምን እንዲሆን እላለሁን?",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "አይደለም፤ ነገር ግን አሕዛብ የሚሠዉት ለአጋንንት እንዲሆን እንጂ ለእግዚአብሔር እንዳይሠዉ እላለሁ፤ ከአጋንንትም ጋር ማኅበረተኞች እንድትሆኑ አልወድም።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "የጌታን ጽዋና የአጋንንትን ጽዋ ልትጠጡ አትችሉም፤ ከጌታ ማዕድና ከአጋንንት ማዕድ ልትካፈሉ አትችሉም።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ወይስ ጌታን እናስቀናውን? እኛስ ከእርሱ ይልቅ እንበረታለንን?",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "ሁሉ ተፈቅዶልኛል፥ ሁሉ ግን የሚጠቅም አይደለም፤ ሁሉ ተፈቅዶልኛል፥ ነገር ግን ሁሉ የሚያንጽ አይደለም።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "እያንዳንዱ የባልንጀራውን ጥቅም እንጂ አንድ ስንኳ የራሱን ጥቅም አይፈልግ።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "በሥጋ ገበያ የሚሸጠውን ሁሉ ከሕሊና የተነሣ ሳትመራመሩ ብሉ፤",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "ምድርና በእርስዋ የሞላባት ሁሉ የጌታ ነውና።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "ከማያምኑ ሰዎች አንዱም ቢጠራችሁ ልትሄዱም ብትወዱ ከሕሊና የተነሣ ሳትመራመሩ የሚያቀርቡላችሁን ሁሉ ብሉ።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "ማንም ግን። ይህ ለጣዖት የተሠዋ ነው ቢላችሁ ከዚያ ካስታወቃችሁና ከሕሊና የተነሣ አትብሉ፤",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "ስለ ባልንጀራህ ሕሊና እንጂ ስለ ገዛ ሕሊናህ አልናገርም። አርነቴ በሌላ ሰው ሕሊና የሚፈርድ Avረ ስለ ምንድር ነው?",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "እኔም በጸጋ ብበላ፥ በነገሩ ስለማመሰግንበት ስለ ምን እሰደባለሁ?",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፩-፴፫",
+          "source_element_id": "V31",
+          "text": "እንግዲህ የምትበሉ ወይም የምትጠጡ ብትሆኑ ወይም ማናቸውን ነገር ብታደርጉ ሁሉን ለእግዚአብሔር ክብር አድርጉት።",
+          "unit_order": 31
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 11,
+      "source_chapter_label": "፲፩",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ቆሮንቶስ ሰዎች ፲፩",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "እኔ ክርስቶስን እንደምመስል እኔን ምሰሉ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ወንድሞች ሆይ፥ በሁሉ ስለምታስቡኝና አሳልፌ እንደ ሰጠኋችሁ ወግን ፈጽማችሁ ስለ ያዛችሁ አመሰግናችኋለሁ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ነገር ግን የወንድ ሁሉ ራስ ክርስቶስ፥ የሴትም ራስ ወንድ፥ የክርስቶስም ራስ እግዚአብሔር እንደ ሆነ ልታውቁ እወዳለሁ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "ራሱን ተከናንቦ የሚጸልይ ወይም ትንቢት የሚናገር ወንድ ሁሉ ራሱን ያዋርዳል።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ራስዋን ሳትሸፍን ግን የምትጸልይ ወይም ትንቢት የምትናገር ሴት ሁሉ ራስዋን ታዋርዳለች፤ እንደ ተላጨች ያህል አንድ ነውና።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ሴትም ራስዋን ባትሸፍን ጠጉርዋን ደግሞ ትቆረጥ፤ ለሴት ግን ጠጉርዋን መቆረጥ ወይም መላጨት የሚያሳፍር ከሆነ ራስዋን ትሸፍን።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ወንድ የእግዚአብሔር ምሳሌና ክብር ስለ ሆነ ራሱን መከናነብ አይገባውም፤ ሴት ግን የወንድ ክብር ናት።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ሴት ከወንድ ናት እንጂ ወንድ ከሴት አይደለምና።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ሴት ስለ ወንድ ተፈጠረች እንጂ ወንድ ስለ ሴት አልተፈጠረምና።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ስለዚህ ሴት ከመላእክት የተነሣ በራስዋ ሥልጣን ሊኖራት ይገባል።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ነገር ግን በጌታ ዘንድ ሴት ያለ ወንድ ወንድም ያለ ሴት አይሆንም።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ሴት ከወንድ እንደ ሆነች እንዲሁ ወንድ ደግሞ በሴት ነውና፤ ሁሉም ከእግዚአብሔር ነው።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "በእናንተ በራሳችሁ መካከል ፍረዱ፤ ሴት ራስዋን ሳትሸፍን ወደ እግዚአብሔር ልትጸልይ ይገባታልን?",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬-፲፮",
+          "source_element_id": "V14",
+          "text": "ዳሩ ግን ማንም ሊከራከር ቢፈቅድ፥ እኛ ወይም የእግዚአብሔር አብያተ ክርስቲያናት እንዲህ ያለ ልማድ የለንም።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ነገር ግን በምትሰበሰቡበት ጊዜ ለሚከፋ እንጂ ለሚሻል ስላልሆነ ይህን ትእዛዝ ስሰጥ የማመሰግናችሁ አይደለም።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "በመጀመሪያ ወደ ማኅበር ስትሰበሰቡ በመካከላችሁ መለያየት እንዳለ እሰማለሁና፥ በአንድ በኩልም አምናለሁ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "በእናንተ ዘንድ የተፈተኑት እንዲገለጡ በመካከላችሁ ወገኖች ደግሞ ሊሆኑ ግድ ነውና።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "እንግዲህ አብራችሁ ስትሰበሰቡ የምትበሉት የጌታ እራት አይደለም፤",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "በመብላት ጊዜ እያንዳንዱ የራሱን እራት ይበላልና፥ አንዱም ይራባል አንዱ ግን ይሰክራል።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "የምትበሉባቸውና የምትጠጡባቸው ቤቶች የላችሁምን? ወይስ የእግዚአብሔርን ማኅበር ትንቃላችሁን አንዳችም የሌላቸውን ታሳፍራላችሁን? ምን ልበላችሁ? በዚህ ነገር ላመስግናችሁን? አላመሰግናችሁም።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "ለእናንተ ደግሞ አሳልፌ የሰጠሁትን እኔ ከጌታ ተቀብያለሁና፤",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "ጌታ ኢየሱስ አልፎ በተሰጠበት በዚያች ሌሊት እንጀራን አንሥቶ አመሰገነ፥ ቆርሶም። እንካችሁ ብሉ፤ ይህ ስለ እናንተ የሚሆን ሥጋዬ ነው፤ ይህን ለመታሰቢያዬ አድርጉት አለ።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "እንደዚሁም ከእራት በኋላ ጽዋውን ደግሞ አንሥቶ። ይህ ጽዋ በደሜ የሚሆን አዲስ ኪዳን ነው፤ በጠጣችሁት ጊዜ ሁሉ ይህን ለመታሰቢያዬ አድርጉት አለ።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "ይህን እንጀራ በበላችሁ ጊዜ ሁሉ፥ ይህንም ጽዋ በጠጣችሁ ጊዜ ሁሉ ጌታ እስኪመጣ ድረስ ሞቱን ትናገራላችሁና።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "ስለዚህ ሳይገባው ይህን እንጀራ የበላ ወይም የጌታን ጽዋ የጠጣ ሁሉ የጌታ ሥጋና ደም ዕዳ አለበት።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "ሰው ግን ራሱን ይፈትን፥ እንዲሁም ከእንጀራው ይብላ ከጽዋውም ይጠጣ፤",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "ሳይገባው የሚበላና የሚጠጣ የጌታን ሥጋ ስለማይለይ ለራሱ ፍርድ ይበላልና፥ ይጠጣልምና።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "ስለዚህ በእናንተ ዘንድ የደከሙና የታመሙ ብዙዎች አሉ አያሌዎችም አንቀላፍተዋል።",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፴፩",
+          "source_element_id": "V31",
+          "text": "ራሳችንን ብንመረምር ግን ባልተፈረደብንም ነበር፤",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴፪",
+          "source_element_id": "V32",
+          "text": "ነገር ግን በተፈረደብን ጊዜ ከዓለም ጋር እንዳንኮነን በጌታ እንገሠጻለን።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፫",
+          "source_element_id": "V33",
+          "text": "ስለዚህ፥ ወንድሞቼ ሆይ፥ ለመብላት በተሰበሰባችሁ ጊዜ እርስ በርሳችሁ ተጠባበቁ።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "፴፬",
+          "source_element_id": "V34",
+          "text": "ማንም የራበው ቢኖር ለፍርድ እንዳትሰበሰቡ በቤቱ ይብላ። የቀረውንም ነገር በመጣሁ ጊዜ እደነግጋለሁ።",
+          "unit_order": 32
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 12,
+      "source_chapter_label": "፲፪",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ቆሮንቶስ ሰዎች ፲፪",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ስለ መንፈሳዊ ነገርም፥ ወንድሞች ሆይ፥ ታውቁ ዘንድ እወዳለሁ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "አሕዛብ ሳላችሁ በማናቸውም ጊዜ እንደምትመሩ ድምፅ ወደሌላቸው ወደ ጣዖታት እንደ ተወሰዳችሁ ታውቃላችሁ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ስለዚህ ማንም በእግዚአብሔር መንፈስ ሲናገር። ኢየሱስ የተረገመ ነው የሚል እንደሌለ፥ በመንፈስ ቅዱስም ካልሆነ በቀር። ኢየሱስ ጌታ ነው ሊል አንድ እንኳ እንዳይችል አስታውቃችኋለሁ።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "የጸጋም ስጦታ ልዩ ልዩ ነው መንፈስ ግን አንድ ነው፤",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "አገልግሎትም ልዩ ልዩ ነው ጌታም አንድ ነው፤",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "አሠራርም ልዩ ልዩ ነው፥ ሁሉን በሁሉ የሚያደርግ እግዚአብሔር ግን አንድ ነው።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ነገር ግን መንፈስ ቅዱስን መግለጥ ለእያንዳንዱ ለጥቅም ይሰጠዋል።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ለአንዱ ጥበብን መናገር በመንፈስ ይሰጠዋልና፥ ለአንዱም በዚያው መንፈስ እውቀትን መናገር ይሰጠዋል፥",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ለአንዱም በዚያው መንፈስ እምነት፥ ለአንዱም በአንዱ መንፈስ የመፈወስ ስጦታ፥ ለአንዱም ተአምራትን ማድረግ፥",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ለአንዱም ትንቢትን መናገር፥ ለአንዱም መናፍስትን መለየት፥ ለአንዱም በልዩ ዓይነት ልሳን መናገር፥ ለአንዱም በልሳኖች የተነገረውን መተርጎም ይሰጠዋል፤",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ይህን ሁሉ ግን ያ አንዱ መንፈስ እንደሚፈቅድ ለእያንዳንዱ ለብቻው እያካፈለ ያደርጋል።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "አካልም አንድ እንደ ሆነ ብዙም ብልቶች እንዳሉበት ነገር ግን የአካል ብልቶች ሁሉ ብዙዎች ሳሉ አንድ አካል እንደ ሆኑ፥ ክርስቶስ ደግሞ እንዲሁ ነው፤",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "አይሁድ ብንሆን የግሪክ ሰዎችም ብንሆን ባሪያዎችም ብንሆን ጨዋዎችም ብንሆን እኛ ሁላችን በአንድ መንፈስ አንድ አካል እንድንሆን ተጠምቀናልና። ሁላችንም አንዱን መንፈስ ጠጥተናል።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "አካል ብዙ ብልቶች እንጂ አንድ ብልት አይደለምና።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "እግር። እኔ እጅ አይደለሁምና የአካል ክፍል አይደለሁም ብትል፥ ይህን በማለትዋ የአካል ክፍል መሆንዋ ይቀራልን?",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "ጆሮም። እኔ ዓይን አይደለሁምና የአካል ክፍል አይደለሁም ቢል፥ ይህን በማለቱ የአካል ክፍል መሆኑ ይቀራልን?",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "አካል ሁሉ ዓይን ቢሆን መስማት ወዴት በተገኘ? ሁሉም መስማት ቢሆን ማሽተት ወዴት በተገኘ?",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "አሁን ግን እግዚአብሔር እንደ ወደደ ብልቶችን እያንዳንዳቸው በአካል አድርጎአል።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "ሁሉም አንድ ብልት ቢሆንስ አካል ወዴት በሆነ?",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "ዳሩ ግን አሁን ብልቶች ብዙዎች ናቸው አካል ግን አንድ ነው።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "ዓይን እጅን። አታስፈልገኝም ልትለው አትችልም፥ ወይም ራስ ደግሞ እግሮችን። አታስፈልጉኝም ሊላቸው አይችልም።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ነገር ግን ደካሞች የሚመስሉ የአካል ብልቶች ይልቁን የሚያስፈልጉ ናቸው፤",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "ከአካልም ብልቶች ያልከበሩ ሆነው የሚመስሉን በሚበዛ ክብር እናለብሳቸዋለን፥ በምናፍርባቸውም ብልቶቻችን ክብር ይጨመርላቸዋል፤",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፬-፳፮",
+          "source_element_id": "V24",
+          "text": "አንድም ብልት ቢሣቀይ ብልቶች ሁሉ ከእርሱ ጋር ይሣቀያሉ፤ አንድ ብልትም ቢከበር ብልቶች ሁሉ ከእርሱ ጋር ደስ ይላቸዋል።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "እናንተም የክርስቶስ አካል ናችሁ እያንዳንዳችሁም ብልቶች ናችሁ።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "እግዚአብሔርም በቤተ ክርስቲያን አንዳንዶቹን አስቀድሞ ሐዋርያትን፥ ሁለተኛም ነቢያትን፥ ሦስተኛም አስተማሪዎችን፥ ቀጥሎም ተአምራት ማድረግን፥ ቀጥሎም የመፈወስን ስጦታ፥ እርዳታንም፥ አገዛዝንም፥ የልዩ ልዩ ዓይነት ልሳኖችንም አድርጎአል።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "ሁሉ ሐዋርያት ናቸውን? ሁሉስ ነቢያት ናቸውን? ሁሉስ አስተማሪዎች ናቸውን? ሁሉስ ተአምራትን ይሠራሉን?",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "ሁሉስ የመፈወስ ስጦታ አላቸውን? ሁሉስ በልሳኖች ይናገራሉን? ሁሉስ ይተረጉማሉን?",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፴፩",
+          "source_element_id": "V31",
+          "text": "ነገር ግን የሚበልጠውን የጸጋ ስጦታ በብርቱ ፈልጉ። ደግሞም ከሁሉ የሚበልጥ መንገድ አሳያችኋለሁ።",
+          "unit_order": 29
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 13,
+      "source_chapter_label": "፲፫",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ቆሮንቶስ ሰዎች ፲፫",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "በሰዎችና በመላእክት ልሳን ብናገር ፍቅር ግን ከሌለኝ እንደሚጮኽ ናስ ወይም እንደሚንሽዋሽዋ ጸናጽል ሆኜአለሁ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "ትንቢትም ቢኖረኝ ምሥጢርንም ሁሉና እውቀትን ሁሉ ባውቅ፥ ተራሮችንም እስካፈልስ ድረስ እምነት ሁሉ ቢኖረኝ ፍቅር ግን ከሌለኝ ከንቱ ነኝ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ድሆችንም ልመግብ ያለኝን ሁሉ ባካፍል፥ ሥጋዬንም ለእሳት መቃጠል አሳልፌ ብሰጥ ፍቅር ግን ከሌለኝ ምንም አይጠቅመኝም።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "ፍቅር ይታገሣል፥ ቸርነትንም ያደርጋል፤ ፍቅር አይቀናም፤ ፍቅር አይመካም፥ አይታበይም፤",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "የማይገባውን አያደርግም፥ የራሱንም አይፈልግም፥ አይበሳጭም፥ በደልን አይቆጥርም፤",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ከእውነት ጋር ደስ ይለዋል እንጂ ስለ ዓመፃ ደስ አይለውም፤",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ሁሉን ይታገሣል፥ ሁሉን ያምናል፥ ሁሉን ተስፋ ያደርጋል፥ በሁሉ ይጸናል።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ፍቅር ለዘወትር አይወድቅም፤ ትንቢት ቢሆን ግን ይሻራል፤ ልሳኖች ቢሆኑ ይቀራሉ፤ እውቀትም ቢሆን ይሻራል።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ከእውቀት ከፍለን እናውቃለንና፥ ከትንቢትም ከፍለን እንናገራለንና፤",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ፍጹም የሆነ ሲመጣ ግን ተከፍሎ የነበረው ይሻራል።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ልጅ ሳለሁ እንደ ልጅ እናገር ነበር፥ እንደ ልጅም አስብ ነበር፥ እንደ ልጅም እቈጥር ነበር፤ ጎልማሳ ሆኜ ግን የልጅነትን ጠባይ ሽሬአለሁ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ዛሬስ በመስተዋት በድንግዝግዝ እንደምናይ ነን በዚያን ጊዜ ግን ፊት ለፊት እናያለን፤ ዛሬስ ከእውቀት ከፍዬ አውቃለሁ በዚያን ጊዜ ግን እኔ ደግሞ እንደ ታወቅሁ አውቃለሁ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "እንዲህም ከሆነ፥ እምነት ተስፋ ፍቅር እነዚህ ሦስቱ ጸንተው ይኖራሉ፤ ከእነዚህም የሚበልጠው ፍቅር ነው።",
+          "unit_order": 13
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 14,
+      "source_chapter_label": "፲፬",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ቆሮንቶስ ሰዎች ፲፬",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ፍቅርን ተከታተሉ፥ መንፈሳዊ ስጦታንም ይልቁንም ትንቢት መናገርን በብርቱ ፈልጉ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "በልሳን የሚናገርስ ለእግዚአብሔር እንጂ ለሰው አይናገርም፤ የሚያስተውለው የለምና፥ በመንፈስ ግን ምሥጢርን ይናገራል፤",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ትንቢትን የሚናገር ግን ለማነጽና ለመምከር ለማጽናናትም ለሰው ይናገራል።",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "በልሳን የሚናገር ራሱን ያንጻል፤ ትንቢትን የሚናገር ግን ማኅበሩን ያንጻል።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ሁላችሁ በልሳኖች ልትናገሩ እወድ ነበር፥ ትንቢትን ልትናገሩ ግን ከዚህ ይልቅ እወዳለሁ፤ ማኅበሩ ይታነጽ ዘንድ ንግግሩን ባይተረጐም በልሳኖች ከሚናገር ትንቢትን የሚናገር ይበልጣል።",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "አሁን ግን፥ ወንድሞች ሆይ፥ ወደ እናንተ መጥቼ በልሳኖች ብናገር፥ በመግለጥ ወይም በእውቀት ወይም በትንቢት ወይም በትምህርት ካልነገርኋችሁ ምን እጠቅማችኋለሁ?",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ነፍስ የሌለበት ነገር እንኳ ዋሽንትም ክራርም ቢሆን ድምፅ ሲሰጥ የድምፁን ልዩነት ባይገልጥ በዋሽንት የሚነፋው ወይስ በክራር የሚመታው መዝሙር እንዴት ይታወቃል?",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ደግሞም መለከት የማይገለጥን ድምፅ ቢሰጥ ለጦርነት ማን ይዘጋጃል?",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "እንዲሁ እናንተ ደግሞ የተገለጠውን ቃል በአንደበት ባትናገሩ ሰዎች የምትናገሩትን እንዴት አድርገው ያስተውሉታል? ለነፋስ የምትናገሩ ትሆናላችሁና።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "በዓለም ምናልባት ቁጥር የሌለው የቋንቋ ዓይነት ይኖራል ቋንቋም የሌለው ሕዝብ የለም፤",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "እንግዲህ የቋንቋውን ፍች ባላውቅ ለሚናገረው እንግዳ እሆናለሁ፥ የሚናገረውም ለእኔ እንግዳ ይሆናል።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "እንዲሁ ደግሞ እናንተ መንፈሳዊ ስጦታን በብርቱ የምትፈልጉ ከሆናችሁ ቤተ ክርስቲያንን ለማነጽ እንዲበዛላችሁ ፈልጉ።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ስለዚህ በልሳን የሚናገር እንዲተረጉም ይጸልይ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "በልሳን ብጸልይ መንፈሴ ይጸልያል አእምሮዬ ግን ያለ ፍሬ ነው።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "እንግዲህ ምንድር ነው? በመንፈስ እጸልያለሁ በአእምሮም ደግሞ እጸልያለሁ፤ በመንፈስ እዘምራለሁ በአእምሮም ደግሞ እዘምራለሁ።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "እንዲያማ ካልሆነ፥ አንተ በመንፈስ ብትባርክ ባልተማሩት ስፍራ የተቀመጠው የምትለውን ካላወቀ እንዴት አድርጎ ለምስጋናህ አሜን ይላል?",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "አንተማ መልካም ታመሰግናለህ፥ ሌላው ግን አይታነጽበትም።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "ከሁላችሁ ይልቅ በልሳኖች እናገራለሁና እግዚአብሔርን አመሰግናለሁ፤",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "ነገር ግን ሌሎችን ደግሞ አስተምር ዘንድ በማኅበር እልፍ ቃላት በልሳን ከመናገር ይልቅ አምስት ቃላት በአእምሮዬ ልናገር እወዳለሁ።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "ወንድሞች ሆይ፥ በአእምሮ ሕፃናት አትሁኑ፤ ለክፋት ነገር ሕፃናት ሁኑ እንጂ በአእምሮ የበሰሉ ሁኑ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "ሌሎችን ልሳኖች በሚናገሩ ሰዎችና በሌላ አንደበት ለዚህ ሕዝብ እነግራቸዋለሁ፥ እንዲህም ቢሆን አይሰሙኝም ይላል ጌታ ተብሎ በሕግ ተጽፎአል።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "እንግዲያስ በልሳኖች መናገር ለማያምኑ ምልክት ነው እንጂ ለሚያምኑ አይደለም፥ ትንቢት ግን ለሚያምኑ እንጂ ለማያምኑ አይደለም።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "እንግዲህ ማኅበር ሁሉ አብረው ቢሰበሰቡ ሁሉም በልሳኖች ቢናገሩና ያልተማሩ ወይም የማያምኑ ሰዎች ቢገቡ። አብደዋል አይሉምን?",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "ሁሉ ትንቢት ቢናገሩ ግን የማያምን ወይም ያልተማረ ሰው ቢገባ በሁሉ ይወቀሳል፥ በሁሉም ይመረመራል፤",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "በልቡም የተሰወረ ይገለጣል እንዲሁም። እግዚአብሔር በእውነት በመካከላቸው ነው ብሎ እየተናገረ በፊቱ ወድቆ ለእግዚአብሔር ይሰግዳል።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "እንግዲህ፥ ወንድሞች ሆይ፥ ምንድር ነው? በምትሰበሰቡበት ጊዜ ለእያንዳንዱ መዝሙር አለው፥ ትምህርት አለው፥ መግለጥ አለው፥ በልሳን መናገር አለው፥ መተርጐም አለው፤ ሁሉ ለማነጽ ይሁን።",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "በልሳን የሚናገር ቢኖር ሁለት ወይም ቢበዛ ሦስት ሆነው በተራቸው ይናገሩ አንዱም ይተርጉም፤",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "የሚተረጉም ባይኖር ግን በማኅበር መካከል ዝም ይበልና ለራሱና ለእግዚአብሔር ይናገር።",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "ነቢያትም ሁለት ወይም ሦስት ሆነው ይናገሩ ሌሎችም ይለዩአቸው፤",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "በዚያ ለሚቀመጥ ለሌላ ግን አንድ ነገር ቢገለጥለት ፊተኛው ዝም ይበል።",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፩",
+          "source_element_id": "V31",
+          "text": "ሁሉም እንዲማሩ ሁሉም እንዲመከሩ ሁላችሁ በእያንዳንዳችሁ ትንቢት ልትናገሩ ትችላላችሁ።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "፴፪",
+          "source_element_id": "V32",
+          "text": "የነቢያትም መናፍስት ለነቢያት ይገዛሉ፤",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "፴፫",
+          "source_element_id": "V33",
+          "text": "እግዚአብሔርስ የሰላም አምላክ ነው እንጂ የሁከት አምላክ አይደለምና፤ በቅዱሳንም አብያተ ክርስቲያናት ሁሉ እንዲህ ነው።",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "፴፬",
+          "source_element_id": "V34",
+          "text": "ሴቶች በማኅበር ዝም ይበሉ፤ ሕግ ደግሞ እንደሚል እንዲገዙ እንጂ እንዲናገሩ አልተፈቀደላቸውምና።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "፴፭",
+          "source_element_id": "V35",
+          "text": "ለሴት በማኅበር መካከል መናገር ነውር ነውና፥ ምንም ሊማሩ ቢወዱ በቤታቸው ባሎቻቸውን ይጠይቁ።",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "፴፮",
+          "source_element_id": "V36",
+          "text": "ምን ነው? የእግዚአብሔር ቃል የወጣ ከእናንተ ነውን? ወይስ ወደ እናንተ ብቻ ደርሶአልን?",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "፴፯",
+          "source_element_id": "V37",
+          "text": "ማንም ነቢይ ወይም መንፈሳዊ የሆነ ቢመስለው ይህች የጻፍሁላችሁ የጌታ ትእዛዝ እንደ ሆነች ይወቅ፤",
+          "unit_order": 37
+        },
+        {
+          "source_marker": "፴፰",
+          "source_element_id": "V38",
+          "text": "ማንም የማያውቅ ቢኖር ግን አይወቅ።",
+          "unit_order": 38
+        },
+        {
+          "source_marker": "፴፱",
+          "source_element_id": "V39",
+          "text": "ስለዚህ፥ ወንድሞች ሆይ፥ ትንቢት ለመናገር በብርቱ ፈልጉ፥ በልሳኖች ከመናገርም አትከልክሉ፤",
+          "unit_order": 39
+        },
+        {
+          "source_marker": "፵",
+          "source_element_id": "V40",
+          "text": "ነገር ግን ሁሉ በአገባብና በሥርዓት ይሁን።",
+          "unit_order": 40
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 15,
+      "source_chapter_label": "፲፭",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ቆሮንቶስ ሰዎች ፲፭",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ወንድሞች ሆይ፥ የሰበክሁላችሁን ደግሞም የተቀበላችሁትን በእርሱም ደግሞ የቆማችሁበትን በእርሱም ደግሞ የምትድኑበትን ወንጌል አሳስባችኋለሁ፤",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "በከንቱ ካላመናችሁ በቀር፥ ብታስቡት፥ በምን ቃል እንደ ሰበክሁላችሁ አሳስባችኋለሁ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "እኔ ደግሞ የተቀበልሁትን ከሁሉ በፊት አሳልፌ ሰጠኋችሁ እንዲህ ብዬ። መጽሐፍ እንደሚል ክርስቶስ ስለ ኃጢአታችን ሞተ፥ ተቀበረም፥",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "መጽሐፍም እንደሚል በሦስተኛው ቀን ተነሣ፥",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "ለኬፋም ታየ በኋላም ለአሥራ ሁለቱ፤",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "ከዚያም በኋላ ከአምስት መቶ ለሚበዙ ወንድሞች በአንድ ጊዜ ታየ፤ ከእነርሱም የሚበዙቱ እስከ አሁን አሉ አንዳንዶች ግን አንቀላፍተዋል፤",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "ከዚያም በኋላ ለያዕቆብ ኋላም ለሐዋርያት ሁሉ ታየ፤",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "ከሁሉም በኋላ እንደ ጭንጋፍ ለምሆን ለእኔ ደግሞ ታየኝ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "እኔ ከሐዋርያት ሁሉ የማንስ ነኝና፥ የእግዚአብሔርን ቤተ ክርስቲያን ስላሳደድሁ ሐዋርያ ተብዬ ልጠራ የማይገባኝ፤",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ነገር ግን በእግዚአብሔር ጸጋ የሆንሁ እኔ ነኝ፤ ለእኔም የተሰጠኝ ጸጋው ከንቱ አልነበረም ከሁላቸው ይልቅ ግን ደከምሁ፥ ዳሩ ግን ከእኔ ጋር ያለው የእግዚአብሔር ጸጋ ነው እንጂ እኔ አይደለሁም።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "እንግዲህስ እኔ ብሆን እነርሱም ቢሆኑ እንዲሁ እንሰብካለን እንዲሁም አመናችሁ።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ክርስቶስ ከሙታን እንደ ተነሣ የሚሰበክ ከሆነ ግን ከእናንተ አንዳንዶቹ። ትንሣኤ ሙታን የለም እንዴት ይላሉ?",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ትንሣኤ ሙታንስ ከሌለ ክርስቶስ አልተነሣማ፤",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "ክርስቶስም ካልተነሣ እንግዲያስ ስብከታችን ከንቱ ነው እምነታችሁም ደግሞ ከንቱ ናት፤",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "ደግሞም። ክርስቶስን አስነሥቶታል ብለን በእግዚአብሔር ላይ ስለ መሰከርን ሐሰተኞች የእግዚአብሔር ምስክሮች ሆነን ተገኝተናል፤ ሙታን ግን የማይነሡ ከሆነ እርሱን አላስነሣውም።",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "ሙታን የማይነሡ ከሆነ ክርስቶስ አልተነሣማ፤",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "ክርስቶስም ካልተነሣ እምነታችሁ ከንቱ ናት፤ እስከ አሁን ድረስ በኃጢአታችሁ አላችሁ።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "እንግዲያስ በክርስቶስ ያንቀላፉት ደግሞ ጠፍተዋላ።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "በዚች ሕይወት ብቻ ክርስቶስን ተስፋ ያደረግን ከሆነ፥ ከሰው ሁሉ ይልቅ ምስኪኖች ነን።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "አሁን ግን ክርስቶስ ላንቀላፉት በኩራት ሆኖ ከሙታን ተነሥቶአል።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "ሞት በሰው በኩል ስለ መጣ ትንሣኤ ሙታን በሰው በኩል ሆኖአልና።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ሁሉ በአዳም እንደሚሞቱ እንዲሁ ሁሉ በክርስቶስ ደግሞ ሕያዋን ይሆናሉና።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "ነገር ግን እያንዳንዱ በራሱ ተራ ይሆናል፤ ክርስቶስ እንደ በኩራት ነው፥ በኋላም በመምጣቱ ለክርስቶስ የሆኑት ናቸው፤",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "በኋላም፥ መንግሥቱን ለእግዚአብሔር ለአባቱ አሳልፎ በሰጠ ጊዜ አለቅነትንም ሁሉና ሥልጣንን ሁሉ ኃይልንም በሻረ ጊዜ፥ ፍጻሜ ይሆናል።",
+          "unit_order": 24
+        },
+        {
+          "source_marker": "፳፭",
+          "source_element_id": "V25",
+          "text": "ጠላቶቹን ሁሉ ከእግሩ በታች እስኪያደርግ ድረስ ሊነግሥ ይገባዋልና።",
+          "unit_order": 25
+        },
+        {
+          "source_marker": "፳፮",
+          "source_element_id": "V26",
+          "text": "የኋለኛው ጠላት የሚሻረው ሞት ነው፤",
+          "unit_order": 26
+        },
+        {
+          "source_marker": "፳፯",
+          "source_element_id": "V27",
+          "text": "ሁሉን ከእግሩ በታች አስገዝቶአልና። ነገር ግን። ሁሉ ተገዝቶአል ሲል፥ ሁሉን ካስገዛለት በቀር መሆኑ ግልጥ ነው።",
+          "unit_order": 27
+        },
+        {
+          "source_marker": "፳፰",
+          "source_element_id": "V28",
+          "text": "ሁሉ ከተገዛለት በኋላ ግን እግዚአብሔር ሁሉ በሁሉ ይሆን ዘንድ በዚያን ጊዜ ልጁ ራሱ ደግሞ ሁሉን ላስገዛለት ይገዛል።",
+          "unit_order": 28
+        },
+        {
+          "source_marker": "፳፱",
+          "source_element_id": "V29",
+          "text": "እንዲያማ ካልሆነ፥ ስለ ሙታን የሚጠመቁ ምን ያደርጋሉ? ሙታንስ ከቶ የማይነሡ ከሆነ፥ ስለ እነርሱ የሚጠመቁ ስለ ምንድር ነው?",
+          "unit_order": 29
+        },
+        {
+          "source_marker": "፴",
+          "source_element_id": "V30",
+          "text": "እኛስ ዘወትር በሚያስፈራ ኑሮ የምንኖር ስለ ምንድር ነው?",
+          "unit_order": 30
+        },
+        {
+          "source_marker": "፴፩",
+          "source_element_id": "V31",
+          "text": "በጌታችን በክርስቶስ ኢየሱስ ባለኝ በእናንተ ትምክህት እየማልሁ፥ ወንድሞች ሆይ፥ ዕለት ዕለት እሞታለሁ።",
+          "unit_order": 31
+        },
+        {
+          "source_marker": "፴፪",
+          "source_element_id": "V32",
+          "text": "እንደ ሰው በኤፌሶን ከአውሬ ጋር ከታገልሁ፥ ሙታንስ የማይነሡ ከሆነ፥ ምን ይጠቅመኛል? ነገ እንሞታለንና እንብላና እንጠጣ።",
+          "unit_order": 32
+        },
+        {
+          "source_marker": "፴፫",
+          "source_element_id": "V33",
+          "text": "አትሳቱ፤ ክፉ ባልንጀርነት መልካሙን አመል ያጠፋል።",
+          "unit_order": 33
+        },
+        {
+          "source_marker": "፴፬",
+          "source_element_id": "V34",
+          "text": "በጽድቅ ንቁ ኃጢአትንም አትሥሩ፤ እግዚአብሔርን የማያውቁ አሉና፤ አሳፍራችሁ ዘንድ ይህን እላለሁ።",
+          "unit_order": 34
+        },
+        {
+          "source_marker": "፴፭",
+          "source_element_id": "V35",
+          "text": "ነገር ግን ሰው። ሙታን እንዴት ይነሣሉ? በምንስ ዓይነት አካል ይመጣሉ? የሚል ይኖር ይሆናል።",
+          "unit_order": 35
+        },
+        {
+          "source_marker": "፴፮",
+          "source_element_id": "V36",
+          "text": "አንተ ሞኝ፥ አንተ የምትዘራው ካልሞተ ሕያው አይሆንም፤",
+          "unit_order": 36
+        },
+        {
+          "source_marker": "፴፯",
+          "source_element_id": "V37",
+          "text": "የምትዘራውም፥ ስንዴ ቢሆን ከሌላም ዓይነት የአንዱ ቢሆን፥ ቅንጣት ብቻ ነው እንጂ የምትዘራው የሚሆነውን አካል አይደለም፤",
+          "unit_order": 37
+        },
+        {
+          "source_marker": "፴፰",
+          "source_element_id": "V38",
+          "text": "እግዚአብሔር ግን እንደ ወደደ አካልን ይሰጠዋል ከዘሮችም ለእያንዳንዱ የገዛ አካሉን ይሰጠዋል።",
+          "unit_order": 38
+        },
+        {
+          "source_marker": "፴፱",
+          "source_element_id": "V39",
+          "text": "ሥጋ ሁሉ አንድ አይደለም፥ የሰው ሥጋ ግን አንድ ነው፥ የእንስሳም ሥጋ ሌላ ነው፥ የወፎችም ሥጋ ሌላ ነው፥ የዓሣም ሥጋ ሌላ ነው።",
+          "unit_order": 39
+        },
+        {
+          "source_marker": "፵",
+          "source_element_id": "V40",
+          "text": "ደግሞ ሰማያዊ አካል አለ፥ ምድራዊም አካል አለ፤ ነገር ግን የሰማያዊ አካል ክብር ልዩ ነው፥ የምድራዊም አካል ክብር ልዩ ነው።",
+          "unit_order": 40
+        },
+        {
+          "source_marker": "፵፩",
+          "source_element_id": "V41",
+          "text": "የፀሐይ ክብር አንድ ነው የጨረቃም ክብር ሌላ ነው የከዋክብትም ክብር ሌላ ነው፤ በክብር አንዱ ኮከብ ከሌላው ኮከብ ይለያልና።",
+          "unit_order": 41
+        },
+        {
+          "source_marker": "፵፪",
+          "source_element_id": "V42",
+          "text": "የሙታን ትንሣኤ ደግሞ እንዲሁ ነው። በመበስበስ ይዘራል፥ ባለመበስበስ ይነሣል፤",
+          "unit_order": 42
+        },
+        {
+          "source_marker": "፵፫",
+          "source_element_id": "V43",
+          "text": "በውርደት ይዘራል፥ በክብር ይነሣል፤ በድካም ይዘራል፥ በኃይል ይነሣል፤",
+          "unit_order": 43
+        },
+        {
+          "source_marker": "፵፬",
+          "source_element_id": "V44",
+          "text": "ፍጥረታዊ አካል ይዘራል፥ መንፈሳዊ አካል ይነሣል። ፍጥረታዊ አካል ካለ መንፈሳዊ አካል ደግሞ አለ።",
+          "unit_order": 44
+        },
+        {
+          "source_marker": "፵፭",
+          "source_element_id": "V45",
+          "text": "እንዲሁ ደግሞ። ፊተኛው ሰው አዳም ሕያው ነፍስ ሆነ ተብሎ ተጽፎአል፤ ኋለኛው አዳም ሕይወትን የሚሰጥ መንፈስ ሆነ።",
+          "unit_order": 45
+        },
+        {
+          "source_marker": "፵፮",
+          "source_element_id": "V46",
+          "text": "ነገር ግን አስቀድሞ ፍጥረታዊው ቀጥሎም መንፈሳዊው ነው እንጂ መንፈሳዊው መጀመሪያ አይደለም።",
+          "unit_order": 46
+        },
+        {
+          "source_marker": "፵፯",
+          "source_element_id": "V47",
+          "text": "የፊተኛው ሰው ከመሬት መሬታዊ ነው፤ ሁለተኛው ሰው ከሰማይ ነው።",
+          "unit_order": 47
+        },
+        {
+          "source_marker": "፵፰",
+          "source_element_id": "V48",
+          "text": "መሬታዊው እንደ ሆነ መሬታውያን የሆኑት ደግሞ እንዲሁ ናቸው፥ ሰማያዊው እንደ ሆነ ሰማያውያን የሆኑት ደግሞ እንዲሁ ናቸው።",
+          "unit_order": 48
+        },
+        {
+          "source_marker": "፵፱",
+          "source_element_id": "V49",
+          "text": "የዚያንም የመሬታዊውን መልክ እንደ ለበስን የሰማያዊውን መልክ ደግሞ እንለብሳለን።",
+          "unit_order": 49
+        },
+        {
+          "source_marker": "፶",
+          "source_element_id": "V50",
+          "text": "ነገር ግን፥ ወንድሞች ሆይ፥ ይህን እላለሁ። ሥጋና ደም የእግዚአብሔርን መንግሥት ሊወርሱ አይችሉም፥ የሚበሰብሰውም የማይበሰብሰውን አይወርስም።",
+          "unit_order": 50
+        },
+        {
+          "source_marker": "፶፩-፶፫",
+          "source_element_id": "V51",
+          "text": "ይህ የሚበሰብሰው የማይበሰብሰውን ሊለብስ ይህም የሚሞተው የማይሞተውን ሊለብስ ይገባዋልና።",
+          "unit_order": 51
+        },
+        {
+          "source_marker": "፶፬",
+          "source_element_id": "V54",
+          "text": "ዳሩ ግን ይህ የሚበሰብሰው የማይበሰብሰውን ሲለብስ ይህም የሚሞተው የማይሞተውን ሲለብስ፥ በዚያን ጊዜ። ሞት ድል በመነሣት ተዋጠ ተብሎ የተጻፈው ቃል ይፈጸማል።",
+          "unit_order": 52
+        },
+        {
+          "source_marker": "፶፭",
+          "source_element_id": "V55",
+          "text": "ሞት ሆይ፥ መውጊያህ የት አለ? ሲኦል ሆይ፥ ድል መንሣትህ የት አለ?",
+          "unit_order": 53
+        },
+        {
+          "source_marker": "፶፮",
+          "source_element_id": "V56",
+          "text": "የሞት መውጊያ ኃጢአት ነው የኃጢአትም ኃይል ሕግ ነው፤",
+          "unit_order": 54
+        },
+        {
+          "source_marker": "፶፯",
+          "source_element_id": "V57",
+          "text": "ነገር ግን በጌታችን በኢየሱስ ክርስቶስ በኩል ድል መንሣትን ለሚሰጠን ለእግዚአብሔር ምስጋና ይሁን።",
+          "unit_order": 55
+        },
+        {
+          "source_marker": "፶፰",
+          "source_element_id": "V58",
+          "text": "ስለዚህ፥ የተወደዳችሁ ወንድሞቼ ሆይ፥ ድካማችሁ በጌታ ከንቱ እንዳይሆን አውቃችኋልና የምትደላደሉ፥ የማትነቃነቁም፥ የጌታም ሥራ ሁልጊዜ የሚበዛላችሁ ሁኑ።",
+          "unit_order": 56
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 16,
+      "source_chapter_label": "፲፮",
+      "source_page_title": "መጽሐፍ ቅዱስ 1ኛ ወደ ቆሮንቶስ ሰዎች ፲፮",
+      "heading": [],
+      "units": [
+        {
+          "source_marker": "፩",
+          "source_element_id": "V1",
+          "text": "ለቅዱሳንም ገንዘብን ስለ ማዋጣት፥ ለገላትያ አብያተ ክርስቲያናት እንደ ደነገግሁት እናንተ ደግሞ እንዲሁ አድርጉ።",
+          "unit_order": 1
+        },
+        {
+          "source_marker": "፪",
+          "source_element_id": "V2",
+          "text": "እኔ ስመጣ ይህ የገንዘብ ማዋጣት ያን ጊዜ እንዳይሆን፥ ከእናንተ እያንዳንዱ በየሳምንቱ በፊተኛው ቀን እንደ ቀናው መጠን እያስቀረ በቤቱ ያስቀምጥ።",
+          "unit_order": 2
+        },
+        {
+          "source_marker": "፫",
+          "source_element_id": "V3",
+          "text": "ስመጣም ማናቸውም ቢሆኑ የታመኑ የሚመስሉአችሁ ሰዎች ቸርነታችሁን ወደ ኢየሩሳሌም ያደርሱ ዘንድ ደብዳቤ ሰጥቼ እልካቸዋለሁ፤",
+          "unit_order": 3
+        },
+        {
+          "source_marker": "፬",
+          "source_element_id": "V4",
+          "text": "እኔ ደግሞ ልሄድ የሚገባኝ ብሆን ከእኔ ጋር አብረው ይሄዳሉ።",
+          "unit_order": 4
+        },
+        {
+          "source_marker": "፭",
+          "source_element_id": "V5",
+          "text": "በመቄዶንያም ሳልፍ ወደ እናንተ እመጣለሁ፤ በመቄዶንያ አድርጌ አልፋለሁና፤",
+          "unit_order": 5
+        },
+        {
+          "source_marker": "፮",
+          "source_element_id": "V6",
+          "text": "እናንተም ወደምሄድበት ወደ ማናቸውም ስፍራ በጉዞዬ እንድትረዱኝ ምናልባት በእናንተ ዘንድ እቆይ ወይም እከርም ይሆናል።",
+          "unit_order": 6
+        },
+        {
+          "source_marker": "፯",
+          "source_element_id": "V7",
+          "text": "አሁን እግረ መንገዴን ሳልፍ ልጎበኛችሁ አልወድምና፤ ጌታ ቢፈቅደው የሆነውን ዘመን በእናንተ ዘንድ ልሰነብት ተስፋ አደርጋለሁና።",
+          "unit_order": 7
+        },
+        {
+          "source_marker": "፰",
+          "source_element_id": "V8",
+          "text": "በኤፌሶን ግን እስከ በዓለ ኀምሳ ድረስ እሰነብታለሁ።",
+          "unit_order": 8
+        },
+        {
+          "source_marker": "፱",
+          "source_element_id": "V9",
+          "text": "ሥራ የሞላበት ትልቅ በር ተከፍቶልኛልና ተቃዋሚዎችም ብዙ ናቸው።",
+          "unit_order": 9
+        },
+        {
+          "source_marker": "፲",
+          "source_element_id": "V10",
+          "text": "ጢሞቴዎስም የመጣ እንደ ሆነ በእናንተ ዘንድ ያለ ፍርሃት እንዲኖር ተጠንቀቁ፤ እንደ እኔ ደግሞ የጌታን ሥራ ይሠራልና፤ እንግዲህ ማንም አይናቀው።",
+          "unit_order": 10
+        },
+        {
+          "source_marker": "፲፩",
+          "source_element_id": "V11",
+          "text": "ነገር ግን ከወንድሞቹ ጋር እጠብቀዋለሁና ወደ እኔ ይመጣ ዘንድ በሰላም በጉዞው እርዱት።",
+          "unit_order": 11
+        },
+        {
+          "source_marker": "፲፪",
+          "source_element_id": "V12",
+          "text": "ስለ ወንድማችን ስለ አጵሎስ ግን ከወንድሞቹ ጋር ወደ እናንተ ሊሄድ እጅግ አድርጌ ለምኜው ነበር፤ ዛሬም ለመምጣት ከቶ ፈቃድ አልነበረውም፥ ሲመቸው ግን ይመጣል።",
+          "unit_order": 12
+        },
+        {
+          "source_marker": "፲፫",
+          "source_element_id": "V13",
+          "text": "ንቁ፥ በሃይማኖት ቁሙ፥ ጎልምሱ ጠንክሩ።",
+          "unit_order": 13
+        },
+        {
+          "source_marker": "፲፬",
+          "source_element_id": "V14",
+          "text": "በእናንተ ዘንድ ሁሉ በፍቅር ይሁን።",
+          "unit_order": 14
+        },
+        {
+          "source_marker": "፲፭",
+          "source_element_id": "V15",
+          "text": "ወንድሞች ሆይ፥ የእስጢፋኖስ ቤተ ሰዎች የአካይያ በኩራት እንደ ሆኑ ቅዱሳንንም ለማገልገል ራሳቸውን እንደ ሰጡ ታውቃላችሁ፤",
+          "unit_order": 15
+        },
+        {
+          "source_marker": "፲፮",
+          "source_element_id": "V16",
+          "text": "እንደ እነርሱ ላሉትና አብሮ ለሚሠራ ለሚደክምም ሁሉ እናንተም እንድትገዙ እለምናችኋለሁ።",
+          "unit_order": 16
+        },
+        {
+          "source_marker": "፲፯",
+          "source_element_id": "V17",
+          "text": "በእስጢፋኖስና በፈርዶናጥስ በአካይቆስም መምጣት ደስ ይለኛል፥ እናንተ ስለሌላችሁ የጎደለኝን ፈጽመዋልና፤ መንፈሴንና መንፈሳችሁን አሳርፈዋልና።",
+          "unit_order": 17
+        },
+        {
+          "source_marker": "፲፰",
+          "source_element_id": "V18",
+          "text": "እንግዲህ እንደነዚህ ያሉትን እወቁአቸው።",
+          "unit_order": 18
+        },
+        {
+          "source_marker": "፲፱",
+          "source_element_id": "V19",
+          "text": "የእስያ አብያተ ክርስቲያናት ሰላምታ ያቀርቡላችኋል። አቂላና ጵርስቅላ በቤታቸው ካለች ቤተ ክርስቲያን ጋር በጌታ እጅግ ሰላምታ ያቀርቡላችኋል።",
+          "unit_order": 19
+        },
+        {
+          "source_marker": "፳",
+          "source_element_id": "V20",
+          "text": "ወንድሞች ሁሉ ሰላምታ ያቀርቡላችኋል። በተቀደሰ አሳሳም እርስ በርሳችሁ ሰላምታ ተሰጣጡ።",
+          "unit_order": 20
+        },
+        {
+          "source_marker": "፳፩",
+          "source_element_id": "V21",
+          "text": "እኔ ጳውሎስ ይህን ሰላምታ በገዛ እጄ ጽፌአለሁ።",
+          "unit_order": 21
+        },
+        {
+          "source_marker": "፳፪",
+          "source_element_id": "V22",
+          "text": "ጌታን ኢየሱስ ክርስቶስን የማይወድ ቢኖር የተረገመ ይሁን። ጌታችን ሆይ፥ ና።",
+          "unit_order": 22
+        },
+        {
+          "source_marker": "፳፫",
+          "source_element_id": "V23",
+          "text": "የጌታ የኢየሱስ ክርስቶስ ጸጋ ከእናንተ ጋር ይሁን።",
+          "unit_order": 23
+        },
+        {
+          "source_marker": "፳፬",
+          "source_element_id": "V24",
+          "text": "ፍቅሬ በክርስቶስ ኢየሱስ ከሁላችሁ ጋር ነው። አሜን።",
+          "unit_order": 24
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "rights_status": "Reuse of this bundled reader is limited to the stated permission; no open or broader license is inferred. Item-specific notice: Copyright © 1962, 2003 United Bible Societies. Language: አማርኛ (Amharic). Amharic NT. Revised Amharic Bible in XML (2003). Printed version by United Bible Societies (© 1962). E-text in transliterated ASCII format by Lapsley/Brooks Foundation (1994). Unicode UTF-8 transformation and XML-tagging by Dirk Röckmann (2003; www.nt-text.net). With kind permission of the Bible Society of Ethiopia. Every non-commercial work using this data in any form must fully include this copyright statement. Every commercial use of parts or the complete data in any form needs written permission of the Bible Society of Ethiopia. Copyright page dated 2014-09-09. Commercial-use and other-use boundary: The source page permits use in non-commercial works only when the complete copyright statement is included with every such work. Commercial use of any part or all of the data requires written permission from the Bible Society of Ethiopia. This is permission-limited reuse, not an open license or a general public-domain claim."
+}

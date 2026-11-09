@@ -1,0 +1,2278 @@
+{
+  "reader_id": "som-1979-2008-1co-research",
+  "research_corpus_id": "somsim-1979-2008-1co",
+  "canon_id": null,
+  "title": "1 Corinthians — Kitaabka Quduuska Ah (Somali, SIM 2008)",
+  "display_name": "1 Corinthians · Somali · SIM 2008",
+  "text_origin": "published_translation",
+  "translation_id": "somsim-1979-2008",
+  "language": "Somali, language of Somalia (edition description)",
+  "language_tag": "so",
+  "language_assignment_status": "eBible.org identifies Somali (language code som); the archive maps it to BCP 47 so. No dialect or community review is asserted.",
+  "script_code": "Latn",
+  "translator": "SIM International",
+  "contributor": "Society for International Ministries -- Kenya",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The inspected edition page does not state its source language or any relay path.",
+  "edition": "Kitaabka Quduuska Ah; The Holy Bible in the Somali language of Somalia, Adan Jim'ale Version; copyright © 1979, 2008; publisher code SOMSIM / som.",
+  "edition_scope": "One of 66 conventional USFM modules in the retained publisher package. The English book name is a navigation aid. No Ethiopian or Eritrean Orthodox canon crosswalk is assigned.",
+  "rights_classification": "permission_limited",
+  "license_id": "CC-BY-NC-ND-3.0-and-4.0 (both notices appear in source)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "copyright_notice": "Copyright © 1979, 2008 Society for International Ministries -- Kenya. Translation by SIM International. Source edition: The Holy Bible in the Somali language of Somalia, Adan Jim'ale Version (eBible.org code SOMSIM / som). The provider's archived notice states CC BY-NC-ND 3.0 and also links CC BY-NC-ND 4.0; the version discrepancy is retained. The notice permits file-format porting only if the Bible's wording and punctuation are unchanged, and prohibits commercial use and text adaptations. This archive converted USFM structure to reader JSON without intentionally changing scripture words or punctuation and retains the original USFM ZIP verbatim. This is a format port under the provider's stated terms, not a translation or editorial adaptation; no textual proofread is claimed.",
+  "commercial_use": "The provider's terms prohibit selling the work for profit. The 3.0/4.0 version discrepancy is retained; do not infer permissions beyond the source's express format-porting allowance.",
+  "unit_label": "Publisher USFM chapter/verse labels observed",
+  "unit_count": 437,
+  "verse_marker_count": 437,
+  "chapter_count": 16,
+  "section_label": "Chapter",
+  "chapter_structure_note": "The parser found 16 consecutive chapter divisions and 437 distinct chapter/verse labels. Publisher labels, native book headings, front matter, section headings, paragraph structure, and footnotes are retained; these counts do not prove completeness against print or wording accuracy.",
+  "chapter_structure_status": "source_package_parsed_with_limits",
+  "source_numbered_unit_count": 437,
+  "source_unnumbered_unit_count": 6,
+  "source_pages": "readers/source/som/som_usfm.zip::52-1COsom.usfm",
+  "source_package_sha256": "9ac3b1e08d708cd2e98d4095dc74031839f183bbc149ecf0f9b200b36ff606d1",
+  "source_snapshot_sha256": "1926724247a5d8c12ff52546402ecd4fd62c0143d67685bcc5feeec6d51609c7",
+  "source_ids": [
+    "SRC-390",
+    "SRC-391",
+    "SRC-392"
+  ],
+  "rights_status": "Copyright © 1979, 2008 Society for International Ministries -- Kenya. Translation by SIM International. Source edition: The Holy Bible in the Somali language of Somalia, Adan Jim'ale Version (eBible.org code SOMSIM / som). The provider's archived notice states CC BY-NC-ND 3.0 and also links CC BY-NC-ND 4.0; the version discrepancy is retained. The notice permits file-format porting only if the Bible's wording and punctuation are unchanged, and prohibits commercial use and text adaptations. This archive converted USFM structure to reader JSON without intentionally changing scripture words or punctuation and retains the original USFM ZIP verbatim. This is a format port under the provider's stated terms, not a translation or editorial adaptation; no textual proofread is claimed.",
+  "verification_status": "The 70-entry ZIP passed CRC. GnuPG verified the clear-signed SHA-256 list; the signer fingerprint 54D714D76956DA6673DC1EEA5F62009D93505F26 matches the key maintainer's public fingerprint list, subject to identity/custody and legacy DSA-1024/SHA-1 limitations. All 66 USFM member hashes match. Chapter sequences and duplicate chapter/verse labels were checked. An automated exact comparison matched all 437 labeled source verse lines to this reader's verse text after stripping USFM formatting and separating note/figure markup; whitespace was normalized. This is not human proofreading, a print collation, a completeness review, or translation validation.",
+  "transcription_note": "Format conversion from the retained publisher USFM to reader JSON. The source notice expressly allows file-format porting if scripture words and punctuation do not change. The original USFM is preserved verbatim; the rendered layer removes USFM controls and normalizes whitespace only. No text adaptation or translation is made.",
+  "editorial_signs_note": "Native book headings and title markers, verse labels, section headings, paragraphs, poetry markers, notes, and available front matter are represented in structured form. Source USFM remains available to inspect the original markup. Images are not included because their terms differ.",
+  "front_matter": [],
+  "source_book_metadata": [
+    {
+      "marker": "h",
+      "text": "1 KORINTOS"
+    },
+    {
+      "marker": "mt2",
+      "text": "WARQADDII KOWAAD"
+    },
+    {
+      "marker": "mt2",
+      "text": "EE RASUUL BAWLOS"
+    },
+    {
+      "marker": "mt2",
+      "text": "U QORAY DADKII"
+    },
+    {
+      "marker": "mt1",
+      "text": "KORINTOS"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Bawlos oo loogu yeedhay inuu doonistii Ilaah ku ahaado rasuulkii Ciise Masiix, iyo walaalkeen Soostenees,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "waxaannu warqaddan u qoraynaa kiniisadda Ilaah ee Korintos ku taal, kuwa quduus lagaga dhigay Ciise Masiix ee loogu yeedhay quduusiin, iyo kuwa meel kasta jooga oo ku barya magaca Rabbigeenna Ciise Masiix oo ah Rabbigooda iyo keennaba."
+        },
+        {
+          "number": "3",
+          "text": "Nimco ha idinla jirto iyo nabad ka timaada Ilaaha Aabbeheen ah iyo Rabbi Ciise Masiix."
+        },
+        {
+          "number": "4",
+          "text": "Mar kasta Ilaahay ayaan idiinku mahadnaqaa, nimcadii Ilaah ee Ciise Masiix laydinku siiyey aawadeed.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Maxaa yeelay, wax walba hodan buu idinkaga dhigay, ha ahaato hadal walba iyo aqoon walbaba,"
+        },
+        {
+          "number": "6",
+          "text": "sida laydiinku adkeeyey maraggii Masiixa loo furay;"
+        },
+        {
+          "number": "7",
+          "text": "si aan hadiyadiinna idiinka dhinmin intaad sugaysaan muujinta Rabbigeenna Ciise Masiix;"
+        },
+        {
+          "number": "8",
+          "text": "kan haddana idinku adkayn doona ilaa dhammaadka, inaad eedla'aataan maalinta Rabbigeenna Ciise Masiix."
+        },
+        {
+          "number": "9",
+          "text": "Ilaah waa aamin, kan xaggiisa laydiinku yeedhay xidhiidhka Wiilkiisa Ciise Masiix ee Rabbigeenna ah."
+        },
+        {
+          "number": "10",
+          "text": "Walaalayaalow, waxaan magaca Rabbigeenna Ciise Masiix idinkaga baryayaa inaad dhammaantiin isku wax ku wada hadashaan, iyo inaydnaan kala qaybsamin, laakiin inaad ku dhammaataan isku maan iyo isku talo.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Dadka Kiniisaddu Way Kala Qaybsameen"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Walaalahayow, dadkii Khalo'ee ayaa iiga kiin warramay in ilaaqi idin dhex taal."
+        },
+        {
+          "number": "12",
+          "text": "Tan waxaan ula jeedaa midkiin inuu leeyahay, Waxaan ka mid ahay kuwa Bawlos; mid kalena, Kuwa Abolloos; mid kalena, Kuwa Keeyfas; mid kalena, Kuwa Masiix."
+        },
+        {
+          "number": "13",
+          "text": "Masiixu miyuu qaybsamaa? Bawlos miyaa iskutallaabta laydiinku qodbay? Ama ma waxaa laydinku baabtiisay magaca Bawlos?"
+        },
+        {
+          "number": "14",
+          "text": "Waxaan Ilaah ugu mahadnaqayaa inaanan midkiinna baabtiisin, Kirisbos iyo Gayus maahee"
+        },
+        {
+          "number": "15",
+          "text": "inaanu ninna odhan, Waxaa laydinku baabtiisay Bawlos magiciisa."
+        },
+        {
+          "number": "16",
+          "text": "Waxaan kaloo baabtiisay kuwii guriga Istefanas joogay. Weliba garan maayo inaan qaar kale baabtiisay iyo in kale."
+        },
+        {
+          "number": "17",
+          "text": "Waayo, Masiixu iima uu soo dirin inaan dad baabtiiso, laakiin wuxuu ii soo diray inaan dadka injiilka ku wacdiyo, ee ma aha inaan ku hadlo xigmadda hadalka, waaba intaasoo iskutallaabta Masiixa la caaqibo tiraaye."
+        },
+        {
+          "number": "18",
+          "text": "Waayo, hadalka ku saabsan iskutallaabtu waa u nacasnimo kuwa lumaya, laakiin waa u xoogga Ilaah kuweenna badbaadaya.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Xoogga Iskutallaabta"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Maxaa yeelay, waxaa qoran,",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "Xigmadda kuwa xigmadda leh waan baabbi'in doonaa,"
+            },
+            {
+              "source_marker": "q1",
+              "text": "Oo garashada kuwa garashada leh ayaan diidi doonaa."
+            }
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Meeh kan xigmadda lihi? Meeh kan culimmada ka mid ahi? Meeh kan wakhtigan muranka badani? Ilaah miyaanu nacasnimo ka dhigin xigmadda dunida?",
+          "source_markers_before": [
+            "m"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "Dunidu Ilaah kuma ay garanaynin xigmaddeeda, laakiin Ilaah xigmaddiisa aawadeed ayuu ku farxay inuu kuwa rumaysta ku badbaadiyo nacasnimadii wacdiga."
+        },
+        {
+          "number": "22",
+          "text": "In kastoo ay Yuhuuddu calaamooyin doonaan oo Gariigtuna ay xigmad doonaan,"
+        },
+        {
+          "number": "23",
+          "text": "annaguse waxaannu dadka ku wacdinnaa Masiix oo iskutallaabta lagu qodbay, oo u ah xagga Yuhuudda wax lagu turunturoodo, xagga Gariigtana u ah nacasnimo."
+        },
+        {
+          "number": "24",
+          "text": "Xagga kuwa loo yeedhayse, ha ahaadeen Yuhuudda ama Gariigta, Masiix baa u ah xoogga Ilaah iyo xigmadda Ilaah."
+        },
+        {
+          "number": "25",
+          "text": "Waayo, nacasnimada Ilaah waa ka xigmad badan tahay xigmadda dadka, oo itaaldarrada Ilaahna waa ka itaal badan tahay itaalka dadka."
+        },
+        {
+          "number": "26",
+          "text": "U fiirsada waxa laydiinku yeedhay, walaalayaalow, sidaan loogu yeedhin qaar badan oo xigmad leh xagga jidhka, ama qaar badan oo xoog leh, ama qaar badan oo gob ah,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "27",
+          "text": "laakiinse Ilaah wuxuu doortay waxyaalaha nacasnimada ah ee dunida inuu ceebeeyo kuwa xigmadda leh, oo Ilaah baa doortay waxyaalaha itaalka daran inuu ceebeeyo waxyaalaha itaalka leh."
+        },
+        {
+          "number": "28",
+          "text": "Waxyaalaha hoose iyo waxyaalaha la fududaystana Ilaah baa doortay, xataa waxyaalaha aan jirin, inuu waxyaalaha jira wax aan wax tarin ka dhigo,"
+        },
+        {
+          "number": "29",
+          "text": "si aan qofna ugu faanin Ilaah hortiisa."
+        },
+        {
+          "number": "30",
+          "text": "Laakiin xaggiisa waxaad ku jirtaan Ciise Masiix kan inoo noqday xigmadda xagga Ilaah, iyo xaqnimada, iyo quduusnaanta, iyo madaxfurashada,"
+        },
+        {
+          "number": "31",
+          "text": "in sida qoran, Kii faanaa, Rabbiga ha ku faano."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Salaan Iyo Mahadnaqid"
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Walaalayaalow, anna markaan idiin imid, lama iman hadal wanaaggiis ama xigmad, anoo idinku wacdiyaya maraggii laga furay Ilaah,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "waayo, waxaan goostay inaanan waxba dhexdiinna ka ogaan Ciise Masiix oo ah kan iskutallaabta lagu qodbay maahee."
+        },
+        {
+          "number": "3",
+          "text": "Oo waxaan idinkula joogay itaaldarro, iyo cabsi, iyo gariir badan."
+        },
+        {
+          "number": "4",
+          "text": "Laakiin hadalkayga iyo wacdigayga kuma aan hadlin hadallo sasabasho iyo xigmad ah, laakiin waxaan ku hadlay tusidda Ruuxa iyo xoogga,"
+        },
+        {
+          "number": "5",
+          "text": "inaan rumaysadkiinnu ku tiirsanaan xigmadda dadka, laakiin inuu xoogga Ilaah ku tiirsanaado."
+        },
+        {
+          "number": "6",
+          "text": "Waxaannu xigmadda kula hadallaa kuwa garashadu ku dhan tahay, taasoo aan ahayn xigmadda wakhtigan, oo aan ahayn xigmadda madaxda wakhtigan oo ah kuwa la baabbi'in doono;",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "laakiin qarsoonaan ayaannu ugu hadallaa xigmadda Ilaah oo la qariyey, oo Ilaah dunida horteed ka dhigay ammaanteenna aawadeed,"
+        },
+        {
+          "number": "8",
+          "text": "tan madaxda wakhtigan midkoodna aanu garanaynin, waayo, hadday garan lahaayeen, iskutallaabta kuma ay qodbeen Rabbiga ammaanta,"
+        },
+        {
+          "number": "9",
+          "text": "laakiin sida qoran,",
+          "continuations": [
+            {
+              "source_marker": "q1",
+              "text": "Waxyaalo aanay ishu arkin, oo aanay dhegtu maqlin,"
+            },
+            {
+              "source_marker": "q1",
+              "text": "Oo aan qalbiga dadka gelin,"
+            },
+            {
+              "source_marker": "q1",
+              "text": "Wax kastoo ay yihiinba, Ilaah baa u diyaariyey kuwa isaga jecel."
+            }
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Innagase Ilaah baa inoogu muujiyey Ruuxa, waayo, Ruuxu wuxuu baadhaa wax kasta, xataa waxyaalaha hoos u dhaadheer oo Ilaah.",
+          "source_markers_before": [
+            "m"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Waayo, dadka dhexdood yaa garanaya nin waxyaalihiisa, ruuxa ninka ku jira mooyaane? Sidaas oo kalena ninna garan maayo waxyaalaha Ilaah, Ruuxa Ilaah mooyaane."
+        },
+        {
+          "number": "12",
+          "text": "Laakiin innagu ma aynu helin ruuxa dunida laakiinse Ruuxa Ilaah ka yimid, inaynu garanno waxyaalaha uu Ilaah nimco ahaan inoo siiyey."
+        },
+        {
+          "number": "13",
+          "text": "Waxyaalahaasna ayaannu ku hadalnaa, kumase hadalno hadallo la baro ee ah xigmadda dadka, laakiin waxa Ruuxu baro, annaga oo waxyaalaha ruuxa ah ku simayna waxyaalaha ruuxa ah."
+        },
+        {
+          "number": "14",
+          "text": "Ninka nafta raacaa ma aqbalo waxyaalaha Ruuxa Ilaah, waayo, nacasnimo bay u yihiin, mana garan karo, maxaa yeelay, ruuxa ayaa lagu imtixaamaa."
+        },
+        {
+          "number": "15",
+          "text": "Kii ruuxa raacaa wax walbuu imtixaamaa, laakiinse isaga qudhiisa ninna ma imtixaamo."
+        },
+        {
+          "number": "16",
+          "text": "Waayo, yaa gartay maanka Rabbiga inuu wax baro isaga? Laakiin annagu waxaannu leennahay maanka Ciise."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Xigmadda Dadka Iyo Muujinta Ilaah"
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Anna, walaalayaalow, idiinlama aan hadli karin sida idinkoo ruuxa raaca, laakiin idinkoo jidhka raaca sida kuwo ilmo yaryar ah oo ku jira Masiix.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Waxaan idin siiyey caano ee idinma aan siin cunto, waayo, weli ma aydaan cuni karin, haatanna weli ma aad kartaan."
+        },
+        {
+          "number": "3",
+          "text": "Maxaa yeelay, weli jidhkaad raacdaan, waayo, intii xaasidnimo iyo ilaaq dhexdiinna ku jiraan, miyaanaydin jidhka raacsanayn oo sida dadka miyaanaydin u soconayn?"
+        },
+        {
+          "number": "4",
+          "text": "Waayo, markii mid yidhaahdo, Anigu waxaan ka mid ahay kuwa Bawlos, mid kalena, Anna Abolloos, miyaanaydin dad ahayn?"
+        },
+        {
+          "number": "5",
+          "text": "Haddaba muxuu yahay Abolloos? Bawlosna muxuu yahay? Waxay yihiin midiidinyadii aad xaggooda ku rumaysateen, oo mid kasta sida Rabbigu u siiyey isaga."
+        },
+        {
+          "number": "6",
+          "text": "Anigu waan beeray, Abolloosna wuu waraabiyey, laakiin Ilaah baa koriyey."
+        },
+        {
+          "number": "7",
+          "text": "Taa aawadeed waxba ma aha kan beeraa, ama kan waraabiyaa, laakiin waa Ilaah kan koriyaa."
+        },
+        {
+          "number": "8",
+          "text": "Kan beeraa iyo kan waraabiyaa waa isku mid, laakiin mid kastaa wuxuu heli doonaa abaalkiis siday hawshiisu ahayd."
+        },
+        {
+          "number": "9",
+          "text": "Waxaannu nahay kuwa Ilaah la shaqeeya, idinkuna waxaad tihiin beerta Ilaah iyo Ilaah dhismihiisa."
+        },
+        {
+          "number": "10",
+          "text": "Sida dhise xigmad leh waxaan aasaaskii ku dhigay nimcadii Ilaah i siiyey, oo mid kalena wuu ka dul dhisayaa. Laakiin mid kastaa ha ka fiirsado siduu uga dul dhisayo.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Macallimiinta Mas'uuliyaddooda"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Waayo, ninna ma dhigi karo aasaas kale kan la dhigay mooyaane oo ah Ciise Masiix."
+        },
+        {
+          "number": "12",
+          "text": "Laakiin nin hadduu aasaaska ku dul dhiso dahab, ama lacag, ama dhagaxyo qaali ah, ama qoryo, ama caws, ama bal,"
+        },
+        {
+          "number": "13",
+          "text": "nin kasta shuqulkiisa ayaa la muujin doonaa. Waayo, maalintu way caddayn doontaa, maxaa yeelay, dab baa lagu muujiyaa, waayo, nin kasta shuqulkiisa caynkuu yahay dabka ayaa tijaabin doona."
+        },
+        {
+          "number": "14",
+          "text": "Nin uun haddii shuqulkiisuu ku dul dhisay hadho, abaal buu heli doonaa."
+        },
+        {
+          "number": "15",
+          "text": "Nin uun haddii shuqulkiisu gubto, wuu khasaari doonaa, isaga qudhiisuse wuu badbaadi doonaa, laakiin sidii wax dab laga soo baxshay oo kaluu u badbaadi doonaa."
+        },
+        {
+          "number": "16",
+          "text": "Miyaanaydin garanaynin inaad tihiin macbudkii Ilaah oo uu Ruuxa Ilaah idinku jiro?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "17",
+          "text": "Nin uuni hadduu macbudka Ilaah kharribo, isaga Ilaah baa kharribi doona, waayo, macbudkii Ilaah waa quduus, kaad idinku tihiin."
+        },
+        {
+          "number": "18",
+          "text": "Ninna yuusan iskhiyaanayn. Haddii nin dhexdiinna joogaa uu u malaynayo inuu wakhtigan xigmad leeyahay, doqon ha noqdo si uu xigmad u yeesho.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Waayo, xigmadda dunidan doqonnimay la tahay Ilaah. Waayo, waxaa qoran, Isagu kuwa xigmadda leh ayuu khiyaanadooda ku qabtaa,"
+        },
+        {
+          "number": "20",
+          "text": "oo haddana, Rabbigu waa garanayaa tashiyada kuwa xigmadda leh inayan waxba tarin."
+        },
+        {
+          "number": "21",
+          "text": "Taa aawadeed ninna yaanu dadka ku faanin. Waayo, wax walba idinkaa leh,"
+        },
+        {
+          "number": "22",
+          "text": "ha ahaadeen ama Bawlos, ama Abolloos, ama Keeyfas, ama dunida, ama nolosha, ama dhimashada, ama waxyaalaha haatan jooga, ama waxyaalaha iman doona, dhammaan idinkaa leh."
+        },
+        {
+          "number": "23",
+          "text": "Idinkuna kuwa Masiix baad tihiin, Masiixuna waa kan Ilaah."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Iskala-Qaybinta Waa Laga Digay"
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Ha lanagu tiriyo inaannu nahay midiidinyada Masiixa iyo wakiillada waxyaalaha qarsoon ee Ilaah.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Haddaba waxaa laga doonayaa wakiillada in aamin laga helo."
+        },
+        {
+          "number": "3",
+          "text": "Laakiin waa ila yar tahay inaad idinku i xukuntaan ama in dad kale i xukumo; xataa aniga qudhaydu isma xukumo."
+        },
+        {
+          "number": "4",
+          "text": "Waayo, waxba iskuma ogi, laakiinse ma aha taas aawadeed in xaq layga dhigay, waayo, waa Rabbiga kan i xukumaa."
+        },
+        {
+          "number": "5",
+          "text": "Taa aawadeed wakhtiga hortiisa waxba ha xukumina ilaa Rabbigu imanayo, kan waxyaalaha qarsoon ee gudcurka iftiimin doona oo muujin doona tashiyada qalbiga, oo markaas nin kastaaba wuxuu ammaantiisa ka heli doonaa Ilaah."
+        },
+        {
+          "number": "6",
+          "text": "Haddaba, walaalayaalow, waxyaalahan ayaan aawadiin u soo qaaday qudhayda iyo Abolloosba, inaad xaggayaga ka barataan inaydnaan ka gudbin waxyaalaha qoran oo aan midkiinna midka kale u faanin.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Waayo, yaa kaa soocay? Maxaad haysataa oo, aanad helin? Laakiin haddaad heshay, bal maxaad u faanaysaa sidii adigoo aan helin?"
+        },
+        {
+          "number": "8",
+          "text": "Horaad u dheregteen, horaad hodan u noqoteen, la'aantayo sida boqorro ayaad wax u xukunteen. Waan jeclaan lahaa inaad wax xukuntaan, inaannu annaguna wax idinla xukunno."
+        },
+        {
+          "number": "9",
+          "text": "Waayo, waxaan u malaynayaa in Ilaah na soo saaray, annagoo ah rasuulladii ugu dambeeyey, sida kuwa dhimashada lagu xukumay oo kale, maxaa yeelay, wax la daawado ayaa lanooga dhigay dunida, iyo malaa'igaha, iyo dadkaba."
+        },
+        {
+          "number": "10",
+          "text": "Annagu waxaannu nahay Masiixa aawadiis doqonno, idinkuse caqli baad ku leedihiin xagga Masiixa. Annagu waa xoog darannahay, idinkuse waad xoog badan tihiin, idinku ammaan baad leedihiin, annaguse waa maamuus la' nahay."
+        },
+        {
+          "number": "11",
+          "text": "Tan iyo saacaddan waan gaajaysan nahay, waanan harraadsan nahay, waanan arradan nahay, waa nala garaacay, oo meel aan ku hoyannona ma lihin."
+        },
+        {
+          "number": "12",
+          "text": "Waana hawshoonnaa annagoo gacmahayaga ku shaqayna; markii lana caayona waan ducaynaa; markii lana silciyona waan dulqaadannaa."
+        },
+        {
+          "number": "13",
+          "text": "Markii lana xantona, si qabow ayaannu u hadallaa, waxaannu noqonnay uskagga dunida iyo waxa ugu wasakhsan wax kasta tan iyo haatan."
+        },
+        {
+          "number": "14",
+          "text": "Anigu waxyaalahaas u qori maayo inaan idin ceebeeyo laakiin inaan idin waaniyo sida carruurtayda aan jeclahay oo kale.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Sidii Aabbe Oo Kale Ayaa Loo Waaniyey Oo Loogu Digay"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "In kastoo aad leedihiin toban kun oo Masiix idinku rabbeeyey, aabbayaal badan ma lihidin, waayo, Ciise Masiix ayaan idinku dhalay xagga injiilka."
+        },
+        {
+          "number": "16",
+          "text": "Haddaba waxaan idinka baryayaa inaad igu dayataan."
+        },
+        {
+          "number": "17",
+          "text": "Taas aawadeed waxaan idiin soo diray Timoteyos oo xagga Rabbiga ah wiilkayga aan jeclahay oo aaminka ah. Wuu idin xusuusin doonaa socodkayga ee ah xagga Masiixa, sidaan meel kasta wax ugu baro kiniisad kasta."
+        },
+        {
+          "number": "18",
+          "text": "Qaar baa kibray sidii anigoo aan idiin imanaynin."
+        },
+        {
+          "number": "19",
+          "text": "Laakiin dhowaan baan idiin iman doonaa, haddii Rabbigu yidhaahdo, oo markaasaan garan doonaa kuwa kibray xooggooda, ee ma aha hadalkooda."
+        },
+        {
+          "number": "20",
+          "text": "Waayo, boqortooyada Ilaah hadal ma aha, ee waa xoog."
+        },
+        {
+          "number": "21",
+          "text": "Maxaad doonaysaan? Ma inaan ul idiinla imaado, mise jacayl iyo ruux qabow?"
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Rasuullada Mas'uuliyaddooda Xagga Ilaah"
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Meel walba waxaa laga maqlay in dhexdiinna ay sino ku jirto, sinada caynkaas ahna xataa dadka aan Yuhuudda ahayn ma qabaan, taasoo ah inuu midkiin naagtii aabbihii haysto.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Weliba waad kibirsan tihiin, kamana aydnaan caloolxumaan, si kii waxaas sameeyey dhexdiinna looga saaro."
+        },
+        {
+          "number": "3",
+          "text": "Waayo, runtii, in kastoo jidhkaygu idinka maqan yahay, ruuxaygu waa idinla joogaa, oo sidii aniga oo jooga ayaan kii waxaas sameeyey ku xukumay"
+        },
+        {
+          "number": "4",
+          "text": "magaca Rabbigeenna Ciise. Markaad idinka iyo ruuxayguba isugu timaadaan xoogga Rabbigeenna Ciise,"
+        },
+        {
+          "number": "5",
+          "text": "waa inaad kaasoo kale Shayddaanka u dhiibtaan in jidhku baabba'o, ruuxuse badbaado maalinta Rabbiga."
+        },
+        {
+          "number": "6",
+          "text": "Faankiinnu ma wanaagsana. Miyeydnaan garanaynin in in yar oo khamiir ah ay cajiinka oo dhan khamiiriso?"
+        },
+        {
+          "number": "7",
+          "text": "Khamiirkii hore iska safeeya inaad noqotaan cajiin cusub sidii idinkoo aan khamiirsanayn. Waayo, Masiixa ah Kormariddeenna waa la sadqeeyey."
+        },
+        {
+          "number": "8",
+          "text": "Haddaba yeynan ku iidin khamiirkii hore ama khamiirka xumaanta iyo sharka, laakiin aan ku iidno kibista khamiirka la' ee daacadda iyo runta ah."
+        },
+        {
+          "number": "9",
+          "text": "Waxaan warqaddaydii idiinku soo qoray inaydnaan kuwa sinaysta raacin.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Ulama jeedo kuwa sinaysta ee dunidan, iyo kuwa damaca badan iyo kuwa wax dulma, iyo kuwa sanamka caabuda, waayo, hadday sidaas tahay waxay noqon lahayd inaad dunida ka baxdaan."
+        },
+        {
+          "number": "11",
+          "text": "Laakiin hadda waxaan idiin soo qoray, Ha raacina qof walaal la yidhaahdo hadduu sinaysto, ama wax badan damco, ama sanam caabudo, ama wax caayo, ama sakhraamo, ama wax dulmo. Waa inaydnaan kaasoo kale xataa wax la cunin."
+        },
+        {
+          "number": "12",
+          "text": "Waayo, maxaa iigu jira inaan xukumo kuwa dibadda ah? Idinku miyeydnaan xukumin kuwa gudaha ku jira?"
+        },
+        {
+          "number": "13",
+          "text": "Kuwa dibadda ah Ilaah baa xukuma. Idinkuse kan sharka leh dhexdiinna ka saara."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Sino Aad U Xun"
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Midkiin haddii uu xaal ku haysto kan kale, miyuu ku dhacaa inuu ku dacweeyo kuwa aan xaqa ahayn hortooda, oo aanu ku dacwayn quduusiinta hortooda?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Mise waydnaan garanaynin in quduusiintu ay dunida xukumi doonaan? Oo haddaad dunida xukuntaan, ma waxaad tihiin kuwa aan istaahilin inay waxyaalaha yaryar xukumaan?"
+        },
+        {
+          "number": "3",
+          "text": "Miyeydnaan ogayn inaynu malaa'igaha xukumi doonno? Intee ka badan baa waxyaalaha noloshan ku saabsan aynu xukumaynaa?"
+        },
+        {
+          "number": "4",
+          "text": "Haddaba haddii aad leedihiin axwaal ku saabsan waxyaalaha noloshan, kuwa aan waxba ka ahayn kiniisadda miyaad ka dhigaysaan inay xukumaan?"
+        },
+        {
+          "number": "5",
+          "text": "Waxaan taas u leeyahay inaan idin ceebeeyo. Ma sidaas baa inaan dhexdiinna laga helaynin mid xigmad leh oo karaya inuu u gar qaybiyo walaalihiis,"
+        },
+        {
+          "number": "6",
+          "text": "laakiin in walaal walaalkii dacweeyo oo uu weliba ku dacweeyo kuwa aan rumaysnayn hortooda?"
+        },
+        {
+          "number": "7",
+          "text": "Haddaba waa idiin wada daran tahay in midkiinba midka kale dacweeyo. Maad iska daysaan, ha laydin xumeeyee? Maad iska daysaan, ha laydin dulmee?"
+        },
+        {
+          "number": "8",
+          "text": "Laakiin idinka qudhiinnu wax baad xumaysaan oo dulantaan, oo xataa walaalihiin."
+        },
+        {
+          "number": "9",
+          "text": "Ama miyeydnaan ogayn in kuwa xaqa darani ayan dhaxlayn boqortooyadii Ilaah? Yaan laydin khiyaanayn. Ama dhillayaasha, ama kuwa sanamka caabuda, ama kuwa sinaysta, ama khaanisiinta,"
+        },
+        {
+          "number": "10",
+          "text": "ama tuugagga, ama kuwa wax badan damca, ama kuwa sakhraama, ama kuwa wax caaya, ama kuwa wax dulma, ma dhaxli doonaan boqortooyadii Ilaah."
+        },
+        {
+          "number": "11",
+          "text": "Qaarkiin sidaas oo kale baad ahaan jirteen, laakiin waa laydinka maydhay, quduus baa laydinka dhigay, xaq baa laydinkaga dhigay magaca Rabbi Ciise Masiix iyo Ruuxa Ilaaheenna."
+        },
+        {
+          "number": "12",
+          "text": "Wax waliba waa ii xalaal, laakiin wax waliba iima roona. Wax waliba waa ii xalaal, laakiin waxba ima addoonsan doonaan.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Daahirla'aanta Iyo Nolosha Masiixigu Ma Wada Socdaan"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Cuntada waxaa loo sameeyey caloosha, calooshana cuntada, laakiin Ilaah baa baabbi'in doona tan iyo taaba. Jidhka looma samayn sinada ee waxaa loo sameeyey Rabbiga, Rabbiguna jidhkuu xannaaneeyaa."
+        },
+        {
+          "number": "14",
+          "text": "Ilaah waa sara kiciyey Rabbiga, innagana xooggiisa ayuu inagu sara kicin doonaa."
+        },
+        {
+          "number": "15",
+          "text": "Miyaanaydin garanaynin jidhadhkiinnu inay yihiin xubnaha Masiixa? Haddaba miyaan qaadaa xubnaha Masiixa oo dhillo xubnaheed ka dhigaa? Yaanay noqon."
+        },
+        {
+          "number": "16",
+          "text": "Miyaanaydin ogayn inuu kii dhillo raacaa la jidh yahay? Waayo, Ilaah wuxuu leeyahay, Labadu waxay noqon doonaan isku jidh."
+        },
+        {
+          "number": "17",
+          "text": "Laakiin kii Rabbiga raacaa waa la ruux."
+        },
+        {
+          "number": "18",
+          "text": "Ka carara sinada. Dembi kaloo kasta oo nin falo, jidhka waa ka dibadda, laakiin kii dhillanimada falaa jidhkiisuu ku dembaabaa."
+        },
+        {
+          "number": "19",
+          "text": "Ama miyaanaydin ogayn jidhkiinnu inuu yahay macbudka Ruuxa Quduuska ah ee idinku jira ee aad Ilaah ka hesheen? Oo idinku isma lihidin,"
+        },
+        {
+          "number": "20",
+          "text": "waayo, qiimo weyn baa laydinku soo iibsaday. Sidaa aawadeed Ilaah jidhkiinna ku ammaana."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Dacwado Ay Masiixiyiintu Isdacweeyaan"
+      ]
+    },
+    {
+      "chapter": 7,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Waxyaalahaad ii soo qorteen xaggooda, Waxaa nin u wanaagsan inuusan qof dumar ah taaban.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Laakiin si aan loo sinaysan, nin kastaa afadiisa oo qudha ha haysto, naag kastaana ninkeeda oo qudha ha haysato."
+        },
+        {
+          "number": "3",
+          "text": "Ninku afada waxa ku qumman ha siiyo, sidaas oo kale afaduna ninka waxa ku qumman ha siiso."
+        },
+        {
+          "number": "4",
+          "text": "Afadu jidhkeeda uma taliso, laakiin ninkaa u taliya, sidaas oo kale ninku jidhkiisa uma taliyo, laakiin afadaa u talisa."
+        },
+        {
+          "number": "5",
+          "text": "Ha isdiidina, wakhti aad ku heshiisaan inaad soon iyo tukasho u goosataan mooyaane, oo aad haddana isu timaadaan, si aan Shayddaanku idiin duufin iscelinla'aantiinna aawadeed."
+        },
+        {
+          "number": "6",
+          "text": "Laakiin taas fasax ahaan ayaan u leeyahay ee amrise maayo."
+        },
+        {
+          "number": "7",
+          "text": "De waxaan jeclaan lahaa in nimanka oo dhammu ay sidayda oo kale yihiin. Laakiin nin kastaaba hadiyad gooni ah ayuu Ilaah ka helaa, midkan sidan, kaasna sidaas."
+        },
+        {
+          "number": "8",
+          "text": "Laakiin anigu waxaan kuwa aan guursan iyo carmallada laga dhintay ku leeyahay, Waa u roon tahay iyaga inay sidayda oo kale sii ahaadaan,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "laakiin hadday iscelin kari waayaan, ha guursadeen; waayo, waxaa dhaanta inay guursadaan intay guban lahaayeen."
+        },
+        {
+          "number": "10",
+          "text": "Laakiin kuwa guursaday waxaan ku amrayaa, kan amrayaa aniga ma aha laakiin waa Rabbiga, Afadu yaanay ninkeeda ka tegin."
+        },
+        {
+          "number": "11",
+          "text": "Laakiin hadday ka tagto, ha iska guur la'aato ama ninkeedii ha la heshiiso; oo ninkuna yaanu afadiisa ka tegin."
+        },
+        {
+          "number": "12",
+          "text": "Kuwa kale anigu waxaan ku leeyahay ee ma aha Rabbiga, Hadduu mid walaal ah qabo afo aan rumaysanayn, oo ayna raalli ka tahay inay la joogto, yaanu ka tegin.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Oo afadii nin aan rumaysanayni qabo oo isna raalli ka yahay inuu la joogo, yaanay ninkeeda ka tegin."
+        },
+        {
+          "number": "14",
+          "text": "Waayo, ninka aan rumaysanayni wuxuu quduus ku noqdaa xagga naagta, oo naagta aan rumaysanaynina waxay quduus ku noqotaa xagga ninka rumaysan, haddii kale carruurtiinna wasakh bay ahaan lahaayeen, laakiin haatan waa quduus."
+        },
+        {
+          "number": "15",
+          "text": "Laakiin haddii kan aan rumaysanayni tago, ha iska tago. Waxaas oo kale walaalka ama walaashu uma xidhxidhna. Ilaah wuxuu inoogu yeedhay nabad."
+        },
+        {
+          "number": "16",
+          "text": "Waayo, sidee baad ku garanaysaa, naag yahay, inaad ninkaaga badbaadin doonto iyo in kale? Ama sidee baad ku garanaysaa, nin yahow, inaad naagtaada badbaadin doonto iyo in kale?"
+        },
+        {
+          "number": "17",
+          "text": "Hase ahaatee, mid kastaa ha u socdo sidii Rabbigu ugu qaybshay iyo sidii Ilaah mid kasta ugu yeedhay. Oo sidaasaan kiniisadaha oo dhan ku amraa.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Nin gudan ma loo yeedhay? Gudniinla'aan yaanu noqon. Nin aan gudnayn ma loo yeedhay? Yaan la gudin."
+        },
+        {
+          "number": "19",
+          "text": "Gudniintu waxba ma aha; gudniinla'aantuna waxba ma aha, laakiin waxaa waajib ah in la xajiyo qaynuunnada Ilaah."
+        },
+        {
+          "number": "20",
+          "text": "Nin kastaa sidii loogu yeedhay, ha sii ahaado."
+        },
+        {
+          "number": "21",
+          "text": "Ma laguu yeedhay adigoo addoon ah? Dan ha u gelin. Laakiin haddaad karayso inaad xorowdid, waa inaad aqbashid."
+        },
+        {
+          "number": "22",
+          "text": "Waayo, kii xagga Rabbiga loogu yeedhay isagoo addoon ah, wuxuu yahay ninka xorta ah ee Rabbiga, sidaas oo kalena kii isagoo xor ah loo yeedhay, wuxuu yahay addoonka Masiix."
+        },
+        {
+          "number": "23",
+          "text": "Qiimo weyn baa laydinku soo iibsaday; addoommada dadka ha noqonina."
+        },
+        {
+          "number": "24",
+          "text": "Walaalayaalow, nin kastaa sidii loogu yeedhay ha sii ahaado, isagoo Ilaah la jira."
+        },
+        {
+          "number": "25",
+          "text": "Amar bikradaha ku saabsan kama haysto xagga Rabbiga, laakiin waxaan kula talinayaa sida mid Rabbiga naxariis ka helay inuu aamin ahaado.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "26",
+          "text": "Sidaa daraaddeed waxay ila tahay dhibta haatan joogta aawadeed inay u roon tahay nin inuu sii ahaado siduu yahay."
+        },
+        {
+          "number": "27",
+          "text": "Miyaad naag ku xidhan tahay? Ha doonin inaad ka furnaato. Miyaad naag ka furan tahay? Ha doonin naag."
+        },
+        {
+          "number": "28",
+          "text": "Laakiin haddaad guursatid ma aad dembaabin, bikraduna hadday guursato ma ay dembaabin, laakiin kuwaas oo kale xagga jidhka dhib bay ka heli doonaan, laakiin dhibtaasaan idinka celin lahaa."
+        },
+        {
+          "number": "29",
+          "text": "Laakiin waxaan leeyahay, walaalayaalow, wakhtiga waa la soo gaabiyey, hadda kaddib kuwa naagaha qabaa ha ahaadeen sidii iyagoo aan qabin;"
+        },
+        {
+          "number": "30",
+          "text": "oo kuwa ooyaana sidii iyagoo aan ooyin, kuwa farxaana sidii iyagoo aan farxin, kuwa wax iibsadaana sidii iyagoo aan waxba lahayn;"
+        },
+        {
+          "number": "31",
+          "text": "kuwa dunidan ku isticmaalaana, sidii iyagoo aan aad ugu isticmaalin, waayo, xaalka dunidan waa idlaanayaa."
+        },
+        {
+          "number": "32",
+          "text": "Waxaan jeclaan lahaa inaad welwel la'aataan. Kii aan guursanin wuxuu u welwelaa waxyaalaha Rabbiga, siduu Rabbiga uga farxin lahaa."
+        },
+        {
+          "number": "33",
+          "text": "Laakiin kii guursaday wuxuu u welwelaa waxyaalaha dunida siduu afadiisa uga farxin lahaa."
+        },
+        {
+          "number": "34",
+          "text": "Afada iyo bikraddu waa kala duwan yihiin. Tii aan la qabinu waxay u welweshaa waxyaalaha Rabbiga si ay quduus uga ahaato xagga jidhka iyo xagga ruuxa. Tii guursatay waxay u welweshaa waxyaalaha dunida si ay ninkeeda uga farxiso."
+        },
+        {
+          "number": "35",
+          "text": "Tan waxaan idinku leeyahay waxtarkiinna aawadii ee ma aha inaan qool idin geliyo, laakiin in waxa roon la arko iyo inaad Rabbiga u adeegtaan kalajeedsadla'aan."
+        },
+        {
+          "number": "36",
+          "text": "Nin uun hadduu u maleeyo inuu wax aan toosnayn ku falayo xagga bikraddiisa, hadday wakhtigii dhallinyaronimadeedii dhaafto oo sidaas loo baahnaado, ha sameeyo wuxuu dooni lahaa. Dembaabi maayo ee ha guursadeen."
+        },
+        {
+          "number": "37",
+          "text": "Kii qalbigiisa ka adkaysta, isagoo aan la qasbin, laakiin nafsaddiisa u taliya, uuna qalbigiisa ka goostay inuu bikraddiisa iska sii hayo, si wanaagsan buu falaa."
+        },
+        {
+          "number": "38",
+          "text": "Sidaasna kii bikraddiisa u guuriyaa si wanaagsan ayuu falaa, iyo kii bikraddiisa aan u guurinin si ka wanaagsan ayuu falaa."
+        },
+        {
+          "number": "39",
+          "text": "Naag waxay ku xidhan tahay ninkeeda intuu nool yahay, laakiin haddii ninku dhinto, waa xor inay guursato kay doonto laakiin xagga Rabbiga oo keliya."
+        },
+        {
+          "number": "40",
+          "text": "Laakiin way ka sii faraxsanaan lahayd hadday iska joogto, siday aniga ila tahay, oo anigu waxaan u malaynayaa inaan Ruuxa Ilaah leeyahay."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Arrimaha Ku Saabsan Guurka Iyo Guurla'aanta Iyo Furidda"
+      ]
+    },
+    {
+      "chapter": 8,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Xagga waxyaalaha sanamyada loo sadqeeyo, waxaynu garanaynaa inaynu dhammaan aqoon u wada leennahay. Aqoontu way kibrisaa, jacaylkuse wax buu dhisaa.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Qof uuni hadduu u malaynayo inuu wax garanayo, weli garan maayo siduu u garan lahaa."
+        },
+        {
+          "number": "3",
+          "text": "Laakiin qof uuni hadduu Ilaah jecel yahay, Ilaah baa garanaya isaga."
+        },
+        {
+          "number": "4",
+          "text": "Haddaba xagga cunidda waxyaalaha sanamyada loo sadqeeyo, waxaynu garanaynaa inuusan sanam waxba dunida ka ahayn oo aan Ilaah jirin mid mooyaane."
+        },
+        {
+          "number": "5",
+          "text": "Waayo, in kastoo ay samada iyo dhulkaba jiraan wax ilaahyo lagu sheego, sidii iyadoo ilaahyo badan iyo sayidyo badni jiraan,"
+        },
+        {
+          "number": "6",
+          "text": "laakiin innagu waxaynu leennahay Ilaah keliya oo Aabbaha ah, kan wax waluba ka yimaadaan oo innagana isagaa ina leh, iyo Sayid keliya oo Ciise Masiix ah, kan wax waluba ku ahaadeen oo innaguna isagaynu ku ahaannay."
+        },
+        {
+          "number": "7",
+          "text": "Laakiin dad oo dhammu aqoontaas ma wada laha, laakiin qaar sanamka tan iyo hadda u bartay, waxay u qabaan waxay cunaan sidii wax sanam loo sadqeeyo, qalbigooda itaalka daranina wuu nijaasoobay.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Walaalka Itaalka Daran"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Cuntadu ina hor joojin mayso Ilaah. Haddaynan cunin waxba inagama dhacaan, haddaynu cunnona waxba inooma kordhaan."
+        },
+        {
+          "number": "9",
+          "text": "Laakiin iska dhawra si aan ikhtiyaarkiinnu wax lagu turunturoodo ugu noqon kuwa itaalka daran."
+        },
+        {
+          "number": "10",
+          "text": "Haddii qof ku arko adigoo aqoonta leh oo cunto ugu fadhiya meeshii sanamyada, hadduu qalbiga ka itaal daranyahay, qalbigiisu miyaanu ku adkaanaynin inuu cuno waxa sanamyada loo sadqeeyo?"
+        },
+        {
+          "number": "11",
+          "text": "Waayo, waxaa aqoontaada aawadeed lumaya ka itaalka daran oo ah walaalkaagii uu Masiixu aawadiis u dhintay."
+        },
+        {
+          "number": "12",
+          "text": "Markaad walaalaha sidaas ugu dembaabtaan oo aad qalbigooda itaalka daran u xumaysaan, waxaad ku dembaabtaan Masiix."
+        },
+        {
+          "number": "13",
+          "text": "Taa aawadeed haddii cunto walaalkay xumayso, hilib weligay ma cuni doono si aanan walaalkay u xumayn."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Waxyaalaha Sanamyada Loo Sadqeeyo"
+      ]
+    },
+    {
+      "chapter": 9,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Miyaanan xor ahayn? Miyaanan rasuul ahayn? Miyaanan arkin Rabbigeenna Ciise? Miyeydnaan ahayn shuqulkayga xagga Rabbiga?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Xataa haddaanan kuwa kale rasuul u ahayn, idinka waa idiin ahay, waayo, waxaad tihiin shaabadda rasuulnimadayda xagga Rabbiga."
+        },
+        {
+          "number": "3",
+          "text": "Daafacaaddayda aan kuwa i imtixaama iskaga daafaco waa tan."
+        },
+        {
+          "number": "4",
+          "text": "Miyaannan annagu jid u lahayn inaannu wax cunno oo wax cabno?"
+        },
+        {
+          "number": "5",
+          "text": "Miyaannan jid u lahayn inaannu haweenay walaal ah kaxaysanno sida rasuullada kale iyo walaalaha Rabbiga iyo Keeyfas ay sameeyaan?"
+        },
+        {
+          "number": "6",
+          "text": "Mise aniga iyo Barnabas oo keliyaan jid u lahayn inaannan shaqayn?"
+        },
+        {
+          "number": "7",
+          "text": "Askarigee baa qarashkiisa weligiis iska bixiya? Yaa beer canab ah beera oo aan midhaheeda cunin? Ama yaa adhi daajiya oo aan caanaha adhiga dhamin?"
+        },
+        {
+          "number": "8",
+          "text": "Waxyaalahaas ma sida dad baan u leeyahay? Oo sharcigu miyuusan waxyaalahaas oo kale lahayn?"
+        },
+        {
+          "number": "9",
+          "text": "Waayo, waxaa ku qoran sharciga Muuse, Waa inaadan dibiga af xidhin markuu sarreenka burburinayo. Ma Ilaah baa dibiyada oo keliya dhawra,"
+        },
+        {
+          "number": "10",
+          "text": "mise innagoo dhan buu inoola jeeda? Hubaal, aawadeen baa loo qoray, waayo, kan beerta qodaa waa inuu rajo ku qodo, kan tumaana waa inuu tumo isagoo rajaynaya inuu wax qayb u helo."
+        },
+        {
+          "number": "11",
+          "text": "Haddaannu idinku beernay waxyaalaha ruuxa, ma wax weyn baa haddaannu waxyaalaha jidhka idinka urursaano?"
+        },
+        {
+          "number": "12",
+          "text": "Qaar kale hadday waxaas jid idiinku leeyihiin, miyaannan annagu si ka badan idiinku lahayn? Hase ahaatee, waxan noo jidka ah kuma aannu isticmaalin, laakiin wax walba waannu u dulqaadannaa inaannan sina u joojin injiilka Masiix."
+        },
+        {
+          "number": "13",
+          "text": "Miyeydnaan ogayn kuwa waxyaalaha quduuska ah ka shaqeeyaa inay macbudka wax ka cunaan, kuwa meesha allabariga ka adeegaana inay meesha allabariga qayb ku leeyihiin?"
+        },
+        {
+          "number": "14",
+          "text": "Sidaas oo kale Rabbigu wuxuu amray in kuwa dadka injiilka ku wacdiyaa ay injiilka ku noolaadaan."
+        },
+        {
+          "number": "15",
+          "text": "Laakiin waxyaalahaas midkoodna kuma aan isticmaalin. Haddana waxyaalahan u qori maayo in sidaas la ii yeelo, waayo, waxaa ii roon inaan dhinto intii nin uun faankayga ka dhigi lahaa wax aan wax ka jirin."
+        },
+        {
+          "number": "16",
+          "text": "Waayo, haddaan dadka injiilka ku wacdiyo, wax aan ku faano ma aha, waayo, wax baa i qasbaya, maxaa yeelay, waa ii hoog haddaanan dadka injiilka ku wacdiyin."
+        },
+        {
+          "number": "17",
+          "text": "Waayo, haddaan waxaas ku sameeyo doonistayda aawadeed, abaalgud baan helayaa, laakiin haddaanan doonistayda ku samayn, weli wakiilnimo baa laygu aaminay."
+        },
+        {
+          "number": "18",
+          "text": "Haddaba abaalgudkaygu waa maxay? Waa in markaan injiilka dadka ku wacdiyo aan injiilka ka dhigo iibla'aan, si aanan ugu wada isticmaalin waxa ii jidka ah xagga injiilka."
+        },
+        {
+          "number": "19",
+          "text": "Waayo, in kastoo aan xor ka ahaa dad oo dhan, dhammaan ayaan addoon isaga dhigay, si aan qaar kaloo badan u soo kordhiyo.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Aad Buu Ugu Dadaalay Inuu Dad U Jiido Masiix"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Yuhuudda waxaan u noqday sida Yuhuudi oo kale, si aan Yuhuud kale u soo kordhiyo. Kuwa sharciga ka hooseeyana, sida mid sharciga ka hooseeya ayaan u noqday, aniga oo aan sharciga ka hoosayn, si aan kuwa sharciga ka hooseeya u soo kordhiyo."
+        },
+        {
+          "number": "21",
+          "text": "Xagga kuwa aan sharciga lahayn, sida mid aan sharci lahayn ayaan u noqday anigoo aan ahayn mid sharci la' xagga Ilaah, laakiin sharci leh xagga Masiix, si aan u soo kordhiyo kuwa aan sharciga lahayn."
+        },
+        {
+          "number": "22",
+          "text": "Xagga kuwa itaalka daran waxaan u noqday mid itaaldaran, si aan kuwa itaalka daran u soo kordhiyo. Dadka oo dhan ayaan wax kasta u noqday inaan si kastaba qaar ku badbaadiyo."
+        },
+        {
+          "number": "23",
+          "text": "Wax kasta waxaan u sameeyaa injiilka aawadiis, si aan u noqdo mid injiilka la qaybsada iyaga."
+        },
+        {
+          "number": "24",
+          "text": "Miyaanad ogayn in kuwa tartan ku ordaa ay wada ordaan, laakiin mid uun baa dheefta hela? Sidaas u orda inaad heshaan.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Dadaalka Loo Baahan Yahay Si Loo Lib Helo"
+          ]
+        },
+        {
+          "number": "25",
+          "text": "Kii cayaarta aad ugu dadaalaa, wax walba ayuu iska dhawraa. Kuwaasu haddaba waxay sidaas u yeelaan inay taaj dhammaanaya helaan, innaguse waxaynu helaynaa mid aan dhammaanaynin."
+        },
+        {
+          "number": "26",
+          "text": "Haddaba anigu uma ordo qasdila'aan, uma feedhtamo sida mid dabaysha ku dhufanaya."
+        },
+        {
+          "number": "27",
+          "text": "Laakiin jidhkaygaan dhibaa oo addoon ka dhigaa si markaan qaar kale injiilka ku wacdiyo aan qudhayda lay diidin."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Wixii Rasuulkii Xaqiisu Ahaa Ayuu Sii Daayay"
+      ]
+    },
+    {
+      "chapter": 10,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Walaalayaalow, anigu dooni maayo inaad garan weydaan siday awowayaasheen oo dhammu daruurta uga wada hooseeyeen, oo ay dhammaantood badda u wada dhex mareen,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "iyo sidii dhammaantood xaggii Muuse loogu baabtiisay daruurta iyo baddaba,"
+        },
+        {
+          "number": "3",
+          "text": "iyo siday dhammaantood u wada cuneen isku cunto ruuxa ah,"
+        },
+        {
+          "number": "4",
+          "text": "oo dhammaantoodna ay u wada cabbeen isku cabbid ruuxa ah, waayo, waxay ka cabbeen dhagaxa ruuxa ah oo ka daba imanayay iyaga, dhagaxuna wuxuu ahaa Masiixa."
+        },
+        {
+          "number": "5",
+          "text": "Laakiin Ilaah kuma farxin badidood, oo waxaa iyaga lagu rogay cidlada."
+        },
+        {
+          "number": "6",
+          "text": "Waxyaalahaasi waxay inoo noqdeen masaallo si aynaan waxyaalaha sharka ah u damcin siday iyagu u damceen."
+        },
+        {
+          "number": "7",
+          "text": "Oo kuwa sanamka caabuda ha ahaanina siday qaarkood u ahaayeen. Sida qoran, Dadku waxay u fadhiisteen inay wax cunaan oo wax cabbaan, oo waxay u kaceen inay cayaaraan."
+        },
+        {
+          "number": "8",
+          "text": "Oo yeynan sinaysanin siday qaarkood u sinaysteen oo saddex iyo labaatan kun ay maalin keliya u dhinteen."
+        },
+        {
+          "number": "9",
+          "text": "Oo yeynan jirrabin Rabbiga siday qaarkood u jirrabeen oo ay masasku u baabbi'iyeen."
+        },
+        {
+          "number": "10",
+          "text": "Oo ha gunuunacina siday qaarkood u gunuunaceen oo uu baabbi'iyuhu u baabbi'iyey."
+        },
+        {
+          "number": "11",
+          "text": "Waxyaalahaasi waxay iyaga ugu dhaceen masaal ahaan, oo waxaa loo qoray in laynagu waaniyo innagoo wakhtiyada dhammaatinkoodii ina soo gaadhay."
+        },
+        {
+          "number": "12",
+          "text": "Sidaa daraaddeed kii u malaynaya inuu taagan yahay, ha iska eego inuusan dhicin."
+        },
+        {
+          "number": "13",
+          "text": "Jirrabaadna idinma qabsan tan dadka wada qabsata mooyaane, laakiin Ilaah waa aamin, mana oggolaan doono in laydin jirrabo intaad karaysaan in ka badan, laakiin markii laydin jirrabo wuxuu samayn doonaa jid aad kaga baxsataan si aad ugu adkaysan kartaan."
+        },
+        {
+          "number": "14",
+          "text": "Sidaa daraaddeed, gacaliyayaalow, sanamcaabudidda ka carara.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Sanamcaabudidda Waa In Laga Cararo"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Waxaan idiinla hadlayaa sida dad caqli leh loola hadlo oo kale. Idinku qiyaasa waxaan leeyahay."
+        },
+        {
+          "number": "16",
+          "text": "Koobka barakada leh ee aynu u ducayno miyaanu ahayn islawadaagidda dhiigga Masiix? Kibistaynu jebinnaa, miyaanay ahayn islawadaagidda jidhka Masiix?"
+        },
+        {
+          "number": "17",
+          "text": "Innagu in kastoo aynu badan nahay, waxaynu nahay jidh qudha, maxaa yeelay, waxaa jira kibis qudha, waayo, dhammaanteen waxaynu wada qaybsannaa kibista qudha."
+        },
+        {
+          "number": "18",
+          "text": "Eega reer binu Israa'iil xagga jidhka; kuwa allabaryada cunaa miyaanay la wadaagin meesha allabariga?"
+        },
+        {
+          "number": "19",
+          "text": "Haddaba maxaan leeyahay? Wax sanam loo sadqeeyo waa wax? Ama, sanam baa wax ah?"
+        },
+        {
+          "number": "20",
+          "text": "Laakiin waxyaalaha ay dadka aan Yuhuudda ahayn sadqeeyaan, waxay u sadqeeyaan jinniyo, ee Ilaah uma sadqeeyaan. Dooni maayo inaad jinniyada wax la wadaagtaan."
+        },
+        {
+          "number": "21",
+          "text": "Iskuma wada cabbi kartaan koobka Rabbiga iyo koobka jinniyada. Kama wada qayb geli kartaan miiska Rabbiga iyo miiska jinniyada."
+        },
+        {
+          "number": "22",
+          "text": "Miyaynu Rabbiga ka hinaasinnaa? Miyaynu isaga ka xoog badan nahay?"
+        },
+        {
+          "number": "23",
+          "text": "Wax waliba waa xalaal, laakiin wax waliba ma roona. Wax waliba waa xalaal, laakiin wax waliba wax ma dhisaan.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "Ninna yuusan doonin waxa isaga qudhiisa u roon, laakiin mid kasta ha doono waxa kan kale u roon."
+        },
+        {
+          "number": "25",
+          "text": "Wax kasta oo suuqa lagu iibiyo cuna, idinkoo aan waxba weyddiinaynin niyada aawadeed."
+        },
+        {
+          "number": "26",
+          "text": "Waayo, Rabbigaa leh dhulka iyo waxa ku jira oo dhanba."
+        },
+        {
+          "number": "27",
+          "text": "Mid ka mid ah kuwa aan rumaysnayn hadduu diyaafad idiinku yeedho oo aad doonaysaan inaad tagtaan, wax kasto oo laydin hor dhigoba cuna, idinkoo aan waxba weyddiinaynin niyada aawadeed."
+        },
+        {
+          "number": "28",
+          "text": "Laakiin haddii laydinku yidhaahdo, Tanu waa wax sanam loo sadqeeyey, ha cunina, kan idiin sheegay aawadiis iyo niyada aawadeed."
+        },
+        {
+          "number": "29",
+          "text": "Waxaan leeyahay, niyada kan kale, ee ma aha taada. Waayo, xoriyaddayda maxaa loogu xukumaa mid kale niyadiis?"
+        },
+        {
+          "number": "30",
+          "text": "Haddaan mahad kaga qayb galo, maxaa la iigu caayaa wixii aan ku mahadnaqo?"
+        },
+        {
+          "number": "31",
+          "text": "Haddaba haddaad wax cuntaan, ama wax cabtaan, ama wax kastaad samaysaan, dhammaan u wada sameeya Ilaah ammaantiisa."
+        },
+        {
+          "number": "32",
+          "text": "Wax lagu turunturoodo ha u noqonina Yuhuudda ama Gariigta ama kiniisadda Ilaah,"
+        },
+        {
+          "number": "33",
+          "text": "sidaan aniguba dadka oo dhan uga farxiyo wax kastaba, anigoo aan doonaynin waxa ii roon, laakiin waxa kuwa badan u roon, si ay u badbaadaan."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Digniin Laga Garto Taariikhda Reer Binu Israa'iil"
+      ],
+      "source_trailing_elements": [
+        {
+          "marker": "b",
+          "text": null
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Igu dayda sidaan aniguba Masiix ugu daydo.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Waxaan idinku ammaanayaa inaad wax walba igu xusuusataan oo aad u xagsataan cilmiga sidaan idiinku sheegay.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Naaguhu Ha Gambaysteen Markay Shirka Kiniisadda Joogaan"
+          ]
+        },
+        {
+          "number": "3",
+          "text": "Laakiin waxaan jeclaan lahaa inaad ogaataan inuu Masiixu yahay madaxa nin kasta, ninkuna inuu yahay madaxa naagta, Ilaahna inuu yahay madaxa Masiixa."
+        },
+        {
+          "number": "4",
+          "text": "Nin kasta oo tukada ama wax sii sheega isagoo madaxa wax u saaran yihiin, madaxiisuu ceebeeyaa."
+        },
+        {
+          "number": "5",
+          "text": "Oo naag kasta oo tukata ama wax sii sheegta iyadoo aan gambaysnayn, madaxeeday ceebaysaa. Waayo, waxay la mid tahay sidii iyadoo madax xiiran."
+        },
+        {
+          "number": "6",
+          "text": "Naag haddaanay gambaysnayn, timaha ha loo jaro, laakiin hadday ceeb ku tahay naag in loo jaro ama in loo xiiro, ha gambaysato."
+        },
+        {
+          "number": "7",
+          "text": "Nin waa inuusan madaxa dedan, waayo, ninku wuxuu yahay u-ekaanta iyo ammaanta Ilaah; naagtuna waxay tahay ammaanta ninka."
+        },
+        {
+          "number": "8",
+          "text": "Waayo, ninku xagga naagta kama uu iman, laakiin naagtuse xagga ninka ayay ka timid."
+        },
+        {
+          "number": "9",
+          "text": "Maxaa yeelay, ninka looma abuurin naagta aawadeed, laakiin naagtase ninka aawadiis ayaa loo abuuray."
+        },
+        {
+          "number": "10",
+          "text": "Taas aawadeed naagtu waxay leedahay inay madaxeeda ku lahaato astaanta amarka, malaa'igaha aawadood."
+        },
+        {
+          "number": "11",
+          "text": "Hase ahaatee, xagga Rabbiga naagtu waxba ma aha ninka la'aantiis, ninkuna waxba ma aha naagta la'aanteed."
+        },
+        {
+          "number": "12",
+          "text": "Waayo, sida naagtu ninka uga timid ayaa ninkuna naagta uga dhashay, wax kastana xagga Ilaah bay ka yimaadeen."
+        },
+        {
+          "number": "13",
+          "text": "Idinkuba ka fiirsada. Ma u eg tahay naagta inay Ilaah barido iyadoo aan gambaysnayn?"
+        },
+        {
+          "number": "14",
+          "text": "Dabiicadda qudheedu miyaanay idin barin in ninku hadduu timo dheer leeyahay ay maamuusdarro u yihiin isaga,"
+        },
+        {
+          "number": "15",
+          "text": "laakiin naagtu hadday timo dheer leedahay, waa u sharaf iyada. Waayo, timaha waxaa iyada loo siiyey hagoog."
+        },
+        {
+          "number": "16",
+          "text": "Laakiin haddii nin u eg yahay mid ilaaq jecel, caadadaas oo kale annagu ma lihin, kiniisadaha Ilaahna ma laha."
+        },
+        {
+          "number": "17",
+          "text": "Anigoo tan idin faraya, idin ammaani maayo, waayo, isuguma timaadaan waxa roon, ee waxaad isugu timaadaan waxa daran.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Maamuusjebinta Cashada Rabbiga"
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Horta haddaba waxaan maqlay inaad iskala qaybisaan markaad kiniisadda isugu timaadaan, badhna waan rumaysanahay."
+        },
+        {
+          "number": "19",
+          "text": "Waayo, dhexdiinna waa inay jiraan waxyaalo idinkala sooco in kuwa loo bogay ay idinka dhex muuqdaan."
+        },
+        {
+          "number": "20",
+          "text": "Sidaa daraaddeed markaad isu timaadaan, isuguma timaadaan inaad cashada Rabbiga cuntaan."
+        },
+        {
+          "number": "21",
+          "text": "Waayo, mid kasta cashadiisuu kan kale ka hor cunaa, mid waa gaajaysan yahay, midna waa sakhraansan yahay."
+        },
+        {
+          "number": "22",
+          "text": "Sow ma lihidin guryo aad wax ku cuntaan oo wax ku cabtaan? Mise kiniisadda Ilaah baad fududaysanaysaan, oo aad kuwa aan waxba haysan ceebaynaysaan? Maxaan idinku idhaahdaa? Ma waxanaan idinku ammaanaa? Idinku ammaani maayo!"
+        },
+        {
+          "number": "23",
+          "text": "Waayo, Rabbigaan ka helay wixii aan idiin dhiibay, taasoo ah, in Rabbi Ciise habeenkii la gacangeliyey uu kibis qaaday,",
+          "source_markers_before": [
+            "s1",
+            "r",
+            "p"
+          ],
+          "source_headings_before": [
+            "Cashadii Rabbiga Oo Xusuusta Ahayd",
+            "(Mat. 26:26-29; Mar. 14:22-25; Luuk. 22:14-20)"
+          ]
+        },
+        {
+          "number": "24",
+          "text": "oo markuu ku mahadnaqay ayuu jejebiyey oo yidhi, Tanu waa jidhkaygii laydiin jejebiyey, tan u sameeya inaad igu xusuusataan."
+        },
+        {
+          "number": "25",
+          "text": "Sidaas oo kalena cashada dabadeed ayuu qaaday koobkii, isagoo leh, Koobkanu waa axdiga cusub ee dhiiggayga. Tan u sameeya inaad igu xusuusataan mar alla markaad cabtaan."
+        },
+        {
+          "number": "26",
+          "text": "Waayo, mar alla markaad kibistan cuntaan oo aad koobkan cabtaan, waxaad muujinaysaan dhimashada Rabbiga ilaa uu yimaado."
+        },
+        {
+          "number": "27",
+          "text": "Taas aawadeed ku alla kii kibista u cuna ama koobka Rabbiga u cabba si aan istaahilin, jidhka iyo dhiigga Rabbigu dushiisay noqon doonaan.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Waa Inaan Cashada Si Aan Istaahilin Loo Qaadan"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "Nin kastaa ha is-imtixaamo, oo sidaas kibista wax ha uga cuno, oo koobka ha uga cabbo."
+        },
+        {
+          "number": "29",
+          "text": "Waayo, kii cuna oo cabba, xukun ayuu naftiisa u cunaa oo u cabbaa isagoo aan jidhka garanaynin."
+        },
+        {
+          "number": "30",
+          "text": "Sababtaas aawadeed ayay badidiinnu u itaal daranyihiin, oo u bukaan, oo qaar aan yaraynu u dhinteen."
+        },
+        {
+          "number": "31",
+          "text": "Laakiin haddaynu innagu dhexdeenna iska xukumi lahayn, laynama xukumeen."
+        },
+        {
+          "number": "32",
+          "text": "Markii layna xukumo, Rabbiga ayaa ina edbiya, inaan laynala xukumin dunida."
+        },
+        {
+          "number": "33",
+          "text": "Taa aawadeed, walaalahayow, markaad isugu timaadaan inaad wax cuntaan, isa suga."
+        },
+        {
+          "number": "34",
+          "text": "Nin uun hadduu gaajoodo, gurigiisa wax ha ka soo cuno, inaydnaan xukun isugu iman. Intii kale waxaan hagaajin doonaa markaan imaado."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "chapter": 12,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Walaalayaalow, dooni maayo inaad jaahil ka ahaataan waxa ku saabsan hadiyadaha Ruuxa ka yimaada.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Waad og tihiin in, markaad dad aan Ilaah aaminin ahaan jirteen, laydin geeyn jiray sanamyada aan hadli karin, si laydinku geeyn jirayba."
+        },
+        {
+          "number": "3",
+          "text": "Sidaa daraaddeed waxaan idin ogeysiinayaa inaan nin Ruuxa Ilaah ku hadlaa odhanaynin, Ciise waa inkaaran yahay, oo aan ninna odhan karin, Ciise waa Rabbi, inuu Ruuxa Quduuska ah ku hadlo mooyaane."
+        },
+        {
+          "number": "4",
+          "text": "Waxaa jira hadiyado kala cayn ah, laakiin waa isku Ruux.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "Waxaana jira adeegid kala cayn ah, waana isku Rabbi."
+        },
+        {
+          "number": "6",
+          "text": "Waxaana jira shuqullo kala cayn ah, laakiin waa isku Ilaah, kan dhammaan wax walba kaga dhex shaqeeya."
+        },
+        {
+          "number": "7",
+          "text": "Laakiin mid kasta waxaa muujinta Ruuxa loo siiyaa waxtar."
+        },
+        {
+          "number": "8",
+          "text": "Mid waxaa laga siiyaa xagga Ruuxa hadal xigmad ah, mid kalena hadal aqoon ah siduu isku Ruuxu doonayo."
+        },
+        {
+          "number": "9",
+          "text": "Mid kale Ruuxu rumaysad buu siiyaa, mid kalena hadiyado wax lagu bogsiiyo ayuu isku Ruuxu siiya."
+        },
+        {
+          "number": "10",
+          "text": "Mid kalena shuqullo cajaa'ib leh, mid kalena wax sii sheegidda, mid kalena kalasoocidda ruuxyada, mid kalena afaf kala cayn ah, mid kalena afafka fasiriddooda."
+        },
+        {
+          "number": "11",
+          "text": "Isku Ruuxa oo keliya ayaa ka shaqeeya waxyaalahaas oo dhan, isagoo siduu doonayo mid mid wax ugu qaybinaya."
+        },
+        {
+          "number": "12",
+          "text": "Haddaba sida jidhku mid keliya u yahay, oo uu xubno badan u leeyahay, oo xubnaha oo dhan ee jidhka ay jidh keliya u yihiin, in kastoo ay badan yihiin, Masiixuna waa sidaas oo kale.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Masaalka Ku Saabsan Jidhka"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Waayo, Ruux qudha ayaa dhammaanteen jidh qudha inagu baabtiisay, haddaynu nahay Yuhuud ama Gariig, ama addoommo ama kuwa xor ah, oo waxaa laynaga waraabiyey Ruux qudha."
+        },
+        {
+          "number": "14",
+          "text": "Waayo, jidhku xubin qudha ma aha ee waa xubno badan.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Hadday cagtu tidhaahdo, Anigu gacan ma ihi, taas aawadeed jidhka ka mid ma ihi, taasu sabab u noqon mayso inaanay jidhka ka mid ahayn."
+        },
+        {
+          "number": "16",
+          "text": "Hadday dhegtu tidhaahdo, Anigu isha ma ihi, taas aawadeed jidhka ka mid ma ihi, taasu sabab u noqon mayso inaanay jidhka ka mid ahayn."
+        },
+        {
+          "number": "17",
+          "text": "Haddii jidhka oo dhammu il wada ahaan lahaa, meeye dhegihii wax lagu maqli lahaana? Hadduu dhammaan dhego wada ahaan lahaa, meeh sankii wax lagu urin lahaana?"
+        },
+        {
+          "number": "18",
+          "text": "Haatanse Ilaah baa siduu doonayay xubnaha middood kastaba jidhka ugu hagaajiyey."
+        },
+        {
+          "number": "19",
+          "text": "Hadday dhammaan ahaan lahaayeen xubin qudha, meeh jidhkii?"
+        },
+        {
+          "number": "20",
+          "text": "Haatanse waa xubno badan laakiin waa jidh qudha."
+        },
+        {
+          "number": "21",
+          "text": "Ishu gacanta kuma odhan karto, Kuuma baahni; madaxuna cagaha kuma odhan karo, Idiinma baahni.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "Xataa xubnaha jidhka oo loo maleeyo inay u itaal yar yihiin, iyaga qudhooda waa loo baahan yahay,"
+        },
+        {
+          "number": "23",
+          "text": "oo kuwa jidhka oo aynu u malayno inay u maamuus yar yihiin, kuwaas ayaynu ka sii maamuusnaa kuwa kale, oo xubnaheenna cawrada ah baa ka xurmo badan kuwa kale."
+        },
+        {
+          "number": "24",
+          "text": "Xubnaheenna aan cawrada ahaynse waxba uma baahna. Laakiin Ilaah baa jidhka isku hagaajiyey isagoo tan ugu daran maamuus badan siinaya,"
+        },
+        {
+          "number": "25",
+          "text": "inaan jidhku qaybsanaan, laakiin in xubiniba xubinta kale u welwesho."
+        },
+        {
+          "number": "26",
+          "text": "Haddii xubin qudha xanuunsato, xubnaha oo dhammu way la xanuunsadaan. Haddii xubin la maamuuso, xubnaha oo dhammu way la farxaan."
+        },
+        {
+          "number": "27",
+          "text": "Idinku waxaad tihiin jidhka Masiix iyo xubno ka mid ah.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "28",
+          "text": "Ilaah markii hore kiniisadda qaar wuxuu uga dhigay rasuullo, markii labaadna qaar kale nebiyo, markii saddexaadna qaar kale macallimiin, dabadeedna qaar cajaa'ibyo sameeya, qaarna kuwo leh hadiyado wax lagu bogsiiyo, qaarna kaalmeeyayaal, qaarna taliyayaal, iyo qaar afaf kala cayn ah ku hadla."
+        },
+        {
+          "number": "29",
+          "text": "Dhammaan ma wada rasuullo baa? Dhammaan ma wada nebiyo baa? Dhammaan ma wada macallimiin baa? Dhammaan ma wada cajaa'ibyo sameeyayaal baa?"
+        },
+        {
+          "number": "30",
+          "text": "Dhammaan ma wada leeyihiin hadiyado wax lagu bogsiiyo? Dhammaan ma ku hadlaan afaf kala cayn ah? Dhammaan wax ma fasiraan?"
+        },
+        {
+          "number": "31",
+          "text": "Laakiin aad u doona hadiyadaha u waaweyn.",
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Oo weliba waxaan idin tusayaa jid kan ka sii wanaagsan."
+            }
+          ]
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Hadiyadaha Ruuxa Oo Kala Duduwan Oo Isku Ruux Ah"
+      ]
+    },
+    {
+      "chapter": 13,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Haddaan ku hadlo afafka dadka iyo malaa'igaha, laakiinse aanan jacayl lahayn, waxaan noqday naxaas dhawaaqaysa ama saxan bir ah oo sanqadhaya oo kale.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Oo haddaan leeyahay hadiyadda wax sii sheegidda, oo aan garanayo waxyaalaha qarsoon oo dhan iyo aqoonta oo dhan, iyo haddaan leeyahay rumaysadka oo dhan oo aan buuraha ku dhaqaajiyo, laakiinse aanan jacayl lahayn, waxba ma ihi."
+        },
+        {
+          "number": "3",
+          "text": "Oo wax kastaan leeyahay haddaan bixiyo oo masaakiinta ku quudiyo, iyo haddaan jidhkayga bixiyo in la gubo, laakiinse aanan jacayl lahayn, waxba ii tari maayo."
+        },
+        {
+          "number": "4",
+          "text": "Jacaylku waa samir badan yahay, waana raxiim, jacaylku ninna ma xasdo, jacaylku ma faano, mana kibro,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "5",
+          "text": "wax aan u ekayn ma falo, nafsaddiisana wax uma doondoono, mana xanaaqo, sharna kuma fikiro,"
+        },
+        {
+          "number": "6",
+          "text": "xaqdarrada kuma farxo, laakiin wuxuu ku farxaa runta."
+        },
+        {
+          "number": "7",
+          "text": "Wax walba wuu u dulqaataa, wax walba wuu rumaystaa, wax walba wuu rajeeyaa, wax walba wuu u adkaystaa."
+        },
+        {
+          "number": "8",
+          "text": "Jacaylku weligii ma idlaado. Hadday wax sii sheegiddii jirto, way baabbi'i doontaa, hadday afaf jiraan way dhammaan doonaan, hadday aqooni jirto way baabbi'i doontaa.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Waayo, waxaynu naqaan waa qabyo, oo si qabyo ahaan ah ayaynu wax u sii sheegnaa."
+        },
+        {
+          "number": "10",
+          "text": "Laakiin markii waxa dhammi ay yimaadaan, waxa qabyada ahi way idlaan doonaan."
+        },
+        {
+          "number": "11",
+          "text": "Markaan ilmo yar ahaan jiray, sidii ilmo oo kale ayaan u hadli jiray, sidii ilmo oo kale ayaan wax u garan jiray, sidii ilmo oo kale ayaan u fikiri jiray, laakiinse haatan waxaan noqday nin weyn, oo waxyaalihii carruurnimada waan iska fogeeyey.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Haatan si aan caddaan ahayn ayaynu muraayad wax ugu aragnaa, laakiin markaas ka fool ka fool ayaynu wax u arki doonnaa. Hadda si qabyo ahaan ah ayaan wax u garanayaa, laakiin markaas waxaan u garan doonaa sidii la ii gartay."
+        },
+        {
+          "number": "13",
+          "text": "Haddabase waxa waaraa waa saddexdan, rumaysad iyo rajo iyo jacayl; laakiin kuwan waxaa ugu wada weyn jacayl."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Jacaylku Waa Hadiyadda U Weyn"
+      ]
+    },
+    {
+      "chapter": 14,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Jacaylka raaca, oo weliba hadiyadaha Ruuxa ka yimaada aad u doona, oo siiba doona inaad wax sii sheegtaan.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Waayo, kii af uusan aqoon ku hadlaa, lama hadlo dadka, wuxuuse la hadlaa Ilaah, waayo, ninna ma garto; laakiin Ruuxa ayaa waxyaalaha qarsoon kaga dhex hadliya."
+        },
+        {
+          "number": "3",
+          "text": "Laakiin kii wax sii sheegaa wuxuu dadka kula hadlaa hadallo wax dhisa oo gargaar iyo qalbiqaboojis leh."
+        },
+        {
+          "number": "4",
+          "text": "Kii af uusan aqoon ku hadlaa wuu isdhisaa, laakiin kii wax sii sheegaa wuxuu dhisaa kiniisadda."
+        },
+        {
+          "number": "5",
+          "text": "Waxaan jeclaan lahaa inaad dhammaantiin afaf ku wada hadashaan, laakiin waxaan ka sii jeclaan lahaa inaad wax sii sheegtaan. Kii afaf ku hadlaa hadduusan fasirin, waxaa ka sii weyn kii wax sii sheega, si ay kiniisaddu u hesho wax ay ku dhisanto.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "Laakiin hadda, walaalayaalow, haddaan idiin imaado, anigoo afaf ku hadlaya, maxaan idiin tari doonaa, haddaanan idinkula hadlin muujin ama aqoon ama wax sii sheegid ama waxbarid?"
+        },
+        {
+          "number": "7",
+          "text": "Xataa waxyaalo aan naf lahayni markay dhawaaqaan, ha ahaadeen ama biibiile ama kataarad, haddaanay dhawaaqa kala soocin, sidee baa loo kala garanayaa waxa la yeedhiyo ama waxa kataaradda laga dhawaajiyo?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Hadduu buunku ku dhawaaqo cod aan la kala garan, yaa dagaal isu diyaargarayn doona?"
+        },
+        {
+          "number": "9",
+          "text": "Sidaasoo kalena idinku markaad af ku hadashaan haddaydnan ku hadlin hadal la garto, sidee baa loo garanayaa waxa lagu hadlayo? Waayo, dabayshaad la hadlaysaan.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Mindhaa waxaa dunida jira codad badan oo kala cayn ah, oo mid aan micne lahayni ma jiro."
+        },
+        {
+          "number": "11",
+          "text": "Haddaba haddaanan garanaynin micnaha codka, waxaan kii hadlaya u ahaan doonaa nin qalaad, kan hadlayaana nin qalaad ayuu ii ahaan doonaa."
+        },
+        {
+          "number": "12",
+          "text": "Sidaasoo kale idinkuna, idinkoo ku kulul hadiyadaha ruuxa, aad u dadaala inaad hadiyado badan u lahaataan kiniisadda dhisniinteeda."
+        },
+        {
+          "number": "13",
+          "text": "Sidaa daraaddeed kii af ku hadlaa, Ilaah ha ka baryo si uu u fasiro.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Waayo, haddaan Ilaah af aanan oqoon ku baryo, ruuxayga ayaa barya, laakiin garashadaydu faa'iido ma leh."
+        },
+        {
+          "number": "15",
+          "text": "Maxaa jira haddaba? Ruuxa ayaan Ilaah ku baryi doonaa, laakiin waxaan kaloo isaga ku baryi doonaa garashada. Ruuxa ayaan ku heesi doonaa, oo garashadana waan ku heesi doonaa."
+        },
+        {
+          "number": "16",
+          "text": "Haddii kale haddaad ruuxa ku ducaysid, kii meesha jooga oo aan garanaynin, sidee buu u odhan doonaa, Aamiin, markaad mahadnaqaysid, hadduusan garanaynin waxaad leedahay?"
+        },
+        {
+          "number": "17",
+          "text": "Si wanaagsan baad u mahadnaqdaa, laakiin kan kale ma dhisna."
+        },
+        {
+          "number": "18",
+          "text": "Waxaan Ilaah ugu mahadnaqayaa inaan afaf ku hadlo intaad dhammaantiin ku hadashaan in ka badan,"
+        },
+        {
+          "number": "19",
+          "text": "laakiin kiniisadda dhexdeeda, meeshii aan toban kun oo eray af kaga hadli lahaa, waxaan ka jeclaan lahaa inaan shan eray garashadayda ku hadlo inaan kuwa kalena wax baro."
+        },
+        {
+          "number": "20",
+          "text": "Walaalayaalow, carruur ha ka noqonina xagga maanka, xagga xumaantase dhallaan ka ahaada, laakiin xagga maanka dad waaweyn ka ahaada.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "Waxaa sharciga ku qoran, Waxaan dadkan kula hadli doonaa afaf qalaad iyo bushimo dad kale, oo xataa sidaa daraaddeed ima maqli doonaan, ayuu Rabbigu leeyahay."
+        },
+        {
+          "number": "22",
+          "text": "Haddaba afafku calaamo uma aha kuwa rumaysta ee waxay calaamo u yihiin kuwa aan rumaysan, wax sii sheegidduse calaamo uma aha kuwa aan rumaysan, laakiin waxay calaamo u tahay kuwa rumaysta."
+        },
+        {
+          "number": "23",
+          "text": "Haddaba haddii kiniisadda oo dhammu isu timaado, oo ay ku wada hadlaan afaf, oo haddii dad aan garanaynin ama aan rumaysanayni soo galaan, miyaanay odhanaynin, Waad waalan tihiin?"
+        },
+        {
+          "number": "24",
+          "text": "Laakiin hadday dhammaantood wax sii sheegaan oo uu u yimaado mid aan rumaysanayn ama aan garanaynini, isaga waa la wada canaantaa, oo la wada xukumaa."
+        },
+        {
+          "number": "25",
+          "text": "Waxyaalaha qarsoon ee qalbigiisa waa la muujiyaa, oo taa aawadeed wejigiisuu u dhici doonaa oo Ilaah ayuu caabudi doonaa isagoo odhanaya, Runtii Ilaah waa idin dhex joogaa."
+        },
+        {
+          "number": "26",
+          "text": "Maxaa jira haddaba, walaalayaalow? Markaad isu timaadaan, mid kasta hees sabuur ah buu leeyahay, midna waxbarid buu leeyahay, midna muujin buu leeyahay, midna af buu leeyahay, midna fasiraad buu leeyahay. Wax walba ha loo sameeyo dhisniin.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Waa In Ilaah Si Hagaagsan Loo Caabudo"
+          ]
+        },
+        {
+          "number": "27",
+          "text": "Haddii nin uun af ku hadlo, ha ahaadeen laba, ama hadday u bataan, saddex, oo midba markiisa ha hadlo, midna ha fasiro,"
+        },
+        {
+          "number": "28",
+          "text": "laakiin haddaan mid fasiraa jirin, kiniisadda ha ka aamusnaado, oo isagu ha la hadlo qudhiisa iyo Ilaah."
+        },
+        {
+          "number": "29",
+          "text": "Nebiyadana laba ama saddex ha hadleen, kuwa kalena ha kala xukumeen waxay leeyihiin."
+        },
+        {
+          "number": "30",
+          "text": "Laakiin haddii wax loo muujiyo mid ag fadhiya, kii hore ha aamuso."
+        },
+        {
+          "number": "31",
+          "text": "Waayo, dhammaantiin mid mid baad wax u sii wada sheegi kartaan, si ay dhammaan wax u bartaan oo dhammaan loogu wada gargaaro."
+        },
+        {
+          "number": "32",
+          "text": "Oo ruuxyada nebiyadu waa ka dambeeyaan nebiyada."
+        },
+        {
+          "number": "33",
+          "text": "Waayo, Ilaah ma aha Ilaaha iskuqasnaanta, laakiin waa kan nabadda. Kiniisadaha quduusiinta oo dhan dhexdoodana waa sidaas oo kale."
+        },
+        {
+          "number": "34",
+          "text": "Dumarku markay kiniisadaha joogaan ha aamuseen, waayo, looma fasixin inay hadlaan; laakiin ha dambeeyeen, sida uu sharcigu leeyahay.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "35",
+          "text": "Hadday doonayaan inay wax bartaan, nimankooda ha ku weyddiiyeen guriga, maxaa yeelay, waa ku ceeb naag inay kiniisadda dhexdeeda ku hadasho."
+        },
+        {
+          "number": "36",
+          "text": "Maxaa jira! Ma idinkay ahaayeen kuwii uu ereyga Ilaah ka soo baxay, mise keligiin buu idiin yimid?"
+        },
+        {
+          "number": "37",
+          "text": "Nin uun hadduu isu maleeyo inuu nebi yahay, ama mid Ruuxa raaca, ha garto waxyaalahaan idiin soo qorayo inay yihiin qaynuunka Rabbiga.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "38",
+          "text": "Nin uuni hadduusan ogayn tan, isagana lama yaqaan."
+        },
+        {
+          "number": "39",
+          "text": "Taa aawadeed, walaalahayow, ku dadaala inaad wax sii sheegtaan, hana diidina in afaf lagu hadlo,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "40",
+          "text": "laakiin wax walba ha loo sameeyo si habboon oo hagaagsan."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Hadiyadaha Wax Sii Sheegidda Iyo Kuhadlidda Afafka Kale"
+      ]
+    },
+    {
+      "chapter": 15,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Walaalayaalow, waxaan idin ogeysiinayaa injiilka aan idinku wacdiyey, oo aad idinkuna aqbasheen, oo aad ku taagan tihiin,",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "oo aadna ku badbaaddeen, haddaad xajisaan hadalkii aan idinku wacdiyey, haddaydnan micnela'aan u rumaysan."
+        },
+        {
+          "number": "3",
+          "text": "Waayo, markii ugu horraysay waxaan idiin dhiibay waxaan aniguba helay, oo waxa weeye, Masiixu wuxuu u dhintay dembiyadeenna sida Qorniinku leeyahay,"
+        },
+        {
+          "number": "4",
+          "text": "waa la aasay isaga, oo maalintii saddexaad ayaa la sara kiciyey, sida Qorniinku leeyahay."
+        },
+        {
+          "number": "5",
+          "text": "Markaasuu Keeyfas u muuqday, markii dambena laba iyo tobankii."
+        },
+        {
+          "number": "6",
+          "text": "Markaasuu wuxuu mar keliya u muuqday kuwo ka badan shan boqol oo walaalo ah, kuwo weli intoodii badnayd ay hadda joogto, laakiin qaar baa dhintay."
+        },
+        {
+          "number": "7",
+          "text": "Gortaasuu Yacquub u muuqday, markaas rasuullada oo dhan."
+        },
+        {
+          "number": "8",
+          "text": "Markii ugu dambaysayna aniga oo dhicis oo kale ah, ayuu ii muuqday."
+        },
+        {
+          "number": "9",
+          "text": "Waayo, anigu waxaan ahay kan rasuullada u liita oo aan istaahilin in loogu yeedho rasuul, waayo, kiniisadda Ilaah baan silcin jiray."
+        },
+        {
+          "number": "10",
+          "text": "Laakiin Ilaah nimcadiisa ayaan ku ahay waxaan ahayba, oo nimcadiisii lay siiyeyna wax aan waxtar lahayn ma ay noqon, laakiin anigu waxaan u hawshooday si ka badan dhammaantood, anigase ma aha laakiin waa nimcada Ilaah ee ila jirtay."
+        },
+        {
+          "number": "11",
+          "text": "Haddaba ha ahaato aniga ama iyaga, sidaasaannu u wacdinnaa oo idinna u rumaysateen."
+        },
+        {
+          "number": "12",
+          "text": "Haddii dadka lagu wacdiyey in Masiixa kuwii dhintay laga sara kiciyey, sidee baa qaarkiin u yidhaahdaa, Sarakicidda kuwii dhintay ma jirto?",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Sarakicidda Kuwii Dhintay"
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Haddaanay jirin sarakicidda kuwii dhintay, Masiixana lama sara kicin."
+        },
+        {
+          "number": "14",
+          "text": "Oo haddaan Masiixa la sara kicin, markaas wacdigayagu waa khasaare, rumaysadkiinnuna waa khasaare."
+        },
+        {
+          "number": "15",
+          "text": "Waxaa la arkayaa inaannu markhaatiyaal been ah ka nahay xagga Ilaah, waayo, waxaannu u marag furnay inuu Masiixa sara kiciyey, kan aanu sara kicin haddii aan kuwii dhintay la sara kicin."
+        },
+        {
+          "number": "16",
+          "text": "Haddii aan kuwii dhintay la sara kicin, Masiixana lama sara kicin."
+        },
+        {
+          "number": "17",
+          "text": "Oo haddii aan Masiixa la sara kicin, rumaysadkiinnu waa khasaare, oo weli dembiyadiinna ayaad ku jirtaan."
+        },
+        {
+          "number": "18",
+          "text": "Oo weliba kuwii Masiixa rumaysnaa oo dhintayna, way halligmeen."
+        },
+        {
+          "number": "19",
+          "text": "Haddaynu noloshan oo keliya Masiix ku rajayn lahayn, waxaynu ahaan lahayn kuwa u liita dadka loo naxo oo dhan."
+        },
+        {
+          "number": "20",
+          "text": "Laakiinse haatan Masiixa ayaa kuwii dhintay laga sara kiciyey, isagoo ah midhaha ugu horreeya ee kuwa dhintay.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "21",
+          "text": "Dhimashadu nin bay ku timid, saas aawadeed sarakicidda kuwii dhintayna nin bay ku timid."
+        },
+        {
+          "number": "22",
+          "text": "Siday dhammaan Aadan ugu wada dhintaan, sidaas oo kalaa dhammaan Masiixa loogu wada noolayn doonaa,"
+        },
+        {
+          "number": "23",
+          "text": "laakiin mid kasta markiisa, Masiixa midhaha ugu horreeya, markaas kuwa Masiixana wakhtiga imaatinkiisa."
+        },
+        {
+          "number": "24",
+          "text": "Markaasaa dhammaadku iman doonaa, markuu isagu boqortooyada u dhiibi doono Ilaaha Aabbaha ah, markuu baabbi'iyo madax walba iyo amar walba iyo xoog walba dabadeed."
+        },
+        {
+          "number": "25",
+          "text": "Waayo, waa inuu wax xukumo ilaa uu cadaawayaashiisa oo dhan cagihiisa hoostooda geliyo."
+        },
+        {
+          "number": "26",
+          "text": "Oo cadaawaha ugu dambeeya ee la baabbi'in doonaa waa dhimasho."
+        },
+        {
+          "number": "27",
+          "text": "Waayo, Wax walba cagihiisa hoostooduu geliyey. Laakiin markuu yidhaahdo, Wax walba waa la hoos geliyey, way cad dahay in laga reebay kan wax walba hoostiisa geliyey."
+        },
+        {
+          "number": "28",
+          "text": "Markii wax walba la hoos geliyo isaga, markaas ayaa Wiilka qudhiisana la hoos gelin doonaa kan wax walba hoos geliyey isaga, inuu Ilaah wax walba u ahaado dhammaan."
+        },
+        {
+          "number": "29",
+          "text": "Haddii kale maxay samayn doonaan kuwa loo baabtiisay kuwii dhintay? Haddii aan kuwii dhintay la sara kicinba, maxaa haddana loogu baabtiisaa iyaga?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "30",
+          "text": "Maxaynu saacad walba haalis ugu jirnaa?"
+        },
+        {
+          "number": "31",
+          "text": "Faanka aan idiin qabo xagga Rabbigeenna Ciise Masiix ayaan ku caddaynayaa, walaalayaalow, inaan maalin walba dhinto."
+        },
+        {
+          "number": "32",
+          "text": "Haddii aan sida dadka dugaag ugu la dagaallamay Efesos, maxay ii taraysaa? Haddii aan kuwii dhintay la sara kicin, aynu wax cunno oo cabno, waayo, berrito waynu dhiman doonnaaye."
+        },
+        {
+          "number": "33",
+          "text": "Yaan laydin khiyaanayn, kuwa xun lasocodkoodu waa halleeya asluubta wanaagsan."
+        },
+        {
+          "number": "34",
+          "text": "Si qumman u toosa oo hana dembaabina, waayo, qaar baan Ilaahba aqoonin. Waxaan taas u leeyahay inaan idinka xishoodsiiyo."
+        },
+        {
+          "number": "35",
+          "text": "Laakiin mid baa odhan doona, Sidee baa kuwii dhintay loo sara kiciyaa? Oo jidh caynkee ah bay ku yimaadaan?",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "36",
+          "text": "Doqon yahow, waxaad adigu beertid ma noolaado haddaanu dhiman."
+        },
+        {
+          "number": "37",
+          "text": "Oo waxaad beertidba ma beertid jidhka noqonaya, laakiin iniintoo qudha, ha ahaato iniin sarreen ah, ama iniin cayn kale ah."
+        },
+        {
+          "number": "38",
+          "text": "Laakiin Ilaah wuxuu iyada siiyaa jidh siduu u doonayay, iniin kastana jidhkeeda."
+        },
+        {
+          "number": "39",
+          "text": "Hilib oo dhammu isku hilib ma aha, laakiin waxaa jira hilibka dadka iyo hilibka kaloo dugaagga, iyo hilibka kaloo shimbirraha, iyo hilibka kaloo kalluunka."
+        },
+        {
+          "number": "40",
+          "text": "Oo waxaa jira jidhadhka samada iyo jidhadhka dhulka, laakiin ammaanta kuwa samadu waa mid, oo tan kuwa dhulkuna waa mid kale."
+        },
+        {
+          "number": "41",
+          "text": "Waxaa jirta ammaanta qorraxda iyo ammaanta kaloo dayaxa iyo ammaanta kaloo xiddigaha, waayo, xiddiguba xiddigta kale way ka ammaan duwan tahay."
+        },
+        {
+          "number": "42",
+          "text": "Sarakicidda kuwii dhintayna waa sidaas oo kale. Waxaa lagu beeraa qudhun, waxaana lagu sara kiciyaa qudhunla'aan."
+        },
+        {
+          "number": "43",
+          "text": "Waxaa lagu beeraa maamuusla'aan, waxaana lagu sara kiciyaa ammaan, waxaa lagu beeraa itaaldarro, waxaa lagu sara kiciyaana xoog."
+        },
+        {
+          "number": "44",
+          "text": "Waxaa la beeraa jidh naf leh, waxaana la sara kiciyaa jidh ruux leh. Hadduu jiro jidh naf leh, jidh ruux lihina waa jiraa."
+        },
+        {
+          "number": "45",
+          "text": "Haddaba waxaa qoran, Aadan oo ahaa ninkii ugu horreeyey wuxuu noqday naf nool, Aadankii ugu dambeeyeyse wuxuu noqday ruux wax nooleeya."
+        },
+        {
+          "number": "46",
+          "text": "Hase ahaatee, kan ruuxa lihi ma aha kii ugu horreeyey laakiin kan nafta leh, markaasna kan ruuxa leh."
+        },
+        {
+          "number": "47",
+          "text": "Ninkii ugu horreeyey waa kan dhulka oo cammuud ah, ninkii labaadna waa kan jannada."
+        },
+        {
+          "number": "48",
+          "text": "Sida kan cammuudda ah kuwa cammuud ahina waa sidaas oo kale, oo sida kan jannada, kuwa jannaduna waa sidaas oo kale."
+        },
+        {
+          "number": "49",
+          "text": "Oo sidaynu ugu eg nahay kan cammuudda ah, sidaas oo kale ayaynu ugu ekaan doonnaa kan jannada."
+        },
+        {
+          "number": "50",
+          "text": "Waxaan leeyahay, walaalayaalow, Jidhka iyo dhiiggu ma dhaxli karaan boqortooyada Ilaah. Qudhunkuna ma dhaxli karo qudhunla'aanta.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "51",
+          "text": "Eega, waxaan idiin sheegayaa wax qarsoon. Dhammaanteen ma wada dhiman doonno, laakiin dhammaanteen waa layna beddeli doonaa,"
+        },
+        {
+          "number": "52",
+          "text": "dhaqsiba, intaan il laysku qaban, markii buunka ugu dambeeya la yeedhiyo; waayo, buunku waa dhawaaqi doonaa oo kuwii dhintayna qudhunla'aan baa la sara kicin doonaa, waana layna beddeli doonaa."
+        },
+        {
+          "number": "53",
+          "text": "Waayo, kan qudhmayaa waa inuu gashado qudhunla'aanta, oo kan dhimanayaana waa inuu gashado dhimashola'aanta."
+        },
+        {
+          "number": "54",
+          "text": "Markii kan qudhmayaa uu gashado qudhunla'aanta, oo kan dhimanayaana uu gashado dhimashola'aanta, markaas hadalka qorani wuu noqon doonaa ee ah, Dhimashadii waxaa liqday libtii."
+        },
+        {
+          "number": "55",
+          "text": "Dhimashoy, meeday libtaadii? Dhimashoy, meeday micidaadii?"
+        },
+        {
+          "number": "56",
+          "text": "Micida dhimashadu waa dembiga, oo xoogga dembiguna waa sharciga."
+        },
+        {
+          "number": "57",
+          "text": "Laakiin Ilaah baa mahad leh kan libta inagu siiya Rabbigeenna Ciise Masiix."
+        },
+        {
+          "number": "58",
+          "text": "Sidaa daraaddeed, walaalahaygii aan jeclahayow, noqda kuwa adag, oo aan dhaqaaqayn, oo had iyo goorba shuqulka Rabbiga si aad ah u sameeya, idinkoo og hawshiinnu inayan khasaare ahayn xagga Rabbiga."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Sarakicidda Masiixa"
+      ]
+    },
+    {
+      "chapter": 16,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Haddaba sidaan u amray kiniisadihii Galatiya, inay wax u ururshaan quduusiinta, idinkuna sidaas oo kale yeela.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Maalinta ugu horraysa ee toddobaadka midkiin kastaa meel wax ha dhigo oo ha hayo wixii lagu barwaaqeeyey, si markaan imaado aan waxba loo ururin."
+        },
+        {
+          "number": "3",
+          "text": "Oo markaan imaado, kuwaad u bogteen ayaan warqado u dhiibi doonaa, oo waxaan u diri doonaa inay hadiyaddiinna Yeruusaalem geeyaan."
+        },
+        {
+          "number": "4",
+          "text": "Oo hadday ila noqoto inaan aniguna tago, way i raaci doonaan."
+        },
+        {
+          "number": "5",
+          "text": "Markaan Makedoniya soo maro dabadeed ayaan idiin iman doonaa, waayo, Makedoniya waan soo marayaa.",
+          "source_markers_before": [
+            "s1",
+            "p"
+          ],
+          "source_headings_before": [
+            "Bawlos Arrimihiisii Iyo Nabadgelyaynta"
+          ]
+        },
+        {
+          "number": "6",
+          "text": "Mindhaa cabbaar baan idinla joogi doonaa, xataa xilliga qabowga oo dhan, si aad iigu ambabbixisaan meel alla meeshaan tegi doono."
+        },
+        {
+          "number": "7",
+          "text": "Waayo, dooni maayo inaan hadda idin arko markaan sii socdo, maxaa yeelay, waxaan rajaynayaa inaan cabbaar idinla joogo, haddii Rabbigu idmo."
+        },
+        {
+          "number": "8",
+          "text": "Laakiin waxaan sii joogayaa Efesos ilaa maalinta Bentekoste."
+        },
+        {
+          "number": "9",
+          "text": "Waayo, waxaa la ii furay albaab weyn oo shuqul ah, cadaawayaal badanina way jiraan."
+        },
+        {
+          "number": "10",
+          "text": "Timoteyos hadduu yimaado, dhawra, oo cabsila'aan ha idinkula joogo, waayo, wuxuu ka shaqeeyaa shuqulka Rabbiga sidayda oo kale.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Haddaba ninna yuusan fududaysan isaga. Laakiin nabad ku soo ambabbixiya, ha ii yimaadee, waayo, waxaan filanayaa inuu walaalaha soo raaco."
+        },
+        {
+          "number": "12",
+          "text": "Xagga walaalka Abolloos aad baan u baryay isaga inuu walaalaha sii raaco oo idiin yimaado, laakiin raalli kama uu ahayn inuu haatan yimaado, laakiin wuu iman doonaa markuu nefis helo."
+        },
+        {
+          "number": "13",
+          "text": "Soo jeeda, iimaanka ku adkaada, rag ahaada, xoogooba.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Wax kastoo aad samaysaanba, jacayl ku sameeya."
+        },
+        {
+          "number": "15",
+          "text": "Walaalayaalow, waad garanaysaan kuwa guriga Istefanas jooga inay yihiin midhaha ugu horreeyey ee Akhaya iyo inay isu bixiyeen inay quduusiinta u adeegaan. Waxaan idinka baryayaa",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "16",
+          "text": "inaad ka dambaysaan kuwaas oo kale iyo mid kasta oo la shaqeeya oo hawshooda."
+        },
+        {
+          "number": "17",
+          "text": "Waxaan ku faraxsanahay imaatinka Istefanas iyo Fortunatos iyo Akhaykos, maxaa yeelay, wixii xaggiinna ka dhinnaa iyagaa dhammaystiray."
+        },
+        {
+          "number": "18",
+          "text": "Waayo, ruuxayga iyo kiinnaba iyagaa nasiyey. Taa aawadeed aqoonsada kuwaas oo kale."
+        },
+        {
+          "number": "19",
+          "text": "Kiniisadaha Aasiya way idin soo salaamayaan. Akula iyo Bariskillana aad bay idiin soo salaamayaan xagga Rabbiga, iyaga iyo kiniisadda gurigooda ku taalba.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Walaalaha oo dhammu way idin soo salaamayaan. Isku salaama dhunkasho quduus ah."
+        },
+        {
+          "number": "21",
+          "text": "Anigoo Bawlos ah ayaan salaantan gacantayda ku qorayaa.",
+          "source_markers_before": [
+            "p"
+          ]
+        },
+        {
+          "number": "22",
+          "text": "Qof uun hadduusan Rabbiga jeclayn, ha inkaarnaado. Rabbigeennu waa imanayaa."
+        },
+        {
+          "number": "23",
+          "text": "Nimcada Rabbi Ciise Masiix ha idinla jirto."
+        },
+        {
+          "number": "24",
+          "text": "Dhammaantiin jacaylkaygu ha idinla jiro xagga Ciise Masiix. Aamiin."
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "Wax-u-Ururinta Masaakiinta Yeruusaalem"
+      ]
+    }
+  ]
+}

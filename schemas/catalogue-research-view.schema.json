@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/schemas/catalogue-research-view.schema.json",
+  "title": "Local catalogue research view link",
+  "description": "A locally stored research artifact surfaced from a catalogue record. This does not assert that the artifact is a verified scripture reader.",
+  "type": "object",
+  "required": ["title", "path", "link_label", "scope_note"],
+  "properties": {
+    "title": {"type": "string", "minLength": 1},
+    "path": {"type": "string", "pattern": "^research/[^?#]+\\.html$"},
+    "link_label": {"type": "string", "minLength": 1},
+    "scope_note": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false
+}

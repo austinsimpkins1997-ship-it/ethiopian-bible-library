@@ -1,0 +1,120 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/genesis-brenton-english-1851",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/genesis-lxx",
+  "labels": [
+    {
+      "value": "English companion — Brenton Septuagint (1851)",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-septuagint-1851-genesis",
+    "witness_type": "printed_edition",
+    "title": "The Septuagint Version of the Old Testament: According to the Vatican Text, Translated into English",
+    "date_statement": "1851",
+    "repository_or_publisher": "Lancelot Charles Lee Brenton; local text captured from eBible.org",
+    "shelfmark_or_edition_id": null,
+    "editorial_policy": "Historical English wording and source labels are retained, including lettered verse labels and translator/editor notes.",
+    "source_ids": [
+      "SRC-037",
+      "SRC-038"
+    ]
+  },
+  "layer_type": "translation",
+  "language_tag": "en",
+  "language_name_as_recorded": "English",
+  "script_code": "Latn",
+  "basis_path": [
+    "grc",
+    "en"
+  ],
+  "agents": [
+    {
+      "role": "translator",
+      "name": "Sir Lancelot Charles Lee Brenton",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-037",
+        "SRC-038"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/genesis-brenton.json",
+    "media_type": "application/json",
+    "sha256": "369fc6e10fb2dbef681a56e713b1ed0d2ccc9bf550d49fe9768ecd75af5980a0",
+    "format_version": "1"
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 1532,
+    "structure_description": "50 chapter pages; 1,532 English labels, including lettered labels.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "Translator/editor notes and source notation are retained in the local reader record.",
+    "numbering_policy": "Printed labels are preserved. Shared labels with the Geʽez layer are navigation aids, not verified one-to-one equivalents."
+  },
+  "rights": {
+    "status": "public_domain_claimed",
+    "statement": "The cited eBible.org source identifies Brenton's 1851 English translation as public domain. This claim is separate from rights in the Geʽez transcription and any source website presentation.",
+    "license_id": null,
+    "rights_holder": null,
+    "attribution_required": true,
+    "territory_or_term_limits": "Public-domain status is recorded for this historical English translation; it does not clear other editions or layers.",
+    "evidence_source_ids": [
+      "SRC-037",
+      "SRC-038"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "Captured source pages for chapters 1–50, with ordered, nonempty labels and retained notes.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-037",
+        "SRC-038"
+      ],
+      "notes": "Checks capture inventory and ordering, not an independent collation against the 1851 print edition.",
+      "review_method": "automated_validation",
+      "review_process": "Archive build validation"
+    },
+    {
+      "dimension": "translation_accuracy",
+      "state": "unknown",
+      "scope": "No fresh review against the Greek Septuagint or Brenton's printed edition.",
+      "reviewer": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-037",
+        "SRC-038"
+      ],
+      "notes": "The English text is identified as translated from Greek, not from the bundled Geʽez transcription.",
+      "review_method": "unknown",
+      "review_process": null
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "The historical translation's cited public-domain status.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-037",
+        "SRC-038"
+      ],
+      "notes": "The conclusion applies to Brenton's translation only, not the other text layers in this archive.",
+      "review_method": "unknown",
+      "review_process": null
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "This is a Greek-to-English translation layer from a distinct Septuagint work. It is paired in the reader with the EOTC Geʽez Genesis transcription for navigation; no EOTC edition membership or textual identity is asserted.",
+  "text_origin": "published_translation"
+}

@@ -1,0 +1,142 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/jubilees-geez-hacohen",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/jubilees-eotc",
+  "labels": [
+    {
+      "value": "Jubilees — Geʽez reader",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-13",
+      "mapping_state": "asserted_by_source",
+      "evidence_source_ids": [
+        "SRC-029"
+      ],
+      "notes": "The Church-list index names Jubilees at this entry; this reader is the selected Ran HaCohen transcription, not a claim that every EOTC edition is identical."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/jubilees-betamasaheft-ran",
+    "witness_type": "transcription",
+    "title": "Ran HaCohen transcription, edition Ran in Beta maṣāḥǝft TEI record LIT1697Jubilees",
+    "date_statement": null,
+    "repository_or_publisher": "Beta maṣāḥǝft project; source TEI transcription by Ran HaCohen",
+    "shelfmark_or_edition_id": "LIT1697Jubilees, edition xml:id=Ran",
+    "editorial_policy": "The archive extracts only the explicitly licensed Ran edition; the separate standard EOTC printed edition in the parent TEI file is withheld pending rights review.",
+    "source_ids": [
+      "SRC-040",
+      "SRC-041"
+    ]
+  },
+  "layer_type": "source_text_transcription",
+  "language_tag": "gez",
+  "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+  "script_code": "Ethi",
+  "basis_path": [
+    "gez"
+  ],
+  "agents": [
+    {
+      "role": "transcriber",
+      "name": "Ran HaCohen",
+      "authority_or_affiliation": "Beta maṣāḥǝft TEI record LIT1697Jubilees",
+      "source_ids": [
+        "SRC-040",
+        "SRC-041"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/jubilees-geez-hacohen.json",
+    "media_type": "application/json",
+    "sha256": "a178db0736e891dcc5e9796c3ae12372176e95e0da9dac53f4df824a94fd24d7",
+    "format_version": "1"
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 1139,
+    "structure_description": "50 source chapters and 1,139 displayed text units; original TEI line markers are retained separately from display order.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "The TEI incipit is unnumbered and excluded from numbered chapters; consult the locally pinned source extract for its diplomatic structure.",
+    "numbering_policy": "Source n markers can repeat or skip. Reader display order is a navigation sequence, not canonical verse numbering."
+  },
+  "rights": {
+    "status": "open_license",
+    "statement": "The selected Ran HaCohen transcription is identified as CC BY-SA 4.0. Attribute the source/transcriber, identify changes, and distribute adaptations under the same license.",
+    "license_id": "CC-BY-SA-4.0",
+    "rights_holder": "Ran HaCohen",
+    "attribution_required": true,
+    "territory_or_term_limits": "This statement covers the selected Ran transcription only. The separate EOTC printed edition in the parent TEI record is not included.",
+    "evidence_source_ids": [
+      "SRC-040",
+      "SRC-041"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "Selected edition xml:id=Ran in the pinned Beta maṣāḥǝft TEI record.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-040",
+        "SRC-041"
+      ],
+      "notes": "The source snapshot also contains another edition; the public reader is generated from a Ran-only extract.",
+      "review_method": "automated_validation",
+      "review_process": "Archive build validation"
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "Chapters 1–50, nonempty line text, and all source n markers retained.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-041"
+      ],
+      "notes": "Source labels repeat and skip; no canonical verse numbering is inferred.",
+      "review_method": "automated_validation",
+      "review_process": "Archive build validation"
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "No independent collation against the cited manuscript witnesses.",
+      "reviewer": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-040",
+        "SRC-041"
+      ],
+      "notes": "The structural checks do not establish manuscript-level accuracy.",
+      "review_method": "unknown",
+      "review_process": null
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "Explicit CC BY-SA 4.0 statement for the Ran transcription only.",
+      "reviewer": null,
+      "reviewed_at": "2026-10-24",
+      "evidence_source_ids": [
+        "SRC-040",
+        "SRC-041"
+      ],
+      "notes": "Do not apply this license to the separate EOTC edition in the source TEI file.",
+      "review_method": "unknown",
+      "review_process": null
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "This layer is a source transcription. Its line labels are source data, not translated or editorially normalized verse references.",
+  "text_origin": "source_transcription"
+}

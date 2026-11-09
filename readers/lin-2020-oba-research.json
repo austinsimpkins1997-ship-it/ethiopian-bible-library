@@ -1,0 +1,542 @@
+{
+  "reader_id": "lin-2020-oba-research",
+  "research_corpus_id": "linbibo-2020-oba",
+  "canon_id": null,
+  "title": "Obadiah — Open Lingala Contemporary Bible",
+  "display_name": "Obadiah · Lingala · 2020",
+  "text_origin": "published_translation",
+  "translation_id": "linbibo-2020",
+  "language": "Lingála (publisher edition label)",
+  "language_tag": "ln",
+  "language_assignment_status": "The publisher identifies the language as Lingala and uses source code lin; the archive maps that witness to BCP 47 ln. IANA confirms ln as Lingala. Community review of this edition's language variety is not asserted.",
+  "script_code": "Latn",
+  "translator": "No individual translator named in the inspected edition record; Biblica, Inc. is identified as publisher and contributor.",
+  "contributor": "Biblica, Inc.",
+  "translation_basis_status": "unknown",
+  "translation_basis_note": "The inspected edition record does not state its source language or relay path.",
+  "edition": "Salela na bonsomi Mokanda na Bomoi / Open Lingala Contemporary Bible; publisher code LINBIB / lin; copyright © 2002, 2020 Biblica, Inc.",
+  "edition_scope": "One of 66 conventional USFM modules in the retained publisher package. The English book name is a navigation aid. No Ethiopian or Eritrean Orthodox canon crosswalk is assigned.",
+  "rights_classification": "open_license",
+  "license_id": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "copyright_notice": "Copyright © 2002, 2020 Biblica, Inc. Original work: Salela na bonsomi Mokanda na Bomoi / Open Lingala Contemporary Bible, eBible.org code LINBIB / lin. The inspected source identifies Biblica, Inc. as publisher and contributor; it does not name an individual translator. This reader is a derivative format conversion from USFM to JSON; source-format controls are structured or omitted, whitespace is normalized, and image assets are excluded. The derivative omits the registered Biblica mark, identifies the changes, attributes the original to Biblica, Inc., links https://www.biblica.com and https://open.bible, and is distributed under CC BY-SA 4.0. No endorsement is implied.",
+  "commercial_use": "CC BY-SA 4.0 permits redistribution, including commercially, and adaptation with attribution, change indication, and ShareAlike. The derivative removes the registered mark, includes Biblica attribution and source links, and is distributed under the same license. Image assets are excluded; no endorsement is implied.",
+  "unit_label": "Publisher USFM chapter/verse labels observed",
+  "unit_count": 21,
+  "verse_marker_count": 21,
+  "chapter_count": 1,
+  "section_label": "Chapter",
+  "chapter_structure_note": "The parser found 1 consecutive chapter divisions and 21 distinct source chapter/verse labels. Publisher book headings, source table rows/cells, section headings, paragraph structure, and notes are retained as structured fields; this does not prove print completeness.",
+  "chapter_structure_status": "source_package_parsed_with_limits",
+  "source_numbered_unit_count": 21,
+  "source_unnumbered_unit_count": 66,
+  "source_pages": "readers/source/lin/lin_usfm.zip::32-OBAlin.usfm",
+  "source_package_sha256": "a6dba51def1a0835e31be435821abebcc54d17bcb3ca2ce6df73c4aa7fd613b5",
+  "source_snapshot_sha256": "5377855bbcd2a52ae65f55b82dded587120cd1d7ac3a8206ee7a528ab1040463",
+  "source_ids": [
+    "SRC-393",
+    "SRC-394",
+    "SRC-395",
+    "SRC-077",
+    "SRC-078"
+  ],
+  "rights_status": "Copyright © 2002, 2020 Biblica, Inc. Original work: Salela na bonsomi Mokanda na Bomoi / Open Lingala Contemporary Bible, eBible.org code LINBIB / lin. The inspected source identifies Biblica, Inc. as publisher and contributor; it does not name an individual translator. This reader is a derivative format conversion from USFM to JSON; source-format controls are structured or omitted, whitespace is normalized, and image assets are excluded. The derivative omits the registered Biblica mark, identifies the changes, attributes the original to Biblica, Inc., links https://www.biblica.com and https://open.bible, and is distributed under CC BY-SA 4.0. No endorsement is implied.",
+  "verification_status": "The 70-member ZIP passed CRC; GnuPG verified its clear-signed SHA-256 list and all 66 USFM member hashes. The signer fingerprint 54D714D76956DA6673DC1EEA5F62009D93505F26 matches the key maintainer's published listing, subject to identity/custody and legacy DSA-1024/SHA-1 limitations. All 21 source verse lines and 0 source table rows match their structured reader text exactly after stripping USFM controls and normalizing whitespace. This is an automated format-conversion comparison, not human proofreading, completeness review, or translation validation.",
+  "transcription_note": "This is a format conversion of the publisher's USFM into reader JSON, not a new translation. USFM markers are structured or removed, whitespace is normalized, and punctuation/word sequence in checked verse lines and table cells is retained. Changes are identified for CC BY-SA 4.0. The registered trademark mark is removed from this derivative as required by the source notice. Original USFM is retained verbatim.",
+  "editorial_signs_note": "Book identity and headings, source table cells, verse labels, section headings, paragraph/poetry/list structure, front matter, and notes are represented in structured fields. The reader exposes source tables in a responsive, horizontally scrollable semantic table. Original USFM remains available for markup inspection; images are excluded under their separate terms.",
+  "front_matter": [],
+  "source_book_metadata": [
+    {
+      "marker": "h",
+      "text": "Abidiasi"
+    },
+    {
+      "marker": "toc1",
+      "text": "Abidiasi"
+    },
+    {
+      "marker": "toc2",
+      "text": "Abidiasi"
+    },
+    {
+      "marker": "toc3",
+      "text": "Abd"
+    },
+    {
+      "marker": "mt1",
+      "text": "Abidiasi"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "number": "1",
+          "text": "Emoniseli ya mosakoli Abidiasi.",
+          "source_markers_before": [
+            "p"
+          ],
+          "continuations": [
+            {
+              "source_marker": "p",
+              "text": "Tala liloba oyo Nkolo Yawe alobi na tina na Edomi :"
+            },
+            {
+              "source_marker": "q1",
+              "text": "« Toyoki sango moko kowuta na Yawe ;"
+            },
+            {
+              "source_marker": "q2",
+              "text": "mpe ntoma moko atindami na bikolo mpo na koloba :"
+            },
+            {
+              "source_marker": "q1",
+              "text": "‹ Botelema. Tokende kobundisa Edomi. ›"
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "text": "Tala, nakokomisa yo moke kati na bikolo,",
+          "source_markers_before": [
+            "b",
+            "b",
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "mpe okosambwa makasi."
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "text": "Lolendo ya motema na yo ekosaki yo,",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "yo movandi ya madusu ya mabanga,"
+            },
+            {
+              "source_marker": "q1",
+              "text": "yo oyo otonga ndako na yo na basonge ya bangomba"
+            },
+            {
+              "source_marker": "q2",
+              "text": "mpe omilobelaka : ‹ Nani akokweyisa ngai na se ? ›"
+            }
+          ]
+        },
+        {
+          "number": "4",
+          "text": "Ata soki omati likolo makasi lokola mpongo",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "mpe otongi zala na yo kati na minzoto,"
+            },
+            {
+              "source_marker": "q1",
+              "text": "nakokweyisa yo longwa kuna kino na se, »"
+            },
+            {
+              "source_marker": "q2",
+              "text": "elobi Yawe."
+            }
+          ]
+        },
+        {
+          "number": "5",
+          "text": "« Soki miyibi to babebisi babimeli yo na butu,",
+          "source_markers_before": [
+            "b",
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "likama ya ndenge nini ezali kozela yo ?"
+            },
+            {
+              "source_marker": "q1",
+              "text": "Boni, bakozwa kaka biloko oyo bazali na yango posa te ?"
+            },
+            {
+              "source_marker": "q2",
+              "text": "Soki bato oyo babukaka bambuma ya vino bayei epai na yo,"
+            },
+            {
+              "source_marker": "q2",
+              "text": "boni, bakotika ata ndambo ya maboke ya vino ?"
+            }
+          ]
+        },
+        {
+          "number": "6",
+          "text": "Kasi tala ndenge babimeli Ezawu !",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "Babotoli ye biloko na ye ya motuya oyo ebombama !"
+            }
+          ]
+        },
+        {
+          "number": "7",
+          "text": "Bikolo nyonso oyo osalaki elongo na yango boyokani",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "ekobengana yo na mokili na yo ;"
+            },
+            {
+              "source_marker": "q1",
+              "text": "baninga na yo bakokosa yo, bakokonza yo."
+            },
+            {
+              "source_marker": "q2",
+              "text": "Ba-oyo bazalaki kolia lipa na yo bakotiela yo motambo."
+            },
+            {
+              "source_marker": "q1",
+              "text": "Kasi yo, okoyeba yango te"
+            },
+            {
+              "source_marker": "q2",
+              "text": "mpo ete okozala lisusu na mayele te."
+            }
+          ]
+        },
+        {
+          "number": "8",
+          "text": "Na mokolo wana, »",
+          "source_markers_before": [
+            "b",
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "elobi Yawe,"
+            },
+            {
+              "source_marker": "q1",
+              "text": "« nakoboma bato ya bwanya ya Edomi"
+            },
+            {
+              "source_marker": "q2",
+              "text": "mpe nakolongola bato ya mayele"
+            },
+            {
+              "source_marker": "q2",
+              "text": "na etuka ya bangomba ya Ezawu."
+            }
+          ]
+        },
+        {
+          "number": "9",
+          "text": "Temani, basoda na yo ya mpiko bakolenga na somo,",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "mpe bavandi nyonso ya bangomba ya Ezawu bakokufa na mopanga !"
+            }
+          ]
+        },
+        {
+          "number": "10",
+          "text": "Mpo na mabe oyo osalaki Jakobi, ndeko na yo,",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "okotonda na soni"
+            },
+            {
+              "source_marker": "q2",
+              "text": "okobebisama mpo na libela."
+            }
+          ]
+        },
+        {
+          "number": "11",
+          "text": "Ozalaki kotala kaka bongo",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "tango bato mosusu bazalaki kokende"
+            },
+            {
+              "source_marker": "q1",
+              "text": "mpe komema bozwi na ye nyonso."
+            },
+            {
+              "source_marker": "q2",
+              "text": "Mpe tango bapaya bakotaki kati na engumba na ye,"
+            },
+            {
+              "source_marker": "q1",
+              "text": "babetaki zeke mpo na kokabola"
+            },
+            {
+              "source_marker": "q2",
+              "text": "bomengo ya bitumba ya Yelusalemi."
+            },
+            {
+              "source_marker": "q2",
+              "text": "Yo mpe osalaki kaka lokola bango."
+            }
+          ]
+        },
+        {
+          "number": "12",
+          "text": "Nzokande, osengelaki te kosepela",
+          "source_markers_before": [
+            "b",
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "komona pasi ya ndeko na yo"
+            },
+            {
+              "source_marker": "q1",
+              "text": "to kosepela komona kobebisama ya bato ya Yuda"
+            },
+            {
+              "source_marker": "q2",
+              "text": "to mpe kosala lofundu na mokolo ya pasi na bango."
+            }
+          ]
+        },
+        {
+          "number": "13",
+          "text": "Osengelaki te kokota na engumba ya bato na Ngai",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "na mokolo ya pasi na bango"
+            },
+            {
+              "source_marker": "q1",
+              "text": "to kosepela komona kobebisama na bango"
+            },
+            {
+              "source_marker": "q2",
+              "text": "to mpe kobotola bozwi na bango nyonso"
+            },
+            {
+              "source_marker": "q2",
+              "text": "na mokolo oyo bazalaki na pasi makasi."
+            }
+          ]
+        },
+        {
+          "number": "14",
+          "text": "Osengelaki te kotelema na esika oyo banzela ekutana",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "mpo na koboma bato na bango, oyo bazalaki kokima pasi"
+            },
+            {
+              "source_marker": "q1",
+              "text": "to mpe kokaba na maboko ya banguna bato na bango,"
+            },
+            {
+              "source_marker": "q2",
+              "text": "oyo babikaki na mokolo oyo bazalaki na pasi makasi."
+            }
+          ]
+        },
+        {
+          "number": "15",
+          "text": "Mokolo ya Yawe ekomi pene mpo na bikolo nyonso.",
+          "source_markers_before": [
+            "b",
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "Bakosala yo kaka makambo oyo yo osalaki,"
+            },
+            {
+              "source_marker": "q2",
+              "text": "bongo mabe oyo osalaki ekozongela yo."
+            }
+          ]
+        },
+        {
+          "number": "16",
+          "text": "Ndenge ozalaki komela na likolo ya ngomba na Ngai ya bule,",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "ndenge wana mpe bikolo bakokoma komela tango nyonso ;"
+            },
+            {
+              "source_marker": "q1",
+              "text": "bakomela, bakomela lisusu koleka"
+            },
+            {
+              "source_marker": "q2",
+              "text": "mpe bakosila lokola nde batikala kozala te."
+            }
+          ]
+        },
+        {
+          "number": "17",
+          "text": "Kasi bato oyo bakobika bakokimela na ngomba Siona ;",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "ngomba yango ekokoma lisusu bule,"
+            },
+            {
+              "source_marker": "q2",
+              "text": "mpe bato ya Jakobi bakozongela lisusu libula na bango."
+            }
+          ]
+        },
+        {
+          "number": "18",
+          "text": "Bato ya Jakobi bakokoma lokola moto,",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "libota ya Jozefi ekokoma lokola lolemo ya moto."
+            },
+            {
+              "source_marker": "q1",
+              "text": "Kasi libota ya Ezawu ekokoma lokola matiti,"
+            },
+            {
+              "source_marker": "q2",
+              "text": "bongo moto ya libota ya Jakobi mpe ya Jozefi ekozikisa yango."
+            },
+            {
+              "source_marker": "q1",
+              "text": "Boye, kati na bana ya Ezawu, moto ata moko te akotikala na bomoi, »"
+            },
+            {
+              "source_marker": "q2",
+              "text": "elobi Yawe."
+            }
+          ]
+        },
+        {
+          "number": "19",
+          "text": "Bato oyo bakowuta na Negevi",
+          "source_markers_before": [
+            "b",
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "bakovanda na etuka ya bangomba ya Ezawu,"
+            },
+            {
+              "source_marker": "q1",
+              "text": "mpe ba-oyo bavandaka na etando ya se ya lubwaku"
+            },
+            {
+              "source_marker": "q2",
+              "text": "bakozwa mokili ya bato ya Filisitia."
+            },
+            {
+              "source_marker": "q1",
+              "text": "Bakozwa etuka ya Efrayimi mpe ya Samari,"
+            },
+            {
+              "source_marker": "q2",
+              "text": "mpe bato ya Benjame bakozwa Galadi."
+            }
+          ]
+        },
+        {
+          "number": "20",
+          "text": "Bato ya Isalaele oyo bazalaki na bowumbu",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "bakozwa mokili ya bato ya Kanana kino na Sarepita ;"
+            },
+            {
+              "source_marker": "q1",
+              "text": "bongo bato ya Yelusalemi oyo bazalaki na bowumbu na Sefaradi"
+            },
+            {
+              "source_marker": "q2",
+              "text": "bakozwa bingumba ya Negevi."
+            }
+          ]
+        },
+        {
+          "number": "21",
+          "text": "Babikisi bakomata na ngomba Siona",
+          "source_markers_before": [
+            "q1"
+          ],
+          "continuations": [
+            {
+              "source_marker": "q2",
+              "text": "mpo na koyangela bangomba ya Ezawu,"
+            },
+            {
+              "source_marker": "q2",
+              "text": "mpe Yawe akokoma Mokonzi."
+            }
+          ]
+        }
+      ],
+      "notes": [],
+      "heading": [
+        "EMONISELI YA MOSAKOLI ABIDIASI",
+        "Etumbu ya mokili ya Edomi"
+      ]
+    }
+  ]
+}

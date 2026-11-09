@@ -39,6 +39,10 @@
       "sha256": "4740049cac959b18ccd956ca1254f1f1d753f1cb4dc99ce83216af5d079cb286",
       "byte_length": 158331
     },
+    "13-2KIeng-Brenton.usfm": {
+      "sha256": "f9190dbfc9af272ae7dca54c4f31c97f5b9c35eacb65c9178c2bd2acdf217039",
+      "byte_length": 146065
+    },
     "14-1CHeng-Brenton.usfm": {
       "sha256": "70f457a282053e3a2f0bb186952ec759f85a006525aeb696ff2e756d017df415",
       "byte_length": 121134
@@ -196,6 +200,77 @@
       "byte_length": 73193
     }
   },
-  "scope": "The capture manifest lists all selected members. Existing English companions and research texts are retained separately; 38 additional members are parsed as independent English research readers with no EOTC canon crosswalk. Genesis, Exodus, and Ruth also occur in the provider zip but remain represented by separately archived page-capture or companion sources. Seven members fail the strict parser and remain unbundled.",
-  "limitations": "The provider identifies Brenton's translation as 1851 and public domain. Checks establish local package identity and parser extraction structure only; they do not establish print-edition completeness, Greek translation accuracy, or identity with any Geʽez/EOTC witness. Seven members fail the current strict parser and are excluded; three other parseable members (Genesis, Exodus, and Ruth) are not imported from this package because separate local source records are used. No source text is silently repaired."
+  "scope": "The capture manifest lists all selected members. Existing English companions and research texts are retained separately; 39 additional book members are parsed as independent English research readers; 31 have scoped, explicitly provisional title candidates, and none becomes an EOTC canon-linked reader. 12 book members are handled by separate local readers. Seven additional members are non-scripture edition matter (abbreviations, introductions, preface, errata, appendix, an Apocrypha introduction, and a Jeremiah chapter/verse reference table); they remain in the source ZIP and are inventoried, not misclassified as biblical books or parser failures.",
+  "limitations": "The provider identifies Brenton's translation as 1851 and public domain. Checks establish local package identity and parser extraction structure only; they do not establish print-edition completeness, Greek translation accuracy, or identity with any Geʽez/EOTC witness. Provisional title candidates support discovery only; they do not assert exact scope or canon membership. Seven non-book ancillary members are retained and inventoried but not presented as scripture readers. Book members with separately represented readers are not imported a second time. No source text is silently repaired.",
+  "ancillary_members": [
+    {
+      "usfm_id": "BAK",
+      "path": "97-BAKeng-Brenton.usfm",
+      "title": "Appendix",
+      "category": "appendix",
+      "byte_length": 14424,
+      "sha256": "e7b9661f907ecab4f367c76d33ddedcc95de1cf8423f18a6f4f87485991f5961",
+      "handling": "Retained inside the checksummed source archive and inventoried as non-scripture edition matter; not treated as a biblical book or parsed into a reader."
+    },
+    {
+      "usfm_id": "FRT",
+      "path": "00-FRTeng-Brenton.usfm",
+      "title": "Abbreviations and signs used in the notes",
+      "category": "glossary",
+      "byte_length": 724,
+      "sha256": "6dcd75c8cc09dd24a25c9584bf632636a046f59f987343dcf227bc759bf4d0aa",
+      "handling": "Retained inside the checksummed source archive and inventoried as non-scripture edition matter; not treated as a biblical book or parsed into a reader."
+    },
+    {
+      "usfm_id": "INT",
+      "path": "01-INTeng-Brenton.usfm",
+      "title": "1870 Introduction",
+      "category": "introduction",
+      "byte_length": 25278,
+      "sha256": "7459d74ea8560c5087311ae05a30b8840606fc30e5bbf6bbcd55b0d12f8f0bc9",
+      "handling": "Retained inside the checksummed source archive and inventoried as non-scripture edition matter; not treated as a biblical book or parsed into a reader."
+    },
+    {
+      "usfm_id": "OTH",
+      "path": "98-OTHeng-Brenton.usfm",
+      "title": "The Books of the Apocrypha",
+      "category": "historical introduction",
+      "byte_length": 9238,
+      "sha256": "c92a439a7d34626302be4185cd559986e3f0000fa6a9723bbc0dd57b605069fe",
+      "handling": "Retained inside the checksummed source archive and inventoried as non-scripture edition matter; not treated as a biblical book or parsed into a reader."
+    },
+    {
+      "usfm_id": "XXA",
+      "path": "99-XXAeng-Brenton.usfm",
+      "title": "Table of chapter and verse order in Jeremiah",
+      "category": "reference table",
+      "byte_length": 1854,
+      "sha256": "1f6c756fd1cc1b1ba2d85f984677a6c66ee026a4fa5525632b6c67f7e442f40a",
+      "handling": "Retained inside the checksummed source archive and inventoried as non-scripture edition matter; not treated as a biblical book or parsed into a reader."
+    },
+    {
+      "usfm_id": "XXB",
+      "path": "100-XXBeng-Brenton.usfm",
+      "title": "1844 Preface",
+      "category": "preface",
+      "byte_length": 19927,
+      "sha256": "040292cb85aa66689bda5bd1df04d6ebf82aa6a88e9986e46944f09ac51487a8",
+      "handling": "Retained inside the checksummed source archive and inventoried as non-scripture edition matter; not treated as a biblical book or parsed into a reader."
+    },
+    {
+      "usfm_id": "XXC",
+      "path": "101-XXCeng-Brenton.usfm",
+      "title": "Errata",
+      "category": "errata",
+      "byte_length": 10312,
+      "sha256": "dcabe09054aa8d2c7fbdf381220065d35da42588925581733dd0c7f5205d7743",
+      "handling": "Retained inside the checksummed source archive and inventoried as non-scripture edition matter; not treated as a biblical book or parsed into a reader."
+    }
+  ],
+  "member_inventory": {
+    "total_usfm_members": 58,
+    "parsed_as_additional_book_readers": 39,
+    "book_members_handled_by_separate_local_readers": 12,
+    "ancillary_nonbook_members": 7
+  }
 }
