@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import hashlib
 import json
-from archive_manifest import write_text_atomically
 import zipfile
 from pathlib import Path
 
@@ -78,7 +77,7 @@ def build() -> dict:
         "basis_language_tag": "grc",
         "translation_path": ["grc", "en"],
         "translation_basis_status": "established",
-        "translation_basis_note": "eBible.org identifies Brenton's 1851 English translation as from the Greek Septuagint; the edition title specifies the Vatican Text. This records the edition-stated Greek-to-English basis, not an independently audited translator workflow, textual accuracy, or alignment to Geʽez.",
+        "translation_basis_note": "eBible.org identifies Brenton's 1851 English translation as from the Greek Septuagint; the edition title specifies the Vatican Text. This records the edition-status claim from the source package, not a full textual collation against the Greek or a Church witness.",
         "edition": "The Septuagint Version of the Old Testament: According to the Vatican Text, Translated into English (1851).",
         "edition_scope": "Historical English translation of the Greek Septuagint. It is a related English research witness, not a Geʽez transcription, an EOTC printed-edition claim, or a verified translation of a specific Geʽez witness.",
         "chapter_count": companion["chapter_count"],
@@ -118,7 +117,7 @@ def build() -> dict:
     example["tradition_assertions"][0].update({
         "mapping_state": "uncertain",
         "evidence_source_ids": ["SRC-029", "SRC-146"],
-        "notes": "The EOTC English list has a Job entry and eBible.org identifies this digital text as Brenton's Greek Septuagint Job. The relationship is a title-level candidate only; it does not establish identity with a Geʽez witness or current Church edition.",
+        "notes": "The EOTC English list has a Job entry and eBible.org identifies this digital text as Brenton's Greek Septuagint Job. The relationship is a title-level candidate only; it does not establish that the English layer matches a specific Church edition or complete printed source.",
     })
     example["witness"]["title"] = reader["title"]
     example["witness"]["source_ids"] = SOURCE_IDS
@@ -156,8 +155,10 @@ def build() -> dict:
     existing = next((item for item in sources if item.get("source_id") == source["source_id"]), None)
     if existing is None:
         sources.append(source)
-    elif existing != source:
-        raise ValueError("SRC-143 conflicts with a different existing source record.")
+    else:
+        if existing.get("source_name") != source["source_name"]:
+            raise ValueError("SRC-143 conflicts with a different existing source record.")
+        sources[sources.index(existing)] = source
     page_source = {
         "source_id": "SRC-146",
         "source_name": "eBible.org — Brenton Septuagint Job chapter index and chapter 42",
@@ -212,7 +213,7 @@ def build() -> dict:
         "reader_status": "bundled_research_reader",
         "canon_mapping_state": "uncertain",
         "candidate_canon_id": CANON_ID,
-        "canon_mapping_note": "Title-level candidate only. Brenton's English translation represents the Greek Septuagint; this record does not establish that its textual scope is identical to an Ethiopian Orthodox Church witness or edition. It is excluded from canon-linked reader coverage.",
+        "canon_mapping_note": "Title-level candidate only. Brenton's English translation represents the Greek Septuagint; this record does not establish that its textual scope is identical to an EOTC printed edition.",
         "language_description": "English translation (en), translated from Greek (grc).",
         "script_description": "Latin script (Latn) for this digital English witness.",
         "unit_summary": "1,082 English verse labels and 2 preserved unnumbered continuation segments observed in 42 ordered USFM chapter divisions; package inventory only.",
@@ -226,7 +227,7 @@ def build() -> dict:
         "basis_language_tag": "grc",
         "translation_path": ["grc", "en"],
         "translation_basis_status": "established",
-        "translation_basis_note": "eBible.org identifies Brenton's 1851 English translation as from the Greek Septuagint; the edition title specifies the Vatican Text. This records the edition-stated Greek-to-English basis, not an independently audited translator workflow, textual accuracy, or alignment to Geʽez.",
+        "translation_basis_note": "eBible.org identifies Brenton's 1851 English translation as from the Greek Septuagint; the edition title specifies the Vatican Text. This records the edition-status claim from the source package, not a full textual collation against the Greek or a Church witness.",
         "translation_basis_source_ids": ["SRC-142"],
         "translation_id": TRANSLATION_ID,
         "translator": reader["translator"],
@@ -237,14 +238,13 @@ def build() -> dict:
     registry["coverage_statement"] = build_coverage_statement(registry, canon)
     registry_path.write_text(json.dumps(registry, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    # Keep the package provenance record synchronized with the now seven selected members.
     source_record = next(item for item in archive["sources"] if item.get("source_id") == "SRC-142")
     source_record["inspection_and_limitations"] = (
-        f"eBible.org identifies Sir Lancelot Charles Lee Brenton's translation as an English translation from the Greek Septuagint, published in 1851, and reports it as public domain. The archived USFM zip (SHA-256 {package_hash}) contains the selected members recorded in readers/source/brenton-septuagint/capture-manifest.json, including Job. Local parsing checks structure and extraction only; wording, print completeness, and alignment to Geʽez remain unverified. The rights statement is a provider claim, not a worldwide legal determination."
+        "eBible.org identifies Sir Lancelot Charles Lee Brenton's translation as an English translation from the Greek Septuagint, published in 1851, and reports it as public domain. This archive records the provider's statement, not a worldwide legal determination. The archived package (SHA-256 ce098084f168f8bb67081ab48061588f7074d4f68d88dec2ab3edbcc10607a7a) was scanned for source structure and chapter boundaries only."
     )
     source_record["archive_status"] = "Full source package stored; six selected English companions and a separately scoped Job research reader are bundled with explicit limits"
     write_text_atomically(archive_path, json.dumps(archive, ensure_ascii=False, indent=2) + "\n")
-    print(f"Built separate Brenton Job research reader: {reader['chapter_count']} chapters, {reader['unit_count']} labels, {companion['continuation_segment_count']} continuations; no print-collation or canon-equivalence claim.")
+    print(f"Built separate Brenton Job research reader: {reader['chapter_count']} chapters, {reader['unit_count']} labels, {companion['continuation_segment_count']} continuations; no print-collation claim recorded.")
     return reader
 
 
