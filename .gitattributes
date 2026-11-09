@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve raw archive captures exactly as captured; do not normalize line endings.
+*.response.bin binary
+*.bin binary
