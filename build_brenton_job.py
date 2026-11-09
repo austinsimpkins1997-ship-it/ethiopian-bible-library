@@ -8,6 +8,7 @@ import zipfile
 from pathlib import Path
 
 import build_brenton_octateuch as brenton
+from archive_manifest import write_text_atomically
 from coverage_summary import build_coverage_statement
 from layer_metadata import sync_layer_checksum
 
@@ -168,7 +169,7 @@ def build() -> dict:
     }
     existing_page = next((item for item in sources if item.get("source_id") == "SRC-146"), None)
     if existing_page and existing_page.get("source_name") != page_source["source_name"]:
-        raise ValueError("SRC-146 conflicts with a different source record.")
+        raise ValueError("SRC-146 conflicts with a different existing source record.")
     if existing_page:
         sources[sources.index(existing_page)] = page_source
     else:
