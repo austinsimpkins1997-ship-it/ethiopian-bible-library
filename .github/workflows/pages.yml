@@ -76,6 +76,10 @@ jobs:
         uses: actions/checkout@v4
       - name: Configure Pages
         uses: actions/configure-pages@v5
+      - name: Set up Python for site packaging
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
       - name: Stage canonical public site
         run: python -B build_upload_package.py --site-only
       - name: Upload site
