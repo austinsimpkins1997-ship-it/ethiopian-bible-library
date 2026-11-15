@@ -7,6 +7,8 @@
 
 See [CURRENT_RELEASE.md](CURRENT_RELEASE.md) for repairs, public-package boundaries, test setup and next steps. Readers can use the [release status page](research/release-readiness.html). Install the pinned development dependency with `npm ci --ignore-scripts --no-audit --no-fund`, then `npx playwright install chromium` before running the browser check below.
 
+Manifest entries use case-sensitive relative POSIX-path ordering on every operating system. Keep the strict committed-output check: a Windows-prepared release must rebuild without changes on Linux. See [the deployment repair record](DEPLOYMENT_FIX_2026-11-15.md).
+
 ## Source capture encodings
 
 Release preparation uses the explicit date in `release-metadata.json`; rebuilding does not advance the research date. Every registered language profile has a bounded provider-page survey record. This snapshot documents all 28 registered profiles; their individual methods, capture dates and open questions remain in `translation-registry.json`. A recorded survey is not a claim of exhaustive availability, translation accuracy or current worldwide coverage.
