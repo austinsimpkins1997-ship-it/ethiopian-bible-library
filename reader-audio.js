@@ -13,6 +13,7 @@
   function matchingVoices(voices, language) {
     // Do not silently send reader text to network speech services.
     return voices.filter(voice => voice.localService === true
+      && !/microsoft|\b(?:sapi|msft)\b/i.test(String(voice.name || '')+' '+String(voice.voiceURI || ''))
       && baseLanguage(voice.lang) === baseLanguage(language));
   }
   function splitText(text, limit = 220) {
@@ -36,6 +37,15 @@
     const units = Array.isArray(chapter?.units) ? chapter.units : chapter?.verses || [];
     return units.flatMap(unit => [unit.text, ...(unit.continuations || []).map(part => part.text)]
       .flatMap(text => splitText(text)));
+  }
+  function narrationPassages(segments) {
+    const output=[];
+    for(const segment of segments) {
+      const last=output.length-1;
+      if(last>=0 && output[last].length+segment.length+1<=500)output[last]+=' '+segment;
+      else output.push(segment);
+    }
+    return output;
   }
   function createPlayer({ document, synth, Utterance }) {
     const byId = id => document.getElementById(id);
@@ -95,6 +105,7 @@
       selectedVoice = voices[Number(voiceSelect.value)] || null;
       voiceSelect.disabled = !voices.length;
       segments = chapterSegments(layer?.chapter);
+      if(selectedVoice?.neural)segments=narrationPassages(segments);
       if (!supported) {
         status.textContent = 'Read-aloud is not supported in this browser. The written text is still available below.';
       } else if (!context) {
@@ -102,7 +113,7 @@
       } else if (!segments.length) {
         status.textContent = 'No text is available to read aloud in this chapter.';
       } else if (!selectedVoice) {
-        status.textContent = 'No installed local voice for ' + (layer?.language || language.value) + '. Choose another available text language or install a matching device voice.';
+        status.textContent = 'No supported non-Microsoft local voice for ' + (layer?.language || language.value) + '. Choose English narration or another available text language.';
       } else if (!playing && !paused) {
         status.textContent = (layer?.language || language.value) + ' · ready when you are. Press Play to listen.';
       }
@@ -117,10 +128,13 @@
         controls();
         return;
       }
-      const utterance = new Utterance(segments[position]);
+      // Neural voices are application choices, not native SpeechSynthesisVoice
+      // objects. Keep their requests out of the browser's typed voice setter.
+      const utterance = selectedVoice.neural ? {text:segments[position]} : new Utterance(segments[position]);
       utterance.lang = selectedVoice.lang;
       utterance.voice = selectedVoice;
       utterance.rate = Number(rate.value) || 1;
+      utterance.onprogress = message => {if(token===generation && playing)status.textContent=message;};
       utterance.onstart = () => {
         if (token !== generation) return;
         status.textContent = 'Reading ' + (activeLayer()?.language || language.value) + ' · passage ' + (position + 1) + ' of ' + segments.length + '.';
@@ -167,7 +181,7 @@
     };
     const onStop = () => stop('Stopped. Press Play to start this chapter again.');
     const onLanguage = () => { preferredLanguage = language.value; stop(); refresh(); };
-    const onVoice = () => { stop(); selectedVoice = voices[Number(voiceSelect.value)] || null; controls(); status.textContent = 'Voice selected. Press Play when you are ready.'; };
+    const onVoice = () => { stop(); refresh(); status.textContent = 'Voice selected. Press Play when you are ready.'; };
     const onRate = () => stop('Speed changed. Press Play to start this chapter again.');
     const onVoices = () => { stop(); refresh(); };
     play.addEventListener('click', onPlay);
@@ -211,5 +225,5 @@
       },
     };
   }
-  return { baseLanguage, matchingVoices, splitText, chapterSegments, createPlayer };
+  return { baseLanguage, matchingVoices, splitText, chapterSegments, narrationPassages, createPlayer };
 });

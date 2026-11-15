@@ -4,8 +4,17 @@ let offlineReaderStatusFor = null;
 let bulkReaderSavePlan = null;
 let bulkReaderSaveController = null;
 const readerModes = new Map();
+const referenceChapters = new Map();
+const referenceCache = new Map();
+let englishReferenceIndex = null;
+let referenceSequence = 0;
+let activeEnglishReference = null;
+let machinePreview = null;
+const readerSynth = window.ReaderNarrator?.createSynth({native:window.speechSynthesis,
+  Worker:window.Worker, AudioContext:window.AudioContext || window.webkitAudioContext});
 const readerAudio = window.ReaderAudio?.createPlayer({
-  document, synth: window.speechSynthesis, Utterance: window.SpeechSynthesisUtterance,
+  document, synth: readerSynth || window.speechSynthesis,
+  Utterance: window.SpeechSynthesisUtterance || class {constructor(text){this.text=text;}},
 });
 function persistReaderSelection(readerId) {
   if (!readerId || location.protocol === 'file:') return;
@@ -113,6 +122,13 @@ async function init() {
     state.sources = Array.isArray(data.sources) ? data.sources : [];
     state.related = Array.isArray(data.related_texts) ? data.related_texts : [];
     state.readers = Array.isArray(data.readers) ? data.readers : [];
+    try {
+      const response=await fetch('english-reference-index.json',{credentials:'same-origin'});
+      if(!response.ok)throw new Error('Reference index unavailable.');
+      const index=await response.json();
+      if(index.schema_version!==1 || !index.readers)throw new Error('Reference index invalid.');
+      englishReferenceIndex=index;
+    } catch(error) {console.warn('English comparison index could not load; original readers remain available.');}
     void setupBulkReaderSave();
     const requestedReaderId = new URLSearchParams(location.search).get('reader');
     const requestedReaderIsValid = Boolean(requestedReaderId && state.readers.some(reader => reader.reader_id === requestedReaderId));
@@ -757,6 +773,12 @@ async function loadReaderData(readerMetadata) {
 }
 
 async function renderReader({ loadText = true } = {}) {
+  const renderSequence=++referenceSequence;
+  machineTranslation?.cancel();
+  activeEnglishReference=null;machinePreview=null;
+  byId('reader-english-panel').hidden=true;
+  byId('reader-reading-columns').classList.remove('with-english-reference');
+  byId('reader-text').hidden=false;
   const bookSelect = byId('reader-book');
   const languageSelect = byId('reader-language');
   if (!state.readers.length) {
@@ -809,13 +831,17 @@ async function renderReader({ loadText = true } = {}) {
       : `${state.readers.length} readers · ${canonReaders.length} canon-linked, ${researchReaders.length} research-only.`;
   }
   const companionMetadata = readerMetadata.parallel_translation;
+  const referenceMetadata = window.ReaderEnglish.referenceFor(englishReferenceIndex,state.readers,readerMetadata.reader_id);
+  const needsEnglish = !['en','eng'].includes(readerMetadata.language_tag);
   const languageOptions = [`<option value="${escapeHTML(readerMetadata.language_tag)}">${escapeHTML(readerMetadata.language)}</option>`];
   if (companionMetadata) languageOptions.push(`<option value="${escapeHTML(companionMetadata.language_tag)}">${escapeHTML(companionMetadata.language)}</option>`, '<option value="parallel">Parallel witnesses</option>');
+  if(referenceMetadata)languageOptions.push('<option value="reference">Source + published English reference</option>','<option value="reference-en">Published English reference</option>');
+  if(needsEnglish)languageOptions.push('<option value="machine">Source + machine preview (where supported)</option>');
   const priorMode = readerModes.get(readerMetadata.reader_id);
   languageSelect.innerHTML = languageOptions.join('');
   languageSelect.value = languageOptions.some(option => option.includes(`value="${priorMode}"`))
-    ? priorMode : companionMetadata ? 'parallel' : readerMetadata.language_tag;
-  const audioKey = readerMetadata.reader_id + ':' + state.chapter + ':' + languageSelect.value;
+    ? priorMode : companionMetadata ? 'parallel' : referenceMetadata && needsEnglish ? 'reference' : readerMetadata.language_tag;
+  const audioKey = readerMetadata.reader_id + ':' + state.chapter + ':' + languageSelect.value + ':' + (referenceChapters.get(readerMetadata.reader_id) || 'auto');
   readerAudio?.prepare(audioKey);
   const openButton = byId('reader-open');
   if (openButton) {
@@ -842,12 +868,14 @@ async function renderReader({ loadText = true } = {}) {
   }
   const reader = await loadReaderData(readerMetadata);
   if (!reader) {
+    if(renderSequence!==referenceSequence)return;
     if (openButton) {
       openButton.disabled = false;
       openButton.textContent = 'Retry loading text';
     }
     return;
   }
+  if(renderSequence!==referenceSequence)return;
   if (openButton) openButton.textContent = 'Text loaded';
   const companion = reader.parallel_translation;
   const chapter = reader.chapters.find(item => item.chapter === state.chapter) || reader.chapters[0];
@@ -902,10 +930,10 @@ async function renderReader({ loadText = true } = {}) {
   const englishVerse = item => `<article class="reader-verse ${(item.source_markers_before || []).includes('p') ? 'paragraph-start' : ''}">${sourceStructure(item)}${witness(item, englishTag, 'english-witness', String(item.number))}</article>`;
   const chapterHeading = Array.isArray(chapter.heading) && chapter.heading.length ? `<div class="reader-heading" lang="${escapeHTML(sourceTag)}" dir="${escapeHTML(direction(sourceTag))}"${writingModeStyle(sourceTag)}>${chapter.heading.map(item => `<p>${escapeHTML(item)}</p>`).join('')}</div>` : '';
   const chapterLead = frontMatter + chapterHeading;
-  byId('reader-title').textContent = `${reader.display_name || reader.title.split(' — ')[0]} · ${formatChapterLabel(reader, chapter)}${mode === 'parallel' ? ' · Parallel witnesses' : ` · ${mode === englishTag && companion ? 'English' : reader.language}`}`;
+  byId('reader-title').textContent = `${reader.display_name || reader.title.split(' — ')[0]} · ${formatChapterLabel(reader, chapter)}${mode === 'parallel' ? ' · Parallel witnesses' : mode.startsWith('reference') ? ' · English comparison' : mode==='machine' ? ' · Unreviewed preview' : ` · ${mode === englishTag && companion ? 'English' : reader.language}`}`;
   const sectionCount = reader.section_unit_plural ? `${reader.chapter_count} ${reader.section_unit_plural}` : `${reader.chapter_count} chapters`;
   const observedUnits = layer => Number.isInteger(layer?.unit_count) && layer.unit_count >= 0
-    ? `${layer.unit_count.toLocaleString()} ${layer.unit_label || 'source units'} observed`
+    ? `${layer.unit_count.toLocaleString()} ${(layer.unit_label || 'source units').replace(/(?:\s+observed)+$/i,'')} observed`
     : `unit count unknown for ${layer?.title || layer?.language || 'this text'}`;
   const activeCountLayers = mode === 'parallel' && companion ? [reader, companion]
     : companion && mode === englishTag ? [companion] : [reader];
@@ -946,8 +974,78 @@ async function renderReader({ loadText = true } = {}) {
     : mode === englishTag && companion
       ? [{ language_tag: englishTag, language: companion.language, chapter: englishChapter }]
       : [{ language_tag: sourceTag, language: reader.language, chapter }];
-  readerAudio?.setContext({ key: audioKey, layers: audioLayers });
+  if(!mode.startsWith('reference'))readerAudio?.setContext({ key: audioKey, layers: audioLayers });
+  if(mode.startsWith('reference') && referenceMetadata)
+    await renderEnglishReference(reader,chapter,referenceMetadata,mode,audioKey,renderSequence);
+  if(renderSequence!==referenceSequence)return;
+  if(mode==='machine')renderMachinePreview(reader,chapter,audioKey);
+  if(readerDownload)readerDownload.disabled=mode==='machine' || (mode.startsWith('reference') && !activeEnglishReference);
   renderReaderStudyView(reader, chapter);
+  if(mode==='reference-en' && byId('reader-lens').value==='text')byId('reader-text').hidden=true;
+  if(byId('reader-lens').value!=='text')byId('reader-english-panel').hidden=true;
+}
+
+function englishPassages(chapter) {
+  return (chapter?.units || chapter?.verses || []).map(unit=>`<article class="reader-verse"><span class="reader-verse-number">${escapeHTML(unit.number ?? unit.unit_order ?? '')}</span><span lang="en">${escapeHTML(unit.text || '')}${(unit.continuations || []).map(part=>'<span class="reader-continuation">'+escapeHTML(part.text || '')+'</span>').join('')}</span></article>`).join('');
+}
+async function renderEnglishReference(reader,chapter,metadata,mode,key,sequence) {
+  const panel=byId('reader-english-panel');panel.hidden=false;
+  byId('reader-reading-columns').classList.toggle('with-english-reference',mode==='reference');
+  byId('reader-text').hidden=mode==='reference-en';
+  byId('reader-english-title').textContent='Published English reference';
+  byId('reader-english-status').textContent='Opening the separate English edition…';
+  byId('reader-english-text').replaceChildren();
+  byId('reader-english-chapter-control').hidden=false;byId('reader-machine-controls').hidden=true;
+  byId('reader-english-evidence').replaceChildren();
+  try {
+    let reference=referenceCache.get(metadata.reader_id);
+    if(!reference) {
+      if(!window.ReaderEnglish.safeReaderPath(metadata.reader_data_url))throw new Error('Unsafe English package path.');
+      const response=await fetch(metadata.reader_data_url,{credentials:'same-origin'});
+      if(!response.ok)throw new Error('The English reference could not be loaded. Connect once to save it for offline reading.');
+      reference=await response.json();
+      if(reference.reader_id!==metadata.reader_id || reference.language_tag!=='en' || !Array.isArray(reference.chapters))throw new Error('English reference metadata did not match.');
+      referenceCache.set(metadata.reader_id,reference);
+      if(referenceCache.size>3)referenceCache.delete(referenceCache.keys().next().value);
+    }
+    if(sequence!==referenceSequence)return;
+    const selected=referenceChapters.get(reader.reader_id) || window.ReaderEnglish.suggestedChapter(chapter,reference.chapters);
+    const english=reference.chapters.find(item=>item.chapter===selected) || null;
+    activeEnglishReference={reader:reference,chapter:english};
+    byId('reader-english-title').textContent=reference.title.split(' — ')[0]+' · World English Bible (British)'+(english?' · '+formatChapterLabel(reference,english):' · choose a chapter');
+    const chosen=referenceChapters.get(reader.reader_id);
+    byId('reader-english-chapter').innerHTML='<option value="auto"'+(!chosen?' selected':'')+'>Follow source number (navigation only)</option>'+reference.chapters.map(item=>`<option value="${item.chapter}"${item.chapter===chosen?' selected':''}>${escapeHTML(formatChapterLabel(reference,item))}</option>`).join('');
+    byId('reader-english-status').textContent='A separately published English edition for comparison, not a translation of the exact source wording. Chapter and verse boundaries can differ; choose the English chapter independently.';
+    if(!english)byId('reader-english-status').textContent+=' There is no English chapter with this source number. Select the reference chapter explicitly; none has been substituted.';
+    byId('reader-brief-note').textContent='English alongside the source. The two editions keep their own words and numbering.';
+    byId('reader-english-text').innerHTML=englishPassages(english);
+    const sources=(reference.source_ids || []).map(id=>state.sources.find(source=>source.source_id===id)).filter(Boolean);
+    byId('reader-english-evidence').innerHTML=`<details><summary>English edition, rights &amp; sources</summary><p>${escapeHTML(reference.edition_scope || reference.verification_status || '')}</p><p>${escapeHTML(reference.rights_status || reference.copyright_notice || '')}</p><p>${sources.map(source=>sourceLinkHTML(source)).join(' · ')}</p></details>`;
+    const layers=[{language_tag:reader.language_tag,language:reader.language,chapter},{language_tag:'en',language:'Published English reference',chapter:english}];
+    readerAudio?.setContext({key,layers:mode==='reference-en'?(english?[layers[1]]:[]):(english?layers:[layers[0]])});
+    byId('reader-download').textContent=mode==='reference-en'?'Download published English reference + evidence (JSON)':'Download source + English reference + evidence (JSON)';
+  } catch(error) {if(sequence===referenceSequence){byId('reader-english-status').textContent='The English reference could not be loaded. Reconnect and try again, or choose the original text view.';readerAudio?.setContext({key,layers:mode==='reference-en'?[]:[{language_tag:reader.language_tag,language:reader.language,chapter}]});}}
+}
+const machineTranslation=window.ReaderTranslation?.createController({Translator:window.Translator,
+  onProgress(message,busy){byId('reader-english-status').textContent=message;byId('reader-translate').disabled=busy;byId('reader-translate-stop').disabled=!busy;},
+  onResult(preview){
+    if(byId('reader-language').value!=='machine')return;
+    machinePreview=preview;byId('reader-english-text').innerHTML=englishPassages(preview.chapter);
+    readerAudio?.prepare(preview.key+':preview');
+    const reader=state.activeReaderData;const chapter=reader.chapters.find(c=>c.chapter===state.chapter);
+    readerAudio?.setContext({key:preview.key+':preview',layers:[{language_tag:reader.language_tag,language:reader.language,chapter},preview]});
+  },
+});
+function renderMachinePreview(reader,chapter,key) {
+  byId('reader-english-panel').hidden=false;byId('reader-reading-columns').classList.add('with-english-reference');
+  byId('reader-english-title').textContent='English machine preview · unreviewed';
+  byId('reader-english-status').textContent='Optional on-device translation. It may be inaccurate and is not published Scripture. Nothing is sent to a translation server. Browser/language support varies.';
+  byId('reader-english-text').replaceChildren();byId('reader-english-evidence').replaceChildren();
+  byId('reader-english-chapter-control').hidden=true;byId('reader-machine-controls').hidden=false;
+  const allowed=reader.rights_classification==='public_domain_claimed' || (reader.rights_classification==='open_license' && !String(reader.license_id || '').includes('-ND'));
+  byId('reader-translate').disabled=!allowed;byId('reader-translate-stop').disabled=true;
+  if(!allowed)byId('reader-english-status').textContent='This edition’s recorded terms do not establish permission for a translation preview. The original text and sourced English comparison remain available.';
+  machineTranslation?.setContext({key,language:reader.language_tag,chapter:chapter.chapter,units:chapter.units || chapter.verses || [],allowed});
 }
 
 function renderGenesisLexicalLens(record) {
@@ -1131,14 +1229,25 @@ byId('reader-language').addEventListener('change', event => {
   renderReader();
 });
 byId('reader-lens').addEventListener('change', renderReader);
-window.addEventListener('pagehide', () => readerAudio?.stop());
+window.addEventListener('pagehide', () => {readerAudio?.stop('Stopped. Press Play to listen again.');machineTranslation?.cancel();});
+byId('reader-english-chapter').addEventListener('change',event=>{
+  if(event.target.value==='auto')referenceChapters.delete(state.readerId);
+  else referenceChapters.set(state.readerId,Number(event.target.value));
+  renderReader();
+});
+byId('reader-translate').addEventListener('click',()=>machineTranslation?.run());
+byId('reader-translate-stop').addEventListener('click',()=>{
+  machineTranslation?.cancel();byId('reader-translate').disabled=false;byId('reader-translate-stop').disabled=true;
+  byId('reader-english-status').textContent='Preview stopped. The original text is unchanged.';
+});
 
 byId('reader-download')?.addEventListener('click', () => {
   const status = byId('reader-export-status');
   try {
     if (!state.activeReaderData) throw new Error('Wait for the selected reader to finish loading.');
-    const readerArchive = { ...state.archiveData, readers: [state.activeReaderData] };
-    const selected = window.ReaderPackage.createReaderPackage(readerArchive, state.readerId, byId('reader-language').value);
+    const mode=byId('reader-language').value;
+    const readerArchive = { ...state.archiveData, readers: [state.activeReaderData,...(activeEnglishReference?[activeEnglishReference.reader]:[])] };
+    const selected = window.ReaderPackage.createReaderPackage(readerArchive, state.readerId, mode,activeEnglishReference?.reader);
     const file = new Blob([`${JSON.stringify(selected, null, 2)}\n`], { type: 'application/json;charset=utf-8' });
     const url = URL.createObjectURL(file);
     const link = document.createElement('a');

@@ -7,10 +7,32 @@
 
   const clone = value => JSON.parse(JSON.stringify(value));
 
-  function createReaderPackage(archive, readerId, mode) {
+  function createReaderPackage(archive, readerId, mode, referenceReader = null) {
     if (!archive || !Array.isArray(archive.readers)) throw new TypeError('Archive reader records are required.');
     const reader = archive.readers.find(item => item.reader_id === readerId);
     if (!reader) throw new RangeError(`Reader not found: ${readerId}`);
+
+    if(mode==='reference' || mode==='reference-en') {
+      if(!referenceReader || referenceReader.language_tag!=='en' || referenceReader.reader_id===readerId
+          || !Array.isArray(referenceReader.chapters))throw new RangeError('A distinct sourced English reader is required.');
+      const base=createReaderPackage(archive,readerId,reader.language_tag);
+      const referenceArchive={...archive,readers:[referenceReader]};
+      const english=createReaderPackage(referenceArchive,referenceReader.reader_id,'en');
+      base.schema_version=2;
+      const unique=(left,right,key)=>[...new Map([...left,...right].map(item=>[key(item),item])).values()];
+      base.export_scope=mode==='reference'?'parallel_witnesses':'single_text_layer';
+      base.text_layers=[...(mode==='reference'?base.text_layers:[]),...english.text_layers.map(layer=>({...layer,layer_role:'separate_published_english_reference'}))];
+      base.language_layer_records=unique(base.language_layer_records,english.language_layer_records,item=>item.language_tag+':'+(item.record.translation_id || item.record.reader_id));
+      base.language_profiles=unique(base.language_profiles,english.language_profiles,item=>item.language_tag);
+      base.basis_language_records=unique(base.basis_language_records,english.basis_language_records,item=>item.language_tag);
+      base.source_ids=[...new Set([...base.source_ids,...english.source_ids])];
+      base.source_records=unique(base.source_records,english.source_records,item=>item.source_id);
+      base.unresolved_source_ids=[...new Set([...base.unresolved_source_ids,...english.unresolved_source_ids])];
+      base.comparison_reference={base_reader_id:readerId,english_reader_id:referenceReader.reader_id,
+        relationship:'Separate published English edition; not a translation of the exact source wording or verified chapter/verse alignment.',
+        reference_research_corpus_record:english.research_corpus_record,reference_canon_mapping:english.canon_mapping};
+      return base;
+    }
 
     const companion = reader.parallel_translation || null;
     const parallelMode = mode === 'parallel';

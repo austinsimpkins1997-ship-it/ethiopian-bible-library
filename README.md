@@ -5,14 +5,23 @@
 
 ## Current release and deployment
 
-The reading page now opens a selected chapter near the top, with parallel
-witnesses selected for the 11 books that have a bundled English companion.
-Play, Pause/Resume and Stop read the selected chapter using a matching installed
-local device voice. Voice availability varies by language, browser and device;
-unsupported languages remain readable without an unrelated-language fallback.
+The reading page opens a selected chapter near the top. All 636 currently
+bundled non-English readers offer an existing, sourced World English Bible
+(British) reference alongside the original. This is a separate edition, not
+a translation of that exact witness or a verified verse/chapter alignment.
+The 123 English readers already provide English text. The 11 historical
+Brenton companions retain their own distinct parallel view.
+Play, Pause/Resume and Stop now offer four on-device Kokoro English narrators,
+with Heart selected first. Microsoft voices are excluded. Other languages need
+a matching non-Microsoft local voice; unsupported languages remain readable.
+The first explicit Play downloads about 93 MB of model weights plus supporting
+runtime/voice files; no Scripture text is sent to a narration server.
 Audio never starts automatically. Catalogue, source records, rights and study
-tools remain available in expandable sections. See the
-[reader-first update and verification](READER_FIRST_UPDATE_2026-11-15.md).
+tools remain available in expandable sections. Optional on-device machine
+previews are explicitly unreviewed, browser/language/rights dependent, and
+never saved into the Scripture archive. See the
+[all-book English and narrator update](ENGLISH_AND_NARRATION_2026-11-15.md) and
+[earlier reader-first verification](READER_FIRST_UPDATE_2026-11-15.md).
 
 See [CURRENT_RELEASE.md](CURRENT_RELEASE.md) for repairs, public-package boundaries, test setup and next steps. Readers can use the [release status page](research/release-readiness.html). Install the pinned development dependency with `npm ci --ignore-scripts --no-audit --no-fund`, then `npx playwright install chromium` before running the browser check below.
 
@@ -180,11 +189,19 @@ python build_release.py
 python -B verify_archive_manifest.py
 python -B run_tests.py
 node --check app.js
+node --check reader-audio.js
+node --check reader-english.js
+node --check reader-translation.js
+node --check reader-narrator.js
+node --check narrator-worker.js
 node --check offline-reader-cache.js
 node --check sw.js
 node tests/test_reader_package.js
 node tests/test_reader_audio.js
 node tests/test_parallel_coverage.js
+node tests/test_english_reader.js
+node tests/test_reader_translation.js
+node tests/test_reader_narrator.js
 node tests/test_offline_reader_cache.js
 node tests/test_service_worker.js
 node tests/browser_smoke.cjs

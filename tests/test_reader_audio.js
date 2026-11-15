@@ -27,7 +27,7 @@ class Element {
   click() { if(!this.disabled) this.handlers.get('click')?.(); }
   change(value) { this.value=value; this.handlers.get('change')?.(); }
 }
-function fixture(voices) {
+function fixture(voices, UtteranceType) {
   const ids=['play','pause','stop','status','language','voice','rate'];
   const elements=Object.fromEntries(ids.map(id=>['reader-audio-'+id,new Element()]));
   elements['reader-audio-rate'].value='1';
@@ -42,7 +42,7 @@ function fixture(voices) {
     removeEventListener:name=>events.delete(name),
   };
   class Utterance { constructor(text) {this.text=text;} }
-  const player=audio.createPlayer({document,synth,Utterance});
+  const player=audio.createPlayer({document,synth,Utterance:UtteranceType || Utterance});
   return {elements,player,spoken,install:values=>{installed=values;events.get('voiceschanged')?.();}};
 }
 const local={name:'Local English',lang:'en-US',localService:true};
@@ -102,4 +102,17 @@ const context={key:'ruth:1:parallel',layers:[
   assert.equal(f.spoken[0].text,'ሰላም');
   assert.equal(f.spoken[0].lang,'am-ET','read the selected text with its matching language voice');
 }
-console.log('Read-aloud checks passed: local matching voices, no autoplay, exact text, pause/resume, cancellation, errors and unsupported languages.');
+{
+  class NativeUtterance {
+    constructor(text) {this.text=text;}
+    set voice(value) {if(value.neural)throw new TypeError('Expected a native SpeechSynthesisVoice');}
+  }
+  const f=fixture([{name:'Heart',lang:'en-US',localService:true,neural:true}],NativeUtterance);
+  f.player.setContext(context);
+  f.elements['reader-audio-play'].click();
+  assert.equal(f.spoken.length,1,'neural requests must bypass the native typed voice field');
+  assert.equal(f.spoken[0].text,'First passage. Second passage.');
+  assert.equal(f.spoken[0].voice.neural,true);
+  f.player.dispose();
+}
+console.log('Read-aloud checks passed: matching voices, no autoplay, exact text, neural/native boundary, pause/resume, cancellation, errors and unsupported languages.');

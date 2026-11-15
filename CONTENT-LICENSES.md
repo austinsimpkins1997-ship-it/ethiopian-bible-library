@@ -4,6 +4,12 @@ The repository's `LICENSE` applies to its software code. Project-curated metadat
 
 ## Source-record reuse status
 
+Narration runtime/model resources have their own terms, separate from Scripture
+and this project's MIT code license. See [narrator resources and licenses](assets/narrator/README.md):
+Kokoro, Transformers and the Phonemizer wrapper use Apache-2.0; ONNX Runtime uses
+MIT; eSpeak NG phonemization code/data retain GPL-3.0-or-later terms. Those external
+runtime/model downloads are not included in the repository's distributable ZIP.
+
 Every source record carries a structured reuse category and status. `unknown` means this archive has not established reuse permission for that cited source record; it is not a public-domain or open-license claim. A citation is not a license. Check the linked source's current item-level terms before reusing its material. Rights for bundled reader text and media are recorded separately on the reader or content record; a source's `unknown` category does not replace those item-specific notices. Every bundled reader also records its controlled `rights_classification`, `rights_status`, exact `copyright_notice`, and `commercial_use` scope. Where a reader previously lacked `rights_status`, the build now derives a concise scoped summary from its existing notice fields without changing the classification or source notice; the reader view shows the summary and the item notice.
 
 **Beta maṣāḥǝft license context:** The Works TEI snapshots state file-level CC BY-SA 4.0. Current Beta maṣāḥǝft Guidelines describe project data and remixes as CC BY-NC-SA 4.0; the University of Hamburg's 2022 version 5.2 repository record carries dataset-level CC BY 4.0 metadata. The archive records all three notices, marks affected readers as `mixed`, and does not decide which notice controls or claim rights in unidentified printed exemplars. These terms remain unresolved; do not infer commercial or unrestricted permission. See `research/betamasaheft-license-audit.md`, the unsent `research/betamasaheft-rights-clarification-request.md`, and source records SRC-296–SRC-297.
