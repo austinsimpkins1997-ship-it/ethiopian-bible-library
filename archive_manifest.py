@@ -78,7 +78,9 @@ def enable_atomic_path_writes() -> None:
 def build_manifest(root: Path) -> dict:
     root = root.resolve()
     files = []
-    for path in sorted(root.rglob("*")):
+    # Path ordering is case-insensitive on Windows and case-sensitive on Linux.
+    # Sort the portable spelling explicitly so both builds checksum identical JSON.
+    for path in sorted(root.rglob("*"), key=lambda item: item.relative_to(root).as_posix()):
         relative = path.relative_to(root)
         if relative.as_posix() == MANIFEST_NAME or not path.is_file():
             continue
