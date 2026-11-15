@@ -6,6 +6,12 @@ cannot fetch the separate reader JSON packages.
 
 ## What this release includes
 
+The reader-first layout and device read-aloud update are documented in
+[READER_FIRST_UPDATE_2026-11-15.md](READER_FIRST_UPDATE_2026-11-15.md).
+It adds automatic text opening, default parallel display where supported, a
+warmer responsive layout and optional matching-language local speech synthesis.
+It does not add recorded narration or new Scripture translations.
+
 The rebuilt inventory has 759 reader packages (19 canon-linked and 740 separately
 scoped research readers), 451 source records, 28 language profiles, 90 catalogue
 rows and nine related-work records. Nineteen of the cited 81 Church-list entries

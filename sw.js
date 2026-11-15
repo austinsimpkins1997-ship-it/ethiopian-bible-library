@@ -1,14 +1,16 @@
 /* Offline app shell and on-demand archive assets. */
 const CACHE_PREFIX = 'ethiopian-bible-library-';
-const CACHE_NAME = `${CACHE_PREFIX}shell-v45`;
+const CACHE_NAME = `${CACHE_PREFIX}shell-v46`;
 const SITE_BASE = new URL(self.registration.scope);
 const PRECACHE_PATHS = [
   'index.html',
   'offline.html',
   'styles.css',
+  'reader-first.css',
   'app.js',
   'reader-package.js',
   'reader-alignment.js',
+  'reader-audio.js',
   'offline-reader-cache.js',
   'manifest.webmanifest',
   'archive-manifest.json',

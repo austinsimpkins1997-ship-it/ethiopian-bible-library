@@ -44,6 +44,8 @@ jobs:
           node --check offline-reader-cache.js
           node --check sw.js
           node tests/test_reader_package.js
+          node tests/test_reader_audio.js
+          node tests/test_parallel_coverage.js
           node tests/test_offline_reader_cache.js
           node tests/test_service_worker.js
       - name: Check responsive reading and offline use in Chromium

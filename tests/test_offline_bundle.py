@@ -375,7 +375,7 @@ class OfflineBundleTests(unittest.TestCase):
         self.assertRegex(app, r"fetch\(path,\s*\{\s*credentials:\s*'same-origin'\s*\}\)")
         self.assertIn("readerMetadata.reader_data_url", app)
         self.assertIn("state.activeReaderData", app)
-        self.assertIn("renderReader({ loadText: false })", app)
+        self.assertIn("await renderReader({ loadText: true })", app)
         self.assertIn("reader-open", app)
         self.assertNotRegex(app, r"\bXMLHttpRequest\b|\bWebSocket\b")
         self.assertIn("Related research readers · not counted as Church-list book coverage", app)
