@@ -37,11 +37,20 @@ if (-not (Test-Path -LiteralPath $sourceManifest) -or -not (Test-Path -LiteralPa
     throw 'The package manifest or verifier is missing from this folder.'
 }
 
-$sourceFiles = Get-ChildItem -LiteralPath $sourceRoot -Recurse -File -Force | Where-Object {
-    $relative = Get-PackageRelativePath $_.FullName
-    $parts = $relative -split '[\\/]'
-    ($parts -notcontains '.git') -and ($parts -notcontains '__pycache__') -and ($parts -notcontains 'tmp') -and ($_.Extension -ne '.pyc')
-}
+# Verify first, then copy only the canonical public manifest inventory.
+Push-Location -LiteralPath $sourceRoot
+try {
+    if (Get-Command python -ErrorAction SilentlyContinue) {
+        & python -B verify_archive_manifest.py
+    } elseif (Get-Command py -ErrorAction SilentlyContinue) {
+        & py -3 -B verify_archive_manifest.py
+    } else { throw 'Python 3 is required to verify this package before copying.' }
+    if ($LASTEXITCODE -ne 0) { throw 'Source manifest failed; no destination files were changed.' }
+} finally { Pop-Location }
+$manifest = Get-Content -LiteralPath $sourceManifest -Raw -Encoding UTF8 | ConvertFrom-Json
+$sourceFiles = @($manifest.files | ForEach-Object {
+    Get-Item -LiteralPath (Join-Path $sourceRoot $_.path)
+}) + @(Get-Item -LiteralPath $sourceManifest)
 $conflicts = @($sourceFiles | Where-Object {
     $relative = Get-PackageRelativePath $_.FullName
     Test-Path -LiteralPath (Join-Path $destinationRoot $relative) -PathType Leaf
@@ -63,10 +72,15 @@ if ($confirmation -cne 'COPY') {
     exit 0
 }
 
-& robocopy $sourceRoot $destinationRoot /E /COPY:DAT /DCOPY:DAT /R:1 /W:1 /XD '.git' '__pycache__' 'tmp' /XF '*.pyc' '*.pyo' /NFL /NDL /NJH /NJS /NP
-$copyExitCode = $LASTEXITCODE
-if ($copyExitCode -ge 8) {
-    throw "Robocopy reported a copy failure (exit code $copyExitCode). Review its output; it did not delete destination files."
+foreach ($sourceFile in $sourceFiles) {
+    $relative = Get-PackageRelativePath $sourceFile.FullName
+    $target = [System.IO.Path]::GetFullPath((Join-Path $destinationRoot $relative))
+    if (-not $target.StartsWith($destinationRoot + '\', [System.StringComparison]::OrdinalIgnoreCase)) {
+        throw "Destination path is outside the clone: $relative"
+    }
+    $parent = [System.IO.Path]::GetDirectoryName($target)
+    New-Item -ItemType Directory -Path $parent -Force | Out-Null
+    Copy-Item -LiteralPath $sourceFile.FullName -Destination $target -Force
 }
 
 Push-Location -LiteralPath $destinationRoot

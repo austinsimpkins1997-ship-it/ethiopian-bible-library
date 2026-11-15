@@ -11,7 +11,17 @@ import time
 
 
 MANIFEST_NAME = "archive-manifest.json"
-EXCLUDED_PARTS = {".git", "__pycache__", "tmp"}
+EXCLUDED_PARTS = {".git", "__pycache__", "tmp", ".venv", "venv", "node_modules"}
+
+
+def is_package_path(relative: Path) -> bool:
+    """One public inventory rule for manifests, source ZIPs and site exports."""
+    if EXCLUDED_PARTS.intersection(relative.parts) or relative.suffix == ".pyc":
+        return False
+    top = relative.parts[0]
+    if top in {"dist", "source-captures", "site"} or top.startswith(("github-upload", "github-docs-upload", "github-runtime-repair-", ".maale-gpg-")):
+        return False
+    return not (len(relative.parts) == 1 and relative.suffix == ".zip")
 
 
 def _sha256(path: Path) -> str:
@@ -28,7 +38,7 @@ def write_text_atomically(path: Path, text: str, encoding: str = "utf-8", newlin
     temporary_path = None
     try:
         with tempfile.NamedTemporaryFile(
-            mode="w", encoding=encoding, newline=newline, dir=path.parent,
+            mode="w", encoding=encoding, newline="\n" if newline is None else newline, dir=path.parent,
             prefix=f".{path.name}.", suffix=".tmp", delete=False,
         ) as stream:
             temporary_path = Path(stream.name)
@@ -72,7 +82,7 @@ def build_manifest(root: Path) -> dict:
         relative = path.relative_to(root)
         if relative.as_posix() == MANIFEST_NAME or not path.is_file():
             continue
-        if EXCLUDED_PARTS.intersection(relative.parts) or path.suffix == ".pyc":
+        if not is_package_path(relative):
             continue
         if path.is_symlink():
             raise ValueError(f"Cannot checksum a package symlink reproducibly: {relative.as_posix()}.")
@@ -84,7 +94,7 @@ def build_manifest(root: Path) -> dict:
     return {
         "manifest_version": 1,
         "hash_algorithm": "SHA-256",
-        "scope": "Every regular package file except this manifest, Git metadata, Python bytecode, and __pycache__ directories.",
+        "scope": "Canonical public project files; excludes this manifest, Git metadata, caches, temporary files, private source-captures, legacy upload copies and generated release ZIPs/dist.",
         "files": files,
     }
 

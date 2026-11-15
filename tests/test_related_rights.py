@@ -17,10 +17,16 @@ class RelatedRightsTests(unittest.TestCase):
         cls.schema = json.loads((ROOT / "schemas/related-text.schema.json").read_text(encoding="utf-8"))
         cls.sources = {row["source_id"] for row in cls.archive["sources"]}
 
-    def test_related_work_rights_are_explicitly_unknown_until_an_edition_is_cleared(self):
+    def test_related_work_rights_preserve_edition_specific_claims_and_limits(self):
         records = self.archive["related_texts"]
-        self.assertEqual(len(records), 7)
-        self.assertEqual({record["rights_classification"] for record in records}, {"unknown"})
+        self.assertEqual({record["related_id"] for record in records},
+                         {f"REL-{number:03d}" for number in range(1, 10)})
+        self.assertEqual({record["related_id"]: record["rights_classification"] for record in records},
+                         {f"REL-{number:03d}": "public_domain_claimed" if number == 8 else "unknown"
+                          for number in range(1, 10)})
+        second_enoch = next(record for record in records if record["related_id"] == "REL-008")
+        self.assertIn("U.S.", second_enoch["rights_status"])
+        self.assertIn("not completed territory-specific rights review", second_enoch["rights_status"])
         for record in records:
             with self.subTest(related_id=record["related_id"]):
                 validate_closed_schema_objects(record, self.schema, self.schema, record["related_id"])

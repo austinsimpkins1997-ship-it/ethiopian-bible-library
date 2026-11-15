@@ -23,9 +23,9 @@ class RightsCoverageTests(unittest.TestCase):
         basis_count = sum(bool(source.get("rights_basis", "").strip()) for source in self.archive["sources"])
         self.assertEqual(source_summary["rights_basis_record_count"], basis_count)
         self.assertEqual(basis_count, len(self.archive["sources"]))
-        self.assertEqual(source_summary["rights_class_counts"]["unknown"], 404)
+        self.assertEqual(source_summary["rights_class_counts"]["unknown"], 406)
         self.assertEqual(source_summary["rights_class_counts"]["mixed"], 12)
-        self.assertEqual(source_summary["rights_class_counts"]["permission_limited"], 17)
+        self.assertEqual(source_summary["rights_class_counts"]["permission_limited"], 18)
         self.assertEqual(reader_summary["record_count"], len(self.archive["readers"]))
         self.assertEqual(
             reader_summary["canon_linked_record_count"] + reader_summary["research_only_record_count"],

@@ -71,7 +71,8 @@ def verify_checksum_signature(key_data: bytes, signed_data: bytes) -> dict:
     """Verify the publisher's signed checksum list with the included key and pinned fingerprint."""
     gpg = shutil.which("gpg")
     bash = None
-    if not gpg and os.name == "nt":
+    # Git's GPG is an MSYS executable: use its shell and POSIX paths on Windows.
+    if os.name == "nt":
         for program_files in (os.environ.get("ProgramW6432"), os.environ.get("ProgramFiles"), os.environ.get("ProgramFiles(x86)")):
             if program_files:
                 candidate = Path(program_files) / "Git" / "bin" / "bash.exe"
@@ -81,7 +82,8 @@ def verify_checksum_signature(key_data: bytes, signed_data: bytes) -> dict:
     if not gpg and not bash:
         raise RuntimeError("GnuPG is required to verify the retained Maale source package signature.")
 
-    with tempfile.TemporaryDirectory(prefix=".maale-gpg-", dir=ROOT) as temporary:
+    # GPG's local-agent socket has a short path limit; project paths may be long.
+    with tempfile.TemporaryDirectory(prefix="bible-gpg-") as temporary:
         temporary_path = Path(temporary)
         home = temporary_path / "gnupg"
         home.mkdir()
@@ -93,7 +95,7 @@ def verify_checksum_signature(key_data: bytes, signed_data: bytes) -> dict:
         command = ["gpg", "--batch", "--no-autostart", "--import", '"$GNUPGHOME/keys.asc"']
         verify = ["gpg", "--batch", "--no-autostart", "--status-fd", "1", "--verify", '"$GNUPGHOME/signature.txt.asc"']
         if bash:
-            env["GNUPGHOME"] = home.relative_to(ROOT).as_posix()
+            env["GNUPGHOME"] = "/" + home.drive[0].lower() + home.as_posix()[2:]
             import_command = "gpg --batch --no-autostart --import \"$GNUPGHOME/keys.asc\""
             verify_command = "gpg --batch --no-autostart --status-fd 1 --verify \"$GNUPGHOME/signature.txt.asc\""
             import_args = [bash, "-c", import_command]
@@ -101,8 +103,10 @@ def verify_checksum_signature(key_data: bytes, signed_data: bytes) -> dict:
         else:
             env["GNUPGHOME"] = str(home)
             import_args = [gpg, *command[1:-1], str(key_path)]
-            verify_args = [gpg, *verify[:-1], str(signed_path)]
+            verify_args = [gpg, *verify[1:-1], str(signed_path)]
         imported = subprocess.run(import_args, cwd=ROOT, env=env, capture_output=True, text=True)
+        if imported.returncode:
+            raise ValueError(f"Maale signing-key import failed: {imported.stderr.strip()}")
         checked = subprocess.run(verify_args, cwd=ROOT, env=env, capture_output=True, text=True)
         if checked.returncode:
             raise ValueError(f"Maale package checksum-list signature did not verify: {checked.stderr.strip()}")

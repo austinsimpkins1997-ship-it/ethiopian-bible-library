@@ -160,17 +160,11 @@ def load_capture() -> dict[tuple[str, int], dict]:
         or raw_response.count(b"\xa0") != 6
     )
     if audit_mismatch:
-        print(
-            "WARNING: Leviticus 18 raw response audit mismatch detected; continuing with local archive "
-            "for compatibility while the raw capture metadata is being reconciled."
-        )
+        raise ValueError("Leviticus 18 raw response does not match the retained byte count and SHA-256.")
     normalized_html = raw_response.replace(b"\xa0", b"\xc2\xa0").decode("utf-8")
     leviticus_18 = next(page for page in pages if page["book"] == "Leviticus" and page["chapter"] == 18)
     if leviticus_18["html"] != normalized_html:
-        print(
-            "WARNING: Leviticus 18 capture normalization differs from the retained raw response; "
-            "continuing with the local capture payload to keep the archive build moving."
-        )
+        raise ValueError("Leviticus 18 normalized capture differs from the retained raw response.")
     return {(page["book"], page["chapter"]): page for page in pages}
 
 
@@ -374,7 +368,7 @@ def main() -> None:
             "edition_scope": "Historical scholarly edition. It is not identified as the current official EOTC printed edition. Dillmann's critical apparatus is not included in this digital transcription.",
             "transcription_note": "HaCohen reports OCR followed by proofreading and correction of Dillmann's corrigenda, while warning that new transcription errors may remain. This archive bundles the digitizer's transcription without independent collation.",
             "editorial_signs_note": "The digitizer's Octateuch notes say round parentheses mark additions to the Septuagint, square brackets mark omissions supplied from later Ethiopic manuscript tradition, and the transcription preserves those markers as represented.",
-            "chapter_structure_note": f"The locally archived menu and source pages contain {book['name']} chapters 1–{book['count']} in order. HaCohen's digitization replaces Dillmann's Ethiopic page headers with static chapter pagination for local reading.",
+            "chapter_structure_note": f"The locally archived menu and source pages contain {book['name']} chapters 1–{book['count']} in order. HaCohen's digitization replaces Dillmann's Ethiopic verse numerals with Arabic numerals and moves them inline. Verse numbering follows the Septuagint and may be discontinuous. This archive preserves the digitization's displayed labels without regularizing or filling them; the labels have not been independently collated against the print edition.",
             "copyright_notice": RIGHTS_NOTICE,
             "rights_classification": "permission_limited",
             "commercial_use": "Not granted by the cited permission notice.",
@@ -383,7 +377,7 @@ def main() -> None:
             "unit_count": verse_count,
             "unit_label": "Source-linked verse markers",
             "verse_marker_count": verse_count,
-            "verification_status": "Reproducible tests confirm that each archived raw HTML page reproduces its local capture byte-for-byte and that parsing it reproduces the bundled chapter text; the built archive keeps the locally preserved chapter markup and verse labels.",
+            "verification_status": "Reproducible tests confirm that each archived raw HTML page reproduces its local capture byte-for-byte and that parsing it reproduces the bundled chapter text, source labels, and source URL exactly. This checks capture-to-reader correspondence only; no independent Geʽez manuscript collation or English translation is claimed.",
             "chapters": chapters,
         }
         output = ROOT / "readers" / f"{book['slug']}-geez.json"

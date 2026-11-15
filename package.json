@@ -1,0 +1,7 @@
+{
+  "name": "ethiopian-bible-library-checks",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"test:browser": "node tests/browser_smoke.cjs"},
+  "devDependencies": {"playwright": "1.62.1"}
+}

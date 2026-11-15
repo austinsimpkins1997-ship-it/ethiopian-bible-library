@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from datetime import date
+from release_metadata import release_date
 from html import escape
 import json
 from pathlib import Path
@@ -71,7 +71,7 @@ def build_summary(archive: dict) -> dict:
         raise ValueError("Every reader must be either canon-linked or separately scoped research.")
     return {
         "schema_version": 1,
-        "as_of": date.today().isoformat(),
+        "as_of": release_date(),
         "scope": "A snapshot of the rights categories recorded on source and reader records in this built package. These counts are not a legal opinion or a worldwide rights determination.",
         "sources": {
             "record_count": len(sources),
