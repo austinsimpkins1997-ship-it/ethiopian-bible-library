@@ -636,8 +636,8 @@ def validate_offline_shell() -> int:
         raise ValueError("Application code must load selected reader text from its same-site package.")
     if "readerMetadata.reader_data_url" not in app_script or "state.activeReaderData = reader;" not in app_script:
         raise ValueError("Application code must validate and retain only the selected local reader package.")
-    if "renderReader({ loadText: false })" not in app_script or 'id="reader-open"' not in html:
-        raise ValueError("The initial page must defer reader text loading until a person opens a text.")
+    if "await renderReader({ loadText: true })" not in app_script or 'id="reader-open"' not in html:
+        raise ValueError("The initial page must open only its selected same-site reader, with a retry control.")
     if re.search(r"\bXMLHttpRequest\b|\bWebSocket\b", app_script):
         raise ValueError("Application code must not use unrestricted data channels.")
     if 'id="offline-status"' not in html or "CHECK_OFFLINE_READER" not in app_script:

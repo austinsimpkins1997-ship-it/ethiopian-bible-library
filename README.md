@@ -5,6 +5,15 @@
 
 ## Current release and deployment
 
+The reading page now opens a selected chapter near the top, with parallel
+witnesses selected for the 11 books that have a bundled English companion.
+Play, Pause/Resume and Stop read the selected chapter using a matching installed
+local device voice. Voice availability varies by language, browser and device;
+unsupported languages remain readable without an unrelated-language fallback.
+Audio never starts automatically. Catalogue, source records, rights and study
+tools remain available in expandable sections. See the
+[reader-first update and verification](READER_FIRST_UPDATE_2026-11-15.md).
+
 See [CURRENT_RELEASE.md](CURRENT_RELEASE.md) for repairs, public-package boundaries, test setup and next steps. Readers can use the [release status page](research/release-readiness.html). Install the pinned development dependency with `npm ci --ignore-scripts --no-audit --no-fund`, then `npx playwright install chromium` before running the browser check below.
 
 Manifest entries use case-sensitive relative POSIX-path ordering on every operating system. Keep the strict committed-output check: a Windows-prepared release must rebuild without changes on Linux. See [the deployment repair record](DEPLOYMENT_FIX_2026-11-15.md).
@@ -174,6 +183,8 @@ node --check app.js
 node --check offline-reader-cache.js
 node --check sw.js
 node tests/test_reader_package.js
+node tests/test_reader_audio.js
+node tests/test_parallel_coverage.js
 node tests/test_offline_reader_cache.js
 node tests/test_service_worker.js
 node tests/browser_smoke.cjs

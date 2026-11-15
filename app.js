@@ -3,6 +3,10 @@ let refreshOfflineReaderStatus = () => {};
 let offlineReaderStatusFor = null;
 let bulkReaderSavePlan = null;
 let bulkReaderSaveController = null;
+const readerModes = new Map();
+const readerAudio = window.ReaderAudio?.createPlayer({
+  document, synth: window.speechSynthesis, Utterance: window.SpeechSynthesisUtterance,
+});
 function persistReaderSelection(readerId) {
   if (!readerId || location.protocol === 'file:') return;
   const url = new URL(location.href);
@@ -123,14 +127,74 @@ async function init() {
     const mappedRows = new Set(state.canonBooks.flatMap(book => book.catalogue_ids || []).filter(id => catalogueIds.has(id)));
     const mappedCanonEntries = state.canonBooks.filter(book => (book.catalogue_ids || []).some(id => catalogueIds.has(id))).length;
     byId('catalogue-crosswalk-summary').textContent = `${mappedCanonEntries} of ${state.canonBooks.length} Church-list entries link to ${mappedRows.size} of ${state.books.length} catalogue rows for navigation. This does not verify that the mapped titles identify the same work.`;
-    renderBooks(); renderSources(); renderRelated(); renderCanonCoverage(); renderLanguageCoverage(); renderReader({ loadText: false });
-    if (requestedReaderIsValid && !navigator.onLine && navigator.serviceWorker?.controller) {
-      await renderReader({ loadText: true });
-    }
+    setupSectionDisclosures();
+    await renderReader({ loadText: true });
   } catch (error) {
     byId('results-label').textContent = 'The catalogue could not be loaded.';
     byId('book-grid').innerHTML = `<div class="load-error"><strong>Archive unavailable</strong><p>${escapeHTML(error.message)}. Rebuild the embedded archive from archive.json.</p></div>`;
   }
+}
+
+function setupSectionDisclosures() {
+  const renderers = {
+    library: renderBooks, sources: renderSources, related: renderRelated,
+    'canon-coverage': renderCanonCoverage, 'language-coverage': renderLanguageCoverage,
+  };
+  const renderSection = name => {
+    const details = byId(name + '-disclosure');
+    if (details && !details.dataset.rendered) {
+      renderers[name]?.();
+      details.dataset.rendered = 'true';
+    }
+  };
+  document.querySelectorAll('.section-disclosure').forEach(details => {
+    details.addEventListener('toggle', () => {
+      if (details.open) renderSection(details.closest('section').id);
+    });
+  });
+  const openTarget = hash => {
+    let id;
+    try { id = decodeURIComponent(hash.replace(/^#/, '')); } catch { return null; }
+    if (!id) return null;
+    if (id.startsWith('source-') || id === 'catalogue-method') renderSection('sources');
+    const target = byId(id);
+    if (!target) return null;
+    const section = target.closest('section');
+    if (section && renderers[section.id]) renderSection(section.id);
+    const disclosure = target.matches('section') ? target.querySelector(':scope > .section-disclosure') : null;
+    if (disclosure) disclosure.open = true;
+    let parent = target;
+    while (parent) {
+      if (parent.tagName === 'DETAILS') parent.open = true;
+      parent = parent.parentElement;
+    }
+    return target;
+  };
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a[href^="#"]');
+    if (!link || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button > 0) return;
+    const hash = link.getAttribute('href');
+    if (hash === '#') return;
+    const target = openTarget(hash);
+    if (!target) return;
+    event.preventDefault();
+    const url = new URL(location.href);
+    url.hash = hash;
+    history.pushState(history.state, '', url);
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (target.id === 'main') target.focus({ preventScroll: true });
+  });
+  window.addEventListener('hashchange', () => openTarget(location.hash)?.scrollIntoView({ block: 'start' }));
+  window.addEventListener('popstate', () => {
+    const requested = new URLSearchParams(location.search).get('reader');
+    if (requested && requested !== state.readerId && state.readers.some(reader => reader.reader_id === requested)) {
+      state.readerId = requested;
+      state.chapter = 1;
+      renderReader();
+    }
+    openTarget(location.hash);
+  });
+  openTarget(location.hash);
 }
 
 async function setupBulkReaderSave() {
@@ -721,12 +785,15 @@ async function renderReader({ loadText = true } = {}) {
   const currentReaderIsOutsideSearch = !matchingReaders.some(item => item.reader_id === readerMetadata.reader_id);
   const visibleReaders = currentReaderIsOutsideSearch ? [readerMetadata, ...matchingReaders] : matchingReaders;
   const visibleCanonReaders = visibleReaders.filter(item => item.canon_id && !(currentReaderIsOutsideSearch && item.reader_id === readerMetadata.reader_id));
+  const parallelReaders = visibleCanonReaders.filter(item => item.parallel_translation);
+  const singleCanonReaders = visibleCanonReaders.filter(item => !item.parallel_translation);
   const visibleResearchReaders = visibleReaders.filter(item => item.research_corpus_id && !(currentReaderIsOutsideSearch && item.reader_id === readerMetadata.reader_id));
   const currentReaderOption = currentReaderIsOutsideSearch
      ? `<optgroup label="Current reader · kept open">${option(readerMetadata)}</optgroup>` : '';
   bookSelect.innerHTML = [
     currentReaderOption,
-    visibleCanonReaders.length ? `<optgroup label="Church-list readers">${visibleCanonReaders.map(option).join('')}</optgroup>` : '',
+    parallelReaders.length ? `<optgroup label="Parallel Geʽez + English · ${parallelReaders.length} books">${parallelReaders.map(option).join('')}</optgroup>` : '',
+    singleCanonReaders.length ? `<optgroup label="Other Church-list readers">${singleCanonReaders.map(option).join('')}</optgroup>` : '',
     visibleResearchReaders.length ? `<optgroup label="Research texts · not canon coverage">${visibleResearchReaders.map(option).join('')}</optgroup>` : '',
   ].join('');
   const resultLanguages = new Set(matchingReaders.flatMap(item => [item.language_tag, item.parallel_translation?.language_tag].filter(Boolean)));
@@ -744,9 +811,12 @@ async function renderReader({ loadText = true } = {}) {
   const companionMetadata = readerMetadata.parallel_translation;
   const languageOptions = [`<option value="${escapeHTML(readerMetadata.language_tag)}">${escapeHTML(readerMetadata.language)}</option>`];
   if (companionMetadata) languageOptions.push(`<option value="${escapeHTML(companionMetadata.language_tag)}">${escapeHTML(companionMetadata.language)}</option>`, '<option value="parallel">Parallel witnesses</option>');
-  const priorMode = languageSelect.value;
+  const priorMode = readerModes.get(readerMetadata.reader_id);
   languageSelect.innerHTML = languageOptions.join('');
-  languageSelect.value = languageOptions.some(option => option.includes(`value="${priorMode}"`)) ? priorMode : readerMetadata.language_tag;
+  languageSelect.value = languageOptions.some(option => option.includes(`value="${priorMode}"`))
+    ? priorMode : companionMetadata ? 'parallel' : readerMetadata.language_tag;
+  const audioKey = readerMetadata.reader_id + ':' + state.chapter + ':' + languageSelect.value;
+  readerAudio?.prepare(audioKey);
   const openButton = byId('reader-open');
   if (openButton) {
     const loaded = state.activeReaderData?.reader_id === readerMetadata.reader_id;
@@ -802,7 +872,7 @@ async function renderReader({ loadText = true } = {}) {
   const englishTag = companion?.language_tag || 'en';
   const sourceUnits = Array.isArray(chapter.units) ? chapter.units : chapter.verses || [];
   const parallelRows = window.ReaderAlignment.buildParallelRows(sourceUnits, englishChapter?.verses || []);
-  byId('reader-chapter').innerHTML = reader.chapters.map(item => `<option value="${item.chapter}"${item.chapter === chapter.chapter ? ' selected' : ''}>${escapeHTML(formatChapterLabel(reader, item))}</option>`).join('');
+  byId('reader-chapter').innerHTML = reader.chapters.map(item => `<option value="${item.chapter}" title="${escapeHTML(formatChapterLabel(reader, item))}"${item.chapter === chapter.chapter ? ' selected' : ''}>${escapeHTML(item.source_page_label || String(item.chapter))}</option>`).join('');
   const unitLabel = reader.unit_label || 'Verse';
   const marker = item => item?.unit_order != null
     ? `${unitLabel} ${item.unit_order} · ${item.source_marker != null ? `source label ${item.source_marker}` : 'source label absent'}`
@@ -841,12 +911,15 @@ async function renderReader({ loadText = true } = {}) {
     : companion && mode === englishTag ? [companion] : [reader];
   byId('reader-chapter-count').textContent = `${sectionCount} · ${activeCountLayers.map(observedUnits).join(' · ')}`;
   if (mode === 'parallel' && companion) {
+    byId('reader-brief-note').textContent = 'Side by side for comparison; editions and verse labels can differ.';
     byId('reader-text').innerHTML = chapterLead + parallelRows.map(row => `<article class="reader-parallel-row"><div><span class="reader-witness-label">${escapeHTML(reader.language.toUpperCase())}</span>${witness(row.source, sourceTag, 'geez-witness', row.source ? marker(row.source) : 'No source unit')}</div><div><span class="reader-witness-label">${escapeHTML(companion.title)}</span>${sourceStructure(row.english)}${witness(row.english, englishTag, 'english-witness', row.english ? String(row.english.number) : 'No matching English label')}</div></article>`).join('');
     byId('reader-alignment-note').textContent = 'Only unique matching printed labels are paired, for navigation. Duplicate, absent, or ambiguous labels stay unpaired and visible; matching labels do not establish textual equivalence or translation accuracy.';
   } else if (companion && mode === englishTag) {
+    byId('reader-brief-note').textContent = 'An English historical companion. Its edition and source notes are available below.';
     byId('reader-text').innerHTML = chapterLead + (englishChapter?.verses || []).map(englishVerse).join('');
     byId('reader-alignment-note').textContent = companion.translation_basis;
   } else {
+    byId('reader-brief-note').textContent = 'The selected source witness. Its edition and numbering notes are available below.';
     byId('reader-text').innerHTML = chapterLead + sourceUnits.map(item => `<article class="reader-verse ${(item.source_markers_before || []).includes('p') ? 'paragraph-start' : ''}">${sourceStructure(item)}${witness(item, sourceTag, 'geez-witness', marker(item))}</article>`).join('') + sourceTables + trailingSourceStructure;
     byId('reader-alignment-note').textContent = reader.unit_label ? `Source numbering note: ${reader.chapter_structure_note}` : '';
   }
@@ -867,6 +940,13 @@ async function renderReader({ loadText = true } = {}) {
     : '';
   byId('reader-permission').innerHTML = `Text rights: ${escapeHTML(rightsClassificationLabel(reader.rights_classification))}. ${escapeHTML(reader.rights_status || 'Rights status not recorded.')}${licenseLink(reader)}<details><summary>Item copyright and reuse notice</summary><p>${escapeHTML(reader.copyright_notice || 'No text-rights notice recorded.')}</p></details>${companion ? ` English companion rights: ${escapeHTML(rightsClassificationLabel(companion.rights_classification))}. ${escapeHTML(companion.text_notice || 'No companion rights notice recorded.')}${licenseLink(companion)}` : ''}`;
   byId('reader-caveat-text').textContent = [reader.edition_scope, reader.chapter_structure_note, reader.transcription_note, reader.editorial_signs_note, ...(chapter.source_label_observations || []), ...(companion && mode !== sourceTag ? [companion.translation_basis, companion.verification_status] : [])].filter(Boolean).join(' ');
+  const audioLayers = mode === 'parallel' && companion
+    ? [{ language_tag: sourceTag, language: reader.language, chapter },
+       { language_tag: englishTag, language: companion.language, chapter: englishChapter }]
+    : mode === englishTag && companion
+      ? [{ language_tag: englishTag, language: companion.language, chapter: englishChapter }]
+      : [{ language_tag: sourceTag, language: reader.language, chapter }];
+  readerAudio?.setContext({ key: audioKey, layers: audioLayers });
   renderReaderStudyView(reader, chapter);
 }
 
@@ -1046,8 +1126,12 @@ byId('reader-open')?.addEventListener('click', () => renderReader({ loadText: tr
 byId('reader-chapter').addEventListener('change', event => { state.chapter = Number(event.target.value); renderReader(); });
 byId('reader-prev').addEventListener('click', () => { state.chapter = Math.max(1, state.chapter - 1); renderReader(); });
 byId('reader-next').addEventListener('click', () => { const reader = state.readers.find(item => item.reader_id === state.readerId); state.chapter = Math.min(reader?.chapter_count || 1, state.chapter + 1); renderReader(); });
-byId('reader-language').addEventListener('change', renderReader);
+byId('reader-language').addEventListener('change', event => {
+  readerModes.set(state.readerId, event.target.value);
+  renderReader();
+});
 byId('reader-lens').addEventListener('change', renderReader);
+window.addEventListener('pagehide', () => readerAudio?.stop());
 
 byId('reader-download')?.addEventListener('click', () => {
   const status = byId('reader-export-status');
