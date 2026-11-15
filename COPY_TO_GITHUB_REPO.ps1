@@ -9,8 +9,8 @@ function Get-PackageRelativePath([string]$Path) {
     return $Path.Substring($sourceRoot.Length).TrimStart('\', '/')
 }
 
-Write-Host 'Ethiopian Bible Library package → GitHub clone' -ForegroundColor Cyan
-Write-Host 'Use the repository root opened with GitHub Desktop: Repository → Show in Explorer.'
+Write-Host 'Ethiopian Bible Library package -> GitHub clone' -ForegroundColor Cyan
+Write-Host 'Use the repository root opened with GitHub Desktop: Repository -> Show in Explorer.'
 $destinationInput = $DestinationPath
 if ([string]::IsNullOrWhiteSpace($destinationInput)) {
     Write-Host 'Tip: drag the GitHub clone folder onto COPY_TO_GITHUB_REPO.bat to fill this in.'
@@ -63,7 +63,7 @@ if ($conflicts.Count -gt 0) {
     $conflicts | Select-Object -First 12 | ForEach-Object {
         Write-Host ('  ' + (Get-PackageRelativePath $_.FullName))
     }
-    if ($conflicts.Count -gt 12) { Write-Host "  … and $($conflicts.Count - 12) more" }
+    if ($conflicts.Count -gt 12) { Write-Host "  ... and $($conflicts.Count - 12) more" }
     Write-Host 'Review these files in GitHub Desktop after the copy.' -ForegroundColor Yellow
 }
 $confirmation = Read-Host 'Type COPY to proceed; any other response cancels'

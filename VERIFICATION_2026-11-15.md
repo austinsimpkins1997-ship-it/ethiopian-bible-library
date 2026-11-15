@@ -2,10 +2,12 @@
 
 - Complete ordered source rebuild: passed. Current public snapshot: 759 readers,
   451 sources and 28 language profiles.
-- Python: 399 tests run in 102.933 seconds; 379 passed, 20 intentionally skipped
+- Python: 404 tests run in 97.462 seconds; 384 passed, 20 intentionally skipped
   because the mixed-rights scripture/source XML is absent from the public tree.
-- Post-test package integrity: passed; the tests left the 2,198-file public
+- Post-test package integrity: passed; the tests left the 2,201-file public
   inventory unchanged before this verification record was added.
+- Repeated complete rebuild: zero changed files across 2,201 public files.
+- Windows copy handoff: all manifest-listed files verified; destination Git metadata and a destination-only fixture were preserved.
 - Three JavaScript suites passed: reader export, offline cache, service worker.
   Syntax checks also passed for the app, export, cache and service-worker code.
 - Real Chromium automation at a GitHub Pages-style subpath passed at 320, 390,

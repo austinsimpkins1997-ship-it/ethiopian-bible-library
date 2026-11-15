@@ -6,6 +6,7 @@ import json
 import re
 import re
 from archive_manifest import write_text_atomically
+from metadata_helpers import ensure_appended_note_once
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -26,6 +27,12 @@ RIGHTS_NOTE = (
 )
 WITHHELD_MAPPING_NOTE = "Source text is withheld pending rights clarification; see SRC-296–SRC-297."
 WITHHELD_REVIEW_NOTE = "Text withheld pending rights clarification; this is a metadata-only lead."
+
+
+def stable_withheld_mapping_note(existing: str) -> str:
+    """Keep one generated notice even when a later catalogue note follows it."""
+    base = " ".join(existing.replace(WITHHELD_MAPPING_NOTE, "").split())
+    return f"{base} {WITHHELD_MAPPING_NOTE}".strip()
 
 KNOWN_BETA_SCRIPTURE_READERS = {
     "mark-betamasaheft-tei-research",
@@ -102,8 +109,7 @@ def remove_public_payloads(paths: list[Path], root: Path = ROOT) -> list[str]:
 
 def _ensure_note_once(existing: str, note: str) -> str:
     """Normalize a generated notice that may already occur in prior output."""
-    base = existing.replace(note, "").strip()
-    return f"{base} {note}".strip()
+    return ensure_appended_note_once(existing, note)
 
 
 def _source_records() -> list[dict]:
@@ -355,10 +361,7 @@ def build(archive: dict) -> int:
             continue
         book["reader_id"] = None
         book["reader_status"] = "Not bundled: source text withheld pending rights clarification."
-        mapping_note = book.get("mapping_note", "").strip()
-        while mapping_note.endswith(WITHHELD_MAPPING_NOTE):
-            mapping_note = mapping_note[: -len(WITHHELD_MAPPING_NOTE)].rstrip()
-        book["mapping_note"] = f"{mapping_note} {WITHHELD_MAPPING_NOTE}".strip()
+        book["mapping_note"] = stable_withheld_mapping_note(book.get("mapping_note", ""))
         book["source_ids"] = sorted(
             set(book.get("source_ids", [])) | {GUIDELINES_ID, DATASET_ID},
             key=lambda value: int(value.split("-")[1]),

@@ -48,6 +48,7 @@ Other discovered release blockers were repaired:
 - Excluded private preservation captures, old upload copies, generated ZIPs and
   caches from the public inventory. Old delivery copies remain locally; this
   branch removes them from Git tracking. This does not erase Git history.
+- Fixed repeated rights notices and whitespace growth when later catalogue notes follow them; a second complete build leaves every public file unchanged.
 - Replaced the obsolete packaging assumptions with manifest-verified source and
   website exports. The copy helper uses that manifest rather than copying an
   entire working directory recursively.
