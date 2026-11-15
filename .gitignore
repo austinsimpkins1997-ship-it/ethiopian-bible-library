@@ -5,3 +5,13 @@ tmp/
 venv/
 .DS_Store
 Thumbs.db
+
+# Delivery copies and private captures are not the canonical public project.
+dist/
+node_modules/
+source-captures/
+/site/
+github-upload*/
+github-docs-upload*/
+github-runtime-repair-*/
+/*.zip

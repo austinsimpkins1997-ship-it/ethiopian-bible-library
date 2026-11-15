@@ -73,8 +73,14 @@ def ensure_source(archive: dict, source: dict) -> None:
     existing = next((item for item in sources if item.get("source_id") == source["source_id"]), None)
     if existing is None:
         sources.append(source)
-    elif existing != source:
-        raise ValueError(f"Source ID collision for {source['source_id']}.")
+    else:
+        # Rights review and other downstream stages may enrich a source record.
+        # Validate the fields owned by this builder without removing that evidence.
+        conflicts = [key for key, value in source.items() if existing.get(key) != value]
+        if conflicts:
+            raise ValueError(
+                f"Source ID collision for {source['source_id']}: {', '.join(conflicts)}."
+            )
 
 
 def build() -> None:

@@ -420,7 +420,8 @@ def render_package_inventory(inventory: dict) -> str:
 def write_package_inventory(archive: dict, portable_layer_records: list[dict]) -> dict:
     inventory = build_package_inventory(archive, portable_layer_records)
     write_text_atomically(INVENTORY_PATH, json.dumps(inventory, ensure_ascii=False, indent=2) + "\n")
-    snapshot_date = date.today().isoformat()
+    from release_metadata import release_date
+    snapshot_date = release_date()
     readme = README_PATH.read_text(encoding="utf-8")
     readme, date_replacements = re.subn(
         r"## Current package status \(\d{4}-\d{2}-\d{2}\)",

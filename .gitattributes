@@ -1,6 +1,10 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+* text=auto eol=lf
 
 # Preserve raw archive captures exactly as captured; do not normalize line endings.
 *.response.bin binary
 *.bin binary
+
+# Source captures have individually pinned bytes, including mixed newline styles.
+# Never normalize them during checkout, staging, or archive creation.
+readers/source/** -text

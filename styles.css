@@ -21,6 +21,15 @@
 /* Direct reading path, with catalogue browsing still one tap away. */
 .hero-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px}
 .hero-library-link{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 8px;color:#f0dfb7;font-size:13px;font-weight:600;text-decoration-thickness:1px;text-underline-offset:4px}
+/* Long evidence URLs must wrap inside their grid tracks on narrow screens. */
+.related-card,.source-card{min-width:0;overflow-wrap:anywhere}
+@media(max-width:700px){.related-list{grid-template-columns:minmax(0,1fr)}}
+@media(min-width:701px) and (max-width:1100px){
+  .topbar{display:grid;grid-template-columns:minmax(0,1fr) auto;height:auto;gap:5px 12px;padding:12px 24px}
+  .nav{grid-column:1/-1;grid-row:2;width:100%;height:auto;gap:12px;overflow-x:auto}
+  .nav-link{flex:0 0 auto;height:auto;min-height:44px;padding:8px 6px}
+  .free-pill{justify-self:end}
+}
 /* Mobile-first access: keep the main route visible and give reader controls room to tap. */
 :where(a,button,input,select,summary):focus-visible{outline:3px solid #b88735;outline-offset:3px}
 @media(max-width:700px){

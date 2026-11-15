@@ -3,7 +3,13 @@
 > **GitHub handoff:** project files belong at the repository root beside this `README.md` and `index.html`. If this folder is already a Git clone, review changes in GitHub Desktop. If it is a standalone package, follow [START_HERE.md](START_HERE.md) and use `COPY_TO_GITHUB_REPO.bat` to transfer it into a clone. The helper preserves `.git`, leaves destination-only files in place, and verifies the package.
 > **Licenses:** `LICENSE` (MIT) covers software code. It does not grant rights to Scripture or third-party translations. Project-curated metadata has a separate, limited CC BY 4.0 license where contributors can grant it. Check [CONTENT-LICENSES.md](CONTENT-LICENSES.md) and [DATA-LICENSE.md](DATA-LICENSE.md) for item-level terms; unknown rights are not permission.
 
+## Current release and deployment
+
+See [CURRENT_RELEASE.md](CURRENT_RELEASE.md) for repairs, public-package boundaries, test setup and next steps. Readers can use the [release status page](research/release-readiness.html). Install the pinned development dependency with `npm ci --ignore-scripts --no-audit --no-fund`, then `npx playwright install chromium` before running the browser check below.
+
 ## Source capture encodings
+
+Release preparation uses the explicit date in `release-metadata.json`; rebuilding does not advance the research date. Every registered language profile has a bounded provider-page survey record. This snapshot documents all 28 registered profiles; their individual methods, capture dates and open questions remain in `translation-registry.json`. A recorded survey is not a claim of exhaustive availability, translation accuracy or current worldwide coverage.
 
 Five captured source-information pages declare Windows-1252. Four contain byte sequences invalid as UTF-8; the Sirach-specific page is ASCII-compatible. Exact original bytes remain available as downloads, while sanitized UTF-8 display derivatives and capture manifests are linked locally. See the [browser-readable audit](research/source-encoding-audit.html), [audit data](research/source-encoding-audit.json), and [detailed method and SHA-256 inventory](research/source-encoding-audit.md). These are metadata pages, not scripture text layers.
 
@@ -11,7 +17,7 @@ Five captured source-information pages declare Windows-1252. Four contain byte s
 
 The [Genesis 1 first-/third-person lens](research/genesis-1-divine-person-lens.html) exposes one bounded English lexical count alongside the separate Geʽez string count. It labels Geʽez grammatical person as unassessed and links the underlying machine-readable record and method notes. This is a chapter study, not a universal translation.
 
-## Current package status (2026-10-28)
+## Current package status (2026-11-15)
 
 <!-- GENERATED PACKAGE INVENTORY: START -->
 | Snapshot measure | Count | Scope |
@@ -80,13 +86,13 @@ The Church list names Tegsats as a separate entry after Proverbs. Historical sou
 
 The generated snapshot inventory below is derived from the current archive and registries. These counts describe this package build, not completeness outside it. Beta maṣāḥǝft scripture texts with unresolved licensing context are **not included**; their source citations, checksums, measured scope, and rights caveats remain as metadata. Their TEI and reader captures are preserved only in a private local folder outside this repository. The project does not claim permission or resolve which notice controls. The downloadable portable layer manifest records selected Geʽez source texts, published English translations, and CC BY-SA 4.0 Gamo research translations; its current record totals are in the manifest, not duplicated here. The Gamo records retain publisher labels, measured digital structure, and unknown source/relay-language paths; they make no canon assertions. The separately exported Brenton Septuagint layers for Amos and Joel retain uncertain title-level EOTC links. Bounded provider-page surveys are recorded for the registered language profiles; the generated inventory reports the current count. The Blin profile now includes the DBS-linked Bilin (1890) Mark scan as an offline facsimile: 80 pages are recorded, the scan visibly uses Ethiopic script despite DBS metadata saying Latin, and its misclassified Tesseract OCR remains diagnostic-only. The provider labels the scan Public Domain / OPEN; the archive records this as a provider claim, not a worldwide legal conclusion. No transcription or Orthodox canon mapping is claimed. The English survey counted three inspected pages, not editions; the Arabic [ar] survey found three standard-Arabic entries on eBible.org territory-filtered for Eritrea, not Eritrean-specific editions. Separate dialect-level leads remain distinct and unverified; Joshua Project and Glottolog disagree on Hijazi Arabic's country attribution, so it is not treated as settled Eritrean language geography. The Tigrinya profile now records a Bible Society of Eritrea 1998 Genesis-portion lead and a separate Digital Bible Society Common Language PDF whose metadata says full Bible but whose 133-page contents list only the 27 New Testament titles; both remain unbundled pending scope and rights clarity. The package includes 66 separate Standard Arabic [arb] Van Dyck research readers from a public USFM-only subset (1,189 chapter divisions and 31,104 observed verse labels); 65 now carry provisional, uncertain title-code candidates to corresponding Church-list entries, based on the provider book-code documentation and the Church’s cited English list (SRC-029, SRC-196). These are archive-authored navigation candidates, not provider assertions, EOTC affiliation, textual identity, chapter-scope equivalence, or completeness; Lamentations remains without a separate candidate. The readers remain research-only and do not increase canon-linked coverage. The exact upstream ZIP is retained in the local source-captures directory outside the public site. IANA's `arb` tag remains separate from the `ar` Arabic macrolanguage profile, whose survey is country-filtered for Eritrea; these are not Eritrean-specific translations. eBible.org states public-domain status; the archive records this as a provider claim, not independent legal advice. Extraction checks do not verify accuracy or completeness. The counts in this paragraph describe observed source structures; current package totals are in the generated inventory. The archive compared TAU's Reigns/Samuel naming with the Church's grouped title and reviewed the work/title crosswalk only; no current EOTC edition is identified. TAU's Dillmann Reigns I–II pages are bundled as two separately attributed Samuel research readers: 31 and 24 chapter pages, with 805 and 691 linked source spans. TAU describes the text as OCR-converted and proofread while warning errors may remain; wording has not been independently collated, and no exact current EOTC edition match is claimed. The source permits noncommercial copying only with its copyright and permission notices; this is not an open or commercial license. A repeated external link to 2 Samuel 1:1 maps distinct spans in Reigns I 31 and II 1; both are retained in place with a visible note, not merged. TAU’s Dillmann Regum III–IV pages add separate I–II Kings research readers: 23 and 25 source-page divisions. The archive reviewed the work/title crosswalk to the grouped Church-list entry against TAU's explicit Reigns I–IV identification; this does not establish an exact current-edition match. Regum III’s separate 3a/3b pages and menu order (21 before 20) are preserved and shown in reader navigation. TAU reports OCR and proofreading but warns errors may remain; wording has not been independently collated. Reuse is limited to noncommercial copying with notices. The Chronicles lead has now been checked against TAU’s retained menus: 29 and 36 chapter links point to scanned PNG pages. The package stores the 65 HTML wrappers and checksums, not the scans or an OCR/text layer; this is discovery evidence, not a reader. TAU’s site-wide notice is noncommercial and notice-bound. The Sirach reader adds 51 TAU menu-listed Geʽez chapters and 1,341 displayed units; 29 chapters contain source-label discontinuities that remain unfilled; chapter 13 also prints label 30 before 21, which is retained and flagged in source order. The title-family crosswalk to “Book of Joshua the Son of Sirac” is uncertain, and the text is permission-limited to noncommercial reuse with TAU’s notice.
 
-Historical snapshot notes later in this README may describe older package contents and counts. The current status above and the machine-generated archive are authoritative for this build.
+Historical snapshot notes later in this README may describe older package contents and counts. The current machine-generated inventory and archive are authoritative for this build. Source capture dates remain distinct from this release-preparation date; this is not a claim of a new scholarly collation or a fresh worldwide source survey.
 
 Mobile-first and offline-capable. Catalogue, source, canon, language metadata, and lean reader navigation/review records are embedded in the initial `index.html`. Long-form per-reader notes and full text load only when that reader is opened, from its local root-level `readers/*.json` package; the complete records remain in those packages and in `archive.json`. Opening a reader loads only its local package from this site, with no third-party text service. On GitHub Pages or another HTTPS host, the service worker saves the app page and each selected reader as it is opened. Previously opened readers can then work offline; unopened readers need a connection once. Browser storage can be cleared or evicted by the device. A `file://` copy can show the catalogue, but browser security blocks loading reader JSON files; use HTTPS, localhost, or a previously downloaded reader package. Source links are separate evidence links and may need an internet connection. External citations display the listed URL host; a remote page may redirect to another host, and this archive does not host or security-scan third-party downloads. Do not bypass browser security warnings.
 
 The footer links to the full `archive.json` download, which includes the catalogue, sources, translation registry, and all bundled reader text. It is intentionally not loaded with the initial page. Download it once while connected if you need a complete local data file. The initial page embeds matching catalogue and provenance metadata only; the build verifies those fields against `archive.json` and verifies every reader package against its archive record. Bundled texts retain their individual reuse conditions, documented in `CONTENT-LICENSES.md` and source records. The reader panel separately exports the selected text layer, or both displayed witnesses, as a self-contained JSON package with the selected text, language/basis records, linked sources, review limits, rights notices, and any canon mapping explicitly labeled. This reader export is available after that reader has loaded and does not grant reuse permission; its schema is `schemas/reader-package.schema.json`.
 
-The build also writes `archive-manifest.json` with SHA-256 and byte length for every package file except the manifest itself, Git metadata, Python bytecode, and `__pycache__`. The manifest is linked from the site and precached with the offline shell. After downloading or mirroring the package, run `python verify_archive_manifest.py` from this directory to check for missing, added, or changed files.
+The build also writes `archive-manifest.json` with SHA-256 and byte length for every package file except the manifest itself, Git metadata, Python bytecode, caches, private preservation captures, legacy upload copies, and generated release output. See `archive_manifest.py::is_package_path` for the shared public-package boundary. The manifest is linked from the site and precached with the offline shell. After downloading or mirroring the package, run `python verify_archive_manifest.py` from this directory to check for missing, added, or changed files.
 
 The proposed multilingual and worldwide expansion is described in [GLOBAL-ARCHIVE-PLAN.md](GLOBAL-ARCHIVE-PLAN.md). `schemas/archive-graph.schema.json` defines the normalized record graph. `examples/archive-graph-genesis.json` is a small illustrative subset; `examples/archive-graph-registered-layers.json` is the current generated graph of 621 distinct bundled text layers: 103 validated portable records plus every additional bundled root reader with a named local package. It includes the archive's cited 81-entry English EOTC list and, separately, the 81 numbered labels transcribed from the Eritrean Orthodox Diocese of the U.S.A. and Canada webpage. The latter is explicitly a webpage transcription, not a synod-approved Eritrean canon determination; its labels are preserved without inferred EOTC crosswalks. The graph includes 136 EOTC-list mapping assertions (23 reviewed matches, 4 source-asserted, 7 related-work, 102 uncertain; the uncertain set includes provisional Amharic/Gamo title-code candidates); 66 Gamo translation paths remain explicitly unknown, and no verse-level alignments are inferred. The build checks entity references, source IDs, language/script registration, layer-to-reader package checksums, rights, and review links. This is a bounded migration, not a universal corpus or global database. EOTC-list completeness means completeness relative to its cited English list, not an independent or universal canon determination. This page remains a static EOTC-focused prototype, not a complete collection.
 
@@ -159,39 +165,16 @@ On Windows, double-click `START_LOCAL.bat`. It starts a Python 3 server bound to
 From the project root, run:
 
 ```powershell
-python build_genesis_english.py
-python build_genesis_geez.py
-python build_exodus_geez.py
-python build_brenton_exodus.py
-python build_octateuch_readers.py
-python build_eritrea_canon_evidence.py
-python build_psalms_geez.py
-python integrate_psalms.py
-python audit_crosswire_module.py
-python build_octateuch_inventory.py
-python build_canon_registry.py
-python build_brenton_octateuch.py
-python build_brenton_research_readers.py
-python build_brenton_job.py
-python build_brenton_tobit.py
-python build_brenton_sirach.py
-python build_brenton_ruth.py
-python build_gamo_research_readers.py
-python build_maale_research_readers.py
-python build_oyda_research_readers.py
-python build_yemsa_research_readers.py
-python build_dawro_research_readers.py
-python build_baiso_research_readers.py
-python build_alaba_kabeena_research_readers.py
-python build_standalone.py
+python build_release.py
 python -B verify_archive_manifest.py
-python -B -m unittest discover -s tests -v
+python -B run_tests.py
 node --check app.js
 node --check offline-reader-cache.js
 node --check sw.js
 node tests/test_reader_package.js
 node tests/test_offline_reader_cache.js
 node tests/test_service_worker.js
+node tests/browser_smoke.cjs
 ```
 
 The Wisdom of Solomon, Jubilees, Enoch, Mark, and Daniel text builders are intentionally omitted from public rebuild commands while their distribution rights remain under review. Source citations and structural metadata remain available; those builders fail closed if invoked.

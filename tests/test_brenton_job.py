@@ -35,7 +35,8 @@ class BrentonJobTests(unittest.TestCase):
         self.assertNotIn("canon_id", reader)
         self.assertEqual(reader["translation_path"], ["grc", "en"])
         self.assertEqual(reader["translation_basis_status"], "established")
-        self.assertIn("edition-stated Greek-to-English basis", reader["translation_basis_note"])
+        self.assertIn("Brenton's 1851 English translation as from the Greek Septuagint", reader["translation_basis_note"])
+        self.assertIn("not a full textual collation", reader["translation_basis_note"])
 
         portable = json.loads((ROOT / "examples" / "portable-text-layers.json").read_text(encoding="utf-8"))
         layer = next(item for item in portable["records"] if item["record_id"].endswith("/layer/job-english-brenton-lxx-1851"))

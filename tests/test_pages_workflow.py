@@ -25,9 +25,9 @@ class PagesWorkflowTests(unittest.TestCase):
     def test_pull_requests_run_validation_with_read_only_workflow_permissions(self):
         self.assertRegex(self.source, r"(?ms)^  pull_request:\n    branches: \[main\]")
         self.assertRegex(self.source, r"(?ms)^permissions:\n  contents: read\n\nconcurrency:")
-        self.assertIn("python build_standalone.py", self.validate_job)
+        self.assertIn("python build_release.py", self.validate_job)
         self.assertIn("python -B verify_archive_manifest.py", self.validate_job)
-        self.assertIn("python -B -m unittest discover -s tests -v", self.validate_job)
+        self.assertIn("python -B run_tests.py", self.validate_job)
         self.assertIn("node tests/test_service_worker.js", self.validate_job)
         self.assertIn("node tests/test_offline_reader_cache.js", self.validate_job)
         self.assertNotIn("pages: write", self.validate_job)
