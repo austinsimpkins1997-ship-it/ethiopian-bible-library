@@ -22,6 +22,15 @@
     "integrity_note"
   ],
   "properties": {
+    "comparison_reference": {
+      "type": "object",
+      "required": ["base_reader_id", "english_reader_id", "relationship", "reference_research_corpus_record", "reference_canon_mapping"],
+      "properties": {
+        "base_reader_id": {"type":"string"}, "english_reader_id": {"type":"string"}, "relationship":{"type":"string"},
+        "reference_research_corpus_record":{"type":["object","null"]},"reference_canon_mapping":{"type":["object","null"]}
+      },
+      "additionalProperties": false
+    },
     "$schema": {
       "const": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/schemas/reader-package.schema.json"
     },
@@ -29,7 +38,7 @@
       "const": "Ethiopian Bible Library selected reader package"
     },
     "schema_version": {
-      "const": 1
+      "enum": [1, 2]
     },
     "export_scope": {
       "enum": ["single_text_layer", "parallel_witnesses"]
@@ -102,7 +111,7 @@
       "properties": {
         "canon_id": { "type": "string", "minLength": 1 },
         "candidate_canon_id": { "type": ["string", "null"] },
-        "state": { "enum": ["registry_link", "asserted_by_source", "uncertain", "related_work", "not_mapped", "unknown"] },
+        "state": { "enum": ["registry_link", "asserted_by_source", "reviewed_match", "uncertain", "related_work", "not_mapped", "unknown"] },
         "note": { "type": "string", "minLength": 1 }
       },
       "allOf": [
@@ -140,5 +149,9 @@
       "minLength": 1
     }
   },
+  "allOf": [
+    {"if":{"properties":{"schema_version":{"const":2}}},"then":{"required":["comparison_reference"]}},
+    {"if":{"properties":{"schema_version":{"const":1}}},"then":{"not":{"required":["comparison_reference"]}}}
+  ],
   "additionalProperties": false
 }

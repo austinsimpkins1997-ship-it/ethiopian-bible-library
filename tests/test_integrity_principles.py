@@ -118,7 +118,9 @@ class IntegrityPrinciplesTests(unittest.TestCase):
 
     def test_reader_header_reports_observed_units_per_active_witness(self):
         self.assertIn("unit count unknown for", self.app)
-        self.assertIn("${layer.unit_count.toLocaleString()} ${layer.unit_label || 'source units'} observed", self.app)
+        # Exact header rendering (including deduplicated observation labels)
+        # is exercised against the real browser, rather than a fixed JS string.
+        self.assertIn("layer.unit_count.toLocaleString()", self.app)
         self.assertIn("mode === 'parallel' && companion ? [reader, companion]", self.app)
         self.assertIn("Observed source units are structural counts, not completeness or accuracy claims.", self.index)
         self.assertIn("Measured from the actual reader records", self.app)

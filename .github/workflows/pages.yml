@@ -28,7 +28,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 24
-          package-manager-cache: false
       - name: Check OpenPGP verifier for signed source inputs
         run: gpg --version
       - name: Rebuild source-backed readers and validate offline site
@@ -41,11 +40,19 @@ jobs:
       - name: Run browser package and offline checks
         run: |
           node --check app.js
+          node --check reader-audio.js
+          node --check reader-english.js
+          node --check reader-translation.js
+          node --check reader-narrator.js
+          node --check narrator-worker.js
           node --check offline-reader-cache.js
           node --check sw.js
           node tests/test_reader_package.js
           node tests/test_reader_audio.js
           node tests/test_parallel_coverage.js
+          node tests/test_english_reader.js
+          node tests/test_reader_translation.js
+          node tests/test_reader_narrator.js
           node tests/test_offline_reader_cache.js
           node tests/test_service_worker.js
       - name: Check responsive reading and offline use in Chromium

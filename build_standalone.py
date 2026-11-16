@@ -3886,6 +3886,8 @@ def main() -> None:
     )
     from build_genesis_divine_person_lens import write as build_genesis_divine_person_lens
     build_genesis_divine_person_lens()
+    from build_english_reference_index import write as write_english_reference_index
+    write_english_reference_index(archive)
     HTML_PATH.write_text(EMBED_RE.sub(lambda match: match.group(1) + payload + match.group(2), html), encoding="utf-8")
     write_manifest(ROOT)
     manifest_file_count = verify_manifest(ROOT)

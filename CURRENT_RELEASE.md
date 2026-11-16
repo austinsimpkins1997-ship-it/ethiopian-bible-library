@@ -6,11 +6,16 @@ cannot fetch the separate reader JSON packages.
 
 ## What this release includes
 
-The reader-first layout and device read-aloud update are documented in
+The current reader extension is documented in
+[ENGLISH_AND_NARRATION_2026-11-15.md](ENGLISH_AND_NARRATION_2026-11-15.md).
+Every currently bundled non-English reader now offers a separately sourced
+English reference; existing historical companions stay distinct. Four local
+neural English narrators replace the default device voices, and Microsoft
+voices are excluded. Machine previews are optional, unreviewed and limited
+to supported browsers/languages and recorded derivative permissions.
+It does not add human recordings, new source Scripture, or verified translations
+of every historical witness. The earlier layout work remains documented in
 [READER_FIRST_UPDATE_2026-11-15.md](READER_FIRST_UPDATE_2026-11-15.md).
-It adds automatic text opening, default parallel display where supported, a
-warmer responsive layout and optional matching-language local speech synthesis.
-It does not add recorded narration or new Scripture translations.
 
 The rebuilt inventory has 759 reader packages (19 canon-linked and 740 separately
 scoped research readers), 451 source records, 28 language profiles, 90 catalogue
@@ -90,7 +95,7 @@ Local test results are recorded in [VERIFICATION_2026-11-15.md](VERIFICATION_202
 
 ## GitHub handoff
 
-Review the prepared branch `codex/github-release-2026-11-15`. Use Git or GitHub
+Review the prepared branch `codex/all-book-english-narration`. Use Git or GitHub
 Desktop; the full archive exceeds GitHub's browser uploader per-file limit.
 Keep the project at the repository root. Local packaging does not push, merge
 or deploy. The hosted Actions run still needs to pass after publication.

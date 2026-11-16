@@ -137,6 +137,9 @@ const server = http.createServer((req, res) => {
     const audioContext = await browser.newContext({viewport:{width:1440,height:1000}});
     audioContext.setDefaultTimeout(15000);
     await audioContext.addInitScript(() => {
+      // This fixture exercises the native fallback only; neural generation has
+      // a separate worker/PCM check and must never download weights in CI.
+      Object.defineProperty(window,'Worker',{configurable:true,value:undefined});
       window.__spoken = [];
       window.__speechCancelled = 0;
       const engine = {
@@ -150,6 +153,8 @@ const server = http.createServer((req, res) => {
       Object.defineProperty(window,'SpeechSynthesisUtterance',{configurable:true,value:class {constructor(text){this.text=text;}}});
     });
     const audio = await audioContext.newPage();
+    const audioErrors=[];
+    audio.on('pageerror',error=>{audioErrors.push(error.message);console.error('Audio/reference page error:',error.message);});
     await audio.goto(base+'?reader=ruth-geez-dillmann-hacohen#reader',{waitUntil:'networkidle'});
     await audio.waitForFunction(()=>!document.querySelector('#reader-audio-play').disabled);
     assert.equal(await audio.evaluate(()=>window.__spoken.length),0,'opening never autoplays');
@@ -165,7 +170,7 @@ const server = http.createServer((req, res) => {
     await audio.evaluate(()=>window.__lastUtterance.onend());
     assert.equal(await audio.evaluate(()=>window.__spoken.length),spokenBefore,'late speech events cannot leak into next chapter');
     await audio.locator('#reader-language').selectOption('gez');
-    await audio.waitForFunction(()=>document.querySelector('#reader-audio-status').textContent.includes('No installed local voice'));
+    await audio.waitForFunction(()=>document.querySelector('#reader-audio-status').textContent.includes('No supported non-Microsoft local voice'));
     assert(await audio.locator('#reader-audio-play').isDisabled(),'unsupported Geʽez is not read with an English voice');
     await audio.locator('#reader-language').selectOption('parallel');
     const archive = JSON.parse(fs.readFileSync(path.join(root,'archive.json'),'utf8'));
@@ -176,11 +181,80 @@ const server = http.createServer((req, res) => {
       await audio.waitForFunction(id => new URL(location.href).searchParams.get('reader') === id && document.querySelector('#reader-open').textContent === 'Text loaded',reader.reader_id);
       assert.equal(await audio.locator('#reader-language').inputValue(),'parallel',reader.reader_id+' defaults to parallel');
       assert(await audio.locator('.reader-parallel-row').count()>0);
+      const headerCount=await audio.locator('#reader-chapter-count').innerText();
+      assert(headerCount.includes(reader.unit_count.toLocaleString('en-US')));
+      assert(headerCount.includes(reader.parallel_translation.unit_count.toLocaleString('en-US')));
+      assert(!/observed\s+observed/i.test(headerCount),'observation labels must remain readable without duplication');
       await audio.locator('#reader-chapter').selectOption(String(reader.chapters.at(-1).chapter));
       assert(await audio.locator('.reader-parallel-row').count()>0);
       await audio.waitForFunction(()=>!document.querySelector('#reader-audio-play').disabled);
     }
+    const languages=[...new Set(archive.readers.filter(reader=>reader.language_tag!=='en').map(reader=>reader.language_tag))];
+    for(const language of languages) {
+      const reader=archive.readers.find(item=>item.language_tag===language);
+      console.log('Checking sourced English for '+language+': '+reader.reader_id);
+      await audio.locator('#reader-book').selectOption(reader.reader_id);
+      await audio.waitForFunction(id=>new URL(location.href).searchParams.get('reader')===id && document.querySelector('#reader-open').textContent==='Text loaded',reader.reader_id);
+      await audio.locator('#reader-language').selectOption('reference');
+      await audio.waitForFunction(()=>document.querySelector('#reader-english-text').textContent.trim().length>0 && !document.querySelector('#reader-audio-play').disabled)
+        .catch(async error=>{console.error(await audio.evaluate(()=>({view:document.querySelector('#reader-language').value,
+          status:document.querySelector('#reader-english-status').textContent,text:document.querySelector('#reader-english-text').textContent.slice(0,120),
+          audio:document.querySelector('#reader-audio-status').textContent,book:document.querySelector('#reader-book').value})));
+          await audio.screenshot({path:path.join(output,'english-reference-failure.png'),timeout:10000});throw error;});
+      assert(await audio.locator('#reader-english-panel').isVisible());
+      assert.equal(await audio.locator('#reader-audio-language').inputValue(),'en');
+      assert.match(await audio.locator('#reader-english-status').innerText(),/not a translation of the exact/);
+      await audio.locator('#reader-language').selectOption('reference-en');
+      await audio.waitForFunction(()=>document.querySelector('#reader-text').hidden && document.querySelector('#reader-english-text').textContent.trim().length>0);
+    }
+    await audio.locator('#reader-book').selectOption('alaba-kabeena-1co-research');
+    await audio.locator('#reader-language').selectOption('reference');
+    await audio.waitForFunction(()=>document.querySelector('#reader-english-title').textContent.includes('1 Corinthians'));
+    await audio.locator('#reader-english-chapter').selectOption('16');
+    await audio.waitForFunction(()=>document.querySelector('#reader-english-title').textContent.includes('Chapter 16'));
+    assert.equal(await audio.locator('#reader-chapter').inputValue(),'1','English chapter selection is independent of the source');
+    const referenceDownload=audio.waitForEvent('download');
+    await audio.locator('#reader-notes > summary').click();
+    await audio.locator('#reader-download').click();
+    const exportedReference=await referenceDownload;
+    const exportPath=path.join(output,'sourced-english-export.json');await exportedReference.saveAs(exportPath);
+    const referencePackage=JSON.parse(fs.readFileSync(exportPath,'utf8'));
+    assert.equal(referencePackage.schema_version,2);assert.equal(referencePackage.text_layers.length,2);
+    assert(referencePackage.comparison_reference);
+    const unavailableContext=await browser.newContext({serviceWorkers:'block'});
+    const unavailable=await unavailableContext.newPage();
+    unavailable.setDefaultTimeout(15000);
+    await unavailable.route('**/readers/webbe-2020-1co-research.json',route=>route.abort());
+    await unavailable.goto(base+'?reader=alaba-kabeena-1co-research#reader',{waitUntil:'networkidle'});
+    await unavailable.waitForFunction(()=>document.querySelector('#reader-english-status').textContent.includes('could not be loaded'));
+    await unavailable.locator('#reader-language').selectOption('reference-en');
+    await unavailable.waitForFunction(()=>document.querySelector('#reader-english-status').textContent.includes('could not be loaded'));
+    assert.equal(await unavailable.locator('#reader-audio-language option').count(),0,'failed English-only view cannot switch to unseen source narration');
+    assert(await unavailable.locator('#reader-audio-play').isDisabled());
+    await unavailableContext.close();
+    await audio.locator('#reader-book').selectOption('joel-geez-dillmann-hacohen-tau');
+    await audio.waitForFunction(()=>document.querySelector('#reader-book').value==='joel-geez-dillmann-hacohen-tau' && document.querySelector('#reader-open').textContent==='Text loaded');
+    await audio.locator('#reader-chapter').selectOption('4');
+    await audio.locator('#reader-language').selectOption('reference');
+    await audio.waitForFunction(()=>document.querySelector('#reader-english-status').textContent.includes('no English chapter'));
+    assert(await audio.locator('#reader-audio-play').isDisabled(),'a missing reference chapter must not narrate a substituted chapter');
+    await audio.locator('#reader-english-chapter').selectOption('3');
+    await audio.waitForFunction(()=>document.querySelector('#reader-english-title').textContent.includes('Chapter 3') && !document.querySelector('#reader-audio-play').disabled);
+    assert.equal(await audio.locator('#reader-chapter').inputValue(),'4');
+    await audio.evaluate(()=>{
+      window.Translator={availability:async()=> 'available',create:async()=>({translate:async text=>'Preview: '+text,destroy(){}})};
+    });
+    // Translator capability is captured at initialization, so reload with a fixture.
+    await audioContext.addInitScript(()=>{window.Translator={availability:async()=> 'available',create:async()=>({translate:async text=>'Preview: '+text,destroy(){}})};});
+    await audio.goto(base+'?reader=arb-vd-1ch-research#reader',{waitUntil:'networkidle'});
+    await audio.locator('#reader-language').selectOption('machine');
+    await audio.locator('#reader-translate').click();
+    await audio.waitForFunction(()=>document.querySelector('#reader-english-status').textContent.includes('preview complete'));
+    assert.match(await audio.locator('#reader-english-title').innerText(),/unreviewed/);
+    assert(await audio.locator('#reader-download').isDisabled(),'generated preview is not exported as a sourced reader');
+    assert.deepEqual(audioErrors,[],'reader navigation and audio controls must not throw browser errors');
     results.push({parallelBooks:pairs.length,checks:['all first/last chapter pairs','default parallel','speech controls','no autoplay','pause/resume','language mismatch','navigation cancellation']});
+    results.push({referenceLanguages:languages.length,checks:['sourced English by language','separate English chapter navigation','English-only reference','versioned reference export','labeled on-device preview']});
     await audioContext.close();
     fs.writeFileSync(path.join(output,'results.json'), JSON.stringify(results,null,2));
     console.log(JSON.stringify(results));
