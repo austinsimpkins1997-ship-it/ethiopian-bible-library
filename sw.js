@@ -1,6 +1,6 @@
 /* Offline app shell and on-demand archive assets. */
 const CACHE_PREFIX = 'ethiopian-bible-library-';
-const CACHE_NAME = `${CACHE_PREFIX}shell-v47`;
+const CACHE_NAME = `${CACHE_PREFIX}shell-v48`;
 const SITE_BASE = new URL(self.registration.scope);
 const PRECACHE_PATHS = [
   'index.html',

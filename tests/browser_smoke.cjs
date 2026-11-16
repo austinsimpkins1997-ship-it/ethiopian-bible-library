@@ -252,6 +252,13 @@ const server = http.createServer((req, res) => {
     await audio.waitForFunction(()=>document.querySelector('#reader-english-status').textContent.includes('preview complete'));
     assert.match(await audio.locator('#reader-english-title').innerText(),/unreviewed/);
     assert(await audio.locator('#reader-download').isDisabled(),'generated preview is not exported as a sourced reader');
+    await audio.goto(base+'?reader=alaba-kabeena-rev-research#reader',{waitUntil:'networkidle'});
+    await audio.waitForFunction(()=>document.querySelector('#reader-english-text').textContent.includes('Laodicea'));
+    const revelationText=await audio.locator('#reader-english-text').innerText();
+    assert(revelationText.includes('What you see, write in a book and send to the seven assemblies:'));
+    assert(!/\|(?:strong|lemma|srcloc)\s*=/i.test(revelationText),'nested dictionary metadata cannot leak into the English pane');
+    await audio.locator('#reader-english-text .reader-verse').nth(10).evaluate(element=>element.scrollIntoView({block:'center'}));
+    await audio.locator('#reader-english-panel').screenshot({path:path.join(output,'revelation-word-attributes-fixed.png')});
     assert.deepEqual(audioErrors,[],'reader navigation and audio controls must not throw browser errors');
     results.push({parallelBooks:pairs.length,checks:['all first/last chapter pairs','default parallel','speech controls','no autoplay','pause/resume','language mismatch','navigation cancellation']});
     results.push({referenceLanguages:languages.length,checks:['sourced English by language','separate English chapter navigation','English-only reference','versioned reference export','labeled on-device preview']});
