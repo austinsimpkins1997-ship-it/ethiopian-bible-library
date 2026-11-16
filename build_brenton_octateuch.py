@@ -47,7 +47,16 @@ def clean_usfm(text: str, *, strip_nested_plus: bool = False) -> str:
     text = re.sub(r"\\sc\s*(.*?)\\sc\*", r"\1", text)
     # USFM word-level Strong's tags are alignment metadata: retain their
     # displayed words and preserve the untouched tagged form in the source ZIP.
-    text = re.sub(r"\\w\s*(.*?)\\w\*", lambda match: match.group(1).split("|", 1)[0], text, flags=re.S)
+    # Nested word spans (for example inside Jesus' words, \\wj) use
+    # \\+w ...\\+w*. Strip their attributes before the generic nested-format
+    # pass; removing just the wrapper would expose |strong="G..." as text.
+    word_marker = r"\+?w" if strip_nested_plus else "w"
+    text = re.sub(
+        rf"\\({word_marker})\b\s*(.*?)\\\1\*",
+        lambda match: match.group(2).split("|", 1)[0],
+        text,
+        flags=re.S,
+    )
     # Some publisher USFM uses nested +markers. Generic source extraction may
     # remove only those wrappers; Brenton's established parser keeps its prior
     # visible notation unless the caller explicitly opts in.
@@ -63,8 +72,11 @@ def clean_usfm(text: str, *, strip_nested_plus: bool = False) -> str:
     # USFM \fl marks a footnote label; retain its following source words while
     # removing the structural token itself.
     text = re.sub(r"\\fl\s*", " ", text)
-    if re.search(r"\\[A-Za-z][A-Za-z0-9]*\*?", text):
+    remaining_marker = r"\\\+?[A-Za-z][A-Za-z0-9]*\*?" if strip_nested_plus else r"\\[A-Za-z][A-Za-z0-9]*\*?"
+    if re.search(remaining_marker, text):
         raise ValueError(f"Unexpected inline USFM marker in verse or note: {text[:100]!r}")
+    if re.search(r"\|(?:strong|lemma|srcloc|x-[A-Za-z0-9-]+)\s*=", text, re.I):
+        raise ValueError(f"Unparsed USFM word attribute in verse or note: {text[:100]!r}")
     return re.sub(r"\s+", " ", text).strip()
 
 
@@ -187,10 +199,10 @@ def parse_usfm(
                     def pull_structural_note(match: re.Match) -> str:
                         if current is None:
                             return " "
-                        heading_notes.append(note_from_markup(match.group(1), match.group(2), "0", current["chapter"]))
+                        heading_notes.append(note_from_markup(match.group(1), match.group(2), "0", current["chapter"], strip_nested_plus=strip_nested_plus))
                         return " "
                     suffix = note_pattern.sub(pull_structural_note, suffix)
-                    heading = clean_usfm(suffix)
+                    heading = clean_usfm(suffix, strip_nested_plus=strip_nested_plus)
                     if current is not None:
                         current["notes"].extend(heading_notes)
                     if marker == "sp":
@@ -216,7 +228,7 @@ def parse_usfm(
                         current.setdefault("heading", []).append(heading)
                         current["notes"].extend(heading_notes)
                     elif marker in {"p", "m", "mi", "q1", "q2", "q3", "li1", "pi1"} and current is not None and not current["verses"]:
-                        heading = clean_usfm(suffix)
+                        heading = clean_usfm(suffix, strip_nested_plus=strip_nested_plus)
                         if not heading:
                             raise ValueError(f"Empty USFM heading or introduction at {member_name}:{line_number}.")
                         current.setdefault("heading", []).append(heading)
