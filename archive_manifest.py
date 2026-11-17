@@ -6,6 +6,8 @@ import hashlib
 import json
 import os
 from pathlib import Path
+import shutil
+import subprocess
 import tempfile
 import time
 
@@ -75,6 +77,54 @@ def enable_atomic_path_writes() -> None:
     Path.write_text = write_text
 
 
+def check_git_text_bytes(root: Path) -> None:
+    """Reject working text that Git will change before a Linux checkout hashes it.
+
+    Source captures marked -text retain their exact bytes. Unversioned downloaded
+    packages need no Git installation; this guard applies to an owning checkout.
+    """
+    root = root.resolve()
+    if not (root / ".git").exists():
+        return
+    if shutil.which("git") is None:
+        raise ValueError("Git is required to check text bytes in this repository checkout.")
+    names = subprocess.check_output([
+        "git", "-C", str(root), "ls-files", "--cached", "--others", "--exclude-standard", "-z",
+    ]).split(b"\0")
+    names = [name for name in names if name and is_package_path(Path(os.fsdecode(name)))]
+    if not names:
+        return
+    attributes = subprocess.check_output(
+        ["git", "-C", str(root), "check-attr", "-z", "--stdin", "text", "eol"],
+        input=b"\0".join(names) + b"\0",
+    ).split(b"\0")
+    by_path = {}
+    for index in range(0, len(attributes) - 1, 3):
+        name, attribute, value = attributes[index:index + 3]
+        by_path.setdefault(name, {})[attribute] = value
+    mismatches = []
+    for name in names:
+        attributes_for_path = by_path.get(name, {})
+        if (attributes_for_path.get(b"eol") != b"lf"
+                or attributes_for_path.get(b"text") == b"unset"):
+            continue
+        path = root / os.fsdecode(name)
+        if not path.is_file() or path.is_symlink():
+            continue
+        data = path.read_bytes()
+        # Git's text=auto leaves binary input alone, even when eol=lf is set.
+        if attributes_for_path.get(b"text") == b"auto" and b"\0" in data[:8000]:
+            continue
+        if b"\r\n" in data:
+            mismatches.append(os.fsdecode(name))
+    if mismatches:
+        raise ValueError(
+            "Git-normalized text contains CRLF working bytes: " + ", ".join(mismatches)
+            + ". Save these text files with LF endings, then rebuild. "
+            "Do not normalize retained readers/source captures marked -text."
+        )
+
+
 def build_manifest(root: Path) -> dict:
     root = root.resolve()
     files = []
@@ -102,6 +152,7 @@ def build_manifest(root: Path) -> dict:
 
 
 def write_manifest(root: Path) -> dict:
+    check_git_text_bytes(root)
     manifest = build_manifest(root)
     write_text_atomically(
         root / MANIFEST_NAME,

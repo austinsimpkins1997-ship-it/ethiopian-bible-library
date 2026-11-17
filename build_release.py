@@ -4,7 +4,7 @@ from pathlib import Path
 import runpy
 import sys
 
-from archive_manifest import enable_atomic_path_writes
+from archive_manifest import check_git_text_bytes, enable_atomic_path_writes
 
 ROOT = Path(__file__).resolve().parent
 BUILDERS = (
@@ -22,6 +22,7 @@ BUILDERS = (
 
 
 def main():
+    check_git_text_bytes(ROOT)
     # Same bytes on Windows and Linux; generated-file hashes depend on this.
     enable_atomic_path_writes()
     for builder in BUILDERS:

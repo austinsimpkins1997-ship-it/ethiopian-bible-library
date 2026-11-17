@@ -3,6 +3,13 @@
 Dates below describe this project's recorded updates, not source-publication
 dates or a claim to reconstruct every historical edit.
 
+## 2026-11-16T23:05:35-05:00 — manifest checkout-byte repair
+
+- Traced the failed CI manifest to CRLF working bytes in CHANGELOG.md versus LF committed bytes.
+- Normalized repository text only; retained raw scripture/source captures remain byte-preserved.
+- Added Git-attribute-aware preflight and manifest checks, with six regression tests.
+- Kept strict generated-output validation; rebuilt artifacts require a new commit before deployment.
+
 ## 2026-11-16T21:19:47-05:00 — low-space export recovery
 
 - Added an explicit fresh external export destination and conservative free-space preflight.

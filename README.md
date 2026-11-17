@@ -193,6 +193,15 @@ On Windows, double-click `START_LOCAL.bat`. It starts a Python 3 server bound to
 
 From the project root, run:
 
+Before building in a Git checkout, save repository text with LF line endings, as
+required by `.gitattributes`. The release preflight and manifest writer reject
+tracked or new LF-normalized text with CRLF working bytes: otherwise a manifest can
+verify on Windows but become stale after Git normalizes a file for Linux CI.
+Retained `readers/source/` captures are marked `-text`; preserve their original
+bytes. If this check fails, correct only the named repository text files, rebuild,
+verify the manifest, and commit the resulting source and generated changes
+together. Keep the CI stale-output check enabled.
+
 ```powershell
 python build_release.py
 python -B verify_archive_manifest.py
