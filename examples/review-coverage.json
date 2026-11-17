@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "source_graph": "examples/archive-graph-registered-layers.json",
-  "layer_count": 768,
-  "review_event_count": 1907,
-  "layers_with_review_events": 768,
+  "layer_count": 780,
+  "review_event_count": 1975,
+  "layers_with_review_events": 780,
   "events_with_named_reviewer": 0,
   "translation_traceability": {
-    "translation_layer_count": 745,
+    "translation_layer_count": 757,
     "basis_path_counts": {
-      "documented": 51,
+      "documented": 63,
       "unknown": 694
     },
     "language_script_counts": [
@@ -63,9 +63,9 @@
       {
         "language_tag": "en",
         "script_code": "Latn",
-        "layer_count": 132,
-        "translation_layer_count": 132,
-        "translations_with_documented_basis": 51,
+        "layer_count": 144,
+        "translation_layer_count": 144,
+        "translations_with_documented_basis": 63,
         "translations_with_unknown_basis": 81
       },
       {
@@ -156,13 +156,13 @@
     },
     {
       "dimension": "chapter_or_section_sequence",
-      "event_count": 99,
-      "distinct_layer_count": 99,
+      "event_count": 115,
+      "distinct_layer_count": 115,
       "state_counts": {
-        "checked_with_limits": 99
+        "checked_with_limits": 115
       },
       "method_counts": {
-        "automated_validation": 99
+        "automated_validation": 115
       },
       "events_with_named_reviewer": 0
     },
@@ -182,14 +182,14 @@
     },
     {
       "dimension": "identity",
-      "event_count": 98,
-      "distinct_layer_count": 98,
+      "event_count": 114,
+      "distinct_layer_count": 114,
       "state_counts": {
-        "checked_with_limits": 98
+        "checked_with_limits": 114
       },
       "method_counts": {
-        "combined_source_and_automated_validation": 12,
-        "source_inspection": 86
+        "combined_source_and_automated_validation": 24,
+        "source_inspection": 90
       },
       "events_with_named_reviewer": 0
     },
@@ -207,51 +207,51 @@
     },
     {
       "dimension": "rights",
-      "event_count": 99,
-      "distinct_layer_count": 99,
+      "event_count": 111,
+      "distinct_layer_count": 111,
       "state_counts": {
-        "checked_with_limits": 99
+        "checked_with_limits": 111
       },
       "method_counts": {
-        "source_inspection": 88,
+        "source_inspection": 100,
         "unknown": 11
       },
       "events_with_named_reviewer": 0
     },
     {
       "dimension": "transcription_accuracy",
-      "event_count": 19,
-      "distinct_layer_count": 19,
+      "event_count": 23,
+      "distinct_layer_count": 23,
       "state_counts": {
-        "unknown": 19
+        "unknown": 23
       },
       "method_counts": {
-        "unknown": 19
+        "unknown": 23
       },
       "events_with_named_reviewer": 0
     },
     {
       "dimension": "translation_accuracy",
-      "event_count": 708,
-      "distinct_layer_count": 708,
+      "event_count": 720,
+      "distinct_layer_count": 720,
       "state_counts": {
-        "unknown": 708
+        "unknown": 720
       },
       "method_counts": {
         "source_inspection": 628,
-        "unknown": 80
+        "unknown": 92
       },
       "events_with_named_reviewer": 0
     },
     {
       "dimension": "unit_boundaries",
-      "event_count": 749,
-      "distinct_layer_count": 749,
+      "event_count": 757,
+      "distinct_layer_count": 757,
       "state_counts": {
-        "checked_with_limits": 749
+        "checked_with_limits": 757
       },
       "method_counts": {
-        "automated_validation": 749
+        "automated_validation": 757
       },
       "events_with_named_reviewer": 0
     }

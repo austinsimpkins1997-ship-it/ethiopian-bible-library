@@ -117,6 +117,75 @@ const server = http.createServer((req, res) => {
       await context.close();
       console.log('Viewport checks passed: '+width);
     }
+    // New companions must preserve unmatched labels in the actual reader, not
+    // only pass the package/schema audit. Test both a narrow and a wide screen.
+    for (const width of [390, 1440]) {
+      const context = await browser.newContext({viewport:{width,height:900}});
+      const page = await context.newPage();
+      const comparisonErrors=[];
+      page.on('pageerror',error=>comparisonErrors.push(error.message));
+      await context.route('**/*', route => new URL(route.request().url()).origin === new URL(base).origin
+        ? route.continue() : route.abort());
+      for (const [id, chapter, gap] of [
+        ['obadiah-geez-bachmann-theot',1,false],
+        ['jonah-geez-lofgren-ghebre-tau',1,false],
+        ['nahum-geez-lofgren-ghebre-tau',1,true],
+        ['zephaniah-geez-lofgren-hacohen-tau',2,true],
+        ['haggai-geez-lofgren-ghebre-tau',1,true],
+      ]) {
+        await page.goto(base+'?reader='+id+'#reader',{waitUntil:'networkidle'});
+        await page.waitForFunction(() => document.querySelector('#reader-open').textContent === 'Text loaded');
+        assert.equal(await page.locator('#reader-language').inputValue(),'parallel',id+' default historical comparison');
+        if (chapter !== 1) await page.locator('#reader-chapter').selectOption(String(chapter));
+        await page.waitForFunction(() => document.querySelectorAll('.reader-parallel-row').length > 0);
+        const packageRecord=JSON.parse(fs.readFileSync(path.join(root,'readers',id+'.json'),'utf8'));
+        const source=packageRecord.chapters.find(c=>c.chapter===chapter).verses;
+        const english=packageRecord.parallel_translation.chapters.find(c=>c.chapter===chapter).verses;
+        const counts=await page.locator('#reader-text').evaluate(element=>({
+          source:[...element.querySelectorAll('.geez-witness .reader-witness-content')].filter(e=>!e.querySelector('.reader-gap')).length,
+          english:[...element.querySelectorAll('.english-witness .reader-witness-content')].filter(e=>!e.querySelector('.reader-gap')).length,
+          gaps:element.querySelectorAll('.reader-gap').length,
+        }));
+        assert.equal(counts.source,source.length,id+' source units retained on screen');
+        assert.equal(counts.english,english.length,id+' English units retained on screen');
+        assert.equal(counts.gaps>0,gap,id+' explicit unmatched-label state');
+        // Detailed alignment evidence is in an optional disclosure; textContent
+        // inspects its retained text without mistaking collapsed content for absence.
+        assert.match(await page.locator('#reader-alignment-note').textContent(),/do not establish textual equivalence/,id+' retained alignment limits');
+        assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),id+' responsive width');
+        if(id.startsWith('nahum')) await page.screenshot({path:path.join(output,`nahum-unmatched-${width}.png`)});
+      }
+      for(const id of ['habakkuk-geez-lofgren-ghebre-tau','malachi-geez-lofgren-ghebre-tau',
+        'sirach-geez-dillmann-hacohen-tau','samuel-i-geez-research','samuel-ii-geez-research',
+        'kings-i-geez-research','kings-ii-geez-research']) {
+        await page.goto(base+'?reader='+id+'#reader',{waitUntil:'networkidle'});
+        await page.waitForFunction(()=>document.querySelector('#reader-open').textContent==='Text loaded');
+        assert.equal(await page.locator('#reader-language').inputValue(),'parallel');
+        assert(await page.locator('#reader-english-panel').isVisible());
+        assert.equal(await page.locator('.reader-parallel-row').count(),0,'unverified chapter/verse pairs are not rendered');
+        const record=JSON.parse(fs.readFileSync(path.join(root,'readers',id+'.json'),'utf8'));
+        assert.equal(await page.locator('#reader-english-chapter option').count(),record.parallel_translation.chapter_count);
+        await page.locator('#reader-english-chapter').selectOption(String(record.parallel_translation.chapter_count));
+        await page.waitForFunction(n=>document.querySelector('#reader-english-title').textContent.endsWith('English chapter '+n),record.parallel_translation.chapter_count);
+        await page.locator('#reader-chapter').selectOption(String(record.chapter_count));
+        await page.waitForFunction(()=>document.querySelector('#reader-open').textContent==='Text loaded');
+        assert.equal(await page.locator('#reader-english-chapter').inputValue(),String(record.parallel_translation.chapter_count),'source navigation keeps the independent English choice');
+        const source=record.chapters.at(-1).verses;
+        const english=record.parallel_translation.chapters.at(-1).verses;
+        assert.equal(await page.locator('#reader-text .geez-witness').count(),source.length,id+' last source page retained');
+        assert.equal(await page.locator('#reader-english-text article.reader-verse').count(),english.length,id+' last English chapter retained');
+        assert.match(await page.locator('#reader-english-status').innerText(),/No chapter\/verse alignment/);
+        assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+        if(id.startsWith('malachi')) await page.screenshot({path:path.join(output,`malachi-independent-${width}.png`)});
+        await page.locator('#reader-language').selectOption('en');
+        await page.waitForFunction(()=>document.querySelector('#reader-text').hidden && !document.querySelector('#reader-english-panel').hidden);
+        assert(await page.locator('#reader-text').isHidden(),'English-only uses independent English column');
+        assert(await page.locator('#reader-english-text').isVisible());
+      }
+      assert.deepEqual(comparisonErrors,[],'comparison pages must not throw rendering errors');
+      await context.close();
+    }
+    console.log('Five new historical companions preserve all displayed units and unmatched labels at 390/1440px.');
     const homeContext = await browser.newContext({viewport:{width:1440,height:1000}});
     homeContext.setDefaultTimeout(15000);
     const home = await homeContext.newPage();
@@ -180,13 +249,16 @@ const server = http.createServer((req, res) => {
       await audio.locator('#reader-book').selectOption(reader.reader_id);
       await audio.waitForFunction(id => new URL(location.href).searchParams.get('reader') === id && document.querySelector('#reader-open').textContent === 'Text loaded',reader.reader_id);
       assert.equal(await audio.locator('#reader-language').inputValue(),'parallel',reader.reader_id+' defaults to parallel');
-      assert(await audio.locator('.reader-parallel-row').count()>0);
+      const independent=reader.parallel_translation.comparison_policy==='independent_chapters';
+      if(independent)assert(await audio.locator('#reader-english-panel').isVisible());
+      else assert(await audio.locator('.reader-parallel-row').count()>0);
       const headerCount=await audio.locator('#reader-chapter-count').innerText();
       assert(headerCount.includes(reader.unit_count.toLocaleString('en-US')));
       assert(headerCount.includes(reader.parallel_translation.unit_count.toLocaleString('en-US')));
       assert(!/observed\s+observed/i.test(headerCount),'observation labels must remain readable without duplication');
       await audio.locator('#reader-chapter').selectOption(String(reader.chapters.at(-1).chapter));
-      assert(await audio.locator('.reader-parallel-row').count()>0);
+      if(independent)assert.equal(await audio.locator('#reader-english-chapter').inputValue(),'1','source changes never guess an English chapter');
+      else assert(await audio.locator('.reader-parallel-row').count()>0);
       await audio.waitForFunction(()=>!document.querySelector('#reader-audio-play').disabled);
     }
     const languages=[...new Set(archive.readers.filter(reader=>reader.language_tag!=='en').map(reader=>reader.language_tag))];

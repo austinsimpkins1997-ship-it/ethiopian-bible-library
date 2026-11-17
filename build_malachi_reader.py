@@ -47,7 +47,9 @@ class PageParser(HTMLParser):
             self.paragraph_parts.append(data)
 
     def handle_endtag(self, tag: str) -> None:
-        if tag == "a":
+        # The number is inside the anchor; the Geʽez body is its following
+        # sibling span. Close at the paragraph or next verse anchor, not </a>.
+        if tag == "p":
             self._finish_unit()
         if tag == "p" and self.paragraph:
             value = re.sub(r"\s+", " ", "".join(self.paragraph_parts)).strip()
@@ -70,7 +72,7 @@ class PageParser(HTMLParser):
         self.parts = []
 
 
-def _capture() -> tuple[dict, dict[int, list[tuple[str, str]]], str]:
+def _capture() -> tuple[dict, dict[int, list[tuple[str, str]]], str, str]:
     manifest = json.loads((CAPTURE / "SOURCE-CAPTURE.json").read_text(encoding="utf-8"))
     for item in manifest["files"]:
         raw = (CAPTURE / item["path"]).read_bytes()
@@ -78,13 +80,18 @@ def _capture() -> tuple[dict, dict[int, list[tuple[str, str]]], str]:
                 or hashlib.sha256(raw).hexdigest() != item["sha256"]):
             raise ValueError(f"Malachi source capture failed status/size/SHA-256 check: {item['path']}")
     by_chapter: dict[int, list[tuple[str, str]]] = {}
+    heading = ""
     for chapter, expected_count in LABEL_EXTENTS.items():
         parser = PageParser()
         parser.feed((CAPTURE / f"malachi-chapter-{chapter}.html").read_bytes().decode("ascii"))
         parser.close()
+        if chapter == 1:
+            heading = parser.paragraphs[0]
+            if not re.search(r"[\u1200-\u135a]", heading):
+                raise ValueError("The source's introductory Geʽez heading was not retained")
         rows = [(marker, body) for ch, marker, body in parser.rows if ch == chapter]
         expected = [str(i) for i in range(1, expected_count + 1)]
-        if ([marker for marker, _ in rows] != expected or any(not body for _, body in rows)
+        if ([marker for marker, _ in rows] != expected or any(not re.search(r"[\u1200-\u135a]", body) for _, body in rows)
                 or any(ch != chapter for ch, _, _ in parser.rows)):
             raise ValueError(f"Malachi page {chapter} did not yield the expected nonempty labels {expected}")
         if not rows:
@@ -99,11 +106,11 @@ def _capture() -> tuple[dict, dict[int, list[tuple[str, str]]], str]:
     closing = " ".join(unnumbered)
     if not closing:
         raise ValueError("Malachi chapter 4 unnumbered closing text was not captured")
-    return manifest, by_chapter, closing
+    return manifest, by_chapter, closing, heading
 
 
 def build() -> tuple[dict, dict]:
-    manifest, by_chapter, closing = _capture()
+    manifest, by_chapter, closing, heading = _capture()
     file_map = {item["path"]: item for item in manifest["files"]}
     total = sum(map(len, by_chapter.values()))
     notice = ("© Ran HaCohen. For the digitized Ethiopic texts, permission to use, copy, and distribute for any "
@@ -118,6 +125,8 @@ def build() -> tuple[dict, dict]:
         chapters.append({"chapter": chapter, "source_marker": str(chapter),
                          "source_sha256": hashlib.sha256((CAPTURE / f"malachi-chapter-{chapter}.html").read_bytes()).hexdigest(),
                          "verses": verses})
+        if chapter == 1:
+            chapters[-1]["heading"] = [heading]
     reader = {
         "reader_id": READER_ID, "text_origin": "source_transcription", "canon_id": CANON_ID,
         "title": "Malachi — Geʽez Löfgren / Ghebre transcription",

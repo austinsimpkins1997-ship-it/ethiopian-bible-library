@@ -31,12 +31,8 @@ from build_review_coverage import write_review_coverage
 from build_rights_coverage import write_reports as write_rights_coverage
 from build_gamo_research_readers import build as build_gamo_research_readers
 from build_gamo_text_layers import build as build_gamo_text_layers
-from build_obadiah_reader import write as build_obadiah_reader
-from build_jonah_reader import write as build_jonah_reader
-from build_nahum_reader import write as build_nahum_reader
+from build_minor_prophet_companions import build as build_minor_prophet_companions
 from build_habakkuk_reader import write as build_habakkuk_reader
-from build_zephaniah_reader import write as build_zephaniah_reader
-from build_haggai_reader import write as build_haggai_reader
 from build_joel_reader import write as build_joel_reader
 from build_amos_reader import write as build_amos_reader
 from build_malachi_reader import write as build_malachi_reader
@@ -2193,12 +2189,8 @@ def main() -> None:
     # the archive so its reader candidates, source notes, and navigation stay
     # synchronized without fetching external data.
     build_gamo_research_readers()
-    build_obadiah_reader()
-    build_jonah_reader()
-    build_nahum_reader()
+    build_minor_prophet_companions()
     build_habakkuk_reader()
-    build_zephaniah_reader()
-    build_haggai_reader()
     build_joel_reader()
     build_amos_reader()
     build_malachi_reader()
@@ -2325,6 +2317,8 @@ def main() -> None:
     # Title normalization mutates reader metadata, so create portable layer
     # checksums only after the final Gamo reader files have been written.
     build_gamo_text_layers()
+    from build_additional_witness_companions import build as build_additional_witness_companions
+    build_additional_witness_companions()
     # Source-backed reader JSON files are merged offline; companion-only files are nested by their builder.
     reader_files = sorted((ROOT / "readers").glob("*-geez.json")) + [
         ROOT / "readers" / "jubilees-geez-hacohen.json",
@@ -3762,6 +3756,7 @@ def main() -> None:
             companion_rights = [
                 layer for language in language_records for layer in language.get("records", [])
                 if layer.get("translation_id") == companion["translation_id"]
+                and layer.get("reader_id") == reader["reader_id"]
                 and layer.get("status") == "bundled"
             ]
             if len(companion_rights) != 1 or companion["rights_classification"] != companion_rights[0].get("rights_classification"):

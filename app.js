@@ -5,6 +5,7 @@ let bulkReaderSavePlan = null;
 let bulkReaderSaveController = null;
 const readerModes = new Map();
 const referenceChapters = new Map();
+const independentCompanionChapters = new Map();
 const referenceCache = new Map();
 let englishReferenceIndex = null;
 let referenceSequence = 0;
@@ -834,14 +835,14 @@ async function renderReader({ loadText = true } = {}) {
   const referenceMetadata = window.ReaderEnglish.referenceFor(englishReferenceIndex,state.readers,readerMetadata.reader_id);
   const needsEnglish = !['en','eng'].includes(readerMetadata.language_tag);
   const languageOptions = [`<option value="${escapeHTML(readerMetadata.language_tag)}">${escapeHTML(readerMetadata.language)}</option>`];
-  if (companionMetadata) languageOptions.push(`<option value="${escapeHTML(companionMetadata.language_tag)}">${escapeHTML(companionMetadata.language)}</option>`, '<option value="parallel">Parallel witnesses</option>');
+  if (companionMetadata) languageOptions.push(`<option value="${escapeHTML(companionMetadata.language_tag)}">${escapeHTML(companionMetadata.language)} historical companion</option>`, `<option value="parallel">${companionMetadata.comparison_policy==='independent_chapters'?'Independent parallel witnesses':'Parallel witnesses'}</option>`);
   if(referenceMetadata)languageOptions.push('<option value="reference">Source + published English reference</option>','<option value="reference-en">Published English reference</option>');
   if(needsEnglish)languageOptions.push('<option value="machine">Source + machine preview (where supported)</option>');
   const priorMode = readerModes.get(readerMetadata.reader_id);
   languageSelect.innerHTML = languageOptions.join('');
   languageSelect.value = languageOptions.some(option => option.includes(`value="${priorMode}"`))
     ? priorMode : companionMetadata ? 'parallel' : referenceMetadata && needsEnglish ? 'reference' : readerMetadata.language_tag;
-  const audioKey = readerMetadata.reader_id + ':' + state.chapter + ':' + languageSelect.value + ':' + (referenceChapters.get(readerMetadata.reader_id) || 'auto');
+  const audioKey = readerMetadata.reader_id + ':' + state.chapter + ':' + languageSelect.value + ':' + (referenceChapters.get(readerMetadata.reader_id) || 'auto') + ':' + (independentCompanionChapters.get(readerMetadata.reader_id) || 'first');
   readerAudio?.prepare(audioKey);
   const openButton = byId('reader-open');
   if (openButton) {
@@ -878,6 +879,7 @@ async function renderReader({ loadText = true } = {}) {
   if(renderSequence!==referenceSequence)return;
   if (openButton) openButton.textContent = 'Text loaded';
   const companion = reader.parallel_translation;
+  const independentCompanion = companion?.comparison_policy === 'independent_chapters';
   const chapter = reader.chapters.find(item => item.chapter === state.chapter) || reader.chapters[0];
   state.chapter = chapter.chapter;
   const mode = languageSelect.value;
@@ -886,7 +888,9 @@ async function renderReader({ loadText = true } = {}) {
     ? 'Download both witnesses + evidence (JSON)'
     : `Download ${mode === companion?.language_tag ? companion.language : reader.language} text + evidence (JSON)`;
   if (byId('reader-export-status')) byId('reader-export-status').textContent = '';
-  const englishChapter = companion?.chapters?.find(item => item.chapter === chapter.chapter);
+  const englishChapter = independentCompanion
+    ? window.ReaderEnglish.independentChapter(companion.chapters,independentCompanionChapters.get(reader.reader_id))
+    : companion?.chapters?.find(item => item.chapter === chapter.chapter);
   const languageProfile = tag => state.translationRegistry?.languages?.find(language => language.language_tag === tag);
   const direction = tag => {
     const value = languageProfile(tag)?.direction;
@@ -899,7 +903,7 @@ async function renderReader({ loadText = true } = {}) {
   const sourceTag = reader.language_tag || 'und';
   const englishTag = companion?.language_tag || 'en';
   const sourceUnits = Array.isArray(chapter.units) ? chapter.units : chapter.verses || [];
-  const parallelRows = window.ReaderAlignment.buildParallelRows(sourceUnits, englishChapter?.verses || []);
+  const parallelRows = independentCompanion ? [] : window.ReaderAlignment.buildParallelRows(sourceUnits, englishChapter?.verses || []);
   byId('reader-chapter').innerHTML = reader.chapters.map(item => `<option value="${item.chapter}" title="${escapeHTML(formatChapterLabel(reader, item))}"${item.chapter === chapter.chapter ? ' selected' : ''}>${escapeHTML(item.source_page_label || String(item.chapter))}</option>`).join('');
   const unitLabel = reader.unit_label || 'Verse';
   const marker = item => item?.unit_order != null
@@ -937,8 +941,12 @@ async function renderReader({ loadText = true } = {}) {
     : `unit count unknown for ${layer?.title || layer?.language || 'this text'}`;
   const activeCountLayers = mode === 'parallel' && companion ? [reader, companion]
     : companion && mode === englishTag ? [companion] : [reader];
-  byId('reader-chapter-count').textContent = `${sectionCount} · ${activeCountLayers.map(observedUnits).join(' · ')}`;
-  if (mode === 'parallel' && companion) {
+  byId('reader-chapter-count').textContent = `${sectionCount}${independentCompanion && (mode==='parallel' || mode===englishTag) ? ` · English: ${companion.chapter_count} chapters (independent)` : ''} · ${activeCountLayers.map(observedUnits).join(' · ')}`;
+  if (independentCompanion && (mode === 'parallel' || mode === englishTag)) {
+    byId('reader-brief-note').textContent = 'Two distinct witnesses; choose their chapters independently. No automatic passage pairing.';
+    byId('reader-text').innerHTML = chapterLead + sourceUnits.map(item => `<article class="reader-verse">${sourceStructure(item)}${witness(item,sourceTag,'geez-witness',marker(item))}</article>`).join('') + sourceTables + trailingSourceStructure;
+    byId('reader-alignment-note').textContent = companion.translation_basis;
+  } else if (mode === 'parallel' && companion) {
     byId('reader-brief-note').textContent = 'Side by side for comparison; editions and verse labels can differ.';
     byId('reader-text').innerHTML = chapterLead + parallelRows.map(row => `<article class="reader-parallel-row"><div><span class="reader-witness-label">${escapeHTML(reader.language.toUpperCase())}</span>${witness(row.source, sourceTag, 'geez-witness', row.source ? marker(row.source) : 'No source unit')}</div><div><span class="reader-witness-label">${escapeHTML(companion.title)}</span>${sourceStructure(row.english)}${witness(row.english, englishTag, 'english-witness', row.english ? String(row.english.number) : 'No matching English label')}</div></article>`).join('');
     byId('reader-alignment-note').textContent = 'Only unique matching printed labels are paired, for navigation. Duplicate, absent, or ambiguous labels stay unpaired and visible; matching labels do not establish textual equivalence or translation accuracy.';
@@ -977,16 +985,34 @@ async function renderReader({ loadText = true } = {}) {
   if(!mode.startsWith('reference'))readerAudio?.setContext({ key: audioKey, layers: audioLayers });
   if(mode.startsWith('reference') && referenceMetadata)
     await renderEnglishReference(reader,chapter,referenceMetadata,mode,audioKey,renderSequence);
+  if(independentCompanion && (mode==='parallel' || mode===englishTag))
+    renderIndependentCompanion(reader,englishChapter,mode);
   if(renderSequence!==referenceSequence)return;
   if(mode==='machine')renderMachinePreview(reader,chapter,audioKey);
   if(readerDownload)readerDownload.disabled=mode==='machine' || (mode.startsWith('reference') && !activeEnglishReference);
   renderReaderStudyView(reader, chapter);
-  if(mode==='reference-en' && byId('reader-lens').value==='text')byId('reader-text').hidden=true;
+  if((mode==='reference-en' || (independentCompanion && mode===englishTag)) && byId('reader-lens').value==='text')byId('reader-text').hidden=true;
   if(byId('reader-lens').value!=='text')byId('reader-english-panel').hidden=true;
 }
 
 function englishPassages(chapter) {
-  return (chapter?.units || chapter?.verses || []).map(unit=>`<article class="reader-verse"><span class="reader-verse-number">${escapeHTML(unit.number ?? unit.unit_order ?? '')}</span><span lang="en">${escapeHTML(unit.text || '')}${(unit.continuations || []).map(part=>'<span class="reader-continuation">'+escapeHTML(part.text || '')+'</span>').join('')}</span></article>`).join('');
+  const heading=(chapter?.heading || []).map(text=>`<p class="reader-heading">${escapeHTML(text)}</p>`).join('');
+  const text=(chapter?.units || chapter?.verses || []).map(unit=>`<article class="reader-verse"><span class="reader-verse-number">${escapeHTML(unit.number ?? unit.unit_order ?? '')}</span><span lang="en">${escapeHTML(unit.text || '')}${(unit.continuations || []).map(part=>'<span class="reader-continuation">'+escapeHTML(part.text || '')+'</span>').join('')}</span></article>`).join('');
+  const notes=(chapter?.notes || []).map(note=>`<p class="reader-note"><span class="reader-verse-number">${escapeHTML(note.verse || '')}</span> ${escapeHTML(note.text || '')}</p>`).join('');
+  return heading+text+(notes?`<details><summary>English source notes (${chapter.notes.length})</summary>${notes}</details>`:'');
+}
+function renderIndependentCompanion(reader,english,mode) {
+  const companion=reader.parallel_translation;
+  byId('reader-english-panel').hidden=false;
+  byId('reader-reading-columns').classList.toggle('with-english-reference',mode==='parallel');
+  byId('reader-english-title').textContent=companion.title+(english?' · English chapter '+english.chapter:' · choose a chapter');
+  byId('reader-english-status').textContent=companion.comparison_note+' English starts at its first chapter and stays independently selected when the source page changes. No chapter/verse alignment is implied.';
+  byId('reader-english-chapter-control').hidden=false;
+  byId('reader-machine-controls').hidden=true;
+  byId('reader-english-chapter').innerHTML=companion.chapters.map(c=>`<option value="${c.chapter}"${c.chapter===english?.chapter?' selected':''}>English chapter ${c.chapter}</option>`).join('');
+  byId('reader-english-text').innerHTML=englishPassages(english);
+  const sources=(companion.source_ids || []).map(id=>state.sources.find(source=>source.source_id===id)).filter(Boolean);
+  byId('reader-english-evidence').innerHTML=`<details><summary>Historical English edition, rights &amp; sources</summary><p>${escapeHTML(companion.edition)}</p><p>${escapeHTML(companion.translation_basis)}</p><p>${escapeHTML(companion.text_notice)}</p><ul class="reader-source-list">${sources.map(source=>`<li>${sourceLinkHTML(source)}</li>`).join('')}</ul></details>`;
 }
 async function renderEnglishReference(reader,chapter,metadata,mode,key,sequence) {
   const panel=byId('reader-english-panel');panel.hidden=false;
@@ -1231,7 +1257,10 @@ byId('reader-language').addEventListener('change', event => {
 byId('reader-lens').addEventListener('change', renderReader);
 window.addEventListener('pagehide', () => {readerAudio?.stop('Stopped. Press Play to listen again.');machineTranslation?.cancel();});
 byId('reader-english-chapter').addEventListener('change',event=>{
-  if(event.target.value==='auto')referenceChapters.delete(state.readerId);
+  const mode=byId('reader-language').value;
+  if(state.activeReaderData?.parallel_translation?.comparison_policy==='independent_chapters' && (mode==='parallel' || mode==='en'))
+    independentCompanionChapters.set(state.readerId,Number(event.target.value));
+  else if(event.target.value==='auto')referenceChapters.delete(state.readerId);
   else referenceChapters.set(state.readerId,Number(event.target.value));
   renderReader();
 });

@@ -16,5 +16,11 @@
     return chapters.find(chapter => chapter.chapter === number)?.chapter || null;
   }
   function safeReaderPath(path) { return typeof path === 'string' && /^readers\/[a-z0-9-]+\.json$/.test(path); }
-  return { referenceFor, suggestedChapter, safeReaderPath };
+  function independentChapter(chapters, selected = null) {
+    // The initial English chapter is explicitly its first chapter, never a
+    // guessed match to the source page. An invalid explicit choice stays empty.
+    if (!Array.isArray(chapters)) return null;
+    return selected == null ? chapters[0] || null : chapters.find(c=>c.chapter===selected) || null;
+  }
+  return { referenceFor, suggestedChapter, independentChapter, safeReaderPath };
 });

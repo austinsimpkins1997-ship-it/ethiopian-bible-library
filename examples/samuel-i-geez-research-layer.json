@@ -1,0 +1,131 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/reader-samuel-i-geez-research",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/reader-samuel-i-geez-research",
+  "labels": [
+    {
+      "value": "I Samuel — Geʽez transcription of TAU's Dillmann Regum I",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-09",
+      "mapping_state": "reviewed_match",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-036",
+        "SRC-164",
+        "SRC-336",
+        "SRC-384"
+      ],
+      "notes": "Archive-reviewed work/title crosswalk: the Church's listed entry is ‘I and II Samuel’; TAU's source information identifies its digitized Ethiopic Reigns I–IV as ‘Samuel I–II and Kings I–II,’ and the two retained components are Regum I and II. This supports the named-work crosswalk only. The TAU equivalence remains attributed to TAU; it does not establish identity with a current EOTC edition, manuscript completeness, or wording accuracy. These component readers remain research records, not canon-linked coverage."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/reader-samuel-i-geez-research",
+    "witness_type": "digital_edition",
+    "title": "I Samuel — Geʽez transcription of TAU's Dillmann Regum I",
+    "date_statement": "August Dillmann (ed.), Veteris Testamenti Aethiopici Tomus Secundus, fasc. 1: Regum I et II, Leipzig, 1861; text digitized by Ran HaCohen at Tel Aviv University.",
+    "repository_or_publisher": "Tel Aviv University website",
+    "editorial_policy": "The Ethiopic text spans were extracted from 31 retained TAU chapter HTML pages. HTML entities were decoded and whitespace normalized to single spaces. Each displayed source number and external book identifier is retained; no verse numbering is repaired, translated, or aligned to another witness.",
+    "source_ids": [
+      "SRC-029",
+      "SRC-036",
+      "SRC-164",
+      "SRC-336"
+    ]
+  },
+  "layer_type": "source_text_transcription",
+  "text_origin": "source_transcription",
+  "language_tag": "gez",
+  "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+  "script_code": "Ethi",
+  "basis_path": [
+    "gez"
+  ],
+  "agents": [],
+  "content_package": {
+    "uri": "../readers/samuel-i-geez-research.json",
+    "media_type": "application/json",
+    "sha256": "e73e9e73c84863eea3d15e7c84131eaff1624036e37939ae3713476bb8bb114b",
+    "format_version": "1"
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 805,
+    "structure_description": "TAU's retained index lists Regum I chapters 1–31. Each chapter page's displayed verse labels link to BibleGateway book identifier 1sa; all observed labels and their source-order text spans are retained. Observed chapter ranges/counts: 1: 1–28 (28 linked labels); 2: 1–36 (36 linked labels); 3: 1–22 (22 linked labels); 4: 1–22 (22 linked labels); 5: 1–12 (12 linked labels); 6: 1–21 (21 linked labels); 7: 1–17 (17 linked labels); 8: 1–22 (22 linked labels); 9: 1–27 (27 linked labels); 10: 1–27 (27 linked labels); 11: 1–15 (15 linked labels); 12: 1–25 (25 linked labels); 13: 1–23 (22 linked labels); 14: 1–52 (52 linked labels); 15: 1–35 (35 linked labels); 16: 1–23 (23 linked labels); 17: 1–58 (57 linked labels); 18: 1–29 (27 linked labels); 19: 1–24 (24 linked labels); 20: 1–43 (42 linked labels); 21: 1–15 (15 linked labels); 22: 1–23 (23 linked labels); 23: 1–28 (27 linked labels); 24: 1–23 (23 linked labels); 25: 1–44 (44 linked labels); 26: 1–25 (25 linked labels); 27: 1–12 (12 linked labels); 28: 1–25 (25 linked labels); 29: 1–11 (11 linked labels); 30: 1–31 (30 linked labels); 31: 1–1 (14 linked labels). These are page-structure counts, not proof of completeness or equivalence to another numbering system.",
+    "missing_or_lacunose_ranges": [],
+    "numbering_policy": "Preserve every source page label, linked target and unit in source order. No cross-witness alignment is inferred."
+  },
+  "rights": {
+    "status": "permission_limited",
+    "statement": "© Ran HaCohen. For the digitized Ethiopic texts, permission to use, copy, and distribute for any NONCOMMERCIAL purpose is granted without fee, provided that the copyright notice Ran HaCohen and this permission notice appear in all copies of the text. For other uses, please contact the copyright owner.",
+    "license_id": null,
+    "rights_holder": "Ran HaCohen (TAU site notice)",
+    "attribution_required": true,
+    "territory_or_term_limits": "TAU's site-wide notice permits copying and distribution for noncommercial use only, with the copyright and permission notice accompanying every copy; other uses require contacting the rights holder. This is a permission-limited grant, not an open-content or commercial license.",
+    "evidence_source_ids": [
+      "SRC-029",
+      "SRC-036",
+      "SRC-164",
+      "SRC-336"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "Archive-reviewed work/title crosswalk: the Church's listed entry is ‘I and II Samuel’; TAU's source information identifies its digitized Ethiopic Reigns I–IV as ‘Samuel I–II and Kings I–II,’ and the two retained components are Regum I and II. This supports the named-work crosswalk only. The TAU equivalence remains attributed to TAU; it does not establish identity with a current EOTC edition, manuscript completeness, or wording accuracy. These component readers remain research records, not canon-linked coverage.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Preserved existing research/reigns-title-crosswalk-review.md and the recorded standard USFM identifier table for work/title aliases only",
+      "reviewed_at": "2026-11-16",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-036",
+        "SRC-164",
+        "SRC-336",
+        "SRC-384"
+      ],
+      "notes": "Work/title crosswalk only, carried from the existing cited review. Current edition identity, textual agreement and alignment remain unverified."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "The local capture hashes, menu-listed chapter order, linked book identifiers, nonempty spans, and observed source labels were structurally checked. The source reports OCR conversion and proofreading but warns of possible errors. This archive has not independently verified wording, manuscript/print completeness, or current EOTC edition identity.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Retained TAU capture hashes, menu/page/linked-label parser audit",
+      "reviewed_at": "2026-11-16",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-036",
+        "SRC-164",
+        "SRC-336"
+      ],
+      "notes": "Digital source scope only; no print/manuscript collation."
+    },
+    {
+      "dimension": "transcription_accuracy",
+      "state": "unknown",
+      "scope": "Independent Geʽez proofreading and print/manuscript collation have not been performed.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-036",
+        "SRC-164",
+        "SRC-336"
+      ],
+      "notes": "Source-reported OCR/proofreading is not an independent review by this archive."
+    }
+  ],
+  "publication_state": "bundled",
+  "additional_notes": "This record describes the Geʽez layer only; the shared package includes a separately identified English comparison. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other."
+}

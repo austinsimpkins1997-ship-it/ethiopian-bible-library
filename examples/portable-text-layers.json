@@ -1,7 +1,7 @@
 {
   "manifest_version": 1,
   "schema_uri": "../schemas/text-layer.schema.json",
-  "coverage_statement": "This manifest includes portable metadata for 99 selected text layers across the bundled readers. It does not represent complete canon or language coverage.",
+  "coverage_statement": "This manifest includes portable metadata for 115 selected text layers across the bundled readers. It does not represent complete canon or language coverage.",
   "records": [
     {
       "schema_version": 2,
@@ -12788,7 +12788,7 @@
       "content_package": {
         "uri": "../readers/habakkuk-geez-lofgren-ghebre-tau.json",
         "media_type": "application/json",
-        "sha256": "f05f3009cd39f7eba8d97b61c2d85b6689762887b1215838c1aaf5ae4cae9aa3",
+        "sha256": "2c15b13b320245d42bbebc097617bc4ed2e2dc6f1232cbd5618c9cea79cd606f",
         "format_version": "1"
       },
       "coverage": {
@@ -12877,7 +12877,323 @@
       ],
       "publication_state": "bundled",
       "community_access_note": null,
-      "additional_notes": "This record bundles no English translation. The English title and metadata are not translated text; the reader contains the captured Geʽez source transcription."
+      "additional_notes": "This record describes the Geʽez layer only; the shared package includes a separately identified English comparison. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other."
+    },
+    {
+      "schema_version": 2,
+      "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/hab-english-brenton-lxx-1851-in-habakkuk-geez-lofgren-ghebre-tau",
+      "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/habakkuk-geez-lofgren-ghebre-tau-lxx",
+      "labels": [
+        {
+          "value": "English companion — Ambacum — Brenton English Septuagint (1851)",
+          "language_tag": "en",
+          "label_type": "preferred"
+        }
+      ],
+      "tradition_assertions": [
+        {
+          "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+          "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-40",
+          "mapping_state": "uncertain",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The English Church list names ‘Habakkuk’ (SRC-029); this Brenton member is titled ‘Ambacum’ (SRC-038, SRC-142). The title form supports a research-only candidate link; it does not establish textual agreement with a Geʽez witness or current Ethiopian Orthodox edition. This English translation is from the Greek Septuagint and remains outside canon-linked coverage."
+        }
+      ],
+      "witness": {
+        "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-lxx-habakkuk-geez-lofgren-ghebre-tau-1851",
+        "witness_type": "digital_edition",
+        "title": "English companion — Ambacum — Brenton English Septuagint (1851)",
+        "date_statement": "Translation published 1851; USFM source package provided by eBible.org",
+        "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital text distributed by eBible.org",
+        "shelfmark_or_edition_id": "36-HABeng-Brenton.usfm",
+        "editorial_policy": "USFM verse labels, footnotes, cross-references, paragraph starts (\\p), descriptive-title markers (\\d), and translator-supplied-word markers are retained. USFM formatting markers for small capitals are flattened to plain text; \\add words are wrapped in visible archival brackets.",
+        "source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "layer_type": "translation",
+      "text_origin": "published_translation",
+      "language_tag": "en",
+      "language_name_as_recorded": "English",
+      "script_code": "Latn",
+      "basis_path": [
+        "grc",
+        "en"
+      ],
+      "agents": [
+        {
+          "role": "translator",
+          "name": "Sir Lancelot Charles Lee Brenton",
+          "authority_or_affiliation": null,
+          "source_ids": [
+            "SRC-038"
+          ]
+        }
+      ],
+      "content_package": {
+        "uri": "../readers/habakkuk-geez-lofgren-ghebre-tau.json",
+        "media_type": "application/json",
+        "sha256": "2c15b13b320245d42bbebc097617bc4ed2e2dc6f1232cbd5618c9cea79cd606f",
+        "format_version": "1",
+        "json_pointer": "/parallel_translation"
+      },
+      "coverage": {
+        "extent_state": "complete_for_declared_edition",
+        "extent_basis": "source_inventory",
+        "unit_count": 56,
+        "structure_description": "The archived eBible.org USFM member contains 3 ordered chapters, 56 numbered labels, and 0 preserved unnumbered continuation segments; this is a count of the selected digital source package, not proof of printed-edition completeness.",
+        "missing_or_lacunose_ranges": [],
+        "supplements_and_editorial_signs": "0 footnotes and cross-references retained. The USFM \\add marker for translator-supplied words is rendered as visible ⟦brackets⟧; source \\p paragraph starts and \\d descriptive-title markers are retained before source-labeled units, and inline unnumbered \\p text is stored separately as continuation segments on the preceding verse; small-cap formatting is flattened to plain text.",
+        "numbering_policy": "Keep both editions independent; no automatic chapter or verse pairing. Captured Habakkuk page 2 is titled/indexed as Habakkuk, but its twenty external verse links target Nahum. The discrepancy is retained, not repaired; no automatic verse pairing is offered."
+      },
+      "rights": {
+        "status": "public_domain_claimed",
+        "statement": "eBible.org's source notice identifies Brenton's 1851 English translation as public domain. The archive records this provider claim; it is not a worldwide legal determination and does not apply to other text layers or eBible.org page design.",
+        "license_id": null,
+        "rights_holder": null,
+        "attribution_required": true,
+        "territory_or_term_limits": "Provider-reported public-domain status; no jurisdiction-by-jurisdiction determination is claimed.",
+        "evidence_source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "review_dimensions": [
+        {
+          "dimension": "identity",
+          "state": "checked_with_limits",
+          "scope": "eBible.org USFM member identifies this as Brenton English Septuagint Ambacum — Brenton English Septuagint (1851); no printed witness was collated.",
+          "reviewer": null,
+          "review_method": "combined_source_and_automated_validation",
+          "review_process": "Archived package metadata and local member/header audit",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The provider's title and attribution are recorded; exact identity to every detail of the 1851 print edition remains unchecked."
+        },
+        {
+          "dimension": "chapter_or_section_sequence",
+          "state": "checked_with_limits",
+          "scope": "All 3 chapter markers in the identified USFM member are ordered 1–3.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM archive parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Checks the archived digital source member, not completeness against the printed edition."
+        },
+        {
+          "dimension": "unit_boundaries",
+          "state": "checked_with_limits",
+          "scope": "All 56 verse markers and 0 unnumbered continuation segments are parsed with nonempty text; 0 footnotes/cross-references and structural markers {'p': 17, 'd': 1} are retained.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Structural source-package check only; not an independent textual or translation review."
+        },
+        {
+          "dimension": "translation_accuracy",
+          "state": "unknown",
+          "scope": "No independent review against the Greek Septuagint or Brenton's printed 1851 edition.",
+          "reviewer": null,
+          "review_method": "unknown",
+          "review_process": null,
+          "reviewed_at": null,
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "This is not a direct translation from the bundled Geʽez text."
+        },
+        {
+          "dimension": "rights",
+          "state": "checked_with_limits",
+          "scope": "eBible.org's public-domain notice for Brenton's 1851 English translation.",
+          "reviewer": null,
+          "review_method": "source_inspection",
+          "review_process": "Provider copyright notice and source package metadata",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "Provider-reported status; no international rights survey is claimed."
+        }
+      ],
+      "publication_state": "bundled",
+      "community_access_note": null,
+      "additional_notes": "An additional packaging location of the existing Brenton witness, not a new translation. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other. Captured Habakkuk page 2 is titled/indexed as Habakkuk, but its twenty external verse links target Nahum. The discrepancy is retained, not repaired; no automatic verse pairing is offered."
+    },
+    {
+      "schema_version": 2,
+      "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/hag-english-brenton-lxx-1851",
+      "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/haggai-lxx",
+      "labels": [
+        {
+          "value": "English companion — Brenton Septuagint (1851), Haggai",
+          "language_tag": "en",
+          "label_type": "preferred"
+        }
+      ],
+      "tradition_assertions": [
+        {
+          "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+          "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-42",
+          "mapping_state": "uncertain",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The English Church list names ‘Haggai’ (SRC-029); this Brenton member is titled ‘Aggæus’ (SRC-038, SRC-142). The title form supports a research-only candidate link; it does not establish textual agreement with a Geʽez witness or current Ethiopian Orthodox edition. This English translation is from the Greek Septuagint and remains outside canon-linked coverage."
+        }
+      ],
+      "witness": {
+        "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-lxx-haggai-1851",
+        "witness_type": "digital_edition",
+        "title": "English companion — Brenton Septuagint (1851), Haggai",
+        "date_statement": "Translation published 1851; USFM source package provided by eBible.org",
+        "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital text distributed by eBible.org",
+        "shelfmark_or_edition_id": "38-HAGeng-Brenton.usfm",
+        "editorial_policy": "USFM verse labels, footnotes, cross-references, paragraph starts (\\p), descriptive-title markers (\\d), and translator-supplied-word markers are retained. USFM formatting markers for small capitals are flattened to plain text; \\add words are wrapped in visible archival brackets.",
+        "source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "layer_type": "translation",
+      "text_origin": "published_translation",
+      "language_tag": "en",
+      "language_name_as_recorded": "English",
+      "script_code": "Latn",
+      "basis_path": [
+        "grc",
+        "en"
+      ],
+      "agents": [
+        {
+          "role": "translator",
+          "name": "Sir Lancelot Charles Lee Brenton",
+          "authority_or_affiliation": null,
+          "source_ids": [
+            "SRC-038"
+          ]
+        }
+      ],
+      "content_package": {
+        "uri": "../readers/haggai-geez-lofgren-ghebre-tau.json",
+        "media_type": "application/json",
+        "sha256": "39b8b7b431665b3f15232bc312ed9e238994ae9dc4cb2d707b651365fb022093",
+        "format_version": "1",
+        "json_pointer": "/parallel_translation"
+      },
+      "coverage": {
+        "extent_state": "complete_for_declared_edition",
+        "extent_basis": "source_inventory",
+        "unit_count": 38,
+        "structure_description": "The archived eBible.org USFM member contains 2 ordered chapters, 38 numbered labels, and 1 preserved unnumbered continuation segments; this is a count of the selected digital source package, not proof of printed-edition completeness.",
+        "missing_or_lacunose_ranges": [],
+        "supplements_and_editorial_signs": "10 footnotes and cross-references retained. The USFM \\add marker for translator-supplied words is rendered as visible ⟦brackets⟧; source \\p paragraph starts and \\d descriptive-title markers are retained before source-labeled units, and inline unnumbered \\p text is stored separately as continuation segments on the preceding verse; small-cap formatting is flattened to plain text.",
+        "numbering_policy": "Source chapter and verse labels are retained as strings. Shared labels pair witnesses for navigation only; verse-level alignment with the Geʽez text has not been established."
+      },
+      "rights": {
+        "status": "public_domain_claimed",
+        "statement": "eBible.org's source notice identifies Brenton's 1851 English translation as public domain. The archive records this provider claim; it is not a worldwide legal determination and does not apply to other text layers or eBible.org page design.",
+        "license_id": null,
+        "rights_holder": null,
+        "attribution_required": true,
+        "territory_or_term_limits": "Provider-reported public-domain status; no jurisdiction-by-jurisdiction determination is claimed.",
+        "evidence_source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "review_dimensions": [
+        {
+          "dimension": "identity",
+          "state": "checked_with_limits",
+          "scope": "eBible.org USFM member identifies this as Brenton English Septuagint Haggai; no printed witness was collated.",
+          "reviewer": null,
+          "review_method": "combined_source_and_automated_validation",
+          "review_process": "Archived package metadata and local member/header audit",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The provider's title and attribution are recorded; exact identity to every detail of the 1851 print edition remains unchecked."
+        },
+        {
+          "dimension": "chapter_or_section_sequence",
+          "state": "checked_with_limits",
+          "scope": "All 2 chapter markers in the identified USFM member are ordered 1–2.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM archive parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Checks the archived digital source member, not completeness against the printed edition."
+        },
+        {
+          "dimension": "unit_boundaries",
+          "state": "checked_with_limits",
+          "scope": "All 38 verse markers and 1 unnumbered continuation segments are parsed with nonempty text; 10 footnotes/cross-references and structural markers {'p': 13, 'p_inline_text_segments': 1} are retained.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Structural source-package check only; not an independent textual or translation review."
+        },
+        {
+          "dimension": "translation_accuracy",
+          "state": "unknown",
+          "scope": "No independent review against the Greek Septuagint or Brenton's printed 1851 edition.",
+          "reviewer": null,
+          "review_method": "unknown",
+          "review_process": null,
+          "reviewed_at": null,
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "This is not a direct translation from the bundled Geʽez text."
+        },
+        {
+          "dimension": "rights",
+          "state": "checked_with_limits",
+          "scope": "eBible.org's public-domain notice for Brenton's 1851 English translation.",
+          "reviewer": null,
+          "review_method": "source_inspection",
+          "review_process": "Provider copyright notice and source package metadata",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "Provider-reported status; no international rights survey is claimed."
+        }
+      ],
+      "publication_state": "bundled",
+      "community_access_note": null,
+      "additional_notes": "Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other. The English Church list names ‘Haggai’ (SRC-029); this Brenton member is titled ‘Aggæus’ (SRC-038, SRC-142). The title form supports a research-only candidate link; it does not establish textual agreement with a Geʽez witness or current Ethiopian Orthodox edition. This English translation is from the Greek Septuagint and remains outside canon-linked coverage."
     },
     {
       "schema_version": 2,
@@ -12960,7 +13276,7 @@
       "content_package": {
         "uri": "../readers/haggai-geez-lofgren-ghebre-tau.json",
         "media_type": "application/json",
-        "sha256": "9d69e8d3e439e9997877c5c77ac140546aa5aa46f9eee7d1eefab1bad7eab94e",
+        "sha256": "39b8b7b431665b3f15232bc312ed9e238994ae9dc4cb2d707b651365fb022093",
         "format_version": "1"
       },
       "coverage": {
@@ -13053,7 +13369,7 @@
       ],
       "publication_state": "bundled",
       "community_access_note": null,
-      "additional_notes": "This record bundles no English translation. The English title and metadata are not translated text; the reader contains the captured Geʽez source transcription."
+      "additional_notes": "This record describes only the captured Geʽez layer. The shared JSON package also contains a separately identified English companion. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other."
     },
     {
       "schema_version": 2,
@@ -13565,6 +13881,164 @@
     },
     {
       "schema_version": 2,
+      "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/jon-english-brenton-lxx-1851",
+      "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/jonah-lxx",
+      "labels": [
+        {
+          "value": "English companion — Brenton Septuagint (1851), Jonah",
+          "language_tag": "en",
+          "label_type": "preferred"
+        }
+      ],
+      "tradition_assertions": [
+        {
+          "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+          "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-38",
+          "mapping_state": "uncertain",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The English Church list names ‘Jonah’ (SRC-029); this Brenton member is titled ‘Jonas’ (SRC-038, SRC-142). The title form supports a separate research-reader link; the Brenton text is a Greek-basis English witness, not a translation from Geʽez, and is not established as an Ethiopian Orthodox edition. It remains outside canon-linked coverage."
+        }
+      ],
+      "witness": {
+        "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-lxx-jonah-1851",
+        "witness_type": "digital_edition",
+        "title": "English companion — Brenton Septuagint (1851), Jonah",
+        "date_statement": "Translation published 1851; USFM source package provided by eBible.org",
+        "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital text distributed by eBible.org",
+        "shelfmark_or_edition_id": "33-JONeng-Brenton.usfm",
+        "editorial_policy": "USFM verse labels, footnotes, cross-references, paragraph starts (\\p), descriptive-title markers (\\d), and translator-supplied-word markers are retained. USFM formatting markers for small capitals are flattened to plain text; \\add words are wrapped in visible archival brackets.",
+        "source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "layer_type": "translation",
+      "text_origin": "published_translation",
+      "language_tag": "en",
+      "language_name_as_recorded": "English",
+      "script_code": "Latn",
+      "basis_path": [
+        "grc",
+        "en"
+      ],
+      "agents": [
+        {
+          "role": "translator",
+          "name": "Sir Lancelot Charles Lee Brenton",
+          "authority_or_affiliation": null,
+          "source_ids": [
+            "SRC-038"
+          ]
+        }
+      ],
+      "content_package": {
+        "uri": "../readers/jonah-geez-lofgren-ghebre-tau.json",
+        "media_type": "application/json",
+        "sha256": "e1155ba2957734e92210d2e3cb481ef45f7bb419fe6bea6754e9708191e663ab",
+        "format_version": "1",
+        "json_pointer": "/parallel_translation"
+      },
+      "coverage": {
+        "extent_state": "complete_for_declared_edition",
+        "extent_basis": "source_inventory",
+        "unit_count": 48,
+        "structure_description": "The archived eBible.org USFM member contains 4 ordered chapters, 48 numbered labels, and 1 preserved unnumbered continuation segments; this is a count of the selected digital source package, not proof of printed-edition completeness.",
+        "missing_or_lacunose_ranges": [],
+        "supplements_and_editorial_signs": "13 footnotes and cross-references retained. The USFM \\add marker for translator-supplied words is rendered as visible ⟦brackets⟧; source \\p paragraph starts and \\d descriptive-title markers are retained before source-labeled units, and inline unnumbered \\p text is stored separately as continuation segments on the preceding verse; small-cap formatting is flattened to plain text.",
+        "numbering_policy": "Source chapter and verse labels are retained as strings. Shared labels pair witnesses for navigation only; verse-level alignment with the Geʽez text has not been established."
+      },
+      "rights": {
+        "status": "public_domain_claimed",
+        "statement": "eBible.org's source notice identifies Brenton's 1851 English translation as public domain. The archive records this provider claim; it is not a worldwide legal determination and does not apply to other text layers or eBible.org page design.",
+        "license_id": null,
+        "rights_holder": null,
+        "attribution_required": true,
+        "territory_or_term_limits": "Provider-reported public-domain status; no jurisdiction-by-jurisdiction determination is claimed.",
+        "evidence_source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "review_dimensions": [
+        {
+          "dimension": "identity",
+          "state": "checked_with_limits",
+          "scope": "eBible.org USFM member identifies this as Brenton English Septuagint Jonah; no printed witness was collated.",
+          "reviewer": null,
+          "review_method": "combined_source_and_automated_validation",
+          "review_process": "Archived package metadata and local member/header audit",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The provider's title and attribution are recorded; exact identity to every detail of the 1851 print edition remains unchecked."
+        },
+        {
+          "dimension": "chapter_or_section_sequence",
+          "state": "checked_with_limits",
+          "scope": "All 4 chapter markers in the identified USFM member are ordered 1–4.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM archive parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Checks the archived digital source member, not completeness against the printed edition."
+        },
+        {
+          "dimension": "unit_boundaries",
+          "state": "checked_with_limits",
+          "scope": "All 48 verse markers and 1 unnumbered continuation segments are parsed with nonempty text; 13 footnotes/cross-references and structural markers {'p': 18, 'p_inline_text_segments': 1} are retained.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Structural source-package check only; not an independent textual or translation review."
+        },
+        {
+          "dimension": "translation_accuracy",
+          "state": "unknown",
+          "scope": "No independent review against the Greek Septuagint or Brenton's printed 1851 edition.",
+          "reviewer": null,
+          "review_method": "unknown",
+          "review_process": null,
+          "reviewed_at": null,
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "This is not a direct translation from the bundled Geʽez text."
+        },
+        {
+          "dimension": "rights",
+          "state": "checked_with_limits",
+          "scope": "eBible.org's public-domain notice for Brenton's 1851 English translation.",
+          "reviewer": null,
+          "review_method": "source_inspection",
+          "review_process": "Provider copyright notice and source package metadata",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "Provider-reported status; no international rights survey is claimed."
+        }
+      ],
+      "publication_state": "bundled",
+      "community_access_note": null,
+      "additional_notes": "Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other. The English Church list names ‘Jonah’ (SRC-029); this Brenton member is titled ‘Jonas’ (SRC-038, SRC-142). The title form supports a separate research-reader link; the Brenton text is a Greek-basis English witness, not a translation from Geʽez, and is not established as an Ethiopian Orthodox edition. It remains outside canon-linked coverage."
+    },
+    {
+      "schema_version": 2,
       "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/jonah-geez-lofgren-ghebre-tau",
       "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/jonah-eotc-candidate",
       "labels": [
@@ -13647,7 +14121,7 @@
       "content_package": {
         "uri": "../readers/jonah-geez-lofgren-ghebre-tau.json",
         "media_type": "application/json",
-        "sha256": "e8ab5d00f7f1343b6eba807f23d5bb5f5d33959f08a7d29fbceeaba0e3c83603",
+        "sha256": "e1155ba2957734e92210d2e3cb481ef45f7bb419fe6bea6754e9708191e663ab",
         "format_version": "1"
       },
       "coverage": {
@@ -13736,7 +14210,7 @@
       ],
       "publication_state": "bundled",
       "community_access_note": null,
-      "additional_notes": "This record bundles no English translation. The English title and metadata are not translated text; the reader contains the captured Geʽez source transcription."
+      "additional_notes": "This record describes only the captured Geʽez layer. The shared JSON package also contains a separately identified English companion. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other."
     },
     {
       "schema_version": 2,
@@ -14366,6 +14840,596 @@
     },
     {
       "schema_version": 2,
+      "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/first-ki-english-brenton-lxx-1851-in-kings-i-geez-research",
+      "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/kings-i-geez-research-lxx",
+      "labels": [
+        {
+          "value": "English companion — Kings III — Brenton English Septuagint (1851)",
+          "language_tag": "en",
+          "label_type": "preferred"
+        }
+      ],
+      "tradition_assertions": [
+        {
+          "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+          "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-10",
+          "mapping_state": "uncertain",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The Church list groups ‘I and II Kings’ (SRC-029). This Brenton member is titled ‘Kings III’ and carries USFM code 1KI (SRC-038, SRC-142, SRC-384); the code reference identifies 1KI as 1 Kings and notes ‘3 Kings/Kingdoms’ as an Orthodox naming variant. This is a provisional link to one component of the grouped entry only. It does not establish EOTC edition identity, textual agreement, or coverage of the whole grouped entry. It remains outside canon-linked coverage."
+        }
+      ],
+      "witness": {
+        "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-lxx-kings-i-geez-research-1851",
+        "witness_type": "digital_edition",
+        "title": "English companion — Kings III — Brenton English Septuagint (1851)",
+        "date_statement": "Translation published 1851; USFM source package provided by eBible.org",
+        "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital text distributed by eBible.org",
+        "shelfmark_or_edition_id": "12-1KIeng-Brenton.usfm",
+        "editorial_policy": "USFM verse labels, footnotes, cross-references, paragraph starts (\\p), descriptive-title markers (\\d), and translator-supplied-word markers are retained. USFM formatting markers for small capitals are flattened to plain text; \\add words are wrapped in visible archival brackets.",
+        "source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "layer_type": "translation",
+      "text_origin": "published_translation",
+      "language_tag": "en",
+      "language_name_as_recorded": "English",
+      "script_code": "Latn",
+      "basis_path": [
+        "grc",
+        "en"
+      ],
+      "agents": [
+        {
+          "role": "translator",
+          "name": "Sir Lancelot Charles Lee Brenton",
+          "authority_or_affiliation": null,
+          "source_ids": [
+            "SRC-038"
+          ]
+        }
+      ],
+      "content_package": {
+        "uri": "../readers/kings-i-geez-research.json",
+        "media_type": "application/json",
+        "sha256": "468c8eae5733e6c11410329a83564ba79e84ba841d1817dde258239c59661ca4",
+        "format_version": "1",
+        "json_pointer": "/parallel_translation"
+      },
+      "coverage": {
+        "extent_state": "complete_for_declared_edition",
+        "extent_basis": "source_inventory",
+        "unit_count": 823,
+        "structure_description": "The archived eBible.org USFM member contains 22 ordered chapters, 823 numbered labels, and 2 preserved unnumbered continuation segments; this is a count of the selected digital source package, not proof of printed-edition completeness.",
+        "missing_or_lacunose_ranges": [],
+        "supplements_and_editorial_signs": "327 footnotes and cross-references retained. The USFM \\add marker for translator-supplied words is rendered as visible ⟦brackets⟧; source \\p paragraph starts and \\d descriptive-title markers are retained before source-labeled units, and inline unnumbered \\p text is stored separately as continuation segments on the preceding verse; small-cap formatting is flattened to plain text.",
+        "numbering_policy": "Keep both editions independent; no automatic chapter or verse pairing. TAU Regum III contains 23 source-page divisions, including 3a/3b and menu order 21 before 20, while Brenton Kings III / USFM 1KI has 22 chapters. Page positions are not an alignment."
+      },
+      "rights": {
+        "status": "public_domain_claimed",
+        "statement": "eBible.org's source notice identifies Brenton's 1851 English translation as public domain. The archive records this provider claim; it is not a worldwide legal determination and does not apply to other text layers or eBible.org page design.",
+        "license_id": null,
+        "rights_holder": null,
+        "attribution_required": true,
+        "territory_or_term_limits": "Provider-reported public-domain status; no jurisdiction-by-jurisdiction determination is claimed.",
+        "evidence_source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "review_dimensions": [
+        {
+          "dimension": "identity",
+          "state": "checked_with_limits",
+          "scope": "eBible.org USFM member identifies this as Brenton English Septuagint Kings III — Brenton English Septuagint (1851); no printed witness was collated.",
+          "reviewer": null,
+          "review_method": "combined_source_and_automated_validation",
+          "review_process": "Archived package metadata and local member/header audit",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The provider's title and attribution are recorded; exact identity to every detail of the 1851 print edition remains unchecked."
+        },
+        {
+          "dimension": "chapter_or_section_sequence",
+          "state": "checked_with_limits",
+          "scope": "All 22 chapter markers in the identified USFM member are ordered 1–22.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM archive parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Checks the archived digital source member, not completeness against the printed edition."
+        },
+        {
+          "dimension": "unit_boundaries",
+          "state": "checked_with_limits",
+          "scope": "All 823 verse markers and 2 unnumbered continuation segments are parsed with nonempty text; 327 footnotes/cross-references and structural markers {'p': 204, 'nb': 1, 'p_inline_text_segments': 2} are retained.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Structural source-package check only; not an independent textual or translation review."
+        },
+        {
+          "dimension": "translation_accuracy",
+          "state": "unknown",
+          "scope": "No independent review against the Greek Septuagint or Brenton's printed 1851 edition.",
+          "reviewer": null,
+          "review_method": "unknown",
+          "review_process": null,
+          "reviewed_at": null,
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "This is not a direct translation from the bundled Geʽez text."
+        },
+        {
+          "dimension": "rights",
+          "state": "checked_with_limits",
+          "scope": "eBible.org's public-domain notice for Brenton's 1851 English translation.",
+          "reviewer": null,
+          "review_method": "source_inspection",
+          "review_process": "Provider copyright notice and source package metadata",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "Provider-reported status; no international rights survey is claimed."
+        }
+      ],
+      "publication_state": "bundled",
+      "community_access_note": null,
+      "additional_notes": "An additional packaging location of the existing Brenton witness, not a new translation. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other. TAU Regum III contains 23 source-page divisions, including 3a/3b and menu order 21 before 20, while Brenton Kings III / USFM 1KI has 22 chapters. Page positions are not an alignment."
+    },
+    {
+      "schema_version": 2,
+      "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/reader-kings-i-geez-research",
+      "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/reader-kings-i-geez-research",
+      "labels": [
+        {
+          "value": "I Kings — Geʽez transcription of TAU's Dillmann Regum III",
+          "language_tag": "en",
+          "label_type": "preferred"
+        }
+      ],
+      "tradition_assertions": [
+        {
+          "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+          "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-10",
+          "mapping_state": "reviewed_match",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-034",
+            "SRC-036",
+            "SRC-164",
+            "SRC-337",
+            "SRC-384"
+          ],
+          "notes": "Archive-reviewed work/title crosswalk: the Church's listed entry is ‘I and II Kings’; TAU's source information identifies its digitized Ethiopic Reigns I–IV as ‘Samuel I–II and Kings I–II,’ and the two retained components are Regum III and IV. This supports the named-work crosswalk only. The TAU equivalence remains attributed to TAU; it does not establish identity with a current EOTC edition, manuscript completeness, or wording accuracy. These component readers remain research records, not canon-linked coverage."
+        }
+      ],
+      "witness": {
+        "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/reader-kings-i-geez-research",
+        "witness_type": "digital_edition",
+        "title": "I Kings — Geʽez transcription of TAU's Dillmann Regum III",
+        "date_statement": "August Dillmann (ed.), Veteris Testamenti Aethiopici Tomus Secundus, fasc. 2: Regum III et IV, Leipzig, 1871; text digitized by Ran HaCohen at Tel Aviv University.",
+        "repository_or_publisher": "Tel Aviv University website",
+        "editorial_policy": "Text spans were extracted from 23 retained TAU HTML pages. Ethiopic characters and punctuation were decoded from captured HTML and whitespace normalized. Source labels, page labels, linked target book/chapter, and source order are retained; no text was translated, renumbered, or moved between pages.",
+        "source_ids": [
+          "SRC-029",
+          "SRC-034",
+          "SRC-036",
+          "SRC-164",
+          "SRC-337"
+        ]
+      },
+      "layer_type": "source_text_transcription",
+      "text_origin": "source_transcription",
+      "language_tag": "gez",
+      "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+      "script_code": "Ethi",
+      "basis_path": [
+        "gez"
+      ],
+      "agents": [],
+      "content_package": {
+        "uri": "../readers/kings-i-geez-research.json",
+        "media_type": "application/json",
+        "sha256": "468c8eae5733e6c11410329a83564ba79e84ba841d1817dde258239c59661ca4",
+        "format_version": "1"
+      },
+      "coverage": {
+        "extent_state": "complete_for_declared_edition",
+        "extent_basis": "source_inventory",
+        "unit_count": 765,
+        "structure_description": "TAU's captured index lists 23 Regum III source pages in this order: 1, 2, 3a, 3b, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 20, 22. Each page contains Ethiopic spans linked to an external BibleGateway book/chapter/label. Observed ranges and counts: 1: 1–53 (53 linked labels); 2: 1–35 (35 linked labels); 3a: 36–46 (11 linked labels); 3b: 1–28 (28 linked labels); 4: 1–30 (30 linked labels); 5: 1–17 (17 linked labels); 6: 1–33 (33 linked labels); 7: 1–49 (49 linked labels); 8: 1–66 (64 linked labels); 9: 1–28 (17 linked labels); 10: 1–29 (36 linked labels); 11: 1–44 (40 linked labels); 12: 1–33 (30 linked labels); 13: 1–34 (33 linked labels); 14: 21–31 (11 linked labels); 15: 1–34 (32 linked labels); 16: 1–34 (34 linked labels); 17: 1–24 (24 linked labels); 18: 1–46 (46 linked labels); 19: 1–21 (21 linked labels); 21: 1–28 (28 linked labels); 20: 1–43 (42 linked labels); 22: 1–55 (51 linked labels). For navigation, archive chapter numbers are page positions; source page labels remain separately recorded and visible. These are source-page counts, not proof of print completeness. The retained TAU menu labels Regum III pages 3a and 3b separately and lists page 21 before page 20. The reader preserves the source menu order and labels; its navigation positions are not claims that the menu labels equal standard chapter numbers.",
+        "missing_or_lacunose_ranges": [],
+        "numbering_policy": "Preserve every source page label, linked target and unit in source order. No cross-witness alignment is inferred."
+      },
+      "rights": {
+        "status": "permission_limited",
+        "statement": "© Ran HaCohen. For the digitized Ethiopic texts, permission to use, copy, and distribute for any NONCOMMERCIAL purpose is granted without fee, provided that the copyright notice Ran HaCohen and this permission notice appear in all copies of the text. For other uses, please contact the copyright owner.",
+        "license_id": null,
+        "rights_holder": "Ran HaCohen (TAU site notice)",
+        "attribution_required": true,
+        "territory_or_term_limits": "TAU's site-wide notice permits copying and distribution for noncommercial use only, with the copyright and permission notice accompanying every copy; other uses require contacting the rights holder. This is a permission-limited grant, not an open-content or commercial license.",
+        "evidence_source_ids": [
+          "SRC-029",
+          "SRC-034",
+          "SRC-036",
+          "SRC-164",
+          "SRC-337"
+        ]
+      },
+      "review_dimensions": [
+        {
+          "dimension": "identity",
+          "state": "checked_with_limits",
+          "scope": "Archive-reviewed work/title crosswalk: the Church's listed entry is ‘I and II Kings’; TAU's source information identifies its digitized Ethiopic Reigns I–IV as ‘Samuel I–II and Kings I–II,’ and the two retained components are Regum III and IV. This supports the named-work crosswalk only. The TAU equivalence remains attributed to TAU; it does not establish identity with a current EOTC edition, manuscript completeness, or wording accuracy. These component readers remain research records, not canon-linked coverage.",
+          "reviewer": null,
+          "review_method": "source_inspection",
+          "review_process": "Preserved existing research/reigns-title-crosswalk-review.md and the recorded standard USFM identifier table for work/title aliases only",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-034",
+            "SRC-036",
+            "SRC-164",
+            "SRC-337",
+            "SRC-384"
+          ],
+          "notes": "Work/title crosswalk only, carried from the existing cited review. Current edition identity, textual agreement and alignment remain unverified."
+        },
+        {
+          "dimension": "chapter_or_section_sequence",
+          "state": "checked_with_limits",
+          "scope": "Local capture HTTP status, byte lengths and SHA-256 hashes, TAU menu labels and order, nonempty linked text spans, and source-label order were checked. TAU reports OCR conversion and proofreading but warns errors may remain. Wording, manuscript/print completeness, and exact current EOTC edition identity are not independently verified.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Retained TAU capture hashes, menu/page/linked-label parser audit",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-034",
+            "SRC-036",
+            "SRC-164",
+            "SRC-337"
+          ],
+          "notes": "Digital source scope only; no print/manuscript collation."
+        },
+        {
+          "dimension": "transcription_accuracy",
+          "state": "unknown",
+          "scope": "Independent Geʽez proofreading and print/manuscript collation have not been performed.",
+          "reviewer": null,
+          "review_method": "unknown",
+          "review_process": null,
+          "reviewed_at": null,
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-034",
+            "SRC-036",
+            "SRC-164",
+            "SRC-337"
+          ],
+          "notes": "Source-reported OCR/proofreading is not an independent review by this archive."
+        }
+      ],
+      "publication_state": "bundled",
+      "additional_notes": "This record describes the Geʽez layer only; the shared package includes a separately identified English comparison. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other."
+    },
+    {
+      "schema_version": 2,
+      "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/second-ki-english-brenton-lxx-1851-in-kings-ii-geez-research",
+      "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/kings-ii-geez-research-lxx",
+      "labels": [
+        {
+          "value": "English companion — Kings IV — Brenton English Septuagint (1851)",
+          "language_tag": "en",
+          "label_type": "preferred"
+        }
+      ],
+      "tradition_assertions": [
+        {
+          "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+          "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-10",
+          "mapping_state": "uncertain",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The Church list groups ‘I and II Kings’ (SRC-029). This Brenton member is titled ‘Kings IV’ and carries USFM code 2KI (SRC-038, SRC-142, SRC-384); the code reference identifies 2KI as 2 Kings and notes ‘4 Kings/Kingdoms’ as an Orthodox naming variant. This is a provisional link to one component of the grouped entry only. It does not establish EOTC edition identity, textual agreement, or coverage of the whole grouped entry. It remains outside canon-linked coverage."
+        }
+      ],
+      "witness": {
+        "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-lxx-kings-ii-geez-research-1851",
+        "witness_type": "digital_edition",
+        "title": "English companion — Kings IV — Brenton English Septuagint (1851)",
+        "date_statement": "Translation published 1851; USFM source package provided by eBible.org",
+        "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital text distributed by eBible.org",
+        "shelfmark_or_edition_id": "13-2KIeng-Brenton.usfm",
+        "editorial_policy": "USFM verse labels, footnotes, cross-references, paragraph starts (\\p), descriptive-title markers (\\d), and translator-supplied-word markers are retained. USFM formatting markers for small capitals are flattened to plain text; \\add words are wrapped in visible archival brackets.",
+        "source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "layer_type": "translation",
+      "text_origin": "published_translation",
+      "language_tag": "en",
+      "language_name_as_recorded": "English",
+      "script_code": "Latn",
+      "basis_path": [
+        "grc",
+        "en"
+      ],
+      "agents": [
+        {
+          "role": "translator",
+          "name": "Sir Lancelot Charles Lee Brenton",
+          "authority_or_affiliation": null,
+          "source_ids": [
+            "SRC-038"
+          ]
+        }
+      ],
+      "content_package": {
+        "uri": "../readers/kings-ii-geez-research.json",
+        "media_type": "application/json",
+        "sha256": "d618215845d7712443a334d223ae0f5314ffb16f1c5186799d16eb36e8549a32",
+        "format_version": "1",
+        "json_pointer": "/parallel_translation"
+      },
+      "coverage": {
+        "extent_state": "complete_for_declared_edition",
+        "extent_basis": "source_inventory",
+        "unit_count": 723,
+        "structure_description": "The archived eBible.org USFM member contains 25 ordered chapters, 723 numbered labels, and 2 preserved unnumbered continuation segments; this is a count of the selected digital source package, not proof of printed-edition completeness.",
+        "missing_or_lacunose_ranges": [],
+        "supplements_and_editorial_signs": "312 footnotes and cross-references retained. The USFM \\add marker for translator-supplied words is rendered as visible ⟦brackets⟧; source \\p paragraph starts and \\d descriptive-title markers are retained before source-labeled units, and inline unnumbered \\p text is stored separately as continuation segments on the preceding verse; small-cap formatting is flattened to plain text.",
+        "numbering_policy": "Keep both editions independent; no automatic chapter or verse pairing. TAU Regum IV and Brenton Kings IV / USFM 2KI are compared as a work-family candidate only. Equal page/chapter totals do not establish alignment."
+      },
+      "rights": {
+        "status": "public_domain_claimed",
+        "statement": "eBible.org's source notice identifies Brenton's 1851 English translation as public domain. The archive records this provider claim; it is not a worldwide legal determination and does not apply to other text layers or eBible.org page design.",
+        "license_id": null,
+        "rights_holder": null,
+        "attribution_required": true,
+        "territory_or_term_limits": "Provider-reported public-domain status; no jurisdiction-by-jurisdiction determination is claimed.",
+        "evidence_source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "review_dimensions": [
+        {
+          "dimension": "identity",
+          "state": "checked_with_limits",
+          "scope": "eBible.org USFM member identifies this as Brenton English Septuagint Kings IV — Brenton English Septuagint (1851); no printed witness was collated.",
+          "reviewer": null,
+          "review_method": "combined_source_and_automated_validation",
+          "review_process": "Archived package metadata and local member/header audit",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The provider's title and attribution are recorded; exact identity to every detail of the 1851 print edition remains unchecked."
+        },
+        {
+          "dimension": "chapter_or_section_sequence",
+          "state": "checked_with_limits",
+          "scope": "All 25 chapter markers in the identified USFM member are ordered 1–25.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM archive parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Checks the archived digital source member, not completeness against the printed edition."
+        },
+        {
+          "dimension": "unit_boundaries",
+          "state": "checked_with_limits",
+          "scope": "All 723 verse markers and 2 unnumbered continuation segments are parsed with nonempty text; 312 footnotes/cross-references and structural markers {'p': 184, 'p_inline_text_segments': 2} are retained.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Structural source-package check only; not an independent textual or translation review."
+        },
+        {
+          "dimension": "translation_accuracy",
+          "state": "unknown",
+          "scope": "No independent review against the Greek Septuagint or Brenton's printed 1851 edition.",
+          "reviewer": null,
+          "review_method": "unknown",
+          "review_process": null,
+          "reviewed_at": null,
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "This is not a direct translation from the bundled Geʽez text."
+        },
+        {
+          "dimension": "rights",
+          "state": "checked_with_limits",
+          "scope": "eBible.org's public-domain notice for Brenton's 1851 English translation.",
+          "reviewer": null,
+          "review_method": "source_inspection",
+          "review_process": "Provider copyright notice and source package metadata",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "Provider-reported status; no international rights survey is claimed."
+        }
+      ],
+      "publication_state": "bundled",
+      "community_access_note": null,
+      "additional_notes": "An additional packaging location of the existing Brenton witness, not a new translation. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other. TAU Regum IV and Brenton Kings IV / USFM 2KI are compared as a work-family candidate only. Equal page/chapter totals do not establish alignment."
+    },
+    {
+      "schema_version": 2,
+      "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/reader-kings-ii-geez-research",
+      "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/reader-kings-ii-geez-research",
+      "labels": [
+        {
+          "value": "II Kings — Geʽez transcription of TAU's Dillmann Regum IV",
+          "language_tag": "en",
+          "label_type": "preferred"
+        }
+      ],
+      "tradition_assertions": [
+        {
+          "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+          "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-10",
+          "mapping_state": "reviewed_match",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-034",
+            "SRC-036",
+            "SRC-164",
+            "SRC-337",
+            "SRC-384"
+          ],
+          "notes": "Archive-reviewed work/title crosswalk: the Church's listed entry is ‘I and II Kings’; TAU's source information identifies its digitized Ethiopic Reigns I–IV as ‘Samuel I–II and Kings I–II,’ and the two retained components are Regum III and IV. This supports the named-work crosswalk only. The TAU equivalence remains attributed to TAU; it does not establish identity with a current EOTC edition, manuscript completeness, or wording accuracy. These component readers remain research records, not canon-linked coverage."
+        }
+      ],
+      "witness": {
+        "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/reader-kings-ii-geez-research",
+        "witness_type": "digital_edition",
+        "title": "II Kings — Geʽez transcription of TAU's Dillmann Regum IV",
+        "date_statement": "August Dillmann (ed.), Veteris Testamenti Aethiopici Tomus Secundus, fasc. 2: Regum III et IV, Leipzig, 1871; text digitized by Ran HaCohen at Tel Aviv University.",
+        "repository_or_publisher": "Tel Aviv University website",
+        "editorial_policy": "Text spans were extracted from 25 retained TAU HTML pages. Ethiopic characters and punctuation were decoded from captured HTML and whitespace normalized. Source labels, page labels, linked target book/chapter, and source order are retained; no text was translated, renumbered, or moved between pages.",
+        "source_ids": [
+          "SRC-029",
+          "SRC-034",
+          "SRC-036",
+          "SRC-164",
+          "SRC-337"
+        ]
+      },
+      "layer_type": "source_text_transcription",
+      "text_origin": "source_transcription",
+      "language_tag": "gez",
+      "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+      "script_code": "Ethi",
+      "basis_path": [
+        "gez"
+      ],
+      "agents": [],
+      "content_package": {
+        "uri": "../readers/kings-ii-geez-research.json",
+        "media_type": "application/json",
+        "sha256": "d618215845d7712443a334d223ae0f5314ffb16f1c5186799d16eb36e8549a32",
+        "format_version": "1"
+      },
+      "coverage": {
+        "extent_state": "complete_for_declared_edition",
+        "extent_basis": "source_inventory",
+        "unit_count": 718,
+        "structure_description": "TAU's captured index lists 25 Regum IV source pages in this order: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25. Each page contains Ethiopic spans linked to an external BibleGateway book/chapter/label. Observed ranges and counts: 1: 1–19 (19 linked labels); 2: 1–25 (25 linked labels); 3: 1–27 (27 linked labels); 4: 1–44 (44 linked labels); 5: 1–27 (27 linked labels); 6: 1–33 (33 linked labels); 7: 1–20 (20 linked labels); 8: 1–29 (28 linked labels); 9: 1–37 (37 linked labels); 10: 1–37 (36 linked labels); 11: 1–21 (21 linked labels); 12: 1–21 (21 linked labels); 13: 1–25 (25 linked labels); 14: 1–29 (29 linked labels); 15: 1–38 (38 linked labels); 16: 1–20 (20 linked labels); 17: 1–41 (41 linked labels); 18: 1–37 (37 linked labels); 19: 1–37 (37 linked labels); 20: 1–21 (21 linked labels); 21: 1–26 (26 linked labels); 22: 1–20 (20 linked labels); 23: 1–37 (36 linked labels); 24: 1–20 (20 linked labels); 25: 1–30 (30 linked labels). For navigation, archive chapter numbers are page positions; source page labels remain separately recorded and visible. These are source-page counts, not proof of print completeness. The retained TAU menu labels Regum III pages 3a and 3b separately and lists page 21 before page 20. The reader preserves the source menu order and labels; its navigation positions are not claims that the menu labels equal standard chapter numbers.",
+        "missing_or_lacunose_ranges": [],
+        "numbering_policy": "Preserve every source page label, linked target and unit in source order. No cross-witness alignment is inferred."
+      },
+      "rights": {
+        "status": "permission_limited",
+        "statement": "© Ran HaCohen. For the digitized Ethiopic texts, permission to use, copy, and distribute for any NONCOMMERCIAL purpose is granted without fee, provided that the copyright notice Ran HaCohen and this permission notice appear in all copies of the text. For other uses, please contact the copyright owner.",
+        "license_id": null,
+        "rights_holder": "Ran HaCohen (TAU site notice)",
+        "attribution_required": true,
+        "territory_or_term_limits": "TAU's site-wide notice permits copying and distribution for noncommercial use only, with the copyright and permission notice accompanying every copy; other uses require contacting the rights holder. This is a permission-limited grant, not an open-content or commercial license.",
+        "evidence_source_ids": [
+          "SRC-029",
+          "SRC-034",
+          "SRC-036",
+          "SRC-164",
+          "SRC-337"
+        ]
+      },
+      "review_dimensions": [
+        {
+          "dimension": "identity",
+          "state": "checked_with_limits",
+          "scope": "Archive-reviewed work/title crosswalk: the Church's listed entry is ‘I and II Kings’; TAU's source information identifies its digitized Ethiopic Reigns I–IV as ‘Samuel I–II and Kings I–II,’ and the two retained components are Regum III and IV. This supports the named-work crosswalk only. The TAU equivalence remains attributed to TAU; it does not establish identity with a current EOTC edition, manuscript completeness, or wording accuracy. These component readers remain research records, not canon-linked coverage.",
+          "reviewer": null,
+          "review_method": "source_inspection",
+          "review_process": "Preserved existing research/reigns-title-crosswalk-review.md and the recorded standard USFM identifier table for work/title aliases only",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-034",
+            "SRC-036",
+            "SRC-164",
+            "SRC-337",
+            "SRC-384"
+          ],
+          "notes": "Work/title crosswalk only, carried from the existing cited review. Current edition identity, textual agreement and alignment remain unverified."
+        },
+        {
+          "dimension": "chapter_or_section_sequence",
+          "state": "checked_with_limits",
+          "scope": "Local capture HTTP status, byte lengths and SHA-256 hashes, TAU menu labels and order, nonempty linked text spans, and source-label order were checked. TAU reports OCR conversion and proofreading but warns errors may remain. Wording, manuscript/print completeness, and exact current EOTC edition identity are not independently verified.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Retained TAU capture hashes, menu/page/linked-label parser audit",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-034",
+            "SRC-036",
+            "SRC-164",
+            "SRC-337"
+          ],
+          "notes": "Digital source scope only; no print/manuscript collation."
+        },
+        {
+          "dimension": "transcription_accuracy",
+          "state": "unknown",
+          "scope": "Independent Geʽez proofreading and print/manuscript collation have not been performed.",
+          "reviewer": null,
+          "review_method": "unknown",
+          "review_process": null,
+          "reviewed_at": null,
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-034",
+            "SRC-036",
+            "SRC-164",
+            "SRC-337"
+          ],
+          "notes": "Source-reported OCR/proofreading is not an independent review by this archive."
+        }
+      ],
+      "publication_state": "bundled",
+      "additional_notes": "This record describes the Geʽez layer only; the shared package includes a separately identified English comparison. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other."
+    },
+    {
+      "schema_version": 2,
       "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/leviticus-english-brenton-lxx-1851",
       "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/leviticus-lxx",
       "labels": [
@@ -14763,7 +15827,7 @@
       "content_package": {
         "uri": "../readers/malachi-geez-lofgren-ghebre-tau.json",
         "media_type": "application/json",
-        "sha256": "53ef6f5b308d6ed34a14a1b36dee918dfa3b174bfab8338a0f7b6e68d1133bea",
+        "sha256": "9f7beed701a9d12e337ae467123923c95b68e153b797f661552aeba04a9b9a91",
         "format_version": "1"
       },
       "coverage": {
@@ -14852,7 +15916,323 @@
       ],
       "publication_state": "bundled",
       "community_access_note": null,
-      "additional_notes": "The text has a four-chapter structure in the TAU page set; the separate Brenton Greek-based reader has three chapters. No parallel mapping is asserted."
+      "additional_notes": "This record describes the Geʽez layer only; the shared package includes a separately identified English comparison. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other."
+    },
+    {
+      "schema_version": 2,
+      "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/mal-english-brenton-lxx-1851-in-malachi-geez-lofgren-ghebre-tau",
+      "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/malachi-geez-lofgren-ghebre-tau-lxx",
+      "labels": [
+        {
+          "value": "English companion — Malachias — Brenton English Septuagint (1851)",
+          "language_tag": "en",
+          "label_type": "preferred"
+        }
+      ],
+      "tradition_assertions": [
+        {
+          "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+          "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-44",
+          "mapping_state": "uncertain",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The English Church list names ‘Malachi’ (SRC-029); this Brenton member is titled ‘Malachias’ (SRC-038, SRC-142). The title form supports a research-only candidate link; it does not establish textual agreement with a Geʽez witness or current Ethiopian Orthodox edition. This English translation is from the Greek Septuagint and remains outside canon-linked coverage."
+        }
+      ],
+      "witness": {
+        "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-lxx-malachi-geez-lofgren-ghebre-tau-1851",
+        "witness_type": "digital_edition",
+        "title": "English companion — Malachias — Brenton English Septuagint (1851)",
+        "date_statement": "Translation published 1851; USFM source package provided by eBible.org",
+        "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital text distributed by eBible.org",
+        "shelfmark_or_edition_id": "40-MALeng-Brenton.usfm",
+        "editorial_policy": "USFM verse labels, footnotes, cross-references, paragraph starts (\\p), descriptive-title markers (\\d), and translator-supplied-word markers are retained. USFM formatting markers for small capitals are flattened to plain text; \\add words are wrapped in visible archival brackets.",
+        "source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "layer_type": "translation",
+      "text_origin": "published_translation",
+      "language_tag": "en",
+      "language_name_as_recorded": "English",
+      "script_code": "Latn",
+      "basis_path": [
+        "grc",
+        "en"
+      ],
+      "agents": [
+        {
+          "role": "translator",
+          "name": "Sir Lancelot Charles Lee Brenton",
+          "authority_or_affiliation": null,
+          "source_ids": [
+            "SRC-038"
+          ]
+        }
+      ],
+      "content_package": {
+        "uri": "../readers/malachi-geez-lofgren-ghebre-tau.json",
+        "media_type": "application/json",
+        "sha256": "9f7beed701a9d12e337ae467123923c95b68e153b797f661552aeba04a9b9a91",
+        "format_version": "1",
+        "json_pointer": "/parallel_translation"
+      },
+      "coverage": {
+        "extent_state": "complete_for_declared_edition",
+        "extent_basis": "source_inventory",
+        "unit_count": 55,
+        "structure_description": "The archived eBible.org USFM member contains 3 ordered chapters, 55 numbered labels, and 1 preserved unnumbered continuation segments; this is a count of the selected digital source package, not proof of printed-edition completeness.",
+        "missing_or_lacunose_ranges": [],
+        "supplements_and_editorial_signs": "21 footnotes and cross-references retained. The USFM \\add marker for translator-supplied words is rendered as visible ⟦brackets⟧; source \\p paragraph starts and \\d descriptive-title markers are retained before source-labeled units, and inline unnumbered \\p text is stored separately as continuation segments on the preceding verse; small-cap formatting is flattened to plain text.",
+        "numbering_policy": "Keep both editions independent; no automatic chapter or verse pairing. The Geʽez source has four chapter pages; this English edition has three chapters. No chapter or verse crosswalk has been established."
+      },
+      "rights": {
+        "status": "public_domain_claimed",
+        "statement": "eBible.org's source notice identifies Brenton's 1851 English translation as public domain. The archive records this provider claim; it is not a worldwide legal determination and does not apply to other text layers or eBible.org page design.",
+        "license_id": null,
+        "rights_holder": null,
+        "attribution_required": true,
+        "territory_or_term_limits": "Provider-reported public-domain status; no jurisdiction-by-jurisdiction determination is claimed.",
+        "evidence_source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "review_dimensions": [
+        {
+          "dimension": "identity",
+          "state": "checked_with_limits",
+          "scope": "eBible.org USFM member identifies this as Brenton English Septuagint Malachias — Brenton English Septuagint (1851); no printed witness was collated.",
+          "reviewer": null,
+          "review_method": "combined_source_and_automated_validation",
+          "review_process": "Archived package metadata and local member/header audit",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The provider's title and attribution are recorded; exact identity to every detail of the 1851 print edition remains unchecked."
+        },
+        {
+          "dimension": "chapter_or_section_sequence",
+          "state": "checked_with_limits",
+          "scope": "All 3 chapter markers in the identified USFM member are ordered 1–3.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM archive parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Checks the archived digital source member, not completeness against the printed edition."
+        },
+        {
+          "dimension": "unit_boundaries",
+          "state": "checked_with_limits",
+          "scope": "All 55 verse markers and 1 unnumbered continuation segments are parsed with nonempty text; 21 footnotes/cross-references and structural markers {'p': 20, 'p_inline_text_segments': 1} are retained.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Structural source-package check only; not an independent textual or translation review."
+        },
+        {
+          "dimension": "translation_accuracy",
+          "state": "unknown",
+          "scope": "No independent review against the Greek Septuagint or Brenton's printed 1851 edition.",
+          "reviewer": null,
+          "review_method": "unknown",
+          "review_process": null,
+          "reviewed_at": null,
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "This is not a direct translation from the bundled Geʽez text."
+        },
+        {
+          "dimension": "rights",
+          "state": "checked_with_limits",
+          "scope": "eBible.org's public-domain notice for Brenton's 1851 English translation.",
+          "reviewer": null,
+          "review_method": "source_inspection",
+          "review_process": "Provider copyright notice and source package metadata",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "Provider-reported status; no international rights survey is claimed."
+        }
+      ],
+      "publication_state": "bundled",
+      "community_access_note": null,
+      "additional_notes": "An additional packaging location of the existing Brenton witness, not a new translation. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other. The Geʽez source has four chapter pages; this English edition has three chapters. No chapter or verse crosswalk has been established."
+    },
+    {
+      "schema_version": 2,
+      "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/nam-english-brenton-lxx-1851",
+      "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/nahum-lxx",
+      "labels": [
+        {
+          "value": "English companion — Brenton Septuagint (1851), Nahum",
+          "language_tag": "en",
+          "label_type": "preferred"
+        }
+      ],
+      "tradition_assertions": [
+        {
+          "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+          "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-39",
+          "mapping_state": "uncertain",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The English Church list names ‘Nahum’ (SRC-029); this Brenton member is titled ‘Naum’ (SRC-038, SRC-142). The title form supports a research-only candidate link; it does not establish textual agreement with a Geʽez witness or current Ethiopian Orthodox edition. This English translation is from the Greek Septuagint and remains outside canon-linked coverage."
+        }
+      ],
+      "witness": {
+        "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-lxx-nahum-1851",
+        "witness_type": "digital_edition",
+        "title": "English companion — Brenton Septuagint (1851), Nahum",
+        "date_statement": "Translation published 1851; USFM source package provided by eBible.org",
+        "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital text distributed by eBible.org",
+        "shelfmark_or_edition_id": "35-NAMeng-Brenton.usfm",
+        "editorial_policy": "USFM verse labels, footnotes, cross-references, paragraph starts (\\p), descriptive-title markers (\\d), and translator-supplied-word markers are retained. USFM formatting markers for small capitals are flattened to plain text; \\add words are wrapped in visible archival brackets.",
+        "source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "layer_type": "translation",
+      "text_origin": "published_translation",
+      "language_tag": "en",
+      "language_name_as_recorded": "English",
+      "script_code": "Latn",
+      "basis_path": [
+        "grc",
+        "en"
+      ],
+      "agents": [
+        {
+          "role": "translator",
+          "name": "Sir Lancelot Charles Lee Brenton",
+          "authority_or_affiliation": null,
+          "source_ids": [
+            "SRC-038"
+          ]
+        }
+      ],
+      "content_package": {
+        "uri": "../readers/nahum-geez-lofgren-ghebre-tau.json",
+        "media_type": "application/json",
+        "sha256": "26b4c463cebdac772f8b26473e9088b7488e6078fbfb456a08ff557e47bf1dc9",
+        "format_version": "1",
+        "json_pointer": "/parallel_translation"
+      },
+      "coverage": {
+        "extent_state": "complete_for_declared_edition",
+        "extent_basis": "source_inventory",
+        "unit_count": 47,
+        "structure_description": "The archived eBible.org USFM member contains 3 ordered chapters, 47 numbered labels, and 0 preserved unnumbered continuation segments; this is a count of the selected digital source package, not proof of printed-edition completeness.",
+        "missing_or_lacunose_ranges": [],
+        "supplements_and_editorial_signs": "0 footnotes and cross-references retained. The USFM \\add marker for translator-supplied words is rendered as visible ⟦brackets⟧; source \\p paragraph starts and \\d descriptive-title markers are retained before source-labeled units, and inline unnumbered \\p text is stored separately as continuation segments on the preceding verse; small-cap formatting is flattened to plain text.",
+        "numbering_policy": "Source chapter and verse labels are retained as strings. Shared labels pair witnesses for navigation only; verse-level alignment with the Geʽez text has not been established."
+      },
+      "rights": {
+        "status": "public_domain_claimed",
+        "statement": "eBible.org's source notice identifies Brenton's 1851 English translation as public domain. The archive records this provider claim; it is not a worldwide legal determination and does not apply to other text layers or eBible.org page design.",
+        "license_id": null,
+        "rights_holder": null,
+        "attribution_required": true,
+        "territory_or_term_limits": "Provider-reported public-domain status; no jurisdiction-by-jurisdiction determination is claimed.",
+        "evidence_source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "review_dimensions": [
+        {
+          "dimension": "identity",
+          "state": "checked_with_limits",
+          "scope": "eBible.org USFM member identifies this as Brenton English Septuagint Nahum; no printed witness was collated.",
+          "reviewer": null,
+          "review_method": "combined_source_and_automated_validation",
+          "review_process": "Archived package metadata and local member/header audit",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The provider's title and attribution are recorded; exact identity to every detail of the 1851 print edition remains unchecked."
+        },
+        {
+          "dimension": "chapter_or_section_sequence",
+          "state": "checked_with_limits",
+          "scope": "All 3 chapter markers in the identified USFM member are ordered 1–3.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM archive parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Checks the archived digital source member, not completeness against the printed edition."
+        },
+        {
+          "dimension": "unit_boundaries",
+          "state": "checked_with_limits",
+          "scope": "All 47 verse markers and 0 unnumbered continuation segments are parsed with nonempty text; 0 footnotes/cross-references and structural markers {'p': 19} are retained.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Structural source-package check only; not an independent textual or translation review."
+        },
+        {
+          "dimension": "translation_accuracy",
+          "state": "unknown",
+          "scope": "No independent review against the Greek Septuagint or Brenton's printed 1851 edition.",
+          "reviewer": null,
+          "review_method": "unknown",
+          "review_process": null,
+          "reviewed_at": null,
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "This is not a direct translation from the bundled Geʽez text."
+        },
+        {
+          "dimension": "rights",
+          "state": "checked_with_limits",
+          "scope": "eBible.org's public-domain notice for Brenton's 1851 English translation.",
+          "reviewer": null,
+          "review_method": "source_inspection",
+          "review_process": "Provider copyright notice and source package metadata",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "Provider-reported status; no international rights survey is claimed."
+        }
+      ],
+      "publication_state": "bundled",
+      "community_access_note": null,
+      "additional_notes": "Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other. The English Church list names ‘Nahum’ (SRC-029); this Brenton member is titled ‘Naum’ (SRC-038, SRC-142). The title form supports a research-only candidate link; it does not establish textual agreement with a Geʽez witness or current Ethiopian Orthodox edition. This English translation is from the Greek Septuagint and remains outside canon-linked coverage."
     },
     {
       "schema_version": 2,
@@ -14938,7 +16318,7 @@
       "content_package": {
         "uri": "../readers/nahum-geez-lofgren-ghebre-tau.json",
         "media_type": "application/json",
-        "sha256": "2229d8a61bb4041b8f9bab8d1d76d7ce97e00040758141515d6759681d994b13",
+        "sha256": "26b4c463cebdac772f8b26473e9088b7488e6078fbfb456a08ff557e47bf1dc9",
         "format_version": "1"
       },
       "coverage": {
@@ -15027,7 +16407,7 @@
       ],
       "publication_state": "bundled",
       "community_access_note": null,
-      "additional_notes": "This record bundles no English translation. The English title and metadata are not translated text; the reader contains the captured Geʽez source transcription."
+      "additional_notes": "This record describes only the captured Geʽez layer. The shared JSON package also contains a separately identified English companion. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other."
     },
     {
       "schema_version": 2,
@@ -15344,6 +16724,164 @@
     },
     {
       "schema_version": 2,
+      "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/oba-english-brenton-lxx-1851",
+      "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/obadiah-lxx",
+      "labels": [
+        {
+          "value": "English companion — Brenton Septuagint (1851), Obadiah",
+          "language_tag": "en",
+          "label_type": "preferred"
+        }
+      ],
+      "tradition_assertions": [
+        {
+          "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+          "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-37",
+          "mapping_state": "uncertain",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The English Church list names ‘Obadiah’ (SRC-029); this Brenton member is titled ‘Obdias’ (SRC-038, SRC-142). The title form supports a separate research-reader link; the Brenton text is a Greek-basis English witness, not a translation from Geʽez, and is not established as an Ethiopian Orthodox edition. It remains outside canon-linked coverage."
+        }
+      ],
+      "witness": {
+        "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-lxx-obadiah-1851",
+        "witness_type": "digital_edition",
+        "title": "English companion — Brenton Septuagint (1851), Obadiah",
+        "date_statement": "Translation published 1851; USFM source package provided by eBible.org",
+        "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital text distributed by eBible.org",
+        "shelfmark_or_edition_id": "32-OBAeng-Brenton.usfm",
+        "editorial_policy": "USFM verse labels, footnotes, cross-references, paragraph starts (\\p), descriptive-title markers (\\d), and translator-supplied-word markers are retained. USFM formatting markers for small capitals are flattened to plain text; \\add words are wrapped in visible archival brackets.",
+        "source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "layer_type": "translation",
+      "text_origin": "published_translation",
+      "language_tag": "en",
+      "language_name_as_recorded": "English",
+      "script_code": "Latn",
+      "basis_path": [
+        "grc",
+        "en"
+      ],
+      "agents": [
+        {
+          "role": "translator",
+          "name": "Sir Lancelot Charles Lee Brenton",
+          "authority_or_affiliation": null,
+          "source_ids": [
+            "SRC-038"
+          ]
+        }
+      ],
+      "content_package": {
+        "uri": "../readers/obadiah-geez-bachmann-theot.json",
+        "media_type": "application/json",
+        "sha256": "86795ce7fb39a352aac786bc92cf9028c39536a4c595a477d0f0bd80daceaba6",
+        "format_version": "1",
+        "json_pointer": "/parallel_translation"
+      },
+      "coverage": {
+        "extent_state": "complete_for_declared_edition",
+        "extent_basis": "source_inventory",
+        "unit_count": 21,
+        "structure_description": "The archived eBible.org USFM member contains 1 ordered chapters, 21 numbered labels, and 0 preserved unnumbered continuation segments; this is a count of the selected digital source package, not proof of printed-edition completeness.",
+        "missing_or_lacunose_ranges": [],
+        "supplements_and_editorial_signs": "2 footnotes and cross-references retained. The USFM \\add marker for translator-supplied words is rendered as visible ⟦brackets⟧; source \\p paragraph starts and \\d descriptive-title markers are retained before source-labeled units, and inline unnumbered \\p text is stored separately as continuation segments on the preceding verse; small-cap formatting is flattened to plain text.",
+        "numbering_policy": "Source chapter and verse labels are retained as strings. Shared labels pair witnesses for navigation only; verse-level alignment with the Geʽez text has not been established."
+      },
+      "rights": {
+        "status": "public_domain_claimed",
+        "statement": "eBible.org's source notice identifies Brenton's 1851 English translation as public domain. The archive records this provider claim; it is not a worldwide legal determination and does not apply to other text layers or eBible.org page design.",
+        "license_id": null,
+        "rights_holder": null,
+        "attribution_required": true,
+        "territory_or_term_limits": "Provider-reported public-domain status; no jurisdiction-by-jurisdiction determination is claimed.",
+        "evidence_source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "review_dimensions": [
+        {
+          "dimension": "identity",
+          "state": "checked_with_limits",
+          "scope": "eBible.org USFM member identifies this as Brenton English Septuagint Obadiah; no printed witness was collated.",
+          "reviewer": null,
+          "review_method": "combined_source_and_automated_validation",
+          "review_process": "Archived package metadata and local member/header audit",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The provider's title and attribution are recorded; exact identity to every detail of the 1851 print edition remains unchecked."
+        },
+        {
+          "dimension": "chapter_or_section_sequence",
+          "state": "checked_with_limits",
+          "scope": "All 1 chapter markers in the identified USFM member are ordered 1–1.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM archive parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Checks the archived digital source member, not completeness against the printed edition."
+        },
+        {
+          "dimension": "unit_boundaries",
+          "state": "checked_with_limits",
+          "scope": "All 21 verse markers and 0 unnumbered continuation segments are parsed with nonempty text; 2 footnotes/cross-references and structural markers {'p': 9} are retained.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Structural source-package check only; not an independent textual or translation review."
+        },
+        {
+          "dimension": "translation_accuracy",
+          "state": "unknown",
+          "scope": "No independent review against the Greek Septuagint or Brenton's printed 1851 edition.",
+          "reviewer": null,
+          "review_method": "unknown",
+          "review_process": null,
+          "reviewed_at": null,
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "This is not a direct translation from the bundled Geʽez text."
+        },
+        {
+          "dimension": "rights",
+          "state": "checked_with_limits",
+          "scope": "eBible.org's public-domain notice for Brenton's 1851 English translation.",
+          "reviewer": null,
+          "review_method": "source_inspection",
+          "review_process": "Provider copyright notice and source package metadata",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "Provider-reported status; no international rights survey is claimed."
+        }
+      ],
+      "publication_state": "bundled",
+      "community_access_note": null,
+      "additional_notes": "Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other. The English Church list names ‘Obadiah’ (SRC-029); this Brenton member is titled ‘Obdias’ (SRC-038, SRC-142). The title form supports a separate research-reader link; the Brenton text is a Greek-basis English witness, not a translation from Geʽez, and is not established as an Ethiopian Orthodox edition. It remains outside canon-linked coverage."
+    },
+    {
+      "schema_version": 2,
       "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/obadiah-geez-bachmann-theot",
       "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/obadiah-eotc",
       "labels": [
@@ -15450,7 +16988,7 @@
       "content_package": {
         "uri": "../readers/obadiah-geez-bachmann-theot.json",
         "media_type": "application/json",
-        "sha256": "883736754ad0fa4fbc9e899411949c90c606b5291d717cd2b7dce1fc09a8bdf3",
+        "sha256": "86795ce7fb39a352aac786bc92cf9028c39536a4c595a477d0f0bd80daceaba6",
         "format_version": "1"
       },
       "coverage": {
@@ -15538,7 +17076,7 @@
       ],
       "publication_state": "bundled",
       "community_access_note": null,
-      "additional_notes": "This record translates no wording. The English title is metadata; the bundled text layer is Geʽez."
+      "additional_notes": "This record describes only the captured Geʽez layer. The shared JSON package also contains a separately identified English companion. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other."
     },
     {
       "schema_version": 2,
@@ -16186,6 +17724,584 @@
     },
     {
       "schema_version": 2,
+      "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/first-sa-english-brenton-lxx-1851-in-samuel-i-geez-research",
+      "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/samuel-i-geez-research-lxx",
+      "labels": [
+        {
+          "value": "English companion — Kings I — Brenton English Septuagint (1851)",
+          "language_tag": "en",
+          "label_type": "preferred"
+        }
+      ],
+      "tradition_assertions": [
+        {
+          "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+          "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-09",
+          "mapping_state": "uncertain",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The Church list groups ‘I and II Samuel’ (SRC-029). This Brenton member is titled ‘Kings I’ and carries USFM code 1SA (SRC-038, SRC-142, SRC-384); the code reference identifies 1SA as 1 Samuel and notes ‘1 Kings/Kingdoms’ as an Orthodox naming variant. This is a provisional link to one component of the grouped entry only. It does not establish EOTC edition identity, textual agreement, or coverage of the whole grouped entry. It remains outside canon-linked coverage."
+        }
+      ],
+      "witness": {
+        "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-lxx-samuel-i-geez-research-1851",
+        "witness_type": "digital_edition",
+        "title": "English companion — Kings I — Brenton English Septuagint (1851)",
+        "date_statement": "Translation published 1851; USFM source package provided by eBible.org",
+        "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital text distributed by eBible.org",
+        "shelfmark_or_edition_id": "10-1SAeng-Brenton.usfm",
+        "editorial_policy": "USFM verse labels, footnotes, cross-references, paragraph starts (\\p), descriptive-title markers (\\d), and translator-supplied-word markers are retained. USFM formatting markers for small capitals are flattened to plain text; \\add words are wrapped in visible archival brackets.",
+        "source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "layer_type": "translation",
+      "text_origin": "published_translation",
+      "language_tag": "en",
+      "language_name_as_recorded": "English",
+      "script_code": "Latn",
+      "basis_path": [
+        "grc",
+        "en"
+      ],
+      "agents": [
+        {
+          "role": "translator",
+          "name": "Sir Lancelot Charles Lee Brenton",
+          "authority_or_affiliation": null,
+          "source_ids": [
+            "SRC-038"
+          ]
+        }
+      ],
+      "content_package": {
+        "uri": "../readers/samuel-i-geez-research.json",
+        "media_type": "application/json",
+        "sha256": "e73e9e73c84863eea3d15e7c84131eaff1624036e37939ae3713476bb8bb114b",
+        "format_version": "1",
+        "json_pointer": "/parallel_translation"
+      },
+      "coverage": {
+        "extent_state": "complete_for_declared_edition",
+        "extent_basis": "source_inventory",
+        "unit_count": 792,
+        "structure_description": "The archived eBible.org USFM member contains 31 ordered chapters, 792 numbered labels, and 2 preserved unnumbered continuation segments; this is a count of the selected digital source package, not proof of printed-edition completeness.",
+        "missing_or_lacunose_ranges": [],
+        "supplements_and_editorial_signs": "253 footnotes and cross-references retained. The USFM \\add marker for translator-supplied words is rendered as visible ⟦brackets⟧; source \\p paragraph starts and \\d descriptive-title markers are retained before source-labeled units, and inline unnumbered \\p text is stored separately as continuation segments on the preceding verse; small-cap formatting is flattened to plain text.",
+        "numbering_policy": "Keep both editions independent; no automatic chapter or verse pairing. TAU Regum I and Brenton Kings I / USFM 1SA are compared as a work-family candidate only. TAU page 31 includes a link to 2 Samuel 1:1; that boundary span is retained, not moved or merged. No chapter/verse alignment is established."
+      },
+      "rights": {
+        "status": "public_domain_claimed",
+        "statement": "eBible.org's source notice identifies Brenton's 1851 English translation as public domain. The archive records this provider claim; it is not a worldwide legal determination and does not apply to other text layers or eBible.org page design.",
+        "license_id": null,
+        "rights_holder": null,
+        "attribution_required": true,
+        "territory_or_term_limits": "Provider-reported public-domain status; no jurisdiction-by-jurisdiction determination is claimed.",
+        "evidence_source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "review_dimensions": [
+        {
+          "dimension": "identity",
+          "state": "checked_with_limits",
+          "scope": "eBible.org USFM member identifies this as Brenton English Septuagint Kings I — Brenton English Septuagint (1851); no printed witness was collated.",
+          "reviewer": null,
+          "review_method": "combined_source_and_automated_validation",
+          "review_process": "Archived package metadata and local member/header audit",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The provider's title and attribution are recorded; exact identity to every detail of the 1851 print edition remains unchecked."
+        },
+        {
+          "dimension": "chapter_or_section_sequence",
+          "state": "checked_with_limits",
+          "scope": "All 31 chapter markers in the identified USFM member are ordered 1–31.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM archive parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Checks the archived digital source member, not completeness against the printed edition."
+        },
+        {
+          "dimension": "unit_boundaries",
+          "state": "checked_with_limits",
+          "scope": "All 792 verse markers and 2 unnumbered continuation segments are parsed with nonempty text; 253 footnotes/cross-references and structural markers {'p': 218, 'p_inline_text_segments': 2, 'nb': 1} are retained.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Structural source-package check only; not an independent textual or translation review."
+        },
+        {
+          "dimension": "translation_accuracy",
+          "state": "unknown",
+          "scope": "No independent review against the Greek Septuagint or Brenton's printed 1851 edition.",
+          "reviewer": null,
+          "review_method": "unknown",
+          "review_process": null,
+          "reviewed_at": null,
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "This is not a direct translation from the bundled Geʽez text."
+        },
+        {
+          "dimension": "rights",
+          "state": "checked_with_limits",
+          "scope": "eBible.org's public-domain notice for Brenton's 1851 English translation.",
+          "reviewer": null,
+          "review_method": "source_inspection",
+          "review_process": "Provider copyright notice and source package metadata",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "Provider-reported status; no international rights survey is claimed."
+        }
+      ],
+      "publication_state": "bundled",
+      "community_access_note": null,
+      "additional_notes": "An additional packaging location of the existing Brenton witness, not a new translation. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other. TAU Regum I and Brenton Kings I / USFM 1SA are compared as a work-family candidate only. TAU page 31 includes a link to 2 Samuel 1:1; that boundary span is retained, not moved or merged. No chapter/verse alignment is established."
+    },
+    {
+      "schema_version": 2,
+      "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/reader-samuel-i-geez-research",
+      "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/reader-samuel-i-geez-research",
+      "labels": [
+        {
+          "value": "I Samuel — Geʽez transcription of TAU's Dillmann Regum I",
+          "language_tag": "en",
+          "label_type": "preferred"
+        }
+      ],
+      "tradition_assertions": [
+        {
+          "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+          "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-09",
+          "mapping_state": "reviewed_match",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-036",
+            "SRC-164",
+            "SRC-336",
+            "SRC-384"
+          ],
+          "notes": "Archive-reviewed work/title crosswalk: the Church's listed entry is ‘I and II Samuel’; TAU's source information identifies its digitized Ethiopic Reigns I–IV as ‘Samuel I–II and Kings I–II,’ and the two retained components are Regum I and II. This supports the named-work crosswalk only. The TAU equivalence remains attributed to TAU; it does not establish identity with a current EOTC edition, manuscript completeness, or wording accuracy. These component readers remain research records, not canon-linked coverage."
+        }
+      ],
+      "witness": {
+        "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/reader-samuel-i-geez-research",
+        "witness_type": "digital_edition",
+        "title": "I Samuel — Geʽez transcription of TAU's Dillmann Regum I",
+        "date_statement": "August Dillmann (ed.), Veteris Testamenti Aethiopici Tomus Secundus, fasc. 1: Regum I et II, Leipzig, 1861; text digitized by Ran HaCohen at Tel Aviv University.",
+        "repository_or_publisher": "Tel Aviv University website",
+        "editorial_policy": "The Ethiopic text spans were extracted from 31 retained TAU chapter HTML pages. HTML entities were decoded and whitespace normalized to single spaces. Each displayed source number and external book identifier is retained; no verse numbering is repaired, translated, or aligned to another witness.",
+        "source_ids": [
+          "SRC-029",
+          "SRC-036",
+          "SRC-164",
+          "SRC-336"
+        ]
+      },
+      "layer_type": "source_text_transcription",
+      "text_origin": "source_transcription",
+      "language_tag": "gez",
+      "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+      "script_code": "Ethi",
+      "basis_path": [
+        "gez"
+      ],
+      "agents": [],
+      "content_package": {
+        "uri": "../readers/samuel-i-geez-research.json",
+        "media_type": "application/json",
+        "sha256": "e73e9e73c84863eea3d15e7c84131eaff1624036e37939ae3713476bb8bb114b",
+        "format_version": "1"
+      },
+      "coverage": {
+        "extent_state": "complete_for_declared_edition",
+        "extent_basis": "source_inventory",
+        "unit_count": 805,
+        "structure_description": "TAU's retained index lists Regum I chapters 1–31. Each chapter page's displayed verse labels link to BibleGateway book identifier 1sa; all observed labels and their source-order text spans are retained. Observed chapter ranges/counts: 1: 1–28 (28 linked labels); 2: 1–36 (36 linked labels); 3: 1–22 (22 linked labels); 4: 1–22 (22 linked labels); 5: 1–12 (12 linked labels); 6: 1–21 (21 linked labels); 7: 1–17 (17 linked labels); 8: 1–22 (22 linked labels); 9: 1–27 (27 linked labels); 10: 1–27 (27 linked labels); 11: 1–15 (15 linked labels); 12: 1–25 (25 linked labels); 13: 1–23 (22 linked labels); 14: 1–52 (52 linked labels); 15: 1–35 (35 linked labels); 16: 1–23 (23 linked labels); 17: 1–58 (57 linked labels); 18: 1–29 (27 linked labels); 19: 1–24 (24 linked labels); 20: 1–43 (42 linked labels); 21: 1–15 (15 linked labels); 22: 1–23 (23 linked labels); 23: 1–28 (27 linked labels); 24: 1–23 (23 linked labels); 25: 1–44 (44 linked labels); 26: 1–25 (25 linked labels); 27: 1–12 (12 linked labels); 28: 1–25 (25 linked labels); 29: 1–11 (11 linked labels); 30: 1–31 (30 linked labels); 31: 1–1 (14 linked labels). These are page-structure counts, not proof of completeness or equivalence to another numbering system.",
+        "missing_or_lacunose_ranges": [],
+        "numbering_policy": "Preserve every source page label, linked target and unit in source order. No cross-witness alignment is inferred."
+      },
+      "rights": {
+        "status": "permission_limited",
+        "statement": "© Ran HaCohen. For the digitized Ethiopic texts, permission to use, copy, and distribute for any NONCOMMERCIAL purpose is granted without fee, provided that the copyright notice Ran HaCohen and this permission notice appear in all copies of the text. For other uses, please contact the copyright owner.",
+        "license_id": null,
+        "rights_holder": "Ran HaCohen (TAU site notice)",
+        "attribution_required": true,
+        "territory_or_term_limits": "TAU's site-wide notice permits copying and distribution for noncommercial use only, with the copyright and permission notice accompanying every copy; other uses require contacting the rights holder. This is a permission-limited grant, not an open-content or commercial license.",
+        "evidence_source_ids": [
+          "SRC-029",
+          "SRC-036",
+          "SRC-164",
+          "SRC-336"
+        ]
+      },
+      "review_dimensions": [
+        {
+          "dimension": "identity",
+          "state": "checked_with_limits",
+          "scope": "Archive-reviewed work/title crosswalk: the Church's listed entry is ‘I and II Samuel’; TAU's source information identifies its digitized Ethiopic Reigns I–IV as ‘Samuel I–II and Kings I–II,’ and the two retained components are Regum I and II. This supports the named-work crosswalk only. The TAU equivalence remains attributed to TAU; it does not establish identity with a current EOTC edition, manuscript completeness, or wording accuracy. These component readers remain research records, not canon-linked coverage.",
+          "reviewer": null,
+          "review_method": "source_inspection",
+          "review_process": "Preserved existing research/reigns-title-crosswalk-review.md and the recorded standard USFM identifier table for work/title aliases only",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-036",
+            "SRC-164",
+            "SRC-336",
+            "SRC-384"
+          ],
+          "notes": "Work/title crosswalk only, carried from the existing cited review. Current edition identity, textual agreement and alignment remain unverified."
+        },
+        {
+          "dimension": "chapter_or_section_sequence",
+          "state": "checked_with_limits",
+          "scope": "The local capture hashes, menu-listed chapter order, linked book identifiers, nonempty spans, and observed source labels were structurally checked. The source reports OCR conversion and proofreading but warns of possible errors. This archive has not independently verified wording, manuscript/print completeness, or current EOTC edition identity.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Retained TAU capture hashes, menu/page/linked-label parser audit",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-036",
+            "SRC-164",
+            "SRC-336"
+          ],
+          "notes": "Digital source scope only; no print/manuscript collation."
+        },
+        {
+          "dimension": "transcription_accuracy",
+          "state": "unknown",
+          "scope": "Independent Geʽez proofreading and print/manuscript collation have not been performed.",
+          "reviewer": null,
+          "review_method": "unknown",
+          "review_process": null,
+          "reviewed_at": null,
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-036",
+            "SRC-164",
+            "SRC-336"
+          ],
+          "notes": "Source-reported OCR/proofreading is not an independent review by this archive."
+        }
+      ],
+      "publication_state": "bundled",
+      "additional_notes": "This record describes the Geʽez layer only; the shared package includes a separately identified English comparison. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other."
+    },
+    {
+      "schema_version": 2,
+      "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/second-sa-english-brenton-lxx-1851-in-samuel-ii-geez-research",
+      "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/samuel-ii-geez-research-lxx",
+      "labels": [
+        {
+          "value": "English companion — Kings II — Brenton English Septuagint (1851)",
+          "language_tag": "en",
+          "label_type": "preferred"
+        }
+      ],
+      "tradition_assertions": [
+        {
+          "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+          "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-09",
+          "mapping_state": "uncertain",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The Church list groups ‘I and II Samuel’ (SRC-029). This Brenton member is titled ‘Kings II’ and carries USFM code 2SA (SRC-038, SRC-142, SRC-384); the code reference identifies 2SA as 2 Samuel and notes ‘2 Kings/Kingdoms’ as an Orthodox naming variant. This is a provisional link to one component of the grouped entry only. It does not establish EOTC edition identity, textual agreement, or coverage of the whole grouped entry. It remains outside canon-linked coverage."
+        }
+      ],
+      "witness": {
+        "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-lxx-samuel-ii-geez-research-1851",
+        "witness_type": "digital_edition",
+        "title": "English companion — Kings II — Brenton English Septuagint (1851)",
+        "date_statement": "Translation published 1851; USFM source package provided by eBible.org",
+        "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital text distributed by eBible.org",
+        "shelfmark_or_edition_id": "11-2SAeng-Brenton.usfm",
+        "editorial_policy": "USFM verse labels, footnotes, cross-references, paragraph starts (\\p), descriptive-title markers (\\d), and translator-supplied-word markers are retained. USFM formatting markers for small capitals are flattened to plain text; \\add words are wrapped in visible archival brackets.",
+        "source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "layer_type": "translation",
+      "text_origin": "published_translation",
+      "language_tag": "en",
+      "language_name_as_recorded": "English",
+      "script_code": "Latn",
+      "basis_path": [
+        "grc",
+        "en"
+      ],
+      "agents": [
+        {
+          "role": "translator",
+          "name": "Sir Lancelot Charles Lee Brenton",
+          "authority_or_affiliation": null,
+          "source_ids": [
+            "SRC-038"
+          ]
+        }
+      ],
+      "content_package": {
+        "uri": "../readers/samuel-ii-geez-research.json",
+        "media_type": "application/json",
+        "sha256": "f9df9be95ff00d58775de2f12e62e40d78a4d065d8420d7d6f750a4e1aa26156",
+        "format_version": "1",
+        "json_pointer": "/parallel_translation"
+      },
+      "coverage": {
+        "extent_state": "complete_for_declared_edition",
+        "extent_basis": "source_inventory",
+        "unit_count": 697,
+        "structure_description": "The archived eBible.org USFM member contains 24 ordered chapters, 697 numbered labels, and 5 preserved unnumbered continuation segments; this is a count of the selected digital source package, not proof of printed-edition completeness.",
+        "missing_or_lacunose_ranges": [],
+        "supplements_and_editorial_signs": "138 footnotes and cross-references retained. The USFM \\add marker for translator-supplied words is rendered as visible ⟦brackets⟧; source \\p paragraph starts and \\d descriptive-title markers are retained before source-labeled units, and inline unnumbered \\p text is stored separately as continuation segments on the preceding verse; small-cap formatting is flattened to plain text.",
+        "numbering_policy": "Keep both editions independent; no automatic chapter or verse pairing. TAU Regum II and Brenton Kings II / USFM 2SA are compared as a work-family candidate only. Page/verse boundaries and textual agreement have not been verified."
+      },
+      "rights": {
+        "status": "public_domain_claimed",
+        "statement": "eBible.org's source notice identifies Brenton's 1851 English translation as public domain. The archive records this provider claim; it is not a worldwide legal determination and does not apply to other text layers or eBible.org page design.",
+        "license_id": null,
+        "rights_holder": null,
+        "attribution_required": true,
+        "territory_or_term_limits": "Provider-reported public-domain status; no jurisdiction-by-jurisdiction determination is claimed.",
+        "evidence_source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "review_dimensions": [
+        {
+          "dimension": "identity",
+          "state": "checked_with_limits",
+          "scope": "eBible.org USFM member identifies this as Brenton English Septuagint Kings II — Brenton English Septuagint (1851); no printed witness was collated.",
+          "reviewer": null,
+          "review_method": "combined_source_and_automated_validation",
+          "review_process": "Archived package metadata and local member/header audit",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The provider's title and attribution are recorded; exact identity to every detail of the 1851 print edition remains unchecked."
+        },
+        {
+          "dimension": "chapter_or_section_sequence",
+          "state": "checked_with_limits",
+          "scope": "All 24 chapter markers in the identified USFM member are ordered 1–24.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM archive parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Checks the archived digital source member, not completeness against the printed edition."
+        },
+        {
+          "dimension": "unit_boundaries",
+          "state": "checked_with_limits",
+          "scope": "All 697 verse markers and 5 unnumbered continuation segments are parsed with nonempty text; 138 footnotes/cross-references and structural markers {'p': 194, 'p_inline_text_segments': 5, 'nb': 1} are retained.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Structural source-package check only; not an independent textual or translation review."
+        },
+        {
+          "dimension": "translation_accuracy",
+          "state": "unknown",
+          "scope": "No independent review against the Greek Septuagint or Brenton's printed 1851 edition.",
+          "reviewer": null,
+          "review_method": "unknown",
+          "review_process": null,
+          "reviewed_at": null,
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "This is not a direct translation from the bundled Geʽez text."
+        },
+        {
+          "dimension": "rights",
+          "state": "checked_with_limits",
+          "scope": "eBible.org's public-domain notice for Brenton's 1851 English translation.",
+          "reviewer": null,
+          "review_method": "source_inspection",
+          "review_process": "Provider copyright notice and source package metadata",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "Provider-reported status; no international rights survey is claimed."
+        }
+      ],
+      "publication_state": "bundled",
+      "community_access_note": null,
+      "additional_notes": "An additional packaging location of the existing Brenton witness, not a new translation. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other. TAU Regum II and Brenton Kings II / USFM 2SA are compared as a work-family candidate only. Page/verse boundaries and textual agreement have not been verified."
+    },
+    {
+      "schema_version": 2,
+      "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/reader-samuel-ii-geez-research",
+      "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/reader-samuel-ii-geez-research",
+      "labels": [
+        {
+          "value": "II Samuel — Geʽez transcription of TAU's Dillmann Regum II",
+          "language_tag": "en",
+          "label_type": "preferred"
+        }
+      ],
+      "tradition_assertions": [
+        {
+          "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+          "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-09",
+          "mapping_state": "reviewed_match",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-036",
+            "SRC-164",
+            "SRC-336",
+            "SRC-384"
+          ],
+          "notes": "Archive-reviewed work/title crosswalk: the Church's listed entry is ‘I and II Samuel’; TAU's source information identifies its digitized Ethiopic Reigns I–IV as ‘Samuel I–II and Kings I–II,’ and the two retained components are Regum I and II. This supports the named-work crosswalk only. The TAU equivalence remains attributed to TAU; it does not establish identity with a current EOTC edition, manuscript completeness, or wording accuracy. These component readers remain research records, not canon-linked coverage."
+        }
+      ],
+      "witness": {
+        "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/reader-samuel-ii-geez-research",
+        "witness_type": "digital_edition",
+        "title": "II Samuel — Geʽez transcription of TAU's Dillmann Regum II",
+        "date_statement": "August Dillmann (ed.), Veteris Testamenti Aethiopici Tomus Secundus, fasc. 1: Regum I et II, Leipzig, 1861; text digitized by Ran HaCohen at Tel Aviv University.",
+        "repository_or_publisher": "Tel Aviv University website",
+        "editorial_policy": "The Ethiopic text spans were extracted from 24 retained TAU chapter HTML pages. HTML entities were decoded and whitespace normalized to single spaces. Each displayed source number and external book identifier is retained; no verse numbering is repaired, translated, or aligned to another witness.",
+        "source_ids": [
+          "SRC-029",
+          "SRC-036",
+          "SRC-164",
+          "SRC-336"
+        ]
+      },
+      "layer_type": "source_text_transcription",
+      "text_origin": "source_transcription",
+      "language_tag": "gez",
+      "language_name_as_recorded": "Geʽez (Classical Ethiopic)",
+      "script_code": "Ethi",
+      "basis_path": [
+        "gez"
+      ],
+      "agents": [],
+      "content_package": {
+        "uri": "../readers/samuel-ii-geez-research.json",
+        "media_type": "application/json",
+        "sha256": "f9df9be95ff00d58775de2f12e62e40d78a4d065d8420d7d6f750a4e1aa26156",
+        "format_version": "1"
+      },
+      "coverage": {
+        "extent_state": "complete_for_declared_edition",
+        "extent_basis": "source_inventory",
+        "unit_count": 691,
+        "structure_description": "TAU's retained index lists Regum II chapters 1–24. Each chapter page's displayed verse labels link to BibleGateway book identifier 2sa; all observed labels and their source-order text spans are retained. Observed chapter ranges/counts: 1: 1–27 (26 linked labels); 2: 1–32 (32 linked labels); 3: 1–39 (39 linked labels); 4: 1–12 (12 linked labels); 5: 1–25 (25 linked labels); 6: 1–23 (23 linked labels); 7: 1–29 (29 linked labels); 8: 1–18 (18 linked labels); 9: 1–13 (13 linked labels); 10: 1–19 (19 linked labels); 11: 1–27 (26 linked labels); 12: 1–31 (31 linked labels); 13: 1–39 (39 linked labels); 14: 1–33 (33 linked labels); 15: 1–37 (37 linked labels); 16: 1–23 (23 linked labels); 17: 1–29 (29 linked labels); 18: 1–33 (33 linked labels); 19: 1–43 (42 linked labels); 20: 1–26 (26 linked labels); 21: 1–22 (22 linked labels); 22: 1–51 (50 linked labels); 23: 1–39 (39 linked labels); 24: 1–25 (25 linked labels). These are page-structure counts, not proof of completeness or equivalence to another numbering system.",
+        "missing_or_lacunose_ranges": [],
+        "numbering_policy": "Preserve every source page label, linked target and unit in source order. No cross-witness alignment is inferred."
+      },
+      "rights": {
+        "status": "permission_limited",
+        "statement": "© Ran HaCohen. For the digitized Ethiopic texts, permission to use, copy, and distribute for any NONCOMMERCIAL purpose is granted without fee, provided that the copyright notice Ran HaCohen and this permission notice appear in all copies of the text. For other uses, please contact the copyright owner.",
+        "license_id": null,
+        "rights_holder": "Ran HaCohen (TAU site notice)",
+        "attribution_required": true,
+        "territory_or_term_limits": "TAU's site-wide notice permits copying and distribution for noncommercial use only, with the copyright and permission notice accompanying every copy; other uses require contacting the rights holder. This is a permission-limited grant, not an open-content or commercial license.",
+        "evidence_source_ids": [
+          "SRC-029",
+          "SRC-036",
+          "SRC-164",
+          "SRC-336"
+        ]
+      },
+      "review_dimensions": [
+        {
+          "dimension": "identity",
+          "state": "checked_with_limits",
+          "scope": "Archive-reviewed work/title crosswalk: the Church's listed entry is ‘I and II Samuel’; TAU's source information identifies its digitized Ethiopic Reigns I–IV as ‘Samuel I–II and Kings I–II,’ and the two retained components are Regum I and II. This supports the named-work crosswalk only. The TAU equivalence remains attributed to TAU; it does not establish identity with a current EOTC edition, manuscript completeness, or wording accuracy. These component readers remain research records, not canon-linked coverage.",
+          "reviewer": null,
+          "review_method": "source_inspection",
+          "review_process": "Preserved existing research/reigns-title-crosswalk-review.md and the recorded standard USFM identifier table for work/title aliases only",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-036",
+            "SRC-164",
+            "SRC-336",
+            "SRC-384"
+          ],
+          "notes": "Work/title crosswalk only, carried from the existing cited review. Current edition identity, textual agreement and alignment remain unverified."
+        },
+        {
+          "dimension": "chapter_or_section_sequence",
+          "state": "checked_with_limits",
+          "scope": "The local capture hashes, menu-listed chapter order, linked book identifiers, nonempty spans, and observed source labels were structurally checked. The source reports OCR conversion and proofreading but warns of possible errors. This archive has not independently verified wording, manuscript/print completeness, or current EOTC edition identity.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Retained TAU capture hashes, menu/page/linked-label parser audit",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-036",
+            "SRC-164",
+            "SRC-336"
+          ],
+          "notes": "Digital source scope only; no print/manuscript collation."
+        },
+        {
+          "dimension": "transcription_accuracy",
+          "state": "unknown",
+          "scope": "Independent Geʽez proofreading and print/manuscript collation have not been performed.",
+          "reviewer": null,
+          "review_method": "unknown",
+          "review_process": null,
+          "reviewed_at": null,
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-036",
+            "SRC-164",
+            "SRC-336"
+          ],
+          "notes": "Source-reported OCR/proofreading is not an independent review by this archive."
+        }
+      ],
+      "publication_state": "bundled",
+      "additional_notes": "This record describes the Geʽez layer only; the shared package includes a separately identified English comparison. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other."
+    },
+    {
+      "schema_version": 2,
       "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/sirach-english-brenton-lxx-1851",
       "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/sirach-brenton-lxx-1851",
       "labels": [
@@ -16357,6 +18473,166 @@
     },
     {
       "schema_version": 2,
+      "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/sirach-english-brenton-lxx-1851-in-sirach-geez-dillmann-hacohen-tau",
+      "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/sirach-brenton-lxx-1851",
+      "labels": [
+        {
+          "value": "English companion — Sirach — Brenton Septuagint English (1851)",
+          "language_tag": "en",
+          "label_type": "preferred"
+        }
+      ],
+      "tradition_assertions": [
+        {
+          "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+          "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-45",
+          "mapping_state": "uncertain",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The Church-list Sirach title and the Greek-basis English edition have a provisional title-family relationship; exact witness identity is not established."
+        }
+      ],
+      "witness": {
+        "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-lxx-sirach-brenton-lxx-1851-1851",
+        "witness_type": "digital_edition",
+        "title": "Sirach — Brenton Septuagint English (1851)",
+        "date_statement": "Translation published 1851; USFM source package provided by eBible.org",
+        "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital text distributed by eBible.org",
+        "shelfmark_or_edition_id": "46-SIReng-Brenton.usfm",
+        "editorial_policy": "USFM descriptive heading, verse labels, paragraph starts, source break marker, unnumbered continuation, and translator-added-word markers are retained. Translator additions are shown in visible archival brackets.",
+        "source_ids": [
+          "SRC-029",
+          "SRC-038",
+          "SRC-142",
+          "SRC-145"
+        ]
+      },
+      "layer_type": "translation",
+      "text_origin": "published_translation",
+      "language_tag": "en",
+      "language_name_as_recorded": "English",
+      "script_code": "Latn",
+      "basis_path": [
+        "grc",
+        "en"
+      ],
+      "agents": [
+        {
+          "role": "translator",
+          "name": "Sir Lancelot Charles Lee Brenton",
+          "authority_or_affiliation": null,
+          "source_ids": [
+            "SRC-038"
+          ]
+        }
+      ],
+      "content_package": {
+        "uri": "../readers/sirach-geez-dillmann-hacohen-tau.json",
+        "media_type": "application/json",
+        "sha256": "b0229456e3d0f6570a9644430c53f51f19a768a3e956e1657db0439c5be9f0ce",
+        "format_version": "1",
+        "json_pointer": "/parallel_translation"
+      },
+      "coverage": {
+        "extent_state": "complete_for_declared_edition",
+        "extent_basis": "source_inventory",
+        "unit_count": 1368,
+        "structure_description": "The archived eBible.org USFM member contains 51 ordered chapters, 1368 numbered labels, and 1 preserved unnumbered continuation segments; this is a count of the selected digital source package, not proof of printed-edition completeness.",
+        "missing_or_lacunose_ranges": [],
+        "supplements_and_editorial_signs": "0 footnotes and cross-references retained. The USFM \\add marker for translator-supplied words is rendered as visible ⟦brackets⟧; source \\p paragraph starts and \\d descriptive-title markers are retained before source-labeled units, and inline unnumbered \\p text is stored separately as continuation segments on the preceding verse; small-cap formatting is flattened to plain text.",
+        "numbering_policy": "Keep both editions independent; no automatic chapter or verse pairing. The Geʽez and English Sirach witnesses retain their own gaps and labels; the English prologue includes lettered labels 1a–1g in chapter 1. Equal chapter totals do not establish alignment."
+      },
+      "rights": {
+        "status": "public_domain_claimed",
+        "statement": "eBible.org's source notice identifies Brenton's 1851 English translation as public domain. The archive records this provider claim; it is not a worldwide legal determination and does not apply to other text layers or eBible.org page design.",
+        "license_id": null,
+        "rights_holder": null,
+        "attribution_required": true,
+        "territory_or_term_limits": "Provider-reported public-domain status; no jurisdiction-by-jurisdiction determination is claimed.",
+        "evidence_source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "review_dimensions": [
+        {
+          "dimension": "identity",
+          "state": "checked_with_limits",
+          "scope": "eBible.org USFM member identifies this as Brenton English Septuagint Sirach — Brenton Septuagint English (1851); no printed witness was collated.",
+          "reviewer": null,
+          "review_method": "combined_source_and_automated_validation",
+          "review_process": "Archived package metadata and local member/header audit",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The provider's title and attribution are recorded; exact identity to every detail of the 1851 print edition remains unchecked."
+        },
+        {
+          "dimension": "chapter_or_section_sequence",
+          "state": "checked_with_limits",
+          "scope": "All 51 chapter markers in the identified USFM member are ordered 1–51.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM archive parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Checks the archived digital source member, not completeness against the printed edition."
+        },
+        {
+          "dimension": "unit_boundaries",
+          "state": "checked_with_limits",
+          "scope": "All 1368 verse markers and 1 unnumbered continuation segments are parsed with nonempty text; 0 footnotes/cross-references and structural markers {'d': 1, 'p': 269, 'b': 1, 'nb': 4, 'p_inline_text_segments': 1} are retained.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Structural source-package check only; not an independent textual or translation review."
+        },
+        {
+          "dimension": "translation_accuracy",
+          "state": "unknown",
+          "scope": "No independent review against the Greek Septuagint or Brenton's printed 1851 edition.",
+          "reviewer": null,
+          "review_method": "unknown",
+          "review_process": null,
+          "reviewed_at": null,
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "This is not a direct translation from the bundled Geʽez text."
+        },
+        {
+          "dimension": "rights",
+          "state": "checked_with_limits",
+          "scope": "eBible.org's public-domain notice for Brenton's 1851 English translation.",
+          "reviewer": null,
+          "review_method": "source_inspection",
+          "review_process": "Provider copyright notice and source package metadata",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "Provider-reported status; no international rights survey is claimed."
+        }
+      ],
+      "publication_state": "bundled",
+      "community_access_note": null,
+      "additional_notes": "An additional packaging location of the existing Brenton witness, not a new translation. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other. The Geʽez and English Sirach witnesses retain their own gaps and labels; the English prologue includes lettered labels 1a–1g in chapter 1. Equal chapter totals do not establish alignment."
+    },
+    {
+      "schema_version": 2,
       "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/sirach-geez-dillmann-hacohen-tau",
       "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/sirach-dillmann-1894",
       "labels": [
@@ -16433,7 +18709,7 @@
       "content_package": {
         "uri": "../readers/sirach-geez-dillmann-hacohen-tau.json",
         "media_type": "application/json",
-        "sha256": "2eeea1b40651d2a95bb29d4c78d300953297d81e6fac961396b697ef8edbe4c3",
+        "sha256": "b0229456e3d0f6570a9644430c53f51f19a768a3e956e1657db0439c5be9f0ce",
         "format_version": "1"
       },
       "coverage": {
@@ -16525,7 +18801,7 @@
       ],
       "publication_state": "bundled",
       "community_access_note": null,
-      "additional_notes": "The reader contains Geʽez source transcription only. No English translation is included; no machine translation or generated wording was added. Church-list mapping remains uncertain."
+      "additional_notes": "This record describes the Geʽez layer only; the shared package includes a separately identified English comparison. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other."
     },
     {
       "schema_version": 2,
@@ -16678,6 +18954,164 @@
     },
     {
       "schema_version": 2,
+      "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/zep-english-brenton-lxx-1851",
+      "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/zephaniah-lxx",
+      "labels": [
+        {
+          "value": "English companion — Brenton Septuagint (1851), Zephaniah",
+          "language_tag": "en",
+          "label_type": "preferred"
+        }
+      ],
+      "tradition_assertions": [
+        {
+          "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+          "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-41",
+          "mapping_state": "uncertain",
+          "evidence_source_ids": [
+            "SRC-029",
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The English Church list names ‘Zephaniah’ (SRC-029); this Brenton member is titled ‘Sophonias’ and has USFM code ZEP (SRC-038, SRC-142). It is distinct from Brenton’s ‘Zacharias’ member (code ZEC), which is the separate Zechariah title. This supports only a provisional title/code candidate, not text agreement with a Geʽez witness or current Ethiopian Orthodox edition. It remains outside canon-linked coverage."
+        }
+      ],
+      "witness": {
+        "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-lxx-zephaniah-1851",
+        "witness_type": "digital_edition",
+        "title": "English companion — Brenton Septuagint (1851), Zephaniah",
+        "date_statement": "Translation published 1851; USFM source package provided by eBible.org",
+        "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital text distributed by eBible.org",
+        "shelfmark_or_edition_id": "37-ZEPeng-Brenton.usfm",
+        "editorial_policy": "USFM verse labels, footnotes, cross-references, paragraph starts (\\p), descriptive-title markers (\\d), and translator-supplied-word markers are retained. USFM formatting markers for small capitals are flattened to plain text; \\add words are wrapped in visible archival brackets.",
+        "source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "layer_type": "translation",
+      "text_origin": "published_translation",
+      "language_tag": "en",
+      "language_name_as_recorded": "English",
+      "script_code": "Latn",
+      "basis_path": [
+        "grc",
+        "en"
+      ],
+      "agents": [
+        {
+          "role": "translator",
+          "name": "Sir Lancelot Charles Lee Brenton",
+          "authority_or_affiliation": null,
+          "source_ids": [
+            "SRC-038"
+          ]
+        }
+      ],
+      "content_package": {
+        "uri": "../readers/zephaniah-geez-lofgren-hacohen-tau.json",
+        "media_type": "application/json",
+        "sha256": "ee1a3e2844b687f9ae4ca8d8148176d7160048fb0c5479827304d7748ba8d8ea",
+        "format_version": "1",
+        "json_pointer": "/parallel_translation"
+      },
+      "coverage": {
+        "extent_state": "complete_for_declared_edition",
+        "extent_basis": "source_inventory",
+        "unit_count": 53,
+        "structure_description": "The archived eBible.org USFM member contains 3 ordered chapters, 53 numbered labels, and 0 preserved unnumbered continuation segments; this is a count of the selected digital source package, not proof of printed-edition completeness.",
+        "missing_or_lacunose_ranges": [],
+        "supplements_and_editorial_signs": "0 footnotes and cross-references retained. The USFM \\add marker for translator-supplied words is rendered as visible ⟦brackets⟧; source \\p paragraph starts and \\d descriptive-title markers are retained before source-labeled units, and inline unnumbered \\p text is stored separately as continuation segments on the preceding verse; small-cap formatting is flattened to plain text.",
+        "numbering_policy": "Source chapter and verse labels are retained as strings. Shared labels pair witnesses for navigation only; verse-level alignment with the Geʽez text has not been established."
+      },
+      "rights": {
+        "status": "public_domain_claimed",
+        "statement": "eBible.org's source notice identifies Brenton's 1851 English translation as public domain. The archive records this provider claim; it is not a worldwide legal determination and does not apply to other text layers or eBible.org page design.",
+        "license_id": null,
+        "rights_holder": null,
+        "attribution_required": true,
+        "territory_or_term_limits": "Provider-reported public-domain status; no jurisdiction-by-jurisdiction determination is claimed.",
+        "evidence_source_ids": [
+          "SRC-038",
+          "SRC-142"
+        ]
+      },
+      "review_dimensions": [
+        {
+          "dimension": "identity",
+          "state": "checked_with_limits",
+          "scope": "eBible.org USFM member identifies this as Brenton English Septuagint Zephaniah; no printed witness was collated.",
+          "reviewer": null,
+          "review_method": "combined_source_and_automated_validation",
+          "review_process": "Archived package metadata and local member/header audit",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "The provider's title and attribution are recorded; exact identity to every detail of the 1851 print edition remains unchecked."
+        },
+        {
+          "dimension": "chapter_or_section_sequence",
+          "state": "checked_with_limits",
+          "scope": "All 3 chapter markers in the identified USFM member are ordered 1–3.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM archive parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Checks the archived digital source member, not completeness against the printed edition."
+        },
+        {
+          "dimension": "unit_boundaries",
+          "state": "checked_with_limits",
+          "scope": "All 53 verse markers and 0 unnumbered continuation segments are parsed with nonempty text; 0 footnotes/cross-references and structural markers {'p': 19} are retained.",
+          "reviewer": null,
+          "review_method": "automated_validation",
+          "review_process": "Brenton USFM parser and integrity tests",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-142"
+          ],
+          "notes": "Structural source-package check only; not an independent textual or translation review."
+        },
+        {
+          "dimension": "translation_accuracy",
+          "state": "unknown",
+          "scope": "No independent review against the Greek Septuagint or Brenton's printed 1851 edition.",
+          "reviewer": null,
+          "review_method": "unknown",
+          "review_process": null,
+          "reviewed_at": null,
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "This is not a direct translation from the bundled Geʽez text."
+        },
+        {
+          "dimension": "rights",
+          "state": "checked_with_limits",
+          "scope": "eBible.org's public-domain notice for Brenton's 1851 English translation.",
+          "reviewer": null,
+          "review_method": "source_inspection",
+          "review_process": "Provider copyright notice and source package metadata",
+          "reviewed_at": "2026-11-16",
+          "evidence_source_ids": [
+            "SRC-038",
+            "SRC-142"
+          ],
+          "notes": "Provider-reported status; no international rights survey is claimed."
+        }
+      ],
+      "publication_state": "bundled",
+      "community_access_note": null,
+      "additional_notes": "Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other. The English Church list names ‘Zephaniah’ (SRC-029); this Brenton member is titled ‘Sophonias’ and has USFM code ZEP (SRC-038, SRC-142). It is distinct from Brenton’s ‘Zacharias’ member (code ZEC), which is the separate Zechariah title. This supports only a provisional title/code candidate, not text agreement with a Geʽez witness or current Ethiopian Orthodox edition. It remains outside canon-linked coverage."
+    },
+    {
+      "schema_version": 2,
       "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/zephaniah-geez-lofgren-hacohen-tau",
       "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/zephaniah-eotc-candidate",
       "labels": [
@@ -16754,7 +19188,7 @@
       "content_package": {
         "uri": "../readers/zephaniah-geez-lofgren-hacohen-tau.json",
         "media_type": "application/json",
-        "sha256": "e5a7edae9672c65e22dc55937ccbacb6d5976ab6918b58702d590f97dfa7c705",
+        "sha256": "ee1a3e2844b687f9ae4ca8d8148176d7160048fb0c5479827304d7748ba8d8ea",
         "format_version": "1"
       },
       "coverage": {
@@ -16847,7 +19281,7 @@
       ],
       "publication_state": "bundled",
       "community_access_note": null,
-      "additional_notes": "This record bundles no English translation. The English title and metadata are not translated text; the reader contains the captured Geʽez source transcription."
+      "additional_notes": "This record describes only the captured Geʽez layer. The shared JSON package also contains a separately identified English companion. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other."
     }
   ]
 }

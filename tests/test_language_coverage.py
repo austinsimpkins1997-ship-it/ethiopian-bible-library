@@ -357,7 +357,7 @@ class LanguageCoverageTests(unittest.TestCase):
             for record in language.get("records", [])
             if record.get("status") == "bundled"
         ]
-        self.assertEqual(len(bundled), 33)
+        self.assertEqual(len(bundled), 45)
         for language_tag, record in bundled:
             with self.subTest(language=language_tag, reader=record.get("reader_id")):
                 reader = readers.get(record.get("reader_id"))
@@ -417,13 +417,18 @@ class LanguageCoverageTests(unittest.TestCase):
             if (reader := readers.get(record.get("reader_id")))
             and reader.get("research_corpus_id")
         ]
-        self.assertEqual((len(bundled), len(canon_linked), len(research)), (33, 30, 3))
+        # These are registry layers associated with existing reader records,
+        # not extra Church-list entries or verified Greek/Geʽez translations.
+        self.assertEqual((len(bundled), len(canon_linked), len(research)), (45, 38, 7))
+        self.assertEqual(len({record['canon_id'] for _, record in canon_linked}), 19)
         self.assertEqual(
             {record["reader_id"] for _, record in research},
             {
                 "job-brenton-lxx-1851-research",
                 "sirach-brenton-lxx-1851-research",
                 "tobit-brenton-lxx-1851-research",
+                "samuel-i-geez-research", "samuel-ii-geez-research",
+                "kings-i-geez-research", "kings-ii-geez-research",
             },
         )
         self.assertTrue(all(language_tag == "en" for language_tag, _ in research))

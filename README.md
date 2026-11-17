@@ -9,8 +9,13 @@ The reading page opens a selected chapter near the top. All 636 currently
 bundled non-English readers offer an existing, sourced World English Bible
 (British) reference alongside the original. This is a separate edition, not
 a translation of that exact witness or a verified verse/chapter alignment.
-The 123 English readers already provide English text. The 11 historical
-Brenton companions retain their own distinct parallel view.
+The 123 English readers already provide English text. The 23 historical
+Brenton companions retain their own distinct comparison views: 16 offer
+label-based navigation only; seven use independent source/English chapter controls
+with no automatic chapter or verse pairing. In an independent comparison, use
+the main chapter control for the source and the English panel control for the
+historical companion; changing one does not change the other.
+See the [historical-witness update and its limits](PARALLEL_WITNESS_UPDATE_2026-11-16.md).
 Play, Pause/Resume and Stop now offer four on-device Kokoro English narrators,
 with Heart selected first. Microsoft voices are excluded. Other languages need
 a matching non-Microsoft local voice; unsupported languages remain readable.
@@ -84,7 +89,7 @@ The [Genesis 1 first-/third-person lens](research/genesis-1-divine-person-lens.h
 | Research readers marked as source transcriptions | 4 | Text-origin classification from each research-corpus record; it does not establish textual accuracy or completeness. |
 | Published translation basis: evidence identifies a path | 42 | Cited evidence identifies the source-language path; this does not verify translator workflow, wording accuracy, completeness, or community review. |
 | Published translation basis: unknown in archive | 694 | Available evidence does not establish the path; this does not mean the text is untranslated. |
-| Portable text layers | 99 | Selected layers; not complete canon or language coverage. |
+| Portable text layers | 115 | Selected layers; not complete canon or language coverage. |
 | Rights-withheld text records | 42 | Metadata only; text is not bundled. |
 | Unbundled discovery leads | 162 | Translation, source-edition, or corpus leads. |
 

@@ -25,6 +25,12 @@ No translation into English, line-by-line textual comparison, current-EOTC-editi
 
 ## Sources
 
+**2026-11-16 comparison update:** separate Brenton English witnesses are now
+available with independent chapter selection. This does not translate the
+Geʽez witness, establish chapter/verse alignment, merge the repeated boundary
+span, or change the research-only scope of this title review. See
+`../PARALLEL_WITNESS_UPDATE_2026-11-16.md` for the added comparison locations.
+
 - [Ethiopian Orthodox Tewahedo Church English canon list](https://www.ethiopianorthodox.org/english/canonical/books.html?lang=en), Old Testament entries 9–10 (archive source `SRC-029`).
 - [TAU, “Information and Notes: Samuel & Kings”](https://www.tau.ac.il/~hacohen/Regum/Information.html) (archive source `SRC-336`).
 - Exact retained chapter pages, context captures, and SHA-256 values: `readers/source/reigns-tau-dillmann/SOURCE-CAPTURE.json`.

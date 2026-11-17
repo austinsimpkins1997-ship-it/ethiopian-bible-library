@@ -38,9 +38,14 @@ class RightsClassificationTests(unittest.TestCase):
                 companion = reader.get("parallel_translation")
                 if companion:
                     validate_rights_classification(companion, companion["translation_id"])
-                    translation = [item for item in layers if item.get("translation_id") == companion["translation_id"]]
+                    translation = [item for item in layers if item.get("translation_id") == companion["translation_id"]
+                                   and item.get("reader_id") == reader["reader_id"]]
                     self.assertEqual(len(translation), 1)
                     self.assertEqual(companion["rights_classification"], translation[0]["rights_classification"])
+                    existing = next((item for item in archive['readers'] if item.get('translation_id') == companion['translation_id']),None)
+                    if existing:
+                        self.assertEqual(existing['chapters'],companion['chapters'],'shared translation IDs retain the same complete witness')
+                        self.assertEqual(existing['rights_classification'],companion['rights_classification'])
                     if companion["rights_classification"] == "open_license":
                         self.assertEqual(companion["license_id"], translation[0].get("license_id"))
                         self.assertEqual(companion["license_url"], translation[0].get("license_url"))

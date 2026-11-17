@@ -1,0 +1,158 @@
+{
+  "schema_version": 2,
+  "record_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/layer/second-ki-english-brenton-lxx-1851-in-kings-ii-geez-research",
+  "work_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/work/kings-ii-geez-research-lxx",
+  "labels": [
+    {
+      "value": "English companion — Kings IV — Brenton English Septuagint (1851)",
+      "language_tag": "en",
+      "label_type": "preferred"
+    }
+  ],
+  "tradition_assertions": [
+    {
+      "tradition_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/tradition/eotc",
+      "canon_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/canon/eotc-ot-10",
+      "mapping_state": "uncertain",
+      "evidence_source_ids": [
+        "SRC-029",
+        "SRC-038",
+        "SRC-142"
+      ],
+      "notes": "The Church list groups ‘I and II Kings’ (SRC-029). This Brenton member is titled ‘Kings IV’ and carries USFM code 2KI (SRC-038, SRC-142, SRC-384); the code reference identifies 2KI as 2 Kings and notes ‘4 Kings/Kingdoms’ as an Orthodox naming variant. This is a provisional link to one component of the grouped entry only. It does not establish EOTC edition identity, textual agreement, or coverage of the whole grouped entry. It remains outside canon-linked coverage."
+    }
+  ],
+  "witness": {
+    "witness_id": "https://austinsimpkins1997-ship-it.github.io/ethiopian-bible-library/id/witness/brenton-lxx-kings-ii-geez-research-1851",
+    "witness_type": "digital_edition",
+    "title": "English companion — Kings IV — Brenton English Septuagint (1851)",
+    "date_statement": "Translation published 1851; USFM source package provided by eBible.org",
+    "repository_or_publisher": "Sir Lancelot Charles Lee Brenton; digital text distributed by eBible.org",
+    "shelfmark_or_edition_id": "13-2KIeng-Brenton.usfm",
+    "editorial_policy": "USFM verse labels, footnotes, cross-references, paragraph starts (\\p), descriptive-title markers (\\d), and translator-supplied-word markers are retained. USFM formatting markers for small capitals are flattened to plain text; \\add words are wrapped in visible archival brackets.",
+    "source_ids": [
+      "SRC-038",
+      "SRC-142"
+    ]
+  },
+  "layer_type": "translation",
+  "text_origin": "published_translation",
+  "language_tag": "en",
+  "language_name_as_recorded": "English",
+  "script_code": "Latn",
+  "basis_path": [
+    "grc",
+    "en"
+  ],
+  "agents": [
+    {
+      "role": "translator",
+      "name": "Sir Lancelot Charles Lee Brenton",
+      "authority_or_affiliation": null,
+      "source_ids": [
+        "SRC-038"
+      ]
+    }
+  ],
+  "content_package": {
+    "uri": "../readers/kings-ii-geez-research.json",
+    "media_type": "application/json",
+    "sha256": "d618215845d7712443a334d223ae0f5314ffb16f1c5186799d16eb36e8549a32",
+    "format_version": "1",
+    "json_pointer": "/parallel_translation"
+  },
+  "coverage": {
+    "extent_state": "complete_for_declared_edition",
+    "extent_basis": "source_inventory",
+    "unit_count": 723,
+    "structure_description": "The archived eBible.org USFM member contains 25 ordered chapters, 723 numbered labels, and 2 preserved unnumbered continuation segments; this is a count of the selected digital source package, not proof of printed-edition completeness.",
+    "missing_or_lacunose_ranges": [],
+    "supplements_and_editorial_signs": "312 footnotes and cross-references retained. The USFM \\add marker for translator-supplied words is rendered as visible ⟦brackets⟧; source \\p paragraph starts and \\d descriptive-title markers are retained before source-labeled units, and inline unnumbered \\p text is stored separately as continuation segments on the preceding verse; small-cap formatting is flattened to plain text.",
+    "numbering_policy": "Keep both editions independent; no automatic chapter or verse pairing. TAU Regum IV and Brenton Kings IV / USFM 2KI are compared as a work-family candidate only. Equal page/chapter totals do not establish alignment."
+  },
+  "rights": {
+    "status": "public_domain_claimed",
+    "statement": "eBible.org's source notice identifies Brenton's 1851 English translation as public domain. The archive records this provider claim; it is not a worldwide legal determination and does not apply to other text layers or eBible.org page design.",
+    "license_id": null,
+    "rights_holder": null,
+    "attribution_required": true,
+    "territory_or_term_limits": "Provider-reported public-domain status; no jurisdiction-by-jurisdiction determination is claimed.",
+    "evidence_source_ids": [
+      "SRC-038",
+      "SRC-142"
+    ]
+  },
+  "review_dimensions": [
+    {
+      "dimension": "identity",
+      "state": "checked_with_limits",
+      "scope": "eBible.org USFM member identifies this as Brenton English Septuagint Kings IV — Brenton English Septuagint (1851); no printed witness was collated.",
+      "reviewer": null,
+      "review_method": "combined_source_and_automated_validation",
+      "review_process": "Archived package metadata and local member/header audit",
+      "reviewed_at": "2026-11-16",
+      "evidence_source_ids": [
+        "SRC-038",
+        "SRC-142"
+      ],
+      "notes": "The provider's title and attribution are recorded; exact identity to every detail of the 1851 print edition remains unchecked."
+    },
+    {
+      "dimension": "chapter_or_section_sequence",
+      "state": "checked_with_limits",
+      "scope": "All 25 chapter markers in the identified USFM member are ordered 1–25.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Brenton USFM archive parser and integrity tests",
+      "reviewed_at": "2026-11-16",
+      "evidence_source_ids": [
+        "SRC-142"
+      ],
+      "notes": "Checks the archived digital source member, not completeness against the printed edition."
+    },
+    {
+      "dimension": "unit_boundaries",
+      "state": "checked_with_limits",
+      "scope": "All 723 verse markers and 2 unnumbered continuation segments are parsed with nonempty text; 312 footnotes/cross-references and structural markers {'p': 184, 'p_inline_text_segments': 2} are retained.",
+      "reviewer": null,
+      "review_method": "automated_validation",
+      "review_process": "Brenton USFM parser and integrity tests",
+      "reviewed_at": "2026-11-16",
+      "evidence_source_ids": [
+        "SRC-142"
+      ],
+      "notes": "Structural source-package check only; not an independent textual or translation review."
+    },
+    {
+      "dimension": "translation_accuracy",
+      "state": "unknown",
+      "scope": "No independent review against the Greek Septuagint or Brenton's printed 1851 edition.",
+      "reviewer": null,
+      "review_method": "unknown",
+      "review_process": null,
+      "reviewed_at": null,
+      "evidence_source_ids": [
+        "SRC-038",
+        "SRC-142"
+      ],
+      "notes": "This is not a direct translation from the bundled Geʽez text."
+    },
+    {
+      "dimension": "rights",
+      "state": "checked_with_limits",
+      "scope": "eBible.org's public-domain notice for Brenton's 1851 English translation.",
+      "reviewer": null,
+      "review_method": "source_inspection",
+      "review_process": "Provider copyright notice and source package metadata",
+      "reviewed_at": "2026-11-16",
+      "evidence_source_ids": [
+        "SRC-038",
+        "SRC-142"
+      ],
+      "notes": "Provider-reported status; no international rights survey is claimed."
+    }
+  ],
+  "publication_state": "bundled",
+  "community_access_note": null,
+  "additional_notes": "An additional packaging location of the existing Brenton witness, not a new translation. Separate historical English translation from Greek, not translated from this Geʽez witness. Shared printed labels are navigation aids only; textual equivalence, verse alignment, current EOTC edition identity and print completeness remain unverified. Unmatched units must remain visible; neither witness is renumbered or corrected to fit the other. TAU Regum IV and Brenton Kings IV / USFM 2KI are compared as a work-family candidate only. Equal page/chapter totals do not establish alignment."
+}

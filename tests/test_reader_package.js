@@ -60,7 +60,31 @@ const proverbsChapter30 = proverbsPackage.text_layers[0].record.chapters.find(it
 assert.ok(proverbsChapter30.verses.some(item => item.number === '1' && item.source_text_state === 'marker_only' && item.text === ''));
 assert.ok(proverbsChapter30.notes.some(item => item.verse === '1' && item.text === 'See chapter 24 for the content of chapter 30.'));
 
-for (const output of [geez, english, parallel, job]) {
+const newCompanionExports = [];
+for (const readerId of ['obadiah-geez-bachmann-theot','jonah-geez-lofgren-ghebre-tau',
+  'nahum-geez-lofgren-ghebre-tau','zephaniah-geez-lofgren-hacohen-tau','haggai-geez-lofgren-ghebre-tau']) {
+  const reader = archive.readers.find(item=>item.reader_id===readerId);
+  const output = createReaderPackage(archive,readerId,'parallel');
+  assert.equal(output.export_scope,'parallel_witnesses');
+  assert.deepEqual(output.text_layers[0].record.chapters,reader.chapters,readerId+' every source unit exported');
+  assert.deepEqual(output.text_layers[1].record.chapters,reader.parallel_translation.chapters,readerId+' complete English structure exported');
+  assert.equal(output.text_layers[0].record.rights_classification,'permission_limited');
+  assert.equal(output.text_layers[1].record.rights_classification,'public_domain_claimed');
+  assert.match(output.text_layers[1].record.translation_basis,/unverified/);
+  assert.ok(output.source_records.some(item=>item.source_id==='SRC-142'));
+  assert.deepEqual(output.unresolved_source_ids,[]);
+  newCompanionExports.push(output);
+}
+
+for(const reader of archive.readers.filter(r=>r.parallel_translation?.comparison_policy==='independent_chapters')) {
+  const output=createReaderPackage(archive,reader.reader_id,'parallel');
+  assert.deepEqual(output.text_layers[0].record.chapters,reader.chapters);
+  assert.deepEqual(output.text_layers[1].record.chapters,reader.parallel_translation.chapters);
+  assert.equal(output.text_layers[1].record.comparison_policy,'independent_chapters');
+  assert.deepEqual(output.unresolved_source_ids,[]);
+  newCompanionExports.push(output);
+}
+for (const output of [geez, english, parallel, job, ...newCompanionExports]) {
   assert.equal(output.$schema, schema.$id);
   for (const key of schema.required) assert.ok(Object.hasOwn(output, key), `missing schema field ${key}`);
   const expectedIds = new Set(output.source_ids);

@@ -1,11 +1,13 @@
 """Export the verified repository root as a source ZIP and a separate public site.
 
-Rebuild first with build_release.py. Outputs stay in ignored dist/, never in
-their own input inventory. No uploads, network calls or permissions changes.
+Rebuild first with build_release.py. Outputs normally stay in ignored dist/;
+an explicit fresh external destination is supported when local space is low.
+Outputs never enter their own input inventory. No uploads or network calls.
 """
 from __future__ import annotations
 
 import argparse
+import errno
 from copy import deepcopy
 import hashlib
 import json
@@ -18,6 +20,36 @@ from archive_manifest import MANIFEST_NAME, is_package_path, verify_manifest, wr
 from build_standalone import DEFERRED_EMBEDDED_READER_FIELDS
 
 ROOT = Path(__file__).resolve().parent
+
+
+def output_directory(output: Path | None, external: Path | None, root: Path = ROOT) -> Path:
+    """External exports require an explicit absolute, fresh, nonoverlapping path."""
+    if external is not None:
+        if output is not None or not external.is_absolute():
+            raise ValueError('External output requires one explicit absolute destination.')
+        target = external.resolve()
+        if target.is_relative_to(root.resolve()) or root.resolve().is_relative_to(target):
+            raise ValueError('External output cannot overlap the input project.')
+        if target.exists():
+            raise ValueError('External output must be a fresh directory; existing files are never overwritten.')
+        return target
+    target = (output or root/'dist').resolve()
+    if not target.is_relative_to((root/'dist').resolve()):
+        raise ValueError("Release output must stay within this project's dist/ directory unless --external-output-dir is explicit.")
+    return target
+
+
+def require_export_space(target: Path, manifest: dict, site_only: bool = False) -> None:
+    """Conservative staging + uncompressed ZIP estimate, before any output write."""
+    total = sum(row['size_bytes'] for row in manifest['files'])
+    site = sum(row['size_bytes'] for row in manifest['files'] if site_path(Path(row['path'])))
+    required = site + (0 if site_only else total + site) + 64*1024*1024
+    probe = target.parent
+    while not probe.exists():
+        probe = probe.parent
+    free = shutil.disk_usage(probe).free
+    if free < required:
+        raise OSError(errno.ENOSPC,f'Export needs approximately {required:,} free bytes; {free:,} are available. No export files have been written.')
 
 
 def site_path(relative: Path) -> bool:
@@ -79,7 +111,9 @@ def write_zip(root: Path, paths: list[str], output: Path) -> dict:
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--site-only", action="store_true", help="Stage site for GitHub Pages without ZIPs")
-    parser.add_argument("--output-dir", type=Path, default=ROOT / "dist", help="Fresh directory within dist/")
+    destination = parser.add_mutually_exclusive_group()
+    destination.add_argument("--output-dir", type=Path, help="Fresh directory within dist/")
+    destination.add_argument("--external-output-dir", type=Path, help="Explicit absolute fresh directory on another volume; input project is never moved")
     args = parser.parse_args()
     verify_manifest(ROOT)
     validate_embedded(ROOT)
@@ -88,9 +122,8 @@ def main():
     if any(not is_package_path(Path(name)) for name in paths):
         raise ValueError("Manifest includes a non-public delivery path.")
     paths.append(MANIFEST_NAME)
-    dist = args.output_dir.resolve()
-    if not dist.is_relative_to((ROOT / "dist").resolve()):
-        raise ValueError("Release output must stay within this project's dist/ directory.")
+    dist = output_directory(args.output_dir,args.external_output_dir)
+    require_export_space(dist,manifest,args.site_only)
     dist.mkdir(parents=True, exist_ok=True)
     site = dist / "site"
     if site.exists():

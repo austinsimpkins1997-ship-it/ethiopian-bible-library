@@ -1,0 +1,78 @@
+{
+  "recorded_at": "2026-11-16T21:14:55-05:00",
+  "as_of": "2026-11-16",
+  "scope": "All 12 source-linked historical comparison candidates identified at resumption.",
+  "baseline_revision": "b6ee7e618b2ae79b1b14ebadad10258c32cb885b",
+  "archive_sha256": "8b42b5741dc0a6a407ce3caf54a14dde2c9548134fc8e74bf7840f7c30ac2f67",
+  "reader_packages": 759,
+  "historical_comparisons": 23,
+  "label_navigation_comparisons": 16,
+  "independent_chapter_comparisons": 7,
+  "processed_candidate_readers": [
+    "habakkuk-geez-lofgren-ghebre-tau",
+    "haggai-geez-lofgren-ghebre-tau",
+    "jonah-geez-lofgren-ghebre-tau",
+    "kings-i-geez-research",
+    "kings-ii-geez-research",
+    "malachi-geez-lofgren-ghebre-tau",
+    "nahum-geez-lofgren-ghebre-tau",
+    "obadiah-geez-bachmann-theot",
+    "samuel-i-geez-research",
+    "samuel-ii-geez-research",
+    "sirach-geez-dillmann-hacohen-tau",
+    "zephaniah-geez-lofgren-hacohen-tau"
+  ],
+  "pending_intake_candidates": [],
+  "evidence": [
+    {
+      "requirement": "Adopted workflow package read in full",
+      "result": "VERIFIED",
+      "basis": "Intake checkpoint: all 10 files read, 9 listed digests match, 16 portable-tool tests pass. Digests are byte checks, not source authentication."
+    },
+    {
+      "requirement": "Rights-permitted, attributed source-backed copying",
+      "result": "VERIFIED_WITH_LIMITS",
+      "basis": "Existing capture builders, retained notices, English ZIP/member pins, registry and rights tests. Geʽez noncommercial notices and English provider public-domain claims remain distinct."
+    },
+    {
+      "requirement": "Faithful source extraction and preserved differences",
+      "result": "VERIFIED_WITH_LIMITS",
+      "basis": "All 12 chapter payloads equal their source builders; 11 equal baseline chapter payloads. Malachi repair matches all captured Ethiopic characters, including heading and doxology. Print/manuscript accuracy remains unreviewed."
+    },
+    {
+      "requirement": "Usable parallel views without invented alignment",
+      "result": "VERIFIED",
+      "basis": "16 label-navigation comparisons; 7 independent chapter comparisons. Browser tests cover first/last pages, all independent chapter selectors, English-only view and explicit warnings at 390/1440px; existing flow also at 320/768px."
+    },
+    {
+      "requirement": "Complete exports and read-aloud integration",
+      "result": "VERIFIED_WITH_LIMITS",
+      "basis": "Eight Node suites and real browser controls pass; exports preserve complete witnesses and notices. Narration wiring uses a deterministic speech fixture, not human listening evaluation."
+    },
+    {
+      "requirement": "Affected archive and release workflows",
+      "result": "VERIFIED",
+      "basis": "428 Python tests: 408 passed, 20 explicitly skipped; full release rebuild passed and retained exactly the same archive SHA-256."
+    }
+  ],
+  "unresolved_source_questions": [
+    "No independent print/manuscript collation or verified Greek-to-Geʽez/English alignment.",
+    "Habakkuk page-2 links target Nahum; retained, not corrected.",
+    "Samuel I 23:3 contains literal DDD in the retained raw HTML; its origin remains unknown and the string is not emended.",
+    "Samuel boundary duplicates, Kings split/reordered pages and Sirach label gaps/prologue remain distinct.",
+    "Provider public-domain claims are not a worldwide legal determination; Geʽez copying remains noncommercial with notices."
+  ],
+  "publication": "Not pushed or deployed; local project and release preparation only.",
+  "packaging_extension": {
+    "reason": "C drive low on free space; initial staging failed with ENOSPC",
+    "cleanup": "Automatic review blocked proposed deletion; no cleanup executed",
+    "safe_recovery": "Copy-only export to explicit fresh D drive destination; existing source and ZIPs retained",
+    "focused_export_guard_tests_passed": 3,
+    "existing_release_policy_tests_passed": 2,
+    "full_suite_before_packaging_extension": {
+      "run": 428,
+      "passed": 408,
+      "skipped": 20
+    }
+  }
+}
