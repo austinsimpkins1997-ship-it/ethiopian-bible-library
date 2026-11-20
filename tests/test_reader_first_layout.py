@@ -25,7 +25,7 @@ class ReaderFirstLayoutTests(unittest.TestCase):
         parser.feed((ROOT / "index.html").read_text(encoding="utf-8"))
         self.assertLess(parser.sections.index("reader"), parser.sections.index("library"))
         self.assertEqual(len(parser.ids), len(set(parser.ids)), "anchors must remain unique")
-        self.assertEqual(len(parser.disclosures), 7)
+        self.assertEqual(len(parser.disclosures), 8)
         self.assertTrue(all("open" not in item for item in parser.disclosures))
         for name in ("sources", "canon-coverage", "language-coverage", "studies", "related", "about"):
             self.assertIn(name, parser.sections)

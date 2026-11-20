@@ -5,6 +5,26 @@
 
 ## Current release and deployment
 
+### The Book · reading map and optional reflection
+
+Open **The Book** in the main navigation or from any reading page. It indexes all
+759 bundled readers, links the existing 81-entry Church-list register and its
+text gaps, and offers four scope paths: shared books, Catholic/Eastern Orthodox,
+Ethiopian Orthodox Tewahedo, and a comparative audit. Selecting a scope does not
+establish canonical membership, textual identity or chapter alignment.
+
+The optional worksheet keeps a source observation separate from interpretation,
+evidence status, temporal standing, review step and independently described time
+roles. Christian Mind/Body/Soul reflections and UTC-01 domain comparisons remain
+optional. Saved revisions are bound to the source witness and chapter, stored
+only in this browser profile, and exportable as JSON. No sign-in, remote note
+storage, automatic theology or scripture rewriting is introduced. A checked local
+course is a reader's review attestation, not scholarly certification.
+
+See [The Book implementation and limits](THE_BOOK.md), the generated
+[complete reader map](the-book.json), and the [verbatim supplied excerpt](research/the-book-reading-map-source.txt).
+That excerpt has missing numbered parts; they have not been reconstructed.
+
 The reading page opens a selected chapter near the top. All 636 currently
 bundled non-English readers offer an existing, sourced World English Bible
 (British) reference alongside the original. This is a separate edition, not
@@ -46,7 +66,7 @@ Five captured source-information pages declare Windows-1252. Four contain byte s
 
 The [Genesis 1 first-/third-person lens](research/genesis-1-divine-person-lens.html) exposes one bounded English lexical count alongside the separate Geʽez string count. It labels Geʽez grammatical person as unassessed and links the underlying machine-readable record and method notes. This is a chapter study, not a universal translation.
 
-## Current package status (2026-11-15)
+## Current package status (2026-11-20)
 
 <!-- GENERATED PACKAGE INVENTORY: START -->
 | Snapshot measure | Count | Scope |
@@ -214,6 +234,7 @@ node --check reader-narrator.js
 node --check narrator-worker.js
 node --check offline-reader-cache.js
 node --check sw.js
+node --check the-book.js
 node tests/test_reader_package.js
 node tests/test_reader_audio.js
 node tests/test_parallel_coverage.js
@@ -222,7 +243,9 @@ node tests/test_reader_translation.js
 node tests/test_reader_narrator.js
 node tests/test_offline_reader_cache.js
 node tests/test_service_worker.js
+node tests/test_the_book.js
 node tests/browser_smoke.cjs
+node tests/browser_the_book.cjs
 ```
 
 The Wisdom of Solomon, Jubilees, Enoch, Mark, and Daniel text builders are intentionally omitted from public rebuild commands while their distribution rights remain under review. Source citations and structural metadata remain available; those builders fail closed if invoked.

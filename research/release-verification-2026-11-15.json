@@ -1,0 +1,111 @@
+{
+  "recorded_at_host_utc": "2026-11-15T20:30:02+00:00",
+  "release_date": "2026-11-15",
+  "baseline_commit": "253bfa4da3f41949803da5743d18f821712e2d39",
+  "python": {
+    "total": 404,
+    "passed": 384,
+    "skipped": 20,
+    "seconds": 97.462,
+    "skip_reasons": [
+      "Mixed-rights scripture and source XML are withheld from the public package."
+    ],
+    "command": "python -B run_tests.py"
+  },
+  "post_test_integrity": "2201 public files matched the manifest; tests did not alter them",
+  "browser": {
+    "engine": "System Chrome via Playwright 1.62.1",
+    "results": [
+      {
+        "width": 320,
+        "initialWidth": 320,
+        "readerWidth": 320,
+        "reader": "Ruth",
+        "checks": [
+          "English",
+          "parallel",
+          "chapter navigation",
+          "language lens",
+          "JSON export",
+          "search",
+          "offline reload"
+        ]
+      },
+      {
+        "width": 390,
+        "initialWidth": 390,
+        "readerWidth": 390,
+        "reader": "Ruth",
+        "checks": [
+          "English",
+          "parallel",
+          "chapter navigation",
+          "language lens",
+          "JSON export",
+          "search",
+          "offline reload"
+        ]
+      },
+      {
+        "width": 768,
+        "initialWidth": 768,
+        "readerWidth": 768,
+        "reader": "Ruth",
+        "checks": [
+          "English",
+          "parallel",
+          "chapter navigation",
+          "language lens",
+          "JSON export",
+          "search",
+          "offline reload"
+        ]
+      },
+      {
+        "width": 1440,
+        "initialWidth": 1440,
+        "readerWidth": 1440,
+        "reader": "Ruth",
+        "checks": [
+          "English",
+          "parallel",
+          "chapter navigation",
+          "language lens",
+          "JSON export",
+          "search",
+          "offline reload"
+        ]
+      }
+    ],
+    "additional_passes": [
+      "Touch-emulated Arabic Genesis: lang arb, dir rtl, no width overflow at 390px",
+      "Keyboard skip link reachable with Tab"
+    ]
+  },
+  "javascript_suites": [
+    "test_reader_package.js",
+    "test_offline_reader_cache.js",
+    "test_service_worker.js"
+  ],
+  "owned_html_link_audit": {
+    "pages": 28,
+    "unresolved_local_paths": 0,
+    "excludes": "Historical captured source HTML, external websites and semantic IDs"
+  },
+  "remote_main_rechecked": "253bfa4da3f41949803da5743d18f821712e2d39",
+  "limits": [
+    "Hosted GitHub Actions and deployment have not run for this branch",
+    "Physical devices, Safari, Firefox and assistive technologies remain untested",
+    "No new scholarly collation or exhaustive current online research survey"
+  ],
+  "repeat_full_build": {
+    "files_compared": 2201,
+    "changed_files": 0
+  },
+  "windows_handoff": {
+    "manifest_listed_files_verified": 2201,
+    "preserved_git_metadata": true,
+    "preserved_destination_only_fixture": true
+  },
+  "workspace": "Requested Ethiopian-Bible-Free checkout, local main"
+}

@@ -47,6 +47,7 @@ jobs:
           node --check narrator-worker.js
           node --check offline-reader-cache.js
           node --check sw.js
+          node --check the-book.js
           node tests/test_reader_package.js
           node tests/test_reader_audio.js
           node tests/test_parallel_coverage.js
@@ -55,11 +56,13 @@ jobs:
           node tests/test_reader_narrator.js
           node tests/test_offline_reader_cache.js
           node tests/test_service_worker.js
+          node tests/test_the_book.js
       - name: Check responsive reading and offline use in Chromium
         run: |
           npm ci --ignore-scripts --no-audit --no-fund
           npx playwright install --with-deps chromium
           node tests/browser_smoke.cjs
+          node tests/browser_the_book.cjs
       - name: Require committed build outputs to match source evidence
         shell: bash
         run: |

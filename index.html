@@ -21,7 +21,9 @@
   <script src="reader-translation.js" defer></script>
   <script src="reader-narrator.js" defer></script>
   <script src="reader-audio.js" defer></script>
+  <script src="the-book.js" defer></script>
   <script src="app.js" defer></script>
+  <link rel="stylesheet" href="the-book.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -32,6 +34,7 @@
     </a>
     <nav class="nav" aria-label="Main navigation">
       <a class="nav-link nav-reader active" href="#reader" data-view="reader">Read &amp; listen</a>
+      <a class="nav-link" href="#the-book" data-view="the-book">The Book</a>
       <a class="nav-link" href="#library" data-view="library">Browse books</a>
       <a class="nav-link" href="#sources" data-view="sources">Research</a>
       <a class="nav-link" href="#about" data-view="about">About</a>
@@ -93,6 +96,7 @@
 
       </div>
       <p class="reader-scope-note">Historical witnesses and research texts are labeled individually. Numbering gaps stay visible. <a href="#reader-notes">About this text ↓</a></p>
+      <p><a id="the-book-reader-link" href="#the-book">Explore this passage in The Book →</a></p>
       <details class="reader-details" id="reader-notes"><summary>About this text · sources, numbering &amp; reuse</summary>
         <p>Observed source units are structural counts, not completeness or accuracy claims.</p><p id="reader-alignment-note" class="reader-alignment-note"></p>      <div class="reader-caveat" role="note"><strong>Text and numbering note</strong><p id="reader-caveat-text">Each reader states its edition, source, numbering, and reuse terms. Where source structures differ, this archive preserves and explains them.</p></div>
         <div class="reader-source-note"><p id="reader-source">Source details will appear here.</p><p id="reader-permission">Reuse notice will appear here.</p><p><button class="reader-export-button" id="reader-download" type="button">Download selected text + evidence (JSON)</button> <a href="schemas/reader-package.schema.json" download>Reader-package schema</a></p><p id="reader-export-status" role="status" aria-live="polite"></p></div></details>
@@ -107,6 +111,71 @@
         <p id="save-all-readers-status" role="status" aria-live="polite">The reader collection is not downloaded automatically.</p>
       </section></details>
     </section>
+
+<!-- THE BOOK SECTION START -->
+<section class="section the-book-section" id="the-book" aria-labelledby="the-book-title">
+  <details class="section-disclosure" id="the-book-disclosure">
+    <summary><span><strong id="the-book-title">The Book</strong><small>Many witnesses. Distinct traditions. Room to understand.</small></span><span class="disclosure-plus" aria-hidden="true">+</span></summary>
+    <div class="disclosure-content the-book-content">
+      <p class="eyebrow">A READING MAP, NOT A NEW EDITION</p>
+      <h3>Bring the passage. Keep its story intact.</h3>
+      <p>Explore biblical canons, compare sources and reflect in your own words. This optional workspace accompanies every bundled reader. It does not rewrite scripture or declare one tradition's list to be everybody's canon.</p>
+      <p id="the-book-load-status" role="status">Open this section to load its reading map.</p>
+      <button id="the-book-retry" type="button" hidden>Retry loading the map</button>
+      <div id="the-book-map" hidden>
+        <div class="the-book-paths" id="the-book-paths" aria-label="Four ways to scope a reading"></div>
+        <p id="the-book-path-description" role="status"></p>
+        <p class="the-book-caution">The Twelve Minor Prophets can count as one book or twelve. Counts describe a reckoning; they do not prove the same wording. Choosing a path records your scope—it does not automatically classify a witness as canonical.</p>
+        <div class="the-book-grid">
+          <div><label for="the-book-search">Find any bundled text</label><input id="the-book-search" type="search" placeholder="Title, language, edition or reader ID" autocomplete="off"></div>
+          <div><label for="the-book-reader">Witness / edition</label><select id="the-book-reader"></select></div>
+        </div>
+        <p id="the-book-reader-count" role="status"></p>
+        <button id="the-book-open-reader" type="button">Read selected witness ↑</button>
+        <p><a href="#canon-coverage">See all 81 Church-list entries, including text gaps</a> · <a href="#library">Browse all catalogue records</a> · <a href="the-book.json" download>Download the reading map &amp; index</a></p>
+        <h4>Your current reading</h4><p id="the-book-context"></p>
+        <p>Choose “Start a note” to bind a worksheet to this witness and source chapter. Later navigation will not reassign it.</p>
+        <button id="the-book-start" type="button">Start a note for this passage</button>
+        <details class="the-book-guide"><summary>The passage of Being · optional reflection guide</summary>
+          <p>The following concepts come from the supplied CHRONOTENSE excerpts. They are an interpretive aid, separate from scripture and church teaching. “I / IS / AM” names symbolic roles; “AS IS” preserves distinctions. It does not prove metaphysical claims.</p>
+          <div id="the-book-principles"></div>
+          <p><a href="research/the-book-reading-map-source.txt">Read the entire supplied excerpt, including its gaps</a>. Source authorship was not established by the attachment. Integrity hash and coverage are in the downloadable map.</p>
+        </details>
+        <form id="the-book-form" hidden>
+          <h4>Your reading record</h4><p id="the-book-bound-context"></p>
+          <p class="the-book-caution">Private notes are saved only when you choose Save, on this browser profile. They are not sent to the library or added to scripture. Shared-device users may be able to read them. Export a backup; browser storage can be cleared.</p>
+          <div class="the-book-grid">
+            <div><label for="the-book-passage">Passage / source labels</label><input id="the-book-passage" maxlength="300" required></div>
+            <div><label for="the-book-perspective">Perspective or tradition (optional)</label><input id="the-book-perspective" maxlength="300" placeholder="Name the lens; leave unknowns open"></div>
+          </div>
+          <label for="the-book-observation">What does this witness read? (your transcription or summary)</label><textarea id="the-book-observation" maxlength="5000" rows="3" required></textarea>
+          <label for="the-book-interpretation">My interpretation · separate from the source</label><textarea id="the-book-interpretation" maxlength="5000" rows="3"></textarea>
+          <label for="the-book-unknowns">Differences, missing evidence and questions</label><textarea id="the-book-unknowns" maxlength="3000" rows="2"></textarea>
+          <div class="the-book-grid">
+            <div><label for="the-book-kind">Kind of this interpretation</label><select id="the-book-kind"><option value="interpretation">Personal interpretation</option><option value="source_observation">Source observation</option><option value="reconstruction">Historical reconstruction</option><option value="theological">Theological reading</option><option value="symbolic">Symbolic / metaphorical reading</option><option value="proposal">Proposal / hypothesis</option></select></div>
+            <div><label for="the-book-evidence">Evidence status (your label, not verification)</label><select id="the-book-evidence"><option>Unverified</option><option>Unknown</option><option>Unresolved</option><option>Disputed</option><option>Unsupported</option><option>Conflicting</option><option>Unavailable</option><option>Historically attested</option><option>Reconstructed</option><option>Validated</option></select></div>
+            <div><label for="the-book-standing">Temporal standing of your claim (optional)</label><select id="the-book-standing"><option value="">Not assigned</option></select></div>
+            <div><label for="the-book-review">Current review step (separate)</label><select id="the-book-review"><option value="">Not assigned</option></select></div>
+          </div>
+          <p>BEING is the frame. TO_BE is a projection, not a standing; legacy AS maps to IS. Saving a note does not make a claim BECAME or validated.</p>
+          <label for="the-book-evidence-basis">Sources supporting or contradicting your claim</label><textarea id="the-book-evidence-basis" maxlength="3000" rows="2" placeholder="Record edition, location and evidence; do not turn a missing record into an invented event."></textarea>
+          <details><summary>Time roles · leave dates unknown when unknown</summary><div id="the-book-times" class="the-book-grid"></div><p>Times are descriptive text, not authenticated clocks. A later account does not change the original event.</p></details>
+          <details><summary>Optional Christian reflection · Mind / Body / Soul</summary><p>Symbolic lenses, not scientific laws or assumptions about another person's inner life.</p><label for="the-book-mind">Mind · thought, discernment, interpretation</label><textarea id="the-book-mind" maxlength="2000" rows="2"></textarea><label for="the-book-body">Body · embodiment, sensation, conditions</label><textarea id="the-book-body" maxlength="2000" rows="2"></textarea><label for="the-book-soul">Soul · faith, conscience, purpose</label><textarea id="the-book-soul" maxlength="2000" rows="2"></textarea></details>
+          <details><summary>Compare witnesses or identities without collapsing them</summary><label for="the-book-comparison">Other witness / passage / person as identified in the text</label><textarea id="the-book-comparison" maxlength="3000" rows="2"></textarea><label for="the-book-identity">Relationship of the identified persons or referents</label><select id="the-book-identity"><option value="unresolved">Unresolved / not established</option><option value="same">Same, as argued in my evidence</option><option value="distinct">Distinct; preserve both</option></select><p>A matching name or chapter number is not proof of identity or alignment. No records are merged by this selection.</p></details>
+          <details><summary>UTC-01 · cross-domain translation worksheet</summary><div id="the-book-translation-fields" class="the-book-grid"></div><label for="the-book-relation">Relation</label><select id="the-book-relation"><option value="">Not applied</option><option>Analogical</option><option>Partial</option><option>Exact under stated assumptions</option></select><p>This records your analysis; it does not translate scripture or prove a theorem.</p></details>
+          <details><summary>SCG-07 · review this local course</summary><p>Seven is symbolic here; a completed checklist is your review attestation, not factual or theological certification. You may save an open course and return later.</p><div id="the-book-checks"></div></details>
+          <p><button type="submit">Save this revision on this device</button></p>
+        </form>
+        <p id="the-book-note-status" role="status" aria-live="polite"></p>
+        <h4>Your saved courses</h4>
+        <p id="the-book-storage-status"></p><ul id="the-book-notes"></ul>
+        <div class="the-book-actions"><button id="the-book-export" type="button">Export saved notes (JSON)</button><button id="the-book-clear" type="button">Clear saved notes on this device</button></div>
+        <details class="the-book-guide"><summary>Sources and limits of the canon map</summary><div id="the-book-canon-sources"></div><p>The guide combines the supplied reading map with named community sources. It is not an official canon ruling, complete edition, verified translation or replacement for scholarly review.</p></details>
+      </div>
+    </div>
+  </details>
+</section>
+<!-- THE BOOK SECTION END -->
 
     <div class="explore-intro"><p class="eyebrow">WHEN YOU FEEL LIKE EXPLORING</p><h2>There is more to discover.</h2><p>Open a section below. Everything else can wait while you read.</p></div>
 

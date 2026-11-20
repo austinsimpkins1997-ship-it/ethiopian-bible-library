@@ -3,6 +3,16 @@
 Dates below describe this project's recorded updates, not source-publication
 dates or a claim to reconstruct every historical edit.
 
+## 2026-11-20T15:58:32-05:00 — The Book reading workspace
+
+- Added an optional reading map and worksheet for every bundled scripture reader.
+- Preserved the supplied CHRONOTENSE excerpts, their gaps and conceptual status.
+- Added four canon-scope paths with named sources, distinct witnesses and text gaps.
+- Added local-only revisioned notes, separate temporal/evidence fields and optional Christian reflection.
+- Integrated map generation, navigation, offline shell v51 and targeted regression/browser checks.
+- Kept scripture wording and source captures unchanged; no automatic translation or canon ruling.
+- Local implementation; committing, pushing and successful deployment remain separate.
+
 ## 2026-11-16T23:05:35-05:00 — manifest checkout-byte repair
 
 - Traced the failed CI manifest to CRLF working bytes in CHANGELOG.md versus LF committed bytes.

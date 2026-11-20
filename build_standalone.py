@@ -586,6 +586,8 @@ def validate_offline_shell() -> int:
         raise ValueError("Service worker must cache reader JSON packages on demand.")
     app_script = (ROOT / "app.js").read_text(encoding="utf-8")
     html = HTML_PATH.read_text(encoding="utf-8")
+    from build_the_book import integrate_html
+    html = integrate_html(html)
     class LocalAssetParser(HTMLParser):
         """Collect page URLs without treating cited external links as dependencies."""
 
@@ -3883,6 +3885,11 @@ def main() -> None:
     build_genesis_divine_person_lens()
     from build_english_reference_index import write as write_english_reference_index
     write_english_reference_index(archive)
+    from build_the_book import write as write_the_book
+    write_the_book(archive, {
+        reader_id: package[0].relative_to(ROOT).as_posix()
+        for reader_id, package in reader_files_by_id.items()
+    })
     HTML_PATH.write_text(EMBED_RE.sub(lambda match: match.group(1) + payload + match.group(2), html), encoding="utf-8")
     write_manifest(ROOT)
     manifest_file_count = verify_manifest(ROOT)

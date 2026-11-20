@@ -1,111 +1,131 @@
 {
-  "recorded_at_host_utc": "2026-11-15T20:30:02+00:00",
-  "release_date": "2026-11-15",
-  "baseline_commit": "253bfa4da3f41949803da5743d18f821712e2d39",
+  "schema_version": 2,
+  "release_date": "2026-11-20",
+  "recorded_at": "2026-11-20T16:12:01.048473-05:00",
+  "baseline_commit": "900f31cce53bcfd68f0997d0108c26e08ea6073a",
+  "scope": "Local The Book feature and affected existing reader workflows; not a canon ruling, scripture rewrite or production certification.",
+  "the_book": {
+    "readers": 759,
+    "canon_entries": 81,
+    "catalogue_rows": 90,
+    "scope_paths": 4,
+    "conceptual_groups": 10,
+    "source": {
+      "path": "research/the-book-reading-map-source.txt",
+      "sha256": "6c206d1496b9b6cfd367a80a212b9b6a36baeaec2801d0722a54303075462b7f",
+      "description": "User-supplied Reading Map / 01 and CHRONOTENSE excerpts; creator attribution not established in the attachment.",
+      "coverage": "Excerpts only. Numbering jumps, missing parts and incomplete sentences are retained; no missing content has been reconstructed.",
+      "role": "Conceptual design source, not scripture, historical corroboration or church authority."
+    },
+    "notes": "Explicit browser-local saves, append-only revisions and exports; no remote note server."
+  },
   "python": {
-    "total": 404,
-    "passed": 384,
+    "total": 444,
+    "passed": 424,
     "skipped": 20,
-    "seconds": 97.462,
-    "skip_reasons": [
-      "Mixed-rights scripture and source XML are withheld from the public package."
-    ],
     "command": "python -B run_tests.py"
   },
-  "post_test_integrity": "2201 public files matched the manifest; tests did not alter them",
+  "node_suites": [
+    "test_reader_package.js",
+    "test_reader_audio.js",
+    "test_parallel_coverage.js",
+    "test_english_reader.js",
+    "test_reader_translation.js",
+    "test_reader_narrator.js",
+    "test_offline_reader_cache.js",
+    "test_service_worker.js",
+    "test_the_book.js"
+  ],
   "browser": {
-    "engine": "System Chrome via Playwright 1.62.1",
     "results": [
       {
         "width": 320,
-        "initialWidth": 320,
-        "readerWidth": 320,
-        "reader": "Ruth",
         "checks": [
-          "English",
-          "parallel",
-          "chapter navigation",
-          "language lens",
-          "JSON export",
+          "all 759 indexed",
+          "four scope paths",
+          "source binding",
+          "revision history",
+          "export",
           "search",
+          "separate temporal axes",
+          "no horizontal overflow",
           "offline reload"
         ]
       },
       {
         "width": 390,
-        "initialWidth": 390,
-        "readerWidth": 390,
-        "reader": "Ruth",
         "checks": [
-          "English",
-          "parallel",
-          "chapter navigation",
-          "language lens",
-          "JSON export",
+          "all 759 indexed",
+          "four scope paths",
+          "source binding",
+          "revision history",
+          "export",
           "search",
+          "separate temporal axes",
+          "no horizontal overflow",
           "offline reload"
         ]
       },
       {
         "width": 768,
-        "initialWidth": 768,
-        "readerWidth": 768,
-        "reader": "Ruth",
         "checks": [
-          "English",
-          "parallel",
-          "chapter navigation",
-          "language lens",
-          "JSON export",
+          "all 759 indexed",
+          "four scope paths",
+          "source binding",
+          "revision history",
+          "export",
           "search",
+          "separate temporal axes",
+          "no horizontal overflow",
           "offline reload"
         ]
       },
       {
         "width": 1440,
-        "initialWidth": 1440,
-        "readerWidth": 1440,
-        "reader": "Ruth",
         "checks": [
-          "English",
-          "parallel",
-          "chapter navigation",
-          "language lens",
-          "JSON export",
+          "all 759 indexed",
+          "four scope paths",
+          "source binding",
+          "revision history",
+          "export",
           "search",
+          "separate temporal axes",
+          "no horizontal overflow",
           "offline reload"
         ]
       }
     ],
-    "additional_passes": [
-      "Touch-emulated Arabic Genesis: lang arb, dir rtl, no width overflow at 390px",
-      "Keyboard skip link reachable with Tab"
+    "failureChecks": [
+      "corrupt storage preserved",
+      "quota failure reports not saved"
     ]
   },
-  "javascript_suites": [
-    "test_reader_package.js",
-    "test_offline_reader_cache.js",
-    "test_service_worker.js"
-  ],
-  "owned_html_link_audit": {
-    "pages": 28,
-    "unresolved_local_paths": 0,
-    "excludes": "Historical captured source HTML, external websites and semantic IDs"
+  "existing_reader_browser_regression": {
+    "widths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "historical_comparisons": 23,
+    "sourced_reference_languages": 13,
+    "offline_reload": "passed",
+    "read_aloud_scope": "control wiring, not human listening review"
   },
-  "remote_main_rechecked": "253bfa4da3f41949803da5743d18f821712e2d39",
+  "preserved_scripture_baseline": {
+    "files": 1706,
+    "sha256_changed_files": 0,
+    "scope": "archive.json and all existing files under readers/"
+  },
+  "recovery": {
+    "source_signature_verification": "Retained; Windows sandbox/process and long socket-path failures resolved using authorized process access and the Windows short spelling of the app-local tmp/gpg folder. No verification bypass.",
+    "previous_release_verification": "research/release-verification-2026-11-15.json"
+  },
   "limits": [
-    "Hosted GitHub Actions and deployment have not run for this branch",
-    "Physical devices, Safari, Firefox and assistive technologies remain untested",
-    "No new scholarly collation or exhaustive current online research survey"
-  ],
-  "repeat_full_build": {
-    "files_compared": 2201,
-    "changed_files": 0
-  },
-  "windows_handoff": {
-    "manifest_listed_files_verified": 2201,
-    "preserved_git_metadata": true,
-    "preserved_destination_only_fixture": true
-  },
-  "workspace": "Requested Ethiopian-Bible-Free checkout, local main"
+    "Existing scholarly, rights and unavailable-text limits remain.",
+    "Notes are user-authored and not independently verified.",
+    "Linux GitHub Actions after this update has not been run.",
+    "No commit, push or deployment performed.",
+    "Earlier dist exports are historical; the updated canonical project is the handoff."
+  ]
 }

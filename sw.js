@@ -1,6 +1,6 @@
 /* Offline app shell and on-demand archive assets. */
 const CACHE_PREFIX = 'ethiopian-bible-library-';
-const CACHE_NAME = `${CACHE_PREFIX}shell-v50`;
+const CACHE_NAME = `${CACHE_PREFIX}shell-v51`;
 const SITE_BASE = new URL(self.registration.scope);
 const PRECACHE_PATHS = [
   'index.html',
@@ -8,6 +8,10 @@ const PRECACHE_PATHS = [
   'styles.css',
   'reader-first.css',
   'app.js',
+  'the-book.js',
+  'the-book.css',
+  'the-book.json',
+  'research/the-book-reading-map-source.txt',
   'reader-package.js',
   'reader-alignment.js',
   'reader-audio.js',

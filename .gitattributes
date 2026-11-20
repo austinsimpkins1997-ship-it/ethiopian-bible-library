@@ -8,3 +8,5 @@
 # Source captures have individually pinned bytes, including mixed newline styles.
 # Never normalize them during checkout, staging, or archive creation.
 readers/source/** -text
+# Supplied conceptual source: retain the exact attachment bytes as evidence.
+research/the-book-reading-map-source.txt -text

@@ -11,6 +11,7 @@ let englishReferenceIndex = null;
 let referenceSequence = 0;
 let activeEnglishReference = null;
 let machinePreview = null;
+let theBook = null;
 const readerSynth = window.ReaderNarrator?.createSynth({native:window.speechSynthesis,
   Worker:window.Worker, AudioContext:window.AudioContext || window.webkitAudioContext});
 const readerAudio = window.ReaderAudio?.createPlayer({
@@ -123,6 +124,13 @@ async function init() {
     state.sources = Array.isArray(data.sources) ? data.sources : [];
     state.related = Array.isArray(data.related_texts) ? data.related_texts : [];
     state.readers = Array.isArray(data.readers) ? data.readers : [];
+    theBook = window.TheBook?.create({document, readers: state.readers, openReader: readerId => {
+      state.readerId = readerId;
+      state.chapter = 1;
+      void renderReader();
+      location.hash = 'reader';
+      byId('reader-book').focus({preventScroll: true});
+    }});
     try {
       const response=await fetch('english-reference-index.json',{credentials:'same-origin'});
       if(!response.ok)throw new Error('Reference index unavailable.');
@@ -788,6 +796,7 @@ async function renderReader({ loadText = true } = {}) {
   }
   const readerMetadata = state.readers.find(item => item.reader_id === state.readerId) || state.readers[0];
   state.readerId = readerMetadata.reader_id;
+  theBook?.setContext(readerMetadata, state.chapter);
   if (loadText) persistReaderSelection(readerMetadata.reader_id);
   if (offlineReaderStatusFor !== readerMetadata.reader_id) {
     offlineReaderStatusFor = readerMetadata.reader_id;
@@ -991,6 +1000,7 @@ async function renderReader({ loadText = true } = {}) {
   if(mode==='machine')renderMachinePreview(reader,chapter,audioKey);
   if(readerDownload)readerDownload.disabled=mode==='machine' || (mode.startsWith('reference') && !activeEnglishReference);
   renderReaderStudyView(reader, chapter);
+  theBook?.setContext(reader, chapter.chapter);
   if((mode==='reference-en' || (independentCompanion && mode===englishTag)) && byId('reader-lens').value==='text')byId('reader-text').hidden=true;
   if(byId('reader-lens').value!=='text')byId('reader-english-panel').hidden=true;
 }

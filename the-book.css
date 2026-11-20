@@ -1,0 +1,24 @@
+.the-book-content { max-width: 1080px; }
+.the-book-content h3 { font: 500 clamp(1.5rem, 3vw, 2.2rem)/1.25 Georgia, serif; color: #3c493e; }
+.the-book-content h4 { margin: 1.4rem 0 .5rem; font-size: 1.15rem; }
+.the-book-content p { line-height: 1.7; overflow-wrap: anywhere; }
+.the-book-paths { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .6rem; margin-top: 1.5rem; }
+.the-book-content button { min-height: 44px; padding: .7rem 1rem; border: 1px solid #8c795c; border-radius: 10px; color: #3a453b; background: #fbf6ea; cursor: pointer; font: inherit; }
+.the-book-paths button[aria-pressed="true"] { background: #374e43; color: #fffaf0; border-color: #374e43; }
+.the-book-content :is(button, input, textarea, select):focus-visible { outline: 3px solid #987326; outline-offset: 3px; }
+.the-book-content button:disabled { cursor: default; opacity: .6; }
+.the-book-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1rem 0; }
+.the-book-content label { display: block; font-weight: 600; margin: .75rem 0 .4rem; }
+.the-book-content :is(input:not([type="checkbox"]), select, textarea) { display: block; width: 100%; min-width: 0; box-sizing: border-box; padding: .75rem; border: 1px solid #a89a80; border-radius: 8px; background: #fffdf7; color: #303f37; font: inherit; }
+.the-book-content textarea { resize: vertical; }
+.the-book-content details:not(.section-disclosure) { border-top: 1px solid #d8cbb3; padding: 1rem 0; margin-top: .8rem; }
+.the-book-content summary { cursor: pointer; min-height: 40px; font-weight: 600; }
+.the-book-caution { background: #f0eadb; border-left: 3px solid #897344; padding: .8rem 1rem; }
+.the-book-actions { display: flex; flex-wrap: wrap; gap: .6rem; }
+#the-book-notes { padding-left: 1.3rem; overflow-wrap: anywhere; }
+#the-book-notes li { margin: .6rem 0; }
+#the-book-checks label { display: flex; gap: .65rem; font-weight: 400; line-height: 1.6; align-items: flex-start; }
+#the-book-checks input { margin-top: .3rem; flex-shrink: 0; }
+#the-book-bound-context { padding: 1rem; background: #e7ede5; border-radius: 8px; }
+@media (max-width: 650px) { .the-book-paths, .the-book-grid { grid-template-columns: minmax(0, 1fr); } .the-book-content { min-width: 0; } }
+@media print { #the-book-disclosure { display: block; } .the-book-content button { display: none; } }
